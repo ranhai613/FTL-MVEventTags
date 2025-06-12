@@ -19,7 +19,7 @@ local get_INFO_parser = function (full)
 		end
 		local value = Hyperspace.metaVariables['choiceInfo_event_'..name:sub(7, -8)]
 		if (value == 1) or full then
-			return '\n'..text:gsub('%[NAME%].-%[/NAME%]', '')
+			return '\n  '..text:gsub('%[NAME%].-%[/NAME%]', '')
 		else
 			return ''
 		end
@@ -36,7 +36,7 @@ local get_FightINFO_parser = function (full)
 			if info ~= '' then
 				is_worthShowing = true
 			end
-			return info:gsub('\n', ' ')
+			return info:gsub('\n  ', ' ')
 		end)
 		if is_worthShowing then
 			return '\n'..text
