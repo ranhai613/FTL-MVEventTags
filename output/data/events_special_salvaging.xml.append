@@ -4,7 +4,7 @@
       <mod:selector hidden="true" req="LIST_CHECK_ANY_CREW" lvl="1" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Take the risk.</mod:selector>
-        <mod:setValue>Take the risk.[INFO]33% [NAME]autoReward[/NAME]Reward }(H)[/INFO][INFO]33% [NAME]autoReward[/NAME]Reward }(M)[/INFO][INFO]33% [NAME]removeCrew[/NAME]&lt;!&gt;Lose your crew(clonable)[/INFO]</mod:setValue>
+        <mod:setValue>Take the risk.[INFO]33% [NAME]autoReward[/NAME][style[color:00E000]]Reward }(H)[[/style]][/INFO][INFO]33% [NAME]autoReward[/NAME][style[color:00E000]]Reward }(M)[[/style]][/INFO][INFO]33% [NAME]removeCrew[/NAME][style[color:E00000]]&lt;!&gt;Lose your crew([[/style]][style[color:700000]]clonable[[/style]][style[color:E00000]])[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -13,7 +13,7 @@
       <mod:selector hidden="true" req="rock_crusader"/>
       <mod:findLike type="text">
         <mod:selector>(Crusader Crew) Your Crusader knows a lot about explosives, and can also take a hit.</mod:selector>
-        <mod:setValue>(Crusader Crew) Your Crusader knows a lot about explosives, and can also take a hit.[INFO][NAME]autoReward[/NAME]Reward }(M)[/INFO]</mod:setValue>
+        <mod:setValue>(Crusader Crew) Your Crusader knows a lot about explosives, and can also take a hit.[INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward }(M)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -22,7 +22,7 @@
       <mod:selector hidden="true" req="rock_paladin"/>
       <mod:findLike type="text">
         <mod:selector>(Paladin Crew) Your Paladin knows a lot about explosives, and can also take a hit.</mod:selector>
-        <mod:setValue>(Paladin Crew) Your Paladin knows a lot about explosives, and can also take a hit.[INFO][NAME]autoReward[/NAME]Reward }(M)[/INFO]</mod:setValue>
+        <mod:setValue>(Paladin Crew) Your Paladin knows a lot about explosives, and can also take a hit.[INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward }(M)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -31,7 +31,7 @@
       <mod:selector hidden="true" req="LIST_CREW_LANIUS"/>
       <mod:findLike type="text">
         <mod:selector>(Lanius Crew) Your Lanius can melt down some mines for scrap.</mod:selector>
-        <mod:setValue>(Lanius Crew) Your Lanius can melt down some mines for scrap.[INFO][NAME]autoReward[/NAME]Reward ~ Only(L)[/INFO]</mod:setValue>
+        <mod:setValue>(Lanius Crew) Your Lanius can melt down some mines for scrap.[INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward ~ Only(L)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -40,7 +40,7 @@
       <mod:selector hidden="false"/>
       <mod:findLike type="text">
         <mod:selector>Don't risk it, just bring back a few of the outliers.</mod:selector>
-        <mod:setValue>Don't risk it, just bring back a few of the outliers.[INFO][NAME]autoReward[/NAME]Reward } Only(L)[/INFO]</mod:setValue>
+        <mod:setValue>Don't risk it, just bring back a few of the outliers.[INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward } Only(L)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -50,7 +50,7 @@
         <mod:selector hidden="false"/>
         <mod:findLike type="text">
           <mod:selector>Get the Mine Launcher!</mod:selector>
-          <mod:setValue>Get the Mine Launcher![INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Minelaunchers Trapper)[/INFO][INFO][NAME]damage[/NAME]&lt;!&gt;Damage Hull(3)[/INFO]</mod:setValue>
+          <mod:setValue>Get the Mine Launcher![INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Minelaunchers Trapper)[[/style]][/INFO][INFO][NAME]damage[/NAME][style[color:E00000]]&lt;!&gt;Damage Hull(3)[[/style]][/INFO]</mod:setValue>
         </mod:findLike>
       </mod:findLike>
     </mod:findLike>
@@ -60,7 +60,7 @@
       <mod:selector hidden="false"/>
       <mod:findLike type="text">
         <mod:selector>Break them down for parts.</mod:selector>
-        <mod:setValue>Break them down for parts.[INFO][NAME]autoReward[/NAME]Reward | Only(M)[/INFO]</mod:setValue>
+        <mod:setValue>Break them down for parts.[INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward | Only(M)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -69,7 +69,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Scan them.</mod:selector>
-        <mod:setValue>Scan them.[INFO][NAME]boarders[/NAME]&lt;!&gt;Enemy Boarding(x2 Drone Battle)[/INFO][INFO][NAME]drone[/NAME]Gain a drone(Battletog Defend)[/INFO]</mod:setValue>
+        <mod:setValue>Scan them.[INFO][NAME]boarders[/NAME][style[color:E00000]]&lt;!&gt;Enemy Boarding(x2 Drone Battle)[[/style]][/INFO][INFO][NAME]drone[/NAME][style[color:00E000]]Gain a drone(Battletog Defend)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -78,7 +78,7 @@
       <mod:selector hidden="true" req="LIST_CHECK_ENERGY_SHIELD"/>
       <mod:findLike type="text">
         <mod:selector>(Energy Shield) Approach without any fear of intruders.</mod:selector>
-        <mod:setValue>(Energy Shield) Approach without any fear of intruders.[INFO][NAME]drone[/NAME]Gain a drone(Battletog Defend)[/INFO]</mod:setValue>
+        <mod:setValue>(Energy Shield) Approach without any fear of intruders.[INFO][NAME]drone[/NAME][style[color:00E000]]Gain a drone(Battletog Defend)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -87,7 +87,7 @@
       <mod:selector hidden="true" req="LIST_CREW_ENGI"/>
       <mod:findLike type="text">
         <mod:selector>(Engi Crew) Disable the drones first.</mod:selector>
-        <mod:setValue>(Engi Crew) Disable the drones first.[INFO][NAME]drone[/NAME]Gain a drone(Battletog Defend)[/INFO]</mod:setValue>
+        <mod:setValue>(Engi Crew) Disable the drones first.[INFO][NAME]drone[/NAME][style[color:00E000]]Gain a drone(Battletog Defend)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -96,7 +96,7 @@
       <mod:selector hidden="true" req="LIST_CREW_ENGINEER"/>
       <mod:findLike type="text">
         <mod:selector>(Engineer Crew) Disable the drones first.</mod:selector>
-        <mod:setValue>(Engineer Crew) Disable the drones first.[INFO][NAME]drone[/NAME]Gain a drone(Battletog Defend)[/INFO]</mod:setValue>
+        <mod:setValue>(Engineer Crew) Disable the drones first.[INFO][NAME]drone[/NAME][style[color:00E000]]Gain a drone(Battletog Defend)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -105,7 +105,7 @@
       <mod:selector hidden="true" req="LIST_CHECK_ANY_CREW" lvl="1" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Send a team to see what loot might be inside.</mod:selector>
-        <mod:setValue>Send a team to see what loot might be inside.[INFO]20% [NAME]autoReward[/NAME]Reward Standard(L)[/INFO][INFO]20% [NAME]crewMember[/NAME]Gain a crew(Random)[/INFO][INFO]20% [NAME]weapon[/NAME]Gain a weapon(Random)[/INFO][INFO]20% [NAME]boarders[/NAME]&lt;!&gt;Enemy Boarding(x1-x2 Spider)[/INFO]</mod:setValue>
+        <mod:setValue>Send a team to see what loot might be inside.[INFO]20% [NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(L)[[/style]][/INFO][INFO]20% [NAME]crewMember[/NAME][style[color:00E000]]Gain a crew(Random)[[/style]][/INFO][INFO]20% [NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Random)[[/style]][/INFO][INFO]20% [NAME]boarders[/NAME][style[color:E00000]]&lt;!&gt;Enemy Boarding(x1-x2 Spider)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -114,7 +114,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Scrap the hull.</mod:selector>
-        <mod:setValue>Scrap the hull.[INFO][NAME]autoReward[/NAME]Reward Standard(L)[/INFO]</mod:setValue>
+        <mod:setValue>Scrap the hull.[INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(L)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -124,7 +124,7 @@
         <mod:selector hidden="true"/>
         <mod:findLike type="text">
           <mod:selector>Open their cargo.</mod:selector>
-          <mod:setValue>Open their cargo.[INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO][INFO][NAME]removeCrew[/NAME]&lt;!&gt;Lose your crew(clonable)[/INFO]</mod:setValue>
+          <mod:setValue>Open their cargo.[INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO][INFO][NAME]removeCrew[/NAME][style[color:E00000]]&lt;!&gt;Lose your crew([[/style]][style[color:700000]]clonable[[/style]][style[color:E00000]])[[/style]][/INFO]</mod:setValue>
         </mod:findLike>
       </mod:findLike>
     </mod:findLike>
@@ -135,7 +135,7 @@
         <mod:selector hidden="true" req="BLUELIST_CREW_NODOORS"/>
         <mod:findLike type="text">
           <mod:selector>(Phasing Crew) Sneak inside.</mod:selector>
-          <mod:setValue>(Phasing Crew) Sneak inside.[INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO]</mod:setValue>
+          <mod:setValue>(Phasing Crew) Sneak inside.[INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO]</mod:setValue>
         </mod:findLike>
       </mod:findLike>
     </mod:findLike>
@@ -146,7 +146,7 @@
         <mod:selector hidden="true" req="LIST_CREW_ROCK"/>
         <mod:findLike type="text">
           <mod:selector>(Rock Crew) Send in your Rock first.</mod:selector>
-          <mod:setValue>(Rock Crew) Send in your Rock first.[INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO]</mod:setValue>
+          <mod:setValue>(Rock Crew) Send in your Rock first.[INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO]</mod:setValue>
         </mod:findLike>
       </mod:findLike>
     </mod:findLike>
@@ -156,7 +156,7 @@
       <mod:selector hidden="true" req="LIST_CHECK_ANY_CREW" lvl="1" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Attempt to open the cache.</mod:selector>
-        <mod:setValue>Attempt to open the cache.[INFO]17% [NAME]autoReward[/NAME]Reward { And }(M)[/INFO][INFO]17% [NAME]autoReward[/NAME]Reward Stuff(L)[/INFO][INFO]17% [NAME]weapon[/NAME]Gain a weapon(Random)[/INFO][INFO]17% [NAME]revealMap[/NAME]Map Reveal[/INFO][INFO]17% [NAME]crewMember[/NAME]Gain a crew(Random)[/INFO][INFO]17% [NAME]damage[/NAME]&lt;!&gt;Damage Hull(3)[/INFO][INFO]17% [NAME]removeCrew[/NAME]&lt;!&gt;Lose your crew(clonable)[/INFO]</mod:setValue>
+        <mod:setValue>Attempt to open the cache.[INFO]17% [NAME]autoReward[/NAME][style[color:00E000]]Reward { And }(M)[[/style]][/INFO][INFO]17% [NAME]autoReward[/NAME][style[color:00E000]]Reward Stuff(L)[[/style]][/INFO][INFO]17% [NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Random)[[/style]][/INFO][INFO]17% [NAME]revealMap[/NAME][style[color:00E000]]Map Reveal[[/style]][/INFO][INFO]17% [NAME]crewMember[/NAME][style[color:00E000]]Gain a crew(Random)[[/style]][/INFO][INFO]17% [NAME]damage[/NAME][style[color:E00000]]&lt;!&gt;Damage Hull(3)[[/style]][/INFO][INFO]17% [NAME]removeCrew[/NAME][style[color:E00000]]&lt;!&gt;Lose your crew([[/style]][style[color:700000]]clonable[[/style]][style[color:E00000]])[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -165,7 +165,7 @@
       <mod:selector hidden="true" req="DRONE_CONTROL_BOARDING_DAMAGE"/>
       <mod:findLike type="text">
         <mod:selector>(Boarding Drone) Attempt to open the cache.</mod:selector>
-        <mod:setValue>(Boarding Drone) Attempt to open the cache.[INFO]17% [NAME]autoReward[/NAME]Reward { And }(M)[/INFO][INFO]17% [NAME]autoReward[/NAME]Reward Stuff(L)[/INFO][INFO]17% [NAME]weapon[/NAME]Gain a weapon(Random)[/INFO][INFO]17% [NAME]revealMap[/NAME]Map Reveal[/INFO][INFO]17% [NAME]crewMember[/NAME]Gain a crew(Random)[/INFO][INFO]17% [NAME]damage[/NAME]&lt;!&gt;Damage Hull(3)[/INFO][INFO]17% [NAME]itemModify[/NAME]|-1[/INFO]</mod:setValue>
+        <mod:setValue>(Boarding Drone) Attempt to open the cache.[INFO]17% [NAME]autoReward[/NAME][style[color:00E000]]Reward { And }(M)[[/style]][/INFO][INFO]17% [NAME]autoReward[/NAME][style[color:00E000]]Reward Stuff(L)[[/style]][/INFO][INFO]17% [NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Random)[[/style]][/INFO][INFO]17% [NAME]revealMap[/NAME][style[color:00E000]]Map Reveal[[/style]][/INFO][INFO]17% [NAME]crewMember[/NAME][style[color:00E000]]Gain a crew(Random)[[/style]][/INFO][INFO]17% [NAME]damage[/NAME][style[color:E00000]]&lt;!&gt;Damage Hull(3)[[/style]][/INFO][INFO]17% [NAME]itemModify[/NAME][style[color:E00000]]|-1[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -174,7 +174,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Raid the shrine for any valuables.</mod:selector>
-        <mod:setValue>Raid the shrine for any valuables.[INFO]25% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO]</mod:setValue>
+        <mod:setValue>Raid the shrine for any valuables.[INFO]25% [NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -183,7 +183,7 @@
       <mod:selector hidden="true" req="LIST_CREW_ZOLTAN"/>
       <mod:findLike type="text">
         <mod:selector>(Zoltan Crew) Pray to the shrine.</mod:selector>
-        <mod:setValue>(Zoltan Crew) Pray to the shrine.[INFO]33% [NAME]crewMember[/NAME]Gain a crew(Zoltan Monk)[/INFO][INFO]33% [NAME]damage[/NAME]Repair Hull(6$)[/INFO]</mod:setValue>
+        <mod:setValue>(Zoltan Crew) Pray to the shrine.[INFO]33% [NAME]crewMember[/NAME][style[color:00E000]]Gain a crew(Zoltan Monk)[[/style]][/INFO][INFO]33% [NAME]damage[/NAME][style[color:00E000]]Repair Hull(6$)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -193,7 +193,7 @@
         <mod:selector hidden="true"/>
         <mod:findLike type="text">
           <mod:selector>Take only a few.</mod:selector>
-          <mod:setValue>Take only a few.[INFO][NAME]autoReward[/NAME]Reward { Only(M)[/INFO]</mod:setValue>
+          <mod:setValue>Take only a few.[INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward { Only(M)[[/style]][/INFO]</mod:setValue>
         </mod:findLike>
       </mod:findLike>
     </mod:findLike>
@@ -204,7 +204,7 @@
         <mod:selector hidden="true"/>
         <mod:findLike type="text">
           <mod:selector>Take as many as you can.</mod:selector>
-          <mod:setValue>Take as many as you can.[INFO][NAME]autoReward[/NAME]Reward { Only(H)[/INFO]</mod:setValue>
+          <mod:setValue>Take as many as you can.[INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward { Only(H)[[/style]][/INFO]</mod:setValue>
         </mod:findLike>
       </mod:findLike>
     </mod:findLike>
@@ -214,7 +214,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Visit the colony.</mod:selector>
-        <mod:setValue>Visit the colony.[INFO]20% [NAME]autoReward[/NAME]Reward Standard(H)[/INFO][INFO]20% [NAME]damage[/NAME]&lt;!&gt;Damage Hull(5)[/INFO][INFO]20% [NAME]drone[/NAME]Gain a drone(Doctor Defense)[/INFO][INFO]20% [NAME]crewMember[/NAME]Gain a crew(Rock Outcast)[/INFO][INFO]20% [NAME]boarders[/NAME]&lt;!&gt;Enemy Boarding(x2-x4 Rebel Random)[/INFO]</mod:setValue>
+        <mod:setValue>Visit the colony.[INFO]20% [NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO][INFO]20% [NAME]damage[/NAME][style[color:E00000]]&lt;!&gt;Damage Hull(5)[[/style]][/INFO][INFO]20% [NAME]drone[/NAME][style[color:00E000]]Gain a drone(Doctor Defense)[[/style]][/INFO][INFO]20% [NAME]crewMember[/NAME][style[color:00E000]]Gain a crew(Rock Outcast)[[/style]][/INFO][INFO]20% [NAME]boarders[/NAME][style[color:E00000]]&lt;!&gt;Enemy Boarding(x2-x4 Rebel Random)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>

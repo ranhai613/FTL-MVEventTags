@@ -4,7 +4,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Oh, okay.</mod:selector>
-        <mod:setValue>Oh, okay.[FightINFO]Fight(HK=CK: [INFO][NAME]storageCheck[/NAME]Storage Check[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Oh, okay.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK=CK: [INFO][NAME]storageCheck[/NAME][style[color:707070]]Storage Check[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -13,7 +13,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Continue...</mod:selector>
-        <mod:setValue>Continue...[FightINFO]Fight(HK=CK: [INFO][NAME]storageCheck[/NAME]Storage Check[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Continue...[FightINFO][style[color:FF8A33]]Fight[[/style]](HK=CK: [INFO][NAME]storageCheck[/NAME][style[color:707070]]Storage Check[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -22,7 +22,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Use a jumpspeed augment.</mod:selector>
-        <mod:setValue>Use a jumpspeed augment.[INFO][NAME]modifyPursuit[/NAME]Fleet Delay(1)[/INFO][INFO][NAME]modifyPursuit[/NAME]Fleet Delay(2)[/INFO][INFO][NAME]itemModify[/NAME]|-4[/INFO][INFO][NAME]modifyPursuit[/NAME]Fleet Delay(3)[/INFO][INFO][NAME]itemModify[/NAME]|-8[/INFO]</mod:setValue>
+        <mod:setValue>Use a jumpspeed augment.[INFO][NAME]modifyPursuit[/NAME][style[color:00E000]]Fleet Delay(1)[[/style]][/INFO][INFO][NAME]modifyPursuit[/NAME][style[color:00E000]]Fleet Delay(2)[[/style]][/INFO][INFO][NAME]itemModify[/NAME][style[color:E00000]]|-4[[/style]][/INFO][INFO][NAME]modifyPursuit[/NAME][style[color:00E000]]Fleet Delay(3)[[/style]][/INFO][INFO][NAME]itemModify[/NAME][style[color:E00000]]|-8[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -31,7 +31,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>(Decoy Buoys) Deploy the Buoys.</mod:selector>
-        <mod:setValue>(Decoy Buoys) Deploy the Buoys.[INFO][NAME]modifyPursuit[/NAME]Fleet Delay(1)[/INFO][INFO][NAME]modifyPursuit[/NAME]Fleet Delay(2)[/INFO][INFO][NAME]itemModify[/NAME]|-4[/INFO][INFO][NAME]modifyPursuit[/NAME]Fleet Delay(3)[/INFO][INFO][NAME]itemModify[/NAME]|-8[/INFO]</mod:setValue>
+        <mod:setValue>(Decoy Buoys) Deploy the Buoys.[INFO][NAME]modifyPursuit[/NAME][style[color:00E000]]Fleet Delay(1)[[/style]][/INFO][INFO][NAME]modifyPursuit[/NAME][style[color:00E000]]Fleet Delay(2)[[/style]][/INFO][INFO][NAME]itemModify[/NAME][style[color:E00000]]|-4[[/style]][/INFO][INFO][NAME]modifyPursuit[/NAME][style[color:00E000]]Fleet Delay(3)[[/style]][/INFO][INFO][NAME]itemModify[/NAME][style[color:E00000]]|-8[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -43,7 +43,7 @@
           <mod:selector hidden="true"/>
           <mod:findLike type="text">
             <mod:selector>1 [Free, gives 1 delay]</mod:selector>
-            <mod:setValue>1 [Free, gives 1 delay][INFO][NAME]modifyPursuit[/NAME]Fleet Delay(1)[/INFO]</mod:setValue>
+            <mod:setValue>1 [Free, gives 1 delay][INFO][NAME]modifyPursuit[/NAME][style[color:00E000]]Fleet Delay(1)[[/style]][/INFO]</mod:setValue>
           </mod:findLike>
         </mod:findLike>
       </mod:findLike>
@@ -60,7 +60,7 @@
               <mod:selector hidden="true"/>
               <mod:findLike type="text">
                 <mod:selector>Continue...</mod:selector>
-                <mod:setValue>Continue...[INFO][NAME]modifyPursuit[/NAME]Fleet Delay(2)[/INFO][INFO]&lt;=[/INFO]</mod:setValue>
+                <mod:setValue>Continue...[INFO][NAME]modifyPursuit[/NAME][style[color:00E000]]Fleet Delay(2)[[/style]][/INFO][INFO]&lt;=[/INFO]</mod:setValue>
               </mod:findLike>
             </mod:findLike>
           </mod:findLike>
@@ -76,7 +76,7 @@
           <mod:selector hidden="true"/>
           <mod:findLike type="text">
             <mod:selector>2 [Costs 4|, gives 2 delay]</mod:selector>
-            <mod:setValue>2 [Costs 4|, gives 2 delay][INFO][NAME]modifyPursuit[/NAME]Fleet Delay(2)[/INFO][INFO][NAME]itemModify[/NAME]|-4[/INFO]</mod:setValue>
+            <mod:setValue>2 [Costs 4|, gives 2 delay][INFO][NAME]modifyPursuit[/NAME][style[color:00E000]]Fleet Delay(2)[[/style]][/INFO][INFO][NAME]itemModify[/NAME][style[color:E00000]]|-4[[/style]][/INFO]</mod:setValue>
           </mod:findLike>
         </mod:findLike>
       </mod:findLike>
@@ -93,7 +93,7 @@
               <mod:selector hidden="true"/>
               <mod:findLike type="text">
                 <mod:selector>Continue...</mod:selector>
-                <mod:setValue>Continue...[INFO][NAME]modifyPursuit[/NAME]Fleet Delay(2)[/INFO][INFO]&lt;=[/INFO]</mod:setValue>
+                <mod:setValue>Continue...[INFO][NAME]modifyPursuit[/NAME][style[color:00E000]]Fleet Delay(2)[[/style]][/INFO][INFO]&lt;=[/INFO]</mod:setValue>
               </mod:findLike>
             </mod:findLike>
           </mod:findLike>
@@ -109,7 +109,7 @@
           <mod:selector hidden="true"/>
           <mod:findLike type="text">
             <mod:selector>3 [Costs 8|, gives 3 delay]</mod:selector>
-            <mod:setValue>3 [Costs 8|, gives 3 delay][INFO][NAME]modifyPursuit[/NAME]Fleet Delay(3)[/INFO][INFO][NAME]itemModify[/NAME]|-8[/INFO]</mod:setValue>
+            <mod:setValue>3 [Costs 8|, gives 3 delay][INFO][NAME]modifyPursuit[/NAME][style[color:00E000]]Fleet Delay(3)[[/style]][/INFO][INFO][NAME]itemModify[/NAME][style[color:E00000]]|-8[[/style]][/INFO]</mod:setValue>
           </mod:findLike>
         </mod:findLike>
       </mod:findLike>
@@ -126,7 +126,7 @@
               <mod:selector hidden="true"/>
               <mod:findLike type="text">
                 <mod:selector>Continue...</mod:selector>
-                <mod:setValue>Continue...[INFO][NAME]modifyPursuit[/NAME]Fleet Delay(2)[/INFO][INFO]&lt;=[/INFO]</mod:setValue>
+                <mod:setValue>Continue...[INFO][NAME]modifyPursuit[/NAME][style[color:00E000]]Fleet Delay(2)[[/style]][/INFO][INFO]&lt;=[/INFO]</mod:setValue>
               </mod:findLike>
             </mod:findLike>
           </mod:findLike>
@@ -139,7 +139,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Proceed to the next sector.</mod:selector>
-        <mod:setValue>Proceed to the next sector.[INFO][NAME]modifyPursuit[/NAME]Fleet Delay(2)[/INFO][INFO]&lt;=[/INFO]</mod:setValue>
+        <mod:setValue>Proceed to the next sector.[INFO][NAME]modifyPursuit[/NAME][style[color:00E000]]Fleet Delay(2)[[/style]][/INFO][INFO]&lt;=[/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -148,7 +148,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Reroute.</mod:selector>
-        <mod:setValue>Reroute.[INFO][NAME]modifyPursuit[/NAME]Fleet Delay(2)[/INFO][INFO]&lt;=[/INFO]</mod:setValue>
+        <mod:setValue>Reroute.[INFO][NAME]modifyPursuit[/NAME][style[color:00E000]]Fleet Delay(2)[[/style]][/INFO][INFO]&lt;=[/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -157,7 +157,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Jump to a Federation Sector.</mod:selector>
-        <mod:setValue>Jump to a Federation Sector.[INFO][NAME]modifyPursuit[/NAME]Fleet Delay(2)[/INFO][INFO]&lt;=[/INFO]</mod:setValue>
+        <mod:setValue>Jump to a Federation Sector.[INFO][NAME]modifyPursuit[/NAME][style[color:00E000]]Fleet Delay(2)[[/style]][/INFO][INFO]&lt;=[/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -166,7 +166,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Continue with the jump.</mod:selector>
-        <mod:setValue>Continue with the jump.[INFO][NAME]modifyPursuit[/NAME]Fleet Delay(2)[/INFO][INFO]&lt;=[/INFO]</mod:setValue>
+        <mod:setValue>Continue with the jump.[INFO][NAME]modifyPursuit[/NAME][style[color:00E000]]Fleet Delay(2)[[/style]][/INFO][INFO]&lt;=[/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -178,7 +178,7 @@
           <mod:selector hidden="true"/>
           <mod:findLike type="text">
             <mod:selector>Continue...</mod:selector>
-            <mod:setValue>Continue...[INFO][NAME]modifyPursuit[/NAME]Fleet Delay(2)[/INFO][INFO]&lt;=[/INFO]</mod:setValue>
+            <mod:setValue>Continue...[INFO][NAME]modifyPursuit[/NAME][style[color:00E000]]Fleet Delay(2)[[/style]][/INFO][INFO]&lt;=[/INFO]</mod:setValue>
           </mod:findLike>
         </mod:findLike>
       </mod:findLike>
@@ -189,7 +189,7 @@
       <mod:selector hidden="true" req="rep_comb_federation" lvl="-999" max_lvl="2" max_group="0" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Continue...</mod:selector>
-        <mod:setValue>Continue...[INFO][NAME]modifyPursuit[/NAME]Fleet Delay(2)[/INFO]</mod:setValue>
+        <mod:setValue>Continue...[INFO][NAME]modifyPursuit[/NAME][style[color:00E000]]Fleet Delay(2)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>

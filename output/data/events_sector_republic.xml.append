@@ -4,7 +4,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Do something onboard the ship.</mod:selector>
-        <mod:setValue>Do something onboard the ship.[INFO][NAME]storageCheck[/NAME]Storage Check[/INFO]</mod:setValue>
+        <mod:setValue>Do something onboard the ship.[INFO][NAME]storageCheck[/NAME][style[color:707070]]Storage Check[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -13,7 +13,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Listen.</mod:selector>
-        <mod:setValue>Listen.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Listen.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -25,7 +25,7 @@
           <mod:selector hidden="true" blue="false" req="clonebay" max_group="0"/>
           <mod:findLike type="text">
             <mod:selector>Continue...</mod:selector>
-            <mod:setValue>Continue...[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])[/FightINFO]</mod:setValue>
+            <mod:setValue>Continue...[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO])[/FightINFO]</mod:setValue>
           </mod:findLike>
         </mod:findLike>
       </mod:findLike>
@@ -42,7 +42,7 @@
               <mod:selector hidden="true"/>
               <mod:findLike type="text">
                 <mod:selector>Refuse.</mod:selector>
-                <mod:setValue>Refuse.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])[/FightINFO]</mod:setValue>
+                <mod:setValue>Refuse.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO])[/FightINFO]</mod:setValue>
               </mod:findLike>
             </mod:findLike>
           </mod:findLike>
@@ -64,7 +64,7 @@
                   <mod:selector hidden="true"/>
                   <mod:findLike type="text">
                     <mod:selector>Continue...</mod:selector>
-                    <mod:setValue>Continue...[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])[/FightINFO]</mod:setValue>
+                    <mod:setValue>Continue...[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO])[/FightINFO]</mod:setValue>
                   </mod:findLike>
                 </mod:findLike>
               </mod:findLike>
@@ -82,7 +82,7 @@
           <mod:selector hidden="true" blue="false" req="pilot" max_group="0"/>
           <mod:findLike type="text">
             <mod:selector>Continue...</mod:selector>
-            <mod:setValue>Continue...[INFO][NAME]autoReward[/NAME]Reward ~ Only(L)[/INFO]</mod:setValue>
+            <mod:setValue>Continue...[INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward ~ Only(L)[[/style]][/INFO]</mod:setValue>
           </mod:findLike>
         </mod:findLike>
       </mod:findLike>
@@ -92,7 +92,7 @@
     <mod:findLike type="choice">
       <mod:findLike type="text">
         <mod:selector>Ignore them.</mod:selector>
-        <mod:setValue>Ignore them.[INFO][NAME]storageCheck[/NAME]Storage Check[/INFO]</mod:setValue>
+        <mod:setValue>Ignore them.[INFO][NAME]storageCheck[/NAME][style[color:707070]]Storage Check[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -102,7 +102,7 @@
         <mod:findLike type="choice">
           <mod:findLike type="text">
             <mod:selector>Do something onboard the ship.</mod:selector>
-            <mod:setValue>Do something onboard the ship.[INFO][NAME]storageCheck[/NAME]Storage Check[/INFO]</mod:setValue>
+            <mod:setValue>Do something onboard the ship.[INFO][NAME]storageCheck[/NAME][style[color:707070]]Storage Check[[/style]][/INFO]</mod:setValue>
           </mod:findLike>
         </mod:findLike>
       </mod:findLike>
@@ -113,7 +113,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Continue...</mod:selector>
-        <mod:setValue>Continue...[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Continue...[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -124,7 +124,7 @@
         <mod:findLike type="choice">
           <mod:findLike type="text">
             <mod:selector>Accept him.</mod:selector>
-            <mod:setValue>Accept him.[INFO][NAME]crewMember[/NAME]Gain a crew(Leech)[/INFO]</mod:setValue>
+            <mod:setValue>Accept him.[INFO][NAME]crewMember[/NAME][style[color:00E000]]Gain a crew(Leech)[[/style]][/INFO]</mod:setValue>
           </mod:findLike>
         </mod:findLike>
       </mod:findLike>
@@ -138,7 +138,7 @@
           <mod:selector hidden="true"/>
           <mod:findLike type="text">
             <mod:selector>No. You smell bad.</mod:selector>
-            <mod:setValue>No. You smell bad.[INFO][NAME]boarders[/NAME]&lt;!&gt;Enemy Boarding(x1 Leech)[/INFO][FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])[/FightINFO]</mod:setValue>
+            <mod:setValue>No. You smell bad.[INFO][NAME]boarders[/NAME][style[color:E00000]]&lt;!&gt;Enemy Boarding(x1 Leech)[[/style]][/INFO][FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO])[/FightINFO]</mod:setValue>
           </mod:findLike>
         </mod:findLike>
       </mod:findLike>
@@ -155,7 +155,7 @@
               <mod:selector hidden="true"/>
               <mod:findLike type="text">
                 <mod:selector>Continue...</mod:selector>
-                <mod:setValue>Continue...[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])[/FightINFO]</mod:setValue>
+                <mod:setValue>Continue...[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO])[/FightINFO]</mod:setValue>
               </mod:findLike>
             </mod:findLike>
           </mod:findLike>
@@ -168,7 +168,7 @@
       <mod:selector req="leech"/>
       <mod:findLike type="text">
         <mod:selector>(Leech Crew) Send your Leech onto a shuttle.</mod:selector>
-        <mod:setValue>(Leech Crew) Send your Leech onto a shuttle.[INFO][NAME]itemModify[/NAME]~-30[/INFO]</mod:setValue>
+        <mod:setValue>(Leech Crew) Send your Leech onto a shuttle.[INFO][NAME]itemModify[/NAME][style[color:E00000]]~-30[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -179,7 +179,7 @@
         <mod:findLike type="choice">
           <mod:findLike type="text">
             <mod:selector>Pay the fee.</mod:selector>
-            <mod:setValue>Pay the fee.[INFO][NAME]itemModify[/NAME]~-30[/INFO]</mod:setValue>
+            <mod:setValue>Pay the fee.[INFO][NAME]itemModify[/NAME][style[color:E00000]]~-30[[/style]][/INFO]</mod:setValue>
           </mod:findLike>
         </mod:findLike>
       </mod:findLike>
@@ -192,7 +192,7 @@
         <mod:findLike type="choice">
           <mod:findLike type="text">
             <mod:selector>Opt out.</mod:selector>
-            <mod:setValue>Opt out.[INFO][NAME]storageCheck[/NAME]Storage Check[/INFO]</mod:setValue>
+            <mod:setValue>Opt out.[INFO][NAME]storageCheck[/NAME][style[color:707070]]Storage Check[[/style]][/INFO]</mod:setValue>
           </mod:findLike>
         </mod:findLike>
       </mod:findLike>
@@ -207,7 +207,7 @@
             <mod:findLike type="choice">
               <mod:findLike type="text">
                 <mod:selector>Do something onboard the ship.</mod:selector>
-                <mod:setValue>Do something onboard the ship.[INFO][NAME]storageCheck[/NAME]Storage Check[/INFO]</mod:setValue>
+                <mod:setValue>Do something onboard the ship.[INFO][NAME]storageCheck[/NAME][style[color:707070]]Storage Check[[/style]][/INFO]</mod:setValue>
               </mod:findLike>
             </mod:findLike>
           </mod:findLike>
@@ -220,7 +220,7 @@
       <mod:selector req="unique_tyrdeo"/>
       <mod:findLike type="text">
         <mod:selector>(Tyrdeo) Recruit an Ampere.</mod:selector>
-        <mod:setValue>(Tyrdeo) Recruit an Ampere.[INFO][NAME]crewMember[/NAME]Gain a crew(Leech Ampere)[/INFO]</mod:setValue>
+        <mod:setValue>(Tyrdeo) Recruit an Ampere.[INFO][NAME]crewMember[/NAME][style[color:00E000]]Gain a crew(Leech Ampere)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -228,7 +228,7 @@
     <mod:findLike type="choice">
       <mod:findLike type="text">
         <mod:selector>Ignore the Conversion Center.</mod:selector>
-        <mod:setValue>Ignore the Conversion Center.[INFO][NAME]storageCheck[/NAME]Storage Check[/INFO]</mod:setValue>
+        <mod:setValue>Ignore the Conversion Center.[INFO][NAME]storageCheck[/NAME][style[color:707070]]Storage Check[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -238,7 +238,7 @@
         <mod:findLike type="choice">
           <mod:findLike type="text">
             <mod:selector>Do something onboard the ship.</mod:selector>
-            <mod:setValue>Do something onboard the ship.[INFO][NAME]storageCheck[/NAME]Storage Check[/INFO]</mod:setValue>
+            <mod:setValue>Do something onboard the ship.[INFO][NAME]storageCheck[/NAME][style[color:707070]]Storage Check[[/style]][/INFO]</mod:setValue>
           </mod:findLike>
         </mod:findLike>
       </mod:findLike>
@@ -249,7 +249,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Salvage some of the junk.</mod:selector>
-        <mod:setValue>Salvage some of the junk.[INFO]33% [NAME]autoReward[/NAME]Reward {(M)[/INFO][INFO]33% [NAME]weapon[/NAME]Gain a weapon(Giftlist Rusty)[/INFO][INFO]33% [NAME]autoReward[/NAME]Reward ~ Only(L)[/INFO]</mod:setValue>
+        <mod:setValue>Salvage some of the junk.[INFO]33% [NAME]autoReward[/NAME][style[color:00E000]]Reward {(M)[[/style]][/INFO][INFO]33% [NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Rusty)[[/style]][/INFO][INFO]33% [NAME]autoReward[/NAME][style[color:00E000]]Reward ~ Only(L)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -257,7 +257,7 @@
     <mod:findLike type="choice">
       <mod:findLike type="text">
         <mod:selector>Do something else aboard the ship.</mod:selector>
-        <mod:setValue>Do something else aboard the ship.[INFO][NAME]storageCheck[/NAME]Storage Check[/INFO]</mod:setValue>
+        <mod:setValue>Do something else aboard the ship.[INFO][NAME]storageCheck[/NAME][style[color:707070]]Storage Check[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -267,7 +267,7 @@
         <mod:findLike type="choice">
           <mod:findLike type="text">
             <mod:selector>Do something onboard the ship.</mod:selector>
-            <mod:setValue>Do something onboard the ship.[INFO][NAME]storageCheck[/NAME]Storage Check[/INFO]</mod:setValue>
+            <mod:setValue>Do something onboard the ship.[INFO][NAME]storageCheck[/NAME][style[color:707070]]Storage Check[[/style]][/INFO]</mod:setValue>
           </mod:findLike>
         </mod:findLike>
       </mod:findLike>
@@ -278,7 +278,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Visit the mission.</mod:selector>
-        <mod:setValue>Visit the mission.[INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Crystal)[/INFO][INFO][NAME]itemModify[/NAME]-60≤~≤-40[/INFO][INFO][NAME]crewMember[/NAME]Gain a crew(Rock)[/INFO][INFO][NAME]itemModify[/NAME]-50≤~≤-35[/INFO][INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO][INFO][NAME]damage[/NAME]Repair Hull(7$)[/INFO]</mod:setValue>
+        <mod:setValue>Visit the mission.[INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Crystal)[[/style]][/INFO][INFO][NAME]itemModify[/NAME][style[color:E00000]]-60≤~≤-40[[/style]][/INFO][INFO][NAME]crewMember[/NAME][style[color:00E000]]Gain a crew(Rock)[[/style]][/INFO][INFO][NAME]itemModify[/NAME][style[color:E00000]]-50≤~≤-35[[/style]][/INFO][INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO][INFO][NAME]damage[/NAME][style[color:00E000]]Repair Hull(7$)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -289,7 +289,7 @@
         <mod:findLike type="choice">
           <mod:findLike type="text">
             <mod:selector>Purchase a Crystal weapon from their shrine.</mod:selector>
-            <mod:setValue>Purchase a Crystal weapon from their shrine.[INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Crystal)[/INFO][INFO][NAME]itemModify[/NAME]-60≤~≤-40[/INFO]</mod:setValue>
+            <mod:setValue>Purchase a Crystal weapon from their shrine.[INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Crystal)[[/style]][/INFO][INFO][NAME]itemModify[/NAME][style[color:E00000]]-60≤~≤-40[[/style]][/INFO]</mod:setValue>
           </mod:findLike>
         </mod:findLike>
       </mod:findLike>
@@ -302,7 +302,7 @@
         <mod:findLike type="choice">
           <mod:findLike type="text">
             <mod:selector>Recruit one of the clergy to work aboard your ship.</mod:selector>
-            <mod:setValue>Recruit one of the clergy to work aboard your ship.[INFO][NAME]crewMember[/NAME]Gain a crew(Rock)[/INFO][INFO][NAME]itemModify[/NAME]-50≤~≤-35[/INFO]</mod:setValue>
+            <mod:setValue>Recruit one of the clergy to work aboard your ship.[INFO][NAME]crewMember[/NAME][style[color:00E000]]Gain a crew(Rock)[[/style]][/INFO][INFO][NAME]itemModify[/NAME][style[color:E00000]]-50≤~≤-35[[/style]][/INFO]</mod:setValue>
           </mod:findLike>
         </mod:findLike>
       </mod:findLike>
@@ -316,7 +316,7 @@
           <mod:selector hidden="true" req="LIST_CREW_ROCK_FAITHFUL"/>
           <mod:findLike type="text">
             <mod:selector>(Theocracy Crew) Request repairs and supplies.</mod:selector>
-            <mod:setValue>(Theocracy Crew) Request repairs and supplies.[INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO][INFO][NAME]damage[/NAME]Repair Hull(7$)[/INFO]</mod:setValue>
+            <mod:setValue>(Theocracy Crew) Request repairs and supplies.[INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO][INFO][NAME]damage[/NAME][style[color:00E000]]Repair Hull(7$)[[/style]][/INFO]</mod:setValue>
           </mod:findLike>
         </mod:findLike>
       </mod:findLike>
@@ -326,7 +326,7 @@
     <mod:findLike type="choice">
       <mod:findLike type="text">
         <mod:selector>Attack!</mod:selector>
-        <mod:setValue>Attack![FightINFO]Fight(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(SR: [INFO]20% [NAME]autoReward[/NAME]Reward Stuff(R)[/INFO] [INFO]20% [NAME]autoReward[/NAME]Reward } Only(R)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Attack![FightINFO][style[color:FF8A33]]Fight[[/style]](CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO])(HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(SR: [INFO]20% [NAME]autoReward[/NAME][style[color:00E000]]Reward Stuff(R)[[/style]][/INFO] [INFO]20% [NAME]autoReward[/NAME][style[color:00E000]]Reward } Only(R)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -337,7 +337,7 @@
           <mod:selector hidden="true"/>
           <mod:findLike type="text">
             <mod:selector>Continue...</mod:selector>
-            <mod:setValue>Continue...[FightINFO]Fight(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(SR: [INFO]20% [NAME]autoReward[/NAME]Reward Stuff(R)[/INFO] [INFO]20% [NAME]autoReward[/NAME]Reward } Only(R)[/INFO])[/FightINFO]</mod:setValue>
+            <mod:setValue>Continue...[FightINFO][style[color:FF8A33]]Fight[[/style]](CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO])(HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(SR: [INFO]20% [NAME]autoReward[/NAME][style[color:00E000]]Reward Stuff(R)[[/style]][/INFO] [INFO]20% [NAME]autoReward[/NAME][style[color:00E000]]Reward } Only(R)[[/style]][/INFO])[/FightINFO]</mod:setValue>
           </mod:findLike>
         </mod:findLike>
       </mod:findLike>
@@ -347,7 +347,7 @@
     <mod:findLike type="choice">
       <mod:findLike type="text">
         <mod:selector>Ignore the mission.</mod:selector>
-        <mod:setValue>Ignore the mission.[INFO][NAME]storageCheck[/NAME]Storage Check[/INFO]</mod:setValue>
+        <mod:setValue>Ignore the mission.[INFO][NAME]storageCheck[/NAME][style[color:707070]]Storage Check[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -357,7 +357,7 @@
         <mod:findLike type="choice">
           <mod:findLike type="text">
             <mod:selector>Do something onboard the ship.</mod:selector>
-            <mod:setValue>Do something onboard the ship.[INFO][NAME]storageCheck[/NAME]Storage Check[/INFO]</mod:setValue>
+            <mod:setValue>Do something onboard the ship.[INFO][NAME]storageCheck[/NAME][style[color:707070]]Storage Check[[/style]][/INFO]</mod:setValue>
           </mod:findLike>
         </mod:findLike>
       </mod:findLike>
@@ -368,7 +368,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Attack the settlement.</mod:selector>
-        <mod:setValue>Attack the settlement.[INFO]33% [NAME]autoReward[/NAME]Reward Stuff(L)[/INFO][FightINFO]Fight(HK=CK: [INFO]33% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Attack the settlement.[INFO]33% [NAME]autoReward[/NAME][style[color:00E000]]Reward Stuff(L)[[/style]][/INFO][FightINFO][style[color:FF8A33]]Fight[[/style]](HK=CK: [INFO]33% [NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -377,7 +377,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Hail the settlement.</mod:selector>
-        <mod:setValue>Hail the settlement.[INFO]33% [NAME]modifyPursuit[/NAME]Fleet Delay(2)[/INFO]</mod:setValue>
+        <mod:setValue>Hail the settlement.[INFO]33% [NAME]modifyPursuit[/NAME][style[color:00E000]]Fleet Delay(2)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -385,7 +385,7 @@
     <mod:findLike type="choice">
       <mod:findLike type="text">
         <mod:selector>Ignore them.</mod:selector>
-        <mod:setValue>Ignore them.[INFO][NAME]storageCheck[/NAME]Storage Check[/INFO]</mod:setValue>
+        <mod:setValue>Ignore them.[INFO][NAME]storageCheck[/NAME][style[color:707070]]Storage Check[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -395,7 +395,7 @@
         <mod:findLike type="choice">
           <mod:findLike type="text">
             <mod:selector>Do something onboard the ship.</mod:selector>
-            <mod:setValue>Do something onboard the ship.[INFO][NAME]storageCheck[/NAME]Storage Check[/INFO]</mod:setValue>
+            <mod:setValue>Do something onboard the ship.[INFO][NAME]storageCheck[/NAME][style[color:707070]]Storage Check[[/style]][/INFO]</mod:setValue>
           </mod:findLike>
         </mod:findLike>
       </mod:findLike>
@@ -407,7 +407,7 @@
         <mod:selector hidden="true"/>
         <mod:findLike type="text">
           <mod:selector>Continue...</mod:selector>
-          <mod:setValue>Continue...[FightINFO]Fight(HK=CK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])[/FightINFO]</mod:setValue>
+          <mod:setValue>Continue...[FightINFO][style[color:FF8A33]]Fight[[/style]](HK=CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])[/FightINFO]</mod:setValue>
         </mod:findLike>
       </mod:findLike>
     </mod:findLike>
@@ -417,7 +417,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Woah there, calm down.</mod:selector>
-        <mod:setValue>Woah there, calm down.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO][NAME]autoReward[/NAME]Reward Standard(L)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO] [INFO][NAME]autoReward[/NAME]Reward Standard(L)[/INFO])[/FightINFO][FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO][NAME]crewMember[/NAME]Gain a crew(Slug Saboteur)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO] [INFO][NAME]crewMember[/NAME]Gain a crew(Slug Saboteur)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Woah there, calm down.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(L)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO] [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(L)[[/style]][/INFO])[/FightINFO][FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO][NAME]crewMember[/NAME][style[color:00E000]]Gain a crew(Slug Saboteur)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO] [INFO][NAME]crewMember[/NAME][style[color:00E000]]Gain a crew(Slug Saboteur)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -429,7 +429,7 @@
           <mod:selector hidden="true"/>
           <mod:findLike type="text">
             <mod:selector>Track down an Eargen ship.</mod:selector>
-            <mod:setValue>Track down an Eargen ship.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO][NAME]autoReward[/NAME]Reward Standard(L)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO] [INFO][NAME]autoReward[/NAME]Reward Standard(L)[/INFO])[/FightINFO]</mod:setValue>
+            <mod:setValue>Track down an Eargen ship.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(L)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO] [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(L)[[/style]][/INFO])[/FightINFO]</mod:setValue>
           </mod:findLike>
         </mod:findLike>
       </mod:findLike>
@@ -446,7 +446,7 @@
               <mod:selector hidden="true"/>
               <mod:findLike type="text">
                 <mod:selector>Continue...</mod:selector>
-                <mod:setValue>Continue...[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO][NAME]autoReward[/NAME]Reward Standard(L)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO] [INFO][NAME]autoReward[/NAME]Reward Standard(L)[/INFO])[/FightINFO]</mod:setValue>
+                <mod:setValue>Continue...[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(L)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO] [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(L)[[/style]][/INFO])[/FightINFO]</mod:setValue>
               </mod:findLike>
             </mod:findLike>
           </mod:findLike>
@@ -462,7 +462,7 @@
           <mod:selector hidden="true"/>
           <mod:findLike type="text">
             <mod:selector>Track down a revolutionary ship.</mod:selector>
-            <mod:setValue>Track down a revolutionary ship.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO][NAME]autoReward[/NAME]Reward Standard(L)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO] [INFO][NAME]autoReward[/NAME]Reward Standard(L)[/INFO])[/FightINFO]</mod:setValue>
+            <mod:setValue>Track down a revolutionary ship.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(L)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO] [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(L)[[/style]][/INFO])[/FightINFO]</mod:setValue>
           </mod:findLike>
         </mod:findLike>
       </mod:findLike>
@@ -479,7 +479,7 @@
               <mod:selector hidden="true"/>
               <mod:findLike type="text">
                 <mod:selector>Continue...</mod:selector>
-                <mod:setValue>Continue...[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO][NAME]autoReward[/NAME]Reward Standard(L)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO] [INFO][NAME]autoReward[/NAME]Reward Standard(L)[/INFO])[/FightINFO]</mod:setValue>
+                <mod:setValue>Continue...[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(L)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO] [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(L)[[/style]][/INFO])[/FightINFO]</mod:setValue>
               </mod:findLike>
             </mod:findLike>
           </mod:findLike>
@@ -495,7 +495,7 @@
           <mod:selector hidden="true"/>
           <mod:findLike type="text">
             <mod:selector>Track down an Ampere ship.</mod:selector>
-            <mod:setValue>Track down an Ampere ship.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO][NAME]crewMember[/NAME]Gain a crew(Slug Saboteur)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO] [INFO][NAME]crewMember[/NAME]Gain a crew(Slug Saboteur)[/INFO])[/FightINFO]</mod:setValue>
+            <mod:setValue>Track down an Ampere ship.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO][NAME]crewMember[/NAME][style[color:00E000]]Gain a crew(Slug Saboteur)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO] [INFO][NAME]crewMember[/NAME][style[color:00E000]]Gain a crew(Slug Saboteur)[[/style]][/INFO])[/FightINFO]</mod:setValue>
           </mod:findLike>
         </mod:findLike>
       </mod:findLike>
@@ -512,7 +512,7 @@
               <mod:selector hidden="true"/>
               <mod:findLike type="text">
                 <mod:selector>Continue...</mod:selector>
-                <mod:setValue>Continue...[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO][NAME]crewMember[/NAME]Gain a crew(Slug Saboteur)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO] [INFO][NAME]crewMember[/NAME]Gain a crew(Slug Saboteur)[/INFO])[/FightINFO]</mod:setValue>
+                <mod:setValue>Continue...[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO][NAME]crewMember[/NAME][style[color:00E000]]Gain a crew(Slug Saboteur)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO] [INFO][NAME]crewMember[/NAME][style[color:00E000]]Gain a crew(Slug Saboteur)[[/style]][/INFO])[/FightINFO]</mod:setValue>
               </mod:findLike>
             </mod:findLike>
           </mod:findLike>
@@ -528,7 +528,7 @@
           <mod:selector hidden="true" req="LIST_CREW_LEECH"/>
           <mod:findLike type="text">
             <mod:selector>(Leech Crew) Your Leech knows the location of the nearest standing orphanage.</mod:selector>
-            <mod:setValue>(Leech Crew) Your Leech knows the location of the nearest standing orphanage.[INFO][NAME]crewMember[/NAME]Gain a crew(Slug Saboteur)[/INFO]</mod:setValue>
+            <mod:setValue>(Leech Crew) Your Leech knows the location of the nearest standing orphanage.[INFO][NAME]crewMember[/NAME][style[color:00E000]]Gain a crew(Slug Saboteur)[[/style]][/INFO]</mod:setValue>
           </mod:findLike>
         </mod:findLike>
       </mod:findLike>
@@ -545,7 +545,7 @@
               <mod:selector hidden="true"/>
               <mod:findLike type="text">
                 <mod:selector>Continue...</mod:selector>
-                <mod:setValue>Continue...[INFO][NAME]crewMember[/NAME]Gain a crew(Slug Saboteur)[/INFO]</mod:setValue>
+                <mod:setValue>Continue...[INFO][NAME]crewMember[/NAME][style[color:00E000]]Gain a crew(Slug Saboteur)[[/style]][/INFO]</mod:setValue>
               </mod:findLike>
             </mod:findLike>
           </mod:findLike>
@@ -558,7 +558,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Wait, did you say you're killing children?</mod:selector>
-        <mod:setValue>Wait, did you say you're killing children?[FightINFO]Fight(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(SR: [INFO][NAME]autoReward[/NAME]Reward Stuff(R)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Wait, did you say you're killing children?[FightINFO][style[color:FF8A33]]Fight[[/style]](CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO])(HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(SR: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Stuff(R)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -570,7 +570,7 @@
           <mod:selector hidden="true"/>
           <mod:findLike type="text">
             <mod:selector>Continue...</mod:selector>
-            <mod:setValue>Continue...[FightINFO]Fight(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(SR: [INFO][NAME]autoReward[/NAME]Reward Stuff(R)[/INFO])[/FightINFO]</mod:setValue>
+            <mod:setValue>Continue...[FightINFO][style[color:FF8A33]]Fight[[/style]](CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO])(HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(SR: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Stuff(R)[[/style]][/INFO])[/FightINFO]</mod:setValue>
           </mod:findLike>
         </mod:findLike>
       </mod:findLike>
@@ -580,7 +580,7 @@
     <mod:findLike type="choice">
       <mod:findLike type="text">
         <mod:selector>Mute the ship and fly away.</mod:selector>
-        <mod:setValue>Mute the ship and fly away.[INFO][NAME]storageCheck[/NAME]Storage Check[/INFO]</mod:setValue>
+        <mod:setValue>Mute the ship and fly away.[INFO][NAME]storageCheck[/NAME][style[color:707070]]Storage Check[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -590,7 +590,7 @@
         <mod:findLike type="choice">
           <mod:findLike type="text">
             <mod:selector>Do something onboard the ship.</mod:selector>
-            <mod:setValue>Do something onboard the ship.[INFO][NAME]storageCheck[/NAME]Storage Check[/INFO]</mod:setValue>
+            <mod:setValue>Do something onboard the ship.[INFO][NAME]storageCheck[/NAME][style[color:707070]]Storage Check[[/style]][/INFO]</mod:setValue>
           </mod:findLike>
         </mod:findLike>
       </mod:findLike>
@@ -601,7 +601,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Visit.</mod:selector>
-        <mod:setValue>Visit.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO][NAME]crewMember[/NAME]Gain a crew(Leech)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO] [INFO][NAME]crewMember[/NAME]Gain a crew(Leech)[/INFO])[/FightINFO][FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO][NAME]autoReward[/NAME]Reward Stuff(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO] [INFO][NAME]autoReward[/NAME]Reward Stuff(M)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Visit.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO][NAME]crewMember[/NAME][style[color:00E000]]Gain a crew(Leech)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO] [INFO][NAME]crewMember[/NAME][style[color:00E000]]Gain a crew(Leech)[[/style]][/INFO])[/FightINFO][FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Stuff(M)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO] [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Stuff(M)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -613,7 +613,7 @@
           <mod:selector hidden="true"/>
           <mod:findLike type="text">
             <mod:selector>Step in - support the loyalist.</mod:selector>
-            <mod:setValue>Step in - support the loyalist.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO][NAME]crewMember[/NAME]Gain a crew(Leech)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO] [INFO][NAME]crewMember[/NAME]Gain a crew(Leech)[/INFO])[/FightINFO]</mod:setValue>
+            <mod:setValue>Step in - support the loyalist.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO][NAME]crewMember[/NAME][style[color:00E000]]Gain a crew(Leech)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO] [INFO][NAME]crewMember[/NAME][style[color:00E000]]Gain a crew(Leech)[[/style]][/INFO])[/FightINFO]</mod:setValue>
           </mod:findLike>
         </mod:findLike>
       </mod:findLike>
@@ -630,7 +630,7 @@
               <mod:selector hidden="true"/>
               <mod:findLike type="text">
                 <mod:selector>Continue...</mod:selector>
-                <mod:setValue>Continue...[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO][NAME]crewMember[/NAME]Gain a crew(Leech)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO] [INFO][NAME]crewMember[/NAME]Gain a crew(Leech)[/INFO])[/FightINFO]</mod:setValue>
+                <mod:setValue>Continue...[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO][NAME]crewMember[/NAME][style[color:00E000]]Gain a crew(Leech)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO] [INFO][NAME]crewMember[/NAME][style[color:00E000]]Gain a crew(Leech)[[/style]][/INFO])[/FightINFO]</mod:setValue>
               </mod:findLike>
             </mod:findLike>
           </mod:findLike>
@@ -646,7 +646,7 @@
           <mod:selector hidden="true"/>
           <mod:findLike type="text">
             <mod:selector>Step in - support the revolutionary.</mod:selector>
-            <mod:setValue>Step in - support the revolutionary.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO][NAME]autoReward[/NAME]Reward Stuff(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO] [INFO][NAME]autoReward[/NAME]Reward Stuff(M)[/INFO])[/FightINFO]</mod:setValue>
+            <mod:setValue>Step in - support the revolutionary.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Stuff(M)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO] [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Stuff(M)[[/style]][/INFO])[/FightINFO]</mod:setValue>
           </mod:findLike>
         </mod:findLike>
       </mod:findLike>
@@ -663,7 +663,7 @@
               <mod:selector hidden="true"/>
               <mod:findLike type="text">
                 <mod:selector>Continue...</mod:selector>
-                <mod:setValue>Continue...[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO][NAME]autoReward[/NAME]Reward Stuff(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO] [INFO][NAME]autoReward[/NAME]Reward Stuff(M)[/INFO])[/FightINFO]</mod:setValue>
+                <mod:setValue>Continue...[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Stuff(M)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO] [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Stuff(M)[[/style]][/INFO])[/FightINFO]</mod:setValue>
               </mod:findLike>
             </mod:findLike>
           </mod:findLike>
@@ -675,7 +675,7 @@
     <mod:findLike type="choice">
       <mod:findLike type="text">
         <mod:selector>Avoid the tavern.</mod:selector>
-        <mod:setValue>Avoid the tavern.[INFO][NAME]storageCheck[/NAME]Storage Check[/INFO]</mod:setValue>
+        <mod:setValue>Avoid the tavern.[INFO][NAME]storageCheck[/NAME][style[color:707070]]Storage Check[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -685,7 +685,7 @@
         <mod:findLike type="choice">
           <mod:findLike type="text">
             <mod:selector>Do something onboard the ship.</mod:selector>
-            <mod:setValue>Do something onboard the ship.[INFO][NAME]storageCheck[/NAME]Storage Check[/INFO]</mod:setValue>
+            <mod:setValue>Do something onboard the ship.[INFO][NAME]storageCheck[/NAME][style[color:707070]]Storage Check[[/style]][/INFO]</mod:setValue>
           </mod:findLike>
         </mod:findLike>
       </mod:findLike>
@@ -696,7 +696,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Dock with the outpost.</mod:selector>
-        <mod:setValue>Dock with the outpost.[FightINFO]Fight(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(SR: [INFO][NAME]autoReward[/NAME]Reward { Only(H)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Dock with the outpost.[FightINFO][style[color:FF8A33]]Fight[[/style]](CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO])(HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(SR: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward { Only(H)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -708,7 +708,7 @@
           <mod:selector hidden="true"/>
           <mod:findLike type="text">
             <mod:selector>Continue...</mod:selector>
-            <mod:setValue>Continue...[FightINFO]Fight(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(SR: [INFO][NAME]autoReward[/NAME]Reward { Only(H)[/INFO])[/FightINFO]</mod:setValue>
+            <mod:setValue>Continue...[FightINFO][style[color:FF8A33]]Fight[[/style]](CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO])(HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(SR: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward { Only(H)[[/style]][/INFO])[/FightINFO]</mod:setValue>
           </mod:findLike>
         </mod:findLike>
       </mod:findLike>
@@ -719,7 +719,7 @@
       <mod:selector hidden="true" req="LIST_CREW_VAMPWEED"/>
       <mod:findLike type="text">
         <mod:selector>(Vampweed Crew) Request access to the outpost.</mod:selector>
-        <mod:setValue>(Vampweed Crew) Request access to the outpost.[INFO][NAME]autoReward[/NAME]Reward { Only(H)[/INFO]</mod:setValue>
+        <mod:setValue>(Vampweed Crew) Request access to the outpost.[INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward { Only(H)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -727,7 +727,7 @@
     <mod:findLike type="choice">
       <mod:findLike type="text">
         <mod:selector>Ignore the outpost.</mod:selector>
-        <mod:setValue>Ignore the outpost.[INFO][NAME]storageCheck[/NAME]Storage Check[/INFO]</mod:setValue>
+        <mod:setValue>Ignore the outpost.[INFO][NAME]storageCheck[/NAME][style[color:707070]]Storage Check[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -737,7 +737,7 @@
         <mod:findLike type="choice">
           <mod:findLike type="text">
             <mod:selector>Do something onboard the ship.</mod:selector>
-            <mod:setValue>Do something onboard the ship.[INFO][NAME]storageCheck[/NAME]Storage Check[/INFO]</mod:setValue>
+            <mod:setValue>Do something onboard the ship.[INFO][NAME]storageCheck[/NAME][style[color:707070]]Storage Check[[/style]][/INFO]</mod:setValue>
           </mod:findLike>
         </mod:findLike>
       </mod:findLike>
@@ -747,7 +747,7 @@
     <mod:findLike type="choice">
       <mod:findLike type="text">
         <mod:selector>Buy one of their Spore weapons.</mod:selector>
-        <mod:setValue>Buy one of their Spore weapons.[INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Spore)[/INFO][INFO][NAME]itemModify[/NAME]-60≤~≤-55[/INFO]</mod:setValue>
+        <mod:setValue>Buy one of their Spore weapons.[INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Spore)[[/style]][/INFO][INFO][NAME]itemModify[/NAME][style[color:E00000]]-60≤~≤-55[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -755,7 +755,7 @@
     <mod:findLike type="choice">
       <mod:findLike type="text">
         <mod:selector>Hire one of the gardeners.</mod:selector>
-        <mod:setValue>Hire one of the gardeners.[INFO][NAME]crewMember[/NAME]Gain a crew(Orchid Vampweed)[/INFO][INFO][NAME]itemModify[/NAME]-55≤~≤-40[/INFO]</mod:setValue>
+        <mod:setValue>Hire one of the gardeners.[INFO][NAME]crewMember[/NAME][style[color:00E000]]Gain a crew(Orchid Vampweed)[[/style]][/INFO][INFO][NAME]itemModify[/NAME][style[color:E00000]]-55≤~≤-40[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -764,7 +764,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Move in to investigate.</mod:selector>
-        <mod:setValue>Move in to investigate.[INFO][NAME]unlockCustomShip[/NAME]&lt;#&gt;Unlock Ship(Gold)[/INFO]</mod:setValue>
+        <mod:setValue>Move in to investigate.[INFO][NAME]unlockCustomShip[/NAME][style[color:00FFFF]]&lt;#&gt;Unlock Ship(Gold)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -776,7 +776,7 @@
           <mod:selector hidden="true"/>
           <mod:findLike type="text">
             <mod:selector>What is this place?</mod:selector>
-            <mod:setValue>What is this place?[INFO][NAME]unlockCustomShip[/NAME]&lt;#&gt;Unlock Ship(Gold)[/INFO]</mod:setValue>
+            <mod:setValue>What is this place?[INFO][NAME]unlockCustomShip[/NAME][style[color:00FFFF]]&lt;#&gt;Unlock Ship(Gold)[[/style]][/INFO]</mod:setValue>
           </mod:findLike>
         </mod:findLike>
       </mod:findLike>
@@ -793,7 +793,7 @@
               <mod:selector hidden="true"/>
               <mod:findLike type="text">
                 <mod:selector>Ask to be let inside.</mod:selector>
-                <mod:setValue>Ask to be let inside.[INFO][NAME]unlockCustomShip[/NAME]&lt;#&gt;Unlock Ship(Gold)[/INFO]</mod:setValue>
+                <mod:setValue>Ask to be let inside.[INFO][NAME]unlockCustomShip[/NAME][style[color:00FFFF]]&lt;#&gt;Unlock Ship(Gold)[[/style]][/INFO]</mod:setValue>
               </mod:findLike>
             </mod:findLike>
           </mod:findLike>
@@ -814,7 +814,7 @@
                 <mod:findLike type="choice">
                   <mod:findLike type="text">
                     <mod:selector>Offer to help dig.</mod:selector>
-                    <mod:setValue>Offer to help dig.[INFO]50% [NAME]autoReward[/NAME]Reward Standard(L)[/INFO][INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO]</mod:setValue>
+                    <mod:setValue>Offer to help dig.[INFO]50% [NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(L)[[/style]][/INFO][INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO]</mod:setValue>
                   </mod:findLike>
                 </mod:findLike>
               </mod:findLike>
@@ -840,7 +840,7 @@
                       <mod:selector hidden="true" req="LIST_CHECK_ANY_CREW" lvl="1" blue="false"/>
                       <mod:findLike type="text">
                         <mod:selector>Send in a team of crew to assist.</mod:selector>
-                        <mod:setValue>Send in a team of crew to assist.[INFO]50% [NAME]autoReward[/NAME]Reward Standard(L)[/INFO]</mod:setValue>
+                        <mod:setValue>Send in a team of crew to assist.[INFO]50% [NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(L)[[/style]][/INFO]</mod:setValue>
                       </mod:findLike>
                     </mod:findLike>
                   </mod:findLike>
@@ -868,7 +868,7 @@
                       <mod:selector hidden="true" req="LIST_CREW_ELITE"/>
                       <mod:findLike type="text">
                         <mod:selector>(Elite Crew) Send in your crew.</mod:selector>
-                        <mod:setValue>(Elite Crew) Send in your crew.[INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO]</mod:setValue>
+                        <mod:setValue>(Elite Crew) Send in your crew.[INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO]</mod:setValue>
                       </mod:findLike>
                     </mod:findLike>
                   </mod:findLike>
@@ -896,7 +896,7 @@
                       <mod:selector hidden="true" req="LIST_CREW_ENGINEER"/>
                       <mod:findLike type="text">
                         <mod:selector>(Engineer Crew) Send in your Engineer.</mod:selector>
-                        <mod:setValue>(Engineer Crew) Send in your Engineer.[INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO]</mod:setValue>
+                        <mod:setValue>(Engineer Crew) Send in your Engineer.[INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO]</mod:setValue>
                       </mod:findLike>
                     </mod:findLike>
                   </mod:findLike>
@@ -924,7 +924,7 @@
                       <mod:selector hidden="true" req="unique_tyrdeo_bird"/>
                       <mod:findLike type="text">
                         <mod:selector>(Wealsey) Send the bird in.</mod:selector>
-                        <mod:setValue>(Wealsey) Send the bird in.[INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO][INFO][NAME]removeCrew[/NAME]&lt;!&gt;Lose your crew(UNCLONABLE)[/INFO]</mod:setValue>
+                        <mod:setValue>(Wealsey) Send the bird in.[INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO][INFO][NAME]removeCrew[/NAME][style[color:E00000]]&lt;!&gt;Lose your crew([[/style]][style[color:FF0000]]UNCLONABLE[[/style]][style[color:E00000]])[[/style]][/INFO]</mod:setValue>
                       </mod:findLike>
                     </mod:findLike>
                   </mod:findLike>
@@ -955,7 +955,7 @@
                           <mod:selector hidden="true" req="unique_tyrdeo" lvl="1" blue="false"/>
                           <mod:findLike type="text">
                             <mod:selector>(Tyrdeo) Have Tyrdeo call Wealsey back.</mod:selector>
-                            <mod:setValue>(Tyrdeo) Have Tyrdeo call Wealsey back.[INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO]</mod:setValue>
+                            <mod:setValue>(Tyrdeo) Have Tyrdeo call Wealsey back.[INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO]</mod:setValue>
                           </mod:findLike>
                         </mod:findLike>
                       </mod:findLike>
@@ -991,7 +991,7 @@
                               <mod:selector hidden="true"/>
                               <mod:findLike type="text">
                                 <mod:selector>Pull the wire.</mod:selector>
-                                <mod:setValue>Pull the wire.[INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO]</mod:setValue>
+                                <mod:setValue>Pull the wire.[INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO]</mod:setValue>
                               </mod:findLike>
                             </mod:findLike>
                           </mod:findLike>
@@ -1026,7 +1026,7 @@
                           <mod:selector hidden="true" req="unique_tyrdeo" lvl="0" max_lvl="0" blue="false"/>
                           <mod:findLike type="text">
                             <mod:selector>Try to call Wealsey back.</mod:selector>
-                            <mod:setValue>Try to call Wealsey back.[INFO][NAME]removeCrew[/NAME]&lt;!&gt;Lose your crew(UNCLONABLE)[/INFO]</mod:setValue>
+                            <mod:setValue>Try to call Wealsey back.[INFO][NAME]removeCrew[/NAME][style[color:E00000]]&lt;!&gt;Lose your crew([[/style]][style[color:FF0000]]UNCLONABLE[[/style]][style[color:E00000]])[[/style]][/INFO]</mod:setValue>
                           </mod:findLike>
                         </mod:findLike>
                       </mod:findLike>
@@ -1053,7 +1053,7 @@
                 <mod:findLike type="choice">
                   <mod:findLike type="text">
                     <mod:selector>Bribe them to let you in.</mod:selector>
-                    <mod:setValue>Bribe them to let you in.[INFO][NAME]itemModify[/NAME]~-50[/INFO][INFO][NAME]unlockCustomShip[/NAME]&lt;#&gt;Unlock Ship(Gold)[/INFO]</mod:setValue>
+                    <mod:setValue>Bribe them to let you in.[INFO][NAME]itemModify[/NAME][style[color:E00000]]~-50[[/style]][/INFO][INFO][NAME]unlockCustomShip[/NAME][style[color:00FFFF]]&lt;#&gt;Unlock Ship(Gold)[[/style]][/INFO]</mod:setValue>
                   </mod:findLike>
                 </mod:findLike>
               </mod:findLike>
@@ -1079,7 +1079,7 @@
                       <mod:selector hidden="true"/>
                       <mod:findLike type="text">
                         <mod:selector>Launch!</mod:selector>
-                        <mod:setValue>Launch![INFO][NAME]unlockCustomShip[/NAME]&lt;#&gt;Unlock Ship(Gold)[/INFO][INFO][NAME]damage[/NAME]&lt;!&gt;Damage Hull(999)[/INFO]</mod:setValue>
+                        <mod:setValue>Launch![INFO][NAME]unlockCustomShip[/NAME][style[color:00FFFF]]&lt;#&gt;Unlock Ship(Gold)[[/style]][/INFO][INFO][NAME]damage[/NAME][style[color:E00000]]&lt;!&gt;Damage Hull(999)[[/style]][/INFO]</mod:setValue>
                       </mod:findLike>
                     </mod:findLike>
                   </mod:findLike>
@@ -1096,7 +1096,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Ignore the structure.</mod:selector>
-        <mod:setValue>Ignore the structure.[INFO][NAME]storageCheck[/NAME]Storage Check[/INFO]</mod:setValue>
+        <mod:setValue>Ignore the structure.[INFO][NAME]storageCheck[/NAME][style[color:707070]]Storage Check[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -1107,7 +1107,7 @@
         <mod:findLike type="choice">
           <mod:findLike type="text">
             <mod:selector>Do something onboard the ship.</mod:selector>
-            <mod:setValue>Do something onboard the ship.[INFO][NAME]storageCheck[/NAME]Storage Check[/INFO]</mod:setValue>
+            <mod:setValue>Do something onboard the ship.[INFO][NAME]storageCheck[/NAME][style[color:707070]]Storage Check[[/style]][/INFO]</mod:setValue>
           </mod:findLike>
         </mod:findLike>
       </mod:findLike>
@@ -1118,7 +1118,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Hey! Stop that! Littering is bad!</mod:selector>
-        <mod:setValue>Hey! Stop that! Littering is bad![FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Hey! Stop that! Littering is bad![FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -1130,7 +1130,7 @@
           <mod:selector hidden="true"/>
           <mod:findLike type="text">
             <mod:selector>Offer to pick it up for them.</mod:selector>
-            <mod:setValue>Offer to pick it up for them.[INFO][NAME]autoReward[/NAME]Reward { Only(L)[/INFO][INFO][NAME]crewMember[/NAME]Gain a crew(Leech)[/INFO]</mod:setValue>
+            <mod:setValue>Offer to pick it up for them.[INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward { Only(L)[[/style]][/INFO][INFO][NAME]crewMember[/NAME][style[color:00E000]]Gain a crew(Leech)[[/style]][/INFO]</mod:setValue>
           </mod:findLike>
         </mod:findLike>
       </mod:findLike>
@@ -1147,7 +1147,7 @@
               <mod:selector hidden="true"/>
               <mod:findLike type="text">
                 <mod:selector>Continue...</mod:selector>
-                <mod:setValue>Continue...[INFO][NAME]autoReward[/NAME]Reward { Only(L)[/INFO][INFO][NAME]crewMember[/NAME]Gain a crew(Leech)[/INFO]</mod:setValue>
+                <mod:setValue>Continue...[INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward { Only(L)[[/style]][/INFO][INFO][NAME]crewMember[/NAME][style[color:00E000]]Gain a crew(Leech)[[/style]][/INFO]</mod:setValue>
               </mod:findLike>
             </mod:findLike>
           </mod:findLike>
@@ -1163,7 +1163,7 @@
           <mod:selector hidden="true"/>
           <mod:findLike type="text">
             <mod:selector>Demand they pick it up themselves.</mod:selector>
-            <mod:setValue>Demand they pick it up themselves.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])[/FightINFO]</mod:setValue>
+            <mod:setValue>Demand they pick it up themselves.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO])[/FightINFO]</mod:setValue>
           </mod:findLike>
         </mod:findLike>
       </mod:findLike>
@@ -1180,7 +1180,7 @@
               <mod:selector hidden="true"/>
               <mod:findLike type="text">
                 <mod:selector>Continue...</mod:selector>
-                <mod:setValue>Continue...[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])[/FightINFO]</mod:setValue>
+                <mod:setValue>Continue...[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO])[/FightINFO]</mod:setValue>
               </mod:findLike>
             </mod:findLike>
           </mod:findLike>
@@ -1196,7 +1196,7 @@
           <mod:selector hidden="true" req="LIST_CREW_ORCHID"/>
           <mod:findLike type="text">
             <mod:selector>(Orchid Crew) Lecture the Leeches.</mod:selector>
-            <mod:setValue>(Orchid Crew) Lecture the Leeches.[INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO]</mod:setValue>
+            <mod:setValue>(Orchid Crew) Lecture the Leeches.[INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO]</mod:setValue>
           </mod:findLike>
         </mod:findLike>
       </mod:findLike>
@@ -1206,7 +1206,7 @@
     <mod:findLike type="choice">
       <mod:findLike type="text">
         <mod:selector>Ignore the ship.</mod:selector>
-        <mod:setValue>Ignore the ship.[INFO][NAME]storageCheck[/NAME]Storage Check[/INFO]</mod:setValue>
+        <mod:setValue>Ignore the ship.[INFO][NAME]storageCheck[/NAME][style[color:707070]]Storage Check[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -1216,7 +1216,7 @@
         <mod:findLike type="choice">
           <mod:findLike type="text">
             <mod:selector>Do something onboard the ship.</mod:selector>
-            <mod:setValue>Do something onboard the ship.[INFO][NAME]storageCheck[/NAME]Storage Check[/INFO]</mod:setValue>
+            <mod:setValue>Do something onboard the ship.[INFO][NAME]storageCheck[/NAME][style[color:707070]]Storage Check[[/style]][/INFO]</mod:setValue>
           </mod:findLike>
         </mod:findLike>
       </mod:findLike>
@@ -1227,7 +1227,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Use them for biofuel.</mod:selector>
-        <mod:setValue>Use them for biofuel.[INFO][NAME]autoReward[/NAME]Reward { Only(L)[/INFO]</mod:setValue>
+        <mod:setValue>Use them for biofuel.[INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward { Only(L)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -1236,7 +1236,7 @@
       <mod:selector hidden="true" req="clonebay"/>
       <mod:findLike type="text">
         <mod:selector>(Clone Bay) Collect some DNA swabs and clone them.</mod:selector>
-        <mod:setValue>(Clone Bay) Collect some DNA swabs and clone them.[INFO][NAME]crewMember[/NAME]Gain a crew(Leech)[/INFO]</mod:setValue>
+        <mod:setValue>(Clone Bay) Collect some DNA swabs and clone them.[INFO][NAME]crewMember[/NAME][style[color:00E000]]Gain a crew(Leech)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -1244,7 +1244,7 @@
     <mod:findLike type="choice">
       <mod:findLike type="text">
         <mod:selector>Attack the store.</mod:selector>
-        <mod:setValue>Attack the store.[FightINFO]Fight(CK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO])(HK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(M)[/INFO])(SR: [INFO]20% [NAME]autoReward[/NAME]Reward Stuff(R)[/INFO] [INFO]5% [NAME]autoReward[/NAME]Reward Standard(L)[/INFO] [INFO]5% [NAME]crewMember[/NAME]Gain a crew(Leech)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Attack the store.[FightINFO][style[color:FF8A33]]Fight[[/style]](CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard No Item(H)[[/style]][/INFO])(HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard No Item(M)[[/style]][/INFO])(SR: [INFO]20% [NAME]autoReward[/NAME][style[color:00E000]]Reward Stuff(R)[[/style]][/INFO] [INFO]5% [NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(L)[[/style]][/INFO] [INFO]5% [NAME]crewMember[/NAME][style[color:00E000]]Gain a crew(Leech)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -1255,7 +1255,7 @@
           <mod:selector hidden="true"/>
           <mod:findLike type="text">
             <mod:selector>Continue...</mod:selector>
-            <mod:setValue>Continue...[FightINFO]Fight(CK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO])(HK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(M)[/INFO])(SR: [INFO]20% [NAME]autoReward[/NAME]Reward Stuff(R)[/INFO] [INFO]5% [NAME]autoReward[/NAME]Reward Standard(L)[/INFO] [INFO]5% [NAME]crewMember[/NAME]Gain a crew(Leech)[/INFO])[/FightINFO]</mod:setValue>
+            <mod:setValue>Continue...[FightINFO][style[color:FF8A33]]Fight[[/style]](CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard No Item(H)[[/style]][/INFO])(HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard No Item(M)[[/style]][/INFO])(SR: [INFO]20% [NAME]autoReward[/NAME][style[color:00E000]]Reward Stuff(R)[[/style]][/INFO] [INFO]5% [NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(L)[[/style]][/INFO] [INFO]5% [NAME]crewMember[/NAME][style[color:00E000]]Gain a crew(Leech)[[/style]][/INFO])[/FightINFO]</mod:setValue>
           </mod:findLike>
         </mod:findLike>
       </mod:findLike>
@@ -1265,7 +1265,7 @@
     <mod:findLike type="choice">
       <mod:findLike type="text">
         <mod:selector>Let this opportunity pass you by.</mod:selector>
-        <mod:setValue>Let this opportunity pass you by.[INFO]&lt;=[/INFO][INFO][NAME]storageCheck[/NAME]Storage Check[/INFO]</mod:setValue>
+        <mod:setValue>Let this opportunity pass you by.[INFO]&lt;=[/INFO][INFO][NAME]storageCheck[/NAME][style[color:707070]]Storage Check[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -1287,7 +1287,7 @@
         <mod:findLike type="choice">
           <mod:findLike type="text">
             <mod:selector>Ignore the leech.</mod:selector>
-            <mod:setValue>Ignore the leech.[INFO][NAME]storageCheck[/NAME]Storage Check[/INFO]</mod:setValue>
+            <mod:setValue>Ignore the leech.[INFO][NAME]storageCheck[/NAME][style[color:707070]]Storage Check[[/style]][/INFO]</mod:setValue>
           </mod:findLike>
         </mod:findLike>
       </mod:findLike>
@@ -1301,7 +1301,7 @@
             <mod:findLike type="choice">
               <mod:findLike type="text">
                 <mod:selector>Do something onboard the ship.</mod:selector>
-                <mod:setValue>Do something onboard the ship.[INFO][NAME]storageCheck[/NAME]Storage Check[/INFO]</mod:setValue>
+                <mod:setValue>Do something onboard the ship.[INFO][NAME]storageCheck[/NAME][style[color:707070]]Storage Check[[/style]][/INFO]</mod:setValue>
               </mod:findLike>
             </mod:findLike>
           </mod:findLike>
@@ -1798,7 +1798,7 @@
       <mod:selector req="FAKE_SHOP_TRIED_ALL" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Ask them if they even have anything at all.</mod:selector>
-        <mod:setValue>Ask them if they even have anything at all.[INFO][NAME]modifyPursuit[/NAME]&lt;!&gt;Fleet Advance(1)[/INFO]</mod:setValue>
+        <mod:setValue>Ask them if they even have anything at all.[INFO][NAME]modifyPursuit[/NAME][style[color:E00000]]&lt;!&gt;Fleet Advance(1)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -1810,7 +1810,7 @@
           <mod:selector req="stability" lvl="0" max_lvl="25" blue="false"/>
           <mod:findLike type="text">
             <mod:selector>Ask them to give you some examples of items they have in stock.</mod:selector>
-            <mod:setValue>Ask them to give you some examples of items they have in stock.[INFO][NAME]boarders[/NAME]&lt;!&gt;Enemy Boarding(x2 Spider)[/INFO][INFO][NAME]crewMember[/NAME]Gain a crew(Spider)[/INFO]</mod:setValue>
+            <mod:setValue>Ask them to give you some examples of items they have in stock.[INFO][NAME]boarders[/NAME][style[color:E00000]]&lt;!&gt;Enemy Boarding(x2 Spider)[[/style]][/INFO][INFO][NAME]crewMember[/NAME][style[color:00E000]]Gain a crew(Spider)[[/style]][/INFO]</mod:setValue>
           </mod:findLike>
         </mod:findLike>
       </mod:findLike>
@@ -1827,7 +1827,7 @@
               <mod:selector hidden="true"/>
               <mod:findLike type="text">
                 <mod:selector>...What? No.</mod:selector>
-                <mod:setValue>...What? No.[INFO][NAME]storageCheck[/NAME]Storage Check[/INFO]</mod:setValue>
+                <mod:setValue>...What? No.[INFO][NAME]storageCheck[/NAME][style[color:707070]]Storage Check[[/style]][/INFO]</mod:setValue>
               </mod:findLike>
             </mod:findLike>
           </mod:findLike>
@@ -1848,7 +1848,7 @@
                 <mod:findLike type="choice">
                   <mod:findLike type="text">
                     <mod:selector>Do something onboard the ship.</mod:selector>
-                    <mod:setValue>Do something onboard the ship.[INFO][NAME]storageCheck[/NAME]Storage Check[/INFO]</mod:setValue>
+                    <mod:setValue>Do something onboard the ship.[INFO][NAME]storageCheck[/NAME][style[color:707070]]Storage Check[[/style]][/INFO]</mod:setValue>
                   </mod:findLike>
                 </mod:findLike>
               </mod:findLike>
@@ -1869,7 +1869,7 @@
               <mod:selector hidden="true" req="unique_queen" lvl="0" max_lvl="0" blue="false"/>
               <mod:findLike type="text">
                 <mod:selector>We'll take it.</mod:selector>
-                <mod:setValue>We'll take it.[INFO][NAME]boarders[/NAME]&lt;!&gt;Enemy Boarding(x2 Spider)[/INFO]</mod:setValue>
+                <mod:setValue>We'll take it.[INFO][NAME]boarders[/NAME][style[color:E00000]]&lt;!&gt;Enemy Boarding(x2 Spider)[[/style]][/INFO]</mod:setValue>
               </mod:findLike>
             </mod:findLike>
           </mod:findLike>
@@ -1888,7 +1888,7 @@
               <mod:selector hidden="true" req="unique_queen"/>
               <mod:findLike type="text">
                 <mod:selector>(Spider Queen) We'll take it.</mod:selector>
-                <mod:setValue>(Spider Queen) We'll take it.[INFO][NAME]crewMember[/NAME]Gain a crew(Spider)[/INFO]</mod:setValue>
+                <mod:setValue>(Spider Queen) We'll take it.[INFO][NAME]crewMember[/NAME][style[color:00E000]]Gain a crew(Spider)[[/style]][/INFO]</mod:setValue>
               </mod:findLike>
             </mod:findLike>
           </mod:findLike>
@@ -1904,7 +1904,7 @@
           <mod:selector req="stability" lvl="26" max_lvl="800" blue="false"/>
           <mod:findLike type="text">
             <mod:selector>Ask them to give you some examples of items they have in stock.</mod:selector>
-            <mod:setValue>Ask them to give you some examples of items they have in stock.[INFO][NAME]modifyPursuit[/NAME]&lt;!&gt;Fleet Advance(1)[/INFO]</mod:setValue>
+            <mod:setValue>Ask them to give you some examples of items they have in stock.[INFO][NAME]modifyPursuit[/NAME][style[color:E00000]]&lt;!&gt;Fleet Advance(1)[[/style]][/INFO]</mod:setValue>
           </mod:findLike>
         </mod:findLike>
       </mod:findLike>
@@ -1962,7 +1962,7 @@
               <mod:selector hidden="true"/>
               <mod:findLike type="text">
                 <mod:selector>Laugh it off.</mod:selector>
-                <mod:setValue>Laugh it off.[INFO][NAME]crewMember[/NAME]Gain a crew(Leech)[/INFO]</mod:setValue>
+                <mod:setValue>Laugh it off.[INFO][NAME]crewMember[/NAME][style[color:00E000]]Gain a crew(Leech)[[/style]][/INFO]</mod:setValue>
               </mod:findLike>
             </mod:findLike>
           </mod:findLike>
@@ -1975,7 +1975,7 @@
       <mod:selector hidden="true" req="MAGNET_ARM"/>
       <mod:findLike type="text">
         <mod:selector>(Magnetic Arm) Help the Leeches collect their strewn cargo.</mod:selector>
-        <mod:setValue>(Magnetic Arm) Help the Leeches collect their strewn cargo.[INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO][INFO][NAME]upgrade[/NAME]System Upgrade(Pilot x1)[/INFO]</mod:setValue>
+        <mod:setValue>(Magnetic Arm) Help the Leeches collect their strewn cargo.[INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO][INFO][NAME]upgrade[/NAME][style[color:00E000]]System Upgrade(Pilot x1)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -1984,7 +1984,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Take some time to help the Leeches collect their strewn cargo.</mod:selector>
-        <mod:setValue>Take some time to help the Leeches collect their strewn cargo.[INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO][INFO][NAME]upgrade[/NAME]System Upgrade(Pilot x1)[/INFO][INFO][NAME]modifyPursuit[/NAME]&lt;!&gt;Fleet Advance(1)[/INFO]</mod:setValue>
+        <mod:setValue>Take some time to help the Leeches collect their strewn cargo.[INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO][INFO][NAME]upgrade[/NAME][style[color:00E000]]System Upgrade(Pilot x1)[[/style]][/INFO][INFO][NAME]modifyPursuit[/NAME][style[color:E00000]]&lt;!&gt;Fleet Advance(1)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -1992,7 +1992,7 @@
     <mod:findLike type="choice">
       <mod:findLike type="text">
         <mod:selector>Attack the cargo ship.</mod:selector>
-        <mod:setValue>Attack the cargo ship.[FightINFO]Fight(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(SR: [INFO]20% [NAME]autoReward[/NAME]Reward Stuff(R)[/INFO] [INFO]5% [NAME]autoReward[/NAME]Reward Standard(L)[/INFO] [INFO]5% [NAME]crewMember[/NAME]Gain a crew(Leech)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Attack the cargo ship.[FightINFO][style[color:FF8A33]]Fight[[/style]](CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO])(HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(SR: [INFO]20% [NAME]autoReward[/NAME][style[color:00E000]]Reward Stuff(R)[[/style]][/INFO] [INFO]5% [NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(L)[[/style]][/INFO] [INFO]5% [NAME]crewMember[/NAME][style[color:00E000]]Gain a crew(Leech)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -2003,7 +2003,7 @@
           <mod:selector hidden="true"/>
           <mod:findLike type="text">
             <mod:selector>Continue...</mod:selector>
-            <mod:setValue>Continue...[FightINFO]Fight(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(SR: [INFO]20% [NAME]autoReward[/NAME]Reward Stuff(R)[/INFO] [INFO]5% [NAME]autoReward[/NAME]Reward Standard(L)[/INFO] [INFO]5% [NAME]crewMember[/NAME]Gain a crew(Leech)[/INFO])[/FightINFO]</mod:setValue>
+            <mod:setValue>Continue...[FightINFO][style[color:FF8A33]]Fight[[/style]](CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO])(HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(SR: [INFO]20% [NAME]autoReward[/NAME][style[color:00E000]]Reward Stuff(R)[[/style]][/INFO] [INFO]5% [NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(L)[[/style]][/INFO] [INFO]5% [NAME]crewMember[/NAME][style[color:00E000]]Gain a crew(Leech)[[/style]][/INFO])[/FightINFO]</mod:setValue>
           </mod:findLike>
         </mod:findLike>
       </mod:findLike>
@@ -2014,7 +2014,7 @@
       <mod:selector req="unique_anurak"/>
       <mod:findLike type="text">
         <mod:selector>(Anurak) Mix up a special remedy.</mod:selector>
-        <mod:setValue>(Anurak) Mix up a special remedy.[INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Leech)[/INFO]</mod:setValue>
+        <mod:setValue>(Anurak) Mix up a special remedy.[INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Leech)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -2026,7 +2026,7 @@
           <mod:selector hidden="true"/>
           <mod:findLike type="text">
             <mod:selector>Continue...</mod:selector>
-            <mod:setValue>Continue...[INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Leech)[/INFO]</mod:setValue>
+            <mod:setValue>Continue...[INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Leech)[[/style]][/INFO]</mod:setValue>
           </mod:findLike>
         </mod:findLike>
       </mod:findLike>
@@ -2037,7 +2037,7 @@
       <mod:selector req="unique_alkali"/>
       <mod:findLike type="text">
         <mod:selector>(Alkali) Have Alkali figure out what's going on.</mod:selector>
-        <mod:setValue>(Alkali) Have Alkali figure out what's going on.[INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Leech)[/INFO]</mod:setValue>
+        <mod:setValue>(Alkali) Have Alkali figure out what's going on.[INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Leech)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -2049,7 +2049,7 @@
           <mod:selector hidden="true"/>
           <mod:findLike type="text">
             <mod:selector>Continue...</mod:selector>
-            <mod:setValue>Continue...[INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Leech)[/INFO]</mod:setValue>
+            <mod:setValue>Continue...[INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Leech)[[/style]][/INFO]</mod:setValue>
           </mod:findLike>
         </mod:findLike>
       </mod:findLike>
@@ -2060,7 +2060,7 @@
       <mod:selector req="LIST_CREW_MEDIC"/>
       <mod:findLike type="text">
         <mod:selector>(Medic Crew) Treat the illness.</mod:selector>
-        <mod:setValue>(Medic Crew) Treat the illness.[INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Leech)[/INFO]</mod:setValue>
+        <mod:setValue>(Medic Crew) Treat the illness.[INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Leech)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -2072,7 +2072,7 @@
           <mod:selector hidden="true"/>
           <mod:findLike type="text">
             <mod:selector>Continue...</mod:selector>
-            <mod:setValue>Continue...[INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Leech)[/INFO]</mod:setValue>
+            <mod:setValue>Continue...[INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Leech)[[/style]][/INFO]</mod:setValue>
           </mod:findLike>
         </mod:findLike>
       </mod:findLike>
@@ -2083,7 +2083,7 @@
       <mod:selector req="shell_scientist"/>
       <mod:findLike type="text">
         <mod:selector>(Shell Scientist) Treat the illness.</mod:selector>
-        <mod:setValue>(Shell Scientist) Treat the illness.[INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Leech)[/INFO]</mod:setValue>
+        <mod:setValue>(Shell Scientist) Treat the illness.[INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Leech)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -2095,7 +2095,7 @@
           <mod:selector hidden="true"/>
           <mod:findLike type="text">
             <mod:selector>Continue...</mod:selector>
-            <mod:setValue>Continue...[INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Leech)[/INFO]</mod:setValue>
+            <mod:setValue>Continue...[INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Leech)[[/style]][/INFO]</mod:setValue>
           </mod:findLike>
         </mod:findLike>
       </mod:findLike>
@@ -2106,7 +2106,7 @@
       <mod:selector req="medbay" lvl="3"/>
       <mod:findLike type="text">
         <mod:selector>(Adv. Medbay) Examine them in your upgraded Medbay.</mod:selector>
-        <mod:setValue>(Adv. Medbay) Examine them in your upgraded Medbay.[INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Leech)[/INFO]</mod:setValue>
+        <mod:setValue>(Adv. Medbay) Examine them in your upgraded Medbay.[INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Leech)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -2118,7 +2118,7 @@
           <mod:selector hidden="true"/>
           <mod:findLike type="text">
             <mod:selector>Continue...</mod:selector>
-            <mod:setValue>Continue...[INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Leech)[/INFO]</mod:setValue>
+            <mod:setValue>Continue...[INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Leech)[[/style]][/INFO]</mod:setValue>
           </mod:findLike>
         </mod:findLike>
       </mod:findLike>
@@ -2129,7 +2129,7 @@
       <mod:selector req="QUARP_JUICE"/>
       <mod:findLike type="text">
         <mod:selector>(Quarp Juice) Give them something that will put some pep in their step.</mod:selector>
-        <mod:setValue>(Quarp Juice) Give them something that will put some pep in their step.[INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Leech)[/INFO]</mod:setValue>
+        <mod:setValue>(Quarp Juice) Give them something that will put some pep in their step.[INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Leech)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -2141,7 +2141,7 @@
           <mod:selector hidden="true"/>
           <mod:findLike type="text">
             <mod:selector>Continue...</mod:selector>
-            <mod:setValue>Continue...[INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Leech)[/INFO]</mod:setValue>
+            <mod:setValue>Continue...[INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Leech)[[/style]][/INFO]</mod:setValue>
           </mod:findLike>
         </mod:findLike>
       </mod:findLike>
@@ -2152,7 +2152,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Don't approach the colony.</mod:selector>
-        <mod:setValue>Don't approach the colony.[INFO][NAME]storageCheck[/NAME]Storage Check[/INFO]</mod:setValue>
+        <mod:setValue>Don't approach the colony.[INFO][NAME]storageCheck[/NAME][style[color:707070]]Storage Check[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -2164,7 +2164,7 @@
           <mod:selector hidden="true"/>
           <mod:findLike type="text">
             <mod:selector>Do something onboard the ship.</mod:selector>
-            <mod:setValue>Do something onboard the ship.[INFO][NAME]storageCheck[/NAME]Storage Check[/INFO]</mod:setValue>
+            <mod:setValue>Do something onboard the ship.[INFO][NAME]storageCheck[/NAME][style[color:707070]]Storage Check[[/style]][/INFO]</mod:setValue>
           </mod:findLike>
         </mod:findLike>
       </mod:findLike>
@@ -2175,7 +2175,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Agree.</mod:selector>
-        <mod:setValue>Agree.[FightINFO]Fight(HK=CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO] [INFO][NAME]autoReward[/NAME]Reward Item(M)[/INFO])[/FightINFO][FightINFO]Fight(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO] [INFO][NAME]autoReward[/NAME]Reward Item(M)[/INFO])(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(SR: [INFO][NAME]autoReward[/NAME]Reward Item(M)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Agree.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK=CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO] [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Item(M)[[/style]][/INFO])[/FightINFO][FightINFO][style[color:FF8A33]]Fight[[/style]](CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO] [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Item(M)[[/style]][/INFO])(HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(SR: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Item(M)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -2187,7 +2187,7 @@
           <mod:selector hidden="true"/>
           <mod:findLike type="text">
             <mod:selector>Send a little warning shot to scare them.</mod:selector>
-            <mod:setValue>Send a little warning shot to scare them.[FightINFO]Fight(HK=CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO] [INFO][NAME]autoReward[/NAME]Reward Item(M)[/INFO])[/FightINFO][FightINFO]Fight(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO] [INFO][NAME]autoReward[/NAME]Reward Item(M)[/INFO])(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(SR: [INFO][NAME]autoReward[/NAME]Reward Item(M)[/INFO])[/FightINFO]</mod:setValue>
+            <mod:setValue>Send a little warning shot to scare them.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK=CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO] [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Item(M)[[/style]][/INFO])[/FightINFO][FightINFO][style[color:FF8A33]]Fight[[/style]](CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO] [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Item(M)[[/style]][/INFO])(HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(SR: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Item(M)[[/style]][/INFO])[/FightINFO]</mod:setValue>
           </mod:findLike>
         </mod:findLike>
       </mod:findLike>
@@ -2204,7 +2204,7 @@
               <mod:selector hidden="true"/>
               <mod:findLike type="text">
                 <mod:selector>Fire another warning shot.</mod:selector>
-                <mod:setValue>Fire another warning shot.[FightINFO]Fight(HK=CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO] [INFO][NAME]autoReward[/NAME]Reward Item(M)[/INFO])[/FightINFO]</mod:setValue>
+                <mod:setValue>Fire another warning shot.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK=CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO] [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Item(M)[[/style]][/INFO])[/FightINFO]</mod:setValue>
               </mod:findLike>
             </mod:findLike>
           </mod:findLike>
@@ -2226,7 +2226,7 @@
                   <mod:selector hidden="true"/>
                   <mod:findLike type="text">
                     <mod:selector>Continue...</mod:selector>
-                    <mod:setValue>Continue...[FightINFO]Fight(HK=CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO] [INFO][NAME]autoReward[/NAME]Reward Item(M)[/INFO])[/FightINFO]</mod:setValue>
+                    <mod:setValue>Continue...[FightINFO][style[color:FF8A33]]Fight[[/style]](HK=CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO] [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Item(M)[[/style]][/INFO])[/FightINFO]</mod:setValue>
                   </mod:findLike>
                 </mod:findLike>
               </mod:findLike>
@@ -2247,7 +2247,7 @@
               <mod:selector hidden="true"/>
               <mod:findLike type="text">
                 <mod:selector>Demand they give the cargo.</mod:selector>
-                <mod:setValue>Demand they give the cargo.[FightINFO]Fight(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO] [INFO][NAME]autoReward[/NAME]Reward Item(M)[/INFO])(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(SR: [INFO][NAME]autoReward[/NAME]Reward Item(M)[/INFO])[/FightINFO]</mod:setValue>
+                <mod:setValue>Demand they give the cargo.[FightINFO][style[color:FF8A33]]Fight[[/style]](CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO] [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Item(M)[[/style]][/INFO])(HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(SR: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Item(M)[[/style]][/INFO])[/FightINFO]</mod:setValue>
               </mod:findLike>
             </mod:findLike>
           </mod:findLike>
@@ -2269,7 +2269,7 @@
                   <mod:selector hidden="true"/>
                   <mod:findLike type="text">
                     <mod:selector>Yes.</mod:selector>
-                    <mod:setValue>Yes.[FightINFO]Fight(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO] [INFO][NAME]autoReward[/NAME]Reward Item(M)[/INFO])(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(SR: [INFO][NAME]autoReward[/NAME]Reward Item(M)[/INFO])[/FightINFO]</mod:setValue>
+                    <mod:setValue>Yes.[FightINFO][style[color:FF8A33]]Fight[[/style]](CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO] [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Item(M)[[/style]][/INFO])(HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(SR: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Item(M)[[/style]][/INFO])[/FightINFO]</mod:setValue>
                   </mod:findLike>
                 </mod:findLike>
               </mod:findLike>
@@ -2296,7 +2296,7 @@
                       <mod:selector hidden="true"/>
                       <mod:findLike type="text">
                         <mod:selector>Continue...</mod:selector>
-                        <mod:setValue>Continue...[FightINFO]Fight(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO] [INFO][NAME]autoReward[/NAME]Reward Item(M)[/INFO])(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(SR: [INFO][NAME]autoReward[/NAME]Reward Item(M)[/INFO])[/FightINFO]</mod:setValue>
+                        <mod:setValue>Continue...[FightINFO][style[color:FF8A33]]Fight[[/style]](CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO] [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Item(M)[[/style]][/INFO])(HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(SR: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Item(M)[[/style]][/INFO])[/FightINFO]</mod:setValue>
                       </mod:findLike>
                     </mod:findLike>
                   </mod:findLike>
@@ -2319,7 +2319,7 @@
               <mod:selector hidden="true" req="mind"/>
               <mod:findLike type="text">
                 <mod:selector>(Mind Control) Give us the cargo.</mod:selector>
-                <mod:setValue>(Mind Control) Give us the cargo.[INFO][NAME]autoReward[/NAME]Reward Item(M)[/INFO]</mod:setValue>
+                <mod:setValue>(Mind Control) Give us the cargo.[INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Item(M)[[/style]][/INFO]</mod:setValue>
               </mod:findLike>
             </mod:findLike>
           </mod:findLike>
@@ -2341,7 +2341,7 @@
                   <mod:selector hidden="true"/>
                   <mod:findLike type="text">
                     <mod:selector>Bring the cargo back to the Fed ship.</mod:selector>
-                    <mod:setValue>Bring the cargo back to the Fed ship.[INFO][NAME]autoReward[/NAME]Reward Item(M)[/INFO]</mod:setValue>
+                    <mod:setValue>Bring the cargo back to the Fed ship.[INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Item(M)[[/style]][/INFO]</mod:setValue>
                   </mod:findLike>
                 </mod:findLike>
               </mod:findLike>
@@ -2362,7 +2362,7 @@
               <mod:selector hidden="true" req="BLUELIST_WEAPONS_MIND_CONTROL"/>
               <mod:findLike type="text">
                 <mod:selector>(Mind Control Weapon) Give us the cargo.</mod:selector>
-                <mod:setValue>(Mind Control Weapon) Give us the cargo.[INFO][NAME]autoReward[/NAME]Reward Item(M)[/INFO]</mod:setValue>
+                <mod:setValue>(Mind Control Weapon) Give us the cargo.[INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Item(M)[[/style]][/INFO]</mod:setValue>
               </mod:findLike>
             </mod:findLike>
           </mod:findLike>
@@ -2384,7 +2384,7 @@
                   <mod:selector hidden="true"/>
                   <mod:findLike type="text">
                     <mod:selector>Bring the cargo back to the Fed ship.</mod:selector>
-                    <mod:setValue>Bring the cargo back to the Fed ship.[INFO][NAME]autoReward[/NAME]Reward Item(M)[/INFO]</mod:setValue>
+                    <mod:setValue>Bring the cargo back to the Fed ship.[INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Item(M)[[/style]][/INFO]</mod:setValue>
                   </mod:findLike>
                 </mod:findLike>
               </mod:findLike>
@@ -2405,7 +2405,7 @@
               <mod:selector hidden="true" req="weapons" lvl="6"/>
               <mod:findLike type="text">
                 <mod:selector>(Upg. Weapons) Pull a trick shot and start blasting up all the asteroids.</mod:selector>
-                <mod:setValue>(Upg. Weapons) Pull a trick shot and start blasting up all the asteroids.[INFO][NAME]autoReward[/NAME]Reward Item(M)[/INFO]</mod:setValue>
+                <mod:setValue>(Upg. Weapons) Pull a trick shot and start blasting up all the asteroids.[INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Item(M)[[/style]][/INFO]</mod:setValue>
               </mod:findLike>
             </mod:findLike>
           </mod:findLike>
@@ -2427,7 +2427,7 @@
                   <mod:selector hidden="true"/>
                   <mod:findLike type="text">
                     <mod:selector>Bring the cargo back to the Fed ship.</mod:selector>
-                    <mod:setValue>Bring the cargo back to the Fed ship.[INFO][NAME]autoReward[/NAME]Reward Item(M)[/INFO]</mod:setValue>
+                    <mod:setValue>Bring the cargo back to the Fed ship.[INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Item(M)[[/style]][/INFO]</mod:setValue>
                   </mod:findLike>
                 </mod:findLike>
               </mod:findLike>
@@ -2441,7 +2441,7 @@
     <mod:findLike type="choice">
       <mod:findLike type="text">
         <mod:selector>Refuse.</mod:selector>
-        <mod:setValue>Refuse.[INFO][NAME]storageCheck[/NAME]Storage Check[/INFO]</mod:setValue>
+        <mod:setValue>Refuse.[INFO][NAME]storageCheck[/NAME][style[color:707070]]Storage Check[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -2451,7 +2451,7 @@
         <mod:findLike type="choice">
           <mod:findLike type="text">
             <mod:selector>Do something onboard the ship.</mod:selector>
-            <mod:setValue>Do something onboard the ship.[INFO][NAME]storageCheck[/NAME]Storage Check[/INFO]</mod:setValue>
+            <mod:setValue>Do something onboard the ship.[INFO][NAME]storageCheck[/NAME][style[color:707070]]Storage Check[[/style]][/INFO]</mod:setValue>
           </mod:findLike>
         </mod:findLike>
       </mod:findLike>
@@ -2462,7 +2462,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Ignore the hail.</mod:selector>
-        <mod:setValue>Ignore the hail.[INFO][NAME]storageCheck[/NAME]Storage Check[/INFO]</mod:setValue>
+        <mod:setValue>Ignore the hail.[INFO][NAME]storageCheck[/NAME][style[color:707070]]Storage Check[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -2473,7 +2473,7 @@
         <mod:findLike type="choice">
           <mod:findLike type="text">
             <mod:selector>Do something onboard the ship.</mod:selector>
-            <mod:setValue>Do something onboard the ship.[INFO][NAME]storageCheck[/NAME]Storage Check[/INFO]</mod:setValue>
+            <mod:setValue>Do something onboard the ship.[INFO][NAME]storageCheck[/NAME][style[color:707070]]Storage Check[[/style]][/INFO]</mod:setValue>
           </mod:findLike>
         </mod:findLike>
       </mod:findLike>
@@ -2484,7 +2484,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Intervene.</mod:selector>
-        <mod:setValue>Intervene.[FightINFO]Fight(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO] [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(SR: [INFO][NAME]crewMember[/NAME]Gain a crew(Zoltan)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Intervene.[FightINFO][style[color:FF8A33]]Fight[[/style]](CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO] [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(SR: [INFO][NAME]crewMember[/NAME][style[color:00E000]]Gain a crew(Zoltan)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -2496,7 +2496,7 @@
           <mod:selector hidden="true"/>
           <mod:findLike type="text">
             <mod:selector>Continue...</mod:selector>
-            <mod:setValue>Continue...[FightINFO]Fight(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO] [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(SR: [INFO][NAME]crewMember[/NAME]Gain a crew(Zoltan)[/INFO])[/FightINFO]</mod:setValue>
+            <mod:setValue>Continue...[FightINFO][style[color:FF8A33]]Fight[[/style]](CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO] [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(SR: [INFO][NAME]crewMember[/NAME][style[color:00E000]]Gain a crew(Zoltan)[[/style]][/INFO])[/FightINFO]</mod:setValue>
           </mod:findLike>
         </mod:findLike>
       </mod:findLike>
@@ -2507,7 +2507,7 @@
       <mod:selector hidden="true" req="weapons" lvl="6"/>
       <mod:findLike type="text">
         <mod:selector>(Upg. Weapons) Threaten the slavers.</mod:selector>
-        <mod:setValue>(Upg. Weapons) Threaten the slavers.[INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO]</mod:setValue>
+        <mod:setValue>(Upg. Weapons) Threaten the slavers.[INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -2519,7 +2519,7 @@
           <mod:selector hidden="true"/>
           <mod:findLike type="text">
             <mod:selector>Continue...</mod:selector>
-            <mod:setValue>Continue...[INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO]</mod:setValue>
+            <mod:setValue>Continue...[INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO]</mod:setValue>
           </mod:findLike>
         </mod:findLike>
       </mod:findLike>
@@ -2529,7 +2529,7 @@
     <mod:findLike type="choice">
       <mod:findLike type="text">
         <mod:selector>Purchase one of the Zoltan slaves.</mod:selector>
-        <mod:setValue>Purchase one of the Zoltan slaves.[INFO][NAME]crewMember[/NAME]Gain a crew(Zoltan)[/INFO][INFO][NAME]itemModify[/NAME]-55≤~≤-40[/INFO]</mod:setValue>
+        <mod:setValue>Purchase one of the Zoltan slaves.[INFO][NAME]crewMember[/NAME][style[color:00E000]]Gain a crew(Zoltan)[[/style]][/INFO][INFO][NAME]itemModify[/NAME][style[color:E00000]]-55≤~≤-40[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -2538,7 +2538,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Avoid the embassy.</mod:selector>
-        <mod:setValue>Avoid the embassy.[INFO][NAME]storageCheck[/NAME]Storage Check[/INFO]</mod:setValue>
+        <mod:setValue>Avoid the embassy.[INFO][NAME]storageCheck[/NAME][style[color:707070]]Storage Check[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -2549,7 +2549,7 @@
         <mod:findLike type="choice">
           <mod:findLike type="text">
             <mod:selector>Do something onboard the ship.</mod:selector>
-            <mod:setValue>Do something onboard the ship.[INFO][NAME]storageCheck[/NAME]Storage Check[/INFO]</mod:setValue>
+            <mod:setValue>Do something onboard the ship.[INFO][NAME]storageCheck[/NAME][style[color:707070]]Storage Check[[/style]][/INFO]</mod:setValue>
           </mod:findLike>
         </mod:findLike>
       </mod:findLike>
@@ -2560,7 +2560,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Continue...</mod:selector>
-        <mod:setValue>Continue...[FightINFO]Fight(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(SR: [INFO]20% [NAME]autoReward[/NAME]Reward Stuff(R)[/INFO] [INFO]5% [NAME]autoReward[/NAME]Reward Standard(L)[/INFO] [INFO]5% [NAME]crewMember[/NAME]Gain a crew(Leech)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Continue...[FightINFO][style[color:FF8A33]]Fight[[/style]](CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO])(HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(SR: [INFO]20% [NAME]autoReward[/NAME][style[color:00E000]]Reward Stuff(R)[[/style]][/INFO] [INFO]5% [NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(L)[[/style]][/INFO] [INFO]5% [NAME]crewMember[/NAME][style[color:00E000]]Gain a crew(Leech)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -2569,7 +2569,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Continue...</mod:selector>
-        <mod:setValue>Continue...[FightINFO]Fight(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(SR: [INFO]20% [NAME]autoReward[/NAME]Reward Stuff(R)[/INFO] [INFO]5% [NAME]autoReward[/NAME]Reward Standard(L)[/INFO] [INFO]5% [NAME]crewMember[/NAME]Gain a crew(Leech)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Continue...[FightINFO][style[color:FF8A33]]Fight[[/style]](CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO])(HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(SR: [INFO]20% [NAME]autoReward[/NAME][style[color:00E000]]Reward Stuff(R)[[/style]][/INFO] [INFO]5% [NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(L)[[/style]][/INFO] [INFO]5% [NAME]crewMember[/NAME][style[color:00E000]]Gain a crew(Leech)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -2578,7 +2578,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Continue...</mod:selector>
-        <mod:setValue>Continue...[FightINFO]Fight(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(SR: [INFO]20% [NAME]autoReward[/NAME]Reward Stuff(R)[/INFO] [INFO]5% [NAME]autoReward[/NAME]Reward Standard(L)[/INFO] [INFO]5% [NAME]crewMember[/NAME]Gain a crew(Leech)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Continue...[FightINFO][style[color:FF8A33]]Fight[[/style]](CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO])(HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(SR: [INFO]20% [NAME]autoReward[/NAME][style[color:00E000]]Reward Stuff(R)[[/style]][/INFO] [INFO]5% [NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(L)[[/style]][/INFO] [INFO]5% [NAME]crewMember[/NAME][style[color:00E000]]Gain a crew(Leech)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -2587,7 +2587,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Continue...</mod:selector>
-        <mod:setValue>Continue...[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Continue...[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -2596,7 +2596,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Continue...</mod:selector>
-        <mod:setValue>Continue...[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Continue...[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -2605,7 +2605,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Continue...</mod:selector>
-        <mod:setValue>Continue...[FightINFO]Fight(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(SR: [INFO]20% [NAME]autoReward[/NAME]Reward Stuff(R)[/INFO] [INFO]20% [NAME]autoReward[/NAME]Reward } Only(R)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Continue...[FightINFO][style[color:FF8A33]]Fight[[/style]](CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO])(HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(SR: [INFO]20% [NAME]autoReward[/NAME][style[color:00E000]]Reward Stuff(R)[[/style]][/INFO] [INFO]20% [NAME]autoReward[/NAME][style[color:00E000]]Reward } Only(R)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -2614,7 +2614,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Continue...</mod:selector>
-        <mod:setValue>Continue...[FightINFO]Fight(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(SR: [INFO][NAME]autoReward[/NAME]Reward Stuff(R)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Continue...[FightINFO][style[color:FF8A33]]Fight[[/style]](CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO])(HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(SR: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Stuff(R)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -2623,7 +2623,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Continue...</mod:selector>
-        <mod:setValue>Continue...[FightINFO]Fight(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(SR: [INFO][NAME]autoReward[/NAME]Reward Stuff(R)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Continue...[FightINFO][style[color:FF8A33]]Fight[[/style]](CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO])(HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(SR: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Stuff(R)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -2632,7 +2632,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Continue...</mod:selector>
-        <mod:setValue>Continue...[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Continue...[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -2641,7 +2641,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Continue...</mod:selector>
-        <mod:setValue>Continue...[FightINFO]Fight(HK=CK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Leech)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Continue...[FightINFO][style[color:FF8A33]]Fight[[/style]](HK=CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard No Item(H)[[/style]][/INFO] [INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Leech)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -2650,7 +2650,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Follow the ship.</mod:selector>
-        <mod:setValue>Follow the ship.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Follow the ship.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -2662,7 +2662,7 @@
           <mod:selector hidden="true"/>
           <mod:findLike type="text">
             <mod:selector>Continue...</mod:selector>
-            <mod:setValue>Continue...[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])[/FightINFO]</mod:setValue>
+            <mod:setValue>Continue...[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO])[/FightINFO]</mod:setValue>
           </mod:findLike>
         </mod:findLike>
       </mod:findLike>
@@ -2673,7 +2673,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Leave.</mod:selector>
-        <mod:setValue>Leave.[INFO][NAME]storageCheck[/NAME]Storage Check[/INFO]</mod:setValue>
+        <mod:setValue>Leave.[INFO][NAME]storageCheck[/NAME][style[color:707070]]Storage Check[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -2684,7 +2684,7 @@
         <mod:findLike type="choice">
           <mod:findLike type="text">
             <mod:selector>Do something onboard the ship.</mod:selector>
-            <mod:setValue>Do something onboard the ship.[INFO][NAME]storageCheck[/NAME]Storage Check[/INFO]</mod:setValue>
+            <mod:setValue>Do something onboard the ship.[INFO][NAME]storageCheck[/NAME][style[color:707070]]Storage Check[[/style]][/INFO]</mod:setValue>
           </mod:findLike>
         </mod:findLike>
       </mod:findLike>
@@ -2696,7 +2696,7 @@
         <mod:selector hidden="true"/>
         <mod:findLike type="text">
           <mod:selector>Continue...</mod:selector>
-          <mod:setValue>Continue...[INFO][NAME]unlockCustomShip[/NAME]&lt;#&gt;Unlock Ship(Leech)[/INFO]</mod:setValue>
+          <mod:setValue>Continue...[INFO][NAME]unlockCustomShip[/NAME][style[color:00FFFF]]&lt;#&gt;Unlock Ship(Leech)[[/style]][/INFO]</mod:setValue>
         </mod:findLike>
       </mod:findLike>
     </mod:findLike>
@@ -2707,7 +2707,7 @@
         <mod:selector hidden="true"/>
         <mod:findLike type="text">
           <mod:selector>Continue...</mod:selector>
-          <mod:setValue>Continue...[INFO][NAME]unlockCustomShip[/NAME]&lt;#&gt;Unlock Ship(Leech)[/INFO]</mod:setValue>
+          <mod:setValue>Continue...[INFO][NAME]unlockCustomShip[/NAME][style[color:00FFFF]]&lt;#&gt;Unlock Ship(Leech)[[/style]][/INFO]</mod:setValue>
         </mod:findLike>
       </mod:findLike>
     </mod:findLike>
@@ -2717,7 +2717,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Continue...</mod:selector>
-        <mod:setValue>Continue...[FightINFO]Fight(HK=CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO] [INFO][NAME]unlockCustomShip[/NAME]&lt;#&gt;Unlock Ship(Leech)[/INFO])[/FightINFO][INFO][NAME]unlockCustomShip[/NAME]&lt;#&gt;Unlock Ship(Leech)[/INFO]</mod:setValue>
+        <mod:setValue>Continue...[FightINFO][style[color:FF8A33]]Fight[[/style]](HK=CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO] [INFO][NAME]unlockCustomShip[/NAME][style[color:00FFFF]]&lt;#&gt;Unlock Ship(Leech)[[/style]][/INFO])[/FightINFO][INFO][NAME]unlockCustomShip[/NAME][style[color:00FFFF]]&lt;#&gt;Unlock Ship(Leech)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -2729,7 +2729,7 @@
           <mod:selector hidden="true"/>
           <mod:findLike type="text">
             <mod:selector>We can take it on!</mod:selector>
-            <mod:setValue>We can take it on![FightINFO]Fight(HK=CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO] [INFO][NAME]unlockCustomShip[/NAME]&lt;#&gt;Unlock Ship(Leech)[/INFO])[/FightINFO][INFO][NAME]unlockCustomShip[/NAME]&lt;#&gt;Unlock Ship(Leech)[/INFO]</mod:setValue>
+            <mod:setValue>We can take it on![FightINFO][style[color:FF8A33]]Fight[[/style]](HK=CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO] [INFO][NAME]unlockCustomShip[/NAME][style[color:00FFFF]]&lt;#&gt;Unlock Ship(Leech)[[/style]][/INFO])[/FightINFO][INFO][NAME]unlockCustomShip[/NAME][style[color:00FFFF]]&lt;#&gt;Unlock Ship(Leech)[[/style]][/INFO]</mod:setValue>
           </mod:findLike>
         </mod:findLike>
       </mod:findLike>
@@ -2746,7 +2746,7 @@
               <mod:selector hidden="true"/>
               <mod:findLike type="text">
                 <mod:selector>Continue...</mod:selector>
-                <mod:setValue>Continue...[FightINFO]Fight(HK=CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO] [INFO][NAME]unlockCustomShip[/NAME]&lt;#&gt;Unlock Ship(Leech)[/INFO])[/FightINFO][INFO][NAME]unlockCustomShip[/NAME]&lt;#&gt;Unlock Ship(Leech)[/INFO]</mod:setValue>
+                <mod:setValue>Continue...[FightINFO][style[color:FF8A33]]Fight[[/style]](HK=CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO] [INFO][NAME]unlockCustomShip[/NAME][style[color:00FFFF]]&lt;#&gt;Unlock Ship(Leech)[[/style]][/INFO])[/FightINFO][INFO][NAME]unlockCustomShip[/NAME][style[color:00FFFF]]&lt;#&gt;Unlock Ship(Leech)[[/style]][/INFO]</mod:setValue>
               </mod:findLike>
             </mod:findLike>
           </mod:findLike>
@@ -2759,7 +2759,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Continue...</mod:selector>
-        <mod:setValue>Continue...[INFO][NAME]unlockCustomShip[/NAME]&lt;#&gt;Unlock Ship(Leech)[/INFO]</mod:setValue>
+        <mod:setValue>Continue...[INFO][NAME]unlockCustomShip[/NAME][style[color:00FFFF]]&lt;#&gt;Unlock Ship(Leech)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -2771,7 +2771,7 @@
           <mod:selector hidden="true"/>
           <mod:findLike type="text">
             <mod:selector>Your time is up, Tyrdeo!</mod:selector>
-            <mod:setValue>Your time is up, Tyrdeo![INFO][NAME]unlockCustomShip[/NAME]&lt;#&gt;Unlock Ship(Leech)[/INFO]</mod:setValue>
+            <mod:setValue>Your time is up, Tyrdeo![INFO][NAME]unlockCustomShip[/NAME][style[color:00FFFF]]&lt;#&gt;Unlock Ship(Leech)[[/style]][/INFO]</mod:setValue>
           </mod:findLike>
         </mod:findLike>
       </mod:findLike>
@@ -2788,7 +2788,7 @@
               <mod:selector hidden="true"/>
               <mod:findLike type="text">
                 <mod:selector>We aren't hitmen - you'll answer for your crimes in front of your people.</mod:selector>
-                <mod:setValue>We aren't hitmen - you'll answer for your crimes in front of your people.[INFO][NAME]unlockCustomShip[/NAME]&lt;#&gt;Unlock Ship(Leech)[/INFO][INFO][NAME]autoReward[/NAME]Reward Stuff(H)[/INFO]</mod:setValue>
+                <mod:setValue>We aren't hitmen - you'll answer for your crimes in front of your people.[INFO][NAME]unlockCustomShip[/NAME][style[color:00FFFF]]&lt;#&gt;Unlock Ship(Leech)[[/style]][/INFO][INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Stuff(H)[[/style]][/INFO]</mod:setValue>
               </mod:findLike>
             </mod:findLike>
           </mod:findLike>
@@ -2810,7 +2810,7 @@
                   <mod:selector hidden="true"/>
                   <mod:findLike type="text">
                     <mod:selector>Continue...</mod:selector>
-                    <mod:setValue>Continue...[INFO][NAME]crewMember[/NAME]Gain a crew(Unique Alkram)[/INFO][INFO][NAME]crewMember[/NAME]Gain a crew(Unique Tyrdeo)[/INFO][INFO][NAME]crewMember[/NAME]Gain a crew(Unique Tyrdeo Bird)[/INFO]</mod:setValue>
+                    <mod:setValue>Continue...[INFO][NAME]crewMember[/NAME][style[color:00E000]]Gain a crew(Unique Alkram)[[/style]][/INFO][INFO][NAME]crewMember[/NAME][style[color:00E000]]Gain a crew(Unique Tyrdeo)[[/style]][/INFO][INFO][NAME]crewMember[/NAME][style[color:00E000]]Gain a crew(Unique Tyrdeo Bird)[[/style]][/INFO]</mod:setValue>
                   </mod:findLike>
                 </mod:findLike>
               </mod:findLike>
@@ -2837,7 +2837,7 @@
                       <mod:selector hidden="true"/>
                       <mod:findLike type="text">
                         <mod:selector>Continue...</mod:selector>
-                        <mod:setValue>Continue...[INFO][NAME]crewMember[/NAME]Gain a crew(Unique Alkram)[/INFO][INFO][NAME]crewMember[/NAME]Gain a crew(Unique Tyrdeo)[/INFO][INFO][NAME]crewMember[/NAME]Gain a crew(Unique Tyrdeo Bird)[/INFO]</mod:setValue>
+                        <mod:setValue>Continue...[INFO][NAME]crewMember[/NAME][style[color:00E000]]Gain a crew(Unique Alkram)[[/style]][/INFO][INFO][NAME]crewMember[/NAME][style[color:00E000]]Gain a crew(Unique Tyrdeo)[[/style]][/INFO][INFO][NAME]crewMember[/NAME][style[color:00E000]]Gain a crew(Unique Tyrdeo Bird)[[/style]][/INFO]</mod:setValue>
                       </mod:findLike>
                     </mod:findLike>
                   </mod:findLike>
@@ -2869,7 +2869,7 @@
                           <mod:selector hidden="true"/>
                           <mod:findLike type="text">
                             <mod:selector>You had your chance. You get what's coming to you.</mod:selector>
-                            <mod:setValue>You had your chance. You get what's coming to you.[INFO][NAME]crewMember[/NAME]Gain a crew(Unique Alkram)[/INFO]</mod:setValue>
+                            <mod:setValue>You had your chance. You get what's coming to you.[INFO][NAME]crewMember[/NAME][style[color:00E000]]Gain a crew(Unique Alkram)[[/style]][/INFO]</mod:setValue>
                           </mod:findLike>
                         </mod:findLike>
                       </mod:findLike>
@@ -2906,7 +2906,7 @@
                               <mod:selector hidden="true"/>
                               <mod:findLike type="text">
                                 <mod:selector>Continue...</mod:selector>
-                                <mod:setValue>Continue...[INFO][NAME]crewMember[/NAME]Gain a crew(Unique Alkram)[/INFO]</mod:setValue>
+                                <mod:setValue>Continue...[INFO][NAME]crewMember[/NAME][style[color:00E000]]Gain a crew(Unique Alkram)[[/style]][/INFO]</mod:setValue>
                               </mod:findLike>
                             </mod:findLike>
                           </mod:findLike>
@@ -2948,7 +2948,7 @@
                                   <mod:selector hidden="true"/>
                                   <mod:findLike type="text">
                                     <mod:selector>Continue...</mod:selector>
-                                    <mod:setValue>Continue...[INFO][NAME]crewMember[/NAME]Gain a crew(Unique Alkram)[/INFO]</mod:setValue>
+                                    <mod:setValue>Continue...[INFO][NAME]crewMember[/NAME][style[color:00E000]]Gain a crew(Unique Alkram)[[/style]][/INFO]</mod:setValue>
                                   </mod:findLike>
                                 </mod:findLike>
                               </mod:findLike>
@@ -2986,7 +2986,7 @@
                           <mod:selector hidden="true"/>
                           <mod:findLike type="text">
                             <mod:selector>This seems a bit excessive. Maybe he doesn't deserve this?</mod:selector>
-                            <mod:setValue>This seems a bit excessive. Maybe he doesn't deserve this?[INFO][NAME]crewMember[/NAME]Gain a crew(Unique Tyrdeo)[/INFO][INFO][NAME]crewMember[/NAME]Gain a crew(Unique Tyrdeo Bird)[/INFO]</mod:setValue>
+                            <mod:setValue>This seems a bit excessive. Maybe he doesn't deserve this?[INFO][NAME]crewMember[/NAME][style[color:00E000]]Gain a crew(Unique Tyrdeo)[[/style]][/INFO][INFO][NAME]crewMember[/NAME][style[color:00E000]]Gain a crew(Unique Tyrdeo Bird)[[/style]][/INFO]</mod:setValue>
                           </mod:findLike>
                         </mod:findLike>
                       </mod:findLike>
@@ -3023,7 +3023,7 @@
                               <mod:selector hidden="true"/>
                               <mod:findLike type="text">
                                 <mod:selector>Throne? So you're going to be king after him?</mod:selector>
-                                <mod:setValue>Throne? So you're going to be king after him?[INFO][NAME]crewMember[/NAME]Gain a crew(Unique Tyrdeo)[/INFO][INFO][NAME]crewMember[/NAME]Gain a crew(Unique Tyrdeo Bird)[/INFO]</mod:setValue>
+                                <mod:setValue>Throne? So you're going to be king after him?[INFO][NAME]crewMember[/NAME][style[color:00E000]]Gain a crew(Unique Tyrdeo)[[/style]][/INFO][INFO][NAME]crewMember[/NAME][style[color:00E000]]Gain a crew(Unique Tyrdeo Bird)[[/style]][/INFO]</mod:setValue>
                               </mod:findLike>
                             </mod:findLike>
                           </mod:findLike>
@@ -3065,7 +3065,7 @@
                                   <mod:selector hidden="true"/>
                                   <mod:findLike type="text">
                                     <mod:selector>Continue...</mod:selector>
-                                    <mod:setValue>Continue...[INFO][NAME]crewMember[/NAME]Gain a crew(Unique Tyrdeo Bird)[/INFO]</mod:setValue>
+                                    <mod:setValue>Continue...[INFO][NAME]crewMember[/NAME][style[color:00E000]]Gain a crew(Unique Tyrdeo Bird)[[/style]][/INFO]</mod:setValue>
                                   </mod:findLike>
                                 </mod:findLike>
                               </mod:findLike>
@@ -3094,7 +3094,7 @@
               <mod:selector hidden="true"/>
               <mod:findLike type="text">
                 <mod:selector>Kill him.</mod:selector>
-                <mod:setValue>Kill him.[INFO][NAME]autoReward[/NAME]Reward Item(M)[/INFO]</mod:setValue>
+                <mod:setValue>Kill him.[INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Item(M)[[/style]][/INFO]</mod:setValue>
               </mod:findLike>
             </mod:findLike>
           </mod:findLike>
@@ -3107,7 +3107,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Wait and see what it'll do.</mod:selector>
-        <mod:setValue>Wait and see what it'll do.[FightINFO]Fight(HK=CK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Rock)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Wait and see what it'll do.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK=CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard No Item(H)[[/style]][/INFO] [INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Rock)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -3119,7 +3119,7 @@
           <mod:selector hidden="true"/>
           <mod:findLike type="text">
             <mod:selector>Listen.</mod:selector>
-            <mod:setValue>Listen.[FightINFO]Fight(HK=CK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Rock)[/INFO])[/FightINFO]</mod:setValue>
+            <mod:setValue>Listen.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK=CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard No Item(H)[[/style]][/INFO] [INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Rock)[[/style]][/INFO])[/FightINFO]</mod:setValue>
           </mod:findLike>
         </mod:findLike>
       </mod:findLike>
@@ -3136,7 +3136,7 @@
               <mod:selector hidden="true"/>
               <mod:findLike type="text">
                 <mod:selector>Refuse.</mod:selector>
-                <mod:setValue>Refuse.[FightINFO]Fight(HK=CK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Rock)[/INFO])[/FightINFO]</mod:setValue>
+                <mod:setValue>Refuse.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK=CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard No Item(H)[[/style]][/INFO] [INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Rock)[[/style]][/INFO])[/FightINFO]</mod:setValue>
               </mod:findLike>
             </mod:findLike>
           </mod:findLike>
@@ -3158,7 +3158,7 @@
                   <mod:selector hidden="true"/>
                   <mod:findLike type="text">
                     <mod:selector>Continue...</mod:selector>
-                    <mod:setValue>Continue...[FightINFO]Fight(HK=CK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Rock)[/INFO])[/FightINFO]</mod:setValue>
+                    <mod:setValue>Continue...[FightINFO][style[color:FF8A33]]Fight[[/style]](HK=CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard No Item(H)[[/style]][/INFO] [INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Rock)[[/style]][/INFO])[/FightINFO]</mod:setValue>
                   </mod:findLike>
                 </mod:findLike>
               </mod:findLike>
@@ -3176,7 +3176,7 @@
           <mod:selector hidden="true"/>
           <mod:findLike type="text">
             <mod:selector>No thanks buddy.</mod:selector>
-            <mod:setValue>No thanks buddy.[FightINFO]Fight(HK=CK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Rock)[/INFO])[/FightINFO]</mod:setValue>
+            <mod:setValue>No thanks buddy.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK=CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard No Item(H)[[/style]][/INFO] [INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Rock)[[/style]][/INFO])[/FightINFO]</mod:setValue>
           </mod:findLike>
         </mod:findLike>
       </mod:findLike>
@@ -3193,7 +3193,7 @@
               <mod:selector hidden="true"/>
               <mod:findLike type="text">
                 <mod:selector>Continue...</mod:selector>
-                <mod:setValue>Continue...[FightINFO]Fight(HK=CK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Rock)[/INFO])[/FightINFO]</mod:setValue>
+                <mod:setValue>Continue...[FightINFO][style[color:FF8A33]]Fight[[/style]](HK=CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard No Item(H)[[/style]][/INFO] [INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Rock)[[/style]][/INFO])[/FightINFO]</mod:setValue>
               </mod:findLike>
             </mod:findLike>
           </mod:findLike>
@@ -3206,7 +3206,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Attack pre-emptively!</mod:selector>
-        <mod:setValue>Attack pre-emptively![FightINFO]Fight(HK=CK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Rock)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Attack pre-emptively![FightINFO][style[color:FF8A33]]Fight[[/style]](HK=CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard No Item(H)[[/style]][/INFO] [INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Rock)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -3218,7 +3218,7 @@
           <mod:selector hidden="true"/>
           <mod:findLike type="text">
             <mod:selector>Continue...</mod:selector>
-            <mod:setValue>Continue...[FightINFO]Fight(HK=CK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Rock)[/INFO])[/FightINFO]</mod:setValue>
+            <mod:setValue>Continue...[FightINFO][style[color:FF8A33]]Fight[[/style]](HK=CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard No Item(H)[[/style]][/INFO] [INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Rock)[[/style]][/INFO])[/FightINFO]</mod:setValue>
           </mod:findLike>
         </mod:findLike>
       </mod:findLike>
@@ -3229,7 +3229,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Fly away quickly.</mod:selector>
-        <mod:setValue>Fly away quickly.[INFO][NAME]storageCheck[/NAME]Storage Check[/INFO]</mod:setValue>
+        <mod:setValue>Fly away quickly.[INFO][NAME]storageCheck[/NAME][style[color:707070]]Storage Check[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -3240,7 +3240,7 @@
         <mod:findLike type="choice">
           <mod:findLike type="text">
             <mod:selector>Do something onboard the ship.</mod:selector>
-            <mod:setValue>Do something onboard the ship.[INFO][NAME]storageCheck[/NAME]Storage Check[/INFO]</mod:setValue>
+            <mod:setValue>Do something onboard the ship.[INFO][NAME]storageCheck[/NAME][style[color:707070]]Storage Check[[/style]][/INFO]</mod:setValue>
           </mod:findLike>
         </mod:findLike>
       </mod:findLike>
@@ -3251,7 +3251,7 @@
       <mod:selector req="unique_alkram"/>
       <mod:findLike type="text">
         <mod:selector>(Alkram) Hail the revolutionaries to plan an ambush.</mod:selector>
-        <mod:setValue>(Alkram) Hail the revolutionaries to plan an ambush.[FightINFO]Fight(HK=CK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO] [INFO][NAME]unlockCustomShip[/NAME]&lt;#&gt;Unlock Ship(Alkram)[/INFO] [INFO][NAME]autoReward[/NAME]Reward Stuff(H)[/INFO])[/FightINFO][INFO][NAME]unlockCustomShip[/NAME]&lt;#&gt;Unlock Ship(Alkram)[/INFO]</mod:setValue>
+        <mod:setValue>(Alkram) Hail the revolutionaries to plan an ambush.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK=CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard No Item(H)[[/style]][/INFO] [INFO][NAME]unlockCustomShip[/NAME][style[color:00FFFF]]&lt;#&gt;Unlock Ship(Alkram)[[/style]][/INFO] [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Stuff(H)[[/style]][/INFO])[/FightINFO][INFO][NAME]unlockCustomShip[/NAME][style[color:00FFFF]]&lt;#&gt;Unlock Ship(Alkram)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -3262,7 +3262,7 @@
         <mod:findLike type="choice">
           <mod:findLike type="text">
             <mod:selector>Signal the Paladins.</mod:selector>
-            <mod:setValue>Signal the Paladins.[FightINFO]Fight(HK=CK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO] [INFO][NAME]unlockCustomShip[/NAME]&lt;#&gt;Unlock Ship(Alkram)[/INFO] [INFO][NAME]autoReward[/NAME]Reward Stuff(H)[/INFO])[/FightINFO][INFO][NAME]unlockCustomShip[/NAME]&lt;#&gt;Unlock Ship(Alkram)[/INFO]</mod:setValue>
+            <mod:setValue>Signal the Paladins.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK=CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard No Item(H)[[/style]][/INFO] [INFO][NAME]unlockCustomShip[/NAME][style[color:00FFFF]]&lt;#&gt;Unlock Ship(Alkram)[[/style]][/INFO] [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Stuff(H)[[/style]][/INFO])[/FightINFO][INFO][NAME]unlockCustomShip[/NAME][style[color:00FFFF]]&lt;#&gt;Unlock Ship(Alkram)[[/style]][/INFO]</mod:setValue>
           </mod:findLike>
         </mod:findLike>
       </mod:findLike>
@@ -3273,7 +3273,7 @@
       <mod:selector req="unique_ariadne"/>
       <mod:findLike type="text">
         <mod:selector>(Ariadne) Hail the revolutionaries to plan an ambush.</mod:selector>
-        <mod:setValue>(Ariadne) Hail the revolutionaries to plan an ambush.[FightINFO]Fight(HK=CK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO] [INFO][NAME]unlockCustomShip[/NAME]&lt;#&gt;Unlock Ship(Alkram)[/INFO] [INFO][NAME]autoReward[/NAME]Reward Stuff(H)[/INFO])[/FightINFO][INFO][NAME]unlockCustomShip[/NAME]&lt;#&gt;Unlock Ship(Alkram)[/INFO]</mod:setValue>
+        <mod:setValue>(Ariadne) Hail the revolutionaries to plan an ambush.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK=CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard No Item(H)[[/style]][/INFO] [INFO][NAME]unlockCustomShip[/NAME][style[color:00FFFF]]&lt;#&gt;Unlock Ship(Alkram)[[/style]][/INFO] [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Stuff(H)[[/style]][/INFO])[/FightINFO][INFO][NAME]unlockCustomShip[/NAME][style[color:00FFFF]]&lt;#&gt;Unlock Ship(Alkram)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -3284,7 +3284,7 @@
         <mod:findLike type="choice">
           <mod:findLike type="text">
             <mod:selector>Signal the Paladins.</mod:selector>
-            <mod:setValue>Signal the Paladins.[FightINFO]Fight(HK=CK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO] [INFO][NAME]unlockCustomShip[/NAME]&lt;#&gt;Unlock Ship(Alkram)[/INFO] [INFO][NAME]autoReward[/NAME]Reward Stuff(H)[/INFO])[/FightINFO][INFO][NAME]unlockCustomShip[/NAME]&lt;#&gt;Unlock Ship(Alkram)[/INFO]</mod:setValue>
+            <mod:setValue>Signal the Paladins.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK=CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard No Item(H)[[/style]][/INFO] [INFO][NAME]unlockCustomShip[/NAME][style[color:00FFFF]]&lt;#&gt;Unlock Ship(Alkram)[[/style]][/INFO] [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Stuff(H)[[/style]][/INFO])[/FightINFO][INFO][NAME]unlockCustomShip[/NAME][style[color:00FFFF]]&lt;#&gt;Unlock Ship(Alkram)[[/style]][/INFO]</mod:setValue>
           </mod:findLike>
         </mod:findLike>
       </mod:findLike>
@@ -3294,7 +3294,7 @@
     <mod:findLike type="choice">
       <mod:findLike type="text">
         <mod:selector>Follow the coordinates.</mod:selector>
-        <mod:setValue>Follow the coordinates.[FightINFO]Fight(HK=CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO] [INFO][NAME]unlockCustomShip[/NAME]&lt;#&gt;Unlock Ship(Alkram)[/INFO])[/FightINFO][INFO][NAME]unlockCustomShip[/NAME]&lt;#&gt;Unlock Ship(Alkram)[/INFO]</mod:setValue>
+        <mod:setValue>Follow the coordinates.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK=CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO] [INFO][NAME]unlockCustomShip[/NAME][style[color:00FFFF]]&lt;#&gt;Unlock Ship(Alkram)[[/style]][/INFO])[/FightINFO][INFO][NAME]unlockCustomShip[/NAME][style[color:00FFFF]]&lt;#&gt;Unlock Ship(Alkram)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -3303,7 +3303,7 @@
       <mod:selector hidden="true" req="unique_alkram" max_lvl="0" lvl="0" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Attack the cruiser!</mod:selector>
-        <mod:setValue>Attack the cruiser![FightINFO]Fight(HK=CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO] [INFO][NAME]unlockCustomShip[/NAME]&lt;#&gt;Unlock Ship(Alkram)[/INFO])[/FightINFO][INFO][NAME]unlockCustomShip[/NAME]&lt;#&gt;Unlock Ship(Alkram)[/INFO]</mod:setValue>
+        <mod:setValue>Attack the cruiser![FightINFO][style[color:FF8A33]]Fight[[/style]](HK=CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO] [INFO][NAME]unlockCustomShip[/NAME][style[color:00FFFF]]&lt;#&gt;Unlock Ship(Alkram)[[/style]][/INFO])[/FightINFO][INFO][NAME]unlockCustomShip[/NAME][style[color:00FFFF]]&lt;#&gt;Unlock Ship(Alkram)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -3315,7 +3315,7 @@
           <mod:selector hidden="true"/>
           <mod:findLike type="text">
             <mod:selector>Continue...</mod:selector>
-            <mod:setValue>Continue...[FightINFO]Fight(HK=CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO] [INFO][NAME]unlockCustomShip[/NAME]&lt;#&gt;Unlock Ship(Alkram)[/INFO])[/FightINFO][INFO][NAME]unlockCustomShip[/NAME]&lt;#&gt;Unlock Ship(Alkram)[/INFO]</mod:setValue>
+            <mod:setValue>Continue...[FightINFO][style[color:FF8A33]]Fight[[/style]](HK=CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO] [INFO][NAME]unlockCustomShip[/NAME][style[color:00FFFF]]&lt;#&gt;Unlock Ship(Alkram)[[/style]][/INFO])[/FightINFO][INFO][NAME]unlockCustomShip[/NAME][style[color:00FFFF]]&lt;#&gt;Unlock Ship(Alkram)[[/style]][/INFO]</mod:setValue>
           </mod:findLike>
         </mod:findLike>
       </mod:findLike>
@@ -3326,7 +3326,7 @@
       <mod:selector hidden="true" req="unique_alkram" lvl="1" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Attack the cruiser!</mod:selector>
-        <mod:setValue>Attack the cruiser![FightINFO]Fight(HK=CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO] [INFO][NAME]unlockCustomShip[/NAME]&lt;#&gt;Unlock Ship(Alkram)[/INFO])[/FightINFO][INFO][NAME]unlockCustomShip[/NAME]&lt;#&gt;Unlock Ship(Alkram)[/INFO]</mod:setValue>
+        <mod:setValue>Attack the cruiser![FightINFO][style[color:FF8A33]]Fight[[/style]](HK=CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO] [INFO][NAME]unlockCustomShip[/NAME][style[color:00FFFF]]&lt;#&gt;Unlock Ship(Alkram)[[/style]][/INFO])[/FightINFO][INFO][NAME]unlockCustomShip[/NAME][style[color:00FFFF]]&lt;#&gt;Unlock Ship(Alkram)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -3338,7 +3338,7 @@
           <mod:selector hidden="true"/>
           <mod:findLike type="text">
             <mod:selector>Continue...</mod:selector>
-            <mod:setValue>Continue...[FightINFO]Fight(HK=CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO] [INFO][NAME]unlockCustomShip[/NAME]&lt;#&gt;Unlock Ship(Alkram)[/INFO])[/FightINFO][INFO][NAME]unlockCustomShip[/NAME]&lt;#&gt;Unlock Ship(Alkram)[/INFO]</mod:setValue>
+            <mod:setValue>Continue...[FightINFO][style[color:FF8A33]]Fight[[/style]](HK=CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO] [INFO][NAME]unlockCustomShip[/NAME][style[color:00FFFF]]&lt;#&gt;Unlock Ship(Alkram)[[/style]][/INFO])[/FightINFO][INFO][NAME]unlockCustomShip[/NAME][style[color:00FFFF]]&lt;#&gt;Unlock Ship(Alkram)[[/style]][/INFO]</mod:setValue>
           </mod:findLike>
         </mod:findLike>
       </mod:findLike>
@@ -3349,7 +3349,7 @@
       <mod:selector blue="false" req="pilot" lvl="1"/>
       <mod:findLike type="text">
         <mod:selector>Leave.</mod:selector>
-        <mod:setValue>Leave.[INFO][NAME]storageCheck[/NAME]Storage Check[/INFO]</mod:setValue>
+        <mod:setValue>Leave.[INFO][NAME]storageCheck[/NAME][style[color:707070]]Storage Check[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -3360,7 +3360,7 @@
         <mod:findLike type="choice">
           <mod:findLike type="text">
             <mod:selector>Do something onboard the ship.</mod:selector>
-            <mod:setValue>Do something onboard the ship.[INFO][NAME]storageCheck[/NAME]Storage Check[/INFO]</mod:setValue>
+            <mod:setValue>Do something onboard the ship.[INFO][NAME]storageCheck[/NAME][style[color:707070]]Storage Check[[/style]][/INFO]</mod:setValue>
           </mod:findLike>
         </mod:findLike>
       </mod:findLike>
@@ -3371,7 +3371,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Hail Gora.</mod:selector>
-        <mod:setValue>Hail Gora.[INFO][NAME]unlockCustomShip[/NAME]&lt;#&gt;Unlock Ship(Alkram)[/INFO]</mod:setValue>
+        <mod:setValue>Hail Gora.[INFO][NAME]unlockCustomShip[/NAME][style[color:00FFFF]]&lt;#&gt;Unlock Ship(Alkram)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -3383,7 +3383,7 @@
           <mod:selector hidden="true"/>
           <mod:findLike type="text">
             <mod:selector>Grab as many supplies as you can!</mod:selector>
-            <mod:setValue>Grab as many supplies as you can![INFO][NAME]autoReward[/NAME]Reward Stuff(H)[/INFO]</mod:setValue>
+            <mod:setValue>Grab as many supplies as you can![INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Stuff(H)[[/style]][/INFO]</mod:setValue>
           </mod:findLike>
         </mod:findLike>
       </mod:findLike>
@@ -3397,7 +3397,7 @@
           <mod:selector hidden="true"/>
           <mod:findLike type="text">
             <mod:selector>Grab one of the weapons!</mod:selector>
-            <mod:setValue>Grab one of the weapons![INFO][NAME]weapon[/NAME]Gain a weapon(Random)[/INFO]</mod:setValue>
+            <mod:setValue>Grab one of the weapons![INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Random)[[/style]][/INFO]</mod:setValue>
           </mod:findLike>
         </mod:findLike>
       </mod:findLike>
@@ -3411,7 +3411,7 @@
           <mod:selector hidden="true"/>
           <mod:findLike type="text">
             <mod:selector>Grab one of the survivors!</mod:selector>
-            <mod:setValue>Grab one of the survivors![INFO][NAME]crewMember[/NAME]Gain a crew(Leech Ampere)[/INFO]</mod:setValue>
+            <mod:setValue>Grab one of the survivors![INFO][NAME]crewMember[/NAME][style[color:00E000]]Gain a crew(Leech Ampere)[[/style]][/INFO]</mod:setValue>
           </mod:findLike>
         </mod:findLike>
       </mod:findLike>
@@ -3421,7 +3421,7 @@
     <mod:findLike type="choice">
       <mod:findLike type="text">
         <mod:selector>The Revolutionaries hail you as you prepare for battle.</mod:selector>
-        <mod:setValue>The Revolutionaries hail you as you prepare for battle.[FightINFO]Fight(HK=CK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO] [INFO][NAME]unlockCustomShip[/NAME]&lt;#&gt;Unlock Ship(Alkram)[/INFO] [INFO][NAME]autoReward[/NAME]Reward Stuff(H)[/INFO])[/FightINFO][INFO][NAME]unlockCustomShip[/NAME]&lt;#&gt;Unlock Ship(Alkram)[/INFO]</mod:setValue>
+        <mod:setValue>The Revolutionaries hail you as you prepare for battle.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK=CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard No Item(H)[[/style]][/INFO] [INFO][NAME]unlockCustomShip[/NAME][style[color:00FFFF]]&lt;#&gt;Unlock Ship(Alkram)[[/style]][/INFO] [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Stuff(H)[[/style]][/INFO])[/FightINFO][INFO][NAME]unlockCustomShip[/NAME][style[color:00FFFF]]&lt;#&gt;Unlock Ship(Alkram)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -3431,7 +3431,7 @@
         <mod:findLike type="choice">
           <mod:findLike type="text">
             <mod:selector>Fire support.</mod:selector>
-            <mod:setValue>Fire support.[FightINFO]Fight(HK=CK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO] [INFO][NAME]unlockCustomShip[/NAME]&lt;#&gt;Unlock Ship(Alkram)[/INFO] [INFO][NAME]autoReward[/NAME]Reward Stuff(H)[/INFO])[/FightINFO][INFO][NAME]unlockCustomShip[/NAME]&lt;#&gt;Unlock Ship(Alkram)[/INFO]</mod:setValue>
+            <mod:setValue>Fire support.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK=CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard No Item(H)[[/style]][/INFO] [INFO][NAME]unlockCustomShip[/NAME][style[color:00FFFF]]&lt;#&gt;Unlock Ship(Alkram)[[/style]][/INFO] [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Stuff(H)[[/style]][/INFO])[/FightINFO][INFO][NAME]unlockCustomShip[/NAME][style[color:00FFFF]]&lt;#&gt;Unlock Ship(Alkram)[[/style]][/INFO]</mod:setValue>
           </mod:findLike>
         </mod:findLike>
       </mod:findLike>
@@ -3446,7 +3446,7 @@
               <mod:selector hidden="true"/>
               <mod:findLike type="text">
                 <mod:selector>Continue...</mod:selector>
-                <mod:setValue>Continue...[FightINFO]Fight(HK=CK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO] [INFO][NAME]unlockCustomShip[/NAME]&lt;#&gt;Unlock Ship(Alkram)[/INFO] [INFO][NAME]autoReward[/NAME]Reward Stuff(H)[/INFO])[/FightINFO][INFO][NAME]unlockCustomShip[/NAME]&lt;#&gt;Unlock Ship(Alkram)[/INFO]</mod:setValue>
+                <mod:setValue>Continue...[FightINFO][style[color:FF8A33]]Fight[[/style]](HK=CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard No Item(H)[[/style]][/INFO] [INFO][NAME]unlockCustomShip[/NAME][style[color:00FFFF]]&lt;#&gt;Unlock Ship(Alkram)[[/style]][/INFO] [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Stuff(H)[[/style]][/INFO])[/FightINFO][INFO][NAME]unlockCustomShip[/NAME][style[color:00FFFF]]&lt;#&gt;Unlock Ship(Alkram)[[/style]][/INFO]</mod:setValue>
               </mod:findLike>
             </mod:findLike>
           </mod:findLike>
@@ -3460,7 +3460,7 @@
         <mod:findLike type="choice">
           <mod:findLike type="text">
             <mod:selector>Drain reactor.</mod:selector>
-            <mod:setValue>Drain reactor.[FightINFO]Fight(HK=CK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO] [INFO][NAME]unlockCustomShip[/NAME]&lt;#&gt;Unlock Ship(Alkram)[/INFO] [INFO][NAME]autoReward[/NAME]Reward Stuff(H)[/INFO])[/FightINFO][INFO][NAME]unlockCustomShip[/NAME]&lt;#&gt;Unlock Ship(Alkram)[/INFO]</mod:setValue>
+            <mod:setValue>Drain reactor.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK=CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard No Item(H)[[/style]][/INFO] [INFO][NAME]unlockCustomShip[/NAME][style[color:00FFFF]]&lt;#&gt;Unlock Ship(Alkram)[[/style]][/INFO] [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Stuff(H)[[/style]][/INFO])[/FightINFO][INFO][NAME]unlockCustomShip[/NAME][style[color:00FFFF]]&lt;#&gt;Unlock Ship(Alkram)[[/style]][/INFO]</mod:setValue>
           </mod:findLike>
         </mod:findLike>
       </mod:findLike>
@@ -3475,7 +3475,7 @@
               <mod:selector hidden="true"/>
               <mod:findLike type="text">
                 <mod:selector>Continue...</mod:selector>
-                <mod:setValue>Continue...[FightINFO]Fight(HK=CK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO] [INFO][NAME]unlockCustomShip[/NAME]&lt;#&gt;Unlock Ship(Alkram)[/INFO] [INFO][NAME]autoReward[/NAME]Reward Stuff(H)[/INFO])[/FightINFO][INFO][NAME]unlockCustomShip[/NAME]&lt;#&gt;Unlock Ship(Alkram)[/INFO]</mod:setValue>
+                <mod:setValue>Continue...[FightINFO][style[color:FF8A33]]Fight[[/style]](HK=CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard No Item(H)[[/style]][/INFO] [INFO][NAME]unlockCustomShip[/NAME][style[color:00FFFF]]&lt;#&gt;Unlock Ship(Alkram)[[/style]][/INFO] [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Stuff(H)[[/style]][/INFO])[/FightINFO][INFO][NAME]unlockCustomShip[/NAME][style[color:00FFFF]]&lt;#&gt;Unlock Ship(Alkram)[[/style]][/INFO]</mod:setValue>
               </mod:findLike>
             </mod:findLike>
           </mod:findLike>
@@ -3488,7 +3488,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Contact the Leeches.</mod:selector>
-        <mod:setValue>Contact the Leeches.[INFO][NAME]unlockCustomShip[/NAME]&lt;#&gt;Unlock Ship(Alkram)[/INFO][INFO][NAME]autoReward[/NAME]Reward Stuff(H)[/INFO]</mod:setValue>
+        <mod:setValue>Contact the Leeches.[INFO][NAME]unlockCustomShip[/NAME][style[color:00FFFF]]&lt;#&gt;Unlock Ship(Alkram)[[/style]][/INFO][INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Stuff(H)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -3499,7 +3499,7 @@
         <mod:findLike type="choice">
           <mod:findLike type="text">
             <mod:selector>Accept a weapon.</mod:selector>
-            <mod:setValue>Accept a weapon.[INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Leech)[/INFO]</mod:setValue>
+            <mod:setValue>Accept a weapon.[INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Leech)[[/style]][/INFO]</mod:setValue>
           </mod:findLike>
         </mod:findLike>
       </mod:findLike>
@@ -3512,7 +3512,7 @@
         <mod:findLike type="choice">
           <mod:findLike type="text">
             <mod:selector>Accept a prisoner.</mod:selector>
-            <mod:setValue>Accept a prisoner.[INFO][NAME]crewMember[/NAME]Gain a crew(Leech Ampere)[/INFO]</mod:setValue>
+            <mod:setValue>Accept a prisoner.[INFO][NAME]crewMember[/NAME][style[color:00E000]]Gain a crew(Leech Ampere)[[/style]][/INFO]</mod:setValue>
           </mod:findLike>
         </mod:findLike>
       </mod:findLike>

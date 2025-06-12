@@ -4,7 +4,7 @@
       <mod:selector req="MAGNET_ARM"/>
       <mod:findLike type="text">
         <mod:selector>(Magnet Arm) Salvage the wreck further.</mod:selector>
-        <mod:setValue>(Magnet Arm) Salvage the wreck further.[INFO][NAME]autoReward[/NAME]Reward Standard(L)[/INFO]</mod:setValue>
+        <mod:setValue>(Magnet Arm) Salvage the wreck further.[INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(L)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -13,7 +13,7 @@
       <mod:selector req="MAGNET_ARM"/>
       <mod:findLike type="text">
         <mod:selector>(Magnet Arm) Salvage the wreck further.</mod:selector>
-        <mod:setValue>(Magnet Arm) Salvage the wreck further.[INFO][NAME]autoReward[/NAME]Reward Standard(L)[/INFO]</mod:setValue>
+        <mod:setValue>(Magnet Arm) Salvage the wreck further.[INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(L)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -21,7 +21,7 @@
     <mod:findLike type="choice">
       <mod:findLike type="text">
         <mod:selector>Accept their surrender.</mod:selector>
-        <mod:setValue>Accept their surrender.[INFO][NAME]autoReward[/NAME]Reward Stuff(R)[/INFO]</mod:setValue>
+        <mod:setValue>Accept their surrender.[INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Stuff(R)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -29,7 +29,7 @@
     <mod:findLike type="choice">
       <mod:findLike type="text">
         <mod:selector>Accept their surrender.</mod:selector>
-        <mod:setValue>Accept their surrender.[INFO][NAME]autoReward[/NAME]Reward Stuff(R)[/INFO]</mod:setValue>
+        <mod:setValue>Accept their surrender.[INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Stuff(R)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -37,7 +37,7 @@
     <mod:findLike type="choice">
       <mod:findLike type="text">
         <mod:selector>Accept their surrender.</mod:selector>
-        <mod:setValue>Accept their surrender.[INFO][NAME]autoReward[/NAME]Reward Stuff(R)[/INFO]</mod:setValue>
+        <mod:setValue>Accept their surrender.[INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Stuff(R)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -46,7 +46,7 @@
       <mod:selector hidden="true" req="LIST_CREW_JERRY"/>
       <mod:findLike type="text">
         <mod:selector>(Jerry) Welcome them aboard.</mod:selector>
-        <mod:setValue>(Jerry) Welcome them aboard.[INFO][NAME]crewMember[/NAME]Gain a crew(Human)[/INFO]</mod:setValue>
+        <mod:setValue>(Jerry) Welcome them aboard.[INFO][NAME]crewMember[/NAME][style[color:00E000]]Gain a crew(Human)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -55,7 +55,7 @@
       <mod:selector hidden="true" req="LIST_CHECK_ANY_CREW" lvl="1" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Accept them onto your ship.</mod:selector>
-        <mod:setValue>Accept them onto your ship.[INFO]50% [NAME]crewMember[/NAME]Gain a crew(Human)[/INFO][INFO]50% [NAME]removeCrew[/NAME]&lt;!&gt;Lose your crew(clonable)[/INFO]</mod:setValue>
+        <mod:setValue>Accept them onto your ship.[INFO]50% [NAME]crewMember[/NAME][style[color:00E000]]Gain a crew(Human)[[/style]][/INFO][INFO]50% [NAME]removeCrew[/NAME][style[color:E00000]]&lt;!&gt;Lose your crew([[/style]][style[color:700000]]clonable[[/style]][style[color:E00000]])[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -64,7 +64,7 @@
       <mod:selector hidden="true" req="mind"/>
       <mod:findLike type="text">
         <mod:selector>(Mind Control) Keep the mind control online in-case they do anything bad.</mod:selector>
-        <mod:setValue>(Mind Control) Keep the mind control online in-case they do anything bad.[INFO]50% [NAME]crewMember[/NAME]Gain a crew(Human)[/INFO]</mod:setValue>
+        <mod:setValue>(Mind Control) Keep the mind control online in-case they do anything bad.[INFO]50% [NAME]crewMember[/NAME][style[color:00E000]]Gain a crew(Human)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -73,7 +73,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Free the Rebel and let them go.</mod:selector>
-        <mod:setValue>Free the Rebel and let them go.[INFO]33% [NAME]autoReward[/NAME]Reward Standard(L)[/INFO][INFO]33% [NAME]modifyPursuit[/NAME]&lt;!&gt;Fleet Advance(1)[/INFO]</mod:setValue>
+        <mod:setValue>Free the Rebel and let them go.[INFO]33% [NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(L)[[/style]][/INFO][INFO]33% [NAME]modifyPursuit[/NAME][style[color:E00000]]&lt;!&gt;Fleet Advance(1)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -81,7 +81,7 @@
     <mod:findLike type="choice">
       <mod:findLike type="text">
         <mod:selector>Accept their surrender.</mod:selector>
-        <mod:setValue>Accept their surrender.[INFO][NAME]autoReward[/NAME]Reward Stuff(R)[/INFO]</mod:setValue>
+        <mod:setValue>Accept their surrender.[INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Stuff(R)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -89,7 +89,7 @@
     <mod:findLike type="choice">
       <mod:findLike type="text">
         <mod:selector>Accept their surrender. [Delays the fleet 2 jumps]</mod:selector>
-        <mod:setValue>Accept their surrender. [Delays the fleet 2 jumps][INFO][NAME]modifyPursuit[/NAME]Fleet Delay(2)[/INFO]</mod:setValue>
+        <mod:setValue>Accept their surrender. [Delays the fleet 2 jumps][INFO][NAME]modifyPursuit[/NAME][style[color:00E000]]Fleet Delay(2)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -97,7 +97,7 @@
     <mod:findLike type="choice">
       <mod:findLike type="text">
         <mod:selector>Accept their surrender.</mod:selector>
-        <mod:setValue>Accept their surrender.[INFO][NAME]autoReward[/NAME]Reward Stuff(R)[/INFO]</mod:setValue>
+        <mod:setValue>Accept their surrender.[INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Stuff(R)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -106,7 +106,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Salvage the extra fuel cells.</mod:selector>
-        <mod:setValue>Salvage the extra fuel cells.[INFO][NAME]autoReward[/NAME]Reward { Only(L)[/INFO]</mod:setValue>
+        <mod:setValue>Salvage the extra fuel cells.[INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward { Only(L)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -115,7 +115,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Salvage the extra ammunition.</mod:selector>
-        <mod:setValue>Salvage the extra ammunition.[INFO][NAME]autoReward[/NAME]Reward } Only(L)[/INFO]</mod:setValue>
+        <mod:setValue>Salvage the extra ammunition.[INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward } Only(L)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -124,7 +124,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Salvage the extra drone parts.</mod:selector>
-        <mod:setValue>Salvage the extra drone parts.[INFO][NAME]autoReward[/NAME]Reward | Only(L)[/INFO]</mod:setValue>
+        <mod:setValue>Salvage the extra drone parts.[INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward | Only(L)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -132,7 +132,7 @@
     <mod:findLike type="choice">
       <mod:findLike type="text">
         <mod:selector>Accept their surrender.</mod:selector>
-        <mod:setValue>Accept their surrender.[INFO][NAME]autoReward[/NAME]Reward Stuff(R)[/INFO]</mod:setValue>
+        <mod:setValue>Accept their surrender.[INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Stuff(R)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -140,7 +140,7 @@
     <mod:findLike type="choice">
       <mod:findLike type="text">
         <mod:selector>Accept the surrender.</mod:selector>
-        <mod:setValue>Accept the surrender.[INFO][NAME]autoReward[/NAME]Reward { Only(L)[/INFO]</mod:setValue>
+        <mod:setValue>Accept the surrender.[INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward { Only(L)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -149,7 +149,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Salvage the extra fuel cells.</mod:selector>
-        <mod:setValue>Salvage the extra fuel cells.[INFO][NAME]autoReward[/NAME]Reward { Only(M)[/INFO]</mod:setValue>
+        <mod:setValue>Salvage the extra fuel cells.[INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward { Only(M)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -158,7 +158,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Salvage the extra ammunition.</mod:selector>
-        <mod:setValue>Salvage the extra ammunition.[INFO][NAME]autoReward[/NAME]Reward } Only(M)[/INFO]</mod:setValue>
+        <mod:setValue>Salvage the extra ammunition.[INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward } Only(M)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -167,7 +167,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Salvage the extra drone parts.</mod:selector>
-        <mod:setValue>Salvage the extra drone parts.[INFO][NAME]autoReward[/NAME]Reward | Only(M)[/INFO]</mod:setValue>
+        <mod:setValue>Salvage the extra drone parts.[INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward | Only(M)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -175,7 +175,7 @@
     <mod:findLike type="choice">
       <mod:findLike type="text">
         <mod:selector>Accept their surrender.</mod:selector>
-        <mod:setValue>Accept their surrender.[INFO][NAME]autoReward[/NAME]Reward |(R)[/INFO]</mod:setValue>
+        <mod:setValue>Accept their surrender.[INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward |(R)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -184,7 +184,7 @@
       <mod:selector req="LIST_CREW_DEFENDER"/>
       <mod:findLike type="text">
         <mod:selector>(Engi Defender) Negotiate a great deal.</mod:selector>
-        <mod:setValue>(Engi Defender) Negotiate a great deal.[INFO][NAME]autoReward[/NAME]Reward |(H)[/INFO]</mod:setValue>
+        <mod:setValue>(Engi Defender) Negotiate a great deal.[INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward |(H)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -193,7 +193,7 @@
       <mod:selector req="engi"/>
       <mod:findLike type="text">
         <mod:selector>(Engi Crew) Negotiate a different deal.</mod:selector>
-        <mod:setValue>(Engi Crew) Negotiate a different deal.[INFO][NAME]autoReward[/NAME]Reward Stuff(R)[/INFO]</mod:setValue>
+        <mod:setValue>(Engi Crew) Negotiate a different deal.[INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Stuff(R)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -201,7 +201,7 @@
     <mod:findLike type="choice">
       <mod:findLike type="text">
         <mod:selector>Accept their surrender.</mod:selector>
-        <mod:setValue>Accept their surrender.[INFO][NAME]autoReward[/NAME]Reward |(R)[/INFO]</mod:setValue>
+        <mod:setValue>Accept their surrender.[INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward |(R)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -209,7 +209,7 @@
     <mod:findLike type="choice">
       <mod:findLike type="text">
         <mod:selector>Accept their surrender.</mod:selector>
-        <mod:setValue>Accept their surrender.[INFO][NAME]autoReward[/NAME]Reward Stuff(R)[/INFO]</mod:setValue>
+        <mod:setValue>Accept their surrender.[INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Stuff(R)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -217,7 +217,7 @@
     <mod:findLike type="choice">
       <mod:findLike type="text">
         <mod:selector>Accept their "trade".</mod:selector>
-        <mod:setValue>Accept their "trade".[INFO][NAME]itemModify[/NAME]-4≤{≤-1 25≤~≤45 -2≤}≤-1 -2≤|≤0[/INFO]</mod:setValue>
+        <mod:setValue>Accept their "trade".[INFO][NAME]itemModify[/NAME][style[color:E00000]]-4≤{≤-1[[/style]] [style[color:00E000]]25≤~≤45[[/style]] [style[color:E00000]]-2≤}≤-1[[/style]] [style[color:00E000]]-2≤|≤0[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -225,7 +225,7 @@
     <mod:findLike type="choice">
       <mod:findLike type="text">
         <mod:selector>Accept their surrender.</mod:selector>
-        <mod:setValue>Accept their surrender.[INFO][NAME]autoReward[/NAME]Reward Stuff(R)[/INFO]</mod:setValue>
+        <mod:setValue>Accept their surrender.[INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Stuff(R)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -233,7 +233,7 @@
     <mod:findLike type="choice">
       <mod:findLike type="text">
         <mod:selector>Accept their surrender.</mod:selector>
-        <mod:setValue>Accept their surrender.[INFO][NAME]autoReward[/NAME]Reward Stuff(R)[/INFO]</mod:setValue>
+        <mod:setValue>Accept their surrender.[INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Stuff(R)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -241,7 +241,7 @@
     <mod:findLike type="choice">
       <mod:findLike type="text">
         <mod:selector>Accept their surrender.</mod:selector>
-        <mod:setValue>Accept their surrender.[INFO][NAME]autoReward[/NAME]Reward Stuff(R)[/INFO]</mod:setValue>
+        <mod:setValue>Accept their surrender.[INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Stuff(R)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -250,7 +250,7 @@
       <mod:selector req="LIST_CREW_CRYSTAL"/>
       <mod:findLike type="text">
         <mod:selector>(Crystalline Crew) Negotiate a better surrender.</mod:selector>
-        <mod:setValue>(Crystalline Crew) Negotiate a better surrender.[INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO]</mod:setValue>
+        <mod:setValue>(Crystalline Crew) Negotiate a better surrender.[INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -259,7 +259,7 @@
       <mod:selector req="LIST_CREW_CRYSTAL"/>
       <mod:findLike type="text">
         <mod:selector>(Crystalline Crew) Have your Crystal demand payment from them.</mod:selector>
-        <mod:setValue>(Crystalline Crew) Have your Crystal demand payment from them.[INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO]</mod:setValue>
+        <mod:setValue>(Crystalline Crew) Have your Crystal demand payment from them.[INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -268,7 +268,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Salvage the extra fuel cells.</mod:selector>
-        <mod:setValue>Salvage the extra fuel cells.[INFO][NAME]autoReward[/NAME]Reward { Only(L)[/INFO]</mod:setValue>
+        <mod:setValue>Salvage the extra fuel cells.[INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward { Only(L)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -277,7 +277,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Salvage the extra ammunition.</mod:selector>
-        <mod:setValue>Salvage the extra ammunition.[INFO][NAME]autoReward[/NAME]Reward } Only(L)[/INFO]</mod:setValue>
+        <mod:setValue>Salvage the extra ammunition.[INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward } Only(L)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -286,7 +286,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Salvage the extra fuel cells.</mod:selector>
-        <mod:setValue>Salvage the extra fuel cells.[INFO][NAME]autoReward[/NAME]Reward { Only(L)[/INFO]</mod:setValue>
+        <mod:setValue>Salvage the extra fuel cells.[INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward { Only(L)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -295,7 +295,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Salvage the extra missiles.</mod:selector>
-        <mod:setValue>Salvage the extra missiles.[INFO][NAME]autoReward[/NAME]Reward } Only(L)[/INFO]</mod:setValue>
+        <mod:setValue>Salvage the extra missiles.[INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward } Only(L)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -303,7 +303,7 @@
     <mod:findLike type="choice">
       <mod:findLike type="text">
         <mod:selector>Accept their surrender.</mod:selector>
-        <mod:setValue>Accept their surrender.[INFO][NAME]autoReward[/NAME]Reward Stuff(R)[/INFO]</mod:setValue>
+        <mod:setValue>Accept their surrender.[INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Stuff(R)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -312,7 +312,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Demand the Mantis joins your crew but release the rest.</mod:selector>
-        <mod:setValue>Demand the Mantis joins your crew but release the rest.[INFO][NAME]crewMember[/NAME]Gain a crew(Mantis)[/INFO]</mod:setValue>
+        <mod:setValue>Demand the Mantis joins your crew but release the rest.[INFO][NAME]crewMember[/NAME][style[color:00E000]]Gain a crew(Mantis)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -321,7 +321,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Demand the Rockman joins your crew but release the rest.</mod:selector>
-        <mod:setValue>Demand the Rockman joins your crew but release the rest.[INFO][NAME]crewMember[/NAME]Gain a crew(Rock)[/INFO]</mod:setValue>
+        <mod:setValue>Demand the Rockman joins your crew but release the rest.[INFO][NAME]crewMember[/NAME][style[color:00E000]]Gain a crew(Rock)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -330,7 +330,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Demand the Engi joins your crew but release the rest.</mod:selector>
-        <mod:setValue>Demand the Engi joins your crew but release the rest.[INFO][NAME]crewMember[/NAME]Gain a crew(Engi)[/INFO]</mod:setValue>
+        <mod:setValue>Demand the Engi joins your crew but release the rest.[INFO][NAME]crewMember[/NAME][style[color:00E000]]Gain a crew(Engi)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -339,7 +339,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>We aren't slavers. Free them all.</mod:selector>
-        <mod:setValue>We aren't slavers. Free them all.[INFO][NAME]autoReward[/NAME]Reward Standard(L)[/INFO]</mod:setValue>
+        <mod:setValue>We aren't slavers. Free them all.[INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(L)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -348,7 +348,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Demand the Orchid joins your crew but release the rest.</mod:selector>
-        <mod:setValue>Demand the Orchid joins your crew but release the rest.[INFO][NAME]crewMember[/NAME]Gain a crew(Orchid)[/INFO]</mod:setValue>
+        <mod:setValue>Demand the Orchid joins your crew but release the rest.[INFO][NAME]crewMember[/NAME][style[color:00E000]]Gain a crew(Orchid)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -357,7 +357,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Demand the Shell joins your crew but release the rest.</mod:selector>
-        <mod:setValue>Demand the Shell joins your crew but release the rest.[INFO][NAME]crewMember[/NAME]Gain a crew(Shell)[/INFO]</mod:setValue>
+        <mod:setValue>Demand the Shell joins your crew but release the rest.[INFO][NAME]crewMember[/NAME][style[color:00E000]]Gain a crew(Shell)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -366,7 +366,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Demand the Slug joins your crew but release the rest.</mod:selector>
-        <mod:setValue>Demand the Slug joins your crew but release the rest.[INFO][NAME]crewMember[/NAME]Gain a crew(Slug)[/INFO]</mod:setValue>
+        <mod:setValue>Demand the Slug joins your crew but release the rest.[INFO][NAME]crewMember[/NAME][style[color:00E000]]Gain a crew(Slug)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -375,7 +375,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>We aren't slavers. Free them all.</mod:selector>
-        <mod:setValue>We aren't slavers. Free them all.[INFO][NAME]autoReward[/NAME]Reward Standard(L)[/INFO]</mod:setValue>
+        <mod:setValue>We aren't slavers. Free them all.[INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(L)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -384,7 +384,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Salvage the extra fuel cells.</mod:selector>
-        <mod:setValue>Salvage the extra fuel cells.[INFO][NAME]autoReward[/NAME]Reward { Only(L)[/INFO]</mod:setValue>
+        <mod:setValue>Salvage the extra fuel cells.[INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward { Only(L)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -393,7 +393,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Salvage the extra ammunition.</mod:selector>
-        <mod:setValue>Salvage the extra ammunition.[INFO][NAME]autoReward[/NAME]Reward } Only(L)[/INFO]</mod:setValue>
+        <mod:setValue>Salvage the extra ammunition.[INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward } Only(L)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -402,7 +402,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Salvage the extra fuel cells.</mod:selector>
-        <mod:setValue>Salvage the extra fuel cells.[INFO][NAME]autoReward[/NAME]Reward { Only(L)[/INFO]</mod:setValue>
+        <mod:setValue>Salvage the extra fuel cells.[INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward { Only(L)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -411,7 +411,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Salvage the extra missiles.</mod:selector>
-        <mod:setValue>Salvage the extra missiles.[INFO][NAME]autoReward[/NAME]Reward } Only(L)[/INFO]</mod:setValue>
+        <mod:setValue>Salvage the extra missiles.[INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward } Only(L)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -420,7 +420,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Continue...</mod:selector>
-        <mod:setValue>Continue...[INFO][NAME]modifyPursuit[/NAME]Fleet Delay(1)[/INFO]</mod:setValue>
+        <mod:setValue>Continue...[INFO][NAME]modifyPursuit[/NAME][style[color:00E000]]Fleet Delay(1)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -428,7 +428,7 @@
     <mod:findLike type="choice">
       <mod:findLike type="text">
         <mod:selector>Accept their surrender.</mod:selector>
-        <mod:setValue>Accept their surrender.[INFO][NAME]autoReward[/NAME]Reward Standard(R)[/INFO]</mod:setValue>
+        <mod:setValue>Accept their surrender.[INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(R)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -436,7 +436,7 @@
     <mod:findLike type="choice">
       <mod:findLike type="text">
         <mod:selector>Accept their surrender.</mod:selector>
-        <mod:setValue>Accept their surrender.[INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO]</mod:setValue>
+        <mod:setValue>Accept their surrender.[INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -445,7 +445,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Open the cargo.</mod:selector>
-        <mod:setValue>Open the cargo.[INFO]50% [NAME]crewMember[/NAME]Gain a crew(Engi)[/INFO]</mod:setValue>
+        <mod:setValue>Open the cargo.[INFO]50% [NAME]crewMember[/NAME][style[color:00E000]]Gain a crew(Engi)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -453,7 +453,7 @@
     <mod:findLike type="choice">
       <mod:findLike type="text">
         <mod:selector>Accept their surrender.</mod:selector>
-        <mod:setValue>Accept their surrender.[INFO][NAME]autoReward[/NAME]Reward Stuff(R)[/INFO]</mod:setValue>
+        <mod:setValue>Accept their surrender.[INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Stuff(R)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -461,7 +461,7 @@
     <mod:findLike type="choice">
       <mod:findLike type="text">
         <mod:selector>Accept their surrender.</mod:selector>
-        <mod:setValue>Accept their surrender.[INFO][NAME]autoReward[/NAME]Reward Stuff(R)[/INFO]</mod:setValue>
+        <mod:setValue>Accept their surrender.[INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Stuff(R)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -469,7 +469,7 @@
     <mod:findLike type="choice">
       <mod:findLike type="text">
         <mod:selector>Accept their surrender.</mod:selector>
-        <mod:setValue>Accept their surrender.[INFO][NAME]autoReward[/NAME]Reward } Only(R)[/INFO]</mod:setValue>
+        <mod:setValue>Accept their surrender.[INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward } Only(R)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -477,7 +477,7 @@
     <mod:findLike type="choice">
       <mod:findLike type="text">
         <mod:selector>Accept their surrender.</mod:selector>
-        <mod:setValue>Accept their surrender.[INFO][NAME]autoReward[/NAME]Reward Stuff(R)[/INFO]</mod:setValue>
+        <mod:setValue>Accept their surrender.[INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Stuff(R)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -485,7 +485,7 @@
     <mod:findLike type="choice">
       <mod:findLike type="text">
         <mod:selector>Accept their surrender.</mod:selector>
-        <mod:setValue>Accept their surrender.[INFO][NAME]autoReward[/NAME]Reward Stuff(R)[/INFO]</mod:setValue>
+        <mod:setValue>Accept their surrender.[INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Stuff(R)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -493,7 +493,7 @@
     <mod:findLike type="choice">
       <mod:findLike type="text">
         <mod:selector>Accept their surrender.</mod:selector>
-        <mod:setValue>Accept their surrender.[INFO][NAME]autoReward[/NAME]Reward } Only(R)[/INFO]</mod:setValue>
+        <mod:setValue>Accept their surrender.[INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward } Only(R)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -501,7 +501,7 @@
     <mod:findLike type="choice">
       <mod:findLike type="text">
         <mod:selector>Accept the slave.</mod:selector>
-        <mod:setValue>Accept the slave.[INFO][NAME]crewMember[/NAME]Gain a crew(Rock Outcast)[/INFO]</mod:setValue>
+        <mod:setValue>Accept the slave.[INFO][NAME]crewMember[/NAME][style[color:00E000]]Gain a crew(Rock Outcast)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -509,7 +509,7 @@
     <mod:findLike type="choice">
       <mod:findLike type="text">
         <mod:selector>Accept their surrender.</mod:selector>
-        <mod:setValue>Accept their surrender.[INFO][NAME]autoReward[/NAME]Reward Stuff(R)[/INFO]</mod:setValue>
+        <mod:setValue>Accept their surrender.[INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Stuff(R)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -517,7 +517,7 @@
     <mod:findLike type="choice">
       <mod:findLike type="text">
         <mod:selector>Accept their surrender.</mod:selector>
-        <mod:setValue>Accept their surrender.[INFO][NAME]autoReward[/NAME]Reward Stuff(R)[/INFO]</mod:setValue>
+        <mod:setValue>Accept their surrender.[INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Stuff(R)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -525,7 +525,7 @@
     <mod:findLike type="choice">
       <mod:findLike type="text">
         <mod:selector>Accept their surrender.</mod:selector>
-        <mod:setValue>Accept their surrender.[INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO]</mod:setValue>
+        <mod:setValue>Accept their surrender.[INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -534,7 +534,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Continue...</mod:selector>
-        <mod:setValue>Continue...[INFO][NAME]crewMember[/NAME]Gain a crew(Random)[/INFO]</mod:setValue>
+        <mod:setValue>Continue...[INFO][NAME]crewMember[/NAME][style[color:00E000]]Gain a crew(Random)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -542,7 +542,7 @@
     <mod:findLike type="choice">
       <mod:findLike type="text">
         <mod:selector>Accept their surrender.</mod:selector>
-        <mod:setValue>Accept their surrender.[INFO][NAME]autoReward[/NAME]Reward Stuff(R)[/INFO]</mod:setValue>
+        <mod:setValue>Accept their surrender.[INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Stuff(R)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -550,7 +550,7 @@
     <mod:findLike type="choice">
       <mod:findLike type="text">
         <mod:selector>Accept their surrender.</mod:selector>
-        <mod:setValue>Accept their surrender.[INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO]</mod:setValue>
+        <mod:setValue>Accept their surrender.[INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -559,7 +559,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Continue...</mod:selector>
-        <mod:setValue>Continue...[INFO][NAME]weapon[/NAME]Gain a weapon(Shop Item Hektar Base)[/INFO]</mod:setValue>
+        <mod:setValue>Continue...[INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Shop Item Hektar Base)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -568,7 +568,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Continue...</mod:selector>
-        <mod:setValue>Continue...[INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Modules)[/INFO]</mod:setValue>
+        <mod:setValue>Continue...[INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Modules)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -576,7 +576,7 @@
     <mod:findLike type="choice">
       <mod:findLike type="text">
         <mod:selector>Accept their surrender.</mod:selector>
-        <mod:setValue>Accept their surrender.[INFO][NAME]autoReward[/NAME]Reward Stuff(R)[/INFO]</mod:setValue>
+        <mod:setValue>Accept their surrender.[INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Stuff(R)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -584,7 +584,7 @@
     <mod:findLike type="choice">
       <mod:findLike type="text">
         <mod:selector>Accept their surrender.</mod:selector>
-        <mod:setValue>Accept their surrender.[INFO][NAME]autoReward[/NAME]Reward Stuff(R)[/INFO]</mod:setValue>
+        <mod:setValue>Accept their surrender.[INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Stuff(R)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -592,7 +592,7 @@
     <mod:findLike type="choice">
       <mod:findLike type="text">
         <mod:selector>Accept their surrender.</mod:selector>
-        <mod:setValue>Accept their surrender.[INFO][NAME]autoReward[/NAME]Reward Stuff(R)[/INFO]</mod:setValue>
+        <mod:setValue>Accept their surrender.[INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Stuff(R)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -601,7 +601,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Spare them and stop firing.</mod:selector>
-        <mod:setValue>Spare them and stop firing.[INFO]25% [NAME]autoReward[/NAME]Reward Standard(L)[/INFO][INFO]25% [NAME]crewMember[/NAME]Gain a crew(Leech)[/INFO]</mod:setValue>
+        <mod:setValue>Spare them and stop firing.[INFO]25% [NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(L)[[/style]][/INFO][INFO]25% [NAME]crewMember[/NAME][style[color:00E000]]Gain a crew(Leech)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -609,7 +609,7 @@
     <mod:findLike type="choice">
       <mod:findLike type="text">
         <mod:selector>Accept their surrender.</mod:selector>
-        <mod:setValue>Accept their surrender.[INFO][NAME]autoReward[/NAME]Reward Stuff(R)[/INFO]</mod:setValue>
+        <mod:setValue>Accept their surrender.[INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Stuff(R)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -618,7 +618,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Collect the salvage.</mod:selector>
-        <mod:setValue>Collect the salvage.[INFO]50% [NAME]autoReward[/NAME]Reward Standard(L)[/INFO][INFO]50% [NAME]boarders[/NAME]&lt;!&gt;Enemy Boarding(x3-x4 Blob)[/INFO]</mod:setValue>
+        <mod:setValue>Collect the salvage.[INFO]50% [NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(L)[[/style]][/INFO][INFO]50% [NAME]boarders[/NAME][style[color:E00000]]&lt;!&gt;Enemy Boarding(x3-x4 Blob)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -627,7 +627,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Accept their "surrender".</mod:selector>
-        <mod:setValue>Accept their "surrender".[INFO]50% [NAME]crewMember[/NAME]Gain a crew(Blob)[/INFO][INFO]50% [NAME]boarders[/NAME]&lt;!&gt;Enemy Boarding(x2-x3 Blob)[/INFO]</mod:setValue>
+        <mod:setValue>Accept their "surrender".[INFO]50% [NAME]crewMember[/NAME][style[color:00E000]]Gain a crew(Blob)[[/style]][/INFO][INFO]50% [NAME]boarders[/NAME][style[color:E00000]]&lt;!&gt;Enemy Boarding(x2-x3 Blob)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -635,7 +635,7 @@
     <mod:findLike type="choice">
       <mod:findLike type="text">
         <mod:selector>Accept their surrender.</mod:selector>
-        <mod:setValue>Accept their surrender.[INFO][NAME]autoReward[/NAME]Reward Stuff(R)[/INFO]</mod:setValue>
+        <mod:setValue>Accept their surrender.[INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Stuff(R)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -644,7 +644,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Continue...</mod:selector>
-        <mod:setValue>Continue...[INFO][NAME]boarders[/NAME]&lt;!&gt;Enemy Boarding(x1 Lanius)[/INFO]</mod:setValue>
+        <mod:setValue>Continue...[INFO][NAME]boarders[/NAME][style[color:E00000]]&lt;!&gt;Enemy Boarding(x1 Lanius)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -652,7 +652,7 @@
     <mod:findLike type="choice">
       <mod:findLike type="text">
         <mod:selector>Accept their surrender.</mod:selector>
-        <mod:setValue>Accept their surrender.[INFO][NAME]autoReward[/NAME]Reward Stuff(R)[/INFO]</mod:setValue>
+        <mod:setValue>Accept their surrender.[INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Stuff(R)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -661,7 +661,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Continue...</mod:selector>
-        <mod:setValue>Continue...[INFO][NAME]crewMember[/NAME]Gain a crew(Random)[/INFO]</mod:setValue>
+        <mod:setValue>Continue...[INFO][NAME]crewMember[/NAME][style[color:00E000]]Gain a crew(Random)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -670,7 +670,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Continue...</mod:selector>
-        <mod:setValue>Continue...[INFO][NAME]boarders[/NAME]&lt;!&gt;Enemy Boarding(x1 Lanius Augmented)[/INFO]</mod:setValue>
+        <mod:setValue>Continue...[INFO][NAME]boarders[/NAME][style[color:E00000]]&lt;!&gt;Enemy Boarding(x1 Lanius Augmented)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -679,7 +679,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Continue...</mod:selector>
-        <mod:setValue>Continue...[INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Rebel)[/INFO]</mod:setValue>
+        <mod:setValue>Continue...[INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Rebel)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -688,7 +688,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Continue...</mod:selector>
-        <mod:setValue>Continue...[INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Estate)[/INFO]</mod:setValue>
+        <mod:setValue>Continue...[INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Estate)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -697,7 +697,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Continue...</mod:selector>
-        <mod:setValue>Continue...[INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Rebel)[/INFO]</mod:setValue>
+        <mod:setValue>Continue...[INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Rebel)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -706,7 +706,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Continue...</mod:selector>
-        <mod:setValue>Continue...[INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Federation)[/INFO]</mod:setValue>
+        <mod:setValue>Continue...[INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Federation)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -715,7 +715,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Continue...</mod:selector>
-        <mod:setValue>Continue...[INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Federation)[/INFO]</mod:setValue>
+        <mod:setValue>Continue...[INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Federation)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -724,7 +724,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Continue...</mod:selector>
-        <mod:setValue>Continue...[INFO][NAME]drone[/NAME]Gain a drone(Giftlist Engi)[/INFO]</mod:setValue>
+        <mod:setValue>Continue...[INFO][NAME]drone[/NAME][style[color:00E000]]Gain a drone(Giftlist Engi)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -733,7 +733,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Continue...</mod:selector>
-        <mod:setValue>Continue...[INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Zoltan)[/INFO]</mod:setValue>
+        <mod:setValue>Continue...[INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Zoltan)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -742,7 +742,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Continue...</mod:selector>
-        <mod:setValue>Continue...[INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Union)[/INFO]</mod:setValue>
+        <mod:setValue>Continue...[INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Union)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -751,7 +751,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Continue...</mod:selector>
-        <mod:setValue>Continue...[INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Kernel Elite)[/INFO]</mod:setValue>
+        <mod:setValue>Continue...[INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Kernel Elite)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -760,7 +760,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Continue...</mod:selector>
-        <mod:setValue>Continue...[INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Spore Elite)[/INFO]</mod:setValue>
+        <mod:setValue>Continue...[INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Spore Elite)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -769,7 +769,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Continue...</mod:selector>
-        <mod:setValue>Continue...[INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Crystal Elite)[/INFO]</mod:setValue>
+        <mod:setValue>Continue...[INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Crystal Elite)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -778,7 +778,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Continue...</mod:selector>
-        <mod:setValue>Continue...[INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Rock)[/INFO]</mod:setValue>
+        <mod:setValue>Continue...[INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Rock)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -787,7 +787,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Continue...</mod:selector>
-        <mod:setValue>Continue...[INFO][NAME]crewMember[/NAME]Gain a crew(Mantis Warlord)[/INFO]</mod:setValue>
+        <mod:setValue>Continue...[INFO][NAME]crewMember[/NAME][style[color:00E000]]Gain a crew(Mantis Warlord)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -796,7 +796,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Continue...</mod:selector>
-        <mod:setValue>Continue...[INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Mantis)[/INFO]</mod:setValue>
+        <mod:setValue>Continue...[INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Mantis)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -805,7 +805,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Continue...</mod:selector>
-        <mod:setValue>Continue...[INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Dusk)[/INFO]</mod:setValue>
+        <mod:setValue>Continue...[INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Dusk)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -814,7 +814,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Continue...</mod:selector>
-        <mod:setValue>Continue...[INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Slug)[/INFO]</mod:setValue>
+        <mod:setValue>Continue...[INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Slug)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -823,7 +823,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Continue...</mod:selector>
-        <mod:setValue>Continue...[INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Shell)[/INFO]</mod:setValue>
+        <mod:setValue>Continue...[INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Shell)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -832,7 +832,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Continue...</mod:selector>
-        <mod:setValue>Continue...[INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Leech)[/INFO]</mod:setValue>
+        <mod:setValue>Continue...[INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Leech)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -841,7 +841,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Continue...</mod:selector>
-        <mod:setValue>Continue...[INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Coalition)[/INFO]</mod:setValue>
+        <mod:setValue>Continue...[INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Coalition)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -850,7 +850,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Continue...</mod:selector>
-        <mod:setValue>Continue...[INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Lanius)[/INFO]</mod:setValue>
+        <mod:setValue>Continue...[INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Lanius)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -859,7 +859,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Continue...</mod:selector>
-        <mod:setValue>Continue...[INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Rusty)[/INFO]</mod:setValue>
+        <mod:setValue>Continue...[INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Rusty)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -868,7 +868,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Continue...</mod:selector>
-        <mod:setValue>Continue...[INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Dynasty)[/INFO]</mod:setValue>
+        <mod:setValue>Continue...[INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Dynasty)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>

@@ -3,7 +3,8 @@
 		<mod-append:script>data/choiceinfoscript/choiceinfo.lua</mod-append:script>
 	</mod:findLike>
 	<mod:findLike type="events">
-		<mod-append:metaVariable name="choiceInfo_bottom_fullInfo" op="set" val="1"/>
+		<mod-append:metaVariable name="choiceInfo_hover_fullInfo" op="set" val="1"/>
+		<mod-append:metaVariable name="choiceInfo_bottom_fullInfo" op="set" val="0"/>
 		<mod-append:metaVariable name="choiceInfo_event_storageCheck" op="set" val="1"/>
 		<mod-append:metaVariable name="choiceInfo_event_unlockCustomShip" op="set" val="1"/>
 		<mod-append:metaVariable name="choiceInfo_event_removeCrew" op="set" val="1"/>
@@ -19,4 +20,9 @@
 		<mod-append:metaVariable name="choiceInfo_event_upgrade" op="set" val="1"/>
 		<mod-append:metaVariable name="choiceInfo_event_boarders" op="set" val="1"/>
 	</mod:findLike>
+
+	<mod:findLike type="customTextStyle">
+		<mod:setValue enabled="true"/>
+	</mod:findLike>
+	<customTextStyle enabled="true"/>
 </FTL>

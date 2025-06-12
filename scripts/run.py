@@ -14,7 +14,7 @@ from lxml.etree import Element, register_namespace
 from pprint import pprint
 
 FIXED_EVENT_MAP = {
-    'STORAGE_CHECK': 'Storage Check',
+    'STORAGE_CHECK': '[style[color:707070]]Storage Check[[/style]]',
 }
 
 def stop_watch(func):
@@ -250,25 +250,25 @@ class EventAnalyzer():
                             length = len(fightDict)
                             if length == 3:
                                 if fightDict['HK'] == fightDict['CK'] and fightDict['CK'] == fightDict['SR']:
-                                    nece_info.append(f'[FightINFO]Fight(CK=HK=SR: {fightDict["HK"]})[/FightINFO]')
+                                    nece_info.append(f'[FightINFO][style[color:FF8A33]]Fight[[/style]](CK=HK=SR: {fightDict["HK"]})[/FightINFO]')
                                 elif fightDict['HK'] == fightDict['CK']:
-                                    nece_info.append(f'[FightINFO]Fight(CK=HK: {fightDict["HK"]})(SR: {fightDict["SR"]})[/FightINFO]')
+                                    nece_info.append(f'[FightINFO][style[color:FF8A33]]Fight[[/style]](CK=HK: {fightDict["HK"]})(SR: {fightDict["SR"]})[/FightINFO]')
                                 elif fightDict['HK'] == fightDict['SR']:
-                                    nece_info.append(f'[FightINFO]Fight(CK: {fightDict["CK"]})(HK=SR: {fightDict["HK"]})[/FightINFO]')
+                                    nece_info.append(f'[FightINFO][style[color:FF8A33]]Fight[[/style]](CK: {fightDict["CK"]})(HK=SR: {fightDict["HK"]})[/FightINFO]')
                                 elif fightDict['CK'] == fightDict['SR']:
-                                    nece_info.append(f'[FightINFO]Fight(CK=SR: {fightDict["CK"]})(HK: {fightDict["HK"]})[/FightINFO]')
+                                    nece_info.append(f'[FightINFO][style[color:FF8A33]]Fight[[/style]](CK=SR: {fightDict["CK"]})(HK: {fightDict["HK"]})[/FightINFO]')
                                 else:
-                                    nece_info.append(f'[FightINFO]Fight(CK: {fightDict["CK"]})(HK: {fightDict["HK"]})(SR: {fightDict["SR"]})[/FightINFO]')
+                                    nece_info.append(f'[FightINFO][style[color:FF8A33]]Fight[[/style]](CK: {fightDict["CK"]})(HK: {fightDict["HK"]})(SR: {fightDict["SR"]})[/FightINFO]')
                             elif length == 2:
                                 keyList = list(fightDict.keys())
                                 infoList = list(fightDict.values())
                                 if infoList[0] == infoList[1]:
-                                    nece_info.append(f'[FightINFO]Fight({keyList[0]}={keyList[1]}: {infoList[0]})[/FightINFO]')
+                                    nece_info.append(f'[FightINFO][style[color:FF8A33]]Fight[[/style]]({keyList[0]}={keyList[1]}: {infoList[0]})[/FightINFO]')
                                 else:
-                                    nece_info.append(f'[FightINFO]Fight({keyList[0]}: {infoList[0]})({keyList[1]}: {infoList[1]})[/FightINFO]')
+                                    nece_info.append(f'[FightINFO][style[color:FF8A33]]Fight[[/style]]({keyList[0]}: {infoList[0]})({keyList[1]}: {infoList[1]})[/FightINFO]')
                             elif length == 1:
                                 for key, value in fightDict.items():
-                                    nece_info.append(f'[FightINFO]Fight({key}: {value})[/FightINFO]')
+                                    nece_info.append(f'[FightINFO][style[color:FF8A33]]Fight[[/style]]({key}: {value})[/FightINFO]')
                 
                 if len(nece_info) > 0:
                     #remove duplicated info before return list.

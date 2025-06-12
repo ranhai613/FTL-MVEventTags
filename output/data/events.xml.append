@@ -4,7 +4,7 @@
       <mod:selector hidden="false"/>
       <mod:findLike type="text">
         <mod:selector>Yes please!</mod:selector>
-        <mod:setValue>Yes please![INFO][NAME]weapon[/NAME]Gain a weapon(Beam Breach)[/INFO]</mod:setValue>
+        <mod:setValue>Yes please![INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Beam Breach)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -12,7 +12,7 @@
     <mod:findLike type="choice">
       <mod:findLike type="text">
         <mod:selector>Accept their truce.</mod:selector>
-        <mod:setValue>Accept their truce.[INFO][NAME]itemModify[/NAME]2≤{≤4[/INFO]</mod:setValue>
+        <mod:setValue>Accept their truce.[INFO][NAME]itemModify[/NAME][style[color:00E000]]2≤{≤4[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -21,7 +21,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Skip the tutorial.</mod:selector>
-        <mod:setValue>Skip the tutorial.[INFO][NAME]itemModify[/NAME]{-999 ~-999[/INFO]</mod:setValue>
+        <mod:setValue>Skip the tutorial.[INFO][NAME]itemModify[/NAME][style[color:E00000]]{-999[[/style]] [style[color:E00000]]~-999[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -33,7 +33,7 @@
           <mod:selector hidden="true"/>
           <mod:findLike type="text">
             <mod:selector>Yes, I would like to skip the tutorial.</mod:selector>
-            <mod:setValue>Yes, I would like to skip the tutorial.[INFO][NAME]itemModify[/NAME]{-999 ~-999[/INFO]</mod:setValue>
+            <mod:setValue>Yes, I would like to skip the tutorial.[INFO][NAME]itemModify[/NAME][style[color:E00000]]{-999[[/style]] [style[color:E00000]]~-999[[/style]][/INFO]</mod:setValue>
           </mod:findLike>
         </mod:findLike>
       </mod:findName>
@@ -44,7 +44,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Continue...</mod:selector>
-        <mod:setValue>Continue...[INFO][NAME]itemModify[/NAME]{-999 ~-999[/INFO]</mod:setValue>
+        <mod:setValue>Continue...[INFO][NAME]itemModify[/NAME][style[color:E00000]]{-999[[/style]] [style[color:E00000]]~-999[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -52,7 +52,7 @@
     <mod:findLike type="choice">
       <mod:findLike type="text">
         <mod:selector>Accept their offer.</mod:selector>
-        <mod:setValue>Accept their offer.[INFO][NAME]autoReward[/NAME]Reward Stuff(R)[/INFO]</mod:setValue>
+        <mod:setValue>Accept their offer.[INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Stuff(R)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -61,7 +61,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Continue...</mod:selector>
-        <mod:setValue>Continue...[INFO]17% [NAME]autoReward[/NAME]Reward ~ Only(M)[/INFO][INFO]17% [NAME]autoReward[/NAME]Reward } Only(H)[/INFO][INFO]17% [NAME]autoReward[/NAME]Reward { Only(H)[/INFO][INFO]17% [NAME]autoReward[/NAME]Reward | Only(H)[/INFO][INFO]17% [NAME]damage[/NAME]Repair Hull(5$)[/INFO]</mod:setValue>
+        <mod:setValue>Continue...[INFO]17% [NAME]autoReward[/NAME][style[color:00E000]]Reward ~ Only(M)[[/style]][/INFO][INFO]17% [NAME]autoReward[/NAME][style[color:00E000]]Reward } Only(H)[[/style]][/INFO][INFO]17% [NAME]autoReward[/NAME][style[color:00E000]]Reward { Only(H)[[/style]][/INFO][INFO]17% [NAME]autoReward[/NAME][style[color:00E000]]Reward | Only(H)[[/style]][/INFO][INFO]17% [NAME]damage[/NAME][style[color:00E000]]Repair Hull(5$)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -70,7 +70,7 @@
       <mod:findLike type="choice">
         <mod:findLike type="text">
           <mod:selector>Welcome aboard!</mod:selector>
-          <mod:setValue>Welcome aboard![INFO][NAME]crewMember[/NAME]Gain a crew(Random)[/INFO]</mod:setValue>
+          <mod:setValue>Welcome aboard![INFO][NAME]crewMember[/NAME][style[color:00E000]]Gain a crew(Random)[[/style]][/INFO]</mod:setValue>
         </mod:findLike>
       </mod:findLike>
     </mod:findLike>

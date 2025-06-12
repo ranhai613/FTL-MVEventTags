@@ -4,7 +4,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Do something onboard the ship.</mod:selector>
-        <mod:setValue>Do something onboard the ship.[INFO][NAME]storageCheck[/NAME]Storage Check[/INFO]</mod:setValue>
+        <mod:setValue>Do something onboard the ship.[INFO][NAME]storageCheck[/NAME][style[color:707070]]Storage Check[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -13,7 +13,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Do something onboard the ship.</mod:selector>
-        <mod:setValue>Do something onboard the ship.[INFO][NAME]storageCheck[/NAME]Storage Check[/INFO]</mod:setValue>
+        <mod:setValue>Do something onboard the ship.[INFO][NAME]storageCheck[/NAME][style[color:707070]]Storage Check[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -22,7 +22,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Proceed with your mission.</mod:selector>
-        <mod:setValue>Proceed with your mission.[INFO][NAME]itemModify[/NAME]{-999 ~-999[/INFO]</mod:setValue>
+        <mod:setValue>Proceed with your mission.[INFO][NAME]itemModify[/NAME][style[color:E00000]]{-999[[/style]] [style[color:E00000]]~-999[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -31,7 +31,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Continue...</mod:selector>
-        <mod:setValue>Continue...[INFO][NAME]itemModify[/NAME]30≤~≤45[/INFO][INFO]&lt;=[/INFO][INFO][NAME]itemModify[/NAME]~175[/INFO][INFO][NAME]itemModify[/NAME]5≤{≤10[/INFO][INFO][NAME]itemModify[/NAME]5≤}≤10[/INFO][INFO][NAME]itemModify[/NAME]5≤|≤10[/INFO]</mod:setValue>
+        <mod:setValue>Continue...[INFO][NAME]itemModify[/NAME][style[color:00E000]]30≤~≤45[[/style]][/INFO][INFO]&lt;=[/INFO][INFO][NAME]itemModify[/NAME][style[color:00E000]]~175[[/style]][/INFO][INFO][NAME]itemModify[/NAME][style[color:00E000]]5≤{≤10[[/style]][/INFO][INFO][NAME]itemModify[/NAME][style[color:00E000]]5≤}≤10[[/style]][/INFO][INFO][NAME]itemModify[/NAME][style[color:00E000]]5≤|≤10[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -40,7 +40,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Proceed with your mission.</mod:selector>
-        <mod:setValue>Proceed with your mission.[INFO][NAME]itemModify[/NAME]30≤~≤45[/INFO][INFO]&lt;=[/INFO][INFO][NAME]itemModify[/NAME]~175[/INFO][INFO][NAME]itemModify[/NAME]5≤{≤10[/INFO][INFO][NAME]itemModify[/NAME]5≤}≤10[/INFO][INFO][NAME]itemModify[/NAME]5≤|≤10[/INFO]</mod:setValue>
+        <mod:setValue>Proceed with your mission.[INFO][NAME]itemModify[/NAME][style[color:00E000]]30≤~≤45[[/style]][/INFO][INFO]&lt;=[/INFO][INFO][NAME]itemModify[/NAME][style[color:00E000]]~175[[/style]][/INFO][INFO][NAME]itemModify[/NAME][style[color:00E000]]5≤{≤10[[/style]][/INFO][INFO][NAME]itemModify[/NAME][style[color:00E000]]5≤}≤10[[/style]][/INFO][INFO][NAME]itemModify[/NAME][style[color:00E000]]5≤|≤10[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -52,7 +52,7 @@
           <mod:selector hidden="true" req="CRATE_SCRAP"/>
           <mod:findLike type="text">
             <mod:selector>Scrap Crate</mod:selector>
-            <mod:setValue>Scrap Crate[INFO][NAME]itemModify[/NAME]30≤~≤45[/INFO][INFO]&lt;=[/INFO]</mod:setValue>
+            <mod:setValue>Scrap Crate[INFO][NAME]itemModify[/NAME][style[color:00E000]]30≤~≤45[[/style]][/INFO][INFO]&lt;=[/INFO]</mod:setValue>
           </mod:findLike>
         </mod:findLike>
       </mod:findName>
@@ -66,7 +66,7 @@
           <mod:selector hidden="true" req="CRATE_SCRAP_HUGE"/>
           <mod:findLike type="text">
             <mod:selector>Huge Scrap Crate</mod:selector>
-            <mod:setValue>Huge Scrap Crate[INFO][NAME]itemModify[/NAME]~175[/INFO][INFO]&lt;=[/INFO]</mod:setValue>
+            <mod:setValue>Huge Scrap Crate[INFO][NAME]itemModify[/NAME][style[color:00E000]]~175[[/style]][/INFO][INFO]&lt;=[/INFO]</mod:setValue>
           </mod:findLike>
         </mod:findLike>
       </mod:findName>
@@ -80,7 +80,7 @@
           <mod:selector hidden="true" req="CRATE_FUEL"/>
           <mod:findLike type="text">
             <mod:selector>Fuel Crate</mod:selector>
-            <mod:setValue>Fuel Crate[INFO][NAME]itemModify[/NAME]5≤{≤10[/INFO][INFO]&lt;=[/INFO]</mod:setValue>
+            <mod:setValue>Fuel Crate[INFO][NAME]itemModify[/NAME][style[color:00E000]]5≤{≤10[[/style]][/INFO][INFO]&lt;=[/INFO]</mod:setValue>
           </mod:findLike>
         </mod:findLike>
       </mod:findName>
@@ -94,7 +94,7 @@
           <mod:selector hidden="true" req="CRATE_MISSILES"/>
           <mod:findLike type="text">
             <mod:selector>Ammo Crate</mod:selector>
-            <mod:setValue>Ammo Crate[INFO][NAME]itemModify[/NAME]5≤}≤10[/INFO][INFO]&lt;=[/INFO]</mod:setValue>
+            <mod:setValue>Ammo Crate[INFO][NAME]itemModify[/NAME][style[color:00E000]]5≤}≤10[[/style]][/INFO][INFO]&lt;=[/INFO]</mod:setValue>
           </mod:findLike>
         </mod:findLike>
       </mod:findName>
@@ -108,7 +108,7 @@
           <mod:selector hidden="true" req="CRATE_DRONES"/>
           <mod:findLike type="text">
             <mod:selector>Dronepart Crate</mod:selector>
-            <mod:setValue>Dronepart Crate[INFO][NAME]itemModify[/NAME]5≤|≤10[/INFO][INFO]&lt;=[/INFO]</mod:setValue>
+            <mod:setValue>Dronepart Crate[INFO][NAME]itemModify[/NAME][style[color:00E000]]5≤|≤10[[/style]][/INFO][INFO]&lt;=[/INFO]</mod:setValue>
           </mod:findLike>
         </mod:findLike>
       </mod:findName>
@@ -740,7 +740,7 @@
       <mod:selector hidden="true" lvl="0" max_group="0" req="NO_WEAPON" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Grab a weapon.</mod:selector>
-        <mod:setValue>Grab a weapon.[INFO][NAME]weapon[/NAME]Gain a weapon(Laser Burst 1)[/INFO][INFO][NAME]weapon[/NAME]Gain a weapon(Ion 1)[/INFO][INFO][NAME]weapon[/NAME]Gain a weapon(Missiles 1)[/INFO][INFO][NAME]itemModify[/NAME]}2[/INFO]</mod:setValue>
+        <mod:setValue>Grab a weapon.[INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Laser Burst 1)[[/style]][/INFO][INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Ion 1)[[/style]][/INFO][INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Missiles 1)[[/style]][/INFO][INFO][NAME]itemModify[/NAME][style[color:00E000]]}2[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -751,7 +751,7 @@
         <mod:findLike type="choice">
           <mod:findLike type="text">
             <mod:selector>Grab a Basic Laser.</mod:selector>
-            <mod:setValue>Grab a Basic Laser.[INFO][NAME]weapon[/NAME]Gain a weapon(Laser Burst 1)[/INFO]</mod:setValue>
+            <mod:setValue>Grab a Basic Laser.[INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Laser Burst 1)[[/style]][/INFO]</mod:setValue>
           </mod:findLike>
         </mod:findLike>
       </mod:findLike>
@@ -764,7 +764,7 @@
         <mod:findLike type="choice">
           <mod:findLike type="text">
             <mod:selector>Grab a Simple Ion.</mod:selector>
-            <mod:setValue>Grab a Simple Ion.[INFO][NAME]weapon[/NAME]Gain a weapon(Ion 1)[/INFO]</mod:setValue>
+            <mod:setValue>Grab a Simple Ion.[INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Ion 1)[[/style]][/INFO]</mod:setValue>
           </mod:findLike>
         </mod:findLike>
       </mod:findLike>
@@ -777,7 +777,7 @@
         <mod:findLike type="choice">
           <mod:findLike type="text">
             <mod:selector>Grab a Leto Launcher.</mod:selector>
-            <mod:setValue>Grab a Leto Launcher.[INFO][NAME]weapon[/NAME]Gain a weapon(Missiles 1)[/INFO][INFO][NAME]itemModify[/NAME]}2[/INFO]</mod:setValue>
+            <mod:setValue>Grab a Leto Launcher.[INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Missiles 1)[[/style]][/INFO][INFO][NAME]itemModify[/NAME][style[color:00E000]]}2[[/style]][/INFO]</mod:setValue>
           </mod:findLike>
         </mod:findLike>
       </mod:findLike>
@@ -788,7 +788,7 @@
       <mod:selector req="pilot" lvl="1" max_group="2" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Find another crew member.</mod:selector>
-        <mod:setValue>Find another crew member.[INFO][NAME]crewMember[/NAME]Gain a crew(Human)[/INFO]</mod:setValue>
+        <mod:setValue>Find another crew member.[INFO][NAME]crewMember[/NAME][style[color:00E000]]Gain a crew(Human)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -797,7 +797,7 @@
       <mod:selector req="pilot" lvl="1" max_group="3" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Grab some extra resources.</mod:selector>
-        <mod:setValue>Grab some extra resources.[INFO][NAME]itemModify[/NAME]{2 ~10 }2 |2[/INFO]</mod:setValue>
+        <mod:setValue>Grab some extra resources.[INFO][NAME]itemModify[/NAME][style[color:00E000]]{2[[/style]] [style[color:00E000]]~10[[/style]] [style[color:00E000]]}2[[/style]] [style[color:00E000]]|2[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -806,7 +806,7 @@
       <mod:selector hidden="true" req="pilot" lvl="1" max_group="5" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>You're good with what you have. Get a head start on the fleet!</mod:selector>
-        <mod:setValue>You're good with what you have. Get a head start on the fleet![INFO][NAME]modifyPursuit[/NAME]Fleet Delay(2)[/INFO]</mod:setValue>
+        <mod:setValue>You're good with what you have. Get a head start on the fleet![INFO][NAME]modifyPursuit[/NAME][style[color:00E000]]Fleet Delay(2)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -815,7 +815,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Continue...</mod:selector>
-        <mod:setValue>Continue...[INFO][NAME]storageCheck[/NAME]Storage Check[/INFO]</mod:setValue>
+        <mod:setValue>Continue...[INFO][NAME]storageCheck[/NAME][style[color:707070]]Storage Check[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -823,7 +823,7 @@
     <mod:findLike type="choice">
       <mod:findLike type="text">
         <mod:selector>Do something onboard the ship.</mod:selector>
-        <mod:setValue>Do something onboard the ship.[INFO][NAME]storageCheck[/NAME]Storage Check[/INFO]</mod:setValue>
+        <mod:setValue>Do something onboard the ship.[INFO][NAME]storageCheck[/NAME][style[color:707070]]Storage Check[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>

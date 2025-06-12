@@ -4,7 +4,7 @@
       <mod:selector hidden="true" req="DISTRACTION_BUOY"/>
       <mod:findLike type="text">
         <mod:selector>(Decoy Buoys) Deploy the Buoys.</mod:selector>
-        <mod:setValue>(Decoy Buoys) Deploy the Buoys.[INFO][NAME]modifyPursuit[/NAME]Fleet Delay(1)[/INFO][INFO]&lt;=[/INFO][INFO][NAME]modifyPursuit[/NAME]Fleet Delay(2)[/INFO][INFO][NAME]itemModify[/NAME]|-4[/INFO][INFO][NAME]modifyPursuit[/NAME]Fleet Delay(3)[/INFO][INFO][NAME]itemModify[/NAME]|-8[/INFO]</mod:setValue>
+        <mod:setValue>(Decoy Buoys) Deploy the Buoys.[INFO][NAME]modifyPursuit[/NAME][style[color:00E000]]Fleet Delay(1)[[/style]][/INFO][INFO]&lt;=[/INFO][INFO][NAME]modifyPursuit[/NAME][style[color:00E000]]Fleet Delay(2)[[/style]][/INFO][INFO][NAME]itemModify[/NAME][style[color:E00000]]|-4[[/style]][/INFO][INFO][NAME]modifyPursuit[/NAME][style[color:00E000]]Fleet Delay(3)[[/style]][/INFO][INFO][NAME]itemModify[/NAME][style[color:E00000]]|-8[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -16,7 +16,7 @@
           <mod:selector hidden="true"/>
           <mod:findLike type="text">
             <mod:selector>1 [Free, gives 1 delay]</mod:selector>
-            <mod:setValue>1 [Free, gives 1 delay][INFO][NAME]modifyPursuit[/NAME]Fleet Delay(1)[/INFO][INFO]&lt;=[/INFO]</mod:setValue>
+            <mod:setValue>1 [Free, gives 1 delay][INFO][NAME]modifyPursuit[/NAME][style[color:00E000]]Fleet Delay(1)[[/style]][/INFO][INFO]&lt;=[/INFO]</mod:setValue>
           </mod:findLike>
         </mod:findLike>
       </mod:findLike>
@@ -49,7 +49,7 @@
           <mod:selector hidden="true"/>
           <mod:findLike type="text">
             <mod:selector>2 [Costs 4|, gives 2 delay]</mod:selector>
-            <mod:setValue>2 [Costs 4|, gives 2 delay][INFO][NAME]modifyPursuit[/NAME]Fleet Delay(2)[/INFO][INFO][NAME]itemModify[/NAME]|-4[/INFO][INFO]&lt;=[/INFO]</mod:setValue>
+            <mod:setValue>2 [Costs 4|, gives 2 delay][INFO][NAME]modifyPursuit[/NAME][style[color:00E000]]Fleet Delay(2)[[/style]][/INFO][INFO][NAME]itemModify[/NAME][style[color:E00000]]|-4[[/style]][/INFO][INFO]&lt;=[/INFO]</mod:setValue>
           </mod:findLike>
         </mod:findLike>
       </mod:findLike>
@@ -82,7 +82,7 @@
           <mod:selector hidden="true"/>
           <mod:findLike type="text">
             <mod:selector>3 [Costs 8|, gives 3 delay]</mod:selector>
-            <mod:setValue>3 [Costs 8|, gives 3 delay][INFO][NAME]modifyPursuit[/NAME]Fleet Delay(3)[/INFO][INFO][NAME]itemModify[/NAME]|-8[/INFO][INFO]&lt;=[/INFO]</mod:setValue>
+            <mod:setValue>3 [Costs 8|, gives 3 delay][INFO][NAME]modifyPursuit[/NAME][style[color:00E000]]Fleet Delay(3)[[/style]][/INFO][INFO][NAME]itemModify[/NAME][style[color:E00000]]|-8[[/style]][/INFO][INFO]&lt;=[/INFO]</mod:setValue>
           </mod:findLike>
         </mod:findLike>
       </mod:findLike>
@@ -112,7 +112,7 @@
       <mod:selector hidden="true" req="PRE_SCANNER"/>
       <mod:findLike type="text">
         <mod:selector>(Slip-Scanner) Run some scans. [Costs 3{, reveals next sector]</mod:selector>
-        <mod:setValue>(Slip-Scanner) Run some scans. [Costs 3{, reveals next sector][INFO][NAME]itemModify[/NAME]{-3[/INFO][INFO][NAME]revealMap[/NAME]Map Reveal[/INFO][INFO]&lt;=[/INFO]</mod:setValue>
+        <mod:setValue>(Slip-Scanner) Run some scans. [Costs 3{, reveals next sector][INFO][NAME]itemModify[/NAME][style[color:E00000]]{-3[[/style]][/INFO][INFO][NAME]revealMap[/NAME][style[color:00E000]]Map Reveal[[/style]][/INFO][INFO]&lt;=[/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -135,7 +135,7 @@
       <mod:selector hidden="true" req="FUEL_CONSERVER"/>
       <mod:findLike type="text">
         <mod:selector>(Fuel Conserver) Recycle the fuel. [Earn 2 to 5{]</mod:selector>
-        <mod:setValue>(Fuel Conserver) Recycle the fuel. [Earn 2 to 5{][INFO][NAME]itemModify[/NAME]2≤{≤5[/INFO][INFO]&lt;=[/INFO]</mod:setValue>
+        <mod:setValue>(Fuel Conserver) Recycle the fuel. [Earn 2 to 5{][INFO][NAME]itemModify[/NAME][style[color:00E000]]2≤{≤5[[/style]][/INFO][INFO]&lt;=[/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -158,7 +158,7 @@
       <mod:selector hidden="true" req="KERNEL_REPLICATOR"/>
       <mod:findLike type="text">
         <mod:selector>(Greenhouse) Recycle the fuel. [Earn 1{]</mod:selector>
-        <mod:setValue>(Greenhouse) Recycle the fuel. [Earn 1{][INFO][NAME]itemModify[/NAME]{1[/INFO][INFO]&lt;=[/INFO]</mod:setValue>
+        <mod:setValue>(Greenhouse) Recycle the fuel. [Earn 1{][INFO][NAME]itemModify[/NAME][style[color:00E000]]{1[[/style]][/INFO][INFO]&lt;=[/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -181,7 +181,7 @@
       <mod:selector hidden="true" req="LOCKED_KERNEL_REPLICATOR"/>
       <mod:findLike type="text">
         <mod:selector>(Greenhouse) Recycle the fuel. [Gives back 1{]</mod:selector>
-        <mod:setValue>(Greenhouse) Recycle the fuel. [Gives back 1{][INFO][NAME]itemModify[/NAME]{1[/INFO][INFO]&lt;=[/INFO]</mod:setValue>
+        <mod:setValue>(Greenhouse) Recycle the fuel. [Gives back 1{][INFO][NAME]itemModify[/NAME][style[color:00E000]]{1[[/style]][/INFO][INFO]&lt;=[/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -204,7 +204,7 @@
       <mod:selector hidden="true" req="MORPH_DATABASE"/>
       <mod:findLike type="text">
         <mod:selector>(DNA Samples) Synthesize a Morph. [Produces 1 Morph crewmember]</mod:selector>
-        <mod:setValue>(DNA Samples) Synthesize a Morph. [Produces 1 Morph crewmember][INFO][NAME]crewMember[/NAME]Gain a crew(Blob)[/INFO][INFO]&lt;=[/INFO]</mod:setValue>
+        <mod:setValue>(DNA Samples) Synthesize a Morph. [Produces 1 Morph crewmember][INFO][NAME]crewMember[/NAME][style[color:00E000]]Gain a crew(Blob)[[/style]][/INFO][INFO]&lt;=[/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -227,7 +227,7 @@
       <mod:selector hidden="true" req="MORPH_DATABASE_ADV"/>
       <mod:findLike type="text">
         <mod:selector>(Genetic Codex) Synthesize multiple Morphs. [Produces 3 Morph crewmembers]</mod:selector>
-        <mod:setValue>(Genetic Codex) Synthesize multiple Morphs. [Produces 3 Morph crewmembers][INFO][NAME]crewMember[/NAME]Gain a crew(Blob)[/INFO][INFO]&lt;=[/INFO]</mod:setValue>
+        <mod:setValue>(Genetic Codex) Synthesize multiple Morphs. [Produces 3 Morph crewmembers][INFO][NAME]crewMember[/NAME][style[color:00E000]]Gain a crew(Blob)[[/style]][/INFO][INFO]&lt;=[/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -250,7 +250,7 @@
       <mod:selector hidden="true" req="FLEET_SKIP"/>
       <mod:findLike type="text">
         <mod:selector>(Engine Overdrive) Activate the Capacitor. [Delays Fleet 3 jumps, will cause 6 damage to Engines and Hull. Removes Augment]</mod:selector>
-        <mod:setValue>(Engine Overdrive) Activate the Capacitor. [Delays Fleet 3 jumps, will cause 6 damage to Engines and Hull. Removes Augment][INFO][NAME]damage[/NAME]&lt;!&gt;Damage Hull(6)[/INFO][INFO][NAME]modifyPursuit[/NAME]Fleet Delay(3)[/INFO][INFO]&lt;=[/INFO]</mod:setValue>
+        <mod:setValue>(Engine Overdrive) Activate the Capacitor. [Delays Fleet 3 jumps, will cause 6 damage to Engines and Hull. Removes Augment][INFO][NAME]damage[/NAME][style[color:E00000]]&lt;!&gt;Damage Hull(6)[[/style]][/INFO][INFO][NAME]modifyPursuit[/NAME][style[color:00E000]]Fleet Delay(3)[[/style]][/INFO][INFO]&lt;=[/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -418,7 +418,7 @@
       <mod:selector hidden="true" req="LIST_JUMPSPACE_EQUIPMENT"/>
       <mod:findLike type="text">
         <mod:selector>Use a jumpspeed augment.</mod:selector>
-        <mod:setValue>Use a jumpspeed augment.[INFO][NAME]itemModify[/NAME]{-3[/INFO][INFO][NAME]revealMap[/NAME]Map Reveal[/INFO][INFO]&lt;=[/INFO][INFO][NAME]itemModify[/NAME]2≤{≤5[/INFO][INFO][NAME]itemModify[/NAME]{1[/INFO][INFO][NAME]crewMember[/NAME]Gain a crew(Blob)[/INFO][INFO][NAME]damage[/NAME]&lt;!&gt;Damage Hull(6)[/INFO][INFO][NAME]modifyPursuit[/NAME]Fleet Delay(3)[/INFO]</mod:setValue>
+        <mod:setValue>Use a jumpspeed augment.[INFO][NAME]itemModify[/NAME][style[color:E00000]]{-3[[/style]][/INFO][INFO][NAME]revealMap[/NAME][style[color:00E000]]Map Reveal[[/style]][/INFO][INFO]&lt;=[/INFO][INFO][NAME]itemModify[/NAME][style[color:00E000]]2≤{≤5[[/style]][/INFO][INFO][NAME]itemModify[/NAME][style[color:00E000]]{1[[/style]][/INFO][INFO][NAME]crewMember[/NAME][style[color:00E000]]Gain a crew(Blob)[[/style]][/INFO][INFO][NAME]damage[/NAME][style[color:E00000]]&lt;!&gt;Damage Hull(6)[[/style]][/INFO][INFO][NAME]modifyPursuit[/NAME][style[color:00E000]]Fleet Delay(3)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -436,7 +436,7 @@
       <mod:selector hidden="true" req="SEC SECTOR_ASTEROID_GENERIC" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Proceed to the Mining Sector.</mod:selector>
-        <mod:setValue>Proceed to the Mining Sector.[FightINFO]Fight(HK: [INFO]17% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO]17% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO]17% [NAME]weapon[/NAME]Gain a weapon(Giftlist Union)[/INFO])[/FightINFO][FightINFO]Fight(HK: [INFO]17% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO]17% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO]17% [NAME]weapon[/NAME]Gain a weapon(Giftlist Leech)[/INFO])[/FightINFO][FightINFO]Fight(HK: [INFO]17% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO]17% [NAME]autoReward[/NAME]Reward Standard(H)[/INFO] [INFO]17% [NAME]weapon[/NAME]Gain a weapon(Giftlist Rock)[/INFO])[/FightINFO][FightINFO]Fight(HK: [INFO]17% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO]17% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO]17% [NAME]weapon[/NAME]Gain a weapon(Giftlist Zoltan)[/INFO])[/FightINFO][FightINFO]Fight(HK: [INFO]17% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO]17% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO]17% [NAME]weapon[/NAME]Gain a weapon(Giftlist Spore)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Proceed to the Mining Sector.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO]17% [NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO]17% [NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO]17% [NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Union)[[/style]][/INFO])[/FightINFO][FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO]17% [NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO]17% [NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO]17% [NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Leech)[[/style]][/INFO])[/FightINFO][FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO]17% [NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO]17% [NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO] [INFO]17% [NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Rock)[[/style]][/INFO])[/FightINFO][FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO]17% [NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO]17% [NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO]17% [NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Zoltan)[[/style]][/INFO])[/FightINFO][FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO]17% [NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO]17% [NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO]17% [NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Spore)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -445,7 +445,7 @@
       <mod:selector hidden="true" req="SEC SECTOR_UNION" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Proceed to the Union Sector.</mod:selector>
-        <mod:setValue>Proceed to the Union Sector.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Union)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Proceed to the Union Sector.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Union)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -454,7 +454,7 @@
       <mod:selector hidden="true" req="SEC SECTOR_UNION_UNIQUE" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Proceed to the Union Coreworlds.</mod:selector>
-        <mod:setValue>Proceed to the Union Coreworlds.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Union)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Proceed to the Union Coreworlds.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Union)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -463,7 +463,7 @@
       <mod:selector hidden="true" req="SEC SECTOR_HACKER_UNIQUE" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Proceed to the Union Sector.</mod:selector>
-        <mod:setValue>Proceed to the Union Sector.[FightINFO]Fight(HK=CK: [INFO]50% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO]50% [NAME]crewMember[/NAME]Gain a crew(Union Random)[/INFO])[/FightINFO][FightINFO]Fight(HK=CK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO][NAME]crewMember[/NAME]Gain a crew(Union Random)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Proceed to the Union Sector.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK=CK: [INFO]50% [NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO]50% [NAME]crewMember[/NAME][style[color:00E000]]Gain a crew(Union Random)[[/style]][/INFO])[/FightINFO][FightINFO][style[color:FF8A33]]Fight[[/style]](HK=CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO][NAME]crewMember[/NAME][style[color:00E000]]Gain a crew(Union Random)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -472,7 +472,7 @@
       <mod:selector hidden="true" req="SEC SECTOR_MILITIA_UNIQUE" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Proceed to the Militia Encampment.</mod:selector>
-        <mod:setValue>Proceed to the Militia Encampment.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Federation)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Proceed to the Militia Encampment.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Federation)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -481,7 +481,7 @@
       <mod:selector hidden="true" req="SEC SECTOR_HARMONY" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Proceed to the Engi Sector.</mod:selector>
-        <mod:setValue>Proceed to the Engi Sector.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO][NAME]drone[/NAME]Gain a drone(Giftlist Engi)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Proceed to the Engi Sector.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO][NAME]drone[/NAME][style[color:00E000]]Gain a drone(Giftlist Engi)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -490,7 +490,7 @@
       <mod:selector hidden="true" req="SEC SECTOR_HARMONY_UNIQUE" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Proceed to the Engi Harmony.</mod:selector>
-        <mod:setValue>Proceed to the Engi Harmony.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO][NAME]drone[/NAME]Gain a drone(Giftlist Engi)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Proceed to the Engi Harmony.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO][NAME]drone[/NAME][style[color:00E000]]Gain a drone(Giftlist Engi)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -499,7 +499,7 @@
       <mod:selector hidden="true" req="SEC SECTOR_MINISTRY" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Proceed to the Zoltan Sector.</mod:selector>
-        <mod:setValue>Proceed to the Zoltan Sector.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Zoltan)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Proceed to the Zoltan Sector.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Zoltan)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -508,7 +508,7 @@
       <mod:selector hidden="true" req="SEC SECTOR_MINISTRY_UNIQUE" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Proceed to the Zoltan Capital.</mod:selector>
-        <mod:setValue>Proceed to the Zoltan Capital.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Zoltan)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Proceed to the Zoltan Capital.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Zoltan)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -517,7 +517,7 @@
       <mod:selector hidden="true" req="SEC SECTOR_GATHERING" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Proceed to the Orchid Sector.</mod:selector>
-        <mod:setValue>Proceed to the Orchid Sector.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Kernel)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Proceed to the Orchid Sector.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Kernel)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -526,7 +526,7 @@
       <mod:selector hidden="true" req="SEC SECTOR_GATHERING_UNIQUE" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Proceed to the Orchid Gardenworlds.</mod:selector>
-        <mod:setValue>Proceed to the Orchid Gardenworlds.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Kernel)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Proceed to the Orchid Gardenworlds.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Kernel)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -535,7 +535,7 @@
       <mod:selector hidden="true" req="SEC SECTOR_CONFEDERATE" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Proceed to the Confederate Sector.</mod:selector>
-        <mod:setValue>Proceed to the Confederate Sector.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Spore)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Proceed to the Confederate Sector.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Spore)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -544,7 +544,7 @@
       <mod:selector hidden="true" req="SEC SECTOR_CONFEDERATE_UNIQUE" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Proceed to the Confederate Coreworlds.</mod:selector>
-        <mod:setValue>Proceed to the Confederate Coreworlds.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Spore)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Proceed to the Confederate Coreworlds.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Spore)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -553,7 +553,7 @@
       <mod:selector hidden="true" req="SEC SECTOR_FREEMANTIS" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Proceed to the Free Mantis Sector.</mod:selector>
-        <mod:setValue>Proceed to the Free Mantis Sector.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO][NAME]crewMember[/NAME]Gain a crew(Mantis Free)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Proceed to the Free Mantis Sector.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO][NAME]crewMember[/NAME][style[color:00E000]]Gain a crew(Mantis Free)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -562,7 +562,7 @@
       <mod:selector hidden="true" req="SEC SECTOR_FREEMANTIS_UNIQUE" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Proceed to the Hunting Grounds.</mod:selector>
-        <mod:setValue>Proceed to the Hunting Grounds.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO][NAME]crewMember[/NAME]Gain a crew(Mantis Free)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Proceed to the Hunting Grounds.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO][NAME]crewMember[/NAME][style[color:00E000]]Gain a crew(Mantis Free)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -571,7 +571,7 @@
       <mod:selector hidden="true" req="SEC SECTOR_SEPARATIST" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Proceed to the Separatist Sector.</mod:selector>
-        <mod:setValue>Proceed to the Separatist Sector.[INFO][NAME]storageCheck[/NAME]Storage Check[/INFO]</mod:setValue>
+        <mod:setValue>Proceed to the Separatist Sector.[INFO][NAME]storageCheck[/NAME][style[color:707070]]Storage Check[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -580,7 +580,7 @@
       <mod:selector hidden="true" req="SEC SECTOR_SEPARATIST_UNIQUE" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Proceed to the Separatist Sector.</mod:selector>
-        <mod:setValue>Proceed to the Separatist Sector.[INFO][NAME]storageCheck[/NAME]Storage Check[/INFO]</mod:setValue>
+        <mod:setValue>Proceed to the Separatist Sector.[INFO][NAME]storageCheck[/NAME][style[color:707070]]Storage Check[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -589,7 +589,7 @@
       <mod:selector hidden="true" req="SEC SECTOR_IMPERIAL" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Proceed to the Crystalline Sector.</mod:selector>
-        <mod:setValue>Proceed to the Crystalline Sector.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Crystal)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Proceed to the Crystalline Sector.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Crystal)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -598,7 +598,7 @@
       <mod:selector hidden="true" req="SEC SECTOR_IMPERIAL_UNIQUE" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Proceed to the Crystalline New-Homelands.</mod:selector>
-        <mod:setValue>Proceed to the Crystalline New-Homelands.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Crystal)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Proceed to the Crystalline New-Homelands.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Crystal)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -607,7 +607,7 @@
       <mod:selector hidden="true" req="SEC SECTOR_OUTCAST" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Proceed to the Outcast Sector.</mod:selector>
-        <mod:setValue>Proceed to the Outcast Sector.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO][NAME]crewMember[/NAME]Gain a crew(Rock Outcast)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Proceed to the Outcast Sector.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO][NAME]crewMember[/NAME][style[color:00E000]]Gain a crew(Rock Outcast)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -616,7 +616,7 @@
       <mod:selector hidden="true" req="SEC SECTOR_OUTCAST_UNIQUE" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Proceed to the Theocracy Badlands.</mod:selector>
-        <mod:setValue>Proceed to the Theocracy Badlands.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO][NAME]crewMember[/NAME]Gain a crew(Rock Outcast)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Proceed to the Theocracy Badlands.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO][NAME]crewMember[/NAME][style[color:00E000]]Gain a crew(Rock Outcast)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -625,7 +625,7 @@
       <mod:selector hidden="true" req="SEC SECTOR_FEDERATION" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Proceed to the Federation Sector.</mod:selector>
-        <mod:setValue>Proceed to the Federation Sector.[INFO][NAME]modifyPursuit[/NAME]Fleet Delay(2)[/INFO][INFO]&lt;=[/INFO]</mod:setValue>
+        <mod:setValue>Proceed to the Federation Sector.[INFO][NAME]modifyPursuit[/NAME][style[color:00E000]]Fleet Delay(2)[[/style]][/INFO][INFO]&lt;=[/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -634,7 +634,7 @@
       <mod:selector hidden="true" req="SEC SECTOR_FEDERATION_UNIQUE" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Proceed to the Federation Embassy.</mod:selector>
-        <mod:setValue>Proceed to the Federation Embassy.[INFO][NAME]modifyPursuit[/NAME]Fleet Delay(2)[/INFO][INFO]&lt;=[/INFO]</mod:setValue>
+        <mod:setValue>Proceed to the Federation Embassy.[INFO][NAME]modifyPursuit[/NAME][style[color:00E000]]Fleet Delay(2)[[/style]][/INFO][INFO]&lt;=[/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -643,7 +643,7 @@
       <mod:selector hidden="true" req="SEC SECTOR_REBEL" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Proceed to the Rebel Sector.</mod:selector>
-        <mod:setValue>Proceed to the Rebel Sector.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Rebel)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Proceed to the Rebel Sector.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Rebel)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -652,7 +652,7 @@
       <mod:selector hidden="true" req="SEC SECTOR_REBEL_UNIQUE" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Proceed to the Rebel Stronghold.</mod:selector>
-        <mod:setValue>Proceed to the Rebel Stronghold.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO] [INFO][NAME]crewMember[/NAME]Gain a crew(Human Soldier)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Proceed to the Rebel Stronghold.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO] [INFO][NAME]crewMember[/NAME][style[color:00E000]]Gain a crew(Human Soldier)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -661,7 +661,7 @@
       <mod:selector hidden="true" req="SEC SECTOR_PIRATE" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Proceed to the Pirate Sector.</mod:selector>
-        <mod:setValue>Proceed to the Pirate Sector.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward ~ Only(H)[/INFO] [INFO][NAME]itemModify[/NAME]{5 }4 |3[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Proceed to the Pirate Sector.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward ~ Only(H)[[/style]][/INFO] [INFO][NAME]itemModify[/NAME][style[color:00E000]]{5[[/style]] [style[color:00E000]]}4[[/style]] [style[color:00E000]]|3[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -670,7 +670,7 @@
       <mod:selector hidden="true" req="SEC SECTOR_PIRATE_UNIQUE" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Proceed to the Black Market.</mod:selector>
-        <mod:setValue>Proceed to the Black Market.[INFO]25% [NAME]boarders[/NAME]&lt;!&gt;Enemy Boarding(x2 Random)[/INFO][INFO]25% &lt;=[/INFO][INFO]&lt;=[/INFO][INFO][NAME]itemModify[/NAME]-35≤~≤-20[/INFO][INFO]50% &lt;=[/INFO]</mod:setValue>
+        <mod:setValue>Proceed to the Black Market.[INFO]25% [NAME]boarders[/NAME][style[color:E00000]]&lt;!&gt;Enemy Boarding(x2 Random)[[/style]][/INFO][INFO]25% &lt;=[/INFO][INFO]&lt;=[/INFO][INFO][NAME]itemModify[/NAME][style[color:E00000]]-35≤~≤-20[[/style]][/INFO][INFO]50% &lt;=[/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -679,7 +679,7 @@
       <mod:selector hidden="true" req="SEC SECTOR_HIVE" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Proceed to the Mantis Sector.</mod:selector>
-        <mod:setValue>Proceed to the Mantis Sector.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Mantis)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Proceed to the Mantis Sector.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Mantis)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -688,7 +688,7 @@
       <mod:selector hidden="true" req="SEC SECTOR_HIVE_UNIQUE" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Proceed to the Mantis Hive.</mod:selector>
-        <mod:setValue>Proceed to the Mantis Hive.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Mantis)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Proceed to the Mantis Hive.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO] [INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Mantis)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -697,7 +697,7 @@
       <mod:selector hidden="true" req="SEC SECTOR_THEOCRACY" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Proceed to the Rock Sector.</mod:selector>
-        <mod:setValue>Proceed to the Rock Sector.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Rock)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Proceed to the Rock Sector.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO] [INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Rock)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -706,7 +706,7 @@
       <mod:selector hidden="true" req="SEC SECTOR_THEOCRACY_UNIQUE" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Proceed to the Rock Homeworlds.</mod:selector>
-        <mod:setValue>Proceed to the Rock Homeworlds.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Rock)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Proceed to the Rock Homeworlds.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO] [INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Rock)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -715,7 +715,7 @@
       <mod:selector hidden="true" req="SEC SECTOR_LOSTSUN_UNIQUE" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Proceed to the Lost Sun Stronghold.</mod:selector>
-        <mod:setValue>Proceed to the Lost Sun Stronghold.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Lostsun)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Proceed to the Lost Sun Stronghold.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO] [INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Lostsun)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -724,7 +724,7 @@
       <mod:selector hidden="true" req="SEC SECTOR_DUSKBRINGER" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Proceed to the Duskbringer Sector.</mod:selector>
-        <mod:setValue>Proceed to the Duskbringer Sector.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Dusk)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Proceed to the Duskbringer Sector.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Dusk)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -733,7 +733,7 @@
       <mod:selector hidden="true" req="SEC SECTOR_DUSKBRINGER_UNIQUE" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Proceed to the Duskbringer Stronghold.</mod:selector>
-        <mod:setValue>Proceed to the Duskbringer Stronghold.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Dusk)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Proceed to the Duskbringer Stronghold.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Dusk)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -742,7 +742,7 @@
       <mod:selector hidden="true" req="SEC SECTOR_COALITION" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Proceed to the Coalition Sector.</mod:selector>
-        <mod:setValue>Proceed to the Coalition Sector.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Coalition)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Proceed to the Coalition Sector.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Coalition)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -751,7 +751,7 @@
       <mod:selector hidden="true" req="SEC SECTOR_COALITION_UNIQUE" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Proceed to the Coalition Stronghold.</mod:selector>
-        <mod:setValue>Proceed to the Coalition Stronghold.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Coalition)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Proceed to the Coalition Stronghold.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO] [INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Coalition)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -760,7 +760,7 @@
       <mod:selector hidden="true" req="SEC SECTOR_AUTO" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Proceed to the Automated Shipyards.</mod:selector>
-        <mod:setValue>Proceed to the Automated Shipyards.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Proceed to the Automated Shipyards.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -769,7 +769,7 @@
       <mod:selector hidden="true" req="SEC SECTOR_AUTO_UNIQUE" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Proceed to the Central Shipyards.</mod:selector>
-        <mod:setValue>Proceed to the Central Shipyards.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Proceed to the Central Shipyards.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -778,7 +778,7 @@
       <mod:selector hidden="true" req="SEC SECTOR_ABANDONED_GENERIC" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Proceed to the Abandoned Sector.</mod:selector>
-        <mod:setValue>Proceed to the Abandoned Sector.[INFO]50% [NAME]storageCheck[/NAME]Storage Check[/INFO][INFO]50% &lt;=[/INFO]</mod:setValue>
+        <mod:setValue>Proceed to the Abandoned Sector.[INFO]50% [NAME]storageCheck[/NAME][style[color:707070]]Storage Check[[/style]][/INFO][INFO]50% &lt;=[/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -787,7 +787,7 @@
       <mod:selector hidden="true" req="SEC SECTOR_LANIUS_UNIQUE" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Proceed to the Lanius Swarmlands.</mod:selector>
-        <mod:setValue>Proceed to the Lanius Swarmlands.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Lanius)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Proceed to the Lanius Swarmlands.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO] [INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Lanius)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -796,7 +796,7 @@
       <mod:selector hidden="true" req="SEC SECTOR_UNEXPLORED_GENERIC" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Proceed to the Nebula Sector.</mod:selector>
-        <mod:setValue>Proceed to the Nebula Sector.[INFO][NAME]modifyPursuit[/NAME]Fleet Delay(1)[/INFO]</mod:setValue>
+        <mod:setValue>Proceed to the Nebula Sector.[INFO][NAME]modifyPursuit[/NAME][style[color:00E000]]Fleet Delay(1)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -805,7 +805,7 @@
       <mod:selector hidden="true" req="SEC SECTOR_STARGROVE_UNIQUE" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Proceed to the Stargrove.</mod:selector>
-        <mod:setValue>Proceed to the Stargrove.[INFO][NAME]damage[/NAME]Repair Hull(10$)[/INFO][INFO][NAME]modifyPursuit[/NAME]Fleet Delay(3)[/INFO][INFO]&lt;=[/INFO]</mod:setValue>
+        <mod:setValue>Proceed to the Stargrove.[INFO][NAME]damage[/NAME][style[color:00E000]]Repair Hull(10$)[[/style]][/INFO][INFO][NAME]modifyPursuit[/NAME][style[color:00E000]]Fleet Delay(3)[[/style]][/INFO][INFO]&lt;=[/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -814,7 +814,7 @@
       <mod:selector hidden="true" req="SEC SECTOR_KLEPTOCRACY" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Proceed to the Slug Sector.</mod:selector>
-        <mod:setValue>Proceed to the Slug Sector.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Slug)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Proceed to the Slug Sector.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Slug)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -823,7 +823,7 @@
       <mod:selector hidden="true" req="SEC SECTOR_KLEPTOCRACY_UNIQUE" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Proceed to the Slug Homeworlds.</mod:selector>
-        <mod:setValue>Proceed to the Slug Homeworlds.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Slug)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Proceed to the Slug Homeworlds.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO] [INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Slug)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -832,7 +832,7 @@
       <mod:selector hidden="true" req="SEC SECTOR_CLAN_UNIQUE" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Proceed to the Guild Territory.</mod:selector>
-        <mod:setValue>Proceed to the Guild Territory.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Slug)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Proceed to the Guild Territory.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Slug)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -841,7 +841,7 @@
       <mod:selector hidden="true" req="SEC SECTOR_REPUBLIC" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Proceed to the Leech Sector.</mod:selector>
-        <mod:setValue>Proceed to the Leech Sector.[FightINFO]Fight(HK: [INFO]33% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO]33% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO]33% [NAME]weapon[/NAME]Gain a weapon(Giftlist Leech)[/INFO])[/FightINFO][FightINFO]Fight(HK: [INFO]33% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO]33% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO]33% [NAME]weapon[/NAME]Gain a weapon(Giftlist Coalition)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Proceed to the Leech Sector.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO]33% [NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO]33% [NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO]33% [NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Leech)[[/style]][/INFO])[/FightINFO][FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO]33% [NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO]33% [NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO]33% [NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Coalition)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -850,7 +850,7 @@
       <mod:selector hidden="true" req="SEC SECTOR_REPUBLIC_UNIQUE" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Proceed to the Leech Capital.</mod:selector>
-        <mod:setValue>Proceed to the Leech Capital.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Leech)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Proceed to the Leech Capital.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Leech)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -859,7 +859,7 @@
       <mod:selector hidden="true" req="SEC SECTOR_GENIOCRACY" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Proceed to the Shell Sector.</mod:selector>
-        <mod:setValue>Proceed to the Shell Sector.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Shell)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Proceed to the Shell Sector.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Shell)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -877,7 +877,7 @@
       <mod:selector hidden="true" req="SEC SECTOR_MORPH_UNIQUE" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Proceed to the Geniocracy Science District.</mod:selector>
-        <mod:setValue>Proceed to the Geniocracy Science District.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Shell)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Proceed to the Geniocracy Science District.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO] [INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Shell)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -886,7 +886,7 @@
       <mod:selector hidden="true" req="SEC SECTOR_VAGABOND" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Proceed to the Vagabond Nebula.</mod:selector>
-        <mod:setValue>Proceed to the Vagabond Nebula.[FightINFO]Fight(HK: [INFO]50% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO]50% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO]50% [NAME]weapon[/NAME]Gain a weapon(Giftlist Rusty)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Proceed to the Vagabond Nebula.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO]50% [NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO]50% [NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO]50% [NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Rusty)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -895,7 +895,7 @@
       <mod:selector hidden="true" req="SEC SECTOR_VAGABOND_UNIQUE" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Proceed to the Spectral Wastelands.</mod:selector>
-        <mod:setValue>Proceed to the Spectral Wastelands.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Dynasty)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Proceed to the Spectral Wastelands.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Dynasty)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -904,7 +904,7 @@
       <mod:selector hidden="true" req="SEC SECTOR_DYNASTY" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Proceed to the Spectral Nebula.</mod:selector>
-        <mod:setValue>Proceed to the Spectral Nebula.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Dynasty)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Proceed to the Spectral Nebula.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Dynasty)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -913,7 +913,7 @@
       <mod:selector hidden="true" req="SEC SECTOR_DYNASTY_UNIQUE" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Proceed to the Spectral Capital.</mod:selector>
-        <mod:setValue>Proceed to the Spectral Capital.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Dynasty)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Proceed to the Spectral Capital.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO] [INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Dynasty)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -922,7 +922,7 @@
       <mod:selector hidden="true" req="SEC SECTOR_MONK_UNIQUE" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Proceed to the Illesctrian Oasis.</mod:selector>
-        <mod:setValue>Proceed to the Illesctrian Oasis.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Proceed to the Illesctrian Oasis.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -931,7 +931,7 @@
       <mod:selector hidden="true" req="SEC SECRET_AUGMENTED" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Proceed to the Ancient Recovery Site.</mod:selector>
-        <mod:setValue>Proceed to the Ancient Recovery Site.[FightINFO]Fight(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO] [INFO][NAME]drone[/NAME]Gain a drone(Ancient Combat Laser)[/INFO])(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(SR: [INFO][NAME]autoReward[/NAME]Reward Stuff(M)[/INFO] [INFO][NAME]drone[/NAME]Gain a drone(Ancient Combat Laser)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Proceed to the Ancient Recovery Site.[FightINFO][style[color:FF8A33]]Fight[[/style]](CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO] [INFO][NAME]drone[/NAME][style[color:00E000]]Gain a drone(Ancient Combat Laser)[[/style]][/INFO])(HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(SR: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Stuff(M)[[/style]][/INFO] [INFO][NAME]drone[/NAME][style[color:00E000]]Gain a drone(Ancient Combat Laser)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -940,7 +940,7 @@
       <mod:selector hidden="true" req="SEC SECRET_ANCIENT" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Proceed to the Obelisk Sector.</mod:selector>
-        <mod:setValue>Proceed to the Obelisk Sector.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Ancient)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Proceed to the Obelisk Sector.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO] [INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Ancient)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -949,7 +949,7 @@
       <mod:selector hidden="true" req="SEC SECRET_ROYAL" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Proceed to the Obelisk Homeworlds.</mod:selector>
-        <mod:setValue>Proceed to the Obelisk Homeworlds.[FightINFO]Fight(HK=CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Proceed to the Obelisk Homeworlds.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK=CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -958,7 +958,7 @@
       <mod:selector hidden="true" req="SEC SECRET_ORIGINS" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Proceed to the Crystalline Origins.</mod:selector>
-        <mod:setValue>Proceed to the Crystalline Origins.[FightINFO]Fight(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Crystal Elite)[/INFO])(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])(SR: [INFO][NAME]boarders[/NAME]&lt;!&gt;Enemy Boarding(x2-x3 Rock Cultist)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Proceed to the Crystalline Origins.[FightINFO][style[color:FF8A33]]Fight[[/style]](CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO] [INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Crystal Elite)[[/style]][/INFO])(HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO])(SR: [INFO][NAME]boarders[/NAME][style[color:E00000]]&lt;!&gt;Enemy Boarding(x2-x3 Rock Cultist)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -967,7 +967,7 @@
       <mod:selector hidden="true" req="SEC SECRET_ORIGINS_RUWEN" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Proceed to the Crystalline Origins.</mod:selector>
-        <mod:setValue>Proceed to the Crystalline Origins.[FightINFO]Fight(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Crystal Elite)[/INFO])(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])(SR: [INFO][NAME]boarders[/NAME]&lt;!&gt;Enemy Boarding(x2-x3 Rock Cultist)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Proceed to the Crystalline Origins.[FightINFO][style[color:FF8A33]]Fight[[/style]](CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO] [INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Crystal Elite)[[/style]][/INFO])(HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO])(SR: [INFO][NAME]boarders[/NAME][style[color:E00000]]&lt;!&gt;Enemy Boarding(x2-x3 Rock Cultist)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -976,7 +976,7 @@
       <mod:selector hidden="true" req="SEC SECTOR_KLEPTOCRACY_HEKTAR" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Proceed to the Slug Sector.</mod:selector>
-        <mod:setValue>Proceed to the Slug Sector.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Slug)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Proceed to the Slug Sector.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Slug)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -985,7 +985,7 @@
       <mod:selector hidden="true" req="SEC SECTOR_PIRATE_HEKTAR" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Proceed to the Pirate Sector.</mod:selector>
-        <mod:setValue>Proceed to the Pirate Sector.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward ~ Only(H)[/INFO] [INFO][NAME]itemModify[/NAME]{5 }4 |3[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Proceed to the Pirate Sector.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward ~ Only(H)[[/style]][/INFO] [INFO][NAME]itemModify[/NAME][style[color:00E000]]{5[[/style]] [style[color:00E000]]}4[[/style]] [style[color:00E000]]|3[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -994,7 +994,7 @@
       <mod:selector hidden="true" req="SEC SECTOR_ABANDONED_GENERIC_HEKTAR" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Proceed to the Abandoned Sector.</mod:selector>
-        <mod:setValue>Proceed to the Abandoned Sector.[INFO]50% [NAME]storageCheck[/NAME]Storage Check[/INFO][INFO]50% &lt;=[/INFO]</mod:setValue>
+        <mod:setValue>Proceed to the Abandoned Sector.[INFO]50% [NAME]storageCheck[/NAME][style[color:707070]]Storage Check[[/style]][/INFO][INFO]50% &lt;=[/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -1003,7 +1003,7 @@
       <mod:selector hidden="true" req="SEC SECTOR_REPUBLIC_HEKTAR" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Proceed to the Leech Sector.</mod:selector>
-        <mod:setValue>Proceed to the Leech Sector.[FightINFO]Fight(HK: [INFO]33% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO]33% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO]33% [NAME]weapon[/NAME]Gain a weapon(Giftlist Leech)[/INFO])[/FightINFO][FightINFO]Fight(HK: [INFO]33% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO]33% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO]33% [NAME]weapon[/NAME]Gain a weapon(Giftlist Coalition)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Proceed to the Leech Sector.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO]33% [NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO]33% [NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO]33% [NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Leech)[[/style]][/INFO])[/FightINFO][FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO]33% [NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO]33% [NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO]33% [NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Coalition)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -1012,7 +1012,7 @@
       <mod:selector hidden="true" req="SEC SECRET_SYLVAN" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Proceed to ???.</mod:selector>
-        <mod:setValue>Proceed to ???.[FightINFO]Fight(HK: [INFO][NAME]weapon[/NAME]Gain a weapon(Prime Laser)[/INFO] [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Proceed to ???.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Prime Laser)[[/style]][/INFO] [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard No Item(H)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -1021,7 +1021,7 @@
       <mod:selector hidden="true" req="SEC SECTOR_ASTEROID_GENERIC" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Proceed to the Mining Sector.</mod:selector>
-        <mod:setValue>Proceed to the Mining Sector.[FightINFO]Fight(HK: [INFO]17% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO]17% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO]17% [NAME]weapon[/NAME]Gain a weapon(Giftlist Union)[/INFO])[/FightINFO][FightINFO]Fight(HK: [INFO]17% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO]17% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO]17% [NAME]weapon[/NAME]Gain a weapon(Giftlist Leech)[/INFO])[/FightINFO][FightINFO]Fight(HK: [INFO]17% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO]17% [NAME]autoReward[/NAME]Reward Standard(H)[/INFO] [INFO]17% [NAME]weapon[/NAME]Gain a weapon(Giftlist Rock)[/INFO])[/FightINFO][FightINFO]Fight(HK: [INFO]17% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO]17% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO]17% [NAME]weapon[/NAME]Gain a weapon(Giftlist Zoltan)[/INFO])[/FightINFO][FightINFO]Fight(HK: [INFO]17% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO]17% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO]17% [NAME]weapon[/NAME]Gain a weapon(Giftlist Spore)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Proceed to the Mining Sector.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO]17% [NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO]17% [NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO]17% [NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Union)[[/style]][/INFO])[/FightINFO][FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO]17% [NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO]17% [NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO]17% [NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Leech)[[/style]][/INFO])[/FightINFO][FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO]17% [NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO]17% [NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO] [INFO]17% [NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Rock)[[/style]][/INFO])[/FightINFO][FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO]17% [NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO]17% [NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO]17% [NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Zoltan)[[/style]][/INFO])[/FightINFO][FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO]17% [NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO]17% [NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO]17% [NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Spore)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -1030,7 +1030,7 @@
       <mod:selector hidden="true" req="SEC SECTOR_UNION" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Proceed to the Union Sector.</mod:selector>
-        <mod:setValue>Proceed to the Union Sector.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Union)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Proceed to the Union Sector.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Union)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -1039,7 +1039,7 @@
       <mod:selector hidden="true" req="SEC SECTOR_UNION_UNIQUE" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Proceed to the Union Coreworlds.</mod:selector>
-        <mod:setValue>Proceed to the Union Coreworlds.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Union)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Proceed to the Union Coreworlds.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Union)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -1048,7 +1048,7 @@
       <mod:selector hidden="true" req="SEC SECTOR_HACKER_UNIQUE" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Proceed to the Union Sector.</mod:selector>
-        <mod:setValue>Proceed to the Union Sector.[FightINFO]Fight(HK=CK: [INFO]50% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO]50% [NAME]crewMember[/NAME]Gain a crew(Union Random)[/INFO])[/FightINFO][FightINFO]Fight(HK=CK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO][NAME]crewMember[/NAME]Gain a crew(Union Random)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Proceed to the Union Sector.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK=CK: [INFO]50% [NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO]50% [NAME]crewMember[/NAME][style[color:00E000]]Gain a crew(Union Random)[[/style]][/INFO])[/FightINFO][FightINFO][style[color:FF8A33]]Fight[[/style]](HK=CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO][NAME]crewMember[/NAME][style[color:00E000]]Gain a crew(Union Random)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -1057,7 +1057,7 @@
       <mod:selector hidden="true" req="SEC SECTOR_MILITIA_UNIQUE" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Proceed to the Militia Encampment.</mod:selector>
-        <mod:setValue>Proceed to the Militia Encampment.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Federation)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Proceed to the Militia Encampment.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Federation)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -1066,7 +1066,7 @@
       <mod:selector hidden="true" req="SEC SECTOR_HARMONY" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Proceed to the Engi Sector.</mod:selector>
-        <mod:setValue>Proceed to the Engi Sector.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO][NAME]drone[/NAME]Gain a drone(Giftlist Engi)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Proceed to the Engi Sector.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO][NAME]drone[/NAME][style[color:00E000]]Gain a drone(Giftlist Engi)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -1075,7 +1075,7 @@
       <mod:selector hidden="true" req="SEC SECTOR_HARMONY_UNIQUE" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Proceed to the Engi Harmony.</mod:selector>
-        <mod:setValue>Proceed to the Engi Harmony.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO][NAME]drone[/NAME]Gain a drone(Giftlist Engi)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Proceed to the Engi Harmony.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO][NAME]drone[/NAME][style[color:00E000]]Gain a drone(Giftlist Engi)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -1084,7 +1084,7 @@
       <mod:selector hidden="true" req="SEC SECTOR_MINISTRY" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Proceed to the Zoltan Sector.</mod:selector>
-        <mod:setValue>Proceed to the Zoltan Sector.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Zoltan)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Proceed to the Zoltan Sector.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Zoltan)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -1093,7 +1093,7 @@
       <mod:selector hidden="true" req="SEC SECTOR_MINISTRY_UNIQUE" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Proceed to the Zoltan Capital.</mod:selector>
-        <mod:setValue>Proceed to the Zoltan Capital.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Zoltan)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Proceed to the Zoltan Capital.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Zoltan)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -1102,7 +1102,7 @@
       <mod:selector hidden="true" req="SEC SECTOR_GATHERING" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Proceed to the Orchid Sector.</mod:selector>
-        <mod:setValue>Proceed to the Orchid Sector.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Kernel)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Proceed to the Orchid Sector.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Kernel)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -1111,7 +1111,7 @@
       <mod:selector hidden="true" req="SEC SECTOR_GATHERING_UNIQUE" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Proceed to the Orchid Gardenworlds.</mod:selector>
-        <mod:setValue>Proceed to the Orchid Gardenworlds.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Kernel)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Proceed to the Orchid Gardenworlds.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Kernel)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -1120,7 +1120,7 @@
       <mod:selector hidden="true" req="SEC SECTOR_CONFEDERATE" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Proceed to the Confederate Sector.</mod:selector>
-        <mod:setValue>Proceed to the Confederate Sector.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Spore)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Proceed to the Confederate Sector.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Spore)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -1129,7 +1129,7 @@
       <mod:selector hidden="true" req="SEC SECTOR_CONFEDERATE_UNIQUE" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Proceed to the Confederate Coreworlds.</mod:selector>
-        <mod:setValue>Proceed to the Confederate Coreworlds.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Spore)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Proceed to the Confederate Coreworlds.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Spore)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -1138,7 +1138,7 @@
       <mod:selector hidden="true" req="SEC SECTOR_FREEMANTIS" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Proceed to the Free Mantis Sector.</mod:selector>
-        <mod:setValue>Proceed to the Free Mantis Sector.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO][NAME]crewMember[/NAME]Gain a crew(Mantis Free)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Proceed to the Free Mantis Sector.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO][NAME]crewMember[/NAME][style[color:00E000]]Gain a crew(Mantis Free)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -1147,7 +1147,7 @@
       <mod:selector hidden="true" req="SEC SECTOR_FREEMANTIS_UNIQUE" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Proceed to the Hunting Grounds.</mod:selector>
-        <mod:setValue>Proceed to the Hunting Grounds.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO][NAME]crewMember[/NAME]Gain a crew(Mantis Free)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Proceed to the Hunting Grounds.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO][NAME]crewMember[/NAME][style[color:00E000]]Gain a crew(Mantis Free)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -1156,7 +1156,7 @@
       <mod:selector hidden="true" req="SEC SECTOR_SEPARATIST" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Proceed to the Separatist Sector.</mod:selector>
-        <mod:setValue>Proceed to the Separatist Sector.[INFO][NAME]storageCheck[/NAME]Storage Check[/INFO]</mod:setValue>
+        <mod:setValue>Proceed to the Separatist Sector.[INFO][NAME]storageCheck[/NAME][style[color:707070]]Storage Check[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -1165,7 +1165,7 @@
       <mod:selector hidden="true" req="SEC SECTOR_SEPARATIST_UNIQUE" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Proceed to the Separatist Sector.</mod:selector>
-        <mod:setValue>Proceed to the Separatist Sector.[INFO][NAME]storageCheck[/NAME]Storage Check[/INFO]</mod:setValue>
+        <mod:setValue>Proceed to the Separatist Sector.[INFO][NAME]storageCheck[/NAME][style[color:707070]]Storage Check[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -1174,7 +1174,7 @@
       <mod:selector hidden="true" req="SEC SECTOR_IMPERIAL" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Proceed to the Crystalline Sector.</mod:selector>
-        <mod:setValue>Proceed to the Crystalline Sector.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Crystal)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Proceed to the Crystalline Sector.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Crystal)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -1183,7 +1183,7 @@
       <mod:selector hidden="true" req="SEC SECTOR_IMPERIAL_UNIQUE" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Proceed to the Crystalline New-Homelands.</mod:selector>
-        <mod:setValue>Proceed to the Crystalline New-Homelands.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Crystal)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Proceed to the Crystalline New-Homelands.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Crystal)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -1192,7 +1192,7 @@
       <mod:selector hidden="true" req="SEC SECTOR_OUTCAST" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Proceed to the Outcast Sector.</mod:selector>
-        <mod:setValue>Proceed to the Outcast Sector.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO][NAME]crewMember[/NAME]Gain a crew(Rock Outcast)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Proceed to the Outcast Sector.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO][NAME]crewMember[/NAME][style[color:00E000]]Gain a crew(Rock Outcast)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -1201,7 +1201,7 @@
       <mod:selector hidden="true" req="SEC SECTOR_OUTCAST_UNIQUE" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Proceed to the Theocracy Badlands.</mod:selector>
-        <mod:setValue>Proceed to the Theocracy Badlands.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO][NAME]crewMember[/NAME]Gain a crew(Rock Outcast)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Proceed to the Theocracy Badlands.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO][NAME]crewMember[/NAME][style[color:00E000]]Gain a crew(Rock Outcast)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -1210,7 +1210,7 @@
       <mod:selector hidden="true" req="SEC SECTOR_FEDERATION" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Proceed to the Federation Sector.</mod:selector>
-        <mod:setValue>Proceed to the Federation Sector.[INFO][NAME]modifyPursuit[/NAME]Fleet Delay(2)[/INFO][INFO]&lt;=[/INFO]</mod:setValue>
+        <mod:setValue>Proceed to the Federation Sector.[INFO][NAME]modifyPursuit[/NAME][style[color:00E000]]Fleet Delay(2)[[/style]][/INFO][INFO]&lt;=[/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -1219,7 +1219,7 @@
       <mod:selector hidden="true" req="SEC SECTOR_FEDERATION_UNIQUE" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Proceed to the Federation Embassy.</mod:selector>
-        <mod:setValue>Proceed to the Federation Embassy.[INFO][NAME]modifyPursuit[/NAME]Fleet Delay(2)[/INFO][INFO]&lt;=[/INFO]</mod:setValue>
+        <mod:setValue>Proceed to the Federation Embassy.[INFO][NAME]modifyPursuit[/NAME][style[color:00E000]]Fleet Delay(2)[[/style]][/INFO][INFO]&lt;=[/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -1228,7 +1228,7 @@
       <mod:selector hidden="true" req="SEC SECTOR_REBEL" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Proceed to the Rebel Sector.</mod:selector>
-        <mod:setValue>Proceed to the Rebel Sector.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Rebel)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Proceed to the Rebel Sector.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Rebel)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -1237,7 +1237,7 @@
       <mod:selector hidden="true" req="SEC SECTOR_REBEL_UNIQUE" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Proceed to the Rebel Stronghold.</mod:selector>
-        <mod:setValue>Proceed to the Rebel Stronghold.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO] [INFO][NAME]crewMember[/NAME]Gain a crew(Human Soldier)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Proceed to the Rebel Stronghold.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO] [INFO][NAME]crewMember[/NAME][style[color:00E000]]Gain a crew(Human Soldier)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -1246,7 +1246,7 @@
       <mod:selector hidden="true" req="SEC SECTOR_PIRATE" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Proceed to the Pirate Sector.</mod:selector>
-        <mod:setValue>Proceed to the Pirate Sector.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward ~ Only(H)[/INFO] [INFO][NAME]itemModify[/NAME]{5 }4 |3[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Proceed to the Pirate Sector.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward ~ Only(H)[[/style]][/INFO] [INFO][NAME]itemModify[/NAME][style[color:00E000]]{5[[/style]] [style[color:00E000]]}4[[/style]] [style[color:00E000]]|3[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -1255,7 +1255,7 @@
       <mod:selector hidden="true" req="SEC SECTOR_PIRATE_UNIQUE" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Proceed to the Black Market.</mod:selector>
-        <mod:setValue>Proceed to the Black Market.[INFO]25% [NAME]boarders[/NAME]&lt;!&gt;Enemy Boarding(x2 Random)[/INFO][INFO]25% &lt;=[/INFO][INFO]&lt;=[/INFO][INFO][NAME]itemModify[/NAME]-35≤~≤-20[/INFO][INFO]50% &lt;=[/INFO]</mod:setValue>
+        <mod:setValue>Proceed to the Black Market.[INFO]25% [NAME]boarders[/NAME][style[color:E00000]]&lt;!&gt;Enemy Boarding(x2 Random)[[/style]][/INFO][INFO]25% &lt;=[/INFO][INFO]&lt;=[/INFO][INFO][NAME]itemModify[/NAME][style[color:E00000]]-35≤~≤-20[[/style]][/INFO][INFO]50% &lt;=[/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -1264,7 +1264,7 @@
       <mod:selector hidden="true" req="SEC SECTOR_HIVE" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Proceed to the Mantis Sector.</mod:selector>
-        <mod:setValue>Proceed to the Mantis Sector.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Mantis)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Proceed to the Mantis Sector.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Mantis)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -1273,7 +1273,7 @@
       <mod:selector hidden="true" req="SEC SECTOR_HIVE_UNIQUE" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Proceed to the Mantis Hive.</mod:selector>
-        <mod:setValue>Proceed to the Mantis Hive.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Mantis)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Proceed to the Mantis Hive.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO] [INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Mantis)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -1282,7 +1282,7 @@
       <mod:selector hidden="true" req="SEC SECTOR_THEOCRACY" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Proceed to the Rock Sector.</mod:selector>
-        <mod:setValue>Proceed to the Rock Sector.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Rock)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Proceed to the Rock Sector.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO] [INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Rock)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -1291,7 +1291,7 @@
       <mod:selector hidden="true" req="SEC SECTOR_THEOCRACY_UNIQUE" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Proceed to the Rock Homeworlds.</mod:selector>
-        <mod:setValue>Proceed to the Rock Homeworlds.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Rock)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Proceed to the Rock Homeworlds.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO] [INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Rock)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -1300,7 +1300,7 @@
       <mod:selector hidden="true" req="SEC SECTOR_LOSTSUN_UNIQUE" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Proceed to the Lost Sun Stronghold.</mod:selector>
-        <mod:setValue>Proceed to the Lost Sun Stronghold.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Lostsun)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Proceed to the Lost Sun Stronghold.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO] [INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Lostsun)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -1309,7 +1309,7 @@
       <mod:selector hidden="true" req="SEC SECTOR_DUSKBRINGER" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Proceed to the Duskbringer Sector.</mod:selector>
-        <mod:setValue>Proceed to the Duskbringer Sector.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Dusk)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Proceed to the Duskbringer Sector.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Dusk)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -1318,7 +1318,7 @@
       <mod:selector hidden="true" req="SEC SECTOR_DUSKBRINGER_UNIQUE" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Proceed to the Duskbringer Stronghold.</mod:selector>
-        <mod:setValue>Proceed to the Duskbringer Stronghold.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Dusk)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Proceed to the Duskbringer Stronghold.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Dusk)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -1327,7 +1327,7 @@
       <mod:selector hidden="true" req="SEC SECTOR_COALITION" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Proceed to the Coalition Sector.</mod:selector>
-        <mod:setValue>Proceed to the Coalition Sector.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Coalition)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Proceed to the Coalition Sector.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Coalition)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -1336,7 +1336,7 @@
       <mod:selector hidden="true" req="SEC SECTOR_COALITION_UNIQUE" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Proceed to the Coalition Stronghold.</mod:selector>
-        <mod:setValue>Proceed to the Coalition Stronghold.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Coalition)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Proceed to the Coalition Stronghold.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO] [INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Coalition)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -1345,7 +1345,7 @@
       <mod:selector hidden="true" req="SEC SECTOR_AUTO" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Proceed to the Automated Shipyards.</mod:selector>
-        <mod:setValue>Proceed to the Automated Shipyards.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Proceed to the Automated Shipyards.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -1354,7 +1354,7 @@
       <mod:selector hidden="true" req="SEC SECTOR_AUTO_UNIQUE" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Proceed to the Central Shipyards.</mod:selector>
-        <mod:setValue>Proceed to the Central Shipyards.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Proceed to the Central Shipyards.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -1363,7 +1363,7 @@
       <mod:selector hidden="true" req="SEC SECTOR_ABANDONED_GENERIC" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Proceed to the Abandoned Sector.</mod:selector>
-        <mod:setValue>Proceed to the Abandoned Sector.[INFO]50% [NAME]storageCheck[/NAME]Storage Check[/INFO][INFO]50% &lt;=[/INFO]</mod:setValue>
+        <mod:setValue>Proceed to the Abandoned Sector.[INFO]50% [NAME]storageCheck[/NAME][style[color:707070]]Storage Check[[/style]][/INFO][INFO]50% &lt;=[/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -1372,7 +1372,7 @@
       <mod:selector hidden="true" req="SEC SECTOR_LANIUS_UNIQUE" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Proceed to the Lanius Swarmlands.</mod:selector>
-        <mod:setValue>Proceed to the Lanius Swarmlands.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Lanius)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Proceed to the Lanius Swarmlands.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO] [INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Lanius)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -1381,7 +1381,7 @@
       <mod:selector hidden="true" req="SEC SECTOR_UNEXPLORED_GENERIC" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Proceed to the Nebula Sector.</mod:selector>
-        <mod:setValue>Proceed to the Nebula Sector.[INFO][NAME]modifyPursuit[/NAME]Fleet Delay(1)[/INFO]</mod:setValue>
+        <mod:setValue>Proceed to the Nebula Sector.[INFO][NAME]modifyPursuit[/NAME][style[color:00E000]]Fleet Delay(1)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -1390,7 +1390,7 @@
       <mod:selector hidden="true" req="SEC SECTOR_STARGROVE_UNIQUE" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Proceed to the Stargrove.</mod:selector>
-        <mod:setValue>Proceed to the Stargrove.[INFO][NAME]damage[/NAME]Repair Hull(10$)[/INFO][INFO][NAME]modifyPursuit[/NAME]Fleet Delay(3)[/INFO][INFO]&lt;=[/INFO]</mod:setValue>
+        <mod:setValue>Proceed to the Stargrove.[INFO][NAME]damage[/NAME][style[color:00E000]]Repair Hull(10$)[[/style]][/INFO][INFO][NAME]modifyPursuit[/NAME][style[color:00E000]]Fleet Delay(3)[[/style]][/INFO][INFO]&lt;=[/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -1399,7 +1399,7 @@
       <mod:selector hidden="true" req="SEC SECTOR_KLEPTOCRACY" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Proceed to the Slug Sector.</mod:selector>
-        <mod:setValue>Proceed to the Slug Sector.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Slug)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Proceed to the Slug Sector.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Slug)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -1408,7 +1408,7 @@
       <mod:selector hidden="true" req="SEC SECTOR_KLEPTOCRACY_UNIQUE" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Proceed to the Slug Homeworlds.</mod:selector>
-        <mod:setValue>Proceed to the Slug Homeworlds.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Slug)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Proceed to the Slug Homeworlds.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO] [INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Slug)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -1417,7 +1417,7 @@
       <mod:selector hidden="true" req="SEC SECTOR_CLAN_UNIQUE" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Proceed to the Guild Territory.</mod:selector>
-        <mod:setValue>Proceed to the Guild Territory.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Slug)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Proceed to the Guild Territory.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Slug)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -1426,7 +1426,7 @@
       <mod:selector hidden="true" req="SEC SECTOR_REPUBLIC" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Proceed to the Leech Sector.</mod:selector>
-        <mod:setValue>Proceed to the Leech Sector.[FightINFO]Fight(HK: [INFO]33% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO]33% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO]33% [NAME]weapon[/NAME]Gain a weapon(Giftlist Leech)[/INFO])[/FightINFO][FightINFO]Fight(HK: [INFO]33% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO]33% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO]33% [NAME]weapon[/NAME]Gain a weapon(Giftlist Coalition)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Proceed to the Leech Sector.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO]33% [NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO]33% [NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO]33% [NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Leech)[[/style]][/INFO])[/FightINFO][FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO]33% [NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO]33% [NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO]33% [NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Coalition)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -1435,7 +1435,7 @@
       <mod:selector hidden="true" req="SEC SECTOR_REPUBLIC_UNIQUE" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Proceed to the Leech Capital.</mod:selector>
-        <mod:setValue>Proceed to the Leech Capital.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Leech)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Proceed to the Leech Capital.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Leech)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -1444,7 +1444,7 @@
       <mod:selector hidden="true" req="SEC SECTOR_GENIOCRACY" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Proceed to the Shell Sector.</mod:selector>
-        <mod:setValue>Proceed to the Shell Sector.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Shell)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Proceed to the Shell Sector.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Shell)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -1462,7 +1462,7 @@
       <mod:selector hidden="true" req="SEC SECTOR_MORPH_UNIQUE" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Proceed to the Geniocracy Science District.</mod:selector>
-        <mod:setValue>Proceed to the Geniocracy Science District.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Shell)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Proceed to the Geniocracy Science District.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO] [INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Shell)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -1471,7 +1471,7 @@
       <mod:selector hidden="true" req="SEC SECTOR_VAGABOND" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Proceed to the Vagabond Nebula.</mod:selector>
-        <mod:setValue>Proceed to the Vagabond Nebula.[FightINFO]Fight(HK: [INFO]50% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO]50% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO]50% [NAME]weapon[/NAME]Gain a weapon(Giftlist Rusty)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Proceed to the Vagabond Nebula.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO]50% [NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO]50% [NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO]50% [NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Rusty)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -1480,7 +1480,7 @@
       <mod:selector hidden="true" req="SEC SECTOR_VAGABOND_UNIQUE" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Proceed to the Spectral Wastelands.</mod:selector>
-        <mod:setValue>Proceed to the Spectral Wastelands.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Dynasty)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Proceed to the Spectral Wastelands.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Dynasty)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -1489,7 +1489,7 @@
       <mod:selector hidden="true" req="SEC SECTOR_DYNASTY" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Proceed to the Spectral Nebula.</mod:selector>
-        <mod:setValue>Proceed to the Spectral Nebula.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Dynasty)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Proceed to the Spectral Nebula.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Dynasty)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -1498,7 +1498,7 @@
       <mod:selector hidden="true" req="SEC SECTOR_DYNASTY_UNIQUE" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Proceed to the Spectral Capital.</mod:selector>
-        <mod:setValue>Proceed to the Spectral Capital.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Dynasty)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Proceed to the Spectral Capital.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO] [INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Dynasty)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -1507,7 +1507,7 @@
       <mod:selector hidden="true" req="SEC SECTOR_MONK_UNIQUE" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Proceed to the Illesctrian Oasis.</mod:selector>
-        <mod:setValue>Proceed to the Illesctrian Oasis.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Proceed to the Illesctrian Oasis.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -1516,7 +1516,7 @@
       <mod:selector hidden="true" req="SEC SECRET_AUGMENTED" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Proceed to the Ancient Recovery Site.</mod:selector>
-        <mod:setValue>Proceed to the Ancient Recovery Site.[FightINFO]Fight(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO] [INFO][NAME]drone[/NAME]Gain a drone(Ancient Combat Laser)[/INFO])(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(SR: [INFO][NAME]autoReward[/NAME]Reward Stuff(M)[/INFO] [INFO][NAME]drone[/NAME]Gain a drone(Ancient Combat Laser)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Proceed to the Ancient Recovery Site.[FightINFO][style[color:FF8A33]]Fight[[/style]](CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO] [INFO][NAME]drone[/NAME][style[color:00E000]]Gain a drone(Ancient Combat Laser)[[/style]][/INFO])(HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(SR: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Stuff(M)[[/style]][/INFO] [INFO][NAME]drone[/NAME][style[color:00E000]]Gain a drone(Ancient Combat Laser)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -1525,7 +1525,7 @@
       <mod:selector hidden="true" req="SEC SECRET_ANCIENT" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Proceed to the Obelisk Sector.</mod:selector>
-        <mod:setValue>Proceed to the Obelisk Sector.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Ancient)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Proceed to the Obelisk Sector.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO] [INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Ancient)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -1534,7 +1534,7 @@
       <mod:selector hidden="true" req="SEC SECRET_ROYAL" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Proceed to the Obelisk Homeworlds.</mod:selector>
-        <mod:setValue>Proceed to the Obelisk Homeworlds.[FightINFO]Fight(HK=CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Proceed to the Obelisk Homeworlds.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK=CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -1543,7 +1543,7 @@
       <mod:selector hidden="true" req="SEC SECRET_ORIGINS" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Proceed to the Crystalline Origins.</mod:selector>
-        <mod:setValue>Proceed to the Crystalline Origins.[FightINFO]Fight(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Crystal Elite)[/INFO])(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])(SR: [INFO][NAME]boarders[/NAME]&lt;!&gt;Enemy Boarding(x2-x3 Rock Cultist)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Proceed to the Crystalline Origins.[FightINFO][style[color:FF8A33]]Fight[[/style]](CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO] [INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Crystal Elite)[[/style]][/INFO])(HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO])(SR: [INFO][NAME]boarders[/NAME][style[color:E00000]]&lt;!&gt;Enemy Boarding(x2-x3 Rock Cultist)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -1552,7 +1552,7 @@
       <mod:selector hidden="true" req="SEC SECRET_ORIGINS_RUWEN" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Proceed to the Crystalline Origins.</mod:selector>
-        <mod:setValue>Proceed to the Crystalline Origins.[FightINFO]Fight(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Crystal Elite)[/INFO])(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])(SR: [INFO][NAME]boarders[/NAME]&lt;!&gt;Enemy Boarding(x2-x3 Rock Cultist)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Proceed to the Crystalline Origins.[FightINFO][style[color:FF8A33]]Fight[[/style]](CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO] [INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Crystal Elite)[[/style]][/INFO])(HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO])(SR: [INFO][NAME]boarders[/NAME][style[color:E00000]]&lt;!&gt;Enemy Boarding(x2-x3 Rock Cultist)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -1561,7 +1561,7 @@
       <mod:selector hidden="true" req="SEC SECTOR_KLEPTOCRACY_HEKTAR" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Proceed to the Slug Sector.</mod:selector>
-        <mod:setValue>Proceed to the Slug Sector.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Slug)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Proceed to the Slug Sector.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Slug)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -1570,7 +1570,7 @@
       <mod:selector hidden="true" req="SEC SECTOR_PIRATE_HEKTAR" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Proceed to the Pirate Sector.</mod:selector>
-        <mod:setValue>Proceed to the Pirate Sector.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward ~ Only(H)[/INFO] [INFO][NAME]itemModify[/NAME]{5 }4 |3[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Proceed to the Pirate Sector.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward ~ Only(H)[[/style]][/INFO] [INFO][NAME]itemModify[/NAME][style[color:00E000]]{5[[/style]] [style[color:00E000]]}4[[/style]] [style[color:00E000]]|3[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -1579,7 +1579,7 @@
       <mod:selector hidden="true" req="SEC SECTOR_ABANDONED_GENERIC_HEKTAR" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Proceed to the Abandoned Sector.</mod:selector>
-        <mod:setValue>Proceed to the Abandoned Sector.[INFO]50% [NAME]storageCheck[/NAME]Storage Check[/INFO][INFO]50% &lt;=[/INFO]</mod:setValue>
+        <mod:setValue>Proceed to the Abandoned Sector.[INFO]50% [NAME]storageCheck[/NAME][style[color:707070]]Storage Check[[/style]][/INFO][INFO]50% &lt;=[/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -1588,7 +1588,7 @@
       <mod:selector hidden="true" req="SEC SECTOR_REPUBLIC_HEKTAR" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Proceed to the Leech Sector.</mod:selector>
-        <mod:setValue>Proceed to the Leech Sector.[FightINFO]Fight(HK: [INFO]33% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO]33% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO]33% [NAME]weapon[/NAME]Gain a weapon(Giftlist Leech)[/INFO])[/FightINFO][FightINFO]Fight(HK: [INFO]33% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO]33% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO]33% [NAME]weapon[/NAME]Gain a weapon(Giftlist Coalition)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Proceed to the Leech Sector.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO]33% [NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO]33% [NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO]33% [NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Leech)[[/style]][/INFO])[/FightINFO][FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO]33% [NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO]33% [NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO]33% [NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Coalition)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -1597,7 +1597,7 @@
       <mod:selector hidden="true" req="SEC SECRET_SYLVAN" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Proceed to ???.</mod:selector>
-        <mod:setValue>Proceed to ???.[FightINFO]Fight(HK: [INFO][NAME]weapon[/NAME]Gain a weapon(Prime Laser)[/INFO] [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Proceed to ???.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Prime Laser)[[/style]][/INFO] [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard No Item(H)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -1615,7 +1615,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Exit hyperspeed.</mod:selector>
-        <mod:setValue>Exit hyperspeed.[INFO]17% [NAME]modifyPursuit[/NAME]Fleet Delay(1)[/INFO][FightINFO]Fight(HK: [INFO]17% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO]17% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO]17% [NAME]weapon[/NAME]Gain a weapon(Giftlist Union)[/INFO])[/FightINFO][FightINFO]Fight(HK: [INFO]17% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO]17% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO]17% [NAME]weapon[/NAME]Gain a weapon(Giftlist Leech)[/INFO])[/FightINFO][FightINFO]Fight(HK: [INFO]17% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO]17% [NAME]autoReward[/NAME]Reward Standard(H)[/INFO] [INFO]17% [NAME]weapon[/NAME]Gain a weapon(Giftlist Rock)[/INFO])[/FightINFO][FightINFO]Fight(HK: [INFO]17% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO]17% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO]17% [NAME]weapon[/NAME]Gain a weapon(Giftlist Zoltan)[/INFO])[/FightINFO][FightINFO]Fight(HK: [INFO]17% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO]17% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO]17% [NAME]weapon[/NAME]Gain a weapon(Giftlist Spore)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Exit hyperspeed.[INFO]17% [NAME]modifyPursuit[/NAME][style[color:00E000]]Fleet Delay(1)[[/style]][/INFO][FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO]17% [NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO]17% [NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO]17% [NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Union)[[/style]][/INFO])[/FightINFO][FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO]17% [NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO]17% [NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO]17% [NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Leech)[[/style]][/INFO])[/FightINFO][FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO]17% [NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO]17% [NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO] [INFO]17% [NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Rock)[[/style]][/INFO])[/FightINFO][FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO]17% [NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO]17% [NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO]17% [NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Zoltan)[[/style]][/INFO])[/FightINFO][FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO]17% [NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO]17% [NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO]17% [NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Spore)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -1633,7 +1633,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Exit hyperspeed.</mod:selector>
-        <mod:setValue>Exit hyperspeed.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Union)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Exit hyperspeed.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Union)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -1651,7 +1651,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Exit hyperspeed.</mod:selector>
-        <mod:setValue>Exit hyperspeed.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Union)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Exit hyperspeed.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Union)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -1669,7 +1669,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Exit hyperspeed.</mod:selector>
-        <mod:setValue>Exit hyperspeed.[FightINFO]Fight(HK=CK: [INFO]50% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO]50% [NAME]crewMember[/NAME]Gain a crew(Union Random)[/INFO])[/FightINFO][FightINFO]Fight(HK=CK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO][NAME]crewMember[/NAME]Gain a crew(Union Random)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Exit hyperspeed.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK=CK: [INFO]50% [NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO]50% [NAME]crewMember[/NAME][style[color:00E000]]Gain a crew(Union Random)[[/style]][/INFO])[/FightINFO][FightINFO][style[color:FF8A33]]Fight[[/style]](HK=CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO][NAME]crewMember[/NAME][style[color:00E000]]Gain a crew(Union Random)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -1687,7 +1687,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Exit hyperspeed.</mod:selector>
-        <mod:setValue>Exit hyperspeed.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Federation)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Exit hyperspeed.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Federation)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -1705,7 +1705,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Exit hyperspeed.</mod:selector>
-        <mod:setValue>Exit hyperspeed.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO][NAME]drone[/NAME]Gain a drone(Giftlist Engi)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Exit hyperspeed.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO][NAME]drone[/NAME][style[color:00E000]]Gain a drone(Giftlist Engi)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -1723,7 +1723,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Exit hyperspeed.</mod:selector>
-        <mod:setValue>Exit hyperspeed.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO][NAME]drone[/NAME]Gain a drone(Giftlist Engi)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Exit hyperspeed.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO][NAME]drone[/NAME][style[color:00E000]]Gain a drone(Giftlist Engi)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -1741,7 +1741,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Exit hyperspeed.</mod:selector>
-        <mod:setValue>Exit hyperspeed.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Zoltan)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Exit hyperspeed.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Zoltan)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -1759,7 +1759,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Exit hyperspeed.</mod:selector>
-        <mod:setValue>Exit hyperspeed.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Zoltan)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Exit hyperspeed.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Zoltan)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -1777,7 +1777,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Exit hyperspeed.</mod:selector>
-        <mod:setValue>Exit hyperspeed.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Kernel)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Exit hyperspeed.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Kernel)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -1795,7 +1795,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Exit hyperspeed.</mod:selector>
-        <mod:setValue>Exit hyperspeed.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Kernel)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Exit hyperspeed.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Kernel)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -1813,7 +1813,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Exit hyperspeed.</mod:selector>
-        <mod:setValue>Exit hyperspeed.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Spore)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Exit hyperspeed.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Spore)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -1831,7 +1831,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Exit hyperspeed.</mod:selector>
-        <mod:setValue>Exit hyperspeed.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Spore)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Exit hyperspeed.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Spore)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -1849,7 +1849,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Exit hyperspeed.</mod:selector>
-        <mod:setValue>Exit hyperspeed.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO][NAME]crewMember[/NAME]Gain a crew(Mantis Free)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Exit hyperspeed.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO][NAME]crewMember[/NAME][style[color:00E000]]Gain a crew(Mantis Free)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -1867,7 +1867,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Exit hyperspeed.</mod:selector>
-        <mod:setValue>Exit hyperspeed.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO][NAME]crewMember[/NAME]Gain a crew(Mantis Free)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Exit hyperspeed.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO][NAME]crewMember[/NAME][style[color:00E000]]Gain a crew(Mantis Free)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -1885,7 +1885,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Exit hyperspeed.</mod:selector>
-        <mod:setValue>Exit hyperspeed.[INFO][NAME]storageCheck[/NAME]Storage Check[/INFO]</mod:setValue>
+        <mod:setValue>Exit hyperspeed.[INFO][NAME]storageCheck[/NAME][style[color:707070]]Storage Check[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -1903,7 +1903,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Exit hyperspeed.</mod:selector>
-        <mod:setValue>Exit hyperspeed.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Crystal)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Exit hyperspeed.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Crystal)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -1921,7 +1921,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Exit hyperspeed.</mod:selector>
-        <mod:setValue>Exit hyperspeed.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Crystal)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Exit hyperspeed.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Crystal)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -1939,7 +1939,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Exit hyperspeed.</mod:selector>
-        <mod:setValue>Exit hyperspeed.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO][NAME]crewMember[/NAME]Gain a crew(Rock Outcast)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Exit hyperspeed.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO][NAME]crewMember[/NAME][style[color:00E000]]Gain a crew(Rock Outcast)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -1957,7 +1957,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Exit hyperspeed.</mod:selector>
-        <mod:setValue>Exit hyperspeed.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO][NAME]crewMember[/NAME]Gain a crew(Rock Outcast)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Exit hyperspeed.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO][NAME]crewMember[/NAME][style[color:00E000]]Gain a crew(Rock Outcast)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -1975,7 +1975,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Exit hyperspeed.</mod:selector>
-        <mod:setValue>Exit hyperspeed.[INFO][NAME]modifyPursuit[/NAME]Fleet Delay(2)[/INFO][INFO]&lt;=[/INFO]</mod:setValue>
+        <mod:setValue>Exit hyperspeed.[INFO][NAME]modifyPursuit[/NAME][style[color:00E000]]Fleet Delay(2)[[/style]][/INFO][INFO]&lt;=[/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -1993,7 +1993,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Exit hyperspeed.</mod:selector>
-        <mod:setValue>Exit hyperspeed.[INFO][NAME]modifyPursuit[/NAME]Fleet Delay(2)[/INFO][INFO]&lt;=[/INFO]</mod:setValue>
+        <mod:setValue>Exit hyperspeed.[INFO][NAME]modifyPursuit[/NAME][style[color:00E000]]Fleet Delay(2)[[/style]][/INFO][INFO]&lt;=[/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -2011,7 +2011,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Exit hyperspeed.</mod:selector>
-        <mod:setValue>Exit hyperspeed.[INFO][NAME]modifyPursuit[/NAME]&lt;!&gt;Fleet Advance(1)[/INFO][FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Rebel)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Exit hyperspeed.[INFO][NAME]modifyPursuit[/NAME][style[color:E00000]]&lt;!&gt;Fleet Advance(1)[[/style]][/INFO][FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Rebel)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -2029,7 +2029,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Exit hyperspeed.</mod:selector>
-        <mod:setValue>Exit hyperspeed.[INFO][NAME]modifyPursuit[/NAME]&lt;!&gt;Fleet Advance(1)[/INFO][FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO] [INFO][NAME]crewMember[/NAME]Gain a crew(Human Soldier)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Exit hyperspeed.[INFO][NAME]modifyPursuit[/NAME][style[color:E00000]]&lt;!&gt;Fleet Advance(1)[[/style]][/INFO][FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO] [INFO][NAME]crewMember[/NAME][style[color:00E000]]Gain a crew(Human Soldier)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -2047,7 +2047,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Exit hyperspeed.</mod:selector>
-        <mod:setValue>Exit hyperspeed.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward ~ Only(H)[/INFO] [INFO][NAME]itemModify[/NAME]{5 }4 |3[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Exit hyperspeed.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward ~ Only(H)[[/style]][/INFO] [INFO][NAME]itemModify[/NAME][style[color:00E000]]{5[[/style]] [style[color:00E000]]}4[[/style]] [style[color:00E000]]|3[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -2065,7 +2065,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Exit hyperspeed.</mod:selector>
-        <mod:setValue>Exit hyperspeed.[INFO]25% [NAME]boarders[/NAME]&lt;!&gt;Enemy Boarding(x2 Random)[/INFO][INFO]25% &lt;=[/INFO][INFO]&lt;=[/INFO][INFO][NAME]itemModify[/NAME]-35≤~≤-20[/INFO][INFO]50% &lt;=[/INFO]</mod:setValue>
+        <mod:setValue>Exit hyperspeed.[INFO]25% [NAME]boarders[/NAME][style[color:E00000]]&lt;!&gt;Enemy Boarding(x2 Random)[[/style]][/INFO][INFO]25% &lt;=[/INFO][INFO]&lt;=[/INFO][INFO][NAME]itemModify[/NAME][style[color:E00000]]-35≤~≤-20[[/style]][/INFO][INFO]50% &lt;=[/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -2083,7 +2083,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Exit hyperspeed.</mod:selector>
-        <mod:setValue>Exit hyperspeed.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Mantis)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Exit hyperspeed.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Mantis)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -2101,7 +2101,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Exit hyperspeed.</mod:selector>
-        <mod:setValue>Exit hyperspeed.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Mantis)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Exit hyperspeed.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO] [INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Mantis)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -2119,7 +2119,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Exit hyperspeed.</mod:selector>
-        <mod:setValue>Exit hyperspeed.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Rock)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Exit hyperspeed.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO] [INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Rock)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -2137,7 +2137,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Exit hyperspeed.</mod:selector>
-        <mod:setValue>Exit hyperspeed.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Rock)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Exit hyperspeed.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO] [INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Rock)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -2155,7 +2155,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Exit hyperspeed.</mod:selector>
-        <mod:setValue>Exit hyperspeed.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Lostsun)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Exit hyperspeed.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO] [INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Lostsun)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -2173,7 +2173,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Exit hyperspeed.</mod:selector>
-        <mod:setValue>Exit hyperspeed.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Dusk)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Exit hyperspeed.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Dusk)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -2191,7 +2191,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Exit hyperspeed.</mod:selector>
-        <mod:setValue>Exit hyperspeed.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Dusk)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Exit hyperspeed.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Dusk)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -2209,7 +2209,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Exit hyperspeed.</mod:selector>
-        <mod:setValue>Exit hyperspeed.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Coalition)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Exit hyperspeed.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Coalition)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -2227,7 +2227,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Exit hyperspeed.</mod:selector>
-        <mod:setValue>Exit hyperspeed.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Coalition)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Exit hyperspeed.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO] [INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Coalition)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -2245,7 +2245,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Exit hyperspeed.</mod:selector>
-        <mod:setValue>Exit hyperspeed.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Exit hyperspeed.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -2263,7 +2263,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Exit hyperspeed.</mod:selector>
-        <mod:setValue>Exit hyperspeed.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Exit hyperspeed.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -2281,7 +2281,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Exit hyperspeed.</mod:selector>
-        <mod:setValue>Exit hyperspeed.[INFO]50% [NAME]storageCheck[/NAME]Storage Check[/INFO][INFO]50% &lt;=[/INFO]</mod:setValue>
+        <mod:setValue>Exit hyperspeed.[INFO]50% [NAME]storageCheck[/NAME][style[color:707070]]Storage Check[[/style]][/INFO][INFO]50% &lt;=[/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -2299,7 +2299,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Exit hyperspeed.</mod:selector>
-        <mod:setValue>Exit hyperspeed.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Lanius)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Exit hyperspeed.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO] [INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Lanius)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -2317,7 +2317,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Exit hyperspeed.</mod:selector>
-        <mod:setValue>Exit hyperspeed.[INFO][NAME]modifyPursuit[/NAME]Fleet Delay(1)[/INFO]</mod:setValue>
+        <mod:setValue>Exit hyperspeed.[INFO][NAME]modifyPursuit[/NAME][style[color:00E000]]Fleet Delay(1)[[/style]][/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -2335,7 +2335,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Exit hyperspeed.</mod:selector>
-        <mod:setValue>Exit hyperspeed.[INFO][NAME]damage[/NAME]Repair Hull(10$)[/INFO][INFO][NAME]modifyPursuit[/NAME]Fleet Delay(3)[/INFO][INFO]&lt;=[/INFO]</mod:setValue>
+        <mod:setValue>Exit hyperspeed.[INFO][NAME]damage[/NAME][style[color:00E000]]Repair Hull(10$)[[/style]][/INFO][INFO][NAME]modifyPursuit[/NAME][style[color:00E000]]Fleet Delay(3)[[/style]][/INFO][INFO]&lt;=[/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -2353,7 +2353,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Exit hyperspeed.</mod:selector>
-        <mod:setValue>Exit hyperspeed.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Slug)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Exit hyperspeed.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Slug)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -2371,7 +2371,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Exit hyperspeed.</mod:selector>
-        <mod:setValue>Exit hyperspeed.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Slug)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Exit hyperspeed.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO] [INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Slug)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -2389,7 +2389,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Exit hyperspeed.</mod:selector>
-        <mod:setValue>Exit hyperspeed.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Slug)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Exit hyperspeed.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Slug)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -2407,7 +2407,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Exit hyperspeed.</mod:selector>
-        <mod:setValue>Exit hyperspeed.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Shell)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Exit hyperspeed.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Shell)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -2443,7 +2443,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Exit hyperspeed.</mod:selector>
-        <mod:setValue>Exit hyperspeed.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Shell)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Exit hyperspeed.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO] [INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Shell)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -2461,7 +2461,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Exit hyperspeed.</mod:selector>
-        <mod:setValue>Exit hyperspeed.[FightINFO]Fight(HK: [INFO]33% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO]33% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO]33% [NAME]weapon[/NAME]Gain a weapon(Giftlist Leech)[/INFO])[/FightINFO][FightINFO]Fight(HK: [INFO]33% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO]33% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO]33% [NAME]weapon[/NAME]Gain a weapon(Giftlist Coalition)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Exit hyperspeed.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO]33% [NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO]33% [NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO]33% [NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Leech)[[/style]][/INFO])[/FightINFO][FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO]33% [NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO]33% [NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO]33% [NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Coalition)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -2479,7 +2479,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Exit hyperspeed.</mod:selector>
-        <mod:setValue>Exit hyperspeed.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Leech)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Exit hyperspeed.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Leech)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -2497,7 +2497,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Exit hyperspeed.</mod:selector>
-        <mod:setValue>Exit hyperspeed.[FightINFO]Fight(HK: [INFO]50% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO]50% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO]50% [NAME]weapon[/NAME]Gain a weapon(Giftlist Rusty)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Exit hyperspeed.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO]50% [NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO]50% [NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO]50% [NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Rusty)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -2515,7 +2515,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Exit hyperspeed.</mod:selector>
-        <mod:setValue>Exit hyperspeed.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Dynasty)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Exit hyperspeed.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Dynasty)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -2533,7 +2533,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Exit hyperspeed.</mod:selector>
-        <mod:setValue>Exit hyperspeed.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Dynasty)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Exit hyperspeed.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Dynasty)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -2551,7 +2551,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Exit hyperspeed.</mod:selector>
-        <mod:setValue>Exit hyperspeed.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Dynasty)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Exit hyperspeed.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO] [INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Dynasty)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -2569,7 +2569,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Exit hyperspeed.</mod:selector>
-        <mod:setValue>Exit hyperspeed.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Exit hyperspeed.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -2587,7 +2587,7 @@
       <mod:selector hidden="true" req="loc_beentomarket" lvl="0" max_group="0" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Exit hyperspeed.</mod:selector>
-        <mod:setValue>Exit hyperspeed.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Slug)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Exit hyperspeed.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Slug)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -2599,7 +2599,7 @@
           <mod:selector hidden="true"/>
           <mod:findLike type="text">
             <mod:selector>Continue...</mod:selector>
-            <mod:setValue>Continue...[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Slug)[/INFO])[/FightINFO]</mod:setValue>
+            <mod:setValue>Continue...[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Slug)[[/style]][/INFO])[/FightINFO]</mod:setValue>
           </mod:findLike>
         </mod:findLike>
       </mod:findLike>
@@ -2610,7 +2610,7 @@
       <mod:selector hidden="true" req="loc_beentomarket" lvl="1" max_group="0" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Exit hyperspeed.</mod:selector>
-        <mod:setValue>Exit hyperspeed.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Slug)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Exit hyperspeed.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Slug)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -2622,7 +2622,7 @@
           <mod:selector hidden="true"/>
           <mod:findLike type="text">
             <mod:selector>Continue...</mod:selector>
-            <mod:setValue>Continue...[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Slug)[/INFO])[/FightINFO]</mod:setValue>
+            <mod:setValue>Continue...[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Slug)[[/style]][/INFO])[/FightINFO]</mod:setValue>
           </mod:findLike>
         </mod:findLike>
       </mod:findLike>
@@ -2642,7 +2642,7 @@
       <mod:selector hidden="true" req="loc_beentomarket" lvl="0" max_group="0" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Exit hyperspeed.</mod:selector>
-        <mod:setValue>Exit hyperspeed.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward ~ Only(H)[/INFO] [INFO][NAME]itemModify[/NAME]{5 }4 |3[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Exit hyperspeed.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward ~ Only(H)[[/style]][/INFO] [INFO][NAME]itemModify[/NAME][style[color:00E000]]{5[[/style]] [style[color:00E000]]}4[[/style]] [style[color:00E000]]|3[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -2654,7 +2654,7 @@
           <mod:selector hidden="true"/>
           <mod:findLike type="text">
             <mod:selector>Continue...</mod:selector>
-            <mod:setValue>Continue...[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward ~ Only(H)[/INFO] [INFO][NAME]itemModify[/NAME]{5 }4 |3[/INFO])[/FightINFO]</mod:setValue>
+            <mod:setValue>Continue...[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward ~ Only(H)[[/style]][/INFO] [INFO][NAME]itemModify[/NAME][style[color:00E000]]{5[[/style]] [style[color:00E000]]}4[[/style]] [style[color:00E000]]|3[[/style]][/INFO])[/FightINFO]</mod:setValue>
           </mod:findLike>
         </mod:findLike>
       </mod:findLike>
@@ -2665,7 +2665,7 @@
       <mod:selector hidden="true" req="loc_beentomarket" lvl="1" max_group="0" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Exit hyperspeed.</mod:selector>
-        <mod:setValue>Exit hyperspeed.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward ~ Only(H)[/INFO] [INFO][NAME]itemModify[/NAME]{5 }4 |3[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Exit hyperspeed.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward ~ Only(H)[[/style]][/INFO] [INFO][NAME]itemModify[/NAME][style[color:00E000]]{5[[/style]] [style[color:00E000]]}4[[/style]] [style[color:00E000]]|3[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -2677,7 +2677,7 @@
           <mod:selector hidden="true"/>
           <mod:findLike type="text">
             <mod:selector>Continue...</mod:selector>
-            <mod:setValue>Continue...[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward ~ Only(H)[/INFO] [INFO][NAME]itemModify[/NAME]{5 }4 |3[/INFO])[/FightINFO]</mod:setValue>
+            <mod:setValue>Continue...[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward ~ Only(H)[[/style]][/INFO] [INFO][NAME]itemModify[/NAME][style[color:00E000]]{5[[/style]] [style[color:00E000]]}4[[/style]] [style[color:00E000]]|3[[/style]][/INFO])[/FightINFO]</mod:setValue>
           </mod:findLike>
         </mod:findLike>
       </mod:findLike>
@@ -2697,7 +2697,7 @@
       <mod:selector hidden="true" req="loc_beentomarket" lvl="0" max_group="0" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Exit hyperspeed.</mod:selector>
-        <mod:setValue>Exit hyperspeed.[INFO]50% [NAME]storageCheck[/NAME]Storage Check[/INFO][INFO]50% &lt;=[/INFO]</mod:setValue>
+        <mod:setValue>Exit hyperspeed.[INFO]50% [NAME]storageCheck[/NAME][style[color:707070]]Storage Check[[/style]][/INFO][INFO]50% &lt;=[/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -2709,7 +2709,7 @@
           <mod:selector hidden="true"/>
           <mod:findLike type="text">
             <mod:selector>Continue...</mod:selector>
-            <mod:setValue>Continue...[INFO]50% [NAME]storageCheck[/NAME]Storage Check[/INFO][INFO]50% &lt;=[/INFO]</mod:setValue>
+            <mod:setValue>Continue...[INFO]50% [NAME]storageCheck[/NAME][style[color:707070]]Storage Check[[/style]][/INFO][INFO]50% &lt;=[/INFO]</mod:setValue>
           </mod:findLike>
         </mod:findLike>
       </mod:findLike>
@@ -2720,7 +2720,7 @@
       <mod:selector hidden="true" req="loc_beentomarket" lvl="1" max_group="0" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Exit hyperspeed.</mod:selector>
-        <mod:setValue>Exit hyperspeed.[INFO]50% [NAME]storageCheck[/NAME]Storage Check[/INFO][INFO]50% &lt;=[/INFO]</mod:setValue>
+        <mod:setValue>Exit hyperspeed.[INFO]50% [NAME]storageCheck[/NAME][style[color:707070]]Storage Check[[/style]][/INFO][INFO]50% &lt;=[/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -2732,7 +2732,7 @@
           <mod:selector hidden="true"/>
           <mod:findLike type="text">
             <mod:selector>Continue...</mod:selector>
-            <mod:setValue>Continue...[INFO]50% [NAME]storageCheck[/NAME]Storage Check[/INFO][INFO]50% &lt;=[/INFO]</mod:setValue>
+            <mod:setValue>Continue...[INFO]50% [NAME]storageCheck[/NAME][style[color:707070]]Storage Check[[/style]][/INFO][INFO]50% &lt;=[/INFO]</mod:setValue>
           </mod:findLike>
         </mod:findLike>
       </mod:findLike>
@@ -2752,7 +2752,7 @@
       <mod:selector hidden="true" req="loc_beentomarket" lvl="0" max_group="0" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Exit hyperspeed.</mod:selector>
-        <mod:setValue>Exit hyperspeed.[FightINFO]Fight(HK: [INFO]33% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO]33% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO]33% [NAME]weapon[/NAME]Gain a weapon(Giftlist Leech)[/INFO])[/FightINFO][FightINFO]Fight(HK: [INFO]33% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO]33% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO]33% [NAME]weapon[/NAME]Gain a weapon(Giftlist Coalition)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Exit hyperspeed.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO]33% [NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO]33% [NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO]33% [NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Leech)[[/style]][/INFO])[/FightINFO][FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO]33% [NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO]33% [NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO]33% [NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Coalition)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -2764,7 +2764,7 @@
           <mod:selector hidden="true"/>
           <mod:findLike type="text">
             <mod:selector>Continue...</mod:selector>
-            <mod:setValue>Continue...[FightINFO]Fight(HK: [INFO]33% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO]33% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO]33% [NAME]weapon[/NAME]Gain a weapon(Giftlist Leech)[/INFO])[/FightINFO][FightINFO]Fight(HK: [INFO]33% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO]33% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO]33% [NAME]weapon[/NAME]Gain a weapon(Giftlist Coalition)[/INFO])[/FightINFO]</mod:setValue>
+            <mod:setValue>Continue...[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO]33% [NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO]33% [NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO]33% [NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Leech)[[/style]][/INFO])[/FightINFO][FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO]33% [NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO]33% [NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO]33% [NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Coalition)[[/style]][/INFO])[/FightINFO]</mod:setValue>
           </mod:findLike>
         </mod:findLike>
       </mod:findLike>
@@ -2775,7 +2775,7 @@
       <mod:selector hidden="true" req="loc_beentomarket" lvl="1" max_group="0" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Exit hyperspeed.</mod:selector>
-        <mod:setValue>Exit hyperspeed.[FightINFO]Fight(HK: [INFO]33% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO]33% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO]33% [NAME]weapon[/NAME]Gain a weapon(Giftlist Leech)[/INFO])[/FightINFO][FightINFO]Fight(HK: [INFO]33% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO]33% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO]33% [NAME]weapon[/NAME]Gain a weapon(Giftlist Coalition)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Exit hyperspeed.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO]33% [NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO]33% [NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO]33% [NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Leech)[[/style]][/INFO])[/FightINFO][FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO]33% [NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO]33% [NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO]33% [NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Coalition)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -2787,7 +2787,7 @@
           <mod:selector hidden="true"/>
           <mod:findLike type="text">
             <mod:selector>Continue...</mod:selector>
-            <mod:setValue>Continue...[FightINFO]Fight(HK: [INFO]33% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO]33% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO]33% [NAME]weapon[/NAME]Gain a weapon(Giftlist Leech)[/INFO])[/FightINFO][FightINFO]Fight(HK: [INFO]33% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO]33% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO]33% [NAME]weapon[/NAME]Gain a weapon(Giftlist Coalition)[/INFO])[/FightINFO]</mod:setValue>
+            <mod:setValue>Continue...[FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO]33% [NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO]33% [NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO]33% [NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Leech)[[/style]][/INFO])[/FightINFO][FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO]33% [NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(CK: [INFO]33% [NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO] [INFO]33% [NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Coalition)[[/style]][/INFO])[/FightINFO]</mod:setValue>
           </mod:findLike>
         </mod:findLike>
       </mod:findLike>
@@ -2807,7 +2807,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Exit hyperspeed.</mod:selector>
-        <mod:setValue>Exit hyperspeed.[FightINFO]Fight(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO] [INFO][NAME]drone[/NAME]Gain a drone(Ancient Combat Laser)[/INFO])(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(SR: [INFO][NAME]autoReward[/NAME]Reward Stuff(M)[/INFO] [INFO][NAME]drone[/NAME]Gain a drone(Ancient Combat Laser)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Exit hyperspeed.[FightINFO][style[color:FF8A33]]Fight[[/style]](CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO] [INFO][NAME]drone[/NAME][style[color:00E000]]Gain a drone(Ancient Combat Laser)[[/style]][/INFO])(HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(M)[[/style]][/INFO])(SR: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Stuff(M)[[/style]][/INFO] [INFO][NAME]drone[/NAME][style[color:00E000]]Gain a drone(Ancient Combat Laser)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -2825,7 +2825,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Exit hyperspeed.</mod:selector>
-        <mod:setValue>Exit hyperspeed.[INFO][NAME]modifyPursuit[/NAME]Fleet Delay(10)[/INFO][FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Ancient)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Exit hyperspeed.[INFO][NAME]modifyPursuit[/NAME][style[color:00E000]]Fleet Delay(10)[[/style]][/INFO][FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO])(CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO] [INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Ancient)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -2843,7 +2843,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Exit hyperspeed.</mod:selector>
-        <mod:setValue>Exit hyperspeed.[FightINFO]Fight(HK=CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Exit hyperspeed.[FightINFO][style[color:FF8A33]]Fight[[/style]](HK=CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -2861,7 +2861,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Exit hyperspeed.</mod:selector>
-        <mod:setValue>Exit hyperspeed.[FightINFO]Fight(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Crystal Elite)[/INFO])(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])(SR: [INFO][NAME]boarders[/NAME]&lt;!&gt;Enemy Boarding(x2-x3 Rock Cultist)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Exit hyperspeed.[FightINFO][style[color:FF8A33]]Fight[[/style]](CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO] [INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Crystal Elite)[[/style]][/INFO])(HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO])(SR: [INFO][NAME]boarders[/NAME][style[color:E00000]]&lt;!&gt;Enemy Boarding(x2-x3 Rock Cultist)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -2879,7 +2879,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Exit hyperspeed.</mod:selector>
-        <mod:setValue>Exit hyperspeed.[INFO][NAME]modifyPursuit[/NAME]Fleet Delay(2)[/INFO][FightINFO]Fight(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Crystal Elite)[/INFO])(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])(SR: [INFO][NAME]boarders[/NAME]&lt;!&gt;Enemy Boarding(x2-x3 Rock Cultist)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Exit hyperspeed.[INFO][NAME]modifyPursuit[/NAME][style[color:00E000]]Fleet Delay(2)[[/style]][/INFO][FightINFO][style[color:FF8A33]]Fight[[/style]](CK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO] [INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Giftlist Crystal Elite)[[/style]][/INFO])(HK: [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard(H)[[/style]][/INFO])(SR: [INFO][NAME]boarders[/NAME][style[color:E00000]]&lt;!&gt;Enemy Boarding(x2-x3 Rock Cultist)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -2897,7 +2897,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Exit hyperspeed.</mod:selector>
-        <mod:setValue>Exit hyperspeed.[INFO][NAME]modifyPursuit[/NAME]Fleet Delay(45)[/INFO][FightINFO]Fight(HK: [INFO][NAME]weapon[/NAME]Gain a weapon(Prime Laser)[/INFO] [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Exit hyperspeed.[INFO][NAME]modifyPursuit[/NAME][style[color:00E000]]Fleet Delay(45)[[/style]][/INFO][FightINFO][style[color:FF8A33]]Fight[[/style]](HK: [INFO][NAME]weapon[/NAME][style[color:00E000]]Gain a weapon(Prime Laser)[[/style]][/INFO] [INFO][NAME]autoReward[/NAME][style[color:00E000]]Reward Standard No Item(H)[[/style]][/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>

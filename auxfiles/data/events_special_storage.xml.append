@@ -14,8 +14,24 @@
       <event load="STORAGE_CHECK"/>
     </choice>
 
+    <choice req="choiceInfo_hover_fullInfo" lvl="0" max_lvl="0" blue="false">
+      <text>Enable Hover Full Info (Shows all info for the choice when hovering) [Current: Disabled]</text>
+      <event>
+        <metaVariable name="choiceInfo_hover_fullInfo" op="set" val="1"/>
+        <loadEvent>STORAGE_CHECK_CHOICEINFO_OPTIONS</loadEvent>
+      </event>
+    </choice>
+
+    <choice req="choiceInfo_hover_fullInfo" lvl="1" max_lvl="1" blue="false">
+      <text>Disable Hover Full Info (Shows all info for the choice when hovering) [Current: Enabled]</text>
+      <event>
+        <metaVariable name="choiceInfo_hover_fullInfo" op="set" val="0"/>
+        <loadEvent>STORAGE_CHECK_CHOICEINFO_OPTIONS</loadEvent>
+      </event>
+    </choice>
+
     <choice req="choiceInfo_bottom_fullInfo" lvl="0" max_lvl="0" blue="false">
-      <text>Enable Bottom Full Info [Current: Disabled]</text>
+      <text>Enable Bottom Full Info (Shows all choices again with all info shown at the bottom of the choice box) [Current: Disabled]</text>
       <event>
         <metaVariable name="choiceInfo_bottom_fullInfo" op="set" val="1"/>
         <loadEvent>STORAGE_CHECK_CHOICEINFO_OPTIONS</loadEvent>
@@ -23,7 +39,7 @@
     </choice>
 
     <choice req="choiceInfo_bottom_fullInfo" lvl="1" max_lvl="1" blue="false">
-      <text>Disable Bottom Full Info [Current: Enabled]</text>
+      <text>Disable Bottom Full Info (Shows all choices again with all info shown at the bottom of the choice box) [Current: Enabled]</text>
       <event>
         <metaVariable name="choiceInfo_bottom_fullInfo" op="set" val="0"/>
         <loadEvent>STORAGE_CHECK_CHOICEINFO_OPTIONS</loadEvent>
