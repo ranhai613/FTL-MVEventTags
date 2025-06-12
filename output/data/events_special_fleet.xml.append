@@ -1,5 +1,5 @@
 <FTL>
-  <mod:findName name="FINISH_BEACON_FLEET_ELITE" type="event">
+  <mod:findName name="FINISH_BEACON_FLEET_ELITE_REAL" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
@@ -8,7 +8,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="FINISH_BEACON_FLEET_ELITE" type="event">
+  <mod:findName name="FINISH_BEACON_FLEET_ELITE_REAL" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true" req="engines" lvl="6"/>
       <mod:findLike type="text">
@@ -17,7 +17,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="FINISH_BEACON_FLEET_ACE" type="event">
+  <mod:findName name="FINISH_BEACON_FLEET_ACE_REAL" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
@@ -26,7 +26,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="FINISH_BEACON_FLEET_ACE" type="event">
+  <mod:findName name="FINISH_BEACON_FLEET_ACE_REAL" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true" req="engines" lvl="6"/>
       <mod:findLike type="text">
@@ -111,7 +111,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="FLEET_ELITE_NEBULA" type="event">
+  <mod:findName name="NEBULA_LIGHT_FLEET_ELITE" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
@@ -120,7 +120,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="FLEET_ELITE_NEBULA" type="event">
+  <mod:findName name="NEBULA_LIGHT_FLEET_ELITE" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true" req="engines" lvl="6"/>
       <mod:findLike type="text">
@@ -129,7 +129,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="FLEET_ACE_NEBULA" type="event">
+  <mod:findName name="NEBULA_LIGHT_FLEET_ACE" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
@@ -138,12 +138,84 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="FLEET_ACE_NEBULA" type="event">
+  <mod:findName name="NEBULA_LIGHT_FLEET_ACE" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true" req="engines" lvl="6"/>
       <mod:findLike type="text">
         <mod:selector>(Adv. Engines) Try to escape the Elite.</mod:selector>
         <mod:setValue>(Adv. Engines) Try to escape the Elite.[INFO]33% &lt;=[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="FLEET_AUTO_SUN" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>Continue...</mod:selector>
+        <mod:setValue>Continue...[FightINFO]Fight(HK: [INFO][NAME]itemModify[/NAME]{1[/INFO])[/FightINFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="FLEET_AUTO_SUN" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true" req="engines" lvl="6"/>
+      <mod:findLike type="text">
+        <mod:selector>(Adv. Engines) Try to escape the Auto.</mod:selector>
+        <mod:setValue>(Adv. Engines) Try to escape the Auto.[INFO]33% &lt;=[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="FLEET_AUTO_BLUEGIANT" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>Continue...</mod:selector>
+        <mod:setValue>Continue...[FightINFO]Fight(HK: [INFO][NAME]itemModify[/NAME]{1[/INFO])[/FightINFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="FLEET_AUTO_BLUEGIANT" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true" req="engines" lvl="6"/>
+      <mod:findLike type="text">
+        <mod:selector>(Adv. Engines) Try to escape the Auto.</mod:selector>
+        <mod:setValue>(Adv. Engines) Try to escape the Auto.[INFO]33% &lt;=[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_LIGHT_FLEET_AUTO_SUN" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>Continue...</mod:selector>
+        <mod:setValue>Continue...[FightINFO]Fight(HK: [INFO][NAME]itemModify[/NAME]{1[/INFO])[/FightINFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_LIGHT_FLEET_AUTO_SUN" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true" req="engines" lvl="6"/>
+      <mod:findLike type="text">
+        <mod:selector>(Adv. Engines) Try to escape the Auto.</mod:selector>
+        <mod:setValue>(Adv. Engines) Try to escape the Auto.[INFO]33% &lt;=[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_LIGHT_FLEET_AUTO_BLUEGIANT" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>Continue...</mod:selector>
+        <mod:setValue>Continue...[FightINFO]Fight(HK: [INFO][NAME]itemModify[/NAME]{1[/INFO])[/FightINFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_LIGHT_FLEET_AUTO_BLUEGIANT" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true" req="engines" lvl="6"/>
+      <mod:findLike type="text">
+        <mod:selector>(Adv. Engines) Try to escape the Auto.</mod:selector>
+        <mod:setValue>(Adv. Engines) Try to escape the Auto.[INFO]33% &lt;=[/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -230,6 +302,17 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
+  <mod:findName name="SHIP_AUTO_FLEET_STAR" type="ship">
+    <mod:findLike type="destroyed">
+      <mod:findLike type="choice">
+        <mod:selector req="MAGNET_ARM"/>
+        <mod:findLike type="text">
+          <mod:selector>(Magnet Arm) Salvage the wreck further.</mod:selector>
+          <mod:setValue>(Magnet Arm) Salvage the wreck further.[INFO][NAME]autoReward[/NAME]Reward Standard(L)[/INFO]</mod:setValue>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
   <mod:findName name="FLEET_AUTO_REAL" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true"/>
@@ -248,7 +331,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="FINISH_BEACON_FLEET_AUTO" type="event">
+  <mod:findName name="FINISH_BEACON_FLEET_AUTO_REAL" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
@@ -257,7 +340,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="FINISH_BEACON_FLEET_AUTO" type="event">
+  <mod:findName name="FINISH_BEACON_FLEET_AUTO_REAL" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true" req="engines" lvl="6"/>
       <mod:findLike type="text">
@@ -266,7 +349,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="FLEET_AUTO_NEBULA_REAL" type="event">
+  <mod:findName name="NEBULA_LIGHT_FLEET_AUTO_REAL" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
@@ -275,7 +358,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="FLEET_AUTO_NEBULA_REAL" type="event">
+  <mod:findName name="NEBULA_LIGHT_FLEET_AUTO_REAL" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true" req="engines" lvl="6"/>
       <mod:findLike type="text">
@@ -383,7 +466,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="NEBULA_FLEET_CHAOS" type="event">
+  <mod:findName name="NEBULA_LIGHT_FLEET_CHAOS" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
@@ -392,7 +475,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="NEBULA_FLEET_CHAOS" type="event">
+  <mod:findName name="NEBULA_LIGHT_FLEET_CHAOS" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true" req="engines" lvl="6"/>
       <mod:findLike type="text">
@@ -401,7 +484,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="NEBULA_FLEET_CHAOS" type="event">
+  <mod:findName name="NEBULA_LIGHT_FLEET_CHAOS" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true" req="engines" lvl="6"/>
       <mod:findLike type="event">
@@ -415,7 +498,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="NEBULA_FLEET_CHAOS" type="event">
+  <mod:findName name="NEBULA_LIGHT_FLEET_CHAOS" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true" req="LIST_CREW_JERRY"/>
       <mod:findLike type="text">
@@ -424,7 +507,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="NEBULA_FLEET_CHAOS" type="event">
+  <mod:findName name="NEBULA_LIGHT_FLEET_CHAOS" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true" req="LIST_CREW_JERRY"/>
       <mod:findLike type="event">
@@ -493,7 +576,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="NEBULA_FLEET_CHAOS_FLAGSHIP" type="event">
+  <mod:findName name="NEBULA_LIGHT_FLEET_CHAOS_FLAGSHIP" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
@@ -502,7 +585,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="NEBULA_FLEET_CHAOS_FLAGSHIP" type="event">
+  <mod:findName name="NEBULA_LIGHT_FLEET_CHAOS_FLAGSHIP" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true" req="engines" lvl="6"/>
       <mod:findLike type="text">
@@ -511,7 +594,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="NEBULA_FLEET_CHAOS_FLAGSHIP" type="event">
+  <mod:findName name="NEBULA_LIGHT_FLEET_CHAOS_FLAGSHIP" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true" req="engines" lvl="6"/>
       <mod:findLike type="event">
@@ -525,7 +608,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="NEBULA_FLEET_CHAOS_FLAGSHIP" type="event">
+  <mod:findName name="NEBULA_LIGHT_FLEET_CHAOS_FLAGSHIP" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true" req="LIST_CREW_JERRY"/>
       <mod:findLike type="text">
@@ -534,7 +617,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="NEBULA_FLEET_CHAOS_FLAGSHIP" type="event">
+  <mod:findName name="NEBULA_LIGHT_FLEET_CHAOS_FLAGSHIP" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true" req="LIST_CREW_JERRY"/>
       <mod:findLike type="event">

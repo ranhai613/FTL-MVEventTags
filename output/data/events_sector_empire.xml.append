@@ -141,6 +141,27 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
+  <mod:findName name="CRYSTAL_FOREIGNER_MAP_BUY" type="eventList">
+    <mod:findLike type="event">
+      <mod:findLike type="choice">
+        <mod:selector hidden="true"/>
+        <mod:findLike type="event">
+          <mod:findLike type="choice">
+            <mod:selector hidden="true"/>
+            <mod:findLike type="event">
+              <mod:findLike type="choice">
+                <mod:selector hidden="true" req="BLUELIST_WEAPONS_MIND_CONTROL"/>
+                <mod:findLike type="text">
+                  <mod:selector>(Mind Control Weapon) 'Convince' them to give a full refund.</mod:selector>
+                  <mod:setValue>(Mind Control Weapon) 'Convince' them to give a full refund.[INFO][NAME]itemModify[/NAME]~20[/INFO]</mod:setValue>
+                </mod:findLike>
+              </mod:findLike>
+            </mod:findLike>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
   <mod:findName name="CRYSTAL_CACHE_MV" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true"/>
@@ -878,6 +899,15 @@
   </mod:findName>
   <mod:findName name="CRYSTAL_AUTO_SURVEYOR" type="event">
     <mod:findLike type="choice">
+      <mod:selector hidden="true" req="BLUELIST_WEAPONS_HACK"/>
+      <mod:findLike type="text">
+        <mod:selector>(Hacking Weapon) Jam its sensors and download its data.</mod:selector>
+        <mod:setValue>(Hacking Weapon) Jam its sensors and download its data.[INFO][NAME]revealMap[/NAME]Map Reveal[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="CRYSTAL_AUTO_SURVEYOR" type="event">
+    <mod:findLike type="choice">
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Ignore the Auto-ship.</mod:selector>
@@ -1273,7 +1303,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Continue...</mod:selector>
-        <mod:setValue>Continue...[INFO][NAME]autoReward[/NAME]Reward ~ Only(H)[/INFO][INFO][NAME]modifyPursuit[/NAME]&lt;!&gt;Fleet Advance(1)[/INFO][INFO]50% [NAME]autoReward[/NAME]Reward ~ Only(H)[/INFO][INFO]50% [NAME]modifyPursuit[/NAME]Fleet Delay(1)[/INFO][INFO]50% [NAME]boarders[/NAME]&lt;!&gt;Enemy Boarding(x1-x2 Crystal)[/INFO][INFO]50% &lt;=[/INFO][INFO][NAME]modifyPursuit[/NAME]Fleet Delay(1)[/INFO]</mod:setValue>
+        <mod:setValue>Continue...[INFO][NAME]autoReward[/NAME]Reward ~ Only(H)[/INFO][INFO][NAME]modifyPursuit[/NAME]&lt;!&gt;Fleet Advance(1)[/INFO][INFO]50% [NAME]autoReward[/NAME]Reward ~ Only(H)[/INFO][INFO]50% [NAME]modifyPursuit[/NAME]Fleet Delay(1)[/INFO][INFO]50% [NAME]boarders[/NAME]&lt;!&gt;Enemy Boarding(x1-x2 Crystal)[/INFO][INFO]50% &lt;=[/INFO][INFO]50% [NAME]autoReward[/NAME]Reward ~ Only(L)[/INFO][INFO][NAME]autoReward[/NAME]Reward ~ Only(L)[/INFO][INFO][NAME]modifyPursuit[/NAME]Fleet Delay(1)[/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -1310,10 +1340,52 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="event">
         <mod:findLike type="choice">
+          <mod:selector hidden="true" req="LIST_CREW_CRYSTAL_BASIC"/>
+          <mod:findLike type="text">
+            <mod:selector>(Crystal Crew) Try to convince them of the importance of your mission.</mod:selector>
+            <mod:setValue>(Crystal Crew) Try to convince them of the importance of your mission.[INFO]50% [NAME]autoReward[/NAME]Reward ~ Only(L)[/INFO][INFO]50% [NAME]modifyPursuit[/NAME]Fleet Delay(1)[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="CRYSTAL_REQUEST_MV" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true" req="crystal_sentinel"/>
+          <mod:findLike type="text">
+            <mod:selector>(Sentinel Crew) Try to convince them of the importance of your mission.</mod:selector>
+            <mod:setValue>(Sentinel Crew) Try to convince them of the importance of your mission.[INFO][NAME]autoReward[/NAME]Reward ~ Only(L)[/INFO][INFO][NAME]modifyPursuit[/NAME]Fleet Delay(1)[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="CRYSTAL_REQUEST_MV" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true" req="unique_ruwen"/>
+          <mod:findLike type="text">
+            <mod:selector>(Ruwen) Convince them of the importance of your mission.</mod:selector>
+            <mod:setValue>(Ruwen) Convince them of the importance of your mission.[INFO][NAME]autoReward[/NAME]Reward ~ Only(H)[/INFO][INFO][NAME]modifyPursuit[/NAME]Fleet Delay(1)[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="CRYSTAL_REQUEST_MV" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
           <mod:selector hidden="true" req="DISTRACTION_BUOY"/>
           <mod:findLike type="text">
-            <mod:selector>(Distraction Buoys) Accept the scrap but give them falsified flight plans.</mod:selector>
-            <mod:setValue>(Distraction Buoys) Accept the scrap but give them falsified flight plans.[INFO][NAME]autoReward[/NAME]Reward ~ Only(H)[/INFO][INFO][NAME]modifyPursuit[/NAME]Fleet Delay(1)[/INFO]</mod:setValue>
+            <mod:selector>(Decoy Buoys) Accept the scrap but give them falsified flight plans.</mod:selector>
+            <mod:setValue>(Decoy Buoys) Accept the scrap but give them falsified flight plans.[INFO][NAME]autoReward[/NAME]Reward ~ Only(H)[/INFO][INFO][NAME]modifyPursuit[/NAME]Fleet Delay(1)[/INFO]</mod:setValue>
           </mod:findLike>
         </mod:findLike>
       </mod:findLike>
@@ -1367,7 +1439,7 @@
       <mod:selector hidden="true" req="LIST_CHECK_ANY_CREW" blue="false" lvl="1"/>
       <mod:findLike type="text">
         <mod:selector>Send a crewmember to help.</mod:selector>
-        <mod:setValue>Send a crewmember to help.[INFO][NAME]autoReward[/NAME]Reward {(H)[/INFO][INFO][NAME]removeCrew[/NAME]&lt;!&gt;Lose your crew(UNCLONABLE)[/INFO][INFO]&lt;=[/INFO][INFO][NAME]modifyPursuit[/NAME]&lt;!&gt;Fleet Advance(1)[/INFO]</mod:setValue>
+        <mod:setValue>Send a crewmember to help.[INFO][NAME]autoReward[/NAME]Reward {(H)[/INFO][INFO][NAME]removeCrew[/NAME]&lt;!&gt;Lose your crew(UNCLONABLE)[/INFO][INFO]&lt;=[/INFO][INFO][NAME]modifyPursuit[/NAME]&lt;!&gt;Fleet Advance(1)[/INFO][INFO][NAME]autoReward[/NAME]Reward ~ Only(H)[/INFO][INFO][NAME]weapon[/NAME]Gain a weapon(Crystal Heavy 2)[/INFO][INFO][NAME]augment[/NAME]Gain an augment(Random)[/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -1503,6 +1575,38 @@
                 <mod:setValue>Wait.[INFO][NAME]modifyPursuit[/NAME]&lt;!&gt;Fleet Advance(1)[/INFO][INFO][NAME]autoReward[/NAME]Reward ~ Only(H)[/INFO][INFO][NAME]weapon[/NAME]Gain a weapon(Crystal Heavy 2)[/INFO][INFO][NAME]augment[/NAME]Gain an augment(Random)[/INFO]</mod:setValue>
               </mod:findLike>
             </mod:findLike>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="CRYSTAL_HELP_DIG_MV" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true" req="LIST_CHECK_ANY_CREW" blue="false" lvl="1"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:findLike type="event">
+            <mod:findLike type="choice">
+              <mod:selector hidden="true" req="temporal"/>
+              <mod:findLike type="text">
+                <mod:selector>(Temporal Manipulator) Use your system to try and increase the speed of the dig.</mod:selector>
+                <mod:setValue>(Temporal Manipulator) Use your system to try and increase the speed of the dig.[INFO][NAME]autoReward[/NAME]Reward ~ Only(H)[/INFO][INFO][NAME]weapon[/NAME]Gain a weapon(Crystal Heavy 2)[/INFO][INFO][NAME]augment[/NAME]Gain an augment(Random)[/INFO]</mod:setValue>
+              </mod:findLike>
+            </mod:findLike>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="CRYSTAL_HELP_DIG_MV" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true" req="LIST_CHECK_ANY_CREW" blue="false" lvl="1"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true" req="temporal" lvl="3"/>
+          <mod:findLike type="text">
+            <mod:selector>(Adv. Temporal) Use your system to increase the speed of the dig.</mod:selector>
+            <mod:setValue>(Adv. Temporal) Use your system to increase the speed of the dig.[INFO][NAME]autoReward[/NAME]Reward ~ Only(H)[/INFO][INFO][NAME]weapon[/NAME]Gain a weapon(Crystal Heavy 2)[/INFO][INFO][NAME]augment[/NAME]Gain an augment(Random)[/INFO]</mod:setValue>
           </mod:findLike>
         </mod:findLike>
       </mod:findLike>
@@ -1995,7 +2099,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="NEBULA_CRYSTAL_MIRROR" type="event">
+  <mod:findName name="NEBULA_LIGHT_CRYSTAL_MIRROR" type="event">
     <mod:findLike type="choice">
       <mod:findLike type="text">
         <mod:selector>Dock and explore.</mod:selector>
@@ -2003,7 +2107,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="NEBULA_CRYSTAL_MIRROR" type="event">
+  <mod:findName name="NEBULA_LIGHT_CRYSTAL_MIRROR" type="event">
     <mod:findLike type="choice">
       <mod:findLike type="event">
         <mod:findLike type="choice">
@@ -2016,7 +2120,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="NEBULA_CRYSTAL_MIRROR" type="event">
+  <mod:findName name="NEBULA_LIGHT_CRYSTAL_MIRROR" type="event">
     <mod:findLike type="choice">
       <mod:findLike type="event">
         <mod:findLike type="choice">
@@ -2029,7 +2133,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="NEBULA_CRYSTAL_MIRROR" type="event">
+  <mod:findName name="NEBULA_LIGHT_CRYSTAL_MIRROR" type="event">
     <mod:findLike type="choice">
       <mod:findLike type="event">
         <mod:findLike type="choice">
@@ -2042,7 +2146,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="NEBULA_CRYSTAL_MIRROR" type="event">
+  <mod:findName name="NEBULA_LIGHT_CRYSTAL_MIRROR" type="event">
     <mod:findLike type="choice">
       <mod:findLike type="event">
         <mod:findLike type="choice">
@@ -2060,7 +2164,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="NEBULA_CRYSTAL_MIRROR" type="event">
+  <mod:findName name="NEBULA_LIGHT_CRYSTAL_MIRROR" type="event">
     <mod:findLike type="choice">
       <mod:findLike type="event">
         <mod:findLike type="choice">
@@ -2083,7 +2187,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="NEBULA_CRYSTAL_MIRROR" type="event">
+  <mod:findName name="NEBULA_LIGHT_CRYSTAL_MIRROR" type="event">
     <mod:findLike type="choice">
       <mod:findLike type="text">
         <mod:selector>Ignore the planet.</mod:selector>
@@ -2091,7 +2195,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="NEBULA_CRYSTAL_MIRROR" type="event">
+  <mod:findName name="NEBULA_LIGHT_CRYSTAL_MIRROR" type="event">
     <mod:findLike type="choice">
       <mod:findLike type="event">
         <mod:findLike type="choice">

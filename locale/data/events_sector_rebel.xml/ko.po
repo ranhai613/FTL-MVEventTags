@@ -1,16 +1,15 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-06-02 04:34+0000\n"
+"PO-Revision-Date: 2025-06-07 11:50+0000\n"
 "Last-Translator: H2O <dedor11111@gmail.com>\n"
-"Language-Team: Korean <https://weblate.hyperq.be/projects/ftl-multiverse/"
-"dataevents_sector_rebelxml/ko/>\n"
+"Language-Team: Korean <https://weblate.hyperq.be/projects/ftl-multiverse/dataevents_sector_rebelxml/ko/>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.16.4\n"
+"X-Generator: Weblate 5.11.4\n"
 
 #: src-en/data/events_sector_rebel.xml:28
 msgid ""
@@ -604,10 +603,7 @@ msgstr "오키드를 살펴 본다."
 #: src-en/data/events_sector_rebel.xml:450
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_CIRCUS\"]/choice[1]/event/choice[3]/event/text"
-msgstr ""
-"엄청나게 기다란 수염을 가진 대머리 남자가 당신을 맞이했습니다. \"이쪽으로 오십시오 여러분, 그리고 기쁨을 가져다주는 새플링을 "
-"주목하세요! 그의 잎에서 나는 향기를 들이마시는 순간 여러분은 하늘을 나는 연보다 더 높게 날아가는 기분을 만끽할 것입니다! 자유롭게 "
-"다가와서 향기를 맡아보세요. 하지만 명심하세요, 그 후에 일어나는 일에 대해서는 책임지지 않습니다.\""
+msgstr "엄청나게 기다란 수염을 가진 대머리 남자가 당신을 맞이했습니다. \"이쪽으로 오십시오 여러분, 그리고 기쁨을 가져다주는 새플링을 주목하세요! 그의 잎에서 나는 향기를 들이마시는 순간 여러분은 하늘을 나는 연보다 더 높게 날아가는 기분을 만끽할 것입니다! 자유롭게 다가와서 향기를 맡아보세요. 하지만 명심하세요, 그 후에 일어나는 일에 대해서는 책임지지 않습니다.\""
 
 #: src-en/data/events_sector_rebel.xml:452
 msgid ""
@@ -1873,372 +1869,429 @@ msgid ""
 "data/events_sector_rebel.xml$//eventList[@name=\"AUTO_DEFENSE_RADAR_COMBAT_MV\"]/event[3]/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_sector_rebel.xml:1366
+#: src-en/data/events_sector_rebel.xml:1365
+msgid ""
+"data/events_sector_rebel.xml$//event[@name=\"DEFENSE_RADAR_ACCESS_MV\"]/text"
+msgstr "문제의 정거장은 반군 함대에 정보를 전송할 수 있는 것으로 보입니다. 해킹을 시도해 함대에 거짓 정보를 흘려보낼 수 있습니다."
+
+#: src-en/data/events_sector_rebel.xml:1367
+msgid ""
+"data/events_sector_rebel.xml$//event[@name=\"DEFENSE_RADAR_ACCESS_MV\"]/choice[1]/text"
+msgstr "수동으로 정거장 해킹을 시도한다."
+
+#: src-en/data/events_sector_rebel.xml:1371
+msgid ""
+"data/events_sector_rebel.xml$//event[@name=\"DEFENSE_RADAR_ACCESS_MV\"]/choice[2]/text"
+msgstr "위험을 무릅쓰지 않는다. 정거장을 떠난다."
+
+#: src-en/data/events_sector_rebel.xml:1375
+msgid ""
+"data/events_sector_rebel.xml$//event[@name=\"DEFENSE_RADAR_ACCESS_MV\"]/choice[@req=\"hacking\"]/text"
+msgstr "(해킹) 드론을 사용하여 정거장을 해킹한다."
+
+#: src-en/data/events_sector_rebel.xml:1377
+msgid ""
+"data/events_sector_rebel.xml$//event[@name=\"DEFENSE_RADAR_ACCESS_MV\"]/choice[@req=\"hacking\"]/event/text"
+msgstr ""
+"성공적으로 시스템을 해킹하고 당신의 위치에 대해 잘못된 정보를 전송했습니다. 이 행동으로 당분간은 반군 함대를 지연시킬 것입니다. 또한 "
+"주변 송신소에 대한 정보를 다운로드할 수 있었습니다."
+
+#: src-en/data/events_sector_rebel.xml:1388
 msgid ""
 "data/events_sector_rebel.xml$//eventList[@name=\"DEFENSE_RADAR_LIST_MV\"]/event[1]/text"
 msgstr ""
 "당신은 성공적으로 정거장에 접속해서 당신의 위치에 관한 거짓 정보를 전송하였습니다. 이걸로 반군 함대를 잠시나마 지체시킬 수 있을 "
 "겁니다."
 
-#: src-en/data/events_sector_rebel.xml:1370
+#: src-en/data/events_sector_rebel.xml:1392
 msgid ""
 "data/events_sector_rebel.xml$//eventList[@name=\"DEFENSE_RADAR_LIST_MV\"]/event[2]/text"
 msgstr ""
 "정거장의 방화벽은 우회하기 너무 어려웠습니다. 결국 접속을 끊으려던 순간, 우연히 주변 송신소에 대한 정보를 발견했습니다. 지도가 "
 "갱신되었습니다."
 
-#: src-en/data/events_sector_rebel.xml:1374
+#: src-en/data/events_sector_rebel.xml:1396
 msgid ""
 "data/events_sector_rebel.xml$//eventList[@name=\"DEFENSE_RADAR_LIST_MV\"]/event[3]/text"
 msgstr "당신은 컴퓨터의 방어 시스템을 뚫을 수 없었습니다. 당신은 포기하고 함선으로 돌아왔습니다."
 
-#: src-en/data/events_sector_rebel.xml:1377
+#: src-en/data/events_sector_rebel.xml:1399
 msgid ""
 "data/events_sector_rebel.xml$//eventList[@name=\"DEFENSE_RADAR_LIST_MV\"]/event[4]/text"
 msgstr ""
 "해킹을 시도하자, 숨겨진 경보 시스템이 작동했습니다. 이제 반군은 당신의 위치를 확실히 파악 했을 것 입니다! 당신은 이동하기 위해 "
 "서둘러 배로 돌아왔습니다."
 
-#: src-en/data/events_sector_rebel.xml:1383
+#: src-en/data/events_sector_rebel.xml:1405
 msgid "data/events_sector_rebel.xml$//event[@name=\"BROKEN_REBEL_DRONE\"]/text"
 msgstr "반군 무인기가 송신소 주위를 떠다니고 있습니다. 새 것 같아 보이지만, 비활성화 상태인 듯합니다."
 
-#: src-en/data/events_sector_rebel.xml:1386
+#: src-en/data/events_sector_rebel.xml:1408
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"BROKEN_REBEL_DRONE\"]/choice[1]/text"
 msgstr "무인기에 저장되어있는 데이터를 다운로드 해본다."
 
-#: src-en/data/events_sector_rebel.xml:1390
+#: src-en/data/events_sector_rebel.xml:1412
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"BROKEN_REBEL_DRONE\"]/choice[2]/text"
 msgstr "무인기가 가동될 수도 있으니 위험을 무릎쓰지 말고 쓸 만한 스크랩들만 가져간다."
 
-#: src-en/data/events_sector_rebel.xml:1396
+#: src-en/data/events_sector_rebel.xml:1418
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"BROKEN_REBEL_DRONE\"]/choice[@req=\"sensors\"]/text"
 msgstr "(센서) 원격으로 적 무인기를 조사한다."
 
-#: src-en/data/events_sector_rebel.xml:1402
+#: src-en/data/events_sector_rebel.xml:1424
 msgid ""
 "data/events_sector_rebel.xml$//eventList[@name=\"DOWNLOAD_DRONE_DATA_MV\"]/event[1]/text"
 msgstr "무인기가 저장하고 있던 이 지역의 정보를 모두 빼냈습니다. 지도가 업데이트 되었습니다."
 
-#: src-en/data/events_sector_rebel.xml:1407
+#: src-en/data/events_sector_rebel.xml:1429
 msgid ""
 "data/events_sector_rebel.xml$//eventList[@name=\"DOWNLOAD_DRONE_DATA_MV\"]/event[2]/text"
 msgstr "실수로 무인기의 인공지능을 작동시고 말았습니다. 무인기는 곧바로 무기를 가동했습니다. 전투 준비!"
 
-#: src-en/data/events_sector_rebel.xml:1410
+#: src-en/data/events_sector_rebel.xml:1432
 msgid ""
 "data/events_sector_rebel.xml$//eventList[@name=\"DOWNLOAD_DRONE_DATA_MV\"]/event[2]/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_sector_rebel.xml:1417
+#: src-en/data/events_sector_rebel.xml:1439
 msgid ""
 "data/events_sector_rebel.xml$//eventList[@name=\"BROKEN_REBEL_DRONE_SENSORS_MV\"]/event[1]/text"
 msgstr ""
 "향상된 센서로 스캔해본 결과 저 무인기는 해킹해도 안전할 것 같습니다. 당신은 무인기의 지도 데이터를 당신의 항법 장치로 전송하고 유용한"
 " 부품들을 뜯어냈습니다."
 
-#: src-en/data/events_sector_rebel.xml:1422
+#: src-en/data/events_sector_rebel.xml:1444
 msgid ""
 "data/events_sector_rebel.xml$//eventList[@name=\"BROKEN_REBEL_DRONE_SENSORS_MV\"]/event[2]/text"
 msgstr ""
 "당신의 개선된 센서는 적 무인기가 비상대기 중인 것을 감지했습니다. 당신을 발견하는 순간 바로 작동할 것입니다. 그래도 무인기의 데이터에"
 " 접속하는것을 시도하시겠습니까?"
 
-#: src-en/data/events_sector_rebel.xml:1424
+#: src-en/data/events_sector_rebel.xml:1446
 msgid ""
 "data/events_sector_rebel.xml$//eventList[@name=\"BROKEN_REBEL_DRONE_SENSORS_MV\"]/event[2]/choice[1]/text"
 msgstr "시도한다."
 
-#: src-en/data/events_sector_rebel.xml:1428
+#: src-en/data/events_sector_rebel.xml:1450
 msgid ""
 "data/events_sector_rebel.xml$//eventList[@name=\"BROKEN_REBEL_DRONE_SENSORS_MV\"]/event[2]/choice[2]/text"
 msgstr "그만두자."
 
-#: src-en/data/events_sector_rebel.xml:1430
+#: src-en/data/events_sector_rebel.xml:1452
 msgid ""
 "data/events_sector_rebel.xml$//eventList[@name=\"BROKEN_REBEL_DRONE_SENSORS_MV\"]/event[2]/choice[2]/event/text"
 msgstr "당신은 무인기를 내버려 두고 도약을 준비합니다."
 
-#: src-en/data/events_sector_rebel.xml:1432
+#: src-en/data/events_sector_rebel.xml:1454
 msgid ""
 "data/events_sector_rebel.xml$//eventList[@name=\"BROKEN_REBEL_DRONE_SENSORS_MV\"]/event[2]/choice[2]/event/choice[1]/text"
 msgstr "함선에서 무언가를 한다."
 
-#: src-en/data/events_sector_rebel.xml:1436
+#: src-en/data/events_sector_rebel.xml:1458
 msgid ""
 "data/events_sector_rebel.xml$//eventList[@name=\"BROKEN_REBEL_DRONE_SENSORS_MV\"]/event[2]/choice[2]/event/choice[2]/text"
 msgstr "아무것도 하지 않는다."
 
-#: src-en/data/events_sector_rebel.xml:1445
+#: src-en/data/events_sector_rebel.xml:1467
 msgid "data/events_sector_rebel.xml$//event[@name=\"REBEL_DEFECTOR\"]/text"
 msgstr ""
 "이 송신소를 순찰하던 반군이 즉시 싸움을 걸어왔습니다. 선원들이 전투 준비를 서두르는 동안 센서가 단거리 텔레포터 신호를 감지했습니다. "
 "침입자가 탑승했습니다!"
 
-#: src-en/data/events_sector_rebel.xml:1448
+#: src-en/data/events_sector_rebel.xml:1470
 msgid "data/events_sector_rebel.xml$//event[@name=\"REBEL_DEFECTOR\"]/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_sector_rebel.xml:1450
+#: src-en/data/events_sector_rebel.xml:1472
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_DEFECTOR\"]/choice/event/text"
 msgstr ""
 "상기된 얼굴에 공포에 질린 듯한 반군 병사가 승선했습니다. 무장하지 않았으며 계속해서 평화적 의도를 드러냅니다. 반군의 삶에 실증이 난 "
 "듯합니다."
 
-#: src-en/data/events_sector_rebel.xml:1452
+#: src-en/data/events_sector_rebel.xml:1474
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_DEFECTOR\"]/choice/event/choice[1]/text"
 msgstr "그의 제안을 받아들이고 반군과 싸울 준비를 한다."
 
-#: src-en/data/events_sector_rebel.xml:1456
+#: src-en/data/events_sector_rebel.xml:1478
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_DEFECTOR\"]/choice/event/choice[2]/text"
 msgstr "그의 제안을 거절한다. 반군들은 절대 믿을 수 없다."
 
-#: src-en/data/events_sector_rebel.xml:1460
+#: src-en/data/events_sector_rebel.xml:1482
+msgid ""
+"data/events_sector_rebel.xml$//event[@name=\"REBEL_DEFECTOR\"]/choice/event/choice[@req=\"LIST_CREW_SLUG\"]/text"
+msgstr "(슬러그 선원) 그의 의도를 읽는다."
+
+#: src-en/data/events_sector_rebel.xml:1486
+msgid ""
+"data/events_sector_rebel.xml$//event[@name=\"REBEL_DEFECTOR\"]/choice/event/choice[@req=\"BLUELIST_CREW_SNAIL\"]/text"
+msgstr "(진화적 재분기점) 그의 의도를 읽는다."
+
+#: src-en/data/events_sector_rebel.xml:1490
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_DEFECTOR\"]/choice/event/choice[@req=\"LIST_CHECK_ANY_CREW\""
 " and @lvl=\"0\"]/text"
 msgstr "침입자를 즉시 제거한다. 반군들은 절대 믿을 수 없다."
 
-#: src-en/data/events_sector_rebel.xml:1462
+#: src-en/data/events_sector_rebel.xml:1492
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_DEFECTOR\"]/choice/event/choice[@req=\"LIST_CHECK_ANY_CREW\""
 " and @lvl=\"0\"]/event/text"
 msgstr "당신의 첨단 보안 시스템이 침입자는 쉽게 제거했지만, 아직 반군 함선은 남아 있습니다."
 
-#: src-en/data/events_sector_rebel.xml:1464
+#: src-en/data/events_sector_rebel.xml:1494
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_DEFECTOR\"]/choice/event/choice[@req=\"LIST_CHECK_ANY_CREW\""
 " and @lvl=\"0\"]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_sector_rebel.xml:1474
+#: src-en/data/events_sector_rebel.xml:1504
+msgid ""
+"data/events_sector_rebel.xml$//eventList[@name=\"REBEL_DEFECTOR_TELEPATH_CREW_MV\"]/event[1]/text"
+msgstr "당신의 선원이 몇 초간 반군의 의도를 파악했지만, 적대의 단서는 전혀 없었습니다. 당신은 전직 반군을 선원으로 받아들이고 반군 함선과의 전투를 준비합니다."
+
+#: src-en/data/events_sector_rebel.xml:1507
+msgid ""
+"data/events_sector_rebel.xml$//eventList[@name=\"REBEL_DEFECTOR_TELEPATH_CREW_MV\"]/event[1]/choice/text"
+msgstr "계속..."
+
+#: src-en/data/events_sector_rebel.xml:1512
+msgid ""
+"data/events_sector_rebel.xml$//eventList[@name=\"REBEL_DEFECTOR_TELEPATH_CREW_MV\"]/event[2]/text"
+msgstr "당신의 선원은 거의 바로 그 반군이 당신을 속이려 한다는 것을 알아냈습니다. 문제의 반군은 쉽게 처리했지만, 아직 다른 반군들은 남아 있습니다."
+
+#: src-en/data/events_sector_rebel.xml:1514
+msgid ""
+"data/events_sector_rebel.xml$//eventList[@name=\"REBEL_DEFECTOR_TELEPATH_CREW_MV\"]/event[2]/choice/text"
+msgstr "계속..."
+
+#: src-en/data/events_sector_rebel.xml:1521
 msgid ""
 "data/events_sector_rebel.xml$//eventList[@name=\"REBEL_DEFECTOR_REJECT_MV\"]/event[1]/text"
 msgstr "당신의 용감한 선원들이 침입자는 쉽게 물리쳤지만, 아직 반군 함선이 남아있습니다."
 
-#: src-en/data/events_sector_rebel.xml:1476
+#: src-en/data/events_sector_rebel.xml:1523
 msgid ""
 "data/events_sector_rebel.xml$//eventList[@name=\"REBEL_DEFECTOR_REJECT_MV\"]/event[1]/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_sector_rebel.xml:1481
+#: src-en/data/events_sector_rebel.xml:1528
 msgid ""
 "data/events_sector_rebel.xml$//eventList[@name=\"REBEL_DEFECTOR_REJECT_MV\"]/event[2]/text"
 msgstr "안팎의 공격에 대처하는 것은 결코 쉽지 않습니다!"
 
-#: src-en/data/events_sector_rebel.xml:1484
+#: src-en/data/events_sector_rebel.xml:1531
 msgid ""
 "data/events_sector_rebel.xml$//eventList[@name=\"REBEL_DEFECTOR_REJECT_MV\"]/event[2]/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_sector_rebel.xml:1489
+#: src-en/data/events_sector_rebel.xml:1536
 msgid ""
 "data/events_sector_rebel.xml$//eventList[@name=\"REBEL_DEFECTOR_REJECT_MV\"]/event[3]/text"
 msgstr "그는 선원으로 받아들여 준다면 근처에 있는 비밀 스크랩 창고로 안내해 주겠다고 합니다."
 
-#: src-en/data/events_sector_rebel.xml:1491
+#: src-en/data/events_sector_rebel.xml:1538
 msgid ""
 "data/events_sector_rebel.xml$//eventList[@name=\"REBEL_DEFECTOR_REJECT_MV\"]/event[3]/choice[1]/text"
 msgstr "마지못해 제안을 받아들이고 반군 함선과 싸운다."
 
-#: src-en/data/events_sector_rebel.xml:1495
+#: src-en/data/events_sector_rebel.xml:1542
 msgid ""
 "data/events_sector_rebel.xml$//eventList[@name=\"REBEL_DEFECTOR_REJECT_MV\"]/event[3]/choice[2]/text"
 msgstr "제안을 거절하고 즉시 그를 처형한다."
 
-#: src-en/data/events_sector_rebel.xml:1497
+#: src-en/data/events_sector_rebel.xml:1544
 msgid ""
 "data/events_sector_rebel.xml$//eventList[@name=\"REBEL_DEFECTOR_REJECT_MV\"]/event[3]/choice[2]/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_sector_rebel.xml:1502
+#: src-en/data/events_sector_rebel.xml:1549
 msgid ""
 "data/events_sector_rebel.xml$//eventList[@name=\"REBEL_DEFECTOR_REJECT_MV\"]/event[3]/choice[3]/text"
 msgstr "다시 그의 제안을 거절한다."
 
-#: src-en/data/events_sector_rebel.xml:1512
+#: src-en/data/events_sector_rebel.xml:1559
 msgid ""
 "data/events_sector_rebel.xml$//eventList[@name=\"REBEL_DEFECTOR_HELP_MV\"]/event[1]/text"
 msgstr ""
 "비열한 반군이 당신을 속였습니다. 그는 엔진을 손상시키고 비행 데이터를 훔치고는 순간이동으로 달아났습니다. 당신이 이 싸움을 살아나간다고"
 " 해도 함대가 당신을 쉽게 추격할 것입니다!"
 
-#: src-en/data/events_sector_rebel.xml:1517
+#: src-en/data/events_sector_rebel.xml:1564
 msgid ""
 "data/events_sector_rebel.xml$//eventList[@name=\"REBEL_DEFECTOR_HELP_MV\"]/event[1]/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_sector_rebel.xml:1522
+#: src-en/data/events_sector_rebel.xml:1569
 msgid ""
 "data/events_sector_rebel.xml$//eventList[@name=\"REBEL_DEFECTOR_HELP_MV\"]/event[2]/text"
 msgstr ""
 "새로운 선원이 미소를 짓더니 손에 있던 작은 원격 방아쇠를 당겼습니다. 그 순간 폭발이 일어나면서 더 많은 침입자가 탑승했습니다!"
 
-#: src-en/data/events_sector_rebel.xml:1526
+#: src-en/data/events_sector_rebel.xml:1573
 msgid ""
 "data/events_sector_rebel.xml$//eventList[@name=\"REBEL_DEFECTOR_HELP_MV\"]/event[2]/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_sector_rebel.xml:1531
+#: src-en/data/events_sector_rebel.xml:1578
 msgid ""
 "data/events_sector_rebel.xml$//eventList[@name=\"REBEL_DEFECTOR_HELP_MV\"]/event[3]/text"
 msgstr "안심하던 새 선원은 반군 함선이 공격하자 자신이 할 일을 시작했습니다."
 
-#: src-en/data/events_sector_rebel.xml:1534
+#: src-en/data/events_sector_rebel.xml:1581
 msgid ""
 "data/events_sector_rebel.xml$//eventList[@name=\"REBEL_DEFECTOR_HELP_MV\"]/event[3]/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_sector_rebel.xml:1539
+#: src-en/data/events_sector_rebel.xml:1586
 msgid ""
 "data/events_sector_rebel.xml$//eventList[@name=\"REBEL_DEFECTOR_HELP_MV\"]/event[4]/text"
 msgstr "안심하던 새 선원은 반군 함선이 공격하자 자신이 할 일을 시작했습니다."
 
-#: src-en/data/events_sector_rebel.xml:1542
+#: src-en/data/events_sector_rebel.xml:1589
 msgid ""
 "data/events_sector_rebel.xml$//eventList[@name=\"REBEL_DEFECTOR_HELP_MV\"]/event[4]/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_sector_rebel.xml:1547
+#: src-en/data/events_sector_rebel.xml:1594
 msgid ""
 "data/events_sector_rebel.xml$//eventList[@name=\"REBEL_DEFECTOR_HELP_MV\"]/event[5]/text"
 msgstr "안심하던 새 선원은 반군 함선이 공격하자 자신이 할 일을 시작했습니다."
 
-#: src-en/data/events_sector_rebel.xml:1550
+#: src-en/data/events_sector_rebel.xml:1597
 msgid ""
 "data/events_sector_rebel.xml$//eventList[@name=\"REBEL_DEFECTOR_HELP_MV\"]/event[5]/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_sector_rebel.xml:1555
+#: src-en/data/events_sector_rebel.xml:1602
 msgid ""
 "data/events_sector_rebel.xml$//eventList[@name=\"REBEL_DEFECTOR_HELP_MV\"]/event[6]/text"
 msgstr "반군은 지정된 위치를 사수하던 중 갑자기 돌아서서 가까이에 있던 선원을 제거했습니다. 비상 사태입니다!"
 
-#: src-en/data/events_sector_rebel.xml:1559
+#: src-en/data/events_sector_rebel.xml:1606
 msgid ""
 "data/events_sector_rebel.xml$//eventList[@name=\"REBEL_DEFECTOR_HELP_MV\"]/event[6]/removeCrew/text"
 msgstr "제거된 선원의 클론이 복수를 위해 클론 배양실 밖으로 뛰쳐 나왔습니다."
 
-#: src-en/data/events_sector_rebel.xml:1562
+#: src-en/data/events_sector_rebel.xml:1609
 msgid ""
 "data/events_sector_rebel.xml$//eventList[@name=\"REBEL_DEFECTOR_HELP_MV\"]/event[6]/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_sector_rebel.xml:1569
+#: src-en/data/events_sector_rebel.xml:1616
 msgid ""
 "data/events_sector_rebel.xml$//eventList[@name=\"REBEL_DEFECTOR_HELP_2_MV\"]/event[1]/text"
 msgstr ""
 "비열한 반군이 당신을 속였습니다. 그는 엔진을 손상시키고 함선 정보를 훔치고는 순간이동으로 달아났습니다. 당신이 이 싸움을 살아나간다고 "
 "해도 함대가 당신을 쉽게 추격할 것입니다!"
 
-#: src-en/data/events_sector_rebel.xml:1574
+#: src-en/data/events_sector_rebel.xml:1621
 msgid ""
 "data/events_sector_rebel.xml$//eventList[@name=\"REBEL_DEFECTOR_HELP_2_MV\"]/event[1]/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_sector_rebel.xml:1579
+#: src-en/data/events_sector_rebel.xml:1626
 msgid ""
 "data/events_sector_rebel.xml$//eventList[@name=\"REBEL_DEFECTOR_HELP_2_MV\"]/event[2]/text"
 msgstr ""
 "새로운 선원이 미소를 짓더니 손에 있던 작은 원격 방아쇠를 당겼습니다. 그 순간 폭발이 일어나면서 더 많은 침입자가 탑승했습니다!"
 
-#: src-en/data/events_sector_rebel.xml:1584
+#: src-en/data/events_sector_rebel.xml:1631
 msgid ""
 "data/events_sector_rebel.xml$//eventList[@name=\"REBEL_DEFECTOR_HELP_2_MV\"]/event[2]/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_sector_rebel.xml:1589
+#: src-en/data/events_sector_rebel.xml:1636
 msgid ""
 "data/events_sector_rebel.xml$//eventList[@name=\"REBEL_DEFECTOR_HELP_2_MV\"]/event[3]/text"
 msgstr "안심하던 새 선원은 반군 함선이 공격하자 자신이 할 일을 시작했습니다."
 
-#: src-en/data/events_sector_rebel.xml:1593
+#: src-en/data/events_sector_rebel.xml:1640
 msgid ""
 "data/events_sector_rebel.xml$//eventList[@name=\"REBEL_DEFECTOR_HELP_2_MV\"]/event[3]/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_sector_rebel.xml:1598
+#: src-en/data/events_sector_rebel.xml:1645
 msgid ""
 "data/events_sector_rebel.xml$//eventList[@name=\"REBEL_DEFECTOR_HELP_2_MV\"]/event[4]/text"
 msgstr "안심하던 새 선원은 반군 함선이 공격하자 자신이 할 일을 시작했습니다."
 
-#: src-en/data/events_sector_rebel.xml:1602
+#: src-en/data/events_sector_rebel.xml:1649
 msgid ""
 "data/events_sector_rebel.xml$//eventList[@name=\"REBEL_DEFECTOR_HELP_2_MV\"]/event[4]/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_sector_rebel.xml:1607
+#: src-en/data/events_sector_rebel.xml:1654
 msgid ""
 "data/events_sector_rebel.xml$//eventList[@name=\"REBEL_DEFECTOR_HELP_2_MV\"]/event[5]/text"
 msgstr "안심하던 새 선원은 반군 함선이 공격하자 자신이 할 일을 시작했습니다."
 
-#: src-en/data/events_sector_rebel.xml:1611
+#: src-en/data/events_sector_rebel.xml:1658
 msgid ""
 "data/events_sector_rebel.xml$//eventList[@name=\"REBEL_DEFECTOR_HELP_2_MV\"]/event[5]/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_sector_rebel.xml:1616
+#: src-en/data/events_sector_rebel.xml:1663
 msgid ""
 "data/events_sector_rebel.xml$//eventList[@name=\"REBEL_DEFECTOR_HELP_2_MV\"]/event[6]/text"
 msgstr "반군은 지정된 위치를 사수하던 중 갑자기 돌아서서 가까이에 있던 선원을 제거했습니다. 비상 사태입니다!"
 
-#: src-en/data/events_sector_rebel.xml:1620
+#: src-en/data/events_sector_rebel.xml:1667
 msgid ""
 "data/events_sector_rebel.xml$//eventList[@name=\"REBEL_DEFECTOR_HELP_2_MV\"]/event[6]/removeCrew/text"
 msgstr "제거된 선원의 클론이 복수를 위해 클론 배양실 밖으로 뛰쳐 나왔습니다."
 
-#: src-en/data/events_sector_rebel.xml:1623
+#: src-en/data/events_sector_rebel.xml:1670
 msgid ""
 "data/events_sector_rebel.xml$//eventList[@name=\"REBEL_DEFECTOR_HELP_2_MV\"]/event[6]/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_sector_rebel.xml:1632
+#: src-en/data/events_sector_rebel.xml:1679
 msgid ""
 "data/events_sector_rebel.xml$//eventList[@name=\"REBEL_DEFECTOR_QUEST_MV\"]/event[1]/beaconType/unvisitedTooltip"
 msgstr "반군 탈영병이 알려준 스크랩 창고의 위치입니다."
 
-#: src-en/data/events_sector_rebel.xml:1634
+#: src-en/data/events_sector_rebel.xml:1681
 msgid ""
 "data/events_sector_rebel.xml$//eventList[@name=\"REBEL_DEFECTOR_QUEST_MV\"]/event[1]/text"
 msgstr "반군 병사의 말을 따라 도착한 비밀 창고에는 유용한 자재들이 상당히 많이 저장되어 있었습니다."
 
-#: src-en/data/events_sector_rebel.xml:1637
+#: src-en/data/events_sector_rebel.xml:1684
 msgid ""
 "data/events_sector_rebel.xml$//eventList[@name=\"REBEL_DEFECTOR_QUEST_MV\"]/event[1]/choice[1]/text"
 msgstr "함선에서 무언가를 한다."
 
-#: src-en/data/events_sector_rebel.xml:1641
+#: src-en/data/events_sector_rebel.xml:1688
 msgid ""
 "data/events_sector_rebel.xml$//eventList[@name=\"REBEL_DEFECTOR_QUEST_MV\"]/event[1]/choice[2]/text"
 msgstr "아무것도 하지 않는다."
 
-#: src-en/data/events_sector_rebel.xml:1648
+#: src-en/data/events_sector_rebel.xml:1695
 msgid ""
 "data/events_sector_rebel.xml$//eventList[@name=\"REBEL_DEFECTOR_QUEST_MV\"]/event[2]/beaconType/unvisitedTooltip"
 msgstr "반군 탈영병이 알려준 스크랩 창고의 위치입니다."
 
-#: src-en/data/events_sector_rebel.xml:1650
+#: src-en/data/events_sector_rebel.xml:1697
 msgid ""
 "data/events_sector_rebel.xml$//eventList[@name=\"REBEL_DEFECTOR_QUEST_MV\"]/event[2]/text"
 msgstr "반군 병사가 말해준 비밀 창고에 도착했지만, 들은 것만큼 물자가 많지는 않았습니다."
 
-#: src-en/data/events_sector_rebel.xml:1653
+#: src-en/data/events_sector_rebel.xml:1700
 msgid ""
 "data/events_sector_rebel.xml$//eventList[@name=\"REBEL_DEFECTOR_QUEST_MV\"]/event[2]/choice[1]/text"
 msgstr "함선에서 무언가를 한다."
 
-#: src-en/data/events_sector_rebel.xml:1657
+#: src-en/data/events_sector_rebel.xml:1704
 msgid ""
 "data/events_sector_rebel.xml$//eventList[@name=\"REBEL_DEFECTOR_QUEST_MV\"]/event[2]/choice[2]/text"
 msgstr "아무것도 하지 않는다."
 
-#: src-en/data/events_sector_rebel.xml:1674
+#: src-en/data/events_sector_rebel.xml:1721
 msgid "data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_SUPERFISH\"]/text"
 msgstr ""
 "당신은 MFK 에이스의 무시무시한 선체를 알아보고 즉시 공격에 대비했습니다. 하지만, 두 가지 이상한 점이 있습니다. 첫 번째, 그들의 "
@@ -2246,28 +2299,28 @@ msgstr ""
 "에이스에게서 교신이 오자 해결되었습니다. 적 함장은 의자에 등을 기대고 계기판에 발을 올려놓은 채로 샌드위치를 씹고 있었습니다. "
 "\"점심시간에 우리를 마주치다니 운이 좋군. 아무한테도 말하지 마. 우리도 말하지 않을 테니까.\""
 
-#: src-en/data/events_sector_rebel.xml:1677
+#: src-en/data/events_sector_rebel.xml:1724
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_SUPERFISH\"]/choice[1]/text"
 msgstr "너희 로고 무슨 어린애가 그린 거 같은데."
 
-#: src-en/data/events_sector_rebel.xml:1679
+#: src-en/data/events_sector_rebel.xml:1726
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_SUPERFISH\"]/choice[1]/event/text"
 msgstr ""
 "\"이봐! 이게 원조 디자인이라고! 사령부의 바보들이 독수리 로고를 고수하기 전에는 다 이걸 썼어!\" 화가 난 반군이 공격해옵니다."
 
-#: src-en/data/events_sector_rebel.xml:1682
+#: src-en/data/events_sector_rebel.xml:1729
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_SUPERFISH\"]/choice[1]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_sector_rebel.xml:1688
+#: src-en/data/events_sector_rebel.xml:1735
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_SUPERFISH\"]/choice[@req=\"LIST_CREW_JERRY\"]/text"
 msgstr "(제리) 로고를 칭찬한다."
 
-#: src-en/data/events_sector_rebel.xml:1690
+#: src-en/data/events_sector_rebel.xml:1737
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_SUPERFISH\"]/choice[@req=\"LIST_CREW_JERRY\"]/event/text"
 msgstr ""
@@ -2275,157 +2328,157 @@ msgstr ""
 "제리잖아! 어떻게 지내시나요? 제 결혼식에 들러리로 와준 이후로 처음 보는군요!\" 이 두 사람이 어떻게 서로 알고 있는지는 잘 "
 "모르겠지만, MFK 에이스는 제리를 보고 너무 기뻐하며 당신의 함선에서 일하고 싶다 제안했습니다."
 
-#: src-en/data/events_sector_rebel.xml:1691
+#: src-en/data/events_sector_rebel.xml:1738
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_SUPERFISH\"]/choice[@req=\"LIST_CREW_JERRY\"]/event/crewMember"
 msgstr "Ehson"
 
-#: src-en/data/events_sector_rebel.xml:1695
+#: src-en/data/events_sector_rebel.xml:1742
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_SUPERFISH\"]/choice[3]/text"
 msgstr "싸우지 않기로 한다."
 
-#: src-en/data/events_sector_rebel.xml:1697
+#: src-en/data/events_sector_rebel.xml:1744
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_SUPERFISH\"]/choice[3]/event/text"
 msgstr "반군 함장은 낄낄 웃더니 화면을 꺼버렸습니다. 당신은 가던 길을 가기로 합니다."
 
-#: src-en/data/events_sector_rebel.xml:1699
+#: src-en/data/events_sector_rebel.xml:1746
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_SUPERFISH\"]/choice[3]/event/choice[1]/text"
 msgstr "함선에서 무언가를 한다."
 
-#: src-en/data/events_sector_rebel.xml:1703
+#: src-en/data/events_sector_rebel.xml:1750
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_SUPERFISH\"]/choice[3]/event/choice[2]/text"
 msgstr "아무것도 하지 않는다."
 
-#: src-en/data/events_sector_rebel.xml:1710
+#: src-en/data/events_sector_rebel.xml:1757
 msgid "data/events_sector_rebel.xml$//event[@name=\"DEFEATED_SUPERFISH\"]/text"
 msgstr "이상한 MFK 함선은 파괴되었습니다. 잔해에서 쓸만한 자원을 인양합니다."
 
-#: src-en/data/events_sector_rebel.xml:1716
+#: src-en/data/events_sector_rebel.xml:1763
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_ELITE_CHOICE\"]/text"
 msgstr "당신은 송신소에 있는 반군 엘리트를 보고 깜짝 놀랐습니다. 하지만 그들은 당신을 보지 못한 것 같습니다."
 
-#: src-en/data/events_sector_rebel.xml:1719
+#: src-en/data/events_sector_rebel.xml:1766
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_ELITE_CHOICE\"]/choice[1]/text"
 msgstr "공격한다."
 
-#: src-en/data/events_sector_rebel.xml:1721
+#: src-en/data/events_sector_rebel.xml:1768
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_ELITE_CHOICE\"]/choice[1]/event/text"
 msgstr "당신은 엘리트와의 전투를 준비합니다."
 
-#: src-en/data/events_sector_rebel.xml:1724
+#: src-en/data/events_sector_rebel.xml:1771
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_ELITE_CHOICE\"]/choice[1]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_sector_rebel.xml:1730
+#: src-en/data/events_sector_rebel.xml:1777
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_ELITE_CHOICE\"]/choice[2]/text"
 msgstr "엘리트를 피한다."
 
-#: src-en/data/events_sector_rebel.xml:1732
+#: src-en/data/events_sector_rebel.xml:1779
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_ELITE_CHOICE\"]/choice[2]/event/text"
 msgstr "아직 죽고 싶지는 않네요. 당신은 반군 엘리트와 거리를 유지합니다."
 
-#: src-en/data/events_sector_rebel.xml:1734
+#: src-en/data/events_sector_rebel.xml:1781
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_ELITE_CHOICE\"]/choice[2]/event/choice[1]/text"
 msgstr "함선에서 무언가를 한다."
 
-#: src-en/data/events_sector_rebel.xml:1738
+#: src-en/data/events_sector_rebel.xml:1785
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_ELITE_CHOICE\"]/choice[2]/event/choice[2]/text"
 msgstr "아무것도 하지 않는다."
 
-#: src-en/data/events_sector_rebel.xml:1746
+#: src-en/data/events_sector_rebel.xml:1793
 msgid "data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_ARCHIVE\"]/text"
 msgstr ""
 "데이터 저장소로 보이는 커다란 반군 우주 정거장이 인근 행성의 궤도를 돌고 있습니다. 자체적인 무장은 매우 허술해 보이지만, MFK "
 "에이스가 보호하고 있습니다. 매우 중요한 데이터가 있는 것이 분명합니다."
 
-#: src-en/data/events_sector_rebel.xml:1749
+#: src-en/data/events_sector_rebel.xml:1796
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_ARCHIVE\"]/choice[1]/text"
 msgstr "데이터 보관소로 접근하기 위해 경비함선을 공격한다."
 
-#: src-en/data/events_sector_rebel.xml:1751
+#: src-en/data/events_sector_rebel.xml:1798
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_ARCHIVE\"]/choice[1]/event/text"
 msgstr "이건 피 튀기는 싸움이 될 것입니다. 당신은 모든 장비를 점검하고 전투 준비가 되었는지 확인합니다."
 
-#: src-en/data/events_sector_rebel.xml:1754
+#: src-en/data/events_sector_rebel.xml:1801
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_ARCHIVE\"]/choice[1]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_sector_rebel.xml:1760
+#: src-en/data/events_sector_rebel.xml:1807
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_ARCHIVE\"]/choice[2]/text"
 msgstr "데이터 보관소를 무시한다."
 
-#: src-en/data/events_sector_rebel.xml:1762
+#: src-en/data/events_sector_rebel.xml:1809
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_ARCHIVE\"]/choice[2]/event/text"
 msgstr "데이터 보관소에 어떤 정보가 있든 간에, MFK 에이스와 싸울 정도의 가치는 없을 겁니다."
 
-#: src-en/data/events_sector_rebel.xml:1764
+#: src-en/data/events_sector_rebel.xml:1811
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_ARCHIVE\"]/choice[2]/event/choice[1]/text"
 msgstr "함선에서 무언가를 한다."
 
-#: src-en/data/events_sector_rebel.xml:1768
+#: src-en/data/events_sector_rebel.xml:1815
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_ARCHIVE\"]/choice[2]/event/choice[2]/text"
 msgstr "아무것도 하지 않는다."
 
-#: src-en/data/events_sector_rebel.xml:1775
+#: src-en/data/events_sector_rebel.xml:1822
 msgid "data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_ARCHIVE_WIN\"]/text"
 msgstr ""
 "가장 강한 등급의 반군 함선이 패배하는 걸 본 정거장은 반격할 엄두도 못내는 듯 합니다. 그들은 기꺼이 당신에게 시설을 양보했습니다."
 
-#: src-en/data/events_sector_rebel.xml:1777
+#: src-en/data/events_sector_rebel.xml:1824
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_ARCHIVE_WIN\"]/choice/text"
 msgstr "데이터를 다운로드한다."
 
-#: src-en/data/events_sector_rebel.xml:1779
+#: src-en/data/events_sector_rebel.xml:1826
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_ARCHIVE_WIN\"]/choice/event/text"
 msgstr ""
 "보관소에는 예상보다 훨씬 많은 것들이 있었지만, 당신은 이번 임무에 직접적으로 도움이 될 구역 지도와 상인용 신호기만을 챙겼습니다. 또한"
 " 당신의 행방에 대한 모든 데이터를 삭제할 수 있었습니다."
 
-#: src-en/data/events_sector_rebel.xml:1788
+#: src-en/data/events_sector_rebel.xml:1835
 msgid "data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_SPEECH\"]/text"
 msgstr ""
 "인근 행성에 육지 대부분을 차지하는 거대한 반군 도시가 있습니다. 많은 반군과 민간 선박이 도시로 향하고 있으며, 당신의 함선에서도 "
 "보이는 화려한 불꽃놀이가 벌어지고 있습니다. 뭔가 중요한 일이 일어나고 있는 게 분명합니다."
 
-#: src-en/data/events_sector_rebel.xml:1791
+#: src-en/data/events_sector_rebel.xml:1838
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_SPEECH\"]/choice[1]/text"
 msgstr "도시로 향한다."
 
-#: src-en/data/events_sector_rebel.xml:1793
+#: src-en/data/events_sector_rebel.xml:1840
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_SPEECH\"]/choice[1]/event/text"
 msgstr ""
 "당신은 반군의 순찰을 피해 무사히 착륙 지점을 찾았습니다. 착륙장의 직원들은 신원은 묻지 않을 테니 떠날 때 무기만 꺼놓고 가라고 "
 "했습니다. 당신은 연방 배지를 배에 두고 인파를 따라 거대한 경기장으로 향합니다."
 
-#: src-en/data/events_sector_rebel.xml:1795
+#: src-en/data/events_sector_rebel.xml:1842
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_SPEECH\"]/choice[1]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_sector_rebel.xml:1797
+#: src-en/data/events_sector_rebel.xml:1844
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_SPEECH\"]/choice[1]/event/choice/event/text"
 msgstr ""
@@ -2434,13 +2487,13 @@ msgstr ""
 "반군의 위상을 목격하고자 이 자리에 모였습니다! 우리는 방금 멀티버스 여행자들이 선물한 새로운 반군 기함이 연방 수도에 도착했다는 소식을"
 " 받았습니다! 연방의 날은 얼마 남지 않았으며, 곧 반군이 우주를 통치하게 될 것입니다!\""
 
-#: src-en/data/events_sector_rebel.xml:1799
+#: src-en/data/events_sector_rebel.xml:1846
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_SPEECH\"]/choice[1]/event/choice/event/choice[@req=\"LIST_CHECK_ANY_CREW\""
 " and @lvl=\"1\"]/text"
 msgstr "선원을 보내 정치인을 암살한다."
 
-#: src-en/data/events_sector_rebel.xml:1801
+#: src-en/data/events_sector_rebel.xml:1848
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_SPEECH\"]/choice[1]/event/choice/event/choice[@req=\"LIST_CHECK_ANY_CREW\""
 " and @lvl=\"1\"]/event/text"
@@ -2448,24 +2501,24 @@ msgstr ""
 "함선을 몰고 왔더라면 좋았겠지만, 지금 돌아가기엔 너무 늦었습니다. 당신은 휴대용 스캐너를 사용해 유리한 위치를 찾아 선원을 보낼 준비를"
 " 했습니다."
 
-#: src-en/data/events_sector_rebel.xml:1803
+#: src-en/data/events_sector_rebel.xml:1850
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_SPEECH\"]/choice[1]/event/choice/event/choice[@req=\"LIST_CHECK_ANY_CREW\""
 " and @lvl=\"1\"]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_sector_rebel.xml:1809
+#: src-en/data/events_sector_rebel.xml:1856
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_SPEECH\"]/choice[1]/event/choice/event/choice[@req=\"LIST_CHECK_ANY_CREW\""
 " and @lvl=\"0\"]/text"
 msgstr "선원이 없으니 할 수 있는 게 없습니다."
 
-#: src-en/data/events_sector_rebel.xml:1813
+#: src-en/data/events_sector_rebel.xml:1860
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_SPEECH\"]/choice[1]/event/choice/event/choice[@req=\"LIST_CREW_ELITE\"]/text"
 msgstr "(엘리트 선원) 선원을 보내 정치인을 암살한다."
 
-#: src-en/data/events_sector_rebel.xml:1815
+#: src-en/data/events_sector_rebel.xml:1862
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_SPEECH\"]/choice[1]/event/choice/event/choice[@req=\"LIST_CREW_ELITE\"]/event/text"
 msgstr ""
@@ -2473,54 +2526,48 @@ msgstr ""
 "떨어지며 피를 흩뿌렸습니다. 당신의 선원은 쫓아오는 두 명의 경비원을 뿌리치며 재빨리 함선으로 돌아왔습니다. 함대는 당신이 일으킨 혼란을"
 " 수습하느라 당분간 당신을 따라오지 못할 겁니다."
 
-#: src-en/data/events_sector_rebel.xml:1820
+#: src-en/data/events_sector_rebel.xml:1867
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_SPEECH\"]/choice[1]/event/choice/event/choice[@req=\"LIST_CREW_SLUG\"]/text"
 msgstr "(슬러그 선원) 슬러그가 스크린을 해킹할 수 있다고 합니다."
 
-#: src-en/data/events_sector_rebel.xml:1822
+#: src-en/data/events_sector_rebel.xml:1869
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_SPEECH\"]/choice[1]/event/choice/event/choice[@req=\"LIST_CREW_SLUG\"]/event/text"
-msgstr ""
-"슬러그는 낄낄거리며 스크린의 메인 시스템을 해킹했고, 잠시 스크린에 불이 나가자 군중은 혼란스러워했습니다. 몇 초 후, 스크린에 갑자기 "
-"연방의 프로파간다가 나타났습니다. 군중의 엄청난 야유와 시스템을 복구하려는 반군의 노력이 합쳐지자, 슬러그는 힘들었는지 스크린에 아주 "
-"노골적인 프로그램을 띄웠습니다. 슬러그는 웃음을 터뜨렸고 당신은 반군이 따라오기 전에 서둘러 함선으로 돌아왔습니다. 함선으로 돌아오고 "
-"보니 한 병사가 당신을 기다리고 있었습니다. 당신이 무기를 들기 전, 그가 손을 들어 당신을 멈춰 세웁니다. \"걱정할 필요 없어요. "
-"저는 당신 편입니다. 첩보 요원으로 파견됐는데, 며칠째 연방과 연락이 되지 않았습니다. 돌아가려면 반군측 왕복선을 훔쳐야 하나 "
-"걱정했는데, 다행히 여러분과 함께 가면 될 것 같네요.\""
+msgstr "슬러그는 낄낄거리며 스크린의 메인 시스템을 해킹했고, 잠시 화면에 불이 나가자 군중은 혼란스러워했습니다. 몇 초 후, 스크린에 갑자기 연방의 프로파간다가 나타났습니다. 군중의 엄청난 야유와 시스템을 복구하려는 반군의 노력이 합쳐지자, 슬러그는 힘들었는지 스크린에 아주 노골적인 프로그램을 띄웠습니다. 슬러그는 웃음을 터뜨렸고 당신은 반군이 따라오기 전에 서둘러 함선으로 돌아왔습니다. 함선으로 돌아오고 보니 한 병사가 당신을 기다리고 있었습니다. 당신이 무기를 들기 전, 그가 손을 들어 당신을 멈춰 세웁니다. \"걱정할 필요 없어요. 저는 당신 편입니다. 첩보 요원으로 파견됐는데, 며칠째 연방과 연락이 되지 않았습니다. 돌아가려면 반군측 왕복선을 훔쳐야 하나 걱정했는데, 다행히 여러분과 함께 가면 될 것 같네요.\""
 
-#: src-en/data/events_sector_rebel.xml:1827
+#: src-en/data/events_sector_rebel.xml:1874
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_SPEECH\"]/choice[1]/event/choice/event/choice[5]/text"
 msgstr "떠난다."
 
-#: src-en/data/events_sector_rebel.xml:1829
+#: src-en/data/events_sector_rebel.xml:1876
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_SPEECH\"]/choice[1]/event/choice/event/choice[5]/event/text"
 msgstr ""
 "연설이 끝나고 정치인이 경례하자 군중은 \"반군에 영광을!\"이라 외치기 시작했습니다. 당신은 서둘러 함선으로 돌아가 자리를 떴습니다."
 
-#: src-en/data/events_sector_rebel.xml:1837
+#: src-en/data/events_sector_rebel.xml:1884
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_SPEECH\"]/choice[2]/text"
 msgstr "행성을 무시한다."
 
-#: src-en/data/events_sector_rebel.xml:1839
+#: src-en/data/events_sector_rebel.xml:1886
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_SPEECH\"]/choice[2]/event/text"
 msgstr "적진 깊숙한 곳의 대도시를 조사하는 것은 자살행위입니다. 지금은 이 구역을 빨리 벗어날 생각부터 해야 합니다."
 
-#: src-en/data/events_sector_rebel.xml:1841
+#: src-en/data/events_sector_rebel.xml:1888
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_SPEECH\"]/choice[2]/event/choice[1]/text"
 msgstr "함선에서 무언가를 한다."
 
-#: src-en/data/events_sector_rebel.xml:1845
+#: src-en/data/events_sector_rebel.xml:1892
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_SPEECH\"]/choice[2]/event/choice[2]/text"
 msgstr "아무것도 하지 않는다."
 
-#: src-en/data/events_sector_rebel.xml:1853
+#: src-en/data/events_sector_rebel.xml:1900
 msgid ""
 "data/events_sector_rebel.xml$//eventList[@name=\"REBELHOLD_SPEECH_ASSASINATE\"]/event[1]/text"
 msgstr ""
@@ -2530,13 +2577,13 @@ msgstr ""
 "작은 총으로는 반군을 막을 수 없다는 것을 보여줍시다!\" 경비원들이 선원을 바닥에 내팽개치자 정치인이 재빠르게 옛 지구의 권총을 뽑아 "
 "선원의 머리를 세 번 쐈습니다. 당신은 나머지 일행도 들키기 전에 재빨리 경기장을 빠져나왔습니다."
 
-#: src-en/data/events_sector_rebel.xml:1856
+#: src-en/data/events_sector_rebel.xml:1903
 msgid ""
 "data/events_sector_rebel.xml$//eventList[@name=\"REBELHOLD_SPEECH_ASSASINATE\"]/event[1]/removeCrew/text"
 msgstr ""
 "다행히도 함선으로 돌아왔을 때, 당신의 선원은 이미 클론 배양실에서 깨어나 암살 실패와 공개 처형에 대해 투덜거리며 기다리고 있었습니다."
 
-#: src-en/data/events_sector_rebel.xml:1860
+#: src-en/data/events_sector_rebel.xml:1907
 msgid ""
 "data/events_sector_rebel.xml$//eventList[@name=\"REBELHOLD_SPEECH_ASSASINATE\"]/event[2]/text"
 msgstr ""
@@ -2544,7 +2591,7 @@ msgstr ""
 " 선원이 한 무리의 경비원들에게 쫓기며 군중 사이를 돌파하고 있었습니다. 당신은 돌아서서 함선으로 달려갔고, 곧이어 경비원들이 "
 "뒤따라왔습니다."
 
-#: src-en/data/events_sector_rebel.xml:1864
+#: src-en/data/events_sector_rebel.xml:1911
 msgid ""
 "data/events_sector_rebel.xml$//eventList[@name=\"REBELHOLD_SPEECH_ASSASINATE\"]/event[3]/text"
 msgstr ""
@@ -2553,7 +2600,7 @@ msgstr ""
 " 빨리 함선으로 돌아왔습니다. 당신이 일으킨 혼란으로 인해 반군은 피해 수습에 많은 시간을 할애해야 할 것입니다. 아마 당분간은 함대도 "
 "당신을 쫓지 않겠죠."
 
-#: src-en/data/events_sector_rebel.xml:1883
+#: src-en/data/events_sector_rebel.xml:1930
 msgid ""
 "data/events_sector_rebel.xml$//textList[@name=\"DISTRESS_REBEL_HOSTILE\"]/text[1]"
 msgstr ""
@@ -2561,21 +2608,21 @@ msgstr ""
 "맞닥뜨리고 간신히 탈출했다!\" 그들은 당신의 함선을 발견하자 곧바로 멈춥니다. \"이런 젠장! 한 놈 더라고?!\" 그들이 분노로 가득"
 " 차 당신을 공격합니다."
 
-#: src-en/data/events_sector_rebel.xml:1884
+#: src-en/data/events_sector_rebel.xml:1931
 msgid ""
 "data/events_sector_rebel.xml$//textList[@name=\"DISTRESS_REBEL_HOSTILE\"]/text[2]"
 msgstr ""
 "이 송신소의 구조 신호는 반군 함선으로부터 나온 것이었습니다. \"이 지역에서 대피하라! 모든 무장을 폭탄 발사기로 통일한 끔찍한 맨티스"
 " 배회자를 포착했다!\" 그들은 당신의 함선을 발견하자 곧바로 멈춥니다. \"이놈은 잡을 수 있을 것 같군. 모두 전투 대형으로!\""
 
-#: src-en/data/events_sector_rebel.xml:1885
+#: src-en/data/events_sector_rebel.xml:1932
 msgid ""
 "data/events_sector_rebel.xml$//textList[@name=\"DISTRESS_REBEL_HOSTILE\"]/text[3]"
 msgstr ""
 "이 송신소의 구조 신호는 반군 함선으로부터 나온 것이었습니다. \"경고: 칠흑같이 어둡고 금강처럼 단단한 배회자를 마주쳤다! 전군 "
 "대피를-\" 그들은 당신의 함선을 발견하자 곧바로 멈춥니다. \"배회자들이 단체로 짜고 이곳을 침공 중인 건가?\""
 
-#: src-en/data/events_sector_rebel.xml:1886
+#: src-en/data/events_sector_rebel.xml:1933
 msgid ""
 "data/events_sector_rebel.xml$//textList[@name=\"DISTRESS_REBEL_HOSTILE\"]/text[4]"
 msgstr ""
@@ -2583,14 +2630,14 @@ msgstr ""
 "케스트렐급 멀티버스 함선을 마주쳤습니다. 저희는 간신히 탈출-\" 그들은 당신의 함선을 발견하자 곧바로 멈춥니다. \"또 배회자라니 "
 "징하다 징해.\" 그들은 어쩔 수 없이 당신을 공격합니다."
 
-#: src-en/data/events_sector_rebel.xml:1887
+#: src-en/data/events_sector_rebel.xml:1934
 msgid ""
 "data/events_sector_rebel.xml$//textList[@name=\"DISTRESS_REBEL_HOSTILE\"]/text[5]"
 msgstr ""
 "이 송신소의 구조 신호는 반군 함선으로부터 나온 것이었습니다. \"조심하십시오! 어떤 배회자가 연방 순양함을 개조해서 거대한 기뢰를 쏘고"
 " 있습니다!\" 그들은 당신의 함선을 발견하자 곧바로 멈춥니다. \"대체 어디서 이렇게 기어 나오는 거야?\""
 
-#: src-en/data/events_sector_rebel.xml:1888
+#: src-en/data/events_sector_rebel.xml:1935
 msgid ""
 "data/events_sector_rebel.xml$//textList[@name=\"DISTRESS_REBEL_HOSTILE\"]/text[6]"
 msgstr ""
@@ -2598,12 +2645,12 @@ msgstr ""
 "주제에 모욕적인 프리스타일 랩을 부르는 것이 목격됨!\" 그들은 당신의 함선을 발견하자 곧바로 멈춥니다. \"...최소한 이쪽은 통신기로"
 " 불쾌한 비방을 쏟아내지는 않는군.\""
 
-#: src-en/data/events_sector_rebel.xml:1896
+#: src-en/data/events_sector_rebel.xml:1943
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"DISTRESS_REBEL_FLEEING_FROM_RENEGADE\"]/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_sector_rebel.xml:1902
+#: src-en/data/events_sector_rebel.xml:1949
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"DISTRESS_REBEL_DISTRACT_CHECKPOINT\"]/text"
 msgstr ""
@@ -2611,22 +2658,22 @@ msgstr ""
 "다행히도 지금까지는 우리의 변명을 믿어줬거든요... 도움이 필요해요, 근처에 반군 검문소가 있는 행성이 있어요. 그곳에 협회 통치 "
 "구역으로 밀입국하려는 가족이 있는데, 검문소의 주의를 분산시켜 주시겠어요?\""
 
-#: src-en/data/events_sector_rebel.xml:1904
+#: src-en/data/events_sector_rebel.xml:1951
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"DISTRESS_REBEL_DISTRACT_CHECKPOINT\"]/choice[1]/text"
 msgstr "검문소의 주의를 돌리러 간다."
 
-#: src-en/data/events_sector_rebel.xml:1907
+#: src-en/data/events_sector_rebel.xml:1954
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"DISTRESS_REBEL_DISTRACT_CHECKPOINT\"]/choice[1]/event/text"
 msgstr "검문소에 접근하자마자 반군이 당신에게 위협적으로 말을 겁니다. \"적함이 이런 곳에? 10초 안에 해명하지 않으면 파괴하겠다!\""
 
-#: src-en/data/events_sector_rebel.xml:1909
+#: src-en/data/events_sector_rebel.xml:1956
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"DISTRESS_REBEL_DISTRACT_CHECKPOINT\"]/choice[1]/event/choice[@req=\"LIST_CREW_JERRY\"]/text"
 msgstr "(제리) \"안녕하세요!\""
 
-#: src-en/data/events_sector_rebel.xml:1911
+#: src-en/data/events_sector_rebel.xml:1958
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"DISTRESS_REBEL_DISTRACT_CHECKPOINT\"]/choice[1]/event/choice[@req=\"LIST_CREW_JERRY\"]/event/text"
 msgstr ""
@@ -2634,99 +2681,99 @@ msgstr ""
 "앞으로 몰려들기 시작합니다. 반군들은 마음껏 제리와 대화를 나눴고, 연합 함선이 가족들을 빼돌릴 충분한 시간을 벌어주었습니다. 반군 중 "
 "한 명은 제리에게 선물을 주며 호감을 얻으려 하기까지 했습니다."
 
-#: src-en/data/events_sector_rebel.xml:1914
+#: src-en/data/events_sector_rebel.xml:1961
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"DISTRESS_REBEL_DISTRACT_CHECKPOINT\"]/choice[1]/event/choice[@req=\"LIST_CREW_JERRY\"]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_sector_rebel.xml:1920
+#: src-en/data/events_sector_rebel.xml:1967
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"DISTRESS_REBEL_DISTRACT_CHECKPOINT\"]/choice[1]/event/choice[@req=\"human_mfk\"]/text"
 msgstr "(MFK 에이스) 불시 점검한다."
 
-#: src-en/data/events_sector_rebel.xml:1922
+#: src-en/data/events_sector_rebel.xml:1969
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"DISTRESS_REBEL_DISTRACT_CHECKPOINT\"]/choice[1]/event/choice[@req=\"human_mfk\"]/event/text"
 msgstr ""
 "당신의 MFK가 불시 점검을 시작하여 모든 반군의 주의를 돌립니다. MFK는 센서 근처에 반군이 서지 않도록 유의하며 시간을 끌었습니다."
 " 당신은 가족들의 탈출이 끝난 후 MFK에게 신호를 보냈고, MFK는 검문소에 합격 판정을 준 후 함선으로 돌아왔습니다."
 
-#: src-en/data/events_sector_rebel.xml:1924
+#: src-en/data/events_sector_rebel.xml:1971
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"DISTRESS_REBEL_DISTRACT_CHECKPOINT\"]/choice[1]/event/choice[@req=\"human_mfk\"]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_sector_rebel.xml:1930
+#: src-en/data/events_sector_rebel.xml:1977
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"DISTRESS_REBEL_DISTRACT_CHECKPOINT\"]/choice[1]/event/choice[@req=\"human_technician\"]/text"
 msgstr "(기술자 선원) 시스템을 업그레이드해 주러 왔다고 한다."
 
-#: src-en/data/events_sector_rebel.xml:1932
+#: src-en/data/events_sector_rebel.xml:1979
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"DISTRESS_REBEL_DISTRACT_CHECKPOINT\"]/choice[1]/event/choice[@req=\"human_technician\"]/event/text"
 msgstr ""
 "기술자가 정거장에 오릅니다. 반군들은 웬트워스 사유지 직원의 등장에 어리둥절해하며 승선을 허락했습니다. 기술자는 정거장의 전원을 끄고 "
 "\"최첨단\"이라는 설명과 함께 업그레이드하는 척하면서 화려하지만 불필요한 기능을 설치했습니다. 반군은 전혀 의심하지 않습니다."
 
-#: src-en/data/events_sector_rebel.xml:1934
+#: src-en/data/events_sector_rebel.xml:1981
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"DISTRESS_REBEL_DISTRACT_CHECKPOINT\"]/choice[1]/event/choice[@req=\"human_technician\"]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_sector_rebel.xml:1940
+#: src-en/data/events_sector_rebel.xml:1987
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"DISTRESS_REBEL_DISTRACT_CHECKPOINT\"]/choice[1]/event/choice[4]/text"
 msgstr "공격한다."
 
-#: src-en/data/events_sector_rebel.xml:1942
+#: src-en/data/events_sector_rebel.xml:1989
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"DISTRESS_REBEL_DISTRACT_CHECKPOINT\"]/choice[1]/event/choice[4]/event/text"
 msgstr "당신은 검문소를 완전히 파괴하는 것이 더 쉬운 해결책이라고 판단합니다."
 
-#: src-en/data/events_sector_rebel.xml:1945
+#: src-en/data/events_sector_rebel.xml:1992
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"DISTRESS_REBEL_DISTRACT_CHECKPOINT\"]/choice[1]/event/choice[4]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_sector_rebel.xml:1953
+#: src-en/data/events_sector_rebel.xml:2000
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"DISTRESS_REBEL_DISTRACT_CHECKPOINT\"]/choice[2]/text"
 msgstr "도울 수 없다."
 
-#: src-en/data/events_sector_rebel.xml:1955
+#: src-en/data/events_sector_rebel.xml:2002
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"DISTRESS_REBEL_DISTRACT_CHECKPOINT\"]/choice[2]/event/text"
 msgstr "\"그럼 다른 방법을 찾아야겠네요.\" 협회 함선은 다시 숨었습니다."
 
-#: src-en/data/events_sector_rebel.xml:1957
+#: src-en/data/events_sector_rebel.xml:2004
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"DISTRESS_REBEL_DISTRACT_CHECKPOINT\"]/choice[2]/event/choice[1]/text"
 msgstr "함선에서 무언가를 한다."
 
-#: src-en/data/events_sector_rebel.xml:1961
+#: src-en/data/events_sector_rebel.xml:2008
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"DISTRESS_REBEL_DISTRACT_CHECKPOINT\"]/choice[2]/event/choice[2]/text"
 msgstr "아무것도 하지 않는다."
 
-#: src-en/data/events_sector_rebel.xml:1968
+#: src-en/data/events_sector_rebel.xml:2015
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_UNION_DISTRACT_CHECKPOINT_AFTERMATH\"]/text"
 msgstr ""
 "\"주의를 분산시켜 주셔서 감사합니다. 덕분에 가족을 구할 수 있었어요. 지금부터는 저희 힘으로 고향으로 돌아갈 수 있을 거예요.\" "
 "그들은 보상을 건넨 후 도약해 떠났습니다."
 
-#: src-en/data/events_sector_rebel.xml:1974
+#: src-en/data/events_sector_rebel.xml:2021
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"DISTRESS_REBEL_DEPOT_PROBLEM\"]/text"
 msgstr ""
 "반군 군수품 창고에서 구조 신호가 나오고 있습니다. \"이 창고는 너를 위한 것이 아니다! 당장 사라지지 않으면 원군을 부르겠다!\""
 
-#: src-en/data/events_sector_rebel.xml:1976
+#: src-en/data/events_sector_rebel.xml:2023
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"DISTRESS_REBEL_DEPOT_PROBLEM\"]/choice[1]/text"
 msgstr "이미 구조 요청을 보내고 있지 않았습니까?"
 
-#: src-en/data/events_sector_rebel.xml:1978
+#: src-en/data/events_sector_rebel.xml:2025
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"DISTRESS_REBEL_DEPOT_PROBLEM\"]/choice[1]/event/text"
 msgstr ""
@@ -2735,137 +2782,137 @@ msgstr ""
 "사라졌어. 결국 우리는 지금 간신히 버티는 상황이야. 굶어 죽고 싶진 않아. 혹시 너희가 도와준다면, 어떤 식으로든 뭔가 합의점을 찾을 "
 "수 있지 않을까?\""
 
-#: src-en/data/events_sector_rebel.xml:1980
+#: src-en/data/events_sector_rebel.xml:2027
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"DISTRESS_REBEL_DEPOT_PROBLEM\"]/choice[1]/event/choice[@req=\"LIST_CREW_ENGINEER\"]/text"
 msgstr "(공병 선원) 공병에게 수리를 맡긴다."
 
-#: src-en/data/events_sector_rebel.xml:1982
+#: src-en/data/events_sector_rebel.xml:2029
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"DISTRESS_REBEL_DEPOT_PROBLEM\"]/choice[1]/event/choice[@req=\"LIST_CREW_ENGINEER\"]/event/text"
 msgstr ""
 "그들은 동료 인간을 보고 안도하는 것 같습니다. 공병은 곧 문제가 뭔지 알아냈습니다. 당연히도 군수 창고에는 필요한 부품이 없었지만, "
 "다행히도 당신의 함선에 여분이 있었습니다. 냉장 시설이 고쳐졌습니다."
 
-#: src-en/data/events_sector_rebel.xml:1984
+#: src-en/data/events_sector_rebel.xml:2031
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"DISTRESS_REBEL_DEPOT_PROBLEM\"]/choice[1]/event/choice[@req=\"LIST_CREW_ENGINEER\"]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_sector_rebel.xml:1990
+#: src-en/data/events_sector_rebel.xml:2037
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"DISTRESS_REBEL_DEPOT_PROBLEM\"]/choice[1]/event/choice[@req=\"LIST_CREW_ENGI\"]/text"
 msgstr "(엔지 선원) 엔지에게 수리를 맡긴다."
 
-#: src-en/data/events_sector_rebel.xml:1992
+#: src-en/data/events_sector_rebel.xml:2039
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"DISTRESS_REBEL_DEPOT_PROBLEM\"]/choice[1]/event/choice[@req=\"LIST_CREW_ENGI\"]/event/text"
 msgstr ""
 "그들은 외계인이 문제를 해결해 주려고 한다는 사실에 경계하는 듯합니다. 엔지는 곧 문제가 뭔지 알아냈습니다. 당연히도 군수 창고에는 "
 "필요한 부품이 없었지만, 다행히도 당신의 함선에 여분이 있었습니다. 냉장 시설이 고쳐졌습니다."
 
-#: src-en/data/events_sector_rebel.xml:1994
+#: src-en/data/events_sector_rebel.xml:2041
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"DISTRESS_REBEL_DEPOT_PROBLEM\"]/choice[1]/event/choice[@req=\"LIST_CREW_ENGI\"]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_sector_rebel.xml:2000
+#: src-en/data/events_sector_rebel.xml:2047
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"DISTRESS_REBEL_DEPOT_PROBLEM\"]/choice[1]/event/choice[@req=\"DRONE_CONTROL_REPAIR_ALL\"]/text"
 msgstr "(수리 드론) 수리 드론을 사용한다."
 
-#: src-en/data/events_sector_rebel.xml:2002
+#: src-en/data/events_sector_rebel.xml:2049
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"DISTRESS_REBEL_DEPOT_PROBLEM\"]/choice[1]/event/choice[@req=\"DRONE_CONTROL_REPAIR_ALL\"]/event/text"
 msgstr ""
 "그들은 수리 기능이 있는 드론을 보고 안도하는 것 같습니다. 드론은 곧 문제가 뭔지 인식했습니다. 당연히도 군수 창고에는 필요한 부품이 "
 "없었지만, 다행히도 당신의 함선에 여분이 있었습니다. 냉장 시설이 고쳐졌습니다."
 
-#: src-en/data/events_sector_rebel.xml:2004
+#: src-en/data/events_sector_rebel.xml:2051
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"DISTRESS_REBEL_DEPOT_PROBLEM\"]/choice[1]/event/choice[@req=\"DRONE_CONTROL_REPAIR_ALL\"]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_sector_rebel.xml:2010
+#: src-en/data/events_sector_rebel.xml:2057
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"DISTRESS_REBEL_DEPOT_PROBLEM\"]/choice[1]/event/choice[4]/text"
 msgstr "창고를 탈취한다."
 
-#: src-en/data/events_sector_rebel.xml:2012
+#: src-en/data/events_sector_rebel.xml:2059
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"DISTRESS_REBEL_DEPOT_PROBLEM\"]/choice[1]/event/choice[4]/event/text"
 msgstr ""
 "당신이 창고에 정박하자 반군은 필사적으로 사람을 보내 당신을 공격합니다. 하지만 인원 부족으로 오히려 저장고의 보안은 취약해져 당신의 "
 "선원이 손쉽게 저장고를 점령했습니다."
 
-#: src-en/data/events_sector_rebel.xml:2018
+#: src-en/data/events_sector_rebel.xml:2065
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"DISTRESS_REBEL_DEPOT_PROBLEM\"]/choice[1]/event/choice[4]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_sector_rebel.xml:2020
+#: src-en/data/events_sector_rebel.xml:2067
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"DISTRESS_REBEL_DEPOT_PROBLEM\"]/choice[1]/event/choice[4]/event/choice/event/text"
 msgstr "창고 안에서 잔여 미사일 무기도 발견했습니다."
 
-#: src-en/data/events_sector_rebel.xml:2027
+#: src-en/data/events_sector_rebel.xml:2074
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"DISTRESS_REBEL_DEPOT_PROBLEM\"]/choice[1]/event/choice[5]/text"
 msgstr "창고를 파괴한다."
 
-#: src-en/data/events_sector_rebel.xml:2029
+#: src-en/data/events_sector_rebel.xml:2076
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"DISTRESS_REBEL_DEPOT_PROBLEM\"]/choice[1]/event/choice[5]/event/text"
 msgstr ""
 "창고를 멀쩡한 채로 약탈하는 것도 좋겠지만, 반군이 사용하지 못하도록 하는 것이 더 좋습니다. 어쩌면 이로써 함대의 속도를 늦출 수 "
 "있을지도 모르죠. 당신은 창고의 잔해에서 챙길 수 있는 모든 것을 가져옵니다."
 
-#: src-en/data/events_sector_rebel.xml:2035
+#: src-en/data/events_sector_rebel.xml:2082
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"DISTRESS_REBEL_DEPOT_PROBLEM\"]/choice[1]/event/choice[6]/text"
 msgstr "우리가 할 수 있는 건 없다."
 
-#: src-en/data/events_sector_rebel.xml:2037
+#: src-en/data/events_sector_rebel.xml:2084
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"DISTRESS_REBEL_DEPOT_PROBLEM\"]/choice[1]/event/choice[6]/event/text"
 msgstr "반군들은 짜증이 난 듯합니다. 함대에 당신의 위치를 알릴 방법을 찾을 것 같네요."
 
-#: src-en/data/events_sector_rebel.xml:2040
+#: src-en/data/events_sector_rebel.xml:2087
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"DISTRESS_REBEL_DEPOT_PROBLEM\"]/choice[1]/event/choice[6]/event/choice[1]/text"
 msgstr "함선에서 무언가를 한다."
 
-#: src-en/data/events_sector_rebel.xml:2044
+#: src-en/data/events_sector_rebel.xml:2091
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"DISTRESS_REBEL_DEPOT_PROBLEM\"]/choice[1]/event/choice[6]/event/choice[2]/text"
 msgstr "아무것도 하지 않는다."
 
-#: src-en/data/events_sector_rebel.xml:2052
+#: src-en/data/events_sector_rebel.xml:2099
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"DISTRESS_REBEL_DEPOT_PROBLEM\"]/choice[2]/text"
 msgstr "당장 사라진다."
 
-#: src-en/data/events_sector_rebel.xml:2054
+#: src-en/data/events_sector_rebel.xml:2101
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"DISTRESS_REBEL_DEPOT_PROBLEM\"]/choice[2]/event/text"
 msgstr "당신은 창고에 신경 쓰지 않기로 합니다."
 
-#: src-en/data/events_sector_rebel.xml:2056
+#: src-en/data/events_sector_rebel.xml:2103
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"DISTRESS_REBEL_DEPOT_PROBLEM\"]/choice[2]/event/choice[1]/text"
 msgstr "함선에서 무언가를 한다."
 
-#: src-en/data/events_sector_rebel.xml:2060
+#: src-en/data/events_sector_rebel.xml:2107
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"DISTRESS_REBEL_DEPOT_PROBLEM\"]/choice[2]/event/choice[2]/text"
 msgstr "아무것도 하지 않는다."
 
-#: src-en/data/events_sector_rebel.xml:2067
+#: src-en/data/events_sector_rebel.xml:2114
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"DISTRESS_REBEL_DEPOT_PROBLEM_SOLVED\"]/text"
 msgstr "\"이제 보상을 원하겠지? 그 함선의 강력한 무장을 보면 선택의 여지가 없군. 미사일을 좀 주겠다. 다시는 이곳에 오지 마.\""
 
-#: src-en/data/events_sector_rebel.xml:2083
+#: src-en/data/events_sector_rebel.xml:2130
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"DISTRESS_REBELHOLD_POW\"]/text"
 msgstr ""
@@ -2873,45 +2920,45 @@ msgstr ""
 "\"포로수용소에서 탈출함. 빠른 구조 필요.\" 행성 궤도에선 한 MFK가 포로를 찾고 있습니다. 현재 행성 수색이라는 본연의 임무에만 "
 "집중하고 있는 것 같습니다."
 
-#: src-en/data/events_sector_rebel.xml:2086
+#: src-en/data/events_sector_rebel.xml:2133
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"DISTRESS_REBELHOLD_POW\"]/choice[1]/text"
 msgstr "MFK를 공격한다."
 
-#: src-en/data/events_sector_rebel.xml:2088
+#: src-en/data/events_sector_rebel.xml:2135
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"DISTRESS_REBELHOLD_POW\"]/choice[1]/event/text"
 msgstr ""
 "그들은 당신을 알아차리자 즉시 목표로 삼습니다. \"이런, 이런, 이런. 잠재적인 포로를 더 찾은 것 같군. 탈출한 녀석은 잠시 "
 "미뤄두자.\""
 
-#: src-en/data/events_sector_rebel.xml:2091
+#: src-en/data/events_sector_rebel.xml:2138
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"DISTRESS_REBELHOLD_POW\"]/choice[1]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_sector_rebel.xml:2097
+#: src-en/data/events_sector_rebel.xml:2144
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"DISTRESS_REBELHOLD_POW\"]/choice[2]/text"
 msgstr "수색에 집중하는 사이 빠져나간다."
 
-#: src-en/data/events_sector_rebel.xml:2099
+#: src-en/data/events_sector_rebel.xml:2146
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"DISTRESS_REBELHOLD_POW\"]/choice[2]/event/text"
 msgstr ""
 "MFK의 센서는 행성에 꽉 붙들려 있습니다. 이런 경우는 자주 오지 않습니다. 그들이 당신을 알아채기 전에 후퇴해야 합니다. 안타깝게도 "
 "탈출을 준비하는 동안에는 아무것도 할 시간이 없습니다."
 
-#: src-en/data/events_sector_rebel.xml:2104
+#: src-en/data/events_sector_rebel.xml:2151
 msgid "data/events_sector_rebel.xml$//event[@name=\"REBEL_SELITE_POW\"]/text"
 msgstr "MFK 엘리트는 강했지만, 당신을 이길 수는 없었습니다. 그들의 함선에서 상당한 양의 전리품이 나왔습니다."
 
-#: src-en/data/events_sector_rebel.xml:2107
+#: src-en/data/events_sector_rebel.xml:2154
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_SELITE_POW\"]/choice[@req=\"sensors\"]/text"
 msgstr "(고급 센서) 포로를 탐색한다."
 
-#: src-en/data/events_sector_rebel.xml:2109
+#: src-en/data/events_sector_rebel.xml:2156
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_SELITE_POW\"]/choice[@req=\"sensors\"]/event/text"
 msgstr ""
@@ -2919,12 +2966,12 @@ msgstr ""
 "보고 연방이 구하러 왔음을 알아챘습니다. 선원들이 탈출한 포로를 환영합니다. \"구출될 가능성이 매우 낮다는 건 알고 있었지만, 과거에도"
 " 배회자가 이렇게 깊숙이 반군의 우주에 침투한 적이 있었죠. 저도 당신의 선원으로 합류하게 해주세요.\""
 
-#: src-en/data/events_sector_rebel.xml:2115
+#: src-en/data/events_sector_rebel.xml:2162
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_SELITE_POW\"]/choice[@req=\"LIFE_SCANNER\"]/text"
 msgstr "(생체 스캐너) 포로를 탐색한다."
 
-#: src-en/data/events_sector_rebel.xml:2117
+#: src-en/data/events_sector_rebel.xml:2164
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_SELITE_POW\"]/choice[@req=\"LIFE_SCANNER\"]/event/text"
 msgstr ""
@@ -2932,12 +2979,12 @@ msgstr ""
 "연방이 구하러 왔음을 알아챘습니다. 선원들이 탈출한 포로를 환영합니다. \"구출될 가능성이 매우 낮다는 건 알고 있었지만, 과거에도 "
 "배회자가 이렇게 깊숙이 반군의 우주에 침투한 적이 있었죠. 저도 당신의 선원으로 합류하게 해주세요.\""
 
-#: src-en/data/events_sector_rebel.xml:2123
+#: src-en/data/events_sector_rebel.xml:2170
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_SELITE_POW\"]/choice[@req=\"LIST_CREW_SLUG\"]/text"
 msgstr "(슬러그 선원) 포로의 기척을 따라간다."
 
-#: src-en/data/events_sector_rebel.xml:2125
+#: src-en/data/events_sector_rebel.xml:2172
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_SELITE_POW\"]/choice[@req=\"LIST_CREW_SLUG\"]/event/text"
 msgstr ""
@@ -2945,12 +2992,12 @@ msgstr ""
 " 연방이 구하러 왔음을 알아챘습니다. 선원들이 탈출한 포로를 환영합니다. \"구출될 가능성이 매우 낮다는 건 알고 있었지만, 과거에도 "
 "배회자가 이렇게 깊숙이 반군의 우주에 침투한 적이 있었죠. 저도 당신의 선원으로 합류하게 해주세요.\""
 
-#: src-en/data/events_sector_rebel.xml:2130
+#: src-en/data/events_sector_rebel.xml:2177
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_SELITE_POW\"]/choice[@req=\"BLUELIST_CREW_SNAIL\"]/text"
 msgstr "(진화적 재분기점) 포로의 기척을 따라간다."
 
-#: src-en/data/events_sector_rebel.xml:2132
+#: src-en/data/events_sector_rebel.xml:2179
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_SELITE_POW\"]/choice[@req=\"BLUELIST_CREW_SNAIL\"]/event/text"
 msgstr ""
@@ -2958,12 +3005,12 @@ msgstr ""
 "연방이 구하러 왔음을 알아챘습니다. 선원들이 탈출한 포로를 환영합니다. \"구출될 가능성이 매우 낮다는 건 알고 있었지만, 과거에도 "
 "배회자가 이렇게 깊숙이 반군의 우주에 침투한 적이 있었죠. 저도 당신의 선원으로 합류하게 해주세요.\""
 
-#: src-en/data/events_sector_rebel.xml:2137
+#: src-en/data/events_sector_rebel.xml:2184
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_SELITE_POW\"]/choice[5]/text"
 msgstr "수색대를 파견해 시간을 들여 포로를 찾는다."
 
-#: src-en/data/events_sector_rebel.xml:2139
+#: src-en/data/events_sector_rebel.xml:2186
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_SELITE_POW\"]/choice[5]/event/text"
 msgstr ""
@@ -2971,40 +3018,40 @@ msgstr ""
 "깨닫고 직접 존재를 드러냈습니다. 함선에 올라탄 포로는 안도의 한숨을 내쉽니다. \"구출될 가능성이 매우 낮다는 건 알고 있었지만, "
 "과거에도 배회자가 이렇게 깊숙이 반군의 우주에 침투한 적이 있었죠. 저도 당신의 선원으로 합류하게 해주세요.\""
 
-#: src-en/data/events_sector_rebel.xml:2146
+#: src-en/data/events_sector_rebel.xml:2193
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_SELITE_POW\"]/choice[6]/text"
 msgstr "이 장소를 떠난다."
 
-#: src-en/data/events_sector_rebel.xml:2163
+#: src-en/data/events_sector_rebel.xml:2210
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_CONSTRUCTION_CREW\"]/text"
 msgstr ""
 "송신소에 들어서자 한 반군 함선 주변에 여러 척의 건설선이 모여 있는 것이 보입니다. 저들은 민간인이므로, 가까이 다가가면 정보를 엿들을"
 " 수 있을지도 모릅니다."
 
-#: src-en/data/events_sector_rebel.xml:2165
+#: src-en/data/events_sector_rebel.xml:2212
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_CONSTRUCTION_CREW\"]/choice[1]/text"
 msgstr "가까이 다가간다."
 
-#: src-en/data/events_sector_rebel.xml:2167
+#: src-en/data/events_sector_rebel.xml:2214
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_CONSTRUCTION_CREW\"]/choice[1]/event/text"
 msgstr "어느 정도 가까이 다가가자, 반군 함선이 방송을 멈추고 당신을 공격하기 시작합니다!"
 
-#: src-en/data/events_sector_rebel.xml:2170
+#: src-en/data/events_sector_rebel.xml:2217
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_CONSTRUCTION_CREW\"]/choice[1]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_sector_rebel.xml:2176
+#: src-en/data/events_sector_rebel.xml:2223
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_CONSTRUCTION_CREW\"]/choice[@req=\"mind\""
 " and @lvl=\"2\"]/text"
 msgstr "(고급 정신 지배 장비) 모임이 끝날 때까지 기다렸다가 건설선 중 한 척을 잡아 정보를 뜯어낸다."
 
-#: src-en/data/events_sector_rebel.xml:2178
+#: src-en/data/events_sector_rebel.xml:2225
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_CONSTRUCTION_CREW\"]/choice[@req=\"mind\""
 " and @lvl=\"2\"]/event/text"
@@ -3012,37 +3059,37 @@ msgstr ""
 "당신은 건설선 한 척을 붙잡았습니다. 정신 지배 장치가 윙윙거리며 작동하기 시작하자, 상대측 선장이 친구처럼 대답합니다. \"아, 우리는"
 " 이 구역의 신설 반군 우주 정거장의 마감 작업을 하러 가고 있어. 들러보고 싶으면 이 좌표로 와!\""
 
-#: src-en/data/events_sector_rebel.xml:2181
+#: src-en/data/events_sector_rebel.xml:2228
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_CONSTRUCTION_CREW\"]/choice[@req=\"mind\""
 " and @lvl=\"2\"]/event/choice[1]/text"
 msgstr "반군이 눈치채기 전에 떠난다."
 
-#: src-en/data/events_sector_rebel.xml:2185
+#: src-en/data/events_sector_rebel.xml:2232
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_CONSTRUCTION_CREW\"]/choice[@req=\"mind\""
 " and @lvl=\"2\"]/event/choice[2]/text"
 msgstr "떠나기 전에 반군을 공격한다."
 
-#: src-en/data/events_sector_rebel.xml:2187
+#: src-en/data/events_sector_rebel.xml:2234
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_CONSTRUCTION_CREW\"]/choice[@req=\"mind\""
 " and @lvl=\"2\"]/event/choice[2]/event/text"
 msgstr "반군은 당신이 여기 있는 줄도 모르다가 발견하자마자 공격하러 다가옵니다!"
 
-#: src-en/data/events_sector_rebel.xml:2190
+#: src-en/data/events_sector_rebel.xml:2237
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_CONSTRUCTION_CREW\"]/choice[@req=\"mind\""
 " and @lvl=\"2\"]/event/choice[2]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_sector_rebel.xml:2198
+#: src-en/data/events_sector_rebel.xml:2245
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_CONSTRUCTION_CREW\"]/choice[@req=\"mind\""
 " and @lvl=\"1\"]/text"
 msgstr "(정신 지배 장비) 모임이 끝날 때까지 기다렸다가 건설선 중 한 척을 잡아 정보를 뜯어내 본다."
 
-#: src-en/data/events_sector_rebel.xml:2200
+#: src-en/data/events_sector_rebel.xml:2247
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_CONSTRUCTION_CREW\"]/choice[@req=\"mind\""
 " and @lvl=\"1\"]/event/text"
@@ -3051,19 +3098,51 @@ msgstr ""
 " 우리... 도와... 거어어언설... 우주... 정거장.\" 안타깝게도 충분한 정보를 알아내기 전에 반군 함선이 당신을 눈치채고 "
 "다가옵니다!"
 
-#: src-en/data/events_sector_rebel.xml:2203
+#: src-en/data/events_sector_rebel.xml:2250
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_CONSTRUCTION_CREW\"]/choice[@req=\"mind\""
 " and @lvl=\"1\"]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_sector_rebel.xml:2209
+#: src-en/data/events_sector_rebel.xml:2256
+msgid ""
+"data/events_sector_rebel.xml$//event[@name=\"REBEL_CONSTRUCTION_CREW\"]/choice[@req=\"BLUELIST_WEAPONS_MIND_CONTROL\"]/text"
+msgstr "(고급 정신 지배 장비) 모임이 끝날 때까지 기다렸다가 건설선 중 한 척을 잡아 정보를 뜯어낸다."
+
+#: src-en/data/events_sector_rebel.xml:2258
+msgid ""
+"data/events_sector_rebel.xml$//event[@name=\"REBEL_CONSTRUCTION_CREW\"]/choice[@req=\"BLUELIST_WEAPONS_MIND_CONTROL\"]/event/text"
+msgstr ""
+"당신은 건설선 한 척을 붙잡았습니다. 정신 지배 장치가 윙윙거리며 작동하기 시작하자, 상대측 선장이 친구처럼 대답합니다. \"아, 우리는"
+" 이 구역의 신설 반군 우주 정거장의 마감 작업을 하러 가고 있어. 들러보고 싶으면 이 좌표로 와!\""
+
+#: src-en/data/events_sector_rebel.xml:2261
+msgid ""
+"data/events_sector_rebel.xml$//event[@name=\"REBEL_CONSTRUCTION_CREW\"]/choice[@req=\"BLUELIST_WEAPONS_MIND_CONTROL\"]/event/choice[1]/text"
+msgstr "반군이 눈치채기 전에 떠난다."
+
+#: src-en/data/events_sector_rebel.xml:2265
+msgid ""
+"data/events_sector_rebel.xml$//event[@name=\"REBEL_CONSTRUCTION_CREW\"]/choice[@req=\"BLUELIST_WEAPONS_MIND_CONTROL\"]/event/choice[2]/text"
+msgstr "떠나기 전에 반군을 공격한다."
+
+#: src-en/data/events_sector_rebel.xml:2267
+msgid ""
+"data/events_sector_rebel.xml$//event[@name=\"REBEL_CONSTRUCTION_CREW\"]/choice[@req=\"BLUELIST_WEAPONS_MIND_CONTROL\"]/event/choice[2]/event/text"
+msgstr "반군은 당신이 여기 있는 줄도 모르다가 발견하자마자 공격하러 다가옵니다!"
+
+#: src-en/data/events_sector_rebel.xml:2270
+msgid ""
+"data/events_sector_rebel.xml$//event[@name=\"REBEL_CONSTRUCTION_CREW\"]/choice[@req=\"BLUELIST_WEAPONS_MIND_CONTROL\"]/event/choice[2]/event/choice/text"
+msgstr "계속..."
+
+#: src-en/data/events_sector_rebel.xml:2278
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_CONSTRUCTION_CREW\"]/choice[@req=\"cloaking\""
 " and @lvl=\"2\"]/text"
 msgstr "(고급 은폐장) 모임에 몰래 섞여 든다."
 
-#: src-en/data/events_sector_rebel.xml:2211
+#: src-en/data/events_sector_rebel.xml:2280
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_CONSTRUCTION_CREW\"]/choice[@req=\"cloaking\""
 " and @lvl=\"2\"]/event/text"
@@ -3072,37 +3151,37 @@ msgstr ""
 "예정인 모양입니다. 당신은 대화를 엿들으면서 건설 중인 우주 정거장의 방향을 파악했습니다. 모임이 끝나자 건설선들이 송신소로 다가와 "
 "도약하기 시작합니다. 반군 함선은 움직이지 않고 그 자리를 지키고 있습니다."
 
-#: src-en/data/events_sector_rebel.xml:2214
+#: src-en/data/events_sector_rebel.xml:2283
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_CONSTRUCTION_CREW\"]/choice[@req=\"cloaking\""
 " and @lvl=\"2\"]/event/choice[1]/text"
 msgstr "반군이 눈치채기 전에 떠난다."
 
-#: src-en/data/events_sector_rebel.xml:2218
+#: src-en/data/events_sector_rebel.xml:2287
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_CONSTRUCTION_CREW\"]/choice[@req=\"cloaking\""
 " and @lvl=\"2\"]/event/choice[2]/text"
 msgstr "떠나기 전에 반군을 공격한다."
 
-#: src-en/data/events_sector_rebel.xml:2220
+#: src-en/data/events_sector_rebel.xml:2289
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_CONSTRUCTION_CREW\"]/choice[@req=\"cloaking\""
 " and @lvl=\"2\"]/event/choice[2]/event/text"
 msgstr "당신은 뒤에서 몰래 은신을 풀고 반군을 기습합니다. 그들은 방심하고 있었지만, 재빨리 반격을 준비합니다!"
 
-#: src-en/data/events_sector_rebel.xml:2223
+#: src-en/data/events_sector_rebel.xml:2292
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_CONSTRUCTION_CREW\"]/choice[@req=\"cloaking\""
 " and @lvl=\"2\"]/event/choice[2]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_sector_rebel.xml:2231
+#: src-en/data/events_sector_rebel.xml:2300
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_CONSTRUCTION_CREW\"]/choice[@req=\"cloaking\""
 " and @lvl=\"1\"]/text"
 msgstr "(은폐장) 모임에 몰래 섞여 들어본다."
 
-#: src-en/data/events_sector_rebel.xml:2233
+#: src-en/data/events_sector_rebel.xml:2302
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_CONSTRUCTION_CREW\"]/choice[@req=\"cloaking\""
 " and @lvl=\"1\"]/event/text"
@@ -3110,39 +3189,39 @@ msgstr ""
 "당신은 반군 함선에 다가가 방송에 귀 기울입니다. 신설 반군 우주 정거장이 거의 완공됐다고 합니다! 하지만 안타깝게도, 충분한 정보를 "
 "얻기 전에 은폐가 풀려버렸습니다! 반군은 당신을 눈치채자 즉시 공격합니다."
 
-#: src-en/data/events_sector_rebel.xml:2236
+#: src-en/data/events_sector_rebel.xml:2305
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_CONSTRUCTION_CREW\"]/choice[@req=\"cloaking\""
 " and @lvl=\"1\"]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_sector_rebel.xml:2242
+#: src-en/data/events_sector_rebel.xml:2311
 msgid ""
-"data/events_sector_rebel.xml$//event[@name=\"REBEL_CONSTRUCTION_CREW\"]/choice[6]/text"
+"data/events_sector_rebel.xml$//event[@name=\"REBEL_CONSTRUCTION_CREW\"]/choice[7]/text"
 msgstr "들키지 않도록 거리를 유지한다."
 
-#: src-en/data/events_sector_rebel.xml:2244
+#: src-en/data/events_sector_rebel.xml:2313
 msgid ""
-"data/events_sector_rebel.xml$//event[@name=\"REBEL_CONSTRUCTION_CREW\"]/choice[6]/event/text"
+"data/events_sector_rebel.xml$//event[@name=\"REBEL_CONSTRUCTION_CREW\"]/choice[7]/event/text"
 msgstr ""
 "당신은 그들과 거리를 유지했고, 따라서 그들의 움직임을 모니터링할 수도 없습니다. 그래도 다른 작업을 할만한 여유는 생겼습니다."
 
-#: src-en/data/events_sector_rebel.xml:2246
+#: src-en/data/events_sector_rebel.xml:2315
 msgid ""
-"data/events_sector_rebel.xml$//event[@name=\"REBEL_CONSTRUCTION_CREW\"]/choice[6]/event/choice[1]/text"
+"data/events_sector_rebel.xml$//event[@name=\"REBEL_CONSTRUCTION_CREW\"]/choice[7]/event/choice[1]/text"
 msgstr "함선에서 무언가를 한다."
 
-#: src-en/data/events_sector_rebel.xml:2250
+#: src-en/data/events_sector_rebel.xml:2319
 msgid ""
-"data/events_sector_rebel.xml$//event[@name=\"REBEL_CONSTRUCTION_CREW\"]/choice[6]/event/choice[2]/text"
+"data/events_sector_rebel.xml$//event[@name=\"REBEL_CONSTRUCTION_CREW\"]/choice[7]/event/choice[2]/text"
 msgstr "아무것도 하지 않는다."
 
-#: src-en/data/events_sector_rebel.xml:2261
+#: src-en/data/events_sector_rebel.xml:2330
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"QUEST_REBEL_INCOMPLETE_DOCK\"]/beaconType/unvisitedTooltip"
 msgstr "이곳에서 반군 우주 정거장이 건설되고 있습니다."
 
-#: src-en/data/events_sector_rebel.xml:2263
+#: src-en/data/events_sector_rebel.xml:2332
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"QUEST_REBEL_INCOMPLETE_DOCK\"]/text"
 msgstr ""
@@ -3150,46 +3229,46 @@ msgstr ""
 " 무너뜨릴 수 있을 것 같습니다. 하지만 가까이 다가가자 엘리트 반군이 길을 막습니다. \"우리 인프라를 해치고 싶나? 이 앞으로는 못 "
 "지나간다!\""
 
-#: src-en/data/events_sector_rebel.xml:2266
+#: src-en/data/events_sector_rebel.xml:2335
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"QUEST_REBEL_INCOMPLETE_DOCK\"]/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_sector_rebel.xml:2271
+#: src-en/data/events_sector_rebel.xml:2340
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_DOCK_GUARD_DEFEATED\"]/text"
 msgstr ""
 "반군들이 비명을 지르며 당신의 손에 숨을 거둡니다. 엘리트 함선은 정거장을 지키기 위해 좋은 장비를 갖추고 있었지만, 충분하지는 "
 "않았군요."
 
-#: src-en/data/events_sector_rebel.xml:2274
+#: src-en/data/events_sector_rebel.xml:2343
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_DOCK_GUARD_DEFEATED\"]/choice/text"
 msgstr "건설 중인 정거장에 계속 다가간다."
 
-#: src-en/data/events_sector_rebel.xml:2276
+#: src-en/data/events_sector_rebel.xml:2345
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_DOCK_GUARD_DEFEATED\"]/choice/event/text"
 msgstr "건설선들은 도주하기 시작합니다. 지금이 정거장을 무너뜨릴 기회입니다."
 
-#: src-en/data/events_sector_rebel.xml:2278
+#: src-en/data/events_sector_rebel.xml:2347
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_DOCK_GUARD_DEFEATED\"]/choice/event/choice[@req=\"weapons\"]/text"
 msgstr "(고급 무기 관제실) 고급 무기 시스템으로 총공격한다."
 
-#: src-en/data/events_sector_rebel.xml:2280
+#: src-en/data/events_sector_rebel.xml:2349
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_DOCK_GUARD_DEFEATED\"]/choice/event/choice[@req=\"weapons\"]/event/text"
 msgstr ""
 "당신은 강력한 무기 시스템으로 정거장의 구조물을 공격합니다. 아직 마감이 덜 된 구조물이 찌그러지면서 떨어져 나가기 시작합니다. 결국 "
 "정거장의 상당 부분이 난장판으로 변했습니다. 이 상태에서도 피해를 복구할 수 있을지 모르지만, 큰 피해를 준 건 확실합니다."
 
-#: src-en/data/events_sector_rebel.xml:2286
+#: src-en/data/events_sector_rebel.xml:2355
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_DOCK_GUARD_DEFEATED\"]/choice/event/choice[@req=\"BLUELIST_WEAPONS_HEAVY\"]/text"
 msgstr "(중형 무기) 중형 무기로 가장 취약한 부분을 쏜다."
 
-#: src-en/data/events_sector_rebel.xml:2288
+#: src-en/data/events_sector_rebel.xml:2357
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_DOCK_GUARD_DEFEATED\"]/choice/event/choice[@req=\"BLUELIST_WEAPONS_HEAVY\"]/event/text"
 msgstr ""
@@ -3197,46 +3276,46 @@ msgstr ""
 " 무너져 내리게 했습니다. 마지막으로 한 발 더 잘 조준해 쏘자, 폭발과 함께 온갖 구조물이 밖으로 퍼져나갔습니다. 저들은 한동안 흩어진"
 " 구조물을 전혀 활용하지 못하겠지만, 당신은 좀 다르죠."
 
-#: src-en/data/events_sector_rebel.xml:2294
+#: src-en/data/events_sector_rebel.xml:2363
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_DOCK_GUARD_DEFEATED\"]/choice/event/choice[3]/text"
 msgstr "반군이 돌아왔을 때를 위해 주요 지역에 폭발물을 설치한다."
 
-#: src-en/data/events_sector_rebel.xml:2296
+#: src-en/data/events_sector_rebel.xml:2365
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_DOCK_GUARD_DEFEATED\"]/choice/event/choice[3]/event/text"
 msgstr ""
 "당신은 중요한 지점에 폭발물을 숨겨, 반군이 돌아와 당신의 작품을 발견하면 폭발에 휘말리게끔 해뒀습니다. 이 계획대로면 정거장 자체를 "
 "뜯어갈 수는 없으므로, 당신은 건설선들이 두고 간 자재만 주워 모은 후 떠납니다."
 
-#: src-en/data/events_sector_rebel.xml:2302
+#: src-en/data/events_sector_rebel.xml:2371
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_DOCK_GUARD_DEFEATED\"]/choice/event/choice[3]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_sector_rebel.xml:2310
+#: src-en/data/events_sector_rebel.xml:2379
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_DOCK_GUARD_DEFEATED\"]/choice/event/choice[4]/text"
 msgstr "정거장을 파괴하지 않고 떠난다."
 
-#: src-en/data/events_sector_rebel.xml:2312
+#: src-en/data/events_sector_rebel.xml:2381
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_DOCK_GUARD_DEFEATED\"]/choice/event/choice[4]/event/text"
 msgstr "이미 걱정거리가 충분히 많습니다. 당신은 더 이상의 간섭 없이 계속 나아갑니다."
 
-#: src-en/data/events_sector_rebel.xml:2325
+#: src-en/data/events_sector_rebel.xml:2394
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_COLONY_PRISONBREAK\"]/text"
 msgstr ""
 "저 멀리 작은 피해를 입은 정착지가 보입니다. 한때 반군의 통제하에 있었던 것이 주민들이 반란을 일으켜 해방된 듯합니다. 당신은 "
 "식민지로부터 긴급한 교신을 받았습니다."
 
-#: src-en/data/events_sector_rebel.xml:2327
+#: src-en/data/events_sector_rebel.xml:2396
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_COLONY_PRISONBREAK\"]/choice[1]/text"
 msgstr "응답한다."
 
-#: src-en/data/events_sector_rebel.xml:2329
+#: src-en/data/events_sector_rebel.xml:2398
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_COLONY_PRISONBREAK\"]/choice[1]/event/text"
 msgstr ""
@@ -3245,388 +3324,386 @@ msgstr ""
 "그들을 구할 인력이 없지만, 당신은 할 수 있지 않습니까? 딱 수감선만 막아주시면 됩니다. 놈들이 이곳을 떠나기 전에 추적 신호기를 "
 "설치해 뒀으니, 수감선을 찾는 것은 어렵지 않을 겁니다.\""
 
-#: src-en/data/events_sector_rebel.xml:2331
+#: src-en/data/events_sector_rebel.xml:2400
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_COLONY_PRISONBREAK\"]/choice[1]/event/choice[1]/text"
 msgstr "수감선을 추적하는 데 동의한다."
 
-#: src-en/data/events_sector_rebel.xml:2333
+#: src-en/data/events_sector_rebel.xml:2402
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_COLONY_PRISONBREAK\"]/choice[1]/event/choice[1]/event/text"
 msgstr "\"오 감사합니다. 연방이라면 도와줄 거라 믿고 있었습니다!\""
 
-#: src-en/data/events_sector_rebel.xml:2338
+#: src-en/data/events_sector_rebel.xml:2407
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_COLONY_PRISONBREAK\"]/choice[1]/event/choice[2]/text"
 msgstr "우리의 주 임무를 놔두고 위험을 감수할 순 없습니다."
 
-#: src-en/data/events_sector_rebel.xml:2344
+#: src-en/data/events_sector_rebel.xml:2413
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_COLONY_PRISONBREAK\"]/choice[2]/text"
 msgstr "식민지를 피한다."
 
-#: src-en/data/events_sector_rebel.xml:2346
+#: src-en/data/events_sector_rebel.xml:2415
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_COLONY_PRISONBREAK\"]/choice[2]/event/text"
 msgstr ""
 "반군의 영토 내에서 반군에게 저항한 것을 보면 저곳에 들른다고 문제 될 일은 없겠지만, 당신은 거주지 주민들과 약간도 교류할 시간이 "
 "없습니다."
 
-#: src-en/data/events_sector_rebel.xml:2348
+#: src-en/data/events_sector_rebel.xml:2417
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_COLONY_PRISONBREAK\"]/choice[2]/event/choice[1]/text"
 msgstr "함선에서 무언가를 한다."
 
-#: src-en/data/events_sector_rebel.xml:2352
+#: src-en/data/events_sector_rebel.xml:2421
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_COLONY_PRISONBREAK\"]/choice[2]/event/choice[2]/text"
 msgstr "아무것도 하지 않는다."
 
-#: src-en/data/events_sector_rebel.xml:2361
+#: src-en/data/events_sector_rebel.xml:2430
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"QUEST_REBEL_COLONY_PRISONBREAK_JAILER\"]/beaconType/unvisitedTooltip"
 msgstr "연방에 충성하는 주민들을 잡아간 반군 수감선의 위치입니다."
 
-#: src-en/data/events_sector_rebel.xml:2363
+#: src-en/data/events_sector_rebel.xml:2432
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"QUEST_REBEL_COLONY_PRISONBREAK_JAILER\"]/text"
 msgstr ""
 "수감선을 찾아냈습니다. 그들은 이미 FTL 드라이브를 충전하고 있습니다. 그들이 탈출하기 전에 쓰러뜨려야 합니다. 그리고 그 과정에서 "
 "수감선을 파괴하지 않기를 바랍니다."
 
-#: src-en/data/events_sector_rebel.xml:2366
+#: src-en/data/events_sector_rebel.xml:2435
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"QUEST_REBEL_COLONY_PRISONBREAK_JAILER\"]/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_sector_rebel.xml:2371
+#: src-en/data/events_sector_rebel.xml:2440
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_COLONY_PRISONBREAK_JAILER_SURRENDER\"]/text"
 msgstr ""
 "파손된 수감선이 교신을 보냅니다. \"너-너는 식민지의 부탁을 받고 왔지? 좋아, 죄수들은 데려가 돼. 그냥 우릴 살려만 줘...\""
 
-#: src-en/data/events_sector_rebel.xml:2373
+#: src-en/data/events_sector_rebel.xml:2442
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_COLONY_PRISONBREAK_JAILER_SURRENDER\"]/choice[1]/text"
 msgstr "그들의 제안을 따른다."
 
-#: src-en/data/events_sector_rebel.xml:2375
+#: src-en/data/events_sector_rebel.xml:2444
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_COLONY_PRISONBREAK_JAILER_SURRENDER\"]/choice[1]/event/text"
 msgstr ""
 "주민들은 당신의 도움에 감사하고 있습니다. 그러나 주거지로 돌아갈 시간은 없기에, 당신은 그들이 다른 도와줄 사람을 찾을 수 있도록 "
 "가까운 정거장에 내려주고 상당한 보수를 받았습니다."
 
-#: src-en/data/events_sector_rebel.xml:2381
+#: src-en/data/events_sector_rebel.xml:2450
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_COLONY_PRISONBREAK_JAILER_SURRENDER\"]/choice[2]/text"
 msgstr "부탁 따윈 집어치워라. 우린 반군 놈들을 죽인다."
 
-#: src-en/data/events_sector_rebel.xml:2386
+#: src-en/data/events_sector_rebel.xml:2455
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"DESTROYED_REBEL_PRISONBREAK\"]/text"
 msgstr ""
 "당신은 수감선을 파괴했습니다. 의심의 여지 없이 주민들도 전부 죽었을 것입니다. 이제 주거지에서 보상을 주지는 않을 테니 수감선의 잔해로"
 " 만족해야 합니다."
 
-#: src-en/data/events_sector_rebel.xml:2390
+#: src-en/data/events_sector_rebel.xml:2459
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"DEAD_CREW_REBEL_PRISONBREAK\"]/text"
 msgstr "모든 반군을 제거한 덕분에 먼저 수감선의 외벽을 긁어모은 후 포로를 확인하러 갈 수 있었습니다."
 
-#: src-en/data/events_sector_rebel.xml:2393
+#: src-en/data/events_sector_rebel.xml:2462
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"DEAD_CREW_REBEL_PRISONBREAK\"]/choice/text"
 msgstr "주민들을 확인한다."
 
-#: src-en/data/events_sector_rebel.xml:2395
+#: src-en/data/events_sector_rebel.xml:2464
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"DEAD_CREW_REBEL_PRISONBREAK\"]/choice/event/text"
 msgstr ""
 "주민들은 당신의 도움에 감사하고 있습니다. 그러나 주거지로 돌아갈 시간은 없기에, 당신은 그들이 다른 도와줄 사람을 찾을 수 있도록 "
 "가까운 정거장에 내려주고 상당한 보수를 받았습니다."
 
-#: src-en/data/events_sector_rebel.xml:2401
+#: src-en/data/events_sector_rebel.xml:2470
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_COLONY_PRISONBREAK_GOTAWAY\"]/text"
 msgstr ""
 "수감선이 도약해버렸습니다. 그들은 분명 당신보다 먼저 수감 시설에 도착할 것입니다. 그렇다고 모든 희망이 사라진 것은 아닙니다. 여전히 "
 "선박의 위치를 추적할 수 있으니, 어쩌면 포로가 수감되기 전에 격파할 수도 있습니다."
 
-#: src-en/data/events_sector_rebel.xml:2408
+#: src-en/data/events_sector_rebel.xml:2477
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"QUEST_REBEL_COLONY_PRISONBREAK_FINAL\"]/beaconType/unvisitedTooltip"
 msgstr "연방에 충성하는 주민들을 잡아간 반군 수감선의 위치입니다."
 
-#: src-en/data/events_sector_rebel.xml:2410
+#: src-en/data/events_sector_rebel.xml:2479
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"QUEST_REBEL_COLONY_PRISONBREAK_FINAL\"]/text"
 msgstr ""
 "당신은 수감선을 다시 한 번 추적했지만, 그들은 이미 훨씬 더 강력한 MFK 에이스 함선으로 갈아탄 상태였습니다. 쉽지 않은 싸움이 될 "
 "것이고, 항복을 기대할 수도 없을 것입니다. 주민들을 해방시키려면 반드시 놈들의 선원을 죽여야 합니다."
 
-#: src-en/data/events_sector_rebel.xml:2414
+#: src-en/data/events_sector_rebel.xml:2483
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"QUEST_REBEL_COLONY_PRISONBREAK_FINAL\"]/choice[1]/text"
 msgstr "주민들을 구출한다."
 
-#: src-en/data/events_sector_rebel.xml:2416
+#: src-en/data/events_sector_rebel.xml:2485
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"QUEST_REBEL_COLONY_PRISONBREAK_FINAL\"]/choice[1]/event/text"
 msgstr "반군은 물러설 기세가 전혀 없습니다. 수감 시설이 ASB 위성을 작동시켜 당신을 향해 발포하기 시작합니다."
 
-#: src-en/data/events_sector_rebel.xml:2420
+#: src-en/data/events_sector_rebel.xml:2489
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"QUEST_REBEL_COLONY_PRISONBREAK_FINAL\"]/choice[1]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_sector_rebel.xml:2426
+#: src-en/data/events_sector_rebel.xml:2495
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"QUEST_REBEL_COLONY_PRISONBREAK_FINAL\"]/choice[2]/text"
 msgstr "이건 너무 위험하다. 떠나자."
 
-#: src-en/data/events_sector_rebel.xml:2431
+#: src-en/data/events_sector_rebel.xml:2500
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_COLONY_PRISONBREAK_FINAL_DEADCREW\"]/text"
 msgstr "모든 반군을 제거한 덕분에 먼저 수감선의 외벽을 긁어모은 후 포로를 확인하러 갈 수 있었습니다."
 
-#: src-en/data/events_sector_rebel.xml:2434
+#: src-en/data/events_sector_rebel.xml:2503
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_COLONY_PRISONBREAK_FINAL_DEADCREW\"]/choice/text"
 msgstr "주민들을 확인한다."
 
-#: src-en/data/events_sector_rebel.xml:2436
+#: src-en/data/events_sector_rebel.xml:2505
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_COLONY_PRISONBREAK_FINAL_DEADCREW\"]/choice/event/text"
 msgstr ""
 "지금 바로 모든 주민을 한 번에 식민지로 수송하는 것은 매우 위험합니다. 주민 한 명은 당신과 함께하기로 결심했고, 나머지는 MFK "
 "에이스 함선이 아직 멀쩡하니 그것을 훔쳐서 달아나자는 대에 동의했습니다. 물론 당신은 보수도 받았습니다."
 
-#: src-en/data/events_sector_rebel.xml:2443
+#: src-en/data/events_sector_rebel.xml:2512
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_COLONY_PRISONBREAK_FINAL_DESTROYED\"]/text"
 msgstr ""
 "당신은 MFK 에이스를 파괴했습니다. 분명 주민들도 모두 죽었겠지요. 이제 보수는 받을 수 없을 테니 적함의 잔해를 회수하는 것에 "
 "만족해야 합니다. 그리고 ASB가 당신을 파괴하기 전에 빨리 떠나야 합니다."
 
-#: src-en/data/events_sector_rebel.xml:2472
+#: src-en/data/events_sector_rebel.xml:2541
 msgid ""
 "data/events_sector_rebel.xml$/FTL/event[@name=\"ENCOUNTER_REBEL_REGULAR\"]/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_sector_rebel.xml:2477
+#: src-en/data/events_sector_rebel.xml:2546
 msgid ""
 "data/events_sector_rebel.xml$//textList[@name=\"TEXT_ENCOUNTER_REBEL\"]/text[1]"
-msgstr ""
-"스크린에 반군이 나타나 긴 종이를 펼쳤습니다. 그는 안경을 쓰고 적혀진 내용을 읽습니다. \"너를 위해 시 한 편을 써봤어. 에헴, "
-"죽어라.\""
+msgstr "스크린에 반군이 나타나 긴 종이를 펼쳤습니다. 그는 안경을 쓰고 적혀진 내용을 읽습니다. \"너를 위해 시 한 편을 써봤어. 에헴, 죽어라.\""
 
-#: src-en/data/events_sector_rebel.xml:2478
+#: src-en/data/events_sector_rebel.xml:2547
 msgid ""
 "data/events_sector_rebel.xml$//textList[@name=\"TEXT_ENCOUNTER_REBEL\"]/text[2]"
 msgstr "메시지를 받았습니다. \"드디어 네놈을 찾았군. 죽을 준비나 해라!\""
 
-#: src-en/data/events_sector_rebel.xml:2479
+#: src-en/data/events_sector_rebel.xml:2548
 msgid ""
 "data/events_sector_rebel.xml$//textList[@name=\"TEXT_ENCOUNTER_REBEL\"]/text[3]"
 msgstr "소형 반군 함선이 작은 정거장에 정박해 있습니다. 은밀히 지나가려 했지만 적이 당신을 발견했습니다. 전투 준비!"
 
-#: src-en/data/events_sector_rebel.xml:2480
+#: src-en/data/events_sector_rebel.xml:2549
 msgid ""
 "data/events_sector_rebel.xml$//textList[@name=\"TEXT_ENCOUNTER_REBEL\"]/text[4]"
 msgstr "반군 함선이 이 지역을 순찰하고 있었습니다. 그들은 당신이 도착하자마자 공격을 시작합니다."
 
-#: src-en/data/events_sector_rebel.xml:2481
+#: src-en/data/events_sector_rebel.xml:2550
 msgid ""
 "data/events_sector_rebel.xml$//textList[@name=\"TEXT_ENCOUNTER_REBEL\"]/text[5]"
 msgstr "반군 함선이 메시지를 보냈습니다. \"쓰레기 같은 연방 놈! 이때만을 기다리고 있었다!\""
 
-#: src-en/data/events_sector_rebel.xml:2482
+#: src-en/data/events_sector_rebel.xml:2551
 msgid ""
 "data/events_sector_rebel.xml$//textList[@name=\"TEXT_ENCOUNTER_REBEL\"]/text[6]"
 msgstr "당신은 통신을 받았습니다. \"죄송합니다. 개인적 원한은 없지만 명령에 따라야 합니다.\" 반군 함선의 무기가 예열되고 있습니다."
 
-#: src-en/data/events_sector_rebel.xml:2483
+#: src-en/data/events_sector_rebel.xml:2552
 msgid ""
 "data/events_sector_rebel.xml$//textList[@name=\"TEXT_ENCOUNTER_REBEL\"]/text[7]"
 msgstr "반군 함선이 송신소 뒤에 있다는 것을 발견했을 땐 싸움을 피하기엔 너무 늦었습니다."
 
-#: src-en/data/events_sector_rebel.xml:2484
+#: src-en/data/events_sector_rebel.xml:2553
 msgid ""
 "data/events_sector_rebel.xml$//textList[@name=\"TEXT_ENCOUNTER_REBEL\"]/text[8]"
 msgstr ""
 "반군이 메시지를 보내옵니다. \"우린 더 나은 은하를 향한 일념 하에 전쟁을 치뤘다! 고작 연방 함선 한 척이 그 꿈을 깨트리게 놔 둘 "
 "수는 없지!\" 적이 당신을 향해 무기를 조준합니다."
 
-#: src-en/data/events_sector_rebel.xml:2485
+#: src-en/data/events_sector_rebel.xml:2554
 msgid ""
 "data/events_sector_rebel.xml$//textList[@name=\"TEXT_ENCOUNTER_REBEL\"]/text[9]"
 msgstr ""
 "반군 함선이 조심스레 다가왔습니다. 적 함장이 말합니다. \"개인적으로 전 연방에 머물고 싶었습니다. 하지만 전 군인입니다. 싸울 수 "
 "있는 전쟁이 없다면 아무 짝에도 쓸모가 없는 존재란 말입니다. 방어막을 활성화 하시지요!\""
 
-#: src-en/data/events_sector_rebel.xml:2486
+#: src-en/data/events_sector_rebel.xml:2555
 msgid ""
 "data/events_sector_rebel.xml$//textList[@name=\"TEXT_ENCOUNTER_REBEL\"]/text[10]"
 msgstr ""
 "반군 함선의 메시지를 받았습니다. \"우리의 항전이 끝나는 날, 모두가 더 안전한 세상을 볼 수 있을 거다. 아 참, 네놈은 볼 수 "
 "없을테지만. 무슨 말인지 알지?\" 적이 무기를 겨눴습니다."
 
-#: src-en/data/events_sector_rebel.xml:2487
+#: src-en/data/events_sector_rebel.xml:2556
 msgid ""
 "data/events_sector_rebel.xml$//textList[@name=\"TEXT_ENCOUNTER_REBEL\"]/text[11]"
 msgstr ""
 "반군 전투기에서 교신이 왔습니다. \"내가 반에서 수석으로 졸업했다는 거 알아? 정말이지 너같은 놈ㅎ-\" 당신은 통신을 끊고 전투 "
 "준비합니다."
 
-#: src-en/data/events_sector_rebel.xml:2488
+#: src-en/data/events_sector_rebel.xml:2557
 msgid ""
 "data/events_sector_rebel.xml$//textList[@name=\"TEXT_ENCOUNTER_REBEL\"]/text[12]"
 msgstr "당신은 반군의 함선과 거의 동시에 도착했습니다. 누가 더 놀랐는지는 모르겠지만, 싸울 수밖에 없다는 건 알겠군요."
 
-#: src-en/data/events_sector_rebel.xml:2489
+#: src-en/data/events_sector_rebel.xml:2558
 msgid ""
 "data/events_sector_rebel.xml$//textList[@name=\"TEXT_ENCOUNTER_REBEL\"]/text[13]"
 msgstr "\"반군에 영광 있으라!\" 반군 함선이 당신을 빠르게 지나가며 공격했습니다. 방어 위치로!"
 
-#: src-en/data/events_sector_rebel.xml:2498
+#: src-en/data/events_sector_rebel.xml:2567
 msgid ""
 "data/events_sector_rebel.xml$/FTL/event[@name=\"ENCOUNTER_REBEL_PULSAR\"]/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_sector_rebel.xml:2503
+#: src-en/data/events_sector_rebel.xml:2572
 msgid ""
 "data/events_sector_rebel.xml$//textList[@name=\"TEXT_ENCOUNTER_REBEL_PULSAR\"]/text[1]"
 msgstr ""
 "반군 함장이 화면에 나타났습니다. \"난 우리가 격오지에 배치될 팔자가 되버렸다 생각했지. 이번이야 말로 사령부의 총우를 다시 받을 "
 "기회다! 함포를 장전하라!\""
 
-#: src-en/data/events_sector_rebel.xml:2504
+#: src-en/data/events_sector_rebel.xml:2573
 msgid ""
 "data/events_sector_rebel.xml$//textList[@name=\"TEXT_ENCOUNTER_REBEL_PULSAR\"]/text[2]"
 msgstr ""
 "작은 반군 연구 정거장이 맥동하는 항성을 내려다 보고 있습니다. 당신이 제대로 반응하기도 전에 반군 함선이 당신을 발견하고 공격하러 "
 "다가오고 있습니다."
 
-#: src-en/data/events_sector_rebel.xml:2505
+#: src-en/data/events_sector_rebel.xml:2574
 msgid ""
 "data/events_sector_rebel.xml$//textList[@name=\"TEXT_ENCOUNTER_REBEL_PULSAR\"]/text[3]"
 msgstr ""
 "당신은 펄서 부근의 왕래가 적은 송신소에 도착했습니다. 얼마 지나지 않아 반군의 함선 한 척이 근처로 도약해왔습니다. 아마도 싸워야 할 "
 "것 같군요."
 
-#: src-en/data/events_sector_rebel.xml:2509
+#: src-en/data/events_sector_rebel.xml:2578
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"ENCOUNTER_REBEL_ASTEROID\"]/text"
 msgstr ""
 "반군들은 보통 위험한 송신소를 피하기 위해 최선을 다하지만, 한 함대의 최전방 정찰기가 이 소행성대의 송신소에서 길을 잃은 것 같습니다."
 " 그들은 당신을 보자마자 공격을 시작합니다!"
 
-#: src-en/data/events_sector_rebel.xml:2513
+#: src-en/data/events_sector_rebel.xml:2582
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"ENCOUNTER_REBEL_ASTEROID\"]/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_sector_rebel.xml:2519
+#: src-en/data/events_sector_rebel.xml:2588
 msgid "data/events_sector_rebel.xml$//event[@name=\"ENCOUNTER_REBEL_SPY\"]/text"
 msgstr "반군 함대의 최전방 정찰선을 우연히 발견했습니다."
 
-#: src-en/data/events_sector_rebel.xml:2522
+#: src-en/data/events_sector_rebel.xml:2591
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"ENCOUNTER_REBEL_SPY\"]/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_sector_rebel.xml:2532
+#: src-en/data/events_sector_rebel.xml:2601
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"BOARDERS_REBEL_SHIP\"]/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_sector_rebel.xml:2537
+#: src-en/data/events_sector_rebel.xml:2606
 msgid ""
 "data/events_sector_rebel.xml$//textList[@name=\"BOARDERS_REBEL_SHIP\"]/text[1]"
 msgstr ""
 "인근 반군 정거장으로부터 통신을 받았습니다. \"우리 구역을 통과하려 들다니 배짱이 두둑한 건 인정하지. \" 그가 돌아서서 명령합니다."
 " \"선원만 전부 죽이도록. 저 함선을 흠집 없이 가지고 싶으니.\""
 
-#: src-en/data/events_sector_rebel.xml:2538
+#: src-en/data/events_sector_rebel.xml:2607
 msgid ""
 "data/events_sector_rebel.xml$//textList[@name=\"BOARDERS_REBEL_SHIP\"]/text[2]"
 msgstr ""
 "함내 센서가 반군 함선이 접근 중임을 알렸습니다. 게다가 적들이 순간이동 해오는 듯한 징조가 보입니다. 반군 함선으로부터 조롱하는 말이 "
 "들려옵니다. \"죽을 준비는 됐냐? 난 승진할 준비 됐는데 말이야!\""
 
-#: src-en/data/events_sector_rebel.xml:2539
+#: src-en/data/events_sector_rebel.xml:2608
 msgid ""
 "data/events_sector_rebel.xml$//textList[@name=\"BOARDERS_REBEL_SHIP\"]/text[3]"
 msgstr ""
 "메시지가 수신되었습니다. \"안녕하신가 함장.\" 장교 복장을 한 반군이 말합니다. \"알아서 이곳에 와주다니 참 너그러운 마음씨로군. "
 "강습당할 준비나 하게. 고분고분 따른다면 관용을 베풀어 주지.\""
 
-#: src-en/data/events_sector_rebel.xml:2540
+#: src-en/data/events_sector_rebel.xml:2609
 msgid ""
 "data/events_sector_rebel.xml$//textList[@name=\"BOARDERS_REBEL_SHIP\"]/text[4]"
 msgstr ""
 "저대역 주파수를 통해 메시지를 받았습니다. \"너는 포위됐다. 저번에 우리에게 당한 연방 놈들처럼 말이지. 순순히 죽기나 해!\" 반군이"
 " 당신의 함선으로 순간이동 해왔습니다!"
 
-#: src-en/data/events_sector_rebel.xml:2555
+#: src-en/data/events_sector_rebel.xml:2624
 msgid "data/events_sector_rebel.xml$//event[@name=\"ENCOUNTER_AUTO_ION\"]/text"
 msgstr ""
 "파란 불빛을 지닌 특이한 무인기가 소행성 지대에 모습을 드러냈습니다. \"이 무인기는 이온 저지 드론 시제품입니다. 장비 테스트에 참여해"
 " 주셔서 감사합니다.\""
 
-#: src-en/data/events_sector_rebel.xml:2559
+#: src-en/data/events_sector_rebel.xml:2628
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"ENCOUNTER_AUTO_ION\"]/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_sector_rebel.xml:2564
+#: src-en/data/events_sector_rebel.xml:2633
 msgid "data/events_sector_rebel.xml$//event[@name=\"AUTO_ION_WIN\"]/text"
 msgstr ""
 "\"테-테스트에 차-참가해 ㅈ-셔서 감사-하-하-하-하-.\" 폭발과 함께 메시지가 끊겼습니다. 무인기의 잔해 속에서 아직 작동하는 특수"
 " 이온 무기를 찾아냈습니다."
 
-#: src-en/data/events_sector_rebel.xml:2570
+#: src-en/data/events_sector_rebel.xml:2639
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"ENCOUNTER_REBELHOLD_STATION\"]/text"
 msgstr "반군 검문소에서 당신이 연방군임을 식별해냈습니다. \"여기 온 걸 후회하게 될 거다, 쓰레기 자식!\""
 
-#: src-en/data/events_sector_rebel.xml:2573
+#: src-en/data/events_sector_rebel.xml:2642
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"ENCOUNTER_REBELHOLD_STATION\"]/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_sector_rebel.xml:2585
+#: src-en/data/events_sector_rebel.xml:2654
 msgid "data/events_sector_rebel.xml$//event[@name=\"ENCOUNTER_REBEL_ELITE\"]/text"
 msgstr ""
 "반군 엘리트들은 보통 함대에서만 볼 수 있는데, 특이하게도 이 송신소는 엘리트 함선이 보호하고 있습니다. 싸움을 피할 순 없어 보입니다."
 
-#: src-en/data/events_sector_rebel.xml:2588
+#: src-en/data/events_sector_rebel.xml:2657
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"ENCOUNTER_REBEL_ELITE\"]/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_sector_rebel.xml:2595
+#: src-en/data/events_sector_rebel.xml:2664
 msgid ""
 "data/events_sector_rebel.xml$//ship[@name=\"SHIP_ACE_JERRY\"]/destroyed/text"
 msgstr "MFK 에이스가 파괴되었습니다. 당신은 서둘러 잔해를 인양하고 수송선을 확인했습니다."
 
-#: src-en/data/events_sector_rebel.xml:2598
+#: src-en/data/events_sector_rebel.xml:2667
 msgid ""
 "data/events_sector_rebel.xml$//ship[@name=\"SHIP_ACE_JERRY\"]/destroyed/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_sector_rebel.xml:2603
+#: src-en/data/events_sector_rebel.xml:2672
 msgid ""
 "data/events_sector_rebel.xml$//ship[@name=\"SHIP_ACE_JERRY\"]/deadCrew/text"
 msgstr "MFK 에이스가 쓰러졌습니다. 당신은 서둘러 잔해를 인양하고 수송선을 확인했습니다."
 
-#: src-en/data/events_sector_rebel.xml:2606
+#: src-en/data/events_sector_rebel.xml:2675
 msgid ""
 "data/events_sector_rebel.xml$//ship[@name=\"SHIP_ACE_JERRY\"]/deadCrew/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_sector_rebel.xml:2617
+#: src-en/data/events_sector_rebel.xml:2686
 msgid "data/events_sector_rebel.xml$//event[@name=\"JERRY_QUEST\"]/text"
 msgstr ""
 "MFK 에이스 함선이 수송선과 대화를 나누고 있습니다. 놀랍게도 주파수는 암호화되어 있지 않습니다. 하지만 이내 당신은 그들이 시답잖은 "
@@ -3634,13 +3711,13 @@ msgstr ""
 "선장에게 물었습니다. \"그래서, 보호령으로 향한다고 했나?\" 수송선 선장은 고개를 끄덕이며 담배를 입에서 꺼낸 후 간단하게 "
 "답했습니다. \"그으래\"."
 
-#: src-en/data/events_sector_rebel.xml:2621
+#: src-en/data/events_sector_rebel.xml:2690
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"JERRY_QUEST\"]/choice[@req=\"coords_jerry\""
 " and @lvl=\"0\"]/text"
 msgstr "\"보호령\"? 계속 들어본다..."
 
-#: src-en/data/events_sector_rebel.xml:2623
+#: src-en/data/events_sector_rebel.xml:2692
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"JERRY_QUEST\"]/choice[@req=\"coords_jerry\""
 " and @lvl=\"0\"]/event/text"
@@ -3650,13 +3727,13 @@ msgstr ""
 " 발라버리고 뒤뚱뒤뚱 걸으면서 벽에 크레파스로 말을 그리러 가더라니까. 그러고 어느 날 밴스가 돌아와서 걜 끌고 갔어. 무슨 일이 "
 "있었는진 모르겠지만, 듣기로는 밴스가 자기 조카를 지키기 위해 은퇴한 블랙 지휘관과 함께 보호령에 집어넣었다던데.\""
 
-#: src-en/data/events_sector_rebel.xml:2625
+#: src-en/data/events_sector_rebel.xml:2694
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"JERRY_QUEST\"]/choice[@req=\"coords_jerry\""
 " and @lvl=\"0\"]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_sector_rebel.xml:2627
+#: src-en/data/events_sector_rebel.xml:2696
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"JERRY_QUEST\"]/choice[@req=\"coords_jerry\""
 " and @lvl=\"0\"]/event/choice/event/text"
@@ -3666,13 +3743,13 @@ msgstr ""
 "본론으로 들어가지 그래?\" 에이스는 그의 말투에 언짢아하며 어깨를 으쓱했습니다. \"봐, 그냥 내가 원하는 건... 너도 알듯이 내부 "
 "정보지. 넌 하루 종일 그곳을 드나드니까 분명 뭔가 있을 거 아니야?\""
 
-#: src-en/data/events_sector_rebel.xml:2629
+#: src-en/data/events_sector_rebel.xml:2698
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"JERRY_QUEST\"]/choice[@req=\"coords_jerry\""
 " and @lvl=\"0\"]/event/choice/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_sector_rebel.xml:2631
+#: src-en/data/events_sector_rebel.xml:2700
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"JERRY_QUEST\"]/choice[@req=\"coords_jerry\""
 " and @lvl=\"0\"]/event/choice/event/choice/event/text"
@@ -3683,13 +3760,13 @@ msgstr ""
 "에이스는 자신조차 정보를 거부당했다는 사실에 분개했지만, 으르렁거리기만 할 뿐 수송선이 지나갈 수 있도록 길을 비켜주었습니다. 무언가 "
 "정보를 얻어내고 싶다면 지금이 기회입니다."
 
-#: src-en/data/events_sector_rebel.xml:2633
+#: src-en/data/events_sector_rebel.xml:2702
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"JERRY_QUEST\"]/choice[@req=\"coords_jerry\""
 " and @lvl=\"0\"]/event/choice/event/choice/event/choice[1]/text"
 msgstr "수송선을 쫓아간다!"
 
-#: src-en/data/events_sector_rebel.xml:2635
+#: src-en/data/events_sector_rebel.xml:2704
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"JERRY_QUEST\"]/choice[@req=\"coords_jerry\""
 " and @lvl=\"0\"]/event/choice/event/choice/event/choice[1]/event/text"
@@ -3697,26 +3774,26 @@ msgstr ""
 "당신이 기회를 틈타 그들 앞에 모습을 드러내자 수송선은 즉시 FTL 드라이브 충전을 시작했고 MFK 에이스는 무기를 충전하며 "
 "돌진해왔습니다. 서둘러야 합니다!"
 
-#: src-en/data/events_sector_rebel.xml:2640
+#: src-en/data/events_sector_rebel.xml:2709
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"JERRY_QUEST\"]/choice[@req=\"coords_jerry\""
 " and "
 "@lvl=\"0\"]/event/choice/event/choice/event/choice[1]/event/triggeredEvent/triggeredEventBox/tooltip"
 msgstr "시간 내에 MFK 에이스를 격파하지 못한다면, 수송선이 탈출해 버릴 겁니다!"
 
-#: src-en/data/events_sector_rebel.xml:2645
+#: src-en/data/events_sector_rebel.xml:2714
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"JERRY_QUEST\"]/choice[@req=\"coords_jerry\""
 " and @lvl=\"0\"]/event/choice/event/choice/event/choice[1]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_sector_rebel.xml:2651
+#: src-en/data/events_sector_rebel.xml:2720
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"JERRY_QUEST\"]/choice[@req=\"coords_jerry\""
 " and @lvl=\"0\"]/event/choice/event/choice/event/choice[2]/text"
 msgstr "정중하게 보호국의 좌표를 요청한다."
 
-#: src-en/data/events_sector_rebel.xml:2653
+#: src-en/data/events_sector_rebel.xml:2722
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"JERRY_QUEST\"]/choice[@req=\"coords_jerry\""
 " and @lvl=\"0\"]/event/choice/event/choice/event/choice[2]/event/text"
@@ -3724,195 +3801,325 @@ msgstr ""
 "반군 병사들은 당신을 빤히 쳐다봤습니다. 당신은 가망없는 희망을 갖고 기다렸지만, 예상했다시피 반군은 당신에게 정보를 줄 생각이 "
 "없었습니다. 수송선은 곧바로 FTL 드라이브 충전을 시작했고 MFK 에이스는 무기를 충전하면서 돌진해고 있습니다. 서둘러야 합니다!"
 
-#: src-en/data/events_sector_rebel.xml:2658
+#: src-en/data/events_sector_rebel.xml:2727
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"JERRY_QUEST\"]/choice[@req=\"coords_jerry\""
 " and "
 "@lvl=\"0\"]/event/choice/event/choice/event/choice[2]/event/triggeredEvent/triggeredEventBox/tooltip"
 msgstr "시간 내에 MFK 에이스를 격파하지 못한다면, 수송선이 탈출해 버릴 겁니다!"
 
-#: src-en/data/events_sector_rebel.xml:2663
+#: src-en/data/events_sector_rebel.xml:2732
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"JERRY_QUEST\"]/choice[@req=\"coords_jerry\""
 " and @lvl=\"0\"]/event/choice/event/choice/event/choice[2]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_sector_rebel.xml:2669
+#: src-en/data/events_sector_rebel.xml:2738
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"JERRY_QUEST\"]/choice[@req=\"coords_jerry\""
 " and @lvl=\"0\"]/event/choice/event/choice/event/choice[3]/text"
 msgstr "아무것도 하지 않는다."
 
-#: src-en/data/events_sector_rebel.xml:2679
+#: src-en/data/events_sector_rebel.xml:2748
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"JERRY_QUEST\"]/choice[@req=\"coords_jerry\""
 " and @lvl=\"1\"]/text"
 msgstr "이상한 데자뷰가 느껴진다. 전에도 들은 듯한 기분이다."
 
-#: src-en/data/events_sector_rebel.xml:2683
+#: src-en/data/events_sector_rebel.xml:2752
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"JERRY_QUEST\"]/choice[@req=\"pilot\"]/text"
 msgstr "반군을 무시한다."
 
-#: src-en/data/events_sector_rebel.xml:2685
+#: src-en/data/events_sector_rebel.xml:2754
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"JERRY_QUEST\"]/choice[@req=\"pilot\"]/event/text"
 msgstr "이 대화는 당신의 시간을 낭비할 가치가 없습니다. 당신은 반군과 거리를 두었습니다."
 
-#: src-en/data/events_sector_rebel.xml:2687
+#: src-en/data/events_sector_rebel.xml:2756
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"JERRY_QUEST\"]/choice[@req=\"pilot\"]/event/choice[1]/text"
 msgstr "함선에서 무언가를 한다."
 
-#: src-en/data/events_sector_rebel.xml:2691
+#: src-en/data/events_sector_rebel.xml:2760
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"JERRY_QUEST\"]/choice[@req=\"pilot\"]/event/choice[2]/text"
 msgstr "아무것도 하지 않는다."
 
-#: src-en/data/events_sector_rebel.xml:2698
+#: src-en/data/events_sector_rebel.xml:2767
 msgid "data/events_sector_rebel.xml$//event[@name=\"JERRY_QUEST_FAIL\"]/text"
 msgstr "늦은 듯 합니다. 수송선은 멀리서 탈출에 성공했고, 이를 안 에이스는 엘리트 답지 않은 비겁함을 드러내며 도망갔습니다."
 
-#: src-en/data/events_sector_rebel.xml:2703
+#: src-en/data/events_sector_rebel.xml:2772
 msgid "data/events_sector_rebel.xml$//event[@name=\"JERRY_QUEST_SUCCESS\"]/text"
 msgstr ""
 "수송선은 도망치기 위해 온갖 노력을 다했고, 당신은 그들을 맹렬히 추적했습니다. 불행히도, 그들은 간신히 빠져나갔습니다. 하지만 성과가 "
 "없는 것은 아닙니다. 추격 중에 그들의 FTL 좌표를 알아낼 수 있었습니다. 이제 한계속도 도약으로 그들을 추적할 수 있습니다!"
 
-#: src-en/data/events_sector_rebel.xml:2715
+#: src-en/data/events_sector_rebel.xml:2777
+msgid ""
+"data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_FLAGSHIP_SURPRISE\"]/text"
+msgstr "이것이 바로... 반군의 기함입니다. 이 거대한 흉물을 파괴하면 연방 함대는 살아남을 기회를 얻게 될 것입니다. 그런데 이상합니다. 이미 심하게 손상됐고, 항복한다는 신호를 송출하고 있으며, 지금 이곳은 노드 17도 아닙니다. 대체 무슨 일이 벌어지고 있는 걸까요?"
+
+#: src-en/data/events_sector_rebel.xml:2780
+msgid ""
+"data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_FLAGSHIP_SURPRISE\"]/choice[1]/text"
+msgstr "기함과 접촉해 보자. 분명히 무언가 잘못됐다."
+
+#: src-en/data/events_sector_rebel.xml:2782
+msgid ""
+"data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_FLAGSHIP_SURPRISE\"]/choice[1]/event/text"
+msgstr "기함의 선원들은 처음에는 당신의 존재에 겁에 질린 것처럼 보였지만, 겁먹은 사실을 숨기려는 듯 약간 더 공격적인 태도를 보였습니다. \"젠장, 아무래도 들켜버린 것 같군. 뭘 원하는 거야, 이 미친 배회자놈아? 스크랩? 우리의 두 번째 항복? 아무도 모르는 '비밀 엔딩'?\""
+
+#: src-en/data/events_sector_rebel.xml:2784
+msgid ""
+"data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_FLAGSHIP_SURPRISE\"]/choice[1]/event/choice/text"
+msgstr "두 번째 항복?"
+
+#: src-en/data/events_sector_rebel.xml:2786
+msgid ""
+"data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_FLAGSHIP_SURPRISE\"]/choice[1]/event/choice/event/text"
+msgstr "기함의 함장이 계속 얘기합니다. \"그래, 맞아. 우리가 점령하라고 명령받았던 그 현실에서, 우리를 처치하기 위해 제0 우주에서 보낸 배회자가 어떻게든 반군을 항복시키는 데 성공했어. 너희들이 어떤 짓으로 유명한지를 생각하면 인상적인 일이지. 우리한테도 그게 좋은 일이었어. 세 번 연속으로 죽임당하는 대신 명예롭게 퇴각할 수 있었으니까. 그런 다음, 제1 우주로 돌아가는 길에 어떤 기괴한 이상 현상을 만나서 여기로 날아온 거야. 그건 그렇고, 아직 네가 뭘 원하는지 말 안 했잖아. 그러니 빨리 말해.\""
+
+#: src-en/data/events_sector_rebel.xml:2788
+msgid ""
+"data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_FLAGSHIP_SURPRISE\"]/choice[1]/event/choice/event/choice[1]/text"
+msgstr "스크랩 더미."
+
+#: src-en/data/events_sector_rebel.xml:2790
+msgid ""
+"data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_FLAGSHIP_SURPRISE\"]/choice[1]/event/choice/event/choice[1]/event/text"
+msgstr "\"간단한 요구네. 여기 있어. 그리고 이 현실에 있는 네 연방 친구들이 우리가 여기 있다는 걸 모르게 해줘, 알겠지?\""
+
+#: src-en/data/events_sector_rebel.xml:2798
+msgid ""
+"data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_FLAGSHIP_SURPRISE\"]/choice[1]/event/choice/event/choice[2]/text"
+msgstr "그 기함에 달린 멋들어진 무기."
+
+#: src-en/data/events_sector_rebel.xml:2800
+msgid ""
+"data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_FLAGSHIP_SURPRISE\"]/choice[1]/event/choice/event/choice[2]/event/text"
+msgstr "\"오, 아, 저거? 우리가 출항하기 전에 제1 우주 쪽 사람들이 달아놓은 거야. 듣자 하니 \"새로운 일급비밀 무기\"인가 뭔가라고 하더군. 아쉽지만, 이걸 넘겨줄 수는 없어. 그랬다간 제1 우주의 사령부에서 우릴 죽일 테니까. 그 대신, 이건 어때?\""
+
+#: src-en/data/events_sector_rebel.xml:2802
+msgid ""
+"data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_FLAGSHIP_SURPRISE\"]/choice[1]/event/choice/event/choice[2]/event/choice[1]/text"
+msgstr "제안을 받아들인다."
+
+#: src-en/data/events_sector_rebel.xml:2804
+msgid ""
+"data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_FLAGSHIP_SURPRISE\"]/choice[1]/event/choice/event/choice[2]/event/choice[1]/event/text"
+msgstr "당신은 새로운 제안을 받아들였습니다. 그 후 그들은 도약해서 사라졌는데, 떠나기 전에 당신에게 그들의 존재를 비밀로 해달라고 간곡히 부탁했습니다."
+
+#: src-en/data/events_sector_rebel.xml:2810
+msgid ""
+"data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_FLAGSHIP_SURPRISE\"]/choice[1]/event/choice/event/choice[2]/event/choice[2]/text"
+msgstr "그들을 공격해 무기를 손에 넣는다."
+
+#: src-en/data/events_sector_rebel.xml:2812
+msgid ""
+"data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_FLAGSHIP_SURPRISE\"]/choice[1]/event/choice/event/choice[2]/event/choice[2]/event/text"
+msgstr "\"윽, 배회자를 상대로 협상을 하려 한 내가 바보지. 좋아, 네가 반드시 이 기함의 한 부분을 가져가야겠다면, 우리가 특별히 모든 부분을 다 맛보여주지!\""
+
+#: src-en/data/events_sector_rebel.xml:2815
+msgid ""
+"data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_FLAGSHIP_SURPRISE\"]/choice[1]/event/choice/event/choice[2]/event/choice[2]/event/choice/text"
+msgstr "계속..."
+
+#: src-en/data/events_sector_rebel.xml:2823
+msgid ""
+"data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_FLAGSHIP_SURPRISE\"]/choice[1]/event/choice/event/choice[3]/text"
+msgstr "이 구역에 체류할 약간의 여유."
+
+#: src-en/data/events_sector_rebel.xml:2825
+msgid ""
+"data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_FLAGSHIP_SURPRISE\"]/choice[1]/event/choice/event/choice[3]/event/text"
+msgstr "\"음, 우리 능력 내의 일이고, 아마 들킬 가능성도 거의 없을 테니, 함대를 다른 길로 이끌어서 도움을 줄 수 있을 것 같아. 그러니 연방의 누구도 우리가 여기 있었다는 걸 모르게 해줘, 알겠지?\""
+
+#: src-en/data/events_sector_rebel.xml:2835
+msgid ""
+"data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_FLAGSHIP_SURPRISE\"]/choice[2]/text"
+msgstr "공격받기 전에 달아난다."
+
+#: src-en/data/events_sector_rebel.xml:2837
+msgid ""
+"data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_FLAGSHIP_SURPRISE\"]/choice[2]/event/text"
+msgstr "당신은 기함이 갑자기 공격적으로 변할 경우에 대비해 충분한 거리를 뒀습니다. 다행히도 기함은 끝까지 전투를 시도하지 않았습니다. 이제 부족한 부분을 정비할 시간을 좀 갖게 되겠네요."
+
+#: src-en/data/events_sector_rebel.xml:2839
+msgid ""
+"data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_FLAGSHIP_SURPRISE\"]/choice[2]/event/choice[1]/text"
+msgstr "함선에서 무언가를 한다."
+
+#: src-en/data/events_sector_rebel.xml:2843
+msgid ""
+"data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_FLAGSHIP_SURPRISE\"]/choice[2]/event/choice[2]/text"
+msgstr "아무것도 하지 않는다."
+
+#: src-en/data/events_sector_rebel.xml:2851
+msgid ""
+"data/events_sector_rebel.xml$//ship[@name=\"FLAGSHIP_ANOMALY\"]/destroyed/text"
+msgstr "당신은 이 송신소에서 기함을 격파했습니다. 이 성과가 앞으로도 계속될 행운의 시작이기를 바랍니다."
+
+#: src-en/data/events_sector_rebel.xml:2854
+msgid ""
+"data/events_sector_rebel.xml$//ship[@name=\"FLAGSHIP_ANOMALY\"]/destroyed/choice/text"
+msgstr "계속..."
+
+#: src-en/data/events_sector_rebel.xml:2856
+msgid ""
+"data/events_sector_rebel.xml$//ship[@name=\"FLAGSHIP_ANOMALY\"]/destroyed/choice/event/text"
+msgstr "다행히도 당신이 관심을 가졌던 무기는 전투 중에 파괴되지 않았습니다. 당신은 파괴된 기함에서 조심스럽게 무기를 떼어냈습니다."
+
+#: src-en/data/events_sector_rebel.xml:2862
+msgid ""
+"data/events_sector_rebel.xml$//ship[@name=\"FLAGSHIP_ANOMALY\"]/deadCrew/text"
+msgstr "당신은 기함의 선원을 완전히 제거했습니다. 당연히 AI가 기함의 통제권을 장악할 줄 알았는데, 이 기함에는 그런 기능이 존재하지 않거나 아니면 제대로 작동하지 않은 것 같습니다. 한가히 물자를 챙길 수 있어서 좋네요."
+
+#: src-en/data/events_sector_rebel.xml:2865
+msgid ""
+"data/events_sector_rebel.xml$//ship[@name=\"FLAGSHIP_ANOMALY\"]/deadCrew/choice/text"
+msgstr "계속..."
+
+#: src-en/data/events_sector_rebel.xml:2867
+msgid ""
+"data/events_sector_rebel.xml$//ship[@name=\"FLAGSHIP_ANOMALY\"]/deadCrew/choice/event/text"
+msgstr "다행히도 당신이 관심을 가졌던 무기는 전투 중에 파괴되지 않았습니다. 당신은 파괴된 기함에서 조심스럽게 무기를 떼어냈습니다."
+
+#: src-en/data/events_sector_rebel.xml:2892
 msgid "data/events_sector_rebel.xml$//event[@name=\"FLAGSHIP_CONSTRUCTION\"]/text"
 msgstr ""
 "송신소에 도착한 당신은 주변을 가득 메운 비계와 건설 드론 그리고 거대한 반군 조선소를 발견했습니다! 행성계 하나가 통째로 선박 건조에 "
 "전념하고 있으며, 주변의 행성과 위성들은 엄청난 크기의 선박을 위한 자원 채취를 빌미로 무자비하게 채굴되고 있습니다..."
 
-#: src-en/data/events_sector_rebel.xml:2719
+#: src-en/data/events_sector_rebel.xml:2896
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"FLAGSHIP_CONSTRUCTION\"]/choice[1]/text"
 msgstr "조선소를 조사한다."
 
-#: src-en/data/events_sector_rebel.xml:2721
+#: src-en/data/events_sector_rebel.xml:2898
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"FLAGSHIP_CONSTRUCTION\"]/choice[1]/event/text"
 msgstr ""
 "당신은 거대한 격납고를 발견하고 행성 표면에 가까이 다가갔습니다. 저 안에 있는 함선은 분명 크기가 엄청날 겁니다. 변두리 주변으로 반군"
 " 함선 몇 척이 흩어져 순찰하고 있습니다. 아무나 하나 골라 싸우면 될 것 같습니다."
 
-#: src-en/data/events_sector_rebel.xml:2723
+#: src-en/data/events_sector_rebel.xml:2900
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"FLAGSHIP_CONSTRUCTION\"]/choice[1]/event/choice[1]/text"
 msgstr "격납고를 조사한다."
 
-#: src-en/data/events_sector_rebel.xml:2725
+#: src-en/data/events_sector_rebel.xml:2902
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"FLAGSHIP_CONSTRUCTION\"]/choice[1]/event/choice[1]/event/text"
 msgstr ""
 "격납고에 들어서니 그 안에 있던 광경에 경외감이 느껴집니다. 거대한 멀티버스 기함이 건조되고 있는 것입니다. 이걸 부순다면 다른 현실들을"
 " 구할 수 있을 겁니다!"
 
-#: src-en/data/events_sector_rebel.xml:2728
+#: src-en/data/events_sector_rebel.xml:2905
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"FLAGSHIP_CONSTRUCTION\"]/choice[1]/event/choice[1]/event/choice[1]/text"
 msgstr "기함과 싸운다."
 
-#: src-en/data/events_sector_rebel.xml:2730
+#: src-en/data/events_sector_rebel.xml:2907
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"FLAGSHIP_CONSTRUCTION\"]/choice[1]/event/choice[1]/event/choice[1]/event/text"
 msgstr ""
 "이 일은 당신의 주 임무만큼이나 중요합니다. 당신이 기함을 공격하기 위해 움직이자 기함 내부에 있던 건설 인부들은 신속히 대피했고 그 "
 "자리를 고도로 훈련된 인간 병사들이 차지했습니다."
 
-#: src-en/data/events_sector_rebel.xml:2733
+#: src-en/data/events_sector_rebel.xml:2910
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"FLAGSHIP_CONSTRUCTION\"]/choice[1]/event/choice[1]/event/choice[1]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_sector_rebel.xml:2739
+#: src-en/data/events_sector_rebel.xml:2916
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"FLAGSHIP_CONSTRUCTION\"]/choice[1]/event/choice[1]/event/choice[2]/text"
 msgstr "당장 이곳을 떠난다."
 
-#: src-en/data/events_sector_rebel.xml:2741
+#: src-en/data/events_sector_rebel.xml:2918
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"FLAGSHIP_CONSTRUCTION\"]/choice[1]/event/choice[1]/event/choice[2]/event/text"
 msgstr ""
 "이곳에서 나가야 합니다. 당신은 가능한 한 빨리 격납고를 떠나 위험에서 벗어났다는 확신이 들 때까지 조선소로부터 멀어졌습니다."
 
-#: src-en/data/events_sector_rebel.xml:2743
+#: src-en/data/events_sector_rebel.xml:2920
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"FLAGSHIP_CONSTRUCTION\"]/choice[1]/event/choice[1]/event/choice[2]/event/choice[1]/text"
 msgstr "함선에서 무언가를 한다."
 
-#: src-en/data/events_sector_rebel.xml:2747
+#: src-en/data/events_sector_rebel.xml:2924
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"FLAGSHIP_CONSTRUCTION\"]/choice[1]/event/choice[1]/event/choice[2]/event/choice[2]/text"
 msgstr "아무것도 하지 않는다."
 
-#: src-en/data/events_sector_rebel.xml:2755
+#: src-en/data/events_sector_rebel.xml:2932
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"FLAGSHIP_CONSTRUCTION\"]/choice[1]/event/choice[2]/text"
 msgstr "평범한 반군 함선과 싸운다."
 
-#: src-en/data/events_sector_rebel.xml:2757
+#: src-en/data/events_sector_rebel.xml:2934
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"FLAGSHIP_CONSTRUCTION\"]/choice[1]/event/choice[2]/event/text"
 msgstr "당신은 정규 반군 함선 중 하나를 요격하기 위해 움직입니다."
 
-#: src-en/data/events_sector_rebel.xml:2760
+#: src-en/data/events_sector_rebel.xml:2937
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"FLAGSHIP_CONSTRUCTION\"]/choice[1]/event/choice[2]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_sector_rebel.xml:2766
+#: src-en/data/events_sector_rebel.xml:2943
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"FLAGSHIP_CONSTRUCTION\"]/choice[1]/event/choice[3]/text"
 msgstr "엘리트 반군 함선과 싸운다."
 
-#: src-en/data/events_sector_rebel.xml:2768
+#: src-en/data/events_sector_rebel.xml:2945
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"FLAGSHIP_CONSTRUCTION\"]/choice[1]/event/choice[3]/event/text"
 msgstr "당신은 엘리트 반군 함선 중 하나를 요격하기 위해 움직입니다."
 
-#: src-en/data/events_sector_rebel.xml:2771
+#: src-en/data/events_sector_rebel.xml:2948
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"FLAGSHIP_CONSTRUCTION\"]/choice[1]/event/choice[3]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_sector_rebel.xml:2777
+#: src-en/data/events_sector_rebel.xml:2954
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"FLAGSHIP_CONSTRUCTION\"]/choice[1]/event/choice[4]/text"
 msgstr "MFK 에이스 반군 함선과 싸운다."
 
-#: src-en/data/events_sector_rebel.xml:2779
+#: src-en/data/events_sector_rebel.xml:2956
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"FLAGSHIP_CONSTRUCTION\"]/choice[1]/event/choice[4]/event/text"
 msgstr "당신은 MFK 반군 함선 중 하나를 요격하기 위해 움직입니다."
 
-#: src-en/data/events_sector_rebel.xml:2782
+#: src-en/data/events_sector_rebel.xml:2959
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"FLAGSHIP_CONSTRUCTION\"]/choice[1]/event/choice[4]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_sector_rebel.xml:2790
+#: src-en/data/events_sector_rebel.xml:2967
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"FLAGSHIP_CONSTRUCTION\"]/choice[2]/text"
 msgstr "즉시 떠난다."
 
-#: src-en/data/events_sector_rebel.xml:2792
+#: src-en/data/events_sector_rebel.xml:2969
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"FLAGSHIP_CONSTRUCTION\"]/choice[2]/event/text"
 msgstr "당신은 임무가 최우선 사항이며 이렇게 위험한 곳에 머무는 것은 너무 불안전하다고 느꼈습니다."
 
-#: src-en/data/events_sector_rebel.xml:2794
+#: src-en/data/events_sector_rebel.xml:2971
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"FLAGSHIP_CONSTRUCTION\"]/choice[2]/event/choice[1]/text"
 msgstr "함선에서 무언가를 한다."
 
-#: src-en/data/events_sector_rebel.xml:2798
+#: src-en/data/events_sector_rebel.xml:2975
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"FLAGSHIP_CONSTRUCTION\"]/choice[2]/event/choice[2]/text"
 msgstr "아무것도 하지 않는다."
 
-#: src-en/data/events_sector_rebel.xml:2805
+#: src-en/data/events_sector_rebel.xml:2982
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"FLAGSHIP_CONSTRUCTION_WIN\"]/text"
 msgstr ""
@@ -3921,35 +4128,35 @@ msgstr ""
 "얻었습니다! 당신은 지원군이 올까 주의하며 최대한 많은 것을 챙겨 떠났습니다. 함대는 이 손실을 메꾸는데 바빠 당신을 쫓아오지 못할 "
 "겁니다."
 
-#: src-en/data/events_sector_rebel.xml:2818
+#: src-en/data/events_sector_rebel.xml:2995
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"CONSTRUCTION_NORMAL_WIN\"]/text"
 msgstr ""
 "이 전투는 별로 힘겹지도 않았고 반군에게도 아무 영향을 미치지 않겠지만, 은하계를 공포에 떨게 할 반군 선원이 한 명이 줄었다는 점에서 "
 "의미가 있습니다. 당신은 지원군이 오기 전에 빠르게 스크랩을 수거했습니다."
 
-#: src-en/data/events_sector_rebel.xml:2822
+#: src-en/data/events_sector_rebel.xml:2999
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"CONSTRUCTION_ELITE_WIN\"]/text"
 msgstr ""
 "이 함선을 부순다고 반군이 큰 영향을 받진 않겠지만, 당신에게 투입될 엘리트 함선이 하나 줄어들었습니다. 당신은 지원군이 오기 전에 "
 "빠르게 스크랩을 수거했습니다."
 
-#: src-en/data/events_sector_rebel.xml:2826
+#: src-en/data/events_sector_rebel.xml:3003
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"CONSTRUCTION_SELITE_WIN\"]/text"
 msgstr ""
 "MFK 에이스는 수가 많지 않습니다. 따라서 그중 하나를 파괴하는 것은 반군의 정예군에 커다란 타격을 입힐 것입니다. 당신은 지원군이 "
 "오기 전에 빠르게 스크랩을 수거했고, 잔해를 뒤지던 중에 멀쩡히 작동하는 무기도 발견했습니다."
 
-#: src-en/data/events_sector_rebel.xml:2834
+#: src-en/data/events_sector_rebel.xml:3011
 msgid ""
 "data/events_sector_rebel.xml$//ship[@name=\"SHIP_FLASHSHIP_CONSTRUCTION\"]/deadCrew/text"
 msgstr ""
 "불완전한 기함에서 더 이상 생명 신호를 찾을 수 없습니다. 이 정도 크기의 기함이라면 더 많은 보안 조치를 취했을 줄 알았는데, 아직 "
 "인공지능 시스템은 완성되지 않았나 봅니다."
 
-#: src-en/data/events_sector_rebel.xml:2836
+#: src-en/data/events_sector_rebel.xml:3013
 msgid ""
 "data/events_sector_rebel.xml$//ship[@name=\"SHIP_FLASHSHIP_CONSTRUCTION\"]/deadCrew/choice/text"
 msgstr "보급품을 약탈한다."

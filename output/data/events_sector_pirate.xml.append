@@ -861,10 +861,9 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="event">
         <mod:findLike type="choice">
-          <mod:selector hidden="true"/>
           <mod:findLike type="text">
-            <mod:selector>Offer what supplies you can muster. [-10~, -2|]</mod:selector>
-            <mod:setValue>Offer what supplies you can muster. [-10~, -2|][INFO][NAME]damage[/NAME]Repair Hull(8$)[/INFO][INFO][NAME]itemModify[/NAME]~-10 |-2[/INFO]</mod:setValue>
+            <mod:selector>Offer what supplies you can muster.</mod:selector>
+            <mod:setValue>Offer what supplies you can muster.[INFO][NAME]damage[/NAME]Repair Hull(8$)[/INFO][INFO][NAME]itemModify[/NAME]~-10 |-2[/INFO]</mod:setValue>
           </mod:findLike>
         </mod:findLike>
       </mod:findLike>
@@ -930,6 +929,34 @@
                 <mod:setValue>Refuse.[INFO][NAME]damage[/NAME]Repair Hull(15$)[/INFO]</mod:setValue>
               </mod:findLike>
             </mod:findLike>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="BLACKMARKET_SICK_MARKET" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true" req="LIST_CREW_MEDICAL"/>
+          <mod:findLike type="text">
+            <mod:selector>(Medical Crew) Have your crew diagnose their condition.</mod:selector>
+            <mod:setValue>(Medical Crew) Have your crew diagnose their condition.[INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="BLACKMARKET_SICK_MARKET" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true" req="BLUELIST_DRONES_MEDICAL"/>
+          <mod:findLike type="text">
+            <mod:selector>(Medical Drone) Have your drone diagnose their condition.</mod:selector>
+            <mod:setValue>(Medical Drone) Have your drone diagnose their condition.[INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO]</mod:setValue>
           </mod:findLike>
         </mod:findLike>
       </mod:findLike>
@@ -1020,7 +1047,7 @@
     <mod:findLike type="choice">
       <mod:findLike type="text">
         <mod:selector>Buy the WonderDrone.</mod:selector>
-        <mod:setValue>Buy the WonderDrone.[INFO][NAME]drone[/NAME]Gain a drone(List Drones Random)[/INFO][INFO][NAME]itemModify[/NAME]-65≤~≤-50[/INFO]</mod:setValue>
+        <mod:setValue>Buy the WonderDrone.[INFO][NAME]drone[/NAME]Gain a drone(Combat Random)[/INFO][INFO][NAME]itemModify[/NAME]-65≤~≤-50[/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -1029,7 +1056,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Negotiate a better price.</mod:selector>
-        <mod:setValue>Negotiate a better price.[FightINFO]Fight(CK: [INFO]50% [NAME]autoReward[/NAME]Reward Standard(H)[/INFO] [INFO]50% [NAME]drone[/NAME]Gain a drone(List Drones Random)[/INFO])(HK: [INFO]50% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(SR: [INFO]50% [NAME]drone[/NAME]Gain a drone(List Drones Random)[/INFO] [INFO]50% [NAME]itemModify[/NAME]-25≤~≤-15[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Negotiate a better price.[FightINFO]Fight(CK: [INFO]50% [NAME]autoReward[/NAME]Reward Standard(H)[/INFO] [INFO]50% [NAME]drone[/NAME]Gain a drone(Combat Random)[/INFO])(HK: [INFO]50% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(SR: [INFO]50% [NAME]drone[/NAME]Gain a drone(Combat Random)[/INFO] [INFO]50% [NAME]itemModify[/NAME]-25≤~≤-15[/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -1038,7 +1065,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Attack them for the drone.</mod:selector>
-        <mod:setValue>Attack them for the drone.[FightINFO]Fight(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO] [INFO][NAME]drone[/NAME]Gain a drone(List Drones Random)[/INFO])(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(SR: [INFO][NAME]drone[/NAME]Gain a drone(List Drones Random)[/INFO] [INFO][NAME]itemModify[/NAME]-25≤~≤-15[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Attack them for the drone.[FightINFO]Fight(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO] [INFO][NAME]drone[/NAME]Gain a drone(Combat Random)[/INFO])(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(SR: [INFO][NAME]drone[/NAME]Gain a drone(Combat Random)[/INFO] [INFO][NAME]itemModify[/NAME]-25≤~≤-15[/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -1050,7 +1077,7 @@
           <mod:selector hidden="true"/>
           <mod:findLike type="text">
             <mod:selector>Continue...</mod:selector>
-            <mod:setValue>Continue...[FightINFO]Fight(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO] [INFO][NAME]drone[/NAME]Gain a drone(List Drones Random)[/INFO])(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(SR: [INFO][NAME]drone[/NAME]Gain a drone(List Drones Random)[/INFO] [INFO][NAME]itemModify[/NAME]-25≤~≤-15[/INFO])[/FightINFO]</mod:setValue>
+            <mod:setValue>Continue...[FightINFO]Fight(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO] [INFO][NAME]drone[/NAME]Gain a drone(Combat Random)[/INFO])(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(SR: [INFO][NAME]drone[/NAME]Gain a drone(Combat Random)[/INFO] [INFO][NAME]itemModify[/NAME]-25≤~≤-15[/INFO])[/FightINFO]</mod:setValue>
           </mod:findLike>
         </mod:findLike>
       </mod:findLike>
@@ -1083,7 +1110,7 @@
       <mod:findLike type="choice">
         <mod:findLike type="text">
           <mod:selector>Buy the WonderDrone.</mod:selector>
-          <mod:setValue>Buy the WonderDrone.[INFO][NAME]drone[/NAME]Gain a drone(Combat Random Laser)[/INFO][INFO][NAME]itemModify[/NAME]-55≤~≤-40[/INFO]</mod:setValue>
+          <mod:setValue>Buy the WonderDrone.[INFO][NAME]drone[/NAME]Gain a drone(Combat Random)[/INFO][INFO][NAME]itemModify[/NAME]-55≤~≤-40[/INFO]</mod:setValue>
         </mod:findLike>
       </mod:findLike>
     </mod:findLike>
@@ -1120,7 +1147,7 @@
         <mod:selector hidden="true"/>
         <mod:findLike type="text">
           <mod:selector>Continue...</mod:selector>
-          <mod:setValue>Continue...[FightINFO]Fight(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO] [INFO][NAME]drone[/NAME]Gain a drone(List Drones Random)[/INFO])(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(SR: [INFO][NAME]drone[/NAME]Gain a drone(List Drones Random)[/INFO] [INFO][NAME]itemModify[/NAME]-25≤~≤-15[/INFO])[/FightINFO]</mod:setValue>
+          <mod:setValue>Continue...[FightINFO]Fight(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO] [INFO][NAME]drone[/NAME]Gain a drone(Combat Random)[/INFO])(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(SR: [INFO][NAME]drone[/NAME]Gain a drone(Combat Random)[/INFO] [INFO][NAME]itemModify[/NAME]-25≤~≤-15[/INFO])[/FightINFO]</mod:setValue>
         </mod:findLike>
       </mod:findLike>
     </mod:findLike>
@@ -1129,7 +1156,7 @@
     <mod:findLike type="choice">
       <mod:findLike type="text">
         <mod:selector>Buy a weapon.</mod:selector>
-        <mod:setValue>Buy a weapon.[INFO]25% [NAME]weapon[/NAME]Gain a weapon(Beam Fire Player)[/INFO][INFO]25% [NAME]itemModify[/NAME]-55≤~≤-40[/INFO][INFO]25% [NAME]weapon[/NAME]Gain a weapon(Missiles Fire Player)[/INFO][INFO]25% [NAME]itemModify[/NAME]-65≤~≤-50[/INFO][INFO]25% [NAME]weapon[/NAME]Gain a weapon(Energy 2 Player)[/INFO][INFO]25% [NAME]itemModify[/NAME]-60≤~≤-45[/INFO][INFO]25% [NAME]weapon[/NAME]Gain a weapon(Missiles Burst 2 Player)[/INFO]</mod:setValue>
+        <mod:setValue>Buy a weapon.[INFO]25% [NAME]weapon[/NAME]Gain a weapon(Energy Chargegun Player)[/INFO][INFO]25% [NAME]itemModify[/NAME]-65≤~≤-50[/INFO][INFO]25% [NAME]weapon[/NAME]Gain a weapon(Missiles Fire Player)[/INFO][INFO]25% [NAME]weapon[/NAME]Gain a weapon(Energy 2 Player)[/INFO][INFO]25% [NAME]itemModify[/NAME]-60≤~≤-45[/INFO][INFO]25% [NAME]weapon[/NAME]Gain a weapon(Missiles Burst 2 Player)[/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -2726,8 +2753,8 @@
   <mod:findName name="SLAVER_LANIUS_SLAVE" type="event">
     <mod:findLike type="choice">
       <mod:findLike type="text">
-        <mod:selector>Continue.</mod:selector>
-        <mod:setValue>Continue.[FightINFO]Fight(CK: [INFO]25% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO]25% [NAME]crewMember[/NAME]Gain a crew(Random)[/INFO] [INFO]25% [NAME]autoReward[/NAME]Reward Standard(H)[/INFO])(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(SR: [INFO][NAME]crewMember[/NAME]Gain a crew(Random)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:selector>Continue...</mod:selector>
+        <mod:setValue>Continue...[FightINFO]Fight(CK: [INFO]25% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO]25% [NAME]crewMember[/NAME]Gain a crew(Random)[/INFO] [INFO]25% [NAME]autoReward[/NAME]Reward Standard(H)[/INFO])(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(SR: [INFO][NAME]crewMember[/NAME]Gain a crew(Random)[/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -2835,6 +2862,37 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
+  <mod:findName name="SLAVER_LANIUS_SLAVE" type="event">
+    <mod:findLike type="choice">
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector req="BLUELIST_WEAPONS_MIND_CONTROL" hidden="true"/>
+          <mod:findLike type="text">
+            <mod:selector>(Mind Control Weapon) Convince them to donate the Lanius.</mod:selector>
+            <mod:setValue>(Mind Control Weapon) Convince them to donate the Lanius.[INFO][NAME]crewMember[/NAME]Gain a crew(Lanius)[/INFO][FightINFO]Fight(CK: [INFO]25% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO]25% [NAME]crewMember[/NAME]Gain a crew(Random)[/INFO] [INFO]25% [NAME]autoReward[/NAME]Reward Standard(H)[/INFO])(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(SR: [INFO][NAME]crewMember[/NAME]Gain a crew(Random)[/INFO])[/FightINFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="SLAVER_LANIUS_SLAVE" type="event">
+    <mod:findLike type="choice">
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector req="BLUELIST_WEAPONS_MIND_CONTROL" hidden="true"/>
+          <mod:findLike type="event">
+            <mod:findLike type="choice">
+              <mod:selector hidden="true"/>
+              <mod:findLike type="text">
+                <mod:selector>Continue...</mod:selector>
+                <mod:setValue>Continue...[FightINFO]Fight(CK: [INFO]25% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO]25% [NAME]crewMember[/NAME]Gain a crew(Random)[/INFO] [INFO]25% [NAME]autoReward[/NAME]Reward Standard(H)[/INFO])(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(SR: [INFO][NAME]crewMember[/NAME]Gain a crew(Random)[/INFO])[/FightINFO]</mod:setValue>
+              </mod:findLike>
+            </mod:findLike>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
   <mod:findName name="SLAVER_DRIFTER" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true"/>
@@ -2859,6 +2917,24 @@
       <mod:findLike type="text">
         <mod:selector>(Boarding Drone) Send the boarding drone. [-1|]</mod:selector>
         <mod:setValue>(Boarding Drone) Send the boarding drone. [-1|][INFO][NAME]itemModify[/NAME]|-1[/INFO][FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])[/FightINFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="SLAVER_DRIFTER" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true" req="sensors" lvl="2"/>
+      <mod:findLike type="text">
+        <mod:selector>(Upg. Sensors) Scan the interior of the ship.</mod:selector>
+        <mod:setValue>(Upg. Sensors) Scan the interior of the ship.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])[/FightINFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="SLAVER_DRIFTER" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true" req="LIFE_SCANNER"/>
+      <mod:findLike type="text">
+        <mod:selector>(Lifeform Scanner) Scan the interior of the ship.</mod:selector>
+        <mod:setValue>(Lifeform Scanner) Scan the interior of the ship.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -2941,6 +3017,29 @@
     </mod:findLike>
   </mod:findName>
   <mod:findName name="SLAVER_DRIFTER_DRONE" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="text">
+            <mod:selector>Continue...</mod:selector>
+            <mod:setValue>Continue...[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])[/FightINFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="SLAVER_DRIFTER_SCAN" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>Attack the ship.</mod:selector>
+        <mod:setValue>Attack the ship.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])[/FightINFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="SLAVER_DRIFTER_SCAN" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true"/>
       <mod:findLike type="event">

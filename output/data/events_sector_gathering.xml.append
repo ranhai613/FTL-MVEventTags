@@ -724,10 +724,102 @@
             <mod:findLike type="choice">
               <mod:findLike type="event">
                 <mod:findLike type="choice">
-                  <mod:selector hidden="true" req="LIST_CREW_FLORAL"/>
+                  <mod:selector hidden="true" req="orchid"/>
                   <mod:findLike type="text">
                     <mod:selector>(Floral Crew) Convince the Mega-Tree guards to let you have the weapon.</mod:selector>
                     <mod:setValue>(Floral Crew) Convince the Mega-Tree guards to let you have the weapon.[INFO]50% [NAME]weapon[/NAME]Gain a weapon(Giftlist Kernel Elite)[/INFO]</mod:setValue>
+                  </mod:findLike>
+                </mod:findLike>
+              </mod:findLike>
+            </mod:findLike>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="ORCHID_MEGATREE" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="event">
+            <mod:findLike type="choice">
+              <mod:findLike type="event">
+                <mod:findLike type="choice">
+                  <mod:selector hidden="true" req="orchid_caretaker"/>
+                  <mod:findLike type="text">
+                    <mod:selector>(Caretaker Crew) Convince the Mega-Tree guards to let you have the weapon.</mod:selector>
+                    <mod:setValue>(Caretaker Crew) Convince the Mega-Tree guards to let you have the weapon.[INFO]33% [NAME]weapon[/NAME]Gain a weapon(Giftlist Kernel Elite)[/INFO]</mod:setValue>
+                  </mod:findLike>
+                </mod:findLike>
+              </mod:findLike>
+            </mod:findLike>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="ORCHID_MEGATREE" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="event">
+            <mod:findLike type="choice">
+              <mod:findLike type="event">
+                <mod:findLike type="choice">
+                  <mod:selector hidden="true" req="orchid_praetor"/>
+                  <mod:findLike type="text">
+                    <mod:selector>(Praetor Crew) Convince the Mega-Tree guards to let you have the weapon.</mod:selector>
+                    <mod:setValue>(Praetor Crew) Convince the Mega-Tree guards to let you have the weapon.[INFO]33% [NAME]weapon[/NAME]Gain a weapon(Giftlist Kernel Elite)[/INFO]</mod:setValue>
+                  </mod:findLike>
+                </mod:findLike>
+              </mod:findLike>
+            </mod:findLike>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="ORCHID_MEGATREE" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="event">
+            <mod:findLike type="choice">
+              <mod:findLike type="event">
+                <mod:findLike type="choice">
+                  <mod:selector hidden="true" req="unique_mayeb"/>
+                  <mod:findLike type="text">
+                    <mod:selector>(Mayeb) Convince the Mega-Tree guards to let you have the weapon.</mod:selector>
+                    <mod:setValue>(Mayeb) Convince the Mega-Tree guards to let you have the weapon.[INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Kernel Elite)[/INFO]</mod:setValue>
+                  </mod:findLike>
+                </mod:findLike>
+              </mod:findLike>
+            </mod:findLike>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="ORCHID_MEGATREE" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="event">
+            <mod:findLike type="choice">
+              <mod:findLike type="event">
+                <mod:findLike type="choice">
+                  <mod:selector hidden="true" req="unique_tyerel"/>
+                  <mod:findLike type="text">
+                    <mod:selector>(Ty E'Rel) Convince the Mega-Tree guards to let you have the weapon.</mod:selector>
+                    <mod:setValue>(Ty E'Rel) Convince the Mega-Tree guards to let you have the weapon.[INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Kernel Elite)[/INFO]</mod:setValue>
                   </mod:findLike>
                 </mod:findLike>
               </mod:findLike>
@@ -825,7 +917,7 @@
     </mod:findLike>
   </mod:findName>
   <mod:findName name="ORCHID_MEGATREE_TALK" type="eventList">
-    <mod:findLike type="event">
+    <mod:findName name="ORCHID_MEGATREE_TALK_FAIL" type="event">
       <mod:findLike type="choice">
         <mod:selector hidden="true"/>
         <mod:findLike type="text">
@@ -833,10 +925,10 @@
           <mod:setValue>Ignore them and dig for it anyways.[INFO]&lt;=[/INFO]</mod:setValue>
         </mod:findLike>
       </mod:findLike>
-    </mod:findLike>
+    </mod:findName>
   </mod:findName>
   <mod:findName name="ORCHID_MEGATREE_TALK" type="eventList">
-    <mod:findLike type="event">
+    <mod:findName name="ORCHID_MEGATREE_TALK_FAIL" type="event">
       <mod:findLike type="choice">
         <mod:selector hidden="true"/>
         <mod:findLike type="event">
@@ -849,7 +941,7 @@
           </mod:findLike>
         </mod:findLike>
       </mod:findLike>
-    </mod:findLike>
+    </mod:findName>
   </mod:findName>
   <mod:findName name="ORCHID_REFUGEES" type="event">
     <mod:findLike type="choice">
@@ -1309,8 +1401,8 @@
         <mod:findLike type="choice">
           <mod:selector hidden="true" req="unique_tonysr"/>
           <mod:findLike type="text">
-            <mod:selector>(Tony) Tony has begun to cry.</mod:selector>
-            <mod:setValue>(Tony) Tony has begun to cry.[INFO][NAME]autoReward[/NAME]Reward Item(M)[/INFO]</mod:setValue>
+            <mod:selector>(Tony Sr.) Tony asks to speak with them.</mod:selector>
+            <mod:setValue>(Tony Sr.) Tony asks to speak with them.[INFO][NAME]autoReward[/NAME]Reward Item(M)[/INFO]</mod:setValue>
           </mod:findLike>
         </mod:findLike>
       </mod:findLike>
@@ -1759,10 +1851,10 @@
     <mod:findLike type="choice">
       <mod:findLike type="event">
         <mod:findLike type="choice">
-          <mod:selector hidden="true"/>
+          <mod:selector hidden="true" req="COUNT_ALL_CREW" blue="false"/>
           <mod:findLike type="text">
-            <mod:selector>Rescue the Orchid!</mod:selector>
-            <mod:setValue>Rescue the Orchid![INFO][NAME]boarders[/NAME]&lt;!&gt;Enemy Boarding(x2 Rock Commando)[/INFO][INFO][NAME]crewMember[/NAME]Gain a crew(Orchid Praetor)[/INFO][FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])[/FightINFO]</mod:setValue>
+            <mod:selector>Rescue the Orchid without delay!</mod:selector>
+            <mod:setValue>Rescue the Orchid without delay![INFO][NAME]boarders[/NAME]&lt;!&gt;Enemy Boarding(x2 Rock Commando)[/INFO][INFO][NAME]crewMember[/NAME]Gain a crew(Orchid Praetor)[/INFO][FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])[/FightINFO]</mod:setValue>
           </mod:findLike>
         </mod:findLike>
       </mod:findLike>
@@ -1772,7 +1864,7 @@
     <mod:findLike type="choice">
       <mod:findLike type="event">
         <mod:findLike type="choice">
-          <mod:selector hidden="true"/>
+          <mod:selector hidden="true" req="COUNT_ALL_CREW" blue="false"/>
           <mod:findLike type="event">
             <mod:findLike type="choice">
               <mod:selector hidden="true"/>
@@ -1792,8 +1884,8 @@
         <mod:findLike type="choice">
           <mod:selector hidden="true" req="LIST_CREW_FLORAL"/>
           <mod:findLike type="text">
-            <mod:selector>(Floral Crew) Demand the prisoners are freed at once.</mod:selector>
-            <mod:setValue>(Floral Crew) Demand the prisoners are freed at once.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])[/FightINFO]</mod:setValue>
+            <mod:selector>(Floral Crew) Demand the prisoners are freed.</mod:selector>
+            <mod:setValue>(Floral Crew) Demand the prisoners are freed.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])[/FightINFO]</mod:setValue>
           </mod:findLike>
         </mod:findLike>
       </mod:findLike>
@@ -1976,7 +2068,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Continue...</mod:selector>
-        <mod:setValue>Continue...[FightINFO]Fight(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(SR: [INFO][NAME]autoReward[/NAME]Reward Standard(L)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Continue...[FightINFO]Fight(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(SR: [INFO][NAME]autoReward[/NAME]Reward Stuff(R)[/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -2247,6 +2339,49 @@
           <mod:findLike type="event">
             <mod:findLike type="choice">
               <mod:selector hidden="true" req="mind"/>
+              <mod:findLike type="event">
+                <mod:findLike type="choice">
+                  <mod:selector hidden="true"/>
+                  <mod:findLike type="text">
+                    <mod:selector>Continue...</mod:selector>
+                    <mod:setValue>Continue...[INFO]50% [NAME]crewMember[/NAME]Gain a crew(Orchid)[/INFO][INFO]50% [NAME]weapon[/NAME]Gain a weapon(Giftlist Kernel)[/INFO]</mod:setValue>
+                  </mod:findLike>
+                </mod:findLike>
+              </mod:findLike>
+            </mod:findLike>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="DISTRESS_ORCHID_JUNGLE" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="event">
+            <mod:findLike type="choice">
+              <mod:selector hidden="true" req="BLUELIST_WEAPONS_MIND_AFFECT"/>
+              <mod:findLike type="text">
+                <mod:selector>(Mind Affecting Weapon) Turn the Rebels against each other.</mod:selector>
+                <mod:setValue>(Mind Affecting Weapon) Turn the Rebels against each other.[INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO][INFO]50% [NAME]crewMember[/NAME]Gain a crew(Orchid)[/INFO][INFO]50% [NAME]weapon[/NAME]Gain a weapon(Giftlist Kernel)[/INFO]</mod:setValue>
+              </mod:findLike>
+            </mod:findLike>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="DISTRESS_ORCHID_JUNGLE" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="event">
+            <mod:findLike type="choice">
+              <mod:selector hidden="true" req="BLUELIST_WEAPONS_MIND_AFFECT"/>
               <mod:findLike type="event">
                 <mod:findLike type="choice">
                   <mod:selector hidden="true"/>

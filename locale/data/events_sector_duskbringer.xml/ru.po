@@ -1,17 +1,15 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-05-17 22:26+0000\n"
+"PO-Revision-Date: 2025-06-12 01:50+0000\n"
 "Last-Translator: Ukn <bbg100bbg@gmail.com>\n"
-"Language-Team: Russian <https://weblate.hyperq.be/projects/ftl-multiverse/"
-"dataevents_sector_duskbringerxml/ru/>\n"
+"Language-Team: Russian <https://weblate.hyperq.be/projects/ftl-multiverse/dataevents_sector_duskbringerxml/ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.16.4\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 5.11.4\n"
 
 #: src-en/data/events_sector_duskbringer.xml:28
 msgid ""
@@ -418,7 +416,7 @@ msgstr ""
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_SLAVER_TRADE\"]/text"
 msgstr ""
-"Вскоре после выхода из прыжка рядом из прыжка также выходит корабль "
+"Вскоре после выхода из прыжка рядом из прыжка также появляется корабль "
 "работорговцев. Они выходят на связь. \"Интересно, федерал. Нечастое зрелище "
 "здесь. Не нужен ли вам экипаж?\""
 
@@ -490,8 +488,8 @@ msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_SLAVER_TRADE_BUY_2\"]/text"
 msgstr ""
 "Интерьер корабля работорговцев не радует глаз. Повсюду к стенам прикованы "
-"различные пришельцы, у многих из которых по всему телу видны жуткие синяки и "
-"шрамы. Выступить против работорговцев сейчас - это смертный приговор, "
+"различные пришельцы, у многих из которых по всему телу видны жуткие синяки и"
+" шрамы. Выступить против работорговцев сейчас - это смертный приговор, "
 "поэтому лучше купить кого-нибудь или убраться восвояси."
 
 #: src-en/data/events_sector_duskbringer.xml:347
@@ -614,7 +612,23 @@ msgstr ""
 " корабля - это информация, которую они не хотели бы упустить, и они не "
 "думают, что у Вестников Заката есть причины лгать."
 
+#: src-en/data/events_sector_duskbringer.xml:415
+msgid ""
+"data/events_sector_duskbringer.xml$//event[@name=\"DUSK_PROPAGANDA\"]/choice[@req=\"BLUELIST_WEAPONS_HACK\"]/text"
+msgstr ""
+"(Оружие взлома) Взломать защиту машины и загрузить сообщение, чтобы передать"
+" ложное местоположение."
+
 #: src-en/data/events_sector_duskbringer.xml:417
+msgid ""
+"data/events_sector_duskbringer.xml$//event[@name=\"DUSK_PROPAGANDA\"]/choice[@req=\"BLUELIST_WEAPONS_HACK\"]/event/text"
+msgstr ""
+"Повстанцы и Вестники Заката иногда работали вместе, но обычно не они слушают"
+" советов от пропагандистов такого рода. Тем не менее, местонахождение вашего"
+" корабля - это информация, которую они не хотели бы упустить, и они не "
+"думают, что у Вестников Заката есть причины лгать."
+
+#: src-en/data/events_sector_duskbringer.xml:424
 msgid "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_IDOL\"]/text"
 msgstr ""
 "Вы получаете сообщение от молодого солдата Вестников Заката. Сначала вы "
@@ -622,12 +636,12 @@ msgstr ""
 "тем, что лично встретил путешественника по Мультивселенной. \"Ух ты, вы один"
 " из тех особых кораблей путешествующий по пространству и времени!\""
 
-#: src-en/data/events_sector_duskbringer.xml:420
+#: src-en/data/events_sector_duskbringer.xml:427
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_IDOL\"]/choice/text"
 msgstr "Ну, да."
 
-#: src-en/data/events_sector_duskbringer.xml:422
+#: src-en/data/events_sector_duskbringer.xml:429
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_IDOL\"]/choice/event/text"
 msgstr ""
@@ -637,34 +651,34 @@ msgstr ""
 "имя на человеческом языке, но он был знаменитым лидером и почти завоевал мир"
 " или что-то вроде того! Вы когда-нибудь встречали его?\""
 
-#: src-en/data/events_sector_duskbringer.xml:424
+#: src-en/data/events_sector_duskbringer.xml:431
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_IDOL\"]/choice/event/choice[1]/text"
 msgstr "Соврать и сказать, что так и было."
 
-#: src-en/data/events_sector_duskbringer.xml:428
+#: src-en/data/events_sector_duskbringer.xml:435
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_IDOL\"]/choice/event/choice[2]/text"
 msgstr "Сказать правду и сказать, что нет."
 
-#: src-en/data/events_sector_duskbringer.xml:430
+#: src-en/data/events_sector_duskbringer.xml:437
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_IDOL\"]/choice/event/choice[2]/event/text"
 msgstr ""
 "\"Вы его не видели? Мужик... Ну, весело поболтали! Тогда, пожалуй, я тебя "
 "сейчас убью\"."
 
-#: src-en/data/events_sector_duskbringer.xml:433
+#: src-en/data/events_sector_duskbringer.xml:440
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_IDOL\"]/choice/event/choice[2]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_duskbringer.xml:439
+#: src-en/data/events_sector_duskbringer.xml:446
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_IDOL\"]/choice/event/choice[@req=\"LIST_CREW_HUMAN\"]/text"
 msgstr "(Член экипажа-человек) Ваш человек знает, кто это."
 
-#: src-en/data/events_sector_duskbringer.xml:441
+#: src-en/data/events_sector_duskbringer.xml:448
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_IDOL\"]/choice/event/choice[@req=\"LIST_CREW_HUMAN\"]/event/text"
 msgstr ""
@@ -675,14 +689,14 @@ msgstr ""
 "гораздо больше, чем я! О, командование будет так на меня сердиться... но я "
 "не могу упустить такую возможность!\""
 
-#: src-en/data/events_sector_duskbringer.xml:450
+#: src-en/data/events_sector_duskbringer.xml:457
 msgid ""
 "data/events_sector_duskbringer.xml$//eventList[@name=\"DUSK_IDOL_LIE\"]/event[1]/text"
 msgstr ""
 "\"Правда?! Это потрясающе! Я хочу пойти с вами, я не могу упустить такую "
 "возможность познакомиться с настоящими Ренегатами!\""
 
-#: src-en/data/events_sector_duskbringer.xml:454
+#: src-en/data/events_sector_duskbringer.xml:461
 msgid ""
 "data/events_sector_duskbringer.xml$//eventList[@name=\"DUSK_IDOL_LIE\"]/event[2]/text"
 msgstr ""
@@ -691,12 +705,12 @@ msgstr ""
 "ответить. В конце концов, он начинает понимать, что вы пытаетесь схитрить, и"
 " приказывает кораблю атаковать!"
 
-#: src-en/data/events_sector_duskbringer.xml:457
+#: src-en/data/events_sector_duskbringer.xml:464
 msgid ""
 "data/events_sector_duskbringer.xml$//eventList[@name=\"DUSK_IDOL_LIE\"]/event[2]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_duskbringer.xml:474
+#: src-en/data/events_sector_duskbringer.xml:481
 msgid "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_MFKHELP\"]/text"
 msgstr ""
 "Город золтанов на поверхности ближайшей планеты, судя по всему, сильно "
@@ -704,12 +718,12 @@ msgstr ""
 " городом с безопасного расстояния. Вы не можете понять, каковы его "
 "намерения."
 
-#: src-en/data/events_sector_duskbringer.xml:478
+#: src-en/data/events_sector_duskbringer.xml:485
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_MFKHELP\"]/choice[1]/text"
 msgstr "Связаться с кораблем."
 
-#: src-en/data/events_sector_duskbringer.xml:480
+#: src-en/data/events_sector_duskbringer.xml:487
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_MFKHELP\"]/choice[1]/event/text"
 msgstr ""
@@ -717,12 +731,12 @@ msgstr ""
 "попыток, они отвечают: \"Да, я вас слышу. Черт возьми, неужели вам нечем "
 "заняться, кроме как приставать к нам? Что вам нужно?!\""
 
-#: src-en/data/events_sector_duskbringer.xml:482
+#: src-en/data/events_sector_duskbringer.xml:489
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_MFKHELP\"]/choice[1]/event/choice[1]/text"
 msgstr "Ответственны ли вы за это?"
 
-#: src-en/data/events_sector_duskbringer.xml:484
+#: src-en/data/events_sector_duskbringer.xml:491
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_MFKHELP\"]/choice[1]/event/choice[1]/event/text"
 msgstr ""
@@ -740,12 +754,12 @@ msgstr ""
 "медицинские учреждения. Если вы хотите быть полезными, вы можете попытаться "
 "помочь\"."
 
-#: src-en/data/events_sector_duskbringer.xml:486
+#: src-en/data/events_sector_duskbringer.xml:493
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_MFKHELP\"]/choice[1]/event/choice[1]/event/choice[1]/text"
 msgstr "Оказать помощь в поиске выживших - хотя это займет некоторое время."
 
-#: src-en/data/events_sector_duskbringer.xml:488
+#: src-en/data/events_sector_duskbringer.xml:495
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_MFKHELP\"]/choice[1]/event/choice[1]/event/choice[1]/event/text"
 msgstr ""
@@ -764,115 +778,120 @@ msgstr ""
 "поискам позже. Я попрошу своих людей вознаградить вас ко-чем, когда вы "
 "будете уходить\"."
 
-#: src-en/data/events_sector_duskbringer.xml:495
+#: src-en/data/events_sector_duskbringer.xml:502
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_MFKHELP\"]/choice[1]/event/choice[1]/event/choice[@req=\"LIST_CREW_SLUG\"]/text"
 msgstr "(Член экипажа-слизень) Оказать помощь в поиске выживших."
 
-#: src-en/data/events_sector_duskbringer.xml:499
+#: src-en/data/events_sector_duskbringer.xml:506
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_MFKHELP\"]/choice[1]/event/choice[1]/event/choice[@req=\"BLUELIST_CREW_SNAIL\"]/text"
-msgstr "(Ракушка-Телепат) Оказать помощь в поиске выживших."
+msgstr "(Член экипажа-ракушка-телепат) Оказать помощь в поиске выживших."
 
-#: src-en/data/events_sector_duskbringer.xml:503
+#: src-en/data/events_sector_duskbringer.xml:510
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_MFKHELP\"]/choice[1]/event/choice[1]/event/choice[@req=\"UPG_TECH_LIFEFORM\"]/text"
 msgstr "(Сканер жизненных форм) Оказать помощь в обнаружении выживших."
 
-#: src-en/data/events_sector_duskbringer.xml:507
+#: src-en/data/events_sector_duskbringer.xml:514
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_MFKHELP\"]/choice[1]/event/choice[1]/event/choice[@req=\"sensors\"]/text"
 msgstr "(Продв. Сенсоры) Оказать помощь в обнаружении выживших."
 
-#: src-en/data/events_sector_duskbringer.xml:511
+#: src-en/data/events_sector_duskbringer.xml:518
 msgid ""
-"data/events_sector_duskbringer.xml$//event[@name=\"DUSK_MFKHELP\"]/choice[1]/event/choice[1]/event/choice[6]/text"
-msgstr "В любом случае, атаковать."
-
-#: src-en/data/events_sector_duskbringer.xml:513
-msgid ""
-"data/events_sector_duskbringer.xml$//event[@name=\"DUSK_MFKHELP\"]/choice[1]/event/choice[1]/event/choice[6]/event/text"
-msgstr ""
-"\"Проклятые Ренегаты, вечно лезут не в свое дело! Вы не герои и не славные "
-"крестоносцы справедливости, вы просто безнравственные вредители!\""
-
-#: src-en/data/events_sector_duskbringer.xml:516
-msgid ""
-"data/events_sector_duskbringer.xml$//event[@name=\"DUSK_MFKHELP\"]/choice[1]/event/choice[1]/event/choice[6]/event/choice/text"
-msgstr "Продолжить..."
+"data/events_sector_duskbringer.xml$//event[@name=\"DUSK_MFKHELP\"]/choice[1]/event/choice[1]/event/choice[@req=\"ADV_SCANNERS\"]/text"
+msgstr "(Сканеры дальнего действия) Помочь найти выживших."
 
 #: src-en/data/events_sector_duskbringer.xml:522
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_MFKHELP\"]/choice[1]/event/choice[1]/event/choice[7]/text"
+msgstr "Атаковать."
+
+#: src-en/data/events_sector_duskbringer.xml:524
+msgid ""
+"data/events_sector_duskbringer.xml$//event[@name=\"DUSK_MFKHELP\"]/choice[1]/event/choice[1]/event/choice[7]/event/text"
+msgstr ""
+"\"Проклятые Ренегаты, вечно лезут не в свое дело! Вы не герои и не славные "
+"крестоносцы справедливости, вы просто безнравственные вредители!\""
+
+#: src-en/data/events_sector_duskbringer.xml:527
+msgid ""
+"data/events_sector_duskbringer.xml$//event[@name=\"DUSK_MFKHELP\"]/choice[1]/event/choice[1]/event/choice[7]/event/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_duskbringer.xml:533
+msgid ""
+"data/events_sector_duskbringer.xml$//event[@name=\"DUSK_MFKHELP\"]/choice[1]/event/choice[1]/event/choice[8]/text"
 msgstr "Мы не поможем. Уходим."
 
-#: src-en/data/events_sector_duskbringer.xml:528
+#: src-en/data/events_sector_duskbringer.xml:539
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_MFKHELP\"]/choice[1]/event/choice[2]/text"
 msgstr "Угрожать им."
 
-#: src-en/data/events_sector_duskbringer.xml:530
+#: src-en/data/events_sector_duskbringer.xml:541
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_MFKHELP\"]/choice[1]/event/choice[2]/event/text"
 msgstr ""
 "\"Кем ты себя возомнил? Повстанцы не примут таких слов ни от кого, тем более"
 " от таких подонков-Ренегатов, как ты!\""
 
-#: src-en/data/events_sector_duskbringer.xml:533
+#: src-en/data/events_sector_duskbringer.xml:544
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_MFKHELP\"]/choice[1]/event/choice[2]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_duskbringer.xml:539
+#: src-en/data/events_sector_duskbringer.xml:550
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_MFKHELP\"]/choice[1]/event/choice[3]/text"
 msgstr "Я думаю, ты симпатяга."
 
-#: src-en/data/events_sector_duskbringer.xml:541
+#: src-en/data/events_sector_duskbringer.xml:552
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_MFKHELP\"]/choice[1]/event/choice[3]/event/text"
 msgstr ""
 "МФК отключает связь и выключает звук. Когда вы продолжаете пытаться вызвать "
 "их, корабль улетает на другой конец города."
 
-#: src-en/data/events_sector_duskbringer.xml:547
+#: src-en/data/events_sector_duskbringer.xml:558
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_MFKHELP\"]/choice[2]/text"
 msgstr "Атаковать корабль МФК!"
 
-#: src-en/data/events_sector_duskbringer.xml:549
+#: src-en/data/events_sector_duskbringer.xml:560
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_MFKHELP\"]/choice[2]/event/text"
 msgstr ""
 "\"Проклятые Ренегаты, превращающие в ад жизнь любого, кто осмелится войти в "
 "их зону видимости. Мы сделаем всю Мультивселенную безопаснее без вас!\""
 
-#: src-en/data/events_sector_duskbringer.xml:552
+#: src-en/data/events_sector_duskbringer.xml:563
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_MFKHELP\"]/choice[2]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_duskbringer.xml:558
+#: src-en/data/events_sector_duskbringer.xml:569
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_MFKHELP\"]/choice[3]/text"
 msgstr "Не обращать внимания на город и корабль."
 
-#: src-en/data/events_sector_duskbringer.xml:560
+#: src-en/data/events_sector_duskbringer.xml:571
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_MFKHELP\"]/choice[3]/event/text"
 msgstr "Лучше не рисковать и не подходить слишком близко к МФК."
 
-#: src-en/data/events_sector_duskbringer.xml:562
+#: src-en/data/events_sector_duskbringer.xml:573
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_MFKHELP\"]/choice[3]/event/choice[1]/text"
 msgstr "Заняться чем-либо на корабле."
 
-#: src-en/data/events_sector_duskbringer.xml:566
+#: src-en/data/events_sector_duskbringer.xml:577
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_MFKHELP\"]/choice[3]/event/choice[2]/text"
 msgstr "Ничего не делать."
 
-#: src-en/data/events_sector_duskbringer.xml:574
+#: src-en/data/events_sector_duskbringer.xml:585
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_MFKHELP_GOOD\"]/text"
 msgstr ""
@@ -882,7 +901,7 @@ msgstr ""
 "\n"
 "МФК глубоко вздыхает. \"Честно говоря, я хочу, чтобы вы разнесли этот проклятый флагман в пух и прах. Как бы я ни ненавидел Федерацию, я предпочитаю коррумпированную и бесцельную бюрократию, чем совершенную и бесконечную машину смерти. Я позабочусь о том, чтобы мои люди вознаградили вас кое-чем за ваши старания, когда вы будете уходить."
 
-#: src-en/data/events_sector_duskbringer.xml:583
+#: src-en/data/events_sector_duskbringer.xml:594
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_MFKHELP_GOOD_CREW\"]/text"
 msgstr ""
@@ -892,20 +911,20 @@ msgstr ""
 "\n"
 "МФК глубоко вздыхает. \"Честно говоря, я хочу, чтобы вы разнесли этот проклятый флагман в пух и прах. Как бы я ни ненавидел Федерацию, я предпочитаю коррумпированную и бесцельную бюрократию, чем совершенную и бесконечную машину смерти. Я позабочусь о том, чтобы мои люди вознаградили вас кое-чем за ваши старания, когда вы будете уходить."
 
-#: src-en/data/events_sector_duskbringer.xml:593
+#: src-en/data/events_sector_duskbringer.xml:604
 msgid "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_DNA\"]/text"
 msgstr ""
 "На далекой, но явно населенной планете можно разглядеть некое массивное "
 "сооружение Вестников Заката, сильно укрепленное и частично скрытое лесом. "
 "Сканирование показывает, что в объект поступает большое количество энергии."
 
-#: src-en/data/events_sector_duskbringer.xml:596
+#: src-en/data/events_sector_duskbringer.xml:607
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_DNA\"]/choice[@req=\"LIST_CHECK_ANY_CREW\""
 " and @lvl=\"1\"]/text"
 msgstr "Приземлиться и исследовать."
 
-#: src-en/data/events_sector_duskbringer.xml:598
+#: src-en/data/events_sector_duskbringer.xml:609
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_DNA\"]/choice[@req=\"LIST_CHECK_ANY_CREW\""
 " and @lvl=\"1\"]/event/text"
@@ -915,65 +934,65 @@ msgstr ""
 "достигает входа в строение, охраняемого двумя хорошо вооруженными солдатами "
 "Вестников Заката."
 
-#: src-en/data/events_sector_duskbringer.xml:600
+#: src-en/data/events_sector_duskbringer.xml:611
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_DNA\"]/choice[@req=\"LIST_CHECK_ANY_CREW\""
 " and @lvl=\"1\"]/event/choice[1]/text"
 msgstr "Стрелять на поражение!"
 
-#: src-en/data/events_sector_duskbringer.xml:604
+#: src-en/data/events_sector_duskbringer.xml:615
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_DNA\"]/choice[@req=\"LIST_CHECK_ANY_CREW\""
 " and @lvl=\"1\"]/event/choice[2]/text"
 msgstr "Слишком рискованно, отступаем."
 
-#: src-en/data/events_sector_duskbringer.xml:608
+#: src-en/data/events_sector_duskbringer.xml:619
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_DNA\"]/choice[@req=\"LIST_CHECK_ANY_CREW\""
 " and @lvl=\"1\"]/event/choice[@req=\"LIST_CREW_SABOTEUR\"]/text"
 msgstr "(Слизень-Диверсант) Пробраться внутрь."
 
-#: src-en/data/events_sector_duskbringer.xml:612
+#: src-en/data/events_sector_duskbringer.xml:623
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_DNA\"]/choice[@req=\"LIST_CHECK_ANY_CREW\""
 " and @lvl=\"1\"]/event/choice[@req=\"zoltan_monk\"]/text"
 msgstr "(Член экипажа-Монах) Попросить своего Монаха оглушить охранников."
 
-#: src-en/data/events_sector_duskbringer.xml:616
+#: src-en/data/events_sector_duskbringer.xml:627
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_DNA\"]/choice[@req=\"LIST_CHECK_ANY_CREW\""
 " and @lvl=\"1\"]/event/choice[@req=\"LIST_CREW_DUSK\"]/text"
 msgstr "(Член экипажа-Вестник Заката) Поговорить с охранниками."
 
-#: src-en/data/events_sector_duskbringer.xml:622
+#: src-en/data/events_sector_duskbringer.xml:633
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_DNA\"]/choice[@req=\"LIST_CHECK_ANY_CREW\""
 " and @lvl=\"0\"]/text"
 msgstr "В одиночку вы и близко не подберетесь к объекту Вестников Заката."
 
-#: src-en/data/events_sector_duskbringer.xml:626
+#: src-en/data/events_sector_duskbringer.xml:637
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_DNA\"]/choice[3]/text"
 msgstr "Не обращать внимания на объект."
 
-#: src-en/data/events_sector_duskbringer.xml:628
+#: src-en/data/events_sector_duskbringer.xml:639
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_DNA\"]/choice[3]/event/text"
 msgstr ""
 "У вас не самоубийственная миссия, и проникновение на мегаструктуру Вестников"
 " Заката не входит в список ваших дел. Вы пролетаете мимо планеты."
 
-#: src-en/data/events_sector_duskbringer.xml:630
+#: src-en/data/events_sector_duskbringer.xml:641
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_DNA\"]/choice[3]/event/choice[1]/text"
 msgstr "Заняться чем-либо на корабле."
 
-#: src-en/data/events_sector_duskbringer.xml:634
+#: src-en/data/events_sector_duskbringer.xml:645
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_DNA\"]/choice[3]/event/choice[2]/text"
 msgstr "Ничего не делать."
 
-#: src-en/data/events_sector_duskbringer.xml:642
+#: src-en/data/events_sector_duskbringer.xml:653
 msgid ""
 "data/events_sector_duskbringer.xml$//eventList[@name=\"DUSK_DNA_BREAKIN\"]/event[1]/text"
 msgstr ""
@@ -982,36 +1001,36 @@ msgstr ""
 "падает на землю, получив ранение. К счастью, вам удается бесшумно усмирить "
 "их, прежде чем кто-то еще успеет пострадать."
 
-#: src-en/data/events_sector_duskbringer.xml:645
+#: src-en/data/events_sector_duskbringer.xml:656
 msgid ""
 "data/events_sector_duskbringer.xml$//eventList[@name=\"DUSK_DNA_BREAKIN\"]/event[1]/removeCrew/text"
 msgstr "К счастью, член команды оживает на корабле и спешит к вам на помощь."
 
-#: src-en/data/events_sector_duskbringer.xml:648
+#: src-en/data/events_sector_duskbringer.xml:659
 msgid ""
 "data/events_sector_duskbringer.xml$//eventList[@name=\"DUSK_DNA_BREAKIN\"]/event[1]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_duskbringer.xml:653
+#: src-en/data/events_sector_duskbringer.xml:664
 msgid ""
 "data/events_sector_duskbringer.xml$//eventList[@name=\"DUSK_DNA_BREAKIN\"]/event[2]/text"
 msgstr ""
 "Вашей команде удается бесшумно расправиться с солдатами Вестников Заката. Вы"
 " проходите в здание..."
 
-#: src-en/data/events_sector_duskbringer.xml:655
+#: src-en/data/events_sector_duskbringer.xml:666
 msgid ""
 "data/events_sector_duskbringer.xml$//eventList[@name=\"DUSK_DNA_BREAKIN\"]/event[2]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_duskbringer.xml:662
+#: src-en/data/events_sector_duskbringer.xml:673
 msgid ""
 "data/events_sector_duskbringer.xml$//eventList[@name=\"DUSK_DNA_RETREAT\"]/event[1]/text"
 msgstr ""
 "Это может войти в историю Федерации, как самая быстрая отмена миссии, но, "
 "как говорится, лучше перебдеть, чем недобдеть."
 
-#: src-en/data/events_sector_duskbringer.xml:665
+#: src-en/data/events_sector_duskbringer.xml:676
 msgid ""
 "data/events_sector_duskbringer.xml$//eventList[@name=\"DUSK_DNA_RETREAT\"]/event[2]/text"
 msgstr ""
@@ -1019,24 +1038,24 @@ msgstr ""
 "корабль Вестников Заката, который осматривает его! Похоже, вам придется "
 "разобраться с этими парнями, прежде чем вы сможете улететь."
 
-#: src-en/data/events_sector_duskbringer.xml:668
+#: src-en/data/events_sector_duskbringer.xml:679
 msgid ""
 "data/events_sector_duskbringer.xml$//eventList[@name=\"DUSK_DNA_RETREAT\"]/event[2]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_duskbringer.xml:674
+#: src-en/data/events_sector_duskbringer.xml:685
 msgid "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_DNA_INSIDE\"]/text"
 msgstr ""
 "Вы проходите в помещение и с удивлением обнаруживаете ряды и ряды пробирок, "
 "которые кажутся... тест-пробирками? На каждой из них есть небольшая цифровая"
 " этикетка, обозначающая их различные серийные номера."
 
-#: src-en/data/events_sector_duskbringer.xml:676
+#: src-en/data/events_sector_duskbringer.xml:687
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_DNA_INSIDE\"]/choice/text"
 msgstr "Продолжить."
 
-#: src-en/data/events_sector_duskbringer.xml:678
+#: src-en/data/events_sector_duskbringer.xml:689
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_DNA_INSIDE\"]/choice/event/text"
 msgstr ""
@@ -1045,7 +1064,7 @@ msgstr ""
 " с собой, или быстро попытаться клонировать одного из солдат Вестников "
 "Заката и убедить его работать на вас."
 
-#: src-en/data/events_sector_duskbringer.xml:680
+#: src-en/data/events_sector_duskbringer.xml:691
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_DNA_INSIDE\"]/choice/event/choice[@req=\"clonebay\""
 " and @lvl=\"0\"]/text"
@@ -1053,20 +1072,20 @@ msgstr ""
 "Взять технологию клонирования. [Установить Клон-отсек и получить Резервный "
 "банк ДНК]"
 
-#: src-en/data/events_sector_duskbringer.xml:682
+#: src-en/data/events_sector_duskbringer.xml:693
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_DNA_INSIDE\"]/choice/event/choice[@req=\"clonebay\""
 " and @lvl=\"0\"]/event/text"
 msgstr ""
 "Вы демонтируете часть техники клонирования и поднимаете ее на корабль."
 
-#: src-en/data/events_sector_duskbringer.xml:686
+#: src-en/data/events_sector_duskbringer.xml:697
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_DNA_INSIDE\"]/choice/event/choice[@req=\"clonebay\""
 " and @lvl=\"0\"]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_duskbringer.xml:692
+#: src-en/data/events_sector_duskbringer.xml:703
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_DNA_INSIDE\"]/choice/event/choice[@req=\"clonebay\""
 " and @lvl=\"1\"]/text"
@@ -1074,25 +1093,25 @@ msgstr ""
 "Получить технологию клонирования. [Резервный банк ДНК и 1 бесплатное "
 "улучшение для Клон-отсека]"
 
-#: src-en/data/events_sector_duskbringer.xml:694
+#: src-en/data/events_sector_duskbringer.xml:705
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_DNA_INSIDE\"]/choice/event/choice[@req=\"clonebay\""
 " and @lvl=\"1\"]/event/text"
 msgstr ""
 "Вы демонтируете часть техники клонирования и поднимаете ее на корабль."
 
-#: src-en/data/events_sector_duskbringer.xml:698
+#: src-en/data/events_sector_duskbringer.xml:709
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_DNA_INSIDE\"]/choice/event/choice[@req=\"clonebay\""
 " and @lvl=\"1\"]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_duskbringer.xml:704
+#: src-en/data/events_sector_duskbringer.xml:715
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_DNA_INSIDE\"]/choice/event/choice[@req=\"pilot\"]/text"
 msgstr "Клонировать Мученика Вестников Заката"
 
-#: src-en/data/events_sector_duskbringer.xml:706
+#: src-en/data/events_sector_duskbringer.xml:717
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_DNA_INSIDE\"]/choice/event/choice[@req=\"pilot\"]/event/text"
 msgstr ""
@@ -1102,24 +1121,24 @@ msgstr ""
 "находится, вы сообщаете ему о Федерации, которой он теперь служит, и "
 "готовитесь к отлету."
 
-#: src-en/data/events_sector_duskbringer.xml:709
+#: src-en/data/events_sector_duskbringer.xml:720
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_DNA_INSIDE\"]/choice/event/choice[@req=\"pilot\"]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_duskbringer.xml:718
+#: src-en/data/events_sector_duskbringer.xml:729
 msgid "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_DNA_FIGHT\"]/text"
 msgstr ""
 "Когда вы покидаете объект, к вам приближается элитный корабль Вестников "
 "Заката, и раздается сигнал тревоги. Похоже, вы не так уж незаметны, как вам "
 "казалось!"
 
-#: src-en/data/events_sector_duskbringer.xml:721
+#: src-en/data/events_sector_duskbringer.xml:732
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_DNA_FIGHT\"]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_duskbringer.xml:732
+#: src-en/data/events_sector_duskbringer.xml:743
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"NEBULA_DUSK_INFILTRATION\"]/text"
 msgstr ""
@@ -1128,12 +1147,12 @@ msgstr ""
 "Вестников Заката! Не успели вы обдумать свои действия, как получили сигнал "
 "от замаскированного корабля, находящегося неподалеку."
 
-#: src-en/data/events_sector_duskbringer.xml:736
+#: src-en/data/events_sector_duskbringer.xml:747
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"NEBULA_DUSK_INFILTRATION\"]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_duskbringer.xml:738
+#: src-en/data/events_sector_duskbringer.xml:749
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"NEBULA_DUSK_INFILTRATION\"]/choice/event/text"
 msgstr ""
@@ -1152,12 +1171,12 @@ msgstr ""
 "Коалиция надеялась получить в рамках торговой сделки. Если вы поможете нам, "
 "я... э-э-э...\""
 
-#: src-en/data/events_sector_duskbringer.xml:740
+#: src-en/data/events_sector_duskbringer.xml:751
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"NEBULA_DUSK_INFILTRATION\"]/choice/event/choice/text"
 msgstr "Вы что?"
 
-#: src-en/data/events_sector_duskbringer.xml:742
+#: src-en/data/events_sector_duskbringer.xml:753
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"NEBULA_DUSK_INFILTRATION\"]/choice/event/choice/event/text"
 msgstr ""
@@ -1170,12 +1189,12 @@ msgstr ""
 "тайна. Именно это слизни из совета Коалиции называют тайной, так что "
 "молчите\"."
 
-#: src-en/data/events_sector_duskbringer.xml:744
+#: src-en/data/events_sector_duskbringer.xml:755
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"NEBULA_DUSK_INFILTRATION\"]/choice/event/choice/event/choice[1]/text"
 msgstr "Мы в деле."
 
-#: src-en/data/events_sector_duskbringer.xml:746
+#: src-en/data/events_sector_duskbringer.xml:757
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"NEBULA_DUSK_INFILTRATION\"]/choice/event/choice/event/choice[1]/event/text"
 msgstr ""
@@ -1184,12 +1203,12 @@ msgstr ""
 "поддержку, пока мы не закончим, либо вы можете отправить свою команду "
 "внутрь, пока мы будем помогать\"."
 
-#: src-en/data/events_sector_duskbringer.xml:748
+#: src-en/data/events_sector_duskbringer.xml:759
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"NEBULA_DUSK_INFILTRATION\"]/choice/event/choice/event/choice[1]/event/choice[1]/text"
 msgstr "Мы можем пойти на абордаж."
 
-#: src-en/data/events_sector_duskbringer.xml:750
+#: src-en/data/events_sector_duskbringer.xml:761
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"NEBULA_DUSK_INFILTRATION\"]/choice/event/choice/event/choice[1]/event/choice[1]/event/text"
 msgstr ""
@@ -1198,17 +1217,17 @@ msgstr ""
 "экипаж станции Вестников Заката, корабль Коалиции будет оказывать огневую "
 "поддержку."
 
-#: src-en/data/events_sector_duskbringer.xml:756
+#: src-en/data/events_sector_duskbringer.xml:767
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"NEBULA_DUSK_INFILTRATION\"]/choice/event/choice/event/choice[1]/event/choice[1]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_duskbringer.xml:762
+#: src-en/data/events_sector_duskbringer.xml:773
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"NEBULA_DUSK_INFILTRATION\"]/choice/event/choice/event/choice[1]/event/choice[2]/text"
 msgstr "Мы можем оказать огневую поддержку."
 
-#: src-en/data/events_sector_duskbringer.xml:764
+#: src-en/data/events_sector_duskbringer.xml:775
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"NEBULA_DUSK_INFILTRATION\"]/choice/event/choice/event/choice[1]/event/choice[2]/event/text"
 msgstr ""
@@ -1217,29 +1236,29 @@ msgstr ""
 "продержаться, не уничтожив ее, пока команда Коалиции не закончит свою "
 "миссию!"
 
-#: src-en/data/events_sector_duskbringer.xml:768
+#: src-en/data/events_sector_duskbringer.xml:779
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"NEBULA_DUSK_INFILTRATION\"]/choice/event/choice/event/choice[1]/event/choice[2]/event/triggeredEvent/triggeredEventBox/tooltip"
 msgstr "Время до окончания операции по захвату станции Коалицией."
 
-#: src-en/data/events_sector_duskbringer.xml:774
+#: src-en/data/events_sector_duskbringer.xml:785
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"NEBULA_DUSK_INFILTRATION\"]/choice/event/choice/event/choice[1]/event/choice[2]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_duskbringer.xml:782
+#: src-en/data/events_sector_duskbringer.xml:793
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"NEBULA_DUSK_INFILTRATION\"]/choice/event/choice/event/choice[2]/text"
 msgstr "Мы не работаем с Коалицией."
 
-#: src-en/data/events_sector_duskbringer.xml:784
+#: src-en/data/events_sector_duskbringer.xml:795
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"NEBULA_DUSK_INFILTRATION\"]/choice/event/choice/event/choice[2]/event/text"
 msgstr ""
 "Пиявка что-то ворчит по поводу \"типичности\", но больше ничего не говорит "
 "по этому поводу. Их корабль снова маскируется и вскоре улетает."
 
-#: src-en/data/events_sector_duskbringer.xml:796
+#: src-en/data/events_sector_duskbringer.xml:807
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_INFILTRATION_SUCCESS\"]/text"
 msgstr ""
@@ -1247,12 +1266,12 @@ msgstr ""
 "работа, первая часть работы выполнена. Пристыкуйтесь, а мы займемся поиском "
 "техники\"."
 
-#: src-en/data/events_sector_duskbringer.xml:800
+#: src-en/data/events_sector_duskbringer.xml:811
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_INFILTRATION_SUCCESS\"]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_duskbringer.xml:805
+#: src-en/data/events_sector_duskbringer.xml:816
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_INFILTRATION_SEARCH\"]/text"
 msgstr ""
@@ -1262,12 +1281,12 @@ msgstr ""
 "натыкаетесь на комнату с надписью \"лаборатория\", и это открытие, похоже, "
 "взволновало Коалицию не меньше, чем вас самих."
 
-#: src-en/data/events_sector_duskbringer.xml:807
+#: src-en/data/events_sector_duskbringer.xml:818
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_INFILTRATION_SEARCH\"]/choice[1]/text"
 msgstr "Открыть лабораторию."
 
-#: src-en/data/events_sector_duskbringer.xml:809
+#: src-en/data/events_sector_duskbringer.xml:820
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_INFILTRATION_SEARCH\"]/choice[1]/event/text"
 msgstr ""
@@ -1279,33 +1298,34 @@ msgstr ""
 "порежут на кусочки и выставят в назидание другим! Я не могу вернуться - вы "
 "должны взять меня с собой! Я могу быть полезен, я клянусь\"."
 
-#: src-en/data/events_sector_duskbringer.xml:810
+#: src-en/data/events_sector_duskbringer.xml:821
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_INFILTRATION_SEARCH\"]/choice[1]/event/crewMember"
 msgstr "Оден"
 
-#: src-en/data/events_sector_duskbringer.xml:814
+#: src-en/data/events_sector_duskbringer.xml:825
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_INFILTRATION_SEARCH\"]/choice[@req=\"sensors\"]/text"
 msgstr "(Продв. Сенсоры) Сканировать внутреннее пространство лаборатории."
 
-#: src-en/data/events_sector_duskbringer.xml:818
+#: src-en/data/events_sector_duskbringer.xml:829
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_INFILTRATION_SEARCH\"]/choice[@req=\"ADV_SCANNERS\"]/text"
 msgstr ""
 "(Сканеры дальнего действия) Сканировать внутренние помещения лаборатории."
 
-#: src-en/data/events_sector_duskbringer.xml:822
+#: src-en/data/events_sector_duskbringer.xml:833
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_INFILTRATION_SEARCH\"]/choice[@req=\"LIST_CREW_SLUG\"]/text"
 msgstr "(Член экипажа-слизень) Почувствовать наличие ловушки в лаборатории."
 
-#: src-en/data/events_sector_duskbringer.xml:826
+#: src-en/data/events_sector_duskbringer.xml:837
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_INFILTRATION_SEARCH\"]/choice[@req=\"BLUELIST_CREW_SNAIL\"]/text"
-msgstr "(Ракушка-Телепат) Почувствовать наличие ловушки в лаборатории."
+msgstr ""
+"(Член экипажа-ракушка-телепат) Почувствовать наличие ловушки в лаборатории."
 
-#: src-en/data/events_sector_duskbringer.xml:831
+#: src-en/data/events_sector_duskbringer.xml:842
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_INFILTRATION_LAB\"]/text"
 msgstr ""
@@ -1314,12 +1334,12 @@ msgstr ""
 "Чтобы пробраться внутрь, придется проявить изящество - иначе придется "
 "сообщать Коалиции плохие новости."
 
-#: src-en/data/events_sector_duskbringer.xml:833
+#: src-en/data/events_sector_duskbringer.xml:844
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_INFILTRATION_LAB\"]/choice[1]/text"
 msgstr "Нам не войти."
 
-#: src-en/data/events_sector_duskbringer.xml:835
+#: src-en/data/events_sector_duskbringer.xml:846
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_INFILTRATION_LAB\"]/choice[1]/event/text"
 msgstr ""
@@ -1329,22 +1349,22 @@ msgstr ""
 " куски и выставят в назидание другим! Я не могу вернуться - вы должны взять "
 "меня с собой! Я могу быть полезен, клянусь\"."
 
-#: src-en/data/events_sector_duskbringer.xml:836
+#: src-en/data/events_sector_duskbringer.xml:847
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_INFILTRATION_LAB\"]/choice[1]/event/crewMember"
 msgstr "Оден"
 
-#: src-en/data/events_sector_duskbringer.xml:840
+#: src-en/data/events_sector_duskbringer.xml:851
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_INFILTRATION_LAB\"]/choice[@req=\"LIST_CREW_ELITE\"]/text"
 msgstr "(Член экипажа-элита) Обезвредить бомбу."
 
-#: src-en/data/events_sector_duskbringer.xml:844
+#: src-en/data/events_sector_duskbringer.xml:855
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_INFILTRATION_LAB\"]/choice[@req=\"BLUELIST_CREW_NODOORS\"]/text"
 msgstr "(Бестелесный экипаж) Обезвредить бомбу."
 
-#: src-en/data/events_sector_duskbringer.xml:849
+#: src-en/data/events_sector_duskbringer.xml:860
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_INFILTRATION_TECH\"]/text"
 msgstr ""
@@ -1359,7 +1379,7 @@ msgstr ""
 "Пиявка смотрит на вас. \"Э-э... забудьте последнюю часть. Но сделка есть "
 "сделка. Мы разделим технологии\"."
 
-#: src-en/data/events_sector_duskbringer.xml:854
+#: src-en/data/events_sector_duskbringer.xml:865
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"NEBULA_DUSK_PRISONERS\"]/text"
 msgstr ""
@@ -1369,49 +1389,49 @@ msgstr ""
 "предположить, что в ней содержится много представителей Федерации и "
 "Министерства, а возможно, и несколько пленных с флота Вселенной 1."
 
-#: src-en/data/events_sector_duskbringer.xml:857
+#: src-en/data/events_sector_duskbringer.xml:868
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"NEBULA_DUSK_PRISONERS\"]/choice[1]/text"
 msgstr "Атаковать и освободить пленных!"
 
-#: src-en/data/events_sector_duskbringer.xml:861
+#: src-en/data/events_sector_duskbringer.xml:872
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"NEBULA_DUSK_PRISONERS\"]/choice[@req=\"teleporter\"]/text"
 msgstr "(Телепортатор) Проникнуть внутрь незамеченным."
 
-#: src-en/data/events_sector_duskbringer.xml:865
+#: src-en/data/events_sector_duskbringer.xml:876
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"NEBULA_DUSK_PRISONERS\"]/choice[@req=\"LOCKED_GLOBAL_TELEPORT\"]/text"
 msgstr "(Центр. Телепортатор) Проникнуть внутрь незамеченным."
 
-#: src-en/data/events_sector_duskbringer.xml:869
+#: src-en/data/events_sector_duskbringer.xml:880
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"NEBULA_DUSK_PRISONERS\"]/choice[@req=\"cloaking\"]/text"
 msgstr "(Маскировка) Замаскироваться и отправить экипаж внутрь незамеченным."
 
-#: src-en/data/events_sector_duskbringer.xml:873
+#: src-en/data/events_sector_duskbringer.xml:884
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"NEBULA_DUSK_PRISONERS\"]/choice[5]/text"
 msgstr "Мы не можем рисковать."
 
-#: src-en/data/events_sector_duskbringer.xml:875
+#: src-en/data/events_sector_duskbringer.xml:886
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"NEBULA_DUSK_PRISONERS\"]/choice[5]/event/text"
 msgstr ""
 "Как бы это ни было заманчиво, вы ни за что не сможете провернуть подобное. "
 "Вы оставляете тюрьму в прошлом."
 
-#: src-en/data/events_sector_duskbringer.xml:877
+#: src-en/data/events_sector_duskbringer.xml:888
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"NEBULA_DUSK_PRISONERS\"]/choice[5]/event/choice[1]/text"
 msgstr "Заняться чем-либо на корабле."
 
-#: src-en/data/events_sector_duskbringer.xml:881
+#: src-en/data/events_sector_duskbringer.xml:892
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"NEBULA_DUSK_PRISONERS\"]/choice[5]/event/choice[2]/text"
 msgstr "Ничего не делать."
 
-#: src-en/data/events_sector_duskbringer.xml:889
+#: src-en/data/events_sector_duskbringer.xml:900
 msgid ""
 "data/events_sector_duskbringer.xml$//eventList[@name=\"DUSK_PRISONERS_RISKY\"]/event[1]/text"
 msgstr ""
@@ -1419,34 +1439,34 @@ msgstr ""
 "Система защиты проделывает пробоину в вашем корабле, и солдаты поднимаются "
 "на борт, прежде чем вы успеваете отступить!"
 
-#: src-en/data/events_sector_duskbringer.xml:894
+#: src-en/data/events_sector_duskbringer.xml:905
 msgid ""
 "data/events_sector_duskbringer.xml$//eventList[@name=\"DUSK_PRISONERS_RISKY\"]/event[2]/text"
 msgstr ""
 "Это рискованно, но вам удается грубой силой обойти охрану и проникнуть "
 "внутрь здания."
 
-#: src-en/data/events_sector_duskbringer.xml:896
+#: src-en/data/events_sector_duskbringer.xml:907
 msgid ""
 "data/events_sector_duskbringer.xml$//eventList[@name=\"DUSK_PRISONERS_RISKY\"]/event[2]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_duskbringer.xml:902
+#: src-en/data/events_sector_duskbringer.xml:913
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_PRISONERS_SUCCESS\"]/text"
 msgstr ""
-"Ваши попытки проникнуть внутрь увенчались успехом. Как и ожидалось, в "
-"нескольких тюремных камерах содержатся самые разные заключенные: солдаты "
+"Ваши попытки проникнуть внутрь увенчались успехом. Как и следовало ожидать, "
+"в нескольких тюремных камерах содержатся самые разные заключенные: солдаты "
 "Федерации, офицеры повстанцев, сотрудники Министерства, и даже несколько "
 "энджи и группа Монахов Теократии! Пока вас не поймали охранники, у вас есть "
 "немного времени, но, возможно, вам удастся освободить парочку этих парней."
 
-#: src-en/data/events_sector_duskbringer.xml:904
+#: src-en/data/events_sector_duskbringer.xml:915
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_PRISONERS_SUCCESS\"]/choice[1]/text"
 msgstr "Спасти одного из Миротворцев Министерства."
 
-#: src-en/data/events_sector_duskbringer.xml:906
+#: src-en/data/events_sector_duskbringer.xml:917
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_PRISONERS_SUCCESS\"]/choice[1]/event/text"
 msgstr ""
@@ -1456,17 +1476,17 @@ msgstr ""
 "тут раздается сигнал тревоги, и вы слышите, как к вам направляются Вестники "
 "Заката. Времени на знакомство нет, нужно быстро убираться отсюда!"
 
-#: src-en/data/events_sector_duskbringer.xml:909
+#: src-en/data/events_sector_duskbringer.xml:920
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_PRISONERS_SUCCESS\"]/choice[1]/event/choice/text"
 msgstr "Уходим!"
 
-#: src-en/data/events_sector_duskbringer.xml:915
+#: src-en/data/events_sector_duskbringer.xml:926
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_PRISONERS_SUCCESS\"]/choice[2]/text"
 msgstr "Спасти одного из Медиков Федерации."
 
-#: src-en/data/events_sector_duskbringer.xml:917
+#: src-en/data/events_sector_duskbringer.xml:928
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_PRISONERS_SUCCESS\"]/choice[2]/event/text"
 msgstr ""
@@ -1478,17 +1498,17 @@ msgstr ""
 " вы слышите шаги приближающихся Вестников Заката. Времени на знакомство нет,"
 " нужно быстро убираться отсюда!"
 
-#: src-en/data/events_sector_duskbringer.xml:920
+#: src-en/data/events_sector_duskbringer.xml:931
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_PRISONERS_SUCCESS\"]/choice[2]/event/choice/text"
 msgstr "Уходим!"
 
-#: src-en/data/events_sector_duskbringer.xml:926
+#: src-en/data/events_sector_duskbringer.xml:937
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_PRISONERS_SUCCESS\"]/choice[3]/text"
 msgstr "Спасти одного из Крестоносцев Теократии."
 
-#: src-en/data/events_sector_duskbringer.xml:928
+#: src-en/data/events_sector_duskbringer.xml:939
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_PRISONERS_SUCCESS\"]/choice[3]/event/text"
 msgstr ""
@@ -1500,24 +1520,24 @@ msgstr ""
 "шаги приближающихся Вестников Заката. Времени на знакомство нет, нужно "
 "быстро убираться отсюда!"
 
-#: src-en/data/events_sector_duskbringer.xml:931
+#: src-en/data/events_sector_duskbringer.xml:942
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_PRISONERS_SUCCESS\"]/choice[3]/event/choice/text"
 msgstr "Уходим!"
 
-#: src-en/data/events_sector_duskbringer.xml:938
+#: src-en/data/events_sector_duskbringer.xml:949
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_PRISONERS_LEAVE\"]/text"
 msgstr ""
 "Когда вы покидаете тюрьму, к вам подлетает корабль Вестников Заката. Это "
 "элитные тюремщики, и они недовольны. Приготовьтесь к бою!"
 
-#: src-en/data/events_sector_duskbringer.xml:941
+#: src-en/data/events_sector_duskbringer.xml:952
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_PRISONERS_LEAVE\"]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_duskbringer.xml:962
+#: src-en/data/events_sector_duskbringer.xml:973
 msgid "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_YOUNG\"]/text"
 msgstr ""
 "Совсем юный Вестник Заката, возможно, даже еще не достигший совершеннолетия,"
@@ -1528,12 +1548,12 @@ msgstr ""
 "верным, самым смертоносным Вестником Заката на свете, ага? Разве ты не "
 "дрожишь от страха, ага?\""
 
-#: src-en/data/events_sector_duskbringer.xml:965
+#: src-en/data/events_sector_duskbringer.xml:976
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_YOUNG\"]/choice[1]/text"
 msgstr "Не слишком ли ты молод, чтобы быть солдатом?"
 
-#: src-en/data/events_sector_duskbringer.xml:967
+#: src-en/data/events_sector_duskbringer.xml:978
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_YOUNG\"]/choice[1]/event/text"
 msgstr ""
@@ -1542,12 +1562,12 @@ msgstr ""
 "будто они ничто. Иначе и быть не может! Я настоящий герой, и все меня любят,"
 " да? А теперь начинай дрожать, свинья!\""
 
-#: src-en/data/events_sector_duskbringer.xml:969
+#: src-en/data/events_sector_duskbringer.xml:980
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_YOUNG\"]/choice[1]/event/choice[1]/text"
 msgstr "Разве это делает тебя солдатом?"
 
-#: src-en/data/events_sector_duskbringer.xml:971
+#: src-en/data/events_sector_duskbringer.xml:982
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_YOUNG\"]/choice[1]/event/choice[1]/event/text"
 msgstr ""
@@ -1558,17 +1578,17 @@ msgstr ""
 "Хватит болтать, да? Я покажу тебе, что такое славное будущее на самом "
 "деле!\""
 
-#: src-en/data/events_sector_duskbringer.xml:974
+#: src-en/data/events_sector_duskbringer.xml:985
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_YOUNG\"]/choice[1]/event/choice[1]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_duskbringer.xml:980
+#: src-en/data/events_sector_duskbringer.xml:991
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_YOUNG\"]/choice[1]/event/choice[2]/text"
 msgstr "Притвориться, что вы боитесь."
 
-#: src-en/data/events_sector_duskbringer.xml:982
+#: src-en/data/events_sector_duskbringer.xml:993
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_YOUNG\"]/choice[1]/event/choice[2]/event/text"
 msgstr ""
@@ -1576,12 +1596,12 @@ msgstr ""
 "просто кучка трусов! Теперь мне тебя жалко, свинья. Вот, прими немного лома "
 "из жалости, почему бы и нет? Ха!\""
 
-#: src-en/data/events_sector_duskbringer.xml:984
+#: src-en/data/events_sector_duskbringer.xml:995
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_YOUNG\"]/choice[1]/event/choice[2]/event/choice[1]/text"
 msgstr "Взять лом."
 
-#: src-en/data/events_sector_duskbringer.xml:986
+#: src-en/data/events_sector_duskbringer.xml:997
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_YOUNG\"]/choice[1]/event/choice[2]/event/choice[1]/event/text"
 msgstr ""
@@ -1589,43 +1609,43 @@ msgstr ""
 "тебя, свинья!\" В голосе золтана чувствуется облегчение, как будто он рад, "
 "что ему не придется сражаться с вами."
 
-#: src-en/data/events_sector_duskbringer.xml:991
+#: src-en/data/events_sector_duskbringer.xml:1002
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_YOUNG\"]/choice[1]/event/choice[2]/event/choice[2]/text"
 msgstr "Ответить на оскорбление и сражаться!"
 
-#: src-en/data/events_sector_duskbringer.xml:993
+#: src-en/data/events_sector_duskbringer.xml:1004
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_YOUNG\"]/choice[1]/event/choice[2]/event/choice[2]/event/text"
 msgstr "\"Ну, теперь ты в полной жопе, свинья! Готовься встретить свой конец!\""
 
-#: src-en/data/events_sector_duskbringer.xml:996
+#: src-en/data/events_sector_duskbringer.xml:1007
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_YOUNG\"]/choice[1]/event/choice[2]/event/choice[2]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_duskbringer.xml:1006
+#: src-en/data/events_sector_duskbringer.xml:1017
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_YOUNG\"]/choice[2]/text"
 msgstr "Ничего не говорить и начать бой."
 
-#: src-en/data/events_sector_duskbringer.xml:1008
+#: src-en/data/events_sector_duskbringer.xml:1019
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_YOUNG\"]/choice[2]/event/text"
 msgstr ""
 "Нет смысла тратить на это время. Вы заряжаете оружие и готовитесь к бою."
 
-#: src-en/data/events_sector_duskbringer.xml:1011
+#: src-en/data/events_sector_duskbringer.xml:1022
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_YOUNG\"]/choice[2]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_duskbringer.xml:1017
+#: src-en/data/events_sector_duskbringer.xml:1028
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_YOUNG\"]/choice[@req=\"unique_devorak\"]/text"
 msgstr "(Деворак) Успокоить Вестника Заката."
 
-#: src-en/data/events_sector_duskbringer.xml:1019
+#: src-en/data/events_sector_duskbringer.xml:1030
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_YOUNG\"]/choice[@req=\"unique_devorak\"]/event/text"
 msgstr ""
@@ -1637,7 +1657,7 @@ msgstr ""
 "\n"
 "Ребенок кивает, его энтузиазм остыл. На мгновение он выглядит так, будто хочет присоединиться к вам, но Деворак качает головой. Вместо этого его экипаж отдает свой груз, включая орудие."
 
-#: src-en/data/events_sector_duskbringer.xml:1032
+#: src-en/data/events_sector_duskbringer.xml:1043
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_YOUNG_SURRENDER\"]/text"
 msgstr ""
@@ -1647,24 +1667,24 @@ msgstr ""
 " за тобой еще придут, скажу я тебе! Но поскольку ты доказал свою силу, я "
 "тебя пощажу!\""
 
-#: src-en/data/events_sector_duskbringer.xml:1034
+#: src-en/data/events_sector_duskbringer.xml:1045
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_YOUNG_SURRENDER\"]/choice[1]/text"
 msgstr "Согласиться, что вас нужно пощадить."
 
-#: src-en/data/events_sector_duskbringer.xml:1036
+#: src-en/data/events_sector_duskbringer.xml:1047
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_YOUNG_SURRENDER\"]/choice[1]/event/text"
 msgstr ""
 "\"Ах ты моя умница! В следующий раз думай, прежде чем забредать в "
 "пространство золтанов, слышишь? Здесь нет места для свиней, унял?!\""
 
-#: src-en/data/events_sector_duskbringer.xml:1042
+#: src-en/data/events_sector_duskbringer.xml:1053
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_YOUNG_SURRENDER\"]/choice[2]/text"
 msgstr "Ничего не говорить, но пощадить его."
 
-#: src-en/data/events_sector_duskbringer.xml:1044
+#: src-en/data/events_sector_duskbringer.xml:1055
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_YOUNG_SURRENDER\"]/choice[2]/event/text"
 msgstr ""
@@ -1672,12 +1692,12 @@ msgstr ""
 " Ты убийца, наемный убийца. А я - большая мишень, да? Если ты не возьмешь "
 "мои деньги, значит, ты меня пощадишь?\""
 
-#: src-en/data/events_sector_duskbringer.xml:1047
+#: src-en/data/events_sector_duskbringer.xml:1058
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_YOUNG_SURRENDER\"]/choice[2]/event/choice[1]/text"
 msgstr "Ты не Вестник Заката и не солдат. Ты просто ребенок."
 
-#: src-en/data/events_sector_duskbringer.xml:1049
+#: src-en/data/events_sector_duskbringer.xml:1060
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_YOUNG_SURRENDER\"]/choice[2]/event/choice[1]/event/text"
 msgstr ""
@@ -1690,14 +1710,14 @@ msgstr ""
 "да? Не думай, что это одолжение, свинья, просто это послужит мне на "
 "пользу\"."
 
-#: src-en/data/events_sector_duskbringer.xml:1054
+#: src-en/data/events_sector_duskbringer.xml:1065
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_YOUNG_SURRENDER\"]/choice[2]/event/choice[2]/text"
 msgstr ""
 "Польстить ему - ты слишком крупная цель, а я не хочу, чтобы за нами "
 "охотились Вестники Заката."
 
-#: src-en/data/events_sector_duskbringer.xml:1056
+#: src-en/data/events_sector_duskbringer.xml:1067
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_YOUNG_SURRENDER\"]/choice[2]/event/choice[2]/event/text"
 msgstr ""
@@ -1706,12 +1726,12 @@ msgstr ""
 "держаться вместе, я не позволю им, Вестникам Заката, быть слишком жестокими "
 "с тобой, да?\""
 
-#: src-en/data/events_sector_duskbringer.xml:1063
+#: src-en/data/events_sector_duskbringer.xml:1074
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_YOUNG_SURRENDER\"]/choice[3]/text"
 msgstr "Прикончить его."
 
-#: src-en/data/events_sector_duskbringer.xml:1069
+#: src-en/data/events_sector_duskbringer.xml:1080
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_SNEAKYREBEL\"]/text"
 msgstr ""
@@ -1719,22 +1739,22 @@ msgstr ""
 "Похоже, это корабль повстанцев Мультивселенной, пытающийся избежать "
 "обнаружения."
 
-#: src-en/data/events_sector_duskbringer.xml:1071
+#: src-en/data/events_sector_duskbringer.xml:1082
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_SNEAKYREBEL\"]/choice[1]/text"
 msgstr "Попытаться проследить за ними незамеченными."
 
-#: src-en/data/events_sector_duskbringer.xml:1075
+#: src-en/data/events_sector_duskbringer.xml:1086
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_SNEAKYREBEL\"]/choice[@req=\"cloaking\"]/text"
 msgstr "(Маскировка) Следовать за ними."
 
-#: src-en/data/events_sector_duskbringer.xml:1079
+#: src-en/data/events_sector_duskbringer.xml:1090
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_SNEAKYREBEL\"]/choice[3]/text"
 msgstr "Связаться с кораблем."
 
-#: src-en/data/events_sector_duskbringer.xml:1081
+#: src-en/data/events_sector_duskbringer.xml:1092
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_SNEAKYREBEL\"]/choice[3]/event/text"
 msgstr ""
@@ -1747,73 +1767,73 @@ msgstr ""
 "Вестников Заката в этом секторе. Мы могли бы выделить часть припасов, если "
 "это вас устроит\"."
 
-#: src-en/data/events_sector_duskbringer.xml:1084
+#: src-en/data/events_sector_duskbringer.xml:1095
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_SNEAKYREBEL\"]/choice[3]/event/choice[1]/text"
 msgstr "Принять взятку."
 
-#: src-en/data/events_sector_duskbringer.xml:1090
+#: src-en/data/events_sector_duskbringer.xml:1101
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_SNEAKYREBEL\"]/choice[3]/event/choice[2]/text"
 msgstr ""
 "Бывшие повстанцы или нет, мы не позволим, чтобы припасы попали в руки "
 "Вестников Заката!"
 
-#: src-en/data/events_sector_duskbringer.xml:1092
+#: src-en/data/events_sector_duskbringer.xml:1103
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_SNEAKYREBEL\"]/choice[3]/event/choice[2]/event/text"
 msgstr "Вы заряжаете оружие и готовитесь к бою."
 
-#: src-en/data/events_sector_duskbringer.xml:1095
+#: src-en/data/events_sector_duskbringer.xml:1106
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_SNEAKYREBEL\"]/choice[3]/event/choice[2]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_duskbringer.xml:1103
+#: src-en/data/events_sector_duskbringer.xml:1114
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_SNEAKYREBEL\"]/choice[4]/text"
 msgstr "Атаковать повстанцев."
 
-#: src-en/data/events_sector_duskbringer.xml:1105
+#: src-en/data/events_sector_duskbringer.xml:1116
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_SNEAKYREBEL\"]/choice[4]/event/text"
 msgstr ""
 "Капитан повстанцев пытается протестовать, когда вы включаете оружие, но уже "
 "слишком поздно. Вы уже прицелились и стреляете!"
 
-#: src-en/data/events_sector_duskbringer.xml:1108
+#: src-en/data/events_sector_duskbringer.xml:1119
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_SNEAKYREBEL\"]/choice[4]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_duskbringer.xml:1114
+#: src-en/data/events_sector_duskbringer.xml:1125
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_SNEAKYREBEL\"]/choice[5]/text"
 msgstr "Не обращать внимания на корабль повстанцев."
 
-#: src-en/data/events_sector_duskbringer.xml:1116
+#: src-en/data/events_sector_duskbringer.xml:1127
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_SNEAKYREBEL\"]/choice[5]/event/text"
 msgstr "Не стоит преследовать повстанцев на такой опасной территории."
 
-#: src-en/data/events_sector_duskbringer.xml:1118
+#: src-en/data/events_sector_duskbringer.xml:1129
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_SNEAKYREBEL\"]/choice[5]/event/choice[1]/text"
 msgstr "Заняться чем-либо на корабле."
 
-#: src-en/data/events_sector_duskbringer.xml:1122
+#: src-en/data/events_sector_duskbringer.xml:1133
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_SNEAKYREBEL\"]/choice[5]/event/choice[2]/text"
 msgstr "Ничего не делать."
 
-#: src-en/data/events_sector_duskbringer.xml:1131
+#: src-en/data/events_sector_duskbringer.xml:1142
 msgid ""
 "data/events_sector_duskbringer.xml$//eventList[@name=\"DUSK_SNEAKYREBEL_FOLLOW\"]/event[2]/text"
 msgstr ""
 "Ваша попытка преследовать повстанцев не увенчалась успехом. Вас легко "
 "заметили, и корабль тут же уходит в прыжок."
 
-#: src-en/data/events_sector_duskbringer.xml:1135
+#: src-en/data/events_sector_duskbringer.xml:1146
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_SNEAKYREBEL_FOLLOW_GOOD\"]/text"
 msgstr ""
@@ -1827,12 +1847,12 @@ msgstr ""
 "репродуктивными органами\". Похоже, они на самом деле часть местного "
 "Восстания, все еще пытающегося помочь Вестникам Заката."
 
-#: src-en/data/events_sector_duskbringer.xml:1137
+#: src-en/data/events_sector_duskbringer.xml:1148
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_SNEAKYREBEL_FOLLOW_GOOD\"]/choice[1]/text"
 msgstr "Подождать в стороне и попытаться украсть припасы."
 
-#: src-en/data/events_sector_duskbringer.xml:1139
+#: src-en/data/events_sector_duskbringer.xml:1150
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_SNEAKYREBEL_FOLLOW_GOOD\"]/choice[1]/event/text"
 msgstr ""
@@ -1840,17 +1860,17 @@ msgstr ""
 "попытаться украсть немного припасов. К сожалению, Вестников Заката оказались"
 " более подготовленными, чем вы думали, и пытаются защищаться!"
 
-#: src-en/data/events_sector_duskbringer.xml:1143
+#: src-en/data/events_sector_duskbringer.xml:1154
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_SNEAKYREBEL_FOLLOW_GOOD\"]/choice[1]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_duskbringer.xml:1149
+#: src-en/data/events_sector_duskbringer.xml:1160
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_SNEAKYREBEL_FOLLOW_GOOD\"]/choice[2]/text"
 msgstr "Уйти."
 
-#: src-en/data/events_sector_duskbringer.xml:1155
+#: src-en/data/events_sector_duskbringer.xml:1166
 msgid "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_HARASS\"]/text"
 msgstr ""
 "Патрульный корабль Вестников Заката задержал конвой Монахов, сопровождаемый "
@@ -1858,12 +1878,12 @@ msgstr ""
 "коммуникационным частотам, Вестники Заката используют присутствие корабля "
 "Министерства как возможность причинить вред Монахам."
 
-#: src-en/data/events_sector_duskbringer.xml:1158
+#: src-en/data/events_sector_duskbringer.xml:1169
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_HARASS\"]/choice[1]/text"
 msgstr "Защитить Монахов."
 
-#: src-en/data/events_sector_duskbringer.xml:1160
+#: src-en/data/events_sector_duskbringer.xml:1171
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_HARASS\"]/choice[1]/event/text"
 msgstr ""
@@ -1871,22 +1891,22 @@ msgstr ""
 "Монахов?\" Корабль Вестников Заката активировал защиту и приготовился к "
 "обороне."
 
-#: src-en/data/events_sector_duskbringer.xml:1163
+#: src-en/data/events_sector_duskbringer.xml:1174
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_HARASS\"]/choice[1]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_duskbringer.xml:1169
+#: src-en/data/events_sector_duskbringer.xml:1180
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_HARASS\"]/choice[2]/text"
 msgstr "Пригрозить Вестникам Заката, чтобы они отступили."
 
-#: src-en/data/events_sector_duskbringer.xml:1173
+#: src-en/data/events_sector_duskbringer.xml:1184
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_HARASS\"]/choice[@req=\"LIST_CREW_DUSK\"]/text"
 msgstr "(Член экипаж-Вестник Заката) Пристыдить Вестников Заката."
 
-#: src-en/data/events_sector_duskbringer.xml:1175
+#: src-en/data/events_sector_duskbringer.xml:1186
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_HARASS\"]/choice[@req=\"LIST_CREW_DUSK\"]/event/text"
 msgstr ""
@@ -1896,32 +1916,32 @@ msgstr ""
 "словам Солая?\" Остальные Вестники Заката в стыде склоняют головы и "
 "возвращаются на свой корабль без кровопролития."
 
-#: src-en/data/events_sector_duskbringer.xml:1177
+#: src-en/data/events_sector_duskbringer.xml:1188
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_HARASS\"]/choice[@req=\"LIST_CREW_DUSK\"]/event/choice/text"
 msgstr "Связаться с Монахами."
 
-#: src-en/data/events_sector_duskbringer.xml:1183
+#: src-en/data/events_sector_duskbringer.xml:1194
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_HARASS\"]/choice[4]/text"
 msgstr "Не обращать внимания на конвой."
 
-#: src-en/data/events_sector_duskbringer.xml:1185
+#: src-en/data/events_sector_duskbringer.xml:1196
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_HARASS\"]/choice[4]/event/text"
 msgstr "Это не ваша обязанность - идти защищать каких-то Монахов."
 
-#: src-en/data/events_sector_duskbringer.xml:1187
+#: src-en/data/events_sector_duskbringer.xml:1198
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_HARASS\"]/choice[4]/event/choice[1]/text"
 msgstr "Заняться чем-либо на корабле."
 
-#: src-en/data/events_sector_duskbringer.xml:1191
+#: src-en/data/events_sector_duskbringer.xml:1202
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_HARASS\"]/choice[4]/event/choice[2]/text"
 msgstr "Ничего не делать."
 
-#: src-en/data/events_sector_duskbringer.xml:1199
+#: src-en/data/events_sector_duskbringer.xml:1210
 msgid ""
 "data/events_sector_duskbringer.xml$//eventList[@name=\"DUSK_HARASS_THREAT\"]/event[1]/text"
 msgstr ""
@@ -1929,24 +1949,24 @@ msgstr ""
 " НАША территория, и мы решаем, кому сюда приходить и уходить! Никто не "
 "угрожает Вестникам Заката, особенно в нашем пространстве!\""
 
-#: src-en/data/events_sector_duskbringer.xml:1203
+#: src-en/data/events_sector_duskbringer.xml:1214
 msgid ""
 "data/events_sector_duskbringer.xml$//eventList[@name=\"DUSK_HARASS_THREAT\"]/event[1]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_duskbringer.xml:1208
+#: src-en/data/events_sector_duskbringer.xml:1219
 msgid ""
 "data/events_sector_duskbringer.xml$//eventList[@name=\"DUSK_HARASS_THREAT\"]/event[2]/text"
 msgstr ""
 "Напуганные тем, что их засекли, Вестники Заката тут же сдаются и дают жалкую"
 " взятку, после чего уходят в прыжок."
 
-#: src-en/data/events_sector_duskbringer.xml:1211
+#: src-en/data/events_sector_duskbringer.xml:1222
 msgid ""
 "data/events_sector_duskbringer.xml$//eventList[@name=\"DUSK_HARASS_THREAT\"]/event[2]/choice/text"
 msgstr "Связаться с Монахами."
 
-#: src-en/data/events_sector_duskbringer.xml:1218
+#: src-en/data/events_sector_duskbringer.xml:1229
 msgid ""
 "data/events_sector_duskbringer.xml$//eventList[@name=\"DUSK_HARASS_WIN\"]/event[1]/text"
 msgstr ""
@@ -1954,7 +1974,7 @@ msgstr ""
 "смог разобрать их слова. К счастью, один из сопровождавших их Миротворцев "
 "держится чуть более уверенно и предлагает вам вознаграждение за спасение."
 
-#: src-en/data/events_sector_duskbringer.xml:1222
+#: src-en/data/events_sector_duskbringer.xml:1233
 msgid ""
 "data/events_sector_duskbringer.xml$//eventList[@name=\"DUSK_HARASS_WIN\"]/event[2]/text"
 msgstr ""
@@ -1962,87 +1982,87 @@ msgstr ""
 "результате чего весь экипаж задохнулся. Оставшись без защиты, Монахам некуда"
 " идти, и они умоляют вас позволить им отправиться с вами."
 
-#: src-en/data/events_sector_duskbringer.xml:1228
+#: src-en/data/events_sector_duskbringer.xml:1239
 msgid "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_TEAMUP\"]/text"
 msgstr ""
 "Вы едва успели опомниться после прыжка со скоростью света, как вокруг маяка "
 "воцаряется полный хаос: корабль Вестников Заката, элиты повстанцев, валунов "
-"и золтан ведут бой."
+"и золтан находятся в разгаре боя."
 
-#: src-en/data/events_sector_duskbringer.xml:1230
+#: src-en/data/events_sector_duskbringer.xml:1241
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_TEAMUP\"]/choice[1]/text"
 msgstr "Сразиться с элитным кораблем повстанцев."
 
-#: src-en/data/events_sector_duskbringer.xml:1232
+#: src-en/data/events_sector_duskbringer.xml:1243
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_TEAMUP\"]/choice[1]/event/text"
 msgstr ""
 "Выстрелы раздаются со всех сторон, и вы присоединяетесь к хаотичной схватке,"
 " направляясь прямо к повстанцам."
 
-#: src-en/data/events_sector_duskbringer.xml:1237
+#: src-en/data/events_sector_duskbringer.xml:1248
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_TEAMUP\"]/choice[1]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_duskbringer.xml:1243
+#: src-en/data/events_sector_duskbringer.xml:1254
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_TEAMUP\"]/choice[2]/text"
 msgstr "Сразитесь с кораблем Вестников Заката."
 
-#: src-en/data/events_sector_duskbringer.xml:1245
+#: src-en/data/events_sector_duskbringer.xml:1256
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_TEAMUP\"]/choice[2]/event/text"
 msgstr ""
 "Выстрелы раздаются со всех сторон, и вы присоединяетесь к хаотичной схватке,"
 " направляясь прямо к Вестникам Заката."
 
-#: src-en/data/events_sector_duskbringer.xml:1250
+#: src-en/data/events_sector_duskbringer.xml:1261
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_TEAMUP\"]/choice[2]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_duskbringer.xml:1256
+#: src-en/data/events_sector_duskbringer.xml:1267
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_TEAMUP\"]/choice[3]/text"
 msgstr "Сразиться с кораблем золтан."
 
-#: src-en/data/events_sector_duskbringer.xml:1258
+#: src-en/data/events_sector_duskbringer.xml:1269
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_TEAMUP\"]/choice[3]/event/text"
 msgstr ""
 "Выстрелы раздаются со всех сторон, и вы присоединяетесь к хаотичной схватке,"
 " направляясь прямо к золтанам."
 
-#: src-en/data/events_sector_duskbringer.xml:1263
+#: src-en/data/events_sector_duskbringer.xml:1274
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_TEAMUP\"]/choice[3]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_duskbringer.xml:1269
+#: src-en/data/events_sector_duskbringer.xml:1280
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_TEAMUP\"]/choice[4]/text"
 msgstr "Сразиться с кораблем валунов."
 
-#: src-en/data/events_sector_duskbringer.xml:1271
+#: src-en/data/events_sector_duskbringer.xml:1282
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_TEAMUP\"]/choice[4]/event/text"
 msgstr ""
 "Выстрелы раздаются со всех сторон, и вы присоединяетесь к хаотичной схватке,"
 " направляясь прямо к валунам."
 
-#: src-en/data/events_sector_duskbringer.xml:1276
+#: src-en/data/events_sector_duskbringer.xml:1287
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_TEAMUP\"]/choice[4]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_duskbringer.xml:1282
+#: src-en/data/events_sector_duskbringer.xml:1293
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_TEAMUP\"]/choice[5]/text"
 msgstr "Свалить отсюда."
 
-#: src-en/data/events_sector_duskbringer.xml:1284
+#: src-en/data/events_sector_duskbringer.xml:1295
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_TEAMUP\"]/choice[5]/event/text"
 msgstr ""
@@ -2050,7 +2070,7 @@ msgstr ""
 " в конце концов вы оказываетесь достаточно далеко, чтобы они не могли вас "
 "достать."
 
-#: src-en/data/events_sector_duskbringer.xml:1289
+#: src-en/data/events_sector_duskbringer.xml:1300
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_TEAMUP_REBEL\"]/text"
 msgstr ""
@@ -2059,7 +2079,7 @@ msgstr ""
 "возможность, а корабли золтан и валунов благодарят вас. Золтаны занимаются "
 "ремонтом вашего корпуса, а валуны дарят вам боеголовки."
 
-#: src-en/data/events_sector_duskbringer.xml:1298
+#: src-en/data/events_sector_duskbringer.xml:1309
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_TEAMUP_DUSK\"]/text"
 msgstr ""
@@ -2069,7 +2089,7 @@ msgstr ""
 "Золтаны и валуны благодарят вас за помощь и совместными усилиями ремонтируют"
 " корпус корабля."
 
-#: src-en/data/events_sector_duskbringer.xml:1304
+#: src-en/data/events_sector_duskbringer.xml:1315
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_TEAMUP_ZOLTAN\"]/text"
 msgstr ""
@@ -2083,7 +2103,7 @@ msgstr ""
 "деле, скорее всего, они будут ходить кругами в течение нескольких прыжков\"."
 " Вы удивлены готовностью повстанца помочь, но с радостью принимаете ее."
 
-#: src-en/data/events_sector_duskbringer.xml:1310
+#: src-en/data/events_sector_duskbringer.xml:1321
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_TEAMUP_ROCK\"]/text"
 msgstr ""
@@ -2101,41 +2121,41 @@ msgstr ""
 "прыжков\". Вы удивлены готовностью повстанцев помочь, но с радостью "
 "принимаете ее."
 
-#: src-en/data/events_sector_duskbringer.xml:1317
+#: src-en/data/events_sector_duskbringer.xml:1328
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_PIRATES_HIDING\"]/text"
 msgstr ""
 "Группа пиратов спряталась от, кажется, бесконечных патрулей Вестников Заката"
 " в тени маленькой луны. Вы сомневаетесь, что они вас видят."
 
-#: src-en/data/events_sector_duskbringer.xml:1320
+#: src-en/data/events_sector_duskbringer.xml:1331
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_PIRATES_HIDING\"]/choice[1]/text"
 msgstr "Связаться с пиратами."
 
-#: src-en/data/events_sector_duskbringer.xml:1324
+#: src-en/data/events_sector_duskbringer.xml:1335
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_PIRATES_HIDING\"]/choice[2]/text"
 msgstr "Не обращать на них внимания."
 
-#: src-en/data/events_sector_duskbringer.xml:1326
+#: src-en/data/events_sector_duskbringer.xml:1337
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_PIRATES_HIDING\"]/choice[2]/event/text"
 msgstr ""
 "Пираты не выходят из своего укрытия. Вы решаете, что можно заняться чем-"
 "нибудь другим, но на всякий случай присматриваете за ними."
 
-#: src-en/data/events_sector_duskbringer.xml:1328
+#: src-en/data/events_sector_duskbringer.xml:1339
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_PIRATES_HIDING\"]/choice[2]/event/choice[1]/text"
 msgstr "Заняться чем-либо на корабле."
 
-#: src-en/data/events_sector_duskbringer.xml:1332
+#: src-en/data/events_sector_duskbringer.xml:1343
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_PIRATES_HIDING\"]/choice[2]/event/choice[2]/text"
 msgstr "Ничего не делать."
 
-#: src-en/data/events_sector_duskbringer.xml:1340
+#: src-en/data/events_sector_duskbringer.xml:1351
 msgid ""
 "data/events_sector_duskbringer.xml$//eventList[@name=\"DUSK_PIRATES_HIDING_CONTACT\"]/event[1]/text"
 msgstr ""
@@ -2144,41 +2164,41 @@ msgstr ""
 "выжить с этими взрывоопасными нацистскими уродами, не хватало еще и с тобой "
 "возиться!\""
 
-#: src-en/data/events_sector_duskbringer.xml:1343
+#: src-en/data/events_sector_duskbringer.xml:1354
 msgid ""
 "data/events_sector_duskbringer.xml$//eventList[@name=\"DUSK_PIRATES_HIDING_CONTACT\"]/event[1]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_duskbringer.xml:1348
+#: src-en/data/events_sector_duskbringer.xml:1359
 msgid ""
 "data/events_sector_duskbringer.xml$//eventList[@name=\"DUSK_PIRATES_HIDING_CONTACT\"]/event[2]/text"
 msgstr ""
 "Удивительно, но никто из пиратов не шелохнулся при вашем приближении. Один "
 "из них обратился к вам, требуя сообщить о своих намерениях."
 
-#: src-en/data/events_sector_duskbringer.xml:1350
+#: src-en/data/events_sector_duskbringer.xml:1361
 msgid ""
 "data/events_sector_duskbringer.xml$//eventList[@name=\"DUSK_PIRATES_HIDING_CONTACT\"]/event[2]/choice[1]/text"
 msgstr "Атаковать!"
 
-#: src-en/data/events_sector_duskbringer.xml:1352
+#: src-en/data/events_sector_duskbringer.xml:1363
 msgid ""
 "data/events_sector_duskbringer.xml$//eventList[@name=\"DUSK_PIRATES_HIDING_CONTACT\"]/event[2]/choice[1]/event/text"
 msgstr ""
 "Большинство пиратов убегают, не желая вступать в бой с большим крейсером, но"
 " один остается, уверенный в своей способности уничтожить вас."
 
-#: src-en/data/events_sector_duskbringer.xml:1355
+#: src-en/data/events_sector_duskbringer.xml:1366
 msgid ""
 "data/events_sector_duskbringer.xml$//eventList[@name=\"DUSK_PIRATES_HIDING_CONTACT\"]/event[2]/choice[1]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_duskbringer.xml:1361
+#: src-en/data/events_sector_duskbringer.xml:1372
 msgid ""
 "data/events_sector_duskbringer.xml$//eventList[@name=\"DUSK_PIRATES_HIDING_CONTACT\"]/event[2]/choice[2]/text"
 msgstr "Предложить поторговать."
 
-#: src-en/data/events_sector_duskbringer.xml:1363
+#: src-en/data/events_sector_duskbringer.xml:1374
 msgid ""
 "data/events_sector_duskbringer.xml$//eventList[@name=\"DUSK_PIRATES_HIDING_CONTACT\"]/event[2]/choice[2]/event/text"
 msgstr ""
@@ -2189,7 +2209,7 @@ msgstr ""
 "подозрительном, мы разнесем вас в пух и прах\". Вы считаете иронией то, что "
 "это говорят пираты, но соглашаетесь на их условия."
 
-#: src-en/data/events_sector_duskbringer.xml:1371
+#: src-en/data/events_sector_duskbringer.xml:1382
 msgid "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_IDIOT\"]/text"
 msgstr ""
 "Корабль Вестников Заката, находящийся неподалеку, вызывает вас по связи. "
@@ -2198,29 +2218,29 @@ msgstr ""
 "Федерации здесь не рады! Вы нарушаете протокол... э-э... ну, вы нарушаете "
 "один из них. Вы ведь корабль Федерации, верно?\""
 
-#: src-en/data/events_sector_duskbringer.xml:1374
+#: src-en/data/events_sector_duskbringer.xml:1385
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_IDIOT\"]/choice[1]/text"
 msgstr "Да."
 
-#: src-en/data/events_sector_duskbringer.xml:1376
+#: src-en/data/events_sector_duskbringer.xml:1387
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_IDIOT\"]/choice[1]/event/text"
 msgstr ""
 "\"Отлично! Это мой шанс проявить себя после моей последней ошибки! Деворак "
 "будет очень рад!\" Он заряжает свое оружие и атакует."
 
-#: src-en/data/events_sector_duskbringer.xml:1379
+#: src-en/data/events_sector_duskbringer.xml:1390
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_IDIOT\"]/choice[1]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_duskbringer.xml:1385
+#: src-en/data/events_sector_duskbringer.xml:1396
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_IDIOT\"]/choice[2]/text"
 msgstr "Нет."
 
-#: src-en/data/events_sector_duskbringer.xml:1387
+#: src-en/data/events_sector_duskbringer.xml:1398
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_IDIOT\"]/choice[2]/event/text"
 msgstr ""
@@ -2228,22 +2248,22 @@ msgstr ""
 "Вы подозреваете, что это может быть какой-то фокус, но ничего не происходит."
 " Вот идиот."
 
-#: src-en/data/events_sector_duskbringer.xml:1390
+#: src-en/data/events_sector_duskbringer.xml:1401
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_IDIOT\"]/choice[2]/event/choice[1]/text"
 msgstr "Заняться чем-либо на корабле."
 
-#: src-en/data/events_sector_duskbringer.xml:1394
+#: src-en/data/events_sector_duskbringer.xml:1405
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_IDIOT\"]/choice[2]/event/choice[2]/text"
 msgstr "Ничего не делать."
 
-#: src-en/data/events_sector_duskbringer.xml:1400
+#: src-en/data/events_sector_duskbringer.xml:1411
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_IDIOT\"]/choice[@req=\"unique_devorak\"]/text"
 msgstr "(Деворак) \"Здесь важно не это\"."
 
-#: src-en/data/events_sector_duskbringer.xml:1402
+#: src-en/data/events_sector_duskbringer.xml:1413
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_IDIOT\"]/choice[@req=\"unique_devorak\"]/event/text"
 msgstr ""
@@ -2255,7 +2275,7 @@ msgstr ""
 "\t\t\t\n"
 "\"Тогда перестань умирать ради службы. Живи и делай то, что тебе нравится\". Со слезами на глазах Вестник Заката кивает. Его корабль передает своему кумиру в подарок лом."
 
-#: src-en/data/events_sector_duskbringer.xml:1426
+#: src-en/data/events_sector_duskbringer.xml:1437
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_JAILER_CHOICE\"]/text"
 msgstr ""
@@ -2264,29 +2284,29 @@ msgstr ""
 " заключенных. Один из таких кораблей сделал здесь небольшую остановку и "
 "проводит повторную калибровку своих сенсоров."
 
-#: src-en/data/events_sector_duskbringer.xml:1429
+#: src-en/data/events_sector_duskbringer.xml:1440
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_JAILER_CHOICE\"]/choice[1]/text"
 msgstr "Атакуем, пока они отвлечены!"
 
-#: src-en/data/events_sector_duskbringer.xml:1431
+#: src-en/data/events_sector_duskbringer.xml:1442
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_JAILER_CHOICE\"]/choice[1]/event/text"
 msgstr ""
 "Вы отправляетесь на уничтожение тюремщика, зная, что для того, чтобы "
 "заключенные остались живы, вам придется убить его экипаж."
 
-#: src-en/data/events_sector_duskbringer.xml:1434
+#: src-en/data/events_sector_duskbringer.xml:1445
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_JAILER_CHOICE\"]/choice[1]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_duskbringer.xml:1440
+#: src-en/data/events_sector_duskbringer.xml:1451
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_JAILER_CHOICE\"]/choice[@req=\"FIREARMS_AND_TELEPORT\"]/text"
 msgstr "(Арсенал + Телепортатор) Штурмовать тюремщика."
 
-#: src-en/data/events_sector_duskbringer.xml:1442
+#: src-en/data/events_sector_duskbringer.xml:1453
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_JAILER_CHOICE\"]/choice[@req=\"FIREARMS_AND_TELEPORT\"]/event/text"
 msgstr ""
@@ -2295,27 +2315,27 @@ msgstr ""
 "Превратив тюремщиков в пленников, вы освобождаете всех запертых, кто, по "
 "вашему мнению, не убьет вас сразу."
 
-#: src-en/data/events_sector_duskbringer.xml:1447
+#: src-en/data/events_sector_duskbringer.xml:1458
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_JAILER_CHOICE\"]/choice[3]/text"
 msgstr "Избегать тюремщика."
 
-#: src-en/data/events_sector_duskbringer.xml:1449
+#: src-en/data/events_sector_duskbringer.xml:1460
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_JAILER_CHOICE\"]/choice[3]/event/text"
 msgstr "Тюремщики, кажется, не замечают, как вы уходите."
 
-#: src-en/data/events_sector_duskbringer.xml:1451
+#: src-en/data/events_sector_duskbringer.xml:1462
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_JAILER_CHOICE\"]/choice[3]/event/choice[1]/text"
 msgstr "Заняться чем-либо на корабле."
 
-#: src-en/data/events_sector_duskbringer.xml:1455
+#: src-en/data/events_sector_duskbringer.xml:1466
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_JAILER_CHOICE\"]/choice[3]/event/choice[2]/text"
 msgstr "Ничего не делать."
 
-#: src-en/data/events_sector_duskbringer.xml:1462
+#: src-en/data/events_sector_duskbringer.xml:1473
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_JAILER_KILL\"]/text"
 msgstr ""
@@ -2323,7 +2343,7 @@ msgstr ""
 " взрыва. Вы собираете все полезное с обломков и стараетесь избегать "
 "плавающих в космическом пространстве трупов."
 
-#: src-en/data/events_sector_duskbringer.xml:1466
+#: src-en/data/events_sector_duskbringer.xml:1477
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_JAILER_CAPTURE\"]/text"
 msgstr ""
@@ -2331,7 +2351,7 @@ msgstr ""
 "из них требуют, чтобы их высадили, как только вы покинете оплот, но один "
 "добровольно согласился остаться и работать на борту вашего корабля."
 
-#: src-en/data/events_sector_duskbringer.xml:1485
+#: src-en/data/events_sector_duskbringer.xml:1496
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_MONASTERY\"]/text"
 msgstr ""
@@ -2341,30 +2361,30 @@ msgstr ""
 "главной мишенью для врагов. Группа пиратов захватила монастырь в заложники, "
 "и эскадрилья Вестников Заката пытается договориться об их освобождении."
 
-#: src-en/data/events_sector_duskbringer.xml:1487
+#: src-en/data/events_sector_duskbringer.xml:1498
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_MONASTERY\"]/choice[1]/text"
 msgstr ""
 "Помочь пиратам удержать контроль над станцией и дать отпор Вестникам Заката."
 
-#: src-en/data/events_sector_duskbringer.xml:1489
+#: src-en/data/events_sector_duskbringer.xml:1500
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_MONASTERY\"]/choice[1]/event/text"
 msgstr ""
 "Ваше вмешательство приводит к хаосу, и вскоре пираты и Вестники Заката "
 "набрасываются друг на друга. Вы нападаете на ближайший корабль."
 
-#: src-en/data/events_sector_duskbringer.xml:1492
+#: src-en/data/events_sector_duskbringer.xml:1503
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_MONASTERY\"]/choice[1]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_duskbringer.xml:1498
+#: src-en/data/events_sector_duskbringer.xml:1509
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_MONASTERY\"]/choice[2]/text"
 msgstr "Помочь Вестникам Заката отбить монастырь у пиратов."
 
-#: src-en/data/events_sector_duskbringer.xml:1500
+#: src-en/data/events_sector_duskbringer.xml:1511
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_MONASTERY\"]/choice[2]/event/text"
 msgstr ""
@@ -2372,34 +2392,34 @@ msgstr ""
 "Вестники Заката в замешательстве, но понимают, что у них нет другого выхода,"
 " кроме как сражаться, и вскоре обе стороны оказываются втянуты в бой."
 
-#: src-en/data/events_sector_duskbringer.xml:1503
+#: src-en/data/events_sector_duskbringer.xml:1514
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_MONASTERY\"]/choice[2]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_duskbringer.xml:1509
+#: src-en/data/events_sector_duskbringer.xml:1520
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_MONASTERY\"]/choice[3]/text"
 msgstr "Не вмешиваться."
 
-#: src-en/data/events_sector_duskbringer.xml:1511
+#: src-en/data/events_sector_duskbringer.xml:1522
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_MONASTERY\"]/choice[3]/event/text"
 msgstr ""
 "Не стоит ввязываться в такие дела, особенно когда ни одна из сторон не "
 "является вашим другом. Вы незаметно уходите."
 
-#: src-en/data/events_sector_duskbringer.xml:1513
+#: src-en/data/events_sector_duskbringer.xml:1524
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_MONASTERY\"]/choice[3]/event/choice[1]/text"
 msgstr "Заняться чем-либо на корабле."
 
-#: src-en/data/events_sector_duskbringer.xml:1517
+#: src-en/data/events_sector_duskbringer.xml:1528
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_MONASTERY\"]/choice[3]/event/choice[2]/text"
 msgstr "Ничего не делать."
 
-#: src-en/data/events_sector_duskbringer.xml:1524
+#: src-en/data/events_sector_duskbringer.xml:1535
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_MONASTERY_PIRATE_WIN\"]/text"
 msgstr ""
@@ -2407,12 +2427,12 @@ msgstr ""
 "крутое зрелище. Вы получили мою признательность и мое уважение, капитан. "
 "Итак, что вы хотите?\""
 
-#: src-en/data/events_sector_duskbringer.xml:1526
+#: src-en/data/events_sector_duskbringer.xml:1537
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_MONASTERY_PIRATE_WIN\"]/choice[1]/text"
 msgstr "Освободить Монахов."
 
-#: src-en/data/events_sector_duskbringer.xml:1528
+#: src-en/data/events_sector_duskbringer.xml:1539
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_MONASTERY_PIRATE_WIN\"]/choice[1]/event/text"
 msgstr ""
@@ -2423,12 +2443,12 @@ msgstr ""
 " высадить их у ближайшего святого места. Большинство соглашается, но один из"
 " младших Монахов просит присоединиться к вашей команде."
 
-#: src-en/data/events_sector_duskbringer.xml:1533
+#: src-en/data/events_sector_duskbringer.xml:1544
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_MONASTERY_PIRATE_WIN\"]/choice[2]/text"
 msgstr "Нам нужна часть ценных вещей Монахов."
 
-#: src-en/data/events_sector_duskbringer.xml:1535
+#: src-en/data/events_sector_duskbringer.xml:1546
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_MONASTERY_PIRATE_WIN\"]/choice[2]/event/text"
 msgstr ""
@@ -2436,7 +2456,7 @@ msgstr ""
 "заложниках, договоримся с их правительством о настоящей адской награде. "
 "Побалуемся с их казной\"."
 
-#: src-en/data/events_sector_duskbringer.xml:1541
+#: src-en/data/events_sector_duskbringer.xml:1552
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_MONASTERY_DUSK_WIN\"]/text"
 msgstr ""
@@ -2444,12 +2464,12 @@ msgstr ""
 "обращаетесь к их лидеру. \"Да... да. Вы продемонстрировали свое мастерство, "
 "но я не думаю, что это было сделано по доброй воле. Чего вы хотите?\""
 
-#: src-en/data/events_sector_duskbringer.xml:1543
+#: src-en/data/events_sector_duskbringer.xml:1554
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_MONASTERY_DUSK_WIN\"]/choice[1]/text"
 msgstr "Передайте повстанцам ложную информацию о нашем местонахождении."
 
-#: src-en/data/events_sector_duskbringer.xml:1545
+#: src-en/data/events_sector_duskbringer.xml:1556
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_MONASTERY_DUSK_WIN\"]/choice[1]/event/text"
 msgstr ""
@@ -2457,12 +2477,12 @@ msgstr ""
 "Вестник Заката соглашается. Остается надеяться, что он действительно солжет,"
 " а не просто сдаст вас."
 
-#: src-en/data/events_sector_duskbringer.xml:1550
+#: src-en/data/events_sector_duskbringer.xml:1561
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_MONASTERY_DUSK_WIN\"]/choice[2]/text"
 msgstr "Нам нужны военные припасы."
 
-#: src-en/data/events_sector_duskbringer.xml:1552
+#: src-en/data/events_sector_duskbringer.xml:1563
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_MONASTERY_DUSK_WIN\"]/choice[2]/event/text"
 msgstr ""
@@ -2470,7 +2490,7 @@ msgstr ""
 "а не дарить его\". Он неохотно передает одно из своих орудий и немного "
 "боеголовок."
 
-#: src-en/data/events_sector_duskbringer.xml:1561
+#: src-en/data/events_sector_duskbringer.xml:1572
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_DAMAGEDFLEET\"]/text"
 msgstr ""
@@ -2479,45 +2499,45 @@ msgstr ""
 "критические повреждения, значительная часть корабля полностью "
 "разгерметизирована."
 
-#: src-en/data/events_sector_duskbringer.xml:1564
+#: src-en/data/events_sector_duskbringer.xml:1575
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_DAMAGEDFLEET\"]/choice[1]/text"
 msgstr "Пристыковаться и постараться помочь."
 
-#: src-en/data/events_sector_duskbringer.xml:1566
+#: src-en/data/events_sector_duskbringer.xml:1577
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_DAMAGEDFLEET\"]/choice[1]/event/text"
 msgstr ""
 "Капитан корабля золтанов быстро встречает вас в просторном ангаре. "
-"\"Отлично, прибыло подкрепление. Министр золтан отправил несколько небольших"
-" флотов в сектора Вестников Заката, чтобы обеспечить контроль над ними. Мы и"
-" не думали, что они так сильно окрепли, и они уничтожили наш флот с пугающей"
-" эффективностью. Мы остались единственным кораблем, и то ненадолго, если мы "
-"не проведем ремонт. Наши медицинские системы и системы жизнеобеспечения "
-"сильно повреждены, но не полностью уничтожены. Еще есть надежда починить их,"
-" но путь к ним полностью лишен кислорода и, возможно, там еще бродят "
-"враги\"."
+"\"Отлично, прибыло подкрепление. Министерство золтан отправило несколько "
+"небольших флотов в сектора Вестников Заката, чтобы обеспечить контроль над "
+"ними. Мы и не думали, что они так сильно окрепли, и они уничтожили наш флот "
+"с пугающей эффективностью. Мы остались единственным кораблем, и то "
+"ненадолго, если мы не проведем ремонт. Наши медицинские системы и системы "
+"жизнеобеспечения сильно повреждены, но не полностью уничтожены. Еще есть "
+"надежда починить их, но путь к ним полностью лишен кислорода и, возможно, "
+"там еще бродят враги\"."
 
-#: src-en/data/events_sector_duskbringer.xml:1568
+#: src-en/data/events_sector_duskbringer.xml:1579
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_DAMAGEDFLEET\"]/choice[1]/event/choice[@req=\"LIST_CHECK_ANY_CREW\""
 " and @lvl=\"1\"]/text"
 msgstr "Отправить экипаж для ремонта системы жизнеобеспечения."
 
-#: src-en/data/events_sector_duskbringer.xml:1572
+#: src-en/data/events_sector_duskbringer.xml:1583
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_DAMAGEDFLEET\"]/choice[1]/event/choice[@req=\"LIST_CHECK_ANY_CREW\""
 " and @lvl=\"0\"]/text"
-msgstr "Для проведения ремонтных работ у вас нету экипажа."
+msgstr "Для проведения ремонтных работ у вас нет экипажа."
 
-#: src-en/data/events_sector_duskbringer.xml:1576
+#: src-en/data/events_sector_duskbringer.xml:1587
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_DAMAGEDFLEET\"]/choice[1]/event/choice[@req=\"BLUELIST_CREW_NO2\"]/text"
 msgstr ""
 "(Анаэробный экипаж) Отправить члена экипажа для ремонта системы "
 "жизнеобеспечения."
 
-#: src-en/data/events_sector_duskbringer.xml:1578
+#: src-en/data/events_sector_duskbringer.xml:1589
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_DAMAGEDFLEET\"]/choice[1]/event/choice[@req=\"BLUELIST_CREW_NO2\"]/event/text"
 msgstr ""
@@ -2528,14 +2548,14 @@ msgstr ""
 "капитан корабля золтанов благодарит вас за помощь и выплачивает вам большое "
 "вознаграждение."
 
-#: src-en/data/events_sector_duskbringer.xml:1583
+#: src-en/data/events_sector_duskbringer.xml:1594
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_DAMAGEDFLEET\"]/choice[1]/event/choice[@req=\"zoltan_osmian\"]/text"
 msgstr ""
 "(Член экипажа-осмианец) Отправить голограмму для ремонта системы "
 "жизнеобеспечения."
 
-#: src-en/data/events_sector_duskbringer.xml:1585
+#: src-en/data/events_sector_duskbringer.xml:1596
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_DAMAGEDFLEET\"]/choice[1]/event/choice[@req=\"zoltan_osmian\"]/event/text"
 msgstr ""
@@ -2546,13 +2566,13 @@ msgstr ""
 "капитан корабля золтанов благодарит вас за помощь и выплачивает вам большое "
 "вознаграждение."
 
-#: src-en/data/events_sector_duskbringer.xml:1590
+#: src-en/data/events_sector_duskbringer.xml:1601
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_DAMAGEDFLEET\"]/choice[1]/event/choice[@req=\"DRONE_CONTROL_REPAIR_CREW\"]/text"
 msgstr ""
 "(Дрон-ремонтник) Отправить свой дрон для ремонта системы жизнеобеспечения."
 
-#: src-en/data/events_sector_duskbringer.xml:1592
+#: src-en/data/events_sector_duskbringer.xml:1603
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_DAMAGEDFLEET\"]/choice[1]/event/choice[@req=\"DRONE_CONTROL_REPAIR_CREW\"]/event/text"
 msgstr ""
@@ -2563,14 +2583,14 @@ msgstr ""
 "капитан корабля золтанов благодарит вас за помощь и выплачивает вам большое "
 "вознаграждение."
 
-#: src-en/data/events_sector_duskbringer.xml:1597
+#: src-en/data/events_sector_duskbringer.xml:1608
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_DAMAGEDFLEET\"]/choice[1]/event/choice[6]/text"
 msgstr ""
 "Мы не можем помочь с ремонтом, но мы можем перевезти как можно больше членов"
 " экипажа на нашем корабле."
 
-#: src-en/data/events_sector_duskbringer.xml:1599
+#: src-en/data/events_sector_duskbringer.xml:1610
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_DAMAGEDFLEET\"]/choice[1]/event/choice[6]/event/text"
 msgstr ""
@@ -2580,12 +2600,12 @@ msgstr ""
 "не отплатить за нее. Я не выполнил свой долг в этом секторе, но, возможно, я"
 " смогу помочь вам выполнить свой\"."
 
-#: src-en/data/events_sector_duskbringer.xml:1606
+#: src-en/data/events_sector_duskbringer.xml:1617
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_DAMAGEDFLEET\"]/choice[2]/text"
 msgstr "Не обращать внимания на корабль флота."
 
-#: src-en/data/events_sector_duskbringer.xml:1608
+#: src-en/data/events_sector_duskbringer.xml:1619
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_DAMAGEDFLEET\"]/choice[2]/event/text"
 msgstr ""
@@ -2593,17 +2613,17 @@ msgstr ""
 "сопровождения хотя бы небольшого флота. Подкрепление, вероятно, скоро "
 "прибудет."
 
-#: src-en/data/events_sector_duskbringer.xml:1610
+#: src-en/data/events_sector_duskbringer.xml:1621
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_DAMAGEDFLEET\"]/choice[2]/event/choice[1]/text"
 msgstr "Заняться чем-либо на корабле."
 
-#: src-en/data/events_sector_duskbringer.xml:1614
+#: src-en/data/events_sector_duskbringer.xml:1625
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_DAMAGEDFLEET\"]/choice[2]/event/choice[2]/text"
 msgstr "Ничего не делать."
 
-#: src-en/data/events_sector_duskbringer.xml:1622
+#: src-en/data/events_sector_duskbringer.xml:1633
 msgid ""
 "data/events_sector_duskbringer.xml$//eventList[@name=\"DISTRESS_DUSK_DAMAGEDFLEET_DISPATCH\"]/event[1]/text"
 msgstr ""
@@ -2612,7 +2632,7 @@ msgstr ""
 " Как только все устаканивается, капитан золтан благодарит вас за помощь и "
 "выплачивает вам большое вознаграждение."
 
-#: src-en/data/events_sector_duskbringer.xml:1626
+#: src-en/data/events_sector_duskbringer.xml:1637
 msgid ""
 "data/events_sector_duskbringer.xml$//eventList[@name=\"DISTRESS_DUSK_DAMAGEDFLEET_DISPATCH\"]/event[2]/text"
 msgstr ""
@@ -2621,12 +2641,12 @@ msgstr ""
 "перестрелку. Вы извиняетесь перед золтанами за свою неудачу, но больше "
 "ничего не можете сделать."
 
-#: src-en/data/events_sector_duskbringer.xml:1629
+#: src-en/data/events_sector_duskbringer.xml:1640
 msgid ""
 "data/events_sector_duskbringer.xml$//eventList[@name=\"DISTRESS_DUSK_DAMAGEDFLEET_DISPATCH\"]/event[2]/removeCrew/text"
 msgstr "К счастью, члена вашего экипажа удалось клонировать."
 
-#: src-en/data/events_sector_duskbringer.xml:1636
+#: src-en/data/events_sector_duskbringer.xml:1647
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_FEDERATION\"]/text"
 msgstr ""
@@ -2637,148 +2657,148 @@ msgstr ""
 "повреждениями или одолжить немного топлива? У нас сильная утечка топлива, но"
 " если у нас будет хоть немного, мы сможем добраться до магазина\"."
 
-#: src-en/data/events_sector_duskbringer.xml:1639
+#: src-en/data/events_sector_duskbringer.xml:1650
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_FEDERATION\"]/choice[1]/text"
 msgstr "Дать им немного топлива."
 
-#: src-en/data/events_sector_duskbringer.xml:1641
+#: src-en/data/events_sector_duskbringer.xml:1652
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_FEDERATION\"]/choice[1]/event/text"
 msgstr ""
 "\"Спасибо, капитан. Надеюсь, все это не просочится наружу до того, как мы "
 "туда доберемся\"."
 
-#: src-en/data/events_sector_duskbringer.xml:1646
+#: src-en/data/events_sector_duskbringer.xml:1657
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_FEDERATION\"]/choice[1]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_duskbringer.xml:1648
+#: src-en/data/events_sector_duskbringer.xml:1659
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_FEDERATION\"]/choice[1]/event/choice/event/text"
 msgstr ""
 "\"Вот, возьмите в качестве благодарности. Мы собирались продать это, чтобы "
 "купить больше топлива\"."
 
-#: src-en/data/events_sector_duskbringer.xml:1655
+#: src-en/data/events_sector_duskbringer.xml:1666
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_FEDERATION\"]/choice[@req=\"DRONE_CONTROL_REPAIR_ALL\"]/text"
 msgstr "(Дрон-ремонтник) Использовать дрон для ремонта их двигателей."
 
-#: src-en/data/events_sector_duskbringer.xml:1657
+#: src-en/data/events_sector_duskbringer.xml:1668
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_FEDERATION\"]/choice[@req=\"DRONE_CONTROL_REPAIR_ALL\"]/event/text"
 msgstr "Дрон работает идеально, герметично закрывая пробоину."
 
-#: src-en/data/events_sector_duskbringer.xml:1662
+#: src-en/data/events_sector_duskbringer.xml:1673
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_FEDERATION\"]/choice[@req=\"DRONE_CONTROL_REPAIR_ALL\"]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_duskbringer.xml:1664
+#: src-en/data/events_sector_duskbringer.xml:1675
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_FEDERATION\"]/choice[@req=\"DRONE_CONTROL_REPAIR_ALL\"]/event/choice/event/text"
 msgstr ""
 "\"Вот, возьмите в качестве благодарности. Мы собирались продать это, чтобы "
 "купить больше топлива\"."
 
-#: src-en/data/events_sector_duskbringer.xml:1671
+#: src-en/data/events_sector_duskbringer.xml:1682
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_FEDERATION\"]/choice[@req=\"BLUELIST_BOMB_REPAIR\"]/text"
 msgstr ""
 "(Ремонтная бомба) Использовать бомбу, чтобы отремонтировать их двигатели."
 
-#: src-en/data/events_sector_duskbringer.xml:1673
+#: src-en/data/events_sector_duskbringer.xml:1684
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_FEDERATION\"]/choice[@req=\"BLUELIST_BOMB_REPAIR\"]/event/text"
 msgstr "Бомба срабатывает идеально, заделывая пробоину."
 
-#: src-en/data/events_sector_duskbringer.xml:1678
+#: src-en/data/events_sector_duskbringer.xml:1689
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_FEDERATION\"]/choice[@req=\"BLUELIST_BOMB_REPAIR\"]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_duskbringer.xml:1680
+#: src-en/data/events_sector_duskbringer.xml:1691
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_FEDERATION\"]/choice[@req=\"BLUELIST_BOMB_REPAIR\"]/event/choice/event/text"
 msgstr ""
 "\"Вот, возьмите в качестве благодарности. Мы собирались продать это, чтобы "
 "купить больше топлива\"."
 
-#: src-en/data/events_sector_duskbringer.xml:1687
+#: src-en/data/events_sector_duskbringer.xml:1698
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_FEDERATION\"]/choice[@req=\"BEAM_REPAIR\"]/text"
 msgstr "(Ремонтный луч) Использовать луч для ремонта их двигателей."
 
-#: src-en/data/events_sector_duskbringer.xml:1689
+#: src-en/data/events_sector_duskbringer.xml:1700
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_FEDERATION\"]/choice[@req=\"BEAM_REPAIR\"]/event/text"
 msgstr ""
 "Ремонтный луч отлично справляется, заделывая пробоину. Проходит совсем "
 "немного времени, и вы с трудом видите место повреждения."
 
-#: src-en/data/events_sector_duskbringer.xml:1691
+#: src-en/data/events_sector_duskbringer.xml:1702
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_FEDERATION\"]/choice[@req=\"BEAM_REPAIR\"]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_duskbringer.xml:1693
+#: src-en/data/events_sector_duskbringer.xml:1704
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_FEDERATION\"]/choice[@req=\"BEAM_REPAIR\"]/event/choice/event/text"
 msgstr ""
 "\"Вот, возьмите в качестве благодарности. Мы собирались продать это, чтобы "
 "купить больше топлива\"."
 
-#: src-en/data/events_sector_duskbringer.xml:1700
+#: src-en/data/events_sector_duskbringer.xml:1711
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_FEDERATION\"]/choice[@req=\"COMBAT_REPAIR\"]/text"
 msgstr ""
 "(Ремонтные наноботы) Выпустить наноботов, чтобы они починили их двигатели."
 
-#: src-en/data/events_sector_duskbringer.xml:1702
+#: src-en/data/events_sector_duskbringer.xml:1713
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_FEDERATION\"]/choice[@req=\"COMBAT_REPAIR\"]/event/text"
 msgstr ""
 "Наноботы быстро справляются с задачей, заделывая пробоину. Уже через "
 "некоторое время можно с трудом различить область повреждения."
 
-#: src-en/data/events_sector_duskbringer.xml:1704
+#: src-en/data/events_sector_duskbringer.xml:1715
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_FEDERATION\"]/choice[@req=\"COMBAT_REPAIR\"]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_duskbringer.xml:1706
+#: src-en/data/events_sector_duskbringer.xml:1717
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_FEDERATION\"]/choice[@req=\"COMBAT_REPAIR\"]/event/choice/event/text"
 msgstr ""
 "\"Вот, возьмите в качестве благодарности. Мы собирались продать это, чтобы "
 "купить больше топлива\"."
 
-#: src-en/data/events_sector_duskbringer.xml:1713
+#: src-en/data/events_sector_duskbringer.xml:1724
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_FEDERATION\"]/choice[6]/text"
 msgstr "Мы не можем помочь."
 
-#: src-en/data/events_sector_duskbringer.xml:1715
+#: src-en/data/events_sector_duskbringer.xml:1726
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_FEDERATION\"]/choice[6]/event/text"
 msgstr ""
 "\"Значит, вы просто оставите нас здесь?\" Капитан Федерации немного "
 "успокоился, прежде чем снова заговорить. \"Ладно. Я понял. Желаю удачи в "
-"вашей миссии, капитан.\" Он отключает связь."
+"вашей миссии, капитан\". Он отключает связь."
 
-#: src-en/data/events_sector_duskbringer.xml:1717
+#: src-en/data/events_sector_duskbringer.xml:1728
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_FEDERATION\"]/choice[6]/event/choice[1]/text"
 msgstr "Заняться чем-либо на корабле."
 
-#: src-en/data/events_sector_duskbringer.xml:1721
+#: src-en/data/events_sector_duskbringer.xml:1732
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_FEDERATION\"]/choice[6]/event/choice[2]/text"
 msgstr "Ничего не делать."
 
-#: src-en/data/events_sector_duskbringer.xml:1737
+#: src-en/data/events_sector_duskbringer.xml:1748
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_ABOUT_DUSK\"]/text"
 msgstr ""
@@ -2786,36 +2806,36 @@ msgstr ""
 "не угрожает. \"Идеально. Ренегат. У меня к тебе вопрос. Что ты думаешь про "
 "название... Вестники Заката? Что оно для тебя значит?\""
 
-#: src-en/data/events_sector_duskbringer.xml:1740
+#: src-en/data/events_sector_duskbringer.xml:1751
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_ABOUT_DUSK\"]/choice[1]/text"
 msgstr "Группа готических суперзлодеев."
 
-#: src-en/data/events_sector_duskbringer.xml:1742
+#: src-en/data/events_sector_duskbringer.xml:1753
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_ABOUT_DUSK\"]/choice[1]/event/text"
 msgstr ""
 "\"Это довольно круто, я думаю. А почему ты говоришь, что это напоминает "
 "тебе... это?\""
 
-#: src-en/data/events_sector_duskbringer.xml:1744
+#: src-en/data/events_sector_duskbringer.xml:1755
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_ABOUT_DUSK\"]/choice[1]/event/choice[1]/text"
 msgstr "Навевает образы величественных вечерних сумерек."
 
-#: src-en/data/events_sector_duskbringer.xml:1746
+#: src-en/data/events_sector_duskbringer.xml:1757
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_ABOUT_DUSK\"]/choice[1]/event/choice[1]/event/text"
 msgstr ""
 "\"О, правда? Ты хорошо владеешь словами, Ренегат\". Вестник Заката дает вам "
 "немного лома за вашу попытку объяснить свое мнение."
 
-#: src-en/data/events_sector_duskbringer.xml:1751
+#: src-en/data/events_sector_duskbringer.xml:1762
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_ABOUT_DUSK\"]/choice[1]/event/choice[2]/text"
 msgstr "Какие-то мерзкие уроды, которые хотят, чтобы все стало еще хуже?"
 
-#: src-en/data/events_sector_duskbringer.xml:1753
+#: src-en/data/events_sector_duskbringer.xml:1764
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_ABOUT_DUSK\"]/choice[1]/event/choice[2]/event/text"
 msgstr ""
@@ -2823,25 +2843,25 @@ msgstr ""
 " Вестник Заката небрежно швыряет в вас горсть ресурсов, как бы подчеркивая "
 "свое раздражение."
 
-#: src-en/data/events_sector_duskbringer.xml:1760
+#: src-en/data/events_sector_duskbringer.xml:1771
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_ABOUT_DUSK\"]/choice[2]/text"
 msgstr "Сборище высокомерных экстремистов."
 
-#: src-en/data/events_sector_duskbringer.xml:1762
+#: src-en/data/events_sector_duskbringer.xml:1773
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_ABOUT_DUSK\"]/choice[2]/event/text"
 msgstr ""
 "\"Жестко... но, возможно, не совсем бестактно. Не мог бы ты объяснить, "
 "почему ты так считаешь?\""
 
-#: src-en/data/events_sector_duskbringer.xml:1764
+#: src-en/data/events_sector_duskbringer.xml:1775
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_ABOUT_DUSK\"]/choice[2]/event/choice[1]/text"
 msgstr ""
 "Это не совсем удачный способ заявить, что вы насылаете тьму на своих врагов."
 
-#: src-en/data/events_sector_duskbringer.xml:1766
+#: src-en/data/events_sector_duskbringer.xml:1777
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_ABOUT_DUSK\"]/choice[2]/event/choice[1]/event/text"
 msgstr ""
@@ -2849,30 +2869,30 @@ msgstr ""
 " Вестник Заката дает вам немного ресурсов за объяснение. \"И ты просто "
 "злишься, потому что завидуешь\"."
 
-#: src-en/data/events_sector_duskbringer.xml:1771
+#: src-en/data/events_sector_duskbringer.xml:1782
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_ABOUT_DUSK\"]/choice[2]/event/choice[2]/text"
 msgstr ""
 "Золтаны всегда претенциозны, просто вы, ребята, странно к этому относитесь."
 
-#: src-en/data/events_sector_duskbringer.xml:1773
+#: src-en/data/events_sector_duskbringer.xml:1784
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_ABOUT_DUSK\"]/choice[2]/event/choice[2]/event/text"
 msgstr ""
 "\"Да пошел ты, придурок. Ты пришел в наш регион и начал оскорблять нас за "
 "то, что мы задали простой вопрос?\" Корабль включает оружие и атакует вас."
 
-#: src-en/data/events_sector_duskbringer.xml:1776
+#: src-en/data/events_sector_duskbringer.xml:1787
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_ABOUT_DUSK\"]/choice[2]/event/choice[2]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_duskbringer.xml:1784
+#: src-en/data/events_sector_duskbringer.xml:1795
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_ABOUT_DUSK\"]/choice[3]/text"
 msgstr "Малоизвестная группа в стиле скримо."
 
-#: src-en/data/events_sector_duskbringer.xml:1786
+#: src-en/data/events_sector_duskbringer.xml:1797
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_ABOUT_DUSK\"]/choice[3]/event/text"
 msgstr ""
@@ -2884,41 +2904,41 @@ msgstr ""
 "исследования\". Благодарный Вестник Заката дарит вам подарок за потраченное "
 "время."
 
-#: src-en/data/events_sector_duskbringer.xml:1791
+#: src-en/data/events_sector_duskbringer.xml:1802
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_ABOUT_DUSK\"]/choice[4]/text"
 msgstr "Я считаю вас просто тупыми взрывающимися придурками."
 
-#: src-en/data/events_sector_duskbringer.xml:1793
+#: src-en/data/events_sector_duskbringer.xml:1804
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_ABOUT_DUSK\"]/choice[4]/event/text"
 msgstr ""
 "\"Ну, теперь ты просто грубишь. Знаешь что? С меня довольно. Жри энергичную "
 "смерть, кретин\". Корабль включает оружие и атакует вас."
 
-#: src-en/data/events_sector_duskbringer.xml:1796
+#: src-en/data/events_sector_duskbringer.xml:1807
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_ABOUT_DUSK\"]/choice[4]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_duskbringer.xml:1802
+#: src-en/data/events_sector_duskbringer.xml:1813
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_ABOUT_DUSK\"]/choice[5]/text"
 msgstr "Я никогда не задумывался об этом."
 
-#: src-en/data/events_sector_duskbringer.xml:1804
+#: src-en/data/events_sector_duskbringer.xml:1815
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_ABOUT_DUSK\"]/choice[5]/event/text"
 msgstr ""
 "\"Я постоянно думаю об этом. Что именно... \"закат\"? Что это вообще значит?"
 " Как я должен к этому относиться?\""
 
-#: src-en/data/events_sector_duskbringer.xml:1806
+#: src-en/data/events_sector_duskbringer.xml:1817
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_ABOUT_DUSK\"]/choice[5]/event/choice[1]/text"
 msgstr "Объяснить культурные тонкости этого слова."
 
-#: src-en/data/events_sector_duskbringer.xml:1808
+#: src-en/data/events_sector_duskbringer.xml:1819
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_ABOUT_DUSK\"]/choice[5]/event/choice[1]/event/text"
 msgstr ""
@@ -2930,12 +2950,12 @@ msgstr ""
 "там не был. Ты был полезен, так что, думаю, я могу дать тебе какую-нибудь "
 "награду\"."
 
-#: src-en/data/events_sector_duskbringer.xml:1813
+#: src-en/data/events_sector_duskbringer.xml:1824
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_ABOUT_DUSK\"]/choice[5]/event/choice[2]/text"
 msgstr "Отправить снимки заката."
 
-#: src-en/data/events_sector_duskbringer.xml:1815
+#: src-en/data/events_sector_duskbringer.xml:1826
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_ABOUT_DUSK\"]/choice[5]/event/choice[2]/event/text"
 msgstr ""
@@ -2943,27 +2963,27 @@ msgstr ""
 "нескольких минут. \"Вау! Это потрясающе. Если это то, что мы несем, то, "
 "видимо, мы делаем что-то правильное. Вот твоя награда, друг\"."
 
-#: src-en/data/events_sector_duskbringer.xml:1822
+#: src-en/data/events_sector_duskbringer.xml:1833
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_ABOUT_DUSK\"]/choice[6]/text"
 msgstr "Это глупый вопрос."
 
-#: src-en/data/events_sector_duskbringer.xml:1824
+#: src-en/data/events_sector_duskbringer.xml:1835
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_ABOUT_DUSK\"]/choice[6]/event/text"
 msgstr "\"Неважно. Тогда я спрошу кого-нибудь другого\"."
 
-#: src-en/data/events_sector_duskbringer.xml:1826
+#: src-en/data/events_sector_duskbringer.xml:1837
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_ABOUT_DUSK\"]/choice[6]/event/choice[1]/text"
 msgstr "Заняться чем-либо на корабле."
 
-#: src-en/data/events_sector_duskbringer.xml:1830
+#: src-en/data/events_sector_duskbringer.xml:1841
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_ABOUT_DUSK\"]/choice[6]/event/choice[2]/text"
 msgstr "Ничего не делать."
 
-#: src-en/data/events_sector_duskbringer.xml:1849
+#: src-en/data/events_sector_duskbringer.xml:1860
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"QUEST_DUSK_HIJACK\"]/text"
 msgstr ""
@@ -2975,65 +2995,65 @@ msgstr ""
 " на накопителях. Если вы сможете вернуть его, я дам вам копию всех данных "
 "сканирования сектора, которые он получил\"."
 
-#: src-en/data/events_sector_duskbringer.xml:1853
+#: src-en/data/events_sector_duskbringer.xml:1864
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"QUEST_DUSK_HIJACK\"]/choice[1]/text"
 msgstr "Принять предложение инженера."
 
-#: src-en/data/events_sector_duskbringer.xml:1855
+#: src-en/data/events_sector_duskbringer.xml:1866
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"QUEST_DUSK_HIJACK\"]/choice[1]/event/text"
 msgstr ""
 "\"Отлично! Большое спасибо, это было бы катастрофой, если бы Вестники Заката"
 " получили эти данные\"."
 
-#: src-en/data/events_sector_duskbringer.xml:1861
+#: src-en/data/events_sector_duskbringer.xml:1872
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"QUEST_DUSK_HIJACK\"]/choice[2]/text"
 msgstr "Не обращать внимания на предложение и атаковать корабль!"
 
-#: src-en/data/events_sector_duskbringer.xml:1863
+#: src-en/data/events_sector_duskbringer.xml:1874
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"QUEST_DUSK_HIJACK\"]/choice[2]/event/text"
 msgstr ""
 "У вас нет необходимости в данных сканирования сектора, но вы могли бы "
 "использовать лом с корабля этого парня!"
 
-#: src-en/data/events_sector_duskbringer.xml:1866
+#: src-en/data/events_sector_duskbringer.xml:1877
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"QUEST_DUSK_HIJACK\"]/choice[2]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_duskbringer.xml:1872
+#: src-en/data/events_sector_duskbringer.xml:1883
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"QUEST_DUSK_HIJACK\"]/choice[3]/text"
 msgstr "Отказаться."
 
-#: src-en/data/events_sector_duskbringer.xml:1874
+#: src-en/data/events_sector_duskbringer.xml:1885
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"QUEST_DUSK_HIJACK\"]/choice[3]/event/text"
 msgstr ""
 "У вас нет потребности в данных сканирования сектора, и вы отказываетесь от "
 "предложения."
 
-#: src-en/data/events_sector_duskbringer.xml:1876
+#: src-en/data/events_sector_duskbringer.xml:1887
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"QUEST_DUSK_HIJACK\"]/choice[3]/event/choice[1]/text"
 msgstr "Заняться чем-либо на корабле."
 
-#: src-en/data/events_sector_duskbringer.xml:1880
+#: src-en/data/events_sector_duskbringer.xml:1891
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"QUEST_DUSK_HIJACK\"]/choice[3]/event/choice[2]/text"
 msgstr "Ничего не делать."
 
-#: src-en/data/events_sector_duskbringer.xml:1889
+#: src-en/data/events_sector_duskbringer.xml:1900
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"QUEST_DUSK_HIJACK_AUTO\"]/beaconType/unvisitedTooltip"
 msgstr ""
 "Автоматический корабль Министерства был захвачен Вестниками Заката. Верните "
 "его обратно."
 
-#: src-en/data/events_sector_duskbringer.xml:1891
+#: src-en/data/events_sector_duskbringer.xml:1902
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"QUEST_DUSK_HIJACK_AUTO\"]/text"
 msgstr ""
@@ -3042,12 +3062,12 @@ msgstr ""
 "элементарный здравый смысл) подсказывают, что без противостояния здесь не "
 "обойтись."
 
-#: src-en/data/events_sector_duskbringer.xml:1894
+#: src-en/data/events_sector_duskbringer.xml:1905
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"QUEST_DUSK_HIJACK_AUTO\"]/choice[1]/text"
 msgstr "Атаковать аванпост!"
 
-#: src-en/data/events_sector_duskbringer.xml:1896
+#: src-en/data/events_sector_duskbringer.xml:1907
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"QUEST_DUSK_HIJACK_AUTO\"]/choice[1]/event/text"
 msgstr ""
@@ -3055,41 +3075,41 @@ msgstr ""
 "находится достаточно далеко - в этом бою она не должна быть повреждена. "
 "Просто сосредоточьте весь свой огонь на Вестниках Заката!"
 
-#: src-en/data/events_sector_duskbringer.xml:1899
+#: src-en/data/events_sector_duskbringer.xml:1910
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"QUEST_DUSK_HIJACK_AUTO\"]/choice[1]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_duskbringer.xml:1905
+#: src-en/data/events_sector_duskbringer.xml:1916
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"QUEST_DUSK_HIJACK_AUTO\"]/choice[2]/text"
 msgstr "Передумать и уйти."
 
-#: src-en/data/events_sector_duskbringer.xml:1907
+#: src-en/data/events_sector_duskbringer.xml:1918
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"QUEST_DUSK_HIJACK_AUTO\"]/choice[2]/event/text"
 msgstr ""
 "Может быть, это все же не стоит того? Инженерам придется искать другого "
 "человека, который вернет им автоматический корабль."
 
-#: src-en/data/events_sector_duskbringer.xml:1909
+#: src-en/data/events_sector_duskbringer.xml:1920
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"QUEST_DUSK_HIJACK_AUTO\"]/choice[2]/event/choice[1]/text"
 msgstr "Заняться чем-либо на корабле."
 
-#: src-en/data/events_sector_duskbringer.xml:1913
+#: src-en/data/events_sector_duskbringer.xml:1924
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"QUEST_DUSK_HIJACK_AUTO\"]/choice[2]/event/choice[2]/text"
 msgstr "Ничего не делать."
 
-#: src-en/data/events_sector_duskbringer.xml:1920
+#: src-en/data/events_sector_duskbringer.xml:1931
 msgid "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_HIJACK_WIN\"]/text"
 msgstr ""
 "\"Отлично! Вы вернули его в целости и сохранности! Возможно, Министерство "
 "слишком поспешило, выражая свои опасения по поводу Ренегатов. Карты сектора "
 "ваши, как и было обещано\"."
 
-#: src-en/data/events_sector_duskbringer.xml:1929
+#: src-en/data/events_sector_duskbringer.xml:1940
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"QUEST_DUSK_PISSED\"]/text"
 msgstr ""
@@ -3098,12 +3118,12 @@ msgstr ""
 "остановить вас. Вы думаете, что бой неизбежен, но вместо этого получаете "
 "сообщение. \"Корабль Федерации? Это непривычно, но у меня к вам просьба...\""
 
-#: src-en/data/events_sector_duskbringer.xml:1931
+#: src-en/data/events_sector_duskbringer.xml:1942
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"QUEST_DUSK_PISSED\"]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_duskbringer.xml:1933
+#: src-en/data/events_sector_duskbringer.xml:1944
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"QUEST_DUSK_PISSED\"]/choice/event/text"
 msgstr ""
@@ -3119,24 +3139,24 @@ msgstr ""
 "доставляет мне неприятности. Окажите мне услугу и убейте его, а я взамен "
 "окажу вам свою. Это честная сделка?\""
 
-#: src-en/data/events_sector_duskbringer.xml:1935
+#: src-en/data/events_sector_duskbringer.xml:1946
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"QUEST_DUSK_PISSED\"]/choice/event/choice[1]/text"
 msgstr "Согласиться."
 
-#: src-en/data/events_sector_duskbringer.xml:1937
+#: src-en/data/events_sector_duskbringer.xml:1948
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"QUEST_DUSK_PISSED\"]/choice/event/choice[1]/event/text"
 msgstr ""
 "\"Превосходно. Вот координаты этого безмозглого психа. Кажется, он носит "
 "титул... кхм... Командир 'Надеру Тебе Зад' Кайл. Фу, как мерзко...\""
 
-#: src-en/data/events_sector_duskbringer.xml:1942
+#: src-en/data/events_sector_duskbringer.xml:1953
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"QUEST_DUSK_PISSED\"]/choice/event/choice[2]/text"
 msgstr "Отказаться."
 
-#: src-en/data/events_sector_duskbringer.xml:1944
+#: src-en/data/events_sector_duskbringer.xml:1955
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"QUEST_DUSK_PISSED\"]/choice/event/choice[2]/event/text"
 msgstr ""
@@ -3144,17 +3164,17 @@ msgstr ""
 "хватают оружие и прогоняют вас с корабля. Для вашего уничтожения "
 "отправляется элитный корабль."
 
-#: src-en/data/events_sector_duskbringer.xml:1947
+#: src-en/data/events_sector_duskbringer.xml:1958
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"QUEST_DUSK_PISSED\"]/choice/event/choice[2]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_duskbringer.xml:1958
+#: src-en/data/events_sector_duskbringer.xml:1969
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_PISSED_QUEST\"]/beaconType/unvisitedTooltip"
 msgstr "Командир \"Надеру Тебе Зад\" Кайл сеет хаос для Вестников Заката."
 
-#: src-en/data/events_sector_duskbringer.xml:1960
+#: src-en/data/events_sector_duskbringer.xml:1971
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_PISSED_QUEST\"]/text"
 msgstr ""
@@ -3162,13 +3182,13 @@ msgstr ""
 "огромный корабль повстанцев атакует небольшое поселение золтан, в "
 "принадлежности которого к Вестникам Заката вы даже не сомневаетесь."
 
-#: src-en/data/events_sector_duskbringer.xml:1963
+#: src-en/data/events_sector_duskbringer.xml:1974
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_PISSED_QUEST\"]/choice[@req=\"prof_finalsector\""
 " and @lvl=\"0\"]/text"
 msgstr "Попытаться связаться с повстанцами."
 
-#: src-en/data/events_sector_duskbringer.xml:1965
+#: src-en/data/events_sector_duskbringer.xml:1976
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_PISSED_QUEST\"]/choice[@req=\"prof_finalsector\""
 " and @lvl=\"0\"]/event/text"
@@ -3178,13 +3198,13 @@ msgstr ""
 "паузу на мгновение. \"НА СЛУЧАЙ, ЕСЛИ ТЫ ТУПОЙ, Я ОБЪЯСНЮ. Я СОБИРАЮСЬ "
 "НАД...\" Вы отключаете звук, пока решаете, что делать."
 
-#: src-en/data/events_sector_duskbringer.xml:1967
+#: src-en/data/events_sector_duskbringer.xml:1978
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_PISSED_QUEST\"]/choice[@req=\"prof_finalsector\""
 " and @lvl=\"0\"]/event/choice[1]/text"
 msgstr "Пристрелить его."
 
-#: src-en/data/events_sector_duskbringer.xml:1969
+#: src-en/data/events_sector_duskbringer.xml:1980
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_PISSED_QUEST\"]/choice[@req=\"prof_finalsector\""
 " and @lvl=\"0\"]/event/choice[1]/event/text"
@@ -3192,19 +3212,19 @@ msgstr ""
 "Вы ненадолго включаете звук Кайла, но после длинной череды явных оскорблений"
 " отключаете его на время боя и готовитесь к атаке."
 
-#: src-en/data/events_sector_duskbringer.xml:1972
+#: src-en/data/events_sector_duskbringer.xml:1983
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_PISSED_QUEST\"]/choice[@req=\"prof_finalsector\""
 " and @lvl=\"0\"]/event/choice[1]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_duskbringer.xml:1978
+#: src-en/data/events_sector_duskbringer.xml:1989
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_PISSED_QUEST\"]/choice[@req=\"prof_finalsector\""
 " and @lvl=\"0\"]/event/choice[2]/text"
 msgstr "Он не заслуживает нашего времени. Оставить его Вестникам Заката."
 
-#: src-en/data/events_sector_duskbringer.xml:1980
+#: src-en/data/events_sector_duskbringer.xml:1991
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_PISSED_QUEST\"]/choice[@req=\"prof_finalsector\""
 " and @lvl=\"0\"]/event/choice[2]/event/text"
@@ -3212,13 +3232,13 @@ msgstr ""
 "Вы переключаете двигатели на задний ход и улетаете от корабля повстанцев. "
 "Почему именно вам всегда достаются странные задания?"
 
-#: src-en/data/events_sector_duskbringer.xml:1986
+#: src-en/data/events_sector_duskbringer.xml:1997
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_PISSED_QUEST\"]/choice[@req=\"prof_finalsector\""
 " and @lvl=\"1\"]/text"
 msgstr "Попытаться связаться с повстанцами."
 
-#: src-en/data/events_sector_duskbringer.xml:1988
+#: src-en/data/events_sector_duskbringer.xml:1999
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_PISSED_QUEST\"]/choice[@req=\"prof_finalsector\""
 " and @lvl=\"1\"]/event/text"
@@ -3229,13 +3249,13 @@ msgstr ""
 "делает небольшую паузу. \"ЕСЛИ ТЫ ТУПОЙ, Я ОБЪЯСНЮ. Я СОБИРАЮСЬ НАД...\" Вы "
 "отключаете звук, пока решаете, что делать."
 
-#: src-en/data/events_sector_duskbringer.xml:1990
+#: src-en/data/events_sector_duskbringer.xml:2001
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_PISSED_QUEST\"]/choice[@req=\"prof_finalsector\""
 " and @lvl=\"1\"]/event/choice[1]/text"
 msgstr "Пристрелить его."
 
-#: src-en/data/events_sector_duskbringer.xml:1992
+#: src-en/data/events_sector_duskbringer.xml:2003
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_PISSED_QUEST\"]/choice[@req=\"prof_finalsector\""
 " and @lvl=\"1\"]/event/choice[1]/event/text"
@@ -3243,19 +3263,19 @@ msgstr ""
 "Вы ненадолго включаете звук Кайла, но после длинной череды явных оскорблений"
 " отключаете его на время боя и готовитесь к атаке."
 
-#: src-en/data/events_sector_duskbringer.xml:1995
+#: src-en/data/events_sector_duskbringer.xml:2006
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_PISSED_QUEST\"]/choice[@req=\"prof_finalsector\""
 " and @lvl=\"1\"]/event/choice[1]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_duskbringer.xml:2001
+#: src-en/data/events_sector_duskbringer.xml:2012
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_PISSED_QUEST\"]/choice[@req=\"prof_finalsector\""
 " and @lvl=\"1\"]/event/choice[2]/text"
 msgstr "Он не заслуживает нашего времени. Оставить его Вестникам Заката."
 
-#: src-en/data/events_sector_duskbringer.xml:2003
+#: src-en/data/events_sector_duskbringer.xml:2014
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_PISSED_QUEST\"]/choice[@req=\"prof_finalsector\""
 " and @lvl=\"1\"]/event/choice[2]/event/text"
@@ -3263,7 +3283,7 @@ msgstr ""
 "Вы переключаете двигатели на задний ход и улетаете от корабля повстанцев. "
 "Почему именно вам всегда достаются странные задания?"
 
-#: src-en/data/events_sector_duskbringer.xml:2010
+#: src-en/data/events_sector_duskbringer.xml:2021
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_PISSED_DEFEAT\"]/text"
 msgstr ""
@@ -3271,12 +3291,12 @@ msgstr ""
 "очень зол\". Корабль повстанцев обезврежен. Вы разбираете на лом останки "
 "того, что когда-то было кораблем Кайла."
 
-#: src-en/data/events_sector_duskbringer.xml:2014
+#: src-en/data/events_sector_duskbringer.xml:2025
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_PISSED_DEFEAT\"]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_duskbringer.xml:2016
+#: src-en/data/events_sector_duskbringer.xml:2027
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_PISSED_DEFEAT\"]/choice/event/text"
 msgstr ""
@@ -3288,12 +3308,12 @@ msgstr ""
 "оскорбление, как в систему врывается авианосец Вестников Заката и одним "
 "выстрелом уничтожает капсулу."
 
-#: src-en/data/events_sector_duskbringer.xml:2018
+#: src-en/data/events_sector_duskbringer.xml:2029
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_PISSED_DEFEAT\"]/choice/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_duskbringer.xml:2020
+#: src-en/data/events_sector_duskbringer.xml:2031
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_PISSED_DEFEAT\"]/choice/event/choice/event/text"
 msgstr ""
@@ -3302,17 +3322,17 @@ msgstr ""
 "но я вижу, что вы сделали достаточно работы, и теперь этот неандерталец "
 "мертв. Вы выполнили свою работу... по большей части... и я выполню свою\"."
 
-#: src-en/data/events_sector_duskbringer.xml:2021
+#: src-en/data/events_sector_duskbringer.xml:2032
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_PISSED_DEFEAT\"]/choice/event/choice/event/crewMember"
 msgstr "Редин"
 
-#: src-en/data/events_sector_duskbringer.xml:2049
+#: src-en/data/events_sector_duskbringer.xml:2060
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"ENCOUNTER_DUSKBRINGER\"]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_duskbringer.xml:2054
+#: src-en/data/events_sector_duskbringer.xml:2065
 msgid ""
 "data/events_sector_duskbringer.xml$//textList[@name=\"TEXT_ENCOUNTER_DUSKBRINGER\"]/text[1]"
 msgstr ""
@@ -3320,14 +3340,14 @@ msgstr ""
 "возможно. Обычно они предпочитают убивать на месте, и корабль здесь пытается"
 " сделать то же самое."
 
-#: src-en/data/events_sector_duskbringer.xml:2055
+#: src-en/data/events_sector_duskbringer.xml:2066
 msgid ""
 "data/events_sector_duskbringer.xml$//textList[@name=\"TEXT_ENCOUNTER_DUSKBRINGER\"]/text[2]"
 msgstr ""
 "Вестники Заката винят в Восстании повстанцев, в частности, Федерацию. Здесь "
 "уже находится корабль Вестников Заката, и они намерены отомстить за это."
 
-#: src-en/data/events_sector_duskbringer.xml:2056
+#: src-en/data/events_sector_duskbringer.xml:2067
 msgid ""
 "data/events_sector_duskbringer.xml$//textList[@name=\"TEXT_ENCOUNTER_DUSKBRINGER\"]/text[3]"
 msgstr ""
@@ -3335,14 +3355,14 @@ msgstr ""
 "агрессивные космические нацисты, но у вас нет времени, чтобы разбираться "
 "дальше, поскольку их корабль уже атакует!"
 
-#: src-en/data/events_sector_duskbringer.xml:2057
+#: src-en/data/events_sector_duskbringer.xml:2068
 msgid ""
 "data/events_sector_duskbringer.xml$//textList[@name=\"TEXT_ENCOUNTER_DUSKBRINGER\"]/text[4]"
 msgstr ""
 "Корабль Вестников Заката приближается на высокой скорости. Приготовить "
 "оружие!"
 
-#: src-en/data/events_sector_duskbringer.xml:2058
+#: src-en/data/events_sector_duskbringer.xml:2069
 msgid ""
 "data/events_sector_duskbringer.xml$//textList[@name=\"TEXT_ENCOUNTER_DUSKBRINGER\"]/text[5]"
 msgstr ""
@@ -3350,7 +3370,7 @@ msgstr ""
 "нежелательных гостей. Один из таких патрулей заметил вас и переходит в "
 "атаку."
 
-#: src-en/data/events_sector_duskbringer.xml:2059
+#: src-en/data/events_sector_duskbringer.xml:2070
 msgid ""
 "data/events_sector_duskbringer.xml$//textList[@name=\"TEXT_ENCOUNTER_DUSKBRINGER\"]/text[6]"
 msgstr ""
@@ -3359,12 +3379,12 @@ msgstr ""
 "вызвана чем-то большим, чем простое нарушение протокола, но у вас нет "
 "другого выбора, кроме как сражаться."
 
-#: src-en/data/events_sector_duskbringer.xml:2066
+#: src-en/data/events_sector_duskbringer.xml:2077
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"ENCOUNTER_DUSKBRINGER_STATION\"]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_duskbringer.xml:2071
+#: src-en/data/events_sector_duskbringer.xml:2082
 msgid ""
 "data/events_sector_duskbringer.xml$//textList[@name=\"TEXT_ENCOUNTER_DUSKBRINGER_STATION\"]/text[1]"
 msgstr ""
@@ -3372,7 +3392,7 @@ msgstr ""
 "Находящаяся поблизости Вестников Заката активирует свой арсенал, готовая к "
 "атаке."
 
-#: src-en/data/events_sector_duskbringer.xml:2072
+#: src-en/data/events_sector_duskbringer.xml:2083
 msgid ""
 "data/events_sector_duskbringer.xml$//textList[@name=\"TEXT_ENCOUNTER_DUSKBRINGER_STATION\"]/text[2]"
 msgstr ""
@@ -3380,12 +3400,12 @@ msgstr ""
 "чем золтаны. Станция, построенная здесь для защиты от кораблей, подобных "
 "вашему, замечает вас, и теперь бой неизбежен."
 
-#: src-en/data/events_sector_duskbringer.xml:2079
+#: src-en/data/events_sector_duskbringer.xml:2090
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"ENCOUNTER_REBEL_DUSKBRINGER\"]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_duskbringer.xml:2084
+#: src-en/data/events_sector_duskbringer.xml:2095
 msgid ""
 "data/events_sector_duskbringer.xml$//textList[@name=\"TEXT_ENCOUNTER_REBEL_DUSKBRINGER\"]/text[1]"
 msgstr ""
@@ -3393,7 +3413,7 @@ msgstr ""
 "доказательства того, что ваша Федерация порочна, если ваше существование "
 "подпитывает не одно, а два Восстания?\""
 
-#: src-en/data/events_sector_duskbringer.xml:2085
+#: src-en/data/events_sector_duskbringer.xml:2096
 msgid ""
 "data/events_sector_duskbringer.xml$//textList[@name=\"TEXT_ENCOUNTER_REBEL_DUSKBRINGER\"]/text[2]"
 msgstr ""
@@ -3402,21 +3422,21 @@ msgstr ""
 "Федерации. Корабль повстанцев, оказавшийся у маяка, не теряет времени и "
 "доказывает, что эта ненависть еще не угасла."
 
-#: src-en/data/events_sector_duskbringer.xml:2086
+#: src-en/data/events_sector_duskbringer.xml:2097
 msgid ""
 "data/events_sector_duskbringer.xml$//textList[@name=\"TEXT_ENCOUNTER_REBEL_DUSKBRINGER\"]/text[3]"
 msgstr ""
 "Хотя это и не их территория, силы повстанцев не так уж редко встречаются в "
 "секторах Вестников Заката. Похоже, вы столкнулись с одним из их кораблей."
 
-#: src-en/data/events_sector_duskbringer.xml:2087
+#: src-en/data/events_sector_duskbringer.xml:2098
 msgid ""
 "data/events_sector_duskbringer.xml$//textList[@name=\"TEXT_ENCOUNTER_REBEL_DUSKBRINGER\"]/text[4]"
 msgstr ""
 "\"Блин, не скажу, что я тоже фанат этих идиотов-золтан. Кучка мини-"
 "космонацистов или что-то в этом роде. Короче, пора умирать!\""
 
-#: src-en/data/events_sector_duskbringer.xml:2088
+#: src-en/data/events_sector_duskbringer.xml:2099
 msgid ""
 "data/events_sector_duskbringer.xml$//textList[@name=\"TEXT_ENCOUNTER_REBEL_DUSKBRINGER\"]/text[5]"
 msgstr ""
@@ -3425,19 +3445,19 @@ msgstr ""
 " своих врагов. Забавно, потому что я, оказывается, люблю делать то же "
 "самое!\""
 
-#: src-en/data/events_sector_duskbringer.xml:2095
+#: src-en/data/events_sector_duskbringer.xml:2106
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"ENCOUNTER_PIRATE_DUSKBRINGER\"]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_duskbringer.xml:2100
+#: src-en/data/events_sector_duskbringer.xml:2111
 msgid ""
 "data/events_sector_duskbringer.xml$//textList[@name=\"TEXT_ENCOUNTER_PIRATE_DUSKBRINGER\"]/text[1]"
 msgstr ""
 "Пираты, скрывающиеся от Вестников Заката, уже захватили этот маяк. Похоже, "
 "они уверены в том, что смогут захватить ваш корабль, и атакуют!"
 
-#: src-en/data/events_sector_duskbringer.xml:2101
+#: src-en/data/events_sector_duskbringer.xml:2112
 msgid ""
 "data/events_sector_duskbringer.xml$//textList[@name=\"TEXT_ENCOUNTER_PIRATE_DUSKBRINGER\"]/text[2]"
 msgstr ""
@@ -3445,7 +3465,7 @@ msgstr ""
 "золтанские ублюдки -- нет, все идет по плану -- ах, черт, Федерация!\" "
 "Похоже, они заметили вас. Один из кораблей убегает, но другой атакует!"
 
-#: src-en/data/events_sector_duskbringer.xml:2102
+#: src-en/data/events_sector_duskbringer.xml:2113
 msgid ""
 "data/events_sector_duskbringer.xml$//textList[@name=\"TEXT_ENCOUNTER_PIRATE_DUSKBRINGER\"]/text[3]"
 msgstr ""
@@ -3454,7 +3474,7 @@ msgstr ""
 "Зачем пираты это делают - чтобы показать золтанам свое превосходство или по "
 "каким-то другим мотивам - неважно, ведь один из таких кораблей мчится к вас!"
 
-#: src-en/data/events_sector_duskbringer.xml:2103
+#: src-en/data/events_sector_duskbringer.xml:2114
 msgid ""
 "data/events_sector_duskbringer.xml$//textList[@name=\"TEXT_ENCOUNTER_PIRATE_DUSKBRINGER\"]/text[4]"
 msgstr ""
@@ -3462,7 +3482,7 @@ msgstr ""
 "подальше, амиго. Ты можешь думать, что Вестники Заката - самая большая "
 "угроза здесь, но ты ошибаешься. Мы, пираты, владеем этим сектором!\""
 
-#: src-en/data/events_sector_duskbringer.xml:2104
+#: src-en/data/events_sector_duskbringer.xml:2115
 msgid ""
 "data/events_sector_duskbringer.xml$//textList[@name=\"TEXT_ENCOUNTER_PIRATE_DUSKBRINGER\"]/text[5]"
 msgstr ""
@@ -3470,7 +3490,7 @@ msgstr ""
 "Пираты на этом маяке не выглядят довольными вашим присутствием. "
 "Приготовьтесь к бою."
 
-#: src-en/data/events_sector_duskbringer.xml:2108
+#: src-en/data/events_sector_duskbringer.xml:2119
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_ROCK_FANATICS\"]/text"
 msgstr ""
@@ -3479,12 +3499,12 @@ msgstr ""
 "валунов явно серьезно относится к своей преданности делу Вестников Заката и "
 "жаждет уничтожить вас."
 
-#: src-en/data/events_sector_duskbringer.xml:2111
+#: src-en/data/events_sector_duskbringer.xml:2122
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_ROCK_FANATICS\"]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_duskbringer.xml:2117
+#: src-en/data/events_sector_duskbringer.xml:2128
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_PIRATE_CAPTURE\"]/text"
 msgstr ""
@@ -3494,12 +3514,12 @@ msgstr ""
 "первоначальная команда. Вы ловите их разговоры по связи. \"Черт! - Корабль "
 "Федерации, нет времени вернуться - нам придется сражаться с ними здесь!\""
 
-#: src-en/data/events_sector_duskbringer.xml:2120
+#: src-en/data/events_sector_duskbringer.xml:2131
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_PIRATE_CAPTURE\"]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_duskbringer.xml:2126
+#: src-en/data/events_sector_duskbringer.xml:2137
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_ZOLTAN_UNSURE\"]/text"
 msgstr ""
@@ -3509,14 +3529,14 @@ msgstr ""
 "расы галактики. Мы хотим, чтобы вы нашли способ утихомирить гнев Вестников "
 "Заката\"."
 
-#: src-en/data/events_sector_duskbringer.xml:2129
+#: src-en/data/events_sector_duskbringer.xml:2140
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_ZOLTAN_UNSURE\"]/choice[1]/text"
 msgstr ""
 "Передать им свои планы полета, зная, что они, скорее всего, окажутся в руках"
 " повстанцев."
 
-#: src-en/data/events_sector_duskbringer.xml:2131
+#: src-en/data/events_sector_duskbringer.xml:2142
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_ZOLTAN_UNSURE\"]/choice[1]/event/text"
 msgstr ""
@@ -3524,26 +3544,26 @@ msgstr ""
 "о Федерации, и вы подозреваете, что это только ускорит флот. Тем не менее, "
 "вы передаете информацию на корабль золтанов, который, кажется, удовлетворен."
 
-#: src-en/data/events_sector_duskbringer.xml:2136
+#: src-en/data/events_sector_duskbringer.xml:2147
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_ZOLTAN_UNSURE\"]/choice[2]/text"
 msgstr "Пожертвовать немного лома для оказания помощи золтанам."
 
-#: src-en/data/events_sector_duskbringer.xml:2138
+#: src-en/data/events_sector_duskbringer.xml:2149
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_ZOLTAN_UNSURE\"]/choice[2]/event/text"
 msgstr ""
 "Расставаться с драгоценным ломом нелегко, но вы знаете, что это поможет "
 "золтанам хотя бы немного."
 
-#: src-en/data/events_sector_duskbringer.xml:2145
+#: src-en/data/events_sector_duskbringer.xml:2156
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_ZOLTAN_UNSURE\"]/choice[@req=\"LIST_CREW_ZOLTAN_CAPITAL\"]/text"
 msgstr ""
 "(Член экипажа-золтан) Прочитать проповедь золтанам и убедить их в том, что "
 "вы знаете пути мира."
 
-#: src-en/data/events_sector_duskbringer.xml:2147
+#: src-en/data/events_sector_duskbringer.xml:2158
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_ZOLTAN_UNSURE\"]/choice[@req=\"LIST_CREW_ZOLTAN_CAPITAL\"]/event/text"
 msgstr ""
@@ -3553,12 +3573,12 @@ msgstr ""
 "Убедившись, что вы отличаетесь от других милитаризованных кораблей "
 "Федерации, они пропускают вас."
 
-#: src-en/data/events_sector_duskbringer.xml:2151
+#: src-en/data/events_sector_duskbringer.xml:2162
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_ZOLTAN_UNSURE\"]/choice[4]/text"
 msgstr "Разобраться с Вестниками Заката - не наша проблема."
 
-#: src-en/data/events_sector_duskbringer.xml:2153
+#: src-en/data/events_sector_duskbringer.xml:2164
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_ZOLTAN_UNSURE\"]/choice[4]/event/text"
 msgstr ""
@@ -3566,17 +3586,17 @@ msgstr ""
 "вам продолжать разрушать наш образ жизни, еще больше увеличивая раскол в "
 "нашем государстве\"."
 
-#: src-en/data/events_sector_duskbringer.xml:2156
+#: src-en/data/events_sector_duskbringer.xml:2167
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_ZOLTAN_UNSURE\"]/choice[4]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_duskbringer.xml:2178
+#: src-en/data/events_sector_duskbringer.xml:2189
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"ENCOUNTER_REBEL_DUSKBRINGER_CAPITOL\"]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_duskbringer.xml:2183
+#: src-en/data/events_sector_duskbringer.xml:2194
 msgid ""
 "data/events_sector_duskbringer.xml$//textList[@name=\"TEXT_ENCOUNTER_REBEL_DUSKBRINGER_CAPITOL\"]/text[1]"
 msgstr ""
@@ -3584,7 +3604,7 @@ msgstr ""
 "Заката, но и для вас. Передовой разведчик повстанцев засекает ваше "
 "местоположение и атакует."
 
-#: src-en/data/events_sector_duskbringer.xml:2184
+#: src-en/data/events_sector_duskbringer.xml:2195
 msgid ""
 "data/events_sector_duskbringer.xml$//textList[@name=\"TEXT_ENCOUNTER_REBEL_DUSKBRINGER_CAPITOL\"]/text[2]"
 msgstr ""
@@ -3592,7 +3612,7 @@ msgstr ""
 " буду сражаться с золтанами, но теперь появляется федерал? Сегодня мой "
 "счастливый день!\""
 
-#: src-en/data/events_sector_duskbringer.xml:2185
+#: src-en/data/events_sector_duskbringer.xml:2196
 msgid ""
 "data/events_sector_duskbringer.xml$//textList[@name=\"TEXT_ENCOUNTER_REBEL_DUSKBRINGER_CAPITOL\"]/text[3]"
 msgstr ""
@@ -3600,7 +3620,7 @@ msgstr ""
 "к сожалению, эта встреча не оставила вам выбора. Приближается враждебный "
 "корабль повстанцев!"
 
-#: src-en/data/events_sector_duskbringer.xml:2187
+#: src-en/data/events_sector_duskbringer.xml:2198
 msgid ""
 "data/events_sector_duskbringer.xml$//textList[@name=\"TEXT_ENCOUNTER_REBEL_DUSKBRINGER_CAPITOL\"]/text[4]"
 msgstr ""
@@ -3608,14 +3628,14 @@ msgstr ""
 "доказательства того, что ваша Федерация порочна, если ваше существование "
 "подпитывает не одно, а два Восстания?\""
 
-#: src-en/data/events_sector_duskbringer.xml:2188
+#: src-en/data/events_sector_duskbringer.xml:2199
 msgid ""
 "data/events_sector_duskbringer.xml$//textList[@name=\"TEXT_ENCOUNTER_REBEL_DUSKBRINGER_CAPITOL\"]/text[5]"
 msgstr ""
 "\"Блин, не скажу, что я тоже фанат этих идиотов-золтан. Кучка мини-"
 "космонацистов или что-то в этом роде. Короче, пора умирать!\""
 
-#: src-en/data/events_sector_duskbringer.xml:2189
+#: src-en/data/events_sector_duskbringer.xml:2200
 msgid ""
 "data/events_sector_duskbringer.xml$//textList[@name=\"TEXT_ENCOUNTER_REBEL_DUSKBRINGER_CAPITOL\"]/text[6]"
 msgstr ""
@@ -3624,21 +3644,21 @@ msgstr ""
 " своих врагов. Забавно, потому что я, оказывается, люблю делать то же "
 "самое!\""
 
-#: src-en/data/events_sector_duskbringer.xml:2199
+#: src-en/data/events_sector_duskbringer.xml:2210
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"ENCOUNTER_DUSKBRINGER_ELITE\"]/text"
 msgstr ""
-"В Новый Орден входят только самые преданные члены организации Вестников "
+"В Новый порядок входят только самые преданные члены организации Вестников "
 "Заката. Ничто не остановит их на пути к уничтожению Федерации, даже смерть. "
-"Корабль Нового Ордена приближается к вам, паля из пушек и готовый уничтожить"
-" вас. Похоже, вам придется сделать то же самое."
+"Корабль Нового порядка приближается к вам, паля из пушек и готовый "
+"уничтожить вас. Похоже, вам придется сделать то же самое."
 
-#: src-en/data/events_sector_duskbringer.xml:2202
+#: src-en/data/events_sector_duskbringer.xml:2213
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"ENCOUNTER_DUSKBRINGER_ELITE\"]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_duskbringer.xml:2208
+#: src-en/data/events_sector_duskbringer.xml:2219
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_CLONECANNON\"]/text"
 msgstr ""
@@ -3647,12 +3667,12 @@ msgstr ""
 "то, что прикреплено к автоматическому кораблю. В задней части находится то, "
 "что выглядит как... Клон-отсек?"
 
-#: src-en/data/events_sector_duskbringer.xml:2211
+#: src-en/data/events_sector_duskbringer.xml:2222
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_CLONECANNON\"]/choice[1]/text"
 msgstr "Приблизиться к кораблю и попытаться демонтировать орудие."
 
-#: src-en/data/events_sector_duskbringer.xml:2213
+#: src-en/data/events_sector_duskbringer.xml:2224
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_CLONECANNON\"]/choice[1]/event/text"
 msgstr ""
@@ -3661,58 +3681,58 @@ msgstr ""
 "проносится мимо вашего корабля и взрывается в космическом вакууме. Через "
 "несколько секунд из пушки снова появляется тот же золтан. Странно..."
 
-#: src-en/data/events_sector_duskbringer.xml:2216
+#: src-en/data/events_sector_duskbringer.xml:2227
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_CLONECANNON\"]/choice[1]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_duskbringer.xml:2222
+#: src-en/data/events_sector_duskbringer.xml:2233
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_CLONECANNON\"]/choice[2]/text"
 msgstr "Мы не можем рисковать."
 
-#: src-en/data/events_sector_duskbringer.xml:2224
+#: src-en/data/events_sector_duskbringer.xml:2235
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_CLONECANNON\"]/choice[2]/event/text"
 msgstr ""
 "Как бы это ни было заманчиво, вы никак не можете извлечь что-либо из "
 "автоматического корабля, не пробудив его. Вы улетаете от корабля."
 
-#: src-en/data/events_sector_duskbringer.xml:2226
+#: src-en/data/events_sector_duskbringer.xml:2237
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_CLONECANNON\"]/choice[2]/event/choice[1]/text"
 msgstr "Заняться чем-либо на корабле."
 
-#: src-en/data/events_sector_duskbringer.xml:2230
+#: src-en/data/events_sector_duskbringer.xml:2241
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_CLONECANNON\"]/choice[2]/event/choice[2]/text"
 msgstr "Ничего не делать."
 
-#: src-en/data/events_sector_duskbringer.xml:2237
+#: src-en/data/events_sector_duskbringer.xml:2248
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_CLONECANNON_ESCAPING\"]/text"
 msgstr ""
 "Двигатели автоматического корабля активируются, и корабль включает задний "
 "ход. Он пытается уйти!"
 
-#: src-en/data/events_sector_duskbringer.xml:2240
+#: src-en/data/events_sector_duskbringer.xml:2251
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_CLONECANNON_GOTAWAY\"]/text"
 msgstr "Причудливый корабль уносится вдаль, оставляя вас у маяка."
 
-#: src-en/data/events_sector_duskbringer.xml:2243
+#: src-en/data/events_sector_duskbringer.xml:2254
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_CLONECANNON_DEFEAT\"]/text"
 msgstr ""
 "Автоматический корабль взрывается, разбрасывая вокруг обломки, которыми вы "
 "можете поживиться."
 
-#: src-en/data/events_sector_duskbringer.xml:2246
+#: src-en/data/events_sector_duskbringer.xml:2257
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_CLONECANNON_DEFEAT\"]/choice/text"
 msgstr "Обыскать обломки."
 
-#: src-en/data/events_sector_duskbringer.xml:2248
+#: src-en/data/events_sector_duskbringer.xml:2259
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_CLONECANNON_DEFEAT\"]/choice/event/text"
 msgstr ""
@@ -3723,26 +3743,36 @@ msgstr ""
 "этого оружия, и поэтому он просит, чтобы, если он останется с вами, вы "
 "продолжали использовать его так, как это следует из его имени."
 
-#: src-en/data/events_sector_duskbringer.xml:2250
+#: src-en/data/events_sector_duskbringer.xml:2261
 msgid ""
-"data/events_sector_duskbringer.xml$//event[@name=\"DUSK_CLONECANNON_DEFEAT\"]/choice/event/crewMember"
+"data/events_sector_duskbringer.xml$//event[@name=\"DUSK_CLONECANNON_DEFEAT\"]/choice/event/choice[1]/text"
+msgstr "Исполнить его желание."
+
+#: src-en/data/events_sector_duskbringer.xml:2267
+msgid ""
+"data/events_sector_duskbringer.xml$//event[@name=\"DUSK_CLONECANNON_DEFEAT\"]/choice/event/choice[2]/text"
+msgstr "Оставить оружие незаряженным, чтобы его мог зарядить другой \"снаряд\"."
+
+#: src-en/data/events_sector_duskbringer.xml:2270
+msgid ""
+"data/events_sector_duskbringer.xml$//event[@name=\"DUSK_CLONECANNON_DEFEAT\"]/choice/event/choice[2]/event/crewMember"
 msgstr "Снаряд"
 
-#: src-en/data/events_sector_duskbringer.xml:2264
+#: src-en/data/events_sector_duskbringer.xml:2286
 msgid "data/events_sector_duskbringer.xml$//event[@name=\"NEBULA_ANURAK\"]/text"
 msgstr ""
 "К сожалению, вы попали прямо в центр особенно сильного ионного шторма. Вы "
-"замечаете, что сквозь туманность проносятся два отдельных корабля, но прежде"
-" чем вы успеваете вступить в контакт, вы получаете загадочный сигнал от "
+"замечаете, что сквозь туманность проносятся два разных корабля, но прежде "
+"чем вы успеваете вступить в контакт, вы получаете загадочный сигнал от "
 "другого корабля, который быстро исчезает в облаках, предлагая вам следовать "
 "за ним."
 
-#: src-en/data/events_sector_duskbringer.xml:2267
+#: src-en/data/events_sector_duskbringer.xml:2289
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"NEBULA_ANURAK\"]/choice[1]/text"
 msgstr "Следовать за таинственным кораблем."
 
-#: src-en/data/events_sector_duskbringer.xml:2269
+#: src-en/data/events_sector_duskbringer.xml:2291
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"NEBULA_ANURAK\"]/choice[1]/event/text"
 msgstr ""
@@ -3753,12 +3783,12 @@ msgstr ""
 "вас за собой. \"Мы так поняли, что вы Ренегат, верно? Идемте, пожалуйста. "
 "Вас ждет хозяин, и он должен многое вам рассказать\"."
 
-#: src-en/data/events_sector_duskbringer.xml:2271
+#: src-en/data/events_sector_duskbringer.xml:2293
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"NEBULA_ANURAK\"]/choice[1]/event/choice/text"
 msgstr "Следовать за орхидеей."
 
-#: src-en/data/events_sector_duskbringer.xml:2273
+#: src-en/data/events_sector_duskbringer.xml:2295
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"NEBULA_ANURAK\"]/choice[1]/event/choice/event/text"
 msgstr ""
@@ -3770,17 +3800,17 @@ msgstr ""
 "базовые удобства, такие как бельевая веревка и небольшой террариум на "
 "батарейках. Орхидея кланяется и указывает на дверь, предлагая вам войти."
 
-#: src-en/data/events_sector_duskbringer.xml:2275
+#: src-en/data/events_sector_duskbringer.xml:2297
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"NEBULA_ANURAK\"]/choice[1]/event/choice/event/choice/text"
 msgstr "Войти в автомобиль."
 
-#: src-en/data/events_sector_duskbringer.xml:2283
+#: src-en/data/events_sector_duskbringer.xml:2305
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"NEBULA_ANURAK\"]/choice[2]/text"
 msgstr "Следовать за другими кораблями."
 
-#: src-en/data/events_sector_duskbringer.xml:2285
+#: src-en/data/events_sector_duskbringer.xml:2307
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"NEBULA_ANURAK\"]/choice[2]/event/text"
 msgstr ""
@@ -3788,29 +3818,29 @@ msgstr ""
 "его поймать. Разочарованный и расстроенный, вы решаете уйти, пока флот "
 "повстанцев не успел нанести вам серьезный урон."
 
-#: src-en/data/events_sector_duskbringer.xml:2289
+#: src-en/data/events_sector_duskbringer.xml:2311
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"NEBULA_ANURAK\"]/choice[3]/text"
 msgstr "Уйти."
 
-#: src-en/data/events_sector_duskbringer.xml:2291
+#: src-en/data/events_sector_duskbringer.xml:2313
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"NEBULA_ANURAK\"]/choice[3]/event/text"
 msgstr ""
 "Ни одна из загадок вас не заинтересовала, и вы решили, что лучше всего будет"
 " уйти."
 
-#: src-en/data/events_sector_duskbringer.xml:2293
+#: src-en/data/events_sector_duskbringer.xml:2315
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"NEBULA_ANURAK\"]/choice[3]/event/choice[1]/text"
 msgstr "Заняться чем-либо на корабле."
 
-#: src-en/data/events_sector_duskbringer.xml:2297
+#: src-en/data/events_sector_duskbringer.xml:2319
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"NEBULA_ANURAK\"]/choice[3]/event/choice[2]/text"
 msgstr "Ничего не делать."
 
-#: src-en/data/events_sector_duskbringer.xml:2304
+#: src-en/data/events_sector_duskbringer.xml:2326
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"ANURAK_SOUP_OFFER\"]/text"
 msgstr ""
@@ -3820,12 +3850,12 @@ msgstr ""
 "\t\t\t\t\t\t\t\n"
 "\t\t\t\t\t\t\tВнезапная смена темы разговора застает вас врасплох, но если вы хотите понять, о чем идет речь, вы должны ответить \"да\"."
 
-#: src-en/data/events_sector_duskbringer.xml:2310
+#: src-en/data/events_sector_duskbringer.xml:2332
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"ANURAK_SOUP_OFFER\"]/choice[@req=\"unique_guntput\"]/text"
 msgstr "Гантпут узнает этого золтана."
 
-#: src-en/data/events_sector_duskbringer.xml:2312
+#: src-en/data/events_sector_duskbringer.xml:2334
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"ANURAK_SOUP_OFFER\"]/choice[@req=\"unique_guntput\"]/event/text"
 msgstr ""
@@ -3843,12 +3873,12 @@ msgstr ""
 "\n"
 "\t\t\tИз потайного отсека выползает ящер и зачерпывает миску супа. Ящер и Гантпут встречаются взглядами, после чего ящер возвращается в свой отсек."
 
-#: src-en/data/events_sector_duskbringer.xml:2326
+#: src-en/data/events_sector_duskbringer.xml:2348
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"ANURAK_SOUP_OFFER\"]/choice[@req=\"unique_guntput\"]/event/choice/text"
 msgstr "Что ты там говорил о том, что ты Вестник Заката?"
 
-#: src-en/data/events_sector_duskbringer.xml:2328
+#: src-en/data/events_sector_duskbringer.xml:2350
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"ANURAK_SOUP_OFFER\"]/choice[@req=\"unique_guntput\"]/event/choice/event/text"
 msgstr ""
@@ -3858,17 +3888,17 @@ msgstr ""
 "\n"
 "\t\t\t\t\tВ моей жизни было много ошибок, и я ими не горжусь. Лично я хотел бы остаться здесь и спрятаться от них. К сожалению, мой друг Деворак этого не сделает. Может, вы слышали о нем, а может, и нет. Он старый ветеран войны Федерации с богомолами и герой Вестников Заката. Забавно, но он не очень-то похож на Вестника Заката. Похоже, его ошибка, в глазах наших \"славных\" лидеров - а они не такие уж и славные - это его слабая преданность движению. Теперь он втянул нас ОБОИХ в это дело! Ха-ха, хе-хе... о боже...\""
 
-#: src-en/data/events_sector_duskbringer.xml:2334
+#: src-en/data/events_sector_duskbringer.xml:2356
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"ANURAK_SOUP_OFFER\"]/choice[@req=\"unique_guntput\"]/event/choice/event/choice/text"
 msgstr "Что произошло?"
 
-#: src-en/data/events_sector_duskbringer.xml:2342
+#: src-en/data/events_sector_duskbringer.xml:2364
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"ANURAK_SOUP_OFFER\"]/choice[2]/text"
 msgstr "Остаться на суп."
 
-#: src-en/data/events_sector_duskbringer.xml:2344
+#: src-en/data/events_sector_duskbringer.xml:2366
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"ANURAK_SOUP_OFFER\"]/choice[2]/event/text"
 msgstr ""
@@ -3878,12 +3908,12 @@ msgstr ""
 "\t\t\t\t\t\t\t\t\t\n"
 "\t\t\t\t\t\t\t\t\tАнурак наклоняется над столом, опрокидывая тарелку с супом, протягивает руку и пожимает ее. \"Рад познакомиться!\""
 
-#: src-en/data/events_sector_duskbringer.xml:2350
+#: src-en/data/events_sector_duskbringer.xml:2372
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"ANURAK_SOUP_OFFER\"]/choice[2]/event/choice/text"
 msgstr "Это не мое имя."
 
-#: src-en/data/events_sector_duskbringer.xml:2352
+#: src-en/data/events_sector_duskbringer.xml:2374
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"ANURAK_SOUP_OFFER\"]/choice[2]/event/choice/event/text"
 msgstr ""
@@ -3893,26 +3923,26 @@ msgstr ""
 "\n"
 "\t\t\t\t\tВ моей жизни было много ошибок, и я ими не горжусь. Лично я хотел бы остаться здесь и спрятаться от них. К сожалению, мой друг Деворак этого не сделает. Может, вы слышали о нем, а может, и нет. Он старый ветеран войны Федерации с богомолами и герой Вестников Заката. Забавно, но он не очень-то похож на Вестника Заката. Похоже, его ошибка, в глазах наших \"славных\" лидеров - а они не такие уж и славные - это его слабая преданность движению. Теперь он втянул нас ОБОИХ в это дело! Ха-ха, хе-хе... о боже...\""
 
-#: src-en/data/events_sector_duskbringer.xml:2358
+#: src-en/data/events_sector_duskbringer.xml:2380
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"ANURAK_SOUP_OFFER\"]/choice[2]/event/choice/event/choice/text"
 msgstr "Что произошло?"
 
-#: src-en/data/events_sector_duskbringer.xml:2366
+#: src-en/data/events_sector_duskbringer.xml:2388
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"ANURAK_SOUP_OFFER\"]/choice[3]/text"
 msgstr "Нет, спасибо."
 
-#: src-en/data/events_sector_duskbringer.xml:2368
+#: src-en/data/events_sector_duskbringer.xml:2390
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"ANURAK_SOUP_OFFER\"]/choice[3]/event/text"
 msgstr ""
 "Монах хмурится, но только кивает головой и хромает к кастрюле с супом. \"Нет"
-" супа, нет супа. С вами всегда нет супа. Ладно, идите, кыш.\" Он еще немного"
+" супа, нет супа. С вами всегда нет супа. Ладно, идите, кыш\". Он еще немного"
 " побарахтался, и вы решили, что не стоит больше пытаться с ним "
 "разговаривать."
 
-#: src-en/data/events_sector_duskbringer.xml:2377
+#: src-en/data/events_sector_duskbringer.xml:2399
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"ANURAK_EXPLAIN_2\"]/text"
 msgstr ""
@@ -3920,25 +3950,25 @@ msgstr ""
 "\t\t\t\t\t\t\t\t\t\t\t\t\t\n"
 "\tВот тут-то вы и придете на помощь! Да, вы, Шеллскенбри! Я дал клятву ненасилия и не могу отправиться к Девораку, не рискуя жизнью. Если вы будете так любезны доставить меня туда, я уверен, что смогу убедить его вознаградить вас по достоинству! И я приготовлю вам суп! Ну, что скажете?\""
 
-#: src-en/data/events_sector_duskbringer.xml:2381
+#: src-en/data/events_sector_duskbringer.xml:2403
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"ANURAK_EXPLAIN_2\"]/choice[1]/text"
 msgstr "Мы поможем."
 
-#: src-en/data/events_sector_duskbringer.xml:2383
+#: src-en/data/events_sector_duskbringer.xml:2405
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"ANURAK_EXPLAIN_2\"]/choice[1]/event/text"
 msgstr ""
 "Анурак похлопывает вас по спине и горячо благодарит, пару раз кланяется и просит принести третью порцию супа. Вы уже собираетесь сказать, что вам пора уходить, как вдруг снаружи раздается громкая серия взрывов.\n"
 "\t\t\t\n"
-"\t\t\tСтрельба и громоподобный шум входящего в атмосферу корабля нарушают тишину, царившую до этого на планете. Вы бросаетесь наружу, чтобы оценить ситуацию, и замечаете приближающуюся элиту Вестников Заката. Анурак паникует: \"Они здесь! Караван не может защитить себя! Пожалуйста, помогите нам, иначе нас всех казнят! И кто тогда будет варить суп для бедных и голодных?!\""
+"\t\t\tСтрельба и громоподобный шум входящего в атмосферу корабля нарушают тишину, царившую до этого на планете. Вы бросаетесь наружу, чтобы оценить ситуацию, и замечаете приближающуюся элиту Вестников Заката. Анурак паникует: \"Они здесь! Караван не может защитить себя! Пожалуйста, помоги нам, иначе нас всех казнят! И кто тогда будет варить суп для бедных и голодных?!\""
 
-#: src-en/data/events_sector_duskbringer.xml:2388
+#: src-en/data/events_sector_duskbringer.xml:2410
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"ANURAK_EXPLAIN_2\"]/choice[1]/event/choice[1]/text"
 msgstr "Защитить караван."
 
-#: src-en/data/events_sector_duskbringer.xml:2390
+#: src-en/data/events_sector_duskbringer.xml:2412
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"ANURAK_EXPLAIN_2\"]/choice[1]/event/choice[1]/event/text"
 msgstr ""
@@ -3946,60 +3976,60 @@ msgstr ""
 "каравана могут подвергнуться опасности, если Вестники Заката доберутся до "
 "Анурака. Вы готовитесь к бою."
 
-#: src-en/data/events_sector_duskbringer.xml:2393
+#: src-en/data/events_sector_duskbringer.xml:2415
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"ANURAK_EXPLAIN_2\"]/choice[1]/event/choice[1]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_duskbringer.xml:2399
+#: src-en/data/events_sector_duskbringer.xml:2421
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"ANURAK_EXPLAIN_2\"]/choice[1]/event/choice[2]/text"
 msgstr "Использовать этот шанс, чтобы уйти!"
 
-#: src-en/data/events_sector_duskbringer.xml:2405
+#: src-en/data/events_sector_duskbringer.xml:2427
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"ANURAK_EXPLAIN_2\"]/choice[2]/text"
 msgstr "Мы в это не будем вмешиваться."
 
-#: src-en/data/events_sector_duskbringer.xml:2407
+#: src-en/data/events_sector_duskbringer.xml:2429
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"ANURAK_EXPLAIN_2\"]/choice[2]/event/text"
 msgstr ""
 "\"В-вы не хотите помочь? Шеллскенбри, я доверял вам! За те 10 минут, что мы "
 "знакомы, я думал, что мы станем друзьями! О нет... о нет...\""
 
-#: src-en/data/events_sector_duskbringer.xml:2412
+#: src-en/data/events_sector_duskbringer.xml:2434
 msgid "data/events_sector_duskbringer.xml$//event[@name=\"ANURAK_WIN\"]/text"
 msgstr ""
 "Корабль Вестников Заката был уничтожен, и на поверхности планеты под ним "
 "остался внушительный кратер. Прежде чем снова связаться с Анураком, вы "
 "подлетаете к нему и собираете обломки."
 
-#: src-en/data/events_sector_duskbringer.xml:2415
+#: src-en/data/events_sector_duskbringer.xml:2437
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"ANURAK_WIN\"]/choice/text"
 msgstr "Поговорить с Анураком."
 
-#: src-en/data/events_sector_duskbringer.xml:2417
+#: src-en/data/events_sector_duskbringer.xml:2439
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"ANURAK_WIN\"]/choice/event/text"
 msgstr ""
 "По возвращении Анурак хлопает вам, оглядываясь по сторонам и поднимая руки, "
-"чтобы убедить остальных Монахов тоже хлопать. \"О, браво! Вы сделали это! "
-"Но... они уже нашли меня здесь! Это плохо! Подождите... Я слишком бурно "
+"чтобы убедить остальных Монахов тоже хлопать. \"О, браво! Ты сделал это! "
+"Но... они уже нашли меня здесь! Это плохо! Подожди... Я слишком бурно "
 "реагирую? Черт возьми, перестань реагировать! Нет, нет. Это плохо! Что же "
 "делать, что же делать... Э-э-э... мой корабль! Я зарыл его где-то здесь. "
 "Возьми его, просто возьми его, Шеллскенбри! Может быть, они следят за ним? "
 "Мне нужно избавиться от всего, что связано с Вестниками Заката!\""
 
-#: src-en/data/events_sector_duskbringer.xml:2420
+#: src-en/data/events_sector_duskbringer.xml:2442
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"ANURAK_WIN\"]/choice/event/choice[1]/text"
 msgstr ""
 "У вас был план, и мы его осуществим. Мы будем защищать вас, пока не найдем "
 "Деворака."
 
-#: src-en/data/events_sector_duskbringer.xml:2422
+#: src-en/data/events_sector_duskbringer.xml:2444
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"ANURAK_WIN\"]/choice/event/choice[1]/event/text"
 msgstr ""
@@ -4008,34 +4038,34 @@ msgstr ""
 "координаты убежища, в котором скрывается Деворак. Давайте поторопимся и не "
 "будем терять времени!\""
 
-#: src-en/data/events_sector_duskbringer.xml:2424
+#: src-en/data/events_sector_duskbringer.xml:2446
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"ANURAK_WIN\"]/choice/event/choice[1]/event/crewMember"
 msgstr "Анурак"
 
-#: src-en/data/events_sector_duskbringer.xml:2429
+#: src-en/data/events_sector_duskbringer.xml:2451
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"ANURAK_WIN\"]/choice/event/choice[2]/text"
 msgstr "Вам не повезло, приятель."
 
-#: src-en/data/events_sector_duskbringer.xml:2431
+#: src-en/data/events_sector_duskbringer.xml:2453
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"ANURAK_WIN\"]/choice/event/choice[2]/event/text"
 msgstr ""
 "\"О, неужели я вас так раздражаю? Проклятье... ну, я не вправе просить "
 "большего, но я думал, что мы друзья, Шеллскенбри! О, несчастье!\""
 
-#: src-en/data/events_sector_duskbringer.xml:2445
+#: src-en/data/events_sector_duskbringer.xml:2467
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DEVORAK_HIDEOUT\"]/beaconType/undiscoveredTooltip"
 msgstr "Непосещенное место."
 
-#: src-en/data/events_sector_duskbringer.xml:2446
+#: src-en/data/events_sector_duskbringer.xml:2468
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DEVORAK_HIDEOUT\"]/beaconType/unvisitedTooltip"
 msgstr "Местонахождение убежища Деворака."
 
-#: src-en/data/events_sector_duskbringer.xml:2450
+#: src-en/data/events_sector_duskbringer.xml:2472
 msgid "data/events_sector_duskbringer.xml$//event[@name=\"DEVORAK_HIDEOUT\"]/text"
 msgstr ""
 "Вы нашли координаты убежища, которые дал вам Анурак, - старый "
@@ -4044,12 +4074,12 @@ msgstr ""
 "активность невелика. Биосканирование показало, что внутри находится только "
 "один человек, но он не похож на золтана. Что-то здесь не так."
 
-#: src-en/data/events_sector_duskbringer.xml:2453
+#: src-en/data/events_sector_duskbringer.xml:2475
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DEVORAK_HIDEOUT\"]/choice[1]/text"
 msgstr "Зайти в убежище."
 
-#: src-en/data/events_sector_duskbringer.xml:2455
+#: src-en/data/events_sector_duskbringer.xml:2477
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DEVORAK_HIDEOUT\"]/choice[1]/event/text"
 msgstr ""
@@ -4057,12 +4087,12 @@ msgstr ""
 "\t\t\t\n"
 "\t\t\tУглубившись в убежище, вы в конце концов находите главный холл, удивительно уютный для некогда научного форпоста, а теперь бывшего убежища террористов, где на диване, свесив руку, сидит человек в серой броне и ждет вас. \"Хорошо-хорошо. Ты добрался. Я думал, как скоро ты прибудешь сюда, после того как заметил твой корабль возле убежища Монаха. Идиотские зеленые уродцы не смогли сдержать свой пыл, даже когда я сказал им подождать, и посмотри, до чего это их довело! Их разнесло в клочья\". Мужчина поднимается с дивана, демонстрируя внушительный рост. Он снимает свой разрисованный шлем МФК, кладет его на стол и протягивает руку. \"С другой стороны, я не такой дурак, чтобы связываться с Ренегатами. Меня зовут Стрелец. Ну, не совсем так. Меня зовут Джек. Но Ваэль зовет меня Стрельцом, это одно из его дурацких прозвищ\". Он улыбается и протягивает руку через стол, требуя, чтобы вы ее пожали."
 
-#: src-en/data/events_sector_duskbringer.xml:2459
+#: src-en/data/events_sector_duskbringer.xml:2481
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DEVORAK_HIDEOUT\"]/choice[1]/event/choice[1]/text"
 msgstr "Пожать ему руку."
 
-#: src-en/data/events_sector_duskbringer.xml:2461
+#: src-en/data/events_sector_duskbringer.xml:2483
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DEVORAK_HIDEOUT_ANGEL\"]/text"
 msgstr ""
@@ -4070,12 +4100,12 @@ msgstr ""
 "\t\t\t\t\t\n"
 "\t\t\t\t\tМужчина достает из кармана сигарету и прикуривает ее от пламени, которое он пускает из миниатюрного огнемета, встроенного в рукав. \"Раз уж ты встретился с Монахом, я уверен, что тебя, по крайней мере, познакомили с именем Деворак. Не знаю, как у золтан с \"физической привлекательностью\", но я слышал, что он довольно крепкий. Любимец не только Вестников Заката, но и Министерства! Действительно, господин Рей существует в серой зоне между \"патриотом\" и \"бунтарем\" для начинающей молодежи Министерства. Все устали от коррупции министра Лумея, и с каждым днем все больше и больше людей обращаются к радикальным организациям, таким как Вестники Заката\"."
 
-#: src-en/data/events_sector_duskbringer.xml:2465
+#: src-en/data/events_sector_duskbringer.xml:2487
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DEVORAK_HIDEOUT_ANGEL\"]/choice/text"
 msgstr "К чему ты ведешь?"
 
-#: src-en/data/events_sector_duskbringer.xml:2467
+#: src-en/data/events_sector_duskbringer.xml:2489
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DEVORAK_HIDEOUT_ANGEL\"]/choice/event/text"
 msgstr ""
@@ -4083,14 +4113,14 @@ msgstr ""
 "\t\t\t\t\t\t\t\n"
 "\t\t\t\t\t\t\tДжек делает паузу, давая понять, что что-то не так, прежде чем продолжить. \"Но, видишь ли, это не обычное убийство. Ведь те, кто меня нанял, - сами Вестники Заката! Есть опасения, что Деворак снова вернулся и собирается выйти из организации. В такой ключевой момент движения Вестников Заката... что ж, это было бы просто катастрофой, да? А вот вся эта подстава во Вселенной 1? Очень, очень выгодно. Скажем... повстанцы убили Деворака до того, как тот успел осудить Вестников Заката, да?\" Джек щелкает пальцами и кивает. \"Это было бы ОЧЕНЬ выгодно. Повстанцы перешли бы последнюю черту, и Министерство, конечно, ничего не стало бы предпринимать. Достаточно убедить доверчивую молодежь, что они должны внести свою лепту в месть за павшего героя. Если бы было достаточно времени, конечно, это произошло бы само собой, но время не на стороне моих клиентов\"."
 
-#: src-en/data/events_sector_duskbringer.xml:2471
+#: src-en/data/events_sector_duskbringer.xml:2493
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DEVORAK_HIDEOUT_ANGEL\"]/choice/event/choice/text"
 msgstr ""
 "Итак, позволь мне угадать, ты собираешься возложить убийство Деворака на "
 "повстанцев."
 
-#: src-en/data/events_sector_duskbringer.xml:2473
+#: src-en/data/events_sector_duskbringer.xml:2495
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DEVORAK_HIDEOUT_ANGEL\"]/choice/event/choice/event/text"
 msgstr ""
@@ -4106,13 +4136,13 @@ msgstr ""
 "чтобы это сработало, тебе нужен Монах. Кто-то достаточно близкий к Девораку,"
 " чтобы выманить его. Он все еще с тобой?\""
 
-#: src-en/data/events_sector_duskbringer.xml:2475
+#: src-en/data/events_sector_duskbringer.xml:2497
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DEVORAK_HIDEOUT_ANGEL\"]/choice/event/choice/event/choice[@req=\"unique_anurak\""
 " and not(@lvl)]/text"
 msgstr "Он здесь."
 
-#: src-en/data/events_sector_duskbringer.xml:2477
+#: src-en/data/events_sector_duskbringer.xml:2499
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DEVORAK_HIDEOUT_ANGEL\"]/choice/event/choice/event/choice[@req=\"unique_anurak\""
 " and not(@lvl)]/event/text"
@@ -4129,13 +4159,13 @@ msgstr ""
 "Вестникам Заката. Ты станешь свободным человеком! Видишь? Здесь все в "
 "выигрыше! Как ты можешь отказаться от такого предложения?\""
 
-#: src-en/data/events_sector_duskbringer.xml:2479
+#: src-en/data/events_sector_duskbringer.xml:2501
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DEVORAK_HIDEOUT_ANGEL\"]/choice/event/choice/event/choice[@req=\"unique_anurak\""
 " and not(@lvl)]/event/choice[1]/text"
-msgstr "Принять их предложение."
+msgstr "Принять его предложение."
 
-#: src-en/data/events_sector_duskbringer.xml:2481
+#: src-en/data/events_sector_duskbringer.xml:2503
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DEVORAK_HIDEOUT_ANGEL_ACCEPT\"]/text"
 msgstr ""
@@ -4151,13 +4181,13 @@ msgstr ""
 "раздавивший твое горло, будет последним ощущением, которое ты когда-либо "
 "почувствуешь\"."
 
-#: src-en/data/events_sector_duskbringer.xml:2486
+#: src-en/data/events_sector_duskbringer.xml:2508
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DEVORAK_HIDEOUT_ANGEL\"]/choice/event/choice/event/choice[@req=\"unique_anurak\""
 " and not(@lvl)]/event/choice[2]/text"
 msgstr "Отказаться."
 
-#: src-en/data/events_sector_duskbringer.xml:2488
+#: src-en/data/events_sector_duskbringer.xml:2510
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DEVORAK_HIDEOUT_ANGEL_DECLINE\"]/text"
 msgstr ""
@@ -4168,13 +4198,13 @@ msgstr ""
 "выбор, я бы просто убил тебя, но, как бы сильно Ваэль тебя ни ненавидел, это"
 " будет просто ненужным сопутствующим ущербом. Но не мешай мне\"."
 
-#: src-en/data/events_sector_duskbringer.xml:2492
+#: src-en/data/events_sector_duskbringer.xml:2514
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DEVORAK_HIDEOUT_ANGEL\"]/choice/event/choice/event/choice[@req=\"unique_anurak\""
 " and not(@lvl)]/event/choice[@req=\"unique_irwin\"]/text"
 msgstr "(Ирвин) Ирвин, кажется, едва сдерживается от чего-то."
 
-#: src-en/data/events_sector_duskbringer.xml:2494
+#: src-en/data/events_sector_duskbringer.xml:2516
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DEVORAK_HIDEOUT_ANGEL\"]/choice/event/choice/event/choice[@req=\"unique_anurak\""
 " and not(@lvl)]/event/choice[@req=\"unique_irwin\"]/event/text"
@@ -4185,42 +4215,42 @@ msgstr ""
 "\n"
 "\t\t\t\t\t\t\t\t\t\t\t\t\tДжек снова смотрит на вас. \"Теперь, когда прерванный разговор окончен, давайте узнаем твой ответ, капитан. Каким он будет?\""
 
-#: src-en/data/events_sector_duskbringer.xml:2500
+#: src-en/data/events_sector_duskbringer.xml:2522
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DEVORAK_HIDEOUT_ANGEL\"]/choice/event/choice/event/choice[@req=\"unique_anurak\""
 " and not(@lvl)]/event/choice[@req=\"unique_irwin\"]/event/choice[1]/text"
-msgstr "Принять их предложение."
+msgstr "Принять его предложение."
 
-#: src-en/data/events_sector_duskbringer.xml:2504
+#: src-en/data/events_sector_duskbringer.xml:2526
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DEVORAK_HIDEOUT_ANGEL\"]/choice/event/choice/event/choice[@req=\"unique_anurak\""
 " and not(@lvl)]/event/choice[@req=\"unique_irwin\"]/event/choice[2]/text"
 msgstr "Отказаться."
 
-#: src-en/data/events_sector_duskbringer.xml:2512
+#: src-en/data/events_sector_duskbringer.xml:2534
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DEVORAK_HIDEOUT_ANGEL\"]/choice/event/choice/event/choice[@req=\"unique_anurak\""
 " and @lvl=\"0\"]/text"
 msgstr "Его больше нет с нами."
 
-#: src-en/data/events_sector_duskbringer.xml:2514
+#: src-en/data/events_sector_duskbringer.xml:2536
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DEVORAK_HIDEOUT_ANGEL\"]/choice/event/choice/event/choice[@req=\"unique_anurak\""
 " and @lvl=\"0\"]/event/text"
 msgstr ""
 "Джек разочарованно повесил голову. \"Конечно, я должен был догадаться, что "
 "ты будешь слишком безрассуден, чтобы оставить его рядом. Вы, Ренегаты, "
-"никогда не разочаровываете меня, знаете ли. Такие ненадежные, никогда нельзя "
-"рассчитывать на то, что вы вернете долг. Ну и ладно. Я уверен, что Синдикат "
-"найдет для тебя другое применение в будущем. Держи ухо востро, потому что "
+"никогда не разочаровываете меня, знаете ли. Такие ненадежные, никогда нельзя"
+" рассчитывать на то, что вы вернете долг. Ну и ладно. Я уверен, что Синдикат"
+" найдет для тебя другое применение в будущем. Держи ухо востро, потому что "
 "Ваэль не любит долго держать у себя грязных должников\"."
 
-#: src-en/data/events_sector_duskbringer.xml:2524
+#: src-en/data/events_sector_duskbringer.xml:2546
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DEVORAK_HIDEOUT\"]/choice[1]/event/choice[2]/text"
 msgstr "Отказаться."
 
-#: src-en/data/events_sector_duskbringer.xml:2526
+#: src-en/data/events_sector_duskbringer.xml:2548
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DEVORAK_HIDEOUT\"]/choice[1]/event/choice[2]/event/text"
 msgstr ""
@@ -4230,17 +4260,17 @@ msgstr ""
 "что он не собирается продолжать разговор, пока вы не пожмете ему руку. Стоит"
 " умерить свою гордость и просто согласиться."
 
-#: src-en/data/events_sector_duskbringer.xml:2528
+#: src-en/data/events_sector_duskbringer.xml:2550
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DEVORAK_HIDEOUT\"]/choice[1]/event/choice[2]/event/choice/text"
 msgstr "Пожать ему руку."
 
-#: src-en/data/events_sector_duskbringer.xml:2536
+#: src-en/data/events_sector_duskbringer.xml:2558
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DEVORAK_HIDEOUT\"]/choice[2]/text"
 msgstr "Уйти."
 
-#: src-en/data/events_sector_duskbringer.xml:2538
+#: src-en/data/events_sector_duskbringer.xml:2560
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DEVORAK_HIDEOUT\"]/choice[2]/event/text"
 msgstr ""
@@ -4248,27 +4278,27 @@ msgstr ""
 "бы ни была ситуация с Девораком, вы больше не будете принимать в ней "
 "участия."
 
-#: src-en/data/events_sector_duskbringer.xml:2540
+#: src-en/data/events_sector_duskbringer.xml:2562
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DEVORAK_HIDEOUT\"]/choice[2]/event/choice[1]/text"
 msgstr "Заняться чем-либо на корабле."
 
-#: src-en/data/events_sector_duskbringer.xml:2544
+#: src-en/data/events_sector_duskbringer.xml:2566
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DEVORAK_HIDEOUT\"]/choice[2]/event/choice[2]/text"
 msgstr "Ничего не делать."
 
-#: src-en/data/events_sector_duskbringer.xml:2558
+#: src-en/data/events_sector_duskbringer.xml:2580
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DEVORAK_FINALE\"]/beaconType/undiscoveredTooltip"
 msgstr "Непосещенное место."
 
-#: src-en/data/events_sector_duskbringer.xml:2559
+#: src-en/data/events_sector_duskbringer.xml:2581
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DEVORAK_FINALE\"]/beaconType/unvisitedTooltip"
 msgstr "Настоящее местоположение Деворака."
 
-#: src-en/data/events_sector_duskbringer.xml:2563
+#: src-en/data/events_sector_duskbringer.xml:2585
 msgid "data/events_sector_duskbringer.xml$//event[@name=\"DEVORAK_FINALE\"]/text"
 msgstr ""
 "Для предполагаемого тайного убежища бывшего террориста вы не ожидали увидеть"
@@ -4277,19 +4307,19 @@ msgstr ""
 "координаты приводят вас на небольшую посадочную площадку рядом с вызывающим "
 "подозрение стыковочным портом."
 
-#: src-en/data/events_sector_duskbringer.xml:2566
+#: src-en/data/events_sector_duskbringer.xml:2588
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DEVORAK_FINALE\"]/choice[@req=\"unique_anurak\""
 " and @lvl=\"0\"]/text"
 msgstr "Без Анурака у нас нет возможности выманить Деворака."
 
-#: src-en/data/events_sector_duskbringer.xml:2570
+#: src-en/data/events_sector_duskbringer.xml:2592
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DEVORAK_FINALE\"]/choice[@req=\"unique_anurak\""
 " and not(@lvl)]/text"
 msgstr "Отправить Анурака на поиски Деворака."
 
-#: src-en/data/events_sector_duskbringer.xml:2572
+#: src-en/data/events_sector_duskbringer.xml:2594
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DEVORAK_FINALE\"]/choice[@req=\"unique_anurak\""
 " and not(@lvl)]/event/text"
@@ -4308,13 +4338,13 @@ msgstr ""
 "\n"
 "\t\t\t\"Нет\". Валун делает шаг в сторону, еще больше загораживая дверь. Вы замечаете еще несколько охранников, все золтаны, прячущихся в тени и наблюдающих за вами."
 
-#: src-en/data/events_sector_duskbringer.xml:2586
+#: src-en/data/events_sector_duskbringer.xml:2608
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DEVORAK_FINALE\"]/choice[@req=\"unique_anurak\""
 " and not(@lvl)]/event/choice/text"
 msgstr "Если бы он был здесь, может быть, вы могли бы передать ему сообщение?"
 
-#: src-en/data/events_sector_duskbringer.xml:2588
+#: src-en/data/events_sector_duskbringer.xml:2610
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DEVORAK_FINALE\"]/choice[@req=\"unique_anurak\""
 " and not(@lvl)]/event/choice/event/text"
@@ -4325,13 +4355,13 @@ msgstr ""
 "\n"
 "\t\t\t\t\tВалуна прерывает хриплый голос, с ликованием выкрикивающий имя Анурака. \"АНУРАК! Наконец-то ты пришел ко мне!\" Из двери выскочил стройный золтан и заключил Анурака в братские объятия. \"Мой старый друг! Я слышал, что ты погиб на какой-то планете ящеров!\" Деворак на секунду отстраняется, чтобы посмотреть в лицо своему старому другу. Анурак неловко ерзает в его объятиях."
 
-#: src-en/data/events_sector_duskbringer.xml:2594
+#: src-en/data/events_sector_duskbringer.xml:2616
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DEVORAK_FINALE\"]/choice[@req=\"unique_anurak\""
 " and not(@lvl)]/event/choice/event/choice/text"
 msgstr "Вы Деворак?"
 
-#: src-en/data/events_sector_duskbringer.xml:2596
+#: src-en/data/events_sector_duskbringer.xml:2618
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DEVORAK_FINALE\"]/choice[@req=\"unique_anurak\""
 " and not(@lvl)]/event/choice/event/choice/event/text"
@@ -4347,13 +4377,13 @@ msgstr ""
 "\n"
 "\t\t\t\t\t\t\tАнурак продолжает трясти головой, бьет себя по щекам и крутится на месте. \"Нет-нет-нет-нет-нет-нет! Ты меня не УСЛЫШАЛ! МНЕ НУЖНО УЙТИ! УЙТИ! УЙТИ!\" Кажется, что он вот-вот сломается психологически, как вдруг раздается взрыв, и вы все падаете!"
 
-#: src-en/data/events_sector_duskbringer.xml:2607
+#: src-en/data/events_sector_duskbringer.xml:2629
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DEVORAK_FINALE\"]/choice[@req=\"unique_anurak\""
 " and not(@lvl)]/event/choice/event/choice/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_duskbringer.xml:2609
+#: src-en/data/events_sector_duskbringer.xml:2631
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DEVORAK_FINALE\"]/choice[@req=\"unique_anurak\""
 " and not(@lvl)]/event/choice/event/choice/event/choice/event/text"
@@ -4365,13 +4395,13 @@ msgstr ""
 "\n"
 "\t\t\t\t\t\t\t\t\tТеперь Анурак разразился рыданиями, снова и снова скандируя \"Что я наделал, что я наделал!\""
 
-#: src-en/data/events_sector_duskbringer.xml:2617
+#: src-en/data/events_sector_duskbringer.xml:2639
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DEVORAK_FINALE\"]/choice[@req=\"unique_anurak\""
 " and not(@lvl)]/event/choice/event/choice/event/choice/event/choice[1]/text"
 msgstr "Мы должны что-то сделать! Атакуем судно!"
 
-#: src-en/data/events_sector_duskbringer.xml:2619
+#: src-en/data/events_sector_duskbringer.xml:2641
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DEVORAK_FINALE\"]/choice[@req=\"unique_anurak\""
 " and "
@@ -4381,20 +4411,20 @@ msgstr ""
 "и силы Вестников Заката, и силы \"Федерации\" враждебно настроены по "
 "отношению к вам, так что не ждите особой поддержки!"
 
-#: src-en/data/events_sector_duskbringer.xml:2625
+#: src-en/data/events_sector_duskbringer.xml:2647
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DEVORAK_FINALE\"]/choice[@req=\"unique_anurak\""
 " and "
 "not(@lvl)]/event/choice/event/choice/event/choice/event/choice[1]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_duskbringer.xml:2631
+#: src-en/data/events_sector_duskbringer.xml:2653
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DEVORAK_FINALE\"]/choice[@req=\"unique_anurak\""
 " and not(@lvl)]/event/choice/event/choice/event/choice/event/choice[2]/text"
 msgstr "Нам нужно быстро уходить отсюда!"
 
-#: src-en/data/events_sector_duskbringer.xml:2633
+#: src-en/data/events_sector_duskbringer.xml:2655
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DEVORAK_FINALE\"]/choice[@req=\"unique_anurak\""
 " and "
@@ -4406,12 +4436,12 @@ msgstr ""
 "стрелять. Вы едва успеваете покинуть город до начала полномасштабных боевых "
 "действий."
 
-#: src-en/data/events_sector_duskbringer.xml:2645
+#: src-en/data/events_sector_duskbringer.xml:2667
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DEVORAK_FINALE\"]/choice[3]/text"
 msgstr "Передумать и уйти."
 
-#: src-en/data/events_sector_duskbringer.xml:2647
+#: src-en/data/events_sector_duskbringer.xml:2669
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DEVORAK_FINALE\"]/choice[3]/event/text"
 msgstr ""
@@ -4419,17 +4449,17 @@ msgstr ""
 "бы ни была ситуация с Девораком, вы больше не будете принимать в ней "
 "участия."
 
-#: src-en/data/events_sector_duskbringer.xml:2649
+#: src-en/data/events_sector_duskbringer.xml:2671
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DEVORAK_FINALE\"]/choice[3]/event/choice[1]/text"
 msgstr "Заняться чем-либо на корабле."
 
-#: src-en/data/events_sector_duskbringer.xml:2653
+#: src-en/data/events_sector_duskbringer.xml:2675
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DEVORAK_FINALE\"]/choice[3]/event/choice[2]/text"
 msgstr "Ничего не делать."
 
-#: src-en/data/events_sector_duskbringer.xml:2667
+#: src-en/data/events_sector_duskbringer.xml:2689
 msgid "data/events_sector_duskbringer.xml$//event[@name=\"JACK_DEFEAT\"]/text"
 msgstr ""
 "Наемники Синдиката и их корабль потерпели поражение, или, по крайней мере, "
@@ -4437,13 +4467,13 @@ msgstr ""
 " опускается на посадочную площадку. Пока бой продолжается, несколько "
 "кораблей останавливаются, осознавая, что главная угроза устранена."
 
-#: src-en/data/events_sector_duskbringer.xml:2670
+#: src-en/data/events_sector_duskbringer.xml:2692
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"JACK_DEFEAT\"]/choice[@req=\"unique_anurak\""
 " and @lvl=\"1\"]/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_duskbringer.xml:2672
+#: src-en/data/events_sector_duskbringer.xml:2694
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"JACK_DEFEAT\"]/choice[@req=\"unique_anurak\""
 " and @lvl=\"1\"]/event/text"
@@ -4454,25 +4484,25 @@ msgstr ""
 "\t\t\t\n"
 "\t\t\t\"В течение многих лет Вестники Заката утверждали, что Федерация стала слабой и бесполезной в период своего расцвета, и доказывали, что Министерство должно выйти из состава Альянса и стать новой, всепоглощающей империей! Однако за все эти годы ни разу Вестникам Заката не удалось по-настоящему обосновать свою ненависть к Федерации! Правда, Федерация несовершенна, она состоит из несовершенных правительств, управляемых несовершенными людьми. Однако она олицетворяет собой одну всеобщую мечту - истинный галактический или даже вселенский мир. Вестникам Заката этот мир не нужен, и поэтому в своем отчаянии они нашли последнее средство. Нанять наемников, пиратов, которые делают эту галактику еще более опасным и злодейским местом, чтобы инсценировать нападение Федерации на мирный торговый порт Министерства! Разве так поступают герои? Люди, готовые умереть за свою страну и благо галактики? Или это дело рук группы террористов, пытающихся захватить власть ценой, возможно, единственной надежды на достижение единства в этой Мультивселенной?\""
 
-#: src-en/data/events_sector_duskbringer.xml:2678
+#: src-en/data/events_sector_duskbringer.xml:2700
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"JACK_DEFEAT\"]/choice[@req=\"unique_anurak\""
 " and @lvl=\"1\"]/event/choice[1]/text"
 msgstr "Продолжать слушать."
 
-#: src-en/data/events_sector_duskbringer.xml:2680
+#: src-en/data/events_sector_duskbringer.xml:2702
 msgid "data/events_sector_duskbringer.xml$//event[@name=\"DEVORAK_SPEECH\"]/text"
 msgstr ""
 "Деворак отходит от Джека и достает свой меч, устремив его в небо. \"Я - Деворак Рей. Для многих из вас я - герой. Возможно, для кого-то я радикал. Для меня же я и то, и другое, а может, и ни то, ни другое. Я солдат, озлобленный войной, и в своей горечи я позволил Федерации предать себя. Я позволил несправедливым действиям нескольких корпораций Союза и подпольного движения повстанцев, пытавшихся оболгать вклад Министерства в каждую крупную войну Федерации, создать иллюзию деятельности всей Федерации. Я позволил себе стать жертвой злобных радикальных сил, потому что они говорили, что могут изменить галактику, и это именно то, что я хотел услышать. Я хотел верить, что Вестники Заката могут решить все мои проблемы. Но они не могут. Вестники Заката - ЭТО и есть проблема! Пока эта Мультивселенная разделена, как сейчас, мы никогда не избавимся от чумы повстанцев или любой другой угрозы, которая может нависнуть над нами. Фашизм, национализм - все это лишь путь к десятилетиям раздоров и смерти. Как может Федерация, которая когда-то была так едина в борьбе со злодейской Инквизицией, теперь так легко распасться?\"\n"
 "\n"
 "\t\t\t\t\tДеворак взмахивает мечом и направляет его на один из дронов с камерами, которые теперь подлетели поближе и стали кружить вокруг него. \"Мои собратья-золтаны, сейчас у вас есть шанс изменить будущее. Если вы сейчас называете себя Вестниками Заката, никогда не поздно сложить доспехи и оружие и отступиться от пути террора. Если вы сомневаетесь в своей возможной преданности Федерации или Министерству, просто подумайте, какую цель вы преследуете, становясь безвольным солдатом группы, идеалы которой почти полностью совпадают с идеалами ненавистного движения повстанцев! И если вы все еще остаетесь верным союзником Министерства или Федерации, то ваш долг - обеспечить вечный мир. Ибо пока такие, как Вестники Заката, находятся на свободе в этой галактике, вы и ваш мир никогда не будете в полной безопасности\". Деворак кланяется, затем убирает меч. Вокруг него из тени здания, расположенного позади вас, появляется множество золтанов, которые выкрикивают различные слова в адрес Вестников Заката. Даже некоторые работники доков и другие гражданские присоединяются к ним, а несколько кораблей Вестников Заката, участвовавших в бою наверху, начинают уходить в прыжок."
 
-#: src-en/data/events_sector_duskbringer.xml:2684
+#: src-en/data/events_sector_duskbringer.xml:2706
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DEVORAK_SPEECH\"]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_duskbringer.xml:2686
+#: src-en/data/events_sector_duskbringer.xml:2708
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DEVORAK_SPEECH\"]/choice/event/text"
 msgstr ""
@@ -4487,18 +4517,18 @@ msgstr ""
 "значит для меня, но я не думаю, что когда-нибудь смогу снова на нем летать. "
 "Я думаю, ты можешь забрать его. Только не взорви его\"."
 
-#: src-en/data/events_sector_duskbringer.xml:2688
+#: src-en/data/events_sector_duskbringer.xml:2710
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DEVORAK_SPEECH\"]/choice/event/crewMember"
 msgstr "Деворак"
 
-#: src-en/data/events_sector_duskbringer.xml:2696
+#: src-en/data/events_sector_duskbringer.xml:2718
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"JACK_DEFEAT\"]/choice[@req=\"unique_anurak\""
 " and @lvl=\"1\"]/event/choice[2]/text"
 msgstr "Не обращать внимания и ждать."
 
-#: src-en/data/events_sector_duskbringer.xml:2698
+#: src-en/data/events_sector_duskbringer.xml:2720
 msgid "data/events_sector_duskbringer.xml$//event[@name=\"DEVORAK_SKIP\"]/text"
 msgstr ""
 "Вы не любитель подобных зрелищ, и вы решаете отвлечься и подождать, пока "
@@ -4514,18 +4544,18 @@ msgstr ""
 "смогу снова на нем летать. Я думаю, ты можешь забрать его. Только не взорви "
 "его\"."
 
-#: src-en/data/events_sector_duskbringer.xml:2700
+#: src-en/data/events_sector_duskbringer.xml:2722
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DEVORAK_SKIP\"]/crewMember"
 msgstr "Деворак"
 
-#: src-en/data/events_sector_duskbringer.xml:2708
+#: src-en/data/events_sector_duskbringer.xml:2730
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"JACK_DEFEAT\"]/choice[@req=\"unique_anurak\""
 " and @lvl=\"0\"]/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_duskbringer.xml:2710
+#: src-en/data/events_sector_duskbringer.xml:2732
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"JACK_DEFEAT\"]/choice[@req=\"unique_anurak\""
 " and @lvl=\"0\"]/event/text"
@@ -4534,13 +4564,13 @@ msgstr ""
 "\n"
 "\t\t\t\"В течение многих лет Вестники Заката утверждали, что Федерация стала слабой и бесполезной в период своего расцвета, и доказывали, что Министерство должно выйти из состава Альянса и стать новой, всепоглощающей империей! Однако за все эти годы ни разу Вестникам Заката не удалось по-настоящему обосновать свою ненависть к Федерации! Правда, Федерация несовершенна, она состоит из несовершенных правительств, управляемых несовершенными людьми. Однако она олицетворяет собой одну всеобщую мечту - истинный галактический или даже вселенский мир. Вестникам Заката этот мир не нужен, и поэтому в своем отчаянии они нашли последнее средство. Нанять наемников, пиратов, которые делают эту галактику еще более опасным и злодейским местом, чтобы инсценировать нападение Федерации на мирный торговый порт Министерства! Разве так поступают герои? Люди, готовые умереть за свою страну и благо галактики? Или это дело рук группы террористов, пытающихся захватить власть ценой, возможно, единственной надежды на достижение единства в этой Мультивселенной?\""
 
-#: src-en/data/events_sector_duskbringer.xml:2714
+#: src-en/data/events_sector_duskbringer.xml:2736
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"JACK_DEFEAT\"]/choice[@req=\"unique_anurak\""
 " and @lvl=\"0\"]/event/choice[1]/text"
 msgstr "Продолжать слушать."
 
-#: src-en/data/events_sector_duskbringer.xml:2718
+#: src-en/data/events_sector_duskbringer.xml:2740
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"JACK_DEFEAT\"]/choice[@req=\"unique_anurak\""
 " and @lvl=\"0\"]/event/choice[2]/text"

@@ -776,6 +776,20 @@
   <mod:findName name="JERRY_COLONISTS" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true" req="LIST_CREW_JERRY"/>
+          <mod:findLike type="text">
+            <mod:selector>(Jerry) We've got Jerry here.</mod:selector>
+            <mod:setValue>(Jerry) We've got Jerry here.[INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="JERRY_COLONISTS" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Ignore the colony.</mod:selector>
         <mod:setValue>Ignore the colony.[INFO][NAME]storageCheck[/NAME]Storage Check[/INFO]</mod:setValue>
@@ -2137,6 +2151,15 @@
       <mod:findLike type="text">
         <mod:selector>(Mind Control) Pacify the animals.</mod:selector>
         <mod:setValue>(Mind Control) Pacify the animals.[INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="DISTRESS_JERRY_ZOO" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="BLUELIST_WEAPONS_MIND_CONTROL" hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>(Mind Control weapon) Pacify the animals.</mod:selector>
+        <mod:setValue>(Mind Control weapon) Pacify the animals.[INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>

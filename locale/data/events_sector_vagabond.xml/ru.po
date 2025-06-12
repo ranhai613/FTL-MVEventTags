@@ -1,17 +1,9 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-05-21 20:26+0000\n"
-"Last-Translator: Ukn <bbg100bbg@gmail.com>\n"
-"Language-Team: Russian <https://weblate.hyperq.be/projects/ftl-multiverse/"
-"dataevents_sector_vagabondxml/ru/>\n"
-"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.16.4\n"
 
 #: src-en/data/events_sector_vagabond.xml:28
 msgid ""
@@ -270,7 +262,7 @@ msgid ""
 msgstr ""
 "\"Только не говорите нам, что до вас не дошли слухи о правлении короля "
 "мусора!\" Когда на этот возглас вы отвечаете пустым взглядом, Призрак, "
-"кажется, успокаивается. \"Хорошо. Следуйте за мной.\" Призрак ведет вас к "
+"кажется, успокаивается. \"Хорошо. Следуйте за мной\". Призрак ведет вас к "
 "огромному замку, построенному целиком из мусора, а затем в большой тронный "
 "зал."
 
@@ -754,7 +746,7 @@ msgstr ""
 
 #: src-en/data/events_sector_vagabond.xml:464
 msgid ""
-"data/events_sector_vagabond.xml$//event[@name=\"NEBULA_VAGABOND_FLEETCRASH\"]/text"
+"data/events_sector_vagabond.xml$//event[@name=\"NEBULA_LIGHT_VAGABOND_FLEETCRASH\"]/text"
 msgstr ""
 "Сканеры обнаружили что-то большое на расположенной неподалеку лавовой "
 "планете. Похоже, это огромный дредноут Династии класса Ф! Конечно, он "
@@ -763,79 +755,108 @@ msgstr ""
 
 #: src-en/data/events_sector_vagabond.xml:468
 msgid ""
-"data/events_sector_vagabond.xml$//event[@name=\"NEBULA_VAGABOND_FLEETCRASH\"]/choice[1]/text"
+"data/events_sector_vagabond.xml$//event[@name=\"NEBULA_LIGHT_VAGABOND_FLEETCRASH\"]/choice[1]/text"
 msgstr "Попытаться разобрать на металлолом внешнюю обшивку корабля."
 
 #: src-en/data/events_sector_vagabond.xml:472
 msgid ""
-"data/events_sector_vagabond.xml$//event[@name=\"NEBULA_VAGABOND_FLEETCRASH\"]/choice[2]/text"
-msgstr "Связаться с призраками."
+"data/events_sector_vagabond.xml$//event[@name=\"NEBULA_LIGHT_VAGABOND_FLEETCRASH\"]/choice[@req=\"SCRAP_COLLECTOR\"]/text"
+msgstr ""
+"(Кран сбора лома) Использовать свой Кран сбора лома, чтобы разобрать внешнюю"
+" обшивку корабля."
 
 #: src-en/data/events_sector_vagabond.xml:474
 msgid ""
-"data/events_sector_vagabond.xml$//event[@name=\"NEBULA_VAGABOND_FLEETCRASH\"]/choice[2]/event/text"
+"data/events_sector_vagabond.xml$//event[@name=\"NEBULA_LIGHT_VAGABOND_FLEETCRASH\"]/choice[@req=\"SCRAP_COLLECTOR\"]/event/text"
+msgstr ""
+"Кран сбора лома позволяет вам быстро собрать приличное количество обломков. "
+"Вы уверены, что призраки наверняка заметили вас во время сбора обломков, но "
+"по какой-то причине они не пытаются вас остановить."
+
+#: src-en/data/events_sector_vagabond.xml:479
+msgid ""
+"data/events_sector_vagabond.xml$//event[@name=\"NEBULA_LIGHT_VAGABOND_FLEETCRASH\"]/choice[@req=\"MAGNET_ARM\"]/text"
+msgstr ""
+"(Магнитный кран) Использовать свой Магнитный кран, чтобы разобрать внешнюю "
+"обшивку корабля."
+
+#: src-en/data/events_sector_vagabond.xml:481
+msgid ""
+"data/events_sector_vagabond.xml$//event[@name=\"NEBULA_LIGHT_VAGABOND_FLEETCRASH\"]/choice[@req=\"MAGNET_ARM\"]/event/text"
+msgstr ""
+"Вы эффективно используете Магнитный кран, быстро собирая лом с внешней "
+"обшивки корабля. Будем надеяться, что никто не заметит пропажу."
+
+#: src-en/data/events_sector_vagabond.xml:486
+msgid ""
+"data/events_sector_vagabond.xml$//event[@name=\"NEBULA_LIGHT_VAGABOND_FLEETCRASH\"]/choice[4]/text"
+msgstr "Связаться с призраками."
+
+#: src-en/data/events_sector_vagabond.xml:488
+msgid ""
+"data/events_sector_vagabond.xml$//event[@name=\"NEBULA_LIGHT_VAGABOND_FLEETCRASH\"]/choice[4]/event/text"
 msgstr ""
 "Треск помех в стереосистеме со временем переходит в разборчивые слова. \"Это"
 " наше место, которое мы называем домом, не принадлежит Федерации. Мы будем "
 "торговать, если у вас есть боеголовки\"."
 
-#: src-en/data/events_sector_vagabond.xml:476
+#: src-en/data/events_sector_vagabond.xml:490
 msgid ""
-"data/events_sector_vagabond.xml$//event[@name=\"NEBULA_VAGABOND_FLEETCRASH\"]/choice[2]/event/choice[1]/text"
+"data/events_sector_vagabond.xml$//event[@name=\"NEBULA_LIGHT_VAGABOND_FLEETCRASH\"]/choice[4]/event/choice[1]/text"
 msgstr "Дать им немного боеголовок, чтобы получить доступ в магазин."
 
-#: src-en/data/events_sector_vagabond.xml:485
+#: src-en/data/events_sector_vagabond.xml:499
 msgid ""
-"data/events_sector_vagabond.xml$//event[@name=\"NEBULA_VAGABOND_FLEETCRASH\"]/choice[2]/event/choice[2]/text"
+"data/events_sector_vagabond.xml$//event[@name=\"NEBULA_LIGHT_VAGABOND_FLEETCRASH\"]/choice[4]/event/choice[2]/text"
 msgstr "Не обращать внимания на их просьбу и разобрать корабль на металлолом."
 
-#: src-en/data/events_sector_vagabond.xml:487
+#: src-en/data/events_sector_vagabond.xml:501
 msgid ""
-"data/events_sector_vagabond.xml$//event[@name=\"NEBULA_VAGABOND_FLEETCRASH\"]/choice[2]/event/choice[2]/event/text"
+"data/events_sector_vagabond.xml$//event[@name=\"NEBULA_LIGHT_VAGABOND_FLEETCRASH\"]/choice[4]/event/choice[2]/event/text"
 msgstr ""
 "\"Вы - человек с ужасными наклонностями, и я убью вас быстро\". Из развалин "
 "навстречу вам вылетает элитный корабль призраков."
 
-#: src-en/data/events_sector_vagabond.xml:491
-msgid ""
-"data/events_sector_vagabond.xml$//event[@name=\"NEBULA_VAGABOND_FLEETCRASH\"]/choice[2]/event/choice[2]/event/choice/text"
-msgstr "Продолжить..."
-
-#: src-en/data/events_sector_vagabond.xml:497
-msgid ""
-"data/events_sector_vagabond.xml$//event[@name=\"NEBULA_VAGABOND_FLEETCRASH\"]/choice[2]/event/choice[3]/text"
-msgstr "Отказаться и уйти."
-
-#: src-en/data/events_sector_vagabond.xml:503
-msgid ""
-"data/events_sector_vagabond.xml$//event[@name=\"NEBULA_VAGABOND_FLEETCRASH\"]/choice[3]/text"
-msgstr "Избегать кораблекрушения."
-
 #: src-en/data/events_sector_vagabond.xml:505
 msgid ""
-"data/events_sector_vagabond.xml$//event[@name=\"NEBULA_VAGABOND_FLEETCRASH\"]/choice[3]/event/text"
+"data/events_sector_vagabond.xml$//event[@name=\"NEBULA_LIGHT_VAGABOND_FLEETCRASH\"]/choice[4]/event/choice[2]/event/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_vagabond.xml:511
+msgid ""
+"data/events_sector_vagabond.xml$//event[@name=\"NEBULA_LIGHT_VAGABOND_FLEETCRASH\"]/choice[4]/event/choice[3]/text"
+msgstr "Отказаться и уйти."
+
+#: src-en/data/events_sector_vagabond.xml:517
+msgid ""
+"data/events_sector_vagabond.xml$//event[@name=\"NEBULA_LIGHT_VAGABOND_FLEETCRASH\"]/choice[5]/text"
+msgstr "Избегать кораблекрушения."
+
+#: src-en/data/events_sector_vagabond.xml:519
+msgid ""
+"data/events_sector_vagabond.xml$//event[@name=\"NEBULA_LIGHT_VAGABOND_FLEETCRASH\"]/choice[5]/event/text"
 msgstr ""
 "Это уже не место кораблекрушения, а дом для нескольких десятков призраков. "
 "Лучше не вторгаться в их пространство."
 
-#: src-en/data/events_sector_vagabond.xml:507
+#: src-en/data/events_sector_vagabond.xml:521
 msgid ""
-"data/events_sector_vagabond.xml$//event[@name=\"NEBULA_VAGABOND_FLEETCRASH\"]/choice[3]/event/choice[1]/text"
+"data/events_sector_vagabond.xml$//event[@name=\"NEBULA_LIGHT_VAGABOND_FLEETCRASH\"]/choice[5]/event/choice[1]/text"
 msgstr "Заняться чем-либо на корабле."
 
-#: src-en/data/events_sector_vagabond.xml:511
+#: src-en/data/events_sector_vagabond.xml:525
 msgid ""
-"data/events_sector_vagabond.xml$//event[@name=\"NEBULA_VAGABOND_FLEETCRASH\"]/choice[3]/event/choice[2]/text"
+"data/events_sector_vagabond.xml$//event[@name=\"NEBULA_LIGHT_VAGABOND_FLEETCRASH\"]/choice[5]/event/choice[2]/text"
 msgstr "Ничего не делать."
 
-#: src-en/data/events_sector_vagabond.xml:519
+#: src-en/data/events_sector_vagabond.xml:533
 msgid ""
 "data/events_sector_vagabond.xml$//eventList[@name=\"VAGABOND_FLEETCRASH_SCRAP\"]/event[1]/text"
 msgstr ""
 "Вы уверены, что призраки заметили вас несколько раз, но ни разу не "
 "попытались вам помешать. Может быть, они просто очень понятливые?"
 
-#: src-en/data/events_sector_vagabond.xml:523
+#: src-en/data/events_sector_vagabond.xml:537
 msgid ""
 "data/events_sector_vagabond.xml$//eventList[@name=\"VAGABOND_FLEETCRASH_SCRAP\"]/event[2]/text"
 msgstr ""
@@ -843,12 +864,12 @@ msgstr ""
 " вылетает навстречу. Похоже, это была элита, но теперь корабль в руках "
 "призраков!"
 
-#: src-en/data/events_sector_vagabond.xml:527
+#: src-en/data/events_sector_vagabond.xml:541
 msgid ""
 "data/events_sector_vagabond.xml$//eventList[@name=\"VAGABOND_FLEETCRASH_SCRAP\"]/event[2]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_vagabond.xml:534
+#: src-en/data/events_sector_vagabond.xml:548
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_VAGABOND_ACID\"]/text"
 msgstr ""
@@ -858,52 +879,64 @@ msgstr ""
 "слышал легенды о так называемой... \"кислотной\" туманности. Но я никогда не"
 " видел ее сам! Я должен найти ее!\""
 
-#: src-en/data/events_sector_vagabond.xml:538
+#: src-en/data/events_sector_vagabond.xml:552
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_VAGABOND_ACID\"]/choice[1]/text"
 msgstr "Не знаю. Не мог бы ты описать одну из них?"
 
-#: src-en/data/events_sector_vagabond.xml:540
+#: src-en/data/events_sector_vagabond.xml:554
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_VAGABOND_ACID\"]/choice[1]/event/text"
 msgstr ""
 "\"Ну, они зеленого оттенка. И имеют природу туманности. Вот, собственно, и "
 "все\"."
 
-#: src-en/data/events_sector_vagabond.xml:542
+#: src-en/data/events_sector_vagabond.xml:556
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_VAGABOND_ACID\"]/choice[1]/event/choice[1]/text"
 msgstr "Солгать и сказать, что вы о них слышали."
 
-#: src-en/data/events_sector_vagabond.xml:544
+#: src-en/data/events_sector_vagabond.xml:558
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_VAGABOND_ACID\"]/choice[1]/event/choice[1]/event/text"
 msgstr ""
 "\"Правда?! Я поражен! Пожалуйста, пожалуйста, ты должен сказать мне, где!\""
 
-#: src-en/data/events_sector_vagabond.xml:546
+#: src-en/data/events_sector_vagabond.xml:560
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_VAGABOND_ACID\"]/choice[1]/event/choice[1]/event/choice[1]/text"
 msgstr "Выдумать какие-нибудь координаты."
 
-#: src-en/data/events_sector_vagabond.xml:550
+#: src-en/data/events_sector_vagabond.xml:564
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_VAGABOND_ACID\"]/choice[1]/event/choice[1]/event/choice[@req=\"mind\"]/text"
 msgstr "(Контроль разума) Выдумать ему очень \"убедительную\" ложь."
 
-#: src-en/data/events_sector_vagabond.xml:552
+#: src-en/data/events_sector_vagabond.xml:566
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_VAGABOND_ACID\"]/choice[1]/event/choice[1]/event/choice[@req=\"mind\"]/event/text"
 msgstr ""
 "\"Оооо, оооо! Я должен немедленно отправиться туда! Спасибо за помощь, о "
 "провидец тех вещей, которые просят, чтобы их увидели!\""
 
-#: src-en/data/events_sector_vagabond.xml:559
+#: src-en/data/events_sector_vagabond.xml:571
+msgid ""
+"data/events_sector_vagabond.xml$//event[@name=\"NEBULA_VAGABOND_ACID\"]/choice[1]/event/choice[1]/event/choice[@req=\"BLUELIST_WEAPONS_MIND_CONTROL\"]/text"
+msgstr "(Контроль разума) Выдумать ему очень \"убедительную\" ложь."
+
+#: src-en/data/events_sector_vagabond.xml:573
+msgid ""
+"data/events_sector_vagabond.xml$//event[@name=\"NEBULA_VAGABOND_ACID\"]/choice[1]/event/choice[1]/event/choice[@req=\"BLUELIST_WEAPONS_MIND_CONTROL\"]/event/text"
+msgstr ""
+"\"Оооо, оооо! Я должен немедленно отправиться туда! Спасибо за помощь, о "
+"провидец тех вещей, которые просят, чтобы их увидели!\""
+
+#: src-en/data/events_sector_vagabond.xml:580
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_VAGABOND_ACID\"]/choice[1]/event/choice[2]/text"
 msgstr "Сказать правду. Вы никогда не видели ни одну."
 
-#: src-en/data/events_sector_vagabond.xml:561
+#: src-en/data/events_sector_vagabond.xml:582
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_VAGABOND_ACID\"]/choice[1]/event/choice[2]/event/text"
 msgstr ""
@@ -911,13 +944,13 @@ msgstr ""
 "тогда бы нам нечего было исследовать! Счастливого пути, друг, и пусть это "
 "поможет тебе\"."
 
-#: src-en/data/events_sector_vagabond.xml:566
+#: src-en/data/events_sector_vagabond.xml:587
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_VAGABOND_ACID\"]/choice[1]/event/choice[@req=\"sensors\"]/text"
 msgstr ""
 "(Продв. Сенсоры) Предложить ему свои подробные картографические данные."
 
-#: src-en/data/events_sector_vagabond.xml:568
+#: src-en/data/events_sector_vagabond.xml:589
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_VAGABOND_ACID\"]/choice[1]/event/choice[@req=\"sensors\"]/event/text"
 msgstr ""
@@ -926,19 +959,19 @@ msgstr ""
 "исследователь, жаждущий открытий! Если я присоединюсь к тебе, то наш общий "
 "интеллект будет непревзойденным!\""
 
-#: src-en/data/events_sector_vagabond.xml:569
+#: src-en/data/events_sector_vagabond.xml:590
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_VAGABOND_ACID\"]/choice[1]/event/choice[@req=\"sensors\"]/event/crewMember"
 msgstr "Домодиус"
 
-#: src-en/data/events_sector_vagabond.xml:573
+#: src-en/data/events_sector_vagabond.xml:594
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_VAGABOND_ACID\"]/choice[1]/event/choice[@req=\"ADV_SCANNERS\"]/text"
 msgstr ""
 "(Сканеры дальнего действия) Предложить ему свои подробные картографические "
 "данные."
 
-#: src-en/data/events_sector_vagabond.xml:575
+#: src-en/data/events_sector_vagabond.xml:596
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_VAGABOND_ACID\"]/choice[1]/event/choice[@req=\"ADV_SCANNERS\"]/event/text"
 msgstr ""
@@ -947,17 +980,17 @@ msgstr ""
 "исследователь, жаждущий открытий! Если я присоединюсь к тебе, то наш общий "
 "интеллект будет непревзойденным!\""
 
-#: src-en/data/events_sector_vagabond.xml:576
+#: src-en/data/events_sector_vagabond.xml:597
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_VAGABOND_ACID\"]/choice[1]/event/choice[@req=\"ADV_SCANNERS\"]/event/crewMember"
 msgstr "Домодиус"
 
-#: src-en/data/events_sector_vagabond.xml:580
+#: src-en/data/events_sector_vagabond.xml:601
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_VAGABOND_ACID\"]/choice[1]/event/choice[@req=\"PRE_SCANNER\"]/text"
 msgstr "(Гиперсканер) Предложить ему свои подробные картографические данные."
 
-#: src-en/data/events_sector_vagabond.xml:582
+#: src-en/data/events_sector_vagabond.xml:603
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_VAGABOND_ACID\"]/choice[1]/event/choice[@req=\"PRE_SCANNER\"]/event/text"
 msgstr ""
@@ -966,17 +999,17 @@ msgstr ""
 "исследователь, жаждущий открытий! Если я присоединюсь к тебе, то наш общий "
 "интеллект будет непревзойденным!\""
 
-#: src-en/data/events_sector_vagabond.xml:583
+#: src-en/data/events_sector_vagabond.xml:604
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_VAGABOND_ACID\"]/choice[1]/event/choice[@req=\"PRE_SCANNER\"]/event/crewMember"
 msgstr "Домодиус"
 
-#: src-en/data/events_sector_vagabond.xml:589
+#: src-en/data/events_sector_vagabond.xml:610
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_VAGABOND_ACID\"]/choice[@req=\"unique_wither\"]/text"
 msgstr "(Аэнвитэ) \"Гадость. Да, я знаю, что это такое\"."
 
-#: src-en/data/events_sector_vagabond.xml:591
+#: src-en/data/events_sector_vagabond.xml:612
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_VAGABOND_ACID\"]/choice[@req=\"unique_wither\"]/event/text"
 msgstr ""
@@ -987,34 +1020,34 @@ msgstr ""
 "реальности. Если вы такие знатоки, то я пойду с вами, чтобы наш объединенный"
 " интеллект не знал границ!\""
 
-#: src-en/data/events_sector_vagabond.xml:592
+#: src-en/data/events_sector_vagabond.xml:613
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_VAGABOND_ACID\"]/choice[@req=\"unique_wither\"]/event/crewMember"
 msgstr "Домодиус"
 
-#: src-en/data/events_sector_vagabond.xml:596
+#: src-en/data/events_sector_vagabond.xml:617
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_VAGABOND_ACID\"]/choice[3]/text"
 msgstr "Ничем не могу помочь."
 
-#: src-en/data/events_sector_vagabond.xml:598
+#: src-en/data/events_sector_vagabond.xml:619
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_VAGABOND_ACID\"]/choice[3]/event/text"
 msgstr ""
 "\"Ах, как жаль! До скорого, о путешественник межпространственным нитям "
 "космоса!\""
 
-#: src-en/data/events_sector_vagabond.xml:600
+#: src-en/data/events_sector_vagabond.xml:621
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_VAGABOND_ACID\"]/choice[3]/event/choice[1]/text"
 msgstr "Заняться чем-либо на корабле."
 
-#: src-en/data/events_sector_vagabond.xml:604
+#: src-en/data/events_sector_vagabond.xml:625
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_VAGABOND_ACID\"]/choice[3]/event/choice[2]/text"
 msgstr "Ничего не делать."
 
-#: src-en/data/events_sector_vagabond.xml:612
+#: src-en/data/events_sector_vagabond.xml:633
 msgid ""
 "data/events_sector_vagabond.xml$//eventList[@name=\"VAGABOND_ACID_LIE\"]/event[1]/text"
 msgstr ""
@@ -1023,19 +1056,19 @@ msgstr ""
 "никакого вреда, но лгать мне? Это непростительно, я не потерплю такого "
 "оскорбления!\""
 
-#: src-en/data/events_sector_vagabond.xml:615
+#: src-en/data/events_sector_vagabond.xml:636
 msgid ""
 "data/events_sector_vagabond.xml$//eventList[@name=\"VAGABOND_ACID_LIE\"]/event[1]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_vagabond.xml:620
+#: src-en/data/events_sector_vagabond.xml:641
 msgid ""
 "data/events_sector_vagabond.xml$//eventList[@name=\"VAGABOND_ACID_LIE\"]/event[2]/text"
 msgstr ""
 "\"Оооо, оооо! Я должен немедленно отправиться туда! Спасибо за помощь, о "
 "провидец тех вещей, которые просят, чтобы их увидели!\""
 
-#: src-en/data/events_sector_vagabond.xml:626
+#: src-en/data/events_sector_vagabond.xml:647
 msgid "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_GHOST_BOO\"]/text"
 msgstr ""
 "Туманность кажется пустой, но вскоре после прыжка в нее все индикаторы "
@@ -1043,24 +1076,24 @@ msgstr ""
 "предвкушении, наблюдая за мигающим значком курсора, который начинает "
 "набирать текст..."
 
-#: src-en/data/events_sector_vagabond.xml:630
+#: src-en/data/events_sector_vagabond.xml:651
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_GHOST_BOO\"]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_vagabond.xml:632
+#: src-en/data/events_sector_vagabond.xml:653
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_GHOST_BOO\"]/choice/event/text"
 msgstr ""
 "\"БУУ!\" Слово появляется на экране, вскоре следует текст: \"Я напугал "
 "тебя?\""
 
-#: src-en/data/events_sector_vagabond.xml:634
+#: src-en/data/events_sector_vagabond.xml:655
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_GHOST_BOO\"]/choice/event/choice[1]/text"
 msgstr "Да, мне было очень страшно."
 
-#: src-en/data/events_sector_vagabond.xml:636
+#: src-en/data/events_sector_vagabond.xml:657
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_GHOST_BOO\"]/choice/event/choice[1]/event/text"
 msgstr ""
@@ -1068,19 +1101,19 @@ msgstr ""
 "чувство радости. Таких эмоций я не испытывал уже много циклов. Пожалуй, я "
 "останусь с тобой, дышащий\"."
 
-#: src-en/data/events_sector_vagabond.xml:641
+#: src-en/data/events_sector_vagabond.xml:662
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_GHOST_BOO\"]/choice/event/choice[2]/text"
 msgstr "Не совсем."
 
-#: src-en/data/events_sector_vagabond.xml:643
+#: src-en/data/events_sector_vagabond.xml:664
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_GHOST_BOO\"]/choice/event/choice[2]/event/text"
 msgstr ""
 "Компьютер выключается, на мостике появляются призраки и направляются к вам. "
 "Вы готовите свой экипаж к бою."
 
-#: src-en/data/events_sector_vagabond.xml:652
+#: src-en/data/events_sector_vagabond.xml:673
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_GHOST_DONATION\"]/text"
 msgstr ""
@@ -1091,51 +1124,51 @@ msgstr ""
 "корабль. Быстрое сканирование показывает, почему: их оружие почти не "
 "работает, а двигатели быстро теряют топливо."
 
-#: src-en/data/events_sector_vagabond.xml:656
+#: src-en/data/events_sector_vagabond.xml:677
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_GHOST_DONATION\"]/choice[1]/text"
 msgstr "Легкая мишень, атакуем!"
 
-#: src-en/data/events_sector_vagabond.xml:658
+#: src-en/data/events_sector_vagabond.xml:679
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_GHOST_DONATION\"]/choice[1]/event/text"
 msgstr ""
 "В этот раз инициатором боевых действий являетесь вы. Вы заряжаете оружие и "
 "готовитесь уничтожить уже изрядно потрепанный корабль."
 
-#: src-en/data/events_sector_vagabond.xml:663
+#: src-en/data/events_sector_vagabond.xml:684
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_GHOST_DONATION\"]/choice[1]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_vagabond.xml:669
+#: src-en/data/events_sector_vagabond.xml:690
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_GHOST_DONATION\"]/choice[2]/text"
 msgstr "Дать им лом, чтобы они отремонтировали свой корпус. [-35~]"
 
-#: src-en/data/events_sector_vagabond.xml:673
+#: src-en/data/events_sector_vagabond.xml:694
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_GHOST_DONATION\"]/choice[3]/text"
 msgstr "Не обращать внимания на корабль."
 
-#: src-en/data/events_sector_vagabond.xml:675
+#: src-en/data/events_sector_vagabond.xml:696
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_GHOST_DONATION\"]/choice[3]/event/text"
 msgstr ""
 "Призраки не предпринимают никаких попыток вступить с вами в контакт и в "
 "конце концов скрываются в облаках, оставляя вас в полном одиночестве."
 
-#: src-en/data/events_sector_vagabond.xml:677
+#: src-en/data/events_sector_vagabond.xml:698
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_GHOST_DONATION\"]/choice[3]/event/choice[1]/text"
 msgstr "Заняться чем-либо на корабле."
 
-#: src-en/data/events_sector_vagabond.xml:681
+#: src-en/data/events_sector_vagabond.xml:702
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_GHOST_DONATION\"]/choice[3]/event/choice[2]/text"
 msgstr "Ничего не делать."
 
-#: src-en/data/events_sector_vagabond.xml:689
+#: src-en/data/events_sector_vagabond.xml:710
 msgid ""
 "data/events_sector_vagabond.xml$//eventList[@name=\"GHOST_DONATION_CREW\"]/event[1]/text"
 msgstr ""
@@ -1143,7 +1176,7 @@ msgstr ""
 "желающих. Это судно проживет еще один день, но я должен искать новое место "
 "для продолжения своих путешествий. Ваше судно подойдет\"."
 
-#: src-en/data/events_sector_vagabond.xml:696
+#: src-en/data/events_sector_vagabond.xml:717
 msgid ""
 "data/events_sector_vagabond.xml$//eventList[@name=\"GHOST_DONATION_CREW\"]/event[2]/text"
 msgstr ""
@@ -1151,7 +1184,7 @@ msgstr ""
 "желающих. Это судно проживет еще один день, но я должен искать новое место "
 "для продолжения своих путешествий. Ваше судно подойдет\"."
 
-#: src-en/data/events_sector_vagabond.xml:703
+#: src-en/data/events_sector_vagabond.xml:724
 msgid ""
 "data/events_sector_vagabond.xml$//eventList[@name=\"GHOST_DONATION_CREW\"]/event[3]/text"
 msgstr ""
@@ -1159,7 +1192,7 @@ msgstr ""
 "желающих. Это судно проживет еще один день, но я должен искать новое место "
 "для продолжения своих путешествий. Ваше судно подойдет\"."
 
-#: src-en/data/events_sector_vagabond.xml:712
+#: src-en/data/events_sector_vagabond.xml:733
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_GHOST_BREEDER\"]/text"
 msgstr ""
@@ -1167,12 +1200,12 @@ msgstr ""
 "Странно, но ни один из призраков не нападает на слизней, и слизни не "
 "занимаются разделкой обломков."
 
-#: src-en/data/events_sector_vagabond.xml:716
+#: src-en/data/events_sector_vagabond.xml:737
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_GHOST_BREEDER\"]/choice[1]/text"
 msgstr "Выйти с ними на связь."
 
-#: src-en/data/events_sector_vagabond.xml:718
+#: src-en/data/events_sector_vagabond.xml:739
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_GHOST_BREEDER\"]/choice[1]/event/text"
 msgstr ""
@@ -1182,19 +1215,19 @@ msgstr ""
 "попытками разведения призраков. Оказалосссь, что они не могут "
 "размножатьссся. Так что...\""
 
-#: src-en/data/events_sector_vagabond.xml:720
+#: src-en/data/events_sector_vagabond.xml:741
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_GHOST_BREEDER\"]/choice[1]/event/choice[1]/text"
 msgstr "Предложить купить одного из подопытных в качестве члена экипажа."
 
-#: src-en/data/events_sector_vagabond.xml:724
+#: src-en/data/events_sector_vagabond.xml:745
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_GHOST_BREEDER\"]/choice[1]/event/choice[@req=\"LIST_CREW_GHOST\"]/text"
 msgstr ""
 "(Член экипажа-призрак) Пусть ваш призрак объяснит, что такое размножение "
 "призраков."
 
-#: src-en/data/events_sector_vagabond.xml:726
+#: src-en/data/events_sector_vagabond.xml:747
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_GHOST_BREEDER\"]/choice[1]/event/choice[@req=\"LIST_CREW_GHOST\"]/event/text"
 msgstr ""
@@ -1204,12 +1237,12 @@ msgstr ""
 "размера, они становятся известными как Альфа. Как только они достигают "
 "стадии Альфа, они могут разделиться, чтобы создать нового призрака."
 
-#: src-en/data/events_sector_vagabond.xml:728
+#: src-en/data/events_sector_vagabond.xml:749
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_GHOST_BREEDER\"]/choice[1]/event/choice[@req=\"LIST_CREW_GHOST\"]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_vagabond.xml:730
+#: src-en/data/events_sector_vagabond.xml:751
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_GHOST_BREEDER\"]/choice[1]/event/choice[@req=\"LIST_CREW_GHOST\"]/event/choice/event/text"
 msgstr ""
@@ -1217,12 +1250,12 @@ msgstr ""
 "говорите, что эти здоровяки важны? Ладно, возьми одного. Какой в этом "
 "сссмысссл...\""
 
-#: src-en/data/events_sector_vagabond.xml:737
+#: src-en/data/events_sector_vagabond.xml:758
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_GHOST_BREEDER\"]/choice[1]/event/choice[@req=\"GHOST_DUPLICATOR\"]/text"
 msgstr "(Делитель) Показать им репликатор."
 
-#: src-en/data/events_sector_vagabond.xml:739
+#: src-en/data/events_sector_vagabond.xml:760
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_GHOST_BREEDER\"]/choice[1]/event/choice[@req=\"GHOST_DUPLICATOR\"]/event/text"
 msgstr ""
@@ -1231,114 +1264,110 @@ msgstr ""
 "отрывать его от работы. Через некоторое время он бьет кулаком по прибору и "
 "что-то кричит. \"Я должен это попробовать! Сссколько?\""
 
-#: src-en/data/events_sector_vagabond.xml:741
+#: src-en/data/events_sector_vagabond.xml:762
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_GHOST_BREEDER\"]/choice[1]/event/choice[@req=\"GHOST_DUPLICATOR\"]/event/choice[@req=\"GHOST_DUPLICATOR\"]/text"
 msgstr "Продать ему модуль."
 
-#: src-en/data/events_sector_vagabond.xml:743
+#: src-en/data/events_sector_vagabond.xml:764
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_GHOST_BREEDER\"]/choice[1]/event/choice[@req=\"GHOST_DUPLICATOR\"]/event/choice[@req=\"GHOST_DUPLICATOR\"]/event/text"
 msgstr ""
 "Слизень с трудом контролирует себя, бросает вам лом и убегает со своей новой"
 " добычей."
 
-#: src-en/data/events_sector_vagabond.xml:751
+#: src-en/data/events_sector_vagabond.xml:772
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_GHOST_BREEDER\"]/choice[1]/event/choice[@req=\"GHOST_DUPLICATOR\"]/event/choice[2]/text"
 msgstr "Отказаться."
 
-#: src-en/data/events_sector_vagabond.xml:753
+#: src-en/data/events_sector_vagabond.xml:774
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_GHOST_BREEDER\"]/choice[1]/event/choice[@req=\"GHOST_DUPLICATOR\"]/event/choice[2]/event/text"
 msgstr ""
 "Слизень кричит что-то обидное о том, что он зря тратит время, и в бешенстве "
 "возвращается на свой корабль."
 
-#: src-en/data/events_sector_vagabond.xml:759
+#: src-en/data/events_sector_vagabond.xml:780
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_GHOST_BREEDER\"]/choice[1]/event/choice[4]/text"
 msgstr "Завершить вызов."
 
-#: src-en/data/events_sector_vagabond.xml:761
+#: src-en/data/events_sector_vagabond.xml:782
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_GHOST_BREEDER\"]/choice[1]/event/choice[4]/event/text"
 msgstr ""
 "Вы пожимаете плечами и завершаете разговор. Вы не сомневаетесь, что ученый "
 "не против."
 
-#: src-en/data/events_sector_vagabond.xml:763
+#: src-en/data/events_sector_vagabond.xml:784
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_GHOST_BREEDER\"]/choice[1]/event/choice[4]/event/choice[1]/text"
 msgstr "Заняться чем-либо на корабле."
 
-#: src-en/data/events_sector_vagabond.xml:767
+#: src-en/data/events_sector_vagabond.xml:788
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_GHOST_BREEDER\"]/choice[1]/event/choice[4]/event/choice[2]/text"
 msgstr "Ничего не делать."
 
-#: src-en/data/events_sector_vagabond.xml:775
+#: src-en/data/events_sector_vagabond.xml:796
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_GHOST_BREEDER\"]/choice[2]/text"
 msgstr "Не обращать на них внимания."
 
-#: src-en/data/events_sector_vagabond.xml:777
+#: src-en/data/events_sector_vagabond.xml:798
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_GHOST_BREEDER\"]/choice[2]/event/text"
 msgstr ""
 "Слизням, даже ученым, нельзя доверять, да и клан призраков не хочется "
 "расстраивать. Вы решили держаться в стороне от их сомнительных дел."
 
-#: src-en/data/events_sector_vagabond.xml:779
+#: src-en/data/events_sector_vagabond.xml:800
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_GHOST_BREEDER\"]/choice[2]/event/choice[1]/text"
 msgstr "Заняться чем-либо на корабле."
 
-#: src-en/data/events_sector_vagabond.xml:783
+#: src-en/data/events_sector_vagabond.xml:804
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_GHOST_BREEDER\"]/choice[2]/event/choice[2]/text"
 msgstr "Ничего не делать."
 
-#: src-en/data/events_sector_vagabond.xml:791
-msgid ""
-"data/events_sector_vagabond.xml$//eventList[@name=\"GHOST_BREEDER_PURCHASE\"]/event[1]/text"
-msgstr ""
-"\" Вы... вы хотите КУПИТЬ одного из этих уродов? Что ж, ломом есссть лом\"."
-
-#: src-en/data/events_sector_vagabond.xml:798
-msgid ""
-"data/events_sector_vagabond.xml$//eventList[@name=\"GHOST_BREEDER_PURCHASE\"]/event[2]/text"
-msgstr ""
-"\" Вы... вы хотите КУПИТЬ одного из этих уродов? Что ж, ломом есссть лом\"."
-
-#: src-en/data/events_sector_vagabond.xml:805
-msgid ""
-"data/events_sector_vagabond.xml$//eventList[@name=\"GHOST_BREEDER_PURCHASE\"]/event[3]/text"
-msgstr ""
-"\" Вы... вы хотите КУПИТЬ одного из этих уродов? Что ж, ломом есссть лом\"."
-
 #: src-en/data/events_sector_vagabond.xml:812
 msgid ""
-"data/events_sector_vagabond.xml$//eventList[@name=\"GHOST_BREEDER_PURCHASE\"]/event[4]/text"
-msgstr ""
-"\" Вы... вы хотите КУПИТЬ одного из этих уродов? Что ж, ломом есссть лом\"."
+"data/events_sector_vagabond.xml$//eventList[@name=\"GHOST_BREEDER_PURCHASE\"]/event[1]/text"
+msgstr "\"Вы... вы хотите КУПИТЬ одного из этих уродов? Что ж, лом есссть лом\"."
 
-#: src-en/data/events_sector_vagabond.xml:837
+#: src-en/data/events_sector_vagabond.xml:819
 msgid ""
-"data/events_sector_vagabond.xml$//event[@name=\"NEBULA_GHOST_GASGIANT\"]/text"
+"data/events_sector_vagabond.xml$//eventList[@name=\"GHOST_BREEDER_PURCHASE\"]/event[2]/text"
+msgstr "\"Вы... вы хотите КУПИТЬ одного из этих уродов? Что ж, лом есссть лом\"."
+
+#: src-en/data/events_sector_vagabond.xml:826
+msgid ""
+"data/events_sector_vagabond.xml$//eventList[@name=\"GHOST_BREEDER_PURCHASE\"]/event[3]/text"
+msgstr "\"Вы... вы хотите КУПИТЬ одного из этих уродов? Что ж, лом есссть лом\"."
+
+#: src-en/data/events_sector_vagabond.xml:833
+msgid ""
+"data/events_sector_vagabond.xml$//eventList[@name=\"GHOST_BREEDER_PURCHASE\"]/event[4]/text"
+msgstr "\"Вы... вы хотите КУПИТЬ одного из этих уродов? Что ж, лом есссть лом\"."
+
+#: src-en/data/events_sector_vagabond.xml:858
+msgid ""
+"data/events_sector_vagabond.xml$//event[@name=\"NEBULA_LIGHT_GHOST_GASGIANT\"]/text"
 msgstr ""
 "Похоже, что корабль бродяг сканирует близлежащий газовый гигант, но быстро "
 "выходит на связь, когда вы появляетесь здесь. \"Разве моя дорогая не "
 "прекрасна?\""
 
-#: src-en/data/events_sector_vagabond.xml:841
+#: src-en/data/events_sector_vagabond.xml:862
 msgid ""
-"data/events_sector_vagabond.xml$//event[@name=\"NEBULA_GHOST_GASGIANT\"]/choice/text"
+"data/events_sector_vagabond.xml$//event[@name=\"NEBULA_LIGHT_GHOST_GASGIANT\"]/choice/text"
 msgstr "Твоя... кто?"
 
-#: src-en/data/events_sector_vagabond.xml:843
+#: src-en/data/events_sector_vagabond.xml:864
 msgid ""
-"data/events_sector_vagabond.xml$//event[@name=\"NEBULA_GHOST_GASGIANT\"]/choice/event/text"
+"data/events_sector_vagabond.xml$//event[@name=\"NEBULA_LIGHT_GHOST_GASGIANT\"]/choice/event/text"
 msgstr ""
 "\"Не говори глупостей! Я знаю, что ты видишь. Она довольно большая!\" Вы не "
 "сразу понимаете, что речь идет о газовой планете. \"Скажи, ты можешь оказать"
@@ -1346,64 +1375,64 @@ msgstr ""
 " Ты должен принести мне обломки. Я слышал, что здесь бродит демон! Но, "
 "возможно, ты предпочтешь поискать повстанцев...\""
 
-#: src-en/data/events_sector_vagabond.xml:845
+#: src-en/data/events_sector_vagabond.xml:866
 msgid ""
-"data/events_sector_vagabond.xml$//event[@name=\"NEBULA_GHOST_GASGIANT\"]/choice/event/choice[1]/text"
+"data/events_sector_vagabond.xml$//event[@name=\"NEBULA_LIGHT_GHOST_GASGIANT\"]/choice/event/choice[1]/text"
 msgstr "Отправиться за \"демоном\"."
 
-#: src-en/data/events_sector_vagabond.xml:847
+#: src-en/data/events_sector_vagabond.xml:868
 msgid ""
-"data/events_sector_vagabond.xml$//event[@name=\"NEBULA_GHOST_GASGIANT\"]/choice/event/choice[1]/event/text"
+"data/events_sector_vagabond.xml$//event[@name=\"NEBULA_LIGHT_GHOST_GASGIANT\"]/choice/event/choice[1]/event/text"
 msgstr ""
 "Похоже, что \"демон\", о котором идет речь, - это... автоматический корабль "
 "повстанцев? Что ж, в любом случае вам придется расправиться с этой штукой, "
 "готовьтесь к бою!"
 
-#: src-en/data/events_sector_vagabond.xml:850
+#: src-en/data/events_sector_vagabond.xml:871
 msgid ""
-"data/events_sector_vagabond.xml$//event[@name=\"NEBULA_GHOST_GASGIANT\"]/choice/event/choice[1]/event/choice/text"
+"data/events_sector_vagabond.xml$//event[@name=\"NEBULA_LIGHT_GHOST_GASGIANT\"]/choice/event/choice[1]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_vagabond.xml:856
+#: src-en/data/events_sector_vagabond.xml:877
 msgid ""
-"data/events_sector_vagabond.xml$//event[@name=\"NEBULA_GHOST_GASGIANT\"]/choice/event/choice[2]/text"
+"data/events_sector_vagabond.xml$//event[@name=\"NEBULA_LIGHT_GHOST_GASGIANT\"]/choice/event/choice[2]/text"
 msgstr "Отправиться за повстанцами."
 
-#: src-en/data/events_sector_vagabond.xml:858
+#: src-en/data/events_sector_vagabond.xml:879
 msgid ""
-"data/events_sector_vagabond.xml$//event[@name=\"NEBULA_GHOST_GASGIANT\"]/choice/event/choice[2]/event/text"
+"data/events_sector_vagabond.xml$//event[@name=\"NEBULA_LIGHT_GHOST_GASGIANT\"]/choice/event/choice[2]/event/text"
 msgstr ""
 "К счастью, недалеко отсюда есть корабль повстанцев. Надеюсь, вы сможете "
 "легко расправиться с этими ребятами."
 
-#: src-en/data/events_sector_vagabond.xml:861
+#: src-en/data/events_sector_vagabond.xml:882
 msgid ""
-"data/events_sector_vagabond.xml$//event[@name=\"NEBULA_GHOST_GASGIANT\"]/choice/event/choice[2]/event/choice/text"
+"data/events_sector_vagabond.xml$//event[@name=\"NEBULA_LIGHT_GHOST_GASGIANT\"]/choice/event/choice[2]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_vagabond.xml:867
+#: src-en/data/events_sector_vagabond.xml:888
 msgid ""
-"data/events_sector_vagabond.xml$//event[@name=\"NEBULA_GHOST_GASGIANT\"]/choice/event/choice[3]/text"
+"data/events_sector_vagabond.xml$//event[@name=\"NEBULA_LIGHT_GHOST_GASGIANT\"]/choice/event/choice[3]/text"
 msgstr "Отказаться."
 
-#: src-en/data/events_sector_vagabond.xml:869
+#: src-en/data/events_sector_vagabond.xml:890
 msgid ""
-"data/events_sector_vagabond.xml$//event[@name=\"NEBULA_GHOST_GASGIANT\"]/choice/event/choice[3]/event/text"
+"data/events_sector_vagabond.xml$//event[@name=\"NEBULA_LIGHT_GHOST_GASGIANT\"]/choice/event/choice[3]/event/text"
 msgstr ""
 "\"Хорошо... Попрощайся с капитаном Федерации, дорогая!\" Газовый гигант "
 "молчит, кружась вдали, молчаливо наблюдая за вами."
 
-#: src-en/data/events_sector_vagabond.xml:871
+#: src-en/data/events_sector_vagabond.xml:892
 msgid ""
-"data/events_sector_vagabond.xml$//event[@name=\"NEBULA_GHOST_GASGIANT\"]/choice/event/choice[3]/event/choice[1]/text"
+"data/events_sector_vagabond.xml$//event[@name=\"NEBULA_LIGHT_GHOST_GASGIANT\"]/choice/event/choice[3]/event/choice[1]/text"
 msgstr "Заняться чем-либо на корабле."
 
-#: src-en/data/events_sector_vagabond.xml:875
+#: src-en/data/events_sector_vagabond.xml:896
 msgid ""
-"data/events_sector_vagabond.xml$//event[@name=\"NEBULA_GHOST_GASGIANT\"]/choice/event/choice[3]/event/choice[2]/text"
+"data/events_sector_vagabond.xml$//event[@name=\"NEBULA_LIGHT_GHOST_GASGIANT\"]/choice/event/choice[3]/event/choice[2]/text"
 msgstr "Ничего не делать."
 
-#: src-en/data/events_sector_vagabond.xml:884
+#: src-en/data/events_sector_vagabond.xml:905
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"GHOST_GASGIANT_FEED\"]/text"
 msgstr ""
@@ -1413,7 +1442,7 @@ msgstr ""
 " видимости, поглощаемый планетой. \"Хорошо. Ты заслужил самую щедрую "
 "награду!\""
 
-#: src-en/data/events_sector_vagabond.xml:889
+#: src-en/data/events_sector_vagabond.xml:910
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_GHOST_FEDMORALITY\"]/text"
 msgstr ""
@@ -1422,12 +1451,12 @@ msgstr ""
 "оружие работает, а корпус имеет незначительные повреждения. Должно быть, они"
 " только что побывали в бою."
 
-#: src-en/data/events_sector_vagabond.xml:892
+#: src-en/data/events_sector_vagabond.xml:913
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_GHOST_FEDMORALITY\"]/choice[1]/text"
 msgstr "Выйти с ними на связь."
 
-#: src-en/data/events_sector_vagabond.xml:894
+#: src-en/data/events_sector_vagabond.xml:915
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_GHOST_FEDMORALITY\"]/choice[1]/event/text"
 msgstr ""
@@ -1436,12 +1465,12 @@ msgstr ""
 "зачистить их лагерь неподалеку отсюда, а они, сволочи, упрямые! Я могу "
 "сколько угодно совершать вылазки туда и обратно!\""
 
-#: src-en/data/events_sector_vagabond.xml:896
+#: src-en/data/events_sector_vagabond.xml:917
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_GHOST_FEDMORALITY\"]/choice[1]/event/choice/text"
 msgstr "Но почему?"
 
-#: src-en/data/events_sector_vagabond.xml:898
+#: src-en/data/events_sector_vagabond.xml:919
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_GHOST_FEDMORALITY\"]/choice[1]/event/choice/event/text"
 msgstr ""
@@ -1449,113 +1478,113 @@ msgstr ""
 "менее людными. Как только Восстание уйдет в прошлое, Федерация, вероятно, "
 "продвинется еще дальше, так что можно начать зачищать туманности\"."
 
-#: src-en/data/events_sector_vagabond.xml:900
+#: src-en/data/events_sector_vagabond.xml:921
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_GHOST_FEDMORALITY\"]/choice[1]/event/choice/event/choice[1]/text"
 msgstr "Помочь им уничтожить призраков."
 
-#: src-en/data/events_sector_vagabond.xml:902
+#: src-en/data/events_sector_vagabond.xml:923
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_GHOST_FEDMORALITY\"]/choice[1]/event/choice/event/choice[1]/event/text"
 msgstr ""
 "Ваше предложение помочь обрадовало капитана Федерации. Он ведет вас в лагерь"
 " призраков, где вы видите свою цель."
 
-#: src-en/data/events_sector_vagabond.xml:904
+#: src-en/data/events_sector_vagabond.xml:925
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_GHOST_FEDMORALITY\"]/choice[1]/event/choice/event/choice[1]/event/choice[1]/text"
 msgstr "Атаковать один из разваливающихся кораблей богомолов."
 
-#: src-en/data/events_sector_vagabond.xml:906
+#: src-en/data/events_sector_vagabond.xml:927
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_GHOST_FEDMORALITY\"]/choice[1]/event/choice/event/choice[1]/event/choice[1]/event/text"
 msgstr ""
 "Пока вы атакуете бродяг, вы наблюдаете за тем, как другие корабли начинают "
 "сражаться с кораблем Федерации. Надеюсь, вы оба сможете выстоять."
 
-#: src-en/data/events_sector_vagabond.xml:909
+#: src-en/data/events_sector_vagabond.xml:930
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_GHOST_FEDMORALITY\"]/choice[1]/event/choice/event/choice[1]/event/choice[1]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_vagabond.xml:915
+#: src-en/data/events_sector_vagabond.xml:936
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_GHOST_FEDMORALITY\"]/choice[1]/event/choice/event/choice[1]/event/choice[2]/text"
 msgstr "Атаковать один из разваливающихся кораблей энджи."
 
-#: src-en/data/events_sector_vagabond.xml:917
+#: src-en/data/events_sector_vagabond.xml:938
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_GHOST_FEDMORALITY\"]/choice[1]/event/choice/event/choice[1]/event/choice[2]/event/text"
 msgstr ""
 "Пока вы атакуете бродяг, вы наблюдаете за тем, как другие корабли начинают "
 "сражаться с кораблем Федерации. Надеюсь, вы оба сможете выстоять."
 
-#: src-en/data/events_sector_vagabond.xml:920
+#: src-en/data/events_sector_vagabond.xml:941
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_GHOST_FEDMORALITY\"]/choice[1]/event/choice/event/choice[1]/event/choice[2]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_vagabond.xml:926
+#: src-en/data/events_sector_vagabond.xml:947
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_GHOST_FEDMORALITY\"]/choice[1]/event/choice/event/choice[1]/event/choice[3]/text"
 msgstr "Атаковать один из разваливающихся кораблей золтан."
 
-#: src-en/data/events_sector_vagabond.xml:928
+#: src-en/data/events_sector_vagabond.xml:949
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_GHOST_FEDMORALITY\"]/choice[1]/event/choice/event/choice[1]/event/choice[3]/event/text"
 msgstr ""
 "Пока вы атакуете бродяг, вы наблюдаете за тем, как другие корабли начинают "
 "сражаться с кораблем Федерации. Надеюсь, вы оба сможете выстоять."
 
-#: src-en/data/events_sector_vagabond.xml:931
+#: src-en/data/events_sector_vagabond.xml:952
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_GHOST_FEDMORALITY\"]/choice[1]/event/choice/event/choice[1]/event/choice[3]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_vagabond.xml:939
+#: src-en/data/events_sector_vagabond.xml:960
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_GHOST_FEDMORALITY\"]/choice[1]/event/choice/event/choice[2]/text"
 msgstr "Это подло! Атаковать федералов."
 
-#: src-en/data/events_sector_vagabond.xml:941
+#: src-en/data/events_sector_vagabond.xml:962
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_GHOST_FEDMORALITY\"]/choice[1]/event/choice/event/choice[2]/event/text"
 msgstr ""
 "\"Блин! Какого черта ты делаешь?\" Вы отключаете звук на судне и атакуете."
 
-#: src-en/data/events_sector_vagabond.xml:944
+#: src-en/data/events_sector_vagabond.xml:965
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_GHOST_FEDMORALITY\"]/choice[1]/event/choice/event/choice[2]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_vagabond.xml:950
+#: src-en/data/events_sector_vagabond.xml:971
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_GHOST_FEDMORALITY\"]/choice[1]/event/choice/event/choice[3]/text"
 msgstr "Оставить их в покое."
 
-#: src-en/data/events_sector_vagabond.xml:958
+#: src-en/data/events_sector_vagabond.xml:979
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_GHOST_FEDMORALITY\"]/choice[2]/text"
 msgstr "Не обращать внимания на корабль."
 
-#: src-en/data/events_sector_vagabond.xml:960
+#: src-en/data/events_sector_vagabond.xml:981
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_GHOST_FEDMORALITY\"]/choice[2]/event/text"
 msgstr ""
 "Судно Федерации выглядит слишком занятым, чтобы заметить или побеспокоиться "
 "о вас."
 
-#: src-en/data/events_sector_vagabond.xml:962
+#: src-en/data/events_sector_vagabond.xml:983
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_GHOST_FEDMORALITY\"]/choice[2]/event/choice[1]/text"
 msgstr "Заняться чем-либо на корабле."
 
-#: src-en/data/events_sector_vagabond.xml:966
+#: src-en/data/events_sector_vagabond.xml:987
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_GHOST_FEDMORALITY\"]/choice[2]/event/choice[2]/text"
 msgstr "Ничего не делать."
 
-#: src-en/data/events_sector_vagabond.xml:973
+#: src-en/data/events_sector_vagabond.xml:994
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"GHOST_FEDMORALITY_FINISH\"]/text"
 msgstr ""
@@ -1564,26 +1593,26 @@ msgstr ""
 "корпус пополам. \"Проваливай, дышащий!\" Вы быстро уничтожаете второй "
 "корабль призраков, но корабль Федерации долго не продержится."
 
-#: src-en/data/events_sector_vagabond.xml:975
+#: src-en/data/events_sector_vagabond.xml:996
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"GHOST_FEDMORALITY_FINISH\"]/choice[1]/text"
 msgstr "Спасти капитана."
 
-#: src-en/data/events_sector_vagabond.xml:977
+#: src-en/data/events_sector_vagabond.xml:998
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"GHOST_FEDMORALITY_FINISH\"]/choice[1]/event/text"
 msgstr ""
 "\"С-спасибо. Вот поэтому мы и должны прикрывать Федерацию, эта галактика "
 "полна неспровоцированных опасностей!\""
 
-#: src-en/data/events_sector_vagabond.xml:982
+#: src-en/data/events_sector_vagabond.xml:1003
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"GHOST_FEDMORALITY_FINISH\"]/choice[2]/text"
 msgstr ""
 "Это к лучшему. Пусть они умрут, а их корабль послужит дополнительным ломом "
 "для вас."
 
-#: src-en/data/events_sector_vagabond.xml:984
+#: src-en/data/events_sector_vagabond.xml:1005
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"GHOST_FEDMORALITY_FINISH\"]/choice[2]/event/text"
 msgstr ""
@@ -1591,7 +1620,7 @@ msgstr ""
 " Кровь убитых в этот день теперь только на ваших руках, но вы должны быстро "
 "двигаться дальше."
 
-#: src-en/data/events_sector_vagabond.xml:991
+#: src-en/data/events_sector_vagabond.xml:1012
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_GHOST_ANGERY_SLUG\"]/text"
 msgstr ""
@@ -1599,44 +1628,44 @@ msgstr ""
 "Туманносссти принадлежат НАМ! У меня и так много проблем, я не могу "
 "разбиратьссся ещщще и ссс кораблем Федерации\"."
 
-#: src-en/data/events_sector_vagabond.xml:995
+#: src-en/data/events_sector_vagabond.xml:1016
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_GHOST_ANGERY_SLUG\"]/choice[1]/text"
 msgstr "Показать им, что вы не собираетесь шутить."
 
-#: src-en/data/events_sector_vagabond.xml:997
+#: src-en/data/events_sector_vagabond.xml:1018
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_GHOST_ANGERY_SLUG\"]/choice[1]/event/text"
 msgstr ""
 "\"Я должен был догадатьссся, что ты попытаешшшьссся это сссделать. Лучшшше я"
 " уничтожу твой корабль, чем призраки сссами заберут его\"."
 
-#: src-en/data/events_sector_vagabond.xml:1000
+#: src-en/data/events_sector_vagabond.xml:1021
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_GHOST_ANGERY_SLUG\"]/choice[1]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_vagabond.xml:1006
+#: src-en/data/events_sector_vagabond.xml:1027
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_GHOST_ANGERY_SLUG\"]/choice[2]/text"
 msgstr "Заверить их, что вы уже уходите."
 
-#: src-en/data/events_sector_vagabond.xml:1008
+#: src-en/data/events_sector_vagabond.xml:1029
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_GHOST_ANGERY_SLUG\"]/choice[2]/event/text"
 msgstr "\"Хорошшшо... Но не попадайссся мне на глаза\"."
 
-#: src-en/data/events_sector_vagabond.xml:1010
+#: src-en/data/events_sector_vagabond.xml:1031
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_GHOST_ANGERY_SLUG\"]/choice[2]/event/choice[1]/text"
 msgstr "Заняться чем-либо на корабле."
 
-#: src-en/data/events_sector_vagabond.xml:1014
+#: src-en/data/events_sector_vagabond.xml:1035
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_GHOST_ANGERY_SLUG\"]/choice[2]/event/choice[2]/text"
 msgstr "Ничего не делать."
 
-#: src-en/data/events_sector_vagabond.xml:1022
+#: src-en/data/events_sector_vagabond.xml:1043
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_DRIFTER_CHOICE_GHOST\"]/text"
 msgstr ""
@@ -1644,17 +1673,17 @@ msgstr ""
 "активности и, по всей видимости, пустой. Он не отвечает на ваши попытки "
 "связаться с ним."
 
-#: src-en/data/events_sector_vagabond.xml:1026
+#: src-en/data/events_sector_vagabond.xml:1047
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_DRIFTER_CHOICE_GHOST\"]/choice[1]/text"
 msgstr "Разобрать его."
 
-#: src-en/data/events_sector_vagabond.xml:1030
+#: src-en/data/events_sector_vagabond.xml:1051
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_DRIFTER_CHOICE_GHOST\"]/choice[@req=\"weapons\"]/text"
 msgstr "Взорвать корабль в небытие."
 
-#: src-en/data/events_sector_vagabond.xml:1032
+#: src-en/data/events_sector_vagabond.xml:1053
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_DRIFTER_CHOICE_GHOST\"]/choice[@req=\"weapons\"]/event/text"
 msgstr ""
@@ -1663,29 +1692,29 @@ msgstr ""
 "неважно. К сожалению, в обломках, разбросанных в глубинах туманности, не "
 "осталось ничего полезного."
 
-#: src-en/data/events_sector_vagabond.xml:1037
+#: src-en/data/events_sector_vagabond.xml:1058
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_DRIFTER_CHOICE_GHOST\"]/choice[3]/text"
 msgstr "Не обращать внимания на корабль."
 
-#: src-en/data/events_sector_vagabond.xml:1043
+#: src-en/data/events_sector_vagabond.xml:1064
 msgid ""
 "data/events_sector_vagabond.xml$//eventList[@name=\"NEBULA_DRIFTER_CHOICE_GHOST_SCRAP\"]/event[1]/text"
 msgstr ""
 "Во время разборки корабля, неожиданно оживает команда призраков, разбуженная"
 " вашими попытками разрушить их только что обретенный дом."
 
-#: src-en/data/events_sector_vagabond.xml:1047
+#: src-en/data/events_sector_vagabond.xml:1068
 msgid ""
 "data/events_sector_vagabond.xml$//eventList[@name=\"NEBULA_DRIFTER_CHOICE_GHOST_SCRAP\"]/event[1]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_vagabond.xml:1052
+#: src-en/data/events_sector_vagabond.xml:1073
 msgid ""
 "data/events_sector_vagabond.xml$//eventList[@name=\"NEBULA_DRIFTER_CHOICE_GHOST_SCRAP\"]/event[2]/text"
 msgstr "После повреждения корпуса корабль остается безжизненным."
 
-#: src-en/data/events_sector_vagabond.xml:1058
+#: src-en/data/events_sector_vagabond.xml:1079
 msgid ""
 "data/events_sector_vagabond.xml$//eventList[@name=\"NEBULA_DRIFTER_CHOICE_GHOST_IGNORE\"]/event[1]/text"
 msgstr ""
@@ -1693,29 +1722,29 @@ msgstr ""
 "находящиеся на борту призраки намерены сразиться с вами! Корабль оживает, "
 "включается оружие, и у вас остается только один выход - сражаться."
 
-#: src-en/data/events_sector_vagabond.xml:1061
+#: src-en/data/events_sector_vagabond.xml:1082
 msgid ""
 "data/events_sector_vagabond.xml$//eventList[@name=\"NEBULA_DRIFTER_CHOICE_GHOST_IGNORE\"]/event[1]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_vagabond.xml:1066
+#: src-en/data/events_sector_vagabond.xml:1087
 msgid ""
 "data/events_sector_vagabond.xml$//eventList[@name=\"NEBULA_DRIFTER_CHOICE_GHOST_IGNORE\"]/event[2]/text"
 msgstr ""
 "Если на борту есть призраки, вы не хотите их будить. Вы решили потратить "
 "свое время на что-то другое."
 
-#: src-en/data/events_sector_vagabond.xml:1068
+#: src-en/data/events_sector_vagabond.xml:1089
 msgid ""
 "data/events_sector_vagabond.xml$//eventList[@name=\"NEBULA_DRIFTER_CHOICE_GHOST_IGNORE\"]/event[2]/choice[1]/text"
 msgstr "Заняться чем-либо на корабле."
 
-#: src-en/data/events_sector_vagabond.xml:1072
+#: src-en/data/events_sector_vagabond.xml:1093
 msgid ""
 "data/events_sector_vagabond.xml$//eventList[@name=\"NEBULA_DRIFTER_CHOICE_GHOST_IGNORE\"]/event[2]/choice[2]/text"
 msgstr "Ничего не делать."
 
-#: src-en/data/events_sector_vagabond.xml:1079
+#: src-en/data/events_sector_vagabond.xml:1100
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_GHOST_INSANE_ROCKMEN\"]/text"
 msgstr ""
@@ -1723,70 +1752,70 @@ msgstr ""
 "калачиком на земле, раскачиваясь взад-вперед. Капитан яростно трясет камеру,"
 " крича на вас: \"ПРИИИИЗРАКИ, ПРИИИИИИИЗРАКИ! ТЫ ПРИЗРАК?\""
 
-#: src-en/data/events_sector_vagabond.xml:1083
+#: src-en/data/events_sector_vagabond.xml:1104
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_GHOST_INSANE_ROCKMEN\"]/choice[1]/text"
 msgstr "Совершенно верно."
 
-#: src-en/data/events_sector_vagabond.xml:1087
+#: src-en/data/events_sector_vagabond.xml:1108
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_GHOST_INSANE_ROCKMEN\"]/choice[2]/text"
 msgstr "Нет."
 
-#: src-en/data/events_sector_vagabond.xml:1091
+#: src-en/data/events_sector_vagabond.xml:1112
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_GHOST_INSANE_ROCKMEN\"]/choice[@req=\"LIST_CREW_GHOST\"]/text"
 msgstr "(Член экипажа-призрак) Показать им своего призрака."
 
-#: src-en/data/events_sector_vagabond.xml:1097
+#: src-en/data/events_sector_vagabond.xml:1118
 msgid ""
 "data/events_sector_vagabond.xml$//eventList[@name=\"NEBULA_GHOST_INSANE_ROCKMEN_YES\"]/event[1]/text"
 msgstr ""
 "Валун начинает кричать и разбивает камеру. Проходит совсем немного времени, "
 "и их оружие активируется, а обезумевший экипаж валунов готов уничтожить вас."
 
-#: src-en/data/events_sector_vagabond.xml:1100
+#: src-en/data/events_sector_vagabond.xml:1121
 msgid ""
 "data/events_sector_vagabond.xml$//eventList[@name=\"NEBULA_GHOST_INSANE_ROCKMEN_YES\"]/event[1]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_vagabond.xml:1105
+#: src-en/data/events_sector_vagabond.xml:1126
 msgid ""
 "data/events_sector_vagabond.xml$//eventList[@name=\"NEBULA_GHOST_INSANE_ROCKMEN_YES\"]/event[2]/text"
 msgstr ""
 "Капитан замирает от страха и умоляет вас не съедать их желудки. Вы не "
 "уверены, что призраки вообще плотоядны, но валуны явно этого не знают."
 
-#: src-en/data/events_sector_vagabond.xml:1107
+#: src-en/data/events_sector_vagabond.xml:1128
 msgid ""
 "data/events_sector_vagabond.xml$//eventList[@name=\"NEBULA_GHOST_INSANE_ROCKMEN_YES\"]/event[2]/choice[1]/text"
 msgstr "Мы тебя съедим."
 
-#: src-en/data/events_sector_vagabond.xml:1109
+#: src-en/data/events_sector_vagabond.xml:1130
 msgid ""
 "data/events_sector_vagabond.xml$//eventList[@name=\"NEBULA_GHOST_INSANE_ROCKMEN_YES\"]/event[2]/choice[1]/event/text"
 msgstr ""
 "Валун начинает плакать. \"Нет-нет-нет-нет, нет, НЕТ!\" Он ударяет кулаком по"
 " столу перед собой и приказывает своему экипажу собраться и атаковать."
 
-#: src-en/data/events_sector_vagabond.xml:1112
+#: src-en/data/events_sector_vagabond.xml:1133
 msgid ""
 "data/events_sector_vagabond.xml$//eventList[@name=\"NEBULA_GHOST_INSANE_ROCKMEN_YES\"]/event[2]/choice[1]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_vagabond.xml:1118
+#: src-en/data/events_sector_vagabond.xml:1139
 msgid ""
 "data/events_sector_vagabond.xml$//eventList[@name=\"NEBULA_GHOST_INSANE_ROCKMEN_YES\"]/event[2]/choice[2]/text"
 msgstr "Мы не желаем вам зла."
 
-#: src-en/data/events_sector_vagabond.xml:1120
+#: src-en/data/events_sector_vagabond.xml:1141
 msgid ""
 "data/events_sector_vagabond.xml$//eventList[@name=\"NEBULA_GHOST_INSANE_ROCKMEN_YES\"]/event[2]/choice[2]/event/text"
 msgstr ""
 "\"О, спасибо, спасибо-спасибо-спасибо...\" Капитан падает на землю, бормоча "
 "слова благодарности и прочий бессвязный бред. Вы оставляете его в покое."
 
-#: src-en/data/events_sector_vagabond.xml:1127
+#: src-en/data/events_sector_vagabond.xml:1148
 msgid ""
 "data/events_sector_vagabond.xml$//eventList[@name=\"NEBULA_GHOST_INSANE_ROCKMEN_NO\"]/event[1]/text"
 msgstr ""
@@ -1795,12 +1824,12 @@ msgstr ""
 " надо объяснять, что по их логике они тоже должны быть призраками, потому "
 "что их оружие - живое."
 
-#: src-en/data/events_sector_vagabond.xml:1130
+#: src-en/data/events_sector_vagabond.xml:1151
 msgid ""
 "data/events_sector_vagabond.xml$//eventList[@name=\"NEBULA_GHOST_INSANE_ROCKMEN_NO\"]/event[1]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_vagabond.xml:1135
+#: src-en/data/events_sector_vagabond.xml:1156
 msgid ""
 "data/events_sector_vagabond.xml$//eventList[@name=\"NEBULA_GHOST_INSANE_ROCKMEN_NO\"]/event[2]/text"
 msgstr ""
@@ -1808,17 +1837,17 @@ msgstr ""
 "повсюду!\" Валун разражается приступом безумного хохота и заканчивает "
 "разговор. Вы увеличиваете расстояние между двумя кораблями."
 
-#: src-en/data/events_sector_vagabond.xml:1137
+#: src-en/data/events_sector_vagabond.xml:1158
 msgid ""
 "data/events_sector_vagabond.xml$//eventList[@name=\"NEBULA_GHOST_INSANE_ROCKMEN_NO\"]/event[2]/choice[1]/text"
 msgstr "Заняться чем-либо на корабле."
 
-#: src-en/data/events_sector_vagabond.xml:1141
+#: src-en/data/events_sector_vagabond.xml:1162
 msgid ""
 "data/events_sector_vagabond.xml$//eventList[@name=\"NEBULA_GHOST_INSANE_ROCKMEN_NO\"]/event[2]/choice[2]/text"
 msgstr "Ничего не делать."
 
-#: src-en/data/events_sector_vagabond.xml:1147
+#: src-en/data/events_sector_vagabond.xml:1168
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_GHOST_INSANE_ROCKMEN_GHOST\"]/text"
 msgstr ""
@@ -1829,26 +1858,33 @@ msgstr ""
 "экипажа слишком безумны, чтобы что-либо предпринять, вы разбираете внешнюю "
 "обшивку их корабля."
 
-#: src-en/data/events_sector_vagabond.xml:1152
+#: src-en/data/events_sector_vagabond.xml:1173
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_GHOST_UPGRADERS\"]/text"
 msgstr ""
-"Маяк кажется пустым, но вы передумываете, поскольку по коридорам разносится "
-"эхо шагов. Вы бросаетесь в машинное отделение и видите трех призраков, "
-"которые, склонившись, осматривают ССД."
+"Маяк кажется пустым, но вы начинаете сомневаться в этом, когда по коридорам "
+"разносится шум статики. Вы бросаетесь в машинное отделение и видите трех "
+"призраков, осматривающих сверхсветовой привод."
 
-#: src-en/data/events_sector_vagabond.xml:1155
+#: src-en/data/events_sector_vagabond.xml:1176
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_GHOST_UPGRADERS\"]/choice[1]/text"
 msgstr ""
 "Сразиться с призраками до того, как они смогут нанести ущерб вашей системе."
 
-#: src-en/data/events_sector_vagabond.xml:1161
+#: src-en/data/events_sector_vagabond.xml:1182
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_GHOST_UPGRADERS\"]/choice[2]/text"
 msgstr "Подождать и понаблюдать."
 
-#: src-en/data/events_sector_vagabond.xml:1167
+#: src-en/data/events_sector_vagabond.xml:1186
+msgid ""
+"data/events_sector_vagabond.xml$//event[@name=\"NEBULA_GHOST_UPGRADERS\"]/choice[@req=\"mind\"]/text"
+msgstr ""
+"(Контроль разума) Оставить их в покое, но на всякий случай приготовить "
+"средства контроля разума."
+
+#: src-en/data/events_sector_vagabond.xml:1192
 msgid ""
 "data/events_sector_vagabond.xml$//eventList[@name=\"NEBULA_GHOST_UPGRADERS_WAIT\"]/event[1]/text"
 msgstr ""
@@ -1859,7 +1895,7 @@ msgstr ""
 "знаете, что они сделали, но кажется, что ваши двигатели работают на большей "
 "мощности, чем раньше."
 
-#: src-en/data/events_sector_vagabond.xml:1171
+#: src-en/data/events_sector_vagabond.xml:1196
 msgid ""
 "data/events_sector_vagabond.xml$//eventList[@name=\"NEBULA_GHOST_UPGRADERS_WAIT\"]/event[2]/text"
 msgstr ""
@@ -1868,7 +1904,29 @@ msgstr ""
 "металлическую обшивку с корпуса привода Мультивселенной, что приводит к "
 "мощному взрыву! Вы больше не ждете и приказываете экипажу атаковать."
 
-#: src-en/data/events_sector_vagabond.xml:1191
+#: src-en/data/events_sector_vagabond.xml:1203
+msgid ""
+"data/events_sector_vagabond.xml$//eventList[@name=\"NEBULA_GHOST_UPGRADERS_MINDCONTROL\"]/event[1]/text"
+msgstr ""
+"Вы ждете и наблюдаете, как призраки осматривают каждый сантиметр вашей "
+"системы. Хотя у них нет видимых инструментов, вы задаетесь вопросом, делают "
+"ли они замеры. Один из призраков возится с механизмом в системе, а затем так"
+" же внезапно, как и появились, призраки выходят за дверь и исчезают. Вы не "
+"знаете, что они сделали, но кажется, что ваши двигатели работают на большей "
+"мощности, чем раньше."
+
+#: src-en/data/events_sector_vagabond.xml:1207
+msgid ""
+"data/events_sector_vagabond.xml$//eventList[@name=\"NEBULA_GHOST_UPGRADERS_MINDCONTROL\"]/event[2]/text"
+msgstr ""
+"Вы ждете и наблюдаете за призраками, которые осматривают каждый сантиметр "
+"вашей системы. Внезапно один из призраков, похоже, собирается оторвать "
+"важную часть привода Мультивселенной, но, к счастью, вы успеваете "
+"задействовать контроль разума до того, как ему это удается. Вам даже удается"
+" заставить их уничтожить еще одного из призраков, но вам все равно придется "
+"отбиваться от остальных."
+
+#: src-en/data/events_sector_vagabond.xml:1226
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_VAGABOND_ORCHID\"]/text"
 msgstr ""
@@ -1878,12 +1936,12 @@ msgstr ""
 " сжигают наши колонии, но наш капитан взят в заложники, и они не хотят его "
 "отдавать!\""
 
-#: src-en/data/events_sector_vagabond.xml:1194
+#: src-en/data/events_sector_vagabond.xml:1229
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_VAGABOND_ORCHID\"]/choice[1]/text"
 msgstr "Согласиться помочь."
 
-#: src-en/data/events_sector_vagabond.xml:1196
+#: src-en/data/events_sector_vagabond.xml:1231
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_VAGABOND_ORCHID\"]/choice[1]/event/text"
 msgstr ""
@@ -1895,46 +1953,46 @@ msgstr ""
 " состоятельность и уничтожить корабль Династии, который беспокоит мой "
 "народ\"."
 
-#: src-en/data/events_sector_vagabond.xml:1198
+#: src-en/data/events_sector_vagabond.xml:1233
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_VAGABOND_ORCHID\"]/choice[1]/event/choice[1]/text"
 msgstr "Мы сразимся с кораблем Династии."
 
-#: src-en/data/events_sector_vagabond.xml:1200
+#: src-en/data/events_sector_vagabond.xml:1235
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_VAGABOND_ORCHID\"]/choice[1]/event/choice[1]/event/text"
 msgstr ""
 "Бродяги направляют вас к кораблю Династии, который находится недалеко. "
 "Приготовьтесь к бою!"
 
-#: src-en/data/events_sector_vagabond.xml:1203
+#: src-en/data/events_sector_vagabond.xml:1238
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_VAGABOND_ORCHID\"]/choice[1]/event/choice[1]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_vagabond.xml:1209
+#: src-en/data/events_sector_vagabond.xml:1244
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_VAGABOND_ORCHID\"]/choice[1]/event/choice[2]/text"
 msgstr "Отказаться - вместо этого просто напасть на бродяг."
 
-#: src-en/data/events_sector_vagabond.xml:1211
+#: src-en/data/events_sector_vagabond.xml:1246
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_VAGABOND_ORCHID\"]/choice[1]/event/choice[2]/event/text"
 msgstr ""
 "\"Как всегда, предсказуемо! Не надейтесь, что после этой битвы жизнь этой "
 "орхидеи будет долгой!\""
 
-#: src-en/data/events_sector_vagabond.xml:1214
+#: src-en/data/events_sector_vagabond.xml:1249
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_VAGABOND_ORCHID\"]/choice[1]/event/choice[2]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_vagabond.xml:1220
+#: src-en/data/events_sector_vagabond.xml:1255
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_VAGABOND_ORCHID\"]/choice[1]/event/choice[@req=\"LIST_CREW_GOUL\"]/text"
 msgstr "(Член экипажа-Гуль) Провести с ними переговоры."
 
-#: src-en/data/events_sector_vagabond.xml:1222
+#: src-en/data/events_sector_vagabond.xml:1257
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_VAGABOND_ORCHID\"]/choice[1]/event/choice[@req=\"LIST_CREW_GOUL\"]/event/text"
 msgstr ""
@@ -1944,29 +2002,29 @@ msgstr ""
 "больше держать орхидею в заложниках. После безопасного возвращения, орхидеи "
 "платят вам за помощь."
 
-#: src-en/data/events_sector_vagabond.xml:1230
+#: src-en/data/events_sector_vagabond.xml:1265
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_VAGABOND_ORCHID\"]/choice[2]/text"
 msgstr "Отказаться."
 
-#: src-en/data/events_sector_vagabond.xml:1232
+#: src-en/data/events_sector_vagabond.xml:1267
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_VAGABOND_ORCHID\"]/choice[2]/event/text"
 msgstr ""
 "Вы извиняетесь перед орхидеями, но это не те вопросы, в которые вы должны "
 "вмешиваться."
 
-#: src-en/data/events_sector_vagabond.xml:1234
+#: src-en/data/events_sector_vagabond.xml:1269
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_VAGABOND_ORCHID\"]/choice[2]/event/choice[1]/text"
 msgstr "Заняться чем-либо на корабле."
 
-#: src-en/data/events_sector_vagabond.xml:1238
+#: src-en/data/events_sector_vagabond.xml:1273
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_VAGABOND_ORCHID\"]/choice[2]/event/choice[2]/text"
 msgstr "Ничего не делать."
 
-#: src-en/data/events_sector_vagabond.xml:1247
+#: src-en/data/events_sector_vagabond.xml:1282
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_GHOST_ESCORT\"]/text"
 msgstr ""
@@ -1974,91 +2032,91 @@ msgstr ""
 "и напуганные люди просят вас сопроводить их до места назначения и защитить "
 "от призраков."
 
-#: src-en/data/events_sector_vagabond.xml:1252
+#: src-en/data/events_sector_vagabond.xml:1287
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_GHOST_ESCORT\"]/choice[1]/text"
 msgstr "Согласиться."
 
-#: src-en/data/events_sector_vagabond.xml:1254
+#: src-en/data/events_sector_vagabond.xml:1289
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_GHOST_ESCORT\"]/choice[1]/event/text"
 msgstr ""
 "Гражданские благодарят вас и дают вам немного лома в качестве аванса. Они "
 "обещают, что в конечном пункте назначения будет еще больше."
 
-#: src-en/data/events_sector_vagabond.xml:1260
+#: src-en/data/events_sector_vagabond.xml:1295
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_GHOST_ESCORT\"]/choice[2]/text"
 msgstr "Атаковать."
 
-#: src-en/data/events_sector_vagabond.xml:1262
+#: src-en/data/events_sector_vagabond.xml:1297
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_GHOST_ESCORT\"]/choice[2]/event/text"
 msgstr ""
 "Гражданские удивлены вашей внезапной враждебностью, но у них нет другого "
 "выхода, кроме как сражаться."
 
-#: src-en/data/events_sector_vagabond.xml:1265
+#: src-en/data/events_sector_vagabond.xml:1300
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_GHOST_ESCORT\"]/choice[2]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_vagabond.xml:1271
+#: src-en/data/events_sector_vagabond.xml:1306
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_GHOST_ESCORT\"]/choice[3]/text"
 msgstr "Отказаться."
 
-#: src-en/data/events_sector_vagabond.xml:1273
+#: src-en/data/events_sector_vagabond.xml:1308
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_GHOST_ESCORT\"]/choice[3]/event/text"
 msgstr ""
 "У нас нет времени помогать каждому гражданскому, достаточно глупому, чтобы "
 "забрести в туманность призраков. Вы отклоняете их просьбу и заряжаете ССД."
 
-#: src-en/data/events_sector_vagabond.xml:1275
+#: src-en/data/events_sector_vagabond.xml:1310
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_GHOST_ESCORT\"]/choice[3]/event/choice[1]/text"
 msgstr "Заняться чем-либо на корабле."
 
-#: src-en/data/events_sector_vagabond.xml:1279
+#: src-en/data/events_sector_vagabond.xml:1314
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_GHOST_ESCORT\"]/choice[3]/event/choice[2]/text"
 msgstr "Ничего не делать."
 
-#: src-en/data/events_sector_vagabond.xml:1289
+#: src-en/data/events_sector_vagabond.xml:1324
 msgid ""
 "data/events_sector_vagabond.xml$//eventList[@name=\"NEBULA_GHOST_ESCORT_DESTINATION\"]/event[1]/beaconType/unvisitedTooltip"
 msgstr "Вас попросили сопроводить неподготовленное судно к этим координатам."
 
-#: src-en/data/events_sector_vagabond.xml:1291
+#: src-en/data/events_sector_vagabond.xml:1326
 msgid ""
 "data/events_sector_vagabond.xml$//eventList[@name=\"NEBULA_GHOST_ESCORT_DESTINATION\"]/event[1]/text"
 msgstr ""
 "Вы прибываете в пункт назначения, но корабль призраков уже здесь. Вы подаете"
 " сигнал гражданским держаться подальше, пока вы устраняете угрозу."
 
-#: src-en/data/events_sector_vagabond.xml:1294
+#: src-en/data/events_sector_vagabond.xml:1329
 msgid ""
 "data/events_sector_vagabond.xml$//eventList[@name=\"NEBULA_GHOST_ESCORT_DESTINATION\"]/event[1]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_vagabond.xml:1303
+#: src-en/data/events_sector_vagabond.xml:1338
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_GHOST_ESCORT_DESTINATION_GOOD\"]/beaconType/unvisitedTooltip"
 msgstr "Вас попросили сопроводить неподготовленное судно к этим координатам."
 
-#: src-en/data/events_sector_vagabond.xml:1305
+#: src-en/data/events_sector_vagabond.xml:1340
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_GHOST_ESCORT_DESTINATION_GOOD\"]/text"
 msgstr ""
 "Гражданские благодарят вас за помощь и выплачивают вам оставшийся лом."
 
-#: src-en/data/events_sector_vagabond.xml:1340
+#: src-en/data/events_sector_vagabond.xml:1375
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_ENCOUNTER_VAGABOND\"]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_vagabond.xml:1345
+#: src-en/data/events_sector_vagabond.xml:1380
 msgid ""
 "data/events_sector_vagabond.xml$//textList[@name=\"NEBULA_GHOST_FIGHT\"]/text[1]"
 msgstr ""
@@ -2066,7 +2124,7 @@ msgstr ""
 "заставляют вас быть начеку. Вы вскакиваете, когда из туманности появляется "
 "корабль бродяг. Всем занять позиции!"
 
-#: src-en/data/events_sector_vagabond.xml:1346
+#: src-en/data/events_sector_vagabond.xml:1381
 msgid ""
 "data/events_sector_vagabond.xml$//textList[@name=\"NEBULA_GHOST_FIGHT\"]/text[2]"
 msgstr ""
@@ -2074,7 +2132,7 @@ msgstr ""
 " не приходится, потому что судно, находящееся у этого маяка, нападает на вас"
 " первым."
 
-#: src-en/data/events_sector_vagabond.xml:1347
+#: src-en/data/events_sector_vagabond.xml:1382
 msgid ""
 "data/events_sector_vagabond.xml$//textList[@name=\"NEBULA_GHOST_FIGHT\"]/text[3]"
 msgstr ""
@@ -2083,14 +2141,14 @@ msgstr ""
 "способом они ни заполучили этот корабль, не имеет значения, поскольку он "
 "враждебен и переходит в атаку."
 
-#: src-en/data/events_sector_vagabond.xml:1348
+#: src-en/data/events_sector_vagabond.xml:1383
 msgid ""
 "data/events_sector_vagabond.xml$//textList[@name=\"NEBULA_GHOST_FIGHT\"]/text[4]"
 msgstr ""
 "Потерпевший крушение у этого маяка корабль не просто заброшен среди облаков,"
 " он кишит призраками, готовыми похитить ваш корабль."
 
-#: src-en/data/events_sector_vagabond.xml:1349
+#: src-en/data/events_sector_vagabond.xml:1384
 msgid ""
 "data/events_sector_vagabond.xml$//textList[@name=\"NEBULA_GHOST_FIGHT\"]/text[5]"
 msgstr ""
@@ -2098,7 +2156,7 @@ msgstr ""
 "поражает вас так сильно, как населенные призраками-бродягами "
 "кораблекрушения, которые постоянно возникают из этих облаков."
 
-#: src-en/data/events_sector_vagabond.xml:1350
+#: src-en/data/events_sector_vagabond.xml:1385
 msgid ""
 "data/events_sector_vagabond.xml$//textList[@name=\"NEBULA_GHOST_FIGHT\"]/text[6]"
 msgstr ""
@@ -2107,7 +2165,7 @@ msgstr ""
 "оскорбляющий вашу семью и называющий вас \"грязным дышащим легким\". Корабль"
 " призраков приближается, оружие в боевой готовности!"
 
-#: src-en/data/events_sector_vagabond.xml:1351
+#: src-en/data/events_sector_vagabond.xml:1386
 msgid ""
 "data/events_sector_vagabond.xml$//textList[@name=\"NEBULA_GHOST_FIGHT\"]/text[7]"
 msgstr ""
@@ -2115,7 +2173,7 @@ msgstr ""
 "Занятно, не правда ли? Ах, но что меня действительно поражает, так это то, "
 "как ты попался на этот ловкий отвлекающий маневр!\""
 
-#: src-en/data/events_sector_vagabond.xml:1352
+#: src-en/data/events_sector_vagabond.xml:1387
 msgid ""
 "data/events_sector_vagabond.xml$//textList[@name=\"NEBULA_GHOST_FIGHT\"]/text[8]"
 msgstr ""
@@ -2123,7 +2181,7 @@ msgstr ""
 "фракции, охваченной войной, накладывает свой отпечаток на человека. Тем не "
 "менее, они - цель, которую нужно уничтожить!"
 
-#: src-en/data/events_sector_vagabond.xml:1356
+#: src-en/data/events_sector_vagabond.xml:1391
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_ENCOUNTER_SLUG_GHOST\"]/text"
 msgstr ""
@@ -2131,12 +2189,12 @@ msgstr ""
 "Туманносссти принадлежат Клептократии и ГОЭ, а не Призракам, и уж точно не "
 "Федерации!\""
 
-#: src-en/data/events_sector_vagabond.xml:1360
+#: src-en/data/events_sector_vagabond.xml:1395
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_ENCOUNTER_SLUG_GHOST\"]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_vagabond.xml:1366
+#: src-en/data/events_sector_vagabond.xml:1401
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_GHOST_AUTO_ESCAPE\"]/text"
 msgstr ""
@@ -2145,12 +2203,12 @@ msgstr ""
 "смогут захватить его, он заряжает оружие, чтобы защититься от вас, пока его "
 "ССД заряжается."
 
-#: src-en/data/events_sector_vagabond.xml:1370
+#: src-en/data/events_sector_vagabond.xml:1405
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_GHOST_AUTO_ESCAPE\"]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_vagabond.xml:1376
+#: src-en/data/events_sector_vagabond.xml:1411
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_GHOST_LANIUS\"]/text"
 msgstr ""
@@ -2159,12 +2217,12 @@ msgstr ""
 "поглощая их корабли. Ланиусам здесь все равно, что вы не призрак, и они "
 "нападают независимо от этого."
 
-#: src-en/data/events_sector_vagabond.xml:1380
+#: src-en/data/events_sector_vagabond.xml:1415
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_GHOST_LANIUS\"]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_vagabond.xml:1393
+#: src-en/data/events_sector_vagabond.xml:1428
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_ENCOUNTER_VAGABOND_ELITE\"]/text"
 msgstr ""
@@ -2173,12 +2231,12 @@ msgstr ""
 "к вам лицом, показывая, что они населены призраками! Вновь обретя второе "
 "дыхание, вам предстоит навсегда покончить с этим кораблем."
 
-#: src-en/data/events_sector_vagabond.xml:1397
+#: src-en/data/events_sector_vagabond.xml:1432
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"NEBULA_ENCOUNTER_VAGABOND_ELITE\"]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_vagabond.xml:1411
+#: src-en/data/events_sector_vagabond.xml:1446
 msgid "data/events_sector_vagabond.xml$//event[@name=\"UNLOCK_GHOST_QUEST\"]/text"
 msgstr ""
 "С вами связывается мародер повстанцев, окрашенный в белый цвет со странной "
@@ -2186,12 +2244,12 @@ msgstr ""
 "призрак... э-э... ловцы призраков! У нас есть для вас уникальное "
 "предложение...\""
 
-#: src-en/data/events_sector_vagabond.xml:1414
+#: src-en/data/events_sector_vagabond.xml:1449
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"UNLOCK_GHOST_QUEST\"]/choice[1]/text"
 msgstr "Слушать."
 
-#: src-en/data/events_sector_vagabond.xml:1416
+#: src-en/data/events_sector_vagabond.xml:1451
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"UNLOCK_GHOST_QUEST\"]/choice[1]/event/text"
 msgstr ""
@@ -2201,12 +2259,12 @@ msgstr ""
 "в том, что тот Флагман все еще существует! Более того, он находится в этом "
 "самом секторе!\""
 
-#: src-en/data/events_sector_vagabond.xml:1418
+#: src-en/data/events_sector_vagabond.xml:1453
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"UNLOCK_GHOST_QUEST\"]/choice[1]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_vagabond.xml:1420
+#: src-en/data/events_sector_vagabond.xml:1455
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"UNLOCK_GHOST_QUEST\"]/choice[1]/event/choice/event/text"
 msgstr ""
@@ -2217,24 +2275,24 @@ msgstr ""
 "называющим себя Гозиодеоном. Помогите нам уничтожить этих сукиных сынов, и "
 "мы разделим вознаграждение пополам. Договорились?\""
 
-#: src-en/data/events_sector_vagabond.xml:1422
+#: src-en/data/events_sector_vagabond.xml:1457
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"UNLOCK_GHOST_QUEST\"]/choice[1]/event/choice/event/choice[1]/text"
 msgstr "Согласиться."
 
-#: src-en/data/events_sector_vagabond.xml:1424
+#: src-en/data/events_sector_vagabond.xml:1459
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"UNLOCK_GHOST_QUEST\"]/choice[1]/event/choice/event/choice[1]/event/text"
 msgstr ""
 "\"Отлично! Мы передадим последние известные координаты корабля. Увидимся "
 "там\"."
 
-#: src-en/data/events_sector_vagabond.xml:1429
+#: src-en/data/events_sector_vagabond.xml:1464
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"UNLOCK_GHOST_QUEST\"]/choice[1]/event/choice/event/choice[2]/text"
 msgstr "Отказаться."
 
-#: src-en/data/events_sector_vagabond.xml:1431
+#: src-en/data/events_sector_vagabond.xml:1466
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"UNLOCK_GHOST_QUEST\"]/choice[1]/event/choice/event/choice[2]/event/text"
 msgstr ""
@@ -2242,51 +2300,51 @@ msgstr ""
 "другой корабль, который согласится расправиться с этим дурацким кораблем в "
 "обмен на самую большую награду в истории галактики!\""
 
-#: src-en/data/events_sector_vagabond.xml:1439
+#: src-en/data/events_sector_vagabond.xml:1474
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"UNLOCK_GHOST_QUEST\"]/choice[2]/text"
 msgstr "Корабль повстанцев - это корабль повстанцев. Атакуем!"
 
-#: src-en/data/events_sector_vagabond.xml:1441
+#: src-en/data/events_sector_vagabond.xml:1476
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"UNLOCK_GHOST_QUEST\"]/choice[2]/event/text"
 msgstr "Хороший повстанец - это мертвый повстанец. Вы готовитесь к атаке."
 
-#: src-en/data/events_sector_vagabond.xml:1444
+#: src-en/data/events_sector_vagabond.xml:1479
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"UNLOCK_GHOST_QUEST\"]/choice[2]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_vagabond.xml:1450
+#: src-en/data/events_sector_vagabond.xml:1485
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"UNLOCK_GHOST_QUEST\"]/choice[3]/text"
 msgstr "Не обращать на них внимания."
 
-#: src-en/data/events_sector_vagabond.xml:1452
+#: src-en/data/events_sector_vagabond.xml:1487
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"UNLOCK_GHOST_QUEST\"]/choice[3]/event/text"
 msgstr ""
 "Вам не хочется иметь дело с сумасшедшими, особенно здесь. Вы слышите, как "
 "капитан тяжело вздыхает, когда вы завершаете разговор."
 
-#: src-en/data/events_sector_vagabond.xml:1454
+#: src-en/data/events_sector_vagabond.xml:1489
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"UNLOCK_GHOST_QUEST\"]/choice[3]/event/choice[1]/text"
 msgstr "Заняться чем-либо на корабле."
 
-#: src-en/data/events_sector_vagabond.xml:1458
+#: src-en/data/events_sector_vagabond.xml:1493
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"UNLOCK_GHOST_QUEST\"]/choice[3]/event/choice[2]/text"
 msgstr "Ничего не делать."
 
-#: src-en/data/events_sector_vagabond.xml:1465
+#: src-en/data/events_sector_vagabond.xml:1500
 msgid "data/events_sector_vagabond.xml$//event[@name=\"GHOSTBUSTER_KILL\"]/text"
 msgstr ""
 "Когда корабль взрывается, вы ощущаете угрожающее присутствие, а из его "
 "корпуса вылетают сотни вихреобразных фигур. Вероятно, вы совершили что-то "
 "очень плохое, но что значит одна проклятая временная линия?"
 
-#: src-en/data/events_sector_vagabond.xml:1474
+#: src-en/data/events_sector_vagabond.xml:1509
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"UNLOCK_GHOST_QUEST_2\"]/text"
 msgstr ""
@@ -2294,12 +2352,12 @@ msgstr ""
 "всматриваетесь в облака и видите проносящуюся оранжевую хвостовую часть "
 "корабля."
 
-#: src-en/data/events_sector_vagabond.xml:1477
+#: src-en/data/events_sector_vagabond.xml:1512
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"UNLOCK_GHOST_QUEST_2\"]/choice/text"
 msgstr "Следовать за ним."
 
-#: src-en/data/events_sector_vagabond.xml:1479
+#: src-en/data/events_sector_vagabond.xml:1514
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"UNLOCK_GHOST_QUEST_2\"]/choice/event/text"
 msgstr ""
@@ -2308,12 +2366,12 @@ msgstr ""
 "\"Хорошо-хорошо, вы добрались! Теперь помогите нам, ладно?\" - кричат ловцы "
 "призраков, безрезультатно обстреливая Флагман."
 
-#: src-en/data/events_sector_vagabond.xml:1482
+#: src-en/data/events_sector_vagabond.xml:1517
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"UNLOCK_GHOST_QUEST_2\"]/choice/event/choice[1]/text"
 msgstr "Помочь им!"
 
-#: src-en/data/events_sector_vagabond.xml:1484
+#: src-en/data/events_sector_vagabond.xml:1519
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"UNLOCK_GHOST_QUEST_2\"]/choice/event/choice[1]/event/text"
 msgstr ""
@@ -2321,17 +2379,17 @@ msgstr ""
 "путешествующий по вселенной, в конце этой миссии, вы должны быть в состоянии"
 " справиться и с этим кораблем."
 
-#: src-en/data/events_sector_vagabond.xml:1487
+#: src-en/data/events_sector_vagabond.xml:1522
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"UNLOCK_GHOST_QUEST_2\"]/choice/event/choice[1]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_vagabond.xml:1493
+#: src-en/data/events_sector_vagabond.xml:1528
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"UNLOCK_GHOST_QUEST_2\"]/choice/event/choice[2]/text"
 msgstr "Бежим."
 
-#: src-en/data/events_sector_vagabond.xml:1500
+#: src-en/data/events_sector_vagabond.xml:1535
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"UNLOCK_GHOST_DAMAGE\"]/text"
 msgstr ""
@@ -2340,7 +2398,7 @@ msgstr ""
 "наконец-то попал в двигатели Флагмана, выведя их из строя. Однако сигналы "
 "телепортатора свидетельствуют о том, что вас снова взяли на абордаж."
 
-#: src-en/data/events_sector_vagabond.xml:1505
+#: src-en/data/events_sector_vagabond.xml:1540
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"UNLOCK_GHOST_QUEST_WIN\"]/text"
 msgstr ""
@@ -2348,12 +2406,12 @@ msgstr ""
 "раз вздрагивает, а затем от взрыва двигателей вспыхивает и взрывается. "
 "Флагман, а вместе с ним и бродяги, погибают... в очередной раз."
 
-#: src-en/data/events_sector_vagabond.xml:1508
+#: src-en/data/events_sector_vagabond.xml:1543
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"UNLOCK_GHOST_QUEST_WIN\"]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_vagabond.xml:1510
+#: src-en/data/events_sector_vagabond.xml:1545
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"UNLOCK_GHOST_QUEST_WIN\"]/choice/event/text"
 msgstr ""
@@ -2364,12 +2422,12 @@ msgstr ""
 "крейсер, над которым мы работали, и я не могу представить никого более "
 "достойного пилотировать им, чем вы\"."
 
-#: src-en/data/events_sector_vagabond.xml:1520
+#: src-en/data/events_sector_vagabond.xml:1555
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"UNLOCK_GHOST_QUEST_WIN\"]/choice/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_vagabond.xml:1522
+#: src-en/data/events_sector_vagabond.xml:1557
 msgid ""
 "data/events_sector_vagabond.xml$//event[@name=\"UNLOCK_GHOST_QUEST_WIN\"]/choice/event/choice/event/text"
 msgstr ""

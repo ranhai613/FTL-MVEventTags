@@ -71,6 +71,33 @@
   </mod:findName>
   <mod:findName name="ASTEROID_CACHE" type="event">
     <mod:findLike type="choice">
+      <mod:selector hidden="true" req="pilot" lvl="3"/>
+      <mod:findLike type="text">
+        <mod:selector>(Adv. Piloting) Navigate to the cache safely.</mod:selector>
+        <mod:setValue>(Adv. Piloting) Navigate to the cache safely.[INFO]33% [NAME]drone[/NAME]Gain a drone(Random)[/INFO][INFO]33% [NAME]autoReward[/NAME]Reward | Only(H)[/INFO][INFO]33% [NAME]weapon[/NAME]Gain a weapon(Random)[/INFO][INFO]33% [NAME]autoReward[/NAME]Reward } Only(H)[/INFO][INFO]33% [NAME]augment[/NAME]Gain an augment(Random)[/INFO][INFO]33% [NAME]autoReward[/NAME]Reward { Only(H)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="ASTEROID_CACHE" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true" req="shields" lvl="6"/>
+      <mod:findLike type="text">
+        <mod:selector>(Adv. Shields) Navigate to the cache safely.</mod:selector>
+        <mod:setValue>(Adv. Shields) Navigate to the cache safely.[INFO]33% [NAME]drone[/NAME]Gain a drone(Random)[/INFO][INFO]33% [NAME]autoReward[/NAME]Reward | Only(H)[/INFO][INFO]33% [NAME]weapon[/NAME]Gain a weapon(Random)[/INFO][INFO]33% [NAME]autoReward[/NAME]Reward } Only(H)[/INFO][INFO]33% [NAME]augment[/NAME]Gain an augment(Random)[/INFO][INFO]33% [NAME]autoReward[/NAME]Reward { Only(H)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="ASTEROID_CACHE" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true" req="engines" lvl="6"/>
+      <mod:findLike type="text">
+        <mod:selector>(Adv. Engines) Navigate to the cache safely.</mod:selector>
+        <mod:setValue>(Adv. Engines) Navigate to the cache safely.[INFO]33% [NAME]drone[/NAME]Gain a drone(Random)[/INFO][INFO]33% [NAME]autoReward[/NAME]Reward | Only(H)[/INFO][INFO]33% [NAME]weapon[/NAME]Gain a weapon(Random)[/INFO][INFO]33% [NAME]autoReward[/NAME]Reward } Only(H)[/INFO][INFO]33% [NAME]augment[/NAME]Gain an augment(Random)[/INFO][INFO]33% [NAME]autoReward[/NAME]Reward { Only(H)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="ASTEROID_CACHE" type="event">
+    <mod:findLike type="choice">
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>We're already getting pelted. We should just leave.</mod:selector>

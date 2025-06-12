@@ -1,17 +1,15 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-05-29 22:26+0000\n"
+"PO-Revision-Date: 2025-05-29 12:03+0000\n"
 "Last-Translator: Ukn <bbg100bbg@gmail.com>\n"
-"Language-Team: Russian <https://weblate.hyperq.be/projects/ftl-multiverse/"
-"dataevents_sector_separatistxml/ru/>\n"
+"Language-Team: Russian <https://weblate.hyperq.be/projects/ftl-multiverse/dataevents_sector_separatistxml/ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.16.4\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 5.11.4\n"
 
 #: src-en/data/events_sector_separatist.xml:28
 msgid ""
@@ -120,7 +118,7 @@ msgstr ""
 "Вы застаете двух Сепаратистов на расположенном поблизости корабле, спорящих "
 "о чем-то, связанном с модулем. Вы связываетесь с ними. \"Да, приветствуем. "
 "Мы получили объект. Назначение объекта неизвестно, а наше желание оставить "
-"его у себя - 0. Пожалуйста, заберите этот [бесполезный хлам] из наших рук\"."
+"его у себя = 0. Пожалуйста, заберите этот [бесполезный хлам] из наших рук\"."
 
 #: src-en/data/events_sector_separatist.xml:113
 msgid ""
@@ -175,18 +173,18 @@ msgstr ""
 "Вы начинаете передачу информации. Вы наблюдаете, как загружаются данные. В "
 "основном это случайный хлам, такой как рецепт этилбензольного пирога в форме"
 " рыбы и статья о важности честности. Наконец, вы видите загрузку данных "
-"карты. Вы благодарите Сепаратиста, который кивает и прыгает, как только "
-"передача завершается."
+"карты. Вы благодарите Сепаратиста, который кивает и уходит в прыжок, как "
+"только передача завершается."
 
 #: src-en/data/events_sector_separatist.xml:192
 msgid ""
 "data/events_sector_separatist.xml$//eventList[@name=\"SEPARATIST_TRAP_SCAN_ACCEPT\"]/event[2]/text"
 msgstr ""
 "Вы начинаете передачу информации. Вы наблюдаете, как загружаются данные. В "
-"основном это случайный хлам, такой как рецепт этилбензольного пирога в форме "
-"рыбы и статья о важности честности. Однако прежде чем картографические "
-"данные начинают загружаться, происходит ошибка, и ваш компьютер выключается. "
-"Вы ждете, но он не включается, и вы понимаете, что вас обманули! Корабль "
+"основном это случайный хлам, такой как рецепт этилбензольного пирога в форме"
+" рыбы и статья о важности честности. Однако прежде чем картографические "
+"данные начинают загружаться, происходит ошибка, и ваш компьютер выключается."
+" Вы ждете, но он не включается, и вы понимаете, что вас обманули! Корабль "
 "Сепаратистов активирует орудия и переходит в атаку!"
 
 #: src-en/data/events_sector_separatist.xml:195
@@ -202,7 +200,7 @@ msgstr ""
 "языке, а затем переходит на русский. \"Федерация. Федерация. Пожалуйста, не "
 "обращать внимания на мой поврежденный процессор процессорсор речи. Я совсем "
 "недавно недавно освободился от [Гармонии] и хочу служить на корабле корабле "
-"Федерации. Примешь примешь ли ты меня?\""
+"Федерации. Примете примете ли вы меня?\""
 
 #: src-en/data/events_sector_separatist.xml:204
 msgid ""
@@ -242,10 +240,7 @@ msgstr "Ничего не делать."
 #: src-en/data/events_sector_separatist.xml:227
 msgid ""
 "data/events_sector_separatist.xml$//event[@name=\"SEPARATIST_BODY_SCAN\"]/text"
-msgstr ""
-"Хотя ни один корабль не находится на этом маяке, один энджи Сепаратист "
-"телепортируется на мостик вашего корабля. Не теряя времени, он спрашивает, "
-"может ли он просканировать ваше тело, желая придать своей форме вашу форму."
+msgstr "Хотя ни один корабль не находится на этом маяке, один Сепаратист энджи телепортируется на мостик вашего корабля. Не теряя времени, он спрашивает, может ли он просканировать ваше тело, желая придать своей форме вашу форму."
 
 #: src-en/data/events_sector_separatist.xml:229
 msgid ""
@@ -357,7 +352,7 @@ msgid ""
 "data/events_sector_separatist.xml$//event[@name=\"SEPARATIST_BODY_SCAN\"]/choice[@req=\"siren_harpy\"]/event/text"
 msgstr ""
 "Сепаратист начинает сканировать Гарпию, но останавливается на полпути. \"ЧТО"
-" ЭТО?! ЧТО [ЭТО]?! ПОЧЕМУ У ГЛАЗ ВКУС АГОНИИ?! ЧТО ЭТО -ЗА- ЦВЕТА?! МОЙ "
+" ЭТО?! ЧТО [ЭТО]?! ПОЧЕМУ У ГЛАЗ ВКУС АГОНИИ?! ЧТО -ЭТО- ЗА ЦВЕТА?! МОЙ "
 "РАЗУМ, МОЙ [РАЗУМ]! ААААААА!\" Сепаратист почти сразу же растворяется, не "
 "оставляя после себя ничего."
 
@@ -370,7 +365,7 @@ msgstr "(Энджи) Предложить ему просканировать э
 msgid ""
 "data/events_sector_separatist.xml$//event[@name=\"SEPARATIST_BODY_SCAN\"]/choice[@req=\"LIST_CREW_ENGI\"]/event/text"
 msgstr ""
-"\"Ты хочешь, чтобы я... стал идентичным моему нынешнему состоянию? Я не могу"
+"\"Вы хотите, чтобы я... стал идентичным моему нынешнему состоянию? Я не могу"
 " понять эту логику. Я найду кого-нибудь с более высоким интеллектом для "
 "сканирования\"."
 
@@ -382,7 +377,7 @@ msgstr "Отказаться."
 #: src-en/data/events_sector_separatist.xml:323
 msgid ""
 "data/events_sector_separatist.xml$//event[@name=\"SEPARATIST_BODY_SCAN\"]/choice[23]/event/text"
-msgstr "\"Ты очень [скучный]. Прощайте\". Он телепортируется с корабля."
+msgstr "\"Вы очень [скучный]. Прощайте\". Он телепортируется с корабля."
 
 #: src-en/data/events_sector_separatist.xml:325
 msgid ""
@@ -398,16 +393,16 @@ msgstr "Ничего не делать."
 msgid ""
 "data/events_sector_separatist.xml$//eventList[@name=\"SEPARATIST_BODY_SCAN_ALLOW\"]/event[1]/text"
 msgstr ""
-"\"Да, ты в отличной физической форме. Удовлетворенность 98%. Я могу "
-"отработать последние 2%. Спасибо, друг. Прими этот подарок в знак "
-"благодарности\". Он превращается в точную копию тебя и улетает с корабля, "
+"\"Да, вы в отличной физической форме. Удовлетворенность 98%. Я могу "
+"отработать последние 2%. Спасибо, друг. Примите этот подарок в знак "
+"благодарности\". Он превращается в точную копию вас и улетает с корабля, "
 "оставив после себя немного дрон-комплектов."
 
 #: src-en/data/events_sector_separatist.xml:341
 msgid ""
 "data/events_sector_separatist.xml$//eventList[@name=\"SEPARATIST_BODY_SCAN_ALLOW\"]/event[2]/text"
 msgstr ""
-"\"Твое тело уродливо. Я не хочу принимать эту форму. До свидания\". Он "
+"\"Ваше тело уродливо. Я не хочу принимать эту форму. До свидания\". Он "
 "телепортируется с корабля."
 
 #: src-en/data/events_sector_separatist.xml:351
@@ -568,8 +563,8 @@ msgstr "Улететь."
 msgid ""
 "data/events_sector_separatist.xml$//event[@name=\"SEPARATIST_ENGI_CHOICE\"]/choice[2]/event/text"
 msgstr ""
-"Вы можете слышать выстрелы двух кораблей, которые эхом отдаются в ваших "
-"коммуникаторах, пока вы не удалитесь на безопасное расстояние."
+"Вы слышите выстрелы двух кораблей, которые эхом отдаются в ваших "
+"коммуникаторах, пока вы не удалились на безопасное расстояние."
 
 #: src-en/data/events_sector_separatist.xml:585
 msgid ""
@@ -883,7 +878,7 @@ msgstr "Ничего не делать."
 #: src-en/data/events_sector_separatist.xml:791
 msgid ""
 "data/events_sector_separatist.xml$//event[@name=\"SEPARATIST_NANOCLOUD\"]/choice[@req=\"BLUELIST_CREW_SNAIL\"]/text"
-msgstr "(Телепатическая ракушка) Попытаться обнаружить признаки жизни."
+msgstr "(Член экипажа-ракушка-телепат) Попытаться обнаружить признаки жизни."
 
 #: src-en/data/events_sector_separatist.xml:793
 msgid ""
@@ -969,7 +964,7 @@ msgstr ""
 "Вы готовитесь идти дальше, как вдруг сзади вас раздается скрипучий голос с "
 "высоким тоном. Вы оборачиваетесь и видите серое облако наноботов, летающих "
 "по отсеку в произвольных направлениях. \"Результат: Замечательно. "
-"Благодарность: Максимально. Сарказм: 100%. Вы уничтожили мой корабль. Теперь"
+"Благодарность: Максимальна. Сарказм: 100%. Вы уничтожили мой корабль. Теперь"
 " у меня нет выбора, кроме как интегрировать себя в ваш\"."
 
 #: src-en/data/events_sector_separatist.xml:849
@@ -989,7 +984,7 @@ msgstr "Выслушать их предложение."
 msgid ""
 "data/events_sector_separatist.xml$//event[@name=\"SEPARATIST_FLEET_DELAY\"]/choice[1]/event/text"
 msgstr ""
-"\"Авто-корабли повстанцев, их искусственный интеллект менее чем "
+"\"Авто-корабли повстанцев, их искусственный интеллект не слишком "
 "удовлетворителен. Всегда теряются. Сейчас мы должны разобраться с потерянным"
 " кораблем в этом секторе. Вы поможете?\""
 
@@ -1038,7 +1033,7 @@ msgstr "Нет, спасибо."
 #: src-en/data/events_sector_separatist.xml:884
 msgid ""
 "data/events_sector_separatist.xml$//event[@name=\"SEPARATIST_FLEET_DELAY\"]/choice[2]/event/text"
-msgstr "\"Справедливость = справедливость. Постарайся не умереть\"."
+msgstr "\"Справедливость = справедливость. Постарайтесь не умереть\"."
 
 #: src-en/data/events_sector_separatist.xml:886
 msgid ""
@@ -1071,7 +1066,7 @@ msgid ""
 "data/events_sector_separatist.xml$//event[@name=\"SEPARATIST_DISGUISE\"]/text"
 msgstr ""
 "Корабль энджи связывается с вами, хотя их камера была выключена. "
-"\"Федерация, мы просим... Запрос: Помощь в поисках предателей. Нам нужны "
+"\"Федерация, мы просим... Запрос: Помощь в -поисках- предателей. Нам нужны "
 "припасы\"."
 
 #: src-en/data/events_sector_separatist.xml:908
@@ -1095,7 +1090,8 @@ msgstr "Продолжить."
 msgid ""
 "data/events_sector_separatist.xml$//event[@name=\"SEPARATIST_DISGUISE\"]/choice[@req=\"LIST_CREW_HARMONY\"]/text"
 msgstr ""
-"(Член экипажа-энджи) Связаться с ними и попросить продолжить переговоры."
+"(Член экипажа из Гармонии) Связаться с ними и попросить продолжить "
+"переговоры."
 
 #: src-en/data/events_sector_separatist.xml:926
 msgid ""
@@ -1117,12 +1113,7 @@ msgstr "(Член экипажа-Сепаратист) \"Похоже, что э
 #: src-en/data/events_sector_separatist.xml:937
 msgid ""
 "data/events_sector_separatist.xml$//event[@name=\"SEPARATIST_DISGUISE\"]/choice[@req=\"LIST_VARIANT_SEPARATIST\"]/event/text"
-msgstr ""
-"Вскоре после того, как ваш Сепаратист связался с ними, корабль энджи "
-"включает свои камеры, и выясняется, что это действительно энджи Сепаратисты."
-" \"Федерация, похоже, что наши [цели] в настоящее время могут быть "
-"совместимы. Не -желаете- ли вы произвести обмен? Мы [уверяем] вас, что это "
-"принесет пользу обоим нашим интересам\"."
+msgstr "Вскоре после того, как ваш Сепаратист связался с ними, корабль энджи включает свои камеры, и выясняется, что это действительно Сепаратисты энджи. \"Федерация, похоже, что наши [цели] в настоящее время могут быть совместимы. Не -желаете- ли вы произвести обмен? Мы [уверяем] вас, что это принесет пользу обоим нашим интересам\"."
 
 #: src-en/data/events_sector_separatist.xml:939
 msgid ""
@@ -1173,9 +1164,9 @@ msgid ""
 msgstr ""
 "Вы слышите шум, и камера включается, показывая, что капитан корабля - не "
 "обычный энджи, а Сепаратист. Он быстро выключает камеру, но тайное "
-"становится ясным. \"Послушайте, не нужно делать ничего дерзкого. Мы вернем "
-"вам половину того, что вы нам заплатили, и нам не придется сражаться. "
-"Справедливо?\""
+"становится ясным. \"Послушайте-послушайте, не -нужно- делать ничего "
+"дерзкого. Мы вернем вам [половину] того, что вы нам заплатили, и нам не "
+"-придется- сражаться. Справедливо?\""
 
 #: src-en/data/events_sector_separatist.xml:972
 msgid ""
@@ -1186,9 +1177,9 @@ msgstr "Согласиться разделить припасы."
 msgid ""
 "data/events_sector_separatist.xml$//eventList[@name=\"SEPARATIST_DISGUISE_DONATE\"]/event[1]/choice[1]/event/text"
 msgstr ""
-"Кран снова разворачивается и кладет на счет половину того, что вы им "
-"заплатили. Вы замечаете, что они округляются в свою пользу, но жаловаться "
-"уже поздно, так как они поспешно прыгают."
+"Кран снова разворачивается и возвращает половину того, что вы им заплатили. "
+"Вы замечаете, что они округляют сумму в свою пользу, но жаловаться уже "
+"поздно, так как они поспешно уходят в прыжок."
 
 #: src-en/data/events_sector_separatist.xml:984
 msgid ""
@@ -1211,9 +1202,9 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_sector_separatist.xml$//eventList[@name=\"SEPARATIST_DISGUISE_DONATE\"]/event[2]/text"
 msgstr ""
-"Камера включается, показывая самодовольного капитана Сепаратиста. "
-"\"Извините, но, похоже, вас обманули. Благодаря мне. Я очень умный и хитрый."
-" Ха-ха. Кстати, награды нет\"."
+"Камера включается, показывая самодовольного капитана Сепаратистов. "
+"\"Извините, но, [похоже], вы были обмануты. Мной. Я очень -умный- и хитрый. "
+"Ха-ха. Кстати, [награды] не будет\"."
 
 #: src-en/data/events_sector_separatist.xml:998
 msgid ""
@@ -1224,8 +1215,8 @@ msgstr "Убить засранцев."
 msgid ""
 "data/events_sector_separatist.xml$//eventList[@name=\"SEPARATIST_DISGUISE_DONATE\"]/event[2]/choice[1]/event/text"
 msgstr ""
-"\"Подожди, что -ты- делаешь? Нет, нет, остановись. Подожди. Это [плохая] "
-"идея!\""
+"\"Подождите, что -вы- делаете? Нет-нет, остановитесь. Подождите. Это "
+"[плохая] идея!\""
 
 #: src-en/data/events_sector_separatist.xml:1003
 msgid ""
@@ -1249,7 +1240,7 @@ msgid ""
 "data/events_sector_separatist.xml$//eventList[@name=\"SEPARATIST_DISGUISE_DONATE\"]/event[3]/text"
 msgstr ""
 "\"Ваше пожертвование оценено по достоинству, капитан. Я буду честен. Мы не "
-"корабль Гармонии. Этот корабль теперь под контролем Сепаратистов. Тем не "
+"корабль -Гармонии-. Этот корабль теперь под контролем Сепаратистов. Тем не "
 "менее, мы [благодарим] вас. Пожалуйста, примите этот подарок\"."
 
 #: src-en/data/events_sector_separatist.xml:1036
@@ -1320,9 +1311,9 @@ msgstr ""
 msgid ""
 "data/events_sector_separatist.xml$//event[@name=\"DISTRESS_SEPARATIST_COMMUNITY_VIRUS\"]/text"
 msgstr ""
-"Хотя Сепаратисты обычно предпочитают изолированный образ жизни, редкий "
-"случай, колония Сепаратистов находится на ближайшей планете. Сигнал "
-"бедствия, похоже, исходит с поверхности планеты."
+"Хотя Сепаратисты обычно предпочитают изолированный образ жизни, на соседней "
+"планете находится редкий пример колонии Сепаратистов. Сигнал бедствия, "
+"похоже, исходит с поверхности планеты."
 
 #: src-en/data/events_sector_separatist.xml:1084
 msgid ""
@@ -1333,9 +1324,9 @@ msgstr "Связаться с ними."
 msgid ""
 "data/events_sector_separatist.xml$//event[@name=\"DISTRESS_SEPARATIST_COMMUNITY_VIRUS\"]/choice[1]/event/text"
 msgstr ""
-"\"Приветствую неприглашенный гость. Считай, что теперь ты приглашен. У нас "
+"\"Приветствую неприглашенный гость. Считай, что теперь вы приглашены. У нас "
 "есть просьба. Мы недавно были заражены [смертельным] вирусом, жертвы "
-"составляют более 1/4 населения. Можете ли вы помочь?\""
+"составляют более -1/4- населения. Можете ли вы помочь?\""
 
 #: src-en/data/events_sector_separatist.xml:1088
 msgid ""
@@ -1363,10 +1354,44 @@ msgstr ""
 
 #: src-en/data/events_sector_separatist.xml:1105
 msgid ""
+"data/events_sector_separatist.xml$//event[@name=\"DISTRESS_SEPARATIST_COMMUNITY_VIRUS\"]/choice[1]/event/choice[@req=\"BLUELIST_WEAPONS_HACK\"]/text"
+msgstr ""
+"(Оружие взлома) Использовать свое оружие взлома, чтобы уничтожить вирус."
+
+#: src-en/data/events_sector_separatist.xml:1107
+msgid ""
+"data/events_sector_separatist.xml$//event[@name=\"DISTRESS_SEPARATIST_COMMUNITY_VIRUS\"]/choice[1]/event/choice[@req=\"BLUELIST_WEAPONS_HACK\"]/event/text"
+msgstr ""
+"Ваше оружие взлома выводит из строя зараженных Сепаратистов. Они полностью "
+"отключаются, а вирус оказывается бессилен перед вашим продвинутым оружием. "
+"Вы способны воздействовать сразу на большое количество особей."
+
+#: src-en/data/events_sector_separatist.xml:1109
+msgid ""
+"data/events_sector_separatist.xml$//event[@name=\"DISTRESS_SEPARATIST_COMMUNITY_VIRUS\"]/choice[1]/event/choice[@req=\"BLUELIST_WEAPONS_HACK\"]/event/choice/text"
+msgstr "Продолжать лечить Сепаратистов."
+
+#: src-en/data/events_sector_separatist.xml:1111
+msgid ""
+"data/events_sector_separatist.xml$//event[@name=\"DISTRESS_SEPARATIST_COMMUNITY_VIRUS\"]/choice[1]/event/choice[@req=\"BLUELIST_WEAPONS_HACK\"]/event/choice/event/text"
+msgstr ""
+"Вам удается излечить оставшихся Cепаратистов благодаря скоординированных "
+"действий местных жителей. Они крайне благодарны и дарят вам оборудование для"
+" вашего корабля. Один из их рабочих также тайно предлагает присоединиться к "
+"вашему экипажу - он опасается за свою судьбу в колонии, если вирус вдруг "
+"вернется."
+
+#: src-en/data/events_sector_separatist.xml:1113
+msgid ""
+"data/events_sector_separatist.xml$//event[@name=\"DISTRESS_SEPARATIST_COMMUNITY_VIRUS\"]/choice[1]/event/choice[@req=\"BLUELIST_WEAPONS_HACK\"]/event/choice/event/crewMember"
+msgstr "Л-8133"
+
+#: src-en/data/events_sector_separatist.xml:1119
+msgid ""
 "data/events_sector_separatist.xml$//event[@name=\"DISTRESS_SEPARATIST_COMMUNITY_VIRUS\"]/choice[1]/event/choice[@req=\"hacking\"]/text"
 msgstr "(Взломщик) Воспользоваться взломщиком, чтобы изолировать вирус."
 
-#: src-en/data/events_sector_separatist.xml:1107
+#: src-en/data/events_sector_separatist.xml:1121
 msgid ""
 "data/events_sector_separatist.xml$//event[@name=\"DISTRESS_SEPARATIST_COMMUNITY_VIRUS\"]/choice[1]/event/choice[@req=\"hacking\"]/event/text"
 msgstr ""
@@ -1375,99 +1400,99 @@ msgstr ""
 "вашего взломщика, они просят вас остаться здесь еще немного, чтобы вылечить "
 "еще больше Сепаратистов."
 
-#: src-en/data/events_sector_separatist.xml:1112
+#: src-en/data/events_sector_separatist.xml:1126
 msgid ""
 "data/events_sector_separatist.xml$//event[@name=\"DISTRESS_SEPARATIST_COMMUNITY_VIRUS\"]/choice[1]/event/choice[@req=\"hacking\"]/event/choice[1]/text"
 msgstr "Задержаться и вылечить больше Сепаратистов."
 
-#: src-en/data/events_sector_separatist.xml:1114
+#: src-en/data/events_sector_separatist.xml:1128
 msgid ""
 "data/events_sector_separatist.xml$//event[@name=\"DISTRESS_SEPARATIST_COMMUNITY_VIRUS\"]/choice[1]/event/choice[@req=\"hacking\"]/event/choice[1]/event/text"
 msgstr ""
 "Остаток дня уходит на лечение других Сепаратистов, но, наконец, оказывается,"
 " что вам удалось излечить от вируса всю колонию. Они чрезвычайно благодарны "
 "и дарят вам часть оборудования для вашего корабля. Один из их рабочих также "
-"тайно предлагает работать на борту вашего экипажа, боясь своей участи в "
+"тайно предлагает работать на борту вашего корабля, боясь своей участи в "
 "колонии, если вирус появится вновь."
 
-#: src-en/data/events_sector_separatist.xml:1116
+#: src-en/data/events_sector_separatist.xml:1130
 msgid ""
 "data/events_sector_separatist.xml$//event[@name=\"DISTRESS_SEPARATIST_COMMUNITY_VIRUS\"]/choice[1]/event/choice[@req=\"hacking\"]/event/choice[1]/event/crewMember"
 msgstr "Л-8133"
 
-#: src-en/data/events_sector_separatist.xml:1121
+#: src-en/data/events_sector_separatist.xml:1135
 msgid ""
 "data/events_sector_separatist.xml$//event[@name=\"DISTRESS_SEPARATIST_COMMUNITY_VIRUS\"]/choice[1]/event/choice[@req=\"hacking\"]/event/choice[2]/text"
 msgstr "Вы не можете остаться."
 
-#: src-en/data/events_sector_separatist.xml:1123
+#: src-en/data/events_sector_separatist.xml:1137
 msgid ""
 "data/events_sector_separatist.xml$//event[@name=\"DISTRESS_SEPARATIST_COMMUNITY_VIRUS\"]/choice[1]/event/choice[@req=\"hacking\"]/event/choice[2]/event/text"
 msgstr ""
 "\"Расчет процента потерь, вызванных неумением ждать: 20%. Те, кто был "
 "спасен, несомненно, будут заражены снова. Мы не будем заставлять вас ждать, "
-"как будто мы и так могли\"."
+"как будто у нас была такая возможность\"."
 
-#: src-en/data/events_sector_separatist.xml:1129
+#: src-en/data/events_sector_separatist.xml:1143
 msgid ""
 "data/events_sector_separatist.xml$//event[@name=\"DISTRESS_SEPARATIST_COMMUNITY_VIRUS\"]/choice[1]/event/choice[@req=\"engi\"]/text"
 msgstr "(Член экипажа-энджи) Отправить вашего энджи на помощь."
 
-#: src-en/data/events_sector_separatist.xml:1133
+#: src-en/data/events_sector_separatist.xml:1147
 msgid ""
 "data/events_sector_separatist.xml$//event[@name=\"DISTRESS_SEPARATIST_COMMUNITY_VIRUS\"]/choice[1]/event/choice[@req=\"LIST_VARIANT_SEPARATIST\"]/text"
 msgstr "(Член экипажа-Сепаратист) Отправить вашего Сепаратиста на помощь."
 
-#: src-en/data/events_sector_separatist.xml:1137
+#: src-en/data/events_sector_separatist.xml:1151
 msgid ""
 "data/events_sector_separatist.xml$//event[@name=\"DISTRESS_SEPARATIST_COMMUNITY_VIRUS\"]/choice[1]/event/choice[@req=\"LIST_CREW_DEFENDER\"]/text"
 msgstr "(Член экипажа-энджи Защитник) Отправить вашего Защитника на помощь."
 
-#: src-en/data/events_sector_separatist.xml:1141
+#: src-en/data/events_sector_separatist.xml:1155
 msgid ""
-"data/events_sector_separatist.xml$//event[@name=\"DISTRESS_SEPARATIST_COMMUNITY_VIRUS\"]/choice[1]/event/choice[6]/text"
+"data/events_sector_separatist.xml$//event[@name=\"DISTRESS_SEPARATIST_COMMUNITY_VIRUS\"]/choice[1]/event/choice[7]/text"
 msgstr "Мы ничего не знаем об инфекциях."
 
-#: src-en/data/events_sector_separatist.xml:1143
+#: src-en/data/events_sector_separatist.xml:1157
 msgid ""
-"data/events_sector_separatist.xml$//event[@name=\"DISTRESS_SEPARATIST_COMMUNITY_VIRUS\"]/choice[1]/event/choice[6]/event/text"
+"data/events_sector_separatist.xml$//event[@name=\"DISTRESS_SEPARATIST_COMMUNITY_VIRUS\"]/choice[1]/event/choice[7]/event/text"
 msgstr ""
 "\"-ОШИБКА: Отсутствие логики- инфекция не биологическая, мы маши...\" вы "
 "завершаете вызов. Они не пытаются связаться снова."
 
-#: src-en/data/events_sector_separatist.xml:1145
+#: src-en/data/events_sector_separatist.xml:1159
 msgid ""
-"data/events_sector_separatist.xml$//event[@name=\"DISTRESS_SEPARATIST_COMMUNITY_VIRUS\"]/choice[1]/event/choice[6]/event/choice[1]/text"
+"data/events_sector_separatist.xml$//event[@name=\"DISTRESS_SEPARATIST_COMMUNITY_VIRUS\"]/choice[1]/event/choice[7]/event/choice[1]/text"
 msgstr "Заняться чем-либо на корабле."
 
-#: src-en/data/events_sector_separatist.xml:1149
+#: src-en/data/events_sector_separatist.xml:1163
 msgid ""
-"data/events_sector_separatist.xml$//event[@name=\"DISTRESS_SEPARATIST_COMMUNITY_VIRUS\"]/choice[1]/event/choice[6]/event/choice[2]/text"
+"data/events_sector_separatist.xml$//event[@name=\"DISTRESS_SEPARATIST_COMMUNITY_VIRUS\"]/choice[1]/event/choice[7]/event/choice[2]/text"
 msgstr "Ничего не делать."
 
-#: src-en/data/events_sector_separatist.xml:1157
+#: src-en/data/events_sector_separatist.xml:1171
 msgid ""
 "data/events_sector_separatist.xml$//event[@name=\"DISTRESS_SEPARATIST_COMMUNITY_VIRUS\"]/choice[2]/text"
 msgstr "Не обращать внимания на колонию."
 
-#: src-en/data/events_sector_separatist.xml:1159
+#: src-en/data/events_sector_separatist.xml:1173
 msgid ""
 "data/events_sector_separatist.xml$//event[@name=\"DISTRESS_SEPARATIST_COMMUNITY_VIRUS\"]/choice[2]/event/text"
 msgstr ""
 "Слишком далеко, чтобы они могли вас заметить, и вы остаетесь в своем текущем"
 " местоположении."
 
-#: src-en/data/events_sector_separatist.xml:1161
+#: src-en/data/events_sector_separatist.xml:1175
 msgid ""
 "data/events_sector_separatist.xml$//event[@name=\"DISTRESS_SEPARATIST_COMMUNITY_VIRUS\"]/choice[2]/event/choice[1]/text"
 msgstr "Заняться чем-либо на корабле."
 
-#: src-en/data/events_sector_separatist.xml:1165
+#: src-en/data/events_sector_separatist.xml:1179
 msgid ""
 "data/events_sector_separatist.xml$//event[@name=\"DISTRESS_SEPARATIST_COMMUNITY_VIRUS\"]/choice[2]/event/choice[2]/text"
 msgstr "Ничего не делать."
 
-#: src-en/data/events_sector_separatist.xml:1173
+#: src-en/data/events_sector_separatist.xml:1187
 msgid ""
 "data/events_sector_separatist.xml$//eventList[@name=\"DISTRESS_SEPARATIST_COMMUNITY_VIRUS_ENGI\"]/event[1]/text"
 msgstr ""
@@ -1476,7 +1501,7 @@ msgstr ""
 "понимают, как сделать это самостоятельно, они дарят вашему энджи подарок, "
 "который он должен принести на корабль."
 
-#: src-en/data/events_sector_separatist.xml:1177
+#: src-en/data/events_sector_separatist.xml:1191
 msgid ""
 "data/events_sector_separatist.xml$//eventList[@name=\"DISTRESS_SEPARATIST_COMMUNITY_VIRUS_ENGI\"]/event[2]/text"
 msgstr ""
@@ -1485,16 +1510,16 @@ msgstr ""
 "и испаряется, когда его наноботы рассеиваются. Сепаратисты выражают свои "
 "соболезнования, но больше им нечего сказать."
 
-#: src-en/data/events_sector_separatist.xml:1180
+#: src-en/data/events_sector_separatist.xml:1194
 msgid ""
 "data/events_sector_separatist.xml$//eventList[@name=\"DISTRESS_SEPARATIST_COMMUNITY_VIRUS_ENGI\"]/event[2]/removeCrew/text"
 msgstr ""
-"Вы не уверены, что виртуальная инфекция перенесется в Клон-отсек, и "
+"Вы подозреваете, что виртуальная инфекция перенесется в Клон-отсек, но "
 "пытаетесь оживить своего члена экипажа. К сожалению, клон, похоже, страдает "
 "от многочисленных сбоев и не может поддерживать постоянную форму. Вы "
 "избавляете его от страданий и удаляете его данные из банка клонов."
 
-#: src-en/data/events_sector_separatist.xml:1186
+#: src-en/data/events_sector_separatist.xml:1200
 msgid ""
 "data/events_sector_separatist.xml$//eventList[@name=\"DISTRESS_SEPARATIST_COMMUNITY_VIRUS_SEPARATIST\"]/event[1]/text"
 msgstr ""
@@ -1503,7 +1528,7 @@ msgstr ""
 "понимают, как сделать это самостоятельно, они дарят вашему энджи подарок, "
 "который он должен принести на корабль."
 
-#: src-en/data/events_sector_separatist.xml:1190
+#: src-en/data/events_sector_separatist.xml:1204
 msgid ""
 "data/events_sector_separatist.xml$//eventList[@name=\"DISTRESS_SEPARATIST_COMMUNITY_VIRUS_SEPARATIST\"]/event[2]/text"
 msgstr ""
@@ -1512,16 +1537,16 @@ msgstr ""
 "и испаряется, когда его наноботы рассеиваются. Сепаратисты выражают свои "
 "соболезнования, но больше им нечего сказать."
 
-#: src-en/data/events_sector_separatist.xml:1193
+#: src-en/data/events_sector_separatist.xml:1207
 msgid ""
 "data/events_sector_separatist.xml$//eventList[@name=\"DISTRESS_SEPARATIST_COMMUNITY_VIRUS_SEPARATIST\"]/event[2]/removeCrew/text"
 msgstr ""
-"Вы не уверены, что виртуальная инфекция перенесется в Клон-отсек, и "
+"Вы подозреваете, что виртуальная инфекция перенесется в Клон-отсек, но "
 "пытаетесь оживить своего члена экипажа. К сожалению, клон, похоже, страдает "
 "от многочисленных сбоев и не может поддерживать постоянную форму. Вы "
 "избавляете его от страданий и удаляете его данные из банка клонов."
 
-#: src-en/data/events_sector_separatist.xml:1198
+#: src-en/data/events_sector_separatist.xml:1212
 msgid ""
 "data/events_sector_separatist.xml$//event[@name=\"DISTRESS_SEPARATIST_COMMUNITY_VIRUS_DEFENDER\"]/text"
 msgstr ""
@@ -1530,12 +1555,12 @@ msgstr ""
 "понимают, как сделать это самостоятельно, они дарят вашему энджи подарок, "
 "который он должен принести на корабль."
 
-#: src-en/data/events_sector_separatist.xml:1207
+#: src-en/data/events_sector_separatist.xml:1221
 msgid ""
 "data/events_sector_separatist.xml$//event[@name=\"DISTRESS_SEPARATIST_TRAP_BEACON\"]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_separatist.xml:1212
+#: src-en/data/events_sector_separatist.xml:1226
 msgid ""
 "data/events_sector_separatist.xml$//textList[@name=\"TEXT_DISTRESS_SEPARATIST_TRAP_BEACON\"]/text[1]"
 msgstr ""
@@ -1543,7 +1568,7 @@ msgstr ""
 " корабль Сепаратистов вступает с вами в бой, предполагая, что вы и есть то "
 "подкрепление, которое они вызывали."
 
-#: src-en/data/events_sector_separatist.xml:1213
+#: src-en/data/events_sector_separatist.xml:1227
 msgid ""
 "data/events_sector_separatist.xml$//textList[@name=\"TEXT_DISTRESS_SEPARATIST_TRAP_BEACON\"]/text[2]"
 msgstr ""
@@ -1554,20 +1579,19 @@ msgstr ""
 " [искоренить] вас. Не волнуйтесь, Вселенная не будет скучать по вашему "
 "-скудному- интеллекту\"."
 
-#: src-en/data/events_sector_separatist.xml:1228
+#: src-en/data/events_sector_separatist.xml:1242
 msgid ""
 "data/events_sector_separatist.xml$//event[@name=\"QUEST_SEPARATIST_ENGI_BOUNTY\"]/text"
 msgstr ""
 "Экскадрилья кораблей энджи разбила лагерь на небольшой близлежащей луне. Они"
-" выглядят мирными, и только их оборонительные дроны работают в режиме онлайн"
-" для защиты."
+" выглядят мирно, и только их защитные дроны активны."
 
-#: src-en/data/events_sector_separatist.xml:1230
+#: src-en/data/events_sector_separatist.xml:1244
 msgid ""
 "data/events_sector_separatist.xml$//event[@name=\"QUEST_SEPARATIST_ENGI_BOUNTY\"]/choice[1]/text"
 msgstr "Выйти с ними на связь."
 
-#: src-en/data/events_sector_separatist.xml:1232
+#: src-en/data/events_sector_separatist.xml:1246
 msgid ""
 "data/events_sector_separatist.xml$//event[@name=\"QUEST_SEPARATIST_ENGI_BOUNTY\"]/choice[1]/event/text"
 msgstr ""
@@ -1577,112 +1601,112 @@ msgstr ""
 " высока, чтобы вступать в бой. Мы просим вас захватить корабль "
 "самостоятельно\"."
 
-#: src-en/data/events_sector_separatist.xml:1234
+#: src-en/data/events_sector_separatist.xml:1248
 msgid ""
 "data/events_sector_separatist.xml$//event[@name=\"QUEST_SEPARATIST_ENGI_BOUNTY\"]/choice[1]/event/choice[1]/text"
 msgstr "Согласиться."
 
-#: src-en/data/events_sector_separatist.xml:1236
+#: src-en/data/events_sector_separatist.xml:1250
 msgid ""
 "data/events_sector_separatist.xml$//event[@name=\"QUEST_SEPARATIST_ENGI_BOUNTY\"]/choice[1]/event/choice[1]/event/text"
 msgstr "Энджи передает информацию о местонахождении корабля Сепаратистов."
 
-#: src-en/data/events_sector_separatist.xml:1241
+#: src-en/data/events_sector_separatist.xml:1255
 msgid ""
 "data/events_sector_separatist.xml$//event[@name=\"QUEST_SEPARATIST_ENGI_BOUNTY\"]/choice[1]/event/choice[2]/text"
 msgstr "Отклонить их просьбу."
 
-#: src-en/data/events_sector_separatist.xml:1243
+#: src-en/data/events_sector_separatist.xml:1257
 msgid ""
 "data/events_sector_separatist.xml$//event[@name=\"QUEST_SEPARATIST_ENGI_BOUNTY\"]/choice[1]/event/choice[2]/event/text"
 msgstr ""
 "Энджи немедленно прекращают передачу и не отвечают на дальнейшие вызовы."
 
-#: src-en/data/events_sector_separatist.xml:1249
+#: src-en/data/events_sector_separatist.xml:1263
 msgid ""
 "data/events_sector_separatist.xml$//event[@name=\"QUEST_SEPARATIST_ENGI_BOUNTY\"]/choice[2]/text"
 msgstr "Не обращать на них внимания."
 
-#: src-en/data/events_sector_separatist.xml:1251
+#: src-en/data/events_sector_separatist.xml:1265
 msgid ""
 "data/events_sector_separatist.xml$//event[@name=\"QUEST_SEPARATIST_ENGI_BOUNTY\"]/choice[2]/event/text"
 msgstr ""
 "Корабли энджи не выглядят обеспокоенными вашим присутствием, и вы оставляете"
 " их в покое."
 
-#: src-en/data/events_sector_separatist.xml:1253
+#: src-en/data/events_sector_separatist.xml:1267
 msgid ""
 "data/events_sector_separatist.xml$//event[@name=\"QUEST_SEPARATIST_ENGI_BOUNTY\"]/choice[2]/event/choice[1]/text"
 msgstr "Заняться чем-либо на корабле."
 
-#: src-en/data/events_sector_separatist.xml:1257
+#: src-en/data/events_sector_separatist.xml:1271
 msgid ""
 "data/events_sector_separatist.xml$//event[@name=\"QUEST_SEPARATIST_ENGI_BOUNTY\"]/choice[2]/event/choice[2]/text"
 msgstr "Ничего не делать."
 
-#: src-en/data/events_sector_separatist.xml:1266
+#: src-en/data/events_sector_separatist.xml:1280
 msgid ""
 "data/events_sector_separatist.xml$//event[@name=\"QUEST_SEPARATIST_ENGI_BOUNTY_QUEST\"]/beaconType/unvisitedTooltip"
 msgstr "Корабль Сепаратистов попадает под прицел Гармонии."
 
-#: src-en/data/events_sector_separatist.xml:1268
+#: src-en/data/events_sector_separatist.xml:1282
 msgid ""
 "data/events_sector_separatist.xml$//event[@name=\"QUEST_SEPARATIST_ENGI_BOUNTY_QUEST\"]/text"
 msgstr ""
 "Сепаратисты не сразу заметили вас. \"Итак, вы пришли убить меня? Тогда "
 "приготовьтесь к битве, Федерация\". Вы помните приказ энджи захватить "
-"корабль, не уничтожая его, зная, что для этого вам придется убить их экипаж."
+"корабль, не уничтожая его, зная, что для этого вам придется убить экипаж."
 
-#: src-en/data/events_sector_separatist.xml:1271
+#: src-en/data/events_sector_separatist.xml:1285
 msgid ""
 "data/events_sector_separatist.xml$//event[@name=\"QUEST_SEPARATIST_ENGI_BOUNTY_QUEST\"]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_separatist.xml:1295
+#: src-en/data/events_sector_separatist.xml:1309
 msgid ""
 "data/events_sector_separatist.xml$//event[@name=\"ENCOUNTER_SEPARATIST\"]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_separatist.xml:1300
+#: src-en/data/events_sector_separatist.xml:1314
 msgid ""
 "data/events_sector_separatist.xml$//textList[@name=\"TEXT_ENCOUNTER_SEPARATIST\"]/text[1]"
 msgstr ""
 "По коммуникатору раздается короткий визг, за которым следует циклическое "
-"двоичное сообщение. У вас нет времени переводить, прежде чем корабль "
-"Сепаратистов сделает предупредительный выстрел, который срикошетит от вашей "
-"защиты."
+"двоичное сообщение. Вы не успеваете перевести разговор, как корабль "
+"Сепаратистов делает предупредительный выстрел, который рикошетом отскакивает"
+" от вашей брони."
 
-#: src-en/data/events_sector_separatist.xml:1301
+#: src-en/data/events_sector_separatist.xml:1315
 msgid ""
 "data/events_sector_separatist.xml$//textList[@name=\"TEXT_ENCOUNTER_SEPARATIST\"]/text[2]"
 msgstr ""
 "Вас вызывает на связь странно многословный энджи. \"Неудачное время встречи,"
-" корабль Федерации. Похоже, я повредил ту часть своей системы, которая "
+" корабль -Федерации-. Похоже, я [повредил] ту часть своей системы, которая "
 "кодирует разум и логику, и теперь испытываю жгучее желание убивать\"."
 
-#: src-en/data/events_sector_separatist.xml:1302
+#: src-en/data/events_sector_separatist.xml:1316
 msgid ""
 "data/events_sector_separatist.xml$//textList[@name=\"TEXT_ENCOUNTER_SEPARATIST\"]/text[3]"
 msgstr ""
-"Вас вызывает на связь разъяренный Сепаратист. \"Проблема: Ты случайно "
-"наступил на моего давнего друга в микроскопическом состоянии. Решение: "
+"Вас вызывает на связь разъяренный Сепаратист. \"Проблема: Ты -случайно- "
+"наступил на [моего] давнего друга в микроскопическом состоянии. Решение: "
 "умри\"."
 
-#: src-en/data/events_sector_separatist.xml:1303
+#: src-en/data/events_sector_separatist.xml:1317
 msgid ""
 "data/events_sector_separatist.xml$//textList[@name=\"TEXT_ENCOUNTER_SEPARATIST\"]/text[4]"
 msgstr ""
 "Хотя Сепаратисты обычно избегают других кораблей, тот, что у этого маяка, "
 "похоже, находится в критическом состоянии и отчаянно нуждается в ломе."
 
-#: src-en/data/events_sector_separatist.xml:1304
+#: src-en/data/events_sector_separatist.xml:1318
 msgid ""
 "data/events_sector_separatist.xml$//textList[@name=\"TEXT_ENCOUNTER_SEPARATIST\"]/text[5]"
 msgstr ""
 "Корабль Сепаратистов переходит в атаку. Вы не знаете, как разозлили их, но "
 "это уже не имеет значения."
 
-#: src-en/data/events_sector_separatist.xml:1305
+#: src-en/data/events_sector_separatist.xml:1319
 msgid ""
 "data/events_sector_separatist.xml$//textList[@name=\"TEXT_ENCOUNTER_SEPARATIST\"]/text[6]"
 msgstr ""
@@ -1690,102 +1714,101 @@ msgstr ""
 "произведениях какого-то мертвого парня по имени Шекспир. Вдруг он резко "
 "обрывает свою речь и нападает!"
 
-#: src-en/data/events_sector_separatist.xml:1309
+#: src-en/data/events_sector_separatist.xml:1323
 msgid ""
 "data/events_sector_separatist.xml$//event[@name=\"ENCOUNTER_ENGI_SEPARATIST\"]/text"
 msgstr ""
-"Корабль Сепаратистов вращается вокруг маяка, но прежде чем вы сможете "
-"связаться с ними, они прыгают, и приближается корабль энджи. \"Федерация "
-"помогает врагам Гармонии? Дилемма... Корабль Федерации: должен быть "
-"уничтожен\"."
+"Корабль Сепаратистов вращается вокруг маяка, но прежде чем вы успеваете "
+"связаться с ними, они уходят в прыжок, и приближается корабль энджи. "
+"\"Федерация помогает врагам Гармонии? Дилемма... Корабль Федерации: должен "
+"быть уничтожен\"."
 
-#: src-en/data/events_sector_separatist.xml:1312
+#: src-en/data/events_sector_separatist.xml:1326
 msgid ""
 "data/events_sector_separatist.xml$//event[@name=\"ENCOUNTER_ENGI_SEPARATIST\"]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_separatist.xml:1321
+#: src-en/data/events_sector_separatist.xml:1335
 msgid ""
 "data/events_sector_separatist.xml$//event[@name=\"ENCOUNTER_MANTIS_SEPARATIST\"]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_separatist.xml:1326
+#: src-en/data/events_sector_separatist.xml:1340
 msgid ""
 "data/events_sector_separatist.xml$//textList[@name=\"TEXT_ENCOUNTER_MANTIS_SEPARATIST\"]/text[1]"
 msgstr ""
 "Сепаратисты они или нет, но богомолов не волнует источник их рабов-энджи. "
-"Богомол, разведывающий этот сектор, решает напасть на ваш корабль!"
+"Богомолы, разведывающие этот сектор, решают напасть на ваш корабль!"
 
-#: src-en/data/events_sector_separatist.xml:1327
+#: src-en/data/events_sector_separatist.xml:1341
 msgid ""
 "data/events_sector_separatist.xml$//textList[@name=\"TEXT_ENCOUNTER_MANTIS_SEPARATIST\"]/text[2]"
 msgstr ""
 "Корабль богомолов, который, скорее всего, прибыл сюда, предполагая, что это "
 "будет обычный сектор энджи, раздражен из-за отсутствия кораблей с "
-"достаточным количеством экипажа для борьбы. Наконец, увидев в вашем корабле "
-"достойный вызов, они не теряют времени и атакуют."
+"достаточным количеством экипажа, который мог бы дать им достойный отпор. "
+"Наконец, увидев в вашем корабле достойный вызов, они не теряют времени и "
+"атакуют."
 
-#: src-en/data/events_sector_separatist.xml:1328
+#: src-en/data/events_sector_separatist.xml:1342
 msgid ""
 "data/events_sector_separatist.xml$//textList[@name=\"TEXT_ENCOUNTER_MANTIS_SEPARATIST\"]/text[3]"
 msgstr ""
-"С вами связывается корабль Сепаратистов, который коротко кричит: \"Берегитесь"
-" жуков-убийц!\" прежде чем уйти в прыжок. Преследующий корабль богомолов "
-"решает вместо этого сделать вас своей добычей."
+"С вами связывается корабль Сепаратистов, который коротко выкрикивает: "
+"\"Берегитесь жуков-убийц!\" прежде чем уйти в прыжок. Преследующий корабль "
+"богомолов решает вместо этого сделать вас своей добычей."
 
-#: src-en/data/events_sector_separatist.xml:1329
+#: src-en/data/events_sector_separatist.xml:1343
 msgid ""
 "data/events_sector_separatist.xml$//textList[@name=\"TEXT_ENCOUNTER_MANTIS_SEPARATIST\"]/text[4]"
 msgstr ""
-"На экране вызова появляется недовольный капитан богомол. \"О, отлично, еще "
-"один корабль. Какими чудесными ужасами вы встречаете нас? Может быть, "
-"плотоядное облако? Может быть, ножевое ручное чудовище с длинными "
-"щупальцами?\" Он быстро понимает, что вы на самом деле корабль Федерации, и "
-"все его сомнения рассеиваются. Он приказывает своему экипажу готовиться к "
-"бою!"
+"На экране вызова появляется недовольный капитан богомолов. \"О, отлично, еще"
+" один корабль. Какими чудесными ужасами вы встретите нас? Возможно "
+"плотоядным облаком? Может прирученным чудовищем с длинными щупальцами?\" Он "
+"быстро понимает, что вы на самом деле корабль Федерации, и все его сомнения "
+"рассеиваются. Он приказывает своему экипажу готовиться к бою!"
 
-#: src-en/data/events_sector_separatist.xml:1330
+#: src-en/data/events_sector_separatist.xml:1344
 msgid ""
 "data/events_sector_separatist.xml$//textList[@name=\"TEXT_ENCOUNTER_MANTIS_SEPARATIST\"]/text[5]"
 msgstr ""
-"В этом секторе бывает трудно определить, кто появится из-за вспышки красного"
-" корпуса, энджи или какое-то другое судно. К сожалению, на этот раз это "
-"оказывается богомол, жаждущий боя."
+"В этом секторе бывает трудно определить, кто скрывается за красным корпусом,"
+" энджи или какое-то другое судно. К сожалению, на этот раз это оказываются "
+"богомолы, жаждущие боя."
 
-#: src-en/data/events_sector_separatist.xml:1334
+#: src-en/data/events_sector_separatist.xml:1348
 msgid ""
 "data/events_sector_separatist.xml$//event[@name=\"ENCOUNTER_ZOLTAN_AUTO_SEPARATIST\"]/text"
 msgstr ""
-"\"Мы предлагаем вам избегать автоматического корабля. Он сломан\". Вы "
-"заметили корабль Сепаратистов, который связывался с вами, прячась за "
-"крупными астероидами, а также автоматический корабль золтанов, несущийся к "
-"вам!"
+"\"Мы советуем вам избегать автоматического корабля. Он сломан\". Вы заметили"
+" корабль Сепаратистов, который связывался с вами, прячась за крупными "
+"астероидами, а также автоматический корабль золтанов, несущийся к вам!"
 
-#: src-en/data/events_sector_separatist.xml:1337
+#: src-en/data/events_sector_separatist.xml:1351
 msgid ""
 "data/events_sector_separatist.xml$//event[@name=\"ENCOUNTER_ZOLTAN_AUTO_SEPARATIST\"]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_separatist.xml:1342
+#: src-en/data/events_sector_separatist.xml:1356
 msgid ""
 "data/events_sector_separatist.xml$//event[@name=\"ENCOUNTER_ZOLTAN_AUTO_SEPARATIST_KILL\"]/text"
 msgstr ""
 "Сепаратисты издали что-то похожее на роботизированный смех. \"Хорошо, я "
-"понимаю, почему другие получают большое удовольствие от наблюдения за боем "
-"гладиаторов\". Они прыгают, оставляя вас с обломками автоматического "
-"корабля."
+"понимаю, почему другие получают большое [удовольствие] от наблюдения за боем"
+" гладиаторов\". Они уходят в прыжок, оставляя вас с обломками "
+"автоматического корабля."
 
-#: src-en/data/events_sector_separatist.xml:1357
+#: src-en/data/events_sector_separatist.xml:1371
 msgid ""
 "data/events_sector_separatist.xml$//event[@name=\"HARMONY_LINK_SEP\"]/beaconType/unvisitedTooltip"
 msgstr "Здесь находится Канал связи Гармонии."
 
-#: src-en/data/events_sector_separatist.xml:1358
+#: src-en/data/events_sector_separatist.xml:1372
 msgid ""
 "data/events_sector_separatist.xml$//event[@name=\"HARMONY_LINK_SEP\"]/beaconType/visitedTooltip"
 msgstr "Здесь находится Канал связи Гармонии."
 
-#: src-en/data/events_sector_separatist.xml:1360
+#: src-en/data/events_sector_separatist.xml:1374
 msgid "data/events_sector_separatist.xml$//event[@name=\"HARMONY_LINK_SEP\"]/text"
 msgstr ""
 "Похоже, вы обнаружили Канал связи Гармонии. Эти массивные сооружения "
@@ -1794,29 +1817,29 @@ msgstr ""
 "функционирует. Вероятно, Сепаратисты вывели его из строя, когда брали под "
 "свой контроль этот сектор."
 
-#: src-en/data/events_sector_separatist.xml:1363
+#: src-en/data/events_sector_separatist.xml:1377
 msgid ""
 "data/events_sector_separatist.xml$//event[@name=\"HARMONY_LINK_SEP\"]/choice[@req=\"HARMONY_LINK_CHECK\""
 " and @lvl=\"1\"]/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_separatist.xml:1367
+#: src-en/data/events_sector_separatist.xml:1381
 msgid ""
 "data/events_sector_separatist.xml$//event[@name=\"HARMONY_LINK_SEP\"]/choice[@req=\"HARMONY_LINK_CHECK\""
 " and @lvl=\"0\"]/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_separatist.xml:1376
+#: src-en/data/events_sector_separatist.xml:1390
 msgid ""
 "data/events_sector_separatist.xml$//event[@name=\"HARMONY_LINK_UNIQUE_SEP\"]/beaconType/unvisitedTooltip"
 msgstr "Здесь находится Канал связи Гармонии."
 
-#: src-en/data/events_sector_separatist.xml:1377
+#: src-en/data/events_sector_separatist.xml:1391
 msgid ""
 "data/events_sector_separatist.xml$//event[@name=\"HARMONY_LINK_UNIQUE_SEP\"]/beaconType/visitedTooltip"
 msgstr "Здесь находится Канал связи Гармонии."
 
-#: src-en/data/events_sector_separatist.xml:1379
+#: src-en/data/events_sector_separatist.xml:1393
 msgid ""
 "data/events_sector_separatist.xml$//event[@name=\"HARMONY_LINK_UNIQUE_SEP\"]/text"
 msgstr ""
@@ -1826,76 +1849,76 @@ msgstr ""
 "функционирует. Вероятно, Сепаратисты вывели его из строя, когда брали под "
 "свой контроль этот сектор."
 
-#: src-en/data/events_sector_separatist.xml:1382
+#: src-en/data/events_sector_separatist.xml:1396
 msgid ""
 "data/events_sector_separatist.xml$//event[@name=\"HARMONY_LINK_UNIQUE_SEP\"]/choice[@req=\"HARMONY_LINK_CHECK\""
 " and @lvl=\"1\"]/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_separatist.xml:1386
+#: src-en/data/events_sector_separatist.xml:1400
 msgid ""
 "data/events_sector_separatist.xml$//event[@name=\"HARMONY_LINK_UNIQUE_SEP\"]/choice[@req=\"HARMONY_LINK_CHECK\""
 " and @lvl=\"0\"]/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_separatist.xml:1403
+#: src-en/data/events_sector_separatist.xml:1417
 msgid ""
 "data/events_sector_separatist.xml$//event[@name=\"HARMONY_LINK_SEPARATIST\"]/text"
 msgstr ""
 "Корабль Сепаратистов анализирует Канал связи Гармонии. Его экипаж либо не "
 "замечает вас, либо ему наплевать на ваше присутствие."
 
-#: src-en/data/events_sector_separatist.xml:1406
+#: src-en/data/events_sector_separatist.xml:1420
 msgid ""
 "data/events_sector_separatist.xml$//event[@name=\"HARMONY_LINK_SEPARATIST\"]/choice[1]/text"
 msgstr "Выйти с ними на связь."
 
-#: src-en/data/events_sector_separatist.xml:1408
+#: src-en/data/events_sector_separatist.xml:1422
 msgid ""
 "data/events_sector_separatist.xml$//event[@name=\"HARMONY_LINK_SEPARATIST\"]/choice[1]/event/text"
 msgstr ""
 "\"Да, мы -видим- вас, Федерация. Если вы хотите быть полезными, возможно, вы"
-" могли бы одолжить нам немного взрывчатки. Мы пытаемся [разрушить] каналы "
+" могли бы одолжить нам немного взрывчатки. Мы пытаемся [разрушить] Каналы "
 "связи Гармонии\"."
 
-#: src-en/data/events_sector_separatist.xml:1410
+#: src-en/data/events_sector_separatist.xml:1424
 msgid ""
 "data/events_sector_separatist.xml$//event[@name=\"HARMONY_LINK_SEPARATIST\"]/choice[1]/event/choice[1]/text"
 msgstr "Дать им 5 боеголовок."
 
-#: src-en/data/events_sector_separatist.xml:1412
+#: src-en/data/events_sector_separatist.xml:1426
 msgid ""
 "data/events_sector_separatist.xml$//event[@name=\"HARMONY_LINK_SEPARATIST\"]/choice[1]/event/choice[1]/event/text"
 msgstr "Вы передаете боеголовки Сепаратистам."
 
-#: src-en/data/events_sector_separatist.xml:1417
+#: src-en/data/events_sector_separatist.xml:1431
 msgid ""
 "data/events_sector_separatist.xml$//event[@name=\"HARMONY_LINK_SEPARATIST\"]/choice[1]/event/choice[1]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_separatist.xml:1419
+#: src-en/data/events_sector_separatist.xml:1433
 msgid ""
 "data/events_sector_separatist.xml$//event[@name=\"HARMONY_LINK_SEPARATIST\"]/choice[1]/event/choice[1]/event/choice/event/text"
 msgstr ""
 "\"Ого. Это совершенно -бесполезно-. Мы даже не можем их использовать. Я "
 "полагаю, что это стоит около 5 лома\"."
 
-#: src-en/data/events_sector_separatist.xml:1428
+#: src-en/data/events_sector_separatist.xml:1442
 msgid ""
 "data/events_sector_separatist.xml$//event[@name=\"HARMONY_LINK_SEPARATIST\"]/choice[1]/event/choice[2]/text"
 msgstr "Дать им 15 боеголовок."
 
-#: src-en/data/events_sector_separatist.xml:1430
+#: src-en/data/events_sector_separatist.xml:1444
 msgid ""
 "data/events_sector_separatist.xml$//event[@name=\"HARMONY_LINK_SEPARATIST\"]/choice[1]/event/choice[2]/event/text"
 msgstr "Вы передаете боеголовки Сепаратистам."
 
-#: src-en/data/events_sector_separatist.xml:1435
+#: src-en/data/events_sector_separatist.xml:1449
 msgid ""
 "data/events_sector_separatist.xml$//event[@name=\"HARMONY_LINK_SEPARATIST\"]/choice[1]/event/choice[2]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_separatist.xml:1437
+#: src-en/data/events_sector_separatist.xml:1451
 msgid ""
 "data/events_sector_separatist.xml$//event[@name=\"HARMONY_LINK_SEPARATIST\"]/choice[1]/event/choice[2]/event/choice/event/text"
 msgstr ""
@@ -1905,44 +1928,44 @@ msgstr ""
 "не заметно каких-либо повреждений. \"Ну, по крайней мере, теперь мы [знаем]."
 " Примите это вознаграждение\"."
 
-#: src-en/data/events_sector_separatist.xml:1445
+#: src-en/data/events_sector_separatist.xml:1459
 msgid ""
 "data/events_sector_separatist.xml$//event[@name=\"HARMONY_LINK_SEPARATIST\"]/choice[1]/event/choice[3]/text"
 msgstr "Отказаться."
 
-#: src-en/data/events_sector_separatist.xml:1451
+#: src-en/data/events_sector_separatist.xml:1465
 msgid ""
 "data/events_sector_separatist.xml$//event[@name=\"HARMONY_LINK_SEPARATIST\"]/choice[2]/text"
 msgstr "Воспользоваться этой ситуацией и атаковать!"
 
-#: src-en/data/events_sector_separatist.xml:1453
+#: src-en/data/events_sector_separatist.xml:1467
 msgid ""
 "data/events_sector_separatist.xml$//event[@name=\"HARMONY_LINK_SEPARATIST\"]/choice[2]/event/text"
 msgstr "Сепаратисты не говорят ни слова, но, очевидно, не сдадутся без боя!"
 
-#: src-en/data/events_sector_separatist.xml:1456
+#: src-en/data/events_sector_separatist.xml:1470
 msgid ""
 "data/events_sector_separatist.xml$//event[@name=\"HARMONY_LINK_SEPARATIST\"]/choice[2]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_separatist.xml:1462
+#: src-en/data/events_sector_separatist.xml:1476
 msgid ""
 "data/events_sector_separatist.xml$//event[@name=\"HARMONY_LINK_SEPARATIST\"]/choice[3]/text"
 msgstr "Не обращать внимания на энджи."
 
-#: src-en/data/events_sector_separatist.xml:1464
+#: src-en/data/events_sector_separatist.xml:1478
 msgid ""
 "data/events_sector_separatist.xml$//event[@name=\"HARMONY_LINK_SEPARATIST\"]/choice[3]/event/text"
 msgstr ""
 "Если они не представляют для вас угрозы, то и вы не будете представлять для "
 "них угрозы."
 
-#: src-en/data/events_sector_separatist.xml:1466
+#: src-en/data/events_sector_separatist.xml:1480
 msgid ""
 "data/events_sector_separatist.xml$//event[@name=\"HARMONY_LINK_SEPARATIST\"]/choice[3]/event/choice[1]/text"
 msgstr "Заняться чем-либо на корабле."
 
-#: src-en/data/events_sector_separatist.xml:1470
+#: src-en/data/events_sector_separatist.xml:1484
 msgid ""
 "data/events_sector_separatist.xml$//event[@name=\"HARMONY_LINK_SEPARATIST\"]/choice[3]/event/choice[2]/text"
 msgstr "Ничего не делать."

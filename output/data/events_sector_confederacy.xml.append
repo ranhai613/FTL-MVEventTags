@@ -1478,6 +1478,20 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="event">
         <mod:findLike type="choice">
+          <mod:selector hidden="true" req="unique_alkram"/>
+          <mod:findLike type="text">
+            <mod:selector>(Alkram) Alkram wishes to have a word.</mod:selector>
+            <mod:setValue>(Alkram) Alkram wishes to have a word.[INFO][NAME]crewMember[/NAME]Gain a crew(Leech)[/INFO][INFO][NAME]weapon[/NAME]Gain a weapon(Random)[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="VAMPWEED_ALKRAM" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
           <mod:selector hidden="true"/>
           <mod:findLike type="text">
             <mod:selector>We can't help.</mod:selector>
@@ -3141,8 +3155,8 @@
   <mod:findName name="TY_EREL_RECRUITMENT_CHOICE" type="event">
     <mod:findLike type="choice">
       <mod:findLike type="text">
-        <mod:selector>Accept Ty E'erel.</mod:selector>
-        <mod:setValue>Accept Ty E'erel.[INFO][NAME]crewMember[/NAME]Gain a crew(Unique Tyerel)[/INFO]</mod:setValue>
+        <mod:selector>Accept Ty E'Rrel.</mod:selector>
+        <mod:setValue>Accept Ty E'Rrel.[INFO][NAME]crewMember[/NAME]Gain a crew(Unique Tyerel)[/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>

@@ -76,6 +76,39 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="event">
         <mod:findLike type="choice">
+          <mod:selector hidden="true" req="LIST_CREW_LANIUS"/>
+          <mod:findLike type="text">
+            <mod:selector>(Lanius Crew) Have your crewmember explain the situation to them.</mod:selector>
+            <mod:setValue>(Lanius Crew) Have your crewmember explain the situation to them.[INFO]33% [NAME]autoReward[/NAME]Reward |(M)[/INFO][INFO]33% [NAME]drone[/NAME]Gain a drone(Random)[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="ENGI_SALVAGER" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true" req="LIST_CREW_LANIUS"/>
+          <mod:findLike type="event">
+            <mod:findLike type="choice">
+              <mod:selector hidden="true"/>
+              <mod:findLike type="text">
+                <mod:selector>Continue...</mod:selector>
+                <mod:setValue>Continue...[INFO]33% [NAME]autoReward[/NAME]Reward |(M)[/INFO][INFO]33% [NAME]drone[/NAME]Gain a drone(Random)[/INFO]</mod:setValue>
+              </mod:findLike>
+            </mod:findLike>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="ENGI_SALVAGER" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
           <mod:selector hidden="true"/>
           <mod:findLike type="text">
             <mod:selector>Fight them off.</mod:selector>
@@ -241,6 +274,29 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
+  <mod:findName name="ENGI_SURRENDER_MV" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>Attack!</mod:selector>
+        <mod:setValue>Attack![INFO]&lt;=[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="ENGI_SURRENDER_MV" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="text">
+            <mod:selector>Continue...</mod:selector>
+            <mod:setValue>Continue...[INFO]&lt;=[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
   <mod:findName name="HARMONY_SEARCH_NORMAL_STANDING" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true" req="rep_comb_engi" lvl="-999" max_lvl="-1" max_group="1"/>
@@ -275,6 +331,50 @@
   <mod:findName name="HARMONY_SEARCH_NORMAL_STANDING" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true" req="engi_defender"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:findLike type="text">
+            <mod:selector>Do something onboard the ship.</mod:selector>
+            <mod:setValue>Do something onboard the ship.[INFO][NAME]storageCheck[/NAME]Storage Check[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="HARMONY_SEARCH_NORMAL_STANDING" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true" req="unique_mafan"/>
+      <mod:findLike type="text">
+        <mod:selector>(Mafan) "Stop interfering with my work!"</mod:selector>
+        <mod:setValue>(Mafan) "Stop interfering with my work!"[INFO][NAME]autoReward[/NAME]Reward Standard(L)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="HARMONY_SEARCH_NORMAL_STANDING" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true" req="unique_mafan"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:findLike type="text">
+            <mod:selector>Do something onboard the ship.</mod:selector>
+            <mod:setValue>Do something onboard the ship.[INFO][NAME]storageCheck[/NAME]Storage Check[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="HARMONY_SEARCH_NORMAL_STANDING" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true" req="unique_tyerel"/>
+      <mod:findLike type="text">
+        <mod:selector>(Ty E'rel) "Diplomatic immunity."</mod:selector>
+        <mod:setValue>(Ty E'rel) "Diplomatic immunity."[INFO][NAME]storageCheck[/NAME]Storage Check[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="HARMONY_SEARCH_NORMAL_STANDING" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true" req="unique_tyerel"/>
       <mod:findLike type="event">
         <mod:findLike type="choice">
           <mod:findLike type="text">
@@ -491,6 +591,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="event">
         <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
           <mod:findLike type="text">
             <mod:selector>Forward the rest of the information to the Harmony.</mod:selector>
             <mod:setValue>Forward the rest of the information to the Harmony.[INFO][NAME]autoReward[/NAME]Reward |(L)[/INFO]</mod:setValue>
@@ -503,7 +604,7 @@
     <mod:findLike type="choice">
       <mod:findLike type="text">
         <mod:selector>Investigate.</mod:selector>
-        <mod:setValue>Investigate.[INFO]&lt;=[/INFO]</mod:setValue>
+        <mod:setValue>Investigate.[INFO]&lt;=[/INFO][INFO][NAME]autoReward[/NAME]Reward Augment(M)[/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -529,6 +630,37 @@
               <mod:findLike type="text">
                 <mod:selector>Continue...</mod:selector>
                 <mod:setValue>Continue...[INFO]&lt;=[/INFO]</mod:setValue>
+              </mod:findLike>
+            </mod:findLike>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="ENGI_IMPLANT_UNION" type="event">
+    <mod:findLike type="choice">
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true" req="engi_defender"/>
+          <mod:findLike type="text">
+            <mod:selector>(Engi Defender) Try to convince them this may not be necessary.</mod:selector>
+            <mod:setValue>(Engi Defender) Try to convince them this may not be necessary.[INFO][NAME]autoReward[/NAME]Reward Augment(M)[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="ENGI_IMPLANT_UNION" type="event">
+    <mod:findLike type="choice">
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true" req="engi_defender"/>
+          <mod:findLike type="event">
+            <mod:findLike type="choice">
+              <mod:selector hidden="true"/>
+              <mod:findLike type="text">
+                <mod:selector>Continue...</mod:selector>
+                <mod:setValue>Continue...[INFO][NAME]autoReward[/NAME]Reward Augment(M)[/INFO]</mod:setValue>
               </mod:findLike>
             </mod:findLike>
           </mod:findLike>
@@ -1484,7 +1616,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Hail them.</mod:selector>
-        <mod:setValue>Hail them.[INFO][NAME]itemModify[/NAME]{4 ~50 }5 |3[/INFO][INFO][NAME]modifyPursuit[/NAME]&lt;!&gt;Fleet Advance(1)[/INFO]</mod:setValue>
+        <mod:setValue>Hail them.[INFO][NAME]itemModify[/NAME]{4 ~50 }5 |3[/INFO][INFO][NAME]modifyPursuit[/NAME]&lt;!&gt;Fleet Advance(1)[/INFO][INFO][NAME]itemModify[/NAME]{6 ~60 }6 |4[/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -1730,6 +1862,266 @@
       <mod:findLike type="event">
         <mod:findLike type="choice">
           <mod:selector hidden="true"/>
+          <mod:findLike type="event">
+            <mod:findLike type="choice">
+              <mod:selector hidden="true"/>
+              <mod:findLike type="event">
+                <mod:findLike type="choice">
+                  <mod:selector hidden="true" req="cloaking"/>
+                  <mod:findLike type="text">
+                    <mod:selector>(Cloaking) Cloak and leave.</mod:selector>
+                    <mod:setValue>(Cloaking) Cloak and leave.[INFO]50% &lt;=[/INFO]</mod:setValue>
+                  </mod:findLike>
+                </mod:findLike>
+              </mod:findLike>
+            </mod:findLike>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="DISTRESS_ENGI_SALVAGE" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true" req="MAGNET_ARM"/>
+          <mod:findLike type="text">
+            <mod:selector>(Magnet Arm) Use your ship arm to collect additional scrap.</mod:selector>
+            <mod:setValue>(Magnet Arm) Use your ship arm to collect additional scrap.[INFO][NAME]itemModify[/NAME]{6 ~60 }6 |4[/INFO][INFO][NAME]modifyPursuit[/NAME]&lt;!&gt;Fleet Advance(1)[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="DISTRESS_ENGI_SALVAGE" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true" req="MAGNET_ARM"/>
+          <mod:findLike type="event">
+            <mod:findLike type="choice">
+              <mod:selector hidden="true"/>
+              <mod:findLike type="text">
+                <mod:selector>Continue...</mod:selector>
+                <mod:setValue>Continue...[INFO][NAME]itemModify[/NAME]{-6 ~-60 }-6 |-4[/INFO][INFO]&lt;=[/INFO][INFO][NAME]itemModify[/NAME]{-3 ~-30 }-3 |-2[/INFO]</mod:setValue>
+              </mod:findLike>
+            </mod:findLike>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="DISTRESS_ENGI_SALVAGE" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true" req="MAGNET_ARM"/>
+          <mod:findLike type="event">
+            <mod:findLike type="choice">
+              <mod:selector hidden="true"/>
+              <mod:findLike type="event">
+                <mod:findLike type="choice">
+                  <mod:selector hidden="true"/>
+                  <mod:findLike type="text">
+                    <mod:selector>Give the supplies back to the Engi.</mod:selector>
+                    <mod:setValue>Give the supplies back to the Engi.[INFO][NAME]itemModify[/NAME]{-6 ~-60 }-6 |-4[/INFO]</mod:setValue>
+                  </mod:findLike>
+                </mod:findLike>
+              </mod:findLike>
+            </mod:findLike>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="DISTRESS_ENGI_SALVAGE" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true" req="MAGNET_ARM"/>
+          <mod:findLike type="event">
+            <mod:findLike type="choice">
+              <mod:selector hidden="true"/>
+              <mod:findLike type="event">
+                <mod:findLike type="choice">
+                  <mod:selector hidden="true"/>
+                  <mod:findLike type="event">
+                    <mod:findLike type="choice">
+                      <mod:selector hidden="true"/>
+                      <mod:findLike type="text">
+                        <mod:selector>Await your reward.</mod:selector>
+                        <mod:setValue>Await your reward.[INFO]&lt;=[/INFO]</mod:setValue>
+                      </mod:findLike>
+                    </mod:findLike>
+                  </mod:findLike>
+                </mod:findLike>
+              </mod:findLike>
+            </mod:findLike>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="DISTRESS_ENGI_SALVAGE" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true" req="MAGNET_ARM"/>
+          <mod:findLike type="event">
+            <mod:findLike type="choice">
+              <mod:selector hidden="true"/>
+              <mod:findLike type="event">
+                <mod:findLike type="choice">
+                  <mod:selector hidden="true"/>
+                  <mod:findLike type="event">
+                    <mod:findLike type="choice">
+                      <mod:selector hidden="true"/>
+                      <mod:findLike type="event">
+                        <mod:findLike type="choice">
+                          <mod:selector hidden="true"/>
+                          <mod:findLike type="text">
+                            <mod:selector>What? We will not stand for this!</mod:selector>
+                            <mod:setValue>What? We will not stand for this![INFO]&lt;=[/INFO]</mod:setValue>
+                          </mod:findLike>
+                        </mod:findLike>
+                      </mod:findLike>
+                    </mod:findLike>
+                  </mod:findLike>
+                </mod:findLike>
+              </mod:findLike>
+            </mod:findLike>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="DISTRESS_ENGI_SALVAGE" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true" req="MAGNET_ARM"/>
+          <mod:findLike type="event">
+            <mod:findLike type="choice">
+              <mod:selector hidden="true"/>
+              <mod:findLike type="event">
+                <mod:findLike type="choice">
+                  <mod:selector hidden="true"/>
+                  <mod:findLike type="event">
+                    <mod:findLike type="choice">
+                      <mod:selector hidden="true"/>
+                      <mod:findLike type="event">
+                        <mod:findLike type="choice">
+                          <mod:selector hidden="true"/>
+                          <mod:findLike type="event">
+                            <mod:findLike type="choice">
+                              <mod:selector hidden="true"/>
+                              <mod:findLike type="text">
+                                <mod:selector>Continue...</mod:selector>
+                                <mod:setValue>Continue...[INFO]&lt;=[/INFO]</mod:setValue>
+                              </mod:findLike>
+                            </mod:findLike>
+                          </mod:findLike>
+                        </mod:findLike>
+                      </mod:findLike>
+                    </mod:findLike>
+                  </mod:findLike>
+                </mod:findLike>
+              </mod:findLike>
+            </mod:findLike>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="DISTRESS_ENGI_SALVAGE" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true" req="MAGNET_ARM"/>
+          <mod:findLike type="event">
+            <mod:findLike type="choice">
+              <mod:selector hidden="true"/>
+              <mod:findLike type="event">
+                <mod:findLike type="choice">
+                  <mod:selector hidden="true"/>
+                  <mod:findLike type="text">
+                    <mod:selector>Refuse to give the resources back.</mod:selector>
+                    <mod:setValue>Refuse to give the resources back.[INFO]&lt;=[/INFO]</mod:setValue>
+                  </mod:findLike>
+                </mod:findLike>
+              </mod:findLike>
+            </mod:findLike>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="DISTRESS_ENGI_SALVAGE" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true" req="MAGNET_ARM"/>
+          <mod:findLike type="event">
+            <mod:findLike type="choice">
+              <mod:selector hidden="true"/>
+              <mod:findLike type="event">
+                <mod:findLike type="choice">
+                  <mod:selector hidden="true"/>
+                  <mod:findLike type="event">
+                    <mod:findLike type="choice">
+                      <mod:selector hidden="true"/>
+                      <mod:findLike type="text">
+                        <mod:selector>Continue...</mod:selector>
+                        <mod:setValue>Continue...[INFO]&lt;=[/INFO]</mod:setValue>
+                      </mod:findLike>
+                    </mod:findLike>
+                  </mod:findLike>
+                </mod:findLike>
+              </mod:findLike>
+            </mod:findLike>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="DISTRESS_ENGI_SALVAGE" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true" req="MAGNET_ARM"/>
+          <mod:findLike type="event">
+            <mod:findLike type="choice">
+              <mod:selector hidden="true"/>
+              <mod:findLike type="event">
+                <mod:findLike type="choice">
+                  <mod:selector hidden="true" req="LIST_CREW_HARMONY"/>
+                  <mod:findLike type="text">
+                    <mod:selector>(Harmony Crew) Request you split the supplies.</mod:selector>
+                    <mod:setValue>(Harmony Crew) Request you split the supplies.[INFO][NAME]itemModify[/NAME]{-3 ~-30 }-3 |-2[/INFO]</mod:setValue>
+                  </mod:findLike>
+                </mod:findLike>
+              </mod:findLike>
+            </mod:findLike>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="DISTRESS_ENGI_SALVAGE" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true" req="MAGNET_ARM"/>
           <mod:findLike type="event">
             <mod:findLike type="choice">
               <mod:selector hidden="true"/>
@@ -2115,6 +2507,20 @@
           <mod:findLike type="text">
             <mod:selector>(Butler Drone) Turn it up to eleven.</mod:selector>
             <mod:setValue>(Butler Drone) Turn it up to eleven.[INFO][NAME]autoReward[/NAME]Reward Stuff(H)[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="DISTRESS_ENGI_PARTY" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true" req="QUARP_JUICE"/>
+          <mod:findLike type="text">
+            <mod:selector>(Quarp Juice) Add some extra energy to this party.</mod:selector>
+            <mod:setValue>(Quarp Juice) Add some extra energy to this party.[INFO][NAME]autoReward[/NAME]Reward Stuff(H)[/INFO]</mod:setValue>
           </mod:findLike>
         </mod:findLike>
       </mod:findLike>

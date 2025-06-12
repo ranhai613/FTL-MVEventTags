@@ -1,58 +1,50 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-05-29 16:26+0000\n"
-"Last-Translator: Ukn <bbg100bbg@gmail.com>\n"
-"Language-Team: Russian <https://weblate.hyperq.be/projects/ftl-multiverse/"
-"dataevents_special_salvagingxml/ru/>\n"
-"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.16.4\n"
 
-#: src-en/data/events_special_salvaging.xml:22
+#: src-en/data/events_special_salvaging.xml:35
 msgid "data/events_special_salvaging.xml$//event[@name=\"SALVAGE_FAIL\"]/text"
 msgstr ""
 "Ваш экипаж находит мало ценного и в разочаровании возвращается на корабль."
 
-#: src-en/data/events_special_salvaging.xml:28
+#: src-en/data/events_special_salvaging.xml:41
 msgid "data/events_special_salvaging.xml$//event[@name=\"SALVAGE_ARM_LOW\"]/text"
 msgstr ""
 "Вы выжидаете некоторое время, надеясь, что кран соберет какой-нибудь "
 "близлежащий мусор, затем втягиваете его и осматриваете свою добычу."
 
-#: src-en/data/events_special_salvaging.xml:38
+#: src-en/data/events_special_salvaging.xml:51
 msgid ""
 "data/events_special_salvaging.xml$//event[@name=\"SALVAGE_DEFAULT_LOW\"]/text"
 msgstr ""
 "Ваш экипаж мало что находит, но это уже что-то. Они возвращаются на корабль "
 "со своей добычей."
 
-#: src-en/data/events_special_salvaging.xml:43
+#: src-en/data/events_special_salvaging.xml:56
 msgid ""
 "data/events_special_salvaging.xml$//event[@name=\"SALVAGE_DEFAULT_MED\"]/text"
 msgstr ""
 "Ваш экипаж находит немало припасов. Они возвращаются на корабль со своей "
 "добычей."
 
-#: src-en/data/events_special_salvaging.xml:48
+#: src-en/data/events_special_salvaging.xml:61
 msgid ""
 "data/events_special_salvaging.xml$//event[@name=\"SALVAGE_DEFAULT_HIGH\"]/text"
 msgstr ""
 "Ваш экипаж находит большое количество припасов. Они возвращаются на корабль "
 "со своей добычей."
 
-#: src-en/data/events_special_salvaging.xml:54
+#: src-en/data/events_special_salvaging.xml:67
 msgid ""
 "data/events_special_salvaging.xml$//event[@name=\"SALVAGE_DEFAULT_FUEL\"]/text"
 msgstr ""
 "Ваш экипаж находит кучу топливных элементов, хотя неизвестно, откуда они "
 "взялись. Они возвращаются на корабль со своей добычей."
 
-#: src-en/data/events_special_salvaging.xml:60
+#: src-en/data/events_special_salvaging.xml:73
 msgid ""
 "data/events_special_salvaging.xml$//event[@name=\"SALVAGE_DEFAULT_MINEFIELD\"]/text"
 msgstr ""
@@ -60,13 +52,13 @@ msgstr ""
 "то же время потенциально ценный источник большого количества боеприпасов и "
 "лома. Тем не менее, неосторожность может оказаться опасной."
 
-#: src-en/data/events_special_salvaging.xml:63
+#: src-en/data/events_special_salvaging.xml:76
 msgid ""
 "data/events_special_salvaging.xml$//event[@name=\"SALVAGE_DEFAULT_MINEFIELD\"]/choice[@req=\"LIST_CHECK_ANY_CREW\""
 " and @lvl=\"1\"]/text"
 msgstr "Рискнуть."
 
-#: src-en/data/events_special_salvaging.xml:67
+#: src-en/data/events_special_salvaging.xml:80
 msgid ""
 "data/events_special_salvaging.xml$//event[@name=\"SALVAGE_DEFAULT_MINEFIELD\"]/choice[@req=\"LIST_CHECK_ANY_CREW\""
 " and @lvl=\"0\"]/text"
@@ -74,30 +66,30 @@ msgstr ""
 "На борту вашего корабля нет самоотверженных членов экипажа, которых можно "
 "было бы послать на минное поле."
 
-#: src-en/data/events_special_salvaging.xml:71
+#: src-en/data/events_special_salvaging.xml:84
 msgid ""
 "data/events_special_salvaging.xml$//event[@name=\"SALVAGE_DEFAULT_MINEFIELD\"]/choice[@req=\"rock_crusader\"]/text"
 msgstr ""
 "(Член экипажа-Крестоносец) Ваш Крестоносец знает толк во взрывчатке, а также"
 " может выдержать удар."
 
-#: src-en/data/events_special_salvaging.xml:73
+#: src-en/data/events_special_salvaging.xml:86
 msgid ""
 "data/events_special_salvaging.xml$//event[@name=\"SALVAGE_DEFAULT_MINEFIELD\"]/choice[@req=\"rock_crusader\"]/event/text"
 msgstr ""
-"Хоть ваш Крестоносец и знает толк во взрывчатке, на самом деле он хорош тем, "
-"что у него толстая кожа. Не подвергая себя опасности, он возвращается с "
+"Хоть ваш Крестоносец и знает толк во взрывчатке, на самом деле он хорош тем,"
+" что у него толстая кожа. Не подвергая себя опасности, он возвращается с "
 "внушительной добычей, хотя ее могло бы быть больше, если бы вы отправили "
 "более многочисленную команду."
 
-#: src-en/data/events_special_salvaging.xml:78
+#: src-en/data/events_special_salvaging.xml:91
 msgid ""
 "data/events_special_salvaging.xml$//event[@name=\"SALVAGE_DEFAULT_MINEFIELD\"]/choice[@req=\"rock_paladin\"]/text"
 msgstr ""
 "(Член экипажа-Паладин) Ваш Паладин знает толк во взрывчатке, а также может "
 "выдержать удар."
 
-#: src-en/data/events_special_salvaging.xml:80
+#: src-en/data/events_special_salvaging.xml:93
 msgid ""
 "data/events_special_salvaging.xml$//event[@name=\"SALVAGE_DEFAULT_MINEFIELD\"]/choice[@req=\"rock_paladin\"]/event/text"
 msgstr ""
@@ -106,13 +98,13 @@ msgstr ""
 " с внушительной добычей, хотя его медлительность не позволяет ему собрать "
 "больше, не давая флоту повстанцев выиграть время."
 
-#: src-en/data/events_special_salvaging.xml:85
+#: src-en/data/events_special_salvaging.xml:98
 msgid ""
 "data/events_special_salvaging.xml$//event[@name=\"SALVAGE_DEFAULT_MINEFIELD\"]/choice[@req=\"LIST_CREW_LANIUS\"]/text"
 msgstr ""
 "(Член экипажа-ланиус) Ваш ланиус может переплавить немного мин на лом."
 
-#: src-en/data/events_special_salvaging.xml:87
+#: src-en/data/events_special_salvaging.xml:100
 msgid ""
 "data/events_special_salvaging.xml$//event[@name=\"SALVAGE_DEFAULT_MINEFIELD\"]/choice[@req=\"LIST_CREW_LANIUS\"]/event/text"
 msgstr ""
@@ -120,12 +112,12 @@ msgstr ""
 "вознаграждение без особого риска. Вы посылаете своего ланиуса, чтобы он "
 "расплавил как можно больше мин."
 
-#: src-en/data/events_special_salvaging.xml:92
+#: src-en/data/events_special_salvaging.xml:105
 msgid ""
 "data/events_special_salvaging.xml$//event[@name=\"SALVAGE_DEFAULT_MINEFIELD\"]/choice[6]/text"
 msgstr "Не рисковать, просто собрать несколько штук по краям."
 
-#: src-en/data/events_special_salvaging.xml:100
+#: src-en/data/events_special_salvaging.xml:113
 msgid ""
 "data/events_special_salvaging.xml$//eventList[@name=\"SALVAGE_DEFAULT_MINEFIELD_RISK\"]/event[1]/text"
 msgstr ""
@@ -133,7 +125,7 @@ msgstr ""
 "подорвав ни одной мины. Обезвредив как можно больше взрывчатки, они "
 "возвращаются с внушительной добычей."
 
-#: src-en/data/events_special_salvaging.xml:104
+#: src-en/data/events_special_salvaging.xml:117
 msgid ""
 "data/events_special_salvaging.xml$//eventList[@name=\"SALVAGE_DEFAULT_MINEFIELD_RISK\"]/event[2]/text"
 msgstr ""
@@ -144,14 +136,14 @@ msgstr ""
 "заставляете их замолчать и приказываете немедленно вернуться на корабль с "
 "тем, что они успели собрать."
 
-#: src-en/data/events_special_salvaging.xml:108
+#: src-en/data/events_special_salvaging.xml:121
 msgid ""
 "data/events_special_salvaging.xml$//eventList[@name=\"SALVAGE_DEFAULT_MINEFIELD_RISK\"]/event[2]/removeCrew/text"
 msgstr ""
 "К счастью, член вашего экипажа был возрожден в Клон-отсеке, хотя он просит "
 "освободить его от участия в следующей операции по поиску припасов."
 
-#: src-en/data/events_special_salvaging.xml:112
+#: src-en/data/events_special_salvaging.xml:125
 msgid ""
 "data/events_special_salvaging.xml$//eventList[@name=\"SALVAGE_DEFAULT_MINEFIELD_RISK\"]/event[3]/text"
 msgstr ""
@@ -161,12 +153,12 @@ msgstr ""
 "можете подлететь ближе и забрать его, но при этом будет риск подорвать "
 "остатки поля своим кораблем."
 
-#: src-en/data/events_special_salvaging.xml:115
+#: src-en/data/events_special_salvaging.xml:128
 msgid ""
 "data/events_special_salvaging.xml$//eventList[@name=\"SALVAGE_DEFAULT_MINEFIELD_RISK\"]/event[3]/choice[1]/text"
 msgstr "Забрать миномет!"
 
-#: src-en/data/events_special_salvaging.xml:117
+#: src-en/data/events_special_salvaging.xml:130
 msgid ""
 "data/events_special_salvaging.xml$//eventList[@name=\"SALVAGE_DEFAULT_MINEFIELD_RISK\"]/event[3]/choice[1]/event/text"
 msgstr ""
@@ -174,12 +166,12 @@ msgstr ""
 "из мин! К счастью, взрыв оказался не слишком катастрофическим, но все равно "
 "ощутимым."
 
-#: src-en/data/events_special_salvaging.xml:123
+#: src-en/data/events_special_salvaging.xml:136
 msgid ""
 "data/events_special_salvaging.xml$//eventList[@name=\"SALVAGE_DEFAULT_MINEFIELD_RISK\"]/event[3]/choice[2]/text"
 msgstr "Бросить эту затею."
 
-#: src-en/data/events_special_salvaging.xml:130
+#: src-en/data/events_special_salvaging.xml:143
 msgid ""
 "data/events_special_salvaging.xml$//event[@name=\"SALVAGE_DEFAULT_DRONE\"]/text"
 msgstr ""
@@ -188,63 +180,63 @@ msgstr ""
 "просканируете их, чтобы получить схему, то рискуете активировать одного из "
 "них."
 
-#: src-en/data/events_special_salvaging.xml:133
+#: src-en/data/events_special_salvaging.xml:146
 msgid ""
 "data/events_special_salvaging.xml$//event[@name=\"SALVAGE_DEFAULT_DRONE\"]/choice[1]/text"
 msgstr "Разобрать их на части."
 
-#: src-en/data/events_special_salvaging.xml:135
+#: src-en/data/events_special_salvaging.xml:148
 msgid ""
 "data/events_special_salvaging.xml$//event[@name=\"SALVAGE_DEFAULT_DRONE\"]/choice[1]/event/text"
 msgstr "Схема не стоит риска. Вы разбираете дронов."
 
-#: src-en/data/events_special_salvaging.xml:140
+#: src-en/data/events_special_salvaging.xml:153
 msgid ""
 "data/events_special_salvaging.xml$//event[@name=\"SALVAGE_DEFAULT_DRONE\"]/choice[2]/text"
 msgstr "Просканировать их."
 
-#: src-en/data/events_special_salvaging.xml:142
+#: src-en/data/events_special_salvaging.xml:155
 msgid ""
 "data/events_special_salvaging.xml$//event[@name=\"SALVAGE_DEFAULT_DRONE\"]/choice[2]/event/text"
 msgstr ""
 "Вы пытаетесь провести сканирование, но из-за большого расстояния не можете "
 "получить результат. Вы подлетаете ближе, но случайно оказываетесь слишком "
-"близко и активируете дронов! К счастью, вам все же удается заполучить схему, "
-"но теперь они на борту!"
+"близко и активируете дронов! К счастью, вам все же удается заполучить схему,"
+" но теперь они на борту!"
 
-#: src-en/data/events_special_salvaging.xml:150
+#: src-en/data/events_special_salvaging.xml:163
 msgid ""
 "data/events_special_salvaging.xml$//event[@name=\"SALVAGE_DEFAULT_DRONE\"]/choice[@req=\"LIST_CHECK_ENERGY_SHIELD\"]/text"
 msgstr "(Энергетический щит) Приблизиться, не опасаясь вторжения."
 
-#: src-en/data/events_special_salvaging.xml:152
+#: src-en/data/events_special_salvaging.xml:165
 msgid ""
 "data/events_special_salvaging.xml$//event[@name=\"SALVAGE_DEFAULT_DRONE\"]/choice[@req=\"LIST_CHECK_ENERGY_SHIELD\"]/event/text"
 msgstr ""
 "К счастью, ваш Энергетический щит значительно упрощает этот процесс. Вы "
 "получаете схему, не сталкиваясь с каким-либо сопротивлением."
 
-#: src-en/data/events_special_salvaging.xml:157
+#: src-en/data/events_special_salvaging.xml:170
 msgid ""
 "data/events_special_salvaging.xml$//event[@name=\"SALVAGE_DEFAULT_DRONE\"]/choice[@req=\"LIST_CREW_ENGI\"]/text"
 msgstr "(Член экипажа-энджи) Сначала отключить дронов."
 
-#: src-en/data/events_special_salvaging.xml:159
+#: src-en/data/events_special_salvaging.xml:172
 msgid ""
 "data/events_special_salvaging.xml$//event[@name=\"SALVAGE_DEFAULT_DRONE\"]/choice[@req=\"LIST_CREW_ENGI\"]/event/text"
 msgstr "К счастью, ваш энджи способен отключить дронов перед сканированием."
 
-#: src-en/data/events_special_salvaging.xml:164
+#: src-en/data/events_special_salvaging.xml:177
 msgid ""
 "data/events_special_salvaging.xml$//event[@name=\"SALVAGE_DEFAULT_DRONE\"]/choice[@req=\"LIST_CREW_ENGINEER\"]/text"
 msgstr "(Член экипажа-Инженер) Сначала отключить дронов."
 
-#: src-en/data/events_special_salvaging.xml:166
+#: src-en/data/events_special_salvaging.xml:179
 msgid ""
 "data/events_special_salvaging.xml$//event[@name=\"SALVAGE_DEFAULT_DRONE\"]/choice[@req=\"LIST_CREW_ENGINEER\"]/event/text"
 msgstr "К счастью, ваш Инженер может отключить дронов перед сканированием."
 
-#: src-en/data/events_special_salvaging.xml:173
+#: src-en/data/events_special_salvaging.xml:186
 msgid ""
 "data/events_special_salvaging.xml$//event[@name=\"SALVAGE_DEFAULT_PIRATES\"]/text"
 msgstr ""
@@ -252,63 +244,63 @@ msgstr ""
 " чуть глубже в систему вы натыкаетесь на неактивный пиратский корабль, "
 "который вы до этого не засекли при сканировании."
 
-#: src-en/data/events_special_salvaging.xml:176
+#: src-en/data/events_special_salvaging.xml:189
 msgid ""
 "data/events_special_salvaging.xml$//event[@name=\"SALVAGE_DEFAULT_PIRATES\"]/choice[@req=\"LIST_CHECK_ANY_CREW\""
 " and @lvl=\"1\"]/text"
 msgstr "Отправить команду узнать, какая добыча может ждать вас внутри."
 
-#: src-en/data/events_special_salvaging.xml:180
+#: src-en/data/events_special_salvaging.xml:193
 msgid ""
 "data/events_special_salvaging.xml$//event[@name=\"SALVAGE_DEFAULT_PIRATES\"]/choice[@req=\"LIST_CHECK_ANY_CREW\""
 " and @lvl=\"0\"]/text"
 msgstr "Вы не можете отправить команду, так как у вас ее нет."
 
-#: src-en/data/events_special_salvaging.xml:184
+#: src-en/data/events_special_salvaging.xml:197
 msgid ""
 "data/events_special_salvaging.xml$//event[@name=\"SALVAGE_DEFAULT_PIRATES\"]/choice[3]/text"
 msgstr "Разобрать корпус."
 
-#: src-en/data/events_special_salvaging.xml:188
+#: src-en/data/events_special_salvaging.xml:201
 msgid ""
 "data/events_special_salvaging.xml$//event[@name=\"SALVAGE_DEFAULT_PIRATES\"]/choice[4]/text"
 msgstr "Не обращать внимания на корабль."
 
-#: src-en/data/events_special_salvaging.xml:194
+#: src-en/data/events_special_salvaging.xml:207
 msgid ""
 "data/events_special_salvaging.xml$//eventList[@name=\"SALVAGE_DEFAULT_PIRATES_LOOT\"]/event[1]/text"
 msgstr ""
 "Ваша команда обшаривает корабль, но обнаруживает, что все члены экипажа "
 "мертвы, а все ценное исчезло. Вы решаете прибегнуть к разборке корпуса."
 
-#: src-en/data/events_special_salvaging.xml:198
+#: src-en/data/events_special_salvaging.xml:211
 msgid ""
 "data/events_special_salvaging.xml$//eventList[@name=\"SALVAGE_DEFAULT_PIRATES_LOOT\"]/event[2]/text"
 msgstr ""
 "Исследуя внутренние помещения, ваш экипаж находит единственного выжившего. "
 "Несмотря на то, что когда-то он был пиратом, он очень хочет работать на вас."
 
-#: src-en/data/events_special_salvaging.xml:202
+#: src-en/data/events_special_salvaging.xml:215
 msgid ""
 "data/events_special_salvaging.xml$//eventList[@name=\"SALVAGE_DEFAULT_PIRATES_LOOT\"]/event[3]/text"
 msgstr ""
 "Ваш экипаж находит на складе корабля полностью рабочее орудие! Они с "
 "триумфом тащат его обратно на корабль."
 
-#: src-en/data/events_special_salvaging.xml:206
+#: src-en/data/events_special_salvaging.xml:219
 msgid ""
 "data/events_special_salvaging.xml$//eventList[@name=\"SALVAGE_DEFAULT_PIRATES_LOOT\"]/event[4]/text"
 msgstr ""
 "Похоже, что большую часть корабля обчистили дочиста. Однако грузовой отсек "
-"все еще заперт, и не похоже, что кто-то проникал внутрь. Для вас не составит "
-"большого труда пробраться туда, хотите ли вы продолжить?"
+"все еще заперт, и не похоже, что кто-то проникал внутрь. Для вас не составит"
+" большого труда пробраться туда, хотите ли вы продолжить?"
 
-#: src-en/data/events_special_salvaging.xml:208
+#: src-en/data/events_special_salvaging.xml:221
 msgid ""
 "data/events_special_salvaging.xml$//eventList[@name=\"SALVAGE_DEFAULT_PIRATES_LOOT\"]/event[4]/choice[1]/text"
 msgstr "Открыть их грузовой отсек."
 
-#: src-en/data/events_special_salvaging.xml:210
+#: src-en/data/events_special_salvaging.xml:223
 msgid ""
 "data/events_special_salvaging.xml$//eventList[@name=\"SALVAGE_DEFAULT_PIRATES_LOOT\"]/event[4]/choice[1]/event/text"
 msgstr ""
@@ -318,18 +310,18 @@ msgstr ""
 "вашего экипажа. Хотя эта потеря ужасна, похоже, что за этим больше ничего не"
 " последует, и вам остается только забрать все уцелевшее."
 
-#: src-en/data/events_special_salvaging.xml:214
+#: src-en/data/events_special_salvaging.xml:227
 msgid ""
 "data/events_special_salvaging.xml$//eventList[@name=\"SALVAGE_DEFAULT_PIRATES_LOOT\"]/event[4]/choice[1]/event/removeCrew/text"
 msgstr ""
 "К счастью, в Клон-отсеке уже идет процесс возрождения члена вашего экипажа."
 
-#: src-en/data/events_special_salvaging.xml:219
+#: src-en/data/events_special_salvaging.xml:232
 msgid ""
 "data/events_special_salvaging.xml$//eventList[@name=\"SALVAGE_DEFAULT_PIRATES_LOOT\"]/event[4]/choice[@req=\"BLUELIST_CREW_NODOORS\"]/text"
 msgstr "(Бестелесный экипаж) Просочиться внутрь."
 
-#: src-en/data/events_special_salvaging.xml:221
+#: src-en/data/events_special_salvaging.xml:234
 msgid ""
 "data/events_special_salvaging.xml$//eventList[@name=\"SALVAGE_DEFAULT_PIRATES_LOOT\"]/event[4]/choice[@req=\"BLUELIST_CREW_NODOORS\"]/event/text"
 msgstr ""
@@ -337,12 +329,12 @@ msgstr ""
 "где он находит ловушку и быстро ее обезвреживает. Теперь, когда вход "
 "безопасен, остальные члены команды заходят и забирают все, что могут."
 
-#: src-en/data/events_special_salvaging.xml:226
+#: src-en/data/events_special_salvaging.xml:239
 msgid ""
 "data/events_special_salvaging.xml$//eventList[@name=\"SALVAGE_DEFAULT_PIRATES_LOOT\"]/event[4]/choice[@req=\"LIST_CREW_ROCK\"]/text"
 msgstr "(Член экипажа-валун) Сначала отправить вашего валуна."
 
-#: src-en/data/events_special_salvaging.xml:228
+#: src-en/data/events_special_salvaging.xml:241
 msgid ""
 "data/events_special_salvaging.xml$//eventList[@name=\"SALVAGE_DEFAULT_PIRATES_LOOT\"]/event[4]/choice[@req=\"LIST_CREW_ROCK\"]/event/text"
 msgstr ""
@@ -352,12 +344,12 @@ msgstr ""
 "счастью, похоже, только вздрогнул и остался цел. Теперь, когда вход "
 "безопасен, остальные члены команды заходят и забирают все, что могут."
 
-#: src-en/data/events_special_salvaging.xml:233
+#: src-en/data/events_special_salvaging.xml:246
 msgid ""
 "data/events_special_salvaging.xml$//eventList[@name=\"SALVAGE_DEFAULT_PIRATES_LOOT\"]/event[4]/choice[4]/text"
 msgstr "Оставить его."
 
-#: src-en/data/events_special_salvaging.xml:238
+#: src-en/data/events_special_salvaging.xml:251
 msgid ""
 "data/events_special_salvaging.xml$//eventList[@name=\"SALVAGE_DEFAULT_PIRATES_LOOT\"]/event[5]/text"
 msgstr ""
@@ -366,58 +358,58 @@ msgstr ""
 "один из шкафов для хранения и обнаруживает там гниющий труп, а также то, что"
 " выглядит как... гигантские инопланетные пауки?!"
 
-#: src-en/data/events_special_salvaging.xml:244
+#: src-en/data/events_special_salvaging.xml:257
 msgid ""
 "data/events_special_salvaging.xml$//eventList[@name=\"SALVAGE_DEFAULT_PIRATES_SCRAP\"]/event/text"
 msgstr "Вас не беспокоят, пока вы разбираете корабль."
 
-#: src-en/data/events_special_salvaging.xml:251
+#: src-en/data/events_special_salvaging.xml:264
 msgid ""
 "data/events_special_salvaging.xml$//event[@name=\"SALVAGE_DEFAULT_CACHE\"]/text"
 msgstr ""
 "В небольшом астероиде неподалеку был устроен небольшой тайник с припасами. "
-"Вы бы прошли мимо него, если бы не маленький, неразличимый сигнал ближнего "
+"Вы бы прошли мимо него, если бы не небольшой, едва заметный сигнал ближнего "
 "радиуса действия, исходящий изнутри."
 
-#: src-en/data/events_special_salvaging.xml:254
+#: src-en/data/events_special_salvaging.xml:267
 msgid ""
 "data/events_special_salvaging.xml$//event[@name=\"SALVAGE_DEFAULT_CACHE\"]/choice[@req=\"LIST_CHECK_ANY_CREW\""
 " and @lvl=\"1\"]/text"
 msgstr "Попытаться открыть тайник."
 
-#: src-en/data/events_special_salvaging.xml:258
+#: src-en/data/events_special_salvaging.xml:271
 msgid ""
 "data/events_special_salvaging.xml$//event[@name=\"SALVAGE_DEFAULT_CACHE\"]/choice[@req=\"LIST_CHECK_ANY_CREW\""
 " and @lvl=\"0\"]/text"
 msgstr "Нет доступного экипажа для отправки."
 
-#: src-en/data/events_special_salvaging.xml:262
+#: src-en/data/events_special_salvaging.xml:275
 msgid ""
 "data/events_special_salvaging.xml$//event[@name=\"SALVAGE_DEFAULT_CACHE\"]/choice[@req=\"DRONE_CONTROL_BOARDING_DAMAGE\"]/text"
 msgstr "(Абордажный дрон) Попытаться открыть тайник."
 
-#: src-en/data/events_special_salvaging.xml:266
+#: src-en/data/events_special_salvaging.xml:279
 msgid ""
 "data/events_special_salvaging.xml$//event[@name=\"SALVAGE_DEFAULT_CACHE\"]/choice[4]/text"
 msgstr "Не обращать внимания на тайник."
 
-#: src-en/data/events_special_salvaging.xml:272
+#: src-en/data/events_special_salvaging.xml:285
 msgid ""
 "data/events_special_salvaging.xml$//eventList[@name=\"SALVAGE_DEFAULT_CACHE_OPEN\"]/event[1]/text"
 msgstr ""
 "Вашему экипажу удается открыть двери в тайник и найти там запас ракет и "
 "топлива! Это не тонна, но этого достаточно, чтобы принести все на корабль."
 
-#: src-en/data/events_special_salvaging.xml:276
+#: src-en/data/events_special_salvaging.xml:289
 msgid ""
 "data/events_special_salvaging.xml$//eventList[@name=\"SALVAGE_DEFAULT_CACHE_OPEN\"]/event[2]/text"
 msgstr ""
 "Судя по всему, сигнал был сигналом бедствия, заглушенным особой броней "
 "тайника! Труп отправителя лежит среди кучи использованных пайков, вероятно, "
-"он попал сюда случайно. Ваш экипаж нервничает, заходя внутрь, и возвращается "
-"лишь с небольшим уловом."
+"он попал сюда случайно. Ваш экипаж нервничает, заходя внутрь, и возвращается"
+" лишь с небольшим уловом."
 
-#: src-en/data/events_special_salvaging.xml:280
+#: src-en/data/events_special_salvaging.xml:293
 msgid ""
 "data/events_special_salvaging.xml$//eventList[@name=\"SALVAGE_DEFAULT_CACHE_OPEN\"]/event[3]/text"
 msgstr ""
@@ -426,7 +418,7 @@ msgstr ""
 "которое, несмотря на свой возраст, все еще функционирует, и забираете его с "
 "собой."
 
-#: src-en/data/events_special_salvaging.xml:284
+#: src-en/data/events_special_salvaging.xml:297
 msgid ""
 "data/events_special_salvaging.xml$//eventList[@name=\"SALVAGE_DEFAULT_CACHE_OPEN\"]/event[4]/text"
 msgstr ""
@@ -436,7 +428,7 @@ msgstr ""
 "чего полезного, кроме старой карты, которая хоть и устарела, но оказалась "
 "достаточно точна, чтобы ей нашлось применение."
 
-#: src-en/data/events_special_salvaging.xml:288
+#: src-en/data/events_special_salvaging.xml:301
 msgid ""
 "data/events_special_salvaging.xml$//eventList[@name=\"SALVAGE_DEFAULT_CACHE_OPEN\"]/event[5]/text"
 msgstr ""
@@ -446,7 +438,7 @@ msgstr ""
 "сквозь обшивку. Сейчас тайник пуст, но напуганный выживший, кажется, готов "
 "вам помочь, как только придет в себя."
 
-#: src-en/data/events_special_salvaging.xml:292
+#: src-en/data/events_special_salvaging.xml:305
 msgid ""
 "data/events_special_salvaging.xml$//eventList[@name=\"SALVAGE_DEFAULT_CACHE_OPEN\"]/event[6]/text"
 msgstr ""
@@ -457,21 +449,21 @@ msgstr ""
 "осматриваете повреждения и обнаруживаете, что содержимого заминированного "
 "тайника больше нет."
 
-#: src-en/data/events_special_salvaging.xml:296
+#: src-en/data/events_special_salvaging.xml:309
 msgid ""
 "data/events_special_salvaging.xml$//eventList[@name=\"SALVAGE_DEFAULT_CACHE_OPEN\"]/event[6]/removeCrew/text"
 msgstr ""
 "К счастью, к тому времени, когда вы вернулись на корабль, ваш член экипажа "
 "уже был клонирован."
 
-#: src-en/data/events_special_salvaging.xml:302
+#: src-en/data/events_special_salvaging.xml:315
 msgid ""
 "data/events_special_salvaging.xml$//eventList[@name=\"SALVAGE_DEFAULT_CACHE_OPEN_DRONE\"]/event[1]/text"
 msgstr ""
 "Вашему дрону удается открыть двери в тайник и найти там запас ракет и "
 "топлива! Это не тонна, но этого достаточно, чтобы принести все на корабль."
 
-#: src-en/data/events_special_salvaging.xml:306
+#: src-en/data/events_special_salvaging.xml:319
 msgid ""
 "data/events_special_salvaging.xml$//eventList[@name=\"SALVAGE_DEFAULT_CACHE_OPEN_DRONE\"]/event[2]/text"
 msgstr ""
@@ -480,7 +472,7 @@ msgstr ""
 "вероятно, он попал сюда случайно. Ваш бесстрашный дрон собирает столько "
 "содержимого, сколько позволяет его грузоподъемность."
 
-#: src-en/data/events_special_salvaging.xml:310
+#: src-en/data/events_special_salvaging.xml:323
 msgid ""
 "data/events_special_salvaging.xml$//eventList[@name=\"SALVAGE_DEFAULT_CACHE_OPEN_DRONE\"]/event[3]/text"
 msgstr ""
@@ -488,7 +480,7 @@ msgstr ""
 "повстанцев, заброшенным после Гражданской войны! Ваш дрон находит оружие, "
 "сохранившее работоспособность, несмотря на свой возраст, и приносит его вам."
 
-#: src-en/data/events_special_salvaging.xml:314
+#: src-en/data/events_special_salvaging.xml:327
 msgid ""
 "data/events_special_salvaging.xml$//eventList[@name=\"SALVAGE_DEFAULT_CACHE_OPEN_DRONE\"]/event[4]/text"
 msgstr ""
@@ -498,7 +490,7 @@ msgstr ""
 "чего полезного, кроме старой карты, которая хоть и устарела, но оказалась "
 "достаточно точна, чтобы ей нашлось применение."
 
-#: src-en/data/events_special_salvaging.xml:318
+#: src-en/data/events_special_salvaging.xml:331
 msgid ""
 "data/events_special_salvaging.xml$//eventList[@name=\"SALVAGE_DEFAULT_CACHE_OPEN_DRONE\"]/event[5]/text"
 msgstr ""
@@ -508,7 +500,7 @@ msgstr ""
 "сумевшим пробиться сквозь обшивку. Сейчас тайник пуст, но напуганный "
 "выживший, кажется, готов вам помочь, как только придет в себя."
 
-#: src-en/data/events_special_salvaging.xml:322
+#: src-en/data/events_special_salvaging.xml:335
 msgid ""
 "data/events_special_salvaging.xml$//eventList[@name=\"SALVAGE_DEFAULT_CACHE_OPEN_DRONE\"]/event[6]/text"
 msgstr ""
@@ -518,7 +510,7 @@ msgstr ""
 " контуры. Оправившись от случившегося, вы осматриваете повреждения и "
 "обнаруживаете, что содержимого заминированного тайника больше нет."
 
-#: src-en/data/events_special_salvaging.xml:331
+#: src-en/data/events_special_salvaging.xml:344
 msgid ""
 "data/events_special_salvaging.xml$//event[@name=\"SALVAGE_DEFAULT_SHRINE\"]/text"
 msgstr ""
@@ -527,22 +519,22 @@ msgstr ""
 "храмов - они служат своеобразным местом остановки для кораблей, которые не "
 "могут проделать весь путь."
 
-#: src-en/data/events_special_salvaging.xml:334
+#: src-en/data/events_special_salvaging.xml:347
 msgid ""
 "data/events_special_salvaging.xml$//event[@name=\"SALVAGE_DEFAULT_SHRINE\"]/choice[1]/text"
 msgstr "Обыскать святилище в поисках каких-либо ценностей."
 
-#: src-en/data/events_special_salvaging.xml:338
+#: src-en/data/events_special_salvaging.xml:351
 msgid ""
 "data/events_special_salvaging.xml$//event[@name=\"SALVAGE_DEFAULT_SHRINE\"]/choice[@req=\"LIST_CREW_ZOLTAN\"]/text"
 msgstr "(Член экипажа-золтан) Помолиться в святилище."
 
-#: src-en/data/events_special_salvaging.xml:342
+#: src-en/data/events_special_salvaging.xml:355
 msgid ""
 "data/events_special_salvaging.xml$//event[@name=\"SALVAGE_DEFAULT_SHRINE\"]/choice[3]/text"
 msgstr "Не обращать внимания на святилище."
 
-#: src-en/data/events_special_salvaging.xml:348
+#: src-en/data/events_special_salvaging.xml:361
 msgid ""
 "data/events_special_salvaging.xml$//eventList[@name=\"SALVAGE_DEFAULT_SHRINE_ROB\"]/event[1]/text"
 msgstr ""
@@ -551,12 +543,12 @@ msgstr ""
 "внимания, зная, что он не в силах вам помешать, но это, вероятно, не лучшим "
 "образом отразится на вашей миссии."
 
-#: src-en/data/events_special_salvaging.xml:351
+#: src-en/data/events_special_salvaging.xml:364
 msgid ""
 "data/events_special_salvaging.xml$//eventList[@name=\"SALVAGE_DEFAULT_SHRINE_ROB\"]/event[1]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_special_salvaging.xml:356
+#: src-en/data/events_special_salvaging.xml:369
 msgid ""
 "data/events_special_salvaging.xml$//eventList[@name=\"SALVAGE_DEFAULT_SHRINE_ROB\"]/event[2]/text"
 msgstr ""
@@ -564,7 +556,7 @@ msgstr ""
 "удивляться, что в святилище нет ничего ценного для военного судна, но это не"
 " уменьшает боли от пустых рук."
 
-#: src-en/data/events_special_salvaging.xml:359
+#: src-en/data/events_special_salvaging.xml:372
 msgid ""
 "data/events_special_salvaging.xml$//eventList[@name=\"SALVAGE_DEFAULT_SHRINE_ROB\"]/event[3]/text"
 msgstr ""
@@ -573,20 +565,20 @@ msgstr ""
 "продать. Остальные поиски не принесли ничего интересного, но, по крайней "
 "мере, вы возвращаетесь не с пустыми руками."
 
-#: src-en/data/events_special_salvaging.xml:363
+#: src-en/data/events_special_salvaging.xml:376
 msgid ""
 "data/events_special_salvaging.xml$//eventList[@name=\"SALVAGE_DEFAULT_SHRINE_ROB\"]/event[4]/text"
 msgstr ""
 "Вы находите небольшую коллекцию топливных элементов для усталых путников, "
-"пролетающий мимо, рядом с табличкой, вежливо просящей взять только столько, "
+"пролетающих мимо, рядом с табличкой, вежливо просящей взять только столько, "
 "сколько вам нужно."
 
-#: src-en/data/events_special_salvaging.xml:365
+#: src-en/data/events_special_salvaging.xml:378
 msgid ""
 "data/events_special_salvaging.xml$//eventList[@name=\"SALVAGE_DEFAULT_SHRINE_ROB\"]/event[4]/choice[1]/text"
 msgstr "Взять немного."
 
-#: src-en/data/events_special_salvaging.xml:367
+#: src-en/data/events_special_salvaging.xml:380
 msgid ""
 "data/events_special_salvaging.xml$//eventList[@name=\"SALVAGE_DEFAULT_SHRINE_ROB\"]/event[4]/choice[1]/event/text"
 msgstr ""
@@ -594,12 +586,12 @@ msgstr ""
 "дополнительных прыжков, и с чистой совестью отправляетесь обратно на "
 "корабль."
 
-#: src-en/data/events_special_salvaging.xml:372
+#: src-en/data/events_special_salvaging.xml:385
 msgid ""
 "data/events_special_salvaging.xml$//eventList[@name=\"SALVAGE_DEFAULT_SHRINE_ROB\"]/event[4]/choice[2]/text"
 msgstr "Взять как можно больше."
 
-#: src-en/data/events_special_salvaging.xml:374
+#: src-en/data/events_special_salvaging.xml:387
 msgid ""
 "data/events_special_salvaging.xml$//eventList[@name=\"SALVAGE_DEFAULT_SHRINE_ROB\"]/event[4]/choice[2]/event/text"
 msgstr ""
@@ -610,12 +602,12 @@ msgstr ""
 "Напуганный и уже не уверенный в том, что вы действительно здесь одни, вы "
 "спешите вернуться на корабль."
 
-#: src-en/data/events_special_salvaging.xml:377
+#: src-en/data/events_special_salvaging.xml:390
 msgid ""
 "data/events_special_salvaging.xml$//eventList[@name=\"SALVAGE_DEFAULT_SHRINE_ROB\"]/event[4]/choice[2]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_special_salvaging.xml:386
+#: src-en/data/events_special_salvaging.xml:399
 msgid ""
 "data/events_special_salvaging.xml$//eventList[@name=\"SALVAGE_DEFAULT_SHRINE_PRAY\"]/event[1]/text"
 msgstr ""
@@ -623,7 +615,7 @@ msgstr ""
 "святыне. Удовлетворенный, он возвращается на корабль, а вы готовитесь "
 "продолжить путь."
 
-#: src-en/data/events_special_salvaging.xml:389
+#: src-en/data/events_special_salvaging.xml:402
 msgid ""
 "data/events_special_salvaging.xml$//eventList[@name=\"SALVAGE_DEFAULT_SHRINE_PRAY\"]/event[2]/text"
 msgstr ""
@@ -633,7 +625,7 @@ msgstr ""
 "золтана и молится. \"Я вижу, вы люди доброй воли. Я ценю это. Возможно, я "
 "пойду с вами и напомню себе, как выглядит галактика\"."
 
-#: src-en/data/events_special_salvaging.xml:393
+#: src-en/data/events_special_salvaging.xml:406
 msgid ""
 "data/events_special_salvaging.xml$//eventList[@name=\"SALVAGE_DEFAULT_SHRINE_PRAY\"]/event[3]/text"
 msgstr ""
@@ -644,7 +636,7 @@ msgstr ""
 "иллесктрианцы\". Корабль выпускает несколько манипуляторов и начинает "
 "бесплатно ремонтировать ваш корпус."
 
-#: src-en/data/events_special_salvaging.xml:399
+#: src-en/data/events_special_salvaging.xml:412
 msgid ""
 "data/events_special_salvaging.xml$//event[@name=\"SALVAGE_DEFAULT_COLONY\"]/text"
 msgstr ""
@@ -652,17 +644,17 @@ msgstr ""
 "находились руины небольшой колонии. Вы не можете точно сказать, остался ли "
 "там кто-нибудь."
 
-#: src-en/data/events_special_salvaging.xml:402
+#: src-en/data/events_special_salvaging.xml:415
 msgid ""
 "data/events_special_salvaging.xml$//event[@name=\"SALVAGE_DEFAULT_COLONY\"]/choice[1]/text"
 msgstr "Посетить колонию."
 
-#: src-en/data/events_special_salvaging.xml:406
+#: src-en/data/events_special_salvaging.xml:419
 msgid ""
 "data/events_special_salvaging.xml$//event[@name=\"SALVAGE_DEFAULT_COLONY\"]/choice[2]/text"
 msgstr "Избегать риска."
 
-#: src-en/data/events_special_salvaging.xml:412
+#: src-en/data/events_special_salvaging.xml:425
 msgid ""
 "data/events_special_salvaging.xml$//eventList[@name=\"SALVAGE_DEFAULT_COLONY_VISIT\"]/event[1]/text"
 msgstr ""
@@ -672,18 +664,18 @@ msgstr ""
 "чтобы не потревожить мертвецов, вы обходите важные места и собираете в "
 "лагере кое-какие припасы."
 
-#: src-en/data/events_special_salvaging.xml:416
+#: src-en/data/events_special_salvaging.xml:429
 msgid ""
 "data/events_special_salvaging.xml$//eventList[@name=\"SALVAGE_DEFAULT_COLONY_VISIT\"]/event[2]/text"
 msgstr ""
 "\"Будь ты проклята Федерация! Ты бросила нас, когда мы больше всего в тебе "
-"нуждались, а теперь возвращаешься только тогда, когда мы на грани гибели!\". "
-"Какая-то спрятанная сторожевая пушка, которая избежала вашего "
+"нуждались, а теперь возвращаешься только тогда, когда мы на грани гибели!\"."
+" Какая-то спрятанная сторожевая пушка, которая избежала вашего "
 "предварительного сканирования, активируется и открывает огонь по вашему "
 "кораблю! Вы спасаетесь, получив лишь незначительные повреждения, но очень "
 "напуганы."
 
-#: src-en/data/events_special_salvaging.xml:420
+#: src-en/data/events_special_salvaging.xml:433
 msgid ""
 "data/events_special_salvaging.xml$//eventList[@name=\"SALVAGE_DEFAULT_COLONY_VISIT\"]/event[3]/text"
 msgstr ""
@@ -694,7 +686,7 @@ msgstr ""
 "без движения рядом с местной клиникой. Вы забираете дрона и возвращаетесь на"
 " корабль."
 
-#: src-en/data/events_special_salvaging.xml:424
+#: src-en/data/events_special_salvaging.xml:437
 msgid ""
 "data/events_special_salvaging.xml$//eventList[@name=\"SALVAGE_DEFAULT_COLONY_VISIT\"]/event[4]/text"
 msgstr ""
@@ -705,7 +697,7 @@ msgstr ""
 " потерял надежду. Я был готов начать здесь новую жизнь, но если это место не"
 " станет моим убежищем, то, может быть, вместо него им станет ваш корабль?\""
 
-#: src-en/data/events_special_salvaging.xml:428
+#: src-en/data/events_special_salvaging.xml:441
 msgid ""
 "data/events_special_salvaging.xml$//eventList[@name=\"SALVAGE_DEFAULT_COLONY_VISIT\"]/event[5]/text"
 msgstr ""

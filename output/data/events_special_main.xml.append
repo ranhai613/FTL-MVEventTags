@@ -31,7 +31,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Continue...</mod:selector>
-        <mod:setValue>Continue...[INFO]&lt;=[/INFO]</mod:setValue>
+        <mod:setValue>Continue...[INFO][NAME]itemModify[/NAME]30≤~≤45[/INFO][INFO]&lt;=[/INFO][INFO][NAME]itemModify[/NAME]~175[/INFO][INFO][NAME]itemModify[/NAME]5≤{≤10[/INFO][INFO][NAME]itemModify[/NAME]5≤}≤10[/INFO][INFO][NAME]itemModify[/NAME]5≤|≤10[/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -40,8 +40,78 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Proceed with your mission.</mod:selector>
-        <mod:setValue>Proceed with your mission.[INFO]&lt;=[/INFO]</mod:setValue>
+        <mod:setValue>Proceed with your mission.[INFO][NAME]itemModify[/NAME]30≤~≤45[/INFO][INFO]&lt;=[/INFO][INFO][NAME]itemModify[/NAME]~175[/INFO][INFO][NAME]itemModify[/NAME]5≤{≤10[/INFO][INFO][NAME]itemModify[/NAME]5≤}≤10[/INFO][INFO][NAME]itemModify[/NAME]5≤|≤10[/INFO]</mod:setValue>
       </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="START_BEACON_PRESELECT" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findName name="LIGHTSPEED_DROPPOINT" type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true" req="CRATE_SCRAP"/>
+          <mod:findLike type="text">
+            <mod:selector>Scrap Crate</mod:selector>
+            <mod:setValue>Scrap Crate[INFO][NAME]itemModify[/NAME]30≤~≤45[/INFO][INFO]&lt;=[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findName>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="START_BEACON_PRESELECT" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findName name="LIGHTSPEED_DROPPOINT" type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true" req="CRATE_SCRAP_HUGE"/>
+          <mod:findLike type="text">
+            <mod:selector>Huge Scrap Crate</mod:selector>
+            <mod:setValue>Huge Scrap Crate[INFO][NAME]itemModify[/NAME]~175[/INFO][INFO]&lt;=[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findName>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="START_BEACON_PRESELECT" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findName name="LIGHTSPEED_DROPPOINT" type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true" req="CRATE_FUEL"/>
+          <mod:findLike type="text">
+            <mod:selector>Fuel Crate</mod:selector>
+            <mod:setValue>Fuel Crate[INFO][NAME]itemModify[/NAME]5≤{≤10[/INFO][INFO]&lt;=[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findName>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="START_BEACON_PRESELECT" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findName name="LIGHTSPEED_DROPPOINT" type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true" req="CRATE_MISSILES"/>
+          <mod:findLike type="text">
+            <mod:selector>Ammo Crate</mod:selector>
+            <mod:setValue>Ammo Crate[INFO][NAME]itemModify[/NAME]5≤}≤10[/INFO][INFO]&lt;=[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findName>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="START_BEACON_PRESELECT" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findName name="LIGHTSPEED_DROPPOINT" type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true" req="CRATE_DRONES"/>
+          <mod:findLike type="text">
+            <mod:selector>Dronepart Crate</mod:selector>
+            <mod:setValue>Dronepart Crate[INFO][NAME]itemModify[/NAME]5≤|≤10[/INFO][INFO]&lt;=[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findName>
     </mod:findLike>
   </mod:findName>
   <mod:findName name="START_BEACON_PRESELECT" type="event">
@@ -217,6 +287,20 @@
       <mod:selector hidden="true"/>
       <mod:findName name="LIGHTSPEED_DROPPOINT" type="event">
         <mod:findLike type="choice">
+          <mod:selector hidden="true" req="EX_ARTILLERY_TARGETING"/>
+          <mod:findLike type="text">
+            <mod:selector>Targeting Override</mod:selector>
+            <mod:setValue>Targeting Override[INFO]&lt;=[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findName>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="START_BEACON_PRESELECT" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findName name="LIGHTSPEED_DROPPOINT" type="event">
+        <mod:findLike type="choice">
           <mod:selector hidden="true" req="EX_CLOAK_FIRE"/>
           <mod:findLike type="text">
             <mod:selector>Stealth Weapons</mod:selector>
@@ -347,6 +431,20 @@
           <mod:findLike type="text">
             <mod:selector>Emergency Generator</mod:selector>
             <mod:setValue>Emergency Generator[INFO]&lt;=[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findName>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="START_BEACON_PRESELECT" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findName name="LIGHTSPEED_DROPPOINT" type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true" req="EX_PILOT_REROUTE"/>
+          <mod:findLike type="text">
+            <mod:selector>Expanded Circuitry</mod:selector>
+            <mod:setValue>Expanded Circuitry[INFO]&lt;=[/INFO]</mod:setValue>
           </mod:findLike>
         </mod:findLike>
       </mod:findName>
@@ -709,6 +807,15 @@
       <mod:findLike type="text">
         <mod:selector>You're good with what you have. Get a head start on the fleet!</mod:selector>
         <mod:setValue>You're good with what you have. Get a head start on the fleet![INFO][NAME]modifyPursuit[/NAME]Fleet Delay(2)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="START_BEACON_GNOME_TIP" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>Continue...</mod:selector>
+        <mod:setValue>Continue...[INFO][NAME]storageCheck[/NAME]Storage Check[/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>

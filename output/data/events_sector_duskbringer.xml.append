@@ -574,6 +574,15 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
+  <mod:findName name="DUSK_PROPAGANDA" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true" req="BLUELIST_WEAPONS_HACK"/>
+      <mod:findLike type="text">
+        <mod:selector>(Hacking Weapon) Scramble its defenses and upload a message to lie about your location.</mod:selector>
+        <mod:setValue>(Hacking Weapon) Scramble its defenses and upload a message to lie about your location.[INFO][NAME]modifyPursuit[/NAME]Fleet Delay(3)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
   <mod:findName name="DUSK_IDOL" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true"/>
@@ -766,6 +775,25 @@
               <mod:findLike type="text">
                 <mod:selector>(Adv. Sensors) Assist in locating the survivors.</mod:selector>
                 <mod:setValue>(Adv. Sensors) Assist in locating the survivors.[INFO][NAME]damage[/NAME]Repair Hull(10$)[/INFO][INFO][NAME]autoReward[/NAME]Reward Item(H)[/INFO]</mod:setValue>
+              </mod:findLike>
+            </mod:findLike>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="DUSK_MFKHELP" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="event">
+            <mod:findLike type="choice">
+              <mod:selector hidden="true" req="ADV_SCANNERS"/>
+              <mod:findLike type="text">
+                <mod:selector>(Long-Ranged Scanners) Assist in locating the survivors.</mod:selector>
+                <mod:setValue>(Long-Ranged Scanners) Assist in locating the survivors.[INFO][NAME]damage[/NAME]Repair Hull(10$)[/INFO][INFO][NAME]autoReward[/NAME]Reward Item(H)[/INFO]</mod:setValue>
               </mod:findLike>
             </mod:findLike>
           </mod:findLike>
@@ -3081,7 +3109,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Approach the ship and attempt to dismount the weapon.</mod:selector>
-        <mod:setValue>Approach the ship and attempt to dismount the weapon.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Clone Cannon)[/INFO] [INFO][NAME]crewMember[/NAME]Gain a crew(Zoltan Devotee)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Approach the ship and attempt to dismount the weapon.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -3093,7 +3121,7 @@
           <mod:selector hidden="true"/>
           <mod:findLike type="text">
             <mod:selector>Continue...</mod:selector>
-            <mod:setValue>Continue...[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Clone Cannon)[/INFO] [INFO][NAME]crewMember[/NAME]Gain a crew(Zoltan Devotee)[/INFO])[/FightINFO]</mod:setValue>
+            <mod:setValue>Continue...[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])[/FightINFO]</mod:setValue>
           </mod:findLike>
         </mod:findLike>
       </mod:findLike>
@@ -3126,7 +3154,33 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Search the wreckage.</mod:selector>
-        <mod:setValue>Search the wreckage.[INFO][NAME]weapon[/NAME]Gain a weapon(Clone Cannon)[/INFO][INFO][NAME]crewMember[/NAME]Gain a crew(Zoltan Devotee)[/INFO]</mod:setValue>
+        <mod:setValue>Search the wreckage.[INFO][NAME]weapon[/NAME]Gain a weapon(Clone Cannon Dusk)[/INFO][INFO][NAME]weapon[/NAME]Gain a weapon(Clone Cannon)[/INFO][INFO][NAME]crewMember[/NAME]Gain a crew(Zoltan Devotee)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="DUSK_CLONECANNON_DEFEAT" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:findLike type="text">
+            <mod:selector>Fulfill his wish.</mod:selector>
+            <mod:setValue>Fulfill his wish.[INFO][NAME]weapon[/NAME]Gain a weapon(Clone Cannon Dusk)[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="DUSK_CLONECANNON_DEFEAT" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:findLike type="text">
+            <mod:selector>Leave the weapon free for someone else to occupy.</mod:selector>
+            <mod:setValue>Leave the weapon free for someone else to occupy.[INFO][NAME]weapon[/NAME]Gain a weapon(Clone Cannon)[/INFO][INFO][NAME]crewMember[/NAME]Gain a crew(Zoltan Devotee)[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>

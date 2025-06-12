@@ -1183,7 +1183,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Tell them that you cannot help.</mod:selector>
-        <mod:setValue>Tell them that you cannot help.[FightINFO]Fight(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(L)[/INFO])(SR: [INFO][NAME]autoReward[/NAME]Reward Stuff(R)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Tell them that you cannot help.[FightINFO]Fight(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(SR: [INFO][NAME]autoReward[/NAME]Reward Stuff(R)[/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -1195,7 +1195,7 @@
           <mod:selector hidden="true"/>
           <mod:findLike type="text">
             <mod:selector>Continue...</mod:selector>
-            <mod:setValue>Continue...[FightINFO]Fight(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(L)[/INFO])(SR: [INFO][NAME]autoReward[/NAME]Reward Stuff(R)[/INFO])[/FightINFO]</mod:setValue>
+            <mod:setValue>Continue...[FightINFO]Fight(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(SR: [INFO][NAME]autoReward[/NAME]Reward Stuff(R)[/INFO])[/FightINFO]</mod:setValue>
           </mod:findLike>
         </mod:findLike>
       </mod:findLike>
@@ -1308,16 +1308,39 @@
   </mod:findName>
   <mod:findName name="QUEST_LOSTSUN_DISRUPTION_QUEST" type="event">
     <mod:findLike type="choice">
-      <mod:selector hidden="true" req="LIST_CREW_SLUG"/>
+      <mod:selector hidden="true" req="PDS_DISABLE"/>
       <mod:findLike type="text">
-        <mod:selector>(Slug Crew) Have your Slug hack into their relay systems.</mod:selector>
-        <mod:setValue>(Slug Crew) Have your Slug hack into their relay systems.[INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO]</mod:setValue>
+        <mod:selector>(Signal Diluter) Prevent the station from calling for help.</mod:selector>
+        <mod:setValue>(Signal Diluter) Prevent the station from calling for help.[INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
   <mod:findName name="QUEST_LOSTSUN_DISRUPTION_QUEST" type="event">
     <mod:findLike type="choice">
-      <mod:selector hidden="true" req="LIST_CREW_SLUG"/>
+      <mod:selector hidden="true" req="PDS_DISABLE"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="text">
+            <mod:selector>Continue...</mod:selector>
+            <mod:setValue>Continue...[INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="QUEST_LOSTSUN_DISRUPTION_QUEST" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true" req="LIST_CREW_SABOTEUR"/>
+      <mod:findLike type="text">
+        <mod:selector>(Slug Saboteur) Have your Slug hack into their relay systems.</mod:selector>
+        <mod:setValue>(Slug Saboteur) Have your Slug hack into their relay systems.[INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="QUEST_LOSTSUN_DISRUPTION_QUEST" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true" req="LIST_CREW_SABOTEUR"/>
       <mod:findLike type="event">
         <mod:findLike type="choice">
           <mod:selector hidden="true"/>
@@ -1341,6 +1364,29 @@
   <mod:findName name="QUEST_LOSTSUN_DISRUPTION_QUEST" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true" req="LIST_CREW_ENGI"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="text">
+            <mod:selector>Continue...</mod:selector>
+            <mod:setValue>Continue...[INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="QUEST_LOSTSUN_DISRUPTION_QUEST" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true" req="LIST_CREW_ENGINEER"/>
+      <mod:findLike type="text">
+        <mod:selector>(Engineer Crew) Have your Engineer hack into their relay systems.</mod:selector>
+        <mod:setValue>(Engineer Crew) Have your Engineer hack into their relay systems.[INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="QUEST_LOSTSUN_DISRUPTION_QUEST" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true" req="LIST_CREW_ENGINEER"/>
       <mod:findLike type="event">
         <mod:findLike type="choice">
           <mod:selector hidden="true"/>

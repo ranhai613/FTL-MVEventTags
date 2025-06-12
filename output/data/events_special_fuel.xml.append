@@ -892,6 +892,15 @@
   </mod:findName>
   <mod:findName name="FUEL_OFF_SHELL_SCANS_QUEUE" type="event">
     <mod:findLike type="choice">
+      <mod:selector hidden="true" req="BLUELIST_WEAPONS_MIND_CONTROL"/>
+      <mod:findLike type="text">
+        <mod:selector>(Mind Control Weapon) 'Convince' the Shells to stop early and give over the fuel.</mod:selector>
+        <mod:setValue>(Mind Control Weapon) 'Convince' the Shells to stop early and give over the fuel.[INFO][NAME]autoReward[/NAME]Reward { Only(L)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="FUEL_OFF_SHELL_SCANS_QUEUE" type="event">
+    <mod:findLike type="choice">
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Demand they stop.</mod:selector>

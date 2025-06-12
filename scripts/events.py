@@ -139,6 +139,8 @@ class ItemModify(EventBaseClass):
                 itemlist.append(f'{item}{amount_min}')
             elif amount_max > amount_min:
                 itemlist.append(f'{amount_min}≤{item}≤{amount_max}')
+            elif amount_max < amount_min and amount_max < 0 and amount_min < 0:
+                itemlist.append(f'<!>{amount_max}≤{item}≤{amount_min}')
             else:
                 raise ValueError
         self._infoText = '[NAME]itemModify[/NAME]' + ' '.join(itemlist)
@@ -204,8 +206,12 @@ class Boarders(EventBaseClass):
     
     def setInfo(self):
         race = ajustText(self._element.get('class', '?').replace('LIST_CREW_', ''), False)
-        amount_min = int(self._element.attrib['min'])
-        amount_max = int(self._element.attrib['max'])
+        amount = self._element.get('amount')
+        if amount is not None:
+            amount_min, amount_max = int(amount), int(amount)
+        else:
+            amount_min = int(self._element.attrib['min'])
+            amount_max = int(self._element.attrib['max'])
         
         if amount_min == amount_max:
             self._infoText = f'[NAME]boarders[/NAME]<!>Enemy Boarding(x{amount_min} {race})'

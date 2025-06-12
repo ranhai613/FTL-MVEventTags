@@ -106,8 +106,8 @@
     <mod:findLike type="choice">
       <mod:selector req="LIST_CREW_ZOLTAN_CAPITAL"/>
       <mod:findLike type="text">
-        <mod:selector>(Ministry Crew) Present his official documentation and pay the entry fee.</mod:selector>
-        <mod:setValue>(Ministry Crew) Present his official documentation and pay the entry fee.[INFO][NAME]itemModify[/NAME]~-10[/INFO]</mod:setValue>
+        <mod:selector>(Ministry Crew) Present official documentation and pay the entry fee.</mod:selector>
+        <mod:setValue>(Ministry Crew) Present official documentation and pay the entry fee.[INFO][NAME]itemModify[/NAME]~-10[/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -361,6 +361,15 @@
       <mod:findLike type="text">
         <mod:selector>(Mind Control) Make the guards believe they have already checked your crew today.</mod:selector>
         <mod:setValue>(Mind Control) Make the guards believe they have already checked your crew today.[INFO][NAME]autoReward[/NAME]Reward { Only(M)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="ZOLTAN_CREW_SCAN_MV" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true" req="BLUELIST_WEAPONS_MIND_CONTROL"/>
+      <mod:findLike type="text">
+        <mod:selector>(Mind Control Weapon) Make the guards believe they have already checked your crew today.</mod:selector>
+        <mod:setValue>(Mind Control Weapon) Make the guards believe they have already checked your crew today.[INFO][NAME]autoReward[/NAME]Reward { Only(M)[/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -1805,8 +1814,8 @@
     <mod:findLike type="choice">
       <mod:selector hidden="true" req="sensors" lvl="2"/>
       <mod:findLike type="text">
-        <mod:selector>(Upg. Sensors) Our ships sensors have a log of the incident.</mod:selector>
-        <mod:setValue>(Upg. Sensors) Our ships sensors have a log of the incident.[INFO][NAME]damage[/NAME]Repair Hull(5$)[/INFO]</mod:setValue>
+        <mod:selector>(Upg. Sensors) Our ship's sensors have a log of the incident.</mod:selector>
+        <mod:setValue>(Upg. Sensors) Our ship's sensors have a log of the incident.[INFO][NAME]damage[/NAME]Repair Hull(5$)[/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -1833,7 +1842,7 @@
       <mod:selector req="LIST_CREW_SLUG" hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>(Slug Crew) Ask your Slug crew to scan for survivors.</mod:selector>
-        <mod:setValue>(Slug Crew) Ask your Slug crew to scan for survivors.[INFO][NAME]crewMember[/NAME]Gain a crew(Zoltan Monk)[/INFO][INFO][NAME]storageCheck[/NAME]Storage Check[/INFO]</mod:setValue>
+        <mod:setValue>(Slug Crew) Ask your Slug crew to scan for survivors.[INFO][NAME]crewMember[/NAME]Gain a crew(Zoltan Monk)[/INFO][INFO][NAME]itemModify[/NAME]}-1[/INFO][INFO][NAME]storageCheck[/NAME]Storage Check[/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -1844,7 +1853,7 @@
         <mod:findLike type="choice">
           <mod:findLike type="text">
             <mod:selector>Assist the survivor.</mod:selector>
-            <mod:setValue>Assist the survivor.[INFO][NAME]crewMember[/NAME]Gain a crew(Zoltan Monk)[/INFO]</mod:setValue>
+            <mod:setValue>Assist the survivor.[INFO][NAME]crewMember[/NAME]Gain a crew(Zoltan Monk)[/INFO][INFO][NAME]itemModify[/NAME]}-1[/INFO]</mod:setValue>
           </mod:findLike>
         </mod:findLike>
       </mod:findLike>
@@ -1885,7 +1894,7 @@
       <mod:selector req="BLUELIST_CREW_SNAIL" hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>(Telepathic Shell) Ask your Shell crew to scan for survivors.</mod:selector>
-        <mod:setValue>(Telepathic Shell) Ask your Shell crew to scan for survivors.[INFO][NAME]crewMember[/NAME]Gain a crew(Zoltan Monk)[/INFO][INFO][NAME]storageCheck[/NAME]Storage Check[/INFO]</mod:setValue>
+        <mod:setValue>(Telepathic Shell) Ask your Shell crew to scan for survivors.[INFO][NAME]crewMember[/NAME]Gain a crew(Zoltan Monk)[/INFO][INFO][NAME]itemModify[/NAME]}-1[/INFO][INFO][NAME]storageCheck[/NAME]Storage Check[/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -1896,7 +1905,7 @@
         <mod:findLike type="choice">
           <mod:findLike type="text">
             <mod:selector>Assist the survivor.</mod:selector>
-            <mod:setValue>Assist the survivor.[INFO][NAME]crewMember[/NAME]Gain a crew(Zoltan Monk)[/INFO]</mod:setValue>
+            <mod:setValue>Assist the survivor.[INFO][NAME]crewMember[/NAME]Gain a crew(Zoltan Monk)[/INFO][INFO][NAME]itemModify[/NAME]}-1[/INFO]</mod:setValue>
           </mod:findLike>
         </mod:findLike>
       </mod:findLike>
@@ -1965,7 +1974,7 @@
       <mod:findLike type="choice">
         <mod:findLike type="text">
           <mod:selector>Assist the survivor.</mod:selector>
-          <mod:setValue>Assist the survivor.[INFO][NAME]crewMember[/NAME]Gain a crew(Zoltan Monk)[/INFO]</mod:setValue>
+          <mod:setValue>Assist the survivor.[INFO][NAME]crewMember[/NAME]Gain a crew(Zoltan Monk)[/INFO][INFO][NAME]itemModify[/NAME]}-1[/INFO]</mod:setValue>
         </mod:findLike>
       </mod:findLike>
     </mod:findLike>
@@ -1998,8 +2007,8 @@
     <mod:findLike type="choice">
       <mod:selector req="medbay" lvl="2" hidden="true"/>
       <mod:findLike type="text">
-        <mod:selector>(Adv. Medbay) Get them into the medbay!</mod:selector>
-        <mod:setValue>(Adv. Medbay) Get them into the medbay![INFO][NAME]crewMember[/NAME]Gain a crew(Zoltan Monk)[/INFO]</mod:setValue>
+        <mod:selector>(Upg. Medbay) Get them into the medbay!</mod:selector>
+        <mod:setValue>(Upg. Medbay) Get them into the medbay![INFO][NAME]crewMember[/NAME]Gain a crew(Zoltan Monk)[/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -2009,6 +2018,33 @@
       <mod:findLike type="text">
         <mod:selector>(Clone Bay) Try to clone them before it's too late.</mod:selector>
         <mod:setValue>(Clone Bay) Try to clone them before it's too late.[INFO][NAME]crewMember[/NAME]Gain a crew(Zoltan Monk)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="BATTLEFIELD_SURVIVOR" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="LIST_CREW_MEDICAL" hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>(Medical Crew) Have your crew treat them.</mod:selector>
+        <mod:setValue>(Medical Crew) Have your crew treat them.[INFO][NAME]crewMember[/NAME]Gain a crew(Zoltan Monk)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="BATTLEFIELD_SURVIVOR" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="BLUELIST_DRONES_MEDICAL" hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>(Medical Drone) Have your drone treat them.</mod:selector>
+        <mod:setValue>(Medical Drone) Have your drone treat them.[INFO][NAME]crewMember[/NAME]Gain a crew(Zoltan Monk)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="BATTLEFIELD_SURVIVOR" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="BLUELIST_BOMBS_HEAL" hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>(Healing Bomb) Use your Heal Bomb on them. [-1}]</mod:selector>
+        <mod:setValue>(Healing Bomb) Use your Heal Bomb on them. [-1}][INFO][NAME]crewMember[/NAME]Gain a crew(Zoltan Monk)[/INFO][INFO][NAME]itemModify[/NAME]}-1[/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -2047,6 +2083,28 @@
           <mod:findLike type="text">
             <mod:selector>Continue...</mod:selector>
             <mod:setValue>Continue...[FightINFO]Fight(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(SR: [INFO]25% [NAME]autoReward[/NAME]Reward Stuff(R)[/INFO] [INFO]25% [NAME]itemModify[/NAME]-4≤{≤-1 25≤~≤45 -2≤}≤-1 -2≤|≤0[/INFO])[/FightINFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="SECRET_WORD_ABADOTH_MV" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>Leave this mystery behind.</mod:selector>
+        <mod:setValue>Leave this mystery behind.[INFO][NAME]storageCheck[/NAME]Storage Check[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="SECRET_WORD_ABADOTH_MV" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:findLike type="text">
+            <mod:selector>Do something onboard the ship.</mod:selector>
+            <mod:setValue>Do something onboard the ship.[INFO][NAME]storageCheck[/NAME]Storage Check[/INFO]</mod:setValue>
           </mod:findLike>
         </mod:findLike>
       </mod:findLike>

@@ -2261,6 +2261,15 @@
   </mod:findName>
   <mod:findName name="ROYAL_DATA" type="event">
     <mod:findLike type="choice">
+      <mod:selector req="DISTRACTION_BUOY" hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>(Decoy Buoys) Give them your data, but carefully falsify your flight plans.</mod:selector>
+        <mod:setValue>(Decoy Buoys) Give them your data, but carefully falsify your flight plans.[INFO][NAME]itemModify[/NAME]{3 ~40[/INFO][INFO][NAME]modifyPursuit[/NAME]Fleet Delay(1)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="ROYAL_DATA" type="event">
+    <mod:findLike type="choice">
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Decline.</mod:selector>
@@ -3069,6 +3078,24 @@
       <mod:findLike type="text">
         <mod:selector>(Human Crew) Pretend to be a Rebel vessel.</mod:selector>
         <mod:setValue>(Human Crew) Pretend to be a Rebel vessel.[INFO]50% [NAME]autoReward[/NAME]Reward Stuff(M)[/INFO][FightINFO]Fight(HK: [INFO]50% [NAME]autoReward[/NAME]Reward Standard(H)[/INFO])(CK: [INFO]50% [NAME]autoReward[/NAME]Reward Standard(H)[/INFO] [INFO]50% [NAME]autoReward[/NAME]Reward Stuff(H)[/INFO])[/FightINFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="ROYAL_MFK_OUTPOST" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true" req="LIST_CREW_ENGINEER"/>
+      <mod:findLike type="text">
+        <mod:selector>(Engineer Crew) Pretend to be a Rebel vessel.</mod:selector>
+        <mod:setValue>(Engineer Crew) Pretend to be a Rebel vessel.[INFO][NAME]autoReward[/NAME]Reward Stuff(M)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="ROYAL_MFK_OUTPOST" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true" req="human_mfk"/>
+      <mod:findLike type="text">
+        <mod:selector>(MFK Ace Crew) Pretend to be a Rebel vessel.</mod:selector>
+        <mod:setValue>(MFK Ace Crew) Pretend to be a Rebel vessel.[INFO][NAME]autoReward[/NAME]Reward Weapon(H)[/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>

@@ -389,7 +389,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="NEBULA_SHELL_FISHING" type="event">
+  <mod:findName name="NEBULA_LIGHT_SHELL_FISHING" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
@@ -398,7 +398,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="NEBULA_SHELL_FISHING" type="event">
+  <mod:findName name="NEBULA_LIGHT_SHELL_FISHING" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true"/>
       <mod:findLike type="event">
@@ -412,7 +412,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="NEBULA_SHELL_FISHING" type="event">
+  <mod:findName name="NEBULA_LIGHT_SHELL_FISHING" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true"/>
       <mod:findLike type="event">
@@ -431,7 +431,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="NEBULA_SHELL_FISHING" type="event">
+  <mod:findName name="NEBULA_LIGHT_SHELL_FISHING" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true"/>
       <mod:findLike type="event">
@@ -449,7 +449,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="NEBULA_SHELL_FISHING" type="event">
+  <mod:findName name="NEBULA_LIGHT_SHELL_FISHING" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true"/>
       <mod:findLike type="event">
@@ -472,7 +472,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="NEBULA_SHELL_FISHING" type="event">
+  <mod:findName name="NEBULA_LIGHT_SHELL_FISHING" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
@@ -481,7 +481,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="NEBULA_SHELL_FISHING" type="event">
+  <mod:findName name="NEBULA_LIGHT_SHELL_FISHING" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true"/>
       <mod:findLike type="event">
@@ -495,7 +495,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="NEBULA_SHELL_FOSSILS" type="event">
+  <mod:findName name="NEBULA_LIGHT_SHELL_FOSSILS" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
@@ -504,7 +504,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="NEBULA_SHELL_FOSSILS" type="event">
+  <mod:findName name="NEBULA_LIGHT_SHELL_FOSSILS" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true"/>
       <mod:findLike type="event">
@@ -518,7 +518,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="NEBULA_SHELL_FOSSILS" type="event">
+  <mod:findName name="NEBULA_LIGHT_SHELL_FOSSILS" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true"/>
       <mod:findLike type="event">
@@ -537,7 +537,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="NEBULA_SHELL_FOSSILS" type="event">
+  <mod:findName name="NEBULA_LIGHT_SHELL_FOSSILS" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
@@ -546,7 +546,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="NEBULA_SHELL_FOSSILS" type="event">
+  <mod:findName name="NEBULA_LIGHT_SHELL_FOSSILS" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true"/>
       <mod:findLike type="event">
@@ -1931,7 +1931,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Agree to help and inspect the station.</mod:selector>
-        <mod:setValue>Agree to help and inspect the station.[FightINFO]Fight(HK=CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO] [INFO][NAME]unlockCustomShip[/NAME]&lt;#&gt;Unlock Ship(Shell)[/INFO] [INFO][NAME]crewMember[/NAME]Gain a crew(Shell Radiant)[/INFO])[/FightINFO][INFO][NAME]unlockCustomShip[/NAME]&lt;#&gt;Unlock Ship(Shell)[/INFO]</mod:setValue>
+        <mod:setValue>Agree to help and inspect the station.[INFO][NAME]unlockCustomShip[/NAME]&lt;#&gt;Unlock Ship(Shell)[/INFO][FightINFO]Fight(HK=CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO] [INFO][NAME]unlockCustomShip[/NAME]&lt;#&gt;Unlock Ship(Shell)[/INFO] [INFO][NAME]crewMember[/NAME]Gain a crew(Shell Radiant)[/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -1943,7 +1943,7 @@
           <mod:selector hidden="true"/>
           <mod:findLike type="text">
             <mod:selector>Hail them and negotiate peacefully. No need to murder these scientists.</mod:selector>
-            <mod:setValue>Hail them and negotiate peacefully. No need to murder these scientists.[FightINFO]Fight(HK=CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO] [INFO][NAME]unlockCustomShip[/NAME]&lt;#&gt;Unlock Ship(Shell)[/INFO] [INFO][NAME]crewMember[/NAME]Gain a crew(Shell Radiant)[/INFO])[/FightINFO][INFO][NAME]unlockCustomShip[/NAME]&lt;#&gt;Unlock Ship(Shell)[/INFO]</mod:setValue>
+            <mod:setValue>Hail them and negotiate peacefully. No need to murder these scientists.[INFO][NAME]unlockCustomShip[/NAME]&lt;#&gt;Unlock Ship(Shell)[/INFO][FightINFO]Fight(HK=CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO] [INFO][NAME]unlockCustomShip[/NAME]&lt;#&gt;Unlock Ship(Shell)[/INFO] [INFO][NAME]crewMember[/NAME]Gain a crew(Shell Radiant)[/INFO])[/FightINFO]</mod:setValue>
           </mod:findLike>
         </mod:findLike>
       </mod:findLike>
@@ -1960,7 +1960,60 @@
               <mod:selector hidden="true"/>
               <mod:findLike type="text">
                 <mod:selector>Continue...</mod:selector>
-                <mod:setValue>Continue...[FightINFO]Fight(HK=CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO] [INFO][NAME]unlockCustomShip[/NAME]&lt;#&gt;Unlock Ship(Shell)[/INFO] [INFO][NAME]crewMember[/NAME]Gain a crew(Shell Radiant)[/INFO])[/FightINFO][INFO][NAME]unlockCustomShip[/NAME]&lt;#&gt;Unlock Ship(Shell)[/INFO]</mod:setValue>
+                <mod:setValue>Continue...[INFO][NAME]unlockCustomShip[/NAME]&lt;#&gt;Unlock Ship(Shell)[/INFO][FightINFO]Fight(HK=CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO] [INFO][NAME]unlockCustomShip[/NAME]&lt;#&gt;Unlock Ship(Shell)[/INFO] [INFO][NAME]crewMember[/NAME]Gain a crew(Shell Radiant)[/INFO])[/FightINFO]</mod:setValue>
+              </mod:findLike>
+            </mod:findLike>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_SHELL_UNIQUE_LAB" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="event">
+            <mod:findLike type="choice">
+              <mod:selector hidden="true"/>
+              <mod:findLike type="event">
+                <mod:findLike type="choice">
+                  <mod:selector req="unique_tully" hidden="true"/>
+                  <mod:findLike type="text">
+                    <mod:selector>(Tully) Order the Stealth ship to stand down.</mod:selector>
+                    <mod:setValue>(Tully) Order the Stealth ship to stand down.[INFO][NAME]unlockCustomShip[/NAME]&lt;#&gt;Unlock Ship(Shell)[/INFO][INFO][NAME]crewMember[/NAME]Gain a crew(Shell Radiant)[/INFO]</mod:setValue>
+                  </mod:findLike>
+                </mod:findLike>
+              </mod:findLike>
+            </mod:findLike>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_SHELL_UNIQUE_LAB" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="event">
+            <mod:findLike type="choice">
+              <mod:selector hidden="true"/>
+              <mod:findLike type="event">
+                <mod:findLike type="choice">
+                  <mod:selector req="unique_tully" hidden="true"/>
+                  <mod:findLike type="event">
+                    <mod:findLike type="choice">
+                      <mod:selector hidden="true"/>
+                      <mod:findLike type="text">
+                        <mod:selector>Contact the Shells.</mod:selector>
+                        <mod:setValue>Contact the Shells.[INFO][NAME]unlockCustomShip[/NAME]&lt;#&gt;Unlock Ship(Shell)[/INFO][INFO][NAME]crewMember[/NAME]Gain a crew(Shell Radiant)[/INFO]</mod:setValue>
+                      </mod:findLike>
+                    </mod:findLike>
+                  </mod:findLike>
+                </mod:findLike>
               </mod:findLike>
             </mod:findLike>
           </mod:findLike>

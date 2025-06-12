@@ -134,8 +134,8 @@
     <mod:findLike type="choice">
       <mod:selector hidden="true" req="FUEL_CONSERVER"/>
       <mod:findLike type="text">
-        <mod:selector>(Fuel Conserver) Recycle the fuel. [Gives back 2{]</mod:selector>
-        <mod:setValue>(Fuel Conserver) Recycle the fuel. [Gives back 2{][INFO][NAME]itemModify[/NAME]{2[/INFO][INFO]&lt;=[/INFO]</mod:setValue>
+        <mod:selector>(Fuel Conserver) Recycle the fuel. [Earn 2 to 5{]</mod:selector>
+        <mod:setValue>(Fuel Conserver) Recycle the fuel. [Earn 2 to 5{][INFO][NAME]itemModify[/NAME]2≤{≤5[/INFO][INFO]&lt;=[/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -157,8 +157,8 @@
     <mod:findLike type="choice">
       <mod:selector hidden="true" req="KERNEL_REPLICATOR"/>
       <mod:findLike type="text">
-        <mod:selector>(Greenhouse) Recycle the fuel. [Gives back 1{]</mod:selector>
-        <mod:setValue>(Greenhouse) Recycle the fuel. [Gives back 1{][INFO][NAME]itemModify[/NAME]{1[/INFO][INFO]&lt;=[/INFO]</mod:setValue>
+        <mod:selector>(Greenhouse) Recycle the fuel. [Earn 1{]</mod:selector>
+        <mod:setValue>(Greenhouse) Recycle the fuel. [Earn 1{][INFO][NAME]itemModify[/NAME]{1[/INFO][INFO]&lt;=[/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -188,6 +188,52 @@
   <mod:findName name="ATLAS_EQUIPMENT" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true" req="LOCKED_KERNEL_REPLICATOR"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="text">
+            <mod:selector>Continue...</mod:selector>
+            <mod:setValue>Continue...[INFO]&lt;=[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="ATLAS_EQUIPMENT" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true" req="MORPH_DATABASE"/>
+      <mod:findLike type="text">
+        <mod:selector>(DNA Samples) Synthesize a Morph. [Produces 1 Morph crewmember]</mod:selector>
+        <mod:setValue>(DNA Samples) Synthesize a Morph. [Produces 1 Morph crewmember][INFO][NAME]crewMember[/NAME]Gain a crew(Blob)[/INFO][INFO]&lt;=[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="ATLAS_EQUIPMENT" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true" req="MORPH_DATABASE"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="text">
+            <mod:selector>Continue...</mod:selector>
+            <mod:setValue>Continue...[INFO]&lt;=[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="ATLAS_EQUIPMENT" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true" req="MORPH_DATABASE_ADV"/>
+      <mod:findLike type="text">
+        <mod:selector>(Genetic Codex) Synthesize multiple Morphs. [Produces 3 Morph crewmembers]</mod:selector>
+        <mod:setValue>(Genetic Codex) Synthesize multiple Morphs. [Produces 3 Morph crewmembers][INFO][NAME]crewMember[/NAME]Gain a crew(Blob)[/INFO][INFO]&lt;=[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="ATLAS_EQUIPMENT" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true" req="MORPH_DATABASE_ADV"/>
       <mod:findLike type="event">
         <mod:findLike type="choice">
           <mod:selector hidden="true"/>
@@ -372,7 +418,7 @@
       <mod:selector hidden="true" req="LIST_JUMPSPACE_EQUIPMENT"/>
       <mod:findLike type="text">
         <mod:selector>Use a jumpspeed augment.</mod:selector>
-        <mod:setValue>Use a jumpspeed augment.[INFO][NAME]itemModify[/NAME]{-3[/INFO][INFO][NAME]revealMap[/NAME]Map Reveal[/INFO][INFO]&lt;=[/INFO][INFO][NAME]itemModify[/NAME]{2[/INFO][INFO][NAME]itemModify[/NAME]{1[/INFO][INFO][NAME]damage[/NAME]&lt;!&gt;Damage Hull(6)[/INFO][INFO][NAME]modifyPursuit[/NAME]Fleet Delay(3)[/INFO]</mod:setValue>
+        <mod:setValue>Use a jumpspeed augment.[INFO][NAME]itemModify[/NAME]{-3[/INFO][INFO][NAME]revealMap[/NAME]Map Reveal[/INFO][INFO]&lt;=[/INFO][INFO][NAME]itemModify[/NAME]2≤{≤5[/INFO][INFO][NAME]itemModify[/NAME]{1[/INFO][INFO][NAME]crewMember[/NAME]Gain a crew(Blob)[/INFO][INFO][NAME]damage[/NAME]&lt;!&gt;Damage Hull(6)[/INFO][INFO][NAME]modifyPursuit[/NAME]Fleet Delay(3)[/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -579,7 +625,7 @@
       <mod:selector hidden="true" req="SEC SECTOR_FEDERATION" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Proceed to the Federation Sector.</mod:selector>
-        <mod:setValue>Proceed to the Federation Sector.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Federation)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Proceed to the Federation Sector.[INFO][NAME]modifyPursuit[/NAME]Fleet Delay(2)[/INFO][INFO]&lt;=[/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -587,8 +633,8 @@
     <mod:findLike type="choice">
       <mod:selector hidden="true" req="SEC SECTOR_FEDERATION_UNIQUE" blue="false"/>
       <mod:findLike type="text">
-        <mod:selector>Proceed to the Federation Sector.</mod:selector>
-        <mod:setValue>Proceed to the Federation Sector.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Federation)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:selector>Proceed to the Federation Embassy.</mod:selector>
+        <mod:setValue>Proceed to the Federation Embassy.[INFO][NAME]modifyPursuit[/NAME]Fleet Delay(2)[/INFO][INFO]&lt;=[/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -751,6 +797,15 @@
       <mod:findLike type="text">
         <mod:selector>Proceed to the Nebula Sector.</mod:selector>
         <mod:setValue>Proceed to the Nebula Sector.[INFO][NAME]modifyPursuit[/NAME]Fleet Delay(1)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="ATLAS_MENU" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true" req="SEC SECTOR_STARGROVE_UNIQUE" blue="false"/>
+      <mod:findLike type="text">
+        <mod:selector>Proceed to the Stargrove.</mod:selector>
+        <mod:setValue>Proceed to the Stargrove.[INFO][NAME]damage[/NAME]Repair Hull(10$)[/INFO][INFO][NAME]modifyPursuit[/NAME]Fleet Delay(3)[/INFO][INFO]&lt;=[/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -1155,7 +1210,7 @@
       <mod:selector hidden="true" req="SEC SECTOR_FEDERATION" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Proceed to the Federation Sector.</mod:selector>
-        <mod:setValue>Proceed to the Federation Sector.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Federation)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Proceed to the Federation Sector.[INFO][NAME]modifyPursuit[/NAME]Fleet Delay(2)[/INFO][INFO]&lt;=[/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -1163,8 +1218,8 @@
     <mod:findLike type="choice">
       <mod:selector hidden="true" req="SEC SECTOR_FEDERATION_UNIQUE" blue="false"/>
       <mod:findLike type="text">
-        <mod:selector>Proceed to the Federation Sector.</mod:selector>
-        <mod:setValue>Proceed to the Federation Sector.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Federation)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:selector>Proceed to the Federation Embassy.</mod:selector>
+        <mod:setValue>Proceed to the Federation Embassy.[INFO][NAME]modifyPursuit[/NAME]Fleet Delay(2)[/INFO][INFO]&lt;=[/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -1327,6 +1382,15 @@
       <mod:findLike type="text">
         <mod:selector>Proceed to the Nebula Sector.</mod:selector>
         <mod:setValue>Proceed to the Nebula Sector.[INFO][NAME]modifyPursuit[/NAME]Fleet Delay(1)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="ATLAS_MENU_NOEQUIPMENT" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true" req="SEC SECTOR_STARGROVE_UNIQUE" blue="false"/>
+      <mod:findLike type="text">
+        <mod:selector>Proceed to the Stargrove.</mod:selector>
+        <mod:setValue>Proceed to the Stargrove.[INFO][NAME]damage[/NAME]Repair Hull(10$)[/INFO][INFO][NAME]modifyPursuit[/NAME]Fleet Delay(3)[/INFO][INFO]&lt;=[/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -1911,7 +1975,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Exit hyperspeed.</mod:selector>
-        <mod:setValue>Exit hyperspeed.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Federation)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Exit hyperspeed.[INFO][NAME]modifyPursuit[/NAME]Fleet Delay(2)[/INFO][INFO]&lt;=[/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -1929,7 +1993,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Exit hyperspeed.</mod:selector>
-        <mod:setValue>Exit hyperspeed.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Federation)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Exit hyperspeed.[INFO][NAME]modifyPursuit[/NAME]Fleet Delay(2)[/INFO][INFO]&lt;=[/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -2254,6 +2318,24 @@
       <mod:findLike type="text">
         <mod:selector>Exit hyperspeed.</mod:selector>
         <mod:setValue>Exit hyperspeed.[INFO][NAME]modifyPursuit[/NAME]Fleet Delay(1)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="ENTER_STARGROVE" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>Continue...</mod:selector>
+        <mod:setValue>Continue...[INFO]&lt;=[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="STARGROVE_WARP" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>Exit hyperspeed.</mod:selector>
+        <mod:setValue>Exit hyperspeed.[INFO][NAME]damage[/NAME]Repair Hull(10$)[/INFO][INFO][NAME]modifyPursuit[/NAME]Fleet Delay(3)[/INFO][INFO]&lt;=[/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>

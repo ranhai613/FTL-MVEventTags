@@ -231,7 +231,7 @@
       <mod:selector req="hacking" lvl="2"/>
       <mod:findLike type="event">
         <mod:findLike type="choice">
-          <mod:selector req="weapons" lvl="4"/>
+          <mod:selector req="weapons" lvl="4" hidden="true"/>
           <mod:findLike type="text">
             <mod:selector>(Upg. Weapons) All out assault.</mod:selector>
             <mod:setValue>(Upg. Weapons) All out assault.[INFO][NAME]autoReward[/NAME]Reward Standard No Item(M)[/INFO]</mod:setValue>
@@ -298,7 +298,30 @@
   </mod:findName>
   <mod:findName name="RECON_EXPLAIN_MISSION" type="event">
     <mod:findLike type="choice">
-      <mod:selector req="weapons" lvl="6"/>
+      <mod:selector req="BLUELIST_WEAPONS_MIND_CONTROL"/>
+      <mod:findLike type="text">
+        <mod:selector>(Mind Control Weapon) Clear one of your shuttles for landing.</mod:selector>
+        <mod:setValue>(Mind Control Weapon) Clear one of your shuttles for landing.[INFO]25% [NAME]weapon[/NAME]Gain a weapon(Loot Coalition 1)[/INFO][INFO]25% [NAME]autoReward[/NAME]Reward } Only(M)[/INFO][INFO]25% [NAME]augment[/NAME]Gain an augment(Rock Armor)[/INFO][INFO]25% [NAME]autoReward[/NAME]Reward ~ Only(L)[/INFO][INFO]25% [NAME]upgrade[/NAME]System Upgrade(Reactor x2)[/INFO][INFO]25% [NAME]autoReward[/NAME]Reward | Only(M)[/INFO][INFO]25% [NAME]upgrade[/NAME]System Upgrade(Engines x1)[/INFO][INFO]25% [NAME]autoReward[/NAME]Reward { Only(M)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="RECON_EXPLAIN_MISSION" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="BLUELIST_WEAPONS_MIND_CONTROL"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="text">
+            <mod:selector>Continue...</mod:selector>
+            <mod:setValue>Continue...[INFO]25% [NAME]weapon[/NAME]Gain a weapon(Loot Coalition 1)[/INFO][INFO]25% [NAME]autoReward[/NAME]Reward } Only(M)[/INFO][INFO]25% [NAME]augment[/NAME]Gain an augment(Rock Armor)[/INFO][INFO]25% [NAME]autoReward[/NAME]Reward ~ Only(L)[/INFO][INFO]25% [NAME]upgrade[/NAME]System Upgrade(Reactor x2)[/INFO][INFO]25% [NAME]autoReward[/NAME]Reward | Only(M)[/INFO][INFO]25% [NAME]upgrade[/NAME]System Upgrade(Engines x1)[/INFO][INFO]25% [NAME]autoReward[/NAME]Reward { Only(M)[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="RECON_EXPLAIN_MISSION" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="weapons" lvl="6" hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>(Adv. Weapons) All out assault.</mod:selector>
         <mod:setValue>(Adv. Weapons) All out assault.[INFO][NAME]autoReward[/NAME]Reward Standard No Item(M)[/INFO]</mod:setValue>
@@ -308,6 +331,7 @@
   <mod:findName name="COALITION_FACILITY_SABOTAGE" type="eventList">
     <mod:findLike type="event">
       <mod:findLike type="choice">
+        <mod:selector hidden="true"/>
         <mod:findLike type="text">
           <mod:selector>Continue...</mod:selector>
           <mod:setValue>Continue...[INFO][NAME]autoReward[/NAME]Reward ~ Only(L)[/INFO]</mod:setValue>
@@ -318,6 +342,7 @@
   <mod:findName name="COALITION_FACILITY_SABOTAGE" type="eventList">
     <mod:findLike type="event">
       <mod:findLike type="choice">
+        <mod:selector hidden="true"/>
         <mod:findLike type="text">
           <mod:selector>Continue...</mod:selector>
           <mod:setValue>Continue...[INFO][NAME]autoReward[/NAME]Reward ~ Only(L)[/INFO]</mod:setValue>
@@ -328,6 +353,7 @@
   <mod:findName name="COALITION_FACILITY_SABOTAGE" type="eventList">
     <mod:findLike type="event">
       <mod:findLike type="choice">
+        <mod:selector hidden="true"/>
         <mod:findLike type="text">
           <mod:selector>Continue...</mod:selector>
           <mod:setValue>Continue...[INFO][NAME]autoReward[/NAME]Reward ~ Only(L)[/INFO]</mod:setValue>
@@ -338,6 +364,7 @@
   <mod:findName name="COALITION_FACILITY_SABOTAGE" type="eventList">
     <mod:findLike type="event">
       <mod:findLike type="choice">
+        <mod:selector hidden="true"/>
         <mod:findLike type="text">
           <mod:selector>Continue...</mod:selector>
           <mod:setValue>Continue...[INFO][NAME]autoReward[/NAME]Reward ~ Only(L)[/INFO]</mod:setValue>
@@ -1081,7 +1108,7 @@
     <mod:findLike type="choice">
       <mod:findLike type="text">
         <mod:selector>Continue...</mod:selector>
-        <mod:setValue>Continue...[FightINFO]Fight(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(SR: [INFO][NAME]autoReward[/NAME]Reward ~(M)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Rock)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Continue...[FightINFO]Fight(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(SR: [INFO][NAME]autoReward[/NAME]Reward ~ Only(M)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Rock)[/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -1099,6 +1126,15 @@
       <mod:findLike type="text">
         <mod:selector>(Upg. Hacking) Disable the Auto and download its data stores.</mod:selector>
         <mod:setValue>(Upg. Hacking) Disable the Auto and download its data stores.[INFO][NAME]autoReward[/NAME]Reward Standard(L)[/INFO][INFO][NAME]revealMap[/NAME]Map Reveal[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="COALITION_FED_AUTO" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="BLUELIST_WEAPONS_HACK" hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>(Hacking Weapon) Disable the Auto and download its data stores.</mod:selector>
+        <mod:setValue>(Hacking Weapon) Disable the Auto and download its data stores.[INFO][NAME]autoReward[/NAME]Reward Standard(L)[/INFO][INFO][NAME]revealMap[/NAME]Map Reveal[/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -1238,7 +1274,7 @@
           <mod:selector hidden="true"/>
           <mod:findLike type="text">
             <mod:selector>We aren't here to fight.</mod:selector>
-            <mod:setValue>We aren't here to fight.[INFO][NAME]itemModify[/NAME]~-25[/INFO][INFO][NAME]modifyPursuit[/NAME]Fleet Delay(2)[/INFO][INFO][NAME]modifyPursuit[/NAME]&lt;!&gt;Fleet Advance(1)[/INFO][INFO][NAME]autoReward[/NAME]Reward Weapon(H)[/INFO][INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO][INFO][NAME]itemModify[/NAME]}-5[/INFO][INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO]</mod:setValue>
+            <mod:setValue>We aren't here to fight.[INFO][NAME]itemModify[/NAME]~-25[/INFO][INFO][NAME]modifyPursuit[/NAME]Fleet Delay(2)[/INFO][INFO][NAME]modifyPursuit[/NAME]&lt;!&gt;Fleet Advance(1)[/INFO][INFO][NAME]autoReward[/NAME]Reward Weapon(H)[/INFO][INFO][NAME]itemModify[/NAME]}-1[/INFO][INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO][INFO][NAME]itemModify[/NAME]}-5[/INFO][INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO]</mod:setValue>
           </mod:findLike>
         </mod:findLike>
       </mod:findLike>
@@ -1289,6 +1325,25 @@
           <mod:selector hidden="true"/>
           <mod:findLike type="event">
             <mod:findLike type="choice">
+              <mod:selector hidden="true" req="BOMB_HEAL_SYSTEM"/>
+              <mod:findLike type="text">
+                <mod:selector>(Repair Burst) Use your Repair Bomb to repair their engines. [-1}]</mod:selector>
+                <mod:setValue>(Repair Burst) Use your Repair Bomb to repair their engines. [-1}][INFO][NAME]itemModify[/NAME]}-1[/INFO][INFO][NAME]autoReward[/NAME]Reward Weapon(H)[/INFO]</mod:setValue>
+              </mod:findLike>
+            </mod:findLike>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="COALITION_REBEL_STRANDED" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="event">
+            <mod:findLike type="choice">
               <mod:selector hidden="true" req="human_mfk"/>
               <mod:findLike type="text">
                 <mod:selector>(MFK Ace Crew) Pretend to be a Rebel ship to leech supplies.</mod:selector>
@@ -1308,7 +1363,7 @@
           <mod:selector hidden="true"/>
           <mod:findLike type="event">
             <mod:findLike type="choice">
-              <mod:selector hidden="true" req="human_engineer"/>
+              <mod:selector hidden="true" req="LIST_CREW_ENGINEER"/>
               <mod:findLike type="text">
                 <mod:selector>(Engineer Crew) Pretend to be a Rebel ship to leech supplies.</mod:selector>
                 <mod:setValue>(Engineer Crew) Pretend to be a Rebel ship to leech supplies.[INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO]</mod:setValue>
@@ -1496,7 +1551,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="NEBULA_COALITION_MANTIS_UNREST" type="event">
+  <mod:findName name="NEBULA_LIGHT_COALITION_MANTIS_UNREST" type="event">
     <mod:findLike type="choice">
       <mod:findLike type="text">
         <mod:selector>Tune in to the radio chatter.</mod:selector>
@@ -1504,7 +1559,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="NEBULA_COALITION_MANTIS_UNREST" type="event">
+  <mod:findName name="NEBULA_LIGHT_COALITION_MANTIS_UNREST" type="event">
     <mod:findLike type="choice">
       <mod:findLike type="event">
         <mod:findLike type="choice">
@@ -1517,7 +1572,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="NEBULA_COALITION_MANTIS_UNREST" type="event">
+  <mod:findName name="NEBULA_LIGHT_COALITION_MANTIS_UNREST" type="event">
     <mod:findLike type="choice">
       <mod:findLike type="event">
         <mod:findLike type="choice">
@@ -1530,7 +1585,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="NEBULA_COALITION_MANTIS_UNREST" type="event">
+  <mod:findName name="NEBULA_LIGHT_COALITION_MANTIS_UNREST" type="event">
     <mod:findLike type="choice">
       <mod:findLike type="event">
         <mod:findLike type="choice">
@@ -1543,7 +1598,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="NEBULA_COALITION_MANTIS_UNREST" type="event">
+  <mod:findName name="NEBULA_LIGHT_COALITION_MANTIS_UNREST" type="event">
     <mod:findLike type="choice">
       <mod:findLike type="event">
         <mod:findLike type="choice">
@@ -1555,7 +1610,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="NEBULA_COALITION_MANTIS_UNREST" type="event">
+  <mod:findName name="NEBULA_LIGHT_COALITION_MANTIS_UNREST" type="event">
     <mod:findLike type="choice">
       <mod:findLike type="event">
         <mod:findLike type="choice">
@@ -1790,7 +1845,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="NEBULA_COALITION_AMPERE_TRAINING" type="event">
+  <mod:findName name="NEBULA_LIGHT_COALITION_AMPERE_TRAINING" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true" req="weapons" blue="false"/>
       <mod:findLike type="text">
@@ -1799,7 +1854,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="NEBULA_COALITION_AMPERE_TRAINING" type="event">
+  <mod:findName name="NEBULA_LIGHT_COALITION_AMPERE_TRAINING" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true" req="weapons" blue="false"/>
       <mod:findLike type="event">
@@ -1812,7 +1867,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="NEBULA_COALITION_AMPERE_TRAINING" type="event">
+  <mod:findName name="NEBULA_LIGHT_COALITION_AMPERE_TRAINING" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true" req="leech_ampere"/>
       <mod:findLike type="text">
@@ -1821,7 +1876,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="NEBULA_COALITION_AMPERE_TRAINING" type="event">
+  <mod:findName name="NEBULA_LIGHT_COALITION_AMPERE_TRAINING" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true" req="leech"/>
       <mod:findLike type="text">
@@ -1830,7 +1885,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="NEBULA_COALITION_AMPERE_TRAINING" type="event">
+  <mod:findName name="NEBULA_LIGHT_COALITION_AMPERE_TRAINING" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true" req="unique_alkram"/>
       <mod:findLike type="text">
@@ -1839,7 +1894,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="NEBULA_COALITION_AMPERE_TRAINING" type="event">
+  <mod:findName name="NEBULA_LIGHT_COALITION_AMPERE_TRAINING" type="event">
     <mod:findLike type="choice">
       <mod:selector req="unique_tyrdeo" hidden="true"/>
       <mod:findLike type="text">
@@ -1848,7 +1903,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="NEBULA_COALITION_AMPERE_TRAINING" type="event">
+  <mod:findName name="NEBULA_LIGHT_COALITION_AMPERE_TRAINING" type="event">
     <mod:findLike type="choice">
       <mod:selector req="unique_tonysr"/>
       <mod:findLike type="text">
@@ -1857,7 +1912,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="NEBULA_COALITION_AMPERE_TRAINING" type="event">
+  <mod:findName name="NEBULA_LIGHT_COALITION_AMPERE_TRAINING" type="event">
     <mod:findLike type="choice">
       <mod:findLike type="text">
         <mod:selector>Ignore the training center.</mod:selector>
@@ -1865,7 +1920,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="NEBULA_COALITION_AMPERE_TRAINING" type="event">
+  <mod:findName name="NEBULA_LIGHT_COALITION_AMPERE_TRAINING" type="event">
     <mod:findLike type="choice">
       <mod:findLike type="event">
         <mod:findLike type="choice">
@@ -2127,7 +2182,7 @@
       <mod:selector hidden="true" req="human_mfk"/>
       <mod:findLike type="text">
         <mod:selector>(MFK Ace Crew) Attack the construction yard while pretending to be a Rebel.</mod:selector>
-        <mod:setValue>(MFK Ace Crew) Attack the construction yard while pretending to be a Rebel.[INFO][NAME]modifyPursuit[/NAME]Fleet Delay(2)[/INFO][FightINFO]Fight(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(SR: [INFO][NAME]autoReward[/NAME]Reward Stuff(R)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>(MFK Ace Crew) Attack the construction yard while pretending to be a Rebel.[INFO][NAME]modifyPursuit[/NAME]Fleet Delay(2)[/INFO][FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO]33% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO]33% [NAME]autoReward[/NAME]Reward Item(L)[/INFO] [INFO]33% [NAME]autoReward[/NAME]Reward Stuff(L)[/INFO] [INFO]33% [NAME]crewMember[/NAME]Gain a crew(Leech)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO] [INFO]33% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO]33% [NAME]autoReward[/NAME]Reward Item(L)[/INFO] [INFO]33% [NAME]autoReward[/NAME]Reward Stuff(L)[/INFO] [INFO]33% [NAME]crewMember[/NAME]Gain a crew(Leech)[/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -2139,7 +2194,7 @@
           <mod:selector hidden="true"/>
           <mod:findLike type="text">
             <mod:selector>Continue...</mod:selector>
-            <mod:setValue>Continue...[FightINFO]Fight(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(SR: [INFO][NAME]autoReward[/NAME]Reward Stuff(R)[/INFO])[/FightINFO]</mod:setValue>
+            <mod:setValue>Continue...[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO]33% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO]33% [NAME]autoReward[/NAME]Reward Item(L)[/INFO] [INFO]33% [NAME]autoReward[/NAME]Reward Stuff(L)[/INFO] [INFO]33% [NAME]crewMember[/NAME]Gain a crew(Leech)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO] [INFO]33% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO]33% [NAME]autoReward[/NAME]Reward Item(L)[/INFO] [INFO]33% [NAME]autoReward[/NAME]Reward Stuff(L)[/INFO] [INFO]33% [NAME]crewMember[/NAME]Gain a crew(Leech)[/INFO])[/FightINFO]</mod:setValue>
           </mod:findLike>
         </mod:findLike>
       </mod:findLike>

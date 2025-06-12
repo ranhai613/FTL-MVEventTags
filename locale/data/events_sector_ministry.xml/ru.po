@@ -1,17 +1,15 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-05-21 20:26+0000\n"
+"PO-Revision-Date: 2025-06-03 20:50+0000\n"
 "Last-Translator: Ukn <bbg100bbg@gmail.com>\n"
-"Language-Team: Russian <https://weblate.hyperq.be/projects/ftl-multiverse/"
-"dataevents_sector_ministryxml/ru/>\n"
+"Language-Team: Russian <https://weblate.hyperq.be/projects/ftl-multiverse/dataevents_sector_ministryxml/ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.16.4\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 5.11.4\n"
 
 #: src-en/data/events_sector_ministry.xml:28
 msgid ""
@@ -104,14 +102,14 @@ msgstr ""
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_FASCISM\"]/choice[@req=\"LIST_CREW_HUMAN\"]/event/text"
 msgstr ""
-"Золтан кивает. \"Человечество - это вид, состоящий из одних только вредных "
+"Золтан кивает. \"Человечество - это вид, состоящий из одних только пагубных "
 "идей, сдобренных политическими дрязгами и эгоизмом. Вы навсегда испортили "
-"эту галактику такими партизанскими понятиями, как \"демократия\" и "
+"эту галактику своими идеологическими концепциями вроде \"демократия\" и "
 "\"феминизм\". Это вызывает у меня отвращение. Когда-то мы были чистой расой,"
 " пока не вступили в контакт с вашей. Известно, что люди - воинственная раса,"
-" которой можно управлять, только манипулируя их еще большей жадностью. "
-"Возьмите это и никогда не возвращайтесь\". Очевидно, что он бредит, но вы не"
-" против бесплатного лома."
+" которой можно управлять лишь через их еще большую жадность. Возьмите это и "
+"никогда не возвращайтесь\". Очевидно, что он бредит, но вы не против "
+"бесплатного лома."
 
 #: src-en/data/events_sector_ministry.xml:93
 msgid ""
@@ -216,7 +214,7 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_TRADE_HUB_MV\"]/choice[@req=\"LIST_CREW_ZOLTAN_CAPITAL\"]/text"
 msgstr ""
-"(Член экипажа-золтан) Предъявить его официальные документы и оплатить взнос."
+"(Член экипажа-золтан) Предъявить официальные документы и оплатить взнос."
 
 #: src-en/data/events_sector_ministry.xml:159
 msgid ""
@@ -638,7 +636,22 @@ msgstr ""
 "друг! Что ж, не будем терять времени. Вот, возьмите запасные канистры с "
 "топливом и продолжайте свою миссию\". Вашему кораблю разрешен проход."
 
+#: src-en/data/events_sector_ministry.xml:440
+msgid ""
+"data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_CREW_SCAN_MV\"]/choice[@req=\"BLUELIST_WEAPONS_MIND_CONTROL\"]/text"
+msgstr ""
+"(Контроль разума) Убедить охранников в том, что они сегодня уже проверяли "
+"ваш экипаж."
+
 #: src-en/data/events_sector_ministry.xml:442
+msgid ""
+"data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_CREW_SCAN_MV\"]/choice[@req=\"BLUELIST_WEAPONS_MIND_CONTROL\"]/event/text"
+msgstr ""
+"На экране появляется капитан сторожевого корабля: \"Возвращайся поскорее, "
+"друг! Что ж, не будем терять времени. Вот, возьмите запасные канистры с "
+"топливом и продолжайте свою миссию\". Вашему кораблю разрешен проход."
+
+#: src-en/data/events_sector_ministry.xml:449
 msgid ""
 "data/events_sector_ministry.xml$//eventList[@name=\"ZOLTAN_CREW_SCAN_LIST_MV\"]/event[1]/text"
 msgstr ""
@@ -646,7 +659,7 @@ msgstr ""
 "сканируют лица экипажа и вносят результаты в компьютер. После нескольких "
 "напряженных минут неопределенности они разрешают проход вашему кораблю."
 
-#: src-en/data/events_sector_ministry.xml:445
+#: src-en/data/events_sector_ministry.xml:452
 msgid ""
 "data/events_sector_ministry.xml$//eventList[@name=\"ZOLTAN_CREW_SCAN_LIST_MV\"]/event[2]/text"
 msgstr ""
@@ -656,31 +669,31 @@ msgstr ""
 "членов экипажа! \"Это лицо разыскивается по пяти обвинениям в абсолютном "
 "злодействе! Выдайте его нам!\""
 
-#: src-en/data/events_sector_ministry.xml:447
+#: src-en/data/events_sector_ministry.xml:454
 msgid ""
 "data/events_sector_ministry.xml$//eventList[@name=\"ZOLTAN_CREW_SCAN_LIST_MV\"]/event[2]/choice[1]/text"
 msgstr "Отдать члена экипажа."
 
-#: src-en/data/events_sector_ministry.xml:449
+#: src-en/data/events_sector_ministry.xml:456
 msgid ""
 "data/events_sector_ministry.xml$//eventList[@name=\"ZOLTAN_CREW_SCAN_LIST_MV\"]/event[2]/choice[1]/event/text"
 msgstr ""
 "Это трудное решение, но все же здесь действует закон золтан. Кроме того, он "
 "всегда казался немного подозрительным."
 
-#: src-en/data/events_sector_ministry.xml:452
+#: src-en/data/events_sector_ministry.xml:459
 msgid ""
 "data/events_sector_ministry.xml$//eventList[@name=\"ZOLTAN_CREW_SCAN_LIST_MV\"]/event[2]/choice[1]/event/removeCrew/text"
 msgstr ""
 "К сожалению, ваш член экипажа был увезен целым и невредимым, поэтому ваш "
 "Клон-отсек не смог его восстановить."
 
-#: src-en/data/events_sector_ministry.xml:457
+#: src-en/data/events_sector_ministry.xml:464
 msgid ""
 "data/events_sector_ministry.xml$//eventList[@name=\"ZOLTAN_CREW_SCAN_LIST_MV\"]/event[2]/choice[2]/text"
 msgstr "Отказаться и бороться."
 
-#: src-en/data/events_sector_ministry.xml:459
+#: src-en/data/events_sector_ministry.xml:466
 msgid ""
 "data/events_sector_ministry.xml$//eventList[@name=\"ZOLTAN_CREW_SCAN_LIST_MV\"]/event[2]/choice[2]/event/text"
 msgstr ""
@@ -688,70 +701,70 @@ msgstr ""
 "охранниками на борту. К сожалению, в хаосе им удается саботировать вашу "
 "систему оружия. Пора сваливать!"
 
-#: src-en/data/events_sector_ministry.xml:464
+#: src-en/data/events_sector_ministry.xml:471
 msgid ""
 "data/events_sector_ministry.xml$//eventList[@name=\"ZOLTAN_CREW_SCAN_LIST_MV\"]/event[2]/choice[2]/event/choice[1]/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_ministry.xml:468
+#: src-en/data/events_sector_ministry.xml:475
 msgid ""
 "data/events_sector_ministry.xml$//eventList[@name=\"ZOLTAN_CREW_SCAN_LIST_MV\"]/event[2]/choice[2]/event/choice[@req=\"ANTI_VIRUS\"]/text"
 msgstr "(Антивирус) Восстановить свои орудия."
 
-#: src-en/data/events_sector_ministry.xml:470
+#: src-en/data/events_sector_ministry.xml:477
 msgid ""
 "data/events_sector_ministry.xml$//eventList[@name=\"ZOLTAN_CREW_SCAN_LIST_MV\"]/event[2]/choice[2]/event/choice[@req=\"ANTI_VIRUS\"]/event/text"
 msgstr "Система оружия восстановлена до полной мощности."
 
-#: src-en/data/events_sector_ministry.xml:473
+#: src-en/data/events_sector_ministry.xml:480
 msgid ""
 "data/events_sector_ministry.xml$//eventList[@name=\"ZOLTAN_CREW_SCAN_LIST_MV\"]/event[2]/choice[2]/event/choice[@req=\"ANTI_VIRUS\"]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_ministry.xml:484
+#: src-en/data/events_sector_ministry.xml:491
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_SCIENCE_DOCK_MV\"]/text"
 msgstr ""
 "Судя по всему, научный корабль золтанов запрашивает разрешение на стыковку."
 
-#: src-en/data/events_sector_ministry.xml:486
+#: src-en/data/events_sector_ministry.xml:493
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_SCIENCE_DOCK_MV\"]/choice[1]/text"
 msgstr "Состыковаться с ними."
 
-#: src-en/data/events_sector_ministry.xml:490
+#: src-en/data/events_sector_ministry.xml:497
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_SCIENCE_DOCK_MV\"]/choice[2]/text"
 msgstr "Пусть они держатся на расстоянии."
 
-#: src-en/data/events_sector_ministry.xml:492
+#: src-en/data/events_sector_ministry.xml:499
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_SCIENCE_DOCK_MV\"]/choice[2]/event/text"
 msgstr "Они уходят, не сказав ни слова."
 
-#: src-en/data/events_sector_ministry.xml:494
+#: src-en/data/events_sector_ministry.xml:501
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_SCIENCE_DOCK_MV\"]/choice[2]/event/choice[1]/text"
 msgstr "Заняться чем-либо на корабле."
 
-#: src-en/data/events_sector_ministry.xml:498
+#: src-en/data/events_sector_ministry.xml:505
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_SCIENCE_DOCK_MV\"]/choice[2]/event/choice[2]/text"
 msgstr "Ничего не делать."
 
-#: src-en/data/events_sector_ministry.xml:506
+#: src-en/data/events_sector_ministry.xml:513
 msgid ""
 "data/events_sector_ministry.xml$//eventList[@name=\"ZOLTAN_SCIENCE_DOCK_LIST_MV\"]/event[1]/text"
 msgstr ""
 "Вы позволили им приблизиться, но были застигнуты врасплох, когда они открыли"
 " огонь!"
 
-#: src-en/data/events_sector_ministry.xml:509
+#: src-en/data/events_sector_ministry.xml:516
 msgid ""
 "data/events_sector_ministry.xml$//eventList[@name=\"ZOLTAN_SCIENCE_DOCK_LIST_MV\"]/event[1]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_ministry.xml:514
+#: src-en/data/events_sector_ministry.xml:521
 msgid ""
 "data/events_sector_ministry.xml$//eventList[@name=\"ZOLTAN_SCIENCE_DOCK_LIST_MV\"]/event[2]/text"
 msgstr ""
@@ -759,35 +772,35 @@ msgstr ""
 "все еще имеет потенциал быть положительным фактором для галактики. "
 "Пожалуйста, примите этот подарок, чтобы помочь вам в вашем путешествии\"."
 
-#: src-en/data/events_sector_ministry.xml:520
+#: src-en/data/events_sector_ministry.xml:527
 msgid "data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_LIFERAFT_MV\"]/text"
 msgstr ""
-"Вы подбираете спасательную лодку золтан, летящую в космосе. Его обитатель "
-"просит вас отбить его корабль у пиратов, которые недавно захватили его. \"Я "
-"уверен, что вам все ясно, - заключает он, - и вы не должны при этом "
-"уничтожить мое судно\"."
+"Вы обнаруживаете спасательный шаттл золтан, плавающий в космосе. Его "
+"обитатель просит вас отбить его корабль у пиратов, которые недавно захватили"
+" его. \"Я уверен, что вам все ясно, - заключает он, - и вы не должны при "
+"этом уничтожить мое судно\"."
 
-#: src-en/data/events_sector_ministry.xml:523
+#: src-en/data/events_sector_ministry.xml:530
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_LIFERAFT_MV\"]/choice[1]/text"
 msgstr "Напасть на пиратов."
 
-#: src-en/data/events_sector_ministry.xml:525
+#: src-en/data/events_sector_ministry.xml:532
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_LIFERAFT_MV\"]/choice[1]/event/text"
 msgstr "Вы сосредоточиваете свой огонь на пиратах."
 
-#: src-en/data/events_sector_ministry.xml:528
+#: src-en/data/events_sector_ministry.xml:535
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_LIFERAFT_MV\"]/choice[1]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_ministry.xml:534
+#: src-en/data/events_sector_ministry.xml:541
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_LIFERAFT_MV\"]/choice[2]/text"
 msgstr "Уйти."
 
-#: src-en/data/events_sector_ministry.xml:536
+#: src-en/data/events_sector_ministry.xml:543
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_LIFERAFT_MV\"]/choice[2]/event/text"
 msgstr ""
@@ -795,76 +808,97 @@ msgstr ""
 "следующей станции. Золтан недоволен, но все равно направляет вас на "
 "ближайшую звездную базу."
 
-#: src-en/data/events_sector_ministry.xml:538
+#: src-en/data/events_sector_ministry.xml:545
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_LIFERAFT_MV\"]/choice[2]/event/choice[1]/text"
 msgstr "Заняться чем-либо на корабле."
 
-#: src-en/data/events_sector_ministry.xml:542
+#: src-en/data/events_sector_ministry.xml:549
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_LIFERAFT_MV\"]/choice[2]/event/choice[2]/text"
 msgstr "Ничего не делать."
 
-#: src-en/data/events_sector_ministry.xml:550
+#: src-en/data/events_sector_ministry.xml:557
 msgid ""
 "data/events_sector_ministry.xml$//eventList[@name=\"ZOLTAN_LIFERAFT_HIRE_MV\"]/event[1]/text"
 msgstr ""
 "Он надменно отвечает: \"Вы полагаете, что я буду работать под вашим началом "
 "после такой демонстрации... доблести? Нет, я вынужден отказаться\"."
 
-#: src-en/data/events_sector_ministry.xml:553
+#: src-en/data/events_sector_ministry.xml:560
 msgid ""
 "data/events_sector_ministry.xml$//eventList[@name=\"ZOLTAN_LIFERAFT_HIRE_MV\"]/event[2]/text"
 msgstr ""
 "Он отвечает потрясенно: \"Полагаю, мне некуда идти без корабля. Я принимаю "
 "ваше предложение\"."
 
-#: src-en/data/events_sector_ministry.xml:562
+#: src-en/data/events_sector_ministry.xml:569
 msgid "data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_TOURIST\"]/text"
 msgstr ""
 "Похоже, что гражданский корабль атакован кораблем золтан! Вы не знаете "
 "точно, почему, но похоже, что им нужна помощь."
 
-#: src-en/data/events_sector_ministry.xml:565
+#: src-en/data/events_sector_ministry.xml:572
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_TOURIST\"]/choice[1]/text"
 msgstr "Спасти гражданских."
 
-#: src-en/data/events_sector_ministry.xml:567
+#: src-en/data/events_sector_ministry.xml:574
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_TOURIST\"]/choice[1]/event/text"
 msgstr ""
 "Вы не оставляете кораблю золтан иного выбора, кроме как сражаться с вами, "
 "поскольку вы летите к нему на полной скорости."
 
-#: src-en/data/events_sector_ministry.xml:570
+#: src-en/data/events_sector_ministry.xml:577
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_TOURIST\"]/choice[1]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_ministry.xml:576
+#: src-en/data/events_sector_ministry.xml:583
 msgid ""
-"data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_TOURIST\"]/choice[2]/text"
+"data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_TOURIST\"]/choice[@req=\"zoltan_peacekeeper\"]/text"
+msgstr "(Член экипажа-Миротворец) Потребовать, чтобы золтаны отступили."
+
+#: src-en/data/events_sector_ministry.xml:585
+msgid ""
+"data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_TOURIST\"]/choice[@req=\"zoltan_peacekeeper\"]/event/text"
+msgstr ""
+"Ваш Миротворец ссылается на закон Министерства C-T-55 из кодекса "
+"Министерства, гласящий, что они не имеют права атаковать гражданские корабли"
+" без достаточных оснований или разрешения вышестоящей инстанции. Поскольку "
+"ни один золтан, ни мертвый, ни живой, не обладает полным знанием всего "
+"кодекса, у другого корабля нет оснований отрицать существование этого "
+"закона. Они отступают и уходят в прыжок."
+
+#: src-en/data/events_sector_ministry.xml:588
+msgid ""
+"data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_TOURIST\"]/choice[@req=\"zoltan_peacekeeper\"]/event/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_ministry.xml:594
+msgid ""
+"data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_TOURIST\"]/choice[3]/text"
 msgstr "Не обращать на них внимания."
 
-#: src-en/data/events_sector_ministry.xml:578
+#: src-en/data/events_sector_ministry.xml:596
 msgid ""
-"data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_TOURIST\"]/choice[2]/event/text"
+"data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_TOURIST\"]/choice[3]/event/text"
 msgstr ""
 "В конце концов гражданских выгнали за пределы досягаемости, и вы остались "
 "одни."
 
-#: src-en/data/events_sector_ministry.xml:580
+#: src-en/data/events_sector_ministry.xml:598
 msgid ""
-"data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_TOURIST\"]/choice[2]/event/choice[1]/text"
+"data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_TOURIST\"]/choice[3]/event/choice[1]/text"
 msgstr "Заняться чем-либо на корабле."
 
-#: src-en/data/events_sector_ministry.xml:584
+#: src-en/data/events_sector_ministry.xml:602
 msgid ""
-"data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_TOURIST\"]/choice[2]/event/choice[2]/text"
+"data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_TOURIST\"]/choice[3]/event/choice[2]/text"
 msgstr "Ничего не делать."
 
-#: src-en/data/events_sector_ministry.xml:592
+#: src-en/data/events_sector_ministry.xml:610
 msgid "data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_TICKET\"]/text"
 msgstr ""
 "Через некоторое время после того, как вы вошли в систему, вас вызывает "
@@ -872,46 +906,64 @@ msgstr ""
 "лимит веса для транспортных средств класса крейсер в этой зоне. Ваш штраф "
 "составляет: 10 лома\"."
 
-#: src-en/data/events_sector_ministry.xml:595
+#: src-en/data/events_sector_ministry.xml:613
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_TICKET\"]/choice[1]/text"
 msgstr "Нет уж, мы сразимся с кораблем."
 
-#: src-en/data/events_sector_ministry.xml:597
+#: src-en/data/events_sector_ministry.xml:615
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_TICKET\"]/choice[1]/event/text"
 msgstr "\"Зарегистрированы враждебные действия. Подготовка к обороне\"."
 
-#: src-en/data/events_sector_ministry.xml:600
+#: src-en/data/events_sector_ministry.xml:618
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_TICKET\"]/choice[1]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_ministry.xml:606
+#: src-en/data/events_sector_ministry.xml:624
 msgid ""
-"data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_TICKET\"]/choice[2]/text"
+"data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_TICKET\"]/choice[@req=\"unique_mafan\"]/text"
+msgstr "(Мафан) Обсудить штраф с автоматическим кораблем."
+
+#: src-en/data/events_sector_ministry.xml:626
+msgid ""
+"data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_TICKET\"]/choice[@req=\"unique_mafan\"]/event/text"
+msgstr ""
+"\"Протокол-С36-T здесь не действует, на этом корабле установлен МВ-привод! "
+"Вы должны использовать форму С36-T-МВ для расчета новых весовых ограничений "
+"корабля, затем добавить коэффициент вычитания для личной грузоподъемности "
+"каждого члена экипажа. Затем учесть освобождение от платы за нашу "
+"подкатегорию как научного судна из-за моего присутствия...\" Вы уверены, что"
+" Мафан мог бы продолжать весь день, но где-то в золтанском корабле, "
+"пытающемся следовать логике Мафана, происходит короткое замыкание, и корабль"
+" взрывается!"
+
+#: src-en/data/events_sector_ministry.xml:631
+msgid ""
+"data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_TICKET\"]/choice[3]/text"
 msgstr "Неважно, просто заплатить штраф."
 
-#: src-en/data/events_sector_ministry.xml:608
+#: src-en/data/events_sector_ministry.xml:633
 msgid ""
-"data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_TICKET\"]/choice[2]/event/text"
+"data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_TICKET\"]/choice[3]/event/text"
 msgstr "\"Штраф оплачен. Хорошего дня\"."
 
-#: src-en/data/events_sector_ministry.xml:630
+#: src-en/data/events_sector_ministry.xml:655
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_FREEMANTIS_FRIENDLY\"]/text"
 msgstr ""
-"Свободные Богомолы и золтаны не очень-то ладят друг с другом, поэтому видеть "
-"корабль Свободных Богомолов так далеко в пространстве золтанов довольно "
+"Свободные Богомолы и золтаны не очень-то ладят друг с другом, поэтому видеть"
+" корабль Свободных Богомолов так далеко в пространстве золтанов довольно "
 "странно. Корабль пограничной полиции Миротворцев состыковался с огромным "
 "кораблем Свободных Богомолов, что не может означать ничего хорошего."
 
-#: src-en/data/events_sector_ministry.xml:633
+#: src-en/data/events_sector_ministry.xml:658
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_FREEMANTIS_FRIENDLY\"]/choice[1]/text"
 msgstr "Состыковаться и посмотреть, что там происходит."
 
-#: src-en/data/events_sector_ministry.xml:635
+#: src-en/data/events_sector_ministry.xml:660
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_FREEMANTIS_FRIENDLY\"]/choice[1]/event/text"
 msgstr ""
@@ -920,12 +972,12 @@ msgstr ""
 "\"Остановитесь, остановитесь! Я не хочу насилия, только дружелюбия!\", но "
 "золтан его не слушает."
 
-#: src-en/data/events_sector_ministry.xml:637
+#: src-en/data/events_sector_ministry.xml:662
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_FREEMANTIS_FRIENDLY\"]/choice[1]/event/choice[1]/text"
 msgstr "Оттащить золтана от Свободного Богомола."
 
-#: src-en/data/events_sector_ministry.xml:639
+#: src-en/data/events_sector_ministry.xml:664
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_FREEMANTIS_FRIENDLY\"]/choice[1]/event/choice[1]/event/text"
 msgstr ""
@@ -934,17 +986,17 @@ msgstr ""
 " может сделать, это вмешиваться в чужие дела, не так ли? Я поставлю вас на "
 "ваше проклятое место!\" Золтан отдает приказ своим людям атаковать!"
 
-#: src-en/data/events_sector_ministry.xml:642
+#: src-en/data/events_sector_ministry.xml:667
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_FREEMANTIS_FRIENDLY\"]/choice[1]/event/choice[1]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_ministry.xml:648
+#: src-en/data/events_sector_ministry.xml:673
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_FREEMANTIS_FRIENDLY\"]/choice[1]/event/choice[2]/text"
 msgstr "Попытаться образумить золтана."
 
-#: src-en/data/events_sector_ministry.xml:650
+#: src-en/data/events_sector_ministry.xml:675
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_FREEMANTIS_FRIENDLY\"]/choice[1]/event/choice[2]/event/text"
 msgstr ""
@@ -953,22 +1005,22 @@ msgstr ""
 " дела. Может быть, Вестники Заката правы, и все вы, мерзавцы, заслуживаете "
 "смерти\". Миротворец отдает приказ своим людям атаковать!"
 
-#: src-en/data/events_sector_ministry.xml:653
+#: src-en/data/events_sector_ministry.xml:678
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_FREEMANTIS_FRIENDLY\"]/choice[1]/event/choice[2]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_ministry.xml:659
+#: src-en/data/events_sector_ministry.xml:684
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_FREEMANTIS_FRIENDLY\"]/choice[1]/event/choice[@req=\"LIST_CREW_ZOLTAN_CAPITAL\"]/text"
 msgstr "(Член экипажа из Министерства) Пусть ваш золтан поговорит с ними."
 
-#: src-en/data/events_sector_ministry.xml:663
+#: src-en/data/events_sector_ministry.xml:688
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_FREEMANTIS_FRIENDLY\"]/choice[1]/event/choice[@req=\"ZOLTAN_DELETER\"]/text"
 msgstr "(\"Стиратель\" золтан) Прочь."
 
-#: src-en/data/events_sector_ministry.xml:665
+#: src-en/data/events_sector_ministry.xml:690
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_FREEMANTIS_FRIENDLY\"]/choice[1]/event/choice[@req=\"ZOLTAN_DELETER\"]/event/text"
 msgstr ""
@@ -977,43 +1029,36 @@ msgstr ""
 "Федерации, мы пришли сюда только для того, чтобы подружиться, но золтаны нам"
 " не доверяют. Я иду с вами, гораздо дружелюбнее\"."
 
-#: src-en/data/events_sector_ministry.xml:672
+#: src-en/data/events_sector_ministry.xml:697
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_FREEMANTIS_FRIENDLY\"]/choice[2]/text"
 msgstr "Не обращать внимания на корабли."
 
-#: src-en/data/events_sector_ministry.xml:674
+#: src-en/data/events_sector_ministry.xml:699
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_FREEMANTIS_FRIENDLY\"]/choice[2]/event/text"
 msgstr ""
 "Ни за что не стоит связываться с пограничной полицией золтан в их столице."
 
-#: src-en/data/events_sector_ministry.xml:676
+#: src-en/data/events_sector_ministry.xml:701
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_FREEMANTIS_FRIENDLY\"]/choice[2]/event/choice[1]/text"
 msgstr "Заняться чем-либо на корабле."
 
-#: src-en/data/events_sector_ministry.xml:680
+#: src-en/data/events_sector_ministry.xml:705
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_FREEMANTIS_FRIENDLY\"]/choice[2]/event/choice[2]/text"
 msgstr "Ничего не делать."
 
-#: src-en/data/events_sector_ministry.xml:687
+#: src-en/data/events_sector_ministry.xml:712
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_FREEMANTIS_FRIENDLY_REASON_ZOLTAN\"]/text"
 msgstr ""
-"\"Что вы делаете? Разве это действительно сохранение мира? Министерство "
-"выступает за законное правосудие, а вы нападаете на беззащитного богомола! "
-"Разве для этого вы подписались на службу?\"\n"
+"\"Что вы делаете? Разве это действительно сохранение мира? Министерство выступает за законное правосудие, а вы нападаете на беззащитного богомола! Разве для этого вы подписались на службу?\"\n"
 "\t\t\n"
-"Миротворец на мгновение замешкался. \"Я... не пытайтесь вмешиваться в дела, "
-"которые вас не касаются, Федерация!\" Золтан начинает говорить дальше, но "
-"его тут же разрезает на две части свободный богомол, который вскочил с пола, "
-"пока золтан отвлекся. Вы спешите вернуться на корабль, пока корабль "
-"Миротворцев не заметил, что что-то не так, но уже слишком поздно. Вы "
-"сбегаете с корабля, но команда золтан проникает на его борт!"
+"Миротворец на мгновение замешкался. \"Я... не пытайтесь вмешиваться в дела, которые вас не касаются, Федерация!\" Золтан начинает говорить дальше, но его тут же разрезает на две части свободный богомол, который вскочил с пола, пока золтан отвлекся. Вы спешите вернуться на корабль, пока корабль Миротворцев не заметил, что что-то не так, но уже слишком поздно. Вы сбегаете с корабля, но команда золтан проникает на его борт!"
 
-#: src-en/data/events_sector_ministry.xml:699
+#: src-en/data/events_sector_ministry.xml:724
 msgid "data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_REVOLT\"]/text"
 msgstr ""
 "Несмотря на высокомерие золтанов в отношении своего якобы высшего "
@@ -1022,12 +1067,12 @@ msgstr ""
 "названия, для \"поддержания мира\". Похоже, что на расположенной неподалеку "
 "планете начались массовые беспорядки."
 
-#: src-en/data/events_sector_ministry.xml:702
+#: src-en/data/events_sector_ministry.xml:727
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_REVOLT\"]/choice[1]/text"
 msgstr "Приблизиться, чтобы рассмотреть хаос."
 
-#: src-en/data/events_sector_ministry.xml:704
+#: src-en/data/events_sector_ministry.xml:729
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_REVOLT\"]/choice[1]/event/text"
 msgstr ""
@@ -1037,79 +1082,79 @@ msgstr ""
 "Миротворцев, а орбитальные спутники открыли огонь по толпам невинных людей, "
 "пытающихся спастись бегством."
 
-#: src-en/data/events_sector_ministry.xml:706
+#: src-en/data/events_sector_ministry.xml:731
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_REVOLT\"]/choice[1]/event/choice[1]/text"
 msgstr "Принять участие в сражении - помочь гражданским золтан."
 
-#: src-en/data/events_sector_ministry.xml:708
+#: src-en/data/events_sector_ministry.xml:733
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_REVOLT\"]/choice[1]/event/choice[1]/event/text"
 msgstr ""
 "Вы решили помочь гражданским. Вы атакуете один из кораблей Миротворцев."
 
-#: src-en/data/events_sector_ministry.xml:711
+#: src-en/data/events_sector_ministry.xml:736
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_REVOLT\"]/choice[1]/event/choice[1]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_ministry.xml:717
+#: src-en/data/events_sector_ministry.xml:742
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_REVOLT\"]/choice[1]/event/choice[2]/text"
 msgstr "Принять участие в сражении - помочь Миротворцам."
 
-#: src-en/data/events_sector_ministry.xml:719
+#: src-en/data/events_sector_ministry.xml:744
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_REVOLT\"]/choice[1]/event/choice[2]/event/text"
 msgstr ""
 "Вы решили помочь Миротворцам. Вы атакуете один из кораблей Вестников Заката."
 
-#: src-en/data/events_sector_ministry.xml:722
+#: src-en/data/events_sector_ministry.xml:747
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_REVOLT\"]/choice[1]/event/choice[2]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_ministry.xml:728
+#: src-en/data/events_sector_ministry.xml:753
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_REVOLT\"]/choice[1]/event/choice[@req=\"cloaking\"]/text"
 msgstr ""
 "(Маскировка) Замаскироваться и ограбить несколько зданий, пока все "
 "отвлечены."
 
-#: src-en/data/events_sector_ministry.xml:730
+#: src-en/data/events_sector_ministry.xml:755
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_REVOLT\"]/choice[1]/event/choice[@req=\"cloaking\"]/event/text"
 msgstr ""
 "Вы спускаетесь вниз, чтобы как можно быстрее собрать припасы и улететь."
 
-#: src-en/data/events_sector_ministry.xml:735
+#: src-en/data/events_sector_ministry.xml:760
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_REVOLT\"]/choice[1]/event/choice[4]/text"
 msgstr "Быстро уходим отсюда."
 
-#: src-en/data/events_sector_ministry.xml:741
+#: src-en/data/events_sector_ministry.xml:766
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_REVOLT\"]/choice[2]/text"
-msgstr "Это не наше дело, не обращать на них внимания."
+msgstr "Это не наше дело, не обращать на него внимания."
 
-#: src-en/data/events_sector_ministry.xml:743
+#: src-en/data/events_sector_ministry.xml:768
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_REVOLT\"]/choice[2]/event/text"
 msgstr ""
 "Вмешиваться в дела всех встречных - не ваша обязанность. Вы не обращаете "
 "внимания на хаос внизу."
 
-#: src-en/data/events_sector_ministry.xml:745
+#: src-en/data/events_sector_ministry.xml:770
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_REVOLT\"]/choice[2]/event/choice[1]/text"
 msgstr "Заняться чем-либо на корабле."
 
-#: src-en/data/events_sector_ministry.xml:749
+#: src-en/data/events_sector_ministry.xml:774
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_REVOLT\"]/choice[2]/event/choice[2]/text"
 msgstr "Ничего не делать."
 
-#: src-en/data/events_sector_ministry.xml:757
+#: src-en/data/events_sector_ministry.xml:782
 msgid ""
 "data/events_sector_ministry.xml$//eventList[@name=\"ZOLTAN_REVOLT_CIVILIANS_HELP\"]/event[1]/text"
 msgstr ""
@@ -1117,7 +1162,7 @@ msgstr ""
 " не дожидаясь новых жертв. Похоже, ваши усилия не остались незамеченными, и "
 "гражданские приносят вам большую награду за помощь."
 
-#: src-en/data/events_sector_ministry.xml:761
+#: src-en/data/events_sector_ministry.xml:786
 msgid ""
 "data/events_sector_ministry.xml$//eventList[@name=\"ZOLTAN_REVOLT_CIVILIANS_HELP\"]/event[2]/text"
 msgstr ""
@@ -1125,7 +1170,7 @@ msgstr ""
 " не дожидаясь новых жертв. Похоже, ваши усилия не остались незамеченными, и "
 "гражданские приносят вам большую награду за помощь."
 
-#: src-en/data/events_sector_ministry.xml:765
+#: src-en/data/events_sector_ministry.xml:790
 msgid ""
 "data/events_sector_ministry.xml$//eventList[@name=\"ZOLTAN_REVOLT_CIVILIANS_HELP\"]/event[3]/text"
 msgstr ""
@@ -1133,7 +1178,7 @@ msgstr ""
 "разбиты, и Миротворцы вновь захватили город. Вы спасаетесь бегством, пока "
 "они не успели отправиться за вами."
 
-#: src-en/data/events_sector_ministry.xml:770
+#: src-en/data/events_sector_ministry.xml:795
 msgid ""
 "data/events_sector_ministry.xml$//eventList[@name=\"ZOLTAN_REVOLT_PEACE_HELP\"]/event[1]/text"
 msgstr ""
@@ -1142,7 +1187,7 @@ msgstr ""
 "потому что Миротворцы приняли к сведению ваши усилия по оказанию им помощи и"
 " заплатили вам ломом."
 
-#: src-en/data/events_sector_ministry.xml:774
+#: src-en/data/events_sector_ministry.xml:799
 msgid ""
 "data/events_sector_ministry.xml$//eventList[@name=\"ZOLTAN_REVOLT_PEACE_HELP\"]/event[2]/text"
 msgstr ""
@@ -1151,7 +1196,7 @@ msgstr ""
 "столицы бегут, к вашему кораблю подбегает одинокий солдат и предлагает "
 "присоединиться к вам, чтобы он мог сбежать."
 
-#: src-en/data/events_sector_ministry.xml:778
+#: src-en/data/events_sector_ministry.xml:803
 msgid ""
 "data/events_sector_ministry.xml$//eventList[@name=\"ZOLTAN_REVOLT_PEACE_HELP\"]/event[3]/text"
 msgstr ""
@@ -1162,7 +1207,7 @@ msgstr ""
 "здания падают на землю! С неба падает целая тьма бомб Вестников Заката, "
 "превращая город в пепел. Вы улетаете как можно быстрее."
 
-#: src-en/data/events_sector_ministry.xml:796
+#: src-en/data/events_sector_ministry.xml:821
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"DISTRESS_ZOLTAN_MANTIS_MV\"]/text"
 msgstr ""
@@ -1170,12 +1215,12 @@ msgstr ""
 "пиратами-богомолами в астероидное поле. Они сообщают вам: \"Ваше присутствие"
 " здесь будет терпимым, но, пожалуйста, не вмешивайтесь\"."
 
-#: src-en/data/events_sector_ministry.xml:800
+#: src-en/data/events_sector_ministry.xml:825
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"DISTRESS_ZOLTAN_MANTIS_MV\"]/choice[1]/text"
 msgstr "Вмешаться и спасти корабль богомолов."
 
-#: src-en/data/events_sector_ministry.xml:802
+#: src-en/data/events_sector_ministry.xml:827
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"DISTRESS_ZOLTAN_MANTIS_MV\"]/choice[1]/event/text"
 msgstr ""
@@ -1183,41 +1228,41 @@ msgstr ""
 "аутсайдером является боевой корабль богомолов. Вы отправляетесь в сердце "
 "астероидного поля и вступаете в бой с золтанами."
 
-#: src-en/data/events_sector_ministry.xml:806
+#: src-en/data/events_sector_ministry.xml:831
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"DISTRESS_ZOLTAN_MANTIS_MV\"]/choice[1]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_ministry.xml:812
+#: src-en/data/events_sector_ministry.xml:837
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"DISTRESS_ZOLTAN_MANTIS_MV\"]/choice[2]/text"
 msgstr "Вмешаться и помочь кораблю золтанов."
 
-#: src-en/data/events_sector_ministry.xml:814
+#: src-en/data/events_sector_ministry.xml:839
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"DISTRESS_ZOLTAN_MANTIS_MV\"]/choice[2]/event/text"
 msgstr ""
 "Вы обгоняете золтанов и догоняете корабль богомолов в поясе астероидов. Пора"
 " заводить друзей."
 
-#: src-en/data/events_sector_ministry.xml:818
+#: src-en/data/events_sector_ministry.xml:843
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"DISTRESS_ZOLTAN_MANTIS_MV\"]/choice[2]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_ministry.xml:824
+#: src-en/data/events_sector_ministry.xml:849
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"DISTRESS_ZOLTAN_MANTIS_MV\"]/choice[3]/text"
 msgstr "Не вмешиваться."
 
-#: src-en/data/events_sector_ministry.xml:826
+#: src-en/data/events_sector_ministry.xml:851
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"DISTRESS_ZOLTAN_MANTIS_MV\"]/choice[3]/event/text"
 msgstr ""
 "Золтаны знают свое дело лучше других - лучше позволить им делать свою "
 "работу. Вы готовитесь к прыжку."
 
-#: src-en/data/events_sector_ministry.xml:833
+#: src-en/data/events_sector_ministry.xml:858
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"DISTRESS_ZOLTAN_HUSK_MV\"]/text"
 msgstr ""
@@ -1225,17 +1270,17 @@ msgstr ""
 "штурвалом которого никого нет. Неизвестно, что случилось с экипажем, но было"
 " бы жаль упустить такую возможность."
 
-#: src-en/data/events_sector_ministry.xml:836
+#: src-en/data/events_sector_ministry.xml:861
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"DISTRESS_ZOLTAN_HUSK_MV\"]/choice[1]/text"
 msgstr "Заняться чем-либо на корабле."
 
-#: src-en/data/events_sector_ministry.xml:840
+#: src-en/data/events_sector_ministry.xml:865
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"DISTRESS_ZOLTAN_HUSK_MV\"]/choice[2]/text"
 msgstr "Ничего не делать."
 
-#: src-en/data/events_sector_ministry.xml:847
+#: src-en/data/events_sector_ministry.xml:872
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"DISTRESS_REFUGEE_ZOLTAN_MV\"]/text"
 msgstr ""
@@ -1243,34 +1288,34 @@ msgstr ""
 "спасался от наступления повстанцев, но у него закончилось топливо. Их маяк "
 "бедствия активен, но вы не уверены, что на борту кто-то есть."
 
-#: src-en/data/events_sector_ministry.xml:849
+#: src-en/data/events_sector_ministry.xml:874
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"DISTRESS_REFUGEE_ZOLTAN_MV\"]/choice[1]/text"
 msgstr "Выйти с ними на связь."
 
-#: src-en/data/events_sector_ministry.xml:853
+#: src-en/data/events_sector_ministry.xml:878
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"DISTRESS_REFUGEE_ZOLTAN_MV\"]/choice[2]/text"
 msgstr "Не обращать внимания на беженцев."
 
-#: src-en/data/events_sector_ministry.xml:855
+#: src-en/data/events_sector_ministry.xml:880
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"DISTRESS_REFUGEE_ZOLTAN_MV\"]/choice[2]/event/text"
 msgstr ""
 "Корабль беженцев представляет потенциальную угрозу, но решаете, что можете "
 "без особых опасений заняться чем-либо на корабле."
 
-#: src-en/data/events_sector_ministry.xml:857
+#: src-en/data/events_sector_ministry.xml:882
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"DISTRESS_REFUGEE_ZOLTAN_MV\"]/choice[2]/event/choice[1]/text"
 msgstr "Заняться чем-либо на корабле."
 
-#: src-en/data/events_sector_ministry.xml:861
+#: src-en/data/events_sector_ministry.xml:886
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"DISTRESS_REFUGEE_ZOLTAN_MV\"]/choice[2]/event/choice[2]/text"
 msgstr "Ничего не делать."
 
-#: src-en/data/events_sector_ministry.xml:870
+#: src-en/data/events_sector_ministry.xml:895
 msgid ""
 "data/events_sector_ministry.xml$//eventList[@name=\"REFUGEE_HAIL_LIST_ZOLTAN_MV\"]/event[2]/text"
 msgstr ""
@@ -1279,12 +1324,12 @@ msgstr ""
 "преступники, и обвиняет вас в том, что вы сопровождаете беглецов! Прежде чем"
 " вы успеваете ответить, они отключают связь и начинают заряжать свои орудия!"
 
-#: src-en/data/events_sector_ministry.xml:873
+#: src-en/data/events_sector_ministry.xml:898
 msgid ""
 "data/events_sector_ministry.xml$//eventList[@name=\"REFUGEE_HAIL_LIST_ZOLTAN_MV\"]/event[2]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_ministry.xml:890
+#: src-en/data/events_sector_ministry.xml:915
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"DISTRESS_ZOLTAN_ARREST\"]/text"
 msgstr ""
@@ -1292,63 +1337,63 @@ msgstr ""
 "активировали маяк бедствия и отправили вам короткое сообщение с просьбой о "
 "помощи."
 
-#: src-en/data/events_sector_ministry.xml:892
+#: src-en/data/events_sector_ministry.xml:917
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"DISTRESS_ZOLTAN_ARREST\"]/choice[1]/text"
 msgstr "Помочь пиратам и напасть на золтан."
 
-#: src-en/data/events_sector_ministry.xml:894
+#: src-en/data/events_sector_ministry.xml:919
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"DISTRESS_ZOLTAN_ARREST\"]/choice[1]/event/text"
 msgstr "Вы заряжаете оружие и вступаете в бой с кораблем золтан."
 
-#: src-en/data/events_sector_ministry.xml:897
+#: src-en/data/events_sector_ministry.xml:922
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"DISTRESS_ZOLTAN_ARREST\"]/choice[1]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_ministry.xml:903
+#: src-en/data/events_sector_ministry.xml:928
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"DISTRESS_ZOLTAN_ARREST\"]/choice[2]/text"
 msgstr "Сообщить о пиратах золтанам."
 
-#: src-en/data/events_sector_ministry.xml:905
+#: src-en/data/events_sector_ministry.xml:930
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"DISTRESS_ZOLTAN_ARREST\"]/choice[2]/event/text"
 msgstr ""
 "Золтаны ворчливо благодарят вас и дают немного топлива, после чего "
 "возвращаются к разборкам с пиратами."
 
-#: src-en/data/events_sector_ministry.xml:910
+#: src-en/data/events_sector_ministry.xml:935
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"DISTRESS_ZOLTAN_ARREST\"]/choice[3]/text"
 msgstr "Не обращать внимания на пиратов."
 
-#: src-en/data/events_sector_ministry.xml:912
+#: src-en/data/events_sector_ministry.xml:937
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"DISTRESS_ZOLTAN_ARREST\"]/choice[3]/event/text"
 msgstr ""
 "Пираты не посылают вам никаких дальнейших сообщений, и все они поднимаются "
 "на борт корабля золтанов, который вскоре ходит в прыжок."
 
-#: src-en/data/events_sector_ministry.xml:914
+#: src-en/data/events_sector_ministry.xml:939
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"DISTRESS_ZOLTAN_ARREST\"]/choice[3]/event/choice[1]/text"
 msgstr "Заняться чем-либо на корабле."
 
-#: src-en/data/events_sector_ministry.xml:918
+#: src-en/data/events_sector_ministry.xml:943
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"DISTRESS_ZOLTAN_ARREST\"]/choice[3]/event/choice[2]/text"
 msgstr "Ничего не делать."
 
-#: src-en/data/events_sector_ministry.xml:926
+#: src-en/data/events_sector_ministry.xml:951
 msgid ""
 "data/events_sector_ministry.xml$//eventList[@name=\"DISTRESS_CAPITAL_ARREST_WIN\"]/event[1]/text"
 msgstr ""
 "Оказывается, пираты оказались работорговцами. Благодарные за помощь, они "
 "предлагают вам бесплатно одного из своих \"работников\"."
 
-#: src-en/data/events_sector_ministry.xml:930
+#: src-en/data/events_sector_ministry.xml:955
 msgid ""
 "data/events_sector_ministry.xml$//eventList[@name=\"DISTRESS_CAPITAL_ARREST_WIN\"]/event[2]/text"
 msgstr ""
@@ -1356,7 +1401,7 @@ msgstr ""
 "повстанцами. После неловкого молчания вы договариваетесь о сделке, и они "
 "обещают солгать флоту."
 
-#: src-en/data/events_sector_ministry.xml:934
+#: src-en/data/events_sector_ministry.xml:959
 msgid ""
 "data/events_sector_ministry.xml$//eventList[@name=\"DISTRESS_CAPITAL_ARREST_WIN\"]/event[3]/text"
 msgstr ""
@@ -1364,7 +1409,7 @@ msgstr ""
 "на них, что привело к их аресту. Теперь, когда вы их спасли, они предлагают "
 "продать его вам."
 
-#: src-en/data/events_sector_ministry.xml:941
+#: src-en/data/events_sector_ministry.xml:966
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"DISTRESS_ZOLTAN_RAID\"]/text"
 msgstr ""
@@ -1373,12 +1418,12 @@ msgstr ""
 "поступает с корабля командира. Похоже, они слишком заняты, чтобы заметить "
 "вас."
 
-#: src-en/data/events_sector_ministry.xml:944
+#: src-en/data/events_sector_ministry.xml:969
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"DISTRESS_ZOLTAN_RAID\"]/choice[1]/text"
 msgstr "Связаться с ними и предложить помощь."
 
-#: src-en/data/events_sector_ministry.xml:946
+#: src-en/data/events_sector_ministry.xml:971
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"DISTRESS_ZOLTAN_RAID\"]/choice[1]/event/text"
 msgstr ""
@@ -1387,12 +1432,12 @@ msgstr ""
 "систему нападает множество кораблей повстанцев! Если вы собираетесь помочь, "
 "то делайте это быстро!\""
 
-#: src-en/data/events_sector_ministry.xml:948
+#: src-en/data/events_sector_ministry.xml:973
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"DISTRESS_ZOLTAN_RAID\"]/choice[1]/event/choice[1]/text"
 msgstr "Атаковать один из небольших кораблей повстанцев."
 
-#: src-en/data/events_sector_ministry.xml:950
+#: src-en/data/events_sector_ministry.xml:975
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"DISTRESS_ZOLTAN_RAID\"]/choice[1]/event/choice[1]/event/text"
 msgstr ""
@@ -1400,62 +1445,62 @@ msgstr ""
 "необходимости приходят на помощь своим товарищам. Вы выбираете корабль "
 "наугад и атакуете."
 
-#: src-en/data/events_sector_ministry.xml:953
+#: src-en/data/events_sector_ministry.xml:978
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"DISTRESS_ZOLTAN_RAID\"]/choice[1]/event/choice[1]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_ministry.xml:959
+#: src-en/data/events_sector_ministry.xml:984
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"DISTRESS_ZOLTAN_RAID\"]/choice[1]/event/choice[2]/text"
 msgstr "Взять на себя один из элитных кораблей."
 
-#: src-en/data/events_sector_ministry.xml:961
+#: src-en/data/events_sector_ministry.xml:986
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"DISTRESS_ZOLTAN_RAID\"]/choice[1]/event/choice[2]/event/text"
 msgstr ""
 "Основной импульс атаки обеспечивают корабли элиты. Вы перехватываете один из"
 " них и атакуете."
 
-#: src-en/data/events_sector_ministry.xml:964
+#: src-en/data/events_sector_ministry.xml:989
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"DISTRESS_ZOLTAN_RAID\"]/choice[1]/event/choice[2]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_ministry.xml:970
+#: src-en/data/events_sector_ministry.xml:995
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"DISTRESS_ZOLTAN_RAID\"]/choice[1]/event/choice[3]/text"
 msgstr "Взять на себя корабль, который возглавляет эскадру."
 
-#: src-en/data/events_sector_ministry.xml:972
+#: src-en/data/events_sector_ministry.xml:997
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"DISTRESS_ZOLTAN_RAID\"]/choice[1]/event/choice[3]/event/text"
 msgstr ""
 "Силы повстанцев возглавляет мощный корабль асов МФК. Если вы сможете "
 "уничтожить его, золтаны смогут выиграть эту битву."
 
-#: src-en/data/events_sector_ministry.xml:975
+#: src-en/data/events_sector_ministry.xml:1000
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"DISTRESS_ZOLTAN_RAID\"]/choice[1]/event/choice[3]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_ministry.xml:983
+#: src-en/data/events_sector_ministry.xml:1008
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"DISTRESS_ZOLTAN_RAID\"]/choice[2]/text"
 msgstr "Это хаос, уходим."
 
-#: src-en/data/events_sector_ministry.xml:988
+#: src-en/data/events_sector_ministry.xml:1013
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"CAPITAL_RAID_BORING_WIN\"]/text"
 msgstr ""
 "Вы разбираете останки корабля повстанцев, в то время как вдали бушует битва."
 
-#: src-en/data/events_sector_ministry.xml:991
+#: src-en/data/events_sector_ministry.xml:1016
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"CAPITAL_RAID_BORING_WIN\"]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_ministry.xml:993
+#: src-en/data/events_sector_ministry.xml:1018
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"CAPITAL_RAID_BORING_WIN\"]/choice/event/text"
 msgstr ""
@@ -1463,19 +1508,19 @@ msgstr ""
 "решаете, что самое время уйти, пока на вас не напал еще один корабль "
 "повстанцев."
 
-#: src-en/data/events_sector_ministry.xml:998
+#: src-en/data/events_sector_ministry.xml:1023
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"CAPITAL_RAID_ELITE_WIN\"]/text"
 msgstr ""
 "Вы разбираете останки элитного корабля повстанцев, в то время как вдали "
 "бушует битва."
 
-#: src-en/data/events_sector_ministry.xml:1001
+#: src-en/data/events_sector_ministry.xml:1026
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"CAPITAL_RAID_ELITE_WIN\"]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_ministry.xml:1003
+#: src-en/data/events_sector_ministry.xml:1028
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"CAPITAL_RAID_ELITE_WIN\"]/choice/event/text"
 msgstr ""
@@ -1483,17 +1528,17 @@ msgstr ""
 "решаете, что самое время уйти, пока на вас не напал еще один корабль "
 "повстанцев."
 
-#: src-en/data/events_sector_ministry.xml:1008
+#: src-en/data/events_sector_ministry.xml:1033
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"CAPITAL_RAID_SELITE_WIN\"]/text"
 msgstr "Ас МФК был обезврежен. Вы разбираете останки корабля."
 
-#: src-en/data/events_sector_ministry.xml:1011
+#: src-en/data/events_sector_ministry.xml:1036
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"CAPITAL_RAID_SELITE_WIN\"]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_ministry.xml:1013
+#: src-en/data/events_sector_ministry.xml:1038
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"CAPITAL_RAID_SELITE_WIN\"]/choice/event/text"
 msgstr ""
@@ -1501,30 +1546,30 @@ msgstr ""
 " лидера, передумывают и начинают отступать. За считанные минуты войска "
 "золтан проходят путь от близкого поражения до убедительной победы."
 
-#: src-en/data/events_sector_ministry.xml:1015
+#: src-en/data/events_sector_ministry.xml:1040
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"CAPITAL_RAID_SELITE_WIN\"]/choice/event/choice/text"
 msgstr "Связаться с золтанами."
 
-#: src-en/data/events_sector_ministry.xml:1017
+#: src-en/data/events_sector_ministry.xml:1042
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"CAPITAL_RAID_SELITE_WIN\"]/choice/event/choice/event/text"
 msgstr ""
 "\"Вы спасли нас от страшного поражения. Мы благодарны вам за помощь. "
 "Позвольте мне отплатить вам наш долг\"."
 
-#: src-en/data/events_sector_ministry.xml:1038
+#: src-en/data/events_sector_ministry.xml:1063
 msgid "data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_LAWBOOK\"]/text"
 msgstr ""
 "Миротворцы золтан отстали от своего флота у этого маяка и что-то ищут. Они "
 "быстро связываются с вами, спрашивая, не можете ли вы оказать им услугу."
 
-#: src-en/data/events_sector_ministry.xml:1041
+#: src-en/data/events_sector_ministry.xml:1066
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_LAWBOOK\"]/choice[1]/text"
 msgstr "Узнать детали."
 
-#: src-en/data/events_sector_ministry.xml:1043
+#: src-en/data/events_sector_ministry.xml:1068
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_LAWBOOK\"]/choice[1]/event/text"
 msgstr ""
@@ -1535,48 +1580,48 @@ msgstr ""
 "готовы найти ее? Мы дадим координаты одной из локаций, на которой, по нашим "
 "предположениям, она может находиться\"."
 
-#: src-en/data/events_sector_ministry.xml:1045
+#: src-en/data/events_sector_ministry.xml:1070
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_LAWBOOK\"]/choice[1]/event/choice[1]/text"
 msgstr "Согласиться."
 
-#: src-en/data/events_sector_ministry.xml:1047
+#: src-en/data/events_sector_ministry.xml:1072
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_LAWBOOK\"]/choice[1]/event/choice[1]/event/text"
 msgstr ""
 "Золтаны передают предполагаемое местонахождение своей юридической книги."
 
-#: src-en/data/events_sector_ministry.xml:1052
+#: src-en/data/events_sector_ministry.xml:1077
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_LAWBOOK\"]/choice[1]/event/choice[2]/text"
 msgstr "Отказаться."
 
-#: src-en/data/events_sector_ministry.xml:1058
+#: src-en/data/events_sector_ministry.xml:1083
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_LAWBOOK\"]/choice[2]/text"
 msgstr "Нет, спасибо, мы не ищем подработок или наемничества."
 
-#: src-en/data/events_sector_ministry.xml:1060
+#: src-en/data/events_sector_ministry.xml:1085
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_LAWBOOK\"]/choice[2]/event/text"
 msgstr "Золтаны начинают протестовать, но сдаются и возвращаются к поискам."
 
-#: src-en/data/events_sector_ministry.xml:1062
+#: src-en/data/events_sector_ministry.xml:1087
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_LAWBOOK\"]/choice[2]/event/choice[1]/text"
 msgstr "Заняться чем-либо на корабле."
 
-#: src-en/data/events_sector_ministry.xml:1066
+#: src-en/data/events_sector_ministry.xml:1091
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_LAWBOOK\"]/choice[2]/event/choice[2]/text"
 msgstr "Ничего не делать."
 
-#: src-en/data/events_sector_ministry.xml:1080
+#: src-en/data/events_sector_ministry.xml:1105
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_QUEST_LAWBOOK_PIRATE\"]/beaconType/unvisitedTooltip"
 msgstr "Предположительное местонахождение утерянной книги законов золтанов."
 
-#: src-en/data/events_sector_ministry.xml:1082
+#: src-en/data/events_sector_ministry.xml:1107
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_QUEST_LAWBOOK_PIRATE\"]/text"
 msgstr ""
@@ -1585,108 +1630,108 @@ msgstr ""
 "том, что мы можем продать ее за огромную цену как артефакт на черном рынке. "
 "Так что, если вы хотите ее вернуть, вам придется нам заплатить\"."
 
-#: src-en/data/events_sector_ministry.xml:1085
+#: src-en/data/events_sector_ministry.xml:1110
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_QUEST_LAWBOOK_PIRATE\"]/choice[1]/text"
 msgstr "Заплатить за юридическую книгу."
 
-#: src-en/data/events_sector_ministry.xml:1087
+#: src-en/data/events_sector_ministry.xml:1112
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_QUEST_LAWBOOK_PIRATE\"]/choice[1]/event/text"
 msgstr ""
 "Это чертовски невыгодно, но вы готовы пойти на это, если это означает, что "
 "вам не придется бороться с контрабандистами."
 
-#: src-en/data/events_sector_ministry.xml:1092
+#: src-en/data/events_sector_ministry.xml:1117
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_QUEST_LAWBOOK_PIRATE\"]/choice[1]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_ministry.xml:1098
+#: src-en/data/events_sector_ministry.xml:1123
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_QUEST_LAWBOOK_PIRATE\"]/choice[2]/text"
 msgstr "Просто сразиться с ними за книгу."
 
-#: src-en/data/events_sector_ministry.xml:1100
+#: src-en/data/events_sector_ministry.xml:1125
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_QUEST_LAWBOOK_PIRATE\"]/choice[2]/event/text"
 msgstr ""
 "Вы не будете платить им за эту чертову книгу. Вы просто возьмете ее у них."
 
-#: src-en/data/events_sector_ministry.xml:1103
+#: src-en/data/events_sector_ministry.xml:1128
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_QUEST_LAWBOOK_PIRATE\"]/choice[2]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_ministry.xml:1109
+#: src-en/data/events_sector_ministry.xml:1134
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_QUEST_LAWBOOK_PIRATE\"]/choice[3]/text"
 msgstr "Уйти."
 
-#: src-en/data/events_sector_ministry.xml:1111
+#: src-en/data/events_sector_ministry.xml:1136
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_QUEST_LAWBOOK_PIRATE\"]/choice[3]/event/text"
 msgstr "\"Хорошо-хорошо! Я снижу цену. Но только один раз!\""
 
-#: src-en/data/events_sector_ministry.xml:1113
+#: src-en/data/events_sector_ministry.xml:1138
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_QUEST_LAWBOOK_PIRATE\"]/choice[3]/event/choice[1]/text"
 msgstr "Заплатить за юридическую книгу."
 
-#: src-en/data/events_sector_ministry.xml:1115
+#: src-en/data/events_sector_ministry.xml:1140
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_QUEST_LAWBOOK_PIRATE\"]/choice[3]/event/choice[1]/event/text"
 msgstr ""
 "Это чертовски невыгодно, но вы готовы пойти на это, если это означает, что "
 "вам не придется бороться с контрабандистами."
 
-#: src-en/data/events_sector_ministry.xml:1120
+#: src-en/data/events_sector_ministry.xml:1145
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_QUEST_LAWBOOK_PIRATE\"]/choice[3]/event/choice[1]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_ministry.xml:1126
+#: src-en/data/events_sector_ministry.xml:1151
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_QUEST_LAWBOOK_PIRATE\"]/choice[3]/event/choice[2]/text"
 msgstr "Просто сразиться с ними за книгу."
 
-#: src-en/data/events_sector_ministry.xml:1128
+#: src-en/data/events_sector_ministry.xml:1153
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_QUEST_LAWBOOK_PIRATE\"]/choice[3]/event/choice[2]/event/text"
 msgstr ""
 "Вы не будете платить им за эту чертову книгу. Вы просто возьмете ее у них."
 
-#: src-en/data/events_sector_ministry.xml:1131
+#: src-en/data/events_sector_ministry.xml:1156
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_QUEST_LAWBOOK_PIRATE\"]/choice[3]/event/choice[2]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_ministry.xml:1137
+#: src-en/data/events_sector_ministry.xml:1162
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_QUEST_LAWBOOK_PIRATE\"]/choice[3]/event/choice[3]/text"
 msgstr "Нет, спасибо."
 
-#: src-en/data/events_sector_ministry.xml:1139
+#: src-en/data/events_sector_ministry.xml:1164
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_QUEST_LAWBOOK_PIRATE\"]/choice[3]/event/choice[3]/event/text"
 msgstr "Контрабандисты не хотят вести дальнейшие переговоры."
 
-#: src-en/data/events_sector_ministry.xml:1141
+#: src-en/data/events_sector_ministry.xml:1166
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_QUEST_LAWBOOK_PIRATE\"]/choice[3]/event/choice[3]/event/choice[1]/text"
 msgstr "Заняться чем-либо на корабле."
 
-#: src-en/data/events_sector_ministry.xml:1145
+#: src-en/data/events_sector_ministry.xml:1170
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_QUEST_LAWBOOK_PIRATE\"]/choice[3]/event/choice[3]/event/choice[2]/text"
 msgstr "Ничего не делать."
 
-#: src-en/data/events_sector_ministry.xml:1156
+#: src-en/data/events_sector_ministry.xml:1181
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_QUEST_LAWBOOK_DUSKBRINGER\"]/beaconType/unvisitedTooltip"
 msgstr "Предположительное местонахождение утерянной книги законов золтанов."
 
-#: src-en/data/events_sector_ministry.xml:1158
+#: src-en/data/events_sector_ministry.xml:1183
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_QUEST_LAWBOOK_DUSKBRINGER\"]/text"
 msgstr ""
@@ -1694,47 +1739,47 @@ msgstr ""
 "судна пиратов. Скорее всего, вам придется сражаться с ними, если вы хотите "
 "вернуть книгу."
 
-#: src-en/data/events_sector_ministry.xml:1161
+#: src-en/data/events_sector_ministry.xml:1186
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_QUEST_LAWBOOK_DUSKBRINGER\"]/choice[1]/text"
 msgstr "Забрать книгу законов."
 
-#: src-en/data/events_sector_ministry.xml:1163
+#: src-en/data/events_sector_ministry.xml:1188
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_QUEST_LAWBOOK_DUSKBRINGER\"]/choice[1]/event/text"
 msgstr "Вы готовитесь вступить в бой с кораблем Вестников Заката."
 
-#: src-en/data/events_sector_ministry.xml:1166
+#: src-en/data/events_sector_ministry.xml:1191
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_QUEST_LAWBOOK_DUSKBRINGER\"]/choice[1]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_ministry.xml:1172
+#: src-en/data/events_sector_ministry.xml:1197
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_QUEST_LAWBOOK_DUSKBRINGER\"]/choice[2]/text"
 msgstr "Уйти."
 
-#: src-en/data/events_sector_ministry.xml:1174
+#: src-en/data/events_sector_ministry.xml:1199
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_QUEST_LAWBOOK_DUSKBRINGER\"]/choice[2]/event/text"
 msgstr "Вы не заинтересованы в борьбе с кораблем Вестников Заката."
 
-#: src-en/data/events_sector_ministry.xml:1176
+#: src-en/data/events_sector_ministry.xml:1201
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_QUEST_LAWBOOK_DUSKBRINGER\"]/choice[2]/event/choice[1]/text"
 msgstr "Заняться чем-либо на корабле."
 
-#: src-en/data/events_sector_ministry.xml:1180
+#: src-en/data/events_sector_ministry.xml:1205
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_QUEST_LAWBOOK_DUSKBRINGER\"]/choice[2]/event/choice[2]/text"
 msgstr "Ничего не делать."
 
-#: src-en/data/events_sector_ministry.xml:1189
+#: src-en/data/events_sector_ministry.xml:1214
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_QUEST_LAWBOOK_ENGI\"]/beaconType/unvisitedTooltip"
 msgstr "Предположительное местонахождение утерянной книги законов золтанов."
 
-#: src-en/data/events_sector_ministry.xml:1191
+#: src-en/data/events_sector_ministry.xml:1216
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_QUEST_LAWBOOK_ENGI\"]/text"
 msgstr ""
@@ -1742,91 +1787,91 @@ msgstr ""
 "видел ли он потерянную книгу законов. \"Найден бумажный предмет с кодексом "
 "этики. Намерения: хранить книгу до возвращения владельца\"."
 
-#: src-en/data/events_sector_ministry.xml:1194
+#: src-en/data/events_sector_ministry.xml:1219
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_QUEST_LAWBOOK_ENGI\"]/choice[1]/text"
 msgstr "Сообщить энджи, что вас прислали золтаны."
 
-#: src-en/data/events_sector_ministry.xml:1196
+#: src-en/data/events_sector_ministry.xml:1221
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_QUEST_LAWBOOK_ENGI\"]/choice[1]/event/text"
 msgstr ""
 "\"Вероятность того, что золтаны пошлют корабль Федерации за книгой "
 "законов... высокая\". Они передают книгу."
 
-#: src-en/data/events_sector_ministry.xml:1198
+#: src-en/data/events_sector_ministry.xml:1223
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_QUEST_LAWBOOK_ENGI\"]/choice[1]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_ministry.xml:1204
+#: src-en/data/events_sector_ministry.xml:1229
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_QUEST_LAWBOOK_ENGI\"]/choice[2]/text"
 msgstr "Просто сразиться с ними за книгу."
 
-#: src-en/data/events_sector_ministry.xml:1206
+#: src-en/data/events_sector_ministry.xml:1231
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_QUEST_LAWBOOK_ENGI\"]/choice[2]/event/text"
 msgstr "Вы готовитесь вступить в бой с кораблем энджи."
 
-#: src-en/data/events_sector_ministry.xml:1209
+#: src-en/data/events_sector_ministry.xml:1234
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_QUEST_LAWBOOK_ENGI\"]/choice[2]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_ministry.xml:1215
+#: src-en/data/events_sector_ministry.xml:1240
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_QUEST_LAWBOOK_ENGI\"]/choice[3]/text"
 msgstr "Уйти."
 
-#: src-en/data/events_sector_ministry.xml:1217
+#: src-en/data/events_sector_ministry.xml:1242
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_QUEST_LAWBOOK_ENGI\"]/choice[3]/event/text"
 msgstr ""
 "Книга законов, скорее всего, находится в безопасности у энджи. Надеемся, что"
 " золтаны вернутся сюда, найдут энджи и вернут книгу."
 
-#: src-en/data/events_sector_ministry.xml:1219
+#: src-en/data/events_sector_ministry.xml:1244
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_QUEST_LAWBOOK_ENGI\"]/choice[3]/event/choice[1]/text"
 msgstr "Заняться чем-либо на корабле."
 
-#: src-en/data/events_sector_ministry.xml:1223
+#: src-en/data/events_sector_ministry.xml:1248
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_QUEST_LAWBOOK_ENGI\"]/choice[3]/event/choice[2]/text"
 msgstr "Ничего не делать."
 
-#: src-en/data/events_sector_ministry.xml:1230
+#: src-en/data/events_sector_ministry.xml:1255
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_QUEST_LAWBOOK_OBTAIN\"]/text"
 msgstr ""
 "Теперь, когда у вас есть книга законов, вы можете вернуться к месту "
 "нахождения корабля золтанов."
 
-#: src-en/data/events_sector_ministry.xml:1236
+#: src-en/data/events_sector_ministry.xml:1261
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_QUEST_LAWBOOK_RETURN\"]/beaconType/unvisitedTooltip"
 msgstr "Вернуть потерянную книгу законов здесь."
 
-#: src-en/data/events_sector_ministry.xml:1238
+#: src-en/data/events_sector_ministry.xml:1263
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_QUEST_LAWBOOK_RETURN\"]/text"
 msgstr ""
 "Вы снова нашли корабль золтанов. Вы передаете книгу законов, за что они вам "
 "очень благодарны. Они дают вам модуль и немного припасов."
 
-#: src-en/data/events_sector_ministry.xml:1244
+#: src-en/data/events_sector_ministry.xml:1269
 msgid "data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_LANIUS_CORE\"]/text"
 msgstr ""
 "К вашему удивлению, на этом маяке находится корабль ланиусов! Они не "
 "нападают, а передают вам сообщение."
 
-#: src-en/data/events_sector_ministry.xml:1247
+#: src-en/data/events_sector_ministry.xml:1272
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_LANIUS_CORE\"]/choice[1]/text"
 msgstr "Ответить."
 
-#: src-en/data/events_sector_ministry.xml:1249
+#: src-en/data/events_sector_ministry.xml:1274
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_LANIUS_CORE\"]/choice[1]/event/text"
 msgstr ""
@@ -1836,171 +1881,171 @@ msgstr ""
 " об услуге. Захватите корабль золтанов и доставьте ланиусам ядро щита, и они"
 " заплатят вам."
 
-#: src-en/data/events_sector_ministry.xml:1251
+#: src-en/data/events_sector_ministry.xml:1276
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_LANIUS_CORE\"]/choice[1]/event/choice[1]/text"
 msgstr "Согласиться."
 
-#: src-en/data/events_sector_ministry.xml:1253
+#: src-en/data/events_sector_ministry.xml:1278
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_LANIUS_CORE\"]/choice[1]/event/choice[1]/event/text"
 msgstr ""
 "\"Больше. Передача местоположения\". Ланиусы передает координаты корабля, с "
 "которого они хотят получить ядро."
 
-#: src-en/data/events_sector_ministry.xml:1258
+#: src-en/data/events_sector_ministry.xml:1283
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_LANIUS_CORE\"]/choice[1]/event/choice[2]/text"
 msgstr "Отказаться."
 
-#: src-en/data/events_sector_ministry.xml:1264
+#: src-en/data/events_sector_ministry.xml:1289
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_LANIUS_CORE\"]/choice[2]/text"
 msgstr "Атаковать!"
 
-#: src-en/data/events_sector_ministry.xml:1266
+#: src-en/data/events_sector_ministry.xml:1291
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_LANIUS_CORE\"]/choice[2]/event/text"
 msgstr "Если ланиусы не собираются атаковать, то это сделаете вы!"
 
-#: src-en/data/events_sector_ministry.xml:1269
+#: src-en/data/events_sector_ministry.xml:1294
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_LANIUS_CORE\"]/choice[2]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_ministry.xml:1275
+#: src-en/data/events_sector_ministry.xml:1300
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_LANIUS_CORE\"]/choice[3]/text"
 msgstr "Не обращать внимание на ланиусов."
 
-#: src-en/data/events_sector_ministry.xml:1281
+#: src-en/data/events_sector_ministry.xml:1306
 msgid ""
 "data/events_sector_ministry.xml$//eventList[@name=\"QUEST_ZOLTAN_LANIUS_CORE_IGNORE\"]/event[1]/text"
 msgstr ""
 "Поняв, что вы не собираетесь отвечать, ланиусы в конце концов уходят в "
 "прыжок."
 
-#: src-en/data/events_sector_ministry.xml:1283
+#: src-en/data/events_sector_ministry.xml:1308
 msgid ""
 "data/events_sector_ministry.xml$//eventList[@name=\"QUEST_ZOLTAN_LANIUS_CORE_IGNORE\"]/event[1]/choice[1]/text"
 msgstr "Заняться чем-либо на корабле."
 
-#: src-en/data/events_sector_ministry.xml:1287
+#: src-en/data/events_sector_ministry.xml:1312
 msgid ""
 "data/events_sector_ministry.xml$//eventList[@name=\"QUEST_ZOLTAN_LANIUS_CORE_IGNORE\"]/event[1]/choice[2]/text"
 msgstr "Ничего не делать."
 
-#: src-en/data/events_sector_ministry.xml:1292
+#: src-en/data/events_sector_ministry.xml:1317
 msgid ""
 "data/events_sector_ministry.xml$//eventList[@name=\"QUEST_ZOLTAN_LANIUS_CORE_IGNORE\"]/event[2]/text"
 msgstr ""
 "Ланиусы не довольны тем, что их игнорируют... они заряжают оружие и атакуют!"
 
-#: src-en/data/events_sector_ministry.xml:1295
+#: src-en/data/events_sector_ministry.xml:1320
 msgid ""
 "data/events_sector_ministry.xml$//eventList[@name=\"QUEST_ZOLTAN_LANIUS_CORE_IGNORE\"]/event[2]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_ministry.xml:1310
+#: src-en/data/events_sector_ministry.xml:1335
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"QUEST_ZOLTAN_LANIUS_CORE_REGULAR\"]/beaconType/unvisitedTooltip"
-msgstr "Отслеживать местонахождения ядра золтанского щита."
+msgstr "Местонахождение ядра золтанского щита."
 
-#: src-en/data/events_sector_ministry.xml:1312
+#: src-en/data/events_sector_ministry.xml:1337
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"QUEST_ZOLTAN_LANIUS_CORE_REGULAR\"]/text"
 msgstr ""
 "Координаты привели вас к обычному кораблю золтан. Если вы хотите получить "
 "ядро, вам придется сначала очистить его от обитателей."
 
-#: src-en/data/events_sector_ministry.xml:1315
+#: src-en/data/events_sector_ministry.xml:1340
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"QUEST_ZOLTAN_LANIUS_CORE_REGULAR\"]/choice[1]/text"
 msgstr "Атаковать!"
 
-#: src-en/data/events_sector_ministry.xml:1317
+#: src-en/data/events_sector_ministry.xml:1342
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"QUEST_ZOLTAN_LANIUS_CORE_REGULAR\"]/choice[1]/event/text"
 msgstr "Вы заряжаете оружие и приближаетесь к кораблю золтан."
 
-#: src-en/data/events_sector_ministry.xml:1320
+#: src-en/data/events_sector_ministry.xml:1345
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"QUEST_ZOLTAN_LANIUS_CORE_REGULAR\"]/choice[1]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_ministry.xml:1326
+#: src-en/data/events_sector_ministry.xml:1351
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"QUEST_ZOLTAN_LANIUS_CORE_REGULAR\"]/choice[2]/text"
 msgstr "Эти золтаны ничего нам не сделали, оставим их в покое."
 
-#: src-en/data/events_sector_ministry.xml:1328
+#: src-en/data/events_sector_ministry.xml:1353
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"QUEST_ZOLTAN_LANIUS_CORE_REGULAR\"]/choice[2]/event/text"
 msgstr "Вы решаете не сражаться с золтанами."
 
-#: src-en/data/events_sector_ministry.xml:1330
+#: src-en/data/events_sector_ministry.xml:1355
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"QUEST_ZOLTAN_LANIUS_CORE_REGULAR\"]/choice[2]/event/choice[1]/text"
 msgstr "Заняться чем-либо на корабле."
 
-#: src-en/data/events_sector_ministry.xml:1334
+#: src-en/data/events_sector_ministry.xml:1359
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"QUEST_ZOLTAN_LANIUS_CORE_REGULAR\"]/choice[2]/event/choice[2]/text"
 msgstr "Ничего не делать."
 
-#: src-en/data/events_sector_ministry.xml:1343
+#: src-en/data/events_sector_ministry.xml:1368
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"QUEST_ZOLTAN_LANIUS_CORE_STATION\"]/beaconType/unvisitedTooltip"
-msgstr "Отслеживать местонахождения ядра золтанского щита."
+msgstr "Местонахождение ядра золтанского щита."
 
-#: src-en/data/events_sector_ministry.xml:1345
+#: src-en/data/events_sector_ministry.xml:1370
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"QUEST_ZOLTAN_LANIUS_CORE_STATION\"]/text"
 msgstr ""
 "Координаты привели вас на обычную станцию золтан. Если вы хотите получить "
 "ядро, вам придется сначала очистить ее от обитателей."
 
-#: src-en/data/events_sector_ministry.xml:1348
+#: src-en/data/events_sector_ministry.xml:1373
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"QUEST_ZOLTAN_LANIUS_CORE_STATION\"]/choice[1]/text"
 msgstr "Атаковать!"
 
-#: src-en/data/events_sector_ministry.xml:1350
+#: src-en/data/events_sector_ministry.xml:1375
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"QUEST_ZOLTAN_LANIUS_CORE_STATION\"]/choice[1]/event/text"
 msgstr "Вы заряжаете оружие и приближаетесь к станции золтан."
 
-#: src-en/data/events_sector_ministry.xml:1353
+#: src-en/data/events_sector_ministry.xml:1378
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"QUEST_ZOLTAN_LANIUS_CORE_STATION\"]/choice[1]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_ministry.xml:1359
+#: src-en/data/events_sector_ministry.xml:1384
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"QUEST_ZOLTAN_LANIUS_CORE_STATION\"]/choice[2]/text"
 msgstr "Эти золтаны ничего нам не сделали, оставим их в покое."
 
-#: src-en/data/events_sector_ministry.xml:1361
+#: src-en/data/events_sector_ministry.xml:1386
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"QUEST_ZOLTAN_LANIUS_CORE_STATION\"]/choice[2]/event/text"
 msgstr "Вы решаете не сражаться с золтанами."
 
-#: src-en/data/events_sector_ministry.xml:1363
+#: src-en/data/events_sector_ministry.xml:1388
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"QUEST_ZOLTAN_LANIUS_CORE_STATION\"]/choice[2]/event/choice[1]/text"
 msgstr "Заняться чем-либо на корабле."
 
-#: src-en/data/events_sector_ministry.xml:1367
+#: src-en/data/events_sector_ministry.xml:1392
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"QUEST_ZOLTAN_LANIUS_CORE_STATION\"]/choice[2]/event/choice[2]/text"
 msgstr "Ничего не делать."
 
-#: src-en/data/events_sector_ministry.xml:1376
+#: src-en/data/events_sector_ministry.xml:1401
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"QUEST_ZOLTAN_LANIUS_CORE_DUSKBRINGER\"]/beaconType/unvisitedTooltip"
-msgstr "Отслеживать местонахождения ядра золтанского щита."
+msgstr "Местонахождение ядра золтанского щита."
 
-#: src-en/data/events_sector_ministry.xml:1378
+#: src-en/data/events_sector_ministry.xml:1403
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"QUEST_ZOLTAN_LANIUS_CORE_DUSKBRINGER\"]/text"
 msgstr ""
@@ -2008,17 +2053,17 @@ msgstr ""
 "что вы - корабль Федерации, и атакуют. Вам придется сражаться с ними в любом"
 " случае, но если вы хотите получить ядро, вам придется убить их экипаж."
 
-#: src-en/data/events_sector_ministry.xml:1381
+#: src-en/data/events_sector_ministry.xml:1406
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"QUEST_ZOLTAN_LANIUS_CORE_DUSKBRINGER\"]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_ministry.xml:1388
+#: src-en/data/events_sector_ministry.xml:1413
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"QUEST_ZOLTAN_LANIUS_CORE_MONK\"]/beaconType/unvisitedTooltip"
-msgstr "Отслеживать местонахождения ядра золтанского щита."
+msgstr "Местонахождение ядра золтанского щита."
 
-#: src-en/data/events_sector_ministry.xml:1390
+#: src-en/data/events_sector_ministry.xml:1415
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"QUEST_ZOLTAN_LANIUS_CORE_MONK\"]/text"
 msgstr ""
@@ -2027,12 +2072,12 @@ msgstr ""
 "корабль. Если вы хотите взять его, вы должны подвергнуть свой разум "
 "испытанию\"."
 
-#: src-en/data/events_sector_ministry.xml:1393
+#: src-en/data/events_sector_ministry.xml:1418
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"QUEST_ZOLTAN_LANIUS_CORE_MONK\"]/choice[1]/text"
 msgstr "Согласиться на \"проверку разума\"."
 
-#: src-en/data/events_sector_ministry.xml:1395
+#: src-en/data/events_sector_ministry.xml:1420
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"QUEST_ZOLTAN_LANIUS_CORE_MONK\"]/choice[1]/event/text"
 msgstr ""
@@ -2041,51 +2086,51 @@ msgstr ""
 "кажется, что вы вот-вот сойдете с ума, вы погружаетесь в глубокий сон. Когда"
 " вы просыпаетесь, вы снова оказываетесь на корабле вместе с Монахом и ядром!"
 
-#: src-en/data/events_sector_ministry.xml:1399
+#: src-en/data/events_sector_ministry.xml:1424
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"QUEST_ZOLTAN_LANIUS_CORE_MONK\"]/choice[1]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_ministry.xml:1405
+#: src-en/data/events_sector_ministry.xml:1430
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"QUEST_ZOLTAN_LANIUS_CORE_MONK\"]/choice[@req=\"LIST_CREW_MONK\"]/text"
 msgstr "(Член экипажа-Монах) Договориться с ними о покупке ядра."
 
-#: src-en/data/events_sector_ministry.xml:1407
+#: src-en/data/events_sector_ministry.xml:1432
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"QUEST_ZOLTAN_LANIUS_CORE_MONK\"]/choice[@req=\"LIST_CREW_MONK\"]/event/text"
 msgstr ""
 "Ваш член экипажа Монах, похоже, сумел убедить остальных отдать вам свое "
 "ядро."
 
-#: src-en/data/events_sector_ministry.xml:1409
+#: src-en/data/events_sector_ministry.xml:1434
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"QUEST_ZOLTAN_LANIUS_CORE_MONK\"]/choice[@req=\"LIST_CREW_MONK\"]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_ministry.xml:1415
+#: src-en/data/events_sector_ministry.xml:1440
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"QUEST_ZOLTAN_LANIUS_CORE_MONK\"]/choice[3]/text"
 msgstr "К черту загадки, атакуем их."
 
-#: src-en/data/events_sector_ministry.xml:1417
+#: src-en/data/events_sector_ministry.xml:1442
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"QUEST_ZOLTAN_LANIUS_CORE_MONK\"]/choice[3]/event/text"
 msgstr ""
 "Вы заряжаете оружие и приближаетесь к кораблю Монахов. Однако, похоже, что "
 "Монахи пытаются сбежать!"
 
-#: src-en/data/events_sector_ministry.xml:1420
+#: src-en/data/events_sector_ministry.xml:1445
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"QUEST_ZOLTAN_LANIUS_CORE_MONK\"]/choice[3]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_ministry.xml:1429
+#: src-en/data/events_sector_ministry.xml:1454
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"QUEST_ZOLTAN_LANIUS_CORE_AUTO\"]/beaconType/unvisitedTooltip"
-msgstr "Отслеживать местонахождения ядра золтанского щита."
+msgstr "Местонахождение ядра золтанского щита."
 
-#: src-en/data/events_sector_ministry.xml:1431
+#: src-en/data/events_sector_ministry.xml:1456
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"QUEST_ZOLTAN_LANIUS_CORE_AUTO\"]/text"
 msgstr ""
@@ -2093,92 +2138,92 @@ msgstr ""
 "находится в режиме ожидания, так что, возможно, вы сможете незаметно извлечь"
 " ядро?"
 
-#: src-en/data/events_sector_ministry.xml:1434
+#: src-en/data/events_sector_ministry.xml:1459
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"QUEST_ZOLTAN_LANIUS_CORE_AUTO\"]/choice[1]/text"
 msgstr "Попытаться извлечь ядро."
 
-#: src-en/data/events_sector_ministry.xml:1438
+#: src-en/data/events_sector_ministry.xml:1463
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"QUEST_ZOLTAN_LANIUS_CORE_AUTO\"]/choice[@req=\"hacking\"]/text"
 msgstr ""
 "(Взломщик) Взломать автоматический корабль, чтобы он не смог включиться."
 
-#: src-en/data/events_sector_ministry.xml:1440
+#: src-en/data/events_sector_ministry.xml:1465
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"QUEST_ZOLTAN_LANIUS_CORE_AUTO\"]/choice[@req=\"hacking\"]/event/text"
 msgstr ""
 "Похоже, вы добились успеха! Автоматический корабль остается в выключенном "
 "состоянии."
 
-#: src-en/data/events_sector_ministry.xml:1442
+#: src-en/data/events_sector_ministry.xml:1467
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"QUEST_ZOLTAN_LANIUS_CORE_AUTO\"]/choice[@req=\"hacking\"]/event/choice/text"
 msgstr "Осмотреть ядро."
 
-#: src-en/data/events_sector_ministry.xml:1448
+#: src-en/data/events_sector_ministry.xml:1483
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"QUEST_ZOLTAN_LANIUS_CORE_AUTO\"]/choice[@req=\"cloaking\"]/text"
 msgstr "(Маскировка) Замаскировать корабль во время извлечения ядра."
 
-#: src-en/data/events_sector_ministry.xml:1450
+#: src-en/data/events_sector_ministry.xml:1485
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"QUEST_ZOLTAN_LANIUS_CORE_AUTO\"]/choice[@req=\"cloaking\"]/event/text"
 msgstr ""
 "Похоже, вы добились успеха! Автоматический корабль остается в выключенном "
 "состоянии."
 
-#: src-en/data/events_sector_ministry.xml:1452
+#: src-en/data/events_sector_ministry.xml:1487
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"QUEST_ZOLTAN_LANIUS_CORE_AUTO\"]/choice[@req=\"cloaking\"]/event/choice/text"
 msgstr "Осмотреть ядро."
 
-#: src-en/data/events_sector_ministry.xml:1458
+#: src-en/data/events_sector_ministry.xml:1493
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"QUEST_ZOLTAN_LANIUS_CORE_AUTO\"]/choice[4]/text"
 msgstr "Не обращать внимания на автоматический корабль."
 
-#: src-en/data/events_sector_ministry.xml:1460
+#: src-en/data/events_sector_ministry.xml:1495
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"QUEST_ZOLTAN_LANIUS_CORE_AUTO\"]/choice[4]/event/text"
 msgstr ""
 "Вы решили не пытаться извлечь ядро из автоматического корабля золтанов."
 
-#: src-en/data/events_sector_ministry.xml:1462
+#: src-en/data/events_sector_ministry.xml:1497
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"QUEST_ZOLTAN_LANIUS_CORE_AUTO\"]/choice[4]/event/choice[1]/text"
 msgstr "Заняться чем-либо на корабле."
 
-#: src-en/data/events_sector_ministry.xml:1466
+#: src-en/data/events_sector_ministry.xml:1501
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"QUEST_ZOLTAN_LANIUS_CORE_AUTO\"]/choice[4]/event/choice[2]/text"
 msgstr "Ничего не делать."
 
-#: src-en/data/events_sector_ministry.xml:1474
+#: src-en/data/events_sector_ministry.xml:1509
 msgid ""
 "data/events_sector_ministry.xml$//eventList[@name=\"QUEST_ZOLTAN_LANIUS_CORE_AUTO_SALVAGE\"]/event[1]/text"
 msgstr ""
 "Похоже, вы добились успеха! Автоматический корабль остается в выключенном "
 "состоянии."
 
-#: src-en/data/events_sector_ministry.xml:1476
+#: src-en/data/events_sector_ministry.xml:1511
 msgid ""
 "data/events_sector_ministry.xml$//eventList[@name=\"QUEST_ZOLTAN_LANIUS_CORE_AUTO_SALVAGE\"]/event[1]/choice/text"
 msgstr "Осмотреть ядро."
 
-#: src-en/data/events_sector_ministry.xml:1481
+#: src-en/data/events_sector_ministry.xml:1516
 msgid ""
 "data/events_sector_ministry.xml$//eventList[@name=\"QUEST_ZOLTAN_LANIUS_CORE_AUTO_SALVAGE\"]/event[2]/text"
 msgstr ""
 "Ваша попытка не увенчалась успехом. Автоматический корабль обнаружил вас и "
 "атакует!"
 
-#: src-en/data/events_sector_ministry.xml:1484
+#: src-en/data/events_sector_ministry.xml:1519
 msgid ""
 "data/events_sector_ministry.xml$//eventList[@name=\"QUEST_ZOLTAN_LANIUS_CORE_AUTO_SALVAGE\"]/event[2]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_ministry.xml:1490
+#: src-en/data/events_sector_ministry.xml:1525
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"QUEST_ZOLTAN_LANIUS_CORE_OBTAIN\"]/text"
 msgstr ""
@@ -2187,52 +2232,52 @@ msgstr ""
 " как это сделать. Однако... возможно, вы сможете использовать его для "
 "модернизации своих обычных щитов."
 
-#: src-en/data/events_sector_ministry.xml:1492
+#: src-en/data/events_sector_ministry.xml:1527
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"QUEST_ZOLTAN_LANIUS_CORE_OBTAIN\"]/choice[1]/text"
 msgstr "Доставить ядро ланиусам, чтобы получить награду."
 
-#: src-en/data/events_sector_ministry.xml:1494
+#: src-en/data/events_sector_ministry.xml:1529
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"QUEST_ZOLTAN_LANIUS_CORE_OBTAIN\"]/choice[1]/event/text"
 msgstr "Вы связываетесь с ланиусами и получаете их новые координаты."
 
-#: src-en/data/events_sector_ministry.xml:1499
+#: src-en/data/events_sector_ministry.xml:1534
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"QUEST_ZOLTAN_LANIUS_CORE_OBTAIN\"]/choice[@req=\"shields\"]/text"
 msgstr "Демонтировать ядро и использовать его для модернизации щитов."
 
-#: src-en/data/events_sector_ministry.xml:1501
+#: src-en/data/events_sector_ministry.xml:1536
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"QUEST_ZOLTAN_LANIUS_CORE_OBTAIN\"]/choice[@req=\"shields\"]/event/text"
 msgstr ""
 "Теперь вы не сможете получить награду, но система щита будет работать лучше,"
 " чем раньше."
 
-#: src-en/data/events_sector_ministry.xml:1509
+#: src-en/data/events_sector_ministry.xml:1544
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"QUEST_ZOLTAN_LANIUS_CORE_FINISH\"]/beaconType/unvisitedTooltip"
 msgstr ""
 "Местонахождение корабля ланиусов, ожидающего ядро щита, которое вы извлекли."
 
-#: src-en/data/events_sector_ministry.xml:1511
+#: src-en/data/events_sector_ministry.xml:1546
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"QUEST_ZOLTAN_LANIUS_CORE_FINISH\"]/text"
 msgstr ""
 "Вы доставляете ядро на корабль ланиусов. \"Услуга рады. Куски принадлежат "
 "вам\". Они передают немного припасов и хотят торговать."
 
-#: src-en/data/events_sector_ministry.xml:1549
+#: src-en/data/events_sector_ministry.xml:1584
 msgid ""
 "data/events_sector_ministry.xml$/FTL/event[@name=\"ENCOUNTER_ZOLTAN_REGULAR\"]/choice[1]/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_ministry.xml:1553
+#: src-en/data/events_sector_ministry.xml:1588
 msgid ""
 "data/events_sector_ministry.xml$/FTL/event[@name=\"ENCOUNTER_ZOLTAN_REGULAR\"]/choice[@req=\"ZOLTAN_DELETER\"]/text"
 msgstr "(\"Стиратель\" золтан) Угрожать золтанам."
 
-#: src-en/data/events_sector_ministry.xml:1558
+#: src-en/data/events_sector_ministry.xml:1593
 msgid ""
 "data/events_sector_ministry.xml$//textList[@name=\"TEXT_ENCOUNTER_ZOLTAN\"]/text[1]"
 msgstr ""
@@ -2241,14 +2286,14 @@ msgstr ""
 "слабоумие. Прежде чем вы успеваете подумать о том, чтобы помочь, они "
 "открывают огонь."
 
-#: src-en/data/events_sector_ministry.xml:1559
+#: src-en/data/events_sector_ministry.xml:1594
 msgid ""
 "data/events_sector_ministry.xml$//textList[@name=\"TEXT_ENCOUNTER_ZOLTAN\"]/text[2]"
 msgstr ""
 "Вы удивлены, когда неподвижный корабль золтанов открывает огонь. "
 "Оказывается, даже среди \"просвещенных\" есть агрессивные драчуны."
 
-#: src-en/data/events_sector_ministry.xml:1560
+#: src-en/data/events_sector_ministry.xml:1595
 msgid ""
 "data/events_sector_ministry.xml$//textList[@name=\"TEXT_ENCOUNTER_ZOLTAN\"]/text[3]"
 msgstr ""
@@ -2256,7 +2301,7 @@ msgstr ""
 "на досмотр\". Это всего лишь один сторожевой корабль в одиноко стоящем "
 "маяке. Вы решаете пробиваться к выходу."
 
-#: src-en/data/events_sector_ministry.xml:1561
+#: src-en/data/events_sector_ministry.xml:1596
 msgid ""
 "data/events_sector_ministry.xml$//textList[@name=\"TEXT_ENCOUNTER_ZOLTAN\"]/text[4]"
 msgstr ""
@@ -2264,7 +2309,7 @@ msgstr ""
 "К сожалению, один из кораблей ошибся в ваших намерениях и пошел в атаку! Они"
 " не выходят на связь, и у вас нет другого выбора, кроме как сражаться."
 
-#: src-en/data/events_sector_ministry.xml:1562
+#: src-en/data/events_sector_ministry.xml:1597
 msgid ""
 "data/events_sector_ministry.xml$//textList[@name=\"TEXT_ENCOUNTER_ZOLTAN\"]/text[5]"
 msgstr ""
@@ -2272,7 +2317,7 @@ msgstr ""
 "хорошо подготовились к галактической войне. Здешние военные, похоже, "
 "перестали считаться с чужаками, предпочитая нападать на них сразу!"
 
-#: src-en/data/events_sector_ministry.xml:1563
+#: src-en/data/events_sector_ministry.xml:1598
 msgid ""
 "data/events_sector_ministry.xml$//textList[@name=\"TEXT_ENCOUNTER_ZOLTAN\"]/text[6]"
 msgstr ""
@@ -2280,7 +2325,7 @@ msgstr ""
 "излучение солнца этой системы нарушает вашу связь. Они принимают ваше "
 "молчание за агрессию и переходят в атаку."
 
-#: src-en/data/events_sector_ministry.xml:1564
+#: src-en/data/events_sector_ministry.xml:1599
 msgid ""
 "data/events_sector_ministry.xml$//textList[@name=\"TEXT_ENCOUNTER_ZOLTAN\"]/text[7]"
 msgstr ""
@@ -2288,50 +2333,50 @@ msgstr ""
 "этой зоны запрещено. Секретность жизненно важна\". Они начинают заряжать "
 "свое оружие."
 
-#: src-en/data/events_sector_ministry.xml:1568
+#: src-en/data/events_sector_ministry.xml:1603
 msgid ""
 "data/events_sector_ministry.xml$//eventList[@name=\"ENCOUNTER_ZOLTAN_THREATEN\"]/event[1]/text"
 msgstr ""
 "Вы пытаетесь напугать золтанов, но попытка напугать их провалилась, и вы "
 "готовитесь к бою."
 
-#: src-en/data/events_sector_ministry.xml:1571
+#: src-en/data/events_sector_ministry.xml:1606
 msgid ""
 "data/events_sector_ministry.xml$//eventList[@name=\"ENCOUNTER_ZOLTAN_THREATEN\"]/event[1]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_ministry.xml:1576
+#: src-en/data/events_sector_ministry.xml:1611
 msgid ""
 "data/events_sector_ministry.xml$//eventList[@name=\"ENCOUNTER_ZOLTAN_THREATEN\"]/event[2]/text"
 msgstr ""
 "Вы пытаетесь напугать золтанов, но попытка напугать их провалилась, и вы "
 "готовитесь к бою."
 
-#: src-en/data/events_sector_ministry.xml:1579
+#: src-en/data/events_sector_ministry.xml:1614
 msgid ""
 "data/events_sector_ministry.xml$//eventList[@name=\"ENCOUNTER_ZOLTAN_THREATEN\"]/event[2]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_ministry.xml:1584
+#: src-en/data/events_sector_ministry.xml:1619
 msgid ""
 "data/events_sector_ministry.xml$//eventList[@name=\"ENCOUNTER_ZOLTAN_THREATEN\"]/event[3]/text"
 msgstr ""
 "Вы пытаетесь напугать золтанов, но попытка напугать их провалилась, и вы "
 "готовитесь к бою."
 
-#: src-en/data/events_sector_ministry.xml:1587
+#: src-en/data/events_sector_ministry.xml:1622
 msgid ""
 "data/events_sector_ministry.xml$//eventList[@name=\"ENCOUNTER_ZOLTAN_THREATEN\"]/event[3]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_ministry.xml:1592
+#: src-en/data/events_sector_ministry.xml:1627
 msgid ""
 "data/events_sector_ministry.xml$//eventList[@name=\"ENCOUNTER_ZOLTAN_THREATEN\"]/event[4]/text"
 msgstr ""
 "К вашему удивлению, золтаны действительно испугались вашего оружия. Они "
 "предлагают немного припасов."
 
-#: src-en/data/events_sector_ministry.xml:1598
+#: src-en/data/events_sector_ministry.xml:1633
 msgid ""
 "data/events_sector_ministry.xml$/FTL/event[@name=\"ENCOUNTER_ZOLTAN_ASTEROID\"]/text"
 msgstr ""
@@ -2340,27 +2385,27 @@ msgstr ""
 "закон о защите природных ископаемых. Ваше оружие будет конфисковано для "
 "проверки\". У вас нет на это времени."
 
-#: src-en/data/events_sector_ministry.xml:1602
+#: src-en/data/events_sector_ministry.xml:1637
 msgid ""
 "data/events_sector_ministry.xml$/FTL/event[@name=\"ENCOUNTER_ZOLTAN_ASTEROID\"]/choice[1]/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_ministry.xml:1606
+#: src-en/data/events_sector_ministry.xml:1641
 msgid ""
 "data/events_sector_ministry.xml$/FTL/event[@name=\"ENCOUNTER_ZOLTAN_ASTEROID\"]/choice[@req=\"ZOLTAN_DELETER\"]/text"
 msgstr "(\"Стиратель\" золтан) Угрожать золтанам."
 
-#: src-en/data/events_sector_ministry.xml:1615
+#: src-en/data/events_sector_ministry.xml:1650
 msgid ""
 "data/events_sector_ministry.xml$/FTL/event[@name=\"ENCOUNTER_ZOLTAN_PULSAR\"]/choice[1]/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_ministry.xml:1619
+#: src-en/data/events_sector_ministry.xml:1654
 msgid ""
 "data/events_sector_ministry.xml$/FTL/event[@name=\"ENCOUNTER_ZOLTAN_PULSAR\"]/choice[@req=\"ZOLTAN_DELETER\"]/text"
 msgstr "(\"Стиратель\" золтан) Угрожать золтанам."
 
-#: src-en/data/events_sector_ministry.xml:1624
+#: src-en/data/events_sector_ministry.xml:1659
 msgid ""
 "data/events_sector_ministry.xml$//textList[@name=\"TEXT_ENCOUNTER_ZOLTAN_PULSAR\"]/text[1]"
 msgstr ""
@@ -2368,7 +2413,7 @@ msgstr ""
 " бессвязного бормотания заливает ваши динамики, когда золтанский корабль "
 "атакует!"
 
-#: src-en/data/events_sector_ministry.xml:1625
+#: src-en/data/events_sector_ministry.xml:1660
 msgid ""
 "data/events_sector_ministry.xml$//textList[@name=\"TEXT_ENCOUNTER_ZOLTAN_PULSAR\"]/text[2]"
 msgstr ""
@@ -2376,7 +2421,7 @@ msgstr ""
 "изучения. Ваше присутствие почему-то расценивается как нарушение границ, и "
 "они посылают корабль, чтобы прогнать вас!"
 
-#: src-en/data/events_sector_ministry.xml:1626
+#: src-en/data/events_sector_ministry.xml:1661
 msgid ""
 "data/events_sector_ministry.xml$//textList[@name=\"TEXT_ENCOUNTER_ZOLTAN_PULSAR\"]/text[3]"
 msgstr ""
@@ -2384,12 +2429,12 @@ msgstr ""
 "особо обращают внимание на опасность. Однако они против того, чтобы военные "
 "корабли, подобные вашему, заходили на их территорию!"
 
-#: src-en/data/events_sector_ministry.xml:1639
+#: src-en/data/events_sector_ministry.xml:1674
 msgid ""
 "data/events_sector_ministry.xml$/FTL/event[@name=\"ENCOUNTER_ZOLTAN_AUTO_REGULAR\"]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_ministry.xml:1644
+#: src-en/data/events_sector_ministry.xml:1679
 msgid ""
 "data/events_sector_ministry.xml$//textList[@name=\"TEXT_ENCOUNTER_ZOLTAN_AUTO\"]/text[1]"
 msgstr ""
@@ -2397,21 +2442,21 @@ msgstr ""
 "сожалению, эти корабли в лучшем случае непредсказуемы и часто нападают на "
 "случайных прохожих, таких как вы."
 
-#: src-en/data/events_sector_ministry.xml:1645
+#: src-en/data/events_sector_ministry.xml:1680
 msgid ""
 "data/events_sector_ministry.xml$//textList[@name=\"TEXT_ENCOUNTER_ZOLTAN_AUTO\"]/text[2]"
 msgstr ""
 "\"Инициирован боевой режим... поиск целей... цель найдена!\" Автоматическое "
 "судно золтанов переходит в атаку."
 
-#: src-en/data/events_sector_ministry.xml:1646
+#: src-en/data/events_sector_ministry.xml:1681
 msgid ""
 "data/events_sector_ministry.xml$//textList[@name=\"TEXT_ENCOUNTER_ZOLTAN_AUTO\"]/text[3]"
 msgstr ""
 "Похоже, что автоматический корабль золтанов здесь неисправен... и ошибочно "
 "решил, что вы представляете угрозу!"
 
-#: src-en/data/events_sector_ministry.xml:1649
+#: src-en/data/events_sector_ministry.xml:1684
 msgid ""
 "data/events_sector_ministry.xml$/FTL/event[@name=\"ENCOUNTER_ZOLTAN_AUTO_SUN\"]/text"
 msgstr ""
@@ -2420,17 +2465,17 @@ msgstr ""
 "всему, вы прибыли как раз к тому времени, когда он снова активировался, и "
 "корабль каким-то образом идентифицировал вас как угрозу."
 
-#: src-en/data/events_sector_ministry.xml:1653
+#: src-en/data/events_sector_ministry.xml:1688
 msgid ""
 "data/events_sector_ministry.xml$/FTL/event[@name=\"ENCOUNTER_ZOLTAN_AUTO_SUN\"]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_ministry.xml:1662
+#: src-en/data/events_sector_ministry.xml:1697
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"ENCOUNTER_PIRATE_ZOLTAN\"]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_ministry.xml:1667
+#: src-en/data/events_sector_ministry.xml:1702
 msgid ""
 "data/events_sector_ministry.xml$//textList[@name=\"TEXT_ENCOUNTER_PIRATE_ZOLTAN\"]/text[1]"
 msgstr ""
@@ -2439,7 +2484,7 @@ msgstr ""
 "преследователю. Золтаны воспринимают ваше вмешательство как повод прыгнуть "
 "прочь из системы. Трусы."
 
-#: src-en/data/events_sector_ministry.xml:1668
+#: src-en/data/events_sector_ministry.xml:1703
 msgid ""
 "data/events_sector_ministry.xml$//textList[@name=\"TEXT_ENCOUNTER_PIRATE_ZOLTAN\"]/text[2]"
 msgstr ""
@@ -2447,7 +2492,7 @@ msgstr ""
 "золтанского корабля. В последние минуты жизни капитан корабля просит вас не "
 "вмешиваться, но уже слишком поздно - нападающий уже настигает вас!"
 
-#: src-en/data/events_sector_ministry.xml:1669
+#: src-en/data/events_sector_ministry.xml:1704
 msgid ""
 "data/events_sector_ministry.xml$//textList[@name=\"TEXT_ENCOUNTER_PIRATE_ZOLTAN\"]/text[3]"
 msgstr ""
@@ -2455,7 +2500,7 @@ msgstr ""
 "поселениям золтан в этом секторе. Одини из таких пиратов заметили ваш "
 "корабль и перешли в атаку."
 
-#: src-en/data/events_sector_ministry.xml:1670
+#: src-en/data/events_sector_ministry.xml:1705
 msgid ""
 "data/events_sector_ministry.xml$//textList[@name=\"TEXT_ENCOUNTER_PIRATE_ZOLTAN\"]/text[4]"
 msgstr ""
@@ -2463,14 +2508,14 @@ msgstr ""
 " наступили тяжелые времена, когда даже космос золтан подвергается нападению "
 "пиратов. Вы уверены, что этих дураков не досчитаются."
 
-#: src-en/data/events_sector_ministry.xml:1671
+#: src-en/data/events_sector_ministry.xml:1706
 msgid ""
 "data/events_sector_ministry.xml$//textList[@name=\"TEXT_ENCOUNTER_PIRATE_ZOLTAN\"]/text[5]"
 msgstr ""
 "Вы заметили корабль пиратов, грабящий небольшой крейсер золтан. Они замечают"
 " вас и атакуют, прежде чем ваш ССД успевает перезарядиться."
 
-#: src-en/data/events_sector_ministry.xml:1675
+#: src-en/data/events_sector_ministry.xml:1710
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"ENCOUNTER_MANTIS_ZOLTAN\"]/text"
 msgstr ""
@@ -2478,12 +2523,12 @@ msgstr ""
 "золтанов: \"Богомолы, они здесь, пожалуйста...\" Вас прерывают огнем с "
 "левого борта!"
 
-#: src-en/data/events_sector_ministry.xml:1678
+#: src-en/data/events_sector_ministry.xml:1713
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"ENCOUNTER_MANTIS_ZOLTAN\"]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_ministry.xml:1684
+#: src-en/data/events_sector_ministry.xml:1719
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"ENCOUNTER_ENGI_ZOLTAN\"]/text"
 msgstr ""
@@ -2491,12 +2536,12 @@ msgstr ""
 "сожалению, его эскорт энджи принимает вас за нападающего и наносит ответный "
 "удар! Они отказываются от всех сигналов связи."
 
-#: src-en/data/events_sector_ministry.xml:1687
+#: src-en/data/events_sector_ministry.xml:1722
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"ENCOUNTER_ENGI_ZOLTAN\"]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_ministry.xml:1693
+#: src-en/data/events_sector_ministry.xml:1728
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_MALFUNCTION_INTERROGATE\"]/text"
 msgstr ""
@@ -2505,12 +2550,12 @@ msgstr ""
 " это пространство закрыто - ОШИБКА - объяснение не найдено. Подозревается "
 "диверсия. Приступаю к самообороне\"."
 
-#: src-en/data/events_sector_ministry.xml:1696
+#: src-en/data/events_sector_ministry.xml:1731
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_MALFUNCTION_INTERROGATE\"]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_ministry.xml:1701
+#: src-en/data/events_sector_ministry.xml:1736
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_MALFUNCTION_INTERROGATE_SELF_DEFENSE\"]/text"
 msgstr ""
@@ -2519,24 +2564,24 @@ msgstr ""
 "улики\". Как бы вы ни пытались объяснить, золтаны не воспринимают другие "
 "объяснения. Скорее всего, об этом инциденте будет сообщено."
 
-#: src-en/data/events_sector_ministry.xml:1703
+#: src-en/data/events_sector_ministry.xml:1738
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_MALFUNCTION_INTERROGATE_SELF_DEFENSE\"]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_ministry.xml:1708
+#: src-en/data/events_sector_ministry.xml:1743
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_MALFUNCTION_INTERROGATE_MALFUNCTION\"]/text"
 msgstr ""
 "\"Правда? И где же ваши доказательства этого? Похоже, что все доказательства"
 " были предусмотрительно уничтожены\"."
 
-#: src-en/data/events_sector_ministry.xml:1710
+#: src-en/data/events_sector_ministry.xml:1745
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_MALFUNCTION_INTERROGATE_MALFUNCTION\"]/choice[@req=\"sensors\"]/text"
 msgstr "(Улучш. Сенсоры) Сенсоры вашего корабля зафиксировали этот инцидент."
 
-#: src-en/data/events_sector_ministry.xml:1712
+#: src-en/data/events_sector_ministry.xml:1747
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_MALFUNCTION_INTERROGATE_MALFUNCTION\"]/choice[@req=\"sensors\"]/event/text"
 msgstr ""
@@ -2544,14 +2589,14 @@ msgstr ""
 "таком случае, я полагаю, что ваш поступок был оправдан. Мы подлатаем ваш "
 "корабль, чтобы компенсировать нанесенный ущерб\"."
 
-#: src-en/data/events_sector_ministry.xml:1717
+#: src-en/data/events_sector_ministry.xml:1752
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_MALFUNCTION_INTERROGATE_MALFUNCTION\"]/choice[@req=\"LIST_CREW_ZOLTAN_CAPITAL\"]/text"
 msgstr ""
 "(Член экипаж из Министерства) \"На корабле возникла ошибка 632. Должно быть,"
 " он не получил последнее обновление прошивки\"."
 
-#: src-en/data/events_sector_ministry.xml:1719
+#: src-en/data/events_sector_ministry.xml:1754
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_MALFUNCTION_INTERROGATE_MALFUNCTION\"]/choice[@req=\"LIST_CREW_ZOLTAN_CAPITAL\"]/event/text"
 msgstr ""
@@ -2560,39 +2605,39 @@ msgstr ""
 "поступок был оправдан. Мы подлатаем ваш корабль, чтобы компенсировать "
 "нанесенный ущерб\"."
 
-#: src-en/data/events_sector_ministry.xml:1724
+#: src-en/data/events_sector_ministry.xml:1759
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_MALFUNCTION_INTERROGATE_MALFUNCTION\"]/choice[3]/text"
 msgstr "У нас нет доказательств."
 
-#: src-en/data/events_sector_ministry.xml:1726
+#: src-en/data/events_sector_ministry.xml:1761
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_MALFUNCTION_INTERROGATE_MALFUNCTION\"]/choice[3]/event/text"
 msgstr "\"Я так не думаю. Я пока отпущу вас, но не думайте, что мы это забудем\"."
 
-#: src-en/data/events_sector_ministry.xml:1728
+#: src-en/data/events_sector_ministry.xml:1763
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_MALFUNCTION_INTERROGATE_MALFUNCTION\"]/choice[3]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_ministry.xml:1735
+#: src-en/data/events_sector_ministry.xml:1770
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_MALFUNCTION_INTERROGATE_ATTACKED\"]/text"
 msgstr ""
 "\"А, вот теперь мы поняли. То есть, вы хотите, чтобы мы поверили, что он "
 "напал на вас без причины? Это не имеет никакого смысла\"."
 
-#: src-en/data/events_sector_ministry.xml:1737
+#: src-en/data/events_sector_ministry.xml:1772
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_MALFUNCTION_INTERROGATE_ATTACKED\"]/choice[1]/text"
 msgstr "Наверное, он был неисправен или что-то в этом роде."
 
-#: src-en/data/events_sector_ministry.xml:1741
+#: src-en/data/events_sector_ministry.xml:1776
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_MALFUNCTION_INTERROGATE_ATTACKED\"]/choice[2]/text"
 msgstr "Если кого и обидели, так это нас. Мы должны вас допросить!"
 
-#: src-en/data/events_sector_ministry.xml:1743
+#: src-en/data/events_sector_ministry.xml:1778
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_MALFUNCTION_INTERROGATE_ATTACKED\"]/choice[2]/event/text"
 msgstr ""
@@ -2600,12 +2645,12 @@ msgstr ""
 "так что я вас отпускаю. Может, это была неисправность или что-то в этом "
 "роде. В любом случае, эта штука не всегда работает правильно\"."
 
-#: src-en/data/events_sector_ministry.xml:1745
+#: src-en/data/events_sector_ministry.xml:1780
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"ZOLTAN_MALFUNCTION_INTERROGATE_ATTACKED\"]/choice[2]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_ministry.xml:1767
+#: src-en/data/events_sector_ministry.xml:1802
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"NEBULA_ZOLTAN_BATTLEFIELD\"]/text"
 msgstr ""
@@ -2615,14 +2660,14 @@ msgstr ""
 "туманности. Трудно определить, кто был участником боя, без более тщательного"
 " исследования."
 
-#: src-en/data/events_sector_ministry.xml:1770
+#: src-en/data/events_sector_ministry.xml:1805
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"NEBULA_ZOLTAN_BATTLEFIELD\"]/choice[@req=\"LIST_CREW_SLUG\"]/text"
 msgstr ""
 "(Член экипажа-слизень) Попросить слизня просканировать местность в поисках "
 "выживших."
 
-#: src-en/data/events_sector_ministry.xml:1772
+#: src-en/data/events_sector_ministry.xml:1807
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"NEBULA_ZOLTAN_BATTLEFIELD\"]/choice[@req=\"LIST_CREW_SLUG\"]/event/text"
 msgstr ""
@@ -2630,39 +2675,39 @@ msgstr ""
 "слабые признаки жизни среди обломков - похоже, без помощи выживший долго не "
 "протянет."
 
-#: src-en/data/events_sector_ministry.xml:1774
+#: src-en/data/events_sector_ministry.xml:1809
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"NEBULA_ZOLTAN_BATTLEFIELD\"]/choice[@req=\"LIST_CREW_SLUG\"]/event/choice[1]/text"
 msgstr "Оказать помощь выжившему."
 
-#: src-en/data/events_sector_ministry.xml:1778
+#: src-en/data/events_sector_ministry.xml:1813
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"NEBULA_ZOLTAN_BATTLEFIELD\"]/choice[@req=\"LIST_CREW_SLUG\"]/event/choice[2]/text"
 msgstr "Покинуть поле боя до прибытия других кораблей."
 
-#: src-en/data/events_sector_ministry.xml:1780
+#: src-en/data/events_sector_ministry.xml:1815
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"NEBULA_ZOLTAN_BATTLEFIELD\"]/choice[@req=\"LIST_CREW_SLUG\"]/event/choice[2]/event/text"
 msgstr "Вы покидаете поле боя."
 
-#: src-en/data/events_sector_ministry.xml:1782
+#: src-en/data/events_sector_ministry.xml:1817
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"NEBULA_ZOLTAN_BATTLEFIELD\"]/choice[@req=\"LIST_CREW_SLUG\"]/event/choice[2]/event/choice[1]/text"
 msgstr "Заняться чем-либо на корабле."
 
-#: src-en/data/events_sector_ministry.xml:1786
+#: src-en/data/events_sector_ministry.xml:1821
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"NEBULA_ZOLTAN_BATTLEFIELD\"]/choice[@req=\"LIST_CREW_SLUG\"]/event/choice[2]/event/choice[2]/text"
 msgstr "Ничего не делать."
 
-#: src-en/data/events_sector_ministry.xml:1794
+#: src-en/data/events_sector_ministry.xml:1829
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"NEBULA_ZOLTAN_BATTLEFIELD\"]/choice[@req=\"BLUELIST_CREW_SNAIL\"]/text"
 msgstr ""
 "(Член экипажа-ракушка Телепат) Попросить ракушку просканировать местность в "
 "поиске выживших."
 
-#: src-en/data/events_sector_ministry.xml:1796
+#: src-en/data/events_sector_ministry.xml:1831
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"NEBULA_ZOLTAN_BATTLEFIELD\"]/choice[@req=\"BLUELIST_CREW_SNAIL\"]/event/text"
 msgstr ""
@@ -2670,57 +2715,57 @@ msgstr ""
 "слабые признаки жизни среди обломков - похоже, без помощи выживший долго не "
 "протянет."
 
-#: src-en/data/events_sector_ministry.xml:1798
+#: src-en/data/events_sector_ministry.xml:1833
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"NEBULA_ZOLTAN_BATTLEFIELD\"]/choice[@req=\"BLUELIST_CREW_SNAIL\"]/event/choice[1]/text"
 msgstr "Оказать помощь выжившему."
 
-#: src-en/data/events_sector_ministry.xml:1802
+#: src-en/data/events_sector_ministry.xml:1837
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"NEBULA_ZOLTAN_BATTLEFIELD\"]/choice[@req=\"BLUELIST_CREW_SNAIL\"]/event/choice[2]/text"
 msgstr "Покинуть поле боя до прибытия других кораблей."
 
-#: src-en/data/events_sector_ministry.xml:1804
+#: src-en/data/events_sector_ministry.xml:1839
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"NEBULA_ZOLTAN_BATTLEFIELD\"]/choice[@req=\"BLUELIST_CREW_SNAIL\"]/event/choice[2]/event/text"
 msgstr "Вы покидаете поле боя."
 
-#: src-en/data/events_sector_ministry.xml:1806
+#: src-en/data/events_sector_ministry.xml:1841
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"NEBULA_ZOLTAN_BATTLEFIELD\"]/choice[@req=\"BLUELIST_CREW_SNAIL\"]/event/choice[2]/event/choice[1]/text"
 msgstr "Заняться чем-либо на корабле."
 
-#: src-en/data/events_sector_ministry.xml:1810
+#: src-en/data/events_sector_ministry.xml:1845
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"NEBULA_ZOLTAN_BATTLEFIELD\"]/choice[@req=\"BLUELIST_CREW_SNAIL\"]/event/choice[2]/event/choice[2]/text"
 msgstr "Ничего не делать."
 
-#: src-en/data/events_sector_ministry.xml:1818
+#: src-en/data/events_sector_ministry.xml:1853
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"NEBULA_ZOLTAN_BATTLEFIELD\"]/choice[3]/text"
 msgstr "Исследовать поле боя."
 
-#: src-en/data/events_sector_ministry.xml:1822
+#: src-en/data/events_sector_ministry.xml:1857
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"NEBULA_ZOLTAN_BATTLEFIELD\"]/choice[4]/text"
 msgstr "Покинуть поле боя до прибытия других кораблей."
 
-#: src-en/data/events_sector_ministry.xml:1824
+#: src-en/data/events_sector_ministry.xml:1859
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"NEBULA_ZOLTAN_BATTLEFIELD\"]/choice[4]/event/text"
 msgstr "Вы покидаете поле боя."
 
-#: src-en/data/events_sector_ministry.xml:1826
+#: src-en/data/events_sector_ministry.xml:1861
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"NEBULA_ZOLTAN_BATTLEFIELD\"]/choice[4]/event/choice[1]/text"
 msgstr "Заняться чем-либо на корабле."
 
-#: src-en/data/events_sector_ministry.xml:1830
+#: src-en/data/events_sector_ministry.xml:1865
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"NEBULA_ZOLTAN_BATTLEFIELD\"]/choice[4]/event/choice[2]/text"
 msgstr "Ничего не делать."
 
-#: src-en/data/events_sector_ministry.xml:1838
+#: src-en/data/events_sector_ministry.xml:1873
 msgid ""
 "data/events_sector_ministry.xml$//eventList[@name=\"BATTLEFIELD_INVESTIGATE\"]/event[1]/text"
 msgstr ""
@@ -2729,7 +2774,7 @@ msgstr ""
 "решаете не рисковать дальнейшими повреждениями корпуса и готовитесь к "
 "прыжку."
 
-#: src-en/data/events_sector_ministry.xml:1843
+#: src-en/data/events_sector_ministry.xml:1878
 msgid ""
 "data/events_sector_ministry.xml$//eventList[@name=\"BATTLEFIELD_INVESTIGATE\"]/event[2]/text"
 msgstr ""
@@ -2738,7 +2783,7 @@ msgstr ""
 " обнаружив ничего интересного, вы решаете не рисковать своим кораблем и "
 "готовитесь к прыжку."
 
-#: src-en/data/events_sector_ministry.xml:1846
+#: src-en/data/events_sector_ministry.xml:1881
 msgid ""
 "data/events_sector_ministry.xml$//eventList[@name=\"BATTLEFIELD_INVESTIGATE\"]/event[3]/text"
 msgstr ""
@@ -2747,7 +2792,7 @@ msgstr ""
 " обнаружив ничего интересного, вы решаете не рисковать своим кораблем и "
 "готовитесь к прыжку."
 
-#: src-en/data/events_sector_ministry.xml:1849
+#: src-en/data/events_sector_ministry.xml:1884
 msgid ""
 "data/events_sector_ministry.xml$//eventList[@name=\"BATTLEFIELD_INVESTIGATE\"]/event[4]/text"
 msgstr ""
@@ -2756,49 +2801,49 @@ msgstr ""
 " обнаружив ничего интересного, вы решаете не рисковать своим кораблем и "
 "готовитесь к прыжку."
 
-#: src-en/data/events_sector_ministry.xml:1852
+#: src-en/data/events_sector_ministry.xml:1887
 msgid ""
 "data/events_sector_ministry.xml$//eventList[@name=\"BATTLEFIELD_INVESTIGATE\"]/event[5]/text"
 msgstr "Вы замечаете существо, плавающее среди обломков."
 
-#: src-en/data/events_sector_ministry.xml:1854
+#: src-en/data/events_sector_ministry.xml:1889
 msgid ""
 "data/events_sector_ministry.xml$//eventList[@name=\"BATTLEFIELD_INVESTIGATE\"]/event[5]/choice[1]/text"
 msgstr "Оказать помощь выжившему."
 
-#: src-en/data/events_sector_ministry.xml:1858
+#: src-en/data/events_sector_ministry.xml:1893
 msgid ""
 "data/events_sector_ministry.xml$//eventList[@name=\"BATTLEFIELD_INVESTIGATE\"]/event[5]/choice[2]/text"
 msgstr "Покинуть поле боя до прибытия других кораблей."
 
-#: src-en/data/events_sector_ministry.xml:1860
+#: src-en/data/events_sector_ministry.xml:1895
 msgid ""
 "data/events_sector_ministry.xml$//eventList[@name=\"BATTLEFIELD_INVESTIGATE\"]/event[5]/choice[2]/event/text"
 msgstr "Вы покидаете поле боя."
 
-#: src-en/data/events_sector_ministry.xml:1862
+#: src-en/data/events_sector_ministry.xml:1897
 msgid ""
 "data/events_sector_ministry.xml$//eventList[@name=\"BATTLEFIELD_INVESTIGATE\"]/event[5]/choice[2]/event/choice[1]/text"
 msgstr "Заняться чем-либо на корабле."
 
-#: src-en/data/events_sector_ministry.xml:1866
+#: src-en/data/events_sector_ministry.xml:1901
 msgid ""
 "data/events_sector_ministry.xml$//eventList[@name=\"BATTLEFIELD_INVESTIGATE\"]/event[5]/choice[2]/event/choice[2]/text"
 msgstr "Ничего не делать."
 
-#: src-en/data/events_sector_ministry.xml:1874
+#: src-en/data/events_sector_ministry.xml:1909
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"BATTLEFIELD_SURVIVOR\"]/text"
 msgstr ""
 "Вы поднимаете выжившего на борт, но обнаруживаете, что его раны очень "
 "тяжелые. Он долго не протянет."
 
-#: src-en/data/events_sector_ministry.xml:1876
+#: src-en/data/events_sector_ministry.xml:1911
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"BATTLEFIELD_SURVIVOR\"]/choice[1]/text"
 msgstr "Создать ему комфортные условия для последних минут жизни."
 
-#: src-en/data/events_sector_ministry.xml:1878
+#: src-en/data/events_sector_ministry.xml:1913
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"BATTLEFIELD_SURVIVOR\"]/choice[1]/event/text"
 msgstr ""
@@ -2806,38 +2851,78 @@ msgstr ""
 "отправиться туда - когда вы пытаетесь спросить его зачем, выживший отвечает:"
 " \"ЗАБРШ\" и умирает."
 
-#: src-en/data/events_sector_ministry.xml:1883
+#: src-en/data/events_sector_ministry.xml:1918
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"BATTLEFIELD_SURVIVOR\"]/choice[@req=\"medbay\"]/text"
-msgstr "(Продв. Медотсек) Отвести его их в Медотсек!"
+msgstr "(Улучш. Медотсек) Отвести его в Медотсек!"
 
-#: src-en/data/events_sector_ministry.xml:1885
+#: src-en/data/events_sector_ministry.xml:1920
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"BATTLEFIELD_SURVIVOR\"]/choice[@req=\"medbay\"]/event/text"
 msgstr ""
 "Используя свой продвинутый Медотсек, вы смогли вылечить раны выжившего, и он"
-" быстро поправляется. В благодарность за спасение он предлагает "
-"присоединиться к вашей команде и помочь, чем сможет."
+" быстро поправляется. Благодарный за спасение, он предлагает присоединиться "
+"к вашему экипажу и быть полезным во всем, чем сможет."
 
-#: src-en/data/events_sector_ministry.xml:1890
+#: src-en/data/events_sector_ministry.xml:1925
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"BATTLEFIELD_SURVIVOR\"]/choice[@req=\"clonebay\"]/text"
 msgstr ""
 "(Клон-отсек) Попытаться клонировать его, пока не стало слишком поздно."
 
-#: src-en/data/events_sector_ministry.xml:1892
+#: src-en/data/events_sector_ministry.xml:1927
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"BATTLEFIELD_SURVIVOR\"]/choice[@req=\"clonebay\"]/event/text"
 msgstr ""
 "Вы клонируете человека и позволяете его носителю уйти из жизни. Клон решает "
 "присоединиться к вам - хотя выбор у него невелик."
 
-#: src-en/data/events_sector_ministry.xml:1900
+#: src-en/data/events_sector_ministry.xml:1932
+msgid ""
+"data/events_sector_ministry.xml$//event[@name=\"BATTLEFIELD_SURVIVOR\"]/choice[@req=\"LIST_CREW_MEDICAL\"]/text"
+msgstr "(Медицинский экипаж) Приказать своему экипажу вылечить его."
+
+#: src-en/data/events_sector_ministry.xml:1934
+msgid ""
+"data/events_sector_ministry.xml$//event[@name=\"BATTLEFIELD_SURVIVOR\"]/choice[@req=\"LIST_CREW_MEDICAL\"]/event/text"
+msgstr ""
+"Вы поручаете своему члену экипажа оказать помощь выжившему, и после "
+"нескольких напряженных минут он успешно выхаживает его. Благодарный за "
+"спасение, он предлагает присоединиться к вашему экипажу и быть полезным во "
+"всем, чем сможет."
+
+#: src-en/data/events_sector_ministry.xml:1939
+msgid ""
+"data/events_sector_ministry.xml$//event[@name=\"BATTLEFIELD_SURVIVOR\"]/choice[@req=\"BLUELIST_DRONES_MEDICAL\"]/text"
+msgstr "(Медицинский дрон) Пусть ваш дрон вылечит его."
+
+#: src-en/data/events_sector_ministry.xml:1941
+msgid ""
+"data/events_sector_ministry.xml$//event[@name=\"BATTLEFIELD_SURVIVOR\"]/choice[@req=\"BLUELIST_DRONES_MEDICAL\"]/event/text"
+msgstr ""
+"Вы поручаете дрону вылечить выжившего, и он быстро приходит в себя. "
+"Благодарный за спасение, он предлагает присоединиться к вашему экипажу и "
+"быть полезным во всем, чем сможет."
+
+#: src-en/data/events_sector_ministry.xml:1946
+msgid ""
+"data/events_sector_ministry.xml$//event[@name=\"BATTLEFIELD_SURVIVOR\"]/choice[@req=\"BLUELIST_BOMBS_HEAL\"]/text"
+msgstr "(Исцеляющая бомба) Использовать на нем свою Исцеляющую бомбу. [-1}]"
+
+#: src-en/data/events_sector_ministry.xml:1948
+msgid ""
+"data/events_sector_ministry.xml$//event[@name=\"BATTLEFIELD_SURVIVOR\"]/choice[@req=\"BLUELIST_BOMBS_HEAL\"]/event/text"
+msgstr ""
+"Ваша бомба оказывается эффективным средством для заживления ран выжившего, и"
+" он быстро поправляется. Благодарный за спасение, он предлагает "
+"присоединиться к вашему экипажу и быть полезным во всем, чем сможет."
+
+#: src-en/data/events_sector_ministry.xml:1959
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"SECRET_WORD_ABADOTH_MV\"]/beaconType/unvisitedTooltip"
 msgstr "Загадочные координаты, предоставленные погибшим человеком."
 
-#: src-en/data/events_sector_ministry.xml:1902
+#: src-en/data/events_sector_ministry.xml:1961
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"SECRET_WORD_ABADOTH_MV\"]/text"
 msgstr ""
@@ -2845,40 +2930,61 @@ msgstr ""
 "спасти. Кажется, здесь ничего нет - ни планет, ни кораблей, ни малейшего "
 "намека на то, что он имел в виду, отправляя вас сюда."
 
-#: src-en/data/events_sector_ministry.xml:1904
+#: src-en/data/events_sector_ministry.xml:1964
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"SECRET_WORD_ABADOTH_MV\"]/choice[@req=\"LIST_CREW_SLUG\"]/text"
 msgstr ""
 "(Член экипажа-слизень) Попросить слизня провести сканирование на наличие "
 "форм жизни."
 
-#: src-en/data/events_sector_ministry.xml:1908
+#: src-en/data/events_sector_ministry.xml:1968
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"SECRET_WORD_ABADOTH_MV\"]/choice[@req=\"BLUELIST_CREW_SNAIL\"]/text"
 msgstr ""
 "(Член экипажа-ракушка Телепат) Попросить ракушку провести сканирование на "
 "наличие форм жизни."
 
-#: src-en/data/events_sector_ministry.xml:1912
+#: src-en/data/events_sector_ministry.xml:1972
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"SECRET_WORD_ABADOTH_MV\"]/choice[3]/text"
 msgstr ""
 "Выполнить полное сканирование системы - хотя при этом вы наверняка потеряете"
 " часть своего преимущества в борьбе с повстанцами."
 
-#: src-en/data/events_sector_ministry.xml:1914
+#: src-en/data/events_sector_ministry.xml:1974
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"SECRET_WORD_ABADOTH_MV\"]/choice[3]/event/text"
 msgstr ""
 "Вы приступаете к трудной задаче полного сканирования системы. Лучше бы оно "
 "того стоило."
 
-#: src-en/data/events_sector_ministry.xml:1917
+#: src-en/data/events_sector_ministry.xml:1977
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"SECRET_WORD_ABADOTH_MV\"]/choice[3]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_ministry.xml:1924
+#: src-en/data/events_sector_ministry.xml:1983
+msgid ""
+"data/events_sector_ministry.xml$//event[@name=\"SECRET_WORD_ABADOTH_MV\"]/choice[4]/text"
+msgstr "Оставить эту тайну в прошлом."
+
+#: src-en/data/events_sector_ministry.xml:1985
+msgid ""
+"data/events_sector_ministry.xml$//event[@name=\"SECRET_WORD_ABADOTH_MV\"]/choice[4]/event/text"
+msgstr ""
+"Вы понятия не имеете, что это было, но решаете не тратить на это время."
+
+#: src-en/data/events_sector_ministry.xml:1987
+msgid ""
+"data/events_sector_ministry.xml$//event[@name=\"SECRET_WORD_ABADOTH_MV\"]/choice[4]/event/choice[1]/text"
+msgstr "Заняться чем-либо на корабле."
+
+#: src-en/data/events_sector_ministry.xml:1991
+msgid ""
+"data/events_sector_ministry.xml$//event[@name=\"SECRET_WORD_ABADOTH_MV\"]/choice[4]/event/choice[2]/text"
+msgstr "Ничего не делать."
+
+#: src-en/data/events_sector_ministry.xml:1998
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"SECRET_WORD_ABADOTH_CONCLUSION_MV\"]/text"
 msgstr ""
@@ -2886,29 +2992,29 @@ msgstr ""
 "чтобы вы назвали причину своего пребывания здесь, или вас ждут серьезные "
 "последствия\"."
 
-#: src-en/data/events_sector_ministry.xml:1927
+#: src-en/data/events_sector_ministry.xml:2001
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"SECRET_WORD_ABADOTH_CONCLUSION_MV\"]/choice[1]/text"
 msgstr "Объяснить, что вам назвал эти координаты погибший человек."
 
-#: src-en/data/events_sector_ministry.xml:1929
+#: src-en/data/events_sector_ministry.xml:2003
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"SECRET_WORD_ABADOTH_CONCLUSION_MV\"]/choice[1]/event/text"
 msgstr ""
 "Воцаряется тишина, и вдруг золтанский корабль активирует орудия - должно "
 "быть, это было неудачное объяснение... Теперь вам придется сражаться!"
 
-#: src-en/data/events_sector_ministry.xml:1932
+#: src-en/data/events_sector_ministry.xml:2006
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"SECRET_WORD_ABADOTH_CONCLUSION_MV\"]/choice[1]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_ministry.xml:1938
+#: src-en/data/events_sector_ministry.xml:2012
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"SECRET_WORD_ABADOTH_CONCLUSION_MV\"]/choice[@req=\"LIST_CREW_ENGI\"]/text"
 msgstr "(Член экипажа-энджи) Сказать \"ЗАБРШ\"."
 
-#: src-en/data/events_sector_ministry.xml:1940
+#: src-en/data/events_sector_ministry.xml:2014
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"SECRET_WORD_ABADOTH_CONCLUSION_MV\"]/choice[@req=\"LIST_CREW_ENGI\"]/event/text"
 msgstr ""
@@ -2916,12 +3022,17 @@ msgstr ""
 "информацию. Он желает вам счастливого пути и предлагает несколько улучшений "
 "в обмен на вашу службу расе золтанов."
 
-#: src-en/data/events_sector_ministry.xml:1945
+#: src-en/data/events_sector_ministry.xml:2017
+msgid ""
+"data/events_sector_ministry.xml$//event[@name=\"SECRET_WORD_ABADOTH_CONCLUSION_MV\"]/choice[@req=\"LIST_CREW_ENGI\"]/event/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_ministry.xml:2023
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"SECRET_WORD_ABADOTH_CONCLUSION_MV\"]/choice[@req=\"LIST_CREW_COGNITIVE\"]/text"
 msgstr "(Член экипажа-когнитив) Сказать \"ЗАБРШ\"."
 
-#: src-en/data/events_sector_ministry.xml:1947
+#: src-en/data/events_sector_ministry.xml:2025
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"SECRET_WORD_ABADOTH_CONCLUSION_MV\"]/choice[@req=\"LIST_CREW_COGNITIVE\"]/event/text"
 msgstr ""
@@ -2929,29 +3040,29 @@ msgstr ""
 "информацию. Он желает вам счастливого пути и предлагает несколько улучшений "
 "в обмен на вашу службу расе золтанов."
 
-#: src-en/data/events_sector_ministry.xml:1952
+#: src-en/data/events_sector_ministry.xml:2030
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"SECRET_WORD_ABADOTH_CONCLUSION_MV\"]/choice[4]/text"
 msgstr "Сказать \"БРШН\"."
 
-#: src-en/data/events_sector_ministry.xml:1954
+#: src-en/data/events_sector_ministry.xml:2032
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"SECRET_WORD_ABADOTH_CONCLUSION_MV\"]/choice[4]/event/text"
 msgstr ""
 "Воцаряется тишина, и вдруг золтанский корабль активирует орудия - должно "
 "быть, это было неудачное объяснение... Теперь вам придется сражаться!"
 
-#: src-en/data/events_sector_ministry.xml:1957
+#: src-en/data/events_sector_ministry.xml:2035
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"SECRET_WORD_ABADOTH_CONCLUSION_MV\"]/choice[4]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_ministry.xml:1963
+#: src-en/data/events_sector_ministry.xml:2041
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"SECRET_WORD_ABADOTH_CONCLUSION_MV\"]/choice[5]/text"
 msgstr "Сказать \"ЗАБРШ\"."
 
-#: src-en/data/events_sector_ministry.xml:1965
+#: src-en/data/events_sector_ministry.xml:2043
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"SECRET_WORD_ABADOTH_CONCLUSION_MV\"]/choice[5]/event/text"
 msgstr ""
@@ -2959,24 +3070,29 @@ msgstr ""
 "информацию. Он желает вам счастливого пути и предлагает несколько улучшений "
 "в обмен на вашу службу расе золтанов."
 
-#: src-en/data/events_sector_ministry.xml:1970
+#: src-en/data/events_sector_ministry.xml:2046
+msgid ""
+"data/events_sector_ministry.xml$//event[@name=\"SECRET_WORD_ABADOTH_CONCLUSION_MV\"]/choice[5]/event/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_ministry.xml:2052
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"SECRET_WORD_ABADOTH_CONCLUSION_MV\"]/choice[6]/text"
 msgstr "Сказать \"ЗАБШР\"."
 
-#: src-en/data/events_sector_ministry.xml:1972
+#: src-en/data/events_sector_ministry.xml:2054
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"SECRET_WORD_ABADOTH_CONCLUSION_MV\"]/choice[6]/event/text"
 msgstr ""
 "Воцаряется тишина, и вдруг золтанский корабль активирует орудия - должно "
 "быть, это было неудачное объяснение... Теперь вам придется сражаться!"
 
-#: src-en/data/events_sector_ministry.xml:1975
+#: src-en/data/events_sector_ministry.xml:2057
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"SECRET_WORD_ABADOTH_CONCLUSION_MV\"]/choice[6]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_ministry.xml:1983
+#: src-en/data/events_sector_ministry.xml:2065
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"NEBULA_ZOLTAN_STUDY\"]/text"
 msgstr ""
@@ -2985,37 +3101,37 @@ msgstr ""
 "сверхсветовыми путешествиями. Они спрашивают, есть ли у вашего экипажа "
 "время, чтобы пройти несколько сканирований."
 
-#: src-en/data/events_sector_ministry.xml:1986
+#: src-en/data/events_sector_ministry.xml:2068
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"NEBULA_ZOLTAN_STUDY\"]/choice[1]/text"
 msgstr "Принять участие в их исследовании."
 
-#: src-en/data/events_sector_ministry.xml:1990
+#: src-en/data/events_sector_ministry.xml:2072
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"NEBULA_ZOLTAN_STUDY\"]/choice[2]/text"
 msgstr "Отказаться."
 
-#: src-en/data/events_sector_ministry.xml:1992
+#: src-en/data/events_sector_ministry.xml:2074
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"NEBULA_ZOLTAN_STUDY\"]/choice[2]/event/text"
 msgstr "\"Хорошо. Благополучного полета\". Вы готовитесь к отлету."
 
-#: src-en/data/events_sector_ministry.xml:1994
+#: src-en/data/events_sector_ministry.xml:2076
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"NEBULA_ZOLTAN_STUDY\"]/choice[2]/event/choice[1]/text"
 msgstr "Заняться чем-либо на корабле."
 
-#: src-en/data/events_sector_ministry.xml:1998
+#: src-en/data/events_sector_ministry.xml:2080
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"NEBULA_ZOLTAN_STUDY\"]/choice[2]/event/choice[2]/text"
 msgstr "Ничего не делать."
 
-#: src-en/data/events_sector_ministry.xml:2004
+#: src-en/data/events_sector_ministry.xml:2086
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"NEBULA_ZOLTAN_STUDY\"]/choice[@req=\"medbay\"]/text"
 msgstr "(Продв. Медотсек) Передать им свою медицинскую карту."
 
-#: src-en/data/events_sector_ministry.xml:2006
+#: src-en/data/events_sector_ministry.xml:2088
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"NEBULA_ZOLTAN_STUDY\"]/choice[@req=\"medbay\"]/event/text"
 msgstr ""
@@ -3023,14 +3139,14 @@ msgstr ""
 "состоянии здоровья вашего экипажа во время сверхсветового путешествия. "
 "Пожалуйста, возьмите это за ваши хлопоты\"."
 
-#: src-en/data/events_sector_ministry.xml:2012
+#: src-en/data/events_sector_ministry.xml:2094
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"NEBULA_ZOLTAN_STUDY\"]/choice[@req=\"LIST_CREW_SHELL\"]/text"
 msgstr ""
 "(Член экипажа-ракушка) Попросить возможность обменяться информацией с "
 "научной группой золтан."
 
-#: src-en/data/events_sector_ministry.xml:2014
+#: src-en/data/events_sector_ministry.xml:2096
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"NEBULA_ZOLTAN_STUDY\"]/choice[@req=\"LIST_CREW_SHELL\"]/event/text"
 msgstr ""
@@ -3040,12 +3156,12 @@ msgstr ""
 "понимания. После долгих дебатов и мозговых штурмов с золтанами она, наконец,"
 " смогла вернуться к вам и в знак благодарности они предложили схему дрона."
 
-#: src-en/data/events_sector_ministry.xml:2020
+#: src-en/data/events_sector_ministry.xml:2102
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"NEBULA_ZOLTAN_STUDY\"]/choice[@req=\"ANCIENT_CONSTRUCTOR\"]/text"
 msgstr "(Спящий пришелец) Спросить, знают ли они, что с этим делать."
 
-#: src-en/data/events_sector_ministry.xml:2022
+#: src-en/data/events_sector_ministry.xml:2104
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"NEBULA_ZOLTAN_STUDY\"]/choice[@req=\"ANCIENT_CONSTRUCTOR\"]/event/text"
 msgstr ""
@@ -3054,7 +3170,7 @@ msgstr ""
 "сном. Однако с помощью катализатора, например, квантового топлива, вы, "
 "возможно, сможете пробудить?\""
 
-#: src-en/data/events_sector_ministry.xml:2029
+#: src-en/data/events_sector_ministry.xml:2111
 msgid ""
 "data/events_sector_ministry.xml$//eventList[@name=\"ZOLTAN_CREW_STUDY_LIST_MV\"]/event[1]/text"
 msgstr ""
@@ -3063,7 +3179,7 @@ msgstr ""
 "вас за участие в нашем исследовании. Примите, пожалуйста, эти маленькие "
 "пирожки из крутого теста, а также немного металлолома\"."
 
-#: src-en/data/events_sector_ministry.xml:2033
+#: src-en/data/events_sector_ministry.xml:2115
 msgid ""
 "data/events_sector_ministry.xml$//eventList[@name=\"ZOLTAN_CREW_STUDY_LIST_MV\"]/event[2]/text"
 msgstr ""
@@ -3072,7 +3188,7 @@ msgstr ""
 "вас за участие в нашем исследовании. Примите, пожалуйста, эти маленькие "
 "пирожки из крутого теста, а также немного металлолома\"."
 
-#: src-en/data/events_sector_ministry.xml:2037
+#: src-en/data/events_sector_ministry.xml:2119
 msgid ""
 "data/events_sector_ministry.xml$//eventList[@name=\"ZOLTAN_CREW_STUDY_LIST_MV\"]/event[3]/text"
 msgstr ""
@@ -3080,24 +3196,24 @@ msgstr ""
 "враждебный корабль. Вдалеке слышны крики золтан: \"Нас держат в "
 "заложниках!\""
 
-#: src-en/data/events_sector_ministry.xml:2041
+#: src-en/data/events_sector_ministry.xml:2123
 msgid ""
 "data/events_sector_ministry.xml$//eventList[@name=\"ZOLTAN_CREW_STUDY_LIST_MV\"]/event[3]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_ministry.xml:2048
+#: src-en/data/events_sector_ministry.xml:2130
 msgid "data/events_sector_ministry.xml$//event[@name=\"NEBULA_ZOLTAN_ROCK\"]/text"
 msgstr ""
 "Оказывается, в этой туманности скрывается перепуганный экипаж валунов, "
 "укрывающаяся от пограничной полиции золтан. Похоже, они не готовы рисковать,"
 " что вы уйдете с их координатами, и открывают огонь!"
 
-#: src-en/data/events_sector_ministry.xml:2052
+#: src-en/data/events_sector_ministry.xml:2134
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"NEBULA_ZOLTAN_ROCK\"]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_ministry.xml:2058
+#: src-en/data/events_sector_ministry.xml:2140
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"NEBULA_STORM_ZOLTAN_SUPPLY\"]/text"
 msgstr ""
@@ -3106,61 +3222,61 @@ msgstr ""
 "определить их груз: один из них везет топливо, другой - боеприпасы. Они "
 "начинают уноситься друг от друга в шторм."
 
-#: src-en/data/events_sector_ministry.xml:2061
+#: src-en/data/events_sector_ministry.xml:2143
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"NEBULA_STORM_ZOLTAN_SUPPLY\"]/choice[1]/text"
 msgstr "Захватить корабль с топливом."
 
-#: src-en/data/events_sector_ministry.xml:2063
+#: src-en/data/events_sector_ministry.xml:2145
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"NEBULA_STORM_ZOLTAN_SUPPLY\"]/choice[1]/event/text"
 msgstr ""
 "Вы летите к пиратам с запасами топлива и вступаете в бой - надеюсь, вам "
 "удастся оставить корабль целым и невредимым!"
 
-#: src-en/data/events_sector_ministry.xml:2066
+#: src-en/data/events_sector_ministry.xml:2148
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"NEBULA_STORM_ZOLTAN_SUPPLY\"]/choice[1]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_ministry.xml:2072
+#: src-en/data/events_sector_ministry.xml:2154
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"NEBULA_STORM_ZOLTAN_SUPPLY\"]/choice[2]/text"
 msgstr "Захватить корабль с боеприпасами."
 
-#: src-en/data/events_sector_ministry.xml:2074
+#: src-en/data/events_sector_ministry.xml:2156
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"NEBULA_STORM_ZOLTAN_SUPPLY\"]/choice[2]/event/text"
 msgstr ""
 "Вы летите к пиратам с боеприпасами и вступаете в бой - надеюсь, вам удастся "
 "оставить корабль целым и невредимым!"
 
-#: src-en/data/events_sector_ministry.xml:2077
+#: src-en/data/events_sector_ministry.xml:2159
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"NEBULA_STORM_ZOLTAN_SUPPLY\"]/choice[2]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_ministry.xml:2083
+#: src-en/data/events_sector_ministry.xml:2165
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"NEBULA_STORM_ZOLTAN_SUPPLY\"]/choice[3]/text"
 msgstr "Пусть уходят."
 
-#: src-en/data/events_sector_ministry.xml:2085
+#: src-en/data/events_sector_ministry.xml:2167
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"NEBULA_STORM_ZOLTAN_SUPPLY\"]/choice[3]/event/text"
 msgstr "Иногда осторожность - лучшая сторона доблести."
 
-#: src-en/data/events_sector_ministry.xml:2087
+#: src-en/data/events_sector_ministry.xml:2169
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"NEBULA_STORM_ZOLTAN_SUPPLY\"]/choice[3]/event/choice[1]/text"
 msgstr "Заняться чем-либо на корабле."
 
-#: src-en/data/events_sector_ministry.xml:2091
+#: src-en/data/events_sector_ministry.xml:2173
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"NEBULA_STORM_ZOLTAN_SUPPLY\"]/choice[3]/event/choice[2]/text"
 msgstr "Ничего не делать."
 
-#: src-en/data/events_sector_ministry.xml:2107
+#: src-en/data/events_sector_ministry.xml:2189
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"ENCOUNTER_ZOLTAN_ELITE\"]/text"
 msgstr ""
@@ -3169,12 +3285,12 @@ msgstr ""
 "золтанская элита, которой, похоже, надоело терпеть корабли Федерации, и она "
 "решила напасть."
 
-#: src-en/data/events_sector_ministry.xml:2110
+#: src-en/data/events_sector_ministry.xml:2192
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"ENCOUNTER_ZOLTAN_ELITE\"]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_ministry.xml:2123
+#: src-en/data/events_sector_ministry.xml:2205
 msgid "data/events_sector_ministry.xml$//event[@name=\"CAPITAL_OSMIA_RAID\"]/text"
 msgstr ""
 "Поначалу вы думаете, что близлежащая планета не представляет собой ничего "
@@ -3184,12 +3300,12 @@ msgstr ""
 "достопримечательностей. Вы думали, что столица находится на родной планете "
 "золтанов - Осмии, но это определенно не такое место."
 
-#: src-en/data/events_sector_ministry.xml:2127
+#: src-en/data/events_sector_ministry.xml:2209
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"CAPITAL_OSMIA_RAID\"]/choice[1]/text"
 msgstr "Посетить столицу."
 
-#: src-en/data/events_sector_ministry.xml:2129
+#: src-en/data/events_sector_ministry.xml:2211
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"CAPITAL_OSMIA_RAID\"]/choice[1]/event/text"
 msgstr ""
@@ -3197,86 +3313,86 @@ msgstr ""
 "так. На улицах возле огромного здания капитолия почти нет никакой "
 "активности, и вы можете поклясться, что видите несколько вооруженных "
 "патрулей, стоящих снаружи. При спуске вас предупреждают: "
-"\"Незарегистрированное иностранное судно - немедленно прекратите движение и "
+"\"Незарегистрированное чужеземное судно - немедленно прекратите движение и "
 "покиньте эту зону. Сейчас не время для самоуверенного вмешательства "
 "безрассудных третьих лиц\"."
 
-#: src-en/data/events_sector_ministry.xml:2131
+#: src-en/data/events_sector_ministry.xml:2213
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"CAPITAL_OSMIA_RAID\"]/choice[1]/event/choice[1]/text"
 msgstr "Мы не безрассудная третья сторона - мы Федерация."
 
-#: src-en/data/events_sector_ministry.xml:2133
+#: src-en/data/events_sector_ministry.xml:2215
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"CAPITAL_OSMIA_RAID\"]/choice[1]/event/choice[1]/event/text"
 msgstr ""
 "\"Я это понимаю. Мое заявление остается в силе. Это дело важно для "
 "Министерства и только для него. А теперь проваливайте\"."
 
-#: src-en/data/events_sector_ministry.xml:2135
+#: src-en/data/events_sector_ministry.xml:2217
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"CAPITAL_OSMIA_RAID\"]/choice[1]/event/choice[1]/event/choice[@req=\"LIST_CREW_ZOLTAN_CAPITAL\"]/text"
 msgstr "(Член экипажа из Министерства) Уговорить их принять вашу помощь."
 
-#: src-en/data/events_sector_ministry.xml:2139
+#: src-en/data/events_sector_ministry.xml:2221
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"CAPITAL_OSMIA_RAID\"]/choice[1]/event/choice[1]/event/choice[@req=\"LIST_CREW_HARMONY\"]/text"
 msgstr "(Член экипажа из Гармонии) Уговорить их принять вашу помощь."
 
-#: src-en/data/events_sector_ministry.xml:2143
+#: src-en/data/events_sector_ministry.xml:2225
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"CAPITAL_OSMIA_RAID\"]/choice[1]/event/choice[1]/event/choice[@req=\"ENERGY_SHIELD\"]/text"
 msgstr "(Щит золтанов) Убедить их, что вы корабль золтанов."
 
-#: src-en/data/events_sector_ministry.xml:2147
+#: src-en/data/events_sector_ministry.xml:2229
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"CAPITAL_OSMIA_RAID\"]/choice[1]/event/choice[1]/event/choice[4]/text"
 msgstr "В любом случае настаивать на своей помощи."
 
-#: src-en/data/events_sector_ministry.xml:2149
+#: src-en/data/events_sector_ministry.xml:2231
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"CAPITAL_OSMIA_RAID\"]/choice[1]/event/choice[1]/event/choice[4]/event/text"
 msgstr ""
 "Золтан не стал с вами разговаривать, а вызвал по рации подмогу, чтобы "
 "прогнать вас!"
 
-#: src-en/data/events_sector_ministry.xml:2152
+#: src-en/data/events_sector_ministry.xml:2234
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"CAPITAL_OSMIA_RAID\"]/choice[1]/event/choice[1]/event/choice[4]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_ministry.xml:2158
+#: src-en/data/events_sector_ministry.xml:2240
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"CAPITAL_OSMIA_RAID\"]/choice[1]/event/choice[1]/event/choice[5]/text"
 msgstr "Похоже, этих ребят не переубедить."
 
-#: src-en/data/events_sector_ministry.xml:2164
+#: src-en/data/events_sector_ministry.xml:2246
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"CAPITAL_OSMIA_RAID\"]/choice[1]/event/choice[2]/text"
 msgstr "Прислушаться к этому предупреждению и уйти."
 
-#: src-en/data/events_sector_ministry.xml:2170
+#: src-en/data/events_sector_ministry.xml:2252
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"CAPITAL_OSMIA_RAID\"]/choice[2]/text"
 msgstr "Нет смысла посещать ее."
 
-#: src-en/data/events_sector_ministry.xml:2172
+#: src-en/data/events_sector_ministry.xml:2254
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"CAPITAL_OSMIA_RAID\"]/choice[2]/event/text"
 msgstr ""
 "Вам не хочется беспокоить золтан или осматривать достопримечательности."
 
-#: src-en/data/events_sector_ministry.xml:2174
+#: src-en/data/events_sector_ministry.xml:2256
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"CAPITAL_OSMIA_RAID\"]/choice[2]/event/choice[1]/text"
 msgstr "Заняться чем-либо на корабле."
 
-#: src-en/data/events_sector_ministry.xml:2178
+#: src-en/data/events_sector_ministry.xml:2260
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"CAPITAL_OSMIA_RAID\"]/choice[2]/event/choice[2]/text"
 msgstr "Ничего не делать."
 
-#: src-en/data/events_sector_ministry.xml:2185
+#: src-en/data/events_sector_ministry.xml:2267
 msgid "data/events_sector_ministry.xml$//event[@name=\"OSMIA_RAID_ASSIST\"]/text"
 msgstr ""
 "\"Похоже, я неправильно оценила ваши способности. Я - Альта Фолек, регент и "
@@ -3284,12 +3400,12 @@ msgstr ""
 " вы, возможно, заметили, капитолий был эвакуирован, а город взят под охрану "
 "в связи с готовящейся террористической атакой."
 
-#: src-en/data/events_sector_ministry.xml:2187
+#: src-en/data/events_sector_ministry.xml:2269
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"OSMIA_RAID_ASSIST\"]/choice/text"
 msgstr "Террористы? Это Вестники Заката?"
 
-#: src-en/data/events_sector_ministry.xml:2189
+#: src-en/data/events_sector_ministry.xml:2271
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"OSMIA_RAID_ASSIST\"]/choice/event/text"
 msgstr ""
@@ -3301,12 +3417,12 @@ msgstr ""
 "остановить. Смерть - единственное подходящее наказание для этих "
 "террористов\"."
 
-#: src-en/data/events_sector_ministry.xml:2191
+#: src-en/data/events_sector_ministry.xml:2273
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"OSMIA_RAID_ASSIST\"]/choice/event/choice[1]/text"
 msgstr "Согласиться остаться и помочь в борьбе с террористами."
 
-#: src-en/data/events_sector_ministry.xml:2193
+#: src-en/data/events_sector_ministry.xml:2275
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"OSMIA_RAID_ASSIST\"]/choice/event/choice[1]/event/text"
 msgstr ""
@@ -3314,17 +3430,17 @@ msgstr ""
 "кораблей террористов. Крейсер приличных размеров и хорошо вооруженный, "
 "похоже, это ваш шанс заслужить благосклонность Министерства."
 
-#: src-en/data/events_sector_ministry.xml:2196
+#: src-en/data/events_sector_ministry.xml:2278
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"OSMIA_RAID_ASSIST\"]/choice/event/choice[1]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_ministry.xml:2202
+#: src-en/data/events_sector_ministry.xml:2284
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"OSMIA_RAID_ASSIST\"]/choice/event/choice[2]/text"
 msgstr "Ну что ж, удачи вам с этими ребятами. Мы уходим."
 
-#: src-en/data/events_sector_ministry.xml:2212
+#: src-en/data/events_sector_ministry.xml:2294
 msgid ""
 "data/events_sector_ministry.xml$//ship[@name=\"SHIP_OSMIAN_CRUISER\"]/destroyed/text"
 msgstr ""
@@ -3332,12 +3448,12 @@ msgstr ""
 "некоторый ущерб инфраструктуре, но официальные представители золтан просят "
 "вас не беспокоиться об этом."
 
-#: src-en/data/events_sector_ministry.xml:2215
+#: src-en/data/events_sector_ministry.xml:2297
 msgid ""
 "data/events_sector_ministry.xml$//ship[@name=\"SHIP_OSMIAN_CRUISER\"]/destroyed/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_ministry.xml:2220
+#: src-en/data/events_sector_ministry.xml:2302
 msgid ""
 "data/events_sector_ministry.xml$//ship[@name=\"SHIP_OSMIAN_CRUISER\"]/deadCrew/text"
 msgstr ""
@@ -3345,12 +3461,12 @@ msgstr ""
 "некоторый ущерб инфраструктуре, но официальные представители золтан просят "
 "вас не беспокоиться об этом."
 
-#: src-en/data/events_sector_ministry.xml:2223
+#: src-en/data/events_sector_ministry.xml:2305
 msgid ""
 "data/events_sector_ministry.xml$//ship[@name=\"SHIP_OSMIAN_CRUISER\"]/deadCrew/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_ministry.xml:2229
+#: src-en/data/events_sector_ministry.xml:2311
 msgid "data/events_sector_ministry.xml$//event[@name=\"OSMIA_RAID_ESCAPE\"]/text"
 msgstr ""
 "Похоже, что корабль, на котором осталось так мало экипажа, пытается бежать. "
@@ -3358,31 +3474,31 @@ msgstr ""
 " дайте кораблю сбежать! Мы должны сделать так, чтобы эти террористы не "
 "смогли перегруппироваться!\""
 
-#: src-en/data/events_sector_ministry.xml:2233
+#: src-en/data/events_sector_ministry.xml:2315
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"OSMIA_RAID_ESCAPE\"]/choice[1]/text"
 msgstr "Продолжать сражаться."
 
-#: src-en/data/events_sector_ministry.xml:2237
+#: src-en/data/events_sector_ministry.xml:2319
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"OSMIA_RAID_ESCAPE\"]/choice[@req=\"FTL_JUMPER\"]/text"
 msgstr ""
 "(Продв. Навигация) Позволить кораблю уйти и проследить за его перемещениями."
 
-#: src-en/data/events_sector_ministry.xml:2241
+#: src-en/data/events_sector_ministry.xml:2323
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"OSMIA_RAID_ESCAPE\"]/choice[@req=\"ADV_SCANNERS\"]/text"
 msgstr ""
 "(Сканеры дальнего действия) Позволить кораблю уйти и проследить за его "
 "перемещениями."
 
-#: src-en/data/events_sector_ministry.xml:2245
+#: src-en/data/events_sector_ministry.xml:2327
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"OSMIA_RAID_ESCAPE\"]/choice[@req=\"sensors\"]/text"
 msgstr ""
 "(Продв. Сенсоры) Позволить кораблю уйти и проследить за его перемещениями."
 
-#: src-en/data/events_sector_ministry.xml:2250
+#: src-en/data/events_sector_ministry.xml:2332
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"OSMIA_RAID_ESCAPE_OFFER\"]/text"
 msgstr ""
@@ -3390,12 +3506,12 @@ msgstr ""
 "корабля, пока они не погибнут! НЕ пытайтесь преследовать их, они опасны и "
 "должны быть остановлены!\""
 
-#: src-en/data/events_sector_ministry.xml:2253
+#: src-en/data/events_sector_ministry.xml:2335
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"OSMIA_RAID_ESCAPE_OFFER\"]/choice/text"
 msgstr "Продолжать сражаться."
 
-#: src-en/data/events_sector_ministry.xml:2258
+#: src-en/data/events_sector_ministry.xml:2340
 msgid "data/events_sector_ministry.xml$//event[@name=\"OSMIA_GOTAWAY\"]/text"
 msgstr ""
 "Корабль террористов уходит в прыжок. Видно, что Альта в бешенстве, но ей "
@@ -3403,17 +3519,17 @@ msgstr ""
 "голос. \"Очень хорошо. Это не самый оптимальный результат, но... мы можем "
 "обойтись и без этого. Благодаря вашим усилиям столица спасена. Хе-хе...\""
 
-#: src-en/data/events_sector_ministry.xml:2260
+#: src-en/data/events_sector_ministry.xml:2342
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"OSMIA_GOTAWAY\"]/choice[1]/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_ministry.xml:2264
+#: src-en/data/events_sector_ministry.xml:2346
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"OSMIA_GOTAWAY\"]/choice[@req=\"loc_evidence_os_escape_offer\"]/text"
 msgstr "Сначала узнать координаты нового местонахождения корабля террористов."
 
-#: src-en/data/events_sector_ministry.xml:2266
+#: src-en/data/events_sector_ministry.xml:2348
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"OSMIA_GOTAWAY\"]/choice[@req=\"loc_evidence_os_escape_offer\"]/event/text"
 msgstr ""
@@ -3421,12 +3537,12 @@ msgstr ""
 "странного корабля золтанов. Вы не знаете, к чему это приведет, но очевидно, "
 "что там есть что-то, к чему Министерство не хочет никого подпускать."
 
-#: src-en/data/events_sector_ministry.xml:2269
+#: src-en/data/events_sector_ministry.xml:2351
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"OSMIA_GOTAWAY\"]/choice[@req=\"loc_evidence_os_escape_offer\"]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_ministry.xml:2276
+#: src-en/data/events_sector_ministry.xml:2358
 msgid "data/events_sector_ministry.xml$//event[@name=\"OSMIA_RAID_WIN\"]/text"
 msgstr ""
 "Вы не можете не заметить, что во время атаки не было других кораблей, а "
@@ -3434,34 +3550,34 @@ msgstr ""
 "бою. Странно, но Альта снова появилась, чтобы почтить вас. \"Думаю, само "
 "собой разумеется, что без вашей помощи нам не удалось бы пережить это "
 "нападение. Позвольте мне выразить свою щедрость и вам, и Федерации. А "
-"теперь, не стесняйтесь, продолжайте свою миссию. Мне бы не хотелось отнимать "
-"у вас время\". Вы не знаете, откуда взялась эта внезапная смена отношения, "
-"но, как и обещала, Альта доставила довольно большую награду, включая чертежи "
-"крейсера золтан!"
+"теперь, не стесняйтесь, продолжайте свою миссию. Мне бы не хотелось отнимать"
+" у вас время\". Вы не знаете, откуда взялась эта внезапная смена отношения, "
+"но, как и обещала, Альта доставила довольно большую награду, включая чертежи"
+" крейсера золтан!"
 
-#: src-en/data/events_sector_ministry.xml:2282
+#: src-en/data/events_sector_ministry.xml:2364
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"OSMIA_RAID_WIN\"]/choice[1]/text"
 msgstr "Принять подарок и уйти."
 
-#: src-en/data/events_sector_ministry.xml:2286
+#: src-en/data/events_sector_ministry.xml:2368
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"OSMIA_RAID_WIN\"]/choice[2]/text"
 msgstr "У нас осталось несколько вопросов."
 
-#: src-en/data/events_sector_ministry.xml:2291
+#: src-en/data/events_sector_ministry.xml:2373
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"OSMIA_RAID_QUESTIONS\"]/text"
 msgstr ""
 "\"О? Вопросы? Боюсь, я очень занята. Я поговорю с вами, но я не могу "
 "задерживаться здесь надолго\"."
 
-#: src-en/data/events_sector_ministry.xml:2293
+#: src-en/data/events_sector_ministry.xml:2375
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"OSMIA_RAID_QUESTIONS\"]/choice[@req=\"loc_evidence_os_question_help\"]/text"
 msgstr "Почему ни один из других кораблей не помог нам?"
 
-#: src-en/data/events_sector_ministry.xml:2295
+#: src-en/data/events_sector_ministry.xml:2377
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"OSMIA_RAID_QUESTIONS\"]/choice[@req=\"loc_evidence_os_question_help\"]/event/text"
 msgstr ""
@@ -3471,17 +3587,17 @@ msgstr ""
 " предоставлена полная информация о событиях, которые должны были произойти, "
 "чтобы не было паники. На этом все, надеюсь, вы не обиделись\"."
 
-#: src-en/data/events_sector_ministry.xml:2298
+#: src-en/data/events_sector_ministry.xml:2380
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"OSMIA_RAID_QUESTIONS\"]/choice[@req=\"loc_evidence_os_question_help\"]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_ministry.xml:2306
+#: src-en/data/events_sector_ministry.xml:2388
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"OSMIA_RAID_QUESTIONS\"]/choice[@req=\"loc_evidence_os_question_attack\"]/text"
 msgstr "Почему не напали другие корабли?"
 
-#: src-en/data/events_sector_ministry.xml:2308
+#: src-en/data/events_sector_ministry.xml:2390
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"OSMIA_RAID_QUESTIONS\"]/choice[@req=\"loc_evidence_os_question_attack\"]/event/text"
 msgstr ""
@@ -3491,17 +3607,17 @@ msgstr ""
 " но если нам когда-нибудь понадобится помощь в будущем, я полагаю, мы знаем "
 "к кому обращаться... Хе-хе...\""
 
-#: src-en/data/events_sector_ministry.xml:2311
+#: src-en/data/events_sector_ministry.xml:2393
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"OSMIA_RAID_QUESTIONS\"]/choice[@req=\"loc_evidence_os_question_attack\"]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_ministry.xml:2319
+#: src-en/data/events_sector_ministry.xml:2401
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"OSMIA_RAID_QUESTIONS\"]/choice[@req=\"loc_evidence_os_question_mask\"]/text"
 msgstr "Почему маски террористов были такими реалистичными?"
 
-#: src-en/data/events_sector_ministry.xml:2321
+#: src-en/data/events_sector_ministry.xml:2403
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"OSMIA_RAID_QUESTIONS\"]/choice[@req=\"loc_evidence_os_question_mask\"]/event/text"
 msgstr ""
@@ -3511,17 +3627,17 @@ msgstr ""
 "не бойтесь, эти мерзкие существа такие же, как и все золтаны, и слава "
 "богу!\""
 
-#: src-en/data/events_sector_ministry.xml:2324
+#: src-en/data/events_sector_ministry.xml:2406
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"OSMIA_RAID_QUESTIONS\"]/choice[@req=\"loc_evidence_os_question_mask\"]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_ministry.xml:2332
+#: src-en/data/events_sector_ministry.xml:2414
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"OSMIA_RAID_QUESTIONS\"]/choice[4]/text"
 msgstr "Вот и все наши вопросы."
 
-#: src-en/data/events_sector_ministry.xml:2334
+#: src-en/data/events_sector_ministry.xml:2416
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"OSMIA_RAID_QUESTIONS\"]/choice[4]/event/text"
 msgstr ""
@@ -3532,7 +3648,7 @@ msgstr ""
 "сеанс связи и к вам отправляется эскорт для обеспечения \"безопасного "
 "полета\", когда вы покидаете столицу."
 
-#: src-en/data/events_sector_ministry.xml:2340
+#: src-en/data/events_sector_ministry.xml:2422
 msgid ""
 "data/events_sector_ministry.xml$//ship[@name=\"SHIP_OSMIAN_CRUISER_COLONY\"]/destroyed/text"
 msgstr ""
@@ -3540,7 +3656,7 @@ msgstr ""
 "Министерство вряд ли даст вам вторую награду, - но, по крайней мере, с этой "
 "загадкой покончено. Так ведь?"
 
-#: src-en/data/events_sector_ministry.xml:2344
+#: src-en/data/events_sector_ministry.xml:2426
 msgid ""
 "data/events_sector_ministry.xml$//ship[@name=\"SHIP_OSMIAN_CRUISER_COLONY\"]/deadCrew/text"
 msgstr ""
@@ -3548,17 +3664,17 @@ msgstr ""
 "Министерство вряд ли даст вам вторую награду, - но, по крайней мере, с этой "
 "загадкой покончено. Так ведь?"
 
-#: src-en/data/events_sector_ministry.xml:2351
+#: src-en/data/events_sector_ministry.xml:2433
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"OSMIA_UNLOCK_QUEST\"]/beaconType/unvisitedTooltip"
 msgstr "Местонахождение террористов."
 
-#: src-en/data/events_sector_ministry.xml:2352
+#: src-en/data/events_sector_ministry.xml:2434
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"OSMIA_UNLOCK_QUEST\"]/beaconType/visitedTooltip"
 msgstr "Посещенное место. Ничего интересного."
 
-#: src-en/data/events_sector_ministry.xml:2361
+#: src-en/data/events_sector_ministry.xml:2443
 msgid "data/events_sector_ministry.xml$//event[@name=\"OSMIA_UNLOCK_QUEST\"]/text"
 msgstr ""
 "Как только вы прибываете на место, где находятся террористы, вас поражает "
@@ -3567,12 +3683,12 @@ msgstr ""
 " не имеет такой примечательности. Как Министерство утаило целую планету от "
 "остальной Федерации - и, что еще важнее, почему?"
 
-#: src-en/data/events_sector_ministry.xml:2363
+#: src-en/data/events_sector_ministry.xml:2445
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"OSMIA_UNLOCK_QUEST\"]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_ministry.xml:2365
+#: src-en/data/events_sector_ministry.xml:2447
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"OSMIA_UNLOCK_QUEST\"]/choice/event/text"
 msgstr ""
@@ -3586,12 +3702,12 @@ msgstr ""
 " городу, зависшему на нескольких больших башнях. Это не руины - здесь кипит "
 "бурная жизнь."
 
-#: src-en/data/events_sector_ministry.xml:2367
+#: src-en/data/events_sector_ministry.xml:2449
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"OSMIA_UNLOCK_QUEST\"]/choice/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_ministry.xml:2369
+#: src-en/data/events_sector_ministry.xml:2451
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"OSMIA_UNLOCK_QUEST\"]/choice/event/choice/event/text"
 msgstr ""
@@ -3602,12 +3718,12 @@ msgstr ""
 "Министерстве, - ложь! Пожалуйста, вы должны понять, что мы не представляем "
 "угрозы!\""
 
-#: src-en/data/events_sector_ministry.xml:2372
+#: src-en/data/events_sector_ministry.xml:2454
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"OSMIA_UNLOCK_QUEST\"]/choice/event/choice/event/choice/text"
 msgstr "Вы напали на столицу - это выглядит угрожающе."
 
-#: src-en/data/events_sector_ministry.xml:2374
+#: src-en/data/events_sector_ministry.xml:2456
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"OSMIA_UNLOCK_QUEST\"]/choice/event/choice/event/choice/event/text"
 msgstr ""
@@ -3617,34 +3733,34 @@ msgstr ""
 "интересно, я могу начать с самого начала и все объяснить. Но я считаю, что "
 "вы можете быть очень полезны моему народу, если вы согласны\"."
 
-#: src-en/data/events_sector_ministry.xml:2376
+#: src-en/data/events_sector_ministry.xml:2458
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"OSMIA_UNLOCK_QUEST\"]/choice/event/choice/event/choice/event/choice[1]/text"
 msgstr "Выслушать его объяснения."
 
-#: src-en/data/events_sector_ministry.xml:2380
+#: src-en/data/events_sector_ministry.xml:2462
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"OSMIA_UNLOCK_QUEST\"]/choice/event/choice/event/choice/event/choice[2]/text"
 msgstr "Мы тут немного торопимся."
 
-#: src-en/data/events_sector_ministry.xml:2384
+#: src-en/data/events_sector_ministry.xml:2466
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"OSMIA_UNLOCK_QUEST\"]/choice/event/choice/event/choice/event/choice[3]/text"
 msgstr "Не стоит доверять этим парням - атакуем!"
 
-#: src-en/data/events_sector_ministry.xml:2386
+#: src-en/data/events_sector_ministry.xml:2468
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"OSMIA_UNLOCK_QUEST\"]/choice/event/choice/event/choice/event/choice[3]/event/text"
 msgstr ""
 "Вы не обращаете внимания на протесты Малки и заставляете корабль замолчать, "
 "а затем переходите в атаку."
 
-#: src-en/data/events_sector_ministry.xml:2389
+#: src-en/data/events_sector_ministry.xml:2471
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"OSMIA_UNLOCK_QUEST\"]/choice/event/choice/event/choice/event/choice[3]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_ministry.xml:2402
+#: src-en/data/events_sector_ministry.xml:2484
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"OSMIA_UNLOCK_EXPLANATION\"]/text"
 msgstr ""
@@ -3654,12 +3770,12 @@ msgstr ""
 "озера. Малки выходит из корабля, и оказывается, что он выглядит так же, как "
 "и те существа, которые жили здесь раньше."
 
-#: src-en/data/events_sector_ministry.xml:2404
+#: src-en/data/events_sector_ministry.xml:2486
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"OSMIA_UNLOCK_EXPLANATION\"]/choice/text"
 msgstr "В Министерстве сказали, что вы - замаскированные Вестники Заката."
 
-#: src-en/data/events_sector_ministry.xml:2406
+#: src-en/data/events_sector_ministry.xml:2488
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"OSMIA_UNLOCK_EXPLANATION\"]/choice/event/text"
 msgstr ""
@@ -3671,12 +3787,12 @@ msgstr ""
 "уничтожена, а выжившие были вынуждены покинуть планету. Почти столетия Осмия"
 " была недосягаема для нас, являясь напоминанием о нашей неудаче\"."
 
-#: src-en/data/events_sector_ministry.xml:2408
+#: src-en/data/events_sector_ministry.xml:2490
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"OSMIA_UNLOCK_EXPLANATION\"]/choice/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_ministry.xml:2410
+#: src-en/data/events_sector_ministry.xml:2492
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"OSMIA_UNLOCK_EXPLANATION\"]/choice/event/choice/event/text"
 msgstr ""
@@ -3691,12 +3807,12 @@ msgstr ""
 "расширяющийся кодекс законов, который ни человек, ни армия никогда не смогли"
 " бы выучить. Силой они ассимилировали все до единой колонии золтан\"."
 
-#: src-en/data/events_sector_ministry.xml:2412
+#: src-en/data/events_sector_ministry.xml:2494
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"OSMIA_UNLOCK_EXPLANATION\"]/choice/event/choice/event/choice/text"
 msgstr "Но что произошло? Почему золтаны теперь в твердом свете?"
 
-#: src-en/data/events_sector_ministry.xml:2414
+#: src-en/data/events_sector_ministry.xml:2496
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"OSMIA_UNLOCK_EXPLANATION\"]/choice/event/choice/event/choice/event/text"
 msgstr ""
@@ -3714,14 +3830,14 @@ msgstr ""
 "прожил еще немного, пока не умер естественной смертью, и его сменил новый "
 "министр, Люмей\"."
 
-#: src-en/data/events_sector_ministry.xml:2416
+#: src-en/data/events_sector_ministry.xml:2498
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"OSMIA_UNLOCK_EXPLANATION\"]/choice/event/choice/event/choice/event/choice/text"
 msgstr ""
 "Подождите, но разве это было не столетия назад? Как Люмей до сих пор "
 "руководит?"
 
-#: src-en/data/events_sector_ministry.xml:2418
+#: src-en/data/events_sector_ministry.xml:2500
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"OSMIA_UNLOCK_EXPLANATION\"]/choice/event/choice/event/choice/event/choice/event/text"
 msgstr ""
@@ -3735,15 +3851,15 @@ msgstr ""
 "По мере совершенствования технологии такие процедуры вскоре стали доступны "
 "богатой элите, жрецам, а со временем и простым людям. Превосходство "
 "трансформировавшихся укрепилось, и, опасаясь, что это может привести к "
-"расколу между золтанами, Министерство начало водить нормы и принуждать к "
+"расколу между золтанами, Министерство начало вводить нормы и принуждать к "
 "трансформации\"."
 
-#: src-en/data/events_sector_ministry.xml:2420
+#: src-en/data/events_sector_ministry.xml:2502
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"OSMIA_UNLOCK_EXPLANATION\"]/choice/event/choice/event/choice/event/choice/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_ministry.xml:2422
+#: src-en/data/events_sector_ministry.xml:2504
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"OSMIA_UNLOCK_EXPLANATION\"]/choice/event/choice/event/choice/event/choice/event/choice/event/text"
 msgstr ""
@@ -3759,12 +3875,12 @@ msgstr ""
 "осмианцы. Министерство хочет, чтобы галактика забыла о нашем существовании и"
 " чтобы мы вымерли естественным путем\"."
 
-#: src-en/data/events_sector_ministry.xml:2424
+#: src-en/data/events_sector_ministry.xml:2506
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"OSMIA_UNLOCK_EXPLANATION\"]/choice/event/choice/event/choice/event/choice/event/choice/event/choice/text"
 msgstr "Итак, что же вам от нас нужно?"
 
-#: src-en/data/events_sector_ministry.xml:2439
+#: src-en/data/events_sector_ministry.xml:2521
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"OSMIA_UNLOCK_QUESTION\"]/text"
 msgstr ""
@@ -3778,12 +3894,12 @@ msgstr ""
 "взять штурмом столицу и заставить их освободить пленников, но, как вы "
 "понимаете, все вышло не так, как планировалось\"."
 
-#: src-en/data/events_sector_ministry.xml:2441
+#: src-en/data/events_sector_ministry.xml:2523
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"OSMIA_UNLOCK_QUESTION\"]/choice/text"
 msgstr "Упс. Извините за это."
 
-#: src-en/data/events_sector_ministry.xml:2443
+#: src-en/data/events_sector_ministry.xml:2525
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"OSMIA_UNLOCK_QUESTION\"]/choice/event/text"
 msgstr ""
@@ -3796,12 +3912,12 @@ msgstr ""
 "поэтому я полагаю, что вы откажетесь. Но если вы примете эту просьбу по "
 "доброте душевной, то навсегда заручитесь благодарностью народа осмиан\"."
 
-#: src-en/data/events_sector_ministry.xml:2445
+#: src-en/data/events_sector_ministry.xml:2527
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"OSMIA_UNLOCK_QUESTION\"]/choice/event/choice[1]/text"
 msgstr "Согласиться спасти пленников."
 
-#: src-en/data/events_sector_ministry.xml:2447
+#: src-en/data/events_sector_ministry.xml:2529
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"OSMIA_UNLOCK_QUESTION\"]/choice/event/choice[1]/event/text"
 msgstr ""
@@ -3811,12 +3927,12 @@ msgstr ""
 "действиями или нет. Я немедленно передам координаты. Наш транспорт прибудет "
 "вскоре после вашего прилета. Желаю удачи. Наши люди рассчитывают на вас\"."
 
-#: src-en/data/events_sector_ministry.xml:2452
+#: src-en/data/events_sector_ministry.xml:2534
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"OSMIA_UNLOCK_QUESTION\"]/choice/event/choice[2]/text"
 msgstr "Отказаться."
 
-#: src-en/data/events_sector_ministry.xml:2454
+#: src-en/data/events_sector_ministry.xml:2536
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"OSMIA_UNLOCK_QUESTION\"]/choice/event/choice[2]/event/text"
 msgstr ""
@@ -3824,7 +3940,7 @@ msgstr ""
 " нам продолжать существовать в прежнем виде. Желаю удачи в ваших "
 "путешествиях\"."
 
-#: src-en/data/events_sector_ministry.xml:2463
+#: src-en/data/events_sector_ministry.xml:2545
 msgid ""
 "data/events_sector_ministry.xml$//ship[@name=\"SHIP_ZOLTAN_LAB\"]/destroyed/text"
 msgstr ""
@@ -3833,12 +3949,12 @@ msgstr ""
 "эту правду, но, видимо, не настолько, чтобы рисковать полномасштабной "
 "войной."
 
-#: src-en/data/events_sector_ministry.xml:2466
+#: src-en/data/events_sector_ministry.xml:2548
 msgid ""
 "data/events_sector_ministry.xml$//ship[@name=\"SHIP_ZOLTAN_LAB\"]/destroyed/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_ministry.xml:2471
+#: src-en/data/events_sector_ministry.xml:2553
 msgid ""
 "data/events_sector_ministry.xml$//ship[@name=\"SHIP_ZOLTAN_LAB\"]/deadCrew/text"
 msgstr ""
@@ -3847,22 +3963,22 @@ msgstr ""
 "эту правду, но, видимо, не настолько, чтобы рисковать полномасштабной "
 "войной."
 
-#: src-en/data/events_sector_ministry.xml:2474
+#: src-en/data/events_sector_ministry.xml:2556
 msgid ""
 "data/events_sector_ministry.xml$//ship[@name=\"SHIP_ZOLTAN_LAB\"]/deadCrew/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_ministry.xml:2482
+#: src-en/data/events_sector_ministry.xml:2564
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"OSMIA_LAB\"]/beaconType/unvisitedTooltip"
 msgstr "Местонахождение секретной лаборатории Министерства."
 
-#: src-en/data/events_sector_ministry.xml:2483
+#: src-en/data/events_sector_ministry.xml:2565
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"OSMIA_LAB\"]/beaconType/visitedTooltip"
 msgstr "Посещенное место. Ничего интересного."
 
-#: src-en/data/events_sector_ministry.xml:2494
+#: src-en/data/events_sector_ministry.xml:2576
 msgid "data/events_sector_ministry.xml$//event[@name=\"OSMIA_LAB\"]/text"
 msgstr ""
 "Нет никаких сомнений в том, что это именно то место. Уже по одному только "
@@ -3870,12 +3986,12 @@ msgstr ""
 "таковая вообще существует. По словам осмиан, охрана должна быть строжайшей, "
 "и подойти ближе, не будучи обнаруженным, невозможно."
 
-#: src-en/data/events_sector_ministry.xml:2496
+#: src-en/data/events_sector_ministry.xml:2578
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"OSMIA_LAB\"]/choice[1]/text"
 msgstr "Приблизиться."
 
-#: src-en/data/events_sector_ministry.xml:2498
+#: src-en/data/events_sector_ministry.xml:2580
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"OSMIA_LAB\"]/choice[1]/event/text"
 msgstr ""
@@ -3883,51 +3999,51 @@ msgstr ""
 "Миротворцев. Это крейсер, а значит, не пустая угроза. \"Вход в зону И17 "
 "запрещен. Как вы нашли это место?\""
 
-#: src-en/data/events_sector_ministry.xml:2501
+#: src-en/data/events_sector_ministry.xml:2583
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"OSMIA_LAB\"]/choice[1]/event/choice[1]/text"
 msgstr "Никаких вопросов - время сражаться."
 
-#: src-en/data/events_sector_ministry.xml:2503
+#: src-en/data/events_sector_ministry.xml:2585
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"OSMIA_LAB\"]/choice[1]/event/choice[1]/event/text"
 msgstr ""
 "Вам надоело, что Министерство указывает вам, что делать. Пора, наконец, дать"
 " им то, что они давно хотели получить."
 
-#: src-en/data/events_sector_ministry.xml:2506
+#: src-en/data/events_sector_ministry.xml:2588
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"OSMIA_LAB\"]/choice[1]/event/choice[1]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_ministry.xml:2512
+#: src-en/data/events_sector_ministry.xml:2594
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"OSMIA_LAB\"]/choice[1]/event/choice[2]/text"
 msgstr "Ой, простите, мы заблудились. Мы уходим!"
 
-#: src-en/data/events_sector_ministry.xml:2518
+#: src-en/data/events_sector_ministry.xml:2600
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"OSMIA_LAB\"]/choice[2]/text"
 msgstr "Уйти."
 
-#: src-en/data/events_sector_ministry.xml:2520
+#: src-en/data/events_sector_ministry.xml:2602
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"OSMIA_LAB\"]/choice[2]/event/text"
 msgstr ""
 "На этот раз вы откусили больше, чем могли прожевать. Осмианам придется найти"
 " кого-нибудь другого, чтобы помочь им."
 
-#: src-en/data/events_sector_ministry.xml:2522
+#: src-en/data/events_sector_ministry.xml:2604
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"OSMIA_LAB\"]/choice[2]/event/choice[1]/text"
 msgstr "Заняться чем-либо на корабле."
 
-#: src-en/data/events_sector_ministry.xml:2526
+#: src-en/data/events_sector_ministry.xml:2608
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"OSMIA_LAB\"]/choice[2]/event/choice[2]/text"
 msgstr "Ничего не делать."
 
-#: src-en/data/events_sector_ministry.xml:2534
+#: src-en/data/events_sector_ministry.xml:2616
 msgid "data/events_sector_ministry.xml$//event[@name=\"OSMIAN_ARRIVAL\"]/text"
 msgstr ""
 "Ваш радар тут же фиксирует еще несколько сигналов. Вы опасаетесь, что это "
@@ -3936,7 +4052,7 @@ msgstr ""
 "ваших \"союзников\" в подобных конфликтах, они действительно обеспечивают "
 "огневую мощь со своей стороны!"
 
-#: src-en/data/events_sector_ministry.xml:2538
+#: src-en/data/events_sector_ministry.xml:2620
 msgid "data/events_sector_ministry.xml$//event[@name=\"OSMIA_LAB_WIN\"]/text"
 msgstr ""
 "Осмианские войска, хотя и имеют небольшое количество кораблей, но обладают "
@@ -3947,12 +4063,12 @@ msgstr ""
 "лучшего военного корабля. Мы...\" Внезапно раздается сигнал тревоги. "
 "Происходит что-то плохое!"
 
-#: src-en/data/events_sector_ministry.xml:2542
+#: src-en/data/events_sector_ministry.xml:2624
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"OSMIA_LAB_WIN\"]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_ministry.xml:2544
+#: src-en/data/events_sector_ministry.xml:2626
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"OSMIA_LAB_WIN\"]/choice/event/text"
 msgstr ""
@@ -3964,12 +4080,12 @@ msgstr ""
 "ситуации Министерство настроило это место на саморазрушение. Если оценка "
 "голопада верна, у вас есть всего 10 минут до удара."
 
-#: src-en/data/events_sector_ministry.xml:2546
+#: src-en/data/events_sector_ministry.xml:2628
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"OSMIA_LAB_WIN\"]/choice/event/choice[1]/text"
 msgstr "Помочь осмианам в перемещении стазис-капсул."
 
-#: src-en/data/events_sector_ministry.xml:2548
+#: src-en/data/events_sector_ministry.xml:2630
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"OSMIA_LAB_WIN\"]/choice/event/choice[1]/event/text"
 msgstr ""
@@ -3980,17 +4096,17 @@ msgstr ""
 " замечает это и приходит в ужас. \"Что же нам теперь делать? Времени не "
 "хватит на несколько рейсов!\""
 
-#: src-en/data/events_sector_ministry.xml:2550
+#: src-en/data/events_sector_ministry.xml:2632
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"OSMIA_LAB_WIN\"]/choice/event/choice[1]/event/choice[1]/text"
 msgstr "Мы должны их оставить!"
 
-#: src-en/data/events_sector_ministry.xml:2554
+#: src-en/data/events_sector_ministry.xml:2636
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"OSMIA_LAB_WIN\"]/choice/event/choice[1]/event/choice[@req=\"BLUELIST_CREW_STRONG\"]/text"
 msgstr "(Сильный член экипажа) Перетащить несколько капсул на свой корабль."
 
-#: src-en/data/events_sector_ministry.xml:2556
+#: src-en/data/events_sector_ministry.xml:2638
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"OSMIA_LAB_WIN\"]/choice/event/choice[1]/event/choice[@req=\"BLUELIST_CREW_STRONG\"]/event/text"
 msgstr ""
@@ -3999,17 +4115,17 @@ msgstr ""
 "можете не заметить, что Малки все еще мечется вокруг, пытаясь безрезультатно"
 " разместить больше капсул на другие корабли."
 
-#: src-en/data/events_sector_ministry.xml:2559
+#: src-en/data/events_sector_ministry.xml:2641
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"OSMIA_LAB_WIN\"]/choice/event/choice[1]/event/choice[@req=\"BLUELIST_CREW_STRONG\"]/event/choice/text"
 msgstr "Убедить его уйти."
 
-#: src-en/data/events_sector_ministry.xml:2567
+#: src-en/data/events_sector_ministry.xml:2649
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"OSMIA_LAB_WIN\"]/choice/event/choice[2]/text"
 msgstr "Мы сделали свое дело - уходим!"
 
-#: src-en/data/events_sector_ministry.xml:2569
+#: src-en/data/events_sector_ministry.xml:2651
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"OSMIA_LAB_WIN\"]/choice/event/choice[2]/event/text"
 msgstr ""
@@ -4017,7 +4133,7 @@ msgstr ""
 "убежал помогать перемещать как можно больше стазис-камер. Вы спешите "
 "вернуться на свой корабль и готовитесь к отлету."
 
-#: src-en/data/events_sector_ministry.xml:2576
+#: src-en/data/events_sector_ministry.xml:2658
 msgid "data/events_sector_ministry.xml$//event[@name=\"OSMIAN_LEAVE\"]/text"
 msgstr ""
 "\"Вы с ума сошли? Мы проделали этот путь не для того, чтобы бросить их! "
@@ -4027,12 +4143,12 @@ msgstr ""
 "осмиане бегут. Хотя вам не удалось спасти всех пленников, и ученые обречены,"
 " по крайней мере, все осмиане и ваша команда смогли благополучно спастись."
 
-#: src-en/data/events_sector_ministry.xml:2578
+#: src-en/data/events_sector_ministry.xml:2660
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"OSMIAN_LEAVE\"]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_ministry.xml:2580
+#: src-en/data/events_sector_ministry.xml:2662
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"OSMIAN_LEAVE\"]/choice/event/text"
 msgstr ""
@@ -4045,12 +4161,12 @@ msgstr ""
 "лишь формальностью. Если о нашем рейде станет известно, я уверен, что все "
 "будет обставлено как несчастный случай, хотя это и вызовет сомнения\"."
 
-#: src-en/data/events_sector_ministry.xml:2583
+#: src-en/data/events_sector_ministry.xml:2665
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"OSMIAN_LEAVE\"]/choice/event/choice/text"
 msgstr "Там были и ученые Федерации. Почему?"
 
-#: src-en/data/events_sector_ministry.xml:2585
+#: src-en/data/events_sector_ministry.xml:2667
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"OSMIAN_LEAVE\"]/choice/event/choice/event/text"
 msgstr ""
@@ -4064,7 +4180,7 @@ msgstr ""
 "защитить нас от такого исхода: Я не могу вернуться в Осмию. Я смиренно прошу"
 " вас принять мои услуги, капитан\"."
 
-#: src-en/data/events_sector_ministry.xml:2586
+#: src-en/data/events_sector_ministry.xml:2668
 msgid ""
 "data/events_sector_ministry.xml$//event[@name=\"OSMIAN_LEAVE\"]/choice/event/choice/event/crewMember"
 msgstr "Малки"

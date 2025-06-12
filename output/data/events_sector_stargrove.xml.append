@@ -1,0 +1,2860 @@
+<FTL>
+  <mod:findName name="NEBULA_STARGROVE_STORM_REVISIT" type="event">
+    <mod:findLike type="choice">
+      <mod:findLike type="text">
+        <mod:selector>Do something onboard the ship.</mod:selector>
+        <mod:setValue>Do something onboard the ship.[INFO][NAME]storageCheck[/NAME]Storage Check[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="FINISH_BEACON_STARGROVE" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="loc_highwayman" lvl="0" max_group="0" hidden="true" blue="false"/>
+      <mod:findLike type="text">
+        <mod:selector>Continue...</mod:selector>
+        <mod:setValue>Continue...[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Ion Instant)[/INFO])[/FightINFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="FINISH_BEACON_STARGROVE" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="loc_highwayman" lvl="1" max_group="0" hidden="true" blue="false"/>
+      <mod:findLike type="text">
+        <mod:selector>Continue...</mod:selector>
+        <mod:setValue>Continue...[FightINFO]Fight(HK: [INFO][NAME]itemModify[/NAME]{1[/INFO])[/FightINFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_FINISH_BEACON_STARGROVE" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="loc_highwayman" lvl="0" max_group="0" hidden="true" blue="false"/>
+      <mod:findLike type="text">
+        <mod:selector>Continue...</mod:selector>
+        <mod:setValue>Continue...[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Ion Instant)[/INFO])[/FightINFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_FINISH_BEACON_STARGROVE" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="loc_highwayman" lvl="1" max_group="0" hidden="true" blue="false"/>
+      <mod:findLike type="text">
+        <mod:selector>Continue...</mod:selector>
+        <mod:setValue>Continue...[FightINFO]Fight(HK: [INFO][NAME]itemModify[/NAME]{1[/INFO])[/FightINFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="STARGROVE_HIGHWAYMAN_INITIAL" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="ANY_SHIELDS" lvl="0" max_lvl="0" hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>I don't even have shields, dumbass.</mod:selector>
+        <mod:setValue>I don't even have shields, dumbass.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Ion Instant)[/INFO])[/FightINFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="STARGROVE_HIGHWAYMAN_INITIAL" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="unique_kaz" hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>Kazaaakplethkilik recognizes the Highwayman.</mod:selector>
+        <mod:setValue>Kazaaakplethkilik recognizes the Highwayman.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Ion Instant)[/INFO])[/FightINFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="STARGROVE_HIGHWAYMAN_INITIAL" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="unique_tuco" hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>Tuco recognizes the Highwayman.</mod:selector>
+        <mod:setValue>Tuco recognizes the Highwayman.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Ion Instant)[/INFO])[/FightINFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="STARGROVE_HIGHWAYMAN_INITIAL" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="LIST_A55" hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>A5540L3 recognizes the Highwayman.</mod:selector>
+        <mod:setValue>A5540L3 recognizes the Highwayman.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Ion Instant)[/INFO])[/FightINFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="STARGROVE_HIGHWAYMAN_INITIAL" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="unique_nights" hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>Nights recognizes the Highwayman.</mod:selector>
+        <mod:setValue>Nights recognizes the Highwayman.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Ion Instant)[/INFO])[/FightINFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="STARGROVE_HIGHWAYMAN_INITIAL" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="ION_ARMOR" hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>(Ion Resist) Threaten them.</mod:selector>
+        <mod:setValue>(Ion Resist) Threaten them.[INFO][NAME]itemModify[/NAME]~-60[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="STARGROVE_HIGHWAYMAN_INITIAL" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>Fight your way through.</mod:selector>
+        <mod:setValue>Fight your way through.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Ion Instant)[/INFO])[/FightINFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="STARGROVE_HIGHWAYMAN_INITIAL" type="event">
+    <mod:findLike type="choice">
+      <mod:findLike type="text">
+        <mod:selector>Pay up.</mod:selector>
+        <mod:setValue>Pay up.[INFO][NAME]itemModify[/NAME]~-100[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="STARGROVE_HIGHWAYMAN_INITIAL" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="loc_scrap" lvl="0" max_lvl="99" blue="false"/>
+      <mod:findLike type="text">
+        <mod:selector>We don't even have 100~. Could we make some other deal?</mod:selector>
+        <mod:setValue>We don't even have 100~. Could we make some other deal?[INFO][NAME]removeCrew[/NAME]&lt;!&gt;Lose your crew(UNCLONABLE)[/INFO][INFO][NAME]itemModify[/NAME]{-10 }-10 |-10[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="STARGROVE_POST_HIGHWAYMAN" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>Continue...</mod:selector>
+        <mod:setValue>Continue...[FightINFO]Fight(HK: [INFO][NAME]itemModify[/NAME]{1[/INFO])[/FightINFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="STARGROVE_POST_HIGHWAYMAN" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true" req="engines" lvl="6"/>
+      <mod:findLike type="text">
+        <mod:selector>(Adv. Engines) Try to escape the Auto.</mod:selector>
+        <mod:setValue>(Adv. Engines) Try to escape the Auto.[INFO]33% &lt;=[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="STARGROVE_EXIT_TUCO" type="event">
+    <mod:findLike type="choice">
+      <mod:findLike type="text">
+        <mod:selector>Pay up.</mod:selector>
+        <mod:setValue>Pay up.[INFO][NAME]itemModify[/NAME]&lt;!&gt;-210≤~≤-150[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="STARGROVE_EXIT_TUCO" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>No way.</mod:selector>
+        <mod:setValue>No way.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Ion Instant)[/INFO])[/FightINFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="STARGROVE_EXIT_TUCO" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true" blue="false" req="cloaking"/>
+          <mod:findLike type="text">
+            <mod:selector>Continue...</mod:selector>
+            <mod:setValue>Continue...[INFO]&lt;=[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="STARGROVE_EXIT_TUCO" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true" blue="false" req="cloaking" max_lvl="0" lvl="0"/>
+          <mod:findLike type="text">
+            <mod:selector>Continue...</mod:selector>
+            <mod:setValue>Continue...[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Ion Instant)[/INFO])[/FightINFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="STARGROVE_EXIT_KAZ" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>Fight him anyway.</mod:selector>
+        <mod:setValue>Fight him anyway.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Ion Instant)[/INFO])[/FightINFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="STARGROVE_EXIT_KAZ" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true" blue="false" req="cloaking"/>
+          <mod:findLike type="text">
+            <mod:selector>Continue...</mod:selector>
+            <mod:setValue>Continue...[INFO]&lt;=[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="STARGROVE_EXIT_KAZ" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true" blue="false" req="cloaking" max_lvl="0" lvl="0"/>
+          <mod:findLike type="text">
+            <mod:selector>Continue...</mod:selector>
+            <mod:setValue>Continue...[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Ion Instant)[/INFO])[/FightINFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="STARGROVE_EXIT_A55" type="event">
+    <mod:findLike type="choice">
+      <mod:findLike type="text">
+        <mod:selector>Pay up.</mod:selector>
+        <mod:setValue>Pay up.[INFO][NAME]itemModify[/NAME]~-20[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="STARGROVE_EXIT_A55" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>That offer is still unacceptable.</mod:selector>
+        <mod:setValue>That offer is still unacceptable.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Ion Instant)[/INFO])[/FightINFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="STARGROVE_EXIT_A55" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true" blue="false" req="cloaking"/>
+          <mod:findLike type="text">
+            <mod:selector>Continue...</mod:selector>
+            <mod:setValue>Continue...[INFO]&lt;=[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="STARGROVE_EXIT_A55" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true" blue="false" req="cloaking" max_lvl="0" lvl="0"/>
+          <mod:findLike type="text">
+            <mod:selector>Continue...</mod:selector>
+            <mod:setValue>Continue...[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Ion Instant)[/INFO])[/FightINFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="STARGROVE_EXIT_NIGHTS" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true" blue="false" req="cloaking"/>
+      <mod:findLike type="text">
+        <mod:selector>Continue...</mod:selector>
+        <mod:setValue>Continue...[INFO]&lt;=[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="STARGROVE_EXIT_NIGHTS" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true" blue="false" req="cloaking" max_lvl="0" lvl="0"/>
+      <mod:findLike type="text">
+        <mod:selector>Continue...</mod:selector>
+        <mod:setValue>Continue...[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Ion Instant)[/INFO])[/FightINFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="STARGROVE_EXIT_FIGHT" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true" blue="false" req="cloaking"/>
+      <mod:findLike type="text">
+        <mod:selector>Continue...</mod:selector>
+        <mod:setValue>Continue...[INFO]&lt;=[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="STARGROVE_EXIT_FIGHT" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true" blue="false" req="cloaking" max_lvl="0" lvl="0"/>
+      <mod:findLike type="text">
+        <mod:selector>Continue...</mod:selector>
+        <mod:setValue>Continue...[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Ion Instant)[/INFO])[/FightINFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="STARGROVE_EXIT_NOSHIELDS" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>Attack him anyway.</mod:selector>
+        <mod:setValue>Attack him anyway.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Ion Instant)[/INFO])[/FightINFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="STARGROVE_EXIT_NOSHIELDS" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true" blue="false" req="cloaking"/>
+          <mod:findLike type="text">
+            <mod:selector>Continue...</mod:selector>
+            <mod:setValue>Continue...[INFO]&lt;=[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="STARGROVE_EXIT_NOSHIELDS" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true" blue="false" req="cloaking" max_lvl="0" lvl="0"/>
+          <mod:findLike type="text">
+            <mod:selector>Continue...</mod:selector>
+            <mod:setValue>Continue...[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Ion Instant)[/INFO])[/FightINFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="STARGROVE_EXIT_RENEGOTIATION_FAILED" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true" blue="false" req="cloaking"/>
+      <mod:findLike type="text">
+        <mod:selector>Continue...</mod:selector>
+        <mod:setValue>Continue...[INFO]&lt;=[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="STARGROVE_EXIT_RENEGOTIATION_FAILED" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true" blue="false" req="cloaking" max_lvl="0" lvl="0"/>
+      <mod:findLike type="text">
+        <mod:selector>Continue...</mod:selector>
+        <mod:setValue>Continue...[INFO]&lt;=[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="STARGROVE_EXIT_THREATEN" type="event">
+    <mod:findLike type="choice">
+      <mod:findLike type="text">
+        <mod:selector>Pay up.</mod:selector>
+        <mod:setValue>Pay up.[INFO][NAME]itemModify[/NAME]~-60[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="STARGROVE_EXIT_THREATEN" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="loc_scrap" lvl="0" max_lvl="59" blue="false"/>
+      <mod:findLike type="text">
+        <mod:selector>We don't even have 60~. Could we make some other deal?</mod:selector>
+        <mod:setValue>We don't even have 60~. Could we make some other deal?[INFO][NAME]removeCrew[/NAME]&lt;!&gt;Lose your crew(UNCLONABLE)[/INFO][INFO][NAME]itemModify[/NAME]{-10 }-10 |-10[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="STARGROVE_EXIT_THREATEN" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>That offer is still unacceptable.</mod:selector>
+        <mod:setValue>That offer is still unacceptable.[INFO]&lt;=[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="STARGROVE_EXIT_TRACKING" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true" blue="false"/>
+      <mod:findLike type="text">
+        <mod:selector>Continue...</mod:selector>
+        <mod:setValue>Continue...[INFO]&lt;=[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="STARGROVE_EXIT_RENEGOTIATE" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="COUNT_ALL_CREW" lvl="2" blue="false" max_group="0"/>
+      <mod:findLike type="text">
+        <mod:selector>Surrender two of your crew.</mod:selector>
+        <mod:setValue>Surrender two of your crew.[INFO][NAME]removeCrew[/NAME]&lt;!&gt;Lose your crew(UNCLONABLE)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="STARGROVE_EXIT_RENEGOTIATE" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="COUNT_ALL_CREW" lvl="2" blue="false" max_group="0"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true" blue="false"/>
+          <mod:findLike type="text">
+            <mod:selector>Continue...</mod:selector>
+            <mod:setValue>Continue...[INFO][NAME]removeCrew[/NAME]&lt;!&gt;Lose your crew(UNCLONABLE)[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="STARGROVE_EXIT_RENEGOTIATE" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="pilot" blue="false" max_group="1"/>
+      <mod:findLike type="text">
+        <mod:selector>Surrender 10 of each resource.</mod:selector>
+        <mod:setValue>Surrender 10 of each resource.[INFO][NAME]itemModify[/NAME]{-10 }-10 |-10[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="STARGROVE_EXIT_RENEGOTIATE" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true" req="pilot" blue="false" max_group="2"/>
+      <mod:findLike type="text">
+        <mod:selector>Those offers are still unacceptable.</mod:selector>
+        <mod:setValue>Those offers are still unacceptable.[INFO]&lt;=[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_LIGHT_STARGROVE_ITEMS_TWIN_PULSARS" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true" req="pilot" lvl="3" max_lvl="3"/>
+      <mod:findLike type="text">
+        <mod:selector>(Upgraded Piloting) Have your ship navigate through the destructive interference.</mod:selector>
+        <mod:setValue>(Upgraded Piloting) Have your ship navigate through the destructive interference.[INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO][INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Crystal Elite)[/INFO][INFO][NAME]damage[/NAME]&lt;!&gt;Damage Hull(3)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_LIGHT_STARGROVE_ITEMS_TWIN_PULSARS" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true" req="ION_ARMOR"/>
+      <mod:findLike type="text">
+        <mod:selector>(Ion Resist) Rely on your ion protection to carry you through.</mod:selector>
+        <mod:setValue>(Ion Resist) Rely on your ion protection to carry you through.[INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO][INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Crystal Elite)[/INFO][INFO][NAME]damage[/NAME]&lt;!&gt;Damage Hull(3)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_LIGHT_STARGROVE_ITEMS_TWIN_PULSARS" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>Brave the danger.</mod:selector>
+        <mod:setValue>Brave the danger.[INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO][INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Crystal Elite)[/INFO][INFO][NAME]damage[/NAME]&lt;!&gt;Damage Hull(5)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_LIGHT_STARGROVE_ITEMS_SUN_JUNK" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true" req="DRONE_CONTROL_DEFENSE"/>
+      <mod:findLike type="text">
+        <mod:selector>(Defense Drone) Let your defense drone protect you as you harvest the wreckage [-1|].</mod:selector>
+        <mod:setValue>(Defense Drone) Let your defense drone protect you as you harvest the wreckage [-1|].[INFO][NAME]itemModify[/NAME]|-1[/INFO][INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_LIGHT_STARGROVE_ITEMS_SUN_JUNK" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true" req="ROCK_ARMOR"/>
+      <mod:findLike type="text">
+        <mod:selector>(Rock Plating) Let your armor protect you as you harvest the wreckage.</mod:selector>
+        <mod:setValue>(Rock Plating) Let your armor protect you as you harvest the wreckage.[INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO][INFO][NAME]damage[/NAME]&lt;!&gt;Damage Hull(3)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_LIGHT_STARGROVE_ITEMS_SUN_JUNK" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>Enter the debris field.</mod:selector>
+        <mod:setValue>Enter the debris field.[INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO][INFO][NAME]damage[/NAME]&lt;!&gt;Damage Hull(3)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_LIGHT_STARGROVE_ITEMS_SUN_JUNK" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>Avoid the asteroid field. Seek shelter behind the gas giant.</mod:selector>
+        <mod:setValue>Avoid the asteroid field. Seek shelter behind the gas giant.[INFO][NAME]storageCheck[/NAME]Storage Check[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_LIGHT_STARGROVE_ITEMS_SUN_JUNK" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="text">
+            <mod:selector>Do something onboard the ship.</mod:selector>
+            <mod:setValue>Do something onboard the ship.[INFO][NAME]storageCheck[/NAME]Storage Check[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_LIGHT_STARGROVE_PULSAR_RUIN" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>Enter the asteroid field.</mod:selector>
+        <mod:setValue>Enter the asteroid field.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Ancient Basic)[/INFO])[/FightINFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_LIGHT_STARGROVE_PULSAR_RUIN" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findName name="STARGROVE_RUINS_ASTEROID_ENTER" type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="text">
+            <mod:selector>Continue approaching.</mod:selector>
+            <mod:setValue>Continue approaching.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Ancient Basic)[/INFO])[/FightINFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findName>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_LIGHT_STARGROVE_PULSAR_RUIN" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findName name="STARGROVE_RUINS_ASTEROID_ENTER" type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="event">
+            <mod:findLike type="choice">
+              <mod:findLike type="text">
+                <mod:selector>Continue...</mod:selector>
+                <mod:setValue>Continue...[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Ancient Basic)[/INFO])[/FightINFO]</mod:setValue>
+              </mod:findLike>
+            </mod:findLike>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findName>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_LIGHT_STARGROVE_FREE_SCRAP" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true" req="SCRAP_COLLECTOR"/>
+      <mod:findLike type="text">
+        <mod:selector>(Scrap Arm) Harvest the wreck carefully.</mod:selector>
+        <mod:setValue>(Scrap Arm) Harvest the wreck carefully.[INFO][NAME]autoReward[/NAME]Reward ~ Only(L)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_LIGHT_STARGROVE_FREE_SCRAP" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true" req="MAGNET_ARM"/>
+      <mod:findLike type="text">
+        <mod:selector>(Magnet Arm) Harvest the wreck carefully.</mod:selector>
+        <mod:setValue>(Magnet Arm) Harvest the wreck carefully.[INFO][NAME]autoReward[/NAME]Reward }(L)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_LIGHT_STARGROVE_FREE_SCRAP" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>Risk setting off the explosives.</mod:selector>
+        <mod:setValue>Risk setting off the explosives.[INFO][NAME]autoReward[/NAME]Reward }(L)[/INFO][INFO][NAME]damage[/NAME]&lt;!&gt;Damage Hull(3)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_LIGHT_STARGROVE_THEOCRACY_RECOVERY" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>Offer help to the Rocks.</mod:selector>
+        <mod:setValue>Offer help to the Rocks.[FightINFO]Fight(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(SR: [INFO][NAME]autoReward[/NAME]Reward Stuff(R)[/INFO])[/FightINFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_LIGHT_STARGROVE_THEOCRACY_RECOVERY" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true" req="sensors" lvl="1" max_lvl="1"/>
+          <mod:findLike type="text">
+            <mod:selector>(Normal Sensors) Offer to use your sensors to help their search.</mod:selector>
+            <mod:setValue>(Normal Sensors) Offer to use your sensors to help their search.[FightINFO]Fight(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(SR: [INFO][NAME]autoReward[/NAME]Reward Stuff(R)[/INFO])[/FightINFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_LIGHT_STARGROVE_THEOCRACY_RECOVERY" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true" req="sensors" lvl="1" max_lvl="1"/>
+          <mod:findLike type="event">
+            <mod:findLike type="choice">
+              <mod:selector hidden="true"/>
+              <mod:findLike type="text">
+                <mod:selector>Continue...</mod:selector>
+                <mod:setValue>Continue...[FightINFO]Fight(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(SR: [INFO][NAME]autoReward[/NAME]Reward Stuff(R)[/INFO])[/FightINFO]</mod:setValue>
+              </mod:findLike>
+            </mod:findLike>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_LIGHT_STARGROVE_THEOCRACY_RECOVERY" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true" req="sensors" lvl="2" max_lvl="2"/>
+          <mod:findLike type="text">
+            <mod:selector>(Upgraded Sensors) Offer to use your sensors to help their search.</mod:selector>
+            <mod:setValue>(Upgraded Sensors) Offer to use your sensors to help their search.[INFO][NAME]autoReward[/NAME]Reward }(M)[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_LIGHT_STARGROVE_THEOCRACY_RECOVERY" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true" req="sensors" lvl="3"/>
+          <mod:findLike type="text">
+            <mod:selector>(Adv. Sensors) Offer to use your sensors to help their search.</mod:selector>
+            <mod:setValue>(Adv. Sensors) Offer to use your sensors to help their search.[INFO][NAME]autoReward[/NAME]Reward }(H)[/INFO][INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Missiles)[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_LIGHT_STARGROVE_THEOCRACY_RECOVERY" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector req="ADV_SCANNERS" hidden="true"/>
+          <mod:findLike type="text">
+            <mod:selector>(Long-Ranged Scanners) Offer to use your scanner to help their search.</mod:selector>
+            <mod:setValue>(Long-Ranged Scanners) Offer to use your scanner to help their search.[INFO][NAME]autoReward[/NAME]Reward }(H)[/INFO][INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Missiles)[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_LIGHT_STARGROVE_THEOCRACY_RECOVERY" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="text">
+            <mod:selector>Respond to their suspicion with violence.</mod:selector>
+            <mod:setValue>Respond to their suspicion with violence.[FightINFO]Fight(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(SR: [INFO][NAME]autoReward[/NAME]Reward Stuff(R)[/INFO])[/FightINFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_LIGHT_STARGROVE_THEOCRACY_RECOVERY" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="event">
+            <mod:findLike type="choice">
+              <mod:selector hidden="true"/>
+              <mod:findLike type="text">
+                <mod:selector>Continue...</mod:selector>
+                <mod:setValue>Continue...[FightINFO]Fight(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(SR: [INFO][NAME]autoReward[/NAME]Reward Stuff(R)[/INFO])[/FightINFO]</mod:setValue>
+              </mod:findLike>
+            </mod:findLike>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_LIGHT_STARGROVE_THEOCRACY_RECOVERY" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>Attack the Rocks.</mod:selector>
+        <mod:setValue>Attack the Rocks.[FightINFO]Fight(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(SR: [INFO][NAME]autoReward[/NAME]Reward Stuff(R)[/INFO])[/FightINFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_LIGHT_STARGROVE_THEOCRACY_RECOVERY" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="text">
+            <mod:selector>Continue...</mod:selector>
+            <mod:setValue>Continue...[FightINFO]Fight(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(SR: [INFO][NAME]autoReward[/NAME]Reward Stuff(R)[/INFO])[/FightINFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="SHIP_ROCK_STARGROVE" type="ship">
+    <mod:findLike type="surrender">
+      <mod:selector chance="0.75" min="2" max="3"/>
+      <mod:findLike type="choice">
+        <mod:findLike type="text">
+          <mod:selector>Accept their surrender.</mod:selector>
+          <mod:setValue>Accept their surrender.[INFO][NAME]autoReward[/NAME]Reward Stuff(R)[/INFO]</mod:setValue>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="SHIP_ROCK_STARGROVE" type="ship">
+    <mod:findLike type="destroyed">
+      <mod:findLike type="choice">
+        <mod:selector hidden="true" req="sensors" lvl="3"/>
+        <mod:findLike type="text">
+          <mod:selector>(Adv. Sensors) Continue looking for their lost ship.</mod:selector>
+          <mod:setValue>(Adv. Sensors) Continue looking for their lost ship.[INFO][NAME]autoReward[/NAME]Reward Standard(L)[/INFO]</mod:setValue>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="SHIP_ROCK_STARGROVE" type="ship">
+    <mod:findLike type="destroyed">
+      <mod:findLike type="choice">
+        <mod:selector req="ADV_SCANNERS" hidden="true"/>
+        <mod:findLike type="text">
+          <mod:selector>(Long-Ranged Scanners) Continue looking for their lost ship.</mod:selector>
+          <mod:setValue>(Long-Ranged Scanners) Continue looking for their lost ship.[INFO][NAME]autoReward[/NAME]Reward Standard(L)[/INFO]</mod:setValue>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="SHIP_ROCK_STARGROVE" type="ship">
+    <mod:findLike type="deadCrew">
+      <mod:findLike type="choice">
+        <mod:selector hidden="true" req="sensors" lvl="3"/>
+        <mod:findLike type="text">
+          <mod:selector>(Adv. Sensors) Continue looking for their lost ship.</mod:selector>
+          <mod:setValue>(Adv. Sensors) Continue looking for their lost ship.[INFO][NAME]autoReward[/NAME]Reward Standard(L)[/INFO]</mod:setValue>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="SHIP_ROCK_STARGROVE" type="ship">
+    <mod:findLike type="deadCrew">
+      <mod:findLike type="choice">
+        <mod:selector req="ADV_SCANNERS" hidden="true"/>
+        <mod:findLike type="text">
+          <mod:selector>(Long-Ranged Scanners) Continue looking for their lost ship.</mod:selector>
+          <mod:setValue>(Long-Ranged Scanners) Continue looking for their lost ship.[INFO][NAME]autoReward[/NAME]Reward Standard(L)[/INFO]</mod:setValue>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_STARGROVE_LOSTREBEL" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>Hail the ship.</mod:selector>
+        <mod:setValue>Hail the ship.[FightINFO]Fight(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])(HK: [INFO]20% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO]20% [NAME]autoReward[/NAME]Reward Standard(L)[/INFO])(SR: [INFO]17% [NAME]autoReward[/NAME]Reward Stuff(R)[/INFO] [INFO]17% [NAME]modifyPursuit[/NAME]Fleet Delay(2)[/INFO])[/FightINFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_STARGROVE_LOSTREBEL" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:findLike type="text">
+            <mod:selector>Agree.</mod:selector>
+            <mod:setValue>Agree.[INFO][NAME]autoReward[/NAME]Reward Standard(L)[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_STARGROVE_LOSTREBEL" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="text">
+            <mod:selector>Ask why they're hiding here.</mod:selector>
+            <mod:setValue>Ask why they're hiding here.[FightINFO]Fight(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])(HK: [INFO]20% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO]20% [NAME]autoReward[/NAME]Reward Standard(L)[/INFO])(SR: [INFO]17% [NAME]autoReward[/NAME]Reward Stuff(R)[/INFO] [INFO]17% [NAME]modifyPursuit[/NAME]Fleet Delay(2)[/INFO])[/FightINFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_STARGROVE_LOSTREBEL" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="event">
+            <mod:findLike type="choice">
+              <mod:selector hidden="true"/>
+              <mod:findLike type="text">
+                <mod:selector>Warn them about the coming fleet.</mod:selector>
+                <mod:setValue>Warn them about the coming fleet.[INFO][NAME]itemModify[/NAME]3≤}≤5 2≤|≤4[/INFO]</mod:setValue>
+              </mod:findLike>
+            </mod:findLike>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_STARGROVE_LOSTREBEL" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="event">
+            <mod:findLike type="choice">
+              <mod:selector hidden="true"/>
+              <mod:findLike type="text">
+                <mod:selector>Leave the deserters be.</mod:selector>
+                <mod:setValue>Leave the deserters be.[INFO][NAME]itemModify[/NAME]4≤{≤7[/INFO]</mod:setValue>
+              </mod:findLike>
+            </mod:findLike>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_STARGROVE_LOSTREBEL" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="event">
+            <mod:findLike type="choice">
+              <mod:selector hidden="true"/>
+              <mod:findLike type="text">
+                <mod:selector>Attack them.</mod:selector>
+                <mod:setValue>Attack them.[FightINFO]Fight(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])(HK: [INFO]20% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO]20% [NAME]autoReward[/NAME]Reward Standard(L)[/INFO])(SR: [INFO]17% [NAME]autoReward[/NAME]Reward Stuff(R)[/INFO] [INFO]17% [NAME]modifyPursuit[/NAME]Fleet Delay(2)[/INFO])[/FightINFO]</mod:setValue>
+              </mod:findLike>
+            </mod:findLike>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_STARGROVE_LOSTREBEL" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="event">
+            <mod:findLike type="choice">
+              <mod:selector hidden="true"/>
+              <mod:findLike type="event">
+                <mod:findLike type="choice">
+                  <mod:selector hidden="true"/>
+                  <mod:findLike type="text">
+                    <mod:selector>Continue...</mod:selector>
+                    <mod:setValue>Continue...[FightINFO]Fight(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])(HK: [INFO]20% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO]20% [NAME]autoReward[/NAME]Reward Standard(L)[/INFO])(SR: [INFO]17% [NAME]autoReward[/NAME]Reward Stuff(R)[/INFO] [INFO]17% [NAME]modifyPursuit[/NAME]Fleet Delay(2)[/INFO])[/FightINFO]</mod:setValue>
+                  </mod:findLike>
+                </mod:findLike>
+              </mod:findLike>
+            </mod:findLike>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_STARGROVE_LOSTREBEL" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="text">
+            <mod:selector>Attack them.</mod:selector>
+            <mod:setValue>Attack them.[FightINFO]Fight(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])(HK: [INFO]20% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO]20% [NAME]autoReward[/NAME]Reward Standard(L)[/INFO])(SR: [INFO]17% [NAME]autoReward[/NAME]Reward Stuff(R)[/INFO] [INFO]17% [NAME]modifyPursuit[/NAME]Fleet Delay(2)[/INFO])[/FightINFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_STARGROVE_LOSTREBEL" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="event">
+            <mod:findLike type="choice">
+              <mod:selector hidden="true"/>
+              <mod:findLike type="text">
+                <mod:selector>Continue...</mod:selector>
+                <mod:setValue>Continue...[FightINFO]Fight(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])(HK: [INFO]20% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO]20% [NAME]autoReward[/NAME]Reward Standard(L)[/INFO])(SR: [INFO]17% [NAME]autoReward[/NAME]Reward Stuff(R)[/INFO] [INFO]17% [NAME]modifyPursuit[/NAME]Fleet Delay(2)[/INFO])[/FightINFO]</mod:setValue>
+              </mod:findLike>
+            </mod:findLike>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_STARGROVE_LOSTREBEL" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>Attack them!</mod:selector>
+        <mod:setValue>Attack them![FightINFO]Fight(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])(HK: [INFO]20% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO]20% [NAME]autoReward[/NAME]Reward Standard(L)[/INFO])(SR: [INFO]17% [NAME]autoReward[/NAME]Reward Stuff(R)[/INFO] [INFO]17% [NAME]modifyPursuit[/NAME]Fleet Delay(2)[/INFO])[/FightINFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_STARGROVE_LOSTREBEL" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="text">
+            <mod:selector>Continue...</mod:selector>
+            <mod:setValue>Continue...[FightINFO]Fight(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])(HK: [INFO]20% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO]20% [NAME]autoReward[/NAME]Reward Standard(L)[/INFO])(SR: [INFO]17% [NAME]autoReward[/NAME]Reward Stuff(R)[/INFO] [INFO]17% [NAME]modifyPursuit[/NAME]Fleet Delay(2)[/INFO])[/FightINFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_LIGHT_STARGROVE_CRUSADER_MADROCK" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>Ask what they're here for.</mod:selector>
+        <mod:setValue>Ask what they're here for.[FightINFO]Fight(HK=CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO] [INFO]50% [NAME]autoReward[/NAME]Reward Standard(L)[/INFO] [INFO]50% [NAME]crewMember[/NAME]Gain a crew(Rock Crusader)[/INFO])[/FightINFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_LIGHT_STARGROVE_CRUSADER_MADROCK" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="text">
+            <mod:selector>Fight the Crusaders.</mod:selector>
+            <mod:setValue>Fight the Crusaders.[FightINFO]Fight(HK=CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO] [INFO]50% [NAME]autoReward[/NAME]Reward Standard(L)[/INFO] [INFO]50% [NAME]crewMember[/NAME]Gain a crew(Rock Crusader)[/INFO])[/FightINFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_LIGHT_STARGROVE_CRUSADER_MADROCK" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="event">
+            <mod:findLike type="choice">
+              <mod:selector hidden="true"/>
+              <mod:findLike type="text">
+                <mod:selector>Continue...</mod:selector>
+                <mod:setValue>Continue...[FightINFO]Fight(HK=CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO] [INFO]50% [NAME]autoReward[/NAME]Reward Standard(L)[/INFO] [INFO]50% [NAME]crewMember[/NAME]Gain a crew(Rock Crusader)[/INFO])[/FightINFO]</mod:setValue>
+              </mod:findLike>
+            </mod:findLike>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_LIGHT_STARGROVE_CRUSADER_MADROCK" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="text">
+            <mod:selector>Tell the Crusaders about the message you got.</mod:selector>
+            <mod:setValue>Tell the Crusaders about the message you got.[INFO][NAME]autoReward[/NAME]Reward Standard(L)[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="SHIP_ROCK_MADROCK" type="ship">
+    <mod:findLike type="gotaway">
+      <mod:findLike type="choice">
+        <mod:selector hidden="true"/>
+        <mod:findLike type="text">
+          <mod:selector>Continue...</mod:selector>
+          <mod:setValue>Continue...[INFO]50% [NAME]autoReward[/NAME]Reward Standard(L)[/INFO][INFO]50% [NAME]crewMember[/NAME]Gain a crew(Rock Crusader)[/INFO]</mod:setValue>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="SHIP_ROCK_MADROCK" type="ship">
+    <mod:findLike type="destroyed">
+      <mod:findLike type="choice">
+        <mod:selector hidden="true"/>
+        <mod:findLike type="text">
+          <mod:selector>Continue...</mod:selector>
+          <mod:setValue>Continue...[INFO]50% [NAME]autoReward[/NAME]Reward Standard(L)[/INFO][INFO]50% [NAME]crewMember[/NAME]Gain a crew(Rock Crusader)[/INFO]</mod:setValue>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="SHIP_ROCK_MADROCK" type="ship">
+    <mod:findLike type="deadCrew">
+      <mod:findLike type="choice">
+        <mod:selector hidden="true"/>
+        <mod:findLike type="text">
+          <mod:selector>Continue...</mod:selector>
+          <mod:setValue>Continue...[INFO]50% [NAME]autoReward[/NAME]Reward Standard(L)[/INFO][INFO]50% [NAME]crewMember[/NAME]Gain a crew(Rock Crusader)[/INFO]</mod:setValue>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="CRUSADER_MADROCK_WIN" type="eventList">
+    <mod:findLike type="event">
+      <mod:findLike type="choice">
+        <mod:selector hidden="true"/>
+        <mod:findLike type="text">
+          <mod:selector>Continue...</mod:selector>
+          <mod:setValue>Continue...[INFO][NAME]crewMember[/NAME]Gain a crew(Rock Crusader)[/INFO]</mod:setValue>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="CRUSADER_MADROCK_WIN" type="eventList">
+    <mod:findLike type="event">
+      <mod:findLike type="choice">
+        <mod:selector hidden="true"/>
+        <mod:findLike type="text">
+          <mod:selector>Try and save him.</mod:selector>
+          <mod:setValue>Try and save him.[INFO][NAME]damage[/NAME]&lt;!&gt;Damage Hull(2)[/INFO][INFO][NAME]autoReward[/NAME]Reward Standard(L)[/INFO][INFO][NAME]crewMember[/NAME]Gain a crew(Rock Crusader)[/INFO]</mod:setValue>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="CRUSADER_MADROCK_WIN" type="eventList">
+    <mod:findLike type="event">
+      <mod:findLike type="choice">
+        <mod:selector hidden="true"/>
+        <mod:findLike type="event">
+          <mod:findLike type="choice">
+            <mod:selector hidden="true"/>
+            <mod:findLike type="text">
+              <mod:selector>Continue...</mod:selector>
+              <mod:setValue>Continue...[INFO][NAME]crewMember[/NAME]Gain a crew(Rock Crusader)[/INFO]</mod:setValue>
+            </mod:findLike>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="CRUSADER_MADROCK_WIN" type="eventList">
+    <mod:findLike type="event">
+      <mod:findLike type="choice">
+        <mod:selector req="shields" lvl="6" hidden="true"/>
+        <mod:findLike type="text">
+          <mod:selector>(Adv. Shields) Your shields should be able to protect you from the solar flares... mostly.</mod:selector>
+          <mod:setValue>(Adv. Shields) Your shields should be able to protect you from the solar flares... mostly.[INFO][NAME]damage[/NAME]&lt;!&gt;Damage Hull(2)[/INFO][INFO][NAME]autoReward[/NAME]Reward Standard(L)[/INFO][INFO][NAME]crewMember[/NAME]Gain a crew(Rock Crusader)[/INFO]</mod:setValue>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="CRUSADER_MADROCK_WIN" type="eventList">
+    <mod:findLike type="event">
+      <mod:findLike type="choice">
+        <mod:selector req="shields" lvl="6" hidden="true"/>
+        <mod:findLike type="event">
+          <mod:findLike type="choice">
+            <mod:selector hidden="true"/>
+            <mod:findLike type="text">
+              <mod:selector>Continue...</mod:selector>
+              <mod:setValue>Continue...[INFO][NAME]crewMember[/NAME]Gain a crew(Rock Crusader)[/INFO]</mod:setValue>
+            </mod:findLike>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="CRUSADER_MADROCK_WIN" type="eventList">
+    <mod:findLike type="event">
+      <mod:findLike type="choice">
+        <mod:selector req="engines" lvl="6" hidden="true"/>
+        <mod:findLike type="text">
+          <mod:selector>(Adv. Engines) Quickly move in and save him.</mod:selector>
+          <mod:setValue>(Adv. Engines) Quickly move in and save him.[INFO][NAME]autoReward[/NAME]Reward Standard(L)[/INFO][INFO][NAME]crewMember[/NAME]Gain a crew(Rock Crusader)[/INFO]</mod:setValue>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="CRUSADER_MADROCK_WIN" type="eventList">
+    <mod:findLike type="event">
+      <mod:findLike type="choice">
+        <mod:selector req="engines" lvl="6" hidden="true"/>
+        <mod:findLike type="event">
+          <mod:findLike type="choice">
+            <mod:selector hidden="true"/>
+            <mod:findLike type="text">
+              <mod:selector>Continue...</mod:selector>
+              <mod:setValue>Continue...[INFO][NAME]crewMember[/NAME]Gain a crew(Rock Crusader)[/INFO]</mod:setValue>
+            </mod:findLike>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="CRUSADER_MADROCK_WIN" type="eventList">
+    <mod:findLike type="event">
+      <mod:findLike type="choice">
+        <mod:selector req="teleporter" hidden="true"/>
+        <mod:findLike type="text">
+          <mod:selector>(Teleporter) Teleport Madrock onto your ship.</mod:selector>
+          <mod:setValue>(Teleporter) Teleport Madrock onto your ship.[INFO][NAME]crewMember[/NAME]Gain a crew(Rock Crusader)[/INFO]</mod:setValue>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="CRUSADER_MADROCK_WIN" type="eventList">
+    <mod:findLike type="event">
+      <mod:findLike type="choice">
+        <mod:selector req="teleporter" hidden="true"/>
+        <mod:findLike type="event">
+          <mod:findLike type="choice">
+            <mod:selector hidden="true"/>
+            <mod:findLike type="text">
+              <mod:selector>Continue...</mod:selector>
+              <mod:setValue>Continue...[INFO][NAME]crewMember[/NAME]Gain a crew(Rock Crusader)[/INFO]</mod:setValue>
+            </mod:findLike>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="CRUSADER_MADROCK_RECRUIT" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>So what were they hunting you down for?</mod:selector>
+        <mod:setValue>So what were they hunting you down for?[INFO][NAME]crewMember[/NAME]Gain a crew(Rock Crusader)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_LIGHT_STARGROVE_LOSTSUN" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="unique_ariadne" hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>(Ariadne) "Stop slacking off!"</mod:selector>
+        <mod:setValue>(Ariadne) "Stop slacking off!"[INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Fire)[/INFO][INFO][NAME]damage[/NAME]Repair Hull(5$)[/INFO][INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_LIGHT_STARGROVE_LOSTSUN" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="rock_commando" hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>(Commando) Request support.</mod:selector>
+        <mod:setValue>(Commando) Request support.[INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Fire)[/INFO][INFO][NAME]autoReward[/NAME]Reward Standard No Item(M)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_LIGHT_STARGROVE_LOSTSUN" type="event">
+    <mod:findLike type="choice">
+      <mod:findLike type="text">
+        <mod:selector>Accept the challenge.</mod:selector>
+        <mod:setValue>Accept the challenge.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])[/FightINFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_LIGHT_STARGROVE_LOSTSUN" type="event">
+    <mod:findLike type="choice">
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="text">
+            <mod:selector>Continue...</mod:selector>
+            <mod:setValue>Continue...[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])[/FightINFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_LIGHT_STARGROVE_LOSTSUN" type="event">
+    <mod:findLike type="choice">
+      <mod:findLike type="text">
+        <mod:selector>Attack him.</mod:selector>
+        <mod:setValue>Attack him.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])[/FightINFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_LIGHT_STARGROVE_LOSTSUN" type="event">
+    <mod:findLike type="choice">
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="text">
+            <mod:selector>Continue...</mod:selector>
+            <mod:setValue>Continue...[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])[/FightINFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="STARGROVE_LOSTSUN_VICTORY" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="rock_outcast"/>
+      <mod:findLike type="text">
+        <mod:selector>(Outcast) Request training.</mod:selector>
+        <mod:setValue>(Outcast) Request training.[INFO][NAME]damage[/NAME]Repair Hull(3$)[/INFO][INFO][NAME]autoReward[/NAME]Reward Standard No Item(M)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_LIGHT_STARGROVE_ENGI_SEPARATIST" type="event">
+    <mod:findLike type="choice">
+      <mod:findLike type="text">
+        <mod:selector>Our communications must have glitched. What kind of data were you looking for?</mod:selector>
+        <mod:setValue>Our communications must have glitched. What kind of data were you looking for?[FightINFO]Fight(CK: [INFO]20% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO]20% [NAME]drone[/NAME]Gain a drone(List Drones Separatist Drop)[/INFO])(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(SR: [INFO][NAME]itemModify[/NAME]15≤{≤25[/INFO] [INFO][NAME]autoReward[/NAME]Reward {(M)[/INFO])[/FightINFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_LIGHT_STARGROVE_ENGI_SEPARATIST" type="event">
+    <mod:findLike type="choice">
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:findLike type="text">
+            <mod:selector>Exchange drone parts for fuel.</mod:selector>
+            <mod:setValue>Exchange drone parts for fuel.[INFO][NAME]itemModify[/NAME]|-5 {10[/INFO][INFO][NAME]itemModify[/NAME]|-10 {20[/INFO][INFO][NAME]itemModify[/NAME]|-15 {30[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_LIGHT_STARGROVE_ENGI_SEPARATIST" type="event">
+    <mod:findLike type="choice">
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:findLike type="text">
+            <mod:selector>Threaten them for fuel.</mod:selector>
+            <mod:setValue>Threaten them for fuel.[FightINFO]Fight(CK: [INFO]7% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO]7% [NAME]drone[/NAME]Gain a drone(List Drones Separatist Drop)[/INFO])(HK: [INFO]33% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(SR: [INFO]33% [NAME]itemModify[/NAME]15≤{≤25[/INFO] [INFO]33% [NAME]autoReward[/NAME]Reward {(M)[/INFO])[/FightINFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_LIGHT_STARGROVE_ENGI_SEPARATIST" type="event">
+    <mod:findLike type="choice">
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:findLike type="text">
+            <mod:selector>Attack them.</mod:selector>
+            <mod:setValue>Attack them.[FightINFO]Fight(CK: [INFO]20% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO]20% [NAME]drone[/NAME]Gain a drone(List Drones Separatist Drop)[/INFO])(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(SR: [INFO][NAME]itemModify[/NAME]15≤{≤25[/INFO] [INFO][NAME]autoReward[/NAME]Reward {(M)[/INFO])[/FightINFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_LIGHT_STARGROVE_ENGI_SEPARATIST" type="event">
+    <mod:findLike type="choice">
+      <mod:findLike type="text">
+        <mod:selector>Exchange drone parts for fuel.</mod:selector>
+        <mod:setValue>Exchange drone parts for fuel.[INFO][NAME]itemModify[/NAME]|-5 {10[/INFO][INFO][NAME]itemModify[/NAME]|-10 {20[/INFO][INFO][NAME]itemModify[/NAME]|-15 {30[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_LIGHT_STARGROVE_ENGI_SEPARATIST" type="event">
+    <mod:findLike type="choice">
+      <mod:findLike type="text">
+        <mod:selector>Threaten them for fuel.</mod:selector>
+        <mod:setValue>Threaten them for fuel.[FightINFO]Fight(CK: [INFO]7% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO]7% [NAME]drone[/NAME]Gain a drone(List Drones Separatist Drop)[/INFO])(HK: [INFO]33% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(SR: [INFO]33% [NAME]itemModify[/NAME]15≤{≤25[/INFO] [INFO]33% [NAME]autoReward[/NAME]Reward {(M)[/INFO])[/FightINFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_LIGHT_STARGROVE_ENGI_SEPARATIST" type="event">
+    <mod:findLike type="choice">
+      <mod:findLike type="text">
+        <mod:selector>Attack them.</mod:selector>
+        <mod:setValue>Attack them.[FightINFO]Fight(CK: [INFO]20% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO]20% [NAME]drone[/NAME]Gain a drone(List Drones Separatist Drop)[/INFO])(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(SR: [INFO][NAME]itemModify[/NAME]15≤{≤25[/INFO] [INFO][NAME]autoReward[/NAME]Reward {(M)[/INFO])[/FightINFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="STARGROVE_SEPARATIST_COLLECTOR_ATTACK" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>Continue...</mod:selector>
+        <mod:setValue>Continue...[FightINFO]Fight(CK: [INFO]20% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO]20% [NAME]drone[/NAME]Gain a drone(List Drones Separatist Drop)[/INFO])(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(SR: [INFO][NAME]itemModify[/NAME]15≤{≤25[/INFO] [INFO][NAME]autoReward[/NAME]Reward {(M)[/INFO])[/FightINFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="STARGROVE_SEPARATIST_FUEL" type="event">
+    <mod:findLike type="choice">
+      <mod:findLike type="text">
+        <mod:selector>Sell 5 parts.</mod:selector>
+        <mod:setValue>Sell 5 parts.[INFO][NAME]itemModify[/NAME]|-5 {10[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="STARGROVE_SEPARATIST_FUEL" type="event">
+    <mod:findLike type="choice">
+      <mod:findLike type="text">
+        <mod:selector>Sell 10 parts.</mod:selector>
+        <mod:setValue>Sell 10 parts.[INFO][NAME]itemModify[/NAME]|-10 {20[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="STARGROVE_SEPARATIST_FUEL" type="event">
+    <mod:findLike type="choice">
+      <mod:findLike type="text">
+        <mod:selector>Sell 15 parts.</mod:selector>
+        <mod:setValue>Sell 15 parts.[INFO][NAME]itemModify[/NAME]|-15 {30[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="STARGROVE_SEPARATIST_THREATEN" type="eventList">
+    <mod:findLike type="event">
+      <mod:findLike type="choice">
+        <mod:findLike type="text">
+          <mod:selector>Accept.</mod:selector>
+          <mod:setValue>Accept.[INFO][NAME]itemModify[/NAME]8≤{≤10[/INFO]</mod:setValue>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="STARGROVE_SEPARATIST_THREATEN" type="eventList">
+    <mod:findLike type="event">
+      <mod:findLike type="choice">
+        <mod:findLike type="text">
+          <mod:selector>Attack anyway.</mod:selector>
+          <mod:setValue>Attack anyway.[FightINFO]Fight(CK: [INFO]20% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO]20% [NAME]drone[/NAME]Gain a drone(List Drones Separatist Drop)[/INFO])(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(SR: [INFO][NAME]itemModify[/NAME]15≤{≤25[/INFO] [INFO][NAME]autoReward[/NAME]Reward {(M)[/INFO])[/FightINFO]</mod:setValue>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="STARGROVE_SEPARATIST_THREATEN" type="eventList">
+    <mod:findLike type="event">
+      <mod:findLike type="choice">
+        <mod:findLike type="text">
+          <mod:selector>Attack anyway.</mod:selector>
+          <mod:setValue>Attack anyway.[FightINFO]Fight(CK: [INFO]20% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO]20% [NAME]drone[/NAME]Gain a drone(List Drones Separatist Drop)[/INFO])(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(SR: [INFO][NAME]itemModify[/NAME]15≤{≤25[/INFO] [INFO][NAME]autoReward[/NAME]Reward {(M)[/INFO])[/FightINFO]</mod:setValue>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="STARGROVE_SEPARATIST_THREATEN_EXPLOSION" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>Continue...</mod:selector>
+        <mod:setValue>Continue...[INFO]&lt;=[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="STARGROVE_FUEL_COLLECTOR_SALVAGE" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="FUEL_CONSERVER"/>
+      <mod:findLike type="text">
+        <mod:selector>(Fuel Conserver) Harvest the fuel efficiently.</mod:selector>
+        <mod:setValue>(Fuel Conserver) Harvest the fuel efficiently.[INFO][NAME]autoReward[/NAME]Reward { Only(H)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="STARGROVE_FUEL_COLLECTOR_SALVAGE" type="event">
+    <mod:findLike type="choice">
+      <mod:findLike type="text">
+        <mod:selector>Salvage what you can.</mod:selector>
+        <mod:setValue>Salvage what you can.[INFO][NAME]autoReward[/NAME]Reward { Only(L)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_LIGHT_STARGROVE_ASTEROID" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>Move your ship closer.</mod:selector>
+        <mod:setValue>Move your ship closer.[INFO][NAME]autoReward[/NAME]Reward {(L)[/INFO][FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward {(H)[/INFO])[/FightINFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_LIGHT_STARGROVE_ASTEROID" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true" req="BLUELIST_ARMOR"/>
+          <mod:findLike type="text">
+            <mod:selector>(Hull Armor) Ram into the rock.</mod:selector>
+            <mod:setValue>(Hull Armor) Ram into the rock.[INFO][NAME]damage[/NAME]&lt;!&gt;Damage Hull(3)[/INFO][INFO][NAME]autoReward[/NAME]Reward {(H)[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_LIGHT_STARGROVE_ASTEROID" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="text">
+            <mod:selector>Continue...</mod:selector>
+            <mod:setValue>Continue...[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward {(H)[/INFO])[/FightINFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_LIGHT_LANIUS_GHOST_STUCK" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="LIST_CHECK_ENERGY_SHIELD" lvl="0" max_lvl="0" hidden="true" blue="false"/>
+      <mod:findLike type="text">
+        <mod:selector>Approach the ship.</mod:selector>
+        <mod:setValue>Approach the ship.[INFO][NAME]crewMember[/NAME]Gain a crew(Lanius Welder)[/INFO][INFO][NAME]boarders[/NAME]&lt;!&gt;Enemy Boarding(x4 Phantom)[/INFO][INFO][NAME]boarders[/NAME]&lt;!&gt;Enemy Boarding(x1 Lanius Welder)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_LIGHT_LANIUS_GHOST_STUCK" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="LIST_CHECK_ENERGY_SHIELD" hidden="true" blue="false"/>
+      <mod:findLike type="text">
+        <mod:selector>Approach the ship.</mod:selector>
+        <mod:setValue>Approach the ship.[INFO][NAME]crewMember[/NAME]Gain a crew(Lanius Welder)[/INFO][INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO][INFO][NAME]autoReward[/NAME]Reward Standard No Item(M)[/INFO][INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Rusty)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_LIGHT_LANIUS_GHOST_STUCK" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="LIST_CHECK_ENERGY_SHIELD" hidden="true" blue="false"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true" req="teleporter"/>
+          <mod:findLike type="text">
+            <mod:selector>(Teleporter) Save the Lanius.</mod:selector>
+            <mod:setValue>(Teleporter) Save the Lanius.[INFO][NAME]crewMember[/NAME]Gain a crew(Lanius Welder)[/INFO][INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_LIGHT_LANIUS_GHOST_STUCK" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="LIST_CHECK_ENERGY_SHIELD" hidden="true" blue="false"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true" req="teleporter"/>
+          <mod:findLike type="text">
+            <mod:selector>(Teleporter) Save the Ghosts.</mod:selector>
+            <mod:setValue>(Teleporter) Save the Ghosts.[INFO][NAME]autoReward[/NAME]Reward Standard No Item(M)[/INFO][INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Rusty)[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_LIGHT_LANIUS_GHOST_STUCK" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="LIST_CHECK_ENERGY_SHIELD" hidden="true" blue="false"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true" req="teleporter"/>
+          <mod:findLike type="text">
+            <mod:selector>(Teleporter) Save everyone.</mod:selector>
+            <mod:setValue>(Teleporter) Save everyone.[INFO][NAME]crewMember[/NAME]Gain a crew(Lanius Welder)[/INFO][INFO][NAME]boarders[/NAME]&lt;!&gt;Enemy Boarding(x4 Phantom)[/INFO][INFO][NAME]boarders[/NAME]&lt;!&gt;Enemy Boarding(x1 Lanius Welder)[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_LIGHT_LANIUS_GHOST_STUCK" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="LIST_CHECK_ENERGY_SHIELD" hidden="true" blue="false"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="text">
+            <mod:selector>Just scrap the ships.</mod:selector>
+            <mod:setValue>Just scrap the ships.[INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="STARGROVE_LANIUS_GHOST_TELEPORT" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>Side with the Lanius.</mod:selector>
+        <mod:setValue>Side with the Lanius.[INFO][NAME]crewMember[/NAME]Gain a crew(Lanius Welder)[/INFO][INFO][NAME]boarders[/NAME]&lt;!&gt;Enemy Boarding(x4 Phantom)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="STARGROVE_LANIUS_GHOST_TELEPORT" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>Side with the Ghosts.</mod:selector>
+        <mod:setValue>Side with the Ghosts.[INFO][NAME]boarders[/NAME]&lt;!&gt;Enemy Boarding(x1 Lanius Welder)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_LIGHT_OBELISK_RUIN_CRYSTAL" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true" req="unique_anointed" blue="true"/>
+      <mod:findLike type="text">
+        <mod:selector>(Anointed) Interface with the structure to instruct it to open.</mod:selector>
+        <mod:setValue>(Anointed) Interface with the structure to instruct it to open.[INFO][NAME]drone[/NAME]Gain a drone(Ancient Combat Laser)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_LIGHT_OBELISK_RUIN_CRYSTAL" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true" req="unique_anointed" blue="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="text">
+            <mod:selector>Continue...</mod:selector>
+            <mod:setValue>Continue...[INFO][NAME]drone[/NAME]Gain a drone(Ancient Combat Laser)[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_LIGHT_OBELISK_RUIN_CRYSTAL" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true" req="UPG_AETHER_TRANSLATOR" blue="true"/>
+      <mod:findLike type="text">
+        <mod:selector>(Runic Translator) Interface with the structure.</mod:selector>
+        <mod:setValue>(Runic Translator) Interface with the structure.[INFO][NAME]drone[/NAME]Gain a drone(Ancient Combat Laser)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_LIGHT_OBELISK_RUIN_CRYSTAL" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true" req="UPG_AETHER_TRANSLATOR" blue="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="text">
+            <mod:selector>Continue...</mod:selector>
+            <mod:setValue>Continue...[INFO][NAME]drone[/NAME]Gain a drone(Ancient Combat Laser)[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_LIGHT_OBELISK_RUIN_CRYSTAL" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true" req="LIST_CREW_ANCIENT" blue="true"/>
+      <mod:findLike type="text">
+        <mod:selector>(Obelisk Crew) Translate the words on the ruins.</mod:selector>
+        <mod:setValue>(Obelisk Crew) Translate the words on the ruins.[INFO][NAME]drone[/NAME]Gain a drone(Ancient Combat Laser)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_LIGHT_OBELISK_RUIN_CRYSTAL" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true" req="LIST_CREW_ANCIENT" blue="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="text">
+            <mod:selector>Continue...</mod:selector>
+            <mod:setValue>Continue...[INFO][NAME]drone[/NAME]Gain a drone(Ancient Combat Laser)[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_LIGHT_OBELISK_RUIN_CRYSTAL" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true" req="LIST_CREW_COGNITIVE_ALL" blue="true"/>
+      <mod:findLike type="text">
+        <mod:selector>(Cognitive Crew) Command the structure to open.</mod:selector>
+        <mod:setValue>(Cognitive Crew) Command the structure to open.[INFO][NAME]drone[/NAME]Gain a drone(Ancient Combat Laser)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_LIGHT_OBELISK_RUIN_CRYSTAL" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true" req="LIST_CREW_COGNITIVE_ALL" blue="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="text">
+            <mod:selector>Continue...</mod:selector>
+            <mod:setValue>Continue...[INFO][NAME]drone[/NAME]Gain a drone(Ancient Combat Laser)[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_LIGHT_OBELISK_RUIN_CRYSTAL" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true" req="hacking" lvl="3" blue="true"/>
+      <mod:findLike type="text">
+        <mod:selector>(Adv. Hacking) Force the structure to open.</mod:selector>
+        <mod:setValue>(Adv. Hacking) Force the structure to open.[INFO][NAME]drone[/NAME]Gain a drone(Ancient Combat Laser)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_LIGHT_OBELISK_RUIN_CRYSTAL" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true" req="hacking" lvl="3" blue="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="text">
+            <mod:selector>Continue...</mod:selector>
+            <mod:setValue>Continue...[INFO][NAME]drone[/NAME]Gain a drone(Ancient Combat Laser)[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_LIGHT_STARGROVE_ENGI_DEFENDER" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="unique_turzil" lvl="1"/>
+      <mod:findLike type="text">
+        <mod:selector>(Turzil) Attempt to liberate this ship from the Harmony.</mod:selector>
+        <mod:setValue>(Turzil) Attempt to liberate this ship from the Harmony.[FightINFO]Fight(CK=HK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO] [INFO][NAME]drone[/NAME]Gain a drone(Giftlist Engi)[/INFO])(SR: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO] [INFO][NAME]drone[/NAME]Gain a drone(Giftlist Engi)[/INFO] [INFO][NAME]crewMember[/NAME]Gain a crew(Engi Separatist)[/INFO] [INFO][NAME]autoReward[/NAME]Reward |(R)[/INFO] [INFO][NAME]autoReward[/NAME]Reward |(H)[/INFO] [INFO][NAME]autoReward[/NAME]Reward Stuff(R)[/INFO])[/FightINFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_LIGHT_STARGROVE_ENGI_DEFENDER" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="unique_turzil" lvl="1"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="text">
+            <mod:selector>Continue...</mod:selector>
+            <mod:setValue>Continue...[FightINFO]Fight(CK=HK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO] [INFO][NAME]drone[/NAME]Gain a drone(Giftlist Engi)[/INFO])(SR: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO] [INFO][NAME]drone[/NAME]Gain a drone(Giftlist Engi)[/INFO] [INFO][NAME]crewMember[/NAME]Gain a crew(Engi Separatist)[/INFO] [INFO][NAME]autoReward[/NAME]Reward |(R)[/INFO] [INFO][NAME]autoReward[/NAME]Reward |(H)[/INFO] [INFO][NAME]autoReward[/NAME]Reward Stuff(R)[/INFO])[/FightINFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_LIGHT_STARGROVE_ENGI_DEFENDER" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="LIST_VARIANT_SEPARATIST" lvl="1"/>
+      <mod:findLike type="text">
+        <mod:selector>(Separatist) Attempt to liberate this ship from the Harmony.</mod:selector>
+        <mod:setValue>(Separatist) Attempt to liberate this ship from the Harmony.[FightINFO]Fight(CK=HK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO] [INFO][NAME]drone[/NAME]Gain a drone(Giftlist Engi)[/INFO])(SR: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO] [INFO][NAME]drone[/NAME]Gain a drone(Giftlist Engi)[/INFO] [INFO][NAME]crewMember[/NAME]Gain a crew(Engi Separatist)[/INFO] [INFO][NAME]autoReward[/NAME]Reward |(R)[/INFO] [INFO][NAME]autoReward[/NAME]Reward |(H)[/INFO] [INFO][NAME]autoReward[/NAME]Reward Stuff(R)[/INFO])[/FightINFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_LIGHT_STARGROVE_ENGI_DEFENDER" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="LIST_VARIANT_SEPARATIST" lvl="1"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="text">
+            <mod:selector>Continue...</mod:selector>
+            <mod:setValue>Continue...[FightINFO]Fight(CK=HK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO] [INFO][NAME]drone[/NAME]Gain a drone(Giftlist Engi)[/INFO])(SR: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO] [INFO][NAME]drone[/NAME]Gain a drone(Giftlist Engi)[/INFO] [INFO][NAME]crewMember[/NAME]Gain a crew(Engi Separatist)[/INFO] [INFO][NAME]autoReward[/NAME]Reward |(R)[/INFO] [INFO][NAME]autoReward[/NAME]Reward |(H)[/INFO] [INFO][NAME]autoReward[/NAME]Reward Stuff(R)[/INFO])[/FightINFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_LIGHT_STARGROVE_ENGI_DEFENDER" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="LIST_CREW_NOTHARMONY" lvl="0" blue="false"/>
+      <mod:findLike type="text">
+        <mod:selector>Attack them while their communications are down.</mod:selector>
+        <mod:setValue>Attack them while their communications are down.[FightINFO]Fight(CK=HK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO] [INFO][NAME]drone[/NAME]Gain a drone(Giftlist Engi)[/INFO])(SR: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO] [INFO][NAME]drone[/NAME]Gain a drone(Giftlist Engi)[/INFO] [INFO][NAME]crewMember[/NAME]Gain a crew(Engi Separatist)[/INFO] [INFO][NAME]autoReward[/NAME]Reward |(R)[/INFO] [INFO][NAME]autoReward[/NAME]Reward |(H)[/INFO] [INFO][NAME]autoReward[/NAME]Reward Stuff(R)[/INFO])[/FightINFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_LIGHT_STARGROVE_ENGI_DEFENDER" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="LIST_CREW_NOTHARMONY" lvl="0" blue="false"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="text">
+            <mod:selector>Continue...</mod:selector>
+            <mod:setValue>Continue...[FightINFO]Fight(CK=HK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO] [INFO][NAME]drone[/NAME]Gain a drone(Giftlist Engi)[/INFO])(SR: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO] [INFO][NAME]drone[/NAME]Gain a drone(Giftlist Engi)[/INFO] [INFO][NAME]crewMember[/NAME]Gain a crew(Engi Separatist)[/INFO] [INFO][NAME]autoReward[/NAME]Reward |(R)[/INFO] [INFO][NAME]autoReward[/NAME]Reward |(H)[/INFO] [INFO][NAME]autoReward[/NAME]Reward Stuff(R)[/INFO])[/FightINFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_LIGHT_STARGROVE_ENGI_DEFENDER" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="LIST_CREW_HARMONY" hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>(Harmony Engi) Diagnose their problem.</mod:selector>
+        <mod:setValue>(Harmony Engi) Diagnose their problem.[INFO][NAME]autoReward[/NAME]Reward Drone(H)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="SURRENDER_ENGI_PULSAR_OVERRIDE" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true" req="unique_turzil"/>
+      <mod:findLike type="text">
+        <mod:selector>(Turzil) Complete their liberation.</mod:selector>
+        <mod:setValue>(Turzil) Complete their liberation.[INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO][INFO][NAME]drone[/NAME]Gain a drone(Giftlist Engi)[/INFO][INFO][NAME]crewMember[/NAME]Gain a crew(Engi Separatist)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="SURRENDER_ENGI_PULSAR_OVERRIDE" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true" req="LIST_VARIANT_SEPARATIST"/>
+      <mod:findLike type="text">
+        <mod:selector>(Separatist) Complete their liberation.</mod:selector>
+        <mod:setValue>(Separatist) Complete their liberation.[INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO][INFO][NAME]drone[/NAME]Gain a drone(Giftlist Engi)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="SURRENDER_ENGI_PULSAR_OVERRIDE" type="event">
+    <mod:findLike type="choice">
+      <mod:findLike type="text">
+        <mod:selector>Accept their surrender and leave them to their fate.</mod:selector>
+        <mod:setValue>Accept their surrender and leave them to their fate.[INFO][NAME]autoReward[/NAME]Reward |(R)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="SURRENDER_ENGI_PULSAR_OVERRIDE" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="LIST_CREW_DEFENDER"/>
+      <mod:findLike type="text">
+        <mod:selector>(Engi Defender) Negotiate a great deal.</mod:selector>
+        <mod:setValue>(Engi Defender) Negotiate a great deal.[INFO][NAME]autoReward[/NAME]Reward |(H)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="SURRENDER_ENGI_PULSAR_OVERRIDE" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="engi"/>
+      <mod:findLike type="text">
+        <mod:selector>(Engi Crew) Negotiate a different deal.</mod:selector>
+        <mod:setValue>(Engi Crew) Negotiate a different deal.[INFO][NAME]autoReward[/NAME]Reward Stuff(R)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_LIGHT_STARGROVE_FEDTRACKER" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>Attack the probe.</mod:selector>
+        <mod:setValue>Attack the probe.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(L)[/INFO])[/FightINFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_LIGHT_STARGROVE_FEDTRACKER" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="text">
+            <mod:selector>Continue...</mod:selector>
+            <mod:setValue>Continue...[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(L)[/INFO])[/FightINFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_LIGHT_QUEST_STARGROVE_TRACKER" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>Continue...</mod:selector>
+        <mod:setValue>Continue...[FightINFO]Fight(HK=CK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO][NAME]revealMap[/NAME]Map Reveal[/INFO] [INFO][NAME]damage[/NAME]Repair Hull(6$)[/INFO])[/FightINFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_LIGHT_QUEST_STARGROVE_TRACKER" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="text">
+            <mod:selector>Attack!</mod:selector>
+            <mod:setValue>Attack![FightINFO]Fight(HK=CK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO][NAME]revealMap[/NAME]Map Reveal[/INFO] [INFO][NAME]damage[/NAME]Repair Hull(6$)[/INFO])[/FightINFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_LIGHT_QUEST_STARGROVE_TRACKER" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="event">
+            <mod:findLike type="choice">
+              <mod:selector hidden="true"/>
+              <mod:findLike type="text">
+                <mod:selector>Continue...</mod:selector>
+                <mod:setValue>Continue...[FightINFO]Fight(HK=CK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO][NAME]revealMap[/NAME]Map Reveal[/INFO] [INFO][NAME]damage[/NAME]Repair Hull(6$)[/INFO])[/FightINFO]</mod:setValue>
+              </mod:findLike>
+            </mod:findLike>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="SHIP_COALITION_QUEST_STARGROVE_TRACKER" type="ship">
+    <mod:findLike type="destroyed">
+      <mod:findLike type="choice">
+        <mod:selector hidden="true"/>
+        <mod:findLike type="text">
+          <mod:selector>Continue...</mod:selector>
+          <mod:setValue>Continue...[INFO][NAME]revealMap[/NAME]Map Reveal[/INFO][INFO][NAME]damage[/NAME]Repair Hull(6$)[/INFO]</mod:setValue>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="SHIP_COALITION_QUEST_STARGROVE_TRACKER" type="ship">
+    <mod:findLike type="deadCrew">
+      <mod:findLike type="choice">
+        <mod:selector hidden="true"/>
+        <mod:findLike type="text">
+          <mod:selector>Continue...</mod:selector>
+          <mod:setValue>Continue...[INFO][NAME]revealMap[/NAME]Map Reveal[/INFO][INFO][NAME]damage[/NAME]Repair Hull(6$)[/INFO]</mod:setValue>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_LIGHT_ENCOUNTER_FEDERATION_STARGROVE" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>Continue...</mod:selector>
+        <mod:setValue>Continue...[FightINFO]Fight(HK=CK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Federation)[/INFO])[/FightINFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="DEFEAT_FED_ELITE_STARGROVE" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>Continue...</mod:selector>
+        <mod:setValue>Continue...[INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Federation)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_LIGHT_ENCOUNTER_PIRATE_ELITE_STARGROVE" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="ANTI_VIRUS" hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>(Anti-Virus) Counter their attempt to jam your systems.</mod:selector>
+        <mod:setValue>(Anti-Virus) Counter their attempt to jam your systems.[FightINFO]Fight(CK: [INFO][NAME]autoReward[/NAME]Reward Item(H)[/INFO])(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])(SR: [INFO][NAME]autoReward[/NAME]Reward Stuff(R)[/INFO])[/FightINFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_LIGHT_ENCOUNTER_PIRATE_ELITE_STARGROVE_PULSAR" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="ANTI_VIRUS" hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>(Anti-Virus) Counter their attempt to jam your systems.</mod:selector>
+        <mod:setValue>(Anti-Virus) Counter their attempt to jam your systems.[FightINFO]Fight(CK: [INFO][NAME]autoReward[/NAME]Reward Item(H)[/INFO])(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])(SR: [INFO][NAME]autoReward[/NAME]Reward Stuff(R)[/INFO])[/FightINFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_LIGHT_ENCOUNTER_PIRATE_ELITE_STARGROVE_BLUEGIANT" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="ANTI_VIRUS" hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>(Anti-Virus) Counter their attempt to jam your systems.</mod:selector>
+        <mod:setValue>(Anti-Virus) Counter their attempt to jam your systems.[FightINFO]Fight(CK: [INFO][NAME]autoReward[/NAME]Reward Item(H)[/INFO])(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])(SR: [INFO][NAME]autoReward[/NAME]Reward Stuff(R)[/INFO])[/FightINFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="STARGROVE_ANTI_VIRUS_PIRATE" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>Continue...</mod:selector>
+        <mod:setValue>Continue...[FightINFO]Fight(CK: [INFO][NAME]autoReward[/NAME]Reward Item(H)[/INFO])(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])(SR: [INFO][NAME]autoReward[/NAME]Reward Stuff(R)[/INFO])[/FightINFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="STARGROVE_SYSTEM_JAMMED_PIRATE" type="event">
+    <mod:findLike type="loadEventList">
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="text">
+            <mod:selector>Continue...</mod:selector>
+            <mod:setValue>Continue...[FightINFO]Fight(CK: [INFO][NAME]autoReward[/NAME]Reward Item(H)[/INFO])(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])(SR: [INFO][NAME]autoReward[/NAME]Reward Stuff(R)[/INFO])[/FightINFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="STARGROVE_SYSTEM_JAMMED_PIRATE" type="event">
+    <mod:findLike type="loadEventList">
+      <mod:findLike type="event">
+        <mod:selector req="pilot" lvl="2"/>
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="text">
+            <mod:selector>Continue...</mod:selector>
+            <mod:setValue>Continue...[FightINFO]Fight(CK: [INFO][NAME]autoReward[/NAME]Reward Item(H)[/INFO])(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])(SR: [INFO][NAME]autoReward[/NAME]Reward Stuff(R)[/INFO])[/FightINFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="STARGROVE_SYSTEM_JAMMED_PIRATE" type="event">
+    <mod:findLike type="loadEventList">
+      <mod:findLike type="event">
+        <mod:selector req="engines" lvl="2"/>
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="text">
+            <mod:selector>Continue...</mod:selector>
+            <mod:setValue>Continue...[FightINFO]Fight(CK: [INFO][NAME]autoReward[/NAME]Reward Item(H)[/INFO])(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])(SR: [INFO][NAME]autoReward[/NAME]Reward Stuff(R)[/INFO])[/FightINFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="STARGROVE_SYSTEM_JAMMED_PIRATE" type="event">
+    <mod:findLike type="loadEventList">
+      <mod:findLike type="event">
+        <mod:selector req="shields" lvl="2"/>
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="text">
+            <mod:selector>Continue...</mod:selector>
+            <mod:setValue>Continue...[FightINFO]Fight(CK: [INFO][NAME]autoReward[/NAME]Reward Item(H)[/INFO])(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])(SR: [INFO][NAME]autoReward[/NAME]Reward Stuff(R)[/INFO])[/FightINFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="STARGROVE_SYSTEM_JAMMED_PIRATE" type="event">
+    <mod:findLike type="loadEventList">
+      <mod:findLike type="event">
+        <mod:selector req="weapons" lvl="2"/>
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="text">
+            <mod:selector>Continue...</mod:selector>
+            <mod:setValue>Continue...[FightINFO]Fight(CK: [INFO][NAME]autoReward[/NAME]Reward Item(H)[/INFO])(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])(SR: [INFO][NAME]autoReward[/NAME]Reward Stuff(R)[/INFO])[/FightINFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="STARGROVE_SYSTEM_JAMMED_PIRATE" type="event">
+    <mod:findLike type="loadEventList">
+      <mod:findLike type="event">
+        <mod:selector req="cloaking" lvl="1"/>
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="text">
+            <mod:selector>Continue...</mod:selector>
+            <mod:setValue>Continue...[FightINFO]Fight(CK: [INFO][NAME]autoReward[/NAME]Reward Item(H)[/INFO])(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])(SR: [INFO][NAME]autoReward[/NAME]Reward Stuff(R)[/INFO])[/FightINFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_LIGHT_ENCOUNTER_VAGABOND_STARGROVE" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>Continue...</mod:selector>
+        <mod:setValue>Continue...[FightINFO]Fight(HK=CK: [INFO][NAME]autoReward[/NAME]Reward Stuff(M)[/INFO])[/FightINFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_LIGHT_ENCOUNTER_VAGABOND_STARGROVE_BLUEGIANT" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>Continue...</mod:selector>
+        <mod:setValue>Continue...[FightINFO]Fight(HK=CK: [INFO][NAME]autoReward[/NAME]Reward Stuff(M)[/INFO])[/FightINFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_LIGHT_ENCOUNTER_AUTO_STARGROVE" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>Continue...</mod:selector>
+        <mod:setValue>Continue...[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(SR: [INFO]20% [NAME]autoReward[/NAME]Reward Stuff(R)[/INFO] [INFO]20% [NAME]autoReward[/NAME]Reward { Only(L)[/INFO])[/FightINFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_LIGHT_ENCOUNTER_AUTO_STARGROVE_BLUEGIANT" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>Continue...</mod:selector>
+        <mod:setValue>Continue...[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(SR: [INFO]20% [NAME]autoReward[/NAME]Reward Stuff(R)[/INFO] [INFO]20% [NAME]autoReward[/NAME]Reward { Only(L)[/INFO])[/FightINFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_LIGHT_STARGROVE_LISTENING_POST_QUEST" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>Interfere.</mod:selector>
+        <mod:setValue>Interfere.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])[/FightINFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_LIGHT_STARGROVE_LISTENING_POST_QUEST" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="text">
+            <mod:selector>Continue...</mod:selector>
+            <mod:setValue>Continue...[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])[/FightINFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="QUEST_STARGROVE_GRAVASTAR" type="event">
+    <mod:findLike type="choice">
+      <mod:findLike type="text">
+        <mod:selector>Who are you?</mod:selector>
+        <mod:setValue>Who are you?[FightINFO]Fight(HK=CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])[/FightINFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="QUEST_STARGROVE_GRAVASTAR" type="event">
+    <mod:findLike type="choice">
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="text">
+            <mod:selector>Continue...</mod:selector>
+            <mod:setValue>Continue...[FightINFO]Fight(HK=CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])[/FightINFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="QUEST_STARGROVE_GRAVASTAR" type="event">
+    <mod:findLike type="choice">
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector req="loc_infernum_parable"/>
+          <mod:findLike type="text">
+            <mod:selector>Violence will destroy your soul.</mod:selector>
+            <mod:setValue>Violence will destroy your soul.[FightINFO]Fight(HK=CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])[/FightINFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="QUEST_STARGROVE_GRAVASTAR" type="event">
+    <mod:findLike type="choice">
+      <mod:findLike type="text">
+        <mod:selector>Attack them.</mod:selector>
+        <mod:setValue>Attack them.[FightINFO]Fight(HK=CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])[/FightINFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="QUEST_STARGROVE_GRAVASTAR" type="event">
+    <mod:findLike type="choice">
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="text">
+            <mod:selector>Continue...</mod:selector>
+            <mod:setValue>Continue...[FightINFO]Fight(HK=CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])[/FightINFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="QUEST_STARGROVE_GRAVASTAR" type="event">
+    <mod:findLike type="choice">
+      <mod:findLike type="text">
+        <mod:selector>We come in peace, monks.</mod:selector>
+        <mod:setValue>We come in peace, monks.[FightINFO]Fight(HK=CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])[/FightINFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="QUEST_STARGROVE_GRAVASTAR" type="event">
+    <mod:findLike type="choice">
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="text">
+            <mod:selector>Continue...</mod:selector>
+            <mod:setValue>Continue...[FightINFO]Fight(HK=CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])[/FightINFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="QUEST_STARGROVE_GRAVASTAR" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="loc_infernum_parable"/>
+      <mod:findLike type="text">
+        <mod:selector>Violence will destroy your soul.</mod:selector>
+        <mod:setValue>Violence will destroy your soul.[FightINFO]Fight(HK=CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])[/FightINFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="QUEST_STARGROVE_GRAVASTAR_MONK_MESSAGE" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>Continue...</mod:selector>
+        <mod:setValue>Continue...[FightINFO]Fight(HK=CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])[/FightINFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="STARGROVE_CONTACT_MAFAN_REAL" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>Risk your ship by flying close enough to scrap the ship and save its sole crew.</mod:selector>
+        <mod:setValue>Risk your ship by flying close enough to scrap the ship and save its sole crew.[INFO][NAME]modifyPursuit[/NAME]&lt;!&gt;Fleet Advance(3)[/INFO][INFO][NAME]damage[/NAME]&lt;!&gt;Damage Hull(2)[/INFO][INFO][NAME]autoReward[/NAME]Reward ~ Only(L)[/INFO][INFO][NAME]crewMember[/NAME]Gain a crew(Unique Mafan)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="STARGROVE_CONTACT_MAFAN_REAL" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="text">
+            <mod:selector>Contact science vessel...</mod:selector>
+            <mod:setValue>Contact science vessel...[INFO][NAME]crewMember[/NAME]Gain a crew(Unique Mafan)[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="STARGROVE_CONTACT_MAFAN_REAL" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="engines" lvl="4" hidden="true" max_group="0"/>
+      <mod:findLike type="text">
+        <mod:selector>(Upg. Engines) Risk your ship by flying close enough to scrap the ship and save its sole crew.</mod:selector>
+        <mod:setValue>(Upg. Engines) Risk your ship by flying close enough to scrap the ship and save its sole crew.[INFO][NAME]modifyPursuit[/NAME]&lt;!&gt;Fleet Advance(2)[/INFO][INFO][NAME]damage[/NAME]&lt;!&gt;Damage Hull(1)[/INFO][INFO][NAME]autoReward[/NAME]Reward ~ Only(L)[/INFO][INFO][NAME]crewMember[/NAME]Gain a crew(Unique Mafan)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="STARGROVE_CONTACT_MAFAN_REAL" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="engines" lvl="4" hidden="true" max_group="0"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="text">
+            <mod:selector>Contact science vessel...</mod:selector>
+            <mod:setValue>Contact science vessel...[INFO][NAME]crewMember[/NAME]Gain a crew(Unique Mafan)[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="STARGROVE_CONTACT_MAFAN_REAL" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="engines" lvl="7" hidden="true" max_group="0"/>
+      <mod:findLike type="text">
+        <mod:selector>(Adv. Engines) Risk your ship by flying close enough to scrap the ship and save its sole crew.</mod:selector>
+        <mod:setValue>(Adv. Engines) Risk your ship by flying close enough to scrap the ship and save its sole crew.[INFO][NAME]modifyPursuit[/NAME]&lt;!&gt;Fleet Advance(1)[/INFO][INFO][NAME]damage[/NAME]&lt;!&gt;Damage Hull(1)[/INFO][INFO][NAME]autoReward[/NAME]Reward ~ Only(L)[/INFO][INFO][NAME]crewMember[/NAME]Gain a crew(Unique Mafan)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="STARGROVE_CONTACT_MAFAN_REAL" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="engines" lvl="7" hidden="true" max_group="0"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="text">
+            <mod:selector>Contact science vessel...</mod:selector>
+            <mod:setValue>Contact science vessel...[INFO][NAME]crewMember[/NAME]Gain a crew(Unique Mafan)[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="STARGROVE_CONTACT_MAFAN_REAL" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="temporal" max_group="1" hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>(Temporal Manipulator) Counteract the gravitational time dilation long enough to free Mafan's ship.</mod:selector>
+        <mod:setValue>(Temporal Manipulator) Counteract the gravitational time dilation long enough to free Mafan's ship.[INFO][NAME]autoReward[/NAME]Reward ~ Only(L)[/INFO][INFO][NAME]crewMember[/NAME]Gain a crew(Unique Mafan)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="STARGROVE_CONTACT_MAFAN_REAL" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="temporal" max_group="1" hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="text">
+            <mod:selector>Greet Mafan...</mod:selector>
+            <mod:setValue>Greet Mafan...[INFO][NAME]crewMember[/NAME]Gain a crew(Unique Mafan)[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="STARGROVE_CONTACT_MAFAN_REAL" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="MULTIVERSE_DRIVE_GOOD" max_group="2" hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>(Aether Drive) Jump directly to Mafan's ship.</mod:selector>
+        <mod:setValue>(Aether Drive) Jump directly to Mafan's ship.[INFO][NAME]itemModify[/NAME]{-1[/INFO][INFO][NAME]autoReward[/NAME]Reward ~ Only(L)[/INFO][INFO][NAME]crewMember[/NAME]Gain a crew(Unique Mafan)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="STARGROVE_CONTACT_MAFAN_REAL" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="MULTIVERSE_DRIVE_GOOD" max_group="2" hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="text">
+            <mod:selector>Greet Mafan...</mod:selector>
+            <mod:setValue>Greet Mafan...[INFO][NAME]crewMember[/NAME]Gain a crew(Unique Mafan)[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="STARGROVE_CONTACT_MAFAN_REAL" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="MULTIVERSE_DRIVE" max_group="2" hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>(Aether Drive) Jump directly to Mafan's ship.</mod:selector>
+        <mod:setValue>(Aether Drive) Jump directly to Mafan's ship.[INFO][NAME]itemModify[/NAME]{-3[/INFO][INFO][NAME]autoReward[/NAME]Reward ~ Only(L)[/INFO][INFO][NAME]crewMember[/NAME]Gain a crew(Unique Mafan)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="STARGROVE_CONTACT_MAFAN_REAL" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="MULTIVERSE_DRIVE" max_group="2" hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="text">
+            <mod:selector>Greet Mafan...</mod:selector>
+            <mod:setValue>Greet Mafan...[INFO][NAME]crewMember[/NAME]Gain a crew(Unique Mafan)[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="STARGROVE_CONTACT_MAFAN_REAL" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="teleporter" max_group="3"/>
+      <mod:findLike type="text">
+        <mod:selector>(Teleporter) Teleport Mafan to your own ship.</mod:selector>
+        <mod:setValue>(Teleporter) Teleport Mafan to your own ship.[INFO][NAME]crewMember[/NAME]Gain a crew(Unique Mafan)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="STARGROVE_CONTACT_MAFAN_REAL" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="teleporter" max_group="3"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="text">
+            <mod:selector>Greet Mafan...</mod:selector>
+            <mod:setValue>Greet Mafan...[INFO][NAME]crewMember[/NAME]Gain a crew(Unique Mafan)[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="STARGROVE_CLEARING_MONK" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>Hear them out.</mod:selector>
+        <mod:setValue>Hear them out.[INFO][NAME]autoReward[/NAME]Reward Standard(L)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="STARGROVE_CLEARING_MONK" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="text">
+            <mod:selector>Continue...</mod:selector>
+            <mod:setValue>Continue...[INFO][NAME]autoReward[/NAME]Reward Standard(L)[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="STARGROVE_CLEARING_MONK" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>Leave.</mod:selector>
+        <mod:setValue>Leave.[INFO][NAME]storageCheck[/NAME]Storage Check[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="STARGROVE_CLEARING_MONK" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:findLike type="text">
+            <mod:selector>Do something onboard the ship.</mod:selector>
+            <mod:setValue>Do something onboard the ship.[INFO][NAME]storageCheck[/NAME]Storage Check[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="STARGROVE_SEPARATIST_STORE" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="engi_defender"/>
+      <mod:findLike type="text">
+        <mod:selector>Your Defender protests this encampment of Separatists.</mod:selector>
+        <mod:setValue>Your Defender protests this encampment of Separatists.[FightINFO]Fight(CK: [INFO]20% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO]20% [NAME]drone[/NAME]Gain a drone(List Drones Separatist Drop)[/INFO])(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(SR: [INFO][NAME]autoReward[/NAME]Reward |(R)[/INFO])[/FightINFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="STARGROVE_SEPARATIST_STORE" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="engi_defender"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:findLike type="text">
+            <mod:selector>Continue...</mod:selector>
+            <mod:setValue>Continue...[FightINFO]Fight(CK: [INFO]20% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO]20% [NAME]drone[/NAME]Gain a drone(List Drones Separatist Drop)[/INFO])(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(SR: [INFO][NAME]autoReward[/NAME]Reward |(R)[/INFO])[/FightINFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="STARGROVE_SEPARATIST_STORE" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="engi"/>
+      <mod:findLike type="text">
+        <mod:selector>Show them your Engi.</mod:selector>
+        <mod:setValue>Show them your Engi.[FightINFO]Fight(CK: [INFO]20% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO]20% [NAME]drone[/NAME]Gain a drone(List Drones Separatist Drop)[/INFO])(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(SR: [INFO][NAME]autoReward[/NAME]Reward |(R)[/INFO])[/FightINFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="STARGROVE_SEPARATIST_STORE" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="engi"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:findLike type="text">
+            <mod:selector>Accept.</mod:selector>
+            <mod:setValue>Accept.[INFO][NAME]storageCheck[/NAME]Storage Check[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="STARGROVE_SEPARATIST_STORE" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="engi"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:findLike type="event">
+            <mod:findLike type="choice">
+              <mod:findLike type="text">
+                <mod:selector>Continue...</mod:selector>
+                <mod:setValue>Continue...[INFO][NAME]storageCheck[/NAME]Storage Check[/INFO]</mod:setValue>
+              </mod:findLike>
+            </mod:findLike>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="STARGROVE_SEPARATIST_STORE" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="engi"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:findLike type="text">
+            <mod:selector>Refuse.</mod:selector>
+            <mod:setValue>Refuse.[FightINFO]Fight(CK: [INFO]20% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO]20% [NAME]drone[/NAME]Gain a drone(List Drones Separatist Drop)[/INFO])(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(SR: [INFO][NAME]autoReward[/NAME]Reward |(R)[/INFO])[/FightINFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="STARGROVE_SEPARATIST_STORE" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="engi"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:findLike type="event">
+            <mod:findLike type="choice">
+              <mod:findLike type="text">
+                <mod:selector>Continue...</mod:selector>
+                <mod:setValue>Continue...[FightINFO]Fight(CK: [INFO]20% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO]20% [NAME]drone[/NAME]Gain a drone(List Drones Separatist Drop)[/INFO])(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(SR: [INFO][NAME]autoReward[/NAME]Reward |(R)[/INFO])[/FightINFO]</mod:setValue>
+              </mod:findLike>
+            </mod:findLike>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="STARGROVE_SEPARATIST_STORE" type="event">
+    <mod:findLike type="choice">
+      <mod:findLike type="text">
+        <mod:selector>Do business with the Separatists.</mod:selector>
+        <mod:setValue>Do business with the Separatists.[INFO][NAME]storageCheck[/NAME]Storage Check[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="STARGROVE_SEPARATIST_STORE" type="event">
+    <mod:findLike type="choice">
+      <mod:findLike type="text">
+        <mod:selector>Avoid the Separatists.</mod:selector>
+        <mod:setValue>Avoid the Separatists.[INFO][NAME]storageCheck[/NAME]Storage Check[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="STARGROVE_SEPARATIST_STORE" type="event">
+    <mod:findLike type="choice">
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:findLike type="text">
+            <mod:selector>Do something onboard the ship.</mod:selector>
+            <mod:setValue>Do something onboard the ship.[INFO][NAME]storageCheck[/NAME]Storage Check[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_LIGHT_STARGROVE_SMUGGLER_STORE" type="event">
+    <mod:findLike type="choice">
+      <mod:findLike type="text">
+        <mod:selector>Attack the mercenary.</mod:selector>
+        <mod:setValue>Attack the mercenary.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])[/FightINFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_LIGHT_STARGROVE_SMUGGLER_STORE" type="event">
+    <mod:findLike type="choice">
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:findLike type="text">
+            <mod:selector>Continue...</mod:selector>
+            <mod:setValue>Continue...[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])[/FightINFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_LIGHT_STARGROVE_SMUGGLER_STORE" type="event">
+    <mod:findLike type="choice">
+      <mod:findLike type="text">
+        <mod:selector>Avoid the pirates.</mod:selector>
+        <mod:setValue>Avoid the pirates.[INFO][NAME]storageCheck[/NAME]Storage Check[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_LIGHT_STARGROVE_SMUGGLER_STORE" type="event">
+    <mod:findLike type="choice">
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:findLike type="text">
+            <mod:selector>Do something onboard the ship.</mod:selector>
+            <mod:setValue>Do something onboard the ship.[INFO][NAME]storageCheck[/NAME]Storage Check[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="STARGROVE_SAFE_HAVEN" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>Contact the outpost.</mod:selector>
+        <mod:setValue>Contact the outpost.[INFO][NAME]storageCheck[/NAME]Storage Check[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="STARGROVE_SAFE_HAVEN" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:findLike type="text">
+            <mod:selector>Auto cruiser?</mod:selector>
+            <mod:setValue>Auto cruiser?[INFO][NAME]storageCheck[/NAME]Storage Check[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="STARGROVE_SAFE_HAVEN" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:findLike type="event">
+            <mod:findLike type="choice">
+              <mod:findLike type="text">
+                <mod:selector>Agree to track it down.</mod:selector>
+                <mod:setValue>Agree to track it down.[INFO][NAME]storageCheck[/NAME]Storage Check[/INFO]</mod:setValue>
+              </mod:findLike>
+            </mod:findLike>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="STARGROVE_SAFE_HAVEN" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:findLike type="event">
+            <mod:findLike type="choice">
+              <mod:findLike type="text">
+                <mod:selector>Politely refuse.</mod:selector>
+                <mod:setValue>Politely refuse.[INFO][NAME]storageCheck[/NAME]Storage Check[/INFO]</mod:setValue>
+              </mod:findLike>
+            </mod:findLike>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="STARGROVE_SAFE_HAVEN" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:findLike type="text">
+            <mod:selector>Agree.</mod:selector>
+            <mod:setValue>Agree.[INFO][NAME]storageCheck[/NAME]Storage Check[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="STARGROVE_SAFE_HAVEN" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:findLike type="text">
+            <mod:selector>Politely refuse.</mod:selector>
+            <mod:setValue>Politely refuse.[INFO][NAME]storageCheck[/NAME]Storage Check[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="STARGROVE_SAFE_HAVEN" type="event">
+    <mod:findLike type="choice">
+      <mod:findLike type="text">
+        <mod:selector>Avoid the outpost.</mod:selector>
+        <mod:setValue>Avoid the outpost.[INFO][NAME]storageCheck[/NAME]Storage Check[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="STARGROVE_SAFE_HAVEN" type="event">
+    <mod:findLike type="choice">
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:findLike type="text">
+            <mod:selector>Do something onboard the ship.</mod:selector>
+            <mod:setValue>Do something onboard the ship.[INFO][NAME]storageCheck[/NAME]Storage Check[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="STARGROVE_SAFE_HAVEN_QUEST_ACCEPT" type="event">
+    <mod:findLike type="choice">
+      <mod:findLike type="text">
+        <mod:selector>See what services the outpost has to offer.</mod:selector>
+        <mod:setValue>See what services the outpost has to offer.[INFO][NAME]upgrade[/NAME]System Upgrade(Cloaking x1)[/INFO][INFO][NAME]upgrade[/NAME]System Upgrade(Shields x1)[/INFO][INFO][NAME]upgrade[/NAME]System Upgrade(Engines x1)[/INFO][INFO][NAME]upgrade[/NAME]System Upgrade(Reactor x2)[/INFO][INFO][NAME]damage[/NAME]Repair Hull(7$)[/INFO][INFO][NAME]autoReward[/NAME]Reward Stuff(M)[/INFO][INFO][NAME]storageCheck[/NAME]Storage Check[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="STARGROVE_SAFE_HAVEN_QUEST_ACCEPT" type="event">
+    <mod:findLike type="choice">
+      <mod:findLike type="text">
+        <mod:selector>Do something onboard the ship.</mod:selector>
+        <mod:setValue>Do something onboard the ship.[INFO][NAME]storageCheck[/NAME]Storage Check[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="STARGROVE_SAFE_HAVEN_QUEST_REFUSE" type="event">
+    <mod:findLike type="choice">
+      <mod:findLike type="text">
+        <mod:selector>See what services the outpost has to offer.</mod:selector>
+        <mod:setValue>See what services the outpost has to offer.[INFO][NAME]upgrade[/NAME]System Upgrade(Cloaking x1)[/INFO][INFO][NAME]upgrade[/NAME]System Upgrade(Shields x1)[/INFO][INFO][NAME]upgrade[/NAME]System Upgrade(Engines x1)[/INFO][INFO][NAME]upgrade[/NAME]System Upgrade(Reactor x2)[/INFO][INFO][NAME]damage[/NAME]Repair Hull(7$)[/INFO][INFO][NAME]autoReward[/NAME]Reward Stuff(M)[/INFO][INFO][NAME]storageCheck[/NAME]Storage Check[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="STARGROVE_SAFE_HAVEN_QUEST_REFUSE" type="event">
+    <mod:findLike type="choice">
+      <mod:findLike type="text">
+        <mod:selector>Do something onboard the ship.</mod:selector>
+        <mod:setValue>Do something onboard the ship.[INFO][NAME]storageCheck[/NAME]Storage Check[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="STARGROVE_SAFE_HAVEN_OFFERS" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="cloaking" lvl="1" max_lvl="4" blue="false" hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>Ask for a cloaking upgrade.</mod:selector>
+        <mod:setValue>Ask for a cloaking upgrade.[INFO][NAME]upgrade[/NAME]System Upgrade(Cloaking x1)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="STARGROVE_SAFE_HAVEN_OFFERS" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="shields" lvl="1" max_lvl="7" blue="false" hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>Ask for a shield upgrade.</mod:selector>
+        <mod:setValue>Ask for a shield upgrade.[INFO][NAME]upgrade[/NAME]System Upgrade(Shields x1)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="STARGROVE_SAFE_HAVEN_OFFERS" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="engines" lvl="1" max_lvl="7" blue="false" hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>Ask for an engine upgrade.</mod:selector>
+        <mod:setValue>Ask for an engine upgrade.[INFO][NAME]upgrade[/NAME]System Upgrade(Engines x1)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="STARGROVE_SAFE_HAVEN_OFFERS" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>Ask for a reactor upgrade.</mod:selector>
+        <mod:setValue>Ask for a reactor upgrade.[INFO][NAME]upgrade[/NAME]System Upgrade(Reactor x2)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="STARGROVE_SAFE_HAVEN_OFFERS" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>Ask for repairs.</mod:selector>
+        <mod:setValue>Ask for repairs.[INFO][NAME]damage[/NAME]Repair Hull(7$)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="STARGROVE_SAFE_HAVEN_OFFERS" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>Ask for a resource bundle.</mod:selector>
+        <mod:setValue>Ask for a resource bundle.[INFO][NAME]autoReward[/NAME]Reward Stuff(M)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="STARGROVE_SAFE_HAVEN_OFFERS" type="event">
+    <mod:findLike type="choice">
+      <mod:findLike type="text">
+        <mod:selector>Do something onboard the ship instead.</mod:selector>
+        <mod:setValue>Do something onboard the ship instead.[INFO][NAME]storageCheck[/NAME]Storage Check[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_LIGHT_QUEST_STARGROVE_AUTO_CRUISER" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="unique_dessius"/>
+      <mod:findLike type="text">
+        <mod:selector>(Dessius) Tell them to back off.</mod:selector>
+        <mod:setValue>(Dessius) Tell them to back off.[INFO][NAME]unlockCustomShip[/NAME]&lt;#&gt;Unlock Ship(Auto Fed)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_LIGHT_QUEST_STARGROVE_AUTO_CRUISER" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="unique_dessius"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="text">
+            <mod:selector>Continue...</mod:selector>
+            <mod:setValue>Continue...[INFO][NAME]unlockCustomShip[/NAME]&lt;#&gt;Unlock Ship(Auto Fed)[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_LIGHT_QUEST_STARGROVE_AUTO_CRUISER" type="event">
+    <mod:findLike type="choice">
+      <mod:findLike type="text">
+        <mod:selector>Nightmares?</mod:selector>
+        <mod:setValue>Nightmares?[FightINFO]Fight(HK=CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO] [INFO][NAME]unlockCustomShip[/NAME]&lt;#&gt;Unlock Ship(Auto Fed)[/INFO])[/FightINFO][INFO][NAME]unlockCustomShip[/NAME]&lt;#&gt;Unlock Ship(Auto Fed)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_LIGHT_QUEST_STARGROVE_AUTO_CRUISER" type="event">
+    <mod:findLike type="choice">
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:findLike type="text">
+            <mod:selector>Protect the auto cruiser.</mod:selector>
+            <mod:setValue>Protect the auto cruiser.[FightINFO]Fight(HK=CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO] [INFO][NAME]unlockCustomShip[/NAME]&lt;#&gt;Unlock Ship(Auto Fed)[/INFO])[/FightINFO][INFO][NAME]unlockCustomShip[/NAME]&lt;#&gt;Unlock Ship(Auto Fed)[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_LIGHT_QUEST_STARGROVE_AUTO_CRUISER" type="event">
+    <mod:findLike type="choice">
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:findLike type="event">
+            <mod:findLike type="choice">
+              <mod:selector hidden="true"/>
+              <mod:findLike type="text">
+                <mod:selector>Continue...</mod:selector>
+                <mod:setValue>Continue...[FightINFO]Fight(HK=CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO] [INFO][NAME]unlockCustomShip[/NAME]&lt;#&gt;Unlock Ship(Auto Fed)[/INFO])[/FightINFO][INFO][NAME]unlockCustomShip[/NAME]&lt;#&gt;Unlock Ship(Auto Fed)[/INFO]</mod:setValue>
+              </mod:findLike>
+            </mod:findLike>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_LIGHT_QUEST_STARGROVE_AUTO_CRUISER" type="event">
+    <mod:findLike type="choice">
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:findLike type="text">
+            <mod:selector>Accuse them of hypocrisy.</mod:selector>
+            <mod:setValue>Accuse them of hypocrisy.[FightINFO]Fight(HK=CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO] [INFO][NAME]unlockCustomShip[/NAME]&lt;#&gt;Unlock Ship(Auto Fed)[/INFO])[/FightINFO][INFO][NAME]unlockCustomShip[/NAME]&lt;#&gt;Unlock Ship(Auto Fed)[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_LIGHT_QUEST_STARGROVE_AUTO_CRUISER" type="event">
+    <mod:findLike type="choice">
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:findLike type="event">
+            <mod:findLike type="choice">
+              <mod:selector hidden="true"/>
+              <mod:findLike type="text">
+                <mod:selector>Continue...</mod:selector>
+                <mod:setValue>Continue...[FightINFO]Fight(HK=CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO] [INFO][NAME]unlockCustomShip[/NAME]&lt;#&gt;Unlock Ship(Auto Fed)[/INFO])[/FightINFO][INFO][NAME]unlockCustomShip[/NAME]&lt;#&gt;Unlock Ship(Auto Fed)[/INFO]</mod:setValue>
+              </mod:findLike>
+            </mod:findLike>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_LIGHT_QUEST_STARGROVE_AUTO_CRUISER" type="event">
+    <mod:findLike type="choice">
+      <mod:findLike type="text">
+        <mod:selector>Attack them.</mod:selector>
+        <mod:setValue>Attack them.[FightINFO]Fight(HK=CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO] [INFO][NAME]unlockCustomShip[/NAME]&lt;#&gt;Unlock Ship(Auto Fed)[/INFO])[/FightINFO][INFO][NAME]unlockCustomShip[/NAME]&lt;#&gt;Unlock Ship(Auto Fed)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_LIGHT_QUEST_STARGROVE_AUTO_CRUISER" type="event">
+    <mod:findLike type="choice">
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="text">
+            <mod:selector>Continue...</mod:selector>
+            <mod:setValue>Continue...[FightINFO]Fight(HK=CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO] [INFO][NAME]unlockCustomShip[/NAME]&lt;#&gt;Unlock Ship(Auto Fed)[/INFO])[/FightINFO][INFO][NAME]unlockCustomShip[/NAME]&lt;#&gt;Unlock Ship(Auto Fed)[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="SHIP_DYNASTY_STARGROVE" type="ship">
+    <mod:findLike type="destroyed">
+      <mod:findLike type="choice">
+        <mod:selector hidden="true"/>
+        <mod:findLike type="text">
+          <mod:selector>Contact the Auto.</mod:selector>
+          <mod:setValue>Contact the Auto.[INFO][NAME]unlockCustomShip[/NAME]&lt;#&gt;Unlock Ship(Auto Fed)[/INFO]</mod:setValue>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="SHIP_DYNASTY_STARGROVE" type="ship">
+    <mod:findLike type="deadCrew">
+      <mod:findLike type="choice">
+        <mod:selector hidden="true"/>
+        <mod:findLike type="text">
+          <mod:selector>Contact the Auto.</mod:selector>
+          <mod:setValue>Contact the Auto.[INFO][NAME]unlockCustomShip[/NAME]&lt;#&gt;Unlock Ship(Auto Fed)[/INFO]</mod:setValue>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="STARGROVE_AUTO_CONTACT" type="event">
+    <mod:findLike type="choice">
+      <mod:findLike type="text">
+        <mod:selector>Examine the report.</mod:selector>
+        <mod:setValue>Examine the report.[INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO][INFO][NAME]unlockCustomShip[/NAME]&lt;#&gt;Unlock Ship(Auto Fed)[/INFO][INFO][NAME]augment[/NAME]Gain an augment(Adv Scanners Cloak)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="STARGROVE_AUTO_CONTACT" type="event">
+    <mod:findLike type="choice">
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="text">
+            <mod:selector>Instruct the auto cruiser to return to the outpost.</mod:selector>
+            <mod:setValue>Instruct the auto cruiser to return to the outpost.[INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO][INFO][NAME]unlockCustomShip[/NAME]&lt;#&gt;Unlock Ship(Auto Fed)[/INFO][INFO][NAME]augment[/NAME]Gain an augment(Adv Scanners Cloak)[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="STARGROVE_AUTO_CONTACT" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>Instruct the auto cruiser to return to the outpost.</mod:selector>
+        <mod:setValue>Instruct the auto cruiser to return to the outpost.[INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO][INFO][NAME]unlockCustomShip[/NAME]&lt;#&gt;Unlock Ship(Auto Fed)[/INFO][INFO][NAME]augment[/NAME]Gain an augment(Adv Scanners Cloak)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+</FTL>

@@ -45,6 +45,41 @@
   </mod:findName>
   <mod:findName name="LANIUS_LANGUAGE" type="event">
     <mod:findLike type="choice">
+      <mod:selector hidden="true" req="LIST_CREW_LANIUS"/>
+      <mod:findLike type="text">
+        <mod:selector>(Lanius Crew) Your Lanius seems to have picked up some knowledge of your language. Maybe they can help?</mod:selector>
+        <mod:setValue>(Lanius Crew) Your Lanius seems to have picked up some knowledge of your language. Maybe they can help?[INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO][INFO][NAME]crewMember[/NAME]Gain a crew(Lanius)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="LANIUS_LANGUAGE" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true" req="LIST_CREW_LANIUS"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:findLike type="text">
+            <mod:selector>Accept the pay.</mod:selector>
+            <mod:setValue>Accept the pay.[INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="LANIUS_LANGUAGE" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true" req="LIST_CREW_LANIUS"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:findLike type="text">
+            <mod:selector>Suggest the Lanius join your crew to learn even more.</mod:selector>
+            <mod:setValue>Suggest the Lanius join your crew to learn even more.[INFO][NAME]crewMember[/NAME]Gain a crew(Lanius)[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="LANIUS_LANGUAGE" type="event">
+    <mod:findLike type="choice">
       <mod:findLike type="text">
         <mod:selector>Refuse.</mod:selector>
         <mod:setValue>Refuse.[INFO][NAME]storageCheck[/NAME]Storage Check[/INFO]</mod:setValue>
@@ -1961,7 +1996,7 @@
   </mod:findName>
   <mod:findName name="LANIUS_HARVESTER_MV" type="event">
     <mod:findLike type="choice">
-      <mod:selector req="pilot" lvl="2" hidden="true" max_group="0"/>
+      <mod:selector req="pilot" lvl="2" max_lvl="2" hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>(Upg. Piloting) Engage the auto-pilot and safely harvest the debris.</mod:selector>
         <mod:setValue>(Upg. Piloting) Engage the auto-pilot and safely harvest the debris.[INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO]</mod:setValue>
@@ -1970,10 +2005,19 @@
   </mod:findName>
   <mod:findName name="LANIUS_HARVESTER_MV" type="event">
     <mod:findLike type="choice">
-      <mod:selector req="pilot" lvl="3" hidden="true" max_group="0"/>
+      <mod:selector req="pilot" lvl="3" hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>(Adv. Piloting) Engage the auto-pilot and safely harvest the debris.</mod:selector>
         <mod:setValue>(Adv. Piloting) Engage the auto-pilot and safely harvest the debris.[INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="LANIUS_HARVESTER_MV" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="MAGNET_ARM" hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>(Magnet Arm) Use your Magnet Arm to safely harvest the debris.</mod:selector>
+        <mod:setValue>(Magnet Arm) Use your Magnet Arm to safely harvest the debris.[INFO][NAME]autoReward[/NAME]Reward ~ Only(M)[/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>

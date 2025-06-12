@@ -512,7 +512,7 @@
   </mod:findName>
   <mod:findName name="ABANDONED_REBEL_DELUSIONAL" type="event">
     <mod:findLike type="choice">
-      <mod:selector hidden="true" req="mind" lvl="1"/>
+      <mod:selector hidden="true" req="mind" lvl="1" max_lvl="1"/>
       <mod:findLike type="text">
         <mod:selector>(Mind Control) Convince him the battles already ended.</mod:selector>
         <mod:setValue>(Mind Control) Convince him the battles already ended.[FightINFO]Fight(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])(HK: [INFO]20% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO]20% [NAME]autoReward[/NAME]Reward Standard(L)[/INFO])(SR: [INFO]17% [NAME]autoReward[/NAME]Reward Stuff(R)[/INFO] [INFO]17% [NAME]modifyPursuit[/NAME]Fleet Delay(2)[/INFO])[/FightINFO]</mod:setValue>
@@ -521,7 +521,7 @@
   </mod:findName>
   <mod:findName name="ABANDONED_REBEL_DELUSIONAL" type="event">
     <mod:findLike type="choice">
-      <mod:selector hidden="true" req="mind" lvl="1"/>
+      <mod:selector hidden="true" req="mind" lvl="1" max_lvl="1"/>
       <mod:findLike type="event">
         <mod:findLike type="choice">
           <mod:selector hidden="true"/>
@@ -539,6 +539,15 @@
       <mod:findLike type="text">
         <mod:selector>(Upg. Mind Control) Convince him the battles already ended.</mod:selector>
         <mod:setValue>(Upg. Mind Control) Convince him the battles already ended.[INFO][NAME]crewMember[/NAME]Gain a crew(Human)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="ABANDONED_REBEL_DELUSIONAL" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true" req="BLUELIST_WEAPONS_MIND_CONTROL"/>
+      <mod:findLike type="text">
+        <mod:selector>(Mind Control Weapon) Convince him the battles already ended.</mod:selector>
+        <mod:setValue>(Mind Control Weapon) Convince him the battles already ended.[INFO][NAME]crewMember[/NAME]Gain a crew(Human)[/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>

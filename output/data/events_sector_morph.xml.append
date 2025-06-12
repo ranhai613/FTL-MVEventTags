@@ -19,6 +19,15 @@
   </mod:findName>
   <mod:findName name="MORPH_ZOLTAN" type="event">
     <mod:findLike type="choice">
+      <mod:selector hidden="true" req="unique_mafan"/>
+      <mod:findLike type="text">
+        <mod:selector>(Mafan) Admonish the scientists for their cowardice.</mod:selector>
+        <mod:setValue>(Mafan) Admonish the scientists for their cowardice.[INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="MORPH_ZOLTAN" type="event">
+    <mod:findLike type="choice">
       <mod:selector hidden="true" req="shell_scientist"/>
       <mod:findLike type="text">
         <mod:selector>(Shell Scientist) Encourage your Shell Scientist to share some of their research.</mod:selector>
@@ -31,7 +40,21 @@
       <mod:selector hidden="true" req="unique_alkali"/>
       <mod:findLike type="text">
         <mod:selector>(Alkali) Encourage Alkali to grant them access to his research.</mod:selector>
-        <mod:setValue>(Alkali) Encourage Alkali to grant them access to his research.[INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO]</mod:setValue>
+        <mod:setValue>(Alkali) Encourage Alkali to grant them access to his research.[INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO][INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Zoltan)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="MORPH_ZOLTAN" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true" req="unique_alkali"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="text">
+            <mod:selector>Continue...</mod:selector>
+            <mod:setValue>Continue...[INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Zoltan)[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -190,7 +213,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Approach the wreck.</mod:selector>
-        <mod:setValue>Approach the wreck.[INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO][INFO]&lt;=[/INFO][INFO][NAME]itemModify[/NAME]~-30[/INFO][INFO][NAME]crewMember[/NAME]Gain a crew(Shell Mechanic)[/INFO][INFO][NAME]itemModify[/NAME]|-1[/INFO]</mod:setValue>
+        <mod:setValue>Approach the wreck.[INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO][INFO]&lt;=[/INFO][INFO][NAME]itemModify[/NAME]~-30[/INFO][INFO][NAME]crewMember[/NAME]Gain a crew(Shell Mechanic)[/INFO][INFO][NAME]itemModify[/NAME]|-1[/INFO][INFO][NAME]itemModify[/NAME]}-1[/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -272,6 +295,48 @@
   <mod:findName name="MORPH_RUINS" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true" req="BLUELIST_BOMB_REPAIR"/>
+          <mod:findLike type="text">
+            <mod:selector>(Repair Burst) Fix up the station. [-1}]</mod:selector>
+            <mod:setValue>(Repair Burst) Fix up the station. [-1}][INFO][NAME]crewMember[/NAME]Gain a crew(Shell Mechanic)[/INFO][INFO][NAME]itemModify[/NAME]}-1[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="MORPH_RUINS" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true" req="COMBAT_REPAIR"/>
+          <mod:findLike type="text">
+            <mod:selector>(Repair-Bot Dispersal) Fix up the station.</mod:selector>
+            <mod:setValue>(Repair-Bot Dispersal) Fix up the station.[INFO][NAME]crewMember[/NAME]Gain a crew(Shell Mechanic)[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="MORPH_RUINS" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true" req="BEAM_REPAIR"/>
+          <mod:findLike type="text">
+            <mod:selector>(Pro-Hull Beam) Fix up the station.</mod:selector>
+            <mod:setValue>(Pro-Hull Beam) Fix up the station.[INFO][NAME]crewMember[/NAME]Gain a crew(Shell Mechanic)[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="MORPH_RUINS" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Ignore the wreck.</mod:selector>
         <mod:setValue>Ignore the wreck.[INFO][NAME]storageCheck[/NAME]Storage Check[/INFO]</mod:setValue>
@@ -345,7 +410,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="NEBULA_MORPH_SOLAR" type="event">
+  <mod:findName name="NEBULA_LIGHT_MORPH_SOLAR" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
@@ -354,7 +419,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="NEBULA_MORPH_SOLAR" type="event">
+  <mod:findName name="NEBULA_LIGHT_MORPH_SOLAR" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true" req="LIST_CREW_SHELL_SCIENTIST"/>
       <mod:findLike type="text">

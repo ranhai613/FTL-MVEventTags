@@ -928,7 +928,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="NEBULA_VAGABOND_FLEETCRASH" type="event">
+  <mod:findName name="NEBULA_LIGHT_VAGABOND_FLEETCRASH" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
@@ -937,7 +937,25 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="NEBULA_VAGABOND_FLEETCRASH" type="event">
+  <mod:findName name="NEBULA_LIGHT_VAGABOND_FLEETCRASH" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true" req="SCRAP_COLLECTOR"/>
+      <mod:findLike type="text">
+        <mod:selector>(Scrap Arm) Use your Scrap Arm to scrap the outer regions of the ship.</mod:selector>
+        <mod:setValue>(Scrap Arm) Use your Scrap Arm to scrap the outer regions of the ship.[INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_LIGHT_VAGABOND_FLEETCRASH" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true" req="MAGNET_ARM"/>
+      <mod:findLike type="text">
+        <mod:selector>(Magnetic Arm) Use your Magnetic Arm to scrap the outer regions of the ship.</mod:selector>
+        <mod:setValue>(Magnetic Arm) Use your Magnetic Arm to scrap the outer regions of the ship.[INFO][NAME]autoReward[/NAME]Reward ~ Only(H)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_LIGHT_VAGABOND_FLEETCRASH" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
@@ -946,7 +964,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="NEBULA_VAGABOND_FLEETCRASH" type="event">
+  <mod:findName name="NEBULA_LIGHT_VAGABOND_FLEETCRASH" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true"/>
       <mod:findLike type="event">
@@ -959,7 +977,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="NEBULA_VAGABOND_FLEETCRASH" type="event">
+  <mod:findName name="NEBULA_LIGHT_VAGABOND_FLEETCRASH" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true"/>
       <mod:findLike type="event">
@@ -973,7 +991,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="NEBULA_VAGABOND_FLEETCRASH" type="event">
+  <mod:findName name="NEBULA_LIGHT_VAGABOND_FLEETCRASH" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true"/>
       <mod:findLike type="event">
@@ -992,7 +1010,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="NEBULA_VAGABOND_FLEETCRASH" type="event">
+  <mod:findName name="NEBULA_LIGHT_VAGABOND_FLEETCRASH" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
@@ -1001,7 +1019,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="NEBULA_VAGABOND_FLEETCRASH" type="event">
+  <mod:findName name="NEBULA_LIGHT_VAGABOND_FLEETCRASH" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true"/>
       <mod:findLike type="event">
@@ -1080,6 +1098,25 @@
               <mod:findLike type="text">
                 <mod:selector>(Mind Control) Give him a very 'convincing' lie.</mod:selector>
                 <mod:setValue>(Mind Control) Give him a very 'convincing' lie.[INFO][NAME]autoReward[/NAME]Reward Stuff(M)[/INFO]</mod:setValue>
+              </mod:findLike>
+            </mod:findLike>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_VAGABOND_ACID" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="event">
+            <mod:findLike type="choice">
+              <mod:selector hidden="true" req="BLUELIST_WEAPONS_MIND_CONTROL"/>
+              <mod:findLike type="text">
+                <mod:selector>(Mind Control Weapon) Give him a very 'convincing' lie.</mod:selector>
+                <mod:setValue>(Mind Control Weapon) Give him a very 'convincing' lie.[INFO][NAME]autoReward[/NAME]Reward Stuff(M)[/INFO]</mod:setValue>
               </mod:findLike>
             </mod:findLike>
           </mod:findLike>
@@ -1422,7 +1459,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="NEBULA_GHOST_GASGIANT" type="event">
+  <mod:findName name="NEBULA_LIGHT_GHOST_GASGIANT" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
@@ -1431,7 +1468,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="NEBULA_GHOST_GASGIANT" type="event">
+  <mod:findName name="NEBULA_LIGHT_GHOST_GASGIANT" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true"/>
       <mod:findLike type="event">
@@ -1445,7 +1482,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="NEBULA_GHOST_GASGIANT" type="event">
+  <mod:findName name="NEBULA_LIGHT_GHOST_GASGIANT" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true"/>
       <mod:findLike type="event">
@@ -1464,7 +1501,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="NEBULA_GHOST_GASGIANT" type="event">
+  <mod:findName name="NEBULA_LIGHT_GHOST_GASGIANT" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true"/>
       <mod:findLike type="event">
@@ -1478,7 +1515,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="NEBULA_GHOST_GASGIANT" type="event">
+  <mod:findName name="NEBULA_LIGHT_GHOST_GASGIANT" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true"/>
       <mod:findLike type="event">
@@ -1497,7 +1534,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="NEBULA_GHOST_GASGIANT" type="event">
+  <mod:findName name="NEBULA_LIGHT_GHOST_GASGIANT" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true"/>
       <mod:findLike type="event">
@@ -1511,7 +1548,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="NEBULA_GHOST_GASGIANT" type="event">
+  <mod:findName name="NEBULA_LIGHT_GHOST_GASGIANT" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true"/>
       <mod:findLike type="event">
@@ -2012,6 +2049,15 @@
       <mod:findLike type="text">
         <mod:selector>Wait and see.</mod:selector>
         <mod:setValue>Wait and see.[INFO]50% [NAME]upgrade[/NAME]System Upgrade(Engines x1)[/INFO][INFO]50% [NAME]boarders[/NAME]&lt;!&gt;Enemy Boarding(x3 Phantom Wraith)[/INFO][INFO]50% [NAME]damage[/NAME]&lt;!&gt;Damage Hull(3)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_GHOST_UPGRADERS" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true" req="mind"/>
+      <mod:findLike type="text">
+        <mod:selector>(Mind Control) Leave them be, but have the mind control ready just in case.</mod:selector>
+        <mod:setValue>(Mind Control) Leave them be, but have the mind control ready just in case.[INFO]50% [NAME]upgrade[/NAME]System Upgrade(Engines x1)[/INFO][INFO]50% [NAME]boarders[/NAME]&lt;!&gt;Enemy Boarding(x2 Phantom Wraith)[/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>

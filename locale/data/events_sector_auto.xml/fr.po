@@ -1,16 +1,15 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-06-09 11:42+0000\n"
-"Last-Translator: ono hunt <tmfunkyteckofficial2@gmail.com>\n"
-"Language-Team: French <https://weblate.hyperq.be/projects/ftl-multiverse/"
-"dataevents_sector_autoxml/fr/>\n"
+"PO-Revision-Date: 2025-06-11 22:50+0000\n"
+"Last-Translator: kronen68 <obrice@hotmail.fr>\n"
+"Language-Team: French <https://weblate.hyperq.be/projects/ftl-multiverse/dataevents_sector_autoxml/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.5.5\n"
+"X-Generator: Weblate 5.11.4\n"
 
 #: src-en/data/events_sector_auto.xml:28
 msgid ""
@@ -126,7 +125,7 @@ msgstr ""
 "\"...si vos stupides drones ne font jamais leur livraison, alors à quoi bon les avoir ?\"\n"
 "\"Mes Auto-vaisseaux sont de première qualité. Vous devez probablement bousiller les protocoles.\"\n"
 "\"Pfff, vous, les ingénieurs, avec vos protocoles...\"\n"
-"\"Quel drone était chargé de livrer votre largage de fournitures ?\"\n"
+"\"Quel drone était chargé de livrer votre largage de ressources ?\"\n"
 "\"Je n'arrive jamais à retenir leurs stupides noms.\"\n"
 "\"Je crois que le seul en mission en ce moment est Hwangsaechi.\"\n"
 "\"Je ne vais jamais me souvenir de ça.\"\n"
@@ -180,7 +179,7 @@ msgstr ""
 "\"...si vos stupides drones ne font jamais leur livraison, alors à quoi bon les avoir ?\"\n"
 "\"Mes Auto-vaisseaux sont de première qualité. Vous devez probablement bousiller les protocoles.\"\n"
 "\"Pfff, vous, les ingénieurs, avec vos protocoles...\"\n"
-"\"Quel drone était chargé de livrer votre largage de fournitures ?\"\n"
+"\"Quel drone était chargé de livrer votre largage de ressources ?\"\n"
 "\"Je n'arrive jamais à retenir leurs stupides noms.\"\n"
 "\"Je crois que le seul en mission en ce moment est Espadon.\"\n"
 "\"Je ne vais jamais me souvenir de ça.\"\n"
@@ -207,7 +206,7 @@ msgstr ""
 "\"...si vos stupides drones ne font jamais leur livraison, alors à quoi bon les avoir ?\"\n"
 "\"Mes Auto-vaisseaux sont de première qualité. Vous devez probablement bousiller les protocoles.\"\n"
 "\"Pfff, vous, les ingénieurs, avec vos protocoles...\"\n"
-"\"Quel drone était chargé de livrer votre largage de fournitures ?\"\n"
+"\"Quel drone était chargé de livrer votre largage de ressources ?\"\n"
 "\"Je n'arrive jamais à retenir leurs stupides noms.\"\n"
 "\"Je crois que le seul en mission en ce moment est Miecznik.\"\n"
 "\"Je ne vais jamais me souvenir de ça.\"\n"
@@ -234,7 +233,7 @@ msgstr ""
 "\"...si vos stupides drones ne font jamais leur livraison, alors à quoi bon les avoir ?\"\n"
 "\"Mes Auto-vaisseaux sont de première qualité. Vous devez probablement bousiller les protocoles.\"\n"
 "\"Pfff, vous, les ingénieurs, avec vos protocoles...\"\n"
-"\"Quel drone était chargé de livrer votre largage de fournitures ?\"\n"
+"\"Quel drone était chargé de livrer votre largage de ressources ?\"\n"
 "\"Je n'arrive jamais à retenir leurs stupides noms.\"\n"
 "\"Je crois que le seul en mission en ce moment est Swordfish.\"\n"
 "\"Je ne vais jamais me souvenir de ça.\"\n"
@@ -250,7 +249,7 @@ msgstr "Quel est ce bourdonnement ?"
 #: src-en/data/events_sector_auto.xml:194
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_ITEM_NAMED\"]/choice[2]/text"
-msgstr "Ignorez le bavardage à la radio."
+msgstr "Ignorer le bavardage à la radio."
 
 #: src-en/data/events_sector_auto.xml:196
 msgid ""
@@ -274,15 +273,15 @@ msgid "data/events_sector_auto.xml$//event[@name=\"AUTO_ITEM_NAMED_BOT\"]/text"
 msgstr ""
 "Un Auto remarque que vous avez quitté la balise et s'approche de votre "
 "vaisseau. Ses moteurs sont pleinement chargés. \"Votre courrier numérique "
-"est arrivé ! Vous étiez 28 minutes en retard pour recevoir vos fournitures -"
-" ce coursier était sur le point de partir. Maintenant que vous êtes là, "
+"est arrivé ! Vous étiez 28 minutes en retard pour recevoir vos ressources - "
+"ce coursier était sur le point de partir. Maintenant que vous êtes là, "
 "veuillez vérifier votre identité en indiquant le nom du coursier assigné "
 "pour livrer votre colis !\""
 
 #: src-en/data/events_sector_auto.xml:212
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_ITEM_NAMED_BOT\"]/choice[1]/text"
-msgstr "Espadon"
+msgstr "Swordfish"
 
 #: src-en/data/events_sector_auto.xml:218
 msgid ""
@@ -326,7 +325,7 @@ msgstr ""
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_NAME_SUCCESS_OR_FAILURE\"]/loadEventList/event[1]/text"
 msgstr ""
-"\"Identité confirmée. Envoi de fournitures. Nous espérons que vous avez une "
+"\"Identité confirmée. Envoi de ressources. Nous espérons que vous avez une "
 "merveilleuse journée !\""
 
 #: src-en/data/events_sector_auto.xml:273
@@ -359,132 +358,142 @@ msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_SUPPORT\"]/choice[@req=\"hacking\"]/event/text"
 msgstr ""
 "Il semble que le code injecté fonctionne. \"Identification autorisée. "
-"Distribution de fournitures.\""
+"Distribution de ressources.\""
 
 #: src-en/data/events_sector_auto.xml:294
+msgid ""
+"data/events_sector_auto.xml$//event[@name=\"AUTO_SUPPORT\"]/choice[@req=\"BLUELIST_WEAPONS_HACK\"]/text"
+msgstr ""
+
+#: src-en/data/events_sector_auto.xml:296
+msgid ""
+"data/events_sector_auto.xml$//event[@name=\"AUTO_SUPPORT\"]/choice[@req=\"BLUELIST_WEAPONS_HACK\"]/event/text"
+msgstr ""
+
+#: src-en/data/events_sector_auto.xml:301
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_SUPPORT\"]/choice[@req=\"LIST_CREW_ENGI\"]/text"
 msgstr ""
 "(Membre d'équipage Engi) Reprogrammez le vaisseau pour qu'il distribue "
 "également aux vaisseaux de la Fédération."
 
-#: src-en/data/events_sector_auto.xml:296
+#: src-en/data/events_sector_auto.xml:303
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_SUPPORT\"]/choice[@req=\"LIST_CREW_ENGI\"]/event/text"
 msgstr ""
 "Il semble que les modifications de votre Engi fonctionnent. \"Identification"
 " autorisée. Fournitures de distribution.\""
 
-#: src-en/data/events_sector_auto.xml:301
+#: src-en/data/events_sector_auto.xml:308
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_SUPPORT\"]/choice[@req=\"LIST_CREW_ENGINEER\"]/text"
 msgstr ""
 "(Membre d'équipage Ingénieur) Reprogrammez le vaisseau pour qu'il distribue "
 "également aux vaisseaux de la Fédération."
 
-#: src-en/data/events_sector_auto.xml:303
+#: src-en/data/events_sector_auto.xml:310
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_SUPPORT\"]/choice[@req=\"LIST_CREW_ENGINEER\"]/event/text"
 msgstr ""
 "Il semble que les modifications de votre Ingénieur fonctionnent. "
 "\"Identification autorisée. Fournitures de distribution.\""
 
-#: src-en/data/events_sector_auto.xml:308
-msgid "data/events_sector_auto.xml$//event[@name=\"AUTO_SUPPORT\"]/choice[5]/text"
-msgstr "Ignorez l'auto-vaisseau."
+#: src-en/data/events_sector_auto.xml:315
+msgid "data/events_sector_auto.xml$//event[@name=\"AUTO_SUPPORT\"]/choice[6]/text"
+msgstr "Ignorer l'auto-vaisseau."
 
-#: src-en/data/events_sector_auto.xml:310
+#: src-en/data/events_sector_auto.xml:317
 msgid ""
-"data/events_sector_auto.xml$//event[@name=\"AUTO_SUPPORT\"]/choice[5]/event/text"
+"data/events_sector_auto.xml$//event[@name=\"AUTO_SUPPORT\"]/choice[6]/event/text"
 msgstr ""
 "Il est peu probable que vous puissiez tromper un vaisseau IA. Vous le "
 "laissez donc poursuivre son chemin."
 
-#: src-en/data/events_sector_auto.xml:312
+#: src-en/data/events_sector_auto.xml:319
 msgid ""
-"data/events_sector_auto.xml$//event[@name=\"AUTO_SUPPORT\"]/choice[5]/event/choice[1]/text"
+"data/events_sector_auto.xml$//event[@name=\"AUTO_SUPPORT\"]/choice[6]/event/choice[1]/text"
 msgstr "Faire quelque chose à bord du vaisseau."
 
-#: src-en/data/events_sector_auto.xml:316
+#: src-en/data/events_sector_auto.xml:323
 msgid ""
-"data/events_sector_auto.xml$//event[@name=\"AUTO_SUPPORT\"]/choice[5]/event/choice[2]/text"
+"data/events_sector_auto.xml$//event[@name=\"AUTO_SUPPORT\"]/choice[6]/event/choice[2]/text"
 msgstr "Ne rien faire."
 
-#: src-en/data/events_sector_auto.xml:324
+#: src-en/data/events_sector_auto.xml:331
 msgid ""
 "data/events_sector_auto.xml$//eventList[@name=\"AUTO_SUPPORT_FAKEID\"]/event[1]/text"
 msgstr ""
 "\"Identification invalide. Véritable identité : Vaisseau de la Fédération. "
 "Activation du mode de combat.\""
 
-#: src-en/data/events_sector_auto.xml:327
+#: src-en/data/events_sector_auto.xml:334
 msgid ""
 "data/events_sector_auto.xml$//eventList[@name=\"AUTO_SUPPORT_FAKEID\"]/event[1]/choice/text"
 msgstr "Continuer..."
 
-#: src-en/data/events_sector_auto.xml:332
+#: src-en/data/events_sector_auto.xml:339
 msgid ""
 "data/events_sector_auto.xml$//eventList[@name=\"AUTO_SUPPORT_FAKEID\"]/event[2]/text"
-msgstr "\"Vaisseau rebelle détecté. Distribution de fournitures.\""
+msgstr "\"Vaisseau rebelle détecté. Distribution de ressources.\""
 
-#: src-en/data/events_sector_auto.xml:338
+#: src-en/data/events_sector_auto.xml:345
 msgid "data/events_sector_auto.xml$//event[@name=\"ENGINEER_BUY_DRONES\"]/text"
 msgstr ""
 "Un ingénieur rebelle vous appelle : \"Je sais que ce n'est pas très "
 "conventionnel, mais nous avons besoin de pièces de drone. Nous vous paierons"
 " avec n'importe quelle autre ressource que vous voulez.\""
 
-#: src-en/data/events_sector_auto.xml:341
+#: src-en/data/events_sector_auto.xml:348
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"ENGINEER_BUY_DRONES\"]/choice[1]/text"
 msgstr "Donner des pièces de drone contre de la ferraille."
 
-#: src-en/data/events_sector_auto.xml:350
+#: src-en/data/events_sector_auto.xml:357
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"ENGINEER_BUY_DRONES\"]/choice[2]/text"
 msgstr "Donner du carburant contre de la ferraille."
 
-#: src-en/data/events_sector_auto.xml:359
+#: src-en/data/events_sector_auto.xml:366
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"ENGINEER_BUY_DRONES\"]/choice[3]/text"
-msgstr "Donnez des pièces de drone contre des munitions."
+msgstr "Donner des pièces de drone contre des munitions."
 
-#: src-en/data/events_sector_auto.xml:368
+#: src-en/data/events_sector_auto.xml:375
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"ENGINEER_BUY_DRONES\"]/choice[4]/text"
 msgstr "Les attaquer !"
 
-#: src-en/data/events_sector_auto.xml:370
+#: src-en/data/events_sector_auto.xml:377
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"ENGINEER_BUY_DRONES\"]/choice[4]/event/text"
 msgstr "Vous vous préparez à attaquer les ingénieurs."
 
-#: src-en/data/events_sector_auto.xml:373
+#: src-en/data/events_sector_auto.xml:380
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"ENGINEER_BUY_DRONES\"]/choice[4]/event/choice/text"
 msgstr "Continuer..."
 
-#: src-en/data/events_sector_auto.xml:379
+#: src-en/data/events_sector_auto.xml:386
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"ENGINEER_BUY_DRONES\"]/choice[5]/text"
 msgstr "Refuser leur offre."
 
-#: src-en/data/events_sector_auto.xml:381
+#: src-en/data/events_sector_auto.xml:388
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"ENGINEER_BUY_DRONES\"]/choice[5]/event/text"
 msgstr "Vous êtes satisfait de ce que vous avez."
 
-#: src-en/data/events_sector_auto.xml:383
+#: src-en/data/events_sector_auto.xml:390
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"ENGINEER_BUY_DRONES\"]/choice[5]/event/choice[1]/text"
 msgstr "Faire quelque chose à bord du vaisseau."
 
-#: src-en/data/events_sector_auto.xml:387
+#: src-en/data/events_sector_auto.xml:394
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"ENGINEER_BUY_DRONES\"]/choice[5]/event/choice[2]/text"
 msgstr "Ne rien faire."
 
-#: src-en/data/events_sector_auto.xml:395
+#: src-en/data/events_sector_auto.xml:402
 msgid "data/events_sector_auto.xml$//event[@name=\"AUTO_BIRDLY_BOT\"]/text"
 msgstr ""
 "Alors que vous arrivez à la balise suivante, la console de communications "
@@ -496,44 +505,44 @@ msgstr ""
 "vers votre emplacement à partir de la biosphère de la planète. \"REQUÊTE : "
 "Oiseau ?\""
 
-#: src-en/data/events_sector_auto.xml:399
+#: src-en/data/events_sector_auto.xml:406
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_BIRDLY_BOT\"]/choice[@req=\"unique_tyrdeo_bird\"]/text"
-msgstr "(Wealsey) Montrez à l'Auto-Vaisseau votre oiseau chanteur."
+msgstr "(Wealsey) Montrer à l'Auto-Vaisseau votre oiseau chanteur."
 
-#: src-en/data/events_sector_auto.xml:401
+#: src-en/data/events_sector_auto.xml:408
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_BIRDLY_BOT\"]/choice[@req=\"unique_tyrdeo_bird\"]/event/text"
 msgstr ""
 "\"ANALYSE. Erreur. ANALYSE. Erreur. Dysfonctionnement majeur du pilote du capteur. Utilisation de la vérification audio.\"\n"
-"\tL'Auto-vaisseau commence à jouer une agréable mélodie d'oiseau à travers vos haut-parleurs, et Wealsey répond en retour en chantant sa belle chanson. Votre vaisseau transmet l'audio à l'Auto-vaisseau.\n"
+"\tL'Auto-vaisseau commence à jouer une agréable mélodie d'oiseau à travers vos haut-parleurs et Wealsey répond en retour en chantant sa belle chanson. Votre vaisseau transmet l'audio à l'Auto-vaisseau.\n"
 "\t\"Incompatibilité audio. Espèce d'oiseau incorrecte. Conclusion : amoureux des oiseaux détectés. Distribution d'aide aux amoureux des oiseaux.\""
 
-#: src-en/data/events_sector_auto.xml:406
+#: src-en/data/events_sector_auto.xml:413
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_BIRDLY_BOT\"]/choice[@req=\"unique_tyrdeo_bird\"]/event/choice[@req=\"LIST_CREW_ENGINEER\"]/text"
 msgstr ""
 "(Membre d'équipage Ingénieur) Proposer de diagnostiquer et de réparer le "
 "dysfonctionnement."
 
-#: src-en/data/events_sector_auto.xml:410
+#: src-en/data/events_sector_auto.xml:417
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_BIRDLY_BOT\"]/choice[@req=\"unique_tyrdeo_bird\"]/event/choice[@req=\"LIST_CREW_ENGI\"]/text"
 msgstr ""
 "(Membre d'équipage Engi) Proposer de diagnostiquer et de réparer le "
 "dysfonctionnement."
 
-#: src-en/data/events_sector_auto.xml:414
+#: src-en/data/events_sector_auto.xml:421
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_BIRDLY_BOT\"]/choice[@req=\"unique_tyrdeo_bird\"]/event/choice[3]/text"
 msgstr "Accepter la récompense et partir."
 
-#: src-en/data/events_sector_auto.xml:420
+#: src-en/data/events_sector_auto.xml:427
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_BIRDLY_BOT\"]/choice[2]/text"
-msgstr "Demandez des précisions."
+msgstr "Demander des précisions."
 
-#: src-en/data/events_sector_auto.xml:422
+#: src-en/data/events_sector_auto.xml:429
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_BIRDLY_BOT\"]/choice[2]/event/text"
 msgstr ""
@@ -546,21 +555,21 @@ msgstr ""
 "supplémentaires ultérieures ont entraîné un dysfonctionnement des pilotes de"
 " capteurs à bord. Volée : perdu. Demande d'assistance.\""
 
-#: src-en/data/events_sector_auto.xml:424
+#: src-en/data/events_sector_auto.xml:431
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_BIRDLY_BOT\"]/choice[2]/event/choice[@req=\"LIST_CREW_ENGINEER\"]/text"
 msgstr ""
 "(Membre d'équipage Ingénieur) Proposer de diagnostiquer et de réparer le "
 "dysfonctionnement."
 
-#: src-en/data/events_sector_auto.xml:428
+#: src-en/data/events_sector_auto.xml:435
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_BIRDLY_BOT\"]/choice[2]/event/choice[@req=\"LIST_CREW_ENGI\"]/text"
 msgstr ""
 "(Membre d'équipage Engi) Proposer de diagnostiquer et de réparer le "
 "dysfonctionnement."
 
-#: src-en/data/events_sector_auto.xml:432
+#: src-en/data/events_sector_auto.xml:439
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_BIRDLY_BOT\"]/choice[2]/event/choice[@req=\"sensors\""
 " and @lvl=\"1\"]/text"
@@ -568,7 +577,7 @@ msgstr ""
 "(Capteurs) Prenez un peu de temps pour recueillir des relevés de capteurs "
 "pour l'Auto-vaisseau."
 
-#: src-en/data/events_sector_auto.xml:434
+#: src-en/data/events_sector_auto.xml:441
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_BIRDLY_BOT\"]/choice[2]/event/choice[@req=\"sensors\""
 " and @lvl=\"1\"]/event/text"
@@ -578,14 +587,15 @@ msgstr ""
 "d'avoir trouvé ce qu'il cherchait. Il distribue une quantité modeste de "
 "ferraille et retourne à la biosphère de la planète."
 
-#: src-en/data/events_sector_auto.xml:440
+#: src-en/data/events_sector_auto.xml:447
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_BIRDLY_BOT\"]/choice[2]/event/choice[@req=\"sensors\""
 " and @lvl=\"2\"]/text"
 msgstr ""
-"(Capteurs Upg.) Recueillir des relevés de capteurs pour l'Auto-vaisseau."
+"(Capteurs améliorés) Recueillir des relevés de capteurs pour l'Auto-"
+"vaisseau."
 
-#: src-en/data/events_sector_auto.xml:442
+#: src-en/data/events_sector_auto.xml:449
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_BIRDLY_BOT\"]/choice[2]/event/choice[@req=\"sensors\""
 " and @lvl=\"2\"]/event/text"
@@ -594,13 +604,13 @@ msgstr ""
 "transmettez vos informations de capteurs à l'Auto-vaisseau et êtes "
 "récompensé par une quantité modeste de ferraille."
 
-#: src-en/data/events_sector_auto.xml:447
+#: src-en/data/events_sector_auto.xml:454
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_BIRDLY_BOT\"]/choice[2]/event/choice[@req=\"ADV_SCANNERS\"]/text"
 msgstr ""
 "(Scanners à longue portée) Recueillir des relevés pour l'auto-vaisseau."
 
-#: src-en/data/events_sector_auto.xml:449
+#: src-en/data/events_sector_auto.xml:456
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_BIRDLY_BOT\"]/choice[2]/event/choice[@req=\"ADV_SCANNERS\"]/event/text"
 msgstr ""
@@ -608,58 +618,58 @@ msgstr ""
 "transmettez vos informations de capteurs à l'Auto-vaisseau et êtes "
 "récompensé par une quantité modeste de ferraille."
 
-#: src-en/data/events_sector_auto.xml:454
+#: src-en/data/events_sector_auto.xml:461
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_BIRDLY_BOT\"]/choice[2]/event/choice[6]/text"
-msgstr "Présenter ses excuses et dire que vous ne pouvez pas aider."
+msgstr "Présenter des excuses et dire que vous ne pouvez pas aider."
 
-#: src-en/data/events_sector_auto.xml:460
+#: src-en/data/events_sector_auto.xml:467
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_BIRDLY_BOT\"]/choice[3]/text"
 msgstr "Attaquer l'Auto-vaisseau."
 
-#: src-en/data/events_sector_auto.xml:462
+#: src-en/data/events_sector_auto.xml:469
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_BIRDLY_BOT\"]/choice[3]/event/text"
 msgstr ""
 "\"Ornithophobe détecté. Violence justifiée\" L'auto-vaisseau se dote "
 "immédiatement d'armes."
 
-#: src-en/data/events_sector_auto.xml:465
+#: src-en/data/events_sector_auto.xml:472
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_BIRDLY_BOT\"]/choice[3]/event/choice/text"
 msgstr "Continuer..."
 
-#: src-en/data/events_sector_auto.xml:471
+#: src-en/data/events_sector_auto.xml:478
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_BIRDLY_BOT\"]/choice[4]/text"
 msgstr "Se désengager."
 
-#: src-en/data/events_sector_auto.xml:473
+#: src-en/data/events_sector_auto.xml:480
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_BIRDLY_BOT\"]/choice[4]/event/text"
 msgstr ""
 "Vous décidez de ne pas répondre à cette question. L'auto-vaisseau se "
 "désintéresse immédiatement et retourne dans la biosphère de la planète."
 
-#: src-en/data/events_sector_auto.xml:475
+#: src-en/data/events_sector_auto.xml:482
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_BIRDLY_BOT\"]/choice[4]/event/choice[1]/text"
 msgstr "Faire quelque chose à bord du vaisseau."
 
-#: src-en/data/events_sector_auto.xml:479
+#: src-en/data/events_sector_auto.xml:486
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_BIRDLY_BOT\"]/choice[4]/event/choice[2]/text"
 msgstr "Ne rien faire."
 
-#: src-en/data/events_sector_auto.xml:486
+#: src-en/data/events_sector_auto.xml:493
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_BIRDLY_BOT_GOODBYE\"]/text"
 msgstr ""
 "N'ayant plus rien à faire, vous vous désengagez de l'auto-vaisseau. Il s'en "
 "désintéresse aussitôt et retourne dans la biosphère de la planète."
 
-#: src-en/data/events_sector_auto.xml:489
+#: src-en/data/events_sector_auto.xml:496
 msgid "data/events_sector_auto.xml$//event[@name=\"BIRDLY_BOT_FIX\"]/text"
 msgstr ""
 "\"Offre acceptée. Déploiement du noyau de mémoire.\" Votre équipage examine "
@@ -672,9 +682,9 @@ msgstr ""
 "avec plus de vigueur qu'auparavant. \"Analyse. Tous les spécimens de Kestrel"
 " trouvés et répertoriés. Vaisseau de la Fédération : a rendu un grand "
 "service à la conservation de l'environnement. Déploiement de gratitude.\" Le"
-" vaisseau dispense une quantité modeste de fournitures avant de partir."
+" vaisseau dispense une quantité modeste de ressources avant de partir."
 
-#: src-en/data/events_sector_auto.xml:505
+#: src-en/data/events_sector_auto.xml:512
 msgid "data/events_sector_auto.xml$//event[@name=\"AUTO_ZOLTAN_FACILITY\"]/text"
 msgstr ""
 "Au loin, il semble y avoir simplement une planète ordinaire, mais le vaste "
@@ -683,12 +693,12 @@ msgstr ""
 "vaisseau, fonctionnant entièrement grâce à l'énergie des esclaves Zoltan, a "
 "été construite à la surface !"
 
-#: src-en/data/events_sector_auto.xml:507
+#: src-en/data/events_sector_auto.xml:514
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_ZOLTAN_FACILITY\"]/choice[1]/text"
 msgstr "S'approcher."
 
-#: src-en/data/events_sector_auto.xml:509
+#: src-en/data/events_sector_auto.xml:516
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_ZOLTAN_FACILITY\"]/choice[1]/event/text"
 msgstr ""
@@ -698,99 +708,99 @@ msgstr ""
 "l'installation. Nous vous suggérons soit d'indiquer votre raison de "
 "présence, soit de partir.\""
 
-#: src-en/data/events_sector_auto.xml:512
+#: src-en/data/events_sector_auto.xml:519
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_ZOLTAN_FACILITY\"]/choice[1]/event/choice[1]/text"
 msgstr "Attaquer l'Auto-vaisseau !"
 
-#: src-en/data/events_sector_auto.xml:514
+#: src-en/data/events_sector_auto.xml:521
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_ZOLTAN_FACILITY\"]/choice[1]/event/choice[1]/event/text"
 msgstr ""
 "Le scientifique soupire, puis met fin à l'appel. Des armes surgissent de la "
-"coque du vaisseau automatique, et c'est l'heure de la bagarre."
+"coque du vaisseau automatique et c'est l'heure de la bagarre."
 
-#: src-en/data/events_sector_auto.xml:517
+#: src-en/data/events_sector_auto.xml:524
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_ZOLTAN_FACILITY\"]/choice[1]/event/choice[1]/event/choice/text"
 msgstr "Continuer..."
 
-#: src-en/data/events_sector_auto.xml:523
+#: src-en/data/events_sector_auto.xml:530
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_ZOLTAN_FACILITY\"]/choice[1]/event/choice[2]/text"
 msgstr "Acheter un Zoltan."
 
-#: src-en/data/events_sector_auto.xml:525
+#: src-en/data/events_sector_auto.xml:532
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_ZOLTAN_FACILITY\"]/choice[1]/event/choice[2]/event/text"
 msgstr ""
 "\"Vous... voulez une de nos sources d'énergie ? Eh bien, je suppose que nous"
-" n'avons pas besoin d'AUTANT d'entre elles, et la ferraille est à portée de "
+" n'avons pas besoin d'AUTANT d'entre elles et la ferraille est à portée de "
 "main... D'accord, marché conclu.\""
 
-#: src-en/data/events_sector_auto.xml:533
+#: src-en/data/events_sector_auto.xml:540
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_ZOLTAN_FACILITY\"]/choice[1]/event/choice[3]/text"
 msgstr "Nous allons juste partir."
 
-#: src-en/data/events_sector_auto.xml:539
+#: src-en/data/events_sector_auto.xml:546
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_ZOLTAN_FACILITY\"]/choice[2]/text"
 msgstr "Ignorer la planète."
 
-#: src-en/data/events_sector_auto.xml:541
+#: src-en/data/events_sector_auto.xml:548
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_ZOLTAN_FACILITY\"]/choice[2]/event/text"
 msgstr ""
 "Il faut être fou pour s'attaquer à une structure aussi massive qui a sans "
 "doute une grande valeur pour les rebelles."
 
-#: src-en/data/events_sector_auto.xml:543
+#: src-en/data/events_sector_auto.xml:550
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_ZOLTAN_FACILITY\"]/choice[2]/event/choice[1]/text"
 msgstr "Faire quelque chose à bord du vaisseau."
 
-#: src-en/data/events_sector_auto.xml:547
+#: src-en/data/events_sector_auto.xml:554
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_ZOLTAN_FACILITY\"]/choice[2]/event/choice[2]/text"
 msgstr "Ne rien faire."
 
-#: src-en/data/events_sector_auto.xml:573
+#: src-en/data/events_sector_auto.xml:580
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_YARD_CHOICE\"]/choice[1]/text"
 msgstr "Combattre l'Auto-vaisseau."
 
-#: src-en/data/events_sector_auto.xml:575
+#: src-en/data/events_sector_auto.xml:582
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_YARD_CHOICE\"]/choice[1]/event/text"
 msgstr "Vous vous déplacez pour intercepter le vaisseau automatisé."
 
-#: src-en/data/events_sector_auto.xml:578
+#: src-en/data/events_sector_auto.xml:585
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_YARD_CHOICE\"]/choice[1]/event/choice/text"
 msgstr "Continuer..."
 
-#: src-en/data/events_sector_auto.xml:584
+#: src-en/data/events_sector_auto.xml:591
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_YARD_CHOICE\"]/choice[2]/text"
-msgstr "Laissez l'Auto-vaisseau tranquille."
+msgstr "Laisser l'Auto-vaisseau tranquille."
 
-#: src-en/data/events_sector_auto.xml:586
+#: src-en/data/events_sector_auto.xml:593
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_YARD_CHOICE\"]/choice[2]/event/text"
 msgstr "Vous n'avez aucun intérêt dans le vaisseau."
 
-#: src-en/data/events_sector_auto.xml:588
+#: src-en/data/events_sector_auto.xml:595
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_YARD_CHOICE\"]/choice[2]/event/choice[1]/text"
 msgstr "Faire quelque chose à bord du vaisseau."
 
-#: src-en/data/events_sector_auto.xml:592
+#: src-en/data/events_sector_auto.xml:599
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_YARD_CHOICE\"]/choice[2]/event/choice[2]/text"
 msgstr "Ne rien faire."
 
-#: src-en/data/events_sector_auto.xml:599
+#: src-en/data/events_sector_auto.xml:606
 msgid ""
 "data/events_sector_auto.xml$//textList[@name=\"TEXT_AUTO_YARD_CHOICE\"]/text[1]"
 msgstr ""
@@ -798,21 +808,21 @@ msgstr ""
 " de vous attaquer, mais les signatures de faible puissance qu'il émet "
 "suggèrent qu'il est toujours en état de marche."
 
-#: src-en/data/events_sector_auto.xml:600
+#: src-en/data/events_sector_auto.xml:607
 msgid ""
 "data/events_sector_auto.xml$//textList[@name=\"TEXT_AUTO_YARD_CHOICE\"]/text[2]"
 msgstr ""
 "Un Auto-vaisseau patrouillant dans le secteur ne vous a pas encore repéré à "
 "cette balise."
 
-#: src-en/data/events_sector_auto.xml:601
+#: src-en/data/events_sector_auto.xml:608
 msgid ""
 "data/events_sector_auto.xml$//textList[@name=\"TEXT_AUTO_YARD_CHOICE\"]/text[3]"
 msgstr ""
 "Un message préenregistré est diffusé sur l'intercomm : \"Il est conseillé de"
 " ne pas attaquer ce vaisseau.\""
 
-#: src-en/data/events_sector_auto.xml:602
+#: src-en/data/events_sector_auto.xml:609
 msgid ""
 "data/events_sector_auto.xml$//textList[@name=\"TEXT_AUTO_YARD_CHOICE\"]/text[4]"
 msgstr ""
@@ -820,7 +830,7 @@ msgstr ""
 "permette pas d'engager le combat. Cela ne signifie pas pour autant qu'il ne "
 "ripostera pas si vous décidez d'attaquer."
 
-#: src-en/data/events_sector_auto.xml:606
+#: src-en/data/events_sector_auto.xml:613
 msgid "data/events_sector_auto.xml$//event[@name=\"AUTO_FOREST\"]/text"
 msgstr ""
 "Cette balise a été installée près d'une planète aux forêts luxuriantes. En "
@@ -828,32 +838,52 @@ msgstr ""
 "plateforme d'approvisionnement rebelle. Elle est probablement ocupée par "
 "quelques ingénieurs, mais rien que vous ne puissiez gérer."
 
-#: src-en/data/events_sector_auto.xml:609
+#: src-en/data/events_sector_auto.xml:616
 msgid "data/events_sector_auto.xml$//event[@name=\"AUTO_FOREST\"]/choice[1]/text"
 msgstr "Attaquer la plate-forme."
 
-#: src-en/data/events_sector_auto.xml:613
-msgid "data/events_sector_auto.xml$//event[@name=\"AUTO_FOREST\"]/choice[2]/text"
+#: src-en/data/events_sector_auto.xml:620
+msgid ""
+"data/events_sector_auto.xml$//event[@name=\"AUTO_FOREST\"]/choice[@req=\"hacking\"]/text"
+msgstr ""
+
+#: src-en/data/events_sector_auto.xml:622
+msgid ""
+"data/events_sector_auto.xml$//event[@name=\"AUTO_FOREST\"]/choice[@req=\"hacking\"]/event/text"
+msgstr ""
+
+#: src-en/data/events_sector_auto.xml:627
+msgid ""
+"data/events_sector_auto.xml$//event[@name=\"AUTO_FOREST\"]/choice[@req=\"PDS_DISABLE\"]/text"
+msgstr ""
+
+#: src-en/data/events_sector_auto.xml:629
+msgid ""
+"data/events_sector_auto.xml$//event[@name=\"AUTO_FOREST\"]/choice[@req=\"PDS_DISABLE\"]/event/text"
+msgstr ""
+
+#: src-en/data/events_sector_auto.xml:634
+msgid "data/events_sector_auto.xml$//event[@name=\"AUTO_FOREST\"]/choice[4]/text"
 msgstr "Ignorer la plateforme."
 
-#: src-en/data/events_sector_auto.xml:615
+#: src-en/data/events_sector_auto.xml:636
 msgid ""
-"data/events_sector_auto.xml$//event[@name=\"AUTO_FOREST\"]/choice[2]/event/text"
+"data/events_sector_auto.xml$//event[@name=\"AUTO_FOREST\"]/choice[4]/event/text"
 msgstr ""
 "Il y a probablement un système de défense qui vous attend. Vous abandonnez "
 "la plateforme."
 
-#: src-en/data/events_sector_auto.xml:617
+#: src-en/data/events_sector_auto.xml:638
 msgid ""
-"data/events_sector_auto.xml$//event[@name=\"AUTO_FOREST\"]/choice[2]/event/choice[1]/text"
+"data/events_sector_auto.xml$//event[@name=\"AUTO_FOREST\"]/choice[4]/event/choice[1]/text"
 msgstr "Faire quelque chose à bord du vaisseau."
 
-#: src-en/data/events_sector_auto.xml:621
+#: src-en/data/events_sector_auto.xml:642
 msgid ""
-"data/events_sector_auto.xml$//event[@name=\"AUTO_FOREST\"]/choice[2]/event/choice[2]/text"
+"data/events_sector_auto.xml$//event[@name=\"AUTO_FOREST\"]/choice[4]/event/choice[2]/text"
 msgstr "Ne rien faire."
 
-#: src-en/data/events_sector_auto.xml:629
+#: src-en/data/events_sector_auto.xml:650
 msgid ""
 "data/events_sector_auto.xml$//eventList[@name=\"AUTO_FOREST_ATTACK\"]/event[1]/text"
 msgstr ""
@@ -861,12 +891,12 @@ msgstr ""
 "cachette dans la forêt et vous attaque ! Vous êtes contraint de fuir alors "
 "que le vaisseau vous poursuit."
 
-#: src-en/data/events_sector_auto.xml:632
+#: src-en/data/events_sector_auto.xml:653
 msgid ""
 "data/events_sector_auto.xml$//eventList[@name=\"AUTO_FOREST_ATTACK\"]/event[1]/choice/text"
 msgstr "Continuer..."
 
-#: src-en/data/events_sector_auto.xml:637
+#: src-en/data/events_sector_auto.xml:658
 msgid ""
 "data/events_sector_auto.xml$//eventList[@name=\"AUTO_FOREST_ATTACK\"]/event[2]/text"
 msgstr ""
@@ -874,119 +904,119 @@ msgstr ""
 "ingénieurs sont téléportés sur votre vaisseau et un puissant canon "
 "d'artillerie pénètre vos défenses."
 
-#: src-en/data/events_sector_auto.xml:642
+#: src-en/data/events_sector_auto.xml:663
 msgid ""
 "data/events_sector_auto.xml$//eventList[@name=\"AUTO_FOREST_ATTACK\"]/event[3]/text"
 msgstr ""
 "Les ingénieurs se dispersent lorsque vous attaquez la station. Nullement "
 "préparés au combat, ils sont contraints de se rendre."
 
-#: src-en/data/events_sector_auto.xml:648
+#: src-en/data/events_sector_auto.xml:669
 msgid "data/events_sector_auto.xml$//event[@name=\"AUTO_ENGINEERS_SAVE\"]/text"
 msgstr ""
 "Un vaisseau rempli d'ingénieurs rebelles est sous le feu d'un vaisseau "
 "pirate. Ils vous appellent et vous demandent de les sauver."
 
-#: src-en/data/events_sector_auto.xml:650
+#: src-en/data/events_sector_auto.xml:671
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_ENGINEERS_SAVE\"]/choice[1]/text"
 msgstr "Les sauver du pirate."
 
-#: src-en/data/events_sector_auto.xml:652
+#: src-en/data/events_sector_auto.xml:673
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_ENGINEERS_SAVE\"]/choice[1]/event/text"
 msgstr "Vous vous approchez pour intercepter le vaisseau pirate."
 
-#: src-en/data/events_sector_auto.xml:655
+#: src-en/data/events_sector_auto.xml:676
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_ENGINEERS_SAVE\"]/choice[1]/event/choice/text"
 msgstr "Continuer..."
 
-#: src-en/data/events_sector_auto.xml:661
+#: src-en/data/events_sector_auto.xml:682
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_ENGINEERS_SAVE\"]/choice[2]/text"
 msgstr "Nous n'allons pas aider ces foutus Rebelles."
 
-#: src-en/data/events_sector_auto.xml:663
+#: src-en/data/events_sector_auto.xml:684
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_ENGINEERS_SAVE\"]/choice[2]/event/text"
 msgstr "Vous laissez les deux vaisseau continuer à se battre."
 
-#: src-en/data/events_sector_auto.xml:665
+#: src-en/data/events_sector_auto.xml:686
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_ENGINEERS_SAVE\"]/choice[2]/event/choice[1]/text"
 msgstr "Faire quelque chose à bord du vaisseau."
 
-#: src-en/data/events_sector_auto.xml:669
+#: src-en/data/events_sector_auto.xml:690
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_ENGINEERS_SAVE\"]/choice[2]/event/choice[2]/text"
 msgstr "Ne rien faire."
 
-#: src-en/data/events_sector_auto.xml:676
+#: src-en/data/events_sector_auto.xml:697
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_ENGINEERS_SAVE_WIN\"]/text"
 msgstr ""
-"Le vaisseau ingénieur est en mauvais état. \"J... Je ne m'attendais pas à ce "
-"que vous m'aidiez. Je n'ai plus de vaisseau, plus d'équipage... plus rien. "
+"Le vaisseau ingénieur est en mauvais état. \"J... Je ne m'attendais pas à ce"
+" que vous m'aidiez. Je n'ai plus de vaisseau, plus d'équipage... plus rien. "
 "Je suppose que cela ne me fera pas de mal de travailler à bord du vôtre.\""
 
-#: src-en/data/events_sector_auto.xml:681
+#: src-en/data/events_sector_auto.xml:702
 msgid "data/events_sector_auto.xml$//event[@name=\"AUTO_PIRATE_CHOICE\"]/text"
 msgstr ""
 "À cette balise, vous découvrez un pirate et un Auto-vaisseau en train de "
 "s'affronter. Aucun des deux ne vous remarque."
 
-#: src-en/data/events_sector_auto.xml:683
+#: src-en/data/events_sector_auto.xml:704
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_PIRATE_CHOICE\"]/choice[1]/text"
 msgstr "Attaquer l'Auto-vaisseau."
 
-#: src-en/data/events_sector_auto.xml:685
+#: src-en/data/events_sector_auto.xml:706
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_PIRATE_CHOICE\"]/choice[1]/event/text"
 msgstr "Vous vous approché pour intercepter le vaisseau automatisé."
 
-#: src-en/data/events_sector_auto.xml:688
+#: src-en/data/events_sector_auto.xml:709
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_PIRATE_CHOICE\"]/choice[1]/event/choice/text"
 msgstr "Continuer..."
 
-#: src-en/data/events_sector_auto.xml:694
+#: src-en/data/events_sector_auto.xml:715
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_PIRATE_CHOICE\"]/choice[2]/text"
 msgstr "Attaquer les Pirates."
 
-#: src-en/data/events_sector_auto.xml:696
+#: src-en/data/events_sector_auto.xml:717
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_PIRATE_CHOICE\"]/choice[2]/event/text"
 msgstr "Vous vous approchez pour intercepter le vaisseau pirate."
 
-#: src-en/data/events_sector_auto.xml:699
+#: src-en/data/events_sector_auto.xml:720
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_PIRATE_CHOICE\"]/choice[2]/event/choice/text"
 msgstr "Continuer..."
 
-#: src-en/data/events_sector_auto.xml:705
+#: src-en/data/events_sector_auto.xml:726
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_PIRATE_CHOICE\"]/choice[3]/text"
 msgstr "Ignorer les vaisseaux."
 
-#: src-en/data/events_sector_auto.xml:707
+#: src-en/data/events_sector_auto.xml:728
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_PIRATE_CHOICE\"]/choice[3]/event/text"
 msgstr "Vous laissez les deux vaisseau continuer à se battre."
 
-#: src-en/data/events_sector_auto.xml:709
+#: src-en/data/events_sector_auto.xml:730
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_PIRATE_CHOICE\"]/choice[3]/event/choice[1]/text"
 msgstr "Faire quelque chose à bord du vaisseau."
 
-#: src-en/data/events_sector_auto.xml:713
+#: src-en/data/events_sector_auto.xml:734
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_PIRATE_CHOICE\"]/choice[3]/event/choice[2]/text"
 msgstr "Ne rien faire."
 
-#: src-en/data/events_sector_auto.xml:720
+#: src-en/data/events_sector_auto.xml:741
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_PIRATE_CHOICE_AUTO_WIN\"]/text"
 msgstr ""
@@ -995,7 +1025,7 @@ msgstr ""
 "peut-être un pirate, mais je suis toujours un homme qui n'aime pas garder "
 "une dette. Alors, prenez cette camelote.\""
 
-#: src-en/data/events_sector_auto.xml:724
+#: src-en/data/events_sector_auto.xml:745
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_PIRATE_CHOICE_PIRATE_WIN\"]/text"
 msgstr ""
@@ -1003,98 +1033,98 @@ msgstr ""
 " Code interne contradictoire... nécessite un redémarrage.\" Le vaisseau "
 "automatique s'éteint. Vous profitez de cette occasion pour le démanteler."
 
-#: src-en/data/events_sector_auto.xml:729
+#: src-en/data/events_sector_auto.xml:750
 msgid "data/events_sector_auto.xml$//event[@name=\"AUTO_MINER\"]/text"
 msgstr ""
 "À l'intérieur du champ d'astéroïdes de cette balise se trouve une plateforme"
 " minière et un vaisseau de récupération automatisé. Le récupérateur ne vous "
 "remarque pas alors qu'il extrait des minerais des astéroïdes."
 
-#: src-en/data/events_sector_auto.xml:733
+#: src-en/data/events_sector_auto.xml:754
 msgid "data/events_sector_auto.xml$//event[@name=\"AUTO_MINER\"]/choice[1]/text"
-msgstr "Attaquez le vaisseau pour atteindre la plateforme."
+msgstr "Attaquer le vaisseau pour atteindre la plateforme."
 
-#: src-en/data/events_sector_auto.xml:735
+#: src-en/data/events_sector_auto.xml:756
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_MINER\"]/choice[1]/event/text"
 msgstr "Vous vous préparez à attaquer l'Auto-vaisseau."
 
-#: src-en/data/events_sector_auto.xml:738
+#: src-en/data/events_sector_auto.xml:759
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_MINER\"]/choice[1]/event/choice/text"
 msgstr "Continuer..."
 
-#: src-en/data/events_sector_auto.xml:744
+#: src-en/data/events_sector_auto.xml:765
 msgid "data/events_sector_auto.xml$//event[@name=\"AUTO_MINER\"]/choice[2]/text"
 msgstr "Ignorer le vaisseau."
 
-#: src-en/data/events_sector_auto.xml:746
+#: src-en/data/events_sector_auto.xml:767
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_MINER\"]/choice[2]/event/text"
 msgstr ""
 "Combattre un vaisseau minier dans son habitat naturel, un champ "
 "d'astéroïdes, ne semble pas être une bonne idée."
 
-#: src-en/data/events_sector_auto.xml:748
+#: src-en/data/events_sector_auto.xml:769
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_MINER\"]/choice[2]/event/choice[1]/text"
 msgstr "Faire quelque chose à bord du vaisseau."
 
-#: src-en/data/events_sector_auto.xml:752
+#: src-en/data/events_sector_auto.xml:773
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_MINER\"]/choice[2]/event/choice[2]/text"
 msgstr "Ne rien faire."
 
-#: src-en/data/events_sector_auto.xml:759
+#: src-en/data/events_sector_auto.xml:780
 msgid "data/events_sector_auto.xml$//event[@name=\"AUTO_MINER_PLATFORM\"]/text"
 msgstr ""
 "La plateforme automatisée contient de nombreuses piles à combustible "
 "fraîchement extraites du champ d'astéroïdes. Vous prenez tout ce que vous "
 "pouvez."
 
-#: src-en/data/events_sector_auto.xml:764
+#: src-en/data/events_sector_auto.xml:785
 msgid "data/events_sector_auto.xml$//event[@name=\"AUTO_BOMB_MANUFACTURE\"]/text"
 msgstr ""
 "Un vaisseau automatisé patrouille ce qui semble être une usine de "
 "fabrication de munitions. Vous ne pouvez pas accéder à l'usine tant que le "
 "vaisseau est là."
 
-#: src-en/data/events_sector_auto.xml:767
+#: src-en/data/events_sector_auto.xml:788
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_BOMB_MANUFACTURE\"]/choice[1]/text"
 msgstr "Attaquer le vaisseau."
 
-#: src-en/data/events_sector_auto.xml:769
+#: src-en/data/events_sector_auto.xml:790
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_BOMB_MANUFACTURE\"]/choice[1]/event/text"
 msgstr "Vous vous préparez à attaquer l'Auto-vaisseau."
 
-#: src-en/data/events_sector_auto.xml:772
+#: src-en/data/events_sector_auto.xml:793
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_BOMB_MANUFACTURE\"]/choice[1]/event/choice/text"
 msgstr "Continuer..."
 
-#: src-en/data/events_sector_auto.xml:778
+#: src-en/data/events_sector_auto.xml:799
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_BOMB_MANUFACTURE\"]/choice[2]/text"
 msgstr "Ignorer l'usine."
 
-#: src-en/data/events_sector_auto.xml:780
+#: src-en/data/events_sector_auto.xml:801
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_BOMB_MANUFACTURE\"]/choice[2]/event/text"
 msgstr "Vous n'êtes pas intéressé par le pillage de l'usine."
 
-#: src-en/data/events_sector_auto.xml:782
+#: src-en/data/events_sector_auto.xml:803
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_BOMB_MANUFACTURE\"]/choice[2]/event/choice[1]/text"
 msgstr "Faire quelque chose à bord du vaisseau."
 
-#: src-en/data/events_sector_auto.xml:786
+#: src-en/data/events_sector_auto.xml:807
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_BOMB_MANUFACTURE\"]/choice[2]/event/choice[2]/text"
 msgstr "Ne rien faire."
 
-#: src-en/data/events_sector_auto.xml:793
+#: src-en/data/events_sector_auto.xml:814
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_BOMB_MANUFACTURE_FACTORY\"]/text"
 msgstr ""
@@ -1103,48 +1133,48 @@ msgstr ""
 "compte à rebours jusqu'à ce que l'usine explose. Vous n'avez que le temps de"
 " saisir une seule chose si vous voulez vous échapper indemne."
 
-#: src-en/data/events_sector_auto.xml:795
+#: src-en/data/events_sector_auto.xml:816
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_BOMB_MANUFACTURE_FACTORY\"]/choice[1]/text"
-msgstr "Prenez de la munition."
+msgstr "Prendre des munitions."
 
-#: src-en/data/events_sector_auto.xml:797
+#: src-en/data/events_sector_auto.xml:818
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_BOMB_MANUFACTURE_FACTORY\"]/choice[1]/event/text"
 msgstr ""
 "Vous saisissez autant de munitions que vous pouvez porter et vous vous "
 "éloignez avant que l'usine n'explose."
 
-#: src-en/data/events_sector_auto.xml:802
+#: src-en/data/events_sector_auto.xml:823
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_BOMB_MANUFACTURE_FACTORY\"]/choice[2]/text"
 msgstr "Prendre l'une des armes."
 
-#: src-en/data/events_sector_auto.xml:804
+#: src-en/data/events_sector_auto.xml:825
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_BOMB_MANUFACTURE_FACTORY\"]/choice[2]/event/text"
 msgstr ""
 "Vous saisissez l'arme balistique la plus proche et vous vous éloignez avant "
 "que l'usine n'explose."
 
-#: src-en/data/events_sector_auto.xml:809
+#: src-en/data/events_sector_auto.xml:830
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_BOMB_MANUFACTURE_FACTORY\"]/choice[3]/text"
 msgstr ""
 "Vous attrapez tout ce que vous pouvez, même si cela signifie subir quelques "
-"dommages."
+"dégâts."
 
-#: src-en/data/events_sector_auto.xml:811
+#: src-en/data/events_sector_auto.xml:832
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_BOMB_MANUFACTURE_FACTORY\"]/choice[3]/event/text"
 msgstr ""
 "Vous attrapez la première arme balistique et autant de munitions que vous "
 "pouvez porter. Heureusement, vous parvenez à vous échapper avant que "
-"l'explosion ne cause des dommages critiques à la coque, mais plusieurs "
+"l'explosion ne cause des dégâts critiques à la coque, mais plusieurs "
 "morceaux de débris entrent en collision avec celle-ci, lui infligeant "
-"néanmoins quelques dommages."
+"néanmoins quelques dégâts."
 
-#: src-en/data/events_sector_auto.xml:820
+#: src-en/data/events_sector_auto.xml:841
 msgid "data/events_sector_auto.xml$//event[@name=\"REBEL_AUTO_SPY\"]/text"
 msgstr ""
 "Cette balise abrite un vaisseau automatisé, mais pas du type habituel. C'est"
@@ -1152,173 +1182,173 @@ msgstr ""
 "secteurs de manière autonome. Si vous parvenez à capturer sa boîte noire, "
 "vous devriez pouvoir accéder aux données."
 
-#: src-en/data/events_sector_auto.xml:823
+#: src-en/data/events_sector_auto.xml:844
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"REBEL_AUTO_SPY\"]/choice[1]/text"
 msgstr "Attaquer le vaisseau."
 
-#: src-en/data/events_sector_auto.xml:825
+#: src-en/data/events_sector_auto.xml:846
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"REBEL_AUTO_SPY\"]/choice[1]/event/text"
 msgstr ""
 "Heureusement, les boîtes noires des Auto-vaisseaux peuvent survivre à la "
-"plupart des dommages causés par les combats. Détruisez le vaisseau et les "
+"plupart des dégâts causés par les combats. Détruisez le vaisseau et les "
 "données sont à vous."
 
-#: src-en/data/events_sector_auto.xml:828
+#: src-en/data/events_sector_auto.xml:849
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"REBEL_AUTO_SPY\"]/choice[1]/event/choice/text"
 msgstr "Continuer..."
 
-#: src-en/data/events_sector_auto.xml:834
+#: src-en/data/events_sector_auto.xml:855
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"REBEL_AUTO_SPY\"]/choice[2]/text"
 msgstr "Éviter l'Arpenteur."
 
-#: src-en/data/events_sector_auto.xml:836
+#: src-en/data/events_sector_auto.xml:857
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"REBEL_AUTO_SPY\"]/choice[2]/event/text"
 msgstr ""
 "Les données des Rebelles sont intrigantes, mais vous avez décidé de ne pas "
 "vous attaquer a l'Arpenteur."
 
-#: src-en/data/events_sector_auto.xml:838
+#: src-en/data/events_sector_auto.xml:859
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"REBEL_AUTO_SPY\"]/choice[2]/event/choice[1]/text"
 msgstr "Faire quelque chose à bord du vaisseau."
 
-#: src-en/data/events_sector_auto.xml:842
+#: src-en/data/events_sector_auto.xml:863
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"REBEL_AUTO_SPY\"]/choice[2]/event/choice[2]/text"
 msgstr "Ne rien faire."
 
-#: src-en/data/events_sector_auto.xml:849
+#: src-en/data/events_sector_auto.xml:870
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"REBEL_AUTO_SPY_ESCAPING\"]/text"
 msgstr ""
 "\"Ce vaisseau automatisé a été endommagé au combat. Il va maintenant "
-"chercher à s'échapper. Ne lui infligez pas de dommages supplémentaires.\" "
+"chercher à s'échapper. Ne lui infligez pas de dégâts supplémentaires.\" "
 "Maintenant que l'Arpenteur vous a repéré, s'il parvient à s'enfuir, il "
 "signalera votre position à la flotte !"
 
-#: src-en/data/events_sector_auto.xml:852
+#: src-en/data/events_sector_auto.xml:873
 msgid "data/events_sector_auto.xml$//event[@name=\"REBEL_AUTO_SPY_GOTAWAY\"]/text"
 msgstr ""
 "L'Arpenteur saute vers un autre endroit et ne manquera pas de signaler votre"
 " position à la flotte ensuite."
 
-#: src-en/data/events_sector_auto.xml:856
+#: src-en/data/events_sector_auto.xml:877
 msgid "data/events_sector_auto.xml$//event[@name=\"REBEL_AUTO_SPY_WIN\"]/text"
 msgstr ""
 "Vous récupérez les restes de l'Auto-Arpenteur et embarquez sa boîte noire. "
 "Vous avez deux options : soit transmettre de fausses données aux Rebelles "
 "pour les retarder, soit les télécharger pour obtenir une carte du secteur."
 
-#: src-en/data/events_sector_auto.xml:859
+#: src-en/data/events_sector_auto.xml:880
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"REBEL_AUTO_SPY_WIN\"]/choice[1]/text"
 msgstr "Envoyez-le aux Rebelles."
 
-#: src-en/data/events_sector_auto.xml:861
+#: src-en/data/events_sector_auto.xml:882
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"REBEL_AUTO_SPY_WIN\"]/choice[1]/event/text"
 msgstr ""
 "Cela devrait les retarder pendant un certain temps, ou du moins jusqu'à ce "
 "qu'ils réalisent le canular."
 
-#: src-en/data/events_sector_auto.xml:866
+#: src-en/data/events_sector_auto.xml:887
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"REBEL_AUTO_SPY_WIN\"]/choice[2]/text"
 msgstr "Télécharger les données."
 
-#: src-en/data/events_sector_auto.xml:868
+#: src-en/data/events_sector_auto.xml:889
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"REBEL_AUTO_SPY_WIN\"]/choice[2]/event/text"
 msgstr ""
 "L'Arpenteur semble avoir collecté des données très détaillées sur le "
 "secteur. Cela devrait beaucoup aider."
 
-#: src-en/data/events_sector_auto.xml:888
+#: src-en/data/events_sector_auto.xml:909
 msgid "data/events_sector_auto.xml$//event[@name=\"DISTRESS_AUTO_REPAIRS\"]/text"
 msgstr ""
 "Un vaisseau automatisé émettant ce signal de détresse boucle un message dans"
-" une voix féminine apaisante. \"Ce vaisseau automatisé a subi des dommages "
+" une voix féminine apaisante. \"Ce vaisseau automatisé a subi des dégâts "
 "critiques à la coque. Il a été programmé pour récompenser quiconque le "
 "répare.\""
 
-#: src-en/data/events_sector_auto.xml:890
+#: src-en/data/events_sector_auto.xml:911
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"DISTRESS_AUTO_REPAIRS\"]/choice[1]/text"
 msgstr "Aider aux réparations."
 
-#: src-en/data/events_sector_auto.xml:892
+#: src-en/data/events_sector_auto.xml:913
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"DISTRESS_AUTO_REPAIRS\"]/choice[1]/event/text"
 msgstr ""
 "Un long bras plié sort de l' Auto-vaisseau et collecte la ferraille. Vous "
 "regardez avec fascination alors qu'il se répare en se recollant."
 
-#: src-en/data/events_sector_auto.xml:897
+#: src-en/data/events_sector_auto.xml:918
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"DISTRESS_AUTO_REPAIRS\"]/choice[1]/event/choice/text"
 msgstr "Continuer..."
 
-#: src-en/data/events_sector_auto.xml:903
+#: src-en/data/events_sector_auto.xml:924
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"DISTRESS_AUTO_REPAIRS\"]/choice[2]/text"
 msgstr "Détruire le vaisseau."
 
-#: src-en/data/events_sector_auto.xml:905
+#: src-en/data/events_sector_auto.xml:926
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"DISTRESS_AUTO_REPAIRS\"]/choice[2]/event/text"
 msgstr ""
 "Le vaisseau endommagé est dans un état horrible, mais il parvient toujours à"
 " lever ses armes et à se défendre."
 
-#: src-en/data/events_sector_auto.xml:910
+#: src-en/data/events_sector_auto.xml:931
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"DISTRESS_AUTO_REPAIRS\"]/choice[2]/event/choice/text"
 msgstr "Continuer..."
 
-#: src-en/data/events_sector_auto.xml:916
+#: src-en/data/events_sector_auto.xml:937
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"DISTRESS_AUTO_REPAIRS\"]/choice[3]/text"
 msgstr "Éviter le vaisseau."
 
-#: src-en/data/events_sector_auto.xml:918
+#: src-en/data/events_sector_auto.xml:939
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"DISTRESS_AUTO_REPAIRS\"]/choice[3]/event/text"
 msgstr ""
 "Il faudrait être un idiot absolu pour investir du temps dans la réparation "
 "d'un Auto-vaisseau ennemi."
 
-#: src-en/data/events_sector_auto.xml:920
+#: src-en/data/events_sector_auto.xml:941
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"DISTRESS_AUTO_REPAIRS\"]/choice[3]/event/choice[1]/text"
 msgstr "Faire quelque chose à bord du vaisseau."
 
-#: src-en/data/events_sector_auto.xml:924
+#: src-en/data/events_sector_auto.xml:945
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"DISTRESS_AUTO_REPAIRS\"]/choice[3]/event/choice[2]/text"
 msgstr "Ne rien faire."
 
-#: src-en/data/events_sector_auto.xml:931
+#: src-en/data/events_sector_auto.xml:952
 msgid "data/events_sector_auto.xml$//event[@name=\"DESTROYED_AUTO_DAMAGED\"]/text"
 msgstr "Il ne reste presque rien à récupérer sur l'Auto-vaisseau."
 
-#: src-en/data/events_sector_auto.xml:936
+#: src-en/data/events_sector_auto.xml:957
 msgid ""
 "data/events_sector_auto.xml$//eventList[@name=\"DISTRESS_AUTO_REPAIRS_GIFT\"]/event[1]/text"
 msgstr ""
 "À peine une seconde après que le vaisseau automatique ait fini de se "
 "réparer, il vous détecte comme un ennemi et attaque !"
 
-#: src-en/data/events_sector_auto.xml:939
+#: src-en/data/events_sector_auto.xml:960
 msgid ""
 "data/events_sector_auto.xml$//eventList[@name=\"DISTRESS_AUTO_REPAIRS_GIFT\"]/event[1]/choice/text"
 msgstr "Continuer..."
 
-#: src-en/data/events_sector_auto.xml:944
+#: src-en/data/events_sector_auto.xml:965
 msgid ""
 "data/events_sector_auto.xml$//eventList[@name=\"DISTRESS_AUTO_REPAIRS_GIFT\"]/event[2]/text"
 msgstr ""
@@ -1326,7 +1356,7 @@ msgstr ""
 " récompense. Gloire à la Rébellion !\" L'Auto-vaisseau crache un drone et "
 "saute pour quitter le système."
 
-#: src-en/data/events_sector_auto.xml:948
+#: src-en/data/events_sector_auto.xml:969
 msgid ""
 "data/events_sector_auto.xml$//eventList[@name=\"DISTRESS_AUTO_REPAIRS_GIFT\"]/event[3]/text"
 msgstr ""
@@ -1334,7 +1364,7 @@ msgstr ""
 " récompense. Gloire à la Rébellion !\" L'Auto-vaisseau crache une "
 "augmentation et saute pour quitter le système."
 
-#: src-en/data/events_sector_auto.xml:955
+#: src-en/data/events_sector_auto.xml:976
 msgid "data/events_sector_auto.xml$//event[@name=\"DISTRESS_AUTO_TRASH\"]/text"
 msgstr ""
 "Le seul élément présent sur cette balise est un petit système, à peine plus "
@@ -1346,12 +1376,12 @@ msgstr ""
 "vie, il est possible que ce soit juste un transpondeur défectueux d'un Auto "
 "à moitié terminé. Cela vaut quand même la peine d'aller voir."
 
-#: src-en/data/events_sector_auto.xml:957
+#: src-en/data/events_sector_auto.xml:978
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"DISTRESS_AUTO_TRASH\"]/choice[1]/text"
 msgstr "Rechercher le signal de détresse."
 
-#: src-en/data/events_sector_auto.xml:959
+#: src-en/data/events_sector_auto.xml:980
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"DISTRESS_AUTO_TRASH\"]/choice[1]/event/text"
 msgstr ""
@@ -1359,12 +1389,12 @@ msgstr ""
 "simplement ignorer un signal de détresse. Vous pilotez votre vaisseau vers "
 "l'atmosphère et vous dirigez vers la surface."
 
-#: src-en/data/events_sector_auto.xml:961
+#: src-en/data/events_sector_auto.xml:982
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"DISTRESS_AUTO_TRASH\"]/choice[1]/event/choice/text"
 msgstr "Continuer..."
 
-#: src-en/data/events_sector_auto.xml:963
+#: src-en/data/events_sector_auto.xml:984
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"DISTRESS_AUTO_TRASH\"]/choice[1]/event/choice/event/text"
 msgstr ""
@@ -1373,12 +1403,12 @@ msgstr ""
 "ordonné. Lorsque vous êtes juste au-dessus, l'étendue de déchets a été "
 "remplacée par des flèches de déchets compactés."
 
-#: src-en/data/events_sector_auto.xml:965
+#: src-en/data/events_sector_auto.xml:986
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"DISTRESS_AUTO_TRASH\"]/choice[1]/event/choice/event/choice/text"
 msgstr "Continuer..."
 
-#: src-en/data/events_sector_auto.xml:967
+#: src-en/data/events_sector_auto.xml:988
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"DISTRESS_AUTO_TRASH\"]/choice[1]/event/choice/event/choice/event/text"
 msgstr ""
@@ -1389,17 +1419,17 @@ msgstr ""
 "semble... excité ? Trouver un endroit pour atterrir parmi tout ce désordre "
 "est un défi, mais le drone se précipite vers vous dès que vous le faites."
 
-#: src-en/data/events_sector_auto.xml:969
+#: src-en/data/events_sector_auto.xml:990
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"DISTRESS_AUTO_TRASH\"]/choice[1]/event/choice/event/choice/event/choice[1]/text"
 msgstr "Bienvenue à bord."
 
-#: src-en/data/events_sector_auto.xml:975
+#: src-en/data/events_sector_auto.xml:996
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"DISTRESS_AUTO_TRASH\"]/choice[1]/event/choice/event/choice/event/choice[@req=\"ORCHID_KIDS\"]/text"
-msgstr "(Enfant Orchidée) Donnez au drone un peu de matière végétale."
+msgstr "(Enfant Orchid) Donnez au drone un peu de matière végétale."
 
-#: src-en/data/events_sector_auto.xml:977
+#: src-en/data/events_sector_auto.xml:998
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"DISTRESS_AUTO_TRASH\"]/choice[1]/event/choice/event/choice/event/choice[@req=\"ORCHID_KIDS\"]/event/text"
 msgstr ""
@@ -1411,30 +1441,30 @@ msgstr ""
 "mais vous ne pouvez pas vous résoudre à vous plaindre - c'est beaucoup de "
 "ferraille."
 
-#: src-en/data/events_sector_auto.xml:988
+#: src-en/data/events_sector_auto.xml:1009
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"DISTRESS_AUTO_TRASH\"]/choice[2]/text"
 msgstr "Partir."
 
-#: src-en/data/events_sector_auto.xml:990
+#: src-en/data/events_sector_auto.xml:1011
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"DISTRESS_AUTO_TRASH\"]/choice[2]/event/text"
 msgstr ""
 "Vous trouvez peu probable qu'il y ait quelque chose à trouver là-bas - ce "
-"sont des chantiers contrôlés par les Rebelles après tout, et aucun humain ne"
-" pourrait survivre là-bas. Vous vous préparez à sauter ailleurs."
+"sont des chantiers contrôlés par les Rebelles après tout et aucun humain ne "
+"pourrait survivre là-bas. Vous vous préparez à sauter ailleurs."
 
-#: src-en/data/events_sector_auto.xml:992
+#: src-en/data/events_sector_auto.xml:1013
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"DISTRESS_AUTO_TRASH\"]/choice[2]/event/choice[1]/text"
 msgstr "Faire quelque chose à bord du vaisseau."
 
-#: src-en/data/events_sector_auto.xml:996
+#: src-en/data/events_sector_auto.xml:1017
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"DISTRESS_AUTO_TRASH\"]/choice[2]/event/choice[2]/text"
 msgstr "Ne rien faire."
 
-#: src-en/data/events_sector_auto.xml:1005
+#: src-en/data/events_sector_auto.xml:1026
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"DISTRESS_AUTO_MILITIA_CHAIN\"]/text"
 msgstr ""
@@ -1444,14 +1474,14 @@ msgstr ""
 " la milice et celui de l'ingénieur rebelle, émettent des signaux de "
 "détresse."
 
-#: src-en/data/events_sector_auto.xml:1007
+#: src-en/data/events_sector_auto.xml:1028
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"DISTRESS_AUTO_MILITIA_CHAIN\"]/choice[1]/text"
 msgstr ""
 "Poursuivez l'ingénieur rebelle pour permettre à la milice de se concentrer "
 "sur le vaisseau automatique."
 
-#: src-en/data/events_sector_auto.xml:1009
+#: src-en/data/events_sector_auto.xml:1030
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"DISTRESS_AUTO_MILITIA_CHAIN\"]/choice[1]/event/text"
 msgstr ""
@@ -1459,193 +1489,225 @@ msgstr ""
 "envoie un message. \"Dieu merci, vous êtes là. Essayez de les capturer "
 "vivants si possible !\""
 
-#: src-en/data/events_sector_auto.xml:1012
+#: src-en/data/events_sector_auto.xml:1033
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"DISTRESS_AUTO_MILITIA_CHAIN\"]/choice[1]/event/choice/text"
 msgstr "Continuer..."
 
-#: src-en/data/events_sector_auto.xml:1018
+#: src-en/data/events_sector_auto.xml:1039
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"DISTRESS_AUTO_MILITIA_CHAIN\"]/choice[2]/text"
 msgstr ""
-"Attaquez le vaisseau automatique pour donner un peu de répit à la milice."
+"Attaquer le vaisseau automatique pour donner un peu de répit à la milice."
 
-#: src-en/data/events_sector_auto.xml:1020
+#: src-en/data/events_sector_auto.xml:1041
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"DISTRESS_AUTO_MILITIA_CHAIN\"]/choice[2]/event/text"
 msgstr ""
 "Le vaisseau automatique interrompt son attaque pour répondre à votre menace."
 
-#: src-en/data/events_sector_auto.xml:1025
+#: src-en/data/events_sector_auto.xml:1046
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"DISTRESS_AUTO_MILITIA_CHAIN\"]/choice[2]/event/triggeredEvent/triggeredEventBox/tooltip"
 msgstr "Le Rebelle s'échappe !"
 
-#: src-en/data/events_sector_auto.xml:1030
+#: src-en/data/events_sector_auto.xml:1051
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"DISTRESS_AUTO_MILITIA_CHAIN\"]/choice[2]/event/choice/text"
 msgstr "Continuer..."
 
-#: src-en/data/events_sector_auto.xml:1036
+#: src-en/data/events_sector_auto.xml:1057
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"DISTRESS_AUTO_MILITIA_CHAIN\"]/choice[3]/text"
 msgstr "Ne pas s'en mêler."
 
-#: src-en/data/events_sector_auto.xml:1038
+#: src-en/data/events_sector_auto.xml:1059
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"DISTRESS_AUTO_MILITIA_CHAIN\"]/choice[3]/event/text"
 msgstr ""
-"Tous les vaisseaux impliqués continuent de subir des dommages, mais le "
-"combat finit par quitter votre périmètre."
+"Tous les vaisseaux impliqués continuent de subir des dégâts, mais le combat "
+"finit par quitter votre périmètre."
 
-#: src-en/data/events_sector_auto.xml:1040
+#: src-en/data/events_sector_auto.xml:1061
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"DISTRESS_AUTO_MILITIA_CHAIN\"]/choice[3]/event/choice[1]/text"
 msgstr "Faire quelque chose à bord du vaisseau."
 
-#: src-en/data/events_sector_auto.xml:1044
+#: src-en/data/events_sector_auto.xml:1065
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"DISTRESS_AUTO_MILITIA_CHAIN\"]/choice[3]/event/choice[2]/text"
 msgstr "Ne rien faire."
 
-#: src-en/data/events_sector_auto.xml:1052
+#: src-en/data/events_sector_auto.xml:1073
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"DISTRESS_AUTO_MILITIA_CHAIN_GOTAWAY_DURING_FIGHT\"]/text"
 msgstr ""
-"L'ingénieur saute loin de la milice avant qu'ils ne parviennent à désactiver "
-"leur vaisseau. Le capitaine de la milice crie \"Reviens ici !\" sur le canal "
-"ouvert, et saute après eux. Il semble que votre combat soit devenu un "
+"L'ingénieur saute loin de la milice avant qu'ils ne parviennent à désactiver"
+" leur vaisseau. Le capitaine de la milice crie \"Reviens ici !\" sur le "
+"canal ouvert et saute après eux. Il semble que votre combat soit devenu un "
 "affrontement en tête-à-tête."
 
-#: src-en/data/events_sector_auto.xml:1056
+#: src-en/data/events_sector_auto.xml:1077
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"DISTRESS_AUTO_MILITIA_CHAIN_GOTAWAY\"]/text"
 msgstr ""
 "Le capitaine de la milice soupire. \"Bon sang. On les avait presque eus. "
-"Tout ce temps à les pourchasser dans leur territoire pour rien, et nos "
+"Tout ce temps à les pourchasser dans leur territoire pour rien et nos "
 "défenses sont toujours compromises. Nous sommes vulnérables pour la "
 "prochaine attaque des Rebelles.\" Agacé, il saute au loin."
 
-#: src-en/data/events_sector_auto.xml:1071
+#: src-en/data/events_sector_auto.xml:1092
 msgid "data/events_sector_auto.xml$//event[@name=\"AUTO_GHOST_WANTWRECK\"]/text"
-msgstr ""
-"Vous êtes surpris par le vaisseau fantôme, qui n'a pas vraiment sa place "
-"dans ce secteur automatisé. Ils vous envoient un message disant \"Salutations"
-". Nous nous trouvons dans le besoin d'une épave. Vous avez un arsenal à "
-"votre disposition. Cet arsenal peut créer des épaves. Devrions-nous conclure "
-"un marché ?\""
+msgstr "Vous arrivez en orbite d’une planète aride. La seule caractéristique notable à sa surface est un grand campement Vagabond, une rareté dans un secteur si hostile aux Fantômes. Vous hésitez à les contacter, jusqu’à ce qu’un message vous parvienne. \"Salutations, mystérieux 'non-Rebelle'. Bien que nous soyons pour l’heure rassasiés grâce à notre abondante récolte d’épaves abandonnées, nous nous retrouvons à méditer sans cesse sur une question des plus insaisissables et épineuses. Mais d’abord, avez-vous par hasard, entendu parler des démons en tenues écarlates que la Rébellion emploie parfois ?\""
 
-#: src-en/data/events_sector_auto.xml:1073
+#: src-en/data/events_sector_auto.xml:1094
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_GHOST_WANTWRECK\"]/choice[1]/text"
-msgstr "Accepter leur demande."
+msgstr "Oui."
 
-#: src-en/data/events_sector_auto.xml:1075
+#: src-en/data/events_sector_auto.xml:1096
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_GHOST_WANTWRECK\"]/choice[1]/event/text"
+msgstr "\"Merveilleux ! Nous pourrons donc faire l’impasse sur les longues explications que j’étais si péniblement résolu à vous infliger. Comme vous pouvez le voir derrière nous, nous sommes plutôt familiers avec les entrailles de divers vaisseaux plus banals. Mais ayant récemment aperçu un démon écarlate, notre curiosité en a été piquée au vif, insatiable quant à ce qui pourrait bien se cacher en son sein. Mais hélas, nos efforts furent vains, l’affrontement était loin d’être équilibré. Je dirais même que nous avons eu de la chance de nous en tirer avec notre simple mortalité encore intacte ! Mais peut-être que votre arsenal serait davantage à la hauteur ?\""
+
+#: src-en/data/events_sector_auto.xml:1098
+msgid ""
+"data/events_sector_auto.xml$//event[@name=\"AUTO_GHOST_WANTWRECK\"]/choice[1]/event/choice[1]/text"
+msgstr "Accepter leur proposition."
+
+#: src-en/data/events_sector_auto.xml:1100
+msgid ""
+"data/events_sector_auto.xml$//event[@name=\"AUTO_GHOST_WANTWRECK\"]/choice[1]/event/choice[1]/event/text"
 msgstr ""
-"Les Fantômes envoient un dernier message avec les coordonnées du vaisseau "
-"qu'ils veulent capturer."
 
-#: src-en/data/events_sector_auto.xml:1080
+#: src-en/data/events_sector_auto.xml:1105
 msgid ""
-"data/events_sector_auto.xml$//event[@name=\"AUTO_GHOST_WANTWRECK\"]/choice[2]/text"
-msgstr "Nous ne pouvons pas aider."
-
-#: src-en/data/events_sector_auto.xml:1082
-msgid ""
-"data/events_sector_auto.xml$//event[@name=\"AUTO_GHOST_WANTWRECK\"]/choice[2]/event/text"
-msgstr ""
-"Les Fantômes envoient un dernier message, disant \"Vous êtes nuls.\" Ils "
-"sautent au loin."
-
-#: src-en/data/events_sector_auto.xml:1084
-msgid ""
-"data/events_sector_auto.xml$//event[@name=\"AUTO_GHOST_WANTWRECK\"]/choice[2]/event/choice[1]/text"
-msgstr "Faire quelque chose à bord du vaisseau."
-
-#: src-en/data/events_sector_auto.xml:1088
-msgid ""
-"data/events_sector_auto.xml$//event[@name=\"AUTO_GHOST_WANTWRECK\"]/choice[2]/event/choice[2]/text"
-msgstr "Ne rien faire."
-
-#: src-en/data/events_sector_auto.xml:1097
-msgid ""
-"data/events_sector_auto.xml$//event[@name=\"AUTO_GHOST_WANTWRECK_QUEST\"]/beaconType/unvisitedTooltip"
-msgstr ""
-"Un groupe de fantômes vous a demandé de détruire un Auto-vaisseau à cette "
-"balise afin qu'ils puissent l'acquérir."
-
-#: src-en/data/events_sector_auto.xml:1099
-msgid ""
-"data/events_sector_auto.xml$//event[@name=\"AUTO_GHOST_WANTWRECK_QUEST\"]/text"
-msgstr ""
-"L'Auto-vaisseau de cette balise est complètement actif et prêt au combat. Il "
-"se verrouille sur votre vaisseau et attaque !"
-
-#: src-en/data/events_sector_auto.xml:1102
-msgid ""
-"data/events_sector_auto.xml$//event[@name=\"AUTO_GHOST_WANTWRECK_QUEST\"]/choice/text"
-msgstr "Continuer..."
-
-#: src-en/data/events_sector_auto.xml:1107
-msgid ""
-"data/events_sector_auto.xml$//event[@name=\"AUTO_GHOST_WANTWRECK_QUEST_WIN\"]/text"
-msgstr ""
-"Vous avez fait ce que les Fantômes vous demandaient et réduit l'Auto-"
-"vaisseau à l'état d'épave. Et maintenant ?"
-
-#: src-en/data/events_sector_auto.xml:1109
-msgid ""
-"data/events_sector_auto.xml$//event[@name=\"AUTO_GHOST_WANTWRECK_QUEST_WIN\"]/choice[1]/text"
-msgstr "Attendez les Fantômes."
+"data/events_sector_auto.xml$//event[@name=\"AUTO_GHOST_WANTWRECK\"]/choice[1]/event/choice[2]/text"
+msgstr "Refuser."
 
 #: src-en/data/events_sector_auto.xml:1111
 msgid ""
-"data/events_sector_auto.xml$//event[@name=\"AUTO_GHOST_WANTWRECK_QUEST_WIN\"]/choice[1]/event/text"
-msgstr ""
-"Le vaisseau fantôme arrive peu de temps après la destruction de l'auto-"
-"vaisseau : \"Oui, splendide, c'est ce que nous voulons\" Ils inspectent "
-"minutieusement l'épave."
+"data/events_sector_auto.xml$//event[@name=\"AUTO_GHOST_WANTWRECK\"]/choice[2]/text"
+msgstr "Non."
 
 #: src-en/data/events_sector_auto.xml:1113
+msgid ""
+"data/events_sector_auto.xml$//event[@name=\"AUTO_GHOST_WANTWRECK\"]/choice[2]/event/text"
+msgstr "\"Très bien, nous partagerons avec vous toute la sagesse que nous pouvons invoquer. Comme vous le savez sans doute déjà, la Rébellion fait grand usage de, comment votre jargon désigne-t-il ces choses, déjà ? 'Auto-vaisseaux' ? Eh bien, parmi ces rejetons infernaux, certains sont parés de teintes écarlates et marqués d’un insigne blanc, indéchiffrable. Nous en avons croisé un récemment, intrigués par ce que ses entrailles pouvaient receler, en comparaison de ses congénères moins distingués. Hélas, il dépassait largement nos capacités — quoique vous, vous semblez tout à fait capables de le réduire à une simple carcasse cramoisie. Cette proposition aurait-elle de quoi éveiller votre curiosité ?\""
+
+#: src-en/data/events_sector_auto.xml:1115
+msgid ""
+"data/events_sector_auto.xml$//event[@name=\"AUTO_GHOST_WANTWRECK\"]/choice[2]/event/choice[1]/text"
+msgstr "Accepter leur proposition."
+
+#: src-en/data/events_sector_auto.xml:1117
+msgid ""
+"data/events_sector_auto.xml$//event[@name=\"AUTO_GHOST_WANTWRECK\"]/choice[2]/event/choice[1]/event/text"
+msgstr ""
+
+#: src-en/data/events_sector_auto.xml:1122
+msgid ""
+"data/events_sector_auto.xml$//event[@name=\"AUTO_GHOST_WANTWRECK\"]/choice[2]/event/choice[2]/text"
+msgstr "Refuser."
+
+#: src-en/data/events_sector_auto.xml:1128
+msgid ""
+"data/events_sector_auto.xml$//event[@name=\"AUTO_GHOST_WANTWRECK\"]/choice[3]/text"
+msgstr ""
+
+#: src-en/data/events_sector_auto.xml:1130
+msgid ""
+"data/events_sector_auto.xml$//event[@name=\"AUTO_GHOST_WANTWRECK\"]/choice[3]/event/text"
+msgstr ""
+
+#: src-en/data/events_sector_auto.xml:1132
+msgid ""
+"data/events_sector_auto.xml$//event[@name=\"AUTO_GHOST_WANTWRECK\"]/choice[3]/event/choice[1]/text"
+msgstr "Faire quelque chose à bord du vaisseau."
+
+#: src-en/data/events_sector_auto.xml:1136
+msgid ""
+"data/events_sector_auto.xml$//event[@name=\"AUTO_GHOST_WANTWRECK\"]/choice[3]/event/choice[2]/text"
+msgstr "Ne rien faire."
+
+#: src-en/data/events_sector_auto.xml:1146
+msgid ""
+"data/events_sector_auto.xml$//event[@name=\"AUTO_GHOST_WANTWRECK_QUEST\"]/beaconType/unvisitedTooltip"
+msgstr "Un camp de Vagabonds vous a demandé de détruire un puissant Auto-vaisseau dans cette zone."
+
+#: src-en/data/events_sector_auto.xml:1148
+msgid ""
+"data/events_sector_auto.xml$//event[@name=\"AUTO_GHOST_WANTWRECK_QUEST\"]/text"
+msgstr "Vous trouvez l'Auto-vaisseau que les Vagabonds vous avaient demandé de détruire après être arrivé à cette balise. Il ne semble pas vous avoir repéré encore, mais il ne faudra pas longtemps avant qu'il ne vous repère."
+
+#: src-en/data/events_sector_auto.xml:1151
+msgid ""
+"data/events_sector_auto.xml$//event[@name=\"AUTO_GHOST_WANTWRECK_QUEST\"]/choice[1]/text"
+msgstr "Attaquer l'Auto-vaisseau."
+
+#: src-en/data/events_sector_auto.xml:1153
+msgid ""
+"data/events_sector_auto.xml$//event[@name=\"AUTO_GHOST_WANTWRECK_QUEST\"]/choice[1]/event/text"
+msgstr ""
+
+#: src-en/data/events_sector_auto.xml:1156
+msgid ""
+"data/events_sector_auto.xml$//event[@name=\"AUTO_GHOST_WANTWRECK_QUEST\"]/choice[1]/event/choice/text"
+msgstr "Continuer..."
+
+#: src-en/data/events_sector_auto.xml:1162
+msgid ""
+"data/events_sector_auto.xml$//event[@name=\"AUTO_GHOST_WANTWRECK_QUEST\"]/choice[2]/text"
+msgstr ""
+
+#: src-en/data/events_sector_auto.xml:1167
+msgid ""
+"data/events_sector_auto.xml$//event[@name=\"AUTO_GHOST_WANTWRECK_QUEST_WIN\"]/text"
+msgstr "Vous avez détruit l'Auto-vaisseau, comme l’avaient demandé les Vagabonds. Vous récupérez quelques débris éparpillés autour de l’épave, mais maintenant, que faire ?"
+
+#: src-en/data/events_sector_auto.xml:1170
+msgid ""
+"data/events_sector_auto.xml$//event[@name=\"AUTO_GHOST_WANTWRECK_QUEST_WIN\"]/choice[1]/text"
+msgstr "Attendre l’arrivée des Vagabonds."
+
+#: src-en/data/events_sector_auto.xml:1172
+msgid ""
+"data/events_sector_auto.xml$//event[@name=\"AUTO_GHOST_WANTWRECK_QUEST_WIN\"]/choice[1]/event/text"
+msgstr "Un vaisseau en piteux état arrive peu après que vous ayez détruit l'Auto-vaisseau. Les Vagabonds à bord se dirigent rapidement vers l’épave pour l’inspecter minutieusement. \"Hmm, les entrailles de cette machination sont des plus fascinantes. Sa construction est des plus exquises, et même le câblage semble avoir été réalisé avec un soin remarquable pour les moindres détails.\" Ils se débarrassent ensuite de l’ordinateur de bord, avant de prendre pleinement le contrôle du vaisseau."
+
+#: src-en/data/events_sector_auto.xml:1174
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_GHOST_WANTWRECK_QUEST_WIN\"]/choice[1]/event/choice/text"
 msgstr "Continuer..."
 
-#: src-en/data/events_sector_auto.xml:1115
+#: src-en/data/events_sector_auto.xml:1176
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_GHOST_WANTWRECK_QUEST_WIN\"]/choice[1]/event/choice/event/text"
-msgstr ""
-"\"Non... L'espace disponible est insuffisant. Nous ne pouvons pas y loger "
-"tout notre équipage. Vous pouvez accueillir l'un d'entre eux.\" Ils "
-"téléportent un membre de leur équipage à bord."
+msgstr "\"Votre exploit ici dépasse ce que nous pouvions espérer. S’il vous plaît, acceptez notre plus sincère gratitude pour votre noble action en ce jour. \" L’un des Vagabonds, visiblement impressionné par votre performance, souhaite rejoindre votre équipage."
 
-#: src-en/data/events_sector_auto.xml:1122
+#: src-en/data/events_sector_auto.xml:1183
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_GHOST_WANTWRECK_QUEST_WIN\"]/choice[2]/text"
-msgstr "Démonter l'épave."
+msgstr "Démanteler l'ensemble de l'épave."
 
-#: src-en/data/events_sector_auto.xml:1124
+#: src-en/data/events_sector_auto.xml:1185
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_GHOST_WANTWRECK_QUEST_WIN\"]/choice[2]/event/text"
-msgstr ""
-"Vous récupérez rapidement l'épave et vous vous préparez à sauter avant "
-"l'arrivée des fantômes."
+msgstr "Vous décidez d'essayer de récupérer le plus possible avant l'arrivée des Vagabonds. Vous trouvez une arme Sentinelle en état de marche dans les débris restants."
 
-#: src-en/data/events_sector_auto.xml:1156
+#: src-en/data/events_sector_auto.xml:1218
 msgid ""
 "data/events_sector_auto.xml$/FTL/event[@name=\"ENCOUNTER_AUTO_REGULAR\"]/choice/text"
 msgstr "Continuer..."
 
-#: src-en/data/events_sector_auto.xml:1161
+#: src-en/data/events_sector_auto.xml:1223
 msgid ""
 "data/events_sector_auto.xml$//textList[@name=\"TEXT_ENCOUNTER_AUTO\"]/text[1]"
 msgstr ""
 "Vous découvrez l'un des éclaireurs autonomes des Rebelles. L'IA du vaisseau "
 "ne tarde pas à engager votre vaisseau."
 
-#: src-en/data/events_sector_auto.xml:1162
+#: src-en/data/events_sector_auto.xml:1224
 msgid ""
 "data/events_sector_auto.xml$//textList[@name=\"TEXT_ENCOUNTER_AUTO\"]/text[2]"
 msgstr ""
@@ -1653,7 +1715,7 @@ msgstr ""
 "notre prise de contrôle est inutile. Préparez-vous à mourir\" Il semble que "
 "ce vaisseau rebelle soit dirigé par une IA."
 
-#: src-en/data/events_sector_auto.xml:1163
+#: src-en/data/events_sector_auto.xml:1225
 msgid ""
 "data/events_sector_auto.xml$//textList[@name=\"TEXT_ENCOUNTER_AUTO\"]/text[3]"
 msgstr ""
@@ -1661,14 +1723,14 @@ msgstr ""
 "cacher derrière une lune proche, mais le vaisseau vous trouve et commence "
 "son assaut."
 
-#: src-en/data/events_sector_auto.xml:1164
+#: src-en/data/events_sector_auto.xml:1226
 msgid ""
 "data/events_sector_auto.xml$//textList[@name=\"TEXT_ENCOUNTER_AUTO\"]/text[4]"
 msgstr ""
 "L'IA d'un petit Auto-vaisseau rebelle à proximité vous identifie "
 "immédiatement comme une menace et engage le combat."
 
-#: src-en/data/events_sector_auto.xml:1165
+#: src-en/data/events_sector_auto.xml:1227
 msgid ""
 "data/events_sector_auto.xml$//textList[@name=\"TEXT_ENCOUNTER_AUTO\"]/text[5]"
 msgstr ""
@@ -1676,40 +1738,40 @@ msgstr ""
 "les communications, mais vous vous rendez compte de la futilité de cette "
 "action lorsque vous voyez que le vaisseau est dirigé par une IA."
 
-#: src-en/data/events_sector_auto.xml:1166
+#: src-en/data/events_sector_auto.xml:1228
 msgid ""
 "data/events_sector_auto.xml$//textList[@name=\"TEXT_ENCOUNTER_AUTO\"]/text[6]"
 msgstr ""
 "Ce doit être l'un des vaisseaux éclaireurs sans équipage des Rebelles. On "
 "dirait qu'il n'y a pas moyen d'éviter le combat."
 
-#: src-en/data/events_sector_auto.xml:1167
+#: src-en/data/events_sector_auto.xml:1229
 msgid ""
 "data/events_sector_auto.xml$//textList[@name=\"TEXT_ENCOUNTER_AUTO\"]/text[7]"
 msgstr ""
-"Un autre vaisseau sans équipage patrouille dans cette zone. Vous préparez le "
-"vaisseau au combat."
+"Un autre vaisseau sans équipage patrouille dans cette zone. Vous préparez le"
+" vaisseau au combat."
 
-#: src-en/data/events_sector_auto.xml:1168
+#: src-en/data/events_sector_auto.xml:1230
 msgid ""
 "data/events_sector_auto.xml$//textList[@name=\"TEXT_ENCOUNTER_AUTO\"]/text[8]"
 msgstr ""
 "Cette balise est patrouillée par un éclaireur sans pilote. Un combat est "
 "inévitable."
 
-#: src-en/data/events_sector_auto.xml:1169
+#: src-en/data/events_sector_auto.xml:1231
 msgid ""
 "data/events_sector_auto.xml$//textList[@name=\"TEXT_ENCOUNTER_AUTO\"]/text[9]"
 msgstr ""
-"Une petite navette apparaît sur le radar local. Il s'avère qu'il s'agit d'un "
-"éclaireur automatisé rebelle !"
+"Une petite navette apparaît sur le radar local. Il s'avère qu'il s'agit d'un"
+" éclaireur automatisé rebelle !"
 
-#: src-en/data/events_sector_auto.xml:1175
+#: src-en/data/events_sector_auto.xml:1237
 msgid ""
 "data/events_sector_auto.xml$/FTL/event[@name=\"ENCOUNTER_AUTO_WARNING\"]/choice/text"
 msgstr "Continuer..."
 
-#: src-en/data/events_sector_auto.xml:1180
+#: src-en/data/events_sector_auto.xml:1242
 msgid ""
 "data/events_sector_auto.xml$/FTL/event[@name=\"ENCOUNTER_AUTO_HACKER\"]/text"
 msgstr ""
@@ -1719,17 +1781,17 @@ msgstr ""
 "boucliers. Espérons que cela ne causera pas d'autres problèmes avant que "
 "vous ne puissiez le détruire."
 
-#: src-en/data/events_sector_auto.xml:1185
+#: src-en/data/events_sector_auto.xml:1247
 msgid ""
 "data/events_sector_auto.xml$/FTL/event[@name=\"ENCOUNTER_AUTO_HACKER\"]/choice[1]/text"
 msgstr "Continuer..."
 
-#: src-en/data/events_sector_auto.xml:1189
+#: src-en/data/events_sector_auto.xml:1251
 msgid ""
 "data/events_sector_auto.xml$/FTL/event[@name=\"ENCOUNTER_AUTO_HACKER\"]/choice[@req=\"hacking\"]/text"
 msgstr "(Système de piratage) Contrer le piratage à distance."
 
-#: src-en/data/events_sector_auto.xml:1191
+#: src-en/data/events_sector_auto.xml:1253
 msgid ""
 "data/events_sector_auto.xml$/FTL/event[@name=\"ENCOUNTER_AUTO_HACKER\"]/choice[@req=\"hacking\"]/event/text"
 msgstr ""
@@ -1737,75 +1799,75 @@ msgstr ""
 "distance, mais l'opération met votre système de piratage à plat. Il ne vous "
 "reste plus qu'à éliminer l'ennemi à l'ancienne..."
 
-#: src-en/data/events_sector_auto.xml:1196
+#: src-en/data/events_sector_auto.xml:1258
 msgid ""
 "data/events_sector_auto.xml$/FTL/event[@name=\"ENCOUNTER_AUTO_HACKER\"]/choice[@req=\"hacking\"]/event/choice/text"
 msgstr "Continuer..."
 
-#: src-en/data/events_sector_auto.xml:1202
+#: src-en/data/events_sector_auto.xml:1264
 msgid ""
 "data/events_sector_auto.xml$/FTL/event[@name=\"ENCOUNTER_AUTO_HACKER\"]/choice[@req=\"ANTI_VIRUS\"]/text"
 msgstr "(Anti-virus) Contrer le piratage à distance."
 
-#: src-en/data/events_sector_auto.xml:1204
+#: src-en/data/events_sector_auto.xml:1266
 msgid ""
 "data/events_sector_auto.xml$/FTL/event[@name=\"ENCOUNTER_AUTO_HACKER\"]/choice[@req=\"ANTI_VIRUS\"]/event/text"
 msgstr ""
 "Votre Anti-virus contre automatiquement l'attaque numérique et vous vous "
 "rapprochez du vaisseau pour le combattre."
 
-#: src-en/data/events_sector_auto.xml:1208
+#: src-en/data/events_sector_auto.xml:1270
 msgid ""
 "data/events_sector_auto.xml$/FTL/event[@name=\"ENCOUNTER_AUTO_HACKER\"]/choice[@req=\"ANTI_VIRUS\"]/event/choice/text"
 msgstr "Continuer..."
 
-#: src-en/data/events_sector_auto.xml:1215
+#: src-en/data/events_sector_auto.xml:1277
 msgid "data/events_sector_auto.xml$/FTL/event[@name=\"ENCOUNTER_AUTO_SUN\"]/text"
 msgstr ""
 "Vous arrivez à la balise et vous vous retrouvez dangereusement proche d'une "
 "étoile. Un vaisseau rebelle automatisé, insensible à la chaleur, s'approche "
 "pour engager le combat."
 
-#: src-en/data/events_sector_auto.xml:1219
+#: src-en/data/events_sector_auto.xml:1281
 msgid ""
 "data/events_sector_auto.xml$/FTL/event[@name=\"ENCOUNTER_AUTO_SUN\"]/choice/text"
 msgstr "Continuer..."
 
-#: src-en/data/events_sector_auto.xml:1224
+#: src-en/data/events_sector_auto.xml:1286
 msgid ""
 "data/events_sector_auto.xml$/FTL/event[@name=\"ENCOUNTER_AUTO_ASTEROID\"]/text"
 msgstr ""
 "Vous arrivez dans une ceinture d'astéroïdes et découvrez qu'un éclaireur "
 "automatisé rebelle y est stationné. Préparez-vous à vous battre !"
 
-#: src-en/data/events_sector_auto.xml:1228
+#: src-en/data/events_sector_auto.xml:1290
 msgid ""
 "data/events_sector_auto.xml$/FTL/event[@name=\"ENCOUNTER_AUTO_ASTEROID\"]/choice/text"
 msgstr "Continuer..."
 
-#: src-en/data/events_sector_auto.xml:1237
+#: src-en/data/events_sector_auto.xml:1299
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"ENCOUNTER_ENGINEER\"]/choice/text"
 msgstr "Continuer..."
 
-#: src-en/data/events_sector_auto.xml:1242
+#: src-en/data/events_sector_auto.xml:1304
 msgid ""
 "data/events_sector_auto.xml$//textList[@name=\"TEXT_ENCOUNTER_ENGINEER\"]/text[1]"
 msgstr ""
-"Bien que la principale flotte rebelle évite principalement ce secteur, leurs "
-"vaisseaux ingénieurs peuvent encore être trouvés assez fréquemment. L'un de "
-"ces vaisseaux est déjà arrivé à cette balise et ne perd pas de temps pour "
+"Bien que la principale flotte rebelle évite principalement ce secteur, leurs"
+" vaisseaux ingénieurs peuvent encore être trouvés assez fréquemment. L'un de"
+" ces vaisseaux est déjà arrivé à cette balise et ne perd pas de temps pour "
 "attaquer votre vaisseau."
 
-#: src-en/data/events_sector_auto.xml:1243
+#: src-en/data/events_sector_auto.xml:1305
 msgid ""
 "data/events_sector_auto.xml$//textList[@name=\"TEXT_ENCOUNTER_ENGINEER\"]/text[2]"
 msgstr ""
-"Vous êtes contacté par un ingénieur rebelle à l'allure bourrue. \"Franchement"
-", je ne suis pas assez payé pour ce boulot. Mais en même temps, si je vous "
-"tue, peut-être que j'aurai une augmentation !\""
+"Vous êtes contacté par un ingénieur rebelle à l'allure bourrue. "
+"\"Franchement, je ne suis pas assez payé pour ce boulot. Mais en même temps,"
+" si je vous tue, peut-être que j'aurai une augmentation !\""
 
-#: src-en/data/events_sector_auto.xml:1244
+#: src-en/data/events_sector_auto.xml:1306
 msgid ""
 "data/events_sector_auto.xml$//textList[@name=\"TEXT_ENCOUNTER_ENGINEER\"]/text[3]"
 msgstr ""
@@ -1813,14 +1875,14 @@ msgstr ""
 "ingénieurs aussi redoutables que leur flotte principale. L'un de ces "
 "vaisseaux vous repère et attaque !"
 
-#: src-en/data/events_sector_auto.xml:1245
+#: src-en/data/events_sector_auto.xml:1307
 msgid ""
 "data/events_sector_auto.xml$//textList[@name=\"TEXT_ENCOUNTER_ENGINEER\"]/text[4]"
 msgstr ""
-"Un vaisseau ingénieur rebelle explore cette balise. \"Bon sang, vous devriez "
-"très bien savoir que ce secteur est interdit !\""
+"Un vaisseau ingénieur rebelle explore cette balise. \"Bon sang, vous devriez"
+" très bien savoir que ce secteur est interdit !\""
 
-#: src-en/data/events_sector_auto.xml:1246
+#: src-en/data/events_sector_auto.xml:1308
 msgid ""
 "data/events_sector_auto.xml$//textList[@name=\"TEXT_ENCOUNTER_ENGINEER\"]/text[5]"
 msgstr ""
@@ -1829,111 +1891,106 @@ msgstr ""
 "pas prêts à se battre avec les vaisseaux de la Fédération qui passent par "
 "là. Le vaisseau ici en est la preuve."
 
-#: src-en/data/events_sector_auto.xml:1250
+#: src-en/data/events_sector_auto.xml:1312
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"ENCOUNTER_ENGINEER_SALVAGE\"]/text"
 msgstr ""
 "Un vaisseau ingénieur à cette balise est occupé à réparer un Auto-vaisseau "
 "endommagé. Dès qu'ils vous voient, ils abandonnent l'épave et attaquent."
 
-#: src-en/data/events_sector_auto.xml:1253
+#: src-en/data/events_sector_auto.xml:1315
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"ENCOUNTER_ENGINEER_SALVAGE\"]/choice/text"
 msgstr "Continuer..."
 
-#: src-en/data/events_sector_auto.xml:1258
+#: src-en/data/events_sector_auto.xml:1320
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"ENCOUNTER_ENGINEER_SALVAGE_WIN\"]/text"
 msgstr "Vous mettez à la ferraille ce qui reste de l'épave automatisée."
 
-#: src-en/data/events_sector_auto.xml:1270
+#: src-en/data/events_sector_auto.xml:1332
 msgid "data/events_sector_auto.xml$//event[@name=\"ENCOUNTER_AUTO_ELITE\"]/text"
-msgstr ""
-"Un Auto-vaisseau rebelle avance vers vous avec une intention claire, et bien "
-"que les Auto-vaisseaux hostiles soient (malheureusement) une occurrence "
-"normale pour vous, celui-ci n'a pas une forme habituelle. Sa silhouette "
-"élégante et impeccable suggère qu'il s'agit de l'un des automates les plus "
-"raffinés produits au cœur de Wentworth Innovations. Postes de combat !"
+msgstr "Un Auto-vaisseau rebelle avance vers vous avec une intention claire et bien que les Auto-vaisseaux hostiles soient (malheureusement) une occurrence normale pour vous, celui-ci n'a pas une forme habituelle. Sa silhouette élégante et impeccable suggère qu'il s'agit de l'un des automates les plus raffinés produits au cœur de Wentworth Innovations. Postes de combat !"
 
-#: src-en/data/events_sector_auto.xml:1273
+#: src-en/data/events_sector_auto.xml:1335
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"ENCOUNTER_AUTO_ELITE\"]/choice/text"
 msgstr "Continuer..."
 
-#: src-en/data/events_sector_auto.xml:1287
+#: src-en/data/events_sector_auto.xml:1349
 msgid "data/events_sector_auto.xml$//event[@name=\"AUTO_ENGINEER_MISTAKE\"]/text"
 msgstr ""
 "Un vaisseau ingénieur endommagé orbite autour de cette balise. Il semble "
 "toujours fonctionnel et un seul drone de réparation de coque répare une "
-"partie des dommages."
+"partie des dégâts."
 
-#: src-en/data/events_sector_auto.xml:1290
+#: src-en/data/events_sector_auto.xml:1352
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_ENGINEER_MISTAKE\"]/choice[1]/text"
 msgstr "Les contacter."
 
-#: src-en/data/events_sector_auto.xml:1292
+#: src-en/data/events_sector_auto.xml:1354
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_ENGINEER_MISTAKE\"]/choice[1]/event/text"
 msgstr ""
 "\"Ugh, vous n'êtes pas là pour nous tuer, n'est-ce pas ?\" Vous secouez la "
 "tête. \"Oh, tant mieux. Dans ce cas, peut-être pourriez-vous nous aider. "
 "Nous avons eu un problème avec un prototype cognitif sur lequel nous "
-"travaillions. Après l'incident du Voayageur Libre, la Rébellion a interdit "
+"travaillions. Après l'incident du Voyageur Libre, la Rébellion a interdit "
 "toutes les tentatives de création d'une IA de vaisseau entièrement "
-"consciente. Nous euh... nous avons enfreint cette règle, et c'était une "
-"terrible erreur. Maintenant, l'Auto-vaisseau s'est échappé. Vous ne pourriez "
-"pas le traquer et le détruire, par hasard ? Nous ne pouvons pas laisser le "
+"consciente. Nous euh... nous avons enfreint cette règle et c'était une "
+"terrible erreur. Maintenant, l'Auto-vaisseau s'est échappé. Vous ne pourriez"
+" pas le traquer et le détruire, par hasard ? Nous ne pouvons pas laisser le "
 "commandement être informé de cette erreur...\""
 
-#: src-en/data/events_sector_auto.xml:1297
+#: src-en/data/events_sector_auto.xml:1359
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_ENGINEER_MISTAKE\"]/choice[2]/text"
 msgstr "Abattez le vaisseau."
 
-#: src-en/data/events_sector_auto.xml:1299
+#: src-en/data/events_sector_auto.xml:1361
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_ENGINEER_MISTAKE\"]/choice[2]/event/text"
 msgstr "Ces types sont une cible facile. Vous chauffez vos armes."
 
-#: src-en/data/events_sector_auto.xml:1302
+#: src-en/data/events_sector_auto.xml:1364
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_ENGINEER_MISTAKE\"]/choice[2]/event/choice/text"
 msgstr "Continuer..."
 
-#: src-en/data/events_sector_auto.xml:1308
+#: src-en/data/events_sector_auto.xml:1370
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_ENGINEER_MISTAKE\"]/choice[3]/text"
 msgstr "Ignorer le vaisseau."
 
-#: src-en/data/events_sector_auto.xml:1310
+#: src-en/data/events_sector_auto.xml:1372
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_ENGINEER_MISTAKE\"]/choice[3]/event/text"
 msgstr ""
 "L'ingénieur ne tente pas de vous contacter en retour. Par précaution, vous "
 "mettez un peu de distance entre vos vaisseaux."
 
-#: src-en/data/events_sector_auto.xml:1312
+#: src-en/data/events_sector_auto.xml:1374
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_ENGINEER_MISTAKE\"]/choice[3]/event/choice[1]/text"
 msgstr "Faire quelque chose à bord du vaisseau."
 
-#: src-en/data/events_sector_auto.xml:1316
+#: src-en/data/events_sector_auto.xml:1378
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_ENGINEER_MISTAKE\"]/choice[3]/event/choice[2]/text"
 msgstr "Ne rien faire."
 
-#: src-en/data/events_sector_auto.xml:1329
+#: src-en/data/events_sector_auto.xml:1391
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_ENGINEER_MISTAKE_QUEST\"]/beaconType/unvisitedTooltip"
 msgstr "Emplacement du rebelle dissident cognitif."
 
-#: src-en/data/events_sector_auto.xml:1330
+#: src-en/data/events_sector_auto.xml:1392
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_ENGINEER_MISTAKE_QUEST\"]/beaconType/visitedTooltip"
 msgstr "Emplacement déjà exploré. Il n'y reste rien d'intéressant."
 
-#: src-en/data/events_sector_auto.xml:1333
+#: src-en/data/events_sector_auto.xml:1395
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_ENGINEER_MISTAKE_QUEST\"]/text"
 msgstr ""
@@ -1942,249 +1999,249 @@ msgstr ""
 "massive grouillante de pirates. Un endroit idéal pour trouver une IA "
 "rebelle, mais pas facile à fouiller."
 
-#: src-en/data/events_sector_auto.xml:1336
+#: src-en/data/events_sector_auto.xml:1398
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_ENGINEER_MISTAKE_QUEST\"]/choice[1]/text"
 msgstr "Atterrissez et interrogez les alentours."
 
-#: src-en/data/events_sector_auto.xml:1338
+#: src-en/data/events_sector_auto.xml:1400
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_ENGINEER_MISTAKE_QUEST\"]/choice[1]/event/text"
 msgstr ""
 "Heureusement, les pirates ne semblent pas vraiment se soucier du fait que "
 "vous êtes un officier de la Fédération. Vivre si près de l'espace rebelle, "
-"c'est probablement un changement de rythme agréable. Cependant, demander des "
-"informations sur une IA cognitive produit des résultats confus. La plupart "
+"c'est probablement un changement de rythme agréable. Cependant, demander des"
+" informations sur une IA cognitive produit des résultats confus. La plupart "
 "des gens n'ont aucune idée de ce qu'est un Cognitif et la plupart vous "
 "dirigent vers le roi de la ville."
 
-#: src-en/data/events_sector_auto.xml:1340
+#: src-en/data/events_sector_auto.xml:1402
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_ENGINEER_MISTAKE_QUEST\"]/choice[1]/event/choice/text"
 msgstr "Allez voir le roi."
 
-#: src-en/data/events_sector_auto.xml:1342
+#: src-en/data/events_sector_auto.xml:1404
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_ENGINEER_MISTAKE_QUEST\"]/choice[1]/event/choice/event/text"
 msgstr ""
 "Tu franchis le seuil d'une immense tour bricolée à partir de conteneurs de "
-"cargaison assemblés et de coques de navires rebelles recyclés. Au centre "
+"cargaison assemblés et de coques de vaisseaux rebelles recyclés. Au centre "
 "trône un siège sur lequel repose un homme corpulent coiffé d'un chapeau en "
 "papier noir, te fixant du regard. Il n'est pas particulièrement imposant, à "
 "part peut-être pour la scie circulaire qui semble avoir remplacé sa main "
 "gauche. \"J'vois qu't'as trouvé ton ch'min jusqu'à moi dans m'mon domaine. "
 "Bienvenue, moussaillon !\""
 
-#: src-en/data/events_sector_auto.xml:1344
+#: src-en/data/events_sector_auto.xml:1406
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_ENGINEER_MISTAKE_QUEST\"]/choice[1]/event/choice/event/choice/text"
 msgstr "Continuer..."
 
-#: src-en/data/events_sector_auto.xml:1346
+#: src-en/data/events_sector_auto.xml:1408
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_ENGINEER_MISTAKE_QUEST\"]/choice[1]/event/choice/event/choice/event/text"
 msgstr ""
 "L'homme se 'lève' révélant qu'en réalité, il n'a pas de pieds, mais plutôt "
 "une série de chenilles. Il roule vers vous et il devient évident que ce "
-"n'est pas un homme du tout mais plutôt un Docteur Drone brinquebalant. \"Arg"
-", j'suis le Capitaine 3NF01R3, à vot' service. Comment puis-je vous aider, "
-"moussaillon ?\" Le drone tend sa main gauche pour te serrer la tienne avant "
-"de se rappeler de sa situation et de la cacher rapidement derrière son dos "
-"puis d'étendre sa main droite à la place. Sont bras droit est en fait un "
-"bras canon provenant d'un Drone d'abordage, beaucoup moins imposant mais "
-"toujours préoccupant."
+"n'est pas un homme du tout mais plutôt un Docteur Drone brinquebalant. "
+"\"Arg, j'suis le Cap'taine 3NF01R3, à vot' service. Comment puis-je vous "
+"aider, moussaillon ?\" Le drone tend sa main gauche pour te serrer la tienne"
+" avant de se rappeler de sa situation et de la cacher rapidement derrière "
+"son dos puis d'étendre sa main droite à la place. Sont bras droit est en "
+"fait un bras canon provenant d'un Drone d'abordage, beaucoup moins imposant "
+"mais toujours préoccupant."
 
-#: src-en/data/events_sector_auto.xml:1348
+#: src-en/data/events_sector_auto.xml:1410
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_ENGINEER_MISTAKE_QUEST\"]/choice[1]/event/choice/event/choice/event/choice[1]/text"
 msgstr "Serrer sa \"main\"."
 
-#: src-en/data/events_sector_auto.xml:1352
+#: src-en/data/events_sector_auto.xml:1414
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_ENGINEER_MISTAKE_QUEST\"]/choice[1]/event/choice/event/choice/event/choice[2]/text"
 msgstr "Passez directement aux choses sérieuses."
 
-#: src-en/data/events_sector_auto.xml:1362
+#: src-en/data/events_sector_auto.xml:1424
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_ENGINEER_MISTAKE_QUEST\"]/choice[2]/text"
 msgstr "Évitez la ville."
 
-#: src-en/data/events_sector_auto.xml:1364
+#: src-en/data/events_sector_auto.xml:1426
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_ENGINEER_MISTAKE_QUEST\"]/choice[2]/event/text"
 msgstr ""
 "Cette mission ne vaut pas la peine de réveiller une ville entière de "
 "pirates. Vous vous éloignez de la ville."
 
-#: src-en/data/events_sector_auto.xml:1366
+#: src-en/data/events_sector_auto.xml:1428
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_ENGINEER_MISTAKE_QUEST\"]/choice[2]/event/choice[1]/text"
 msgstr "Faire quelque chose à bord du vaisseau."
 
-#: src-en/data/events_sector_auto.xml:1370
+#: src-en/data/events_sector_auto.xml:1432
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_ENGINEER_MISTAKE_QUEST\"]/choice[2]/event/choice[2]/text"
 msgstr "Ne rien faire."
 
-#: src-en/data/events_sector_auto.xml:1377
+#: src-en/data/events_sector_auto.xml:1439
 msgid "data/events_sector_auto.xml$//event[@name=\"A55_HANDSHAKE\"]/text"
 msgstr ""
 "Vous attrapez avec précaution son bras-canon et le secouez quelques fois de "
 "haut en bas. \"Arg, sacrée poigne qu't'as là, moussaillon ! Bon, y'a "
 "sûrement une raison pour qu'la Fédération vienne fouiner par ici.\""
 
-#: src-en/data/events_sector_auto.xml:1380
+#: src-en/data/events_sector_auto.xml:1442
 msgid "data/events_sector_auto.xml$//event[@name=\"A55_HANDSHAKE\"]/choice/text"
 msgstr "Expliquez pourquoi vous êtes ici."
 
-#: src-en/data/events_sector_auto.xml:1385
+#: src-en/data/events_sector_auto.xml:1447
 msgid "data/events_sector_auto.xml$//event[@name=\"A55_FIGHT\"]/text"
 msgstr ""
 "Il ne faut pas être un génie pour réaliser que c'est bien le cognitif en "
-"question et tu ne perds pas de temps à lui expliquer la situation. \"Hmm. Ça "
-"a l'air sérieux, moussaillon. Tu comprends sûrement que j'vais pas juste "
+"question et tu ne perds pas de temps à lui expliquer la situation. \"Hmm. Ça"
+" a l'air sérieux, moussaillon. Tu comprends sûrement que j'vais pas juste "
 "m'm'évaporer d'ici avec toi.\""
 
-#: src-en/data/events_sector_auto.xml:1387
+#: src-en/data/events_sector_auto.xml:1449
 msgid "data/events_sector_auto.xml$//event[@name=\"A55_FIGHT\"]/choice[1]/text"
 msgstr "Alors nous avons une impasse, n'est-ce pas ?"
 
-#: src-en/data/events_sector_auto.xml:1389
+#: src-en/data/events_sector_auto.xml:1451
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"A55_FIGHT\"]/choice[1]/event/text"
 msgstr ""
-"\"Arg, il semblerait bien.\" A55 fait de son mieux pour applaudir, puis "
+"\"Arg, il semblerait bien.\" 3NF fait de son mieux pour applaudir, puis "
 "siffle. Quelques secondes plus tard, un énorme Auto-Cuirassé lourd vient en "
 "tournoyant à travers un trou dans le plafond de la gigantesque salle du "
 "trône. \"Dernière chance, moussaillon. J'veux pas causer d'bain d'sang "
 "aujourd'hui.\""
 
-#: src-en/data/events_sector_auto.xml:1392
+#: src-en/data/events_sector_auto.xml:1454
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"A55_FIGHT\"]/choice[1]/event/choice[1]/text"
-msgstr "Se préparer au combat !"
+msgstr "Se préparer à combattre !"
 
-#: src-en/data/events_sector_auto.xml:1394
+#: src-en/data/events_sector_auto.xml:1456
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"A55_FIGHT\"]/choice[1]/event/choice[1]/event/text"
 msgstr ""
-"Curieusement, le gigantesque vaisseau d'A55 ne tente pas de vous combattre "
-"tant que vous n'êtes pas dans votre croiseur bien qu'il aurait pu facilement "
-"anéantir votre équipage pendant la fuite. Vous n'avez pas le temps de vous "
+"Curieusement, le gigantesque vaisseau d'3NF ne tente pas de vous combattre "
+"tant que vous n'êtes pas dans votre croiseur bien qu'il aurait pu facilement"
+" anéantir votre équipage pendant la fuite. Vous n'avez pas le temps de vous "
 "pencher davantage sur cette étrange décision, c'est l'heure de combattre !"
 
-#: src-en/data/events_sector_auto.xml:1397
+#: src-en/data/events_sector_auto.xml:1459
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"A55_FIGHT\"]/choice[1]/event/choice[1]/event/choice/text"
 msgstr "Continuer..."
 
-#: src-en/data/events_sector_auto.xml:1403
+#: src-en/data/events_sector_auto.xml:1465
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"A55_FIGHT\"]/choice[1]/event/choice[2]/text"
 msgstr "Partir."
 
-#: src-en/data/events_sector_auto.xml:1409
+#: src-en/data/events_sector_auto.xml:1471
 msgid "data/events_sector_auto.xml$//event[@name=\"A55_FIGHT\"]/choice[2]/text"
-msgstr "Le laisser tranquile."
+msgstr "Le laisser tranquille."
 
-#: src-en/data/events_sector_auto.xml:1411
+#: src-en/data/events_sector_auto.xml:1473
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"A55_FIGHT\"]/choice[2]/event/text"
 msgstr ""
-"Vous vous retournez et sortez de la pièce. A55 vous regarde partir avec un "
+"Vous vous retournez et sortez de la pièce. 3NF vous regarde partir avec un "
 "léger amusement et une certaine confusion."
 
-#: src-en/data/events_sector_auto.xml:1416
+#: src-en/data/events_sector_auto.xml:1478
 msgid "data/events_sector_auto.xml$//event[@name=\"A55_DEFEAT\"]/text"
 msgstr ""
 "Soudain, le Cuirassé lourd s'éteint, tombant au sol. Au loin approchent les "
 "ingénieurs rencontrés plus tôt, venus récupérer leur IA. Tu n'as pas le "
-"temps de les contacter avant de recevoir un autre appel d'A55. \"S'te plaît, "
-"moussaillon, ne me balance pas. Ils vont me démanteler et me mettre hors "
-"ligne ! Ce n'est pas un sort digne d'un pirate, arg !\""
+"temps de les contacter avant de recevoir un autre appel de 3NF. \"S'te "
+"plaît, moussaillon, ne me balance pas. Ils vont me démanteler et me mettre "
+"hors ligne ! Ce n'est pas un sort digne d'un pirate, arr !\""
 
-#: src-en/data/events_sector_auto.xml:1420
+#: src-en/data/events_sector_auto.xml:1482
 msgid "data/events_sector_auto.xml$//event[@name=\"A55_DEFEAT\"]/choice[1]/text"
-msgstr "Remettre A55."
+msgstr "Remettre 3NF."
 
-#: src-en/data/events_sector_auto.xml:1422
+#: src-en/data/events_sector_auto.xml:1484
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"A55_DEFEAT\"]/choice[1]/event/text"
 msgstr ""
-"Tu attrapes le drone médecin et le traînes jusqu'aux ingénieurs. \"Il s'est "
-"intégré dans un nouveau châssis ? Incroyable ! C'est dommage qu'on doive le "
-"détruire mais au moins ce drone fera un trophée impressionnant. Ne parlez de "
-"ça à personne.\""
+"Vous attrapez le drone médecin et le traînez jusqu'aux ingénieurs. \"Il "
+"s'est intégré dans un nouveau châssis ? Incroyable ! C'est dommage qu'on "
+"doive le détruire mais au moins ce drone fera un trophée impressionnant. Ne "
+"parlez de ça à personne.\""
 
-#: src-en/data/events_sector_auto.xml:1427
+#: src-en/data/events_sector_auto.xml:1489
 msgid "data/events_sector_auto.xml$//event[@name=\"A55_DEFEAT\"]/choice[2]/text"
-msgstr "Mentez aux ingénieurs, dites-leur que l'Auto-vaisseau est A55."
+msgstr "Mentez aux ingénieurs, dites-leur que l'Auto-vaisseau est un 3NF."
 
-#: src-en/data/events_sector_auto.xml:1429
+#: src-en/data/events_sector_auto.xml:1491
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"A55_DEFEAT\"]/choice[2]/event/text"
 msgstr ""
-"A55 se cache pendant que tu informes les ingénieurs à propos de l'Auto-"
-"vaisseau, qu'ils scannent brièvement. L'ingénieur fronce les sourcils : \"Huh"
-", je vois des traces de sa programmation ici, mais il semble que le cœur a "
-"migré vers un nouveau châssis. Ça doit être une diversion, on va devoir "
-"continuer à chercher. Voilà votre paiement ou quelque chose du genre. Ne "
-"parlez de ça à personne.\""
+"3NF se cache pendant que tu informes les ingénieurs à propos de l'Auto-"
+"vaisseau, qu'ils scannent brièvement. L'ingénieur fronce les sourcils : "
+"\"Huh, je vois des traces de sa programmation ici, mais il semble que le "
+"cœur a migré vers un nouveau châssis. Ça doit être une diversion, on va "
+"devoir continuer à chercher. Voilà votre paiement ou quelque chose du genre."
+" Ne parlez de ça à personne.\""
 
-#: src-en/data/events_sector_auto.xml:1432
+#: src-en/data/events_sector_auto.xml:1494
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"A55_DEFEAT\"]/choice[2]/event/choice[@req=\"loc_a55_handshake\""
 " and @lvl=\"0\"]/text"
 msgstr "Continuer..."
 
-#: src-en/data/events_sector_auto.xml:1434
+#: src-en/data/events_sector_auto.xml:1496
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"A55_DEFEAT\"]/choice[2]/event/choice[@req=\"loc_a55_handshake\""
 " and @lvl=\"0\"]/event/text"
 msgstr ""
-"\"Merci, moussaillon. Arg, même si t'as choisi d'essayer de m'assassiner y'a "
-"quelques minutes, ton cœur est clairement à la bonne place, gamin. J'sens "
+"\"Merci, moussaillon. Arg, même si t'as choisi d'essayer de m'assassiner y'a"
+" quelques minutes, ton cœur est clairement à la bonne place, gamin. J'sens "
 "que mon temps ici en tant que roi risque d'être de courte durée, ces "
 "ingénieurs reviendront. Mais vu que je me prépare à partir, prends ceci.\""
 
-#: src-en/data/events_sector_auto.xml:1439
+#: src-en/data/events_sector_auto.xml:1501
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"A55_DEFEAT\"]/choice[2]/event/choice[@req=\"loc_a55_handshake\""
 " and @lvl=\"1\"]/text"
 msgstr "Continuer..."
 
-#: src-en/data/events_sector_auto.xml:1441
+#: src-en/data/events_sector_auto.xml:1503
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"A55_DEFEAT\"]/choice[2]/event/choice[@req=\"loc_a55_handshake\""
 " and @lvl=\"1\"]/event/text"
 msgstr ""
-"\"Merci, moussaillon. Arg, même si t'as choisi d'essayer de m'assassiner y'a "
-"quelques minutes, ton cœur est clairement à la bonne place, gamin. J'sens "
+"\"Merci, moussaillon. Arg, même si t'as choisi d'essayer de m'assassiner y'a"
+" quelques minutes, ton cœur est clairement à la bonne place, gamin. J'sens "
 "que mon temps ici en tant que roi risque d'être de courte durée, ces "
 "ingénieurs reviendront. Je pense que je vais venir avec toi, dans l'espoir "
-"de voir un jour un avenir sans Rebelles. Laisse-moi t'envoyer quelques scans "
-"d'mon vaisseau - pas celui que t'as détruit, mais un que j'ai pillé des "
+"de voir un jour un avenir sans Rebelles. Laisse-moi t'envoyer quelques scans"
+" d'mon vaisseau - pas celui que t'as détruit, mais un que j'ai pillé des "
 "bases de données rebelles y'a quelques temps.\""
 
-#: src-en/data/events_sector_auto.xml:1458
+#: src-en/data/events_sector_auto.xml:1520
 msgid ""
 "data/events_sector_auto.xml$//ship[@name=\"SHIP_ENGINEER_MOTHERSHIP\"]/triggeredEvent/triggeredEventBox/tooltip"
 msgstr ""
 "Le réacteur explosera dans ce laps de temps. Rien ne peut l'arrêter, donc "
 "assure-toi de sauter loin ou de terminer le combat avant d'atteindre 0 !"
 
-#: src-en/data/events_sector_auto.xml:1464
+#: src-en/data/events_sector_auto.xml:1526
 msgid "data/events_sector_auto.xml$//event[@name=\"AUTO_POWERCORE\"]/text"
 msgstr ""
 "Il semble qu'un grand générateur ait été sculpté sur la face d'une planète "
 "enneigée toute proche. C'est un véritable spectacle, mais quelque chose ne "
 "va pas..."
 
-#: src-en/data/events_sector_auto.xml:1468
+#: src-en/data/events_sector_auto.xml:1530
 msgid "data/events_sector_auto.xml$//event[@name=\"AUTO_POWERCORE\"]/choice/text"
 msgstr "Continuer..."
 
-#: src-en/data/events_sector_auto.xml:1470
+#: src-en/data/events_sector_auto.xml:1532
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_POWERCORE\"]/choice/event/text"
 msgstr ""
@@ -2194,98 +2251,98 @@ msgstr ""
 "immédiatement. Défaillance catastrophique du réacteur imminente. Il reste "
 "environ 3 minutes avant l'effondrement.\""
 
-#: src-en/data/events_sector_auto.xml:1473
+#: src-en/data/events_sector_auto.xml:1535
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_POWERCORE\"]/choice/event/choice[1]/text"
 msgstr ""
-"Il reste du temps, passez voir et essayez de récupérer quelques provisions."
+"Il reste du temps, passez voir et essayez de récupérer quelques ressources."
 
-#: src-en/data/events_sector_auto.xml:1475
+#: src-en/data/events_sector_auto.xml:1537
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_POWERCORE\"]/choice/event/choice[1]/event/text"
 msgstr ""
-"Alors que tu t'apprêtes à récupérer des débris, tu es arrêté par un grand "
-"vaisseau Ingénieurs. \"Maudits pirates ! On vous a dit de dégager d'ici !\" "
-"Bien que le vaisseau s'approche pour te chasser, tu ne peux t'empêcher de "
-"remarquer que le compte à rebours du réacteur continue toujours et tu "
-"supposes que les ingénieurs doivent le savoir aussi."
+"Alors que vous vous apprêtez à récupérer des débris, vous êtes arrêté par un"
+" grand vaisseau Ingénieurs. \"Maudits pirates ! On vous a dit de dégager "
+"d'ici !\" Bien que le vaisseau s'approche pour vous chasser, vous ne pouvez "
+"vous empêcher de remarquer que le compte à rebours du réacteur continue "
+"toujours et vous supposez que les ingénieurs doivent le savoir aussi."
 
-#: src-en/data/events_sector_auto.xml:1478
+#: src-en/data/events_sector_auto.xml:1540
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_POWERCORE\"]/choice/event/choice[1]/event/choice/text"
 msgstr "Continuer..."
 
-#: src-en/data/events_sector_auto.xml:1484
+#: src-en/data/events_sector_auto.xml:1546
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_POWERCORE\"]/choice/event/choice[2]/text"
 msgstr "Respecter l'avertissement et partir."
 
-#: src-en/data/events_sector_auto.xml:1491
+#: src-en/data/events_sector_auto.xml:1553
 msgid "data/events_sector_auto.xml$//event[@name=\"AUTO_POWERCORE_ESCAPE\"]/text"
 msgstr ""
 "Soudain, le vaisseau des ingénieurs saute brusquement, ils ont dû utiliser "
-"un moteur MV, vous laissant seul avec le cœur énergétique. Vous recevez un "
-"autre avertissement du cœur. \"Attention : L'instabilité du réacteur a "
-"atteint 99 %. Destruction imminente. Évacuez immédiatement. 3 secondes "
-"estimées avant l'effondrement.\""
+"un moteur multiversel, vous laissant seul avec le noyau d'énergie. Vous "
+"recevez un autre avertissement du cœur. \"Attention : L'instabilité du "
+"réacteur a atteint 99%. Destruction imminente. Évacuez immédiatement. 3 "
+"secondes estimées avant l'effondrement.\""
 
-#: src-en/data/events_sector_auto.xml:1494
+#: src-en/data/events_sector_auto.xml:1556
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_POWERCORE_ESCAPE\"]/choice[1]/text"
 msgstr "Merde."
 
-#: src-en/data/events_sector_auto.xml:1498
+#: src-en/data/events_sector_auto.xml:1560
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_POWERCORE_ESCAPE\"]/choice[@req=\"engines\""
 " and @lvl=\"4\"]/text"
-msgstr "(Moteur amélioré) Dégagez de là au plus vite."
+msgstr "(Moteurs améliorés) Dégager de là au plus vite."
 
-#: src-en/data/events_sector_auto.xml:1502
+#: src-en/data/events_sector_auto.xml:1564
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_POWERCORE_ESCAPE\"]/choice[@req=\"engines\""
 " and @lvl=\"7\"]/text"
-msgstr "(Moteur avancé) Dégagez de là au plus vite."
+msgstr "(Moteurs de pointe) Dégager de là au plus vite."
 
-#: src-en/data/events_sector_auto.xml:1507
+#: src-en/data/events_sector_auto.xml:1569
 msgid "data/events_sector_auto.xml$//event[@name=\"AUTO_POWERCORE_DEFEAT\"]/text"
 msgstr ""
 "Vous avez vaincu le vaisseau ingénieur, mais cette victoire ne durera pas "
-"longtemps. Vous recevez un nouvel avertissement du noyau : \"Avertissement : "
-"L'instabilité du réacteur a atteint 99%. La destruction est imminente. "
+"longtemps. Vous recevez un nouvel avertissement du noyau : \"Avertissement :"
+" L'instabilité du réacteur a atteint 99%. La destruction est imminente. "
 "Evacuez immédiatement. Il reste environ 3 secondes avant l'effondrement.\""
 
-#: src-en/data/events_sector_auto.xml:1510
+#: src-en/data/events_sector_auto.xml:1572
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_POWERCORE_DEFEAT\"]/choice[1]/text"
 msgstr "Merde."
 
-#: src-en/data/events_sector_auto.xml:1514
+#: src-en/data/events_sector_auto.xml:1576
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_POWERCORE_DEFEAT\"]/choice[@req=\"engines\""
 " and @lvl=\"4\"]/text"
-msgstr "(Moteur amélioré) Dégagez de là au plus vite."
+msgstr "(Moteurs améliorés) Dégager de là au plus vite."
 
-#: src-en/data/events_sector_auto.xml:1518
+#: src-en/data/events_sector_auto.xml:1580
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_POWERCORE_DEFEAT\"]/choice[@req=\"engines\""
 " and @lvl=\"7\"]/text"
-msgstr "(Moteur avancé) Dégagez de là au plus vite."
+msgstr "(Moteurs de pointe) Dégager de là au plus vite."
 
-#: src-en/data/events_sector_auto.xml:1523
+#: src-en/data/events_sector_auto.xml:1585
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_POWERCORE_ALMOSTBOOM\"]/text"
 msgstr ""
-"Le vaisseau ingénieur a subi des dommages critiques. Avant que vous ne "
+"Le vaisseau ingénieur a subi des dégâts critiques. Avant que vous ne "
 "puissiez effectuer un tir de finition, vous êtes interrompu par une autre "
 "alarme : \"Attention : L'instabilité du réacteur a atteint 97%. Evacuez les "
 "lieux immédiatement. Il reste environ 1 minute avant l'effondrement.\""
 
-#: src-en/data/events_sector_auto.xml:1526
+#: src-en/data/events_sector_auto.xml:1588
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_POWERCORE_ALMOSTBOOM\"]/choice[1]/text"
 msgstr "Demander aux ingénieurs de cesser de se battre."
 
-#: src-en/data/events_sector_auto.xml:1528
+#: src-en/data/events_sector_auto.xml:1590
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_POWERCORE_ALMOSTBOOM\"]/choice[1]/event/text"
 msgstr ""
@@ -2295,16 +2352,16 @@ msgstr ""
 "interrompus par un autre avertissement : \"Avertissement : L'instabilité du "
 "réacteur a atteint un niveau critique. Destruction imminente, évacuation "
 "obligatoire. Temps restant : indéterminé. Répétez : réacteur...\" Le message"
-" continue de tourner en boucle, et il semble que ce soit un bon "
+" continue de tourner en boucle et il semble que ce soit un bon "
 "avertissement. Il y a sûrement quelque chose à faire pour arrêter "
 "l'explosion ?"
 
-#: src-en/data/events_sector_auto.xml:1530
+#: src-en/data/events_sector_auto.xml:1592
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_POWERCORE_ALMOSTBOOM\"]/choice[1]/event/choice[1]/text"
-msgstr "Envoyez votre équipage pour réparer le réacteur, et vite !"
+msgstr "Envoyez votre équipage pour réparer le réacteur et vite !"
 
-#: src-en/data/events_sector_auto.xml:1532
+#: src-en/data/events_sector_auto.xml:1594
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_POWERCORE_ALMOSTBOOM\"]/choice[1]/event/choice[1]/event/text"
 msgstr ""
@@ -2314,84 +2371,84 @@ msgstr ""
 "lisibles. Appuyer sur l'un d'entre eux pourrait sauver la situation, mais "
 "vous ne savez pas lequel."
 
-#: src-en/data/events_sector_auto.xml:1535
+#: src-en/data/events_sector_auto.xml:1597
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_POWERCORE_ALMOSTBOOM\"]/choice[1]/event/choice[1]/event/choice[1]/text"
 msgstr "Appuyer sur le gros bouton rouge."
 
-#: src-en/data/events_sector_auto.xml:1537
+#: src-en/data/events_sector_auto.xml:1599
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_POWERCORE_ALMOSTBOOM\"]/choice[1]/event/choice[1]/event/choice[1]/event/text"
 msgstr ""
 "Votre équipage ouvre le boîtier de protection et appuie sur le bouton aussi "
 "vite qu'il le peut. Il ne reste plus qu'à espérer que cela ait fonctionné..."
 
-#: src-en/data/events_sector_auto.xml:1539
+#: src-en/data/events_sector_auto.xml:1601
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_POWERCORE_ALMOSTBOOM\"]/choice[1]/event/choice[1]/event/choice[1]/event/choice/text"
 msgstr "Continuer..."
 
-#: src-en/data/events_sector_auto.xml:1545
+#: src-en/data/events_sector_auto.xml:1607
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_POWERCORE_ALMOSTBOOM\"]/choice[1]/event/choice[1]/event/choice[2]/text"
 msgstr "Appuyer sur le petit bouton bleu."
 
-#: src-en/data/events_sector_auto.xml:1547
+#: src-en/data/events_sector_auto.xml:1609
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_POWERCORE_ALMOSTBOOM\"]/choice[1]/event/choice[1]/event/choice[2]/event/text"
 msgstr ""
 "Votre équipage ouvre le boîtier de protection et appuie sur le bouton aussi "
 "vite qu'il le peut. Il ne reste plus qu'à espérer que cela ait fonctionné..."
 
-#: src-en/data/events_sector_auto.xml:1549
+#: src-en/data/events_sector_auto.xml:1611
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_POWERCORE_ALMOSTBOOM\"]/choice[1]/event/choice[1]/event/choice[2]/event/choice/text"
 msgstr "Continuer..."
 
-#: src-en/data/events_sector_auto.xml:1555
+#: src-en/data/events_sector_auto.xml:1617
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_POWERCORE_ALMOSTBOOM\"]/choice[1]/event/choice[1]/event/choice[3]/text"
 msgstr "Appuyer sur le carré vert."
 
-#: src-en/data/events_sector_auto.xml:1557
+#: src-en/data/events_sector_auto.xml:1619
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_POWERCORE_ALMOSTBOOM\"]/choice[1]/event/choice[1]/event/choice[3]/event/text"
 msgstr ""
 "Votre équipage ouvre le boîtier de protection et appuie sur le bouton aussi "
 "vite qu'il le peut. Il ne reste plus qu'à espérer que cela ait fonctionné..."
 
-#: src-en/data/events_sector_auto.xml:1559
+#: src-en/data/events_sector_auto.xml:1621
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_POWERCORE_ALMOSTBOOM\"]/choice[1]/event/choice[1]/event/choice[3]/event/choice/text"
 msgstr "Continuer..."
 
-#: src-en/data/events_sector_auto.xml:1565
+#: src-en/data/events_sector_auto.xml:1627
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_POWERCORE_ALMOSTBOOM\"]/choice[1]/event/choice[1]/event/choice[@req=\"EXTRA_PREP\"]/text"
 msgstr "(Manuel d'urgence) Lisez le manuel."
 
-#: src-en/data/events_sector_auto.xml:1567
+#: src-en/data/events_sector_auto.xml:1629
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_POWERCORE_ALMOSTBOOM\"]/choice[1]/event/choice[1]/event/choice[@req=\"EXTRA_PREP\"]/event/text"
 msgstr ""
-"Vous parcourez rapidement le manuel, et bien sûr, dans la section "
-"\"Protocoles de prévention de l'explosion du cœur énergétique automatisé des "
+"Vous parcourez rapidement le manuel et bien sûr, dans la section "
+"\"Protocoles de prévention de l'explosion du noyau d'énergie automatisé des "
 "rebelles\", il est clairement indiqué d'appuyer sur le bouton rouge. Vous "
 "transmettez cette information à l'équipage, qui ouvre le boîtier de "
 "protection et appuie sur le bouton aussi vite qu'il le peut."
 
-#: src-en/data/events_sector_auto.xml:1569
+#: src-en/data/events_sector_auto.xml:1631
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_POWERCORE_ALMOSTBOOM\"]/choice[1]/event/choice[1]/event/choice[@req=\"EXTRA_PREP\"]/event/choice/text"
 msgstr "Continuer..."
 
-#: src-en/data/events_sector_auto.xml:1575
+#: src-en/data/events_sector_auto.xml:1637
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_POWERCORE_ALMOSTBOOM\"]/choice[1]/event/choice[1]/event/choice[@req=\"LIST_CREW_ENGINEER\"]/text"
 msgstr ""
-"(Membre d'équipage Ingénieur) Demandez à votre Ingénieur de vous aider."
+"(Membre d'équipage Ingénieur) Demander à votre Ingénieur de vous aider."
 
-#: src-en/data/events_sector_auto.xml:1577
+#: src-en/data/events_sector_auto.xml:1639
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_POWERCORE_ALMOSTBOOM\"]/choice[1]/event/choice[1]/event/choice[@req=\"LIST_CREW_ENGINEER\"]/event/text"
 msgstr ""
@@ -2401,42 +2458,42 @@ msgstr ""
 "vous transmettez cette information à l'équipe qui ouvre le boîtier de "
 "protection et enfonce le bouton aussi vite qu'elle le peut."
 
-#: src-en/data/events_sector_auto.xml:1579
+#: src-en/data/events_sector_auto.xml:1641
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_POWERCORE_ALMOSTBOOM\"]/choice[1]/event/choice[1]/event/choice[@req=\"LIST_CREW_ENGINEER\"]/event/choice/text"
 msgstr "Continuer..."
 
-#: src-en/data/events_sector_auto.xml:1587
+#: src-en/data/events_sector_auto.xml:1649
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_POWERCORE_ALMOSTBOOM\"]/choice[1]/event/choice[2]/text"
-msgstr "Partez, maintenant !"
+msgstr "Partir, maintenant !"
 
-#: src-en/data/events_sector_auto.xml:1589
+#: src-en/data/events_sector_auto.xml:1651
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_POWERCORE_ALMOSTBOOM\"]/choice[1]/event/choice[2]/event/text"
 msgstr ""
-"Vous allumez les moteurs et volez aussi loin que vous le pouvez, et vous "
-"regardez de loin le vaisseau mère être consumé par une explosion massive qui "
-"déchire la surface de la planète, laissant un cratère si grand que vous "
+"Vous allumez les moteurs et volez aussi loin que vous le pouvez et vous "
+"regardez de loin le vaisseau mère être consumé par une explosion massive qui"
+" déchire la surface de la planète, laissant un cratère si grand que vous "
 "pouvez le voir depuis l'autre côté du système. Vous vous rapprochez un peu "
 "et vous vous débarrassez de l'épave sur le bord extérieur, bien que le "
 "centre laisse échapper de fortes radiations et qu'il ne soit pas sûr de s'y "
 "rendre."
 
-#: src-en/data/events_sector_auto.xml:1596
+#: src-en/data/events_sector_auto.xml:1658
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_POWERCORE_ALMOSTBOOM\"]/choice[2]/text"
-msgstr "Continuez à vous battre jusqu'au bout."
+msgstr "Continuer à vous battre jusqu'au bout."
 
-#: src-en/data/events_sector_auto.xml:1601
+#: src-en/data/events_sector_auto.xml:1663
 msgid "data/events_sector_auto.xml$//event[@name=\"AUTO_POWERCORE_BIGBOOM\"]/text"
 msgstr ""
-"Une explosion foudroyante retentit dans tout le vaisseau alors qu'un brasier "
-"mortel consume le noyau d'énergie. Votre vaisseau est pris dans l'explosion "
-"et subit de lourds dommages. Vous vous envolez aussi vite que possible, vos "
+"Une explosion foudroyante retentit dans tout le vaisseau alors qu'un brasier"
+" mortel consume le noyau d'énergie. Votre vaisseau est pris dans l'explosion"
+" et subit de lourds dégâts. Vous vous envolez aussi vite que possible, vos "
 "moteurs brûlant au fur et à mesure que vous avancez."
 
-#: src-en/data/events_sector_auto.xml:1608
+#: src-en/data/events_sector_auto.xml:1670
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_POWERCORE_BIGBOOM_ESCAPE\"]/text"
 msgstr ""
@@ -2444,14 +2501,14 @@ msgstr ""
 "échappez à l'explosion initiale, mais la plupart des débris entrent tout de "
 "même en collision avec votre vaisseau, endommageant la coque."
 
-#: src-en/data/events_sector_auto.xml:1613
+#: src-en/data/events_sector_auto.xml:1675
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_POWERCORE_BIGBOOM_ESCAPE_GOOD\"]/text"
 msgstr ""
 "Vos moteurs perfectionnés sont en mesure de vous sortir de là à temps. Vous "
 "observez l'explosion à bonne distance."
 
-#: src-en/data/events_sector_auto.xml:1617
+#: src-en/data/events_sector_auto.xml:1679
 msgid "data/events_sector_auto.xml$//event[@name=\"AUTO_POWERCORE_SAVE\"]/text"
 msgstr ""
 "Un bip sonore retentit sur la console : \"Bouton de prévention de la fusion "
@@ -2459,12 +2516,12 @@ msgstr ""
 "réacteur est stabilisé\" Par un miracle incroyable, il semble que vous ayez "
 "arrêté l'explosion."
 
-#: src-en/data/events_sector_auto.xml:1620
+#: src-en/data/events_sector_auto.xml:1682
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_POWERCORE_SAVE\"]/choice/text"
 msgstr "Continuer..."
 
-#: src-en/data/events_sector_auto.xml:1622
+#: src-en/data/events_sector_auto.xml:1684
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_POWERCORE_SAVE\"]/choice/event/text"
 msgstr ""
@@ -2472,17 +2529,17 @@ msgstr ""
 "existait ! Vous nous avez tous sauvés... mais pourquoi ? Pourquoi risquer "
 "votre vie juste pour sauver une installation rebelle ?\""
 
-#: src-en/data/events_sector_auto.xml:1624
+#: src-en/data/events_sector_auto.xml:1686
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_POWERCORE_SAVE\"]/choice/event/choice/text"
 msgstr "Mon sens moral est légendaire."
 
-#: src-en/data/events_sector_auto.xml:1626
+#: src-en/data/events_sector_auto.xml:1688
 msgid ""
 "data/events_sector_auto.xml$//event[@name=\"AUTO_POWERCORE_SAVE\"]/choice/event/choice/event/text"
 msgstr ""
 "\"Peut-être que nous nous battons pour le mauvais camp... Quoi qu'il en "
 "soit, nous devons quitter cette installation immédiatement. Vance ne sera "
 "pas content que nous ayons laissé ce raid pirate presque détruire le "
-"réacteur et je doute qu'il nous laisse vivre cela. Je viens avec vous, et "
+"réacteur et je doute qu'il nous laisse vivre cela. Je viens avec vous et "
 "j'apporte tout ce que je peux avec moi.\""

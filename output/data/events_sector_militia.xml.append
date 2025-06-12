@@ -1332,7 +1332,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="MILITIA_TRAINIES" type="event">
+  <mod:findName name="MILITIA_TRAINEES" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
@@ -1341,7 +1341,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="MILITIA_TRAINIES" type="event">
+  <mod:findName name="MILITIA_TRAINEES" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true"/>
       <mod:findLike type="event">
@@ -1355,7 +1355,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="MILITIA_TRAINIES" type="event">
+  <mod:findName name="MILITIA_TRAINEES" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
@@ -1364,7 +1364,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="MILITIA_TRAINIES" type="event">
+  <mod:findName name="MILITIA_TRAINEES" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true"/>
       <mod:findLike type="event">
@@ -1579,8 +1579,8 @@
         <mod:findLike type="choice">
           <mod:selector hidden="true" req="BYPASS_AND_TELEPORT"/>
           <mod:findLike type="text">
-            <mod:selector>(Shield Bypass + Teleport) Overtake his crew before they can respond.</mod:selector>
-            <mod:setValue>(Shield Bypass + Teleport) Overtake his crew before they can respond.[INFO][NAME]autoReward[/NAME]Reward Standard(L)[/INFO][INFO]&lt;=[/INFO]</mod:setValue>
+            <mod:selector>(Bypass + Teleporter) Overtake his crew before they can respond.</mod:selector>
+            <mod:setValue>(Bypass + Teleporter) Overtake his crew before they can respond.[INFO][NAME]autoReward[/NAME]Reward Standard(L)[/INFO][INFO]&lt;=[/INFO]</mod:setValue>
           </mod:findLike>
         </mod:findLike>
       </mod:findLike>

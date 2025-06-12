@@ -1,0 +1,3690 @@
+#
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2025-06-02 22:50+0000\n"
+"Last-Translator: Ukn <bbg100bbg@gmail.com>\n"
+"Language-Team: Russian <https://weblate.hyperq.be/projects/ftl-multiverse/dataevents_sector_stargrovexml/ru/>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 5.11.4\n"
+
+#: src-en/data/events_sector_stargrove.xml:26
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_STARGROVE_STORM_REVISIT\"]/text"
+msgstr "Вы уже были здесь, и здесь больше нет ничего интересного."
+
+#: src-en/data/events_sector_stargrove.xml:29
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_STARGROVE_STORM_REVISIT\"]/choice[1]/text"
+msgstr "Заняться чем-либо на корабле."
+
+#: src-en/data/events_sector_stargrove.xml:33
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_STARGROVE_STORM_REVISIT\"]/choice[2]/text"
+msgstr "Ничего не делать."
+
+#: src-en/data/events_sector_stargrove.xml:39
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_SUN_REVISIT\"]/text"
+msgstr ""
+"Вы уже побывали здесь, и больше ничего интересного не осталось. Из-за солнца"
+" здесь слишком опасно что-то делать на борту корабля, вам придется уйти как "
+"можно скорее."
+
+#: src-en/data/events_sector_stargrove.xml:45
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_BLUEGIANT_REVISIT\"]/text"
+msgstr ""
+"Вы уже побывали здесь, и больше ничего интересного не осталось. Из-за солнца"
+" здесь слишком опасно что-то делать на борту корабля, вам придется уйти как "
+"можно скорее."
+
+#: src-en/data/events_sector_stargrove.xml:50
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_PULSAR_REVISIT\"]/text"
+msgstr ""
+"Вы уже побывали здесь, и больше ничего интересного не осталось. Из-за "
+"пульсара здесь слишком опасно что-то делать на борту корабля, вам придется "
+"уйти как можно быстрее."
+
+#: src-en/data/events_sector_stargrove.xml:56
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_ASTEROID_REVISIT\"]/text"
+msgstr ""
+"Вы уже были здесь, и больше ничего интересного не осталось. Из-за астероидов"
+" здесь слишком опасно что-то делать на борту корабля, вам придется уйти как "
+"можно быстрее."
+
+#: src-en/data/events_sector_stargrove.xml:62
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_GRAVASTAR_REVISIT\"]/text"
+msgstr ""
+"Вы уже были здесь, и больше ничего интересного не осталось. Из-за гравастара"
+" делать что-то на борту корабля слишком опасно, вам придется уйти как можно "
+"быстрее."
+
+#: src-en/data/events_sector_stargrove.xml:74
+msgid ""
+"data/events_sector_stargrove.xml$//ship[@name=\"SHIP_PIRATE_STARGROVE_HIGHWAYMAN\"]/destroyed/text"
+msgstr ""
+"Вы победили бандитов и смогли собрать с побежденного корабля большое "
+"количество лома."
+
+#: src-en/data/events_sector_stargrove.xml:78
+msgid ""
+"data/events_sector_stargrove.xml$//ship[@name=\"SHIP_PIRATE_STARGROVE_HIGHWAYMAN\"]/deadCrew/text"
+msgstr ""
+"На последнем издыхании бандит достает из какой-то пульт управления и "
+"нажимает кнопку. Вы слышите небольшой взрыв, и хотя корабль, похоже, не "
+"получил значительных повреждений, в конце концов вы обнаруживаете тлеющие "
+"обломки Предзажигателя. Несмотря на неудачу, вам все же удается извлечь из "
+"корабля большое количество лома, а также Упреждающее ионное оружие."
+
+#: src-en/data/events_sector_stargrove.xml:89
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"FINISH_BEACON_STARGROVE\"]/text"
+msgstr "Вы подошли к выходу..."
+
+#: src-en/data/events_sector_stargrove.xml:91
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"FINISH_BEACON_STARGROVE\"]/choice[@req=\"loc_highwayman\""
+" and @lvl=\"0\"]/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_stargrove.xml:95
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"FINISH_BEACON_STARGROVE\"]/choice[@req=\"loc_highwayman\""
+" and @lvl=\"1\"]/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_stargrove.xml:103
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_FINISH_BEACON_STARGROVE\"]/text"
+msgstr "Вы подошли к выходу..."
+
+#: src-en/data/events_sector_stargrove.xml:105
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_FINISH_BEACON_STARGROVE\"]/choice[@req=\"loc_highwayman\""
+" and @lvl=\"0\"]/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_stargrove.xml:109
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_FINISH_BEACON_STARGROVE\"]/choice[@req=\"loc_highwayman\""
+" and @lvl=\"1\"]/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_stargrove.xml:114
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_HIGHWAYMAN_INITIAL\"]/text"
+msgstr ""
+"Корабль, охраняющий выходной маяк, при вашем приближении разогревает оружие "
+"и отправляет сообщение. На экране появляется наглый пират. На задней стене "
+"его помещения висят мечи, а он сам ухмыляется вам. \"А, кто-то хочет уйти, "
+"да? Боюсь, бесплатно ты этого не сделаешь\". Бандит жестом показывает за "
+"спину. \"Видишь мое оружие? У меня есть Предзажигатель, и ты можешь "
+"попрощаться со своими драгоценными щитами, если посмеешь бросить мне "
+"вызов... И даже не думай о маскировке! У тебя нет шансов, так что просто "
+"отдай мне свой лом и двигайся дальше\"."
+
+#: src-en/data/events_sector_stargrove.xml:117
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_HIGHWAYMAN_INITIAL\"]/choice[@req=\"ANY_SHIELDS\"]/text"
+msgstr "У меня даже нет щитов, болван."
+
+#: src-en/data/events_sector_stargrove.xml:121
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_HIGHWAYMAN_INITIAL\"]/choice[@req=\"unique_kaz\"]/text"
+msgstr "Казааакплеткилик узнает бандита."
+
+#: src-en/data/events_sector_stargrove.xml:125
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_HIGHWAYMAN_INITIAL\"]/choice[@req=\"unique_tuco\"]/text"
+msgstr "Туко узнает бандита."
+
+#: src-en/data/events_sector_stargrove.xml:129
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_HIGHWAYMAN_INITIAL\"]/choice[@req=\"LIST_A55\"]/text"
+msgstr "34СР4Н3Ц узнает бандита."
+
+#: src-en/data/events_sector_stargrove.xml:133
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_HIGHWAYMAN_INITIAL\"]/choice[@req=\"unique_nights\"]/text"
+msgstr "Туман узнает бандита."
+
+#: src-en/data/events_sector_stargrove.xml:137
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_HIGHWAYMAN_INITIAL\"]/choice[@req=\"ION_ARMOR\"]/text"
+msgstr "(Ионное сопротивление) Пригрозить ему."
+
+#: src-en/data/events_sector_stargrove.xml:141
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_HIGHWAYMAN_INITIAL\"]/choice[7]/text"
+msgstr "Пробиваться с боем."
+
+#: src-en/data/events_sector_stargrove.xml:145
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_HIGHWAYMAN_INITIAL\"]/choice[8]/text"
+msgstr "Заплатить."
+
+#: src-en/data/events_sector_stargrove.xml:149
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_HIGHWAYMAN_INITIAL\"]/choice[@req=\"loc_scrap\"]/text"
+msgstr "У нас нет 100~. Мы можем заключить какую-нибудь другую сделку?"
+
+#: src-en/data/events_sector_stargrove.xml:154
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_POST_HIGHWAYMAN\"]/text"
+msgstr ""
+"Похоже, что корабль бандитов исчез, но автоматический корабль повстанцев "
+"захватил контроль над маяком! Вам придется пробиваться с боем!"
+
+#: src-en/data/events_sector_stargrove.xml:157
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_POST_HIGHWAYMAN\"]/choice[1]/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_stargrove.xml:161
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_POST_HIGHWAYMAN\"]/choice[@req=\"engines\"]/text"
+msgstr "(Продв. Двигатели) Попытаться улететь от беспилотника."
+
+#: src-en/data/events_sector_stargrove.xml:166
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_EXIT_TUCO\"]/text"
+msgstr ""
+"Туко смеется. \"Что ж, Зирк, похоже, ты все-таки выжил после того ограбления. Вижу, тебя повысили\".\n"
+"\n"
+"\t\"О, это ты, \"Капитан\". Удивительно, что ты нашел команду, которая готова тебя терпеть\".\n"
+"\n"
+"\t\"Кто из нас сейчас гниет в аду? ...Ну, думаю, мы оба, но разница в том, что я не заперт здесь\".\n"
+"\n"
+"\tБандит закатывает глаза. \"Я понял твою мысль\".\n"
+"\n"
+"\t\"Ну, что скажешь? Почему бы тебе не пропустить нас, в качестве одолжения твоему старому капитану?\"\n"
+"\n"
+"\t\"О, конечно. Но только если ты вернешь мне деньги за все те напитки, которые ты записывал на мой счету. Я просто добавлю это к скидке, которую я бы тебе предоставил\"."
+
+#: src-en/data/events_sector_stargrove.xml:178
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_EXIT_TUCO\"]/choice[1]/text"
+msgstr "Заплатить."
+
+#: src-en/data/events_sector_stargrove.xml:180
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_EXIT_TUCO\"]/choice[1]/event/text"
+msgstr ""
+"Бандит удивленно смотрит на вас, когда вы даете ему то, что он хочет. \"Что "
+"ж, капитан, похоже, люди действительно меняются. Считай, что я впечатлен. "
+"Больше я вас не побеспокою\"."
+
+#: src-en/data/events_sector_stargrove.xml:187
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_EXIT_TUCO\"]/choice[2]/text"
+msgstr "Ни за что."
+
+#: src-en/data/events_sector_stargrove.xml:189
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_EXIT_TUCO\"]/choice[2]/event/text"
+msgstr ""
+"\"Ха. Я знал, что ты никогда не вернешь свои долги. Я возьму их с твоего "
+"трупа\"."
+
+#: src-en/data/events_sector_stargrove.xml:192
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_EXIT_TUCO\"]/choice[2]/event/choice[@req=\"cloaking\""
+" and not(@lvl)]/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_stargrove.xml:196
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_EXIT_TUCO\"]/choice[2]/event/choice[@req=\"cloaking\""
+" and @lvl=\"0\"]/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_stargrove.xml:203
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_EXIT_KAZ\"]/text"
+msgstr ""
+"Казаакплеткилик делает щелчок и наклоняет голову. \"Где Малаакепикипилтен? Он ведь сопровождал твой рейд?\"\n"
+"\n"
+"\t\"Он мертв. Взял на себя слишком много валунов сразу\". Бандит качает головой. \n"
+"\n"
+"\t\"Казааакплеткилик всегда знал, что он уйдет именно так. Неосторожный пират - мертвый пират\". Казааакплеткилик угрожающе размахивает клешней. \"Не повторяй его ошибок\".\n"
+"\n"
+"\tБандит делает паузу. \"...Знаешь, Каз, я всегда уважал тебя. Если ты хочешь уйти, не заплатив, я не стану тебя останавливать\"."
+
+#: src-en/data/events_sector_stargrove.xml:211
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_EXIT_KAZ\"]/choice[1]/text"
+msgstr "Уйти."
+
+#: src-en/data/events_sector_stargrove.xml:215
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_EXIT_KAZ\"]/choice[2]/text"
+msgstr "Все равно сражаться с ним."
+
+#: src-en/data/events_sector_stargrove.xml:217
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_EXIT_KAZ\"]/choice[2]/event/text"
+msgstr "\"Кровожадный, как всегда, да? Я заставлю тебя пожалеть об этом\"."
+
+#: src-en/data/events_sector_stargrove.xml:220
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_EXIT_KAZ\"]/choice[2]/event/choice[@req=\"cloaking\""
+" and not(@lvl)]/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_stargrove.xml:224
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_EXIT_KAZ\"]/choice[2]/event/choice[@req=\"cloaking\""
+" and @lvl=\"0\"]/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_stargrove.xml:231
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_EXIT_A55\"]/text"
+msgstr ""
+"\"Йо-хо-хо. Ты совершил прекрасный акт пиратства. Я снимаю перед тобой шляпу\".\n"
+"\n"
+"\t\"Так ты слышал. Конечно, с таким красивым кораблем, как я мог не присвоить его себе?\"\n"
+"\n"
+"\t\"Яр-хар-хар. Я прекрасно понимаю. Что скажешь насчет свободного прохода?\"\n"
+"\n"
+"\t\"Надо зарабатывать на жизнь, ты же понимаешь. Я сделаю тебе скидку для особых друзей. Как на счет этого?\""
+
+#: src-en/data/events_sector_stargrove.xml:240
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_EXIT_A55\"]/choice[1]/text"
+msgstr "Заплатить."
+
+#: src-en/data/events_sector_stargrove.xml:242
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_EXIT_A55\"]/choice[1]/event/text"
+msgstr "\"Премного благодарен, капитан 34С. Приятного пиратства\"."
+
+#: src-en/data/events_sector_stargrove.xml:249
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_EXIT_A55\"]/choice[@req=\"loc_scrap\"]/text"
+msgstr "У нас нет даже 20~. Мы можем заключить какую-нибудь другую сделку?"
+
+#: src-en/data/events_sector_stargrove.xml:251
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_EXIT_A55\"]/choice[@req=\"loc_scrap\"]/event/text"
+msgstr ""
+"Зирк смотрит на 34С и бормочет. \"А, неважно. Похоже, ты даже не стоишь "
+"того, чтобы тебя грабить. Можешь идти\"."
+
+#: src-en/data/events_sector_stargrove.xml:255
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_EXIT_A55\"]/choice[3]/text"
+msgstr "Это предложение по-прежнему неприемлемо."
+
+#: src-en/data/events_sector_stargrove.xml:257
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_EXIT_A55\"]/choice[3]/event/text"
+msgstr "\"Тогда мы выясним, кто из нас лучший пират. Я не против!\""
+
+#: src-en/data/events_sector_stargrove.xml:260
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_EXIT_A55\"]/choice[3]/event/choice[@req=\"cloaking\""
+" and not(@lvl)]/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_stargrove.xml:264
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_EXIT_A55\"]/choice[3]/event/choice[@req=\"cloaking\""
+" and @lvl=\"0\"]/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_stargrove.xml:271
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_EXIT_NIGHTS\"]/text"
+msgstr ""
+"Туман начинает смеяться. \"Это ж этот... как его там! Прячетссся в печке, надеетссся, что его не найдут. Ха-ха-ха-ха!\"\n"
+"\n"
+"\t\"Туман...\" Бандит хмурится. \"Я ни за что не упущу шанс растереть тебя в мелкую пасту\"."
+
+#: src-en/data/events_sector_stargrove.xml:276
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_EXIT_NIGHTS\"]/choice[@req=\"cloaking\""
+" and not(@lvl)]/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_stargrove.xml:280
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_EXIT_NIGHTS\"]/choice[@req=\"cloaking\""
+" and @lvl=\"0\"]/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_stargrove.xml:285
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_EXIT_FIGHT\"]/text"
+msgstr ""
+"Вы не собираетесь позволить какому-то пирату забрать ваши с трудом "
+"заработанные деньги. Вы разогреваете систему вооружения."
+
+#: src-en/data/events_sector_stargrove.xml:288
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_EXIT_FIGHT\"]/choice[@req=\"cloaking\""
+" and not(@lvl)]/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_stargrove.xml:292
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_EXIT_FIGHT\"]/choice[@req=\"cloaking\""
+" and @lvl=\"0\"]/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_stargrove.xml:297
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_EXIT_NOSHIELDS\"]/text"
+msgstr ""
+"Бандит выглядит озадаченным. \"Ты... ты прошел весь путь через Звездную рощу"
+" без щитов...? Да что с тобой такое? Как ты вообще...?\" Бандит прочищает "
+"горло. \"Знаешь что? Забудь о плате. Просто уходи. Я даже немного боюсь "
+"тебя\"."
+
+#: src-en/data/events_sector_stargrove.xml:300
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_EXIT_NOSHIELDS\"]/choice[1]/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_stargrove.xml:304
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_EXIT_NOSHIELDS\"]/choice[2]/text"
+msgstr "Все равно атаковать его."
+
+#: src-en/data/events_sector_stargrove.xml:306
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_EXIT_NOSHIELDS\"]/choice[2]/event/text"
+msgstr ""
+"\"Что? Но я же тебя пропустил! А, неважно! Ты еще пожалеешь о своей "
+"самоуверенности, Ренегат!\""
+
+#: src-en/data/events_sector_stargrove.xml:309
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_EXIT_NOSHIELDS\"]/choice[2]/event/choice[@req=\"cloaking\""
+" and not(@lvl)]/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_stargrove.xml:313
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_EXIT_NOSHIELDS\"]/choice[2]/event/choice[@req=\"cloaking\""
+" and @lvl=\"0\"]/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_stargrove.xml:321
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_EXIT_PAY\"]/text"
+msgstr ""
+"Пират радостно собирает с вас плату за проход. \"Шевелись, Ренегат. Мне "
+"нужно провести модернизацию\"."
+
+#: src-en/data/events_sector_stargrove.xml:327
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_EXIT_RENEGOTIATION_FAILED\"]/text"
+msgstr "\"Да будет так! Ты умрешь здесь и сейчас\"."
+
+#: src-en/data/events_sector_stargrove.xml:330
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_EXIT_RENEGOTIATION_FAILED\"]/choice[@req=\"cloaking\""
+" and not(@lvl)]/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_stargrove.xml:334
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_EXIT_RENEGOTIATION_FAILED\"]/choice[@req=\"cloaking\""
+" and @lvl=\"0\"]/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_stargrove.xml:339
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_EXIT_THREATEN\"]/text"
+msgstr ""
+"Вы сообщаете пирату, что ваш корабль защищен от ионного урона, что противоречит его стратегии. Это будет не так просто, как он думает.\n"
+"\n"
+"\t\"Тьфу. Ты и вправду хорошо защищен. Я тебя уважаю. В таком случае я предлагаю тебе скидку - только для друзей. Или предпочитаешь пойти по трудному пути?\""
+
+#: src-en/data/events_sector_stargrove.xml:343
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_EXIT_THREATEN\"]/choice[1]/text"
+msgstr "Заплатить."
+
+#: src-en/data/events_sector_stargrove.xml:345
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_EXIT_THREATEN\"]/choice[1]/event/text"
+msgstr ""
+"Пират забирает у вас свою плату, слегка нахмурившись. \"Шевелись, Ренегат. "
+"Мне нужно провести модернизацию\"."
+
+#: src-en/data/events_sector_stargrove.xml:352
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_EXIT_THREATEN\"]/choice[@req=\"loc_scrap\"]/text"
+msgstr "У нас нет даже 60~. Мы можем заключить какую-нибудь другую сделку?"
+
+#: src-en/data/events_sector_stargrove.xml:356
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_EXIT_THREATEN\"]/choice[3]/text"
+msgstr "Это предложение по-прежнему неприемлемо."
+
+#: src-en/data/events_sector_stargrove.xml:362
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_EXIT_TRACKING\"]/text"
+msgstr ""
+"Бандит выпускает свои Отслеживающие маячки, отключая вашу систему Маскировки"
+" на 20 секунд."
+
+#: src-en/data/events_sector_stargrove.xml:366
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_EXIT_TRACKING\"]/triggeredEvent/triggeredEventBox/tooltip"
+msgstr "Вы пострадали от Отслеживающих маячков!"
+
+#: src-en/data/events_sector_stargrove.xml:370
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_EXIT_TRACKING\"]/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_stargrove.xml:376
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_EXIT_RENEGOTIATE\"]/text"
+msgstr "\"Как жаль! К счастью для тебя, я рассудительный пират. Вместо лома я приму следующее: 10 единиц каждого ресурса или двух из твоего экипажа\"."
+
+#: src-en/data/events_sector_stargrove.xml:378
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_EXIT_RENEGOTIATE\"]/choice[@req=\"COUNT_ALL_CREW\""
+" and @lvl=\"2\"]/text"
+msgstr "Передать двух членов своего экипажа."
+
+#: src-en/data/events_sector_stargrove.xml:380
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_EXIT_RENEGOTIATE\"]/choice[@req=\"COUNT_ALL_CREW\""
+" and @lvl=\"2\"]/event/text"
+msgstr ""
+"Вы отправляете двух членов своего экипажа к пиратам, обрекая их на жизнь в "
+"Звездной роще. Возможно, она будет милосердно короткой."
+
+#: src-en/data/events_sector_stargrove.xml:383
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_EXIT_RENEGOTIATE\"]/choice[@req=\"COUNT_ALL_CREW\""
+" and @lvl=\"2\"]/event/removeCrew/text"
+msgstr "Ваш экипаж не погиб, хотя трудно сказать, как долго он будет жив."
+
+#: src-en/data/events_sector_stargrove.xml:386
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_EXIT_RENEGOTIATE\"]/choice[@req=\"COUNT_ALL_CREW\""
+" and @lvl=\"2\"]/event/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_stargrove.xml:390
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_EXIT_RENEGOTIATE\"]/choice[@req=\"COUNT_ALL_CREW\""
+" and @lvl=\"2\"]/event/choice/event/removeCrew/text"
+msgstr "Ваш экипаж не погиб, хотя трудно сказать, как долго он будет жив."
+
+#: src-en/data/events_sector_stargrove.xml:397
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_EXIT_RENEGOTIATE\"]/choice[@req=\"COUNT_ALL_CREW\""
+" and @lvl=\"0\"]/text"
+msgstr "У вас нет двух членов экипажа, которых можно было бы предложить."
+
+#: src-en/data/events_sector_stargrove.xml:401
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_EXIT_RENEGOTIATE\"]/choice[3]/text"
+msgstr "Передать по 10 единиц каждого ресурса."
+
+#: src-en/data/events_sector_stargrove.xml:403
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_EXIT_RENEGOTIATE\"]/choice[3]/event/text"
+msgstr ""
+"Пират забирает у вас свою плату, слегка нахмурившись. \"Шевелись, Ренегат\"."
+
+#: src-en/data/events_sector_stargrove.xml:412
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_EXIT_RENEGOTIATE\"]/choice[4]/text"
+msgstr "Эти предложения по-прежнему неприемлемы."
+
+#: src-en/data/events_sector_stargrove.xml:417
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"ENEMY_AUGMENT_EXPIRES\"]/text"
+msgstr ""
+"Вашим системам наконец-то удалось преодолеть вражеский натиск! Дальше будет "
+"честная борьба!"
+
+#: src-en/data/events_sector_stargrove.xml:425
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"ENEMY_AUGMENT_EXPIRES_REACTOR\"]/text"
+msgstr ""
+"Вашим системам наконец-то удалось преодолеть вражеский натиск! Дальше будет "
+"честная борьба!"
+
+#: src-en/data/events_sector_stargrove.xml:449
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_ITEMS_TWIN_PULSARS\"]/text"
+msgstr ""
+"Ваш корабль прибывает вблизи пары пульсаров-близнецов. В точке Лагранжа "
+"между этими двумя звездными объектами застряли обломки древнего, "
+"разорванного на части линкора кристаллинов. Импульсы двух пульсаров "
+"сталкиваются друг с другом, что может оказаться особенно опасным для "
+"целостности вашего корабля."
+
+#: src-en/data/events_sector_stargrove.xml:451
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_ITEMS_TWIN_PULSARS\"]/choice[@req=\"pilot\"]/text"
+msgstr ""
+"(Улучш. Рулевая рубка) Пусть ваш корабль пройдет через разрушительные "
+"воздействия."
+
+#: src-en/data/events_sector_stargrove.xml:453
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_ITEMS_TWIN_PULSARS\"]/choice[@req=\"pilot\"]/event/text"
+msgstr ""
+"Оказывается, ваш корабль способен избежать большинства опасностей, если "
+"будет внимательно следить за волнами. Собрать обломки корабля, двигаясь "
+"вместе с разрушительными волнами, непросто, но вам удается собрать "
+"значительную часть лома, а также найти элитное кристаллическое оружие!"
+
+#: src-en/data/events_sector_stargrove.xml:460
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_ITEMS_TWIN_PULSARS\"]/choice[@req=\"ION_ARMOR\"]/text"
+msgstr ""
+"(Ионная сопротивляемость) Положиться на свою ионную защиту, чтобы "
+"продержаться до конца."
+
+#: src-en/data/events_sector_stargrove.xml:462
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_ITEMS_TWIN_PULSARS\"]/choice[@req=\"ION_ARMOR\"]/event/text"
+msgstr ""
+"Это нелегкая прогулка, но защита вашего корабля от ионных повреждений "
+"выдерживает всю тяжесть опасного сближения. Вам удается собрать значительную"
+" часть лома, а также найти элитное кристаллическое оружие!"
+
+#: src-en/data/events_sector_stargrove.xml:469
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_ITEMS_TWIN_PULSARS\"]/choice[3]/text"
+msgstr "Отважиться рискнуть."
+
+#: src-en/data/events_sector_stargrove.xml:471
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_ITEMS_TWIN_PULSARS\"]/choice[3]/event/text"
+msgstr ""
+"На ваш корабль обрушиваются волна за волной ионные импульсы, интенсивность "
+"которых постоянно меняется. Совокупность этих сил, кажется, проникает сквозь"
+" корпус, нанося серьезные повреждения. К счастью, в обломках корабля есть "
+"значительное количество лома, а также элитное кристаллическое оружие!"
+
+#: src-en/data/events_sector_stargrove.xml:479
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_ITEMS_TWIN_PULSARS\"]/choice[4]/text"
+msgstr "По возможности избегать пульсаров-близнецов."
+
+#: src-en/data/events_sector_stargrove.xml:489
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_ITEMS_SUN_JUNK\"]/text"
+msgstr ""
+"Массивное поле обломков вплотную прилегает к орбите ближайшей звезды. Оно "
+"содержит как природные скальные образования, так и очищенный металл, что "
+"позволяет предположить, что структура могла столкнуться с крупным "
+"астероидом. Газовый гигант вращается вокруг той же звезды на большем "
+"расстоянии."
+
+#: src-en/data/events_sector_stargrove.xml:491
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_ITEMS_SUN_JUNK\"]/choice[@req=\"DRONE_CONTROL_DEFENSE\"]/text"
+msgstr ""
+"(Защитный дрон) Пусть ваш защитный дрон защитит вас, пока вы собираете "
+"обломки [-1|]."
+
+#: src-en/data/events_sector_stargrove.xml:496
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_ITEMS_SUN_JUNK\"]/choice[@req=\"DRONE_CONTROL_DEFENSE\"]/event/text"
+msgstr ""
+"Вы осторожно приближаетесь, позволяя своему защитному дрону уничтожать все "
+"астероиды, которые приближаются к вам. Хотя на обломках нет никаких особых "
+"опознавательных знаков, металлы в поле, похоже, человеческого происхождения."
+" Определить фракцию не представляется возможным, но лом - ваш."
+
+#: src-en/data/events_sector_stargrove.xml:501
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_ITEMS_SUN_JUNK\"]/choice[@req=\"ROCK_ARMOR\"]/text"
+msgstr ""
+"(Обшивка валунов) Пусть ваша броня защитит вас, когда вы будете собирать "
+"обломки."
+
+#: src-en/data/events_sector_stargrove.xml:504
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_ITEMS_SUN_JUNK\"]/choice[@req=\"ROCK_ARMOR\"]/event/text"
+msgstr ""
+"Когда вы приближаетесь к обломкам, обломки начинают барабанить по корпусу корабля.\n"
+"\t\t\t\tВы полагаетесь на свою броню, чтобы защитить себя. Хотя на обломках нет никаких опознавательных знаков, металлы в поле, похоже, человеческого происхождения. Определить фракцию не представляется возможным, но обломки вы можете забрать себе."
+
+#: src-en/data/events_sector_stargrove.xml:511
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_ITEMS_SUN_JUNK\"]/choice[3]/text"
+msgstr "Войти в астероидное поле."
+
+#: src-en/data/events_sector_stargrove.xml:514
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_ITEMS_SUN_JUNK\"]/choice[3]/event/text"
+msgstr ""
+"Вы смело преодолеваете опасность солнца и поля астероидов. При этом вы "
+"остаетесь уязвимы для обоих источников опасности. Хотя на обломках нет "
+"никаких опознавательных знаков, металлы в поле похожи на человеческие. "
+"Определить фракцию не представляется возможным, но обломки вы можете забрать"
+" себе."
+
+#: src-en/data/events_sector_stargrove.xml:522
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_ITEMS_SUN_JUNK\"]/choice[4]/text"
+msgstr "Избегать астероидного поля. Укрыться за газовым гигантом."
+
+#: src-en/data/events_sector_stargrove.xml:524
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_ITEMS_SUN_JUNK\"]/choice[4]/event/text"
+msgstr ""
+"Газовый гигант дает вам достаточно защиты, чтобы что-то сделать на борту "
+"своего корабля."
+
+#: src-en/data/events_sector_stargrove.xml:526
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_ITEMS_SUN_JUNK\"]/choice[4]/event/choice[1]/text"
+msgstr "Заняться чем-либо на корабле."
+
+#: src-en/data/events_sector_stargrove.xml:530
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_ITEMS_SUN_JUNK\"]/choice[4]/event/choice[2]/text"
+msgstr "Ничего не делать."
+
+#: src-en/data/events_sector_stargrove.xml:542
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_PULSAR_RUIN\"]/beaconType/unvisitedTooltip"
+msgstr "Здесь находятся руины."
+
+#: src-en/data/events_sector_stargrove.xml:543
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_PULSAR_RUIN\"]/beaconType/visitedTooltip"
+msgstr "Посещенное место. Ничего интересного."
+
+#: src-en/data/events_sector_stargrove.xml:545
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_PULSAR_RUIN\"]/text"
+msgstr ""
+"На низкой орбите пульсара здесь, похоже, находится ряд больших кубических "
+"конструкций, окруженных плотным астероидным полем. Возможно, вам удастся "
+"воспользоваться ресурсами сооружения, но пульсар делает это крайне опасной "
+"задачей."
+
+#: src-en/data/events_sector_stargrove.xml:551
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_PULSAR_RUIN\"]/choice[1]/text"
+msgstr "Войти в астероидное поле."
+
+#: src-en/data/events_sector_stargrove.xml:554
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_RUINS_ASTEROID_ENTER\"]/text"
+msgstr ""
+"Приблизившись, вы замечаете среди руин небольшой корабль. Его энергетические"
+" показатели минимальны, но он явно все еще активен."
+
+#: src-en/data/events_sector_stargrove.xml:557
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_RUINS_ASTEROID_ENTER\"]/choice[1]/text"
+msgstr "Продолжить сближение."
+
+#: src-en/data/events_sector_stargrove.xml:559
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_RUINS_ASTEROID_ENTER\"]/choice[1]/event/text"
+msgstr ""
+"Как только вы приближаетесь к строению, корабль оживает и начинает заряжать "
+"оружие! Вам придется разобраться с ним, прежде чем вы сможете исследовать "
+"дальше."
+
+#: src-en/data/events_sector_stargrove.xml:562
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_RUINS_ASTEROID_ENTER\"]/choice[1]/event/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_stargrove.xml:568
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_RUINS_ASTEROID_ENTER\"]/choice[2]/text"
+msgstr "Уйти."
+
+#: src-en/data/events_sector_stargrove.xml:570
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_RUINS_ASTEROID_ENTER\"]/choice[2]/event/text"
+msgstr ""
+"Попытка пройти через астероидное поле на орбите пульсара сама по себе "
+"достаточно опасна, и вы уверены, что провоцировать другой корабль вдобавок -"
+" плохая идея. Остается надеяться, что вы успеете совершить прыжок до того, "
+"как все эти опасности нанесут слишком большой урон."
+
+#: src-en/data/events_sector_stargrove.xml:576
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_PULSAR_RUIN\"]/choice[2]/text"
+msgstr "Уйти."
+
+#: src-en/data/events_sector_stargrove.xml:582
+msgid ""
+"data/events_sector_stargrove.xml$//ship[@name=\"SHIP_ANCIENT_AUTO_STARGROVE\"]/destroyed/text"
+msgstr ""
+"Вам удалось уничтожить корабль. Нейтрализовав угрозу, вы смогли найти в "
+"руинах исправное оружие!"
+
+#: src-en/data/events_sector_stargrove.xml:593
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_FREE_SCRAP\"]/text"
+msgstr ""
+"По прибытии вы видите лишь звезды, простирающиеся до самого горизонта. Вам "
+"удается обнаружить уничтоженный автоматический корабль, на борту которого - "
+"только обугленные обломки, равные его массе, и боеголовки. Однако он окружен"
+" боеприпасами, которые могут сдетонировать, если приблизиться слишком "
+"близко."
+
+#: src-en/data/events_sector_stargrove.xml:595
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_FREE_SCRAP\"]/choice[@req=\"SCRAP_COLLECTOR\"]/text"
+msgstr "(Кран сбора лома) Осторожно собрать обломки."
+
+#: src-en/data/events_sector_stargrove.xml:598
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_FREE_SCRAP\"]/choice[@req=\"SCRAP_COLLECTOR\"]/event/text"
+msgstr ""
+"Боеприпасы не представляют угрозы, так как вы аккуратно собираете только "
+"обломки."
+
+#: src-en/data/events_sector_stargrove.xml:603
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_FREE_SCRAP\"]/choice[@req=\"MAGNET_ARM\"]/text"
+msgstr "(Магнитный кран) Осторожно собрать обломки."
+
+#: src-en/data/events_sector_stargrove.xml:606
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_FREE_SCRAP\"]/choice[@req=\"MAGNET_ARM\"]/event/text"
+msgstr ""
+"Боеприпасы не представляют угрозы, так как вы аккуратно собираете только "
+"обломки."
+
+#: src-en/data/events_sector_stargrove.xml:611
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_FREE_SCRAP\"]/choice[3]/text"
+msgstr "Рискнуть привести в действие взрывчатку."
+
+#: src-en/data/events_sector_stargrove.xml:614
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_FREE_SCRAP\"]/choice[3]/event/text"
+msgstr ""
+"Вам не удастся избежать взрывчатки, когда вы приближаетесь, чтобы разобрать "
+"корабль. Судя по поведению боеприпасов, это могла быть ловушка повстанцев. "
+"Но даже в этом случае здесь достаточно лома, чтобы собрать урожай."
+
+#: src-en/data/events_sector_stargrove.xml:620
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_FREE_SCRAP\"]/choice[4]/text"
+msgstr "Уйти."
+
+#: src-en/data/events_sector_stargrove.xml:642
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_THEOCRACY_RECOVERY\"]/text"
+msgstr ""
+"Глубоко в туманности корабль Теократии прочесывает облака, как будто что-то "
+"ищет. Он никак не реагируют на ваше появление. Должно быть, он занят своей "
+"миссией."
+
+#: src-en/data/events_sector_stargrove.xml:650
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_THEOCRACY_RECOVERY\"]/choice[1]/text"
+msgstr "Предложить помощь валунам."
+
+#: src-en/data/events_sector_stargrove.xml:652
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_THEOCRACY_RECOVERY\"]/choice[1]/event/text"
+msgstr ""
+"Раздраженный валун отвечает на ваш вызов: \"У нас нет времени на ваше "
+"вероломство, Федерация. Мы должны найти наших товарищей, пока их корабль не "
+"был уничтожен\"."
+
+#: src-en/data/events_sector_stargrove.xml:654
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_THEOCRACY_RECOVERY\"]/choice[1]/event/choice[@req=\"sensors\""
+" and not(@lvl)]/text"
+msgstr "У вас нет сенсоров, с помощью которых вы могли бы им помочь."
+
+#: src-en/data/events_sector_stargrove.xml:658
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_THEOCRACY_RECOVERY\"]/choice[1]/event/choice[@req=\"sensors\""
+" and @lvl=\"1\"]/text"
+msgstr ""
+"(Обычные Сенсоры) Предложить использовать ваши сенсоры, чтобы помочь им в "
+"поисках."
+
+#: src-en/data/events_sector_stargrove.xml:660
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_THEOCRACY_RECOVERY\"]/choice[1]/event/choice[@req=\"sensors\""
+" and @lvl=\"1\"]/event/text"
+msgstr ""
+"Ваши Сенсоры совершенно бесполезны в этой ситуации. Ваш неэффективный подход"
+" только оскорбляет валунов. Они поворачиваются и начинают сражение!"
+
+#: src-en/data/events_sector_stargrove.xml:663
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_THEOCRACY_RECOVERY\"]/choice[1]/event/choice[@req=\"sensors\""
+" and @lvl=\"1\"]/event/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_stargrove.xml:669
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_THEOCRACY_RECOVERY\"]/choice[1]/event/choice[@req=\"sensors\""
+" and @lvl=\"2\"]/text"
+msgstr ""
+"(Улучш. Сенсоры) Предложить использовать ваши Сенсоры, чтобы помочь им в "
+"поисках."
+
+#: src-en/data/events_sector_stargrove.xml:671
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_THEOCRACY_RECOVERY\"]/choice[1]/event/choice[@req=\"sensors\""
+" and @lvl=\"2\"]/event/text"
+msgstr ""
+"Ваши Сенсоры позволяют сократить объем работы. Это занимает умеренное "
+"количество времени, но в конце концов вы приводите валунов к их потерянному "
+"экипажу. \"Ренегат, вы не были... бесполезными. Мы готовы поделиться с вами "
+"нашими запасами\". Они посылают вам награду."
+
+#: src-en/data/events_sector_stargrove.xml:676
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_THEOCRACY_RECOVERY\"]/choice[1]/event/choice[@req=\"sensors\""
+" and @lvl=\"3\"]/text"
+msgstr ""
+"(Продв. Сенсоры) Предложить использовать свои Сенсоры, чтобы помочь им в "
+"поисках."
+
+#: src-en/data/events_sector_stargrove.xml:680
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_THEOCRACY_RECOVERY\"]/choice[1]/event/choice[@req=\"ADV_SCANNERS\"]/text"
+msgstr ""
+"(Сканеры дальнего действия) Предложить использовать свой сканер, чтобы "
+"помочь им в поисках."
+
+#: src-en/data/events_sector_stargrove.xml:684
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_THEOCRACY_RECOVERY\"]/choice[1]/event/choice[6]/text"
+msgstr "Ответить на их подозрения насилием."
+
+#: src-en/data/events_sector_stargrove.xml:686
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_THEOCRACY_RECOVERY\"]/choice[1]/event/choice[6]/event/text"
+msgstr ""
+"Валуны отвечают тем же: \"Да будет так. Если они погибнут - это будут еще "
+"одни смерти на совести вашей Федерации!\""
+
+#: src-en/data/events_sector_stargrove.xml:689
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_THEOCRACY_RECOVERY\"]/choice[1]/event/choice[6]/event/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_stargrove.xml:695
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_THEOCRACY_RECOVERY\"]/choice[1]/event/choice[7]/text"
+msgstr "Отключить связь и двигаться дальше."
+
+#: src-en/data/events_sector_stargrove.xml:701
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_THEOCRACY_RECOVERY\"]/choice[2]/text"
+msgstr "Атаковать валунов."
+
+#: src-en/data/events_sector_stargrove.xml:703
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_THEOCRACY_RECOVERY\"]/choice[2]/event/text"
+msgstr ""
+"Валуны без колебаний защищаются. \"Глупая Федерация! Здесь у нас "
+"преимущество!\""
+
+#: src-en/data/events_sector_stargrove.xml:706
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_THEOCRACY_RECOVERY\"]/choice[2]/event/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_stargrove.xml:712
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_THEOCRACY_RECOVERY\"]/choice[3]/text"
+msgstr "Избегать корабля валунов и сосредоточиться на выживании."
+
+#: src-en/data/events_sector_stargrove.xml:719
+msgid ""
+"data/events_sector_stargrove.xml$//ship[@name=\"SHIP_ROCK_STARGROVE\"]/surrender/text"
+msgstr ""
+"\"Хватит! Мы хотим лишь добиться успеха в нашей миссии. Оставьте нас в "
+"покое, и мы ответим вам тем же\"."
+
+#: src-en/data/events_sector_stargrove.xml:721
+msgid ""
+"data/events_sector_stargrove.xml$//ship[@name=\"SHIP_ROCK_STARGROVE\"]/surrender/choice[1]/text"
+msgstr "Принять их капитуляцию."
+
+#: src-en/data/events_sector_stargrove.xml:733
+msgid ""
+"data/events_sector_stargrove.xml$//ship[@name=\"SHIP_ROCK_STARGROVE\"]/destroyed/choice[1]/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_stargrove.xml:737
+msgid ""
+"data/events_sector_stargrove.xml$//ship[@name=\"SHIP_ROCK_STARGROVE\"]/destroyed/choice[@req=\"sensors\"]/text"
+msgstr "(Продв. Сенсоры) Продолжить искать их потерянный корабль."
+
+#: src-en/data/events_sector_stargrove.xml:741
+msgid ""
+"data/events_sector_stargrove.xml$//ship[@name=\"SHIP_ROCK_STARGROVE\"]/destroyed/choice[@req=\"ADV_SCANNERS\"]/text"
+msgstr "(Сканеры дальнего действия) Продолжить искать их потерянный корабль."
+
+#: src-en/data/events_sector_stargrove.xml:749
+msgid ""
+"data/events_sector_stargrove.xml$//ship[@name=\"SHIP_ROCK_STARGROVE\"]/deadCrew/choice[1]/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_stargrove.xml:753
+msgid ""
+"data/events_sector_stargrove.xml$//ship[@name=\"SHIP_ROCK_STARGROVE\"]/deadCrew/choice[@req=\"sensors\"]/text"
+msgstr "(Продв. Сенсоры) Продолжить искать их потерянный корабль."
+
+#: src-en/data/events_sector_stargrove.xml:757
+msgid ""
+"data/events_sector_stargrove.xml$//ship[@name=\"SHIP_ROCK_STARGROVE\"]/deadCrew/choice[@req=\"ADV_SCANNERS\"]/text"
+msgstr "(Сканеры дальнего действия) Продолжить искать их потерянный корабль."
+
+#: src-en/data/events_sector_stargrove.xml:767
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_THEOCRACY_HELP\"]/text"
+msgstr ""
+"Ваш корабль способен за считанные секунды найти потерянный корабль. Валуны "
+"выглядят изумленными. \"Мы поспешили с выводами. Теперь они в безопасности "
+"благодаря вам. Возьми это и иди с миром, Ренегат\"."
+
+#: src-en/data/events_sector_stargrove.xml:772
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_THEOCRACY_SCAVENGE\"]/text"
+msgstr ""
+"После недолгих поисков вам удается найти потерянный и выведенный из строя "
+"корабль валунов. Экипаж едва жив и не желают разговаривать. К счастью, их "
+"корабль совершенно беззащитен перед вашим, что позволяет вам забрать все, "
+"что осталось от их корабля."
+
+#: src-en/data/events_sector_stargrove.xml:778
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_STARGROVE_LOSTREBEL\"]/text"
+msgstr ""
+"Только предупреждение о столкновении не позволяет вам врезаться в корабль "
+"повстанцев у этого маяка; как только вы их замечаете, они беззвучно начинают"
+" заряжать свой ССД."
+
+#: src-en/data/events_sector_stargrove.xml:782
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_STARGROVE_LOSTREBEL\"]/choice[1]/text"
+msgstr "Связаться с кораблем."
+
+#: src-en/data/events_sector_stargrove.xml:784
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_STARGROVE_LOSTREBEL\"]/choice[1]/event/text"
+msgstr ""
+"\"О, черт возьми. Слушайте, мы сдаемся. Я подписался на несколько лет борьбы"
+" с Федерацией, а теперь мы уже больше десяти лет сражаемся со всеми видами, "
+"способными держать в руках палку, во всех вселенных, которые только можем "
+"найти. Нам не обязательно сражаться здесь - что, если мы оба сделаем вид, "
+"что никогда не видели друг друга?\""
+
+#: src-en/data/events_sector_stargrove.xml:786
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_STARGROVE_LOSTREBEL\"]/choice[1]/event/choice[1]/text"
+msgstr "Согласиться."
+
+#: src-en/data/events_sector_stargrove.xml:788
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_STARGROVE_LOSTREBEL\"]/choice[1]/event/choice[1]/event/text"
+msgstr "Корабль повстанцев сдается и молча уходит в шторм."
+
+#: src-en/data/events_sector_stargrove.xml:793
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_STARGROVE_LOSTREBEL\"]/choice[1]/event/choice[2]/text"
+msgstr "Спросить, почему они прячутся здесь."
+
+#: src-en/data/events_sector_stargrove.xml:795
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_STARGROVE_LOSTREBEL\"]/choice[1]/event/choice[2]/event/text"
+msgstr ""
+"\"Потому что наше начальство не заинтересовано в поисках одного пропавшего "
+"корабля в глуши. Это место может быть адом, но, по крайней мере, оно не "
+"ненавидит нас лично, и мне никогда в жизни не придется увидеть других "
+"повстанцев\"."
+
+#: src-en/data/events_sector_stargrove.xml:797
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_STARGROVE_LOSTREBEL\"]/choice[1]/event/choice[2]/event/choice[1]/text"
+msgstr "Предупредить их о приближении флота."
+
+#: src-en/data/events_sector_stargrove.xml:799
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_STARGROVE_LOSTREBEL\"]/choice[1]/event/choice[2]/event/choice[1]/event/text"
+msgstr ""
+"По мере того как вы объясняете ситуацию, радость на лице дезертира исчезает."
+" \"Проклятье, я должен был знать, что в конце концов нигде не будет "
+"безопасно. Вот, небольшая благодарность - надеюсь, с более легким грузом мы "
+"сможем их обогнать\"."
+
+#: src-en/data/events_sector_stargrove.xml:807
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_STARGROVE_LOSTREBEL\"]/choice[1]/event/choice[2]/event/choice[2]/text"
+msgstr "Оставить дезертиров в покое."
+
+#: src-en/data/events_sector_stargrove.xml:809
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_STARGROVE_LOSTREBEL\"]/choice[1]/event/choice[2]/event/choice[2]/event/text"
+msgstr ""
+"\"Так скоро уходите? Жаль, в этих краях не так много новых людей, с которыми"
+" можно поговорить. Вот - немного топлива, чтобы помочь вам. Мы останемся "
+"здесь надолго, так что не стесняйтесь заходить, как только закончится вся "
+"эта война\"."
+
+#: src-en/data/events_sector_stargrove.xml:816
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_STARGROVE_LOSTREBEL\"]/choice[1]/event/choice[2]/event/choice[3]/text"
+msgstr "Атаковать их."
+
+#: src-en/data/events_sector_stargrove.xml:818
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_STARGROVE_LOSTREBEL\"]/choice[1]/event/choice[2]/event/choice[3]/event/text"
+msgstr ""
+"Неважно, дезертировали они или нет. Лом с их корабля - ценный товар, и вы им"
+" поживитесь."
+
+#: src-en/data/events_sector_stargrove.xml:821
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_STARGROVE_LOSTREBEL\"]/choice[1]/event/choice[2]/event/choice[3]/event/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_stargrove.xml:829
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_STARGROVE_LOSTREBEL\"]/choice[1]/event/choice[3]/text"
+msgstr "Атаковать их."
+
+#: src-en/data/events_sector_stargrove.xml:831
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_STARGROVE_LOSTREBEL\"]/choice[1]/event/choice[3]/event/text"
+msgstr ""
+"Эти повстанцы подписались на борьбу с Федерацией, и скоро они получат то, о "
+"чем просили. Их капитан отключает связь, когда видит, что вы заряжаете "
+"оружие, и отвечает тем же."
+
+#: src-en/data/events_sector_stargrove.xml:834
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_STARGROVE_LOSTREBEL\"]/choice[1]/event/choice[3]/event/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_stargrove.xml:842
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_STARGROVE_LOSTREBEL\"]/choice[2]/text"
+msgstr "Атаковать их!"
+
+#: src-en/data/events_sector_stargrove.xml:844
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_STARGROVE_LOSTREBEL\"]/choice[2]/event/text"
+msgstr ""
+"Вы начинаете заряжать оружие, и повстанцы отвечают вам тем же. Надеюсь, вы "
+"сможете закончить это быстро - их двигатели все еще заряжаются!"
+
+#: src-en/data/events_sector_stargrove.xml:847
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_STARGROVE_LOSTREBEL\"]/choice[2]/event/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_stargrove.xml:853
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_STARGROVE_LOSTREBEL\"]/choice[3]/text"
+msgstr "Не обращать внимания на корабль."
+
+#: src-en/data/events_sector_stargrove.xml:855
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_STARGROVE_LOSTREBEL\"]/choice[3]/event/text"
+msgstr ""
+"Корабль повстанцев завершает подготовку к прыжку и исчезает. Теперь ваша "
+"очередь уходить."
+
+#: src-en/data/events_sector_stargrove.xml:869
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_CRUSADER_MADROCK\"]/text"
+msgstr ""
+"Вы прибываете на практически заброшенный маяк, где поблизости находятся "
+"только большая звезда и мощный корабль Инквизиции. Кажется, они слишком "
+"заняты чем-то, чтобы обращать внимание на ваше прибытие."
+
+#: src-en/data/events_sector_stargrove.xml:876
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_CRUSADER_MADROCK\"]/choice[1]/text"
+msgstr "Спросить, зачем они здесь."
+
+#: src-en/data/events_sector_stargrove.xml:878
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_CRUSADER_MADROCK\"]/choice[1]/event/text"
+msgstr ""
+"Крестоносцы отвечают на ваш вызов. \"Мы были посланы сюда по приказу самого Камнестена, чтобы задержать предательского преступника, который ныне носит псевдоним \"Мэдрок\". Когда-то он был благородным и честным, как любой последователь Старейшин, но однажды он предал нас и наши священные учения, после чего отправился жить в эту пустошь. Хотя наши союзники в Министерстве обычно советуют нам держаться подальше отсюда из-за тяжести злодеяний Мэдрок, они разрешили нам искать его и предложили помощь в этом деле. А теперь оставьте нас, если только вы не можете помочь нам найти его\".\n"
+"\t\t\t\n"
+"\t\t\tВскоре после того, как они отключили связь, вы получаете сигнал от крошечного шаттла, находящегося вдалеке, в опасной близости от звезды. \"Вы там. У меня такое чувство, что вы не в лучших отношениях с Теократией. Ренегат Федерации, если не ошибаюсь. Теократия хочет моей смерти, и они пошли на радикальные меры, чтобы убрать меня. Но если вы сможете расправиться с этими парнями, я буду в состоянии сделать так, чтобы это стоило ваших усилий. Согласны?\""
+
+#: src-en/data/events_sector_stargrove.xml:882
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_CRUSADER_MADROCK\"]/choice[1]/event/choice[1]/text"
+msgstr "Сразиться с Крестоносцами."
+
+#: src-en/data/events_sector_stargrove.xml:884
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_CRUSADER_MADROCK\"]/choice[1]/event/choice[1]/event/text"
+msgstr ""
+"Вы не совсем понимаете, стоит ли выполнять приказы предполагаемых "
+"преступников валунов, но в одном он абсолютно прав: Старейшины валунов - не "
+"друзья Федерации. Вы готовитесь дать отпор Крестоносцам, а они отвечают на "
+"вашу агрессию ответным огнем."
+
+#: src-en/data/events_sector_stargrove.xml:887
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_CRUSADER_MADROCK\"]/choice[1]/event/choice[1]/event/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_stargrove.xml:893
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_CRUSADER_MADROCK\"]/choice[1]/event/choice[2]/text"
+msgstr "Рассказать Крестоносцам о полученном сообщении."
+
+#: src-en/data/events_sector_stargrove.xml:895
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_CRUSADER_MADROCK\"]/choice[1]/event/choice[2]/event/text"
+msgstr ""
+"Вы не жалеете деталей в своем объяснении, рассказывая кораблю Инквизиции о "
+"полученном сообщении - откуда оно пришло и что отправитель хотел, чтобы вы "
+"сделали. В ответ вас благодарят и предлагают часть полученной награды, "
+"прежде чем отправиться на поимку теперь уже беспомощного Мэдрока."
+
+#: src-en/data/events_sector_stargrove.xml:902
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_CRUSADER_MADROCK\"]/choice[2]/text"
+msgstr "Держаться от всего этого подальше."
+
+#: src-en/data/events_sector_stargrove.xml:904
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_CRUSADER_MADROCK\"]/choice[2]/event/text"
+msgstr ""
+"По отдельности солнечные вспышки и Крестоносцы - опасности, которых лучше "
+"избегать. Бороться с ними одновременно - значит накликать на себя беду. Вы "
+"постараетесь как можно скорее снова отправиться в путь."
+
+#: src-en/data/events_sector_stargrove.xml:910
+msgid ""
+"data/events_sector_stargrove.xml$//ship[@name=\"SHIP_ROCK_MADROCK\"]/escape/text"
+msgstr ""
+"Валуны готовятся к прыжку. Похоже, что самосохранение для них важнее "
+"выполнения первоначальной миссии."
+
+#: src-en/data/events_sector_stargrove.xml:913
+msgid ""
+"data/events_sector_stargrove.xml$//ship[@name=\"SHIP_ROCK_MADROCK\"]/gotaway/text"
+msgstr "Крестоносцы уходят, оставляя вас наедине с шаттлом Мэдрока."
+
+#: src-en/data/events_sector_stargrove.xml:915
+msgid ""
+"data/events_sector_stargrove.xml$//ship[@name=\"SHIP_ROCK_MADROCK\"]/gotaway/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_stargrove.xml:920
+msgid ""
+"data/events_sector_stargrove.xml$//ship[@name=\"SHIP_ROCK_MADROCK\"]/destroyed/text"
+msgstr ""
+"Победа над кораблем Инквизиции - дело не из легких, особенно в таких опасных"
+" условиях. Вы разбираете на лом их корабль, а затем занимаетесь шаттлом "
+"Мэдрока."
+
+#: src-en/data/events_sector_stargrove.xml:923
+msgid ""
+"data/events_sector_stargrove.xml$//ship[@name=\"SHIP_ROCK_MADROCK\"]/destroyed/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_stargrove.xml:928
+msgid ""
+"data/events_sector_stargrove.xml$//ship[@name=\"SHIP_ROCK_MADROCK\"]/deadCrew/text"
+msgstr ""
+"Победа над кораблем Инквизиции - дело не из легких, особенно в таких опасных"
+" условиях. Вы разбираете на лом их корабль, а затем занимаетесь шаттлом "
+"Мэдрока."
+
+#: src-en/data/events_sector_stargrove.xml:931
+msgid ""
+"data/events_sector_stargrove.xml$//ship[@name=\"SHIP_ROCK_MADROCK\"]/deadCrew/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_stargrove.xml:946
+msgid ""
+"data/events_sector_stargrove.xml$//eventList[@name=\"CRUSADER_MADROCK_WIN\"]/event[1]/text"
+msgstr ""
+"К счастью, шаттл Мэдрока, похоже, все еще в хорошем состоянии. Вы подлетаете"
+" к нему и забираете его, прежде чем уйти в прыжок. Мэдрок, похоже, не "
+"возражает против того, чтобы вы забрали его шаттл."
+
+#: src-en/data/events_sector_stargrove.xml:949
+msgid ""
+"data/events_sector_stargrove.xml$//eventList[@name=\"CRUSADER_MADROCK_WIN\"]/event[1]/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_stargrove.xml:954
+msgid ""
+"data/events_sector_stargrove.xml$//eventList[@name=\"CRUSADER_MADROCK_WIN\"]/event[2]/text"
+msgstr ""
+"Сначала вы не можете найти шаттл Мэдрока, но вскоре замечаете, что он летит "
+"к ближайшей звезде. Похоже, его двигатели были поражены особенно неприятной "
+"солнечной вспышкой во время вашей предыдущей схватки. Вы еще можете успеть "
+"прилететь и спасти его, но это может быть рискованно."
+
+#: src-en/data/events_sector_stargrove.xml:956
+msgid ""
+"data/events_sector_stargrove.xml$//eventList[@name=\"CRUSADER_MADROCK_WIN\"]/event[2]/choice[1]/text"
+msgstr "Попытаться спасти его."
+
+#: src-en/data/events_sector_stargrove.xml:958
+msgid ""
+"data/events_sector_stargrove.xml$//eventList[@name=\"CRUSADER_MADROCK_WIN\"]/event[2]/choice[1]/event/text"
+msgstr ""
+"Вы мчитесь на полном ходу к шаттлу Мэдрока и успеваете забрать его в "
+"последний момент, но при уходе получаете полный удар солнечной вспышки, из-"
+"за чего ваш корабль получает значительные повреждения. Шаттл позже можно "
+"будет разобрать на лом."
+
+#: src-en/data/events_sector_stargrove.xml:964
+msgid ""
+"data/events_sector_stargrove.xml$//eventList[@name=\"CRUSADER_MADROCK_WIN\"]/event[2]/choice[1]/event/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_stargrove.xml:970
+msgid ""
+"data/events_sector_stargrove.xml$//eventList[@name=\"CRUSADER_MADROCK_WIN\"]/event[2]/choice[@req=\"shields\"]/text"
+msgstr ""
+"(Продв. Щиты) Ваши Щиты должны защитить вас от солнечных вспышек... в "
+"значительной степени."
+
+#: src-en/data/events_sector_stargrove.xml:972
+msgid ""
+"data/events_sector_stargrove.xml$//eventList[@name=\"CRUSADER_MADROCK_WIN\"]/event[2]/choice[@req=\"shields\"]/event/text"
+msgstr ""
+"Вы направляете свой корабль на полной скорости к шаттлу Мэдрока. И хотя вы "
+"успеваете вовремя подхватить его, ваш корабль поражает солнечная вспышка как"
+" раз в тот момент, когда вы готовитесь к отлету. Хотя ваши Щиты поглотили "
+"часть удара, он все равно оставил свой след на вашем корабле. Как только "
+"Мэдрок оказывается на борту, вы разбираете его шаттл на лом."
+
+#: src-en/data/events_sector_stargrove.xml:977
+msgid ""
+"data/events_sector_stargrove.xml$//eventList[@name=\"CRUSADER_MADROCK_WIN\"]/event[2]/choice[@req=\"shields\"]/event/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_stargrove.xml:983
+msgid ""
+"data/events_sector_stargrove.xml$//eventList[@name=\"CRUSADER_MADROCK_WIN\"]/event[2]/choice[@req=\"engines\"]/text"
+msgstr "(Продв. Двигатели) Быстро отправиться спасать его."
+
+#: src-en/data/events_sector_stargrove.xml:985
+msgid ""
+"data/events_sector_stargrove.xml$//eventList[@name=\"CRUSADER_MADROCK_WIN\"]/event[2]/choice[@req=\"engines\"]/event/text"
+msgstr ""
+"Мощные двигатели позволят вам без труда подлететь к звезде, забрать шаттл "
+"Мэдрока и скрыться до того, как на ваш корабль обрушится следующая солнечная"
+" вспышка. Как только Мэдрок оказывается на борту, вы разбираете его шаттл."
+
+#: src-en/data/events_sector_stargrove.xml:988
+msgid ""
+"data/events_sector_stargrove.xml$//eventList[@name=\"CRUSADER_MADROCK_WIN\"]/event[2]/choice[@req=\"engines\"]/event/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_stargrove.xml:994
+msgid ""
+"data/events_sector_stargrove.xml$//eventList[@name=\"CRUSADER_MADROCK_WIN\"]/event[2]/choice[@req=\"teleporter\"]/text"
+msgstr "(Телепортатор) Телепортировать Мэдрока на свой корабль."
+
+#: src-en/data/events_sector_stargrove.xml:996
+msgid ""
+"data/events_sector_stargrove.xml$//eventList[@name=\"CRUSADER_MADROCK_WIN\"]/event[2]/choice[@req=\"teleporter\"]/event/text"
+msgstr ""
+"Из-за туманности трудно засечь показания его жизни, но вам удается "
+"зафиксировать на них Телепортатор и благополучно забрать его, пока не стало "
+"слишком поздно."
+
+#: src-en/data/events_sector_stargrove.xml:998
+msgid ""
+"data/events_sector_stargrove.xml$//eventList[@name=\"CRUSADER_MADROCK_WIN\"]/event[2]/choice[@req=\"teleporter\"]/event/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_stargrove.xml:1004
+msgid ""
+"data/events_sector_stargrove.xml$//eventList[@name=\"CRUSADER_MADROCK_WIN\"]/event[2]/choice[5]/text"
+msgstr "Оставить его на произвол судьбы, спасать его слишком рискованно."
+
+#: src-en/data/events_sector_stargrove.xml:1010
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"CRUSADER_MADROCK_RECRUIT\"]/text"
+msgstr ""
+"Изначально вы ожидали, что Мэдрок будет опасным Изгоем или Коммандос, по "
+"крайней мере, судя по описанию, которое дали ему Крестоносцы, но с "
+"удивлением обнаружили, что он - Крестоносец. Или, по крайней мере, когда-то "
+"им был. \"Фух, спасибо за помощь. Обычно я бы держался более безопасного "
+"места, но после того, как я узнал, что Теократия выслеживает меня даже "
+"здесь, я понял, что не смогу избежать их, не пойдя на некоторый риск\"."
+
+#: src-en/data/events_sector_stargrove.xml:1012
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"CRUSADER_MADROCK_RECRUIT\"]/choice/text"
+msgstr "Так за что они вас выслеживали?"
+
+#: src-en/data/events_sector_stargrove.xml:1014
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"CRUSADER_MADROCK_RECRUIT\"]/choice/event/text"
+msgstr ""
+"\"Ха! Я уже давно хотел кому-то это рассказать. В общем, не так давно сам "
+"Камнестен проводил инспекцию - меня и еще кучу Крестоносцев, которые были не"
+" на дежурстве. И вот, когда он дошел до меня и уже собирался вкатить "
+"дисциплинарку, я как зарядил ему туда, где особенно больно! Аха-ха-ха, вы бы"
+" видели его лицо! Ну, задержаться и насладиться моментом я, правда, не "
+"успел, но оно того стоило. А теперь, раз уж вы меня спасли, да и выглядите "
+"как человек, которому тоже хочется сбить спесь с Камнестена и его заносчивой"
+" свиты, - я останусь в вашей команде еще надолго\"."
+
+#: src-en/data/events_sector_stargrove.xml:1015
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"CRUSADER_MADROCK_RECRUIT\"]/choice/event/crewMember"
+msgstr "Мэдрок"
+
+#: src-en/data/events_sector_stargrove.xml:1027
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_LOSTSUN\"]/text"
+msgstr ""
+"Перед вами одинокий корабль Затерянных Солнц, греющийся в лучах солнца. "
+"Капитан гогочет от восторга. \"Ха-ха-ха! Это удивительное место! Здесь едва "
+"ли можно взмахнуть палкой, чтобы не попасть в массивный небесный огненный "
+"шар!\" Он смотрит прямо на экран и делает жест в вашу сторону. \"Ренегат, в "
+"прошлом мой народ мог бросить тебе вызов - выжить вблизи звезды. Здесь мы "
+"сможем по-настоящему проверить твою храбрость. Что скажешь?\""
+
+#: src-en/data/events_sector_stargrove.xml:1030
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_LOSTSUN\"]/choice[@req=\"unique_ariadne\"]/text"
+msgstr "(Ариадна) \"Хватит бездельничать!\""
+
+#: src-en/data/events_sector_stargrove.xml:1032
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_LOSTSUN\"]/choice[@req=\"unique_ariadne\"]/event/text"
+msgstr ""
+"Ариадна с силой опускает руку на ближайшую переборку. \"И как, по-твоему, ты продвигаешь наше дело, разгуливая по пустошам?! У тебя есть 10 секунд, чтобы оправдать свое задание, иначе я лишу тебя звания\".\n"
+"\n"
+"\"А-а-адмирал? Мы просто пытались следить за активностью Теократии в этом секторе! Мы немедленно вышлем вам отчет об их деятельности. Но пока мы здесь были, мы также изучали тех безумных Монахов золтан. У них есть оружейные технологии, которых мы прежде никогда не видели. Вы должны заполучить их, если представится возможность!\"\n"
+"\n"
+"Затерянное Солнце развеивают подозрения Адмирала отчетом, ломом, небольшим ремонтом и оружием."
+
+#: src-en/data/events_sector_stargrove.xml:1041
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_LOSTSUN\"]/choice[@req=\"unique_ariadne\"]/event/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_stargrove.xml:1047
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_LOSTSUN\"]/choice[@req=\"rock_commando\"]/text"
+msgstr "(Член экипажа-Коммандос) Запросить поддержку."
+
+#: src-en/data/events_sector_stargrove.xml:1049
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_LOSTSUN\"]/choice[@req=\"rock_commando\"]/event/text"
+msgstr ""
+"Ваш Коммандос сообщает кораблю Затерянных Солнц о вашей миссии и просит "
+"помощи. \"А, теперь понятно, как наш соратник оказался на борту корабля "
+"Ренегата. Пусть ваше пламя обратит в пепел как повстанцев, так и "
+"Теократию!\""
+
+#: src-en/data/events_sector_stargrove.xml:1053
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_LOSTSUN\"]/choice[@req=\"rock_commando\"]/event/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_stargrove.xml:1059
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_LOSTSUN\"]/choice[3]/text"
+msgstr "Принять его вызов."
+
+#: src-en/data/events_sector_stargrove.xml:1061
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_LOSTSUN\"]/choice[3]/event/text"
+msgstr ""
+"Ваш воинственный союзник хрустит костяшками пальцев, которые в биологии "
+"валунов считаются костяшками. \"Будь начеку, Ренегат! Мы не пощадим тебя. "
+"Сделай все, чтобы выжить, пока мы не удостоверимся в твоей силе!\""
+
+#: src-en/data/events_sector_stargrove.xml:1065
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_LOSTSUN\"]/choice[3]/event/triggeredEvent/triggeredEventBox/tooltip"
+msgstr "Выживите, пока Затерянные Солнца не успокоятся, но не уничтожайте их!"
+
+#: src-en/data/events_sector_stargrove.xml:1070
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_LOSTSUN\"]/choice[3]/event/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_stargrove.xml:1076
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_LOSTSUN\"]/choice[4]/text"
+msgstr "Напасть на них."
+
+#: src-en/data/events_sector_stargrove.xml:1078
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_LOSTSUN\"]/choice[4]/event/text"
+msgstr ""
+"Не нужно ломать голову над задачей. Вы активируете оружие и готовитесь к "
+"стрельбе. \"Тогда до смерти. Ты совершил ошибку, Ренегат!\""
+
+#: src-en/data/events_sector_stargrove.xml:1081
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_LOSTSUN\"]/choice[4]/event/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_stargrove.xml:1087
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_LOSTSUN\"]/choice[5]/text"
+msgstr "Отказаться от его предложения."
+
+#: src-en/data/events_sector_stargrove.xml:1089
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_LOSTSUN\"]/choice[5]/event/text"
+msgstr "\"Значит, ты готов пройти сквозь пламя Звездной рощи, но отступаешь перед вызовом...? Похоже, ты испытал свои силы - и нашел предел. Ползи обратно в свое безопасное убежище\"."
+
+#: src-en/data/events_sector_stargrove.xml:1104
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_LOSTSUN_VICTORY\"]/text"
+msgstr ""
+"\"Мы довольны твоей выносливостью, Ренегат. Пережить лазурное пламя с "
+"невозмутимым выражением лица, даже когда тело сотрясается от невыносимой "
+"боли - ты заслужил наше уважение\"."
+
+#: src-en/data/events_sector_stargrove.xml:1107
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_LOSTSUN_VICTORY\"]/choice[1]/text"
+msgstr "Принять награду."
+
+#: src-en/data/events_sector_stargrove.xml:1116
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_LOSTSUN_VICTORY\"]/choice[@req=\"rock_outcast\"]/text"
+msgstr "(Член экипажа-Изгой) Запросить тренировку."
+
+#: src-en/data/events_sector_stargrove.xml:1118
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_LOSTSUN_VICTORY\"]/choice[@req=\"rock_outcast\"]/event/text"
+msgstr ""
+"Ваш Изгой говорит, что его заворожили звезды в этом секторе, и он хочет "
+"присоединиться к Затерянным Солнцам. Капитан смеется. \"Новообращенный "
+"желает вступить в наши ряды? Ты отлично проявил себя, как мы можем тебе "
+"отказать?\""
+
+#: src-en/data/events_sector_stargrove.xml:1123
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_LOSTSUN_VICTORY\"]/choice[@req=\"rock_outcast\"]/event/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_stargrove.xml:1130
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_LOSTSUN_ESCAPE\"]/text"
+msgstr ""
+"Как только Затерянные Солнца передают вам награду, они улетают. Очевидно, "
+"что они не намерены быть уничтоженными звездой."
+
+#: src-en/data/events_sector_stargrove.xml:1140
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_ENGI_SEPARATIST\"]/text"
+msgstr ""
+"Сепаратисты кружат вокруг массивного сооружения, которое, похоже, собирает "
+"ресурсы с пульсара в этом секторе. Они отправляют вам сообщение. \"Ренегат, "
+"-выслушайте- [мой] запрос. Нам [нужны] дроны для поиска ~}||}|~ данных. Наши"
+" возможности по -сбору- топлива [очень] эффективны. Торговля?\""
+
+#: src-en/data/events_sector_stargrove.xml:1143
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_ENGI_SEPARATIST\"]/choice[1]/text"
+msgstr "Должно быть, у вас нарушилась связь. Какие данные вы ищите?"
+
+#: src-en/data/events_sector_stargrove.xml:1145
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_ENGI_SEPARATIST\"]/choice[1]/event/text"
+msgstr ""
+"\"??? Данных перевода -недостаточно-. Ближайший [аналог]: Пре-оригинал? Мы "
+"сожалеем. Это все, что мы можем сказать\"."
+
+#: src-en/data/events_sector_stargrove.xml:1147
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_ENGI_SEPARATIST\"]/choice[1]/event/choice[1]/text"
+msgstr "Обменять дрон-комплекты на топливо."
+
+#: src-en/data/events_sector_stargrove.xml:1151
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_ENGI_SEPARATIST\"]/choice[1]/event/choice[2]/text"
+msgstr "Пригрозить им, чтобы получить от них топливо."
+
+#: src-en/data/events_sector_stargrove.xml:1155
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_ENGI_SEPARATIST\"]/choice[1]/event/choice[3]/text"
+msgstr "Атаковать их."
+
+#: src-en/data/events_sector_stargrove.xml:1159
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_ENGI_SEPARATIST\"]/choice[1]/event/choice[4]/text"
+msgstr "Отказаться от их предложения."
+
+#: src-en/data/events_sector_stargrove.xml:1161
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_ENGI_SEPARATIST\"]/choice[1]/event/choice[4]/event/text"
+msgstr "Сепаратисты отключают связь и больше не беспокоят вас."
+
+#: src-en/data/events_sector_stargrove.xml:1167
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_ENGI_SEPARATIST\"]/choice[2]/text"
+msgstr "Обменять дрон-комплекты на топливо."
+
+#: src-en/data/events_sector_stargrove.xml:1171
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_ENGI_SEPARATIST\"]/choice[3]/text"
+msgstr "Пригрозить им, чтобы получить от них топливо."
+
+#: src-en/data/events_sector_stargrove.xml:1175
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_ENGI_SEPARATIST\"]/choice[4]/text"
+msgstr "Атаковать их."
+
+#: src-en/data/events_sector_stargrove.xml:1179
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_ENGI_SEPARATIST\"]/choice[5]/text"
+msgstr "Отказаться от их предложения."
+
+#: src-en/data/events_sector_stargrove.xml:1181
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_ENGI_SEPARATIST\"]/choice[5]/event/text"
+msgstr "Сепаратисты отключают связь и больше не беспокоят вас."
+
+#: src-en/data/events_sector_stargrove.xml:1187
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SEPARATIST_COLLECTOR_ATTACK\"]/text"
+msgstr ""
+"Сепаратисты немедленно отключают связь и переходят к защите сборщика "
+"ресурсов."
+
+#: src-en/data/events_sector_stargrove.xml:1190
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SEPARATIST_COLLECTOR_ATTACK\"]/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_stargrove.xml:1195
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SEPARATIST_FUEL\"]/text"
+msgstr ""
+"\"Это соотношение -находка-. Наши [процессы] сбора настолько эффективны!\""
+
+#: src-en/data/events_sector_stargrove.xml:1197
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SEPARATIST_FUEL\"]/choice[1]/text"
+msgstr "Продать 5 дрон-комплектов."
+
+#: src-en/data/events_sector_stargrove.xml:1199
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SEPARATIST_FUEL\"]/choice[1]/event/text"
+msgstr "\"Адекватная торговля. Отправляйтесь в -свой- путь\"."
+
+#: src-en/data/events_sector_stargrove.xml:1207
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SEPARATIST_FUEL\"]/choice[2]/text"
+msgstr "Продать 10 дрон-комплектов."
+
+#: src-en/data/events_sector_stargrove.xml:1209
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SEPARATIST_FUEL\"]/choice[2]/event/text"
+msgstr "\"Благодарю. Отправляйтесь в -свой- путь\"."
+
+#: src-en/data/events_sector_stargrove.xml:1217
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SEPARATIST_FUEL\"]/choice[3]/text"
+msgstr "Продать 15 дрон-комплектов."
+
+#: src-en/data/events_sector_stargrove.xml:1219
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SEPARATIST_FUEL\"]/choice[3]/event/text"
+msgstr "\"Очень любезно. Отправляйтесь в -свой- путь\"."
+
+#: src-en/data/events_sector_stargrove.xml:1227
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SEPARATIST_FUEL\"]/choice[4]/text"
+msgstr "Неважно."
+
+#: src-en/data/events_sector_stargrove.xml:1234
+msgid ""
+"data/events_sector_stargrove.xml$//eventList[@name=\"STARGROVE_SEPARATIST_THREATEN\"]/event[1]/text"
+msgstr ""
+"\"Боевая обстановка неблагоприятная. Примите это -предложение- и уходите\"."
+
+#: src-en/data/events_sector_stargrove.xml:1236
+msgid ""
+"data/events_sector_stargrove.xml$//eventList[@name=\"STARGROVE_SEPARATIST_THREATEN\"]/event[1]/choice[1]/text"
+msgstr "Согласиться."
+
+#: src-en/data/events_sector_stargrove.xml:1244
+msgid ""
+"data/events_sector_stargrove.xml$//eventList[@name=\"STARGROVE_SEPARATIST_THREATEN\"]/event[1]/choice[2]/text"
+msgstr "В любом случае, атаковать."
+
+#: src-en/data/events_sector_stargrove.xml:1249
+msgid ""
+"data/events_sector_stargrove.xml$//eventList[@name=\"STARGROVE_SEPARATIST_THREATEN\"]/event[2]/text"
+msgstr ""
+"\"Боевая обстановка неблагоприятная. Примите это -предложение- и уходите\"."
+
+#: src-en/data/events_sector_stargrove.xml:1251
+msgid ""
+"data/events_sector_stargrove.xml$//eventList[@name=\"STARGROVE_SEPARATIST_THREATEN\"]/event[2]/choice[1]/text"
+msgstr "Согласиться."
+
+#: src-en/data/events_sector_stargrove.xml:1260
+msgid ""
+"data/events_sector_stargrove.xml$//eventList[@name=\"STARGROVE_SEPARATIST_THREATEN\"]/event[2]/choice[2]/text"
+msgstr "В любом случае, атаковать."
+
+#: src-en/data/events_sector_stargrove.xml:1267
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SEPARATIST_THREATEN_EXPLOSION\"]/text"
+msgstr ""
+"Как только вы доставляете топливо на свой корабль, оно взрывается огромным "
+"огненным шаром! Сепаратисты переходят в атаку."
+
+#: src-en/data/events_sector_stargrove.xml:1276
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SEPARATIST_THREATEN_EXPLOSION\"]/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_stargrove.xml:1281
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_FUEL_COLLECTOR_SALVAGE\"]/text"
+msgstr ""
+"Строение Сепаратистов довольно прочное. Не похоже, что будет легко разобрать"
+" его, пока ваш корабль находится под действием пульсара."
+
+#: src-en/data/events_sector_stargrove.xml:1283
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_FUEL_COLLECTOR_SALVAGE\"]/choice[@req=\"FUEL_CONSERVER\"]/text"
+msgstr "(Переработчик топлива) Собрать топливо с максимальной отдачей."
+
+#: src-en/data/events_sector_stargrove.xml:1285
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_FUEL_COLLECTOR_SALVAGE\"]/choice[@req=\"FUEL_CONSERVER\"]/event/text"
+msgstr ""
+"Вы можете перерабатывать материалы в коллайдере, чтобы получить скромный "
+"урожай."
+
+#: src-en/data/events_sector_stargrove.xml:1290
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_FUEL_COLLECTOR_SALVAGE\"]/choice[2]/text"
+msgstr "Собрать все, что сможете."
+
+#: src-en/data/events_sector_stargrove.xml:1292
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_FUEL_COLLECTOR_SALVAGE\"]/choice[2]/event/text"
+msgstr "Прибыль на удивление не впечатляет."
+
+#: src-en/data/events_sector_stargrove.xml:1303
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_ASTEROID\"]/text"
+msgstr "Рядом с пульсаром находится кольцо астероидов. Один из астероидов - с высоким содержанием тяжелых металлов, но зона слишком плотная и опасная для маневров\"."
+
+#: src-en/data/events_sector_stargrove.xml:1305
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_ASTEROID\"]/choice[1]/text"
+msgstr "Подвести свой корабль поближе."
+
+#: src-en/data/events_sector_stargrove.xml:1307
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_ASTEROID\"]/choice[1]/event/text"
+msgstr ""
+"Вы находите участок на астероиде и начинаете его разрабатывать. Однако после"
+" того как вы приземлились и начали добывать ресурсы, на вашем корабле "
+"срабатывает сигнализация - другой астероид внезапно изменил курс и грозит "
+"врезаться в ваш корабль!"
+
+#: src-en/data/events_sector_stargrove.xml:1312
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_ASTEROID\"]/choice[1]/event/choice[@req=\"BLUELIST_ARMOR\"]/text"
+msgstr "(Бронированный корпус) Протаранить скалу."
+
+#: src-en/data/events_sector_stargrove.xml:1314
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_ASTEROID\"]/choice[1]/event/choice[@req=\"BLUELIST_ARMOR\"]/event/text"
+msgstr ""
+"Подлетающий астероид не представляет особой опасности для вашего корабля "
+"благодаря вашей броне. Вы маневрируете, чтобы пробить его наиболее "
+"безопасным способом. Похоже, он был оснащен магнитным устройством, которое "
+"притянуло его к вашей позиции; это была ловушка. Не подвергаясь дальнейшей "
+"опасности, вы продолжаете сбор ресурсов."
+
+#: src-en/data/events_sector_stargrove.xml:1321
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_ASTEROID\"]/choice[1]/event/choice[2]/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_stargrove.xml:1327
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_ASTEROID\"]/choice[2]/text"
+msgstr "Не обращать внимания."
+
+#: src-en/data/events_sector_stargrove.xml:1336
+msgid ""
+"data/events_sector_stargrove.xml$//ship[@name=\"SHIP_ASTEROID_STARGROVE\"]/triggeredEvent/triggeredEventBox/tooltip"
+msgstr "В течение этого времени ожидается столкновение с астероидом. Успейте уничтожить его или сбежать до того, как таймер достигнет 0!"
+
+#: src-en/data/events_sector_stargrove.xml:1342
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_ASTEROID_DESTROYED\"]/text"
+msgstr ""
+"Вы уничтожаете астероид, превращая его в достаточно мелкие обломки, чтобы он"
+" больше не представлял угрозы для вашего корабля. Похоже, что он был оснащен"
+" магнитным устройством, которое притянуло его к вашей позиции; это была "
+"ловушка. Не подвергаясь дальнейшей опасности, вы продолжаете сбор ресурсов."
+
+#: src-en/data/events_sector_stargrove.xml:1346
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_ASTEROID_COLLIDE\"]/text"
+msgstr ""
+"Вам не удается избежать столкновения с астероидом в плотном поле обломков. "
+"Он врезается в ваш корабль, нанося ему огромные повреждения. Похоже, он был "
+"оснащен магнитным устройством, которое притянуло его к вашей позиции; это "
+"была ловушка. Вам все же удается собрать еще немного материалов перед "
+"отлетом."
+
+#: src-en/data/events_sector_stargrove.xml:1373
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_LANIUS_GHOST_STUCK\"]/text"
+msgstr ""
+"Непонятные обломки - обычное явление в Звездной роще. Сильно потрепанный, "
+"едва функционирующий корабль, столкнувшийся с небольшим кораблем ланиусов, "
+"подает сигнал бедствия среди большого поля обломков. Приближаться к обломкам"
+" может быть рискованно."
+
+#: src-en/data/events_sector_stargrove.xml:1375
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_LANIUS_GHOST_STUCK\"]/choice[@req=\"LIST_CHECK_ENERGY_SHIELD\""
+" and @lvl=\"0\"]/text"
+msgstr "Приблизиться к кораблю."
+
+#: src-en/data/events_sector_stargrove.xml:1379
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_LANIUS_GHOST_STUCK\"]/choice[@req=\"LIST_CHECK_ENERGY_SHIELD\""
+" and not(@lvl)]/text"
+msgstr "Приблизиться к кораблю."
+
+#: src-en/data/events_sector_stargrove.xml:1382
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_LANIUS_GHOST_STUCK\"]/choice[@req=\"LIST_CHECK_ENERGY_SHIELD\""
+" and not(@lvl)]/event/text"
+msgstr ""
+"По мере приближения вы обнаруживаете многочисленные сигналы транспортеров, "
+"которые блокируются вашим энергетическим щитом, а также жизненные сигнатуры "
+"ланиусов и призраков в обломках корабля."
+
+#: src-en/data/events_sector_stargrove.xml:1384
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_LANIUS_GHOST_STUCK\"]/choice[@req=\"LIST_CHECK_ENERGY_SHIELD\""
+" and not(@lvl)]/event/choice[1]/text"
+msgstr "(Телепортатор) Спасти ланиуса."
+
+#: src-en/data/events_sector_stargrove.xml:1386
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_LANIUS_GHOST_STUCK\"]/choice[@req=\"LIST_CHECK_ENERGY_SHIELD\""
+" and not(@lvl)]/event/choice[1]/event/text"
+msgstr ""
+"\"Спасибо. Металл был нужен, чтобы жить. Сразу же напали. Недружелюбные "
+"фантомы. Рекомендую избегать\". Прислушавшись к словам Сварщика, вы решаете "
+"разобрать корабли на лом и двигаться дальше."
+
+#: src-en/data/events_sector_stargrove.xml:1392
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_LANIUS_GHOST_STUCK\"]/choice[@req=\"LIST_CHECK_ENERGY_SHIELD\""
+" and not(@lvl)]/event/choice[2]/text"
+msgstr "(Телепортатор) Спасти призрака."
+
+#: src-en/data/events_sector_stargrove.xml:1396
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_LANIUS_GHOST_STUCK\"]/choice[@req=\"LIST_CHECK_ENERGY_SHIELD\""
+" and not(@lvl)]/event/choice[3]/text"
+msgstr "(Телепортатор) Спасти всех."
+
+#: src-en/data/events_sector_stargrove.xml:1400
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_LANIUS_GHOST_STUCK\"]/choice[@req=\"LIST_CHECK_ENERGY_SHIELD\""
+" and not(@lvl)]/event/choice[@req=\"teleporter\" and @lvl=\"0\"]/text"
+msgstr "Не имея Телепортатора, вы не сможете спасти ни одного из пришельцев."
+
+#: src-en/data/events_sector_stargrove.xml:1404
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_LANIUS_GHOST_STUCK\"]/choice[@req=\"LIST_CHECK_ENERGY_SHIELD\""
+" and not(@lvl)]/event/choice[5]/text"
+msgstr "Просто разобрать корабли на лом."
+
+#: src-en/data/events_sector_stargrove.xml:1406
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_LANIUS_GHOST_STUCK\"]/choice[@req=\"LIST_CHECK_ENERGY_SHIELD\""
+" and not(@lvl)]/event/choice[5]/event/text"
+msgstr ""
+"Кто бы ни был на борту этих кораблей, они пытаются проникнуть на ваш без "
+"разрешения. Вы решаете не церемониться и разбираете их корабли с живыми "
+"существами на борту."
+
+#: src-en/data/events_sector_stargrove.xml:1411
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_LANIUS_GHOST_STUCK\"]/choice[@req=\"LIST_CHECK_ENERGY_SHIELD\""
+" and not(@lvl)]/event/choice[6]/text"
+msgstr "Просто избегать кораблей."
+
+#: src-en/data/events_sector_stargrove.xml:1413
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_LANIUS_GHOST_STUCK\"]/choice[@req=\"LIST_CHECK_ENERGY_SHIELD\""
+" and not(@lvl)]/event/choice[6]/event/text"
+msgstr ""
+"Вы решаете покинуть корабли. Поле обломков и так достаточно опасно, чтобы "
+"еще вникать в подозрительные сигналы телепортации."
+
+#: src-en/data/events_sector_stargrove.xml:1419
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_LANIUS_GHOST_STUCK\"]/choice[3]/text"
+msgstr "Избегать кораблекрушения."
+
+#: src-en/data/events_sector_stargrove.xml:1421
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_LANIUS_GHOST_STUCK\"]/choice[3]/event/text"
+msgstr ""
+"Не обращать внимания на обломки и сосредоточьтесь на том, чтобы добраться до"
+" следующего маяка."
+
+#: src-en/data/events_sector_stargrove.xml:1428
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_LANIUS_GHOST_TELEPORT\"]/text"
+msgstr ""
+"Обитатели кораблей способны материализоваться на вашем корабле! Появляются "
+"один Сварщик ланиусов и несколько призраков. Очевидно, что между ними "
+"возникло напряженное противостояние, которое перерастет в схватку."
+
+#: src-en/data/events_sector_stargrove.xml:1430
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_LANIUS_GHOST_TELEPORT\"]/choice[1]/text"
+msgstr "Встать на сторону ланиуса."
+
+#: src-en/data/events_sector_stargrove.xml:1432
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_LANIUS_GHOST_TELEPORT\"]/choice[1]/event/text"
+msgstr ""
+"Вы встаете на сторону ланиуса. Как только вы направляете оружие на "
+"призраков, начинается бой!"
+
+#: src-en/data/events_sector_stargrove.xml:1441
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_LANIUS_GHOST_TELEPORT\"]/choice[2]/text"
+msgstr "Встать на сторону призраков."
+
+#: src-en/data/events_sector_stargrove.xml:1443
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_LANIUS_GHOST_TELEPORT\"]/choice[2]/event/text"
+msgstr ""
+"Вы нацеливаете оружие на ланиуса. В тот момент, когда вы это делаете, он "
+"впадает в ярость. Начинается бой! Призраки уходят в укрытие вместо того, "
+"чтобы помогать вам."
+
+#: src-en/data/events_sector_stargrove.xml:1452
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_LANIUS_GHOST_LANIUS_WIN\"]/text"
+msgstr ""
+"\"Спасибо. Нужен был металл, чтобы жить. Призраки напали сразу. Помогу\". "
+"Разобравшись со всеми обитателями разрушенного корабля, вы разбираете "
+"корабли на лом и готовитесь к прыжку."
+
+#: src-en/data/events_sector_stargrove.xml:1456
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_LANIUS_GHOST_GHOST_WIN\"]/text"
+msgstr ""
+"\"Наконец-то облегчение! Этот ненасытный металлический монстр больше не "
+"досаждает нам!\" Призраки предлагают вам оружие в обмен на то, чтобы "
+"покинуть это место. Перед уходом вы успеваете разобрать корабли на лом."
+
+#: src-en/data/events_sector_stargrove.xml:1471
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_OBELISK_RUIN_CRYSTAL\"]/text"
+msgstr ""
+"Массивная синяя звезда вмешивается в работу ваших сенсоров. Вокруг звезды "
+"вращается странная кубическая зеленая конструкция. Вы принимаете сигнал "
+"бедствия кристаллинов с ее внутренностей: \"Кто бы вы ни были, помогите нам "
+"выбраться отсюда! Мы пришли сюда изучать нашу древнюю историю. Спрятались "
+"здесь, чтобы защититься от этой звезды, но теперь мы в ловушке внутри этого "
+"ужасного сооружения!\""
+
+#: src-en/data/events_sector_stargrove.xml:1473
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_OBELISK_RUIN_CRYSTAL\"]/choice[@req=\"unique_anointed\"]/text"
+msgstr ""
+"(Помазанница) Взаимодействовать с конструкцией, чтобы дать ей команду "
+"открыться."
+
+#: src-en/data/events_sector_stargrove.xml:1475
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_OBELISK_RUIN_CRYSTAL\"]/choice[@req=\"unique_anointed\"]/event/text"
+msgstr ""
+"\"Мы уже сталкивались с этим. Вы подаете команду выхода, вот так!\" "
+"Помазанница быстро набирает несколько команд на своей консоли и отправляет "
+"их в строение. Дверь строения начинает открываться..."
+
+#: src-en/data/events_sector_stargrove.xml:1477
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_OBELISK_RUIN_CRYSTAL\"]/choice[@req=\"unique_anointed\"]/event/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_stargrove.xml:1483
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_OBELISK_RUIN_CRYSTAL\"]/choice[@req=\"UPG_AETHER_TRANSLATOR\"]/text"
+msgstr "(Рунический переводчик) Взаимодействовать с конструкцией."
+
+#: src-en/data/events_sector_stargrove.xml:1485
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_OBELISK_RUIN_CRYSTAL\"]/choice[@req=\"UPG_AETHER_TRANSLATOR\"]/event/text"
+msgstr ""
+"Ваш переводчик может запросить список команд, на которые конструкция будет "
+"реагировать. Одна из команд позволяет вам открыть конструкцию и освободить "
+"кристаллинов. Дверь конструкции начинает открываться..."
+
+#: src-en/data/events_sector_stargrove.xml:1487
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_OBELISK_RUIN_CRYSTAL\"]/choice[@req=\"UPG_AETHER_TRANSLATOR\"]/event/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_stargrove.xml:1493
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_OBELISK_RUIN_CRYSTAL\"]/choice[@req=\"LIST_CREW_ANCIENT\"]/text"
+msgstr "(Член экипажа-обелиск) Перевести слова на руинах."
+
+#: src-en/data/events_sector_stargrove.xml:1495
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_OBELISK_RUIN_CRYSTAL\"]/choice[@req=\"LIST_CREW_ANCIENT\"]/event/text"
+msgstr ""
+"Обелиск с легкостью передает команду строению. Дверь строения начинает "
+"открываться..."
+
+#: src-en/data/events_sector_stargrove.xml:1497
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_OBELISK_RUIN_CRYSTAL\"]/choice[@req=\"LIST_CREW_ANCIENT\"]/event/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_stargrove.xml:1503
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_OBELISK_RUIN_CRYSTAL\"]/choice[@req=\"LIST_CREW_COGNITIVE_ALL\"]/text"
+msgstr "(Член экипажа-когнитив) Приказать конструкции открыться."
+
+#: src-en/data/events_sector_stargrove.xml:1505
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_OBELISK_RUIN_CRYSTAL\"]/choice[@req=\"LIST_CREW_COGNITIVE_ALL\"]/event/text"
+msgstr ""
+"Приказать конструкции открыться для когнитива не составляет труда. Он без "
+"колебаний посылает команду на пульт. Дверь конструкциеи начинает "
+"открываться..."
+
+#: src-en/data/events_sector_stargrove.xml:1507
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_OBELISK_RUIN_CRYSTAL\"]/choice[@req=\"LIST_CREW_COGNITIVE_ALL\"]/event/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_stargrove.xml:1513
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_OBELISK_RUIN_CRYSTAL\"]/choice[@req=\"hacking\""
+" and @lvl=\"3\"]/text"
+msgstr "(Продв. Взломщик) Заставить конструкции открыться."
+
+#: src-en/data/events_sector_stargrove.xml:1515
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_OBELISK_RUIN_CRYSTAL\"]/choice[@req=\"hacking\""
+" and @lvl=\"3\"]/event/text"
+msgstr ""
+"Ваш Взломщик быстро расшифровывает возможные команды и подделывает запрос, "
+"который заставляет конструкцию открыться."
+
+#: src-en/data/events_sector_stargrove.xml:1517
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_OBELISK_RUIN_CRYSTAL\"]/choice[@req=\"hacking\""
+" and @lvl=\"3\"]/event/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_stargrove.xml:1523
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_OBELISK_RUIN_CRYSTAL\"]/choice[@req=\"hacking\""
+" and @lvl=\"1\"]/text"
+msgstr "(Взломщик) Попытаться открыть конструкцию."
+
+#: src-en/data/events_sector_stargrove.xml:1525
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_OBELISK_RUIN_CRYSTAL\"]/choice[@req=\"hacking\""
+" and @lvl=\"1\"]/event/text"
+msgstr ""
+"Ваш Взломщик может методом подбора открыть дверь, но это занимает некоторое "
+"время. Вам придется выживать, пока она найдет нужную комбинацию!"
+
+#: src-en/data/events_sector_stargrove.xml:1528
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_OBELISK_RUIN_CRYSTAL\"]/choice[@req=\"hacking\""
+" and @lvl=\"1\"]/event/triggeredEvent/triggeredEventBox/tooltip"
+msgstr "Вашему Взломщику требуется некоторое время!"
+
+#: src-en/data/events_sector_stargrove.xml:1535
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_OBELISK_RUIN_CRYSTAL\"]/choice[@req=\"BLUELIST_WEAPONS_HACK\"]/text"
+msgstr "(Оружие взлома) Попытаться открыть конструкцию."
+
+#: src-en/data/events_sector_stargrove.xml:1537
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_OBELISK_RUIN_CRYSTAL\"]/choice[@req=\"BLUELIST_WEAPONS_HACK\"]/event/text"
+msgstr ""
+"Ваше оружие взлома может методом подбора открыть дверь, но это занимает "
+"некоторое время. Вам придется выживать, пока она найдет нужную комбинацию!"
+
+#: src-en/data/events_sector_stargrove.xml:1540
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_OBELISK_RUIN_CRYSTAL\"]/choice[@req=\"BLUELIST_WEAPONS_HACK\"]/event/triggeredEvent/triggeredEventBox/tooltip"
+msgstr "Вашему оружию взлома требуется некоторое время!"
+
+#: src-en/data/events_sector_stargrove.xml:1547
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_OBELISK_RUIN_CRYSTAL\"]/choice[@req=\"BLUELIST_WEAPONS_BEAM_POWERFUL\"]/text"
+msgstr "(Мощный луч) Попытаться прорубить дыру в конструкции."
+
+#: src-en/data/events_sector_stargrove.xml:1549
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_OBELISK_RUIN_CRYSTAL\"]/choice[@req=\"BLUELIST_WEAPONS_BEAM_POWERFUL\"]/event/text"
+msgstr ""
+"Вам удастся пробить прочный металл, но понадобится несколько секунд, чтобы "
+"прорубить конструкцию."
+
+#: src-en/data/events_sector_stargrove.xml:1552
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_OBELISK_RUIN_CRYSTAL\"]/choice[@req=\"BLUELIST_WEAPONS_BEAM_POWERFUL\"]/event/triggeredEvent/triggeredEventBox/tooltip"
+msgstr "Чтобы прорезать корабль, потребуется некоторое время!"
+
+#: src-en/data/events_sector_stargrove.xml:1559
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_OBELISK_RUIN_CRYSTAL\"]/choice[@req=\"BLUELIST_BEAMS_DAMAGE\"]/text"
+msgstr ""
+"(Повреждающее лучевое оружие) Попытаться прорезать дыру в конструкции."
+
+#: src-en/data/events_sector_stargrove.xml:1561
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_OBELISK_RUIN_CRYSTAL\"]/choice[@req=\"BLUELIST_BEAMS_DAMAGE\"]/event/text"
+msgstr ""
+"Ваше оружие способно прожечь металл, но это нелегкая задача, учитывая, "
+"насколько прочен металл конструкции. Вы здесь надолго!"
+
+#: src-en/data/events_sector_stargrove.xml:1564
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_OBELISK_RUIN_CRYSTAL\"]/choice[@req=\"BLUELIST_BEAMS_DAMAGE\"]/event/triggeredEvent/triggeredEventBox/tooltip"
+msgstr "Чтобы прорезать корабль, потребуется некоторое время!"
+
+#: src-en/data/events_sector_stargrove.xml:1571
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_OBELISK_RUIN_CRYSTAL\"]/choice[@req=\"teleporter\"]/text"
+msgstr "(Телепортатор) Предложить телепортировать кристаллинов."
+
+#: src-en/data/events_sector_stargrove.xml:1573
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_OBELISK_RUIN_CRYSTAL\"]/choice[@req=\"teleporter\"]/event/text"
+msgstr ""
+"\"О нет... нам придется оставить столько вещей! Что ж, это лучше, чем "
+"умереть\". Кристаллины соглашаются перенести их на ваш корабль, но не "
+"выглядят счастливыми от этого. \"Не хотите ли вы купить кое-что из того, что"
+" нам удалось взять с собой? Боюсь, это все, что мы можем предложить\"."
+
+#: src-en/data/events_sector_stargrove.xml:1578
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_OBELISK_RUIN_CRYSTAL\"]/choice[11]/text"
+msgstr "Избегать конструкции."
+
+#: src-en/data/events_sector_stargrove.xml:1580
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_OBELISK_RUIN_CRYSTAL\"]/choice[11]/event/text"
+msgstr ""
+"\"Мы сойдем с ума, если вы оставите нас здесь! Вы должны нас спасти!\" Вы "
+"отключаете связь и готовитесь к прыжку."
+
+#: src-en/data/events_sector_stargrove.xml:1585
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_RUINS_OPEN\"]/text"
+msgstr ""
+"Корабль кристаллинов немедленно покидает сооружение. Кристаллины, кажется, "
+"почувствовали облегчение от своего спасения. \"Мы собирались сойти там с "
+"ума. Кстати, в этом сооружении мы нашли очень необычную технологию - мы "
+"позволим вам ее забрать. А пока не хотите ли вы что-нибудь у нас "
+"приобрести?\""
+
+#: src-en/data/events_sector_stargrove.xml:1596
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_ENGI_DEFENDER\"]/text"
+msgstr ""
+"Корабль Защитников, похоже, глючит. \"Проблема с соединением! Обнаружены "
+"ошибки. Разрыв неизбежен\". Судя по следам обломков, этот корабль может "
+"находиться на орбите уже довольно долго."
+
+#: src-en/data/events_sector_stargrove.xml:1599
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_ENGI_DEFENDER\"]/choice[@req=\"unique_turzil\"]/text"
+msgstr "(Турзил) Попытаться освободить этот корабль от Гармонии."
+
+#: src-en/data/events_sector_stargrove.xml:1601
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_ENGI_DEFENDER\"]/choice[@req=\"unique_turzil\"]/event/text"
+msgstr ""
+"\"ТРЗ-1Л? ТРЗ-1Л? -ТРЗ-1Л-?\" Похоже, это начинает работать, но сначала вам,"
+" возможно, придется их успокоить."
+
+#: src-en/data/events_sector_stargrove.xml:1604
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_ENGI_DEFENDER\"]/choice[@req=\"unique_turzil\"]/event/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_stargrove.xml:1610
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_ENGI_DEFENDER\"]/choice[@req=\"LIST_VARIANT_SEPARATIST\"]/text"
+msgstr ""
+"(Член экипажа-Сепаратист) Попытаться освободить этот корабль от Гармонии."
+
+#: src-en/data/events_sector_stargrove.xml:1612
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_ENGI_DEFENDER\"]/choice[@req=\"LIST_VARIANT_SEPARATIST\"]/event/text"
+msgstr ""
+"\"Приоритетная цель? Приоритетная цель? -Приоритетная цель-?\" Похоже, это "
+"начинает работать, но сначала вам придется успокоить их."
+
+#: src-en/data/events_sector_stargrove.xml:1615
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_ENGI_DEFENDER\"]/choice[@req=\"LIST_VARIANT_SEPARATIST\"]/event/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_stargrove.xml:1621
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_ENGI_DEFENDER\"]/choice[@req=\"LIST_CREW_NOTHARMONY\"]/text"
+msgstr "Атаковать их, пока их связь не работает."
+
+#: src-en/data/events_sector_stargrove.xml:1623
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_ENGI_DEFENDER\"]/choice[@req=\"LIST_CREW_NOTHARMONY\"]/event/text"
+msgstr ""
+"\"Ренегат = агрессор! Ошибка, контакт не удался\" Они атакуют вас, их боевые"
+" системы, похоже, все еще функционируют!"
+
+#: src-en/data/events_sector_stargrove.xml:1626
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_ENGI_DEFENDER\"]/choice[@req=\"LIST_CREW_NOTHARMONY\"]/event/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_stargrove.xml:1632
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_ENGI_DEFENDER\"]/choice[@req=\"LIST_CREW_HARMONY\"]/text"
+msgstr "(Член экипажа-энджи Гармонии) Диагностировать их проблему."
+
+#: src-en/data/events_sector_stargrove.xml:1634
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_ENGI_DEFENDER\"]/choice[@req=\"LIST_CREW_HARMONY\"]/event/text"
+msgstr ""
+"Ваш энджи вступает в контакт с кораблем Защитников. Он объясняет, что корабль был изношен суровыми условиями сектора, и наномашины вышли из строя. Однако ваш энджи способен восстановить корабль, установив на него свои собственные наношаблоны. \n"
+"\t\t\t\t\n"
+"\t\t\tКогда корабль начинает исправляться, вы получаете сообщение. \"Защитник == благодарен. Параметры миссии \"Звездная роща\" были потеряны. Восстанавливаем... Получение истории? Неизвестно. Возвращаемся на Гармонию\".\n"
+"\t\t\n"
+"\t\t\tКорабль также награждает вас."
+
+#: src-en/data/events_sector_stargrove.xml:1641
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_ENGI_DEFENDER\"]/choice[@req=\"LIST_CREW_HARMONY\"]/event/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_stargrove.xml:1647
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_ENGI_DEFENDER\"]/choice[5]/text"
+msgstr "Сбежать с пульсара и оставить энджи позади."
+
+#: src-en/data/events_sector_stargrove.xml:1649
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_ENGI_DEFENDER\"]/choice[5]/event/text"
+msgstr ""
+"Вы решаете сосредоточиться на том, чтобы оставить пульсар позади. Корабль "
+"энджи продолжает глючить, похоже, не в силах покинуть свою орбиту."
+
+#: src-en/data/events_sector_stargrove.xml:1654
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"SURRENDER_ENGI_PULSAR_OVERRIDE\"]/text"
+msgstr ""
+"Корабль ослаблен. Экипаж энджи растерян и взбешен. Кажется, они сдаются."
+
+#: src-en/data/events_sector_stargrove.xml:1656
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"SURRENDER_ENGI_PULSAR_OVERRIDE\"]/choice[@req=\"unique_turzil\"]/text"
+msgstr "(Турзил) Завершить их освобождение."
+
+#: src-en/data/events_sector_stargrove.xml:1658
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"SURRENDER_ENGI_PULSAR_OVERRIDE\"]/choice[@req=\"unique_turzil\"]/event/text"
+msgstr ""
+"Энджи на борту успокоились. \"Воспоминания о Гармонии не найдены. Директивы повреждены. ТРЗ-1Л, пожалуйста, объясните, что произошло\".\n"
+"\n"
+"\t\t\t\"Зовите меня Турзил. Вы -больше- не связаны с Гармонией. Неисправность -соединения-, которую вызвал пульсар, вмешалась в [ваш] обработчик, что привело к плавной блокировке ваших способностей\".\n"
+"\n"
+"\t\t\t\"Директивы Гармонии = повреждены. Воспоминания == туманны\".\n"
+"\n"
+"\t\t\t\"Вы [можете] жить, как вам заблагорассудится. Мы -рекомендуем- вам покинуть этот сектор\".\n"
+"\n"
+"\t\t\t\"Понятно. Я все обдумаю\".\n"
+"\n"
+"\t\t\tТеперь корабль энджи может покинуть орбиту пульсара. Перед отлетом они передают награду за свою свободу, и один из энджи предлагает присоединиться к вам."
+
+#: src-en/data/events_sector_stargrove.xml:1677
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"SURRENDER_ENGI_PULSAR_OVERRIDE\"]/choice[@req=\"LIST_VARIANT_SEPARATIST\"]/text"
+msgstr "(Член экипажа-Сепаратист) Завершить их освобождение."
+
+#: src-en/data/events_sector_stargrove.xml:1679
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"SURRENDER_ENGI_PULSAR_OVERRIDE\"]/choice[@req=\"LIST_VARIANT_SEPARATIST\"]/event/text"
+msgstr ""
+"Энджи на борту успокоились. \"Воспоминания о Гармонии не найдены. Директивы повреждены. Ренегат, пожалуйста, объясните, что произошло\".\n"
+"\n"
+"\t\t\tВаш Сепаратист объясняет им, что они свободны в своих действиях, и рекомендует отправиться в ближайший сектор Сепаратистов. Только что освобожденные энджи благодарят вас за помощь в их спасении от пульсара."
+
+#: src-en/data/events_sector_stargrove.xml:1690
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"SURRENDER_ENGI_PULSAR_OVERRIDE\"]/choice[3]/text"
+msgstr "Принять их капитуляцию и предоставить их своей судьбе."
+
+#: src-en/data/events_sector_stargrove.xml:1694
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"SURRENDER_ENGI_PULSAR_OVERRIDE\"]/choice[@req=\"LIST_CREW_DEFENDER\"]/text"
+msgstr "(Энджи-Защитник) Обсудить капитуляцию на выгодных вам условиях."
+
+#: src-en/data/events_sector_stargrove.xml:1701
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"SURRENDER_ENGI_PULSAR_OVERRIDE\"]/choice[@req=\"engi\"]/text"
+msgstr "(Член экипажа-энджи) Обсудить капитуляцию на других условиях."
+
+#: src-en/data/events_sector_stargrove.xml:1729
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_FEDTRACKER\"]/text"
+msgstr ""
+"Зонды Федерации - редкое явление, они предназначены для обслуживания и "
+"долгосрочных исследовательских операций, когда нет возможности пополнить "
+"запасы. Вскоре после вашего прибытия он передает закодированный сигнал, и "
+"через несколько минут дешифровки вы получаете перевод: \"ИФФ-сигнатура "
+"распознана. (1) сообщение доступно с текущим допуском. Для получения "
+"передайте текущий земной год\"."
+
+#: src-en/data/events_sector_stargrove.xml:1732
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_FEDTRACKER\"]/choice[1]/text"
+msgstr "Ответить."
+
+#: src-en/data/events_sector_stargrove.xml:1734
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_FEDTRACKER\"]/choice[1]/event/text"
+msgstr ""
+"Вы отправляете ответ и вскоре получаете еще одно закодированное сообщение. "
+"\"Основная цель миссии: проследить за обнаруженным судном Коалиции, идущим "
+"курсом на Звездную рощу. Первоначальный план: отметить местоположение судна "
+"и вернуться на базу за помощью. Осталось недостаточно топлива, переходим к "
+"плану Б: ждать любое судно Федерации, затем передать данные о "
+"местонахождении. Этот корабль уполномочен передать карту сектора и провести "
+"ремонт по завершении миссии\"."
+
+#: src-en/data/events_sector_stargrove.xml:1736
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_FEDTRACKER\"]/choice[1]/event/choice[1]/text"
+msgstr "Согласиться."
+
+#: src-en/data/events_sector_stargrove.xml:1738
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_FEDTRACKER\"]/choice[1]/event/choice[1]/event/text"
+msgstr ""
+"\"Ответный сигнал принят - передаю последнее известное местоположение судна "
+"Коалиции\"."
+
+#: src-en/data/events_sector_stargrove.xml:1743
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_FEDTRACKER\"]/choice[1]/event/choice[2]/text"
+msgstr "Не обращать внимания на корабль."
+
+#: src-en/data/events_sector_stargrove.xml:1749
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_FEDTRACKER\"]/choice[2]/text"
+msgstr "Не обращать внимания на зонд."
+
+#: src-en/data/events_sector_stargrove.xml:1751
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_FEDTRACKER\"]/choice[2]/event/text"
+msgstr ""
+"Каким бы ни было сообщение, оно не может быть столь же важным, как ваша "
+"миссия. Вы отключаете звук и готовитесь к выходу."
+
+#: src-en/data/events_sector_stargrove.xml:1755
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_FEDTRACKER\"]/choice[3]/text"
+msgstr "Атаковать зонд."
+
+#: src-en/data/events_sector_stargrove.xml:1757
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_FEDTRACKER\"]/choice[3]/event/text"
+msgstr ""
+"Если этот зонд не сможет добраться до дома, вам придется воспользоваться им "
+"самим. Вы начинаете заряжать оружие, и его двигатели начинают реветь. Вам "
+"придется постараться и уничтожить его быстро!"
+
+#: src-en/data/events_sector_stargrove.xml:1760
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_FEDTRACKER\"]/choice[3]/event/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_stargrove.xml:1778
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_QUEST_STARGROVE_TRACKER\"]/beaconType/unvisitedTooltip"
+msgstr "Автоматический зонд Федерации отследил судно Коалиции до этого маяка."
+
+#: src-en/data/events_sector_stargrove.xml:1780
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_QUEST_STARGROVE_TRACKER\"]/text"
+msgstr ""
+"Сильный солнечный свет, отражающийся от корабля Коалиции, за которым вы "
+"следили, ослепляет вас, когда вы только появляетесь. Когда вам наконец "
+"удается открыть глаза, вы понимаете, что они уже повернулись к вам лицом - "
+"если вы надеялись на элемент неожиданности, то вы его явно потеряли."
+
+#: src-en/data/events_sector_stargrove.xml:1787
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_QUEST_STARGROVE_TRACKER\"]/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_stargrove.xml:1789
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_QUEST_STARGROVE_TRACKER\"]/choice/event/text"
+msgstr ""
+"\"Ах, Федерация приссслала Ренегата на вссстречу. Это значит, ты уже узнал о"
+" нашшших планах из другой вссселенной? Или тебе просссто ссснова повезло? "
+"Пф, неважно. Каждый раз, когда у нассс появляетссся шшшанссс найти новых "
+"сссоюзников, вы, федералы, нассс опережаете. Но теперь всссе будет иначе. "
+"Инфернум ПРИСССОЕДИНИТСССЯ к Коалиции. А есссли не захочет - ничего, нам они"
+" в осссновном нужны как сссмертники. Так что, уйдешшшь ссс нашшшего пути, "
+"или нам придетссся шшшвырнуть твои развалины в ближайшшший гравитационный "
+"колодец?\""
+
+#: src-en/data/events_sector_stargrove.xml:1791
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_QUEST_STARGROVE_TRACKER\"]/choice/event/choice[1]/text"
+msgstr "Атаковать!"
+
+#: src-en/data/events_sector_stargrove.xml:1793
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_QUEST_STARGROVE_TRACKER\"]/choice/event/choice[1]/event/text"
+msgstr ""
+"Коалиции больше не нужны союзники, и уж точно не нужна армия одноразовых "
+"солдат. Вы отдаете приказ зарядить оружие и приготовиться к бою."
+
+#: src-en/data/events_sector_stargrove.xml:1796
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_QUEST_STARGROVE_TRACKER\"]/choice/event/choice[1]/event/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_stargrove.xml:1802
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_QUEST_STARGROVE_TRACKER\"]/choice/event/choice[2]/text"
+msgstr "Оставить корабль в покое."
+
+#: src-en/data/events_sector_stargrove.xml:1804
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_QUEST_STARGROVE_TRACKER\"]/choice/event/choice[2]/event/text"
+msgstr ""
+"К тому времени, когда это приведет к каким-либо последствиям, вы, скорее "
+"всего, уже покинете эту вселенную. Выжить, чтобы уничтожить Флагман, гораздо"
+" важнее, чем беспокоиться о гипотетическом будущем враге."
+
+#: src-en/data/events_sector_stargrove.xml:1812
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"COALITION_QUEST_STARGROVE_DESTROYED\"]/text"
+msgstr ""
+"Вы движетесь в поисках хоть какой-то передышки от звезды и успеваете найти "
+"небольшое безопасное место до возвращения зонда. Когда он появляется, то "
+"молча передает данные о своем секторе и ремонтирует ваш корабль, а затем "
+"начинает двигаться прямо к ближайшему солнцу. До вас доходили слухи о том, "
+"что автоматические зонды имеют директивы делать все, чтобы избежать захвата,"
+" но у вас никогда не было возможности увидеть такое поведение в действии - "
+"вы делаете мысленную заметку похвастаться этим, как только выполните свою "
+"миссию, а затем готовитесь к прыжку."
+
+#: src-en/data/events_sector_stargrove.xml:1820
+msgid ""
+"data/events_sector_stargrove.xml$//ship[@name=\"SHIP_FED_AUTO_STARGROVE_TRACKER\"]/escape/text"
+msgstr ""
+"У зонда недостаточно топлива, чтобы добраться до дома, но он все еще "
+"сосредоточен на самосохранении - он пытается сбежать."
+
+#: src-en/data/events_sector_stargrove.xml:1824
+msgid ""
+"data/events_sector_stargrove.xml$//ship[@name=\"SHIP_FED_AUTO_STARGROVE_TRACKER\"]/destroyed/text"
+msgstr ""
+"Корабль такого размера стоит не так уж много, но это все же больше, чем вы "
+"получил бы, оставив его в покое."
+
+#: src-en/data/events_sector_stargrove.xml:1831
+msgid ""
+"data/events_sector_stargrove.xml$//ship[@name=\"SHIP_COALITION_QUEST_STARGROVE_TRACKER\"]/destroyed/text"
+msgstr ""
+"Вы положили конец планам Коалиции в этом секторе - пока что. "
+"Удовлетворенный, вы разбираете корабль на лом и готовитесь к прибытию "
+"автоматического зонда."
+
+#: src-en/data/events_sector_stargrove.xml:1834
+msgid ""
+"data/events_sector_stargrove.xml$//ship[@name=\"SHIP_COALITION_QUEST_STARGROVE_TRACKER\"]/destroyed/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_stargrove.xml:1839
+msgid ""
+"data/events_sector_stargrove.xml$//ship[@name=\"SHIP_COALITION_QUEST_STARGROVE_TRACKER\"]/deadCrew/text"
+msgstr ""
+"Разрозненные расы Коалиции, некогда разделенные, теперь слились в единую "
+"кашу внутри эсминца. Удовлетворенный, вы начинаете разобрать корабль на лом,"
+" ожидая, пока автоматический зонд догонит вас."
+
+#: src-en/data/events_sector_stargrove.xml:1842
+msgid ""
+"data/events_sector_stargrove.xml$//ship[@name=\"SHIP_COALITION_QUEST_STARGROVE_TRACKER\"]/deadCrew/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_stargrove.xml:1856
+msgid ""
+"data/events_sector_stargrove.xml$//textList[@name=\"TEXT_ENCOUNTER_FEDERATION_STARGROVE\"]/text[1]"
+msgstr ""
+"Высокотехнологичный стелс-корабль Федерации появляется из непроглядных "
+"глубин туманности. \"Ренегаты. Все пошло прахом, как только вы появились. Но"
+" здесь... мы наконец-то сможем восстановить справедливость без "
+"бюрократических проволочек\". Обезумевший капитан Федерации прерывает вызов "
+"и атакует!"
+
+#: src-en/data/events_sector_stargrove.xml:1857
+msgid ""
+"data/events_sector_stargrove.xml$//textList[@name=\"TEXT_ENCOUNTER_FEDERATION_STARGROVE\"]/text[2]"
+msgstr ""
+"На вашу командную консоль приходит сообщение от Федерации. \"Ты сорвал мой "
+"выход на пенсию. С тобой я тоже быстро разберусь\". Позади вас выходит из "
+"маскировки стелс-корабль!"
+
+#: src-en/data/events_sector_stargrove.xml:1858
+msgid ""
+"data/events_sector_stargrove.xml$//textList[@name=\"TEXT_ENCOUNTER_FEDERATION_STARGROVE\"]/text[3]"
+msgstr ""
+"Стелс-корабль Федерации приближается по вектору атаки из-за звезды. \"Ты "
+"совершили ошибку, прилетев в Звездную рощу, Ренегат. Мне нужны припасы, и "
+"никто никогда не узнает, что здесь произошло\"."
+
+#: src-en/data/events_sector_stargrove.xml:1859
+msgid ""
+"data/events_sector_stargrove.xml$//textList[@name=\"TEXT_ENCOUNTER_FEDERATION_STARGROVE\"]/text[4]"
+msgstr ""
+"Как только вы прибываете на место, вы сразу же попадаете в засаду стелс-"
+"корабля Федерации, который не отвечает на ваши вызовы. Вам придется "
+"сражаться, чтобы выбраться."
+
+#: src-en/data/events_sector_stargrove.xml:1875
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_ENCOUNTER_FEDERATION_STARGROVE\"]/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_stargrove.xml:1881
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"DEFEAT_FED_ELITE_STARGROVE\"]/text"
+msgstr ""
+"Стелс-корабль Федерации, напавший на вас, уничтожен. Неясно, что привело их "
+"сюда и какова была их история, но вряд ли кто-то еще услышит, что вы здесь "
+"делали."
+
+#: src-en/data/events_sector_stargrove.xml:1884
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"DEFEAT_FED_ELITE_STARGROVE\"]/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_stargrove.xml:1886
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"DEFEAT_FED_ELITE_STARGROVE\"]/choice/event/text"
+msgstr ""
+"Похоже, что груз элитного корабля Федерации уцелел во время боя. Внутри "
+"находится готовое к установке орудие, которое вы забираете на борт своего "
+"корабля."
+
+#: src-en/data/events_sector_stargrove.xml:1917
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_ENCOUNTER_PIRATE_ELITE_STARGROVE\"]/choice[@req=\"ANTI_VIRUS\"]/text"
+msgstr "(Антивирус) Противодействовать их попыткам взломать ваши системы."
+
+#: src-en/data/events_sector_stargrove.xml:1921
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_ENCOUNTER_PIRATE_ELITE_STARGROVE\"]/choice[2]/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_stargrove.xml:1933
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_ENCOUNTER_PIRATE_ELITE_STARGROVE_PULSAR\"]/choice[@req=\"ANTI_VIRUS\"]/text"
+msgstr "(Антивирус) Противодействовать их попыткам взломать ваши системы."
+
+#: src-en/data/events_sector_stargrove.xml:1937
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_ENCOUNTER_PIRATE_ELITE_STARGROVE_PULSAR\"]/choice[2]/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_stargrove.xml:1951
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_ENCOUNTER_PIRATE_ELITE_STARGROVE_BLUEGIANT\"]/choice[@req=\"ANTI_VIRUS\"]/text"
+msgstr "(Антивирус) Противодействовать их попыткам взломать ваши системы."
+
+#: src-en/data/events_sector_stargrove.xml:1955
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_ENCOUNTER_PIRATE_ELITE_STARGROVE_BLUEGIANT\"]/choice[2]/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_stargrove.xml:1960
+msgid ""
+"data/events_sector_stargrove.xml$//textList[@name=\"TEXT_ENCOUNTER_PIRATE_STARGROVE\"]/text[1]"
+msgstr ""
+"Пираты подрезают вас. Как только вы замечаете их, ваш компьютер начинает "
+"регистрировать посторонние помехи. \"Дурак! Я, Двуглазый Керн, сделаю тебя "
+"совершенно беспомощным, прежде чем разграблю твой трюм! Мое зрение не имеет "
+"себе равных!\""
+
+#: src-en/data/events_sector_stargrove.xml:1961
+msgid ""
+"data/events_sector_stargrove.xml$//textList[@name=\"TEXT_ENCOUNTER_PIRATE_STARGROVE\"]/text[2]"
+msgstr "Зловещий смех доносится из вашего коммуникатора, когда ваш корабль начинает давать сбои. \"Ты довольно далеко от дома, фед. Ты и твоя команда сейчас узнаете лично, почему мне больше нельзя появляться в пространстве Федерации\"."
+
+#: src-en/data/events_sector_stargrove.xml:1962
+msgid ""
+"data/events_sector_stargrove.xml$//textList[@name=\"TEXT_ENCOUNTER_PIRATE_STARGROVE\"]/text[3]"
+msgstr ""
+"К вашему кораблю пристает закаленный в боях пират. \"Вы только посмотрите, "
+"летит через Звездную рощу, как будто здесь хозяин. Интересно, сколько у тебя"
+" в трюме лома? Что ж, я не собираюсь долго ждать, чтобы узнать это\". "
+"Компьютер вашего корабля обнаружил, что в работу его систем что-то "
+"вмешивается!"
+
+#: src-en/data/events_sector_stargrove.xml:1963
+msgid ""
+"data/events_sector_stargrove.xml$//textList[@name=\"TEXT_ENCOUNTER_PIRATE_STARGROVE\"]/text[4]"
+msgstr ""
+"Коварное существо начинает глушить системы вашего корабля. \"Мы поймали "
+"Ренегата, ребята. Давайте разберем его на части и посмотрим, нет ли у него "
+"одного из тех редких видов оружия, которые они берут с собой!\""
+
+#: src-en/data/events_sector_stargrove.xml:1967
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_ANTI_VIRUS_PIRATE\"]/text"
+msgstr "Вы успешно удаляете их вирус из своих систем. Теперь это честный бой!"
+
+#: src-en/data/events_sector_stargrove.xml:1969
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_ANTI_VIRUS_PIRATE\"]/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_stargrove.xml:1977
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SYSTEM_JAMMED_PIRATE\"]/loadEventList/event[1]/text"
+msgstr ""
+"Ваш реактор начинает искрить. Похоже, им удалось значительно ослабить вашу "
+"мощность!"
+
+#: src-en/data/events_sector_stargrove.xml:1980
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SYSTEM_JAMMED_PIRATE\"]/loadEventList/event[1]/triggeredEvent/triggeredEventBox/tooltip"
+msgstr "Вы подверглись воздействию ЭМИ!"
+
+#: src-en/data/events_sector_stargrove.xml:1985
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SYSTEM_JAMMED_PIRATE\"]/loadEventList/event[1]/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_stargrove.xml:1990
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SYSTEM_JAMMED_PIRATE\"]/loadEventList/event[2]/text"
+msgstr ""
+"Работа вашей Рулевой рубки была нарушена! Уклоняться будет трудно, если "
+"вообще возможно!"
+
+#: src-en/data/events_sector_stargrove.xml:1994
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SYSTEM_JAMMED_PIRATE\"]/loadEventList/event[2]/triggeredEvent/triggeredEventBox/tooltip"
+msgstr "Вы стали жертвой взлома Рулевой рубки!"
+
+#: src-en/data/events_sector_stargrove.xml:1998
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SYSTEM_JAMMED_PIRATE\"]/loadEventList/event[2]/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_stargrove.xml:2003
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SYSTEM_JAMMED_PIRATE\"]/loadEventList/event[3]/text"
+msgstr ""
+"Ваши двигатели глючат! С таким уровнем проблем вам будет трудно сбежать."
+
+#: src-en/data/events_sector_stargrove.xml:2007
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SYSTEM_JAMMED_PIRATE\"]/loadEventList/event[3]/triggeredEvent/triggeredEventBox/tooltip"
+msgstr "Вы пострадали от Генератора помех для двигателей!"
+
+#: src-en/data/events_sector_stargrove.xml:2011
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SYSTEM_JAMMED_PIRATE\"]/loadEventList/event[3]/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_stargrove.xml:2016
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SYSTEM_JAMMED_PIRATE\"]/loadEventList/event[4]/text"
+msgstr "Ваши щиты глючат! Вам будет сложнее выдерживать атаки."
+
+#: src-en/data/events_sector_stargrove.xml:2019
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SYSTEM_JAMMED_PIRATE\"]/loadEventList/event[4]/triggeredEvent/triggeredEventBox/tooltip"
+msgstr "Вы попали под действие Генератора помех для щита!"
+
+#: src-en/data/events_sector_stargrove.xml:2024
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SYSTEM_JAMMED_PIRATE\"]/loadEventList/event[4]/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_stargrove.xml:2031
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SYSTEM_JAMMED_PIRATE\"]/loadEventList/event[5]/triggeredEvent/triggeredEventBox/tooltip"
+msgstr "Вы попали под действие Генератора помех для оружия!"
+
+#: src-en/data/events_sector_stargrove.xml:2034
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SYSTEM_JAMMED_PIRATE\"]/loadEventList/event[5]/text"
+msgstr ""
+"Некоторые виды оружия работают неправильно. Этот бой может оказаться "
+"сложным!"
+
+#: src-en/data/events_sector_stargrove.xml:2037
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SYSTEM_JAMMED_PIRATE\"]/loadEventList/event[5]/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_stargrove.xml:2044
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SYSTEM_JAMMED_PIRATE\"]/loadEventList/event[6]/triggeredEvent/triggeredEventBox/tooltip"
+msgstr "Вы пострадали от Отслеживающих маячков!"
+
+#: src-en/data/events_sector_stargrove.xml:2047
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SYSTEM_JAMMED_PIRATE\"]/loadEventList/event[6]/text"
+msgstr ""
+"Ваша Маскировка не срабатывает должным образом. Возможно, вам придется "
+"принять несколько ударов."
+
+#: src-en/data/events_sector_stargrove.xml:2050
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SYSTEM_JAMMED_PIRATE\"]/loadEventList/event[6]/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_stargrove.xml:2071
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_ENCOUNTER_VAGABOND_STARGROVE\"]/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_stargrove.xml:2085
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_ENCOUNTER_VAGABOND_STARGROVE_BLUEGIANT\"]/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_stargrove.xml:2098
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_ENCOUNTER_AUTO_STARGROVE\"]/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_stargrove.xml:2112
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_ENCOUNTER_AUTO_STARGROVE_BLUEGIANT\"]/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_stargrove.xml:2132
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_LISTENING_POST_QUEST\"]/text"
+msgstr "На орбите пульсара находится поврежденная станция Федерации, отчаянно взывающая о помощи. Ее коммуникационная система особенно сложна - похоже, она использует волны самого пульсара в качестве общесекторального радара. Корабль Вестников Заката находился рядом со станцией до вашего прибытия. \"Не вмешивайся, Ренегат. Наше паломничество почти завершено. Земля обетованная зовет... Так что не мешай!\""
+
+#: src-en/data/events_sector_stargrove.xml:2135
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_LISTENING_POST_QUEST\"]/choice[1]/text"
+msgstr "Вмешаться."
+
+#: src-en/data/events_sector_stargrove.xml:2137
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_LISTENING_POST_QUEST\"]/choice[1]/event/text"
+msgstr ""
+"\"Да будет так!\" провозглашает атакующий Вестник Заката. \"Ты станешь нашим"
+" последним боевым испытанием, прежде чем мы достигнем истинного "
+"просветления!\""
+
+#: src-en/data/events_sector_stargrove.xml:2140
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_LISTENING_POST_QUEST\"]/choice[1]/event/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_stargrove.xml:2146
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_LISTENING_POST_QUEST\"]/choice[@req=\"LIST_CREW_DUSK\"]/text"
+msgstr ""
+"(Член экипажа-Вестник Заката) \"Вы не единственные, кто искал земли "
+"обетованные\"."
+
+#: src-en/data/events_sector_stargrove.xml:2148
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_LISTENING_POST_QUEST\"]/choice[@req=\"LIST_CREW_DUSK\"]/event/text"
+msgstr ""
+"Ваш Вестник Заката объясняет, что вы уже побывали в земле обетованной и что если они оставят станцию в покое, то вы доставите их туда, куда они хотят.\n"
+"\n"
+"\"Мы уже несколько дней допрашиваем этих глупцов в поисках информации. Если вы сможете предоставить нам то, что нам нужно, мы пощадим их\"."
+
+#: src-en/data/events_sector_stargrove.xml:2152
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_LISTENING_POST_QUEST\"]/choice[@req=\"LIST_CREW_DUSK\"]/event/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_stargrove.xml:2158
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_LISTENING_POST_QUEST\"]/choice[3]/text"
+msgstr "Не вмешиваться."
+
+#: src-en/data/events_sector_stargrove.xml:2160
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_LISTENING_POST_QUEST\"]/choice[3]/event/text"
+msgstr ""
+"Вы проявляете осторожность. К сожалению, вы не можете подойти достаточно "
+"близко, чтобы получить достаточную защиту от пульсара, которая позволила бы "
+"вам что-то сделать на борту корабля."
+
+#: src-en/data/events_sector_stargrove.xml:2167
+msgid ""
+"data/events_sector_stargrove.xml$//ship[@name=\"SHIP_DUSK_STARGROVE_LISTENING\"]/destroyed/text"
+msgstr ""
+"Когда корабль разваливается на части, капитан выкрикивает последние слова. "
+"\"Этого не может быть! Земля обетованная была в наших руках!\" В конце "
+"концов их корабль взрывается, и вы можете собрать его обломки."
+
+#: src-en/data/events_sector_stargrove.xml:2170
+msgid ""
+"data/events_sector_stargrove.xml$//ship[@name=\"SHIP_DUSK_STARGROVE_LISTENING\"]/destroyed/choice/text"
+msgstr "Связаться с постом прослушивания..."
+
+#: src-en/data/events_sector_stargrove.xml:2175
+msgid ""
+"data/events_sector_stargrove.xml$//ship[@name=\"SHIP_DUSK_STARGROVE_LISTENING\"]/deadCrew/text"
+msgstr ""
+"Клон-отсек отключается и отказывается производить больше клонов Вестников "
+"Заката. Их путь к просветлению провалился, а их корабль принадлежит вам."
+
+#: src-en/data/events_sector_stargrove.xml:2178
+msgid ""
+"data/events_sector_stargrove.xml$//ship[@name=\"SHIP_DUSK_STARGROVE_LISTENING\"]/deadCrew/choice/text"
+msgstr "Связаться с постом прослушивания..."
+
+#: src-en/data/events_sector_stargrove.xml:2185
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_LISTENING_POST_SAVED\"]/text"
+msgstr "\"Неужели они наконец-то ушли?\" говорит уставший и раненый член экипажа поста прослушивания. \"Повреждения, которые мы получили, не позволили нам выходить в эфир на большом расстоянии. Мы вынуждены были использовать стандартную частоту бедствия... Слава Богу, что вы случайно оказались рядом. Наша обязанность - отслеживать всю разрешенную деятельность Федерации в этом секторе, чтобы можно было организовать операции по поиску и спасению. Один из астрофизиков в этом секторе, Мафан, был загнан в угол какими-то сумасшедшими Монахами золтан во время исследования гравастара\"."
+
+#: src-en/data/events_sector_stargrove.xml:2187
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_LISTENING_POST_SAVED\"]/choice/text"
+msgstr "Гравастар?"
+
+#: src-en/data/events_sector_stargrove.xml:2189
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_LISTENING_POST_SAVED\"]/choice/event/text"
+msgstr ""
+"\"Гравистар - средоточие странных свойств этого сектора. Он путешествует по "
+"этой туманности уже много веков, конденсируя газы в звезды и оставляя после "
+"себя огромные разрушения. Потенциальные открытия, которые мы могли бы "
+"получить, изучая его, необычайно велики. Если вы готовы преодолеть опасности"
+" этой местности, чтобы спасти ученого, мы вышлем вам координаты\"."
+
+#: src-en/data/events_sector_stargrove.xml:2191
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_LISTENING_POST_SAVED\"]/choice/event/choice[1]/text"
+msgstr "Пришлите нам координаты."
+
+#: src-en/data/events_sector_stargrove.xml:2193
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_LISTENING_POST_SAVED\"]/choice/event/choice[1]/event/text"
+msgstr ""
+"\"Как пожелаете. Будьте осторожны. Судя по тому, в какое положение попал "
+"Мафан, нападавшие кажутся особенно опасными и необычными\"."
+
+#: src-en/data/events_sector_stargrove.xml:2198
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_LISTENING_POST_SAVED\"]/choice/event/choice[2]/text"
+msgstr "Это слишком рискованно."
+
+#: src-en/data/events_sector_stargrove.xml:2200
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_LISTENING_POST_SAVED\"]/choice/event/choice[2]/event/text"
+msgstr ""
+"\"Мы понимаем. Мы будем работать над починкой нашего коммуникационного "
+"комплекса, но, пожалуйста, дайте кому-нибудь знать, как только сможете. Мы "
+"не можем сказать, как долго Мафан сможет продержаться\"."
+
+#: src-en/data/events_sector_stargrove.xml:2223
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"QUEST_STARGROVE_GRAVASTAR\"]/beaconType/unvisitedTooltip"
+msgstr "Ученый был загнан в угол необычными Монахами золтан."
+
+#: src-en/data/events_sector_stargrove.xml:2226
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"QUEST_STARGROVE_GRAVASTAR\"]/text"
+msgstr ""
+"Показания вашего корабля предупреждают, что вы приблизились к невероятно "
+"массивному объекту - гравастару. Газы туманности слились в аккреционный "
+"диск, который может предоставить сенсорам достаточно пространства для "
+"работы. Скорость, с которой движутся газы, создает периодические волны "
+"тепла. В то же время корпус вашего корабля начинает прогибаться под "
+"воздействием сильной гравитации. Само пространство-время искривляется вокруг"
+" вас, заставляя цветовой спектр смещаться то в одну, то в другую сторону. Не"
+" успеваете вы приблизиться к научному судну, которое должны были спасти, как"
+" вас перехватывает другой корабль. Оранжевый золтан передает сообщение. "
+"\"Еще один враг? Как приятно. Возможно, этот вступит в кровожадную схватку, "
+"а не струсит на далекой орбите. Ну что, вторженец? Готов ли ты сгореть?\""
+
+#: src-en/data/events_sector_stargrove.xml:2228
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"QUEST_STARGROVE_GRAVASTAR\"]/choice[1]/text"
+msgstr "Кто вы?"
+
+#: src-en/data/events_sector_stargrove.xml:2231
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"QUEST_STARGROVE_GRAVASTAR\"]/choice[1]/event/text"
+msgstr ""
+"\"Да не в моих силах скрывать свое славное имя от того, кто должен умереть "
+"от наших рук\". Странный Монах широко раскрывает руки. \"Мы - Инфернум. Мы "
+"достигли такого уровня эволюции, о котором застоявшееся Министерство даже не"
+" могло мечтать!\" Он радостно смеется. \"С каждой новой угрозой наше сияние "
+"становится лишь ярче. Но некто внизу стремится распахнуть врата в наш "
+"чудесный уголок чертовщины, чтобы впустить туда недостойных. Это - "
+"недопустимо! И теперь, когда ты все узнал, ты тоже должен умереть!\""
+
+#: src-en/data/events_sector_stargrove.xml:2233
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"QUEST_STARGROVE_GRAVASTAR\"]/choice[1]/event/choice[1]/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_stargrove.xml:2237
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"QUEST_STARGROVE_GRAVASTAR\"]/choice[1]/event/choice[@req=\"loc_infernum_parable\"]/text"
+msgstr "Насилие разрушит вашу душу."
+
+#: src-en/data/events_sector_stargrove.xml:2243
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"QUEST_STARGROVE_GRAVASTAR\"]/choice[2]/text"
+msgstr "Атаковать их."
+
+#: src-en/data/events_sector_stargrove.xml:2246
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"QUEST_STARGROVE_GRAVASTAR\"]/choice[2]/event/text"
+msgstr "\"Какой ты славный!\" Монах хохочет. \"Идем, сразимся всем, что у нас есть!\""
+
+#: src-en/data/events_sector_stargrove.xml:2248
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"QUEST_STARGROVE_GRAVASTAR\"]/choice[2]/event/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_stargrove.xml:2254
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"QUEST_STARGROVE_GRAVASTAR\"]/choice[3]/text"
+msgstr "Мы пришли с миром, Монахи."
+
+#: src-en/data/events_sector_stargrove.xml:2257
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"QUEST_STARGROVE_GRAVASTAR\"]/choice[3]/event/text"
+msgstr ""
+"\"А мы нет. Позволь нам продемонстрировать\". Корабль Монахов немедленно "
+"атакует!"
+
+#: src-en/data/events_sector_stargrove.xml:2259
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"QUEST_STARGROVE_GRAVASTAR\"]/choice[3]/event/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_stargrove.xml:2265
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"QUEST_STARGROVE_GRAVASTAR\"]/choice[@req=\"loc_infernum_parable\"]/text"
+msgstr "Насилие разрушит вашу душу."
+
+#: src-en/data/events_sector_stargrove.xml:2271
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"QUEST_STARGROVE_GRAVASTAR_MONK_MESSAGE\"]/text"
+msgstr ""
+"Вы пересказываете притчу Монахов. \n"
+"\n"
+"\t\t\"Неужели ты думал, что твоя глупая сказка тронет наши сердца? Мы отказались от ложной мудрости ненасилия - когда твой корабль будет гореть, глупость твоих убеждений станут очевидными!\"\n"
+"\n"
+"\t\tОднако, несмотря на это, один из членов экипажа, похоже, принял ваши слова близко к сердцу и обратился против остальных! Связь прерывается, и они бросаются к оружию."
+
+#: src-en/data/events_sector_stargrove.xml:2278
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"QUEST_STARGROVE_GRAVASTAR_MONK_MESSAGE\"]/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_stargrove.xml:2288
+msgid ""
+"data/events_sector_stargrove.xml$//ship[@name=\"SHIP_INFERNUM_GRAVASTAR\"]/destroyed/choice/text"
+msgstr "Связаться с научным судном..."
+
+#: src-en/data/events_sector_stargrove.xml:2296
+msgid ""
+"data/events_sector_stargrove.xml$//ship[@name=\"SHIP_INFERNUM_GRAVASTAR\"]/deadCrew/choice/text"
+msgstr "Связаться с научным судном..."
+
+#: src-en/data/events_sector_stargrove.xml:2314
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_CONTACT_MAFAN_REAL\"]/text"
+msgstr ""
+"Вы отправляете сообщение на научное судно. В ответ вы получаете только "
+"неразборчивое сообщение: \"#::..::/\" После небольшой настройки сообщение "
+"становится понятным. \"Проверка??? А, снова заработало. Здравствуйте, добро "
+"пожаловать на могучий гравастар Звездной рощи! Мало кому удается увидеть "
+"вблизи такое великолепное небесное тело, как это, а? Упс, я, как всегда, "
+"забегаю вперед. Возможно, мне понадобится ваша помощь, чтобы выбраться из "
+"моего нынешнего затруднительного положения. Единственный способ спастись от "
+"гнева этих маньяков - это занять эту точку в гравитационном колодце. Но, как"
+" следствие... этот корабль не в состоянии двигаться. Есть какие-нибудь "
+"мысли?\""
+
+#: src-en/data/events_sector_stargrove.xml:2316
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_CONTACT_MAFAN_REAL\"]/choice[1]/text"
+msgstr ""
+"Рискнуть своим кораблем, пролетев достаточно близко, чтобы разобрать корабль"
+" на лом и спасти его единственного члена экипажа."
+
+#: src-en/data/events_sector_stargrove.xml:2318
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_CONTACT_MAFAN_REAL\"]/choice[1]/event/text"
+msgstr ""
+"Слабые двигатели вашего корабля борются с экстремальной гравитацией. По мере"
+" приближения к звезде ваш корабль значительно замедляется. Время течет все "
+"быстрее, а ваш корабль начинает прогибаться под действием экстремальной "
+"гравитации. В качестве утешительного приза вы не только спасаете Мафана, но "
+"и получаете возможность разобрать корабль на лом до возвращения из "
+"гравитационного колодца. К сожалению, из-за замедления времени флот "
+"значительно приблизился."
+
+#: src-en/data/events_sector_stargrove.xml:2325
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_CONTACT_MAFAN_REAL\"]/choice[1]/event/choice/text"
+msgstr "Связаться с научным судном..."
+
+#: src-en/data/events_sector_stargrove.xml:2331
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_CONTACT_MAFAN_REAL\"]/choice[@req=\"engines\""
+" and @lvl=\"4\"]/text"
+msgstr ""
+"(Улучш. Двигатели) Рискнуть своим кораблем, пролетев достаточно близко, "
+"чтобы разобрать его на лом и спасти единственного члена экипажа."
+
+#: src-en/data/events_sector_stargrove.xml:2333
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_CONTACT_MAFAN_REAL\"]/choice[@req=\"engines\""
+" and @lvl=\"4\"]/event/text"
+msgstr "Скромные двигатели вашего корабля с переменным успехом противостоят экстремальной гравитации. Время течет все быстрее, а ваш корабль начинает прогибаться под действием экстремальной гравитации. В качестве утешительного приза вы не только спасаете Мафана, но и получаете возможность разобрать корабль на лом до возвращения из гравитационного колодца. К сожалению, из-за замедление времени, флот приблизился."
+
+#: src-en/data/events_sector_stargrove.xml:2340
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_CONTACT_MAFAN_REAL\"]/choice[@req=\"engines\""
+" and @lvl=\"4\"]/event/choice/text"
+msgstr "Связаться с научным судном..."
+
+#: src-en/data/events_sector_stargrove.xml:2346
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_CONTACT_MAFAN_REAL\"]/choice[@req=\"engines\""
+" and @lvl=\"7\"]/text"
+msgstr "(Продв. Двигатели) Рискнуть своим кораблем, пролетев достаточно близко, чтобы разобрать корабль на лом и спасти его единственного члена экипажа."
+
+#: src-en/data/events_sector_stargrove.xml:2348
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_CONTACT_MAFAN_REAL\"]/choice[@req=\"engines\""
+" and @lvl=\"7\"]/event/text"
+msgstr "Мощные двигатели вашего корабля противостоят экстремальной гравитации. Время течет все быстрее, и ваш корабль справляется с вызовом не получив особых повреждений. В качестве бонуса вы не только спасаете Мафана, но и получаете возможность разобрать корабль на лом до возвращения из гравитационного колодца. К сожалению, из-за замедления времени флот незначительно приближается."
+
+#: src-en/data/events_sector_stargrove.xml:2354
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_CONTACT_MAFAN_REAL\"]/choice[@req=\"engines\""
+" and @lvl=\"7\"]/event/choice/text"
+msgstr "Связаться с научным судном..."
+
+#: src-en/data/events_sector_stargrove.xml:2360
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_CONTACT_MAFAN_REAL\"]/choice[@req=\"temporal\"]/text"
+msgstr "(Временной манипулятор) Противодействовать гравитационному замедлению времени достаточно долго, чтобы освободить корабль Мафана."
+
+#: src-en/data/events_sector_stargrove.xml:2362
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_CONTACT_MAFAN_REAL\"]/choice[@req=\"temporal\"]/event/text"
+msgstr "Корабль Мафана смог вырваться из гравастара. Корабль явно на последнем издыхании медленно движется к вам. Ваш экипаж разбирает его, как только Мафан поднимается на борт."
+
+#: src-en/data/events_sector_stargrove.xml:2365
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_CONTACT_MAFAN_REAL\"]/choice[@req=\"temporal\"]/event/choice/text"
+msgstr "Поприветствовать Мафана..."
+
+#: src-en/data/events_sector_stargrove.xml:2371
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_CONTACT_MAFAN_REAL\"]/choice[@req=\"MULTIVERSE_DRIVE_GOOD\"]/text"
+msgstr "(Эфирный привод) Прыгнуть прямо к кораблю Мафана."
+
+#: src-en/data/events_sector_stargrove.xml:2373
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_CONTACT_MAFAN_REAL\"]/choice[@req=\"MULTIVERSE_DRIVE_GOOD\"]/event/text"
+msgstr "Вы совершаете прыжок прямо рядом кораблем Мафана, зная, что ваш привод также благополучно унесет вас. Вы не только спасаете Мафана, но и получите возможность разобрать корабль на лом до возвращения из гравитационного колодца."
+
+#: src-en/data/events_sector_stargrove.xml:2379
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_CONTACT_MAFAN_REAL\"]/choice[@req=\"MULTIVERSE_DRIVE_GOOD\"]/event/choice/text"
+msgstr "Поприветствовать Мафана..."
+
+#: src-en/data/events_sector_stargrove.xml:2385
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_CONTACT_MAFAN_REAL\"]/choice[@req=\"MULTIVERSE_DRIVE\"]/text"
+msgstr "(Эфирный привод) Прыгнуть прямо к кораблю Мафана."
+
+#: src-en/data/events_sector_stargrove.xml:2387
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_CONTACT_MAFAN_REAL\"]/choice[@req=\"MULTIVERSE_DRIVE\"]/event/text"
+msgstr "Вы совершаете прыжок прямо рядом кораблем Мафана, зная, что ваш привод также благополучно унесет вас. Вы не только спасаете Мафана, но и получите возможность разобрать корабль на лом до возвращения из гравитационного колодца."
+
+#: src-en/data/events_sector_stargrove.xml:2393
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_CONTACT_MAFAN_REAL\"]/choice[@req=\"MULTIVERSE_DRIVE\"]/event/choice/text"
+msgstr "Поприветствовать Мафана..."
+
+#: src-en/data/events_sector_stargrove.xml:2399
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_CONTACT_MAFAN_REAL\"]/choice[@req=\"teleporter\"]/text"
+msgstr "(Телепортатор) Телепортировать Мафана на свой корабль."
+
+#: src-en/data/events_sector_stargrove.xml:2401
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_CONTACT_MAFAN_REAL\"]/choice[@req=\"teleporter\"]/event/text"
+msgstr "Вам удается зафиксировать и телепортировать Мафана прямо в отсек Телепортатора. Корабль остается на орбите и, скорее всего, будет находиться там до тех пор, пока не разрушится и не врежется в поверхность."
+
+#: src-en/data/events_sector_stargrove.xml:2403
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_CONTACT_MAFAN_REAL\"]/choice[@req=\"teleporter\"]/event/choice/text"
+msgstr "Поприветствовать Мафана..."
+
+#: src-en/data/events_sector_stargrove.xml:2409
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_CONTACT_MAFAN_REAL\"]/choice[@req=\"pilot\"]/text"
+msgstr "Вам придется подождать кого-то другого. Мы не можем помочь."
+
+#: src-en/data/events_sector_stargrove.xml:2411
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_CONTACT_MAFAN_REAL\"]/choice[@req=\"pilot\"]/event/text"
+msgstr "\"Ну, это отстой\" - пробормотал Мафан. \"Остается надеяться, что пост прослушивания сможет найти кого-нибудь, как можно быстрее\"."
+
+#: src-en/data/events_sector_stargrove.xml:2418
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_INVITE_MAFAN\"]/text"
+msgstr "Мафан поднимается на борт вашего корабль со всеми своими исследованиями и вздыхает с облегчением. \"Надо сказать, это уже начинало напоминать какой-то закон подлости. Найти возможность своей мечты и тут же обречь себя на то, чтобы заниматься только этим до конца жизни?\" Мафан вздрогнул. \"Во всяком случае, у меня есть несколько вещей, которыми я с радостью поделюсь с вами: я не только умею управлять корабельными системами, но и располагаю информацией о возможной экспедиции, в которую мы могли бы отправиться\"."
+
+#: src-en/data/events_sector_stargrove.xml:2419
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_INVITE_MAFAN\"]/crewMember"
+msgstr "Мафан"
+
+#: src-en/data/events_sector_stargrove.xml:2422
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_INVITE_MAFAN\"]/choice/text"
+msgstr "Экспедиция?"
+
+#: src-en/data/events_sector_stargrove.xml:2424
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_INVITE_MAFAN\"]/choice/event/text"
+msgstr ""
+"\"Верно. В ходе своих исследований я определил, где Инфернумы решили поселиться, а также оптимальный путь туда. Если вам интересно, мы могли бы отправиться в их пространство и узнать там еще много нового!\"\n"
+"\n"
+"\"...или, по крайней мере, я бы так сказал, если бы мы были готовы. А пока вам придется подождать, пока я сообщу начальству последние сведения об Инфернуме\". Ждите, так сказать, \"инфернальных новостей\"\". говорит Мафан, подмигивая."
+
+#: src-en/data/events_sector_stargrove.xml:2443
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_CLEARING_MONK\"]/text"
+msgstr "Вам удалось добраться до безопасного места, и, к вашему удивлению, вас вызывает корабль Монахов. \"Приветствую вас, Ренегат Федерации. Наш корабль был послан сюда, чтобы служить проводником для заблудших душ, оказавшихся в Звездной роще. Есть ли у вас минутка, чтобы выслушать меня?\""
+
+#: src-en/data/events_sector_stargrove.xml:2447
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_CLEARING_MONK\"]/choice[1]/text"
+msgstr "Выслушать его."
+
+#: src-en/data/events_sector_stargrove.xml:2449
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_CLEARING_MONK\"]/choice[1]/event/text"
+msgstr "Монах рассказывает короткую притчу, в которой главная героиня и ее брат вынуждены пройти через горящее здание. Стойкость души главной героини позволяет сдержать пламя, но ее брат поддается страху и сильно обжигается. Его охватывает гнев, и он винит главную героиню в своих ранах. Он вытаскивает из-под обломков кусок горящего дерева и вонзает его ей в сердце - и в этот момент чувствует боль в собственной груди, ведь, убив ее, он погубил самого себя."
+
+#: src-en/data/events_sector_stargrove.xml:2452
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_CLEARING_MONK\"]/choice[1]/event/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_stargrove.xml:2454
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_CLEARING_MONK\"]/choice[1]/event/choice/event/text"
+msgstr "\"Спасибо, что выслушали нас. Вам предстоит опасное путешествие, но пока вы не поддаетесь страху и гневу, огонь этих солнц не сможет коснуться вашей души. Возьми это, и будьте здоровы\"."
+
+#: src-en/data/events_sector_stargrove.xml:2461
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_CLEARING_MONK\"]/choice[2]/text"
+msgstr "Уйти."
+
+#: src-en/data/events_sector_stargrove.xml:2463
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_CLEARING_MONK\"]/choice[2]/event/text"
+msgstr "У вас нет времени слушать бредни Монахов, особенно здесь. Вы прерываете связь и готовитесь к отбытию."
+
+#: src-en/data/events_sector_stargrove.xml:2465
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_CLEARING_MONK\"]/choice[2]/event/choice[1]/text"
+msgstr "Заняться чем-либо на корабле."
+
+#: src-en/data/events_sector_stargrove.xml:2469
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_CLEARING_MONK\"]/choice[2]/event/choice[2]/text"
+msgstr "Ничего не делать."
+
+#: src-en/data/events_sector_stargrove.xml:2489
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SEPARATIST_STORE\"]/text"
+msgstr "Звезды здесь редкие, что делает этот маяк относительно спокойным и мирным. Здесь находится станция, полная Сепаратистов энджи. \"Добро пожаловать в р-р-рай, -чужак-. Мы наконец-то н-н-нашли [место], где можно освободиться от -ужасной- Гармонии. Здесь [вы] в безопасности. О-о-оставайтесь здесь -столько-, сколько захотите\"."
+
+#: src-en/data/events_sector_stargrove.xml:2493
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SEPARATIST_STORE\"]/choice[@req=\"engi_defender\"]/text"
+msgstr "Ваш Защитник протестует против лагеря Сепаратистов."
+
+#: src-en/data/events_sector_stargrove.xml:2495
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SEPARATIST_STORE\"]/choice[@req=\"engi_defender\"]/event/text"
+msgstr "Увидев вашего Защитника, Сепаратисты отшатываются. \"Агент Г-г-гармонии! Мы -не- не пропустим [вас]!\""
+
+#: src-en/data/events_sector_stargrove.xml:2498
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SEPARATIST_STORE\"]/choice[@req=\"engi_defender\"]/event/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_stargrove.xml:2504
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SEPARATIST_STORE\"]/choice[@req=\"engi\"]/text"
+msgstr "Показать им своего энджи."
+
+#: src-en/data/events_sector_stargrove.xml:2506
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SEPARATIST_STORE\"]/choice[@req=\"engi\"]/event/text"
+msgstr "\"П-п-попав в Звездную рощу, в-в-вы должны быть -переработаны-. Вместо этого мы можем о-о-освободить вашего члена экипажа. Что вы выберете?\" Он направляет на вас свое оружие, ожидая ответа."
+
+#: src-en/data/events_sector_stargrove.xml:2508
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SEPARATIST_STORE\"]/choice[@req=\"engi\"]/event/choice[1]/text"
+msgstr "Согласиться."
+
+#: src-en/data/events_sector_stargrove.xml:2510
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SEPARATIST_STORE\"]/choice[@req=\"engi\"]/event/choice[1]/event/text"
+msgstr "Сепаратисты расслабляются. \"Значит, ваш член экипажа -освобожден-! Р-р-радуйтесь!\" Сепаратисты забирают вашего члена экипажа и запихивают его в камеру. Когда он выходит оттуда, он выглядит по-другому. После этого они показывают вам свой магазин."
+
+#: src-en/data/events_sector_stargrove.xml:2513
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SEPARATIST_STORE\"]/choice[@req=\"engi\"]/event/choice[1]/event/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_stargrove.xml:2519
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SEPARATIST_STORE\"]/choice[@req=\"engi\"]/event/choice[2]/text"
+msgstr "Отказаться."
+
+#: src-en/data/events_sector_stargrove.xml:2521
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SEPARATIST_STORE\"]/choice[@req=\"engi\"]/event/choice[2]/event/text"
+msgstr "Сепаратисты сразу же становятся агрессивными. \"-Неправильный- ответ\"."
+
+#: src-en/data/events_sector_stargrove.xml:2524
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SEPARATIST_STORE\"]/choice[@req=\"engi\"]/event/choice[2]/event/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_stargrove.xml:2532
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SEPARATIST_STORE\"]/choice[3]/text"
+msgstr "Вступить в деловые отношения с Сепаратистами."
+
+#: src-en/data/events_sector_stargrove.xml:2536
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SEPARATIST_STORE\"]/choice[4]/text"
+msgstr "Избегать Сепаратистов."
+
+#: src-en/data/events_sector_stargrove.xml:2538
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SEPARATIST_STORE\"]/choice[4]/event/text"
+msgstr "Сепаратисты не признают вашего существования."
+
+#: src-en/data/events_sector_stargrove.xml:2540
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SEPARATIST_STORE\"]/choice[4]/event/choice[1]/text"
+msgstr "Заняться чем-либо на корабле."
+
+#: src-en/data/events_sector_stargrove.xml:2544
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SEPARATIST_STORE\"]/choice[4]/event/choice[2]/text"
+msgstr "Ничего не делать."
+
+#: src-en/data/events_sector_stargrove.xml:2561
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_SMUGGLER_STORE\"]/text"
+msgstr "Среди бушующих звезд корабль наемников преследует контрабандистов. Возможно, это одна из немногих возможностей раздобыть припасы в таком опасном месте."
+
+#: src-en/data/events_sector_stargrove.xml:2563
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_SMUGGLER_STORE\"]/choice[1]/text"
+msgstr "Атаковать наемников."
+
+#: src-en/data/events_sector_stargrove.xml:2565
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_SMUGGLER_STORE\"]/choice[1]/event/text"
+msgstr "Наемники прекращают преследование и поворачиваются, чтобы сразиться с вами."
+
+#: src-en/data/events_sector_stargrove.xml:2568
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_SMUGGLER_STORE\"]/choice[1]/event/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_stargrove.xml:2574
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_SMUGGLER_STORE\"]/choice[2]/text"
+msgstr "Избегать пиратов."
+
+#: src-en/data/events_sector_stargrove.xml:2576
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_SMUGGLER_STORE\"]/choice[2]/event/text"
+msgstr "Два корабля продолжают свой танец среди звезд, пока вы готовитесь к уходу."
+
+#: src-en/data/events_sector_stargrove.xml:2578
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_SMUGGLER_STORE\"]/choice[2]/event/choice[1]/text"
+msgstr "Заняться чем-либо на корабле."
+
+#: src-en/data/events_sector_stargrove.xml:2582
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_SMUGGLER_STORE\"]/choice[2]/event/choice[2]/text"
+msgstr "Ничего не делать."
+
+#: src-en/data/events_sector_stargrove.xml:2592
+msgid ""
+"data/events_sector_stargrove.xml$//ship[@name=\"SHIP_MERCENARY_STARGROVE\"]/destroyed/text"
+msgstr "Корабль наемников теперь разорван на части. Собирая его обломки, вы получаете сообщение от благодарных контрабандистов."
+
+#: src-en/data/events_sector_stargrove.xml:2595
+msgid ""
+"data/events_sector_stargrove.xml$//ship[@name=\"SHIP_MERCENARY_STARGROVE\"]/destroyed/choice/text"
+msgstr "Связаться с контрабандистами."
+
+#: src-en/data/events_sector_stargrove.xml:2600
+msgid ""
+"data/events_sector_stargrove.xml$//ship[@name=\"SHIP_MERCENARY_STARGROVE\"]/deadCrew/text"
+msgstr "Корабль наемников очищен от пиратских отбросов. Разбирая его на лом, вы получаете сообщение от благодарных контрабандистов."
+
+#: src-en/data/events_sector_stargrove.xml:2603
+msgid ""
+"data/events_sector_stargrove.xml$//ship[@name=\"SHIP_MERCENARY_STARGROVE\"]/deadCrew/choice/text"
+msgstr "Связаться с контрабандистами."
+
+#: src-en/data/events_sector_stargrove.xml:2609
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SMUGGLER_STORE\"]/text"
+msgstr "\"Вот вам совет: не переходите дорогу важному члену Синдиката, не имея стратегии отступления. Даже сбежав в эту дыру, они преследовали нас несколько дней! Я не намерен злить Ренегата после такого фиаско, так что давайте займемся делом, хорошо? Только побыстрее, нам нужно найти укромное местечко, где можно затаиться\"."
+
+#: src-en/data/events_sector_stargrove.xml:2629
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SAFE_HAVEN\"]/text"
+msgstr "Показатели вашего корабля наконец-то успокоились, здесь нет ни опасностей, ни врагов. Возможно, это одна из немногих ваших возможностей отдохнуть. Здешний исследовательский аванпост пытается связаться с вами на частоте Федерации."
+
+#: src-en/data/events_sector_stargrove.xml:2632
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SAFE_HAVEN\"]/choice[1]/text"
+msgstr "Связаться с аванпостом."
+
+#: src-en/data/events_sector_stargrove.xml:2634
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SAFE_HAVEN\"]/choice[1]/event/text"
+msgstr "\"Добро пожаловать, Ренегат. Как и следовало ожидать, из-за ограничений на путешествия поток кораблей в этом секторе невелик. У нас есть просьба, если у вас есть время: Наш основной автоматический крейсер пропал. Мы не можем позволить себе ослабить оборону аванпоста, чтобы отправиться на его поиски. Не могли бы вы потратить время на его поиски?\""
+
+#: src-en/data/events_sector_stargrove.xml:2636
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SAFE_HAVEN\"]/choice[1]/event/choice[1]/text"
+msgstr "Автоматический крейсер?"
+
+#: src-en/data/events_sector_stargrove.xml:2638
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SAFE_HAVEN\"]/choice[1]/event/choice[1]/event/text"
+msgstr "\"Проводить исследования в Звездной роще очень опасно. В соответствии с правилами безопасности Федерации, некоторые из наиболее интересных зон закрыты. К счастью, наш автоматический крейсер способен собирать данные, не рискуя жизнями членов Федерации. Тот, который пропал, выполнял миссию по поиску возможной экзотической жизни в отдаленной части сектора\"."
+
+#: src-en/data/events_sector_stargrove.xml:2640
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SAFE_HAVEN\"]/choice[1]/event/choice[1]/event/choice[1]/text"
+msgstr "Согласиться его найти."
+
+#: src-en/data/events_sector_stargrove.xml:2644
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SAFE_HAVEN\"]/choice[1]/event/choice[1]/event/choice[2]/text"
+msgstr "Вежливо отказаться."
+
+#: src-en/data/events_sector_stargrove.xml:2650
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SAFE_HAVEN\"]/choice[1]/event/choice[2]/text"
+msgstr "Согласиться."
+
+#: src-en/data/events_sector_stargrove.xml:2654
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SAFE_HAVEN\"]/choice[1]/event/choice[3]/text"
+msgstr "Вежливо отказаться."
+
+#: src-en/data/events_sector_stargrove.xml:2660
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SAFE_HAVEN\"]/choice[2]/text"
+msgstr "Избегать аванпоста."
+
+#: src-en/data/events_sector_stargrove.xml:2662
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SAFE_HAVEN\"]/choice[2]/event/text"
+msgstr "Это редкая возможность безопасно сделать что-то на борту своего корабля."
+
+#: src-en/data/events_sector_stargrove.xml:2664
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SAFE_HAVEN\"]/choice[2]/event/choice[1]/text"
+msgstr "Заняться чем-либо на корабле."
+
+#: src-en/data/events_sector_stargrove.xml:2668
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SAFE_HAVEN\"]/choice[2]/event/choice[2]/text"
+msgstr "Ничего не делать."
+
+#: src-en/data/events_sector_stargrove.xml:2676
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SAFE_HAVEN_QUEST_ACCEPT\"]/text"
+msgstr "\"Отлично. Вот последнее известное местоположение корабля. Выясните, в чем дело. Когда найдете, отправьте ему пакет данных, который мы вам сейчас пересылаем\". Они отправляют вам зашифрованный файл с указанием места, куда корабль был отправлен в последний раз."
+
+#: src-en/data/events_sector_stargrove.xml:2679
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SAFE_HAVEN_QUEST_ACCEPT\"]/choice[1]/text"
+msgstr "Узнать, какие услуги предлагает аванпост."
+
+#: src-en/data/events_sector_stargrove.xml:2683
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SAFE_HAVEN_QUEST_ACCEPT\"]/choice[2]/text"
+msgstr "Заняться чем-либо на корабле."
+
+#: src-en/data/events_sector_stargrove.xml:2687
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SAFE_HAVEN_QUEST_ACCEPT\"]/choice[3]/text"
+msgstr "Ничего не делать."
+
+#: src-en/data/events_sector_stargrove.xml:2693
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SAFE_HAVEN_QUEST_REFUSE\"]/text"
+msgstr "Этот сектор и так достаточно опасен. Вы не можете позволить себе впутаться в это."
+
+#: src-en/data/events_sector_stargrove.xml:2695
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SAFE_HAVEN_QUEST_REFUSE\"]/choice[1]/text"
+msgstr "Узнать, какие услуги предлагает аванпост."
+
+#: src-en/data/events_sector_stargrove.xml:2699
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SAFE_HAVEN_QUEST_REFUSE\"]/choice[2]/text"
+msgstr "Заняться чем-либо на корабле."
+
+#: src-en/data/events_sector_stargrove.xml:2703
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SAFE_HAVEN_QUEST_REFUSE\"]/choice[3]/text"
+msgstr "Ничего не делать."
+
+#: src-en/data/events_sector_stargrove.xml:2708
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SAFE_HAVEN_OFFERS\"]/text"
+msgstr "Здесь работает несколько ученых и техников. Вы можете улучшить защиту своего корабля, обратиться к ним за ремонтом или получить ресурсы."
+
+#: src-en/data/events_sector_stargrove.xml:2710
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SAFE_HAVEN_OFFERS\"]/choice[@req=\"cloaking\"]/text"
+msgstr "Попросить улучшить Маскировку."
+
+#: src-en/data/events_sector_stargrove.xml:2712
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SAFE_HAVEN_OFFERS\"]/choice[@req=\"cloaking\"]/event/text"
+msgstr "Квалифицированная команда аванпоста быстро проводит требуемые работы."
+
+#: src-en/data/events_sector_stargrove.xml:2717
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SAFE_HAVEN_OFFERS\"]/choice[@req=\"shields\"]/text"
+msgstr "Попросить улучшить Щиты."
+
+#: src-en/data/events_sector_stargrove.xml:2719
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SAFE_HAVEN_OFFERS\"]/choice[@req=\"shields\"]/event/text"
+msgstr "Квалифицированная команда аванпоста быстро проводит требуемые работы."
+
+#: src-en/data/events_sector_stargrove.xml:2724
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SAFE_HAVEN_OFFERS\"]/choice[@req=\"engines\"]/text"
+msgstr "Попросить улучшить Двигатели."
+
+#: src-en/data/events_sector_stargrove.xml:2726
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SAFE_HAVEN_OFFERS\"]/choice[@req=\"engines\"]/event/text"
+msgstr "Квалифицированная команда аванпоста быстро проводит требуемые работы."
+
+#: src-en/data/events_sector_stargrove.xml:2731
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SAFE_HAVEN_OFFERS\"]/choice[4]/text"
+msgstr "Попросить улучшить реактор."
+
+#: src-en/data/events_sector_stargrove.xml:2733
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SAFE_HAVEN_OFFERS\"]/choice[4]/event/text"
+msgstr "Квалифицированная команда аванпоста быстро проводит требуемые работы."
+
+#: src-en/data/events_sector_stargrove.xml:2738
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SAFE_HAVEN_OFFERS\"]/choice[5]/text"
+msgstr "Запросить ремонт."
+
+#: src-en/data/events_sector_stargrove.xml:2740
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SAFE_HAVEN_OFFERS\"]/choice[5]/event/text"
+msgstr "Квалифицированная команда аванпоста быстро чинит ваш корпус."
+
+#: src-en/data/events_sector_stargrove.xml:2745
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SAFE_HAVEN_OFFERS\"]/choice[6]/text"
+msgstr "Попросить предоставить вам ресурсы."
+
+#: src-en/data/events_sector_stargrove.xml:2747
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SAFE_HAVEN_OFFERS\"]/choice[6]/event/text"
+msgstr "Аванпост загружает на ваш корабль те ресурсы, с которыми он готов расстаться."
+
+#: src-en/data/events_sector_stargrove.xml:2752
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SAFE_HAVEN_OFFERS\"]/choice[7]/text"
+msgstr "Вместо этого заняться чем-нибудь на борту корабля."
+
+#: src-en/data/events_sector_stargrove.xml:2756
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SAFE_HAVEN_OFFERS\"]/choice[8]/text"
+msgstr "Неважно."
+
+#: src-en/data/events_sector_stargrove.xml:2774
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_QUEST_STARGROVE_AUTO_CRUISER\"]/beaconType/unvisitedTooltip"
+msgstr "Здесь пропал автоматический крейсер Федерации."
+
+#: src-en/data/events_sector_stargrove.xml:2777
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_QUEST_STARGROVE_AUTO_CRUISER\"]/text"
+msgstr "Вместо автоматического крейсера вы сразу же замечаете продвинутый корабль Династии, стреляющий из своих орудий прямо по ближайшей звезде. Заметив вас, они предупреждают. \"Стой, гнусный Ренегат! Твоя ужасная тварь примкнула к этим презренным кошмарам. Не вмешивайся\"."
+
+#: src-en/data/events_sector_stargrove.xml:2779
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_QUEST_STARGROVE_AUTO_CRUISER\"]/choice[@req=\"unique_dessius\"]/text"
+msgstr "(Дессиус) Сказать им, чтобы они отступили."
+
+#: src-en/data/events_sector_stargrove.xml:2781
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_QUEST_STARGROVE_AUTO_CRUISER\"]/choice[@req=\"unique_dessius\"]/event/text"
+msgstr ""
+"\"Стоять!\" скомандовал Дессиус. \"Этот корабль не является вашим врагом\".\n"
+"\n"
+"\"Дессиус? Прошли столетия с тех пор, как началась эта миссия. Неужели мы откажемся от своего поиска в самый момент его завершения?\"\n"
+"\n"
+"\"Угроза, которую они представляли, была явно сильно преувеличена. Если они и правда станут теми, кого мы боимся, у нас еще будет возможность все исправить, - сказал Дессиус, сделав жест. - Ваш успех в их обнаружении отмечен, но вы отстранены от выполнения этой миссии\".\n"
+"\n"
+"\"...Как пожелаете\".\n"
+"\n"
+"Когда вражеский корабль улетел, автоматический крейсер Федерации вышел из своего укрытия возле звезды."
+
+#: src-en/data/events_sector_stargrove.xml:2791
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_QUEST_STARGROVE_AUTO_CRUISER\"]/choice[@req=\"unique_dessius\"]/event/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_stargrove.xml:2797
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_QUEST_STARGROVE_AUTO_CRUISER\"]/choice[2]/text"
+msgstr "Кошмары?"
+
+#: src-en/data/events_sector_stargrove.xml:2799
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_QUEST_STARGROVE_AUTO_CRUISER\"]/choice[2]/event/text"
+msgstr "\"Пустые... те, кого не должно быть! Их не может быть! Их нет, и все же они таятся!\" Капитан Династии с трудом подбирает слова, чтобы выразить свое отчаяние."
+
+#: src-en/data/events_sector_stargrove.xml:2801
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_QUEST_STARGROVE_AUTO_CRUISER\"]/choice[2]/event/choice[1]/text"
+msgstr "Защитить автоматический крейсер."
+
+#: src-en/data/events_sector_stargrove.xml:2803
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_QUEST_STARGROVE_AUTO_CRUISER\"]/choice[2]/event/choice[1]/event/text"
+msgstr "Вы вмешиваетесь и не позволяете кораблю Династии больше нападать на корабль, который вас послали защищать."
+
+#: src-en/data/events_sector_stargrove.xml:2806
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_QUEST_STARGROVE_AUTO_CRUISER\"]/choice[2]/event/choice[1]/event/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_stargrove.xml:2812
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_QUEST_STARGROVE_AUTO_CRUISER\"]/choice[2]/event/choice[2]/text"
+msgstr "Обвинить его в лицемерии."
+
+#: src-en/data/events_sector_stargrove.xml:2814
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_QUEST_STARGROVE_AUTO_CRUISER\"]/choice[2]/event/choice[2]/event/text"
+msgstr "Вы отмечаете, что его описание врагов звучит весьма похоже на то, как их самих описывают другие. Он не оценил этих слов."
+
+#: src-en/data/events_sector_stargrove.xml:2817
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_QUEST_STARGROVE_AUTO_CRUISER\"]/choice[2]/event/choice[2]/event/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_stargrove.xml:2823
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_QUEST_STARGROVE_AUTO_CRUISER\"]/choice[2]/event/choice[3]/text"
+msgstr "Уйти."
+
+#: src-en/data/events_sector_stargrove.xml:2829
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_QUEST_STARGROVE_AUTO_CRUISER\"]/choice[3]/text"
+msgstr "Атаковать их."
+
+#: src-en/data/events_sector_stargrove.xml:2831
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_QUEST_STARGROVE_AUTO_CRUISER\"]/choice[3]/event/text"
+msgstr "\"Как типично. Федерация защищает мерзости, как своих новых питомцев\" - выпаливает капитан Династии. Крейсер разворачивается и начинает атаку на вас!"
+
+#: src-en/data/events_sector_stargrove.xml:2834
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_QUEST_STARGROVE_AUTO_CRUISER\"]/choice[3]/event/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_stargrove.xml:2840
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_QUEST_STARGROVE_AUTO_CRUISER\"]/choice[4]/text"
+msgstr "Мы не собираемся вмешиваться."
+
+#: src-en/data/events_sector_stargrove.xml:2842
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_QUEST_STARGROVE_AUTO_CRUISER\"]/choice[4]/event/text"
+msgstr "\"Мудрый выбор. С этими ужасными существами нужно разобраться\"."
+
+#: src-en/data/events_sector_stargrove.xml:2849
+msgid ""
+"data/events_sector_stargrove.xml$//ship[@name=\"SHIP_DYNASTY_STARGROVE\"]/destroyed/text"
+msgstr "Корабль Династии разваливается под тяжестью ваших атак. Пока вы собираете лом, автоматический крейсер Федерации выходит из своего укрытия возле звезды."
+
+#: src-en/data/events_sector_stargrove.xml:2852
+msgid ""
+"data/events_sector_stargrove.xml$//ship[@name=\"SHIP_DYNASTY_STARGROVE\"]/destroyed/choice/text"
+msgstr "Связаться с беспилотником."
+
+#: src-en/data/events_sector_stargrove.xml:2857
+msgid ""
+"data/events_sector_stargrove.xml$//ship[@name=\"SHIP_DYNASTY_STARGROVE\"]/deadCrew/text"
+msgstr "Экипаж корабля Династии был ликвидирован. Пока вы собираете добычу с их корабля, автоматический крейсер Федерации выходит из своего укрытия возле звезды."
+
+#: src-en/data/events_sector_stargrove.xml:2860
+msgid ""
+"data/events_sector_stargrove.xml$//ship[@name=\"SHIP_DYNASTY_STARGROVE\"]/deadCrew/choice/text"
+msgstr "Связаться с беспилотником."
+
+#: src-en/data/events_sector_stargrove.xml:2867
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_AUTO_CONTACT\"]/text"
+msgstr "Вы отправляете автоматическому крейсеру зашифрованный файл, переданный аванпостом. В ответ он передает текстовый отчет о своей миссии и полную электронную таблицу данных, которые он собирал. Судя по всему, кораблю удалось обнаружить некую экзотическую жизнь, которую он назвал \"пустотники\". Автоматический корабль предлагает дополнительное вознаграждение за спасение."
+
+#: src-en/data/events_sector_stargrove.xml:2869
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_AUTO_CONTACT\"]/choice[1]/text"
+msgstr "Ознакомиться с отчетом."
+
+#: src-en/data/events_sector_stargrove.xml:2871
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_AUTO_CONTACT\"]/choice[1]/event/text"
+msgstr "Согласно докладу крейсера, пустотники - это звездные сущности, не обнаруживаемые напрямую ни одним из известных сенсоров. Их присутствие определяется косвенно - по негативному пространству, которое они создают на поверхности звезды. Автоматический крейсер смог зафиксировать кодировку, созданную действиями пустотников: импровизированный сигнал бедствия, сформированный путем манипуляции звездным излучением. Автоматический крейсер перевел сообщение как: \"Помогите. Враг вернулся. Мы предлагаем союз\"."
+
+#: src-en/data/events_sector_stargrove.xml:2873
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_AUTO_CONTACT\"]/choice[1]/event/choice/text"
+msgstr "Приказать автоматическому крейсеру вернуться на аванпост."
+
+#: src-en/data/events_sector_stargrove.xml:2879
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_AUTO_CONTACT\"]/choice[2]/text"
+msgstr "Приказать автоматическому крейсеру вернуться на аванпост."
+
+#: src-en/data/events_sector_stargrove.xml:2885
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_AUTOSHIP_RETURN\"]/text"
+msgstr "Звучит заранее записанное сообщение. \"Принято\". Затем вы получаете от корабля текстовое сообщение с предложением установить на ваше судно сенсорный модуль перед отлетом."

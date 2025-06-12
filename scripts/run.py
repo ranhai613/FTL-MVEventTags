@@ -368,6 +368,7 @@ class Event(ElementBaseClass):
     
     def init_childChoiceTags(self):
         self._childChoices = [global_choice_map.get(f'{self._xmlpath}${self._uniqueXPathGenerator.getpath(element)}') for element in xpath(self._element, './choice')]
+        self._childChoices = [choice for choice in self._childChoices if choice is not None]
         
 class EventList(ElementBaseClass):
     def __init__(self, element, xmlpath, uniqueXPathGenerator):

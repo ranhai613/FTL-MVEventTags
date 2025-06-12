@@ -1,34 +1,26 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-06-09 11:42+0000\n"
-"Last-Translator: ono hunt <tmfunkyteckofficial2@gmail.com>\n"
-"Language-Team: French <https://weblate.hyperq.be/projects/ftl-multiverse/"
-"dataevents_sector_clanxml/fr/>\n"
-"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.5.5\n"
 
 #: src-en/data/events_sector_clan.xml:38
 msgid "data/events_sector_clan.xml$//event[@name=\"CLAN_FAUNA_START\"]/text"
 msgstr ""
-"Un vaisseau de chasseurs exotiques est en orbite autour d'un monde largement"
-" arboricole. À votre arrivée, ils vous envoient un message : \"La planète "
-"cssi-dessssousss abrite la créature arboricole la plus dangereussse de la "
-"galaxssie. Avec ssses pouvoirsss psssychiques innés, elle est aussssi "
-"redoutable au combat qu'elle l'est pour sssubvertir votre esssprit. La "
-"plupart des essspècsses n'y résissstent pas. Il ne peut même pas être "
-"assssommé. Nos Ssslugs peuvent aider mais ne sssont pas assssez forts à eux "
-"ssseuls.\""
+"Un vaisseau Loubard est en orbite autour d'un monde largement arboricole. À "
+"votre arrivée, ils vous envoient un message : \"La planète cssi-dessssousss "
+"abrite la créature arboricole la plus dangereussse de la galaxssie. Avec "
+"ssses pouvoirsss psssychiques innés, elle est aussssi redoutable au combat "
+"qu'elle l'est pour sssubvertir votre esssprit. La plupart des essspècsses "
+"n'y résissstent pas. Il ne peut même pas être assssommé. Nos Limaccce "
+"peuvent aider mais ne sssont pas assssez forts à eux ssseuls.\""
 
 #: src-en/data/events_sector_clan.xml:40
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"CLAN_FAUNA_START\"]/choice[1]/text"
 msgstr ""
-"Demandez-leur pourquoi ils n'utilisent pas simplement les armes montées sur "
+"Leur demander pourquoi ils n'utilisent pas simplement les armes montées sur "
 "leur vaisseau."
 
 #: src-en/data/events_sector_clan.xml:42
@@ -96,17 +88,16 @@ msgstr "\"Vousss avez un moyen de nousss aider dans la chasssse ?\""
 #: src-en/data/events_sector_clan.xml:84
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"CLAN_FAUNA_OFFER_TO_HELP\"]/choice[@req=\"LIST_A55\"]/text"
-msgstr "(A55) \"Laisse-moi te montrer comment qu'on fait !\" [-1|]"
+msgstr "(3NF) \"Laisse-moi te montrer comment qu'on fait !\" [-1|]"
 
 #: src-en/data/events_sector_clan.xml:86
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"CLAN_FAUNA_OFFER_TO_HELP\"]/choice[@req=\"LIST_A55\"]/event/text"
 msgstr ""
-"A55 maîtrise habilement la créature tandis que les chasseurs exotiques font "
-"de leur mieux pour l'aider : \"Arr, cette proie s'est bien battue mais elle "
-"n'est pas de taille face à moi !\" Les chasseurs exotiques sont "
-"impressionnés par la précision mécanique parfaite et la ruse surprenante du "
-"drone."
+"3NF maîtrise habilement la créature tandis que les Loubards font de leur "
+"mieux pour l'aider : \"Arr, cette proie s'est bien battue mais elle n'est "
+"pas de taille face à moi !\" Les Loubards sont impressionnés par la "
+"précision mécanique parfaite et la ruse surprenante du drone."
 
 #: src-en/data/events_sector_clan.xml:91
 msgid ""
@@ -117,21 +108,21 @@ msgstr "Continuer..."
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"CLAN_FAUNA_OFFER_TO_HELP\"]/choice[@req=\"BLUELIST_POWERFUL_BOARDING_NO_A55\"]/text"
 msgstr ""
-"(Drone d'abordage spécial) Envoyez un puissant drone pour aider les Slugs. "
-"[-1|]"
+"(Drone d'abordage spécial) Envoyez un puissant drone pour aider les Limaces."
+" [-1|]"
 
 #: src-en/data/events_sector_clan.xml:105
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"CLAN_FAUNA_OFFER_TO_HELP\"]/choice[@req=\"BLUELIST_MID_LEVEL_BOARDING\"]/text"
 msgstr ""
-"(Drone d'abordage offensif) Envoyez un drone pour aider les Slugs [-1|]."
+"(Drone d'abordage offensif) Envoyez un drone pour aider les Limaces [-1|]."
 
 #: src-en/data/events_sector_clan.xml:109
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"CLAN_FAUNA_OFFER_TO_HELP\"]/choice[@req=\"BLUELIST_BOARDING_SUPPORT\"]/text"
 msgstr ""
-"(Drone d'abordage de soutien) Envoyez un drone faible pour aider les Slugs. "
-"[-1|]"
+"(Drone d'abordage de soutien) Envoyez un drone faible pour aider les "
+"Limaces. [-1|]"
 
 #: src-en/data/events_sector_clan.xml:113
 msgid ""
@@ -144,10 +135,10 @@ msgid ""
 "data/events_sector_clan.xml$//event[@name=\"CLAN_FAUNA_OFFER_TO_HELP\"]/choice[@req=\"BLUELIST_HOLODRONE_CHAOS\"]/event/text"
 msgstr ""
 "L'holodrone chaotique produit un membre d'équipage. Malheureusement pour les"
-" chasseurs exotiques il se range immédiatement du côté de la bête. Le duo "
-"massacre sans peine le groupe de chasseurs. Votre nouveau membre d'équipage "
-"loyal retourne à votre vaisseau. Satisfait d'un travail bien fait il "
-"s'empresse de parler à tout le monde de son meilleur ami."
+" Loubards il se range immédiatement du côté de la bête. Le duo massacre sans"
+" peine le groupe de chasseurs. Votre nouveau membre d'équipage loyal "
+"retourne à votre vaisseau. Satisfait d'un travail bien fait il s'empresse de"
+" parler à tout le monde de son meilleur ami."
 
 #: src-en/data/events_sector_clan.xml:116
 msgid ""
@@ -170,12 +161,12 @@ msgstr ""
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"CLAN_FAUNA_OFFER_TO_HELP\"]/choice[@req=\"eldritch_cat\"]/event/text"
 msgstr ""
-"\"Oh, les années, comme elles ont passé,  Que je revoie le Renard, enfin "
-"réveillé.  Comment il a faim, comme il soupire,  oh combien son estomac se "
-"déchire.  Pour les rêves et la chair, il en a besoin,  Sa faiblesse est de "
-"nourrir deux destins.  Nourrissons-le donc de tout ce qu'il désire,  Et "
+"\"Oh, les années, comme elles ont passé, Que je revoie le Renard, enfin "
+"réveillé. Comment il a faim, comme il soupire, oh combien son estomac se "
+"déchire. Pour les rêves et la chair, il en a besoin, Sa faiblesse est de "
+"nourrir deux destins. Nourrissons-le donc de tout ce qu'il désire, Et "
 "mettons fin aux vies de ces vils satyres.\" Celui Qui Rime place la bête "
-"directement sur le navire du Clan. La panique et la terreur des chasseurs "
+"directement sur le vaisseau Loubard. La panique et la terreur des chasseurs "
 "sont rapidement réduites au silence alors que la bête dévore chacun d'eux. "
 "Celui qui rime te fournit la récompense de leur vaisseau."
 
@@ -188,10 +179,10 @@ msgstr "Continuer..."
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"CLAN_FAUNA_OFFER_TO_HELP\"]/choice[@req=\"eldritch_cat\"]/event/choice/event/text"
 msgstr ""
-"\"Maintenant libre et bien nourri.  La galaxie est sienne pour qu'il "
-"l'admire.  Il voit une friandise, il mange un festin, il fera plier les gens "
-"utiles a son destin.  Il y a tant de chose pour lui a découvrir,  pense a "
-"tout les lieux qu'il pourrait conquérir !\""
+"\"Maintenant libre et bien nourri. La galaxie est sienne pour qu'il "
+"l'admire. Il voit une friandise, il mange un festin, il fera plier les gens "
+"utiles a son destin. Il y a tant de chose pour lui a découvrir, pense a tout"
+" les lieux qu'il pourrait conquérir !\""
 
 #: src-en/data/events_sector_clan.xml:141
 msgid ""
@@ -207,11 +198,11 @@ msgstr "(Irwin) Qu'Irwin les dirige."
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"CLAN_FAUNA_OFFER_TO_HELP\"]/choice[@req=\"unique_irwin\"]/event/text"
 msgstr ""
-"\"Je n'ai jamais rencontré cssette charmante créature, mais j'ai "
-"l'intuitssion que je connais le moyen de l'arrêter.\" dit Irwin en donnant "
-"des ordres aux chasseurs exotiques. Sous sa direction sans faille, la bête "
-"est endormie et capturée sans aucune perte. Les chasseurs sont stupéfaits "
-"d'être les témoins de l'habileté d'une légende."
+"\"Je n'ai jamais rencontré cccette charmante créature, mais j'ai "
+"l'intuisssion que je connais le moyen de l'arrêter.\" dit Irwin en donnant "
+"des ordres aux Loubards. Sous sa direction sans faille, la bête est endormie"
+" et capturée sans aucune perte. Les Loubards sont stupéfaits d'être les "
+"témoins de l'habileté d'une légende."
 
 #: src-en/data/events_sector_clan.xml:149
 msgid ""
@@ -227,8 +218,8 @@ msgstr "(Vortigon) Vortigon semble prêt à relever le défi."
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"CLAN_FAUNA_OFFER_TO_HELP\"]/choice[@req=\"BLUELIST_SNAIL_ALKALI\"]/text"
 msgstr ""
-"(Alcali télépathique) \"Intéressant. Je vous apporterai un soutien médical "
-"si vous me laissez étudier la bête.\""
+"(Alkali télépathique) \"Intéressant. Che ffous apporterai un soutien médical"
+" si ffous me laissez étudier la bête.\""
 
 #: src-en/data/events_sector_clan.xml:163
 msgid ""
@@ -265,7 +256,7 @@ msgstr ""
 #: src-en/data/events_sector_clan.xml:187
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"CLAN_FAUNA_OFFER_TO_HELP\"]/choice[17]/text"
-msgstr "Attaquez-les plutôt."
+msgstr "Les attaquer plutôt."
 
 #: src-en/data/events_sector_clan.xml:189
 msgid ""
@@ -305,7 +296,7 @@ msgid ""
 msgstr ""
 "Même contre la bête à l'esprit vif, le drone fait des dégâts considérables. "
 "Il fait de son mieux pour protéger le groupe de chasseurs de la créature, "
-"mais celle-ci, très intelligente, parvient à tuer l'un des Slugs avant "
+"mais celle-ci, très intelligente, parvient à tuer l'un des Limaces avant "
 "d'être maîtrisée."
 
 #: src-en/data/events_sector_clan.xml:219
@@ -332,7 +323,7 @@ msgid ""
 msgstr ""
 "Le drone d'assaut fait son travail, à la fois en encaissant le plus gros de "
 "l'assaut de la bête et en infligeant lui-même des dégâts considérables. Les "
-"chasseurs exotiques remportent la victoire avec qu'une seule perte."
+"Loubards remportent la victoire avec qu'une seule perte."
 
 #: src-en/data/events_sector_clan.xml:241
 msgid ""
@@ -345,7 +336,7 @@ msgstr ""
 "La bête ignore le drone pour se concentrer sur des cibles plus molles mais "
 "cela s'avère être une erreur car le drone est capable de punir cette "
 "décision grâce à ses prouesses au combat. Malheureusement, le groupe de "
-"chasseurs Slugs subit de lourdes pertes."
+"chasseurs Limaces subit de lourdes pertes."
 
 #: src-en/data/events_sector_clan.xml:251
 msgid ""
@@ -358,7 +349,7 @@ msgid ""
 msgstr ""
 "La bête réussit à déjouer le drone en utilisant son intelligence pour se "
 "concentrer sur le groupe de chasseurs. Malheureusement, lorsque le drone "
-"parvient enfin à attaquer il n'a plus aucun Slugs à soutenir."
+"parvient enfin à attaquer il n'a plus aucune Limaces à soutenir."
 
 #: src-en/data/events_sector_clan.xml:262
 msgid ""
@@ -369,8 +360,8 @@ msgstr "Continuer..."
 msgid ""
 "data/events_sector_clan.xml$//eventList[@name=\"CLAN_50_50_SUPPORT\"]/event[1]/text"
 msgstr ""
-"Votre drone fait de son mieux pour soutenir les chasseurs exotiques mais la "
-"bête l'ignore et déchire le clan de chasseurs."
+"Votre drone fait de son mieux pour soutenir les Loubards mais la bête "
+"l'ignore et déchire le clan de chasseurs."
 
 #: src-en/data/events_sector_clan.xml:274
 msgid ""
@@ -381,9 +372,9 @@ msgstr "Continuer..."
 msgid ""
 "data/events_sector_clan.xml$//eventList[@name=\"CLAN_50_50_SUPPORT\"]/event[2]/text"
 msgstr ""
-"Le drone de soutien parvient à aider les chasseurs à remporter la victoire. "
-"À la fois en faisant son devoir et en agissant comme un bouclier mais il y a"
-" eu de sérieuses pertes en cours de route."
+"Le drone de soutien parvient à aider les Loubards à remporter la victoire. À"
+" la fois en faisant son devoir et en agissant comme un bouclier mais il y a "
+"eu de sérieuses pertes en cours de route."
 
 #: src-en/data/events_sector_clan.xml:284
 msgid ""
@@ -397,9 +388,9 @@ msgstr ""
 "La bête charge immédiatement la Sirène, l'identifiant comme la plus grande "
 "menace. D'une manière ou d'une autre, les facultés mentales de la créature "
 "semblent s'obscurcir en présence de la Sirène qui l'utilise à son avantage "
-"se battant sur la défensive tandis que les chasseurs exotiques parviennent à"
-" tirer proprement sur elle. Cependant, votre Sirène ne semble pas se soucier"
-" de la vie des chasseurs et certains d'entre eux sont blessés."
+"se battant sur la défensive tandis que les Loubards parviennent à tirer "
+"proprement sur elle. Cependant, votre Sirène ne semble pas se soucier de la "
+"vie des chasseurs et certains d'entre eux sont blessés."
 
 #: src-en/data/events_sector_clan.xml:293
 msgid ""
@@ -411,11 +402,11 @@ msgid ""
 "data/events_sector_clan.xml$//eventList[@name=\"CLAN_50_50_SIREN\"]/event[2]/text"
 msgstr ""
 "La bête charge immédiatement la Sirène, l'identifiant comme la plus grande "
-"menace. Votre menbre d'équipage esquive son attaque tandis que les chasseurs"
-" exotique parviennent à tirer proprement. La créature finit par rentrer dans"
-" une rage folle, et déchire les chasseurs en morceau, avant que la Sirène ne"
-" l'apaise suffisamment pour que l'un des rares Slugs restant mette fin à ses"
-" jours."
+"menace. Votre membre d'équipage esquive son attaque tandis que les Loubards "
+"parviennent à tirer proprement. La créature finit par rentrer dans une rage "
+"folle et déchire les chasseurs en morceau, avant que la Sirène ne l'apaise "
+"suffisamment pour que l'une des rares Limaces restante mette fin à ses "
+"jours."
 
 #: src-en/data/events_sector_clan.xml:300
 msgid ""
@@ -428,8 +419,8 @@ msgid ""
 msgstr ""
 "Le zèle de Vortigon passe même à travers les pouvoirs psychiques de la bête."
 " La bête ne peut ni renverser la volonté de Vortigon, ni le blesser de "
-"manière significative. Vortigon immobilise la bête à la lutte et les Slugs "
-"parviennent à l'abattre sans la moindre perte."
+"manière significative. Vortigon immobilise la bête à la lutte et les Limaces"
+" parviennent à l'abattre sans la moindre perte."
 
 #: src-en/data/events_sector_clan.xml:309
 msgid ""
@@ -444,8 +435,8 @@ msgstr ""
 " La bête ne peut ni renverser la volonté de Vortigon, ni le blesser de "
 "manière significative. Elle parvient à échapper à sa prise et fait de son "
 "mieux pour rester à distance de lui. Bien que la bataille soit ardue, les "
-"Slugs parviennent à se mettre à l'abri derrière la puissante corpulence de "
-"Vortigon."
+"Limaces parviennent à se mettre à l'abri derrière la puissante corpulence de"
+" Vortigon."
 
 #: src-en/data/events_sector_clan.xml:316
 msgid ""
@@ -456,7 +447,7 @@ msgstr "Continuer..."
 msgid ""
 "data/events_sector_clan.xml$//eventList[@name=\"CLAN_25_75_ALKALI\"]/event[1]/text"
 msgstr ""
-"Les Slugs se regroupent autour d'Alkali. Grâce à ses perspicaces "
+"Les Limaces se regroupent autour d'Alkali. Grâce à ses perspicaces "
 "connaissances en xénobiologie, la bête ne parvient pas à briser la "
 "formation. Même s'ils sont blessés, tous les membres du groupe de chasseurs "
 "peuvent recevoir toute l'assistance médicale dont ils ont besoin."
@@ -470,8 +461,8 @@ msgstr "Continuer..."
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"CLAN_FAUNA_ALKALI_SUCCESS\"]/text"
 msgstr ""
-"Les Chasseurs Exotiques se regroupent autour d'Alkali. La bête est capable "
-"de déchiqueter quelques Slugs, mais elle arrive a les maintenirs à distance "
+"Les Loubards se regroupent autour d'Alkali. La bête est capable de "
+"déchiqueter quelques Limaces, mais elle arrive a les maintenir à distance "
 "avant qu'ils ne tombent. Cependant, l'un des chasseurs de flanc est un peu "
 "imprudent et se fait déchiqueter avant qu'Alkali ne puisse l'aider."
 
@@ -484,12 +475,11 @@ msgstr "Continuer..."
 msgid ""
 "data/events_sector_clan.xml$//eventList[@name=\"CLAN_33_66_TURZIL\"]/event[1]/text"
 msgstr ""
-"Turzil dirige les Chasseurs Exotiques avec une précision mesurée. Une fois "
-"la bête appâtée, Turzil appelle toute l'escouade sur sa position. Grâce au "
-"champ de protection qu'il génère autour de chaque Slug, ils sont "
-"virtuellement invulnérables aux attaques de la créature, ce qui conduit à "
-"une victoire triomphale. Le groupe de chasseurs salue leur général "
-"victorieux."
+"Turzil dirige les Loubards avec une précision mesurée. Une fois la bête "
+"appâtée, Turzil appelle toute l'escouade sur sa position. Grâce au champ de "
+"protection qu'il génère autour de chaque Limace, ils sont virtuellement "
+"invulnérables aux attaques de la créature, ce qui conduit à une victoire "
+"triomphale. Le groupe de chasseurs salue leur général victorieux."
 
 #: src-en/data/events_sector_clan.xml:344
 msgid ""
@@ -502,11 +492,11 @@ msgid ""
 msgstr ""
 "Turzil dirige le groupe de chasseurs avec une précision mesurée. Une fois la"
 " bête appâtée, Turzil appelle toute l'escouade sur sa position. Comme son "
-"champ de protection se forme autour de chaque Slug, elles sont virtuellement"
-" invulnérables aux attaques de la créature. Celle-ci finit par s'en rendre "
-"compte et interrompt l'assaut pour attendre. Après la dissipation du champ "
-"de Turzil, la protection s'est estompée, mais le mal est fait et la bête est"
-" trop blessée pour en tirer profit."
+"champ de protection se forme autour de chaque Limace, elles sont "
+"virtuellement invulnérables aux attaques de la créature. Celle-ci finit par "
+"s'en rendre compte et interrompt l'assaut pour attendre. Après la "
+"dissipation du champ de Turzil, la protection s'est estompée, mais le mal "
+"est fait et la bête est trop blessée pour en tirer profit."
 
 #: src-en/data/events_sector_clan.xml:351
 msgid ""
@@ -519,7 +509,7 @@ msgid ""
 msgstr ""
 "Le Cultiste se met en action, prend ses stimulants et se précipite sur la "
 "créature. Celle-ci n'est absolument pas préparée à l'esprit ordinaire mais "
-"impénétrable du zélote, et ne parvient pas à attaquer. Même après "
+"impénétrable du zélote et ne parvient pas à attaquer. Même après "
 "l'épuisement des stimulants, la bête est épuisée et immobilisée, ce qui "
 "permet aux chasseurs de l'achever."
 
@@ -536,7 +526,7 @@ msgstr ""
 "bête. Avec un zèle sauvage, ils assènent une pluie de coups, mais dès que "
 "les drogues se dissipent, la créature parvient à s'éloigner un peu de votre "
 "équipage. Cependant, à ce stade, elle est suffisamment faible pour que les "
-"Slugs puissent s'en occuper."
+"Limaces puissent s'en occuper."
 
 #: src-en/data/events_sector_clan.xml:369
 msgid ""
@@ -565,7 +555,7 @@ msgid ""
 msgstr ""
 "Votre Séparatiste passe en mode nano et essaime la créature. Elle gaspille "
 "une grande partie de son énergie à essayer de combattre la silhouette "
-"fantomatique alors qu'elle est bombardé par les tirs des Slugs. Après "
+"fantomatique alors qu'elle est bombardé par les tirs des Limaces. Après "
 "quelques tirs, elle ignore votre Engi et commence à faire des ravages dans "
 "le groupe de chasseurs. Il est surprenant de constater qu'ils gagnent tout "
 "de même."
@@ -628,7 +618,7 @@ msgstr ""
 "Votre Osmien utilise ingénieusement sa capacité à générer des hologrammes "
 "tout en restant à l'écart du danger. La bête ne sait pas comment combattre "
 "les hologrammes, car elle ne peut pas les combattre correctement, mais elle "
-"ne peut pas non plus les ignorer. Les Slugs restent en retrait et "
+"ne peut pas non plus les ignorer. Les Limaces restent en retrait et "
 "choisissent leurs tirs. Même si certains finissent par être blessés, la "
 "bataille est tout de même gagnée."
 
@@ -645,7 +635,7 @@ msgstr ""
 "tout en restant à l'écart du danger. Sa proie ne sait pas comment lutter "
 "contre les hologrammes, car elle ne peut pas les combattre correctement, "
 "mais elle est capable de les éviter. La bête est vaincue par les hologrammes"
-" et les Slugs, mais de nombreuses vies sont perdues."
+" et les Limaces, mais de nombreuses vies sont perdues."
 
 #: src-en/data/events_sector_clan.xml:431
 msgid ""
@@ -660,7 +650,7 @@ msgstr ""
 "en restant à bonne distance. Leur proie est incapable d'ignorer les drones "
 "qui continuent d'apparaître et de frapper alors qu'elle a le dos tourné. "
 "Grâce à la distance prudente du groupe de chasseurs, la guerre d'usure est "
-"finalement gagnée, bien que quelques Slugs aient été blessées."
+"finalement gagnée, bien que quelques Limaces aient été blessées."
 
 #: src-en/data/events_sector_clan.xml:441
 msgid ""
@@ -675,8 +665,8 @@ msgstr ""
 "en restant à bonne distance. Leur proie est incapable d'ignorer les drones "
 "qui continuent d'apparaître et de frapper alors qu'elle a le dos tourné. "
 "Cependant, les drones ne parviennent pas à attaquer assez vite pour empêcher"
-" la bête de tuer de nombreux chasseurs de Slugs. La bataille est sanglante, "
-"mais le groupe de chasseurs revient victorieux."
+" la bête de tuer de nombreux chasseurs de Limaces. La bataille est "
+"sanglante, mais le groupe de chasseurs revient victorieux."
 
 #: src-en/data/events_sector_clan.xml:449
 msgid ""
@@ -688,16 +678,16 @@ msgid ""
 "data/events_sector_clan.xml$//event[@name=\"CLAN_FAUNA_IMPRESSIVE_SUCCESS\"]/text"
 msgstr ""
 "\"Ccc'était glorieux. Nous te devons cette chassssse réussssie, Renégat. Ils"
-" chanterons des chansssson de cette grande chasssse.\" Les Chasseurs "
-"Exotiques vous récompensent."
+" chanterons des chansssson de cette grande chasssse.\" Les Loubards vous "
+"récompensent."
 
 #: src-en/data/events_sector_clan.xml:460
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"CLAN_FAUNA_MODEST_SUCCESS\"]/text"
 msgstr ""
 "\"C'est un sssuccès incontessstable. Défier la bête, c'est ffflirter avec la"
-" mort. Voiccci votre récompenssse pour votre particccipation\" Les Chasseurs"
-" Exotiques vous offrent un peu de ferraille."
+" mort. Voiccci votre récompenssse pour votre particccipation\" Les Loubards "
+"vous offrent un peu de ferraille."
 
 #: src-en/data/events_sector_clan.xml:464
 msgid ""
@@ -705,8 +695,8 @@ msgid ""
 msgstr ""
 "\"Quel désassstre ! Nous avons peut-être gagné, mais cccela aurait pu ssse "
 "passsser beaucoup mieux. Néanmoins, votre aide, aussssi marginale sssoit-"
-"elle, a été précccieuse\", lancent les Chasseurs Exotiques en guise de "
-"récompense obligatoire."
+"elle, a été précccieuse\", lancent les Loubards en guise de récompense "
+"obligatoire."
 
 #: src-en/data/events_sector_clan.xml:468
 msgid "data/events_sector_clan.xml$//event[@name=\"CLAN_FAUNA_FAILURE\"]/text"
@@ -765,14 +755,14 @@ msgstr ""
 #: src-en/data/events_sector_clan.xml:501
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"CLAN_TOURISTS\"]/choice[@req=\"weapons\"]/text"
-msgstr "(Armement amélioré) Donnez-moi tout ce que vous avez, ou périssez."
+msgstr "(Armes améliorées) Donnez-moi tout ce que vous avez, ou périssez."
 
 #: src-en/data/events_sector_clan.xml:503
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"CLAN_TOURISTS\"]/choice[@req=\"weapons\"]/event/text"
 msgstr ""
 "\"Bon sang ! Nul besoin d'être aussi hostile ! Nous vous donnerons tout ce "
-"que vous voulez !\" Les Cristaliens vous transfèrent des provisions."
+"que vous voulez !\" Les Cristaliens vous transfèrent des ressources."
 
 #: src-en/data/events_sector_clan.xml:506
 msgid ""
@@ -782,7 +772,7 @@ msgstr "Continuer..."
 #: src-en/data/events_sector_clan.xml:512
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"CLAN_TOURISTS\"]/choice[@req=\"LIST_CREW_CRYSTAL\"]/text"
-msgstr "(Membre d'équipage Cristalien) Demander des provisions."
+msgstr "(Membre d'équipage Cristalien) Demander des ressources."
 
 #: src-en/data/events_sector_clan.xml:514
 msgid ""
@@ -790,7 +780,7 @@ msgid ""
 msgstr ""
 "\"Oh, salut l'ami ! Je présume que vous cherchez à obtenir un somptueux "
 "souvenir, mais êtes en manque de fonds ? Eh bien, je serai ravi d'aider !\" "
-"Les Cristaliens envoient de la ferraille, et vous ne prenez pas la peine de "
+"Les Cristaliens envoient de la ferraille et vous ne prenez pas la peine de "
 "mentionner que vous êtes un vaisseau militaire."
 
 #: src-en/data/events_sector_clan.xml:519
@@ -801,7 +791,7 @@ msgstr "Ignorer les Cristaliens."
 #: src-en/data/events_sector_clan.xml:521
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"CLAN_TOURISTS\"]/choice[5]/event/text"
-msgstr "Vous laissez les touristes tranquilles, et partez."
+msgstr "Vous laissez les touristes tranquilles et partez."
 
 #: src-en/data/events_sector_clan.xml:523
 msgid ""
@@ -827,7 +817,7 @@ msgstr "Les contacter."
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"CLAN_CRISIS\"]/choice[1]/event/text"
 msgstr ""
-"Le vaisseau répond, et montre un Chasseur luttant frénétiquement contre ses "
+"Le vaisseau répond et montre un Loubard luttant frénétiquement contre ses "
 "pensées. \"Comment ait-je atterri iccci ? Pourquoi essst-ccce qu'il a fallu "
 "en arriver là ? L'ombre d'une persssonne, un tueur violent...\""
 
@@ -840,7 +830,7 @@ msgstr "Abréger ses souffrances."
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"CLAN_CRISIS\"]/choice[1]/event/choice[1]/event/text"
 msgstr ""
-"Vous braquez votre arsenal et attaquez le Chasseur. Visiblement, il n'a pas "
+"Vous braquez votre arsenal et attaquez le Loubard. Visiblement, il n'a pas "
 "l'air de vouloir riposter."
 
 #: src-en/data/events_sector_clan.xml:551
@@ -855,14 +845,14 @@ msgstr "Ce gars fait pitié. Laissons-le tranquille."
 
 #: src-en/data/events_sector_clan.xml:563
 msgid "data/events_sector_clan.xml$//event[@name=\"CLAN_CRISIS\"]/choice[2]/text"
-msgstr "Ignorer le Chasseur Exotique."
+msgstr "Ignorer le Loubard."
 
 #: src-en/data/events_sector_clan.xml:565
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"CLAN_CRISIS\"]/choice[2]/event/text"
 msgstr ""
 "Pour tout ce que vous en savez, cela pourrait bien être un piège. Vous "
-"ignorez le Chasseur."
+"ignorez le Loubard."
 
 #: src-en/data/events_sector_clan.xml:567
 msgid ""
@@ -878,20 +868,20 @@ msgstr "Ne rien faire."
 msgid "data/events_sector_clan.xml$//event[@name=\"CLAN_SPICES\"]/text"
 msgstr ""
 "Si la Guilde se contente normalement de se retrancher dans les nébuleuses "
-"comme toute Slug le ferait, il semblerait qu'un avant-poste commercial ait "
-"été établi ici pour développer les affaires plus en avant. Cela semble avoir"
-" bien marché... vu qu'un puissant vaisseau Slug noir tient la loge en otage,"
-" et exige que les Chasseurs de la Guilde remettent leurs 'épices exotiques'."
-" Sûrement des drogues, à n'en pas douter."
+"comme toute Limace le ferait, il semblerait qu'un avant-poste commercial ait"
+" été établi ici pour développer les affaires plus en avant. Cela semble "
+"avoir bien marché... vu qu'un puissant vaisseau Limace noir tient le "
+"pavillon en otage et exige que les Loubards remettent leurs 'épices "
+"exotiques'. Sûrement des drogues, à n'en pas douter."
 
 #: src-en/data/events_sector_clan.xml:581
 msgid "data/events_sector_clan.xml$//event[@name=\"CLAN_SPICES\"]/choice[1]/text"
-msgstr "Attaquer le vaisseau Slug noir."
+msgstr "Attaquer le vaisseau Limace noir."
 
 #: src-en/data/events_sector_clan.xml:583
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"CLAN_SPICES\"]/choice[1]/event/text"
-msgstr "Vous activez vos armes et foncez droit sur l'étrange vaisseau Slug."
+msgstr "Vous activez vos armes et foncez droit sur l'étrange vaisseau Limace."
 
 #: src-en/data/events_sector_clan.xml:586
 msgid ""
@@ -900,14 +890,14 @@ msgstr "Continuer..."
 
 #: src-en/data/events_sector_clan.xml:592
 msgid "data/events_sector_clan.xml$//event[@name=\"CLAN_SPICES\"]/choice[2]/text"
-msgstr "Aider le vaisseau Slug noir, et s'emparer des drogues vous-mêmes."
+msgstr "Aider le vaisseau Limace noir et s'emparer des drogues vous-mêmes."
 
 #: src-en/data/events_sector_clan.xml:594
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"CLAN_SPICES\"]/choice[2]/event/text"
 msgstr ""
-"Pour mener à bien cela, vous devrez les tuer sans détruire la station. Soyez"
-" prudent !"
+"Pour mener à bien cela, vous devrez tuer les Loubards sans détruire la "
+"station. Soyez prudent !"
 
 #: src-en/data/events_sector_clan.xml:597
 msgid ""
@@ -922,8 +912,8 @@ msgstr "Partir."
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"CLAN_SPICES\"]/choice[3]/event/text"
 msgstr ""
-"L'origine de ce nouveau vaisseau Slug restera nébuleuse. C'est trop risqué "
-"de vous mêler à cela lorsque vous avez d'autres préoccupations plus "
+"L'origine de ce nouveau vaisseau Limace restera nébuleuse. C'est trop risqué"
+" de vous mêler à cela lorsque vous avez d'autres préoccupations plus "
 "importantes."
 
 #: src-en/data/events_sector_clan.xml:607
@@ -938,56 +928,56 @@ msgstr "Ne rien faire."
 
 #: src-en/data/events_sector_clan.xml:632
 msgid ""
-"data/events_sector_clan.xml$//event[@name=\"NEBULA_CLAN_SHARPSHOOTER\"]/text"
+"data/events_sector_clan.xml$//event[@name=\"NEBULA_LIGHT_CLAN_SHARPSHOOTER\"]/text"
 msgstr ""
-"La clairière à cette balise n'est pas le seul point d'intérêt ici. À la "
-"surface d'une planète voisine, vous trouverez un salle de tir qui semble "
-"avoir attiré un nombre inhabituel de vaisseaux étrangers. Malheureusement, "
-"l'entrée ne semble pas être gratuite et vous devrez débourser un peu de "
-"ferraille pour y pénétrer."
+"La clairière n'est pas le seul point d'intérêt ici. À la surface d'une "
+"planète voisine, vous trouverez un salle de tir qui semble avoir attiré un "
+"nombre inhabituel de vaisseaux étrangers. Malheureusement, l'entrée ne "
+"semble pas être gratuite et vous devrez débourser un peu de ferraille pour y"
+" pénétrer."
 
 #: src-en/data/events_sector_clan.xml:636
 msgid ""
-"data/events_sector_clan.xml$//event[@name=\"NEBULA_CLAN_SHARPSHOOTER\"]/choice[1]/text"
+"data/events_sector_clan.xml$//event[@name=\"NEBULA_LIGHT_CLAN_SHARPSHOOTER\"]/choice[1]/text"
 msgstr "Payez pour l'entrée."
 
 #: src-en/data/events_sector_clan.xml:638
 msgid ""
-"data/events_sector_clan.xml$//event[@name=\"NEBULA_CLAN_SHARPSHOOTER\"]/choice[1]/event/text"
+"data/events_sector_clan.xml$//event[@name=\"NEBULA_LIGHT_CLAN_SHARPSHOOTER\"]/choice[1]/event/text"
 msgstr ""
 "Vous payez le droit d'entrée et vous êtes rapidement conduit à l'intérieur."
 
 #: src-en/data/events_sector_clan.xml:643
 msgid ""
-"data/events_sector_clan.xml$//event[@name=\"NEBULA_CLAN_SHARPSHOOTER\"]/choice[1]/event/choice/text"
+"data/events_sector_clan.xml$//event[@name=\"NEBULA_LIGHT_CLAN_SHARPSHOOTER\"]/choice[1]/event/choice/text"
 msgstr "Continuer..."
 
 #: src-en/data/events_sector_clan.xml:649
 msgid ""
-"data/events_sector_clan.xml$//event[@name=\"NEBULA_CLAN_SHARPSHOOTER\"]/choice[@req=\"LIST_CREW_CLAN\"]/text"
+"data/events_sector_clan.xml$//event[@name=\"NEBULA_LIGHT_CLAN_SHARPSHOOTER\"]/choice[@req=\"LIST_CREW_CLAN\"]/text"
 msgstr ""
 "(Membre d'équipage de la Guilde) Demander une réduction pour les membres."
 
 #: src-en/data/events_sector_clan.xml:651
 msgid ""
-"data/events_sector_clan.xml$//event[@name=\"NEBULA_CLAN_SHARPSHOOTER\"]/choice[@req=\"LIST_CREW_CLAN\"]/event/text"
+"data/events_sector_clan.xml$//event[@name=\"NEBULA_LIGHT_CLAN_SHARPSHOOTER\"]/choice[@req=\"LIST_CREW_CLAN\"]/event/text"
 msgstr ""
-"Vous payer le droit d'entrée, désormais réduit, et vous êtes bientôt "
+"Vous payer le droit d'entrée, désormais réduit et vous êtes bientôt "
 "introduit à l'intérieur."
 
 #: src-en/data/events_sector_clan.xml:656
 msgid ""
-"data/events_sector_clan.xml$//event[@name=\"NEBULA_CLAN_SHARPSHOOTER\"]/choice[@req=\"LIST_CREW_CLAN\"]/event/choice/text"
+"data/events_sector_clan.xml$//event[@name=\"NEBULA_LIGHT_CLAN_SHARPSHOOTER\"]/choice[@req=\"LIST_CREW_CLAN\"]/event/choice/text"
 msgstr "Continuer..."
 
 #: src-en/data/events_sector_clan.xml:662
 msgid ""
-"data/events_sector_clan.xml$//event[@name=\"NEBULA_CLAN_SHARPSHOOTER\"]/choice[3]/text"
+"data/events_sector_clan.xml$//event[@name=\"NEBULA_LIGHT_CLAN_SHARPSHOOTER\"]/choice[3]/text"
 msgstr "Ignorer la salle de tirs."
 
 #: src-en/data/events_sector_clan.xml:664
 msgid ""
-"data/events_sector_clan.xml$//event[@name=\"NEBULA_CLAN_SHARPSHOOTER\"]/choice[3]/event/text"
+"data/events_sector_clan.xml$//event[@name=\"NEBULA_LIGHT_CLAN_SHARPSHOOTER\"]/choice[3]/event/text"
 msgstr ""
 "Même si vous aimeriez passer du temps ici, vous n'en avez pas autant que "
 "vous le souhaitez jusqu'à l'arrivée de la flotte rebelle. Vous vous préparez"
@@ -995,19 +985,19 @@ msgstr ""
 
 #: src-en/data/events_sector_clan.xml:666
 msgid ""
-"data/events_sector_clan.xml$//event[@name=\"NEBULA_CLAN_SHARPSHOOTER\"]/choice[3]/event/choice[1]/text"
+"data/events_sector_clan.xml$//event[@name=\"NEBULA_LIGHT_CLAN_SHARPSHOOTER\"]/choice[3]/event/choice[1]/text"
 msgstr "Faire quelque chose à bord du vaisseau."
 
 #: src-en/data/events_sector_clan.xml:670
 msgid ""
-"data/events_sector_clan.xml$//event[@name=\"NEBULA_CLAN_SHARPSHOOTER\"]/choice[3]/event/choice[2]/text"
+"data/events_sector_clan.xml$//event[@name=\"NEBULA_LIGHT_CLAN_SHARPSHOOTER\"]/choice[3]/event/choice[2]/text"
 msgstr "Ne rien faire."
 
 #: src-en/data/events_sector_clan.xml:677
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"NEBULA_CLAN_SHARPSHOOTER_INTERIOR\"]/text"
 msgstr ""
-"En arrivant dans la salle principale, un employé de Slug vous offre "
+"En arrivant dans la salle principale, un employé de Limace vous offre "
 "gratuitement du carburant SPL de haute qualité. Vous soupçonnez cet étrange "
 "cadeau d'être l'une des raisons qui ont attiré tant de vaisseaux ici, car "
 "peu de gens semblent s'intéresser aux diverses attractions prévues. La "
@@ -1027,7 +1017,7 @@ msgid ""
 msgstr ""
 "Cette attraction particulière consiste à tirer sur des cibles en bois "
 "représentant des Orchidée qui tentent d'envahir les Grands Jardins "
-"d'Orchidées. Le scénario décrit semble absurdement irréaliste, et joue sans "
+"d'Orchidées. Le scénario décrit semble absurdement irréaliste et joue sans "
 "aucun doute sur une multitude de caricatures malheureuses, mais cela ne "
 "devrait pas poser beaucoup de problèmes à vos intention de réussite ici."
 
@@ -1080,10 +1070,10 @@ msgstr ""
 "Cette attraction particulière présente des sculptures cristallines inspirées"
 " d'aucune créature connue. En lisant le petit texte associé, on découvre que"
 " les créatures cristallines sont censées être les monstrueux habitants de la"
-" crypte apparemment mythique de l'ancien Empereur Cristallien Ycathine. Cela"
-" semble être un gâchis d'utiliser une si belle technique de sculpture pour "
-"montrer des cryptides inexistants dans un piège à touristes, mais les Slugs "
-"sont connus pour être assez excessif sur ce genre de choses."
+" crypte apparemment mythique de l'ancien Empereur Cristalien Ycathine. Cela "
+"semble être un gâchis d'utiliser une si belle technique de sculpture pour "
+"montrer des cryptides inexistants dans un piège à touristes, mais les "
+"Limaces sont connus pour être assez excessif sur ce genre de choses."
 
 #: src-en/data/events_sector_clan.xml:714
 msgid ""
@@ -1154,10 +1144,10 @@ msgid ""
 "data/events_sector_clan.xml$//event[@name=\"CLAN_SHARPSHOOTER_KERNEL_SOLO_2\"]/choice/event/text"
 msgstr ""
 "Heureusement, grâce à l'expérience acquise au cours des tentatives "
-"précédentes, vous parvenez à atteindre toutes les cibles. Un Chasseurs "
-"Exotiques Slugs s'approche de vous par derrière : \" Féliccccitations pour "
-"votre ssssucccccès. Voiccci votre prix. Ne cherchez pas à sssavoir comment "
-"nous l'avons obtenu, il ne faudrait pas que le Jardin sssse pose trop de "
+"précédentes, vous parvenez à atteindre toutes les cibles. Une Limace "
+"Loubarde s'approche de vous par derrière : \" Féliccccitations pour votre "
+"ssssucccccès. Voiccci votre prix. Ne cherchez pas à sssavoir comment nous "
+"l'avons obtenu, il ne faudrait pas que le Jardin sssse pose trop de "
 "quesssstions.\""
 
 #: src-en/data/events_sector_clan.xml:764
@@ -1188,24 +1178,24 @@ msgid ""
 "data/events_sector_clan.xml$//eventList[@name=\"CLAN_SHARPSHOOTER_KERNEL_SOLO\"]/event[3]/text"
 msgstr ""
 "Par miracle, vous réussissez à atteindre toutes les cibles dès votre "
-"première tentative. Un Chasseurs Exotiques Slug s'approche de vous par "
-"derrière : \"Bien joué. Peu de gens réussssissssent à faire ccce premier "
-"essssai. En fait, ccc'est comme çcca que nous faisons le plusss de "
-"bénéficcces. Quoi qu'il en soit, voiccci votre prix. Ne cherchez pas à "
-"sssavoir comment nous l'avons obtenu, il ne faudrait pas que le Jardin ssse "
-"pose trop de quessstions.\""
+"première tentative. Une Limace Loubarde s'approche de vous par derrière : "
+"\"Bien joué. Peu de gens réussssissssent à faire ccce premier essssai. En "
+"fait, ccc'est comme çcca que nous faisons le plusss de bénéficcces. Quoi "
+"qu'il en soit, voiccci votre prix. Ne cherchez pas à sssavoir comment nous "
+"l'avons obtenu, il ne faudrait pas que le Jardin ssse pose trop de "
+"quessstions.\""
 
 #: src-en/data/events_sector_clan.xml:785
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"CLAN_SHARPSHOOTER_KERNEL_CREW\"]/text"
 msgstr ""
 "Grâce à son expertise et à son arme à feu, votre équipier réussit à "
-"atteindre toutes les cibles dès sa première tentative. Un Chasseurs "
-"Exotiques Slug s'approche de vous par derrière : \"Bien joué. Peu de gens "
-"réussssissent ccce premier essssai. En fait, c'est comme çcca que nous "
-"faisons la plupart de nos bénéficcces. Quoi qu'il en soit, voiccci votre "
-"prix. Ne cherchez pas à sssavoir comment nous l'avons obtenu, il ne faudrait"
-" pas que le Jardin ssse pose trop de quessstions.\""
+"atteindre toutes les cibles dès sa première tentative. Une Limace Loubarde "
+"s'approche de vous par derrière : \"Bien joué. Peu de gens réussssissent "
+"ccce premier essssai. En fait, c'est comme çcca que nous faisons la plupart "
+"de nos bénéficcces. Quoi qu'il en soit, voiccci votre prix. Ne cherchez pas "
+"à sssavoir comment nous l'avons obtenu, il ne faudrait pas que le Jardin "
+"ssse pose trop de quessstions.\""
 
 #: src-en/data/events_sector_clan.xml:789
 msgid ""
@@ -1214,12 +1204,12 @@ msgstr ""
 "Dès que Jerry a fini de marcher vers le stand, il tire sur les cibles avec "
 "une précision effrayante. D'une manière ou d'une autre, pas un seul tir ne "
 "manque la cible. Alors que vous vous dites soulagé de ne pas avoir à "
-"l'affronter en tant qu'ennemi, un Chasseurs Exotiques Slug s'approche de "
-"vous par derrière : \"Bien joué. Peu de gens réussssissssent ccce premier "
-"essssai. En fait, ccc'est comme çcca que nous faisons la plupart de nos "
-"profits. Quoi qu'il en sssoit, voiccci votre prix. Mais ne vous demandez pas"
-" comment nous l'avons obtenu, il ne faudrait pas que le Jardin ssse pose "
-"trop de quessssstions.\""
+"l'affronter en tant qu'ennemi, une Limace Loubarde s'approche de vous par "
+"derrière : \"Bien joué. Peu de gens réussssissssent ccce premier essssai. En"
+" fait, ccc'est comme çcca que nous faisons la plupart de nos profits. Quoi "
+"qu'il en sssoit, voiccci votre prix. Mais ne vous demandez pas comment nous "
+"l'avons obtenu, il ne faudrait pas que le Jardin ssse pose trop de "
+"quessssstions.\""
 
 #: src-en/data/events_sector_clan.xml:794
 msgid ""
@@ -1250,11 +1240,11 @@ msgid ""
 "data/events_sector_clan.xml$//event[@name=\"CLAN_SHARPSHOOTER_CRYSTAL_SOLO_2\"]/choice/event/text"
 msgstr ""
 "Heureusement, grâce à l'expérience acquise au cours des tentatives "
-"précédentes, vous parvenez à atteindre toutes les cibles. Un Chasseurs "
-"Exotiques Slug s'approche de vous par derrière : \" Félicccitations pour "
-"votre ssssuccès. Voiccci votre prix. Ne demandez pas comment nous l'avons "
-"obtenu, vous n'avez pas idée de la rigidité des Crissstaliens sssur ce genre"
-" de choses.\""
+"précédentes, vous parvenez à atteindre toutes les cibles. Une Limace "
+"Loubarde s'approche de vous par derrière : \" Félicccitations pour votre "
+"ssssuccès. Voiccci votre prix. Ne demandez pas comment nous l'avons obtenu, "
+"vous n'avez pas idée de la rigidité des Crissstaliens sssur ce genre de "
+"choses.\""
 
 #: src-en/data/events_sector_clan.xml:812
 msgid ""
@@ -1284,24 +1274,24 @@ msgid ""
 "data/events_sector_clan.xml$//eventList[@name=\"CLAN_SHARPSHOOTER_CRYSTAL_SOLO\"]/event[3]/text"
 msgstr ""
 "Par miracle, vous réussissez à atteindre toutes les cibles dès votre "
-"première tentative. Un Chasseurs Exotiques Slug s'approche de vous par "
-"derrière : \"Bien joué. Peu de gens réussssissssent à faire ce premier "
-"essssai. En fait, ccc'est comme ça que nous faisons le plus de bénéficcces. "
-"Quoi qu'il en ssssoit, voici votre prix. Ne vous demandez pas comment nous "
-"l'avons obtenu, vous n'avez pas idée de la rigidité du peuple crissstalien "
-"sssur ce genre de choses.\""
+"première tentative. Une Limace Loubarde s'approche de vous par derrière : "
+"\"Bien joué. Peu de gens réussssissssent à faire ce premier essssai. En "
+"fait, ccc'est comme ça que nous faisons le plus de bénéficcces. Quoi qu'il "
+"en ssssoit, voici votre prix. Ne vous demandez pas comment nous l'avons "
+"obtenu, vous n'avez pas idée de la rigidité du peuple crissstalien sssur ce "
+"genre de choses.\""
 
 #: src-en/data/events_sector_clan.xml:833
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"CLAN_SHARPSHOOTER_CRYSTAL_CREW\"]/text"
 msgstr ""
 "Grâce à son expertise et à son arme à feu, votre équipier réussit à "
-"atteindre toutes les cibles dès sa première tentative. Un Chasseurs "
-"Exotiques Slug s'approche de vous par derrière : \"Bien joué. Peu de gens "
-"réussssissssent ce premier essssai. En fait, c'est comme ça que nous faisons"
-" la plupart de nos bénéficcces. Quoi qu'il en sssoit, voici votre prix. Ne "
-"vous demandez pas comment nous l'avons obtenu, vous n'avez pas idée de la "
-"rigidité du peuple crissstalien sssur ce genre de choses.\""
+"atteindre toutes les cibles dès sa première tentative. Une Limace Loubarde "
+"s'approche de vous par derrière : \"Bien joué. Peu de gens réussssissssent "
+"ce premier essssai. En fait, c'est comme ça que nous faisons la plupart de "
+"nos bénéficcces. Quoi qu'il en sssoit, voici votre prix. Ne vous demandez "
+"pas comment nous l'avons obtenu, vous n'avez pas idée de la rigidité du "
+"peuple crissstalien sssur ce genre de choses.\""
 
 #: src-en/data/events_sector_clan.xml:837
 msgid ""
@@ -1310,12 +1300,12 @@ msgstr ""
 "Dès que Jerry a fini de marcher vers le stand, il tire sur les cibles avec "
 "une précision effrayante. D'une manière ou d'une autre, pas un seul tir ne "
 "manque la cible. Alors que vous vous dites soulagé de ne pas avoir à "
-"l'affronter en tant qu'ennemi, un Chasseurs Exotiques Slug s'approche de "
-"vous par derrière : \"Bien joué. Peu de gens réussssissssent ce premier "
-"essssai. En fait, c'est comme ça que nous faisons la plupart de nos profits."
-" Quoi qu'il en sssoit, voici votre prix. Ne vous demandez pas comment nous "
-"l'avons obtenu, vous n'avez pas idée de la rigidité du peuple crissstalien "
-"sssur ce genre de choses.\""
+"l'affronter en tant qu'ennemi, une Limace Loubarde s'approche de vous par "
+"derrière : \"Bien joué. Peu de gens réussssissssent ce premier essssai. En "
+"fait, c'est comme ça que nous faisons la plupart de nos profits. Quoi qu'il "
+"en sssoit, voici votre prix. Ne vous demandez pas comment nous l'avons "
+"obtenu, vous n'avez pas idée de la rigidité du peuple crissstalien sssur ce "
+"genre de choses.\""
 
 #: src-en/data/events_sector_clan.xml:842
 msgid ""
@@ -1325,7 +1315,7 @@ msgstr ""
 "bavarder, mais vous trouvez bientôt des marchands Vampiflores qui essaient "
 "de vendre leurs marchandises. Vous ne savez pas vraiment pourquoi ils "
 "essaient de le faire ici, mais vous décidez de quitter la galerie avec eux "
-"afin de parcourir leurs marchandises à bord de leur navire."
+"afin de parcourir leurs marchandises à bord de leur vaisseau."
 
 #: src-en/data/events_sector_clan.xml:846
 msgid ""
@@ -1342,8 +1332,8 @@ msgid ""
 msgstr ""
 "Un Cristalien s'approche bientôt de vous, avec quelque chose d'intéressant à"
 " l'esprit. \"Ah, un capitaine militaire ! C'est exactement ce que nous "
-"cherchions. Il semblerait que nous ayons trouvé des Slugs inhabituellement "
-"enthousiastes tout à l'heure. Il y a eu quelques... disons, malentendus, et "
+"cherchions. Il semblerait que nous ayons trouvé des Limace inhabituellement "
+"enthousiastes tout à l'heure. Il y a eu quelques... disons, malentendus et "
 "ils nous ont donné une sorte d'arme répugnante. Je suis sûre que vou n'aurez"
 " aucun soucis avec ça.\" Les Cristalien vous offrent l'arme en question, qui"
 " semble être une arme antibio."
@@ -1386,8 +1376,8 @@ msgstr "Ignorer son offre."
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"NEBULA_CLAN_JAMMER_SALESMAN\"]/choice[5]/event/text"
 msgstr ""
-"Vous déclinez l'offre de la loge. Il est encore temps de faire quelque chose"
-" à cette balise."
+"Vous déclinez l'offre du pavillon. Il est encore temps de faire quelque "
+"chose à cette balise."
 
 #: src-en/data/events_sector_clan.xml:879
 msgid ""
@@ -1404,8 +1394,8 @@ msgid "data/events_sector_clan.xml$//event[@name=\"NEBULA_CLAN_RODEO\"]/text"
 msgstr ""
 "En explorant le système proche, vous tombez sur un grand rassemblement de "
 "vaisseaux étrangers, là plupart appartenant à la Guilde. Ils semblent assez "
-"amicaux, et vous atterrissez donc non loin pour y jeter un coup d'oeil. Vous"
-" apercevez ce qui semblerait être un rodéo !"
+"amicaux et vous atterrissez donc non loin pour y jeter un coup d'oeil. Vous "
+"apercevez ce qui semblerait être un rodéo !"
 
 #: src-en/data/events_sector_clan.xml:950
 msgid ""
@@ -1417,7 +1407,7 @@ msgid ""
 "data/events_sector_clan.xml$//event[@name=\"NEBULA_CLAN_RODEO\"]/choice[1]/event/text"
 msgstr ""
 "Vous êtes accueilli par un Ranger portant un énorme chapeau, qui vous "
-"explique les bases. \"Nous avons rasssemblés un bon nombre d'Equinoides, et "
+"explique les bases. \"Nous avons rasssemblés un bon nombre d'Équinoïdes et "
 "nous allons organiser un grand rodéo de l'essspaccce ! Vous pouvez "
 "inssscrire l'un de vos hommes sssi vous le sssouhaitez, pour une modessste "
 "sssomme d'entrée de 25 ferraille. Le particccipant qui tiendra le plus "
@@ -1435,10 +1425,9 @@ msgid ""
 "data/events_sector_clan.xml$//event[@name=\"NEBULA_CLAN_RODEO\"]/choice[1]/event/choice[@req=\"LIST_CHECK_ANY_CREW\""
 " and @lvl=\"1\"]/event/text"
 msgstr ""
-"Vous remettez la ferraille au Chasseur, qui vous rassure. \"Pas "
-"d'inquiétudes pour votre équipage, nous ne sssommes pas des bleusailles ! "
-"Nous avons une équipe médicale prête à intervenir sssi les choses "
-"dérapent !\""
+"Vous remettez la ferraille au Loubard, qui vous rassure. \"Pas d'inquiétudes"
+" pour votre équipage, nous ne sssommes pas des bleusailles ! Nous avons une "
+"équipe médicale prête à intervenir sssi les choses dérapent !\""
 
 #: src-en/data/events_sector_clan.xml:961
 msgid ""
@@ -1452,8 +1441,8 @@ msgid ""
 " and @lvl=\"1\"]/event/choice[1]/event/text"
 msgstr ""
 "Votre membre d'équipage s'avance vers la salle de compétition parmi d'autres"
-" aliens. Des membres de la Guilde finissent les préparations, puis font "
-"entrer les premiers participants..."
+" aliens. Des Loubards finissent les préparations, puis font entrer les "
+"premiers participants..."
 
 #: src-en/data/events_sector_clan.xml:965
 msgid ""
@@ -1475,8 +1464,8 @@ msgid ""
 " and @lvl=\"1\"]/event/choice[@req=\"LIST_CREW_SOLDIER\"]/event/text"
 msgstr ""
 "Votre membre d'équipage s'avance vers la salle de compétition parmi d'autres"
-" aliens. Des membres de la Guilde finissent les préparations, puis font "
-"entrer les premiers participants..."
+" aliens. Des Loubards finissent les préparations, puis font entrer les "
+"premiers participants..."
 
 #: src-en/data/events_sector_clan.xml:975
 msgid ""
@@ -1496,8 +1485,8 @@ msgid ""
 " and @lvl=\"1\"]/event/choice[@req=\"LIST_CREW_JERRY\"]/event/text"
 msgstr ""
 "Jerry s'avance vers la salle de compétition parmi d'autres aliens. Des "
-"membres de la Guilde finissent les préparations, puis font entrer les "
-"premiers participants..."
+"Loubards finissent les préparations, puis font entrer les premiers "
+"participants..."
 
 #: src-en/data/events_sector_clan.xml:985
 msgid ""
@@ -1510,7 +1499,7 @@ msgid ""
 "data/events_sector_clan.xml$//event[@name=\"NEBULA_CLAN_RODEO\"]/choice[1]/event/choice[@req=\"LIST_CHECK_ANY_CREW\""
 " and @lvl=\"1\"]/event/choice[@req=\"LIST_CREW_LIZARD\"]/text"
 msgstr ""
-"(Membre d'équipage Lézard) Votre Lézard est déjà monté sur des Equinoides "
+"(Membre d'équipage Lézard) Votre Lézard est déjà monté sur des Équinoïdes "
 "auparavant. L'envoyer."
 
 #: src-en/data/events_sector_clan.xml:993
@@ -1519,8 +1508,8 @@ msgid ""
 " and @lvl=\"1\"]/event/choice[@req=\"LIST_CREW_LIZARD\"]/event/text"
 msgstr ""
 "Votre membre d'équipage s'avance vers la salle de compétition parmi d'autres"
-" aliens. Des membres de la Guilde finissent les préparations, puis font "
-"entrer les premiers participants..."
+" aliens. Des Loubards finissent les préparations, puis font entrer les "
+"premiers participants..."
 
 #: src-en/data/events_sector_clan.xml:995
 msgid ""
@@ -1539,7 +1528,7 @@ msgstr ""
 #: src-en/data/events_sector_clan.xml:1007
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"NEBULA_CLAN_RODEO\"]/choice[1]/event/choice[3]/text"
-msgstr "Demander plutôt des renseignements sur ces 'Equinoides'."
+msgstr "Demander plutôt des renseignements sur ces 'Équinoïdes'."
 
 #: src-en/data/events_sector_clan.xml:1009
 msgid ""
@@ -1553,12 +1542,12 @@ msgstr ""
 #: src-en/data/events_sector_clan.xml:1011
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"NEBULA_CLAN_RODEO\"]/choice[1]/event/choice[3]/event/choice[1]/text"
-msgstr "Acheter un Equinoide apprivoisé."
+msgstr "Acheter un Équinoïde apprivoisé."
 
 #: src-en/data/events_sector_clan.xml:1020
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"NEBULA_CLAN_RODEO\"]/choice[1]/event/choice[3]/event/choice[2]/text"
-msgstr "Acheter l'un des plus jeunes Equinoides."
+msgstr "Acheter l'un des plus jeunes Équinoïdes."
 
 #: src-en/data/events_sector_clan.xml:1029
 msgid ""
@@ -1597,46 +1586,46 @@ msgstr "Ne rien faire."
 msgid ""
 "data/events_sector_clan.xml$//eventList[@name=\"CLAN_RODEO_NORMAL\"]/event[1]/text"
 msgstr ""
-"Votre membre d'équipage monte sur l'Equinoide et fait de son mieux, mais la "
-"créature est trop agitée, et votre cavalier est projeté la tête la première "
-"sur le sol. C'est un échec douloureux, et une perte de ferraille pour votre "
+"Votre membre d'équipage monte sur l'Équinoïde et fait de son mieux, mais la "
+"créature est trop agitée et votre cavalier est projeté la tête la première "
+"sur le sol. C'est un échec douloureux et une perte de ferraille pour votre "
 "mission."
 
 #: src-en/data/events_sector_clan.xml:1060
 msgid ""
 "data/events_sector_clan.xml$//eventList[@name=\"CLAN_RODEO_NORMAL\"]/event[2]/text"
 msgstr ""
-"Votre membre d'équipage monte sur l'Equinoide, et s'accroche pour sa vie "
-"tandis qu'il est projeté de toute part. Il a réussi en quelque sorte à "
-"tenir, et une fois que la compétition s'achève, il se trouve qu'il est le "
-"vainqueur ! Les Slugs amènent le prix."
+"Votre membre d'équipage monte sur l'Équinoïde et s'accroche pour sa vie "
+"tandis qu'il est projeté de toute part. Il a réussi en quelque sorte à tenir"
+" et une fois que la compétition s'achève, il se trouve qu'il est le "
+"vainqueur ! Les Limaces amènent le prix."
 
 #: src-en/data/events_sector_clan.xml:1066
 msgid ""
 "data/events_sector_clan.xml$//eventList[@name=\"CLAN_RODEO_GOOD\"]/event[1]/text"
 msgstr ""
-"Votre membre d'équipage monte sur l'Equinoide et fait de son mieux, mais la "
-"créature est trop agitée, et votre cavalier est projeté la tête la première "
-"sur le sol. C'est un échec douloureux, et une perte de ferraille pour votre "
+"Votre membre d'équipage monte sur l'Équinoïde et fait de son mieux, mais la "
+"créature est trop agitée et votre cavalier est projeté la tête la première "
+"sur le sol. C'est un échec douloureux et une perte de ferraille pour votre "
 "mission."
 
 #: src-en/data/events_sector_clan.xml:1069
 msgid ""
 "data/events_sector_clan.xml$//eventList[@name=\"CLAN_RODEO_GOOD\"]/event[2]/text"
 msgstr ""
-"Votre membre d'équipage monte sur l'Equinoide, et s'accroche pour sa vie "
-"tandis qu'il est projeté de toute part. Il a réussi en quelque sorte à "
-"tenir, et une fois que la compétition s'achève, il se trouve qu'il est le "
-"vainqueur ! Les Slugs amènent le prix."
+"Votre membre d'équipage monte sur l'Équinoïde et s'accroche pour sa vie "
+"tandis qu'il est projeté de toute part. Il a réussi en quelque sorte à tenir"
+" et une fois que la compétition s'achève, il se trouve qu'il est le "
+"vainqueur ! Les Limaces amènent le prix."
 
 #: src-en/data/events_sector_clan.xml:1073
 msgid ""
 "data/events_sector_clan.xml$//eventList[@name=\"CLAN_RODEO_GOOD\"]/event[3]/text"
 msgstr ""
-"Votre membre d'équipage monte sur l'Equinoide, et s'accroche pour sa vie "
-"tandis qu'il est projeté de toute part. Il a réussi en quelque sorte à "
-"tenir, et une fois que la compétition s'achève, il se trouve qu'il est le "
-"vainqueur ! Les Slugs amènent le prix."
+"Votre membre d'équipage monte sur l'Équinoïde et s'accroche pour sa vie "
+"tandis qu'il est projeté de toute part. Il a réussi en quelque sorte à tenir"
+" et une fois que la compétition s'achève, il se trouve qu'il est le "
+"vainqueur ! Les Limaces amènent le prix."
 
 #: src-en/data/events_sector_clan.xml:1078
 msgid "data/events_sector_clan.xml$//event[@name=\"CLAN_RODEO_JERRY\"]/text"
@@ -1645,7 +1634,7 @@ msgstr ""
 "restant passivement debout tandis que Jerry caresse doucement sa crinière. "
 "La foule vous hue et vous accuse de triche, mais après un contrôle "
 "antidopage visant à vérifier que vous n'ayez pas atténué la bête, vous êtes "
-"déclaré le vainqueur, et le prix vous est amené !"
+"déclaré le vainqueur et le prix vous est amené !"
 
 #: src-en/data/events_sector_clan.xml:1082
 msgid ""
@@ -1656,19 +1645,19 @@ msgstr "Continuer..."
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"CLAN_RODEO_JERRY\"]/choice/event/text"
 msgstr ""
-"Alors que vous vous apprêtez à quitter le rodéo, vous apercevez un Equinoide"
+"Alors que vous vous apprêtez à quitter le rodéo, vous apercevez un Équinoïde"
 " accourant vers vous en trainant un Ranger derrière avec sa corde. \"Wouah, "
-"wouah ! Ssstop !\" Le Chasseur parvient à freiner la bête, mais seulement "
-"parce que celle-ci s'est arrêtée devant Jerry. \"Elle sss'est enfuie de "
-"ssson enclos et vous a pourchasssé jusssqu'iccci. On dirait qu'elle aime "
-"vraiment votre ami. Vous n'avez qu'à la garder, nous en avons plein "
-"d'autres.\""
+"wouah ! Ssstop !\" Les Loubards parviennent à freiner la bête, mais "
+"seulement parce que celle-ci s'est arrêtée devant Jerry. \"Elle sss'est "
+"enfuie de ssson enclos et vous a pourchasssé jusssqu'iccci. On dirait "
+"qu'elle aime vraiment votre ami. Vous n'avez qu'à la garder, nous zzen avons"
+" plein d'autres.\""
 
 #: src-en/data/events_sector_clan.xml:1091
 msgid "data/events_sector_clan.xml$//event[@name=\"NEBULA_CLAN_PLUSHIES\"]/text"
 msgstr ""
-"Il semblerait que vous ayez trouvé une autre loge établie dans une "
-"nébuleuse. Bizarrement, elle semblerait avoir été reconvertie en... attrape-"
+"Il semblerait que vous ayez trouvé un autre pavillon établie dans une "
+"nébuleuse. Bizarrement, il semblerait avoir été reconverti en... attrape-"
 "touristes ?"
 
 #: src-en/data/events_sector_clan.xml:1095
@@ -1680,7 +1669,7 @@ msgstr "Monter à bord pour regarder."
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"NEBULA_CLAN_PLUSHIES\"]/choice[1]/event/text"
 msgstr ""
-"Un Ranger de la Guilde est appuyé contre un mur, discutant avec un petit "
+"Un Ranger Loubard est appuyé contre un mur, discutant avec un petit "
 "rassemblement de représentants Zoltans, qui partent peu après votre entrée. "
 "\"Pffft, imaginez un peu cccette bande de rabat-joies. Ccces Zoltans sssont "
 "venus me demander sssi j'avais un PERMIS pour tenir cccette boutique ! Ont-"
@@ -1749,7 +1738,7 @@ msgstr "Partir."
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"NEBULA_CLAN_PLUSHIES\"]/choice[1]/event/choice/event/choice[1]/event/choice[1]/event/choice[2]/event/text"
 msgstr ""
-"\"Eh bien, au revoir alors. Merccci pour avoir fait ma journée, voyageur!\""
+"\"Eh bien, au revoir alors. Merccci pour avoir fait ma journée, voyageur !\""
 
 #: src-en/data/events_sector_clan.xml:1132
 msgid ""
@@ -1770,7 +1759,7 @@ msgstr "Regarder la peluche de cheval."
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"NEBULA_CLAN_PLUSHIES\"]/choice[1]/event/choice/event/choice[2]/event/text"
 msgstr ""
-"\"Ççça, ccc'est un Équinoïde ! Ils ont 6 jambes, et ccce ne sssont "
+"\"Ççça, ccc'est un Équinoïde ! Ils ont 6 jambes et ccce ne sssont "
 "techniquement pas des chevaux. J'ai entendu dire qu'il y avait un cccertain "
 "nombre d'entre eux dans ccce ssecteur ! Pas sssi sssurprenant.\""
 
@@ -1810,7 +1799,7 @@ msgstr "Partir."
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"NEBULA_CLAN_PLUSHIES\"]/choice[1]/event/choice/event/choice[2]/event/choice[1]/event/choice[2]/event/text"
 msgstr ""
-"\"Eh bien, au revoir alors. Merccci pour avoir fait ma journée, voyageur!\""
+"\"Eh bien, au revoir alors. Merccci pour avoir fait ma journée, voyageur !\""
 
 #: src-en/data/events_sector_clan.xml:1169
 msgid ""
@@ -1870,7 +1859,7 @@ msgstr "Partir."
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"NEBULA_CLAN_PLUSHIES\"]/choice[1]/event/choice/event/choice[3]/event/choice[1]/event/choice[2]/event/text"
 msgstr ""
-"\"Eh bien, au revoir alors. Merccci pour avoir fait ma journée, voyageur!\""
+"\"Eh bien, au revoir alors. Merccci pour avoir fait ma journée, voyageur !\""
 
 #: src-en/data/events_sector_clan.xml:1206
 msgid ""
@@ -1885,14 +1874,14 @@ msgstr "\"Ah, très bien. Merccci pour avoir au moins fait planer l'idée...\""
 #: src-en/data/events_sector_clan.xml:1218
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"NEBULA_CLAN_PLUSHIES\"]/choice[2]/text"
-msgstr "Attaquer la station!"
+msgstr "Attaquer la station !"
 
 #: src-en/data/events_sector_clan.xml:1220
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"NEBULA_CLAN_PLUSHIES\"]/choice[2]/event/text"
 msgstr ""
-"Une fois de plus, vos tendances meurtrières ont pris le dessus, et vous vous"
-" retrouvez à attaquer plus de gens."
+"Une fois de plus, vos tendances meurtrières ont pris le dessus et vous vous "
+"retrouvez à attaquer plus de gens."
 
 #: src-en/data/events_sector_clan.xml:1223
 msgid ""
@@ -1924,8 +1913,8 @@ msgid ""
 "data/events_sector_clan.xml$//event[@name=\"NEBULA_CLAN_SHELL_MECHANIC\"]/text"
 msgstr ""
 "Un Mécanicien Coquille réside ici. Il vous contacte dès votre arrivée : "
-"\"Êtes-vous ici pour vous opposer à l-l-la Guilde ? Ou êtes-vous ici pour "
-"l-l-les soutenir ?\""
+"\"Êtes-ffous ici pour ffous opposer à la Guilde ? Ou êtes-ffous ici pour les"
+" soutenir ?\""
 
 #: src-en/data/events_sector_clan.xml:1264
 msgid ""
@@ -1935,7 +1924,7 @@ msgstr "Soutenez la Guilde."
 #: src-en/data/events_sector_clan.xml:1266
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"NEBULA_CLAN_SHELL_MECHANIC\"]/choice[1]/event/text"
-msgstr "\"A-alors vous m-m-mourrez avec le reste d-d-des occupants !\""
+msgstr "\"Alors ffous mourrez avec le reste des occupants !\""
 
 #: src-en/data/events_sector_clan.xml:1269
 msgid ""
@@ -1963,8 +1952,8 @@ msgstr "Ni l'un ni l'autre."
 msgid ""
 "data/events_sector_clan.xml$//eventList[@name=\"CLAN_MECHANIC_NEITHER\"]/event[1]/text"
 msgstr ""
-"\"A-alors faites ce que vous voulez. Mais n'hésitez pas à tuer tout les "
-"Chasseurs Exotiques qui se mettront en travers de votre chemin.\""
+"\"Alors faites ce que ffous ffoulez. Mais n'hésitez pas à tuer tout les "
+"Loubards qui se mettront en traffers de ffotre chemin.\""
 
 #: src-en/data/events_sector_clan.xml:1291
 msgid ""
@@ -1979,7 +1968,7 @@ msgstr "Ne rien faire."
 #: src-en/data/events_sector_clan.xml:1300
 msgid ""
 "data/events_sector_clan.xml$//eventList[@name=\"CLAN_MECHANIC_NEITHER\"]/event[2]/text"
-msgstr "\"A-alors tu n'es rien d-d-d'autre qu'un lâche neutre. Sors d'ici.\""
+msgstr "\"Alors ffous n'êtes rien d'autre qu'un lâche. Sortez d'ici.\""
 
 #: src-en/data/events_sector_clan.xml:1302
 msgid ""
@@ -1995,8 +1984,8 @@ msgstr "Ne rien faire."
 msgid ""
 "data/events_sector_clan.xml$//eventList[@name=\"CLAN_MECHANIC_NEITHER\"]/event[3]/text"
 msgstr ""
-"\"Si vous n'êtes p-p-pas opposé à eux, alors vous les s-s-soutenez.\" Le "
-"vaisseau charge ses armes !"
+"\"Si ffous n'êtes pas opposé à eux, alors ffous les soutenez.\" Le vaisseau "
+"charge ses armes !"
 
 #: src-en/data/events_sector_clan.xml:1314
 msgid ""
@@ -2007,9 +1996,9 @@ msgstr "Continuer..."
 msgid ""
 "data/events_sector_clan.xml$//eventList[@name=\"CLAN_MECHANIC_ALLY_NOSHELL\"]/event[2]/text"
 msgstr ""
-"\"Avez-vous quelqu'un qui puisse se porter garant de vos affirmations ? Si "
-"ce n'est p-p-pas le cas, nous apprécions votre soutien, mais nous devons "
-"être prudents. Adieu.\""
+"\"Avez-ffous quelqu'un qui puisse se porter garant de ffos affirmations ? Si"
+" ce n'est pas le cas, nous apprécions ffotre soutien, mais nous deffons être"
+" prudents. Adieu.\""
 
 #: src-en/data/events_sector_clan.xml:1324
 msgid ""
@@ -2024,13 +2013,13 @@ msgstr "Ne rien faire."
 #: src-en/data/events_sector_clan.xml:1334
 msgid "data/events_sector_clan.xml$//event[@name=\"CLAN_MECHANIC_BELIEF\"]/text"
 msgstr ""
-"\"Ahhhh, vous êtes donc un allié. Voulez-vous q-q-que nous réparions votre "
-"vaisseau ? Ou avez-vous plutôt besoin de ravitaillement ?\""
+"\"Ahhhh, ffous êtes donc un allié. Ffoulez-ffous que nous réparions ffotre "
+"ffaisseau ? Ou affez-ffous plutôt besoin de raffitaillement ?\""
 
 #: src-en/data/events_sector_clan.xml:1336
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"CLAN_MECHANIC_BELIEF\"]/choice[1]/text"
-msgstr "Demandez des réparations."
+msgstr "Demander des réparations."
 
 #: src-en/data/events_sector_clan.xml:1338
 msgid ""
@@ -2040,34 +2029,34 @@ msgstr "\"Bon choix, c'est ce qui fait notre fierté.\""
 #: src-en/data/events_sector_clan.xml:1343
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"CLAN_MECHANIC_BELIEF\"]/choice[2]/text"
-msgstr "Demandez des missiles."
+msgstr "Demander des missiles."
 
 #: src-en/data/events_sector_clan.xml:1345
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"CLAN_MECHANIC_BELIEF\"]/choice[2]/event/text"
-msgstr "\"Nous pouvons en partager quelques-uns. Faites-en b-bon usage.\""
+msgstr "\"Nous pouffons en partager quelques-uns. Faites-en bon usache.\""
 
 #: src-en/data/events_sector_clan.xml:1352
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"CLAN_MECHANIC_BELIEF\"]/choice[3]/text"
-msgstr "Demandez des pièces de drone."
+msgstr "Demander des pièces de drone."
 
 #: src-en/data/events_sector_clan.xml:1354
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"CLAN_MECHANIC_BELIEF\"]/choice[3]/event/text"
-msgstr "\"Nous pouvons en partager quelques-uns. Faites-en b-bon usage.\""
+msgstr "\"Nous pouffons en partager quelques-uns. Faites-en bon usache.\""
 
 #: src-en/data/events_sector_clan.xml:1361
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"CLAN_MECHANIC_BELIEF\"]/choice[4]/text"
-msgstr "Demandez de la ferraille."
+msgstr "Demander de la ferraille."
 
 #: src-en/data/events_sector_clan.xml:1363
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"CLAN_MECHANIC_BELIEF\"]/choice[4]/event/text"
 msgstr ""
-"\"Si vous avez t-t-tant besoin de ferrailles, nous pouvons vous donner une "
-"partie de nos réserves. Ne gaspillez pas.\""
+"\"Si ffous affez tant besoin de ferrailles, nous pouffons ffous donner une "
+"partie de nos réserffes. Ne gaspillez pas.\""
 
 #: src-en/data/events_sector_clan.xml:1368
 msgid ""
@@ -2077,7 +2066,7 @@ msgstr "Nous n'avons besoin d'aucune aide."
 #: src-en/data/events_sector_clan.xml:1370
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"CLAN_MECHANIC_BELIEF\"]/choice[5]/event/text"
-msgstr "\"A-alors bonne chance là-d-d-dehors.\""
+msgstr "\"Alors bonne chance là dehors.\""
 
 #: src-en/data/events_sector_clan.xml:1372
 msgid ""
@@ -2095,9 +2084,9 @@ msgstr ""
 "Un vaisseau Coquille s'est aventuré dans les profondeurs de l'espace de la "
 "Guilde, mais il ne semble pas être perturbé par les chasseurs assoiffés de "
 "sang rodant aux alentours. Il semble à la place furieux de vous voir ici. "
-"\"Oh génial, maintenant la Fffédération se mêle aux affffaires de la "
-"Guilde ? Et si vous preniez conscience de vos actes, et que vous vous "
-"arrêtiez de tuer des innocents, ordures !\""
+"\"Oh chénial, maintenant la Fédération se mêle aux affaires de la Guilde ? "
+"Et si ffous preniez conscience de ffos actes et que ffous ffous arrêtiez de "
+"tuer des innocents, ordures !\""
 
 #: src-en/data/events_sector_clan.xml:1388
 msgid ""
@@ -2128,7 +2117,7 @@ msgid ""
 msgstr ""
 "Votre Coquille raisonne avec ses congénères, leur expliquant que vous ne "
 "faites que traverser ce secteur seulement pour atteindre le Noeud 17. "
-"Heureusement, les Coquilles se montrent raisonnables et s'excusent, et vous "
+"Heureusement, les Coquilles se montrent raisonnables et s'excusent et vous "
 "offrent du carburant ainsi que de la ferraille pour vous aider."
 
 #: src-en/data/events_sector_clan.xml:1406
@@ -2141,10 +2130,10 @@ msgid ""
 "data/events_sector_clan.xml$//event[@name=\"NEBULA_CLAN_SHELLANGRY\"]/choice[@req=\"LIST_CREW_MONK\"]/event/text"
 msgstr ""
 "Votre moine raisonne avec les Coquilles, expliquant que vous ne traversez ce"
-" secteur que pour vous rendre au nœud 17 dans le cadre de votre mission, et "
+" secteur que pour vous rendre au nœud 17 dans le cadre de votre mission et "
 "qu'accuser immédiatement les étrangers d'avoir du sang sur les mains est un "
 "comportement irrationnel. Heureusement, les Coquilles sont raisonnables et "
-"s'excusent, et offrent du carburant et de la ferraille pour vous aider."
+"s'excusent et offrent du carburant et de la ferraille pour vous aider."
 
 #: src-en/data/events_sector_clan.xml:1413
 msgid ""
@@ -2156,7 +2145,8 @@ msgid ""
 "data/events_sector_clan.xml$//event[@name=\"NEBULA_CLAN_SHELLANGRY\"]/choice[@req=\"COMBAT_OXYGEN_JAMMER\"]/event/text"
 msgstr ""
 "Vous coupez l'oxygène du vaisseau Coquille, ce qui les intimide. \"Ok, "
-"veuillez m'excuser pour vous avoir traité d'ordures ! Nous nous rendons !\""
+"ffeuillez m'excuser pour ffous affoir traité d'ordures ! Nous nous "
+"rendons !\""
 
 #: src-en/data/events_sector_clan.xml:1420
 msgid ""
@@ -2168,8 +2158,8 @@ msgid ""
 "data/events_sector_clan.xml$//eventList[@name=\"CLAN_SHELLANGRY_REASON\"]/event[1]/text"
 msgstr ""
 "Vous parlez aux Coquilles et essayez de raisonner avec elles. Heureusement, "
-"ces créatures misent sur la science et la logique, et ne sont habituellement"
-" pas têtues ou malicieuses, comme les Zoltans ou les Slugs pourraient "
+"ces créatures misent sur la science et la logique et ne sont habituellement "
+"pas têtues ou malicieuses, comme les Zoltans ou les Limaces pourraient "
 "l'être. Elles semblent comprendre la situation et vous laissent passer."
 
 #: src-en/data/events_sector_clan.xml:1429
@@ -2177,8 +2167,8 @@ msgid ""
 "data/events_sector_clan.xml$//eventList[@name=\"CLAN_SHELLANGRY_REASON\"]/event[2]/text"
 msgstr ""
 "Vous parlez aux Coquilles et essayez de raisonner avec elles. Heureusement, "
-"ces créatures misent sur la science et la logique, et ne sont habituellement"
-" pas têtues ou malicieuses, comme les Zoltans ou les Slugs pourraient "
+"ces créatures misent sur la science et la logique et ne sont habituellement "
+"pas têtues ou malicieuses, comme les Zoltans ou les Limaces pourraient "
 "l'être. Elles semblent comprendre la situation et vous laissent passer."
 
 #: src-en/data/events_sector_clan.xml:1432
@@ -2186,7 +2176,7 @@ msgid ""
 "data/events_sector_clan.xml$//eventList[@name=\"CLAN_SHELLANGRY_REASON\"]/event[3]/text"
 msgstr ""
 "Au final, votre raisonnement se révèle être en vain. Les Coquilles vous "
-"accusent toujours d'être un meurtrier (ce qui est techniquement vrai), et "
+"accusent toujours d'être un meurtrier (ce qui est techniquement vrai) et "
 "elles vous attaquent !"
 
 #: src-en/data/events_sector_clan.xml:1435
@@ -2199,9 +2189,9 @@ msgid ""
 "data/events_sector_clan.xml$//event[@name=\"NEBULA_CLAN_SHELL_RADIANT\"]/text"
 msgstr ""
 "Vous recevez presque immédiatement un message bref en provenance d'un "
-"vaisseau Coquille Radiant proche. \"Vous devriez mettre les voiles, vaisseau"
-" Ffffédéré. La Géniocratie a envoyé des ffforces militaires vers ce secteur,"
-" et le conffflit va bientôt éclater par là.\""
+"vaisseau Coquille Radiant proche. \"Ffous deffriez mettre les ffoiles, "
+"ffaisseau Fédéré. La Chéniocratie a enffoyé des forces militaires ffers ce "
+"secteur et le conflit ffa bientôt éclater par là.\""
 
 #: src-en/data/events_sector_clan.xml:1446
 msgid ""
@@ -2213,12 +2203,12 @@ msgid ""
 "data/events_sector_clan.xml$//event[@name=\"NEBULA_CLAN_SHELL_RADIANT\"]/choice[1]/event/text"
 msgstr ""
 "Vous ne vous attendiez pas à avoir une réponse, mais par chance, un Radiant "
-"amical apparaît à l'écran, et celui-ci semble plus disposé à parler. \"La "
-"Guilde des Chasseurs Exotiques a chassé notre espèce pendant bien trop de "
-"temps. Nous ne voulions pas risquer une guerre ouverte avec la Kleptocratie,"
-" mais il est l'heure de prendre position. Nous allons chasser la Guilde de "
-"ce secteur et ffforcer la Kleptocratie à contrôler leurs activités, ou "
-"mourrir en ayant essayé. Et je ne compte pas mourrir.\""
+"amical apparaît à l'écran et celui-ci semble plus disposé à parler. \"La "
+"Guilde des Chasseurs Exotiques a traquée notre espèce pendant bien trop de "
+"temps. Nous ne ffoulions pas risquer une guerre oufferte affec la "
+"Kleptocratie, mais il est l'heure de prendre position. Nous allons chasser "
+"la Guilde de ce secteur et forcer la Kleptocratie à contrôler leurs "
+"actiffités, ou mourir en ayant essayé. Et che ne compte pas mourir.\""
 
 #: src-en/data/events_sector_clan.xml:1450
 msgid ""
@@ -2248,7 +2238,7 @@ msgid ""
 "data/events_sector_clan.xml$//event[@name=\"NEBULA_CLAN_SHELL_RADIANT\"]/choice[1]/event/choice[2]/event/text"
 msgstr ""
 "\"Vous souhaitez nous aider ? Je suppose que cela n'est pas de trop. Nous "
-"accepterions volontiers des provisions si vous en avez.\""
+"accepterions volontiers des ressources si vous en avez.\""
 
 #: src-en/data/events_sector_clan.xml:1465
 msgid ""
@@ -2259,8 +2249,8 @@ msgstr "Leur donner 7 missiles."
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"NEBULA_CLAN_SHELL_RADIANT\"]/choice[1]/event/choice[2]/event/choice[1]/event/text"
 msgstr ""
-"\"Mes remerciements envers la Fffédération. Vu que nous avons désormais "
-"plein de missiles, je pense que nous n'aurons pas besoin de ce drone.\""
+"\"Mes remerciements enffers la Fédération. Ffu que nous affons désormais "
+"plein de missiles, che pense que nous n'aurons pas besoin de ce drone.\""
 
 #: src-en/data/events_sector_clan.xml:1475
 msgid ""
@@ -2271,8 +2261,8 @@ msgstr "Leur donner 7 pièces de drones."
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"NEBULA_CLAN_SHELL_RADIANT\"]/choice[1]/event/choice[2]/event/choice[2]/event/text"
 msgstr ""
-"\"Mes remerciements envers la Fffédération. Vu que nous avons désormais "
-"plein de pièces de drones, je pense que nous n'aurons pas besoin de cette "
+"\"Mes remerciements enffers la Fédération. Ffu que nous affons désormais "
+"plein de pièces de drones, che pense que nous n'aurons pas besoin de cette "
 "arme.\""
 
 #: src-en/data/events_sector_clan.xml:1485
@@ -2289,9 +2279,9 @@ msgstr "(Membre d'équipage Coquille) Demander de l'aide."
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"NEBULA_CLAN_SHELL_RADIANT\"]/choice[1]/event/choice[@req=\"LIST_CREW_SHELL\"]/event/text"
 msgstr ""
-"\"J'ai le pressssentiment que vous n'êtes pas zzzen mission pour la "
-"Géniocrattttie... mais nous les Coquilles, devons resssster ssssoudées. "
-"Peut-être que ccccecccci vous aidera?\""
+"\"Ch'ai le pressentiment que ffous n'êtes pas en mission pour la "
+"Chéniocratie... mais nous les Coquilles, deffons rester soudées. Peut-être "
+"que ceci ffous aidera ?\""
 
 #: src-en/data/events_sector_clan.xml:1498
 msgid ""
@@ -2302,7 +2292,8 @@ msgstr "Eh bien, bonne chance."
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"NEBULA_CLAN_SHELL_RADIANT\"]/choice[1]/event/choice[4]/event/text"
 msgstr ""
-"\"Merci, vaisseau Fffédéré. Et bonne chance pour votre mission également.\""
+"\"Merci, ffaisseau de la Fédération. Et bonne chance pour ffotre mission "
+"également.\""
 
 #: src-en/data/events_sector_clan.xml:1506
 msgid ""
@@ -2341,7 +2332,7 @@ msgid ""
 "data/events_sector_clan.xml$//event[@name=\"NEBULA_CLAN_SUZERAIN\"]/choice[1]/event/text"
 msgstr ""
 "\"Pas déranger moi ! Guilde voler toutes mes proies. Qu'est-ce que arrivé au"
-" temps où Ruche la plus crainte, et revendiquer toutes proies ? Espace "
+" temps où Ruche la plus crainte et revendiquer toutes proies ? Espace "
 "désormais territoire de la Guilde, dégoutant !\""
 
 #: src-en/data/events_sector_clan.xml:1530
@@ -2367,9 +2358,10 @@ msgstr "Ouais, je crois en avoir déjà combattu."
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"NEBULA_CLAN_SUZERAIN\"]/choice[1]/event/choice[1]/event/choice[@req=\"ach_boss_cealaformer\"]/event/text"
 msgstr ""
-"\"Avoir battu, dites vous ? Alors avez rendu fier service à galaxie ! Slugs "
-"croire que tout peut devenir nébuleuse ? Eh bien, elles tort ! Fédération "
-"les avoir battues, visiblement ! Hahah ! Ce service doit être rémunéré !\""
+"\"Avoir battu, dites vous ? Alors avez rendu fier service à galaxie ! "
+"Limaces croire que tout peut devenir nébuleuse ? Eh bien, elles tort ! "
+"Fédération les avoir battues, visiblement ! Hahah ! Ce service doit être "
+"rémunéré !\""
 
 #: src-en/data/events_sector_clan.xml:1541
 msgid ""
@@ -2415,8 +2407,8 @@ msgstr ""
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"NEBULA_CLAN_SUZERAIN\"]/choice[1]/event/choice[1]/event/choice[3]/event/choice/event/text"
 msgstr ""
-"\"Probablement parce que Slug conspirer dans notre dos ! Ou... ne sais pas. "
-"Tout ce que moi savoir, c'est que secteur autrefois pas nébuleux, et "
+"\"Probablement parce que Limace conspirer dans notre dos ! Ou... ne sais "
+"pas. Tout ce que moi savoir, c'est que secteur autrefois pas nébuleux et "
 "maintenant, Guilde dérober toute précieuse proie ici !\""
 
 #: src-en/data/events_sector_clan.xml:1560
@@ -2429,7 +2421,7 @@ msgid ""
 "data/events_sector_clan.xml$//event[@name=\"NEBULA_CLAN_SUZERAIN\"]/choice[1]/event/choice[1]/event/choice[3]/event/choice/event/choice/event/text"
 msgstr ""
 "\"Oui et non. Là plupart, Guilde amener elle-même. Dites, vous poser trop de"
-" questions ! Ai dit de ne pas déranger, et vous me déranger !\""
+" questions ! Ai dit de ne pas déranger et vous me déranger !\""
 
 #: src-en/data/events_sector_clan.xml:1564
 msgid ""
@@ -2439,7 +2431,7 @@ msgstr "Pardon."
 #: src-en/data/events_sector_clan.xml:1566
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"NEBULA_CLAN_SUZERAIN\"]/choice[1]/event/choice[1]/event/choice[3]/event/choice/event/choice/event/choice[1]/event/text"
-msgstr "\"Oui oui, c'est ça. Maintenant, filez!\""
+msgstr "\"Oui oui, c'est ça. Maintenant, filez !\""
 
 #: src-en/data/events_sector_clan.xml:1570
 msgid ""
@@ -2460,7 +2452,7 @@ msgstr "Continuer..."
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"NEBULA_CLAN_SUZERAIN\"]/choice[1]/event/choice[2]/text"
 msgstr ""
-"Mais les Slugs et les Mantis ne sont-ils pas alliés par le biais de la "
+"Mais les Limaces et les Mantis ne sont-ils pas alliés par le biais de la "
 "Coalition ?"
 
 #: src-en/data/events_sector_clan.xml:1591
@@ -2468,8 +2460,8 @@ msgid ""
 "data/events_sector_clan.xml$//event[@name=\"NEBULA_CLAN_SUZERAIN\"]/choice[1]/event/choice[2]/event/text"
 msgstr ""
 "\"Non non, petit cerveau de Fédération pas pouvoir comprendre. Voyez, "
-"Coalition beaucoup comme Fédération. Engi, Zoltan, Orchidée, Humain, sauf "
-"que meilleur race, comme Mantis... et les autres.\""
+"Coalition beaucoup comme Fédération. Engi, Zoltan, Orchid, Humain, sauf que "
+"meilleur race, comme Mantis... et les autres.\""
 
 #: src-en/data/events_sector_clan.xml:1593
 msgid ""
@@ -2482,22 +2474,23 @@ msgid ""
 msgstr ""
 "\"Gah ! Vous pas comprendre. Oui, sommes alliés. Mais frontière Coalition "
 "pas marcher comme frontière Fédération. Toutes races restent dans leurs "
-"territoires, et partagent territoire de la Coalition.\""
+"territoires et partagent territoire de la Coalition.\""
 
 #: src-en/data/events_sector_clan.xml:1597
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"NEBULA_CLAN_SUZERAIN\"]/choice[1]/event/choice[2]/event/choice[1]/event/choice[1]/text"
 msgstr ""
 "Donc cela voudrait dire que la Guilde ne fait que chasser en territoire "
-"Slug ?"
+"Limace ?"
 
 #: src-en/data/events_sector_clan.xml:1599
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"NEBULA_CLAN_SUZERAIN\"]/choice[1]/event/choice[2]/event/choice[1]/event/choice[1]/event/text"
 msgstr ""
 "\"Mais être sourd ? Vous tournez autour ! Guilde devrait seulement chasser "
-"dans territoire Slug. Ici, PAS territoire Slug ! Ce secteur, proclamé après "
-"fin de Guerre d'Expansion Slug. Sales Slugs, jamais suivre traités !\""
+"dans territoire Limace. Ici, PAS territoire Limace ! Ce secteur, proclamé "
+"après fin de Guerre d'Expansion Limace. Sales Limaces, jamais suivre "
+"traités !\""
 
 #: src-en/data/events_sector_clan.xml:1601
 msgid ""
@@ -2521,7 +2514,7 @@ msgstr "Pourquoi ne pas prendre les choses en main vous-même ?"
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"NEBULA_CLAN_SUZERAIN\"]/choice[1]/event/choice[2]/event/choice[1]/event/choice[1]/event/choice[1]/event/choice[1]/event/text"
 msgstr ""
-"\"Et faire quoi ? Moi UN Mantis. Slug, beaucoup beaucoup de Slugs. Vous "
+"\"Et faire quoi ? Moi UN Mantis. Limace, beaucoup beaucoup de Limaces. Vous "
 "croire que moi pouvoir tuer Kleptocratie tout seul ? Homme stupide ! Votre "
 "cerveau, même taille que baie algérienne ! Haha ! Très petit, si pas savoir."
 " Vous traitre d'idiot. Maintenant laisser moi.\""
@@ -2592,10 +2585,10 @@ msgstr "Quel traité ? À qui appartenait ces terres ?"
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"NEBULA_CLAN_SUZERAIN\"]/choice[1]/event/choice[2]/event/choice[1]/event/choice[1]/event/choice[2]/event/text"
 msgstr ""
-"\"Après Guerre d'Expansion Slug, Coalition former et appliquer pacte, pas "
+"\"Après Guerre d'Expansion Limace, Coalition former et appliquer pacte, pas "
 "prendre terre des autres races. Chaque race avoir propre loi d'expansion, "
-"Slugs rester à leurs nébuleuses. Ce secteur être dans limites de la Ruche, "
-"et pourtant Slugs le saisir d'abord!\""
+"Limaces rester à leurs nébuleuses. Ce secteur être dans limites de la Ruche "
+"et pourtant Limaces le saisir d'abord !\""
 
 #: src-en/data/events_sector_clan.xml:1643
 msgid ""
@@ -2606,7 +2599,7 @@ msgstr "Pourquoi ne pas prendre les choses en main vous-même ?"
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"NEBULA_CLAN_SUZERAIN\"]/choice[1]/event/choice[2]/event/choice[1]/event/choice[1]/event/choice[2]/event/choice[1]/event/text"
 msgstr ""
-"\"Et faire quoi ? Moi UN Mantis. Slug, beaucoup beaucoup de Slugs. Vous "
+"\"Et faire quoi ? Moi UN Mantis. Limace, beaucoup beaucoup de Limaces. Vous "
 "croire que moi pouvoir tuer Kleptocratie tout seul ? Homme stupide ! Votre "
 "cerveau, même taille que baie algérienne ! Haha ! Très petit, si pas savoir."
 " Vous traitre d'idiot. Maintenant laisser moi.\""
@@ -2680,7 +2673,7 @@ msgid ""
 "data/events_sector_clan.xml$//event[@name=\"NEBULA_CLAN_SUZERAIN\"]/choice[1]/event/choice[2]/event/choice[1]/event/choice[2]/event/text"
 msgstr ""
 "\"Oh ! Pour une fois, Fédération avoir bonne idée. Pourquoi n'ai pas pensé "
-"ça, plutôt que tuer Slugs... Vous marquez un point. Vous paie pour avoir "
+"ça, plutôt que tuer Limaces... Vous marquez un point. Vous paie pour avoir "
 "cerveau intelligent et avoir aidé moi.\""
 
 #: src-en/data/events_sector_clan.xml:1688
@@ -2692,16 +2685,16 @@ msgstr "Vous vous détestez mutuellement, c'est ça ?"
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"NEBULA_CLAN_SUZERAIN\"]/choice[1]/event/choice[2]/event/choice[2]/event/text"
 msgstr ""
-"\"Oui, bien sûr ! Slug cupide, Rocailleux lent, et bête. Sansgue pue, me "
+"\"Oui, bien sûr ! Limace cupide, Rocailleux lent et bête. Sansgue pue, me "
 "rapelle vieux cadavre que espérer que elle être. Mantis pas supporter cela, "
-"mais Ruche dit que alliance bon pour éloigner Slugs des territoires "
+"mais Ruche dit que alliance bon pour éloigner Limaces des territoires "
 "Mantis.\""
 
 #: src-en/data/events_sector_clan.xml:1692
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"NEBULA_CLAN_SUZERAIN\"]/choice[1]/event/choice[2]/event/choice[2]/event/choice/text"
 msgstr ""
-"Une alliance ne reviendrai t-elle pas à une présence Slug accrue dans les "
+"Une alliance ne reviendrai t-elle pas à une présence Limace accrue dans les "
 "territoires Mantis ?"
 
 #: src-en/data/events_sector_clan.xml:1694
@@ -2754,16 +2747,16 @@ msgstr "\"Bien. Maintenant plus parler à moi, très ennuyant et fatigant.\""
 #: src-en/data/events_sector_clan.xml:1725
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"NEBULA_CLAN_SUZERAIN\"]/choice[1]/event/choice[3]/text"
-msgstr "Je compatis. Ras-le-bol de ces Slugs."
+msgstr "Je compatis. Ras-le-bol de ces Limaces."
 
 #: src-en/data/events_sector_clan.xml:1727
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"NEBULA_CLAN_SUZERAIN\"]/choice[1]/event/choice[3]/event/text"
 msgstr ""
 "\"Oui oui, sommes d'accord. Content de trouver autre personne sensée dans "
-"espace, même si être Fédéré puant ! Nous, détesteurs de Slugs, devons être "
-"unis, et repousser Slugs puantes.\" Le Suzerain est tellement ravi de voir "
-"que vous partagez son point de vue qu'il propose de réparer une partie de "
+"espace, même si être Fédéré puant ! Nous, détesteurs de Limaces, devons être"
+" unis et repousser Limaces puantes.\" Le Suzerain est tellement ravi de voir"
+" que vous partagez son point de vue qu'il propose de réparer une partie de "
 "votre coque."
 
 #: src-en/data/events_sector_clan.xml:1732
@@ -2781,7 +2774,8 @@ msgid ""
 "data/events_sector_clan.xml$//event[@name=\"NEBULA_CLAN_SUZERAIN\"]/choice[2]/event/text"
 msgstr ""
 "Vous ignorez pourquoi la Ruche a l'un de ses plus redoutables guerriers "
-"aussi loin dans l'espace Slug, mais cela n'augure probablement rien de bon."
+"aussi loin dans l'espace Limace, mais cela n'augure probablement rien de "
+"bon."
 
 #: src-en/data/events_sector_clan.xml:1742
 msgid ""
@@ -2796,9 +2790,9 @@ msgstr "Ne rien faire."
 #: src-en/data/events_sector_clan.xml:1754
 msgid "data/events_sector_clan.xml$//event[@name=\"NEBULA_CLAN_TAX\"]/text"
 msgstr ""
-"À peine arrivé à la balise, vous vous faites doubler par un vaisseau de la "
-"Guilde, pourchassé par plusieurs énormes vaisseaux Clairvoyants. Vous savez "
-"que la Guilde fait toujours partie de la Kleptocratie, alors vous avez du "
+"À peine arrivé à la balise, vous vous faites doubler par un vaisseau "
+"Loubard, pourchassé par plusieurs énormes vaisseaux Clairvoyants. Vous savez"
+" que la Guilde fait toujours partie de la Kleptocratie, alors vous avez du "
 "mal à imaginer ce qui pourrait justifier l'envoi de forces pareilles."
 
 #: src-en/data/events_sector_clan.xml:1757
@@ -2810,8 +2804,8 @@ msgstr "Suivre leur trace."
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"NEBULA_CLAN_TAX\"]/choice[1]/event/text"
 msgstr ""
-"Vous pourchassez les Slugs à travers la nébuleuse, pour y trouver un "
-"Chasseur retranché dans une grotte, décidé à y rester. Les Clairvoyants "
+"Vous pourchassez les Limaces à travers la nébuleuse, pour y trouver les "
+"Loubards retranchés dans une grotte, décidé à y rester. Les Clairvoyants "
 "semblent être dans une impasse."
 
 #: src-en/data/events_sector_clan.xml:1762
@@ -2825,8 +2819,8 @@ msgid ""
 msgstr ""
 "\"Voyez-vous, la Kleptocratttie ne ssse préoccuppe habituellement pas des "
 "affaires de la Guilde, mais leurs membres ressstent des cccitoyens de notre "
-"natttion, et ccceux-ccci ont des taxxxes à payer. Comme vous pouvez le voir,"
-" cccelui qui ssse terre dans cccette grotte... en doit beaucoup.\""
+"natttion et ccceux-ccci ont des taxxxes à payer. Comme vous pouvez le voir, "
+"cccelui qui ssse terre dans cccette grotte... en doit beaucoup.\""
 
 #: src-en/data/events_sector_clan.xml:1766
 msgid ""
@@ -2844,14 +2838,14 @@ msgstr ""
 #: src-en/data/events_sector_clan.xml:1770
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"NEBULA_CLAN_TAX\"]/choice[1]/event/choice/event/choice/event/choice[1]/text"
-msgstr "Utiliser des missiles pour forcer le Chasseur à sortir de la grotte."
+msgstr "Utiliser des missiles pour forcer les Loubards à sortir de la grotte."
 
 #: src-en/data/events_sector_clan.xml:1772
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"NEBULA_CLAN_TAX\"]/choice[1]/event/choice/event/choice/event/choice[1]/event/text"
 msgstr ""
 "Vous posez plusieurs bombes aux alentours de la grotte puis attendez leurs "
-"explosions. L'impact provoque un éboulement qui contraint le Chasseur à en "
+"explosions. L'impact provoque un éboulement qui contraint les Loubards à en "
 "sortir, juste pour se faire arrêter."
 
 #: src-en/data/events_sector_clan.xml:1777
@@ -2862,7 +2856,7 @@ msgstr "Continuer..."
 #: src-en/data/events_sector_clan.xml:1783
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"NEBULA_CLAN_TAX\"]/choice[1]/event/choice/event/choice/event/choice[2]/text"
-msgstr "Combattre les Clairvoyants pour aider le Chasseur."
+msgstr "Combattre les Clairvoyants pour aider les Loubards."
 
 #: src-en/data/events_sector_clan.xml:1785
 msgid ""
@@ -2882,17 +2876,17 @@ msgstr "Continuer..."
 #: src-en/data/events_sector_clan.xml:1794
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"NEBULA_CLAN_TAX\"]/choice[1]/event/choice/event/choice/event/choice[@req=\"LIST_CREW_SLUG\"]/text"
-msgstr "(Membre d'équipage Slug) Essayer de raisonner avec le Chasseur."
+msgstr "(Membre d'équipage Limace) Essayer de raisonner les Loubards."
 
 #: src-en/data/events_sector_clan.xml:1796
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"NEBULA_CLAN_TAX\"]/choice[1]/event/choice/event/choice/event/choice[@req=\"LIST_CREW_SLUG\"]/event/text"
 msgstr ""
-"Votre Slug se dirige vers le auvent de la grotte, pour s'adresser au "
-"Chasseur en personne. En le ramenant à la raison, elle parvient à le "
-"convaincre que mourrir piégé dans une grotte est un pire destin que finir en"
-" prison, même si c'est une prison Slug. Cela fonctionne, et le Chasseur se "
-"rend."
+"Votre Limace se dirige vers le auvent de la grotte, pour s'adresser aux "
+"Loubards en personne. En les ramenant à la raison, elle parvient à les "
+"convaincre que mourir piégés dans une grotte est un pire destin que finir en"
+" prison, même si c'est une prison Limace. Cela fonctionne et les Loubards se"
+" rendent."
 
 #: src-en/data/events_sector_clan.xml:1798
 msgid ""
@@ -2902,7 +2896,7 @@ msgstr "Continuer..."
 #: src-en/data/events_sector_clan.xml:1804
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"NEBULA_CLAN_TAX\"]/choice[1]/event/choice/event/choice/event/choice[@req=\"LIST_CREW_SLUG_KING\"]/text"
-msgstr "(Ex-Roi Slug) \"Peut-être pourrais-je leur accorder le pardon?\""
+msgstr "(Ex-Roi Limace) \"Peut-être pourrais-je leur accorder le pardon ?\""
 
 #: src-en/data/events_sector_clan.xml:1806
 msgid ""
@@ -2910,10 +2904,10 @@ msgid ""
 msgstr ""
 "\"Oh ! Euh, Monsssieur ! Je ne vous avais pas vu, mon roi. Euh, exxx-roi. Je"
 " ne crois... vous ne posssédez pas vraiment d'autorité iccci monsssieur, "
-"mais je sssuis un Clairvoyant, et je penssse sssinccèrement que vous avez "
+"mais je sssuis un Clairvoyant et je penssse sssinccèrement que vous avez "
 "fait de bonne choses pour notre nation, même sssi vous n'avez pas toujours "
 "été le meilleur dirigeant à cccertains moments. Sssi vous vous portez garant"
-" pour cccet homme, monsssieur, je ne vais pas m'y opposer.\" Les Slugs "
+" pour cccet homme, monsssieur, je ne vais pas m'y opposer.\" Les Limaces "
 "effacent ses dettes, puis s'en vont."
 
 #: src-en/data/events_sector_clan.xml:1808
@@ -2951,10 +2945,10 @@ msgstr "Ne rien faire."
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"NEBULA_CLAN_TAX_SAVECLAN\"]/text"
 msgstr ""
-"Vous approchez le Chasseur, qui chuchote \"Essst-ccce qu'ils sssont "
-"partis ?\" Une fois que vous lui assurez que les Clairvoyants ne sont plus "
-"là, il sort de la grotte et vous remercie. \"Haha ! L'évasion fissscale "
-"fonctttionne a merveille une fois de plusss. Euh... je présume que je "
+"Vous approchez les Loubards, qui chuchotent \"Essst-ccce qu'ils sssont "
+"partis ?\" Une fois que vous leur assurez que les Clairvoyants ne sont plus "
+"là, ils sortent de la grotte et vous remercie. \"Haha ! L'évazzion fissscale"
+" fonctttionne a merveille une fois de plusss. Euh... je présume que je "
 "devrais vous récompenssser. Que diriez-vous d'une amélioration de "
 "réacteur ?\""
 
@@ -2962,10 +2956,10 @@ msgstr ""
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"NEBULA_CLAN_TAX_SAVEKLEPT\"]/text"
 msgstr ""
-"\"Ah, eh bien ççça ccc'est fait. Merci à vous, Fédération. Je ne savais pas "
-"que les affaires de la Kleptocratttie vous intéressssaient. Peut-être qu'une"
-" rémunération de ferraille aidera à compenssser pour votre aide dans cccette"
-" affaire.\""
+"\"Ah, eh bien ççça ccc'est fait. Merccci à vous, Fédératttion. Je ne "
+"sssavais pas que les zzaffaires de la Kleptocratttie vous intéressssaient. "
+"Peut-être qu'une rémunération de ferraille aidera à compenssser votre aide "
+"dans cccette affaire.\""
 
 #: src-en/data/events_sector_clan.xml:1861
 msgid ""
@@ -2974,7 +2968,7 @@ msgstr ""
 "Vous ignorez d'où cela provient, mais vous recevez un appel en provenance "
 "d'un Ranger de la Guilde. \"Ççça vous dit, un petit boulot ? Des Fantômes "
 "ont piqué mon vaissseau ! J'ai l'intentttion de le récupérer, quelqu'en "
-"sssoit le prix, et vous me ssssemblez être un sssacré atout.\""
+"sssoit le prix et vous me ssssemblez être un sssacré atout.\""
 
 #: src-en/data/events_sector_clan.xml:1864
 msgid ""
@@ -2984,7 +2978,7 @@ msgstr "Accepter."
 #: src-en/data/events_sector_clan.xml:1866
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"NEBULA_DISTRESS_CLAN_GHOST\"]/choice[1]/event/text"
-msgstr "\"Parfait ! Mais sss'il vous plaît, ne le détruisez pas !\""
+msgstr "\"Parfait ! Mais sss'il vous plaît, ne le détruizzez pas !\""
 
 #: src-en/data/events_sector_clan.xml:1869
 msgid ""
@@ -3001,7 +2995,7 @@ msgid ""
 "data/events_sector_clan.xml$//event[@name=\"NEBULA_DISTRESS_CLAN_GHOST\"]/choice[2]/event/text"
 msgstr ""
 "Vous n'êtes pas un vulgaire mercenaire à la ramasse. Vous avez une éthique !"
-" Vous coupez l'appel du Slug."
+" Vous coupez l'appel du Limace."
 
 #: src-en/data/events_sector_clan.xml:1879
 msgid ""
@@ -3017,22 +3011,22 @@ msgstr "Ne rien faire."
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"NEBULA_DISTRESS_CLAN_DUSK\"]/text"
 msgstr ""
-"Un signal de détresse semble provenir d'un vaisseau de la Guilde proche, se "
-"faisant pourchasser par un Éclipseur. Vous êtes rapidement contacté : "
+"Un signal de détresse semble provenir d'un vaisseau Loubard proche, se "
+"faisant pourchasser par un Crépusculeur. Vous êtes rapidement contacté : "
 "\"Sss'il vous plaît, aidez-nous ! Nous avons commis une grave erreur, en "
-"essssayant d'étudier la technologie explosive des Éclipssseurs sssur des "
+"essssayant d'étudier la technologie explosive des Crépusssculeurs sssur des "
 "sssujets vivants... maintenant, ils sssont furaxxx et veulent notre mort. "
 "Ccc'est franchement pas sssurprenant, mais sss'il vous plaît ?\""
 
 #: src-en/data/events_sector_clan.xml:1895
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"NEBULA_DISTRESS_CLAN_DUSK\"]/choice[1]/text"
-msgstr "Aider les Chasseurs."
+msgstr "Aider les Loubards."
 
 #: src-en/data/events_sector_clan.xml:1897
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"NEBULA_DISTRESS_CLAN_DUSK\"]/choice[1]/event/text"
-msgstr "Vous activez les armes et foncez droit sur le vaisseau Éclipseur."
+msgstr "Vous activez les armes et ciblez le vaisseau des Crépusculeurs."
 
 #: src-en/data/events_sector_clan.xml:1900
 msgid ""
@@ -3042,12 +3036,12 @@ msgstr "Continuer..."
 #: src-en/data/events_sector_clan.xml:1906
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"NEBULA_DISTRESS_CLAN_DUSK\"]/choice[2]/text"
-msgstr "Aider les Éclipseurs."
+msgstr "Aider les Crépusculeurs."
 
 #: src-en/data/events_sector_clan.xml:1908
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"NEBULA_DISTRESS_CLAN_DUSK\"]/choice[2]/event/text"
-msgstr "Vous activez les armes et foncez droit sur le vaisseau de la Guilde."
+msgstr "Vous activez les armes et ciblez le vaisseau des Loubards."
 
 #: src-en/data/events_sector_clan.xml:1911
 msgid ""
@@ -3085,8 +3079,8 @@ msgid ""
 "data/events_sector_clan.xml$//textList[@name=\"NEBULA_CLAN_FIGHT\"]/text[1]"
 msgstr ""
 "La Guilde des Hommes de main envoie plusieurs éclaireurs patrouiller ce "
-"secteur, en plus de leurs chasseurs habituels. Lorsqu'ils vous repèrent ici,"
-" et vous identifie en tant que vaisseau de la Fédération, ils lèvent vite "
+"secteur, en plus de leurs chasseurs habituels. Lorsqu'ils vous repèrent ici "
+"et vous identifie en tant que vaisseau de la Fédération, ils lèvent vite "
 "leurs armes vers vous. Leurs raisons ? Soit ils vous considèrent comme une "
 "menace, soit ils veulent faire un manteau avec votre peau. Ou alors les "
 "deux."
@@ -3097,13 +3091,13 @@ msgid ""
 msgstr ""
 "Le silence de la nébuleuse autour de vous commence à vous jouer des tours. "
 "Fort heureusement, cette balise semble être vid- attendez, vous vous "
-"trompez. Chasseur en approche !"
+"trompez. Loubards en approche !"
 
 #: src-en/data/events_sector_clan.xml:1973
 msgid ""
 "data/events_sector_clan.xml$//textList[@name=\"NEBULA_CLAN_FIGHT\"]/text[3]"
 msgstr ""
-"Vous apercevez un vaisseau de Chasseur vous observant au loin. \"Et bin dit "
+"Vous apercevez un vaisseau Loubard vous observant au loin. \"Et bin dit "
 "donc, ct'un sssacré ensssemble de dents, mon pote ! J'vais en faire un joli "
 "collier !\""
 
@@ -3111,17 +3105,17 @@ msgstr ""
 msgid ""
 "data/events_sector_clan.xml$//textList[@name=\"NEBULA_CLAN_FIGHT\"]/text[4]"
 msgstr ""
-"\"Un vaissseau MV ? Vous n'avez pas capté le mémo ? Ccc'est le territoire "
-"d'la Guilde ! Nous n'avons pas acheté cccette terre à la Kleptocratttie "
-"jussste pour avoir des fichus sssquatteurs interdimensssionnels qui viennent"
-" piquer toutes nos proies !\""
+"\"Un vaissseau Multiversssel ? Vous n'avez pas reçççu le mémo ? Ccc'est le "
+"territoire de la Guilde ! Nous n'avons pas acheté cccette terre à la "
+"Kleptocratttie jussste pour avoir des fichus sssquatteurs "
+"interdimensssionnels qui viennent piquer toutes nos proies !\""
 
 #: src-en/data/events_sector_clan.xml:1975
 msgid ""
 "data/events_sector_clan.xml$//textList[@name=\"NEBULA_CLAN_FIGHT\"]/text[5]"
 msgstr ""
 "Un vaisseau de la Guilde proche s'avance vers vous, ses armes déjà en état "
-"de charge. Le courage de ces Chasseurs est admirable, même si cela finit "
+"de charge. Le courage de ces Loubards est admirable, même si cela finit "
 "souvent par leur mort."
 
 #: src-en/data/events_sector_clan.xml:1976
@@ -3129,17 +3123,17 @@ msgid ""
 "data/events_sector_clan.xml$//textList[@name=\"NEBULA_CLAN_FIGHT\"]/text[6]"
 msgstr ""
 "\"Hé, essst-ccce un vaissseau au loin ? Oh crotte, ccc'en est un !\" Un "
-"Chasseur fonce récupérer son fusil, puis pilote son vaisseau vers vous pour "
+"Loubard fonce récupérer son fusil, puis pilote son vaisseau vers vous pour "
 "se battre !"
 
 #: src-en/data/events_sector_clan.xml:1977
 msgid ""
 "data/events_sector_clan.xml$//textList[@name=\"NEBULA_CLAN_FIGHT\"]/text[7]"
 msgstr ""
-"Les membres de la Guilde sont des chasseurs prestigieux qui ne sont pas "
-"connus pour laisser passer une chance d'effectuer une chasse de qualité. Si "
-"vous êtes tout de même un vaisseau militaire paré au combat, cela ne semble "
-"pas dissuader le vaisseau voisin."
+"Les Loubards sont des chasseurs prestigieux qui ne sont pas connus pour "
+"laisser passer une chance d'effectuer une chasse de qualité. Si vous êtes "
+"tout de même un vaisseau militaire paré au combat, cela ne semble pas "
+"dissuader le vaisseau voisin."
 
 #: src-en/data/events_sector_clan.xml:1980
 msgid ""
@@ -3165,9 +3159,9 @@ msgstr "Continuer..."
 msgid ""
 "data/events_sector_clan.xml$//textList[@name=\"NEBULA_SLUG_CLAN_FIGHT\"]/text[1]"
 msgstr ""
-"Les vaisseaux Slugs rodant par ici sont habituellement de la Guilde, mais il"
-" arrive que des citoyens de la Kleptocratie errent dans ce secteur pour une "
-"partie de chasse. Et comme d'habitude, il semblerait que vous soyez la "
+"Les vaisseaux Limaces rodant par ici sont habituellement de la Guilde, mais "
+"il arrive que des citoyens de la Kleptocratie errent dans ce secteur pour "
+"une partie de chasse. Et comme d'habitude, il semblerait que vous soyez la "
 "cible !"
 
 #: src-en/data/events_sector_clan.xml:2000
@@ -3182,22 +3176,22 @@ msgstr ""
 msgid ""
 "data/events_sector_clan.xml$//textList[@name=\"NEBULA_SLUG_CLAN_FIGHT\"]/text[3]"
 msgstr ""
-"Un vaisseau Slug est en approche ! Il ne fait peut-être pas partie de la "
+"Un vaisseau Limace est en approche ! Il ne fait peut-être pas partie de la "
 "Guilde, mais il reste une menace que vous devez abattre ou éviter !"
 
 #: src-en/data/events_sector_clan.xml:2002
 msgid ""
 "data/events_sector_clan.xml$//textList[@name=\"NEBULA_SLUG_CLAN_FIGHT\"]/text[4]"
 msgstr ""
-"\"Vous êtes la dernière victime que je dois abattre pour réussssir mon "
-"examen d'entrée dans la Guilde ! Maintenant, bougez plus, j'en ai marre de "
-"devoir faire des efforts !\""
+"\"Vous zzêtes la dernière victime que je dois abattre pour réussssir mon "
+"exzzamen d'entrée dans la Guilde ! Maintenant, bougez plus, j'en ai marre de"
+" devoir faire des zzefforts !\""
 
 #: src-en/data/events_sector_clan.xml:2003
 msgid ""
 "data/events_sector_clan.xml$//textList[@name=\"NEBULA_SLUG_CLAN_FIGHT\"]/text[5]"
 msgstr ""
-"Il y a beaucoup de Slugs dans le secteur de la Guilde, mais vous ne vous "
+"Il y a beaucoup de Limace dans le secteur de la Guilde, mais vous ne vous "
 "attendiez pas à croiser un vaisseau lambda de la Kleptocratie. Cela n'est "
 "pas surprenant en soi, mais vous êtes assez mécontent lorsque vous constatez"
 " qu'ils sont déjà hostiles !"
@@ -3228,8 +3222,8 @@ msgstr ""
 msgid ""
 "data/events_sector_clan.xml$//textList[@name=\"NEBULA_SHELL_CLAN_FIGHT\"]/text[3]"
 msgstr ""
-"\"Vous devez ffffiler ! Mon équipage a contracté une sorte de rage en "
-"provenance d'un Equinoide qu'on a récupéré en pillant une station de la "
+"\"Ffous deffez ffiler ! Mon équipage a contracté une sorte de rache en "
+"proffenance d'un Équinoïde qu'on a récupéré en pillant une station de la "
 "Gui-\" La Coquille est interrompue lorsqu'elle est tuée par une de ses "
 "amies, qui prend le contrôle du vaisseau pour vous attaquer."
 
@@ -3251,9 +3245,9 @@ msgstr "Enquêter plus en détail."
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"NEBULA_CLAN_PHEROMONES\"]/choice[1]/event/text"
 msgstr ""
-"Vous pilotez vers la structure et entrez à travers une porte de hangar, et "
-"êtes accueilli par un Chasseur. \"Oh bonté, vous n'êtes pas venus pour nous "
-"contraindre à fermer, sssi?\""
+"Vous pilotez vers la structure et entrez à travers une porte de hangar et "
+"êtes accueilli par un Loubard. \"Oh bonté, vous n'êtes pas venus pour nous "
+"contraindre à fermer, sssi ?\""
 
 #: src-en/data/events_sector_clan.xml:2038
 msgid ""
@@ -3266,7 +3260,7 @@ msgid ""
 msgstr ""
 "\"Oh dieu merccci. Attendez, mais pourquoi êtes-vous donc là ? Ssseriez-vous"
 " venus observer mon opératttion ? Ccceccci est une usine d'exxxtractttion de"
-" phéromones. Le traffic de phéromones est en pleine croisssanccce, et nous "
+" phéromones. Le traffic de phéromones est en pleine croisssanccce et nous "
 "voulons faire main bassse desssus avant que ccces sssaletés de Mantisss "
 "Libres monopolisent tout celà.\""
 
@@ -3303,7 +3297,7 @@ msgstr "Alors où est-ce que les Fantômes se sont procurés toutes ces épaves�
 #: src-en/data/events_sector_clan.xml:2058
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"NEBULA_CLAN_PHEROMONES\"]/choice[1]/event/choice/event/choice[2]/event/choice/event/text"
-msgstr "\"Depuiiis... la boutique Mantissss?\""
+msgstr "\"Depuiiis... la boutique Mantissss ?\""
 
 #: src-en/data/events_sector_clan.xml:2060
 msgid ""
@@ -3327,7 +3321,7 @@ msgid ""
 "data/events_sector_clan.xml$//event[@name=\"NEBULA_CLAN_PHEROMONES\"]/choice[1]/event/choice/event/choice[2]/event/choice/event/choice/event/choice[1]/event/text"
 msgstr ""
 "\"Oh allez vous faire voir, la Fédération ! Vous pouvez pas me juger !\" Le "
-"Chasseur file et sonne l'alarme. On dirait qu'on doit se battre !"
+"Loubard file et sonne l'alarme. On dirait qu'on doit se battre !"
 
 #: src-en/data/events_sector_clan.xml:2069
 msgid ""
@@ -3343,8 +3337,8 @@ msgstr "D'accord !"
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"NEBULA_CLAN_PHEROMONES\"]/choice[1]/event/choice/event/choice[2]/event/choice/event/choice/event/choice[2]/event/text"
 msgstr ""
-"\"Euhhhh, ok...\" Le Chasseur sort vite un crayon et gribouille des chiffres"
-" à peine lisibles, puis vous les remet, avant de détaler à toute vitesse."
+"\"Euhhhh, ok...\" Le Loubard sort vite un crayon et gribouille des chiffres "
+"à peine lisibles, puis vous les remet, avant de détaler à toute vitesse."
 
 #: src-en/data/events_sector_clan.xml:2088
 msgid ""
@@ -3378,8 +3372,8 @@ msgstr "Ne rien faire."
 #: src-en/data/events_sector_clan.xml:2111
 msgid "data/events_sector_clan.xml$//event[@name=\"CLAN_PHEROMONES_DEMAND\"]/text"
 msgstr ""
-"\"D'accord, vous avez tué mes hommes, et maintenant quoi ? Allez-vous fermer"
-" mon inssstallattion ? M'arrêter ? M'humilier en me forçççant à danssser ?\""
+"\"D'accord, vous avez tué mes hommes et maintenant quoi ? Allez-vous fermer "
+"mon inssstallattion ? M'arrêter ? M'humilier en me forçççant à danssser ?\""
 
 #: src-en/data/events_sector_clan.xml:2113
 msgid ""
@@ -3405,8 +3399,8 @@ msgstr "L'arrêter."
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"CLAN_PHEROMONES_DEMAND\"]/choice[2]/event/text"
 msgstr ""
-"Vous n'avez pas de menottes sur vous, et vous ne savez pas vraiment ce que "
-"vous faites. Heureusement, le Chasseur lui aussi n'a pas l'air de bien "
+"Vous n'avez pas de menottes sur vous et vous ne savez pas vraiment ce que "
+"vous faites. Heureusement, le Loubard lui aussi n'a pas l'air de bien "
 "connaître la loi de la Fédération, alors lorsque vous lui disez qu'il est "
 "normal pour les criminels de la Fédération de servir à bord des vaisseaux "
 "responsables de leur arrestation, il ne pose pas de questions."
@@ -3420,9 +3414,9 @@ msgstr "Le faire danser."
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"CLAN_PHEROMONES_DEMAND\"]/choice[3]/event/text"
 msgstr ""
-"Tristement, le Chasseur se met à faire une valse, mais il finit par un tas "
-"de sanglots. Vous avez pitié de la pauvre créature, et lui volez seulement "
-"une partie de sa ferraille plutôt que l'intégralité."
+"Tristement, le Loubard se met à faire une valse, mais il finit par un tas de"
+" sanglots. Vous avez pitié de la pauvre créature et lui volez seulement une "
+"partie de sa ferraille plutôt que l'intégralité."
 
 #: src-en/data/events_sector_clan.xml:2135
 msgid ""
@@ -3436,12 +3430,12 @@ msgid ""
 "data/events_sector_clan.xml$//event[@name=\"CLAN_PHEROMONES_DEMAND\"]/choice[@req=\"LIST_CREW_ZOLTAN\"]/event/text"
 msgstr ""
 "Votre Zoltan sort une paire de menottes de nulle part et menotte les "
-"Chasseurs un par un. Il ordonne la fermeture de l'installation, citant au "
+"Loubards un par un. Il ordonne la fermeture de l'installation, citant au "
 "passage plusieurs codes qui vous semblerait quasiment inventé sur le coup, "
-"puis il amène les membres de la Guilde sur le vaisseau, ainsi que plusieurs "
-"caisses de ressources confisquées. Lorsque vous lui demandez quelle est la "
-"suite des évènements, votre Zoltan hausse les épaules et vous conseille de "
-"tirer profit de tout celà."
+"puis il amène les Loubards sur le vaisseau, ainsi que plusieurs caisses de "
+"ressources confisquées. Lorsque vous lui demandez quelle est la suite des "
+"évènements, votre Zoltan hausse les épaules et vous conseille de tirer "
+"profit de tout celà."
 
 #: src-en/data/events_sector_clan.xml:2146
 msgid ""
@@ -3452,8 +3446,8 @@ msgstr "Coordonnées trés suspectes fournies par un Ranger."
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"NEBULA_QUEST_CLAN_PHEROMONES_STORE\"]/text"
 msgstr ""
-"Même s'il est fort probable que ce Chasseur mentait, vous faites tout de "
-"même un tour aux coordonnées qu'il vous a indiqué. Tout cela est fascinant "
+"Même s'il est fort probable que ce Loubard mentait, vous faites tout de même"
+" un tour aux coordonnées qu'il vous a indiqué. Tout cela est fascinant "
 "lorsque vous repérez une décharge de vaisseaux Mantis peuplés de Fantômes."
 
 #: src-en/data/events_sector_clan.xml:2152
@@ -3466,9 +3460,9 @@ msgid ""
 "data/events_sector_clan.xml$//event[@name=\"NEBULA_QUEST_CLAN_PHEROMONES_STORE\"]/choice[1]/event/text"
 msgstr ""
 "Il faut quelques instants de silence jusqu'à ce que votre traducteur puisse "
-"comprendre les subtilités du dialecte des Fantômes- \"Oui, et bienvenue. "
-"Nous vendons des vaisseaux Mantis d'occasion. Notre stock a beaucoup diminué"
-" après qu'une grande cargaison a été commandée par les membres d'une Guilde "
+"comprendre les subtilités du dialecte des Fantômes- \"Oui et bienvenue. Nous"
+" vendons des vaisseaux Mantis d'occasion. Notre stock a beaucoup diminué "
+"après qu'une grande cargaison a été commandée par les membres d'une Guilde "
 "renommée, mais il y a sûrement un modèle agréable encore disponible pour vos"
 " besoins.\""
 
@@ -3574,8 +3568,8 @@ msgid ""
 "data/events_sector_clan.xml$//event[@name=\"NEBULA_QUEST_CLAN_PHEROMONES_STORE\"]/choice[2]/event/text"
 msgstr ""
 "Cela en fait trop, même pour vous. Certaines choses ne sont pas destinées à "
-"être connues, vues, ou interagies avec. Vous estimez que cela en fait "
-"partie, et vous filez aussi loin que possible."
+"être connues, vues, ou interagies avec. Vous estimez que cela en fait partie"
+" et vous filez aussi loin que possible."
 
 #: src-en/data/events_sector_clan.xml:2225
 msgid ""
@@ -3591,9 +3585,9 @@ msgstr "Ne rien faire."
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"NEBULA_QUEST_CLAN_PHEROMONES_STORE_CHOICE\"]/text"
 msgstr ""
-"Les Fantômes ont disparu, mais le chantier naval semble toujours abriter "
+"Les Fantômes ont disparu, mais le chantier spatial semble toujours abriter "
 "plusieurs d'entre eux qui rodent dans les parages. Souhaitez-vous prendre le"
-" risque de piller des provisions avant de partir ?"
+" risque de piller des ressources avant de partir ?"
 
 #: src-en/data/events_sector_clan.xml:2238
 msgid ""
@@ -3626,10 +3620,10 @@ msgstr ""
 "formes de vie exotiques. À en juger par les prairies incroyablement bien "
 "entretenues et les sculptures rocheuses à en couper le souffle, cela doit "
 "être l'un des terrains de chasse les mieux entretenus de la Guilde. Ces "
-"endroits sont réservés aux clients les plus riches, en plus des Chasseurs de"
-" la Guilde, et sont fournis en formes de vies reproduites sur d'autres "
-"mondes. La planète semble complètement vide d'infrastructure, cependant les "
-"scans relèvent une anomalie unique. Un vaisseau est à la surface."
+"endroits sont réservés aux clients les plus riches, en plus des Loubards et "
+"sont fournis en formes de vies reproduites sur d'autres mondes. La planète "
+"semble complètement vide d'infrastructure, cependant les scans relèvent une "
+"anomalie unique. Un vaisseau est à la surface."
 
 #: src-en/data/events_sector_clan.xml:2271
 msgid "data/events_sector_clan.xml$//event[@name=\"PONY_WORLD\"]/choice[1]/text"
@@ -3639,12 +3633,12 @@ msgstr "S'approcher."
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"PONY_WORLD\"]/choice[1]/event/text"
 msgstr ""
-"Vous volez près du vaisseau écrasé, et remarquez que c'est un vaisseau de la"
-" Guilde. Il est cependant assez vieux et particulièrement rouillé. Plusieurs"
-" équinoïdes de couleurs brillantes paîtrent à proximité, et vous les "
-"observez errer paisiblement jusqu'à ce qu'une voix vous adresse la parole. "
-"\"Ne dérangez pas les équinoïdes, mon ami. Ce sont des âmes torturées, et la"
-" Guilde n'est pas bienveillante.\""
+"Vous volez près du vaisseau écrasé et remarquez que c'est un vaisseau de la "
+"Guilde. Il est cependant assez vieux et particulièrement rouillé. Plusieurs "
+"équinoïdes de couleurs brillantes paîtrent à proximité et vous les observez "
+"errer paisiblement jusqu'à ce qu'une voix vous adresse la parole. \"Ne "
+"dérangez pas les équinoïdes, mon ami. Ce sont des âmes torturées et la "
+"Guilde n'est pas bienveillante.\""
 
 #: src-en/data/events_sector_clan.xml:2275
 msgid ""
@@ -3656,11 +3650,11 @@ msgid ""
 "data/events_sector_clan.xml$//event[@name=\"PONY_WORLD\"]/choice[1]/event/choice/event/text"
 msgstr ""
 "Vous tournez en rond mais n'apercevez personne. Vous posez vos yeux sur un "
-"nuage gris brumeux qui semble engloutir la zone devant vous, mais vous "
-"n'êtes pas certain de ce que c'est. \"N'ayez pas peur. Nous ne sommes rien "
-"de plus qu'une voix ancienne. Nous sommes le Conteur d'Histoires, et nous "
-"avons été le surveillant de ces terres pour de nombreuses années. Aimeriez-"
-"vous entendre une histoire?\""
+"nuage gris brumeux qui semble engloutir la zone devant vous mais vous n'êtes"
+" pas certain de ce que c'est. \"N'ayez pas peur. Nous ne sommes rien de plus"
+" qu'une voix ancienne. Nous sommes le Conteur d'Histoires et nous avons été "
+"le surveillant de ces terres pour de nombreuses années. Aimeriez-vous "
+"entendre une histoire ?\""
 
 #: src-en/data/events_sector_clan.xml:2279
 msgid ""
@@ -3671,11 +3665,11 @@ msgstr "Bien sûr."
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"PONY_WORLD\"]/choice[1]/event/choice/event/choice[1]/event/text"
 msgstr ""
-"Vous prenez une place près des poneys au pâturage, et l'un d'eux erre vers "
+"Vous prenez une place près des poneys au pâturage et l'un d'eux erre vers "
 "vous et plante son museau sur votre épaule. Les nuages autour de vous se "
 "déplacent sans direction apparente tandis qu'il commence son histoire. \"Une"
 " fois, il y a de nombreuses années, un garçon venait ici avec son oncle. Son"
-" père avait disparu, et sa mère était morte. Son oncle était un homme fier, "
+" père avait disparu et sa mère était morte. Son oncle était un homme fier, "
 "mais le garçon était doux. Ces voyages étaient inhabituels et rarement "
 "accessibles, mais son oncle cherchait désespérement à gagner l'affection du "
 "garçon.\""
@@ -3691,12 +3685,12 @@ msgid ""
 msgstr ""
 "\"En premier lieu, ils venaient et observaient simplement la faune, mais ils"
 " ne s'approchaient pas. Son oncle lui interdit. Un jour, son oncle a amené "
-"une arme. Il montra au garçon comment l'utiliser, et il tira sur un oiseau "
+"une arme. Il montra au garçon comment l'utiliser et il tira sur un oiseau "
 "dans le ciel. Mais tout cela n'a fait que faire pleurer le garçon. Son oncle"
-" ne comprenait pas, et chaque jour cela se répétait. Le duo venait, un "
-"animal mourrait, le garçon pleurait. Le garçon mania l'arme plusieurs fois, "
-"et tirait avec une précision mortelle, mais jamais il ne ciblait un animal. "
-"À la place, il tirait sur des canettes et des pierres.\""
+" ne comprenait pas et chaque jour cela se répétait. Le duo venait, un animal"
+" mourrait, le garçon pleurait. Le garçon mania l'arme plusieurs fois et "
+"tirait avec une précision mortelle, mais jamais il ne ciblait un animal. À "
+"la place, il tirait sur des canettes et des pierres.\""
 
 #: src-en/data/events_sector_clan.xml:2287
 msgid ""
@@ -3725,15 +3719,15 @@ msgstr "Continuer..."
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"PONY_WORLD\"]/choice[1]/event/choice/event/choice[1]/event/choice/event/choice/event/choice/event/text"
 msgstr ""
-"\"Chaque jour, le garçon exigeait à son oncle de voyager là-bas, et chaque "
+"\"Chaque jour, le garçon exigeait à son oncle de voyager là-bas et chaque "
 "jour la jalousie de son oncle grandit. Comment est-ce que le garçon pouvait-"
 "il aimer un alien sans cervelle plus que sa propre chair et son propre "
-"sang ? Un jour, les équinoïdes ont erré plus loin que d'habitude, et le "
+"sang ? Un jour, les équinoïdes ont erré plus loin que d'habitude et le "
 "garçon les suivit. Peu après, il quitta même la vue de son oncle, qui dans "
-"une panique réalisa vite qu'il avait perdu la trace du précieux enfant, et "
+"une panique réalisa vite qu'il avait perdu la trace du précieux enfant et "
 "accoura après lui. Le garçon erra sans but, mais sans peur, jusqu'à trouver "
 "une épave mousseuse et rouillée. Le vaisseau gisait dans un état de "
-"délabrement, et était piloté par un Engi perdu.\""
+"délabrement et était piloté par un Engi perdu.\""
 
 #: src-en/data/events_sector_clan.xml:2295
 msgid ""
@@ -3744,15 +3738,15 @@ msgstr "Continuer..."
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"PONY_WORLD\"]/choice[1]/event/choice/event/choice[1]/event/choice/event/choice/event/choice/event/choice/event/text"
 msgstr ""
-"\"L'Engi était blessé, ayant été abattu par un Chasseur Exotique ayant vu à "
-"travers le déguisement de son astronef volé. L'Engi, lui-aussi, s'était lié "
-"d'amitié aux équinoïdes, et les équinoïdes pensèrent qu'il était temps pour "
-"le garçon de rencontrer l'Engi. Les deux devinrent de bons amis, et pendant "
-"des heures, ils ne parlaient de rien en particulier. L'Engi avait vu "
-"beaucoup de choses dans ses voyages mais n'avais compris que peu, tandis que"
-" le garçon était tellement abrité, mais pourtant il comprit tout ce qu'il "
-"avait vu. Le garçon apprit beaucoup de choses à l'Engi, et l'Engi amusa le "
-"garçon avec beaucoup d'histoires.\""
+"\"L'Engi était blessé, ayant été abattu par un Loubard ayant vu à travers le"
+" déguisement de son astronef volé. L'Engi, lui-aussi, s'était lié d'amitié "
+"aux équinoïdes et les équinoïdes pensèrent qu'il était temps pour le garçon "
+"de rencontrer l'Engi. Les deux devinrent de bons amis et pendant des heures,"
+" ils ne parlaient de rien en particulier. L'Engi avait vu beaucoup de choses"
+" dans ses voyages mais n'avais compris que peu, tandis que le garçon avait "
+"été tellement protégé qu'il comprenait tout ce qu'il avait vu. Le garçon "
+"apprit beaucoup de choses à l'Engi et l'Engi amusa le garçon avec beaucoup "
+"d'histoires.\""
 
 #: src-en/data/events_sector_clan.xml:2299
 msgid ""
@@ -3846,12 +3840,12 @@ msgstr "Ne rien faire."
 msgid "data/events_sector_clan.xml$//event[@name=\"PONY_WORLD_HUNTERS\"]/text"
 msgstr ""
 "Juste à ce moment, un nouveau vaisseau arrive. La coque noir et sombre "
-"suggère que c'est un vaisseau spécial et hautement important des Slugs. "
+"suggère que c'est un vaisseau spécial et hautement important des Limaces. "
 "Elles n'ont pas l'air de vous prêter une attention quelconque et atterissent"
 " à proximité, sortant leur attirail de chasse tout en conversant "
 "agréablement entre eux. Du moins, jusqu'à ce que le Conteur d'Histoires erre"
 " vers eux, leur demandant poliment de déplacer leur vaisseau autre part pour"
-" ne pas déranger les équinoïdes. Les Slugs éclatent de rire et commencent "
+" ne pas déranger les équinoïdes. Les Limaces éclatent de rire et commencent "
 "immédiatement à mettre les poneys en joue d'une manière moqueuse."
 
 #: src-en/data/events_sector_clan.xml:2364
@@ -3863,7 +3857,7 @@ msgstr "Intervenir."
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"PONY_WORLD_HUNTERS\"]/choice[1]/event/text"
 msgstr ""
-"Comme vous auriez du vous y attendre, les Slugs prennent mal votre "
+"Comme vous auriez du vous y attendre, les Limaces prennent mal votre "
 "interruption. \"Pourquoi essst-ccce qu'un vaissseau de la Fédératttion est "
 "iccci de toute façççon ? Ccc'est le territoire de la Guilde ! On dirait que "
 "vous êtes devenus notre prochaine chassse !\""
@@ -3881,10 +3875,10 @@ msgstr "Ça sent les ennuis. Mieux vaut-il partir d'ici."
 #: src-en/data/events_sector_clan.xml:2389
 msgid "data/events_sector_clan.xml$//event[@name=\"PONY_WORLD_WIN\"]/text"
 msgstr ""
-"Le vaisseau Slug a été abattu. Malheureusement l'épave s'écrase et ruine le "
-"paysage, mais aucun animal n'est touché. Tandis que vous désossez l'épave, "
-"vous remarquez plusieurs Slugs qui sont encore sur la planète, en train de "
-"tourmenter les équinoïdes."
+"Le vaisseau Limace a été abattu. Malheureusement l'épave s'écrase et ruine "
+"le paysage, mais aucun animal n'est touché. Tandis que vous désossez "
+"l'épave, vous remarquez plusieurs Limaces qui sont encore sur la planète, en"
+" train de tourmenter les équinoïdes."
 
 #: src-en/data/events_sector_clan.xml:2392
 msgid "data/events_sector_clan.xml$//event[@name=\"PONY_WORLD_WIN\"]/choice/text"
@@ -3894,9 +3888,9 @@ msgstr "Continuer..."
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"PONY_WORLD_WIN\"]/choice/event/text"
 msgstr ""
-"Avant que vous puissiez faire quelque chose, le nuage gris s'agrandit "
-"subitement et dissimule les Slugs dans une couche grisée. Vous entendez un "
-"cri à glacer le sang, et le nuage se dissipe soudainement, ne laissant "
+"Avant que vous ne puissiez faire quelque chose, le nuage gris s'agrandit "
+"subitement et dissimule les Limaces dans une couche grisée. Vous entendez un"
+" cri à glacer le sang et le nuage se dissipe soudainement, ne laissant "
 "derrière qu'une flaque de sang, ainsi que de la chair lacérée. \"Nous les "
 "avions averti de ne pas déranger les équinoïdes... Certaines personnes "
 "n'écoutent donc jamais...\""
@@ -3936,7 +3930,7 @@ msgstr "(Jerry) \"Je crois bien être le garçon dans cette histoire...\""
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"PONY_WORLD_WIN\"]/choice/event/choice/event/choice[@req=\"LIST_CREW_JERRY\"]/event/text"
 msgstr ""
-"Le Conteur d'Histoires dérive vers Jerry, et commençe lentement à se "
+"Le Conteur d'Histoires dérive vers Jerry et commençe lentement à se "
 "condenser en une forme d'Engi cramoisi. \"Notre ami. Cela fait tellement "
 "longtemps que nous ne nous sommes pas vu... Comment est-ce que les étoiles "
 "se sont alignées pour nous octroyer cette réunion ? Nous pouvons encore voir"
@@ -3968,9 +3962,9 @@ msgstr ""
 "Vous montez à bord du pavillon, ayant presque l'impression que vous devriez "
 "vous attendre à quelqu'un ici. Pourtant, personne ne se présente. Vous vous "
 "promenez jusqu'à ce que vous captiez une conversation intrigante entre un "
-"Chasseur Exotique et un pirate concernant un individu appelé le "
-"\"Salineux\". Vous vous asseyez à la table à côté d'eux et vous penchez pour"
-" mieux entendre ce qu'ils disent."
+"Loubard et un pirate concernant un individu appelé le \"Salin\". Vous vous "
+"asseyez à la table à côté d'eux et vous penchez pour mieux entendre ce "
+"qu'ils disent."
 
 #: src-en/data/events_sector_clan.xml:2436
 msgid ""
@@ -3999,9 +3993,9 @@ msgstr ""
 "Vous montez à bord du pavillon, ayant presque l'impression que vous devriez "
 "vous attendre à quelqu'un ici. Pourtant, personne ne se présente. Vous vous "
 "promenez jusqu'à ce que vous captiez une conversation intrigante entre un "
-"Chasseur Exotique et un pirate concernant un individu appelé le "
-"\"Salineux\". Vous vous asseyez à la table à côté d'eux et vous penchez pour"
-" mieux entendre ce qu'ils disent."
+"Loubard et un pirate concernant un individu appelé le \"Salin\". Vous vous "
+"asseyez à la table à côté d'eux et vous penchez pour mieux entendre ce "
+"qu'ils disent."
 
 #: src-en/data/events_sector_clan.xml:2448
 msgid ""
@@ -4012,7 +4006,7 @@ msgstr "Écouter."
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"SYLVAN_SALT_QUEST_INTRO_NOPE\"]/choice/event/text"
 msgstr ""
-"Malheureusement, ils vous remarquent en train d'écouter, et vous suspectez "
+"Malheureusement, ils vous remarquent en train d'écouter et vous suspectez "
 "que les choses pourraient se réchauffer lorsque ils vous regardent "
 "froidement, mais ils se déplacent simplement hors de vue pour ne pas attirer"
 " d'attention indésirable. Il semble qu'il n'y avait vraiment rien "
@@ -4024,9 +4018,9 @@ msgid ""
 msgstr ""
 "Vous commencez à vous déplacer aux alentours, lorsque vous remarquez un "
 "visage familier dans l'arrière de la foule. \"Étranger ! Quel ssssont les "
-"chanccces ! Quel sssont les chanccces en effet... On cherche quelque chossse"
-" à acheter ? Je peux vous offrir un tour de mon vaisseau et montrer ccce que"
-" j'ai...\""
+"chanccces ! Quel sssont les chanccces en effet... On cherche quelque chozze "
+"à acheter ? Je peux vous offrir un tour de mon vaisseau et montrer ccce que "
+"j'ai...\""
 
 #: src-en/data/events_sector_clan.xml:2458
 msgid ""
@@ -4039,26 +4033,26 @@ msgid ""
 msgstr ""
 "Vous suivez Sylvain à l'extérieur, où il engage la conversation en chemin. "
 "\"Vous sssavez, j'étais autrefois zzzzun Ranger dans la Guilde. Puis nous "
-"nous ssssomes disssputés à propos de ccccet individu, le Sssalineux. Le "
-"dernier de ssson esssspèccce, et un chasssseur de primes sssacrément craint."
-" Mais la Guilde le voulait mort, cccc'était terriblement dommage. Je ne "
-"pouvais jusssste pas m'y rézzzzoudre, vous sssavez ? Au fait, à propos de la"
-" marchandizzzze...\""
+"nous ssssomes disssputés à propos de ccccet individu, le Sssalin. Le dernier"
+" de ssson esssspèccce et un chasssseur de primes sssacrément craint. Mais la"
+" Guilde le voulait mort, cccc'était terriblement dommage. Je ne pouvais "
+"jusssste pas m'y rézzzzoudre, vous sssavez ? Au fait, à propos de la "
+"marchandizzzze...\""
 
 #: src-en/data/events_sector_clan.xml:2462
 msgid ""
 "data/events_sector_clan.xml$/FTL/event[@name=\"SYLVAN_SALT_QUEST_INTRO\"]/choice/event/choice[1]/text"
-msgstr "Dites m'en plus sur le Salineux."
+msgstr "Dites m'en plus sur le Salin."
 
 #: src-en/data/events_sector_clan.xml:2464
 msgid ""
 "data/events_sector_clan.xml$/FTL/event[@name=\"SYLVAN_SALT_QUEST_INTRO\"]/choice/event/choice[1]/event/text"
 msgstr ""
 "Sylvain fixe le sol pendant un moment. \"Héhé, j'ai agité votre curiosité, "
-"n'est-ccce pas ? Ccc'était un individu fasssscinant, et peut-être la ssseule"
-" raissson que j'ai quitté la Guilde pour devenir marchand à la placcce. On "
+"n'est-ccce pas ? Ccc'était un individu fasssscinant et peut-être la ssseule "
+"raissson que j'ai quitté la Guilde pour devenir marchand à la placcce. On "
 "pourrait cccertainement nous voir comme des... amis... mais je ne lui ait "
-"pas adresssé la parole depuis des années...\""
+"pas adresssé la parole depuis des zzannées...\""
 
 #: src-en/data/events_sector_clan.xml:2466
 msgid ""
@@ -4073,8 +4067,8 @@ msgstr ""
 "hmmm... Puis-je vous demander une faveur étranger, arrêtez-vous à ccces "
 "coordonnées, voulez-vous ? J'ai entendu que cccc'était icccci qu'il sssse "
 "terrait actuellement. Une fois là-bas, assssurez-vous qu'il ne ssssoit pas "
-"mort, d'accord ? Et glissssez un mot de ma part... j'apprécierai beaucoup, "
-"étranger.\""
+"mort, d'accord ? Et glissssez un mot de ma part... j'apprécccierai beaucoup,"
+" étranger.\""
 
 #: src-en/data/events_sector_clan.xml:2470
 msgid ""
@@ -4090,7 +4084,7 @@ msgstr "Pourquoi ne le faites-vous pas vous-même ?"
 msgid ""
 "data/events_sector_clan.xml$/FTL/event[@name=\"SYLVAN_SALT_QUEST_INTRO\"]/choice/event/choice[1]/event/choice/event/choice[2]/event/text"
 msgstr ""
-"\"Ah... eh bien, je ssssuis un Sssslug très occupé, vous ssssavez comment "
+"\"Ah... eh bien, je ssssuis un limaccce très occupé, vous ssssavez comment "
 "cccc'est, voyager à travers les vasssstes réalités et tout cccce jazz. "
 "Cccc'est juste un petit contrôle de toute faççççon, vous savez ? Cccce n'est"
 " pas comme ssss'il était en danger. Je veux jusssste m'assssurer qu'il va "
@@ -4121,9 +4115,9 @@ msgstr "Voir ce qu'il a."
 msgid ""
 "data/events_sector_clan.xml$/FTL/event[@name=\"SYLVAN_SALT_QUEST_INTRO\"]/choice/event/choice[2]/event/text"
 msgstr ""
-"\"Aaaah étranger, vous avez de la chance. J'ai mis la main sssur du matériel"
-" de grande qualité, je sssens qui vous intéresssera grandement.\" Sylvain "
-"sort des armes de son vaisseau et vous les montre."
+"\"Aaaah étranger, vous zzavez de la chance. J'ai mis la main sssur du "
+"matériel de grande qualité, je sssens qui vous intéresssera grandement.\" "
+"Sylvain sort des armes de son vaisseau et vous les montre."
 
 #: src-en/data/events_sector_clan.xml:2507
 msgid ""
@@ -4146,9 +4140,9 @@ msgstr ""
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"SYLVAN_SALT_QUEST_ACCEPT\"]/text"
 msgstr ""
-"\"Ah ! Maintenant cccc'est génial, étranger ! Vous, les Renégats, ssssi "
-"fiables. Cccc'est pour çççça que je vous appréccccie, étranger. Maintenant, "
-"que diriez-vous d'un petit échange ?\""
+"\"Ah ! Maintenant cccc'est génial, étranger ! Vous, les Renégats, êtes ssssi"
+" fiables. Cccc'est pour çççça que je vous appréccccie, étranger. Maintenant,"
+" que diriez-vous d'un petit échange ?\""
 
 #: src-en/data/events_sector_clan.xml:2525
 msgid ""
@@ -4173,7 +4167,7 @@ msgid ""
 msgstr ""
 "\"Ah... oui, autant pour moi... je ne devrais pas mélanger travail et "
 "affaires persssonnelles, ouiii...\" Sylvain grimace, mais il garde son ton "
-"joyeux. \"Eh bien, que diriez-vous tout de même d'un échange, étranger?\""
+"joyeux. \"Eh bien, que diriez-vous tout de même d'un échange, étranger ?\""
 
 #: src-en/data/events_sector_clan.xml:2538
 msgid ""
@@ -4210,7 +4204,7 @@ msgid ""
 "data/events_sector_clan.xml$//ship[@name=\"SHIP_SALT_ABANDONED\"]/surrender/choice[1]/event/text"
 msgstr ""
 "\"Vous... oh... Il semblerait que j'ai commis une grave erreur dans mon "
-"jugement. Alors pourquoi êtes-vous là?\""
+"jugement. Alors pourquoi êtes-vous là ?\""
 
 #: src-en/data/events_sector_clan.xml:2559
 msgid ""
@@ -4251,8 +4245,8 @@ msgstr "Très bien..."
 msgid ""
 "data/events_sector_clan.xml$//ship[@name=\"SHIP_SALT_ABANDONED\"]/surrender/choice[2]/text"
 msgstr ""
-"Je n'allais pas vous tuer, mais tu m'as traité de moisissure pourrie, et ça,"
-" c'est pas cool."
+"Je n'allais pas vous tuer, mais tu m'as traité de moisissure pourrie et ça, "
+"c'est pas cool."
 
 #: src-en/data/events_sector_clan.xml:2586
 msgid ""
@@ -4288,7 +4282,7 @@ msgid ""
 "data/events_sector_clan.xml$//ship[@name=\"SHIP_SALT_ABANDONED_CHAOS\"]/surrender/choice[1]/event/text"
 msgstr ""
 "\"Vous... oh... Il semblerait que j'ai commis une grave erreur dans mon "
-"jugement. Alors pourquoi êtes-vous là?\""
+"jugement. Alors pourquoi êtes-vous là ?\""
 
 #: src-en/data/events_sector_clan.xml:2606
 msgid ""
@@ -4333,45 +4327,46 @@ msgstr ""
 
 #: src-en/data/events_sector_clan.xml:2636
 msgid ""
-"data/events_sector_clan.xml$//event[@name=\"NEBULA_SALT_QUEST\"]/beaconType/unvisitedTooltip"
-msgstr "Coordonnées données par Sylvain de l'emplacement présumé du Salineux."
+"data/events_sector_clan.xml$//event[@name=\"NEBULA_LIGHT_SALT_QUEST\"]/beaconType/unvisitedTooltip"
+msgstr "Coordonnées données par Sylvain de l'emplacement présumé du Salin."
 
 #: src-en/data/events_sector_clan.xml:2637
 msgid ""
-"data/events_sector_clan.xml$//event[@name=\"NEBULA_SALT_QUEST\"]/beaconType/visitedTooltip"
+"data/events_sector_clan.xml$//event[@name=\"NEBULA_LIGHT_SALT_QUEST\"]/beaconType/visitedTooltip"
 msgstr "Emplacement déjà exploré. Il n'y reste rien d'intéressant."
 
 #: src-en/data/events_sector_clan.xml:2645
-msgid "data/events_sector_clan.xml$//event[@name=\"NEBULA_SALT_QUEST\"]/text"
+msgid ""
+"data/events_sector_clan.xml$//event[@name=\"NEBULA_LIGHT_SALT_QUEST\"]/text"
 msgstr ""
 "À travers un dégagement dans la nébuleuse, vous tombez sur un énorme "
-"astéroïde cristallisé, mais ne trouvez rien du Salineux que vous recherchez."
-" Tout de même, c'est ici que Sylvain a dit qu'il devait être..."
+"astéroïde cristallisé, mais ne trouvez rien du Salin que vous recherchez. "
+"Tout de même, c'est ici que Sylvain a dit qu'il devait être..."
 
 #: src-en/data/events_sector_clan.xml:2650
 msgid ""
-"data/events_sector_clan.xml$//event[@name=\"NEBULA_SALT_QUEST\"]/choice[1]/text"
+"data/events_sector_clan.xml$//event[@name=\"NEBULA_LIGHT_SALT_QUEST\"]/choice[1]/text"
 msgstr ""
 "Le Salin n'est peut-être pas là, mais nous pouvons profiter de cet "
 "astéroïde."
 
 #: src-en/data/events_sector_clan.xml:2652
 msgid ""
-"data/events_sector_clan.xml$//event[@name=\"NEBULA_SALT_QUEST\"]/choice[1]/event/text"
+"data/events_sector_clan.xml$//event[@name=\"NEBULA_LIGHT_SALT_QUEST\"]/choice[1]/event/text"
 msgstr ""
 "Vous approchez l'astéroïde et êtes émerveillé à sa grande taille. Il est "
 "presque aussi gros que votre vaisseau ! C'est à ce moment que vous vous en "
-"rendez compte - C'EST un vaisseau ! Il reste inerte durant votre approche, "
-"et vous soupçonnez qu'il est vide."
+"rendez compte - C'EST un vaisseau ! Il reste inerte durant votre approche et"
+" vous soupçonnez qu'il est vide."
 
 #: src-en/data/events_sector_clan.xml:2655
 msgid ""
-"data/events_sector_clan.xml$//event[@name=\"NEBULA_SALT_QUEST\"]/choice[1]/event/choice[1]/text"
+"data/events_sector_clan.xml$//event[@name=\"NEBULA_LIGHT_SALT_QUEST\"]/choice[1]/event/choice[1]/text"
 msgstr "Tester votre théorie et envoyer l'équipage à bord."
 
 #: src-en/data/events_sector_clan.xml:2657
 msgid ""
-"data/events_sector_clan.xml$//event[@name=\"NEBULA_SALT_QUEST\"]/choice[1]/event/choice[1]/event/text"
+"data/events_sector_clan.xml$//event[@name=\"NEBULA_LIGHT_SALT_QUEST\"]/choice[1]/event/choice[1]/event/text"
 msgstr ""
 "Tout comme votre précédente théorie de l'astéroïde, il semblerait que celle "
 "du vaisseau vide soit également erronée. Un équipage réduit de plusieurs "
@@ -4383,22 +4378,22 @@ msgstr ""
 
 #: src-en/data/events_sector_clan.xml:2660
 msgid ""
-"data/events_sector_clan.xml$//event[@name=\"NEBULA_SALT_QUEST\"]/choice[1]/event/choice[1]/event/choice/text"
+"data/events_sector_clan.xml$//event[@name=\"NEBULA_LIGHT_SALT_QUEST\"]/choice[1]/event/choice[1]/event/choice/text"
 msgstr "Continuer..."
 
 #: src-en/data/events_sector_clan.xml:2666
 msgid ""
-"data/events_sector_clan.xml$//event[@name=\"NEBULA_SALT_QUEST\"]/choice[1]/event/choice[2]/text"
+"data/events_sector_clan.xml$//event[@name=\"NEBULA_LIGHT_SALT_QUEST\"]/choice[1]/event/choice[2]/text"
 msgstr "Cela ne vaut pas le risque, partons d'ici."
 
 #: src-en/data/events_sector_clan.xml:2672
 msgid ""
-"data/events_sector_clan.xml$//event[@name=\"NEBULA_SALT_QUEST\"]/choice[2]/text"
+"data/events_sector_clan.xml$//event[@name=\"NEBULA_LIGHT_SALT_QUEST\"]/choice[2]/text"
 msgstr "On dirait qu'il est parti, inutile de rester."
 
 #: src-en/data/events_sector_clan.xml:2674
 msgid ""
-"data/events_sector_clan.xml$//event[@name=\"NEBULA_SALT_QUEST\"]/choice[2]/event/text"
+"data/events_sector_clan.xml$//event[@name=\"NEBULA_LIGHT_SALT_QUEST\"]/choice[2]/event/text"
 msgstr ""
 "Cela ne ressemble pas à Sylvain de fournir de mauvaises informations, mais "
 "qu'est-ce que vous en savez. De toute façon, vous ignorez d'où il tire "
@@ -4406,57 +4401,56 @@ msgstr ""
 
 #: src-en/data/events_sector_clan.xml:2676
 msgid ""
-"data/events_sector_clan.xml$//event[@name=\"NEBULA_SALT_QUEST\"]/choice[2]/event/choice[1]/text"
+"data/events_sector_clan.xml$//event[@name=\"NEBULA_LIGHT_SALT_QUEST\"]/choice[2]/event/choice[1]/text"
 msgstr "Faire quelque chose à bord du vaisseau."
 
 #: src-en/data/events_sector_clan.xml:2680
 msgid ""
-"data/events_sector_clan.xml$//event[@name=\"NEBULA_SALT_QUEST\"]/choice[2]/event/choice[2]/text"
+"data/events_sector_clan.xml$//event[@name=\"NEBULA_LIGHT_SALT_QUEST\"]/choice[2]/event/choice[2]/text"
 msgstr "Ne rien faire."
 
 #: src-en/data/events_sector_clan.xml:2689
 msgid ""
-"data/events_sector_clan.xml$//event[@name=\"NEBULA_SALT_QUEST_CHAOS\"]/beaconType/unvisitedTooltip"
-msgstr ""
-"Coordonnées données par le gnome de l'emplacement présumé du Salineux."
+"data/events_sector_clan.xml$//event[@name=\"NEBULA_LIGHT_SALT_QUEST_CHAOS\"]/beaconType/unvisitedTooltip"
+msgstr "Coordonnées données par le gnome de l'emplacement présumé du Salin."
 
 #: src-en/data/events_sector_clan.xml:2690
 msgid ""
-"data/events_sector_clan.xml$//event[@name=\"NEBULA_SALT_QUEST_CHAOS\"]/beaconType/visitedTooltip"
+"data/events_sector_clan.xml$//event[@name=\"NEBULA_LIGHT_SALT_QUEST_CHAOS\"]/beaconType/visitedTooltip"
 msgstr "Emplacement déjà exploré. Il n'y reste rien d'intéressant."
 
 #: src-en/data/events_sector_clan.xml:2698
 msgid ""
-"data/events_sector_clan.xml$//event[@name=\"NEBULA_SALT_QUEST_CHAOS\"]/text"
+"data/events_sector_clan.xml$//event[@name=\"NEBULA_LIGHT_SALT_QUEST_CHAOS\"]/text"
 msgstr ""
 "À travers un dégagement dans la nébuleuse, vous tombez sur un énorme "
-"astéroïde cristallisé, mais ne trouvez rien du Salineux que vous recherchez."
-" Pourtant, c'est bien ici que les coordonnées nous ont menés..."
+"astéroïde cristallisé, mais ne trouvez rien du Salin que vous recherchez. "
+"Pourtant, c'est bien ici que les coordonnées nous ont menés..."
 
 #: src-en/data/events_sector_clan.xml:2703
 msgid ""
-"data/events_sector_clan.xml$//event[@name=\"NEBULA_SALT_QUEST_CHAOS\"]/choice[1]/text"
+"data/events_sector_clan.xml$//event[@name=\"NEBULA_LIGHT_SALT_QUEST_CHAOS\"]/choice[1]/text"
 msgstr ""
 "Le Salin n'est peut-être pas là, mais nous pouvons profiter de cet "
 "astéroïde."
 
 #: src-en/data/events_sector_clan.xml:2705
 msgid ""
-"data/events_sector_clan.xml$//event[@name=\"NEBULA_SALT_QUEST_CHAOS\"]/choice[1]/event/text"
+"data/events_sector_clan.xml$//event[@name=\"NEBULA_LIGHT_SALT_QUEST_CHAOS\"]/choice[1]/event/text"
 msgstr ""
 "Vous approchez l'astéroïde et êtes émerveillé à sa grande taille. Il est "
 "presque aussi gros que votre vaisseau ! C'est à ce moment que vous vous en "
-"rendez compte - C'EST un vaisseau ! Il reste inerte durant votre approche, "
-"et vous soupçonnez qu'il est vide."
+"rendez compte - C'EST un vaisseau ! Il reste inerte durant votre approche et"
+" vous soupçonnez qu'il est vide."
 
 #: src-en/data/events_sector_clan.xml:2709
 msgid ""
-"data/events_sector_clan.xml$//event[@name=\"NEBULA_SALT_QUEST_CHAOS\"]/choice[1]/event/choice[1]/text"
+"data/events_sector_clan.xml$//event[@name=\"NEBULA_LIGHT_SALT_QUEST_CHAOS\"]/choice[1]/event/choice[1]/text"
 msgstr "Tester votre théorie et envoyer l'équipage à bord."
 
 #: src-en/data/events_sector_clan.xml:2711
 msgid ""
-"data/events_sector_clan.xml$//event[@name=\"NEBULA_SALT_QUEST_CHAOS\"]/choice[1]/event/choice[1]/event/text"
+"data/events_sector_clan.xml$//event[@name=\"NEBULA_LIGHT_SALT_QUEST_CHAOS\"]/choice[1]/event/choice[1]/event/text"
 msgstr ""
 "Tout comme votre précédente théorie de l'astéroïde, il semblerait que celle "
 "du vaisseau vide soit également erronée. Un équipage réduit de plusieurs "
@@ -4468,22 +4462,22 @@ msgstr ""
 
 #: src-en/data/events_sector_clan.xml:2715
 msgid ""
-"data/events_sector_clan.xml$//event[@name=\"NEBULA_SALT_QUEST_CHAOS\"]/choice[1]/event/choice[1]/event/choice/text"
+"data/events_sector_clan.xml$//event[@name=\"NEBULA_LIGHT_SALT_QUEST_CHAOS\"]/choice[1]/event/choice[1]/event/choice/text"
 msgstr "Continuer..."
 
 #: src-en/data/events_sector_clan.xml:2721
 msgid ""
-"data/events_sector_clan.xml$//event[@name=\"NEBULA_SALT_QUEST_CHAOS\"]/choice[1]/event/choice[2]/text"
+"data/events_sector_clan.xml$//event[@name=\"NEBULA_LIGHT_SALT_QUEST_CHAOS\"]/choice[1]/event/choice[2]/text"
 msgstr "Cela ne vaut pas le risque, partons d'ici."
 
 #: src-en/data/events_sector_clan.xml:2727
 msgid ""
-"data/events_sector_clan.xml$//event[@name=\"NEBULA_SALT_QUEST_CHAOS\"]/choice[2]/text"
+"data/events_sector_clan.xml$//event[@name=\"NEBULA_LIGHT_SALT_QUEST_CHAOS\"]/choice[2]/text"
 msgstr "On dirait qu'il est parti, inutile de rester."
 
 #: src-en/data/events_sector_clan.xml:2729
 msgid ""
-"data/events_sector_clan.xml$//event[@name=\"NEBULA_SALT_QUEST_CHAOS\"]/choice[2]/event/text"
+"data/events_sector_clan.xml$//event[@name=\"NEBULA_LIGHT_SALT_QUEST_CHAOS\"]/choice[2]/event/text"
 msgstr ""
 "Cela ne ressemble pas à Sylvain de fournir de mauvaises informations, mais "
 "qu'est-ce que vous en savez. De toute façon, vous ignorez d'où il tire "
@@ -4491,12 +4485,12 @@ msgstr ""
 
 #: src-en/data/events_sector_clan.xml:2731
 msgid ""
-"data/events_sector_clan.xml$//event[@name=\"NEBULA_SALT_QUEST_CHAOS\"]/choice[2]/event/choice[1]/text"
+"data/events_sector_clan.xml$//event[@name=\"NEBULA_LIGHT_SALT_QUEST_CHAOS\"]/choice[2]/event/choice[1]/text"
 msgstr "Faire quelque chose à bord du vaisseau."
 
 #: src-en/data/events_sector_clan.xml:2735
 msgid ""
-"data/events_sector_clan.xml$//event[@name=\"NEBULA_SALT_QUEST_CHAOS\"]/choice[2]/event/choice[2]/text"
+"data/events_sector_clan.xml$//event[@name=\"NEBULA_LIGHT_SALT_QUEST_CHAOS\"]/choice[2]/event/choice[2]/text"
 msgstr "Ne rien faire."
 
 #: src-en/data/events_sector_clan.xml:2742
@@ -4540,7 +4534,7 @@ msgstr ""
 #: src-en/data/events_sector_clan.xml:2759
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"NEBULA_SALT_QUEST_2\"]/beaconType/unvisitedTooltip"
-msgstr "Le Salineux est détenu dans un centre de la Guilde."
+msgstr "Le Salin est détenu dans un centre de la Guilde."
 
 #: src-en/data/events_sector_clan.xml:2760
 msgid ""
@@ -4550,8 +4544,8 @@ msgstr "Emplacement déjà exploré. Il n'y reste rien d'intéressant."
 #: src-en/data/events_sector_clan.xml:2768
 msgid "data/events_sector_clan.xml$//event[@name=\"NEBULA_SALT_QUEST_2\"]/text"
 msgstr ""
-"Vous vous retrouvez à nouveau dans un dégagement, et apercevez une énorme "
-"baie. C'est plaisant à voir, et vous ignorez où la Guilde pourrait bien "
+"Vous vous retrouvez à nouveau dans un dégagement et apercevez une énorme "
+"baie. C'est plaisant à voir et vous ignorez où les Loubards pourraient bien "
 "cacher quelque chose d'aussi sinistre qu'un \"centre de dissection\"... "
 "jusqu'à ce que vous regardiez dans le ciel."
 
@@ -4565,8 +4559,8 @@ msgid ""
 "data/events_sector_clan.xml$//event[@name=\"NEBULA_SALT_QUEST_2\"]/choice/event/text"
 msgstr ""
 "En effet, l'installation est tellement grande qu'elle bloque presque tout le"
-" ciel perceptible, et pourtant le marché en-dessous grouille de vie comme "
-"s'il n'y avait pas cettte énorme installation lugubre flottant au-dessus."
+" ciel perceptible et pourtant le marché en-dessous grouille de vie comme "
+"s'il n'y avait pas cette énorme installation lugubre flottant au-dessus."
 
 #: src-en/data/events_sector_clan.xml:2775
 msgid ""
@@ -4582,9 +4576,8 @@ msgstr ""
 "Visiblement, votre brillante idée de vous rapprocher ne passe pas aussi bien"
 " que vous l'auriez espéré. Dès que vous frôlez la barrière du hangar pour le"
 " centre de dissection, un énorme canon Anti-Vaisseau intérieur pivote pour "
-"faire face à votre vaisseau, et plusieurs Chasseurs de la Guilde commençent "
-"à vous crier dessus. \"Qu'esss'tu fabriques là, minable ? T'as le droit "
-"d'être là ?\""
+"faire face à votre vaisseau et plusieurs Loubards commencent à vous crier "
+"dessus. \"Qu'esss'tu fabriques là, minable ? T'as le droit d'être là ?\""
 
 #: src-en/data/events_sector_clan.xml:2779
 msgid ""
@@ -4595,8 +4588,8 @@ msgstr "Bien sûr !"
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"NEBULA_SALT_QUEST_2\"]/choice/event/choice/event/choice[1]/event/text"
 msgstr ""
-"Le Slug prend un moment pour vous fixer droit dans les yeux. \"Alors, "
-"qu'essst-ccce qu'la devise d'la Guilde?\""
+"Le Loubard prend un moment pour vous fixer droit dans les yeux. \"Alors, "
+"qu'essst-ccce qu'la devise d'la Guilde ?\""
 
 #: src-en/data/events_sector_clan.xml:2783
 msgid ""
@@ -4617,20 +4610,20 @@ msgstr "Garde le sourire pour réussir !"
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"NEBULA_SALT_QUEST_2\"]/choice/event/choice/event/choice[1]/event/choice[4]/text"
 msgstr ""
-"Je pense que TU as oublié, et que tu me le demande juste pour ne pas "
-"paraître idiot."
+"Je pense que TU as oublié et que tu me le demande juste pour ne pas paraître"
+" idiot."
 
 #: src-en/data/events_sector_clan.xml:2797
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"NEBULA_SALT_QUEST_2\"]/choice/event/choice/event/choice[1]/event/choice[4]/event/text"
 msgstr ""
-"\"Quoi ? Qu'esst-ccce que tu racont-\" Le Chasseur est interrompu par l'un "
-"de ses amis. \"Il a raison Percccy, essst-ccce que TOI, tu connais la devise"
-" de la Guilde ?\" Le Chasseur bégaie. \"Et b-bien... je... euh- eh bien "
-"j'parie que tu ne le sssais pas non plus !\" L'autre amène son tentacule sur"
-" le dos de sa tête et se gratte nerveusement. \"Ouais... je sssuppose que "
-"t'as raison. Essst-ccce que quelqu'un iccci le sssait ?\" Toutes les autres "
-"Slugs dans la pièce se regardent l'une et l'autre, et agitent la tête."
+"\"Quoi ? Qu'esst-ccce que tu racont-\" Le Loubard est interrompu par l'un de"
+" ses amis. \"Il a raison Percccy, essst-ccce que TOI, tu connais la devise "
+"de la Guilde ?\" Le Loubard bégaie. \"Et b-bien... je... euh- eh bien "
+"j'parie que tu ne le sssais pas non plus !\" L'autre Loubard amène son "
+"tentacule sur le dos de sa tête et se gratte nerveusement. \"Ouais... je "
+"sssuppose que t'as raison. Essst-ccce que quelqu'un iccci le sssait ?\" Tous"
+" les autres Loubards dans la pièce se regardent et agitent la tête."
 
 #: src-en/data/events_sector_clan.xml:2799
 msgid ""
@@ -4641,7 +4634,7 @@ msgstr "Continuer..."
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"NEBULA_SALT_QUEST_2\"]/choice/event/choice/event/choice[1]/event/choice[4]/event/choice/event/text"
 msgstr ""
-"Le Chasseur présumément connu sous le nom de Percy se retourne vers vous à "
+"Le Loubard présumément connu sous le nom de Percy se retourne vers vous à "
 "nouveau. \"Ah, eh bien. J'penssse qu'il va falloir que l'on trouve une "
 "meilleure quessstion d'entrée à l'avenir. Ççça ira pour cccette fois.\""
 
@@ -4660,8 +4653,8 @@ msgid ""
 "data/events_sector_clan.xml$//event[@name=\"NEBULA_SALT_QUEST_2\"]/choice/event/choice/event/choice[@req=\"mind\"]/event/text"
 msgstr ""
 "Visiblement, vous avez eu l'idée spectaculaire de vouloir contrôler "
-"mentalement... des Slugs télépathes. Le canon fait un trou dans votre "
-"vaisseau, et vous êtes contraints d'atterrir, accueilli par une équipe de "
+"mentalement... des Limaces télépathes. Le canon fait un trou dans votre "
+"vaisseau et vous êtes contraints d'atterrir, accueilli par une équipe de "
 "gardes en colère."
 
 #: src-en/data/events_sector_clan.xml:2818
@@ -4671,196 +4664,212 @@ msgstr "Continuer..."
 
 #: src-en/data/events_sector_clan.xml:2824
 msgid ""
-"data/events_sector_clan.xml$//event[@name=\"NEBULA_SALT_QUEST_2\"]/choice/event/choice/event/choice[@req=\"LIST_CREW_CLAN\"]/text"
-msgstr "(Membre d'équipage de la Guilde) \"Bien sssûr!\""
+"data/events_sector_clan.xml$//event[@name=\"NEBULA_SALT_QUEST_2\"]/choice/event/choice/event/choice[@req=\"BLUELIST_WEAPONS_MIND_CONTROL\"]/text"
+msgstr "(Arme de contrôle mental) Bien sûr !"
 
 #: src-en/data/events_sector_clan.xml:2826
 msgid ""
+"data/events_sector_clan.xml$//event[@name=\"NEBULA_SALT_QUEST_2\"]/choice/event/choice/event/choice[@req=\"BLUELIST_WEAPONS_MIND_CONTROL\"]/event/text"
+msgstr ""
+"Visiblement, vous avez eu l'idée spectaculaire de vouloir contrôler "
+"mentalement... des Limaces télépathes. Le canon fait un trou dans votre "
+"vaisseau et vous êtes contraints d'atterrir, accueilli par une équipe de "
+"gardes en colère."
+
+#: src-en/data/events_sector_clan.xml:2829
+msgid ""
+"data/events_sector_clan.xml$//event[@name=\"NEBULA_SALT_QUEST_2\"]/choice/event/choice/event/choice[@req=\"BLUELIST_WEAPONS_MIND_CONTROL\"]/event/choice/text"
+msgstr "Continuer..."
+
+#: src-en/data/events_sector_clan.xml:2835
+msgid ""
+"data/events_sector_clan.xml$//event[@name=\"NEBULA_SALT_QUEST_2\"]/choice/event/choice/event/choice[@req=\"LIST_CREW_CLAN\"]/text"
+msgstr "(Membre d'équipage Loubard) \"Bien sssûr !\""
+
+#: src-en/data/events_sector_clan.xml:2837
+msgid ""
 "data/events_sector_clan.xml$//event[@name=\"NEBULA_SALT_QUEST_2\"]/choice/event/choice/event/choice[@req=\"LIST_CREW_CLAN\"]/event/text"
 msgstr ""
-"Votre Chasseur Exotique dégage un sourire et sort sa carte de membre. Cela "
-"paie toujours d'avoir des connections aux bons endroits. Ou... aux mauvais "
+"Votre Loubard dégage un sourire et sort sa carte de membre. Cela paie "
+"toujours d'avoir des connections aux bons endroits. Ou... aux mauvais "
 "endroits."
 
-#: src-en/data/events_sector_clan.xml:2828
+#: src-en/data/events_sector_clan.xml:2839
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"NEBULA_SALT_QUEST_2\"]/choice/event/choice/event/choice[@req=\"LIST_CREW_CLAN\"]/event/choice/text"
 msgstr "Continuer..."
 
-#: src-en/data/events_sector_clan.xml:2834
+#: src-en/data/events_sector_clan.xml:2845
 msgid ""
-"data/events_sector_clan.xml$//event[@name=\"NEBULA_SALT_QUEST_2\"]/choice/event/choice/event/choice[4]/text"
+"data/events_sector_clan.xml$//event[@name=\"NEBULA_SALT_QUEST_2\"]/choice/event/choice/event/choice[5]/text"
 msgstr "Nan."
 
-#: src-en/data/events_sector_clan.xml:2836
+#: src-en/data/events_sector_clan.xml:2847
 msgid ""
-"data/events_sector_clan.xml$//event[@name=\"NEBULA_SALT_QUEST_2\"]/choice/event/choice/event/choice[4]/event/text"
+"data/events_sector_clan.xml$//event[@name=\"NEBULA_SALT_QUEST_2\"]/choice/event/choice/event/choice[5]/event/text"
 msgstr ""
-"Le Slug soupire. \"Eh bien, au moins t'es honnête.\" Une équipe de gardes de"
-" la Guilde s'invite dans votre vaisseau."
-
-#: src-en/data/events_sector_clan.xml:2838
-msgid ""
-"data/events_sector_clan.xml$//event[@name=\"NEBULA_SALT_QUEST_2\"]/choice/event/choice/event/choice[4]/event/choice/text"
-msgstr "Continuer..."
+"Le Loubard soupire. \"Eh bien, au moins t'es honnête.\" Une équipe de "
+"Loubards s'invite dans votre vaisseau."
 
 #: src-en/data/events_sector_clan.xml:2849
+msgid ""
+"data/events_sector_clan.xml$//event[@name=\"NEBULA_SALT_QUEST_2\"]/choice/event/choice/event/choice[5]/event/choice/text"
+msgstr "Continuer..."
+
+#: src-en/data/events_sector_clan.xml:2860
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"SALT_QUEST_2_MOTTO_WRONG\"]/text"
 msgstr ""
 "\"Cccc'est plutôt bon. Mais cccc'est aussssi faux. Tu mens comme un "
 "arracheur de dents, cccc'est clair comme le jour.\""
 
-#: src-en/data/events_sector_clan.xml:2851
+#: src-en/data/events_sector_clan.xml:2862
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"SALT_QUEST_2_MOTTO_WRONG\"]/choice/text"
 msgstr "Non, c'est toi qui ment."
 
-#: src-en/data/events_sector_clan.xml:2853
+#: src-en/data/events_sector_clan.xml:2864
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"SALT_QUEST_2_MOTTO_WRONG\"]/choice/event/text"
 msgstr ""
-"\"Eugh, j'ai pas le temps pour ççça.\" Le Chasseur fait signe à une équipe "
-"de gardes pour monter sur votre vaisseau."
+"\"Eugh, j'ai pas le temps pour ççça.\" Le Loubard fait signe à une équipe de"
+" gardes pour monter sur votre vaisseau."
 
-#: src-en/data/events_sector_clan.xml:2855
+#: src-en/data/events_sector_clan.xml:2866
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"SALT_QUEST_2_MOTTO_WRONG\"]/choice/event/choice/text"
 msgstr "Continuer..."
 
-#: src-en/data/events_sector_clan.xml:2862
+#: src-en/data/events_sector_clan.xml:2873
 msgid "data/events_sector_clan.xml$//event[@name=\"SALT_QUEST_2_STUPID\"]/text"
 msgstr ""
-"Plusieurs Chasseurs fouillent votre vaisseau, à la recherche de toute chose "
+"Plusieurs Loubards fouillent votre vaisseau, à la recherche de toute chose "
 "suspecte. Vous attendez nerveusement qu'ils en finissent."
 
-#: src-en/data/events_sector_clan.xml:2864
+#: src-en/data/events_sector_clan.xml:2875
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"SALT_QUEST_2_STUPID\"]/choice/text"
 msgstr "Attendre la fin de leur inspection."
 
-#: src-en/data/events_sector_clan.xml:2866
+#: src-en/data/events_sector_clan.xml:2877
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"SALT_QUEST_2_STUPID\"]/choice/event/text"
 msgstr ""
 "Par chance, ceux-ci ne s'intéressent pas à vos possessions militaires, mais "
 "même en ayant passé l'inspection, cela ne compense pas votre manque de "
-"permis pour accéder à l'installation. Les Chasseurs vous font une "
-"proposition, ceux-ci étant visiblements ignorants à vos intentions une fois "
-"à l'intérieur. Ils vous offrent un pass de membre \"temporaire\" pour 25 "
+"permis pour accéder à l'installation. Les Loubards vous font une "
+"proposition, ceux-ci étant visiblement ignorants à vos intentions une fois à"
+" l'intérieur. Ils vous offrent une carte de membre \"temporaire\" pour 25 "
 "ferraille."
 
-#: src-en/data/events_sector_clan.xml:2868
+#: src-en/data/events_sector_clan.xml:2879
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"SALT_QUEST_2_STUPID\"]/choice/event/choice[1]/text"
 msgstr "Acheter le pass."
 
-#: src-en/data/events_sector_clan.xml:2870
+#: src-en/data/events_sector_clan.xml:2881
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"SALT_QUEST_2_STUPID\"]/choice/event/choice[1]/event/text"
 msgstr ""
 "Vous vous doutez bien que cela n'est ni officiel, ni conformes aux "
-"protocoles de la Guilde, et que toute cette ferraille partira uniquement au "
-"compte de ces Slugs. Cependant, cela vous débarasse désormais des éventuels "
-"problèmes d'entrée - ou au moins, jusqu'à ce que vous libériez le Salin."
+"protocoles de la Guilde et que toute cette ferraille partira uniquement dans"
+" les poches de ces Limaces. Cependant, cela vous débarrasse désormais des "
+"éventuels problèmes d'entrée - ou au moins, jusqu'à ce que vous libériez le "
+"Salin."
 
-#: src-en/data/events_sector_clan.xml:2875
+#: src-en/data/events_sector_clan.xml:2886
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"SALT_QUEST_2_STUPID\"]/choice/event/choice[1]/event/choice/text"
 msgstr "Continuer..."
 
-#: src-en/data/events_sector_clan.xml:2881
+#: src-en/data/events_sector_clan.xml:2892
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"SALT_QUEST_2_STUPID\"]/choice/event/choice[2]/text"
 msgstr "Refuser."
 
-#: src-en/data/events_sector_clan.xml:2883
+#: src-en/data/events_sector_clan.xml:2894
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"SALT_QUEST_2_STUPID\"]/choice/event/choice[2]/event/text"
 msgstr ""
 "Vous ne comptez pas payer, ce qui signifie que votre voyage prend fin ici."
 
-#: src-en/data/events_sector_clan.xml:2892
+#: src-en/data/events_sector_clan.xml:2903
 msgid ""
 "data/events_sector_clan.xml$//ship[@name=\"SHIP_CLAN_CRUISER\"]/destroyed/text"
 msgstr ""
-"Vous avez éliminé le croiseur des Chasseurs Exotiques, mais vous n'avez pas "
-"le temps de célébrer. Un autre croiseur saute à proximité, suivi d'un autre,"
-" et encore un autre, et une flotte encore plus grande des Hommes de main "
-"derrière eux ! Il est impossible que vous puissiez éliminer TOUS ces "
-"vaisseaux..."
+"Vous avez éliminé le croiseur du Loubard, mais vous n'avez pas le temps de "
+"célébrer. Un autre croiseur saute à proximité, suivi d'un autre et encore un"
+" autre et une flotte encore plus grande des Loubards derrière eux ! Il est "
+"impossible que vous puissiez éliminer TOUS ces vaisseaux..."
 
-#: src-en/data/events_sector_clan.xml:2894
+#: src-en/data/events_sector_clan.xml:2905
 msgid ""
 "data/events_sector_clan.xml$//ship[@name=\"SHIP_CLAN_CRUISER\"]/destroyed/choice/text"
 msgstr "Oh purée..."
 
-#: src-en/data/events_sector_clan.xml:2899
+#: src-en/data/events_sector_clan.xml:2910
 msgid ""
 "data/events_sector_clan.xml$//ship[@name=\"SHIP_CLAN_CRUISER\"]/deadCrew/text"
 msgstr ""
-"Vous avez éliminé le croiseur des Chasseurs Exotiques, mais vous n'avez pas "
-"le temps de célébrer. Un autre croiseur saute à proximité, suivi d'un autre,"
-" et encore un autre, et une flotte encore plus grande des Hommes de main "
-"derrière eux ! Il est impossible que vous puissiez éliminer TOUS ces "
-"vaisseaux..."
+"Vous avez éliminé le croiseur du loubard, mais vous n'avez pas le temps de "
+"célébrer. Un autre croiseur saute à proximité, suivi d'un autre et encore un"
+" autre et une flotte encore plus grande des Loubards derrière eux ! Il est "
+"impossible que vous puissiez éliminer TOUS ces vaisseaux..."
 
-#: src-en/data/events_sector_clan.xml:2901
+#: src-en/data/events_sector_clan.xml:2912
 msgid ""
 "data/events_sector_clan.xml$//ship[@name=\"SHIP_CLAN_CRUISER\"]/deadCrew/choice/text"
 msgstr "Oh purée..."
 
-#: src-en/data/events_sector_clan.xml:2908
+#: src-en/data/events_sector_clan.xml:2919
 msgid ""
 "data/events_sector_clan.xml$//ship[@name=\"SHIP_CLAN_CRUISER_CHAOS\"]/destroyed/text"
 msgstr ""
-"Vous avez éliminé le croiseur des Chasseurs Exotiques, mais vous n'avez pas "
-"le temps de célébrer. Un autre croiseur saute à proximité, suivi d'un autre,"
-" et encore un autre, et une flotte encore plus grande des Hommes de main "
-"derrière eux ! Il est impossible que vous puissiez éliminer TOUS ces "
-"vaisseaux..."
+"Vous avez éliminé le croiseur du loubard, mais vous n'avez pas le temps de "
+"célébrer. Un autre croiseur saute à proximité, suivi d'un autre et encore un"
+" autre et une flotte encore plus grande des Loubards derrière eux ! Il est "
+"impossible que vous puissiez éliminer TOUS ces vaisseaux..."
 
-#: src-en/data/events_sector_clan.xml:2910
+#: src-en/data/events_sector_clan.xml:2921
 msgid ""
 "data/events_sector_clan.xml$//ship[@name=\"SHIP_CLAN_CRUISER_CHAOS\"]/destroyed/choice/text"
 msgstr "Oh purée..."
 
-#: src-en/data/events_sector_clan.xml:2915
+#: src-en/data/events_sector_clan.xml:2926
 msgid ""
 "data/events_sector_clan.xml$//ship[@name=\"SHIP_CLAN_CRUISER_CHAOS\"]/deadCrew/text"
 msgstr ""
-"Vous avez éliminé le croiseur des Chasseurs Exotiques, mais vous n'avez pas "
-"le temps de célébrer. Un autre croiseur saute à proximité, suivi d'un autre,"
-" et encore un autre, et une flotte encore plus grande des Hommes de main "
-"derrière eux ! Il est impossible que vous puissiez éliminer TOUS ces "
-"vaisseaux..."
+"Vous avez éliminé le croiseur du loubard, mais vous n'avez pas le temps de "
+"célébrer. Un autre croiseur saute à proximité, suivi d'un autre et encore un"
+" autre et une flotte encore plus grande des Loubards derrière eux ! Il est "
+"impossible que vous puissiez éliminer TOUS ces vaisseaux..."
 
-#: src-en/data/events_sector_clan.xml:2917
+#: src-en/data/events_sector_clan.xml:2928
 msgid ""
 "data/events_sector_clan.xml$//ship[@name=\"SHIP_CLAN_CRUISER_CHAOS\"]/deadCrew/choice/text"
 msgstr "Oh purée..."
 
-#: src-en/data/events_sector_clan.xml:2929
+#: src-en/data/events_sector_clan.xml:2940
 msgid ""
 "data/events_sector_clan.xml$/FTL/event[@name=\"SALT_QUEST_2_SUCCESS_NORMAL\"]/text"
 msgstr ""
 "Vous avez enfin trouvé votre chemin jusqu'à la cellule de prison, étiquetée "
 "\"Conteneur de Créatures Exotiques\". Vous abattez quelques gardes en "
 "chemin, récupérant une carte magnétique sur l'un d'eux que vous utilisez "
-"pour déverrouiller la cellule du Salineux, où vous découvrez une énorme "
+"pour déverrouiller la cellule du Salin, où vous découvrez une énorme "
 "créature grise adossée à un mur comme si elle vous attendait. \"Je vais "
 "tenter ma chance et dire que vous n'êtes pas avec la Guilde, étant donné que"
 " cette substance verte sur votre poitrine semble appartenir à quelqu'un "
 "d'autre.\" Il tend sa main massive. \"Mon nom est Obyn, bien que la plupart "
-"m'appellent 'Salineux'. Profitez de la vue pendant que vous le pouvez, je ne"
-" suis pas une vision que l'on voit souvent.\""
+"m'appellent 'Salin'. Profitez de la vue pendant que vous le pouvez, je ne "
+"suis pas une vision que l'on voit souvent.\""
 
-#: src-en/data/events_sector_clan.xml:2931
+#: src-en/data/events_sector_clan.xml:2942
 msgid ""
 "data/events_sector_clan.xml$/FTL/event[@name=\"SALT_QUEST_2_SUCCESS_NORMAL\"]/choice/text"
 msgstr "Vous avez juste, c'est Sylvain qui nous a envoyé vous chercher."
 
-#: src-en/data/events_sector_clan.xml:2933
+#: src-en/data/events_sector_clan.xml:2944
 msgid ""
 "data/events_sector_clan.xml$/FTL/event[@name=\"SALT_QUEST_2_SUCCESS_NORMAL\"]/choice/event/text"
 msgstr ""
@@ -4868,26 +4877,26 @@ msgstr ""
 "itinérant ? C'est bien lui ?\" Le Salin semble être à la fois excité et "
 "réservé sur cette révélation."
 
-#: src-en/data/events_sector_clan.xml:2935
+#: src-en/data/events_sector_clan.xml:2946
 msgid ""
 "data/events_sector_clan.xml$/FTL/event[@name=\"SALT_QUEST_2_SUCCESS_NORMAL\"]/choice/event/choice/text"
 msgstr ""
 "Ouais, celui là. Avec le grand vaisseau sinistre qui proclame \"étranger\" "
 "beaucoup."
 
-#: src-en/data/events_sector_clan.xml:2937
+#: src-en/data/events_sector_clan.xml:2948
 msgid ""
 "data/events_sector_clan.xml$/FTL/event[@name=\"SALT_QUEST_2_SUCCESS_NORMAL\"]/choice/event/choice/event/text"
 msgstr ""
 "\"Mon très cher est ici ? Oh bonté, je suis à peine prêt pour une telle "
 "réunion... Je- attendez, mais où est-il alors ?\""
 
-#: src-en/data/events_sector_clan.xml:2939
+#: src-en/data/events_sector_clan.xml:2950
 msgid ""
 "data/events_sector_clan.xml$/FTL/event[@name=\"SALT_QUEST_2_SUCCESS_NORMAL\"]/choice/event/choice/event/choice/text"
 msgstr "Oh... eh bien en fait, il n'est pas ici."
 
-#: src-en/data/events_sector_clan.xml:2941
+#: src-en/data/events_sector_clan.xml:2952
 msgid ""
 "data/events_sector_clan.xml$/FTL/event[@name=\"SALT_QUEST_2_SUCCESS_NORMAL\"]/choice/event/choice/event/choice/event/text"
 msgstr ""
@@ -4895,17 +4904,17 @@ msgstr ""
 "que plusieurs années à se battre côte à côte, à être amis et plus encore, à "
 "se cacher parmi un tas de lézards et à voir la galaxie ? Tout va bien "
 "jusqu'à ce que tu veuilles entreprendre une quête pour retrouver le reste de"
-" ton espèce, et tout à coup, c'est l'heure de la rupture. Ce petit tas de "
+" ton espèce et tout à coup, c'est l'heure de la rupture. Ce petit tas de "
 "boue est trop lâche pour abandonner sa petite vie confortable à vendre des "
 "armes à des clochards meurtriers, donc bien sûr, il ne peut même pas me "
 "montrer son visage depuis les 6 dernières années !\""
 
-#: src-en/data/events_sector_clan.xml:2943
+#: src-en/data/events_sector_clan.xml:2954
 msgid ""
 "data/events_sector_clan.xml$/FTL/event[@name=\"SALT_QUEST_2_SUCCESS_NORMAL\"]/choice/event/choice/event/choice/event/choice/text"
 msgstr "Calmez-vous, nous devons d'abord vous sortir d'ici."
 
-#: src-en/data/events_sector_clan.xml:2945
+#: src-en/data/events_sector_clan.xml:2956
 msgid ""
 "data/events_sector_clan.xml$/FTL/event[@name=\"SALT_QUEST_2_SUCCESS_NORMAL\"]/choice/event/choice/event/choice/event/choice/event/text"
 msgstr ""
@@ -4918,13 +4927,13 @@ msgstr ""
 "débrouillé pour entrer, mais je doute que la Guilde nous laisse partir comme"
 " ça.\""
 
-#: src-en/data/events_sector_clan.xml:2947
+#: src-en/data/events_sector_clan.xml:2958
 msgid ""
 "data/events_sector_clan.xml$/FTL/event[@name=\"SALT_QUEST_2_SUCCESS_NORMAL\"]/choice/event/choice/event/choice/event/choice/event/choice[@req=\"LIST_CHECK_ANY_CREW\""
 " and @lvl=\"1\"]/text"
 msgstr "Continuer..."
 
-#: src-en/data/events_sector_clan.xml:2949
+#: src-en/data/events_sector_clan.xml:2960
 msgid ""
 "data/events_sector_clan.xml$/FTL/event[@name=\"SALT_QUEST_2_SUCCESS_NORMAL\"]/choice/event/choice/event/choice/event/choice/event/choice[@req=\"LIST_CHECK_ANY_CREW\""
 " and @lvl=\"1\"]/event/text"
@@ -4933,29 +4942,29 @@ msgstr ""
 "hangar où votre vaisseau est retenu. Vous montez à bord en hâte et décollez "
 "de l'énorme installation, puis vous redescendez vers le marché. Vous "
 "commencez à penser que vous pourriez en fait sortir d'ici sans combat, "
-"lorsque soudain un croiseur des Chasseurs Exotiques surgit de nulle part ! "
-"\"Ah, vous voilà, petites gouttes fécales ! Voler à la Guilde ne vous mènera"
-" qu'à un sssseul endroit ! Une tombe peu profonde !\""
+"lorsque soudain un croiseur Loubard surgit de nulle part ! \"Ah, vous voilà,"
+" petites gouttes fécales ! Voler à la Guilde ne vous mènera qu'à un sssseul "
+"endroit ! Une tombe peu profonde !\""
 
-#: src-en/data/events_sector_clan.xml:2951
+#: src-en/data/events_sector_clan.xml:2962
 msgid ""
 "data/events_sector_clan.xml$/FTL/event[@name=\"SALT_QUEST_2_SUCCESS_NORMAL\"]/choice/event/choice/event/choice/event/choice/event/choice[@req=\"LIST_CHECK_ANY_CREW\""
 " and @lvl=\"1\"]/event/crewMember"
 msgstr "Obyn"
 
-#: src-en/data/events_sector_clan.xml:2954
+#: src-en/data/events_sector_clan.xml:2965
 msgid ""
 "data/events_sector_clan.xml$/FTL/event[@name=\"SALT_QUEST_2_SUCCESS_NORMAL\"]/choice/event/choice/event/choice/event/choice/event/choice[@req=\"LIST_CHECK_ANY_CREW\""
 " and @lvl=\"1\"]/event/choice/text"
 msgstr "Continuer..."
 
-#: src-en/data/events_sector_clan.xml:2960
+#: src-en/data/events_sector_clan.xml:2971
 msgid ""
 "data/events_sector_clan.xml$/FTL/event[@name=\"SALT_QUEST_2_SUCCESS_NORMAL\"]/choice/event/choice/event/choice/event/choice/event/choice[@req=\"LIST_CHECK_ANY_CREW\""
 " and @lvl=\"0\"]/text"
 msgstr "Continuer..."
 
-#: src-en/data/events_sector_clan.xml:2962
+#: src-en/data/events_sector_clan.xml:2973
 msgid ""
 "data/events_sector_clan.xml$/FTL/event[@name=\"SALT_QUEST_2_SUCCESS_NORMAL\"]/choice/event/choice/event/choice/event/choice/event/choice[@req=\"LIST_CHECK_ANY_CREW\""
 " and @lvl=\"0\"]/event/text"
@@ -4964,55 +4973,55 @@ msgstr ""
 "hangar où votre vaisseau est retenu. Vous montez à bord en hâte et décollez "
 "de l'énorme installation, puis vous redescendez vers le marché. Vous "
 "commencez à penser que vous pourriez en fait sortir d'ici sans combat, "
-"lorsque soudain un croiseur des Chasseurs Exotiques surgit de nulle part ! "
-"\"Ah, vous voilà, petites gouttes fécales ! Voler à la Guilde ne vous mènera"
-" qu'à un sssseul endroit ! Une tombe peu profonde !\""
+"lorsque soudain un croiseur Loubard surgit de nulle part ! \"Ah, vous voilà,"
+" petites gouttes fécales ! Voler à la Guilde ne vous mènera qu'à un sssseul "
+"endroit ! Une tombe peu profonde !\""
 
-#: src-en/data/events_sector_clan.xml:2963
+#: src-en/data/events_sector_clan.xml:2974
 msgid ""
 "data/events_sector_clan.xml$/FTL/event[@name=\"SALT_QUEST_2_SUCCESS_NORMAL\"]/choice/event/choice/event/choice/event/choice/event/choice[@req=\"LIST_CHECK_ANY_CREW\""
 " and @lvl=\"0\"]/event/crewMember"
 msgstr "Obyn"
 
-#: src-en/data/events_sector_clan.xml:2966
+#: src-en/data/events_sector_clan.xml:2977
 msgid ""
 "data/events_sector_clan.xml$/FTL/event[@name=\"SALT_QUEST_2_SUCCESS_NORMAL\"]/choice/event/choice/event/choice/event/choice/event/choice[@req=\"LIST_CHECK_ANY_CREW\""
 " and @lvl=\"0\"]/event/choice/text"
 msgstr "Continuer..."
 
-#: src-en/data/events_sector_clan.xml:2989
+#: src-en/data/events_sector_clan.xml:3000
 msgid ""
 "data/events_sector_clan.xml$/FTL/event[@name=\"SALT_QUEST_2_SUCCESS_CHAOS\"]/text"
 msgstr ""
 "Vous avez enfin trouvé votre chemin jusqu'à la cellule de prison, étiquetée "
 "\"Conteneur de Créatures Exotiques\". Vous abattez quelques gardes en "
 "chemin, récupérant une carte magnétique sur l'un d'eux que vous utilisez "
-"pour déverrouiller la cellule du Salineux, où vous découvrez une énorme "
+"pour déverrouiller la cellule du Salin, où vous découvrez une énorme "
 "créature grise adossée à un mur comme si elle vous attendait. \"Je vais "
 "tenter ma chance et dire que vous n'êtes pas avec la Guilde, étant donné que"
 " cette substance verte sur votre poitrine semble appartenir à quelqu'un "
 "d'autre.\" Il tend sa main massive. \"Mon nom est Obyn, bien que la plupart "
-"m'appellent 'Salineux'. Profitez de la vue pendant que vous le pouvez, je ne"
-" suis pas une vision que l'on voit souvent.\""
+"m'appellent 'Salin'. Profitez de la vue pendant que vous le pouvez, je ne "
+"suis pas une vision que l'on voit souvent.\""
 
-#: src-en/data/events_sector_clan.xml:2991
+#: src-en/data/events_sector_clan.xml:3002
 msgid ""
 "data/events_sector_clan.xml$/FTL/event[@name=\"SALT_QUEST_2_SUCCESS_CHAOS\"]/choice/text"
 msgstr ""
 "Je pense que vous avez raison. À moins que ce gnome ne travaille pour la "
 "Guilde."
 
-#: src-en/data/events_sector_clan.xml:2993
+#: src-en/data/events_sector_clan.xml:3004
 msgid ""
 "data/events_sector_clan.xml$/FTL/event[@name=\"SALT_QUEST_2_SUCCESS_CHAOS\"]/choice/event/text"
 msgstr "\"Le... quoi ? Quel gnome ? Qu'est ce donc un satané 'gnome' ?\""
 
-#: src-en/data/events_sector_clan.xml:2995
+#: src-en/data/events_sector_clan.xml:3006
 msgid ""
 "data/events_sector_clan.xml$/FTL/event[@name=\"SALT_QUEST_2_SUCCESS_CHAOS\"]/choice/event/choice/text"
 msgstr "Montrez-lui le gnome."
 
-#: src-en/data/events_sector_clan.xml:2997
+#: src-en/data/events_sector_clan.xml:3008
 msgid ""
 "data/events_sector_clan.xml$/FTL/event[@name=\"SALT_QUEST_2_SUCCESS_CHAOS\"]/choice/event/choice/event/text"
 msgstr ""
@@ -5027,13 +5036,13 @@ msgstr ""
 "débrouillé pour entrer, mais je doute que la Guilde nous laisse partir comme"
 " ça.\""
 
-#: src-en/data/events_sector_clan.xml:3000
+#: src-en/data/events_sector_clan.xml:3011
 msgid ""
 "data/events_sector_clan.xml$/FTL/event[@name=\"SALT_QUEST_2_SUCCESS_CHAOS\"]/choice/event/choice/event/choice[@req=\"LIST_CHECK_ANY_CREW\""
 " and @lvl=\"1\"]/text"
 msgstr "Continuer..."
 
-#: src-en/data/events_sector_clan.xml:3002
+#: src-en/data/events_sector_clan.xml:3013
 msgid ""
 "data/events_sector_clan.xml$/FTL/event[@name=\"SALT_QUEST_2_SUCCESS_CHAOS\"]/choice/event/choice/event/choice[@req=\"LIST_CHECK_ANY_CREW\""
 " and @lvl=\"1\"]/event/text"
@@ -5042,29 +5051,29 @@ msgstr ""
 "hangar où votre vaisseau est retenu. Vous montez à bord en hâte et décollez "
 "de l'énorme installation, puis vous redescendez vers le marché. Vous "
 "commencez à penser que vous pourriez en fait sortir d'ici sans combat, "
-"lorsque soudain un croiseur des Chasseurs Exotiques surgit de nulle part ! "
-"\"Ah, vous voilà, petites gouttes fécales ! Voler à la Guilde ne vous mènera"
-" qu'à un sssseul endroit ! Une tombe peu profonde !\""
+"lorsque soudain un croiseur Loubard surgit de nulle part ! \"Ah, vous voilà,"
+" petites gouttes fécales ! Voler à la Guilde ne vous mènera qu'à un sssseul "
+"endroit ! Une tombe peu profonde !\""
 
-#: src-en/data/events_sector_clan.xml:3004
+#: src-en/data/events_sector_clan.xml:3015
 msgid ""
 "data/events_sector_clan.xml$/FTL/event[@name=\"SALT_QUEST_2_SUCCESS_CHAOS\"]/choice/event/choice/event/choice[@req=\"LIST_CHECK_ANY_CREW\""
 " and @lvl=\"1\"]/event/crewMember"
 msgstr "Obyn"
 
-#: src-en/data/events_sector_clan.xml:3007
+#: src-en/data/events_sector_clan.xml:3018
 msgid ""
 "data/events_sector_clan.xml$/FTL/event[@name=\"SALT_QUEST_2_SUCCESS_CHAOS\"]/choice/event/choice/event/choice[@req=\"LIST_CHECK_ANY_CREW\""
 " and @lvl=\"1\"]/event/choice/text"
 msgstr "Continuer..."
 
-#: src-en/data/events_sector_clan.xml:3013
+#: src-en/data/events_sector_clan.xml:3024
 msgid ""
 "data/events_sector_clan.xml$/FTL/event[@name=\"SALT_QUEST_2_SUCCESS_CHAOS\"]/choice/event/choice/event/choice[@req=\"LIST_CHECK_ANY_CREW\""
 " and @lvl=\"0\"]/text"
 msgstr "Continuer..."
 
-#: src-en/data/events_sector_clan.xml:3015
+#: src-en/data/events_sector_clan.xml:3026
 msgid ""
 "data/events_sector_clan.xml$/FTL/event[@name=\"SALT_QUEST_2_SUCCESS_CHAOS\"]/choice/event/choice/event/choice[@req=\"LIST_CHECK_ANY_CREW\""
 " and @lvl=\"0\"]/event/text"
@@ -5073,23 +5082,23 @@ msgstr ""
 "hangar où votre vaisseau est retenu. Vous montez à bord en hâte et décollez "
 "de l'énorme installation, puis vous redescendez vers le marché. Vous "
 "commencez à penser que vous pourriez en fait sortir d'ici sans combat, "
-"lorsque soudain un croiseur des Chasseurs Exotiques surgit de nulle part ! "
-"\"Ah, vous voilà, petites gouttes fécales ! Voler à la Guilde ne vous mènera"
-" qu'à un sssseul endroit ! Une tombe peu profonde !\""
+"lorsque soudain un croiseur Loubard surgit de nulle part ! \"Ah, vous voilà,"
+" petites gouttes fécales ! Voler à la Guilde ne vous mènera qu'à un sssseul "
+"endroit ! Une tombe peu profonde !\""
 
-#: src-en/data/events_sector_clan.xml:3016
+#: src-en/data/events_sector_clan.xml:3027
 msgid ""
 "data/events_sector_clan.xml$/FTL/event[@name=\"SALT_QUEST_2_SUCCESS_CHAOS\"]/choice/event/choice/event/choice[@req=\"LIST_CHECK_ANY_CREW\""
 " and @lvl=\"0\"]/event/crewMember"
 msgstr "Obyn"
 
-#: src-en/data/events_sector_clan.xml:3019
+#: src-en/data/events_sector_clan.xml:3030
 msgid ""
 "data/events_sector_clan.xml$/FTL/event[@name=\"SALT_QUEST_2_SUCCESS_CHAOS\"]/choice/event/choice/event/choice[@req=\"LIST_CHECK_ANY_CREW\""
 " and @lvl=\"0\"]/event/choice/text"
 msgstr "Continuer..."
 
-#: src-en/data/events_sector_clan.xml:3031
+#: src-en/data/events_sector_clan.xml:3042
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"SYLVAN_DOES_AN_EX_MACHINA\"]/text"
 msgstr ""
@@ -5098,48 +5107,48 @@ msgstr ""
 "asssssez de vos agissssements dans notre ssssecteur ! Vous, les Renégats, "
 "n'avez aucun égard pour la ssssainteté du contrôle de la Kleptocrattttie sur"
 " cccces nébuleuzzzzes ni pour notre droit d'exploiter les ressssourcccces à "
-"l'intérieur ! Rendez-nous le Ssssalineux ou ssssoyez anéantis !\""
+"l'intérieur ! Rendez-nous le Ssssalin ou ssssoyez anéantis !\""
 
-#: src-en/data/events_sector_clan.xml:3035
+#: src-en/data/events_sector_clan.xml:3046
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"SYLVAN_DOES_AN_EX_MACHINA\"]/choice[@req=\"pilot\"]/text"
 msgstr ""
 "Non, allez vous faire voir ! J'en ai marre d'écouter vos accents idiots !"
 
-#: src-en/data/events_sector_clan.xml:3037
+#: src-en/data/events_sector_clan.xml:3048
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"SYLVAN_DOES_AN_EX_MACHINA\"]/choice[@req=\"pilot\"]/event/text"
 msgstr ""
 "\"Eh ! L'ami, tu n'as pas bezzzoin d'être impoli ! Quoi qu'il en ssssoit, tu as fait ton choix. Il est temps d'en ssssubir les consséquen- \"\n"
 "\n"
-"Le Chasseur Exotique n'a pas le temps de finir sa phrase qu'une salve de lasers élimine ses boucliers puis ses moteurs, le faisant tournoyer vers un vaisseau voisin et s'écraser dans le marché en dessous dans une boule de feu dévastatrice ! Du ciel descend le vaisseau de Sylvain, suivi du propre croiseur du Salineux, tirant sur la flotte.\n"
+"Le Loubard n'a pas le temps de finir sa phrase qu'une salve de lasers élimine ses boucliers puis ses moteurs, le faisant tournoyer vers un vaisseau voisin et s'écraser dans le marché en dessous dans une boule de feu dévastatrice ! Du ciel descend le vaisseau de Sylvain, suivi du propre croiseur du Salin, tirant sur la flotte.\n"
 "\n"
-"\"Merde merde merde cccc'est LUI ! FUIYEZ !\" Les Hommes de main se dispersent. Vous saviez que le vaisseau de Sylvain était particulièrement... bien armé, mais vous ne pensiez pas qu'il était assez fort pour faire fuir toute une flotte. Apparemment, son départ de la Guilde a laissé une forte impression."
+"\"Merde merde merde cccc'est LUI ! FUIYEZ !\" Les Loubards se dispersent. Vous saviez que le vaisseau de Sylvain était particulièrement... bien armé, mais vous ne pensiez pas qu'il était assez fort pour faire fuir toute une flotte. Apparemment, son départ de la Guilde a laissé une forte impression."
 
-#: src-en/data/events_sector_clan.xml:3043
+#: src-en/data/events_sector_clan.xml:3054
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"SYLVAN_DOES_AN_EX_MACHINA\"]/choice[@req=\"pilot\"]/event/choice[@req=\"OBYN_GUILD\""
 " and @lvl=\"1\"]/text"
 msgstr "Continuer..."
 
-#: src-en/data/events_sector_clan.xml:3045
+#: src-en/data/events_sector_clan.xml:3056
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"SYLVAN_DOES_AN_EX_MACHINA\"]/choice[@req=\"pilot\"]/event/choice[@req=\"OBYN_GUILD\""
 " and @lvl=\"1\"]/event/text"
 msgstr ""
-"Vous regardez Sylvain et le croiseur du Salineux atterrir devant vous. \"J'esssspère que je ne ssssuis pas trop en retard, étranger !\" Sylvain rit nerveusement, puis se tourne vers Obyn, mais avant qu'il ne puisse parler, il est interrompu.\n"
+"Vous regardez Sylvain et le croiseur du Salin atterrir devant vous. \"J'esssspère que je ne ssssuis pas trop en retard, étranger !\" Sylvain rit nerveusement, puis se tourne vers Obyn, mais avant qu'il ne puisse parler, il est interrompu.\n"
 "\n"
 "\"Si tu oses m'appeler 'étranger', je vais te fracasser le crâne.\"\n"
 "\n"
 "\"Heheh, je n'en doute pas Obyn. Çççça fait longtemps. Comment va la vie ?\""
 
-#: src-en/data/events_sector_clan.xml:3051
+#: src-en/data/events_sector_clan.xml:3062
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"SYLVAN_DOES_AN_EX_MACHINA\"]/choice[@req=\"pilot\"]/event/choice[@req=\"OBYN_GUILD\""
 " and @lvl=\"1\"]/event/choice/text"
 msgstr "Continuer..."
 
-#: src-en/data/events_sector_clan.xml:3053
+#: src-en/data/events_sector_clan.xml:3064
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"SYLVAN_DOES_AN_EX_MACHINA\"]/choice[@req=\"pilot\"]/event/choice[@req=\"OBYN_GUILD\""
 " and @lvl=\"1\"]/event/choice/event/text"
@@ -5150,28 +5159,28 @@ msgstr ""
 "Sylvain rit nerveusement. \"Je pensssse qu'ils appellent çççça de la taxxxxidermie. J'ai toujours trouvé çççça dégoûtant...\"\n"
 "Sylvain fait une pause. \"Je ssssuis dézzzolé, Obyn, de t'avoir quitté. Je ne penssssais pas que je pourrais ssssupporter de te revoir, après tout cccce temps, mais quand j'ai entendu que tu pourrais être en danger, je ssssuis venu. Mais je... j'étais toujours trop lâche, alors j'ai envoyé cccces amis à ma place.\""
 
-#: src-en/data/events_sector_clan.xml:3059
+#: src-en/data/events_sector_clan.xml:3070
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"SYLVAN_DOES_AN_EX_MACHINA\"]/choice[@req=\"pilot\"]/event/choice[@req=\"OBYN_GUILD\""
 " and @lvl=\"1\"]/event/choice/event/choice[1]/text"
 msgstr "Continuer d'écouter."
 
-#: src-en/data/events_sector_clan.xml:3061
+#: src-en/data/events_sector_clan.xml:3072
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"SYLVAN_DOES_AN_EX_MACHINA\"]/choice[@req=\"pilot\"]/event/choice[@req=\"OBYN_GUILD\""
 " and @lvl=\"1\"]/event/choice/event/choice[1]/event/text"
 msgstr ""
-"Obyn soupire. \"C'est difficile d'être en colère contre toi. Mais tu as beaucoup à te faire pardonner. Mais au final, tu es venu. Et ça vaut quelque chose, je suppose. Nous pourrons discuter du reste plus tard. Maintenant, viens ici.\"\n"
+"Obyn soupire. \"C'est difficile d'être en colère contre toi. Tu as beaucoup à te faire pardonner - mais au final, tu es venu. Et ça vaut quelque chose, je suppose. Nous pourrons discuter du reste plus tard. Maintenant, viens ici.\"\n"
 "\n"
 "Les deux se penchent pour une accolade, bien que Sylvain garde suffisamment de distance entre leurs corps pour éviter que sa chair ne soit brûlée par l'extérieur salé d'Obyn. Vous réalisez que c'est une relation assez compliquée."
 
-#: src-en/data/events_sector_clan.xml:3065
+#: src-en/data/events_sector_clan.xml:3076
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"SYLVAN_DOES_AN_EX_MACHINA\"]/choice[@req=\"pilot\"]/event/choice[@req=\"OBYN_GUILD\""
 " and @lvl=\"1\"]/event/choice/event/choice[1]/event/choice/text"
 msgstr "Continuer..."
 
-#: src-en/data/events_sector_clan.xml:3071
+#: src-en/data/events_sector_clan.xml:3082
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"SYLVAN_DOES_AN_EX_MACHINA\"]/choice[@req=\"pilot\"]/event/choice[@req=\"OBYN_GUILD\""
 " and @lvl=\"1\"]/event/choice/event/choice[2]/text"
@@ -5179,7 +5188,7 @@ msgstr ""
 "Écoutez les gars, c'est bien charmant tout ça, mais pourriez-vous garder vos"
 " sentiments personnels pour plus tard, s'il vous plaît ?"
 
-#: src-en/data/events_sector_clan.xml:3073
+#: src-en/data/events_sector_clan.xml:3084
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"SYLVAN_DOES_AN_EX_MACHINA\"]/choice[@req=\"pilot\"]/event/choice[@req=\"OBYN_GUILD\""
 " and @lvl=\"1\"]/event/choice/event/choice[2]/event/text"
@@ -5190,63 +5199,63 @@ msgstr ""
 "sssserais-je ssssi je ne vous donnais pas une récompensssse pour vos "
 "zzzzefforts !\""
 
-#: src-en/data/events_sector_clan.xml:3075
+#: src-en/data/events_sector_clan.xml:3086
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"SYLVAN_DOES_AN_EX_MACHINA\"]/choice[@req=\"pilot\"]/event/choice[@req=\"OBYN_GUILD\""
 " and @lvl=\"1\"]/event/choice/event/choice[2]/event/choice/text"
 msgstr "Continuer..."
 
-#: src-en/data/events_sector_clan.xml:3085
+#: src-en/data/events_sector_clan.xml:3096
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"SYLVAN_DOES_AN_EX_MACHINA\"]/choice[@req=\"pilot\"]/event/choice[@req=\"OBYN_GUILD\""
 " and @lvl=\"0\"]/text"
 msgstr "Continuer..."
 
-#: src-en/data/events_sector_clan.xml:3091
+#: src-en/data/events_sector_clan.xml:3102
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"SYLVAN_DOES_AN_EX_MACHINA\"]/choice[@req=\"unique_obyn_temp\"]/text"
-msgstr "Remettre le Salieux.."
+msgstr "Remettre le Salin."
 
-#: src-en/data/events_sector_clan.xml:3093
+#: src-en/data/events_sector_clan.xml:3104
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"SYLVAN_DOES_AN_EX_MACHINA\"]/choice[@req=\"unique_obyn_temp\"]/event/text"
 msgstr ""
-"Le Salineux, choqué, se tourne vers vous, mais vous n'avez guère le choix. "
-"Vous ne pouvez pas affronter une flotte entière ! Vous le faites s'avancer, "
-"afin qu'une équipage Chasseurs puisse le ramener. \"Sssage décccision, "
+"Le Salin, choqué, se tourne vers vous, mais vous n'avez guère le choix. Vous"
+" ne pouvez pas affronter une flotte entière ! Vous le faites s'avancer, afin"
+" qu'une équipage de Loubards puisse le ramener. \"Sssage décccision, "
 "fissston. On dirait que tu vivra un autre jour après tout. Maintenant, "
-"rends-nous un ssserviccce, et ne te pointe plus.\""
+"rends-nous un ssserviccce et ne te pointe plus.\""
 
-#: src-en/data/events_sector_clan.xml:3096
+#: src-en/data/events_sector_clan.xml:3107
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"SYLVAN_DOES_AN_EX_MACHINA\"]/choice[@req=\"unique_obyn_temp\"]/event/removeCrew/text"
 msgstr ""
-"Vous veniez littéralement de libérer le Salineux il y a quelques minutes de "
-"cela, et vous l'avez déjà abandonné. Bravo."
+"Vous veniez littéralement de libérer le Salin il y a quelques minutes de "
+"cela et vous l'avez déjà abandonné. Bravo."
 
-#: src-en/data/events_sector_clan.xml:3101
+#: src-en/data/events_sector_clan.xml:3112
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"SYLVAN_DOES_AN_EX_MACHINA\"]/choice[@req=\"unique_obyn\"]/text"
-msgstr "Remettre le Salineux."
+msgstr "Remettre le Salin."
 
-#: src-en/data/events_sector_clan.xml:3103
+#: src-en/data/events_sector_clan.xml:3114
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"SYLVAN_DOES_AN_EX_MACHINA\"]/choice[@req=\"unique_obyn\"]/event/text"
 msgstr ""
-"Le Salineux, choqué, se tourne vers vous, mais vous n'avez guère le choix. "
-"Vous ne pouvez pas affronter une flotte entière ! Vous le faites s'avancer, "
-"afin qu'une équipage Chasseurs puisse le ramener. \"Sssage décccision, "
+"Le Salin, choqué, se tourne vers vous, mais vous n'avez guère le choix. Vous"
+" ne pouvez pas affronter une flotte entière ! Vous le faites s'avancer, afin"
+" qu'une équipage de Loubards puisse le ramener. \"Sssage décccision, "
 "fissston. On dirait que tu vivra un autre jour après tout. Maintenant, "
-"rends-nous un ssserviccce, et ne te pointe plus.\""
+"rends-nous un ssserviccce et ne te pointe plus.\""
 
-#: src-en/data/events_sector_clan.xml:3106
+#: src-en/data/events_sector_clan.xml:3117
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"SYLVAN_DOES_AN_EX_MACHINA\"]/choice[@req=\"unique_obyn\"]/event/removeCrew/text"
 msgstr ""
-"Vous veniez littéralement de libérer le Salineux il y a quelques minutes de "
-"cela, et vous l'avez déjà abandonné. Bravo."
+"Vous veniez littéralement de libérer le Salin il y a quelques minutes de "
+"cela et vous l'avez déjà abandonné. Bravo."
 
-#: src-en/data/events_sector_clan.xml:3112
+#: src-en/data/events_sector_clan.xml:3123
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"GNOME_DOES_AN_EX_MACHINA\"]/text"
 msgstr ""
@@ -5255,83 +5264,83 @@ msgstr ""
 "asssssez de vos agissssements dans notre ssssecteur ! Vous, les Renégats, "
 "n'avez aucun égard pour la ssssainteté du contrôle de la Kleptocrattttie sur"
 " cccces nébuleuzzzzes ni pour notre droit d'exploiter les ressssourcccces à "
-"l'intérieur ! Rendez-nous le Ssssalineux ou ssssoyez anéantis !\""
+"l'intérieur ! Rendez-nous le Ssssalin ou ssssoyez anéantis !\""
 
-#: src-en/data/events_sector_clan.xml:3116
+#: src-en/data/events_sector_clan.xml:3127
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"GNOME_DOES_AN_EX_MACHINA\"]/choice[@req=\"pilot\"]/text"
 msgstr ""
 "Non, allez vous faire voir ! J'en ai marre d'écouter vos accents idiots !"
 
-#: src-en/data/events_sector_clan.xml:3118
+#: src-en/data/events_sector_clan.xml:3129
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"GNOME_DOES_AN_EX_MACHINA\"]/choice[@req=\"pilot\"]/event/text"
 msgstr ""
 "\"Hé ! L'ami, tu n'as pas bezzzzoin d'être impoli ! Quoi qu'il en ssssoit, tu as fait ton choix. Il est temps de ssssubir les conssséquen-\"\n"
 "\t\t\t\t\n"
-"Le Chasseur Exotique n'a pas le temps de finir sa phrase quand soudainement son vaisseau s'effondre sur lui-même, se repliant en un petit amas de métal dégoulinant de sang vert. Le morceau de métal flottant disparaît en un clin d'œil et vous jetez un coup d'œil au gnome, qui semble sautiller avec excitation et respirer bruyamment. Terrifiés, les autres vaisseaux prennent la fuite immédiatement."
+"Le Loubard n'a pas le temps de finir sa phrase quand soudainement son vaisseau s'effondre sur lui-même, se repliant en un petit amas de métal dégoulinant de sang vert. Le morceau de métal flottant disparaît en un clin d'œil et vous jetez un coup d'œil au gnome, qui semble sautiller avec excitation et respirer bruyamment. Terrifiés, les autres vaisseaux prennent la fuite immédiatement."
 
-#: src-en/data/events_sector_clan.xml:3123
+#: src-en/data/events_sector_clan.xml:3134
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"GNOME_DOES_AN_EX_MACHINA\"]/choice[@req=\"pilot\"]/event/choice[@req=\"OBYN_GUILD\""
 " and @lvl=\"1\"]/text"
 msgstr "Continuer..."
 
-#: src-en/data/events_sector_clan.xml:3127
+#: src-en/data/events_sector_clan.xml:3138
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"GNOME_DOES_AN_EX_MACHINA\"]/choice[@req=\"pilot\"]/event/choice[@req=\"OBYN_GUILD\""
 " and @lvl=\"0\"]/text"
 msgstr "Continuer..."
 
-#: src-en/data/events_sector_clan.xml:3133
+#: src-en/data/events_sector_clan.xml:3144
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"GNOME_DOES_AN_EX_MACHINA\"]/choice[@req=\"unique_obyn_temp\"]/text"
 msgstr "Remettre le Salin."
 
-#: src-en/data/events_sector_clan.xml:3135
+#: src-en/data/events_sector_clan.xml:3146
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"GNOME_DOES_AN_EX_MACHINA\"]/choice[@req=\"unique_obyn_temp\"]/event/text"
 msgstr ""
-"Le Salineux, choqué, se tourne vers vous, mais vous n'avez guère le choix. "
-"Vous ne pouvez pas affronter une flotte entière ! Vous le faites s'avancer, "
-"afin qu'une équipage Chasseurs puisse le ramener. \"Sssage décccision, "
+"Le Salin, choqué, se tourne vers vous, mais vous n'avez guère le choix. Vous"
+" ne pouvez pas affronter une flotte entière ! Vous le faites s'avancer, afin"
+" qu'un équipage de Loubards puisse le ramener. \"Sssage décccision, "
 "fissston. On dirait que tu vivra un autre jour après tout. Maintenant, "
-"rends-nous un ssserviccce, et ne te pointe plus.\""
+"rends-nous un ssserviccce et ne te pointe plus.\""
 
-#: src-en/data/events_sector_clan.xml:3138
+#: src-en/data/events_sector_clan.xml:3149
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"GNOME_DOES_AN_EX_MACHINA\"]/choice[@req=\"unique_obyn_temp\"]/event/removeCrew/text"
 msgstr ""
-"Vous veniez littéralement de libérer le Salineux il y a quelques minutes de "
-"cela, et vous l'avez déjà abandonné. Bravo."
+"Vous veniez littéralement de libérer le Salin il y a quelques minutes de "
+"cela et vous l'avez déjà abandonné. Bravo."
 
-#: src-en/data/events_sector_clan.xml:3143
+#: src-en/data/events_sector_clan.xml:3154
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"GNOME_DOES_AN_EX_MACHINA\"]/choice[@req=\"unique_obyn\"]/text"
 msgstr "Remettre le Salin."
 
-#: src-en/data/events_sector_clan.xml:3145
+#: src-en/data/events_sector_clan.xml:3156
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"GNOME_DOES_AN_EX_MACHINA\"]/choice[@req=\"unique_obyn\"]/event/text"
 msgstr ""
-"Le Salineux, choqué, se tourne vers vous, mais vous n'avez guère le choix. "
-"Vous ne pouvez pas affronter une flotte entière ! Vous le faites s'avancer, "
-"afin qu'une équipage Chasseurs puisse le ramener. \"Sssage décccision, "
+"Le Salin, choqué, se tourne vers vous, mais vous n'avez guère le choix. Vous"
+" ne pouvez pas affronter une flotte entière ! Vous le faites s'avancer, afin"
+" qu'un équipage de Loubards puisse le ramener. \"Sssage décccision, "
 "fissston. On dirait que tu vivra un autre jour après tout. Maintenant, "
-"rends-nous un ssserviccce, et ne te pointe plus.\""
+"rends-nous un ssserviccce et ne te pointe plus.\""
 
-#: src-en/data/events_sector_clan.xml:3148
+#: src-en/data/events_sector_clan.xml:3159
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"GNOME_DOES_AN_EX_MACHINA\"]/choice[@req=\"unique_obyn\"]/event/removeCrew/text"
 msgstr ""
-"Vous veniez littéralement de libérer le Salineux il y a quelques minutes de "
-"cela, et vous l'avez déjà abandonné. Bravo."
+"Vous veniez littéralement de libérer le Salin il y a quelques minutes de "
+"cela et vous l'avez déjà abandonné. Bravo."
 
-#: src-en/data/events_sector_clan.xml:3154
+#: src-en/data/events_sector_clan.xml:3165
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"SYLVAN_SALT_REWARD_NOCREW\"]/text"
 msgstr ""
-"Vous regardez Sylvain et le croiseur Salineux atterrir devant vous. Sylvain "
+"Vous regardez Sylvain et le croiseur Salin atterrir devant vous. Sylvain "
 "reste silencieux pour le moment, mais avec l'aide de l'ancien équipage "
 "d'Obyn, ils apportent une grande caisse de ferraille. Ils vous transfèrent "
 "également quelques plans du vaisseau d'Obyn, pensant que la Fédération "
@@ -5343,7 +5352,7 @@ msgstr ""
 "ssssert d'avoir un vaisssseau comme le mien quand je ne peux même pas "
 "ssssauver mes zzzzamis, hein ? Hmpf.\""
 
-#: src-en/data/events_sector_clan.xml:3160
+#: src-en/data/events_sector_clan.xml:3171
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"CHAOS_SALT_REWARD_NOCREW\"]/text"
 msgstr ""
@@ -5356,28 +5365,28 @@ msgstr ""
 "laquelle vous êtes ici, vous retournez sur le pont et vous préparez à "
 "partir."
 
-#: src-en/data/events_sector_clan.xml:3168
+#: src-en/data/events_sector_clan.xml:3179
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"SYLVAN_SALT_REWARD_OBYN\"]/text"
 msgstr ""
 "Sylvain, avec l'aide d'Obyn et de son équipage, transporte une grande caisse de ferraille. Obyn vous remet également quelques plans de son vaisseau, pensant que la Fédération pourrait en avoir l'utilité. Sylvain retourne à son vaisseau, mais Obyn reste entre les trois vaisseaux, le visage empreint d'indécision. Sylvain se tourne vers lui, mais Obyn secoue la tête.\n"
 "\n"
-"\"Je ne peux pas partir avec toi, viel ami. Nous venons de... enfin, tu sais comment ça s'est passé. Je peux pardonner, mais je ne peux pas oublier. Tu es un marchand, et je suis un chasseur de primes. Dans ce climat, je suppose que c'est un peu la même chose, mais il y a une différence quelque part. Et je n'ai pas abandonné ma quête. Il y a d'autres membres de mon peuple là-bas, j'en suis sûr. Je me souviens encore du jour où j'ai fui ma colonie... enfin, je dois continuer à chercher. Je ne peux pas simplement abandonner.\""
+"\"Je ne peux pas partir avec toi, viel ami. Nous venons de... enfin, tu sais comment ça s'est passé. Je peux pardonner, mais je ne peux pas oublier. Tu es un marchand et je suis un chasseur de primes. Dans ce climat, je suppose que c'est un peu la même chose, mais il y a une différence quelque part. Et je n'ai pas abandonné ma quête. Il y a d'autres membres de mon peuple là-bas, j'en suis sûr. Je me souviens encore du jour où j'ai fui ma colonie... enfin, je dois continuer à chercher. Je ne peux pas simplement abandonner.\""
 
-#: src-en/data/events_sector_clan.xml:3174
+#: src-en/data/events_sector_clan.xml:3185
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"SYLVAN_SALT_REWARD_OBYN\"]/choice[1]/text"
 msgstr ""
 "Tu pourrais nous accompagner, devenir un héros, puis poursuivre ta quête "
 "ensuite."
 
-#: src-en/data/events_sector_clan.xml:3176
+#: src-en/data/events_sector_clan.xml:3187
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"SYLVAN_SALT_REWARD_OBYN\"]/choice[1]/event/text"
 msgstr ""
 "\"Un héros de la Fédération ? Vous savez comment me convaincre... J'ai "
 "essayé d'être un chasseur de primes, mais les choses n'ont évidemment pas "
-"bien fonctionné, et la vie d'un marchand n'est pas faite pour moi. Je suis "
+"bien fonctionné et la vie d'un marchand n'est pas faite pour moi. Je suis "
 "sûr que nous nous reverrons, Sylvain. Quant à vous, Pepper.\" Obyn se tourne"
 " pour faire face au Rocailleux avec qui vous aviez parlé plus tôt. \"Je vous"
 " confie mon vaisseau. Prenez-en bien soin.\" Obyn se tourne vers vous. "
@@ -5386,20 +5395,20 @@ msgstr ""
 "d'avancer est de rester optimiste.\" Sur ces mots, il salue Sylvain et les "
 "deux partent."
 
-#: src-en/data/events_sector_clan.xml:3182
+#: src-en/data/events_sector_clan.xml:3193
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"SYLVAN_SALT_REWARD_OBYN\"]/choice[2]/text"
 msgstr ""
 "Tu pourrais nous accompagner, devenir un héros, puis poursuivre ta quête "
 "ensuite."
 
-#: src-en/data/events_sector_clan.xml:3184
+#: src-en/data/events_sector_clan.xml:3195
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"SYLVAN_SALT_REWARD_OBYN\"]/choice[2]/event/text"
 msgstr ""
 "\"Un héros de la Fédération ? Vous savez comment me convaincre... J'ai "
 "essayé d'être un chasseur de primes, mais les choses n'ont évidemment pas "
-"bien fonctionné, et la vie d'un marchand n'est pas faite pour moi. Je suis "
+"bien fonctionné et la vie d'un marchand n'est pas faite pour moi. Je suis "
 "sûr que nous nous reverrons, Sylvain. Quant à vous, Pepper.\" Obyn se tourne"
 " pour faire face au Rocailleux avec qui vous aviez parlé plus tôt. \"Je vous"
 " confie mon vaisseau. Prenez-en bien soin.\" Obyn se tourne vers vous. "
@@ -5408,14 +5417,14 @@ msgstr ""
 "d'avancer est de rester optimiste.\" Sur ces mots, il salue Sylvain et les "
 "deux partent."
 
-#: src-en/data/events_sector_clan.xml:3189
+#: src-en/data/events_sector_clan.xml:3200
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"SYLVAN_SALT_REWARD_OBYN\"]/choice[3]/text"
 msgstr ""
 "Essayez de le convaincre de rejoindre son ancien équipage et de poursuivre "
 "sa quête."
 
-#: src-en/data/events_sector_clan.xml:3191
+#: src-en/data/events_sector_clan.xml:3202
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"SYLVAN_SALT_REWARD_OBYN\"]/choice[3]/event/text"
 msgstr ""
@@ -5426,14 +5435,14 @@ msgstr ""
 "satisfaire. Jusqu'à la prochaine fois.\" Sur ces mots, il salue Sylvain et "
 "les deux partent, s'éloignant à bord de leurs vaisseaux."
 
-#: src-en/data/events_sector_clan.xml:3200
+#: src-en/data/events_sector_clan.xml:3211
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"SYLVAN_SALT_REWARD_OBYN\"]/choice[4]/text"
 msgstr ""
 "Essayez de le convaincre de rejoindre son ancien équipage et de poursuivre "
 "sa quête."
 
-#: src-en/data/events_sector_clan.xml:3202
+#: src-en/data/events_sector_clan.xml:3213
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"SYLVAN_SALT_REWARD_OBYN\"]/choice[4]/event/text"
 msgstr ""
@@ -5444,7 +5453,7 @@ msgstr ""
 "satisfaire. Jusqu'à la prochaine fois.\" Sur ces mots, il salue Sylvain et "
 "les deux partent, s'éloignant à bord de leurs vaisseaux."
 
-#: src-en/data/events_sector_clan.xml:3212
+#: src-en/data/events_sector_clan.xml:3223
 msgid "data/events_sector_clan.xml$//event[@name=\"CHAOS_SALT_REWARD_OBYN\"]/text"
 msgstr ""
 "Obyn regarde avec stupeur ce qu'il vient de se passer. Pour une fois, il "
@@ -5455,14 +5464,14 @@ msgstr ""
 "dieux ? Ce gnome serait-il un dieu ?\" Obyn hésite, vacillant légèrement sur"
 " ses jambes."
 
-#: src-en/data/events_sector_clan.xml:3215
+#: src-en/data/events_sector_clan.xml:3226
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"CHAOS_SALT_REWARD_OBYN\"]/choice[@req=\"unique_obyn_temp\"]/text"
 msgstr ""
 "Je n'ai aucune idée de ce qui se passe non plus, mais le gnome veut que vous"
 " veniez avec nous."
 
-#: src-en/data/events_sector_clan.xml:3217
+#: src-en/data/events_sector_clan.xml:3228
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"CHAOS_SALT_REWARD_OBYN\"]/choice[@req=\"unique_obyn_temp\"]/event/text"
 msgstr ""
@@ -5471,14 +5480,14 @@ msgstr ""
 "vaisseau, alors vous pouvez le prendre. Peut-être que cela apaisera le "
 "gnome, qui sait.\""
 
-#: src-en/data/events_sector_clan.xml:3225
+#: src-en/data/events_sector_clan.xml:3236
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"CHAOS_SALT_REWARD_OBYN\"]/choice[@req=\"unique_obyn\"]/text"
 msgstr ""
 "Je n'ai aucune idée de ce qui se passe non plus, mais le gnome veut que vous"
 " veniez avec nous."
 
-#: src-en/data/events_sector_clan.xml:3227
+#: src-en/data/events_sector_clan.xml:3238
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"CHAOS_SALT_REWARD_OBYN\"]/choice[@req=\"unique_obyn\"]/event/text"
 msgstr ""

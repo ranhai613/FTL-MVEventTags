@@ -566,6 +566,644 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
+  <mod:findName name="ROCK_ITEM_SONG_CONTEST" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="unique_turzil"/>
+      <mod:findLike type="text">
+        <mod:selector>(Turzil) Turzil is a practiced jazz musician.</mod:selector>
+        <mod:setValue>(Turzil) Turzil is a practiced jazz musician.[INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO][INFO][NAME]weapon[/NAME]Gain a weapon(Loot Rock 1)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="ROCK_ITEM_SONG_CONTEST" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="unique_turzil"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="text">
+            <mod:selector>Continue...</mod:selector>
+            <mod:setValue>Continue...[INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO][INFO][NAME]weapon[/NAME]Gain a weapon(Loot Rock 1)[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="ROCK_ITEM_SONG_CONTEST" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="unique_tully"/>
+      <mod:findLike type="text">
+        <mod:selector>(Tully) Tully knows some marching songs.</mod:selector>
+        <mod:setValue>(Tully) Tully knows some marching songs.[INFO][NAME]autoReward[/NAME]Reward Standard(L)[/INFO][INFO][NAME]weapon[/NAME]Gain a weapon(Random)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="ROCK_ITEM_SONG_CONTEST" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="unique_tully"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="text">
+            <mod:selector>Continue...</mod:selector>
+            <mod:setValue>Continue...[INFO][NAME]autoReward[/NAME]Reward Standard(L)[/INFO][INFO][NAME]weapon[/NAME]Gain a weapon(Random)[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="ROCK_ITEM_SONG_CONTEST" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="unique_symbiote"/>
+      <mod:findLike type="text">
+        <mod:selector>(Symbiote) Self-harmonize.</mod:selector>
+        <mod:setValue>(Symbiote) Self-harmonize.[INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO][INFO][NAME]weapon[/NAME]Gain a weapon(Loot Rock 1)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="ROCK_ITEM_SONG_CONTEST" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="unique_symbiote"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="text">
+            <mod:selector>Continue...</mod:selector>
+            <mod:setValue>Continue...[INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO][INFO][NAME]weapon[/NAME]Gain a weapon(Loot Rock 1)[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="ROCK_ITEM_SONG_CONTEST" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="unique_freddy"/>
+      <mod:findLike type="text">
+        <mod:selector>(Freddy) Freddy asks if they have a grand piano.</mod:selector>
+        <mod:setValue>(Freddy) Freddy asks if they have a grand piano.[INFO][NAME]autoReward[/NAME]Reward Standard(L)[/INFO][INFO][NAME]weapon[/NAME]Gain a weapon(Random)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="ROCK_ITEM_SONG_CONTEST" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="unique_freddy"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="text">
+            <mod:selector>Continue...</mod:selector>
+            <mod:setValue>Continue...[INFO][NAME]autoReward[/NAME]Reward Standard(L)[/INFO][INFO][NAME]weapon[/NAME]Gain a weapon(Random)[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="ROCK_ITEM_SONG_CONTEST" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="unique_tuco"/>
+      <mod:findLike type="text">
+        <mod:selector>(Tuco) Tuco is an experienced Rock Musician.</mod:selector>
+        <mod:setValue>(Tuco) Tuco is an experienced Rock Musician.[INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO][INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Rock)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="ROCK_ITEM_SONG_CONTEST" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="unique_tuco"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="text">
+            <mod:selector>Continue...</mod:selector>
+            <mod:setValue>Continue...[INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO][INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Rock)[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="ROCK_ITEM_SONG_CONTEST" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="unique_guntput"/>
+      <mod:findLike type="text">
+        <mod:selector>(Guntput) Guntput sings the Door Open Song.</mod:selector>
+        <mod:setValue>(Guntput) Guntput sings the Door Open Song.[INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO][INFO][NAME]weapon[/NAME]Gain a weapon(Loot Rock 1)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="ROCK_ITEM_SONG_CONTEST" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="unique_guntput"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="text">
+            <mod:selector>Continue...</mod:selector>
+            <mod:setValue>Continue...[INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO][INFO][NAME]weapon[/NAME]Gain a weapon(Loot Rock 1)[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="ROCK_ITEM_SONG_CONTEST" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="unique_tyrdeo_bird"/>
+      <mod:findLike type="text">
+        <mod:selector>(Wealsey) Leave the contest to Wealsey.</mod:selector>
+        <mod:setValue>(Wealsey) Leave the contest to Wealsey.[INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO][INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Rock)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="ROCK_ITEM_SONG_CONTEST" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="unique_tyrdeo_bird"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="text">
+            <mod:selector>Continue...</mod:selector>
+            <mod:setValue>Continue...[INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO][INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Rock)[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="ROCK_ITEM_SONG_CONTEST" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="LIST_CREW_JERRY"/>
+      <mod:findLike type="text">
+        <mod:selector>(Jerry) Jerry used to sing for charity events.</mod:selector>
+        <mod:setValue>(Jerry) Jerry used to sing for charity events.[INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO][INFO][NAME]weapon[/NAME]Gain a weapon(Loot Rock 1)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="ROCK_ITEM_SONG_CONTEST" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="LIST_CREW_JERRY"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="text">
+            <mod:selector>Continue...</mod:selector>
+            <mod:setValue>Continue...[INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO][INFO][NAME]weapon[/NAME]Gain a weapon(Loot Rock 1)[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="ROCK_ITEM_SONG_CONTEST" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="LIST_CREW_ELLIE_COSTUME"/>
+      <mod:findLike type="text">
+        <mod:selector>(Ellie) Ellie loves to sing her theme song!</mod:selector>
+        <mod:setValue>(Ellie) Ellie loves to sing her theme song![INFO][NAME]autoReward[/NAME]Reward Standard No Item(L)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="ROCK_ITEM_SONG_CONTEST" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="LIST_CREW_ELLIE_COSTUME"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="text">
+            <mod:selector>Continue...</mod:selector>
+            <mod:setValue>Continue...[INFO][NAME]autoReward[/NAME]Reward Standard No Item(L)[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="ROCK_ITEM_SONG_CONTEST" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="unique_ellie_stephan"/>
+      <mod:findLike type="text">
+        <mod:selector>(Stephan) Stephan has a few songs in his repertoire</mod:selector>
+        <mod:setValue>(Stephan) Stephan has a few songs in his repertoire[INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO][INFO][NAME]weapon[/NAME]Gain a weapon(Loot Rock 1)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="ROCK_ITEM_SONG_CONTEST" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="unique_ellie_stephan"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="text">
+            <mod:selector>Continue...</mod:selector>
+            <mod:setValue>Continue...[INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO][INFO][NAME]weapon[/NAME]Gain a weapon(Loot Rock 1)[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="ROCK_ITEM_SONG_CONTEST" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="unique_dessius"/>
+      <mod:findLike type="text">
+        <mod:selector>(Dessius) Sing the song of sorrow!</mod:selector>
+        <mod:setValue>(Dessius) Sing the song of sorrow![INFO][NAME]autoReward[/NAME]Reward Standard(L)[/INFO][INFO][NAME]weapon[/NAME]Gain a weapon(Random)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="ROCK_ITEM_SONG_CONTEST" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="unique_dessius"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="text">
+            <mod:selector>Continue...</mod:selector>
+            <mod:setValue>Continue...[INFO][NAME]autoReward[/NAME]Reward Standard(L)[/INFO][INFO][NAME]weapon[/NAME]Gain a weapon(Random)[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="ROCK_ITEM_SONG_CONTEST" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="unique_ivar"/>
+      <mod:findLike type="text">
+        <mod:selector>(Ivar) Show off using the fiddle.</mod:selector>
+        <mod:setValue>(Ivar) Show off using the fiddle.[INFO][NAME]autoReward[/NAME]Reward Standard(L)[/INFO][INFO][NAME]weapon[/NAME]Gain a weapon(Random)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="ROCK_ITEM_SONG_CONTEST" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="unique_ivar"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="text">
+            <mod:selector>Continue...</mod:selector>
+            <mod:setValue>Continue...[INFO][NAME]autoReward[/NAME]Reward Standard(L)[/INFO][INFO][NAME]weapon[/NAME]Gain a weapon(Random)[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="ROCK_ITEM_SONG_CONTEST" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="unique_mafan"/>
+      <mod:findLike type="text">
+        <mod:selector>(Mafan) Demonstrate skill with a flute.</mod:selector>
+        <mod:setValue>(Mafan) Demonstrate skill with a flute.[INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO][INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Rock)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="ROCK_ITEM_SONG_CONTEST" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="unique_mafan"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="text">
+            <mod:selector>Continue...</mod:selector>
+            <mod:setValue>Continue...[INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO][INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Rock)[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="ROCK_ITEM_SONG_CONTEST" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="LIST_CREW_HUMAN"/>
+      <mod:findLike type="text">
+        <mod:selector>(Human) One of your humans is a musician.</mod:selector>
+        <mod:setValue>(Human) One of your humans is a musician.[INFO]25% [NAME]autoReward[/NAME]Reward Standard(H)[/INFO][INFO]25% [NAME]weapon[/NAME]Gain a weapon(Loot Rock 1)[/INFO][INFO]25% [NAME]autoReward[/NAME]Reward Standard(L)[/INFO][INFO]25% [NAME]weapon[/NAME]Gain a weapon(Random)[/INFO][INFO]25% [NAME]autoReward[/NAME]Reward Standard No Item(L)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="ROCK_ITEM_SONG_CONTEST" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="LIST_CREW_LANIUS"/>
+      <mod:findLike type="text">
+        <mod:selector>(Lanius) Perform the traditional Lanius Harmonies.</mod:selector>
+        <mod:setValue>(Lanius) Perform the traditional Lanius Harmonies.[INFO][NAME]autoReward[/NAME]Reward Standard(L)[/INFO][INFO][NAME]weapon[/NAME]Gain a weapon(Random)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="ROCK_ITEM_SONG_CONTEST" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="LIST_CREW_LANIUS"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="text">
+            <mod:selector>Continue...</mod:selector>
+            <mod:setValue>Continue...[INFO][NAME]autoReward[/NAME]Reward Standard(L)[/INFO][INFO][NAME]weapon[/NAME]Gain a weapon(Random)[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="ROCK_ITEM_SONG_CONTEST" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="LIST_CREW_VAMPWEED"/>
+      <mod:findLike type="text">
+        <mod:selector>(Vampweed) Bang out some Oro'Bache Pop Metal</mod:selector>
+        <mod:setValue>(Vampweed) Bang out some Oro'Bache Pop Metal[INFO][NAME]autoReward[/NAME]Reward Standard No Item(L)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="ROCK_ITEM_SONG_CONTEST" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="LIST_CREW_VAMPWEED"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="text">
+            <mod:selector>Continue...</mod:selector>
+            <mod:setValue>Continue...[INFO][NAME]autoReward[/NAME]Reward Standard No Item(L)[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="ROCK_ITEM_SONG_CONTEST" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="LIST_CREW_FLORAL"/>
+      <mod:findLike type="text">
+        <mod:selector>(Floral) Perform some Ctl'Yae swing</mod:selector>
+        <mod:setValue>(Floral) Perform some Ctl'Yae swing[INFO][NAME]autoReward[/NAME]Reward Standard(L)[/INFO][INFO][NAME]weapon[/NAME]Gain a weapon(Random)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="ROCK_ITEM_SONG_CONTEST" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="LIST_CREW_FLORAL"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="text">
+            <mod:selector>Continue...</mod:selector>
+            <mod:setValue>Continue...[INFO][NAME]autoReward[/NAME]Reward Standard(L)[/INFO][INFO][NAME]weapon[/NAME]Gain a weapon(Random)[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="ROCK_ITEM_SONG_CONTEST" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="LIST_VARIANT_SEPARATIST"/>
+      <mod:findLike type="text">
+        <mod:selector>(Separatist) Freestyle</mod:selector>
+        <mod:setValue>(Separatist) Freestyle[INFO]33% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO][INFO]33% [NAME]weapon[/NAME]Gain a weapon(Giftlist Rock)[/INFO][INFO]33% [NAME]autoReward[/NAME]Reward Standard No Item(L)[/INFO][INFO]33% [NAME]autoReward[/NAME]Reward Standard(L)[/INFO][INFO]33% [NAME]weapon[/NAME]Gain a weapon(Random)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="ROCK_ITEM_SONG_CONTEST" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="zoltan_monk"/>
+      <mod:findLike type="text">
+        <mod:selector>(Zoltan Monk) Perform a traditional Zoltan chant</mod:selector>
+        <mod:setValue>(Zoltan Monk) Perform a traditional Zoltan chant[INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO][INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Rock)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="ROCK_ITEM_SONG_CONTEST" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="zoltan_monk"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="text">
+            <mod:selector>Continue...</mod:selector>
+            <mod:setValue>Continue...[INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO][INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Rock)[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="ROCK_ITEM_SONG_CONTEST" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="zoltan_osmian"/>
+      <mod:findLike type="text">
+        <mod:selector>(Osmian) Pull out the theremin</mod:selector>
+        <mod:setValue>(Osmian) Pull out the theremin[INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO][INFO][NAME]weapon[/NAME]Gain a weapon(Loot Rock 1)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="ROCK_ITEM_SONG_CONTEST" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="zoltan_osmian"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="text">
+            <mod:selector>Continue...</mod:selector>
+            <mod:setValue>Continue...[INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO][INFO][NAME]weapon[/NAME]Gain a weapon(Loot Rock 1)[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="ROCK_ITEM_SONG_CONTEST" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="lizard"/>
+      <mod:findLike type="text">
+        <mod:selector>(Lizard) Chant a Lizard song</mod:selector>
+        <mod:setValue>(Lizard) Chant a Lizard song[INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO][INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Rock)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="ROCK_ITEM_SONG_CONTEST" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="lizard"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="text">
+            <mod:selector>Continue...</mod:selector>
+            <mod:setValue>Continue...[INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO][INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Rock)[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="ROCK_ITEM_SONG_CONTEST" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="LIST_CREW_ROCK_FAITHFUL"/>
+      <mod:findLike type="text">
+        <mod:selector>(Theocracy Rock) Sing a Folk Rock song</mod:selector>
+        <mod:setValue>(Theocracy Rock) Sing a Folk Rock song[INFO][NAME]autoReward[/NAME]Reward Standard No Item(L)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="ROCK_ITEM_SONG_CONTEST" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="LIST_CREW_ROCK_FAITHFUL"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="text">
+            <mod:selector>Continue...</mod:selector>
+            <mod:setValue>Continue...[INFO][NAME]autoReward[/NAME]Reward Standard No Item(L)[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="ROCK_ITEM_SONG_CONTEST" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="LIST_CREW_ROCK_UNFAITHFUL"/>
+      <mod:findLike type="text">
+        <mod:selector>(Unfaithful Rock) Play a Protest song</mod:selector>
+        <mod:setValue>(Unfaithful Rock) Play a Protest song[INFO][NAME]crewMember[/NAME]Gain a crew(Rock Commando)[/INFO][INFO][NAME]crewMember[/NAME]Gain a crew(Rock Outcast)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="ROCK_ITEM_SONG_CONTEST" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="LIST_CREW_ROCK_UNFAITHFUL"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="text">
+            <mod:selector>Continue...</mod:selector>
+            <mod:setValue>Continue...[INFO][NAME]crewMember[/NAME]Gain a crew(Rock Commando)[/INFO][INFO][NAME]crewMember[/NAME]Gain a crew(Rock Outcast)[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="ROCK_ITEM_SONG_CONTEST" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="LIST_CHECK_ANY_CREW" max_lvl="0" lvl="0"/>
+      <mod:findLike type="text">
+        <mod:selector>(Shipboard AI) Play some chiptune</mod:selector>
+        <mod:setValue>(Shipboard AI) Play some chiptune[INFO][NAME]autoReward[/NAME]Reward Standard(L)[/INFO][INFO][NAME]weapon[/NAME]Gain a weapon(Random)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="ROCK_ITEM_SONG_CONTEST" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="LIST_CHECK_ANY_CREW" max_lvl="0" lvl="0"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="text">
+            <mod:selector>Continue...</mod:selector>
+            <mod:setValue>Continue...[INFO][NAME]autoReward[/NAME]Reward Standard(L)[/INFO][INFO][NAME]weapon[/NAME]Gain a weapon(Random)[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="ROCK_ITEM_SONG_CONTEST" type="event">
+    <mod:findLike type="choice">
+      <mod:findLike type="text">
+        <mod:selector>Listen, but don't join in.</mod:selector>
+        <mod:setValue>Listen, but don't join in.[INFO][NAME]storageCheck[/NAME]Storage Check[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="ROCK_ITEM_SONG_CONTEST" type="event">
+    <mod:findLike type="choice">
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:findLike type="text">
+            <mod:selector>Do something onboard the ship.</mod:selector>
+            <mod:setValue>Do something onboard the ship.[INFO][NAME]storageCheck[/NAME]Storage Check[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="ROCK_ITEM_SONG_CONTEST_HUMAN_SONGS" type="eventList">
+    <mod:findLike type="event">
+      <mod:findLike type="choice">
+        <mod:selector hidden="true"/>
+        <mod:findLike type="text">
+          <mod:selector>Continue...</mod:selector>
+          <mod:setValue>Continue...[INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO][INFO][NAME]weapon[/NAME]Gain a weapon(Loot Rock 1)[/INFO]</mod:setValue>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="ROCK_ITEM_SONG_CONTEST_HUMAN_SONGS" type="eventList">
+    <mod:findLike type="event">
+      <mod:findLike type="choice">
+        <mod:selector hidden="true"/>
+        <mod:findLike type="text">
+          <mod:selector>Continue...</mod:selector>
+          <mod:setValue>Continue...[INFO][NAME]autoReward[/NAME]Reward Standard(L)[/INFO][INFO][NAME]weapon[/NAME]Gain a weapon(Random)[/INFO]</mod:setValue>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="ROCK_ITEM_SONG_CONTEST_HUMAN_SONGS" type="eventList">
+    <mod:findLike type="event">
+      <mod:findLike type="choice">
+        <mod:selector hidden="true"/>
+        <mod:findLike type="text">
+          <mod:selector>Continue...</mod:selector>
+          <mod:setValue>Continue...[INFO][NAME]autoReward[/NAME]Reward Standard No Item(L)[/INFO]</mod:setValue>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="ROCK_ITEM_SONG_CONTEST_HUMAN_SONGS" type="eventList">
+    <mod:findLike type="event">
+      <mod:findLike type="choice">
+        <mod:selector hidden="true"/>
+        <mod:findLike type="text">
+          <mod:selector>Continue...</mod:selector>
+          <mod:setValue>Continue...[INFO][NAME]autoReward[/NAME]Reward Standard No Item(L)[/INFO]</mod:setValue>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="ROCK_ITEM_SONG_CONTEST_SEPARATIST_SONGS" type="eventList">
+    <mod:findLike type="event">
+      <mod:findLike type="choice">
+        <mod:selector hidden="true"/>
+        <mod:findLike type="text">
+          <mod:selector>Continue...</mod:selector>
+          <mod:setValue>Continue...[INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO][INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Rock)[/INFO]</mod:setValue>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="ROCK_ITEM_SONG_CONTEST_SEPARATIST_SONGS" type="eventList">
+    <mod:findLike type="event">
+      <mod:findLike type="choice">
+        <mod:selector hidden="true"/>
+        <mod:findLike type="text">
+          <mod:selector>Continue...</mod:selector>
+          <mod:setValue>Continue...[INFO][NAME]autoReward[/NAME]Reward Standard No Item(L)[/INFO]</mod:setValue>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="ROCK_ITEM_SONG_CONTEST_SEPARATIST_SONGS" type="eventList">
+    <mod:findLike type="event">
+      <mod:findLike type="choice">
+        <mod:selector hidden="true"/>
+        <mod:findLike type="text">
+          <mod:selector>Continue...</mod:selector>
+          <mod:setValue>Continue...[INFO][NAME]autoReward[/NAME]Reward Standard(L)[/INFO][INFO][NAME]weapon[/NAME]Gain a weapon(Random)[/INFO]</mod:setValue>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="ROCK_ITEM_SONG_CONTEST_KICKED_OUT" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="LIST_CREW_LOSTSUN"/>
+      <mod:findLike type="text">
+        <mod:selector>Induct them into the Lost Suns.</mod:selector>
+        <mod:setValue>Induct them into the Lost Suns.[INFO][NAME]crewMember[/NAME]Gain a crew(Rock Commando)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="ROCK_ITEM_SONG_CONTEST_KICKED_OUT" type="event">
+    <mod:findLike type="choice">
+      <mod:findLike type="text">
+        <mod:selector>Accept.</mod:selector>
+        <mod:setValue>Accept.[INFO][NAME]crewMember[/NAME]Gain a crew(Rock Outcast)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
   <mod:findName name="ROCK_PROPHECY" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true"/>
@@ -1020,7 +1658,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Strip the ship.</mod:selector>
-        <mod:setValue>Strip the ship.[INFO]50% [NAME]autoReward[/NAME]Reward Standard(L)[/INFO][FightINFO]Fight(CK: [INFO]50% [NAME]autoReward[/NAME]Reward Standard(H)[/INFO])(HK: [INFO]50% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(SR: [INFO]10% [NAME]autoReward[/NAME]Reward Stuff(R)[/INFO] [INFO]10% [NAME]autoReward[/NAME]Reward } Only(R)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Strip the ship.[INFO]50% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO][INFO]50% [NAME]autoReward[/NAME]Reward Standard(L)[/INFO][FightINFO]Fight(CK: [INFO]50% [NAME]autoReward[/NAME]Reward Standard(H)[/INFO])(HK: [INFO]50% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(SR: [INFO]10% [NAME]autoReward[/NAME]Reward Stuff(R)[/INFO] [INFO]10% [NAME]autoReward[/NAME]Reward } Only(R)[/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -1038,7 +1676,7 @@
       <mod:selector hidden="true" req="LIST_CREW_SLUG"/>
       <mod:findLike type="text">
         <mod:selector>(Slug Crew) Check for lifeforms and keep a lookout for ships while looting the wreck.</mod:selector>
-        <mod:setValue>(Slug Crew) Check for lifeforms and keep a lookout for ships while looting the wreck.[INFO]50% [NAME]autoReward[/NAME]Reward Standard(L)[/INFO]</mod:setValue>
+        <mod:setValue>(Slug Crew) Check for lifeforms and keep a lookout for ships while looting the wreck.[INFO]50% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO][INFO]50% [NAME]autoReward[/NAME]Reward Standard(L)[/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -1047,7 +1685,16 @@
       <mod:selector hidden="true" req="BLUELIST_CREW_SNAIL"/>
       <mod:findLike type="text">
         <mod:selector>(Telepathic Shell) Check for lifeforms and keep a lookout for ships while looting the wreck.</mod:selector>
-        <mod:setValue>(Telepathic Shell) Check for lifeforms and keep a lookout for ships while looting the wreck.[INFO]50% [NAME]autoReward[/NAME]Reward Standard(L)[/INFO]</mod:setValue>
+        <mod:setValue>(Telepathic Shell) Check for lifeforms and keep a lookout for ships while looting the wreck.[INFO]50% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO][INFO]50% [NAME]autoReward[/NAME]Reward Standard(L)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="ROCK_LOOTING_MV" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true" req="ADV_SCANNERS"/>
+      <mod:findLike type="text">
+        <mod:selector>(Long-Ranged Scanners) Have your ship search for any approaching ships while looting the wreck.</mod:selector>
+        <mod:setValue>(Long-Ranged Scanners) Have your ship search for any approaching ships while looting the wreck.[INFO]50% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO][INFO]50% [NAME]autoReward[/NAME]Reward Standard(L)[/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -1950,6 +2597,24 @@
   </mod:findName>
   <mod:findName name="ROCK_ASTEROID_COLONY" type="event">
     <mod:findLike type="choice">
+      <mod:selector hidden="true" req="cloaking" max_lvl="2"/>
+      <mod:findLike type="text">
+        <mod:selector>(Cloaking) Cloak whilst trying to salvage the wreckage.</mod:selector>
+        <mod:setValue>(Cloaking) Cloak whilst trying to salvage the wreckage.[INFO]33% [NAME]autoReward[/NAME]Reward Stuff(H)[/INFO][FightINFO]Fight(HK=CK: [INFO]33% [NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO] [INFO]33% [NAME]weapon[/NAME]Gain a weapon(Giftlist Rock)[/INFO])[/FightINFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="ROCK_ASTEROID_COLONY" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true" req="cloaking" lvl="3"/>
+      <mod:findLike type="text">
+        <mod:selector>(Adv. Cloaking) Cloak whilst trying to salvage the wreckage.</mod:selector>
+        <mod:setValue>(Adv. Cloaking) Cloak whilst trying to salvage the wreckage.[INFO][NAME]autoReward[/NAME]Reward Stuff(H)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="ROCK_ASTEROID_COLONY" type="event">
+    <mod:findLike type="choice">
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>This is chaos. We should leave.</mod:selector>
@@ -1991,6 +2656,17 @@
     </mod:findLike>
   </mod:findName>
   <mod:findName name="ROCK_ASTEROID_COLONY_SALVAGE" type="eventList">
+    <mod:findLike type="event">
+      <mod:findLike type="choice">
+        <mod:selector hidden="true"/>
+        <mod:findLike type="text">
+          <mod:selector>Continue...</mod:selector>
+          <mod:setValue>Continue...[FightINFO]Fight(HK=CK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Rock)[/INFO])[/FightINFO]</mod:setValue>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="ROCK_ASTEROID_COLONY_SALVAGE_CLOAK" type="eventList">
     <mod:findLike type="event">
       <mod:findLike type="choice">
         <mod:selector hidden="true"/>
@@ -3322,6 +3998,20 @@
           <mod:findLike type="text">
             <mod:selector>(Mind Control) Convince the two to live in symbiosis aboard your ship.</mod:selector>
             <mod:setValue>(Mind Control) Convince the two to live in symbiosis aboard your ship.[INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO][INFO][NAME]crewMember[/NAME]Gain a crew(Unique Symbiote)[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="ROCK_ZOLTAN_PARASITE" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true" req="BLUELIST_WEAPONS_MIND_CONTROL"/>
+          <mod:findLike type="text">
+            <mod:selector>(Mind Control Weapon) Convince the two to live in symbiosis aboard your ship.</mod:selector>
+            <mod:setValue>(Mind Control Weapon) Convince the two to live in symbiosis aboard your ship.[INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO][INFO][NAME]crewMember[/NAME]Gain a crew(Unique Symbiote)[/INFO]</mod:setValue>
           </mod:findLike>
         </mod:findLike>
       </mod:findLike>

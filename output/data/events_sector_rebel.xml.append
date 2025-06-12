@@ -1857,7 +1857,7 @@
       <mod:selector req="COMBAT_DRONE_LIST" hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>(Combat Drone) Send a drone to distract the automated ship.</mod:selector>
-        <mod:setValue>(Combat Drone) Send a drone to distract the automated ship.[INFO]33% [NAME]itemModify[/NAME]|-1[/INFO][INFO]8% [NAME]modifyPursuit[/NAME]Fleet Delay(1)[/INFO][INFO]8% [NAME]revealMap[/NAME]Map Reveal[/INFO][INFO]8% [NAME]modifyPursuit[/NAME]&lt;!&gt;Fleet Advance(1)[/INFO][FightINFO]Fight(HK: [INFO]33% [NAME]autoReward[/NAME]Reward ~ Only(M)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>(Combat Drone) Send a drone to distract the automated ship.[INFO]33% [NAME]itemModify[/NAME]|-1[/INFO][FightINFO]Fight(HK: [INFO]33% [NAME]autoReward[/NAME]Reward ~ Only(M)[/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -1866,7 +1866,7 @@
       <mod:findLike type="choice">
         <mod:findLike type="text">
           <mod:selector>Continue...</mod:selector>
-          <mod:setValue>Continue...[INFO]25% [NAME]modifyPursuit[/NAME]Fleet Delay(1)[/INFO][INFO]25% [NAME]revealMap[/NAME]Map Reveal[/INFO][INFO]25% [NAME]modifyPursuit[/NAME]&lt;!&gt;Fleet Advance(1)[/INFO]</mod:setValue>
+          <mod:setValue>Continue...[INFO]25% [NAME]modifyPursuit[/NAME]Fleet Delay(1)[/INFO][INFO]25% [NAME]revealMap[/NAME]Map Reveal[/INFO][INFO]25% [NAME]modifyPursuit[/NAME]&lt;!&gt;Fleet Advance(1)[/INFO][INFO][NAME]revealMap[/NAME]Map Reveal[/INFO][INFO][NAME]modifyPursuit[/NAME]Fleet Delay(1)[/INFO][INFO][NAME]itemModify[/NAME]|-1[/INFO]</mod:setValue>
         </mod:findLike>
       </mod:findLike>
     </mod:findLike>
@@ -1876,7 +1876,7 @@
       <mod:findLike type="choice">
         <mod:findLike type="text">
           <mod:selector>Continue...</mod:selector>
-          <mod:setValue>Continue...[INFO]25% [NAME]modifyPursuit[/NAME]Fleet Delay(1)[/INFO][INFO]25% [NAME]revealMap[/NAME]Map Reveal[/INFO][INFO]25% [NAME]modifyPursuit[/NAME]&lt;!&gt;Fleet Advance(1)[/INFO]</mod:setValue>
+          <mod:setValue>Continue...[INFO]25% [NAME]modifyPursuit[/NAME]Fleet Delay(1)[/INFO][INFO]25% [NAME]revealMap[/NAME]Map Reveal[/INFO][INFO]25% [NAME]modifyPursuit[/NAME]&lt;!&gt;Fleet Advance(1)[/INFO][INFO][NAME]revealMap[/NAME]Map Reveal[/INFO][INFO][NAME]modifyPursuit[/NAME]Fleet Delay(1)[/INFO][INFO][NAME]itemModify[/NAME]|-1[/INFO]</mod:setValue>
         </mod:findLike>
       </mod:findLike>
     </mod:findLike>
@@ -1889,6 +1889,23 @@
           <mod:selector>Continue...</mod:selector>
           <mod:setValue>Continue...[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward ~ Only(M)[/INFO])[/FightINFO]</mod:setValue>
         </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="DEFENSE_RADAR_ACCESS_MV" type="event">
+    <mod:findLike type="choice">
+      <mod:findLike type="text">
+        <mod:selector>Attempt to manually hack into the station.</mod:selector>
+        <mod:setValue>Attempt to manually hack into the station.[INFO]25% [NAME]modifyPursuit[/NAME]Fleet Delay(1)[/INFO][INFO]25% [NAME]revealMap[/NAME]Map Reveal[/INFO][INFO]25% [NAME]modifyPursuit[/NAME]&lt;!&gt;Fleet Advance(1)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="DEFENSE_RADAR_ACCESS_MV" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true" req="hacking"/>
+      <mod:findLike type="text">
+        <mod:selector>(Hacking) Use a drone to hack into the station. [-1|]</mod:selector>
+        <mod:setValue>(Hacking) Use a drone to hack into the station. [-1|][INFO][NAME]revealMap[/NAME]Map Reveal[/INFO][INFO][NAME]modifyPursuit[/NAME]Fleet Delay(1)[/INFO][INFO][NAME]itemModify[/NAME]|-1[/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -1968,7 +1985,7 @@
     <mod:findLike type="choice">
       <mod:findLike type="text">
         <mod:selector>Continue...</mod:selector>
-        <mod:setValue>Continue...[FightINFO]Fight(CK: [INFO]17% [NAME]autoReward[/NAME]Reward Standard(H)[/INFO])(HK: [INFO]3% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO]3% [NAME]autoReward[/NAME]Reward Standard(L)[/INFO])(SR: [INFO]3% [NAME]autoReward[/NAME]Reward Stuff(R)[/INFO] [INFO]3% [NAME]modifyPursuit[/NAME]Fleet Delay(2)[/INFO])[/FightINFO][FightINFO]Fight(CK: [INFO]33% [NAME]autoReward[/NAME]Reward Standard(H)[/INFO])(HK: [INFO]7% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO]7% [NAME]autoReward[/NAME]Reward Standard(L)[/INFO])(SR: [INFO]6% [NAME]autoReward[/NAME]Reward Stuff(R)[/INFO] [INFO]6% [NAME]modifyPursuit[/NAME]Fleet Delay(2)[/INFO])[/FightINFO][FightINFO]Fight(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])(HK: [INFO]20% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO]20% [NAME]autoReward[/NAME]Reward Standard(L)[/INFO])(SR: [INFO]17% [NAME]autoReward[/NAME]Reward Stuff(R)[/INFO] [INFO]17% [NAME]modifyPursuit[/NAME]Fleet Delay(2)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Continue...[FightINFO]Fight(CK: [INFO]17% [NAME]autoReward[/NAME]Reward Standard(H)[/INFO])(HK: [INFO]3% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO]3% [NAME]autoReward[/NAME]Reward Standard(L)[/INFO])(SR: [INFO]3% [NAME]autoReward[/NAME]Reward Stuff(R)[/INFO] [INFO]3% [NAME]modifyPursuit[/NAME]Fleet Delay(2)[/INFO])[/FightINFO][FightINFO]Fight(CK: [INFO]33% [NAME]autoReward[/NAME]Reward Standard(H)[/INFO])(HK: [INFO]7% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO]7% [NAME]autoReward[/NAME]Reward Standard(L)[/INFO])(SR: [INFO]6% [NAME]autoReward[/NAME]Reward Stuff(R)[/INFO] [INFO]6% [NAME]modifyPursuit[/NAME]Fleet Delay(2)[/INFO])[/FightINFO][FightINFO]Fight(CK: [INFO]50% [NAME]autoReward[/NAME]Reward Standard(H)[/INFO])(HK: [INFO]10% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO]10% [NAME]autoReward[/NAME]Reward Standard(L)[/INFO])(SR: [INFO]8% [NAME]autoReward[/NAME]Reward Stuff(R)[/INFO] [INFO]8% [NAME]modifyPursuit[/NAME]Fleet Delay(2)[/INFO])[/FightINFO][FightINFO]Fight(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])(HK: [INFO]20% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO]20% [NAME]autoReward[/NAME]Reward Standard(L)[/INFO])(SR: [INFO]17% [NAME]autoReward[/NAME]Reward Stuff(R)[/INFO] [INFO]17% [NAME]modifyPursuit[/NAME]Fleet Delay(2)[/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -2002,6 +2019,32 @@
     <mod:findLike type="choice">
       <mod:findLike type="event">
         <mod:findLike type="choice">
+          <mod:selector hidden="true" req="LIST_CREW_SLUG"/>
+          <mod:findLike type="text">
+            <mod:selector>(Slug Crew) Have your crewmember check their intentions.</mod:selector>
+            <mod:setValue>(Slug Crew) Have your crewmember check their intentions.[INFO]50% [NAME]crewMember[/NAME]Gain a crew(Human)[/INFO][FightINFO]Fight(CK: [INFO]50% [NAME]autoReward[/NAME]Reward Standard(H)[/INFO])(HK: [INFO]10% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO]10% [NAME]autoReward[/NAME]Reward Standard(L)[/INFO])(SR: [INFO]8% [NAME]autoReward[/NAME]Reward Stuff(R)[/INFO] [INFO]8% [NAME]modifyPursuit[/NAME]Fleet Delay(2)[/INFO])[/FightINFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="REBEL_DEFECTOR" type="event">
+    <mod:findLike type="choice">
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true" req="BLUELIST_CREW_SNAIL"/>
+          <mod:findLike type="text">
+            <mod:selector>(Telepathic Shell) Have your crewmember check their intentions.</mod:selector>
+            <mod:setValue>(Telepathic Shell) Have your crewmember check their intentions.[INFO]50% [NAME]crewMember[/NAME]Gain a crew(Human)[/INFO][FightINFO]Fight(CK: [INFO]50% [NAME]autoReward[/NAME]Reward Standard(H)[/INFO])(HK: [INFO]10% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO]10% [NAME]autoReward[/NAME]Reward Standard(L)[/INFO])(SR: [INFO]8% [NAME]autoReward[/NAME]Reward Stuff(R)[/INFO] [INFO]8% [NAME]modifyPursuit[/NAME]Fleet Delay(2)[/INFO])[/FightINFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="REBEL_DEFECTOR" type="event">
+    <mod:findLike type="choice">
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
           <mod:selector hidden="true" req="LIST_CHECK_ANY_CREW" lvl="0" max_lvl="0" blue="false"/>
           <mod:findLike type="text">
             <mod:selector>Terminate the intruder immediately. You can never trust these Rebels.</mod:selector>
@@ -2025,6 +2068,28 @@
               </mod:findLike>
             </mod:findLike>
           </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="REBEL_DEFECTOR_TELEPATH_CREW_MV" type="eventList">
+    <mod:findLike type="event">
+      <mod:findLike type="choice">
+        <mod:selector hidden="true"/>
+        <mod:findLike type="text">
+          <mod:selector>Continue...</mod:selector>
+          <mod:setValue>Continue...[FightINFO]Fight(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])(HK: [INFO]20% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO]20% [NAME]autoReward[/NAME]Reward Standard(L)[/INFO])(SR: [INFO]17% [NAME]autoReward[/NAME]Reward Stuff(R)[/INFO] [INFO]17% [NAME]modifyPursuit[/NAME]Fleet Delay(2)[/INFO])[/FightINFO]</mod:setValue>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="REBEL_DEFECTOR_TELEPATH_CREW_MV" type="eventList">
+    <mod:findLike type="event">
+      <mod:findLike type="choice">
+        <mod:selector hidden="true"/>
+        <mod:findLike type="text">
+          <mod:selector>Continue...</mod:selector>
+          <mod:setValue>Continue...[FightINFO]Fight(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])(HK: [INFO]20% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO]20% [NAME]autoReward[/NAME]Reward Standard(L)[/INFO])(SR: [INFO]17% [NAME]autoReward[/NAME]Reward Stuff(R)[/INFO] [INFO]17% [NAME]modifyPursuit[/NAME]Fleet Delay(2)[/INFO])[/FightINFO]</mod:setValue>
         </mod:findLike>
       </mod:findLike>
     </mod:findLike>
@@ -3009,6 +3074,46 @@
   </mod:findName>
   <mod:findName name="REBEL_CONSTRUCTION_CREW" type="event">
     <mod:findLike type="choice">
+      <mod:selector req="BLUELIST_WEAPONS_MIND_CONTROL" hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>(Mind Control Weapon) Wait until the end of the meeting and compel one of the construction ships to fill you in.</mod:selector>
+        <mod:setValue>(Mind Control Weapon) Wait until the end of the meeting and compel one of the construction ships to fill you in.[FightINFO]Fight(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])(HK: [INFO]20% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO]20% [NAME]autoReward[/NAME]Reward Standard(L)[/INFO])(SR: [INFO]17% [NAME]autoReward[/NAME]Reward Stuff(R)[/INFO] [INFO]17% [NAME]modifyPursuit[/NAME]Fleet Delay(2)[/INFO])[/FightINFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="REBEL_CONSTRUCTION_CREW" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="BLUELIST_WEAPONS_MIND_CONTROL" hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:findLike type="text">
+            <mod:selector>Attack the Rebel before you leave.</mod:selector>
+            <mod:setValue>Attack the Rebel before you leave.[FightINFO]Fight(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])(HK: [INFO]20% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO]20% [NAME]autoReward[/NAME]Reward Standard(L)[/INFO])(SR: [INFO]17% [NAME]autoReward[/NAME]Reward Stuff(R)[/INFO] [INFO]17% [NAME]modifyPursuit[/NAME]Fleet Delay(2)[/INFO])[/FightINFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="REBEL_CONSTRUCTION_CREW" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="BLUELIST_WEAPONS_MIND_CONTROL" hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:findLike type="event">
+            <mod:findLike type="choice">
+              <mod:selector hidden="true"/>
+              <mod:findLike type="text">
+                <mod:selector>Continue...</mod:selector>
+                <mod:setValue>Continue...[FightINFO]Fight(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])(HK: [INFO]20% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO]20% [NAME]autoReward[/NAME]Reward Standard(L)[/INFO])(SR: [INFO]17% [NAME]autoReward[/NAME]Reward Stuff(R)[/INFO] [INFO]17% [NAME]modifyPursuit[/NAME]Fleet Delay(2)[/INFO])[/FightINFO]</mod:setValue>
+              </mod:findLike>
+            </mod:findLike>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="REBEL_CONSTRUCTION_CREW" type="event">
+    <mod:findLike type="choice">
       <mod:selector req="cloaking" lvl="2"/>
       <mod:findLike type="text">
         <mod:selector>(Upg. Cloaking) Spy on the meeting.</mod:selector>
@@ -3469,6 +3574,207 @@
             <mod:selector>Do something onboard the ship.</mod:selector>
             <mod:setValue>Do something onboard the ship.[INFO][NAME]storageCheck[/NAME]Storage Check[/INFO]</mod:setValue>
           </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="REBELHOLD_FLAGSHIP_SURPRISE" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>Contact them. Something seems amiss here.</mod:selector>
+        <mod:setValue>Contact them. Something seems amiss here.[FightINFO]Fight(HK=CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Bomb Cluster)[/INFO])[/FightINFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="REBELHOLD_FLAGSHIP_SURPRISE" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="text">
+            <mod:selector>A second surrender?</mod:selector>
+            <mod:setValue>A second surrender?[FightINFO]Fight(HK=CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Bomb Cluster)[/INFO])[/FightINFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="REBELHOLD_FLAGSHIP_SURPRISE" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="event">
+            <mod:findLike type="choice">
+              <mod:selector hidden="false"/>
+              <mod:findLike type="text">
+                <mod:selector>A bunch of scrap.</mod:selector>
+                <mod:setValue>A bunch of scrap.[INFO][NAME]itemModify[/NAME]~100[/INFO]</mod:setValue>
+              </mod:findLike>
+            </mod:findLike>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="REBELHOLD_FLAGSHIP_SURPRISE" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="event">
+            <mod:findLike type="choice">
+              <mod:selector hidden="true"/>
+              <mod:findLike type="text">
+                <mod:selector>Whatever that fancy weapon on your ship is.</mod:selector>
+                <mod:setValue>Whatever that fancy weapon on your ship is.[FightINFO]Fight(HK=CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Bomb Cluster)[/INFO])[/FightINFO]</mod:setValue>
+              </mod:findLike>
+            </mod:findLike>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="REBELHOLD_FLAGSHIP_SURPRISE" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="event">
+            <mod:findLike type="choice">
+              <mod:selector hidden="true"/>
+              <mod:findLike type="event">
+                <mod:findLike type="choice">
+                  <mod:selector hidden="false"/>
+                  <mod:findLike type="text">
+                    <mod:selector>Accept their compromise.</mod:selector>
+                    <mod:setValue>Accept their compromise.[INFO][NAME]weapon[/NAME]Gain a weapon(Laser Burst 3)[/INFO]</mod:setValue>
+                  </mod:findLike>
+                </mod:findLike>
+              </mod:findLike>
+            </mod:findLike>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="REBELHOLD_FLAGSHIP_SURPRISE" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="event">
+            <mod:findLike type="choice">
+              <mod:selector hidden="true"/>
+              <mod:findLike type="event">
+                <mod:findLike type="choice">
+                  <mod:selector hidden="true"/>
+                  <mod:findLike type="text">
+                    <mod:selector>Attack them to get the weapon.</mod:selector>
+                    <mod:setValue>Attack them to get the weapon.[FightINFO]Fight(HK=CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Bomb Cluster)[/INFO])[/FightINFO]</mod:setValue>
+                  </mod:findLike>
+                </mod:findLike>
+              </mod:findLike>
+            </mod:findLike>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="REBELHOLD_FLAGSHIP_SURPRISE" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="event">
+            <mod:findLike type="choice">
+              <mod:selector hidden="true"/>
+              <mod:findLike type="event">
+                <mod:findLike type="choice">
+                  <mod:selector hidden="true"/>
+                  <mod:findLike type="event">
+                    <mod:findLike type="choice">
+                      <mod:selector hidden="true"/>
+                      <mod:findLike type="text">
+                        <mod:selector>Continue...</mod:selector>
+                        <mod:setValue>Continue...[FightINFO]Fight(HK=CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Bomb Cluster)[/INFO])[/FightINFO]</mod:setValue>
+                      </mod:findLike>
+                    </mod:findLike>
+                  </mod:findLike>
+                </mod:findLike>
+              </mod:findLike>
+            </mod:findLike>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="REBELHOLD_FLAGSHIP_SURPRISE" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="event">
+            <mod:findLike type="choice">
+              <mod:selector hidden="false"/>
+              <mod:findLike type="text">
+                <mod:selector>A little extra time in this sector.</mod:selector>
+                <mod:setValue>A little extra time in this sector.[INFO][NAME]modifyPursuit[/NAME]Fleet Delay(2)[/INFO]</mod:setValue>
+              </mod:findLike>
+            </mod:findLike>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="REBELHOLD_FLAGSHIP_SURPRISE" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>Escape before they can attack you.</mod:selector>
+        <mod:setValue>Escape before they can attack you.[INFO][NAME]storageCheck[/NAME]Storage Check[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="REBELHOLD_FLAGSHIP_SURPRISE" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:findLike type="text">
+            <mod:selector>Do something onboard the ship.</mod:selector>
+            <mod:setValue>Do something onboard the ship.[INFO][NAME]storageCheck[/NAME]Storage Check[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="FLAGSHIP_ANOMALY" type="ship">
+    <mod:findLike type="destroyed">
+      <mod:findLike type="choice">
+        <mod:selector hidden="true"/>
+        <mod:findLike type="text">
+          <mod:selector>Continue...</mod:selector>
+          <mod:setValue>Continue...[INFO][NAME]weapon[/NAME]Gain a weapon(Bomb Cluster)[/INFO]</mod:setValue>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="FLAGSHIP_ANOMALY" type="ship">
+    <mod:findLike type="deadCrew">
+      <mod:findLike type="choice">
+        <mod:selector hidden="true"/>
+        <mod:findLike type="text">
+          <mod:selector>Continue...</mod:selector>
+          <mod:setValue>Continue...[INFO][NAME]weapon[/NAME]Gain a weapon(Bomb Cluster)[/INFO]</mod:setValue>
         </mod:findLike>
       </mod:findLike>
     </mod:findLike>

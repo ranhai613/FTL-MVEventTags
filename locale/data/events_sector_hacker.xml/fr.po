@@ -1,9 +1,15 @@
 #
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2025-06-02 22:50+0000\n"
+"Last-Translator: kronen68 <obrice@hotmail.fr>\n"
+"Language-Team: French <https://weblate.hyperq.be/projects/ftl-multiverse/dataevents_sector_hackerxml/fr/>\n"
+"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 5.11.4\n"
 
 #: src-en/data/events_sector_hacker.xml:46
 msgid ""
@@ -74,7 +80,7 @@ msgstr "Continuer..."
 msgid ""
 "data/events_sector_hacker.xml$//event[@name=\"FINISH_BEACON_HACKER\"]/choice[@req=\"loc_hacker_exit\""
 " and @lvl=\"1\"]/event/choice[@req=\"engines\"]/text"
-msgstr "(Moteurs améliorer) Essayer d'échapper à l'Élite."
+msgstr "(Moteurs de pointe) Essayer d'échapper à l'Élite."
 
 #: src-en/data/events_sector_hacker.xml:85
 msgid ""
@@ -94,7 +100,7 @@ msgid ""
 msgstr ""
 "Un vaisseau civil se cachant des hackers vous appelle : \"S'il vous plaît, "
 "je ne peux pas me cacher éternellement. Me laisserez-vous travailler à bord "
-"de votre vaisseau, afin que je puisse m'échapper de ce secteur sanglant ?\""
+"de votre vaisseau, afin que je puisse m'échapper de ce foutu secteur ?\""
 
 #: src-en/data/events_sector_hacker.xml:117
 msgid ""
@@ -127,7 +133,7 @@ msgid ""
 msgstr ""
 "\"Un vaisseau ! Je ne pensais pas que quelqu'un nous trouverait un jour. Un "
 "bataillon de hackers est passé par ici et a saccagé notre station. Nous "
-"sommes à court de fournitures et nous ne pouvons pas faire d'affaires sans "
+"sommes à court de ressources et nous ne pouvons pas faire d'affaires sans "
 "elles. Seriez-vous prêts à nous en vendre ? Nous n'avons pas de ferraille, "
 "mais nous pouvons vous proposer d'autres moyens de paiement.\""
 
@@ -272,7 +278,7 @@ msgid ""
 "data/events_sector_hacker.xml$//event[@name=\"HACKED_MILITIA\"]/choice[1]/event/choice[2]/event/text"
 msgstr ""
 "Les miliciens vous remercient de votre offre. Vous passez un peu de temps à "
-"réparer leurs systèmes endommagés, et vous êtes payé pour vos efforts."
+"réparer leurs systèmes endommagés et vous êtes payé pour vos efforts."
 
 #: src-en/data/events_sector_hacker.xml:242
 msgid ""
@@ -384,7 +390,7 @@ msgid ""
 msgstr ""
 "\"Vous voulez donc ssssuivre nos tracccces ? Mignon. Vraiment très mignon. "
 "Mais ne laissssez pas ccccela vous monter à la tête, nous allons dominer "
-"cccce ssssecteur.\" Le Slug envoie une équipe installer le système de "
+"cccce ssssecteur.\" La Limace envoie une équipe installer le système de "
 "piratage sur votre vaisseau. Vous veillez à les surveiller attentivement."
 
 #: src-en/data/events_sector_hacker.xml:317
@@ -416,7 +422,7 @@ msgstr "Combattre les hackers !"
 msgid ""
 "data/events_sector_hacker.xml$//event[@name=\"HACKER_OFFER\"]/choice[2]/event/text"
 msgstr ""
-"Ces salauds de Slugs prennent en otage les civils de ce secteur. Il n'est "
+"Ces salauds de Limace prennent en otage les civils de ce secteur. Il n'est "
 "pas question de les laisser partir si facilement."
 
 #: src-en/data/events_sector_hacker.xml:338
@@ -465,9 +471,9 @@ msgid ""
 "data/events_sector_hacker.xml$//event[@name=\"HACKED_PDS\"]/choice[@req=\"PDS_DISABLE\"]/event/text"
 msgstr ""
 "Vous avez réussi à brouiller le signal de piratage des batteries anti-"
-"navires de la station, ce qui permet à la grille de défense de ne cibler que"
-" le Hacker ennemi. Le commandant de la station Union semble ravi : \"Haha ! "
-"Attrapez-les !\""
+"vaisseaux de la station, ce qui permet à la grille de défense de ne cibler "
+"que le Hacker ennemi. Le commandant de la station Union semble ravi : \"Haha"
+" ! Attrapez-les !\""
 
 #: src-en/data/events_sector_hacker.xml:385
 msgid ""
@@ -483,9 +489,9 @@ msgid ""
 "data/events_sector_hacker.xml$//event[@name=\"HACKED_PDS\"]/choice[2]/event/text"
 msgstr ""
 "Le pirate tente de vous narguer : \" Haha, imbécccile ! Nous avons déjà "
-"acccccés à la grille de défenssse !\" Les Slugs activent la grille... mais "
-"elle ne semble pas capable de distinguer les amis des ennemis. Le capitaine "
-"hurle alors à son équipage : \"...Comment çççça, on n'a pas encore fini ?\""
+"acccccés à la grille de défenssse !\" Les Limaces activent la grille... mais"
+" elle ne semble pas capable de distinguer les amis des ennemis. Le capitaine"
+" hurle alors à son équipage : \"...Comment çççça, on n'a pas encore fini ?\""
 
 #: src-en/data/events_sector_hacker.xml:397
 msgid ""
@@ -520,7 +526,7 @@ msgid ""
 msgstr ""
 "Vous décidez de quitter la région le plus rapidement possible. "
 "Malheureusement, vous n'avez pas de temps à consacrer aux activités du "
-"navire."
+"vaisseau."
 
 #: src-en/data/events_sector_hacker.xml:425
 msgid "data/events_sector_hacker.xml$//event[@name=\"HACKED_PDS_RESCUE\"]/text"
@@ -545,7 +551,7 @@ msgstr "Attaquer les hackers."
 msgid ""
 "data/events_sector_hacker.xml$//event[@name=\"HACKED_HOSTAGES\"]/choice[1]/event/text"
 msgstr ""
-"Vous n'allez pas laisser d'immondes Slugs corrompues prendre en otage des "
+"Vous n'allez pas laisser d'immondes Limaces corrompues prendre en otage des "
 "civils innocents si vous pouvez l'éviter. Vous attaquez les hackers."
 
 #: src-en/data/events_sector_hacker.xml:438
@@ -631,13 +637,13 @@ msgid ""
 msgstr ""
 "L'épave d'un vaisseau civil dérive à proximité. Il est regrettable que les "
 "civils aient dû mourir de cette façon, mais il y a probablement des "
-"provisions à bord que vous pouvez récupérer."
+"ressources à bord que vous pouvez récupérer."
 
 #: src-en/data/events_sector_hacker.xml:494
 msgid ""
 "data/events_sector_hacker.xml$//event[@name=\"HACKED_CIVILIAN_WRECK_TRAP\"]/choice[@req=\"LIST_CHECK_ANY_CREW\""
 " and @lvl=\"1\"]/text"
-msgstr "Désassembler le vaisseau."
+msgstr "Démanteler le vaisseau."
 
 #: src-en/data/events_sector_hacker.xml:498
 msgid ""
@@ -650,13 +656,13 @@ msgstr ""
 msgid ""
 "data/events_sector_hacker.xml$//event[@name=\"HACKED_CIVILIAN_WRECK_TRAP\"]/choice[@req=\"LIST_CREW_SLUG\"]/text"
 msgstr ""
-"(Membre d'équipage Slug) Faire d'abord vérifier l'épave par votre Slug."
+"(Membre d'équipage Limace) Faire d'abord vérifier l'épave par votre Limace."
 
 #: src-en/data/events_sector_hacker.xml:506
 msgid ""
 "data/events_sector_hacker.xml$//event[@name=\"HACKED_CIVILIAN_WRECK_TRAP\"]/choice[@req=\"BLUELIST_CREW_SNAIL\"]/text"
 msgstr ""
-"(Coquille télépathique) Demandez à votre Coquille de vérifier d'abord "
+"(Coquille télépathique) Demander à votre Coquille de vérifier d'abord "
 "l'épave."
 
 #: src-en/data/events_sector_hacker.xml:510
@@ -694,7 +700,7 @@ msgstr ""
 msgid ""
 "data/events_sector_hacker.xml$//eventList[@name=\"HACKED_CIVILIAN_WRECK_TRAP_SALVAGE\"]/event[1]/removeCrew/text"
 msgstr ""
-"Heureusement, votre baie de clonage est toujours prête à intervenir en cas "
+"Heureusement, votre salle des clones est toujours prête à intervenir en cas "
 "de perte de l'équipage."
 
 #: src-en/data/events_sector_hacker.xml:533
@@ -707,7 +713,7 @@ msgid ""
 "data/events_sector_hacker.xml$//eventList[@name=\"HACKED_CIVILIAN_WRECK_TRAP_SALVAGE\"]/event[2]/text"
 msgstr ""
 "Rien ne vient perturber votre mission de sauvetage. Vous ramenez des "
-"provisions du vaisseau."
+"ressources du vaisseau."
 
 #: src-en/data/events_sector_hacker.xml:542
 msgid ""
@@ -726,9 +732,9 @@ msgstr "Continuer..."
 msgid ""
 "data/events_sector_hacker.xml$//eventList[@name=\"HACKED_CIVILIAN_WRECK_TRAP_SLUG\"]/event[1]/text"
 msgstr ""
-"Votre Slug détecte un piège à bord de l'épave. Un vaisseau de hackers caché "
-"à proximité, déçu que vous ne soyez pas tombé dans leur piège, passe à "
-"l'attaque !"
+"Votre Limace détecte un piège à bord de l'épave. Un vaisseau de hackers "
+"caché à proximité, déçu que vous ne soyez pas tombé dans leur piège, passe à"
+" l'attaque !"
 
 #: src-en/data/events_sector_hacker.xml:556
 msgid ""
@@ -739,23 +745,23 @@ msgstr "Continuer..."
 msgid ""
 "data/events_sector_hacker.xml$//eventList[@name=\"HACKED_CIVILIAN_WRECK_TRAP_SLUG\"]/event[2]/text"
 msgstr ""
-"Le Slug ne sent rien d'anormal. Votre mission de sauvetage se déroule sans "
-"encombre. Vous ramenez des provisions du vaisseau."
+"La Limace ne sent rien d'anormal. Votre mission de sauvetage se déroule sans"
+" encombre. Vous ramenez des ressources du vaisseau."
 
 #: src-en/data/events_sector_hacker.xml:565
 msgid ""
 "data/events_sector_hacker.xml$//eventList[@name=\"HACKED_CIVILIAN_WRECK_TRAP_SLUG\"]/event[3]/text"
 msgstr ""
-"Le Slug sent que l'un des civils a survécu au combat ! Vous lui portez "
+"La Limace sent que l'un des civils a survécu au combat ! Vous lui portez "
 "secours."
 
 #: src-en/data/events_sector_hacker.xml:571
 msgid ""
 "data/events_sector_hacker.xml$//eventList[@name=\"HACKED_CIVILIAN_WRECK_TRAP_SNAIL\"]/event[1]/text"
 msgstr ""
-"Votre Slug détecte un piège à bord de l'épave. Un vaisseau de hackers caché "
-"à proximité, déçu que vous ne soyez pas tombé dans leur piège, passe à "
-"l'attaque !"
+"Votre Limace détecte un piège à bord de l'épave. Un vaisseau de hackers "
+"caché à proximité, déçu que vous ne soyez pas tombé dans leur piège, passe à"
+" l'attaque !"
 
 #: src-en/data/events_sector_hacker.xml:574
 msgid ""
@@ -766,14 +772,14 @@ msgstr "Continuer..."
 msgid ""
 "data/events_sector_hacker.xml$//eventList[@name=\"HACKED_CIVILIAN_WRECK_TRAP_SNAIL\"]/event[2]/text"
 msgstr ""
-"Le Slug ne sent rien d'anormal. Votre mission de sauvetage se déroule sans "
-"encombre. Vous ramenez des provisions du vaisseau."
+"La Limace ne sent rien d'anormal. Votre mission de sauvetage se déroule sans"
+" encombre. Vous ramenez des ressources du vaisseau."
 
 #: src-en/data/events_sector_hacker.xml:583
 msgid ""
 "data/events_sector_hacker.xml$//eventList[@name=\"HACKED_CIVILIAN_WRECK_TRAP_SNAIL\"]/event[3]/text"
 msgstr ""
-"Le Slug sent que l'un des civils a survécu au combat ! Vous lui portez "
+"La Limace sent que l'un des civils a survécu au combat ! Vous lui portez "
 "secours."
 
 #: src-en/data/events_sector_hacker.xml:589
@@ -839,8 +845,8 @@ msgstr "Ne rien faire."
 #: src-en/data/events_sector_hacker.xml:629
 msgid "data/events_sector_hacker.xml$//event[@name=\"HACKED_FANCY_CLASS\"]/text"
 msgstr ""
-"Il semble qu'un vaisseau Slug et un vaisseau Hacker s'affrontent au niveau "
-"de cette balise. D'après le dialogue que vous avez intercepté entre les "
+"Il semble qu'un vaisseau Limace et un vaisseau Hacker s'affrontent au niveau"
+" de cette balise. D'après le dialogue que vous avez intercepté entre les "
 "vaisseaux, il semble qu'ils se disputent à propos de... classes de vaisseaux"
 " ?"
 
@@ -853,8 +859,8 @@ msgstr "Se renseigner sur leurs arguments."
 msgid ""
 "data/events_sector_hacker.xml$//event[@name=\"HACKED_FANCY_CLASS\"]/choice[1]/event/text"
 msgstr ""
-"Les hackers ne répondent pas à vos appels, mais les Slugs le font. \"Les "
-"hackers volent les vaisseaus des chantiers navals des Sssslugs depuis des "
+"Les hackers ne répondent pas à vos appels, mais les Limaces le font. \"Les "
+"hackers volent les vaisssseaux des hangards des limaccces depuis des "
 "zzzannées ! Ils remodèlent légèrement l'intérieur des vaisssseaux et leur "
 "donnent des noms fantaizzzisssstes ! Imaginez le culot que ccccela "
 "reprézzzente.\""
@@ -862,13 +868,13 @@ msgstr ""
 #: src-en/data/events_sector_hacker.xml:635
 msgid ""
 "data/events_sector_hacker.xml$//event[@name=\"HACKED_FANCY_CLASS\"]/choice[1]/event/choice[1]/text"
-msgstr "Se ranger du côté des Slugs."
+msgstr "Se ranger du côté des Limaces."
 
 #: src-en/data/events_sector_hacker.xml:637
 msgid ""
 "data/events_sector_hacker.xml$//event[@name=\"HACKED_FANCY_CLASS\"]/choice[1]/event/choice[1]/event/text"
 msgstr ""
-"Vous avez décidé de défendre les Slugs et de combattre le vaisseau des "
+"Vous avez décidé de défendre les Limaces et de combattre le vaisseau des "
 "hackers. Préparez-vous au combat !"
 
 #: src-en/data/events_sector_hacker.xml:640
@@ -885,8 +891,8 @@ msgstr "Se ranger du côté des hackers."
 msgid ""
 "data/events_sector_hacker.xml$//event[@name=\"HACKED_FANCY_CLASS\"]/choice[1]/event/choice[2]/event/text"
 msgstr ""
-"Vous avez décidé de défendre les Hackers et de combattre le vaisseau Slug. "
-"Préparez-vous au combat !"
+"Vous avez décidé de défendre les Hackers et de combattre le vaisseau Limace."
+" Préparez-vous au combat !"
 
 #: src-en/data/events_sector_hacker.xml:651
 msgid ""
@@ -902,7 +908,7 @@ msgstr "Ok, amusez-vous bien avec ça."
 msgid ""
 "data/events_sector_hacker.xml$//event[@name=\"HACKED_FANCY_CLASS\"]/choice[1]/event/choice[3]/event/text"
 msgstr ""
-"Vous restez à l'écart du duel entre les vaisseaux Slugs. Leur destruction "
+"Vous restez à l'écart du duel entre les vaisseaux Limaces. Leur destruction "
 "mutuelle serait une fin appropriée."
 
 #: src-en/data/events_sector_hacker.xml:661
@@ -924,7 +930,7 @@ msgstr "Ignorer le vaisseau."
 msgid ""
 "data/events_sector_hacker.xml$//event[@name=\"HACKED_FANCY_CLASS\"]/choice[2]/event/text"
 msgstr ""
-"Vous restez à l'écart du duel entre les vaisseaux Slugs. Leur destruction "
+"Vous restez à l'écart du duel entre les vaisseaux Limaces. Leur destruction "
 "mutuelle serait une fin appropriée."
 
 #: src-en/data/events_sector_hacker.xml:677
@@ -955,7 +961,7 @@ msgstr ""
 
 #: src-en/data/events_sector_hacker.xml:699
 msgid "data/events_sector_hacker.xml$//event[@name=\"FANCY_CLASS_SLUG\"]/text"
-msgstr "Vous avez vaincu le vaisseau Slug. Vous récupérez les restes."
+msgstr "Vous avez vaincu le vaisseau Limace. Vous récupérez les restes."
 
 #: src-en/data/events_sector_hacker.xml:702
 msgid ""
@@ -975,7 +981,7 @@ msgid ""
 "data/events_sector_hacker.xml$//event[@name=\"NEBULA_LOST_SHIP_HACKER\"]/text"
 msgstr ""
 "Un vaisseau de la Fédération très endommagé se cache dans la nébuleuse au "
-"niveau de cette balise. Avant que vous puissiez les contacter, ils se "
+"niveau de cette balise. Avant que vous ne puissiez les contacter, ils se "
 "réfugient dans la nébuleuse."
 
 #: src-en/data/events_sector_hacker.xml:718
@@ -1103,7 +1109,7 @@ msgstr "Sauver les miliciens."
 msgid ""
 "data/events_sector_hacker.xml$//event[@name=\"DISTRESS_HACKER_MILITIA\"]/choice[1]/event/text"
 msgstr ""
-"Ce secteur a besoin de tous les miliciens possibles, et vous n'allez pas "
+"Ce secteur a besoin de tous les miliciens possibles et vous n'allez pas "
 "laisser les hackers en tuer d'autres."
 
 #: src-en/data/events_sector_hacker.xml:805
@@ -1157,7 +1163,7 @@ msgstr ""
 "\"Vaisseau entrant, je ne sais pas qui vous êtes ni pourquoi vous êtes venus"
 " ici, mais s'il vous plaît, écoutez-moi. Les Hackers... ils ont capturé un "
 "hôpital dans un système voisin. Beaucoup d'entre nous ont de la famille là-"
-"bas, et nous n'avons pas les moyens de payer leur rançon. S'il vous plaît, "
+"bas et nous n'avons pas les moyens de payer leur rançon. S'il vous plaît, "
 "vous êtes leur seul espoir.\""
 
 #: src-en/data/events_sector_hacker.xml:851
@@ -1208,7 +1214,7 @@ msgstr ""
 #: src-en/data/events_sector_hacker.xml:880
 msgid ""
 "data/events_sector_hacker.xml$//event[@name=\"QUEST_HACKER_HOSPITAL_DESTINATION\"]/choice[1]/text"
-msgstr "Attaquez les Hackers qui retiennent l'hôpital en otage."
+msgstr "Attaquer les Hackers qui retiennent l'hôpital en otage."
 
 #: src-en/data/events_sector_hacker.xml:882
 msgid ""
@@ -1241,7 +1247,7 @@ msgstr "Continuer..."
 #: src-en/data/events_sector_hacker.xml:905
 msgid ""
 "data/events_sector_hacker.xml$//event[@name=\"QUEST_HACKER_HOSPITAL_DESTINATION\"]/choice[3]/text"
-msgstr "Présentez vos excuses et partez dès que possible."
+msgstr "Présenter vos excuses et partir dès que possible."
 
 #: src-en/data/events_sector_hacker.xml:907
 msgid ""
@@ -1270,7 +1276,7 @@ msgstr ""
 #: src-en/data/events_sector_hacker.xml:922
 msgid ""
 "data/events_sector_hacker.xml$//event[@name=\"HOSPITAL_SAVED\"]/choice[@req=\"clonebay\"]/text"
-msgstr "Demandez-leur d'améliorer votre baie de clonage."
+msgstr "Leur demander d'améliorer votre salle des clones."
 
 #: src-en/data/events_sector_hacker.xml:924
 msgid ""
@@ -1282,7 +1288,7 @@ msgstr ""
 #: src-en/data/events_sector_hacker.xml:929
 msgid ""
 "data/events_sector_hacker.xml$//event[@name=\"HOSPITAL_SAVED\"]/choice[@req=\"medbay\"]/text"
-msgstr "Demandez-leur d'améliorer votre Infirmerie."
+msgstr "Leur demander d'améliorer votre Infirmerie."
 
 #: src-en/data/events_sector_hacker.xml:931
 msgid ""
@@ -1295,7 +1301,7 @@ msgstr ""
 msgid ""
 "data/events_sector_hacker.xml$//event[@name=\"HOSPITAL_SAVED\"]/choice[@req=\"LAB_INSTALLED\"]/text"
 msgstr ""
-"Demandez-leur d'installer un laboratoire embarqué pour l'amélioration de "
+"Leur demander d'installer un laboratoire embarqué pour l'amélioration de "
 "l'équipage."
 
 #: src-en/data/events_sector_hacker.xml:938
@@ -1308,7 +1314,7 @@ msgstr ""
 #: src-en/data/events_sector_hacker.xml:943
 msgid ""
 "data/events_sector_hacker.xml$//event[@name=\"HOSPITAL_SAVED\"]/choice[@req=\"LAB_UPGRADE\"]/text"
-msgstr "Demandez-leur d'améliorer votre laboratoire embarqué."
+msgstr "Leur demander d'améliorer votre laboratoire embarqué."
 
 #: src-en/data/events_sector_hacker.xml:945
 msgid ""
@@ -1320,7 +1326,7 @@ msgstr ""
 #: src-en/data/events_sector_hacker.xml:950
 msgid ""
 "data/events_sector_hacker.xml$//event[@name=\"HOSPITAL_SAVED\"]/choice[5]/text"
-msgstr "Demandez à un membre du personnel médical de se joindre à vous."
+msgstr "Demander à un membre du personnel médical de se joindre à vous."
 
 #: src-en/data/events_sector_hacker.xml:952
 msgid ""
@@ -1332,7 +1338,7 @@ msgstr ""
 #: src-en/data/events_sector_hacker.xml:957
 msgid ""
 "data/events_sector_hacker.xml$//event[@name=\"HOSPITAL_SAVED\"]/choice[6]/text"
-msgstr "Demandez-leur s'ils peuvent retarder la flotte."
+msgstr "Leur demander s'ils peuvent retarder la flotte."
 
 #: src-en/data/events_sector_hacker.xml:959
 msgid ""
@@ -1417,7 +1423,7 @@ msgid ""
 "data/events_sector_hacker.xml$//event[@name=\"ENCOUNTER_HACKER_REBEL\"]/text"
 msgstr ""
 "Un vaisseau rebelle arrive à toute allure. \"Merde ! Les hackers ont pris le"
-" contrôle de ce secteur pendant que nous étions stationnés ici, et nous "
+" contrôle de ce secteur pendant que nous étions stationnés ici et nous "
 "devons trouver un moyen de partir ! Et maintenant, un vaisseau de la "
 "Fédération est là également ? Bon sang, nous devons rejoindre la flotte...\""
 
@@ -1505,7 +1511,7 @@ msgstr "Continuer..."
 #: src-en/data/events_sector_hacker.xml:1098
 msgid ""
 "data/events_sector_hacker.xml$//event[@name=\"HACKER_CACHE\"]/beaconType/unvisitedTooltip"
-msgstr "Uyo%Heav#Ton@Sdtviie!#Stih*Anecbo"
+msgstr "Uyo%Heav#Ton@Sdtviie !#Stih*Anecbo"
 
 #: src-en/data/events_sector_hacker.xml:1099
 msgid ""
@@ -1528,9 +1534,9 @@ msgstr "Attaquer la station."
 msgid ""
 "data/events_sector_hacker.xml$//event[@name=\"HACKER_CACHE\"]/choice[1]/event/text"
 msgstr ""
-"Vous levez vos armes et engagez le combat avec la station de radiodiffusion."
-" Vous remarquez que vos systèmes fluctuent, ils doivent avoir de nombreux "
-"équipements de combat qui vous brouillent !"
+"Vous levez vos armes et ciblez la station de radiodiffusion. Vous remarquez "
+"que vos systèmes fluctuent, ils doivent avoir de nombreux équipements de "
+"combat qui vous brouillent !"
 
 #: src-en/data/events_sector_hacker.xml:1112
 msgid ""
@@ -1563,9 +1569,9 @@ msgstr "(Piratage) Contrer leur piratage."
 msgid ""
 "data/events_sector_hacker.xml$//event[@name=\"HACKER_CACHE\"]/choice[1]/event/choice[@req=\"hacking\"]/event/text"
 msgstr ""
-"Le virus ennemi s'est avéré beaucoup plus difficile à éliminer que prévu, et"
-" vous avez dû pousser le système de piratage à la limite de sa capacité. Vos"
-" systèmes sont finalement revenus à la normale, mais votre capacité de "
+"Le virus ennemi s'est avéré beaucoup plus difficile à éliminer que prévu et "
+"vous avez dû pousser le système de piratage à la limite de sa capacité. Vos "
+"systèmes sont finalement revenus à la normale, mais votre capacité de "
 "piratage a subi une importante défaillance."
 
 #: src-en/data/events_sector_hacker.xml:1137
@@ -1660,8 +1666,8 @@ msgstr "Continuer..."
 msgid ""
 "data/events_sector_hacker.xml$//eventList[@name=\"HACKER_CACHE_LIST\"]/event[3]/text"
 msgstr ""
-"La cache semble être un entrepôt de fournitures diverses, que vous décidez "
-"de vous approprier."
+"La cache semble être un entrepôt de ressources diverses, que vous décidez de"
+" vous approprier."
 
 #: src-en/data/events_sector_hacker.xml:1206
 msgid ""
@@ -1701,8 +1707,8 @@ msgid ""
 msgstr ""
 "La cache a été piégée ! Des explosions secouent les murs et vous vous mettez"
 " à l'abri. Cependant, alors que vous vous remettez debout, rien ne semble "
-"avoir été endommagé. Le piège n'en était pas un, mais plusieurs Bombes de "
-"réparation ont été déclenchées par accident !"
+"avoir été endommagé. Le piège n'en était pas un, mais plusieurs Bombes "
+"Réparantes ont été déclenchées par accident !"
 
 #: src-en/data/events_sector_hacker.xml:1230
 msgid ""
@@ -1720,7 +1726,7 @@ msgstr "Continuer..."
 msgid ""
 "data/events_sector_hacker.xml$//eventList[@name=\"HACKER_CACHE_LIST\"]/event[6]/text"
 msgstr ""
-"Vous ouvrez le cache, et un bruit strident perce l'air. Vous retournez en "
+"Vous ouvrez le cache et un bruit strident perce l'air. Vous retournez en "
 "courant vers le vaisseau et constatez un flux de données brouillées qui "
 "s'écoule sur votre ordinateur. Heureusement, vous parvenez à l'arrêter à "
 "temps, mais vous soupçonnez que cela pourrait désorienter les Rebelles "
@@ -1772,8 +1778,8 @@ msgid "data/events_sector_hacker.xml$//event[@name=\"HACKER_FED_WIN\"]/text"
 msgstr ""
 "Au moment où vous achevez les hackers, une capsule de sauvetage se détache "
 "du vaisseau et part en spirale dans l'espace... mais vous la récupérez et la"
-" ramenez à bord. À l'intérieur, vous pouvez voir le Slug survivant trembler "
-"de peur."
+" ramenez à bord. À l'intérieur, vous pouvez voir la Limace survivant "
+"trembler de peur."
 
 #: src-en/data/events_sector_hacker.xml:1271
 msgid ""
@@ -1784,9 +1790,9 @@ msgstr "Continuer..."
 msgid ""
 "data/events_sector_hacker.xml$//event[@name=\"HACKER_FED_WIN\"]/choice/event/text"
 msgstr ""
-"Vous ouvrez la capsule de sauvetage et le Slug en sort lentement, les mains "
-"en l'air. \"Ok, je me rends ! Vous vous battez bien. Trop bien... Je vous "
-"donnerai tout cccce que vous voulez ! Des données, du travail, de la "
+"Vous ouvrez la capsule de sauvetage et la Limace en sort lentement, les "
+"mains en l'air. \"Ok, je me rends ! Vous vous battez bien. Trop bien... Je "
+"vous donnerai tout cccce que vous voulez ! Des données, du travail, de la "
 "ferraille, tout cccce que je demande, cccc'est que vous ne me tuiez pas !\""
 
 #: src-en/data/events_sector_hacker.xml:1276

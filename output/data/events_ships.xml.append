@@ -60,7 +60,7 @@
       <mod:findLike type="choice">
         <mod:findLike type="text">
           <mod:selector>Signal them and pretend to leave.</mod:selector>
-          <mod:setValue>Signal them and pretend to leave.[INFO][NAME]autoReward[/NAME]Reward ~(M)[/INFO][INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Rock)[/INFO]</mod:setValue>
+          <mod:setValue>Signal them and pretend to leave.[INFO][NAME]autoReward[/NAME]Reward ~ Only(M)[/INFO][INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Rock)[/INFO]</mod:setValue>
         </mod:findLike>
       </mod:findLike>
     </mod:findLike>
@@ -73,7 +73,7 @@
           <mod:findLike type="choice">
             <mod:findLike type="text">
               <mod:selector>Continue...</mod:selector>
-              <mod:setValue>Continue...[INFO][NAME]autoReward[/NAME]Reward ~(M)[/INFO][INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Rock)[/INFO]</mod:setValue>
+              <mod:setValue>Continue...[INFO][NAME]autoReward[/NAME]Reward ~ Only(M)[/INFO][INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Rock)[/INFO]</mod:setValue>
             </mod:findLike>
           </mod:findLike>
         </mod:findLike>
@@ -90,7 +90,7 @@
               <mod:findLike type="choice">
                 <mod:findLike type="text">
                   <mod:selector>Wait and see how this plays out.</mod:selector>
-                  <mod:setValue>Wait and see how this plays out.[INFO][NAME]autoReward[/NAME]Reward ~(M)[/INFO][INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Rock)[/INFO]</mod:setValue>
+                  <mod:setValue>Wait and see how this plays out.[INFO][NAME]autoReward[/NAME]Reward ~ Only(M)[/INFO][INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Rock)[/INFO]</mod:setValue>
                 </mod:findLike>
               </mod:findLike>
             </mod:findLike>
@@ -112,7 +112,7 @@
                     <mod:selector hidden="true"/>
                     <mod:findLike type="text">
                       <mod:selector>Wait for the rendezvous.</mod:selector>
-                      <mod:setValue>Wait for the rendezvous.[INFO][NAME]autoReward[/NAME]Reward ~(M)[/INFO][INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Rock)[/INFO]</mod:setValue>
+                      <mod:setValue>Wait for the rendezvous.[INFO][NAME]autoReward[/NAME]Reward ~ Only(M)[/INFO][INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Rock)[/INFO]</mod:setValue>
                     </mod:findLike>
                   </mod:findLike>
                 </mod:findLike>
@@ -531,6 +531,28 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
+  <mod:findName name="SHIP_FED_REBEL_CHOICE" type="ship">
+    <mod:findLike type="destroyed">
+      <mod:findLike type="choice">
+        <mod:selector hidden="true"/>
+        <mod:findLike type="text">
+          <mod:selector>Contact the Federation ship.</mod:selector>
+          <mod:setValue>Contact the Federation ship.[INFO][NAME]autoReward[/NAME]Reward Standard(L)[/INFO]</mod:setValue>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="SHIP_FED_REBEL_CHOICE" type="ship">
+    <mod:findLike type="deadCrew">
+      <mod:findLike type="choice">
+        <mod:selector hidden="true"/>
+        <mod:findLike type="text">
+          <mod:selector>Contact the Federation ship.</mod:selector>
+          <mod:setValue>Contact the Federation ship.[INFO][NAME]autoReward[/NAME]Reward Standard(L)[/INFO]</mod:setValue>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
   <mod:findName name="SHIP_REBEL_ARCHIVE" type="ship">
     <mod:findLike type="destroyed">
       <mod:findLike type="choice">
@@ -779,6 +801,122 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
+  <mod:findName name="SHIP_FED_SALVAGE" type="ship">
+    <mod:findLike type="destroyed">
+      <mod:findLike type="choice">
+        <mod:selector hidden="true"/>
+        <mod:findLike type="text">
+          <mod:selector>Continue...</mod:selector>
+          <mod:setValue>Continue...[INFO][NAME]autoReward[/NAME]Reward Item(L)[/INFO]</mod:setValue>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="SHIP_FED_SALVAGE" type="ship">
+    <mod:findLike type="deadCrew">
+      <mod:findLike type="choice">
+        <mod:selector hidden="true"/>
+        <mod:findLike type="text">
+          <mod:selector>Continue...</mod:selector>
+          <mod:setValue>Continue...[INFO][NAME]autoReward[/NAME]Reward Item(L)[/INFO]</mod:setValue>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="SHIP_FED_RANDOM_KNIGHT" type="ship">
+    <mod:findLike type="surrender">
+      <mod:selector chance="0.5" min="2" max="3"/>
+      <mod:findLike type="choice">
+        <mod:findLike type="text">
+          <mod:selector>Accept their surrender.</mod:selector>
+          <mod:setValue>Accept their surrender.[INFO][NAME]autoReward[/NAME]Reward Stuff(R)[/INFO][INFO][NAME]modifyPursuit[/NAME]&lt;!&gt;Fleet Advance(1)[/INFO]</mod:setValue>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="SHIP_FED_RANDOM_KNAVE" type="ship">
+    <mod:findLike type="surrender">
+      <mod:selector chance="0.5" min="2" max="3"/>
+      <mod:findLike type="choice">
+        <mod:selector hidden="true"/>
+        <mod:findLike type="text">
+          <mod:selector>Accept their surrender.</mod:selector>
+          <mod:setValue>Accept their surrender.[INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO]</mod:setValue>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="SHIP_FED_KNIGHT_NOR_KNAVE" type="ship">
+    <mod:findLike type="surrender">
+      <mod:selector chance="0.5" min="2" max="3"/>
+      <mod:findLike type="choice">
+        <mod:findLike type="text">
+          <mod:selector>Accept their surrender.</mod:selector>
+          <mod:setValue>Accept their surrender.[INFO][NAME]modifyPursuit[/NAME]&lt;!&gt;Fleet Advance(1)[/INFO]</mod:setValue>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="SHIP_FED_KNAVE" type="ship">
+    <mod:findLike type="surrender">
+      <mod:selector chance="0.5" min="2" max="3"/>
+      <mod:findLike type="choice">
+        <mod:selector hidden="true"/>
+        <mod:findLike type="text">
+          <mod:selector>Accept their surrender.</mod:selector>
+          <mod:setValue>Accept their surrender.[INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO]</mod:setValue>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="SHIP_FEDERATION_SMUGGLER_CONTACT" type="ship">
+    <mod:findLike type="surrender">
+      <mod:selector chance="0.5" min="2" max="3"/>
+      <mod:findLike type="choice">
+        <mod:findLike type="text">
+          <mod:selector>Accept their offer of surrender.</mod:selector>
+          <mod:setValue>Accept their offer of surrender.[INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO]</mod:setValue>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="SHIP_FEDERATION_SMUGGLER_CONTACT" type="ship">
+    <mod:findLike type="surrender">
+      <mod:selector chance="0.5" min="2" max="3"/>
+      <mod:findLike type="choice">
+        <mod:findLike type="event">
+          <mod:findLike type="choice">
+            <mod:findLike type="text">
+              <mod:selector>Continue...</mod:selector>
+              <mod:setValue>Continue...[INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO]</mod:setValue>
+            </mod:findLike>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="SHIP_FEDERATION_SMUGGLER_CONTACT" type="ship">
+    <mod:findLike type="destroyed">
+      <mod:findLike type="choice">
+        <mod:selector hidden="true"/>
+        <mod:findLike type="text">
+          <mod:selector>Look for the Argeonn ship.</mod:selector>
+          <mod:setValue>Look for the Argeonn ship.[INFO]50% [NAME]autoReward[/NAME]Reward Standard(L)[/INFO]</mod:setValue>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="SHIP_FEDERATION_SMUGGLER_CONTACT" type="ship">
+    <mod:findLike type="deadCrew">
+      <mod:findLike type="choice">
+        <mod:selector hidden="true"/>
+        <mod:findLike type="text">
+          <mod:selector>Look for the Argeonn ship.</mod:selector>
+          <mod:setValue>Look for the Argeonn ship.[INFO]50% [NAME]autoReward[/NAME]Reward Standard(L)[/INFO]</mod:setValue>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
   <mod:findName name="SHIP_FED_LENNY" type="ship">
     <mod:findLike type="destroyed">
       <mod:findLike type="choice">
@@ -983,6 +1121,29 @@
         <mod:findLike type="text">
           <mod:selector>Continue...</mod:selector>
           <mod:setValue>Continue...[INFO][NAME]autoReward[/NAME]Reward Item(H)[/INFO]</mod:setValue>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="SHIP_SMUGGLER_UNION_PAYMENT" type="ship">
+    <mod:findLike type="surrender">
+      <mod:selector min="2" max="4"/>
+      <mod:findLike type="choice">
+        <mod:selector hidden="true"/>
+        <mod:findLike type="text">
+          <mod:selector>Accept their surrender, and the cargo.</mod:selector>
+          <mod:setValue>Accept their surrender, and the cargo.[INFO][NAME]weapon[/NAME]Gain a weapon(Random)[/INFO]</mod:setValue>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="SHIP_SMUGGLER_UNION_PAYMENT" type="ship">
+    <mod:findLike type="deadCrew">
+      <mod:findLike type="choice">
+        <mod:selector hidden="true"/>
+        <mod:findLike type="text">
+          <mod:selector>Continue...</mod:selector>
+          <mod:setValue>Continue...[INFO][NAME]weapon[/NAME]Gain a weapon(Random)[/INFO]</mod:setValue>
         </mod:findLike>
       </mod:findLike>
     </mod:findLike>
@@ -1370,10 +1531,9 @@
   <mod:findName name="SHIP_AUTO_RADAR" type="ship">
     <mod:findLike type="destroyed">
       <mod:findLike type="choice">
-        <mod:selector hidden="true" req="hacking"/>
         <mod:findLike type="text">
-          <mod:selector>(Hacking) Use a drone to hack into the station.</mod:selector>
-          <mod:setValue>(Hacking) Use a drone to hack into the station.[INFO][NAME]revealMap[/NAME]Map Reveal[/INFO][INFO][NAME]modifyPursuit[/NAME]Fleet Delay(1)[/INFO][INFO][NAME]itemModify[/NAME]|-1[/INFO]</mod:setValue>
+          <mod:selector>Continue...</mod:selector>
+          <mod:setValue>Continue...[INFO]25% [NAME]modifyPursuit[/NAME]Fleet Delay(1)[/INFO][INFO]25% [NAME]revealMap[/NAME]Map Reveal[/INFO][INFO]25% [NAME]modifyPursuit[/NAME]&lt;!&gt;Fleet Advance(1)[/INFO][INFO][NAME]revealMap[/NAME]Map Reveal[/INFO][INFO][NAME]modifyPursuit[/NAME]Fleet Delay(1)[/INFO][INFO][NAME]itemModify[/NAME]|-1[/INFO]</mod:setValue>
         </mod:findLike>
       </mod:findLike>
     </mod:findLike>
@@ -1938,6 +2098,51 @@
         <mod:findLike type="text">
           <mod:selector>Scrap the Separatist.</mod:selector>
           <mod:setValue>Scrap the Separatist.[INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO]</mod:setValue>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="SHIP_SEPARATIST_FUEL_STARGROVE" type="ship">
+    <mod:findLike type="surrender">
+      <mod:selector chance="0.5" min="2" max="3"/>
+      <mod:findLike type="choice">
+        <mod:findLike type="text">
+          <mod:selector>Accept their offer of fuel.</mod:selector>
+          <mod:setValue>Accept their offer of fuel.[INFO][NAME]itemModify[/NAME]15≤{≤25[/INFO]</mod:setValue>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="SHIP_SEPARATIST_FUEL_STARGROVE" type="ship">
+    <mod:findLike type="surrender">
+      <mod:selector chance="0.5" min="2" max="3"/>
+      <mod:findLike type="choice">
+        <mod:findLike type="text">
+          <mod:selector>Demand scrap instead.</mod:selector>
+          <mod:setValue>Demand scrap instead.[INFO][NAME]autoReward[/NAME]Reward {(M)[/INFO]</mod:setValue>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="SHIP_SEPARATIST_FUEL_STARGROVE" type="ship">
+    <mod:findLike type="destroyed">
+      <mod:findLike type="choice">
+        <mod:selector hidden="true"/>
+        <mod:findLike type="text">
+          <mod:selector>Examine the fuel collector.</mod:selector>
+          <mod:setValue>Examine the fuel collector.[INFO][NAME]autoReward[/NAME]Reward { Only(H)[/INFO][INFO][NAME]autoReward[/NAME]Reward { Only(L)[/INFO]</mod:setValue>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="SHIP_SEPARATIST_FUEL_STARGROVE" type="ship">
+    <mod:findLike type="deadCrew">
+      <mod:selector load="DEAD_CREW_SEPARATIST"/>
+      <mod:findLike type="choice">
+        <mod:selector hidden="true"/>
+        <mod:findLike type="text">
+          <mod:selector>Examine the fuel collector.</mod:selector>
+          <mod:setValue>Examine the fuel collector.[INFO][NAME]autoReward[/NAME]Reward { Only(H)[/INFO][INFO][NAME]autoReward[/NAME]Reward { Only(L)[/INFO]</mod:setValue>
         </mod:findLike>
       </mod:findLike>
     </mod:findLike>
@@ -2522,6 +2727,28 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
+  <mod:findName name="SHIP_FED_DUSKBRINGER_CHOICE" type="ship">
+    <mod:findLike type="destroyed">
+      <mod:findLike type="choice">
+        <mod:selector hidden="true"/>
+        <mod:findLike type="text">
+          <mod:selector>Contact the Federation ship.</mod:selector>
+          <mod:setValue>Contact the Federation ship.[INFO][NAME]autoReward[/NAME]Reward Standard(L)[/INFO]</mod:setValue>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="SHIP_FED_DUSKBRINGER_CHOICE" type="ship">
+    <mod:findLike type="deadCrew">
+      <mod:findLike type="choice">
+        <mod:selector hidden="true"/>
+        <mod:findLike type="text">
+          <mod:selector>Contact the Federation ship.</mod:selector>
+          <mod:setValue>Contact the Federation ship.[INFO][NAME]autoReward[/NAME]Reward Standard(L)[/INFO]</mod:setValue>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
   <mod:findName name="SHIP_DUSK_HARASS" type="ship">
     <mod:findLike type="destroyed">
       <mod:findLike type="choice">
@@ -2730,6 +2957,7 @@
   <mod:findName name="SHIP_MANTIS_ADVISORY" type="ship">
     <mod:findLike type="destroyed">
       <mod:findLike type="choice">
+        <mod:selector hidden="true"/>
         <mod:findLike type="text">
           <mod:selector>Forward the rest of the information to the Harmony.</mod:selector>
           <mod:setValue>Forward the rest of the information to the Harmony.[INFO][NAME]autoReward[/NAME]Reward |(L)[/INFO]</mod:setValue>
@@ -2740,6 +2968,7 @@
   <mod:findName name="SHIP_MANTIS_ADVISORY" type="ship">
     <mod:findLike type="deadCrew">
       <mod:findLike type="choice">
+        <mod:selector hidden="true"/>
         <mod:findLike type="text">
           <mod:selector>Forward the rest of the information to the Harmony.</mod:selector>
           <mod:setValue>Forward the rest of the information to the Harmony.[INFO][NAME]autoReward[/NAME]Reward |(L)[/INFO]</mod:setValue>
@@ -3427,7 +3656,7 @@
         <mod:selector hidden="true"/>
         <mod:findLike type="text">
           <mod:selector>Continue...</mod:selector>
-          <mod:setValue>Continue...[INFO][NAME]boarders[/NAME]&lt;!&gt;Enemy Boarding(x2-x3 Rock)[/INFO][INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO]</mod:setValue>
+          <mod:setValue>Continue...[INFO][NAME]damage[/NAME]&lt;!&gt;Damage Hull(1)[/INFO][INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO]</mod:setValue>
         </mod:findLike>
       </mod:findLike>
     </mod:findLike>
@@ -4925,28 +5154,6 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="SHIP_SLUG_SUICIDEMOON" type="ship">
-    <mod:findLike type="destroyed">
-      <mod:findLike type="choice">
-        <mod:selector hidden="true"/>
-        <mod:findLike type="text">
-          <mod:selector>Address the queue.</mod:selector>
-          <mod:setValue>Address the queue.[INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO]</mod:setValue>
-        </mod:findLike>
-      </mod:findLike>
-    </mod:findLike>
-  </mod:findName>
-  <mod:findName name="SHIP_SLUG_SUICIDEMOON" type="ship">
-    <mod:findLike type="deadCrew">
-      <mod:findLike type="choice">
-        <mod:selector hidden="true"/>
-        <mod:findLike type="text">
-          <mod:selector>Address the queue.</mod:selector>
-          <mod:setValue>Address the queue.[INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO]</mod:setValue>
-        </mod:findLike>
-      </mod:findLike>
-    </mod:findLike>
-  </mod:findName>
   <mod:findName name="SHIP_SLAVER_DELEGATE" type="ship">
     <mod:findLike type="surrender">
       <mod:selector min="2" max="4"/>
@@ -5220,7 +5427,7 @@
       <mod:findLike type="choice">
         <mod:findLike type="text">
           <mod:selector>Stop the fight.</mod:selector>
-          <mod:setValue>Stop the fight.[INFO][NAME]autoReward[/NAME]Reward Standard(L)[/INFO]</mod:setValue>
+          <mod:setValue>Stop the fight.[INFO][NAME]autoReward[/NAME]Reward Stuff(R)[/INFO]</mod:setValue>
         </mod:findLike>
       </mod:findLike>
     </mod:findLike>
@@ -7288,6 +7495,28 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
+  <mod:findName name="SHIP_STORM_PIRATE_SUPPLY_FUEL" type="ship">
+    <mod:findLike type="destroyed">
+      <mod:findLike type="choice">
+        <mod:selector req="FUEL_CONSERVER" hidden="true"/>
+        <mod:findLike type="text">
+          <mod:selector>(Fuel Conserver) Generate a little extra fuel from the wreckage.</mod:selector>
+          <mod:setValue>(Fuel Conserver) Generate a little extra fuel from the wreckage.[INFO][NAME]autoReward[/NAME]Reward { Only(L)[/INFO]</mod:setValue>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="SHIP_STORM_PIRATE_SUPPLY_AMMO" type="ship">
+    <mod:findLike type="destroyed">
+      <mod:findLike type="choice">
+        <mod:selector req="RECYCLER" hidden="true"/>
+        <mod:findLike type="text">
+          <mod:selector>(Recycler) Generate a few extra missiles from the wreckage.</mod:selector>
+          <mod:setValue>(Recycler) Generate a few extra missiles from the wreckage.[INFO][NAME]autoReward[/NAME]Reward } Only(L)[/INFO]</mod:setValue>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
   <mod:findName name="SHIP_ORCHID_MERCENARY" type="ship">
     <mod:findLike type="destroyed">
       <mod:findLike type="choice">
@@ -7349,7 +7578,7 @@
       <mod:findLike type="choice">
         <mod:findLike type="text">
           <mod:selector>Accept their "offer".</mod:selector>
-          <mod:setValue>Accept their "offer".[INFO][NAME]drone[/NAME]Gain a drone(List Drones Random)[/INFO][INFO][NAME]itemModify[/NAME]-25≤~≤-15[/INFO]</mod:setValue>
+          <mod:setValue>Accept their "offer".[INFO][NAME]drone[/NAME]Gain a drone(Combat Random)[/INFO][INFO][NAME]itemModify[/NAME]-25≤~≤-15[/INFO]</mod:setValue>
         </mod:findLike>
       </mod:findLike>
     </mod:findLike>
@@ -8626,7 +8855,7 @@
         <mod:selector hidden="true"/>
         <mod:findLike type="text">
           <mod:selector>Continue...</mod:selector>
-          <mod:setValue>Continue...[INFO][NAME]autoReward[/NAME]Reward | Only(L)[/INFO][INFO][NAME]drone[/NAME]Gain a drone(Random)[/INFO]</mod:setValue>
+          <mod:setValue>Continue...[INFO][NAME]autoReward[/NAME]Reward | Only(M)[/INFO][INFO][NAME]drone[/NAME]Gain a drone(Random)[/INFO]</mod:setValue>
         </mod:findLike>
       </mod:findLike>
     </mod:findLike>
@@ -8637,7 +8866,7 @@
         <mod:selector hidden="true"/>
         <mod:findLike type="text">
           <mod:selector>Continue...</mod:selector>
-          <mod:setValue>Continue...[INFO][NAME]autoReward[/NAME]Reward | Only(L)[/INFO][INFO][NAME]drone[/NAME]Gain a drone(Random)[/INFO]</mod:setValue>
+          <mod:setValue>Continue...[INFO][NAME]autoReward[/NAME]Reward | Only(M)[/INFO][INFO][NAME]drone[/NAME]Gain a drone(Random)[/INFO]</mod:setValue>
         </mod:findLike>
       </mod:findLike>
     </mod:findLike>

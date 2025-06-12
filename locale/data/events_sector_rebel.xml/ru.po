@@ -1,17 +1,15 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-05-24 19:26+0000\n"
+"PO-Revision-Date: 2025-06-12 01:50+0000\n"
 "Last-Translator: Ukn <bbg100bbg@gmail.com>\n"
-"Language-Team: Russian <https://weblate.hyperq.be/projects/ftl-multiverse/"
-"dataevents_sector_rebelxml/ru/>\n"
+"Language-Team: Russian <https://weblate.hyperq.be/projects/ftl-multiverse/dataevents_sector_rebelxml/ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.16.4\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 5.11.4\n"
 
 #: src-en/data/events_sector_rebel.xml:28
 msgid ""
@@ -680,7 +678,7 @@ msgid ""
 msgstr ""
 "Вас приветствует лысый гражданин с невероятно длинной бородой. \"Подходите, "
 "ребята, и посмотрите на Саплинга Дарителя Радости! Достаточно вдохнуть "
-"аромат его листьев, и вы почувствуете себя вершине мира! Не стесняйтесь, "
+"аромат его листьев, и вы почувствуете себя на вершине мира! Не стесняйтесь, "
 "подходите, но не нюхайте, мы не несем ответственности за то, что с вами "
 "случится\"."
 
@@ -725,9 +723,9 @@ msgstr "Посмотреть на золтана"
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_CIRCUS\"]/choice[1]/event/choice[4]/event/text"
 msgstr ""
-"Лысый гражданин с невероятно длинной бородой приветствует вас. \" Подходите,"
-" ребята, и посмотрите на Намаста Энергичного! Когда он рядом, вам никогда не"
-" понадобится розетка для зарядки вашего голопада! Он может обеспечить "
+"Лысый гражданин с невероятно длинной бородой приветствует вас. \"Подходите, "
+"ребята, и посмотрите на Намаста Энергичного! Когда он рядом, вам никогда не "
+"понадобится розетка для зарядки вашего голопада! Он может обеспечить "
 "энергией все, что угодно, потому что он СДЕЛАН из энергии!\""
 
 #: src-en/data/events_sector_rebel.xml:481
@@ -862,9 +860,7 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_REMOTE_COLONY\"]/choice[@req=\"LIST_CREW_HUMAN\""
 " and @lvl=\"0\"]/text"
-msgstr ""
-"У вас нету среди членов экипажа человека, поэтому посещение колонии может "
-"быть сопряжено с опасностью."
+msgstr "У вас нет среди членов экипажа человека, поэтому посещение колонии может быть сопряжено с опасностью."
 
 #: src-en/data/events_sector_rebel.xml:580
 msgid ""
@@ -874,7 +870,7 @@ msgstr "Не обращать внимания на колонию."
 #: src-en/data/events_sector_rebel.xml:582
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_REMOTE_COLONY\"]/choice[3]/event/text"
-msgstr "Вы избегаете колонии. В ней, кажется, нету ничего интересного."
+msgstr "Вы избегаете колонии. В ней, кажется, нет ничего интересного."
 
 #: src-en/data/events_sector_rebel.xml:584
 msgid ""
@@ -1295,12 +1291,7 @@ msgstr "(Член экипажа-Монах) Успокоить даму."
 #: src-en/data/events_sector_rebel.xml:820
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_WISTFUL_CITIZEN\"]/choice[1]/event/choice[1]/event/choice[@req=\"zoltan_monk\"]/event/text"
-msgstr ""
-"Ваш Монах беседует с дамой, разговаривая на духовном языке. Дама не отстает,"
-" поддерживая с вашим монахом увлекательную беседу. \"О, я не ожидала, что "
-"монах сможет добраться сюда, даже когда не было войны... Спасибо. "
-"Пожалуйста, примите этот подарок\". Рядом с вашим кораблем в космос "
-"телепортируется немного лома, который вы подбираете."
+msgstr "Ваш Монах беседует с дамой, разговаривая на духовном языке. Дама не отстает, поддерживая с вашим монахом увлекательную беседу. \"Ого, я не ожидала, что монах сможет добраться сюда, даже когда не было войны... Спасибо. Пожалуйста, примите этот подарок\". Рядом с вашим кораблем в космос телепортируется немного лома, который вы подбираете."
 
 #: src-en/data/events_sector_rebel.xml:825
 msgid ""
@@ -1607,10 +1598,10 @@ msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_AUTO_LOREKEEPER\"]/choice[1]/event/choice[1]/event/text"
 msgstr ""
 "\"Общеизвестно, что человеческая раса превосходит все остальные "
-"инопланетные. Поэтому Восстание имеет божественное право свергнуть Федерацию "
-"и установить славное галактическое правительство, состоящее только из людей. "
-"Другим пришельцам будет позволено существовать на окраинах, при условии, что "
-"они будут избегать общения с людьми\"."
+"инопланетные. Поэтому Восстание имеет божественное право свергнуть Федерацию"
+" и установить славное галактическое правительство, состоящее только из "
+"людей. Другим пришельцам будет позволено существовать на окраинах, при "
+"условии, что они будут избегать общения с людьми\"."
 
 #: src-en/data/events_sector_rebel.xml:996
 msgid ""
@@ -2107,14 +2098,45 @@ msgid ""
 "data/events_sector_rebel.xml$//eventList[@name=\"AUTO_DEFENSE_RADAR_COMBAT_MV\"]/event[3]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_rebel.xml:1366
+#: src-en/data/events_sector_rebel.xml:1365
+msgid ""
+"data/events_sector_rebel.xml$//event[@name=\"DEFENSE_RADAR_ACCESS_MV\"]/text"
+msgstr ""
+"Станция, о которой идет речь, судя по всему, способна передать информацию "
+"Флоту повстанцев. Вы можете попытаться взломать ее, чтобы дать повстанцам "
+"ложную информацию."
+
+#: src-en/data/events_sector_rebel.xml:1367
+msgid ""
+"data/events_sector_rebel.xml$//event[@name=\"DEFENSE_RADAR_ACCESS_MV\"]/choice[1]/text"
+msgstr "Попытаться вручную взломать станцию."
+
+#: src-en/data/events_sector_rebel.xml:1371
+msgid ""
+"data/events_sector_rebel.xml$//event[@name=\"DEFENSE_RADAR_ACCESS_MV\"]/choice[2]/text"
+msgstr "Не стоит рисковать. Покинуть станцию."
+
+#: src-en/data/events_sector_rebel.xml:1375
+msgid ""
+"data/events_sector_rebel.xml$//event[@name=\"DEFENSE_RADAR_ACCESS_MV\"]/choice[@req=\"hacking\"]/text"
+msgstr "(Взломщик) Использовать дрон, чтобы взломать станцию."
+
+#: src-en/data/events_sector_rebel.xml:1377
+msgid ""
+"data/events_sector_rebel.xml$//event[@name=\"DEFENSE_RADAR_ACCESS_MV\"]/choice[@req=\"hacking\"]/event/text"
+msgstr ""
+"Вы успешно взломали их систему и передали ложную информацию о своем "
+"местонахождении. Это задержит флот по крайней мере на некоторое время. Вы "
+"также можете загрузить данные об окружающих маяках."
+
+#: src-en/data/events_sector_rebel.xml:1388
 msgid ""
 "data/events_sector_rebel.xml$//eventList[@name=\"DEFENSE_RADAR_LIST_MV\"]/event[1]/text"
 msgstr ""
 "Вы успешно взламываете их систему и передаете ложную информацию о своем "
 "местонахождении. Это должно задержать флот хотя бы на некоторое время."
 
-#: src-en/data/events_sector_rebel.xml:1370
+#: src-en/data/events_sector_rebel.xml:1392
 msgid ""
 "data/events_sector_rebel.xml$//eventList[@name=\"DEFENSE_RADAR_LIST_MV\"]/event[2]/text"
 msgstr ""
@@ -2122,14 +2144,14 @@ msgstr ""
 "отключиться от сети, вы натыкаетесь на незащищенную информацию об окружающих"
 " маяках. Ваша карта обновляется."
 
-#: src-en/data/events_sector_rebel.xml:1374
+#: src-en/data/events_sector_rebel.xml:1396
 msgid ""
 "data/events_sector_rebel.xml$//eventList[@name=\"DEFENSE_RADAR_LIST_MV\"]/event[3]/text"
 msgstr ""
 "Вам не удается проникнуть в систему защиты компьютера. Вы сдаетесь и "
 "возвращаетесь на корабль."
 
-#: src-en/data/events_sector_rebel.xml:1377
+#: src-en/data/events_sector_rebel.xml:1399
 msgid ""
 "data/events_sector_rebel.xml$//eventList[@name=\"DEFENSE_RADAR_LIST_MV\"]/event[4]/text"
 msgstr ""
@@ -2137,49 +2159,49 @@ msgstr ""
 "повстанцы наверняка знают о вашем положении! Вы спешите вернуться на "
 "корабль, чтобы уйти в прыжок."
 
-#: src-en/data/events_sector_rebel.xml:1383
+#: src-en/data/events_sector_rebel.xml:1405
 msgid "data/events_sector_rebel.xml$//event[@name=\"BROKEN_REBEL_DRONE\"]/text"
 msgstr ""
 "Вы обнаружили автоматический разведчик повстанцев, находящийся вблизи этого "
 "маяка. Несмотря на первозданное состояние, он, похоже, не активирован."
 
-#: src-en/data/events_sector_rebel.xml:1386
+#: src-en/data/events_sector_rebel.xml:1408
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"BROKEN_REBEL_DRONE\"]/choice[1]/text"
 msgstr "Попытаться загрузить хранилище данных корабля."
 
-#: src-en/data/events_sector_rebel.xml:1390
+#: src-en/data/events_sector_rebel.xml:1412
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"BROKEN_REBEL_DRONE\"]/choice[2]/text"
 msgstr ""
 "Не стоит рисковать, активируя его, достаточно просто разобрать корабль на "
 "полезный металлолом."
 
-#: src-en/data/events_sector_rebel.xml:1396
+#: src-en/data/events_sector_rebel.xml:1418
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"BROKEN_REBEL_DRONE\"]/choice[@req=\"sensors\"]/text"
 msgstr "(Продв. Сенсоры) Дистанционное сканирование корабля."
 
-#: src-en/data/events_sector_rebel.xml:1402
+#: src-en/data/events_sector_rebel.xml:1424
 msgid ""
 "data/events_sector_rebel.xml$//eventList[@name=\"DOWNLOAD_DRONE_DATA_MV\"]/event[1]/text"
 msgstr ""
 "Вы получили возможность извлечь все данные корабля об этом секторе. Ваша "
 "карта была обновлена."
 
-#: src-en/data/events_sector_rebel.xml:1407
+#: src-en/data/events_sector_rebel.xml:1429
 msgid ""
 "data/events_sector_rebel.xml$//eventList[@name=\"DOWNLOAD_DRONE_DATA_MV\"]/event[2]/text"
 msgstr ""
 "Вы случайно активировали искусственный интеллект корабля. Его оружие "
 "немедленно включается; приготовьтесь к бою!"
 
-#: src-en/data/events_sector_rebel.xml:1410
+#: src-en/data/events_sector_rebel.xml:1432
 msgid ""
 "data/events_sector_rebel.xml$//eventList[@name=\"DOWNLOAD_DRONE_DATA_MV\"]/event[2]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_rebel.xml:1417
+#: src-en/data/events_sector_rebel.xml:1439
 msgid ""
 "data/events_sector_rebel.xml$//eventList[@name=\"BROKEN_REBEL_DRONE_SENSORS_MV\"]/event[1]/text"
 msgstr ""
@@ -2187,7 +2209,7 @@ msgstr ""
 " загружаете данные его карты в свою навигационную систему и зачищаете "
 "корабль от полезных материалов."
 
-#: src-en/data/events_sector_rebel.xml:1422
+#: src-en/data/events_sector_rebel.xml:1444
 msgid ""
 "data/events_sector_rebel.xml$//eventList[@name=\"BROKEN_REBEL_DRONE_SENSORS_MV\"]/event[2]/text"
 msgstr ""
@@ -2195,32 +2217,32 @@ msgstr ""
 " готовый активизироваться в любой момент. Будете ли вы по-прежнему пытаться "
 "получить доступ к данным корабля?"
 
-#: src-en/data/events_sector_rebel.xml:1424
+#: src-en/data/events_sector_rebel.xml:1446
 msgid ""
 "data/events_sector_rebel.xml$//eventList[@name=\"BROKEN_REBEL_DRONE_SENSORS_MV\"]/event[2]/choice[1]/text"
 msgstr "Да."
 
-#: src-en/data/events_sector_rebel.xml:1428
+#: src-en/data/events_sector_rebel.xml:1450
 msgid ""
 "data/events_sector_rebel.xml$//eventList[@name=\"BROKEN_REBEL_DRONE_SENSORS_MV\"]/event[2]/choice[2]/text"
 msgstr "Нет."
 
-#: src-en/data/events_sector_rebel.xml:1430
+#: src-en/data/events_sector_rebel.xml:1452
 msgid ""
 "data/events_sector_rebel.xml$//eventList[@name=\"BROKEN_REBEL_DRONE_SENSORS_MV\"]/event[2]/choice[2]/event/text"
 msgstr "Вы оставляете корабль в покое и готовитесь к прыжку."
 
-#: src-en/data/events_sector_rebel.xml:1432
+#: src-en/data/events_sector_rebel.xml:1454
 msgid ""
 "data/events_sector_rebel.xml$//eventList[@name=\"BROKEN_REBEL_DRONE_SENSORS_MV\"]/event[2]/choice[2]/event/choice[1]/text"
 msgstr "Заняться чем-либо на корабле."
 
-#: src-en/data/events_sector_rebel.xml:1436
+#: src-en/data/events_sector_rebel.xml:1458
 msgid ""
 "data/events_sector_rebel.xml$//eventList[@name=\"BROKEN_REBEL_DRONE_SENSORS_MV\"]/event[2]/choice[2]/event/choice[2]/text"
 msgstr "Ничего не делать."
 
-#: src-en/data/events_sector_rebel.xml:1445
+#: src-en/data/events_sector_rebel.xml:1467
 msgid "data/events_sector_rebel.xml$//event[@name=\"REBEL_DEFECTOR\"]/text"
 msgstr ""
 "Корабль повстанцев патрулирует этот маяк и немедленно разворачивается, чтобы"
@@ -2228,11 +2250,11 @@ msgstr ""
 "обнаруживают сигнал телепортатора ближнего радиуса действия. На борту "
 "находится незваный гость!"
 
-#: src-en/data/events_sector_rebel.xml:1448
+#: src-en/data/events_sector_rebel.xml:1470
 msgid "data/events_sector_rebel.xml$//event[@name=\"REBEL_DEFECTOR\"]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_rebel.xml:1450
+#: src-en/data/events_sector_rebel.xml:1472
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_DEFECTOR\"]/choice/event/text"
 msgstr ""
@@ -2240,25 +2262,38 @@ msgstr ""
 "Повстанец, судя по всему, безоружный, неоднократно заявляет о своих мирных "
 "намерениях. Похоже, жизнь повстанца потеряла свою привлекательность."
 
-#: src-en/data/events_sector_rebel.xml:1452
+#: src-en/data/events_sector_rebel.xml:1474
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_DEFECTOR\"]/choice/event/choice[1]/text"
 msgstr "Принять его предложение и приготовиться к бою с кораблем повстанцев."
 
-#: src-en/data/events_sector_rebel.xml:1456
+#: src-en/data/events_sector_rebel.xml:1478
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_DEFECTOR\"]/choice/event/choice[2]/text"
 msgstr ""
 "Отказаться от его предложения. Никогда нельзя доверять этим повстанцам."
 
-#: src-en/data/events_sector_rebel.xml:1460
+#: src-en/data/events_sector_rebel.xml:1482
+msgid ""
+"data/events_sector_rebel.xml$//event[@name=\"REBEL_DEFECTOR\"]/choice/event/choice[@req=\"LIST_CREW_SLUG\"]/text"
+msgstr ""
+"(Член экипажа-слизень) Попросить члена экипажа проверить его намерения."
+
+#: src-en/data/events_sector_rebel.xml:1486
+msgid ""
+"data/events_sector_rebel.xml$//event[@name=\"REBEL_DEFECTOR\"]/choice/event/choice[@req=\"BLUELIST_CREW_SNAIL\"]/text"
+msgstr ""
+"(Член экипажа-ракушка-Телепат) Попросить члена экипажа проверить его "
+"намерения."
+
+#: src-en/data/events_sector_rebel.xml:1490
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_DEFECTOR\"]/choice/event/choice[@req=\"LIST_CHECK_ANY_CREW\""
 " and @lvl=\"0\"]/text"
 msgstr ""
 "Немедленно уничтожить нарушителя. Никогда нельзя доверять этим повстанцам."
 
-#: src-en/data/events_sector_rebel.xml:1462
+#: src-en/data/events_sector_rebel.xml:1492
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_DEFECTOR\"]/choice/event/choice[@req=\"LIST_CHECK_ANY_CREW\""
 " and @lvl=\"0\"]/event/text"
@@ -2266,62 +2301,89 @@ msgstr ""
 "Ваша современная система безопасности легко устраняет нарушителя, но с "
 "кораблем повстанцев еще нужно разобраться."
 
-#: src-en/data/events_sector_rebel.xml:1464
+#: src-en/data/events_sector_rebel.xml:1494
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_DEFECTOR\"]/choice/event/choice[@req=\"LIST_CHECK_ANY_CREW\""
 " and @lvl=\"0\"]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_rebel.xml:1474
+#: src-en/data/events_sector_rebel.xml:1504
+msgid ""
+"data/events_sector_rebel.xml$//eventList[@name=\"REBEL_DEFECTOR_TELEPATH_CREW_MV\"]/event[1]/text"
+msgstr ""
+"Ваш член экипажа несколько секунд проверяет его намерения, но не может найти"
+" ничего, указывающего на то, что он настроен враждебно. Вы позволяете "
+"бывшему повстанцу присоединиться к вашему экипажу и готовитесь дать отпор "
+"кораблю повстанцев."
+
+#: src-en/data/events_sector_rebel.xml:1507
+msgid ""
+"data/events_sector_rebel.xml$//eventList[@name=\"REBEL_DEFECTOR_TELEPATH_CREW_MV\"]/event[1]/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_rebel.xml:1512
+msgid ""
+"data/events_sector_rebel.xml$//eventList[@name=\"REBEL_DEFECTOR_TELEPATH_CREW_MV\"]/event[2]/text"
+msgstr ""
+"Вашему члену экипажа не понадобилось много времени, чтобы понять, что "
+"повстанец хочет вас обмануть. Хотя с ними легко справиться, вам все равно "
+"придется иметь дело с другими повстанцами."
+
+#: src-en/data/events_sector_rebel.xml:1514
+msgid ""
+"data/events_sector_rebel.xml$//eventList[@name=\"REBEL_DEFECTOR_TELEPATH_CREW_MV\"]/event[2]/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_rebel.xml:1521
 msgid ""
 "data/events_sector_rebel.xml$//eventList[@name=\"REBEL_DEFECTOR_REJECT_MV\"]/event[1]/text"
 msgstr ""
 "Ваша бесстрашная команда легко справилась с нарушителем, но с кораблем "
 "повстанцев еще предстоит разобраться."
 
-#: src-en/data/events_sector_rebel.xml:1476
+#: src-en/data/events_sector_rebel.xml:1523
 msgid ""
 "data/events_sector_rebel.xml$//eventList[@name=\"REBEL_DEFECTOR_REJECT_MV\"]/event[1]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_rebel.xml:1481
+#: src-en/data/events_sector_rebel.xml:1528
 msgid ""
 "data/events_sector_rebel.xml$//eventList[@name=\"REBEL_DEFECTOR_REJECT_MV\"]/event[2]/text"
 msgstr "Справиться с атаками изнутри и снаружи - задача не из легких!"
 
-#: src-en/data/events_sector_rebel.xml:1484
+#: src-en/data/events_sector_rebel.xml:1531
 msgid ""
 "data/events_sector_rebel.xml$//eventList[@name=\"REBEL_DEFECTOR_REJECT_MV\"]/event[2]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_rebel.xml:1489
+#: src-en/data/events_sector_rebel.xml:1536
 msgid ""
 "data/events_sector_rebel.xml$//eventList[@name=\"REBEL_DEFECTOR_REJECT_MV\"]/event[3]/text"
 msgstr ""
 "Он предлагает провести вас к секретному тайнику с металлоломом неподалеку, "
 "если вы позволите ему присоединиться к вашей команде."
 
-#: src-en/data/events_sector_rebel.xml:1491
+#: src-en/data/events_sector_rebel.xml:1538
 msgid ""
 "data/events_sector_rebel.xml$//eventList[@name=\"REBEL_DEFECTOR_REJECT_MV\"]/event[3]/choice[1]/text"
 msgstr "Нехотя принять его предложение и сразиться с кораблем повстанцев."
 
-#: src-en/data/events_sector_rebel.xml:1495
+#: src-en/data/events_sector_rebel.xml:1542
 msgid ""
 "data/events_sector_rebel.xml$//eventList[@name=\"REBEL_DEFECTOR_REJECT_MV\"]/event[3]/choice[2]/text"
 msgstr "Отказаться от него и казнить на месте."
 
-#: src-en/data/events_sector_rebel.xml:1497
+#: src-en/data/events_sector_rebel.xml:1544
 msgid ""
 "data/events_sector_rebel.xml$//eventList[@name=\"REBEL_DEFECTOR_REJECT_MV\"]/event[3]/choice[2]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_rebel.xml:1502
+#: src-en/data/events_sector_rebel.xml:1549
 msgid ""
 "data/events_sector_rebel.xml$//eventList[@name=\"REBEL_DEFECTOR_REJECT_MV\"]/event[3]/choice[3]/text"
 msgstr "Снова отклонить его предложение."
 
-#: src-en/data/events_sector_rebel.xml:1512
+#: src-en/data/events_sector_rebel.xml:1559
 msgid ""
 "data/events_sector_rebel.xml$//eventList[@name=\"REBEL_DEFECTOR_HELP_MV\"]/event[1]/text"
 msgstr ""
@@ -2329,12 +2391,12 @@ msgstr ""
 "о полете, после чего телепортировался. Теперь флот сможет легко отследить "
 "вас. Если только они не смогут убить вас прямо сейчас!"
 
-#: src-en/data/events_sector_rebel.xml:1517
+#: src-en/data/events_sector_rebel.xml:1564
 msgid ""
 "data/events_sector_rebel.xml$//eventList[@name=\"REBEL_DEFECTOR_HELP_MV\"]/event[1]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_rebel.xml:1522
+#: src-en/data/events_sector_rebel.xml:1569
 msgid ""
 "data/events_sector_rebel.xml$//eventList[@name=\"REBEL_DEFECTOR_HELP_MV\"]/event[2]/text"
 msgstr ""
@@ -2342,65 +2404,65 @@ msgstr ""
 "пульт дистанционного управления. По всему кораблю раздаются взрывы, и на "
 "борт телепортируются новые абордажники!"
 
-#: src-en/data/events_sector_rebel.xml:1526
+#: src-en/data/events_sector_rebel.xml:1573
 msgid ""
 "data/events_sector_rebel.xml$//eventList[@name=\"REBEL_DEFECTOR_HELP_MV\"]/event[2]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_rebel.xml:1531
+#: src-en/data/events_sector_rebel.xml:1578
 msgid ""
 "data/events_sector_rebel.xml$//eventList[@name=\"REBEL_DEFECTOR_HELP_MV\"]/event[3]/text"
 msgstr ""
 "С облегчением и чувством легкого головокружения ваш новый член экипажа "
 "приступает к работе во время атаки корабля повстанцев."
 
-#: src-en/data/events_sector_rebel.xml:1534
+#: src-en/data/events_sector_rebel.xml:1581
 msgid ""
 "data/events_sector_rebel.xml$//eventList[@name=\"REBEL_DEFECTOR_HELP_MV\"]/event[3]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_rebel.xml:1539
+#: src-en/data/events_sector_rebel.xml:1586
 msgid ""
 "data/events_sector_rebel.xml$//eventList[@name=\"REBEL_DEFECTOR_HELP_MV\"]/event[4]/text"
 msgstr ""
 "С облегчением и чувством легкого головокружения ваш новый член экипажа "
 "приступает к работе во время атаки корабля повстанцев."
 
-#: src-en/data/events_sector_rebel.xml:1542
+#: src-en/data/events_sector_rebel.xml:1589
 msgid ""
 "data/events_sector_rebel.xml$//eventList[@name=\"REBEL_DEFECTOR_HELP_MV\"]/event[4]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_rebel.xml:1547
+#: src-en/data/events_sector_rebel.xml:1594
 msgid ""
 "data/events_sector_rebel.xml$//eventList[@name=\"REBEL_DEFECTOR_HELP_MV\"]/event[5]/text"
 msgstr ""
 "С облегчением и чувством легкого головокружения ваш новый член экипажа "
 "приступает к работе во время атаки корабля повстанцев."
 
-#: src-en/data/events_sector_rebel.xml:1550
+#: src-en/data/events_sector_rebel.xml:1597
 msgid ""
 "data/events_sector_rebel.xml$//eventList[@name=\"REBEL_DEFECTOR_HELP_MV\"]/event[5]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_rebel.xml:1555
+#: src-en/data/events_sector_rebel.xml:1602
 msgid ""
 "data/events_sector_rebel.xml$//eventList[@name=\"REBEL_DEFECTOR_HELP_MV\"]/event[6]/text"
 msgstr ""
 "Повстанец делает шаг к назначенному месту, затем внезапно поворачивается и "
 "убивает ближайшего члена экипажа. Красная тревога!"
 
-#: src-en/data/events_sector_rebel.xml:1559
+#: src-en/data/events_sector_rebel.xml:1606
 msgid ""
 "data/events_sector_rebel.xml$//eventList[@name=\"REBEL_DEFECTOR_HELP_MV\"]/event[6]/removeCrew/text"
 msgstr "Из Клон-отсека выходит клон убитого члена экипажа, жаждущий мести."
 
-#: src-en/data/events_sector_rebel.xml:1562
+#: src-en/data/events_sector_rebel.xml:1609
 msgid ""
 "data/events_sector_rebel.xml$//eventList[@name=\"REBEL_DEFECTOR_HELP_MV\"]/event[6]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_rebel.xml:1569
+#: src-en/data/events_sector_rebel.xml:1616
 msgid ""
 "data/events_sector_rebel.xml$//eventList[@name=\"REBEL_DEFECTOR_HELP_2_MV\"]/event[1]/text"
 msgstr ""
@@ -2408,12 +2470,12 @@ msgstr ""
 "информацию о нем, после чего телепортировался. Теперь флот сможет легко "
 "отследить вас. Если только они не смогут убить вас сейчас!"
 
-#: src-en/data/events_sector_rebel.xml:1574
+#: src-en/data/events_sector_rebel.xml:1621
 msgid ""
 "data/events_sector_rebel.xml$//eventList[@name=\"REBEL_DEFECTOR_HELP_2_MV\"]/event[1]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_rebel.xml:1579
+#: src-en/data/events_sector_rebel.xml:1626
 msgid ""
 "data/events_sector_rebel.xml$//eventList[@name=\"REBEL_DEFECTOR_HELP_2_MV\"]/event[2]/text"
 msgstr ""
@@ -2421,112 +2483,112 @@ msgstr ""
 "пульт дистанционного управления. По всему кораблю раздаются взрывы, и на "
 "борт телепортируются новые абордажники!"
 
-#: src-en/data/events_sector_rebel.xml:1584
+#: src-en/data/events_sector_rebel.xml:1631
 msgid ""
 "data/events_sector_rebel.xml$//eventList[@name=\"REBEL_DEFECTOR_HELP_2_MV\"]/event[2]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_rebel.xml:1589
+#: src-en/data/events_sector_rebel.xml:1636
 msgid ""
 "data/events_sector_rebel.xml$//eventList[@name=\"REBEL_DEFECTOR_HELP_2_MV\"]/event[3]/text"
 msgstr ""
 "С облегчением и чувством легкого головокружения ваш новый член экипажа "
 "приступает к работе во время атаки корабля повстанцев."
 
-#: src-en/data/events_sector_rebel.xml:1593
+#: src-en/data/events_sector_rebel.xml:1640
 msgid ""
 "data/events_sector_rebel.xml$//eventList[@name=\"REBEL_DEFECTOR_HELP_2_MV\"]/event[3]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_rebel.xml:1598
+#: src-en/data/events_sector_rebel.xml:1645
 msgid ""
 "data/events_sector_rebel.xml$//eventList[@name=\"REBEL_DEFECTOR_HELP_2_MV\"]/event[4]/text"
 msgstr ""
 "С облегчением и чувством легкого головокружения ваш новый член экипажа "
 "приступает к работе во время атаки корабля повстанцев."
 
-#: src-en/data/events_sector_rebel.xml:1602
+#: src-en/data/events_sector_rebel.xml:1649
 msgid ""
 "data/events_sector_rebel.xml$//eventList[@name=\"REBEL_DEFECTOR_HELP_2_MV\"]/event[4]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_rebel.xml:1607
+#: src-en/data/events_sector_rebel.xml:1654
 msgid ""
 "data/events_sector_rebel.xml$//eventList[@name=\"REBEL_DEFECTOR_HELP_2_MV\"]/event[5]/text"
 msgstr ""
 "С облегчением и чувством легкого головокружения ваш новый член экипажа "
 "приступает к работе во время атаки корабля повстанцев."
 
-#: src-en/data/events_sector_rebel.xml:1611
+#: src-en/data/events_sector_rebel.xml:1658
 msgid ""
 "data/events_sector_rebel.xml$//eventList[@name=\"REBEL_DEFECTOR_HELP_2_MV\"]/event[5]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_rebel.xml:1616
+#: src-en/data/events_sector_rebel.xml:1663
 msgid ""
 "data/events_sector_rebel.xml$//eventList[@name=\"REBEL_DEFECTOR_HELP_2_MV\"]/event[6]/text"
 msgstr ""
 "Повстанец делает шаг к назначенному месту, затем внезапно поворачивается и "
 "убивает ближайшего члена экипажа. Красная тревога!"
 
-#: src-en/data/events_sector_rebel.xml:1620
+#: src-en/data/events_sector_rebel.xml:1667
 msgid ""
 "data/events_sector_rebel.xml$//eventList[@name=\"REBEL_DEFECTOR_HELP_2_MV\"]/event[6]/removeCrew/text"
 msgstr "Из Клон-отсека выходит клон убитого члена экипажа, жаждущий мести."
 
-#: src-en/data/events_sector_rebel.xml:1623
+#: src-en/data/events_sector_rebel.xml:1670
 msgid ""
 "data/events_sector_rebel.xml$//eventList[@name=\"REBEL_DEFECTOR_HELP_2_MV\"]/event[6]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_rebel.xml:1632
+#: src-en/data/events_sector_rebel.xml:1679
 msgid ""
 "data/events_sector_rebel.xml$//eventList[@name=\"REBEL_DEFECTOR_QUEST_MV\"]/event[1]/beaconType/unvisitedTooltip"
 msgstr "Местонахождение тайника с ломом, указанное перебежчиком."
 
-#: src-en/data/events_sector_rebel.xml:1634
+#: src-en/data/events_sector_rebel.xml:1681
 msgid ""
 "data/events_sector_rebel.xml$//eventList[@name=\"REBEL_DEFECTOR_QUEST_MV\"]/event[1]/text"
 msgstr ""
 "Прибыв по указанным координатам, вы обнаруживаете внушительный тайник с "
 "полезными материалами."
 
-#: src-en/data/events_sector_rebel.xml:1637
+#: src-en/data/events_sector_rebel.xml:1684
 msgid ""
 "data/events_sector_rebel.xml$//eventList[@name=\"REBEL_DEFECTOR_QUEST_MV\"]/event[1]/choice[1]/text"
 msgstr "Заняться чем-либо на корабле."
 
-#: src-en/data/events_sector_rebel.xml:1641
+#: src-en/data/events_sector_rebel.xml:1688
 msgid ""
 "data/events_sector_rebel.xml$//eventList[@name=\"REBEL_DEFECTOR_QUEST_MV\"]/event[1]/choice[2]/text"
 msgstr "Ничего не делать."
 
-#: src-en/data/events_sector_rebel.xml:1648
+#: src-en/data/events_sector_rebel.xml:1695
 msgid ""
 "data/events_sector_rebel.xml$//eventList[@name=\"REBEL_DEFECTOR_QUEST_MV\"]/event[2]/beaconType/unvisitedTooltip"
 msgstr "Местонахождение тайника с ломом, указанное перебежчиком."
 
-#: src-en/data/events_sector_rebel.xml:1650
+#: src-en/data/events_sector_rebel.xml:1697
 msgid ""
 "data/events_sector_rebel.xml$//eventList[@name=\"REBEL_DEFECTOR_QUEST_MV\"]/event[2]/text"
 msgstr ""
 "Вы прибываете к месту нахождения тайника, но обнаруживаете, что он не так "
 "велик, как было сказано."
 
-#: src-en/data/events_sector_rebel.xml:1653
+#: src-en/data/events_sector_rebel.xml:1700
 msgid ""
 "data/events_sector_rebel.xml$//eventList[@name=\"REBEL_DEFECTOR_QUEST_MV\"]/event[2]/choice[1]/text"
 msgstr "Заняться чем-либо на корабле."
 
-#: src-en/data/events_sector_rebel.xml:1657
+#: src-en/data/events_sector_rebel.xml:1704
 msgid ""
 "data/events_sector_rebel.xml$//eventList[@name=\"REBEL_DEFECTOR_QUEST_MV\"]/event[2]/choice[2]/text"
 msgstr "Ничего не делать."
 
-#: src-en/data/events_sector_rebel.xml:1674
+#: src-en/data/events_sector_rebel.xml:1721
 msgid "data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_SUPERFISH\"]/text"
 msgstr ""
-"Вы готовитесь к удару, как только узнаете грозный корпус аса МФК. Однако "
+"Вы готовитесь к удару, как только узнаете грозный корпус асов МФК. Однако "
 "здесь есть две загвоздки. Во-первых, их эмблема - не привычный орел, а очень"
 " плохо нарисованная рыба. Во-вторых, корабль не атакует. На этот второй "
 "вопрос можно получить ответ во время видеосвязи. Капитан откинулся в кресле,"
@@ -2534,29 +2596,29 @@ msgstr ""
 "застали нас во время обеденного перерыва. Никому об этом не говорите, и мы "
 "тоже не скажем\"."
 
-#: src-en/data/events_sector_rebel.xml:1677
+#: src-en/data/events_sector_rebel.xml:1724
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_SUPERFISH\"]/choice[1]/text"
 msgstr "Ваш логотип выглядит так, как будто его нарисовал ребенок."
 
-#: src-en/data/events_sector_rebel.xml:1679
+#: src-en/data/events_sector_rebel.xml:1726
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_SUPERFISH\"]/choice[1]/event/text"
 msgstr ""
 "\"Эй! Это был первоначальный проект, пока идиоты из командования не решили "
 "выбрать орла!\" Разгневанный, корабль атакует."
 
-#: src-en/data/events_sector_rebel.xml:1682
+#: src-en/data/events_sector_rebel.xml:1729
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_SUPERFISH\"]/choice[1]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_rebel.xml:1688
+#: src-en/data/events_sector_rebel.xml:1735
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_SUPERFISH\"]/choice[@req=\"LIST_CREW_JERRY\"]/text"
 msgstr "(Джерри) Сделать комплимент логотипу."
 
-#: src-en/data/events_sector_rebel.xml:1690
+#: src-en/data/events_sector_rebel.xml:1737
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_SUPERFISH\"]/choice[@req=\"LIST_CREW_JERRY\"]/event/text"
 msgstr ""
@@ -2566,135 +2628,135 @@ msgstr ""
 "Вы не знаете, как эти двое умудряются общаться, но ас так рад видеть Джерри,"
 " что он хочет работать на вашем корабле."
 
-#: src-en/data/events_sector_rebel.xml:1691
+#: src-en/data/events_sector_rebel.xml:1738
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_SUPERFISH\"]/choice[@req=\"LIST_CREW_JERRY\"]/event/crewMember"
 msgstr "Эхсон"
 
-#: src-en/data/events_sector_rebel.xml:1695
+#: src-en/data/events_sector_rebel.xml:1742
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_SUPERFISH\"]/choice[3]/text"
 msgstr "Согласиться не сражаться."
 
-#: src-en/data/events_sector_rebel.xml:1697
+#: src-en/data/events_sector_rebel.xml:1744
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_SUPERFISH\"]/choice[3]/event/text"
 msgstr "Повстанец смеется и выключает экран. Вы продолжаете свой путь."
 
-#: src-en/data/events_sector_rebel.xml:1699
+#: src-en/data/events_sector_rebel.xml:1746
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_SUPERFISH\"]/choice[3]/event/choice[1]/text"
 msgstr "Заняться чем-либо на корабле."
 
-#: src-en/data/events_sector_rebel.xml:1703
+#: src-en/data/events_sector_rebel.xml:1750
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_SUPERFISH\"]/choice[3]/event/choice[2]/text"
 msgstr "Ничего не делать."
 
-#: src-en/data/events_sector_rebel.xml:1710
+#: src-en/data/events_sector_rebel.xml:1757
 msgid "data/events_sector_rebel.xml$//event[@name=\"DEFEATED_SUPERFISH\"]/text"
 msgstr "Странный корабль МФК побежден. Вы обыскиваете его останки."
 
-#: src-en/data/events_sector_rebel.xml:1716
+#: src-en/data/events_sector_rebel.xml:1763
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_ELITE_CHOICE\"]/text"
 msgstr ""
 "Вы вскакиваете с места, увидев на маяке элиту повстанцев. Однако, похоже, "
 "они не заметили вас в ответ."
 
-#: src-en/data/events_sector_rebel.xml:1719
+#: src-en/data/events_sector_rebel.xml:1766
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_ELITE_CHOICE\"]/choice[1]/text"
 msgstr "Атаковать корабль."
 
-#: src-en/data/events_sector_rebel.xml:1721
+#: src-en/data/events_sector_rebel.xml:1768
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_ELITE_CHOICE\"]/choice[1]/event/text"
 msgstr "Вы готовитесь к бою с элитой."
 
-#: src-en/data/events_sector_rebel.xml:1724
+#: src-en/data/events_sector_rebel.xml:1771
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_ELITE_CHOICE\"]/choice[1]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_rebel.xml:1730
+#: src-en/data/events_sector_rebel.xml:1777
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_ELITE_CHOICE\"]/choice[2]/text"
 msgstr "Избегать элиты."
 
-#: src-en/data/events_sector_rebel.xml:1732
+#: src-en/data/events_sector_rebel.xml:1779
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_ELITE_CHOICE\"]/choice[2]/event/text"
 msgstr "Сегодня вам не хочется умирать. Вы избегаете элиты повстанцев."
 
-#: src-en/data/events_sector_rebel.xml:1734
+#: src-en/data/events_sector_rebel.xml:1781
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_ELITE_CHOICE\"]/choice[2]/event/choice[1]/text"
 msgstr "Заняться чем-либо на корабле."
 
-#: src-en/data/events_sector_rebel.xml:1738
+#: src-en/data/events_sector_rebel.xml:1785
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_ELITE_CHOICE\"]/choice[2]/event/choice[2]/text"
 msgstr "Ничего не делать."
 
-#: src-en/data/events_sector_rebel.xml:1746
+#: src-en/data/events_sector_rebel.xml:1793
 msgid "data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_ARCHIVE\"]/text"
 msgstr ""
 "На орбите ближайшей планеты находится большая станция повстанцев. Судя по "
 "всему, она представляет собой архив данных и очень слабо вооружена. Однако "
 "ее защищают асы МФК. В этом архиве должны быть очень важные данные."
 
-#: src-en/data/events_sector_rebel.xml:1749
+#: src-en/data/events_sector_rebel.xml:1796
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_ARCHIVE\"]/choice[1]/text"
 msgstr "Атаковать патрульный корабль, чтобы добраться до архива."
 
-#: src-en/data/events_sector_rebel.xml:1751
+#: src-en/data/events_sector_rebel.xml:1798
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_ARCHIVE\"]/choice[1]/event/text"
 msgstr ""
 "Это будет чертовски интересный бой. Убедитесь, что все в порядке и готово к "
 "бою."
 
-#: src-en/data/events_sector_rebel.xml:1754
+#: src-en/data/events_sector_rebel.xml:1801
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_ARCHIVE\"]/choice[1]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_rebel.xml:1760
+#: src-en/data/events_sector_rebel.xml:1807
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_ARCHIVE\"]/choice[2]/text"
 msgstr "Игнорировать архив."
 
-#: src-en/data/events_sector_rebel.xml:1762
+#: src-en/data/events_sector_rebel.xml:1809
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_ARCHIVE\"]/choice[2]/event/text"
 msgstr ""
 "Какие бы данные ни хранил этот архив, борьба с асом МФК не стоит того."
 
-#: src-en/data/events_sector_rebel.xml:1764
+#: src-en/data/events_sector_rebel.xml:1811
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_ARCHIVE\"]/choice[2]/event/choice[1]/text"
 msgstr "Заняться чем-либо на корабле."
 
-#: src-en/data/events_sector_rebel.xml:1768
+#: src-en/data/events_sector_rebel.xml:1815
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_ARCHIVE\"]/choice[2]/event/choice[2]/text"
 msgstr "Ничего не делать."
 
-#: src-en/data/events_sector_rebel.xml:1775
+#: src-en/data/events_sector_rebel.xml:1822
 msgid "data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_ARCHIVE_WIN\"]/text"
 msgstr ""
 "Видя, что вам удалось уничтожить один из самых сильных классов кораблей "
 "повстанцев, станция не хочет сопротивляться. Она с готовностью сдает вам "
 "свои данные."
 
-#: src-en/data/events_sector_rebel.xml:1777
+#: src-en/data/events_sector_rebel.xml:1824
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_ARCHIVE_WIN\"]/choice/text"
 msgstr "Загрузить хранилища данных."
 
-#: src-en/data/events_sector_rebel.xml:1779
+#: src-en/data/events_sector_rebel.xml:1826
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_ARCHIVE_WIN\"]/choice/event/text"
 msgstr ""
@@ -2703,7 +2765,7 @@ msgstr ""
 "торговцев. Кроме того, вы удаляете все имеющиеся у них данные о "
 "местонахождении вашего корабля."
 
-#: src-en/data/events_sector_rebel.xml:1788
+#: src-en/data/events_sector_rebel.xml:1835
 msgid "data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_SPEECH\"]/text"
 msgstr ""
 "На ближайшей планете находится огромный город повстанцев, занимающий большую"
@@ -2711,12 +2773,12 @@ msgstr ""
 "гражданских кораблей, а с борта вашего корабля видно потрясающее световое "
 "шоу. Должно быть, происходит что-то важное."
 
-#: src-en/data/events_sector_rebel.xml:1791
+#: src-en/data/events_sector_rebel.xml:1838
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_SPEECH\"]/choice[1]/text"
 msgstr "Приблизиться к городу."
 
-#: src-en/data/events_sector_rebel.xml:1793
+#: src-en/data/events_sector_rebel.xml:1840
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_SPEECH\"]/choice[1]/event/text"
 msgstr ""
@@ -2726,12 +2788,12 @@ msgstr ""
 "Федерации на корабле и следуете за всеми потоками машин к огромному "
 "стадиону."
 
-#: src-en/data/events_sector_rebel.xml:1795
+#: src-en/data/events_sector_rebel.xml:1842
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_SPEECH\"]/choice[1]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_rebel.xml:1797
+#: src-en/data/events_sector_rebel.xml:1844
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_SPEECH\"]/choice[1]/event/choice/event/text"
 msgstr ""
@@ -2743,13 +2805,13 @@ msgstr ""
 "путешественниками по Мультивселенной, достиг столицы Федерации! Дни "
 "Федерации сочтены, и скоро Восстание займет ее место!\""
 
-#: src-en/data/events_sector_rebel.xml:1799
+#: src-en/data/events_sector_rebel.xml:1846
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_SPEECH\"]/choice[1]/event/choice/event/choice[@req=\"LIST_CHECK_ANY_CREW\""
 " and @lvl=\"1\"]/text"
 msgstr "Отправить одного из членов своей команды для убийства политика."
 
-#: src-en/data/events_sector_rebel.xml:1801
+#: src-en/data/events_sector_rebel.xml:1848
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_SPEECH\"]/choice[1]/event/choice/event/choice[@req=\"LIST_CHECK_ANY_CREW\""
 " and @lvl=\"1\"]/event/text"
@@ -2759,24 +2821,24 @@ msgstr ""
 "найти хорошую точку обзора, и посылаете одного из членов своей команды на "
 "разведку."
 
-#: src-en/data/events_sector_rebel.xml:1803
+#: src-en/data/events_sector_rebel.xml:1850
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_SPEECH\"]/choice[1]/event/choice/event/choice[@req=\"LIST_CHECK_ANY_CREW\""
 " and @lvl=\"1\"]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_rebel.xml:1809
+#: src-en/data/events_sector_rebel.xml:1856
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_SPEECH\"]/choice[1]/event/choice/event/choice[@req=\"LIST_CHECK_ANY_CREW\""
 " and @lvl=\"0\"]/text"
 msgstr "Пока вы здесь одни, делать нечего."
 
-#: src-en/data/events_sector_rebel.xml:1813
+#: src-en/data/events_sector_rebel.xml:1860
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_SPEECH\"]/choice[1]/event/choice/event/choice[@req=\"LIST_CREW_ELITE\"]/text"
 msgstr "(Член экипажа-элита) Отправить элиту для убийства политика."
 
-#: src-en/data/events_sector_rebel.xml:1815
+#: src-en/data/events_sector_rebel.xml:1862
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_SPEECH\"]/choice[1]/event/choice/event/choice[@req=\"LIST_CREW_ELITE\"]/event/text"
 msgstr ""
@@ -2787,47 +2849,47 @@ msgstr ""
 "будет разбираться с хаосом, который вы здесь устроили, и, скорее всего, не "
 "будет какое-то время преследовать вас."
 
-#: src-en/data/events_sector_rebel.xml:1820
+#: src-en/data/events_sector_rebel.xml:1867
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_SPEECH\"]/choice[1]/event/choice/event/choice[@req=\"LIST_CREW_SLUG\"]/text"
 msgstr ""
 "(Член экипажа-слизень) Ваш слизень считает, что он может взломать экраны."
 
-#: src-en/data/events_sector_rebel.xml:1822
+#: src-en/data/events_sector_rebel.xml:1869
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_SPEECH\"]/choice[1]/event/choice/event/choice[@req=\"LIST_CREW_SLUG\"]/event/text"
 msgstr ""
-"Ваш слизень хмыкает, взламывая главный компьютер экранов. На минуту они "
-"становятся черными, сбивая с толку всех присутствующих. Через несколько "
+"Ваш слизень хмыкает, взламывая главный компьютер экранов. Дисплей на минуту "
+"становится черным, сбивая с толку всех присутствующих. Через несколько "
 "секунд после этого они начинают транслировать пропаганду Федерации. После "
 "массового негативного приема со стороны толпы и удвоенных усилий повстанцев "
 "противостоять атаке, ваш слизень устает и переключает экраны на очень "
 "откровенную программу. Он разражается хохотом, и вы спешите вернуться на "
-"корабль, пока повстанцы не нашли вас. Когда вы возвращаетесь на корабль, вас "
-"уже поджидает солдат. Прежде чем вы успеваете достать оружие, он поднимает "
+"корабль, пока повстанцы не нашли вас. Когда вы возвращаетесь на корабль, вас"
+" уже поджидает солдат. Прежде чем вы успеваете достать оружие, он поднимает "
 "руку, чтобы остановить вас. \"Не беспокойтесь, я на вашей стороне. Меня "
-"послали работать под прикрытием, но я уже несколько дней не могу связаться с "
-"Федерацией. Я боялся, что мне придется угнать шаттл повстанцев, чтобы "
+"послали работать под прикрытием, но я уже несколько дней не могу связаться с"
+" Федерацией. Я боялся, что мне придется угнать шаттл повстанцев, чтобы "
 "вернуться, но, к счастью, я думаю, что нашел спасение в вас, ребята\"."
 
-#: src-en/data/events_sector_rebel.xml:1827
+#: src-en/data/events_sector_rebel.xml:1874
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_SPEECH\"]/choice[1]/event/choice/event/choice[5]/text"
 msgstr "Уйти."
 
-#: src-en/data/events_sector_rebel.xml:1829
+#: src-en/data/events_sector_rebel.xml:1876
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_SPEECH\"]/choice[1]/event/choice/event/choice[5]/event/text"
 msgstr ""
 "Политик приветствует толпу, и она начинает скандировать \"Слава Восстанию!\""
 " Вы поспешно возвращаетесь на корабль и уходите."
 
-#: src-en/data/events_sector_rebel.xml:1837
+#: src-en/data/events_sector_rebel.xml:1884
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_SPEECH\"]/choice[2]/text"
 msgstr "Не обращать внимания на планету."
 
-#: src-en/data/events_sector_rebel.xml:1839
+#: src-en/data/events_sector_rebel.xml:1886
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_SPEECH\"]/choice[2]/event/text"
 msgstr ""
@@ -2835,17 +2897,17 @@ msgstr ""
 "самоубийство. Выбраться из этого сектора гораздо важнее для вашего "
 "путешествия."
 
-#: src-en/data/events_sector_rebel.xml:1841
+#: src-en/data/events_sector_rebel.xml:1888
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_SPEECH\"]/choice[2]/event/choice[1]/text"
 msgstr "Заняться чем-либо на корабле."
 
-#: src-en/data/events_sector_rebel.xml:1845
+#: src-en/data/events_sector_rebel.xml:1892
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_SPEECH\"]/choice[2]/event/choice[2]/text"
 msgstr "Ничего не делать."
 
-#: src-en/data/events_sector_rebel.xml:1853
+#: src-en/data/events_sector_rebel.xml:1900
 msgid ""
 "data/events_sector_rebel.xml$//eventList[@name=\"REBELHOLD_SPEECH_ASSASINATE\"]/event[1]/text"
 msgstr ""
@@ -2859,14 +2921,14 @@ msgstr ""
 " земной револьвер и трижды стреляет ему в голову. Вы поспешно покидаете "
 "стадион, пока они не успели вас поймать."
 
-#: src-en/data/events_sector_rebel.xml:1856
+#: src-en/data/events_sector_rebel.xml:1903
 msgid ""
 "data/events_sector_rebel.xml$//eventList[@name=\"REBELHOLD_SPEECH_ASSASINATE\"]/event[1]/removeCrew/text"
 msgstr ""
 "К счастью, к тому времени, как вы вернулись на корабль, ваш член экипажа уже"
 " ждет вас в Клон-отсеке, переживая за свой провал и публичную казнь."
 
-#: src-en/data/events_sector_rebel.xml:1860
+#: src-en/data/events_sector_rebel.xml:1907
 msgid ""
 "data/events_sector_rebel.xml$//eventList[@name=\"REBELHOLD_SPEECH_ASSASINATE\"]/event[2]/text"
 msgstr ""
@@ -2875,7 +2937,7 @@ msgstr ""
 "следует группа охранников. Вы бежите обратно на корабль, а охранники следуют"
 " за вами."
 
-#: src-en/data/events_sector_rebel.xml:1864
+#: src-en/data/events_sector_rebel.xml:1911
 msgid ""
 "data/events_sector_rebel.xml$//eventList[@name=\"REBELHOLD_SPEECH_ASSASINATE\"]/event[3]/text"
 msgstr ""
@@ -2887,7 +2949,7 @@ msgstr ""
 "повстанцам придется потратить много времени на ликвидацию последствий. Вы "
 "сомневаетесь, что флот будет какое-то время преследовать вас."
 
-#: src-en/data/events_sector_rebel.xml:1883
+#: src-en/data/events_sector_rebel.xml:1930
 msgid ""
 "data/events_sector_rebel.xml$//textList[@name=\"DISTRESS_REBEL_HOSTILE\"]/text[1]"
 msgstr ""
@@ -2896,7 +2958,7 @@ msgstr ""
 "подготовленного к войне!\" Обнаружив ваш корабль, они резко замолкают. \"О, "
 "да ладно! Еще один?!\" Полные негодования, они атакуют ваш корабль."
 
-#: src-en/data/events_sector_rebel.xml:1884
+#: src-en/data/events_sector_rebel.xml:1931
 msgid ""
 "data/events_sector_rebel.xml$//textList[@name=\"DISTRESS_REBEL_HOSTILE\"]/text[2]"
 msgstr ""
@@ -2905,7 +2967,7 @@ msgstr ""
 "арсеналом бомб!\" Обнаружив ваш корабль, они резко замолкают. \"Возможно, мы"
 " сможем захватить этот. К боевым постам!\""
 
-#: src-en/data/events_sector_rebel.xml:1885
+#: src-en/data/events_sector_rebel.xml:1932
 msgid ""
 "data/events_sector_rebel.xml$//textList[@name=\"DISTRESS_REBEL_HOSTILE\"]/text[3]"
 msgstr ""
@@ -2914,7 +2976,7 @@ msgstr ""
 "Ренегатом! Рекомендуем...\" Они резко замолкают, обнаружив ваш корабль. \"На"
 " нас напали Ренегаты или что?\""
 
-#: src-en/data/events_sector_rebel.xml:1886
+#: src-en/data/events_sector_rebel.xml:1933
 msgid ""
 "data/events_sector_rebel.xml$//textList[@name=\"DISTRESS_REBEL_HOSTILE\"]/text[4]"
 msgstr ""
@@ -2923,7 +2985,7 @@ msgstr ""
 " скорострельностью. Мы едва спаслись с...\" Они резко замолкают, обнаружив "
 "ваш корабль. \"Я так устал от Ренегатов\". Они неохотно атакуют вас."
 
-#: src-en/data/events_sector_rebel.xml:1887
+#: src-en/data/events_sector_rebel.xml:1934
 msgid ""
 "data/events_sector_rebel.xml$//textList[@name=\"DISTRESS_REBEL_HOSTILE\"]/text[5]"
 msgstr ""
@@ -2932,7 +2994,7 @@ msgstr ""
 "гигантских мин! Мы были на волосок от того, чтобы подорваться!\" Обнаружив "
 "ваш корабль, они резко замолкают. \"Откуда вас столько?\""
 
-#: src-en/data/events_sector_rebel.xml:1888
+#: src-en/data/events_sector_rebel.xml:1935
 msgid ""
 "data/events_sector_rebel.xml$//textList[@name=\"DISTRESS_REBEL_HOSTILE\"]/text[6]"
 msgstr ""
@@ -2942,12 +3004,12 @@ msgstr ""
 "\"...по крайней мере, этот не заваливает нашу систему связи назойливым "
 "мусором\"."
 
-#: src-en/data/events_sector_rebel.xml:1896
+#: src-en/data/events_sector_rebel.xml:1943
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"DISTRESS_REBEL_FLEEING_FROM_RENEGADE\"]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_rebel.xml:1902
+#: src-en/data/events_sector_rebel.xml:1949
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"DISTRESS_REBEL_DISTRACT_CHECKPOINT\"]/text"
 msgstr ""
@@ -2958,12 +3020,12 @@ msgstr ""
 "семьи, которые мы пытались переправить в контролируемое Союзом пространство "
 "- не могли бы вы отвлечь КПП для нас?\""
 
-#: src-en/data/events_sector_rebel.xml:1904
+#: src-en/data/events_sector_rebel.xml:1951
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"DISTRESS_REBEL_DISTRACT_CHECKPOINT\"]/choice[1]/text"
 msgstr "Согласиться и попытаться отвлечь контрольно-пропускной пункт."
 
-#: src-en/data/events_sector_rebel.xml:1907
+#: src-en/data/events_sector_rebel.xml:1954
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"DISTRESS_REBEL_DISTRACT_CHECKPOINT\"]/choice[1]/event/text"
 msgstr ""
@@ -2971,12 +3033,12 @@ msgstr ""
 "корабль? У вас есть 10 секунд, чтобы объясниться, прежде чем мы вас "
 "уничтожим!\""
 
-#: src-en/data/events_sector_rebel.xml:1909
+#: src-en/data/events_sector_rebel.xml:1956
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"DISTRESS_REBEL_DISTRACT_CHECKPOINT\"]/choice[1]/event/choice[@req=\"LIST_CREW_JERRY\"]/text"
 msgstr "(Джерри) \"Привет!\""
 
-#: src-en/data/events_sector_rebel.xml:1911
+#: src-en/data/events_sector_rebel.xml:1958
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"DISTRESS_REBEL_DISTRACT_CHECKPOINT\"]/choice[1]/event/choice[@req=\"LIST_CREW_JERRY\"]/event/text"
 msgstr ""
@@ -2987,17 +3049,17 @@ msgstr ""
 "повстанцев даже пытается добиться расположения Джерри, преподнеся ему "
 "подарок."
 
-#: src-en/data/events_sector_rebel.xml:1914
+#: src-en/data/events_sector_rebel.xml:1961
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"DISTRESS_REBEL_DISTRACT_CHECKPOINT\"]/choice[1]/event/choice[@req=\"LIST_CREW_JERRY\"]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_rebel.xml:1920
+#: src-en/data/events_sector_rebel.xml:1967
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"DISTRESS_REBEL_DISTRACT_CHECKPOINT\"]/choice[1]/event/choice[@req=\"human_mfk\"]/text"
 msgstr "(Член экипажа-ас МФК) Внезапная инспекция."
 
-#: src-en/data/events_sector_rebel.xml:1922
+#: src-en/data/events_sector_rebel.xml:1969
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"DISTRESS_REBEL_DISTRACT_CHECKPOINT\"]/choice[1]/event/choice[@req=\"human_mfk\"]/event/text"
 msgstr ""
@@ -3007,18 +3069,18 @@ msgstr ""
 "была завершена, вы посылаете своему асу МФК сигнал, и он дает КПП "
 "положительную оценку перед уходом."
 
-#: src-en/data/events_sector_rebel.xml:1924
+#: src-en/data/events_sector_rebel.xml:1971
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"DISTRESS_REBEL_DISTRACT_CHECKPOINT\"]/choice[1]/event/choice[@req=\"human_mfk\"]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_rebel.xml:1930
+#: src-en/data/events_sector_rebel.xml:1977
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"DISTRESS_REBEL_DISTRACT_CHECKPOINT\"]/choice[1]/event/choice[@req=\"human_technician\"]/text"
 msgstr ""
 "(Член экипажа-Техник) Сообщить им, что вы здесь для обновления системы."
 
-#: src-en/data/events_sector_rebel.xml:1932
+#: src-en/data/events_sector_rebel.xml:1979
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"DISTRESS_REBEL_DISTRACT_CHECKPOINT\"]/choice[1]/event/choice[@req=\"human_technician\"]/event/text"
 msgstr ""
@@ -3028,49 +3090,49 @@ msgstr ""
 "ненужные, но яркие функции, называя их \"передовыми\". Повстанцы ничего не "
 "подозревают."
 
-#: src-en/data/events_sector_rebel.xml:1934
+#: src-en/data/events_sector_rebel.xml:1981
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"DISTRESS_REBEL_DISTRACT_CHECKPOINT\"]/choice[1]/event/choice[@req=\"human_technician\"]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_rebel.xml:1940
+#: src-en/data/events_sector_rebel.xml:1987
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"DISTRESS_REBEL_DISTRACT_CHECKPOINT\"]/choice[1]/event/choice[4]/text"
 msgstr "Атаковать."
 
-#: src-en/data/events_sector_rebel.xml:1942
+#: src-en/data/events_sector_rebel.xml:1989
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"DISTRESS_REBEL_DISTRACT_CHECKPOINT\"]/choice[1]/event/choice[4]/event/text"
 msgstr ""
 "Вы решаете, что избавиться от контрольно-пропускного пункта насовсем - более"
 " простое решение."
 
-#: src-en/data/events_sector_rebel.xml:1945
+#: src-en/data/events_sector_rebel.xml:1992
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"DISTRESS_REBEL_DISTRACT_CHECKPOINT\"]/choice[1]/event/choice[4]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_rebel.xml:1953
+#: src-en/data/events_sector_rebel.xml:2000
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"DISTRESS_REBEL_DISTRACT_CHECKPOINT\"]/choice[2]/text"
 msgstr "Мы не можем помочь."
 
-#: src-en/data/events_sector_rebel.xml:1955
+#: src-en/data/events_sector_rebel.xml:2002
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"DISTRESS_REBEL_DISTRACT_CHECKPOINT\"]/choice[2]/event/text"
 msgstr "\"Тогда мы найдем другой способ\". Корабль снова скрывается."
 
-#: src-en/data/events_sector_rebel.xml:1957
+#: src-en/data/events_sector_rebel.xml:2004
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"DISTRESS_REBEL_DISTRACT_CHECKPOINT\"]/choice[2]/event/choice[1]/text"
 msgstr "Заняться чем-либо на корабле."
 
-#: src-en/data/events_sector_rebel.xml:1961
+#: src-en/data/events_sector_rebel.xml:2008
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"DISTRESS_REBEL_DISTRACT_CHECKPOINT\"]/choice[2]/event/choice[2]/text"
 msgstr "Ничего не делать."
 
-#: src-en/data/events_sector_rebel.xml:1968
+#: src-en/data/events_sector_rebel.xml:2015
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_UNION_DISTRACT_CHECKPOINT_AFTERMATH\"]/text"
 msgstr ""
@@ -3078,19 +3140,19 @@ msgstr ""
 "вернуться на свою родную территорию самостоятельно\". Выплатив вам награду, "
 "они уходят в прыжок."
 
-#: src-en/data/events_sector_rebel.xml:1974
+#: src-en/data/events_sector_rebel.xml:2021
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"DISTRESS_REBEL_DEPOT_PROBLEM\"]/text"
 msgstr ""
 "Сигнал бедствия поступает со склада боеприпасов повстанцев. \"Ренегат, этот "
 "склад не для тебя! Уходи, или мы вызовем помощь!\""
 
-#: src-en/data/events_sector_rebel.xml:1976
+#: src-en/data/events_sector_rebel.xml:2023
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"DISTRESS_REBEL_DEPOT_PROBLEM\"]/choice[1]/text"
 msgstr "Разве вы уже не зовете на помощь?"
 
-#: src-en/data/events_sector_rebel.xml:1978
+#: src-en/data/events_sector_rebel.xml:2025
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"DISTRESS_REBEL_DEPOT_PROBLEM\"]/choice[1]/event/text"
 msgstr ""
@@ -3101,12 +3163,12 @@ msgstr ""
 " где-то пропал. Мы и так едва держимся на плаву. Я не хочу голодать. Может "
 "быть, если ты поможешь нам, мы сможем договориться?\""
 
-#: src-en/data/events_sector_rebel.xml:1980
+#: src-en/data/events_sector_rebel.xml:2027
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"DISTRESS_REBEL_DEPOT_PROBLEM\"]/choice[1]/event/choice[@req=\"LIST_CREW_ENGINEER\"]/text"
 msgstr "(Член экипажа-Инженер) Отправить к ним Инженера."
 
-#: src-en/data/events_sector_rebel.xml:1982
+#: src-en/data/events_sector_rebel.xml:2029
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"DISTRESS_REBEL_DEPOT_PROBLEM\"]/choice[1]/event/choice[@req=\"LIST_CREW_ENGINEER\"]/event/text"
 msgstr ""
@@ -3115,17 +3177,17 @@ msgstr ""
 "этот компонент есть на вашем корабле в качестве резервного. Холодильная "
 "установка отремонтирована."
 
-#: src-en/data/events_sector_rebel.xml:1984
+#: src-en/data/events_sector_rebel.xml:2031
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"DISTRESS_REBEL_DEPOT_PROBLEM\"]/choice[1]/event/choice[@req=\"LIST_CREW_ENGINEER\"]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_rebel.xml:1990
+#: src-en/data/events_sector_rebel.xml:2037
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"DISTRESS_REBEL_DEPOT_PROBLEM\"]/choice[1]/event/choice[@req=\"LIST_CREW_ENGI\"]/text"
 msgstr "(Член экипажа-энджи) Отправить к ним энджи."
 
-#: src-en/data/events_sector_rebel.xml:1992
+#: src-en/data/events_sector_rebel.xml:2039
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"DISTRESS_REBEL_DEPOT_PROBLEM\"]/choice[1]/event/choice[@req=\"LIST_CREW_ENGI\"]/event/text"
 msgstr ""
@@ -3134,17 +3196,17 @@ msgstr ""
 "для ее устранения. К счастью, этот компонент есть на вашем корабле в "
 "качестве резервного. Холодильная установка отремонтирована."
 
-#: src-en/data/events_sector_rebel.xml:1994
+#: src-en/data/events_sector_rebel.xml:2041
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"DISTRESS_REBEL_DEPOT_PROBLEM\"]/choice[1]/event/choice[@req=\"LIST_CREW_ENGI\"]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_rebel.xml:2000
+#: src-en/data/events_sector_rebel.xml:2047
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"DISTRESS_REBEL_DEPOT_PROBLEM\"]/choice[1]/event/choice[@req=\"DRONE_CONTROL_REPAIR_ALL\"]/text"
 msgstr "(Дрон-ремонтник) Отправить Дрон-ремонтник."
 
-#: src-en/data/events_sector_rebel.xml:2002
+#: src-en/data/events_sector_rebel.xml:2049
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"DISTRESS_REBEL_DEPOT_PROBLEM\"]/choice[1]/event/choice[@req=\"DRONE_CONTROL_REPAIR_ALL\"]/event/text"
 msgstr ""
@@ -3153,17 +3215,17 @@ msgstr ""
 " счастью, этот компонент есть на вашем корабле в качестве резервного. "
 "Холодильная установка отремонтирована."
 
-#: src-en/data/events_sector_rebel.xml:2004
+#: src-en/data/events_sector_rebel.xml:2051
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"DISTRESS_REBEL_DEPOT_PROBLEM\"]/choice[1]/event/choice[@req=\"DRONE_CONTROL_REPAIR_ALL\"]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_rebel.xml:2010
+#: src-en/data/events_sector_rebel.xml:2057
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"DISTRESS_REBEL_DEPOT_PROBLEM\"]/choice[1]/event/choice[4]/text"
 msgstr "Попытаться захватить склад."
 
-#: src-en/data/events_sector_rebel.xml:2012
+#: src-en/data/events_sector_rebel.xml:2059
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"DISTRESS_REBEL_DEPOT_PROBLEM\"]/choice[1]/event/choice[4]/event/text"
 msgstr ""
@@ -3171,22 +3233,22 @@ msgstr ""
 "вам команду, чтобы атаковать вас. Однако это сделало их запасы полностью "
 "уязвимыми, что позволило вашему экипажу свободно забрать вещи со склада."
 
-#: src-en/data/events_sector_rebel.xml:2018
+#: src-en/data/events_sector_rebel.xml:2065
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"DISTRESS_REBEL_DEPOT_PROBLEM\"]/choice[1]/event/choice[4]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_rebel.xml:2020
+#: src-en/data/events_sector_rebel.xml:2067
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"DISTRESS_REBEL_DEPOT_PROBLEM\"]/choice[1]/event/choice[4]/event/choice/event/text"
 msgstr "На складе вы также находите брошенное ракетное орудие."
 
-#: src-en/data/events_sector_rebel.xml:2027
+#: src-en/data/events_sector_rebel.xml:2074
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"DISTRESS_REBEL_DEPOT_PROBLEM\"]/choice[1]/event/choice[5]/text"
 msgstr "Уничтожить склад."
 
-#: src-en/data/events_sector_rebel.xml:2029
+#: src-en/data/events_sector_rebel.xml:2076
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"DISTRESS_REBEL_DEPOT_PROBLEM\"]/choice[1]/event/choice[5]/event/text"
 msgstr ""
@@ -3194,49 +3256,49 @@ msgstr ""
 "лучше не дать повстанцам им воспользоваться. Возможно, это их немного "
 "замедлит. Вы подбираете то, что удается найти среди обломков."
 
-#: src-en/data/events_sector_rebel.xml:2035
+#: src-en/data/events_sector_rebel.xml:2082
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"DISTRESS_REBEL_DEPOT_PROBLEM\"]/choice[1]/event/choice[6]/text"
 msgstr "Мы ничего не можем сделать."
 
-#: src-en/data/events_sector_rebel.xml:2037
+#: src-en/data/events_sector_rebel.xml:2084
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"DISTRESS_REBEL_DEPOT_PROBLEM\"]/choice[1]/event/choice[6]/event/text"
 msgstr ""
 "Повстанцы выглядят раздраженными. Скорее всего, они найдут способ сообщить "
 "флоту о вашем местонахождении."
 
-#: src-en/data/events_sector_rebel.xml:2040
+#: src-en/data/events_sector_rebel.xml:2087
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"DISTRESS_REBEL_DEPOT_PROBLEM\"]/choice[1]/event/choice[6]/event/choice[1]/text"
 msgstr "Заняться чем-либо на корабле."
 
-#: src-en/data/events_sector_rebel.xml:2044
+#: src-en/data/events_sector_rebel.xml:2091
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"DISTRESS_REBEL_DEPOT_PROBLEM\"]/choice[1]/event/choice[6]/event/choice[2]/text"
 msgstr "Ничего не делать."
 
-#: src-en/data/events_sector_rebel.xml:2052
+#: src-en/data/events_sector_rebel.xml:2099
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"DISTRESS_REBEL_DEPOT_PROBLEM\"]/choice[2]/text"
-msgstr "Делать, как они говорят."
+msgstr "Сделать, как он говорит."
 
-#: src-en/data/events_sector_rebel.xml:2054
+#: src-en/data/events_sector_rebel.xml:2101
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"DISTRESS_REBEL_DEPOT_PROBLEM\"]/choice[2]/event/text"
 msgstr "Вы решаете не возиться со складом."
 
-#: src-en/data/events_sector_rebel.xml:2056
+#: src-en/data/events_sector_rebel.xml:2103
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"DISTRESS_REBEL_DEPOT_PROBLEM\"]/choice[2]/event/choice[1]/text"
 msgstr "Заняться чем-либо на корабле."
 
-#: src-en/data/events_sector_rebel.xml:2060
+#: src-en/data/events_sector_rebel.xml:2107
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"DISTRESS_REBEL_DEPOT_PROBLEM\"]/choice[2]/event/choice[2]/text"
 msgstr "Ничего не делать."
 
-#: src-en/data/events_sector_rebel.xml:2067
+#: src-en/data/events_sector_rebel.xml:2114
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"DISTRESS_REBEL_DEPOT_PROBLEM_SOLVED\"]/text"
 msgstr ""
@@ -3244,7 +3306,7 @@ msgstr ""
 "вооружение, думаю, у нас нет выбора. Мы снабдим тебя ракетами. Не "
 "возвращайся сюда, Ренегат\"."
 
-#: src-en/data/events_sector_rebel.xml:2083
+#: src-en/data/events_sector_rebel.xml:2130
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"DISTRESS_REBELHOLD_POW\"]/text"
 msgstr ""
@@ -3254,12 +3316,12 @@ msgstr ""
 "эвакуация\". На орбите в поисках пленного находятся асы МФК. В данный момент"
 " они, похоже, отвлечены своим текущим заданием - прочесыванием планеты."
 
-#: src-en/data/events_sector_rebel.xml:2086
+#: src-en/data/events_sector_rebel.xml:2133
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"DISTRESS_REBELHOLD_POW\"]/choice[1]/text"
 msgstr "Атаковать МФК."
 
-#: src-en/data/events_sector_rebel.xml:2088
+#: src-en/data/events_sector_rebel.xml:2135
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"DISTRESS_REBELHOLD_POW\"]/choice[1]/event/text"
 msgstr ""
@@ -3267,17 +3329,17 @@ msgstr ""
 "так. Похоже, мы нашли еще несколько потенциальных пленных. Сбежавшего найдем"
 " позже\"."
 
-#: src-en/data/events_sector_rebel.xml:2091
+#: src-en/data/events_sector_rebel.xml:2138
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"DISTRESS_REBELHOLD_POW\"]/choice[1]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_rebel.xml:2097
+#: src-en/data/events_sector_rebel.xml:2144
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"DISTRESS_REBELHOLD_POW\"]/choice[2]/text"
 msgstr "Использовать отвлекающий маневр, чтобы ускользнуть."
 
-#: src-en/data/events_sector_rebel.xml:2099
+#: src-en/data/events_sector_rebel.xml:2146
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"DISTRESS_REBELHOLD_POW\"]/choice[2]/event/text"
 msgstr ""
@@ -3285,18 +3347,16 @@ msgstr ""
 "пока они вас не заметили. К сожалению, вы ничего не успеваете сделать, пока "
 "готовитесь к уходу в прыжок."
 
-#: src-en/data/events_sector_rebel.xml:2104
+#: src-en/data/events_sector_rebel.xml:2151
 msgid "data/events_sector_rebel.xml$//event[@name=\"REBEL_SELITE_POW\"]/text"
-msgstr ""
-"Элита асов MFK была грозной, но вам удалось ее уничтожить. Вы разбираете их "
-"корабль, получая за это немалую награду."
+msgstr "Элита асов МФК была грозной, но вам удалось ее уничтожить. Вы разбираете их корабль, получая за это немалую награду."
 
-#: src-en/data/events_sector_rebel.xml:2107
+#: src-en/data/events_sector_rebel.xml:2154
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_SELITE_POW\"]/choice[@req=\"sensors\"]/text"
 msgstr "(Улучш. Сенсоры) Просканировать пленника."
 
-#: src-en/data/events_sector_rebel.xml:2109
+#: src-en/data/events_sector_rebel.xml:2156
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_SELITE_POW\"]/choice[@req=\"sensors\"]/event/text"
 msgstr ""
@@ -3308,12 +3368,12 @@ msgstr ""
 "пространство повстанцев. Пожалуйста, позвольте мне присоединиться к вашей "
 "команде\"."
 
-#: src-en/data/events_sector_rebel.xml:2115
+#: src-en/data/events_sector_rebel.xml:2162
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_SELITE_POW\"]/choice[@req=\"LIFE_SCANNER\"]/text"
 msgstr "(Сканер форм жизни) Просканировать пленного."
 
-#: src-en/data/events_sector_rebel.xml:2117
+#: src-en/data/events_sector_rebel.xml:2164
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_SELITE_POW\"]/choice[@req=\"LIFE_SCANNER\"]/event/text"
 msgstr ""
@@ -3324,12 +3384,12 @@ msgstr ""
 "мало, но в прошлом Ренегаты пробирались глубоко в пространство повстанцев. "
 "Пожалуйста, позвольте мне присоединиться к вашей команде\"."
 
-#: src-en/data/events_sector_rebel.xml:2123
+#: src-en/data/events_sector_rebel.xml:2170
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_SELITE_POW\"]/choice[@req=\"LIST_CREW_SLUG\"]/text"
 msgstr "(Член экипажа-слизень) Попытаться почувствовать пленного."
 
-#: src-en/data/events_sector_rebel.xml:2125
+#: src-en/data/events_sector_rebel.xml:2172
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_SELITE_POW\"]/choice[@req=\"LIST_CREW_SLUG\"]/event/text"
 msgstr ""
@@ -3341,12 +3401,12 @@ msgstr ""
 "пространство повстанцев. Пожалуйста, позвольте мне присоединиться к вашей "
 "команде\"."
 
-#: src-en/data/events_sector_rebel.xml:2130
+#: src-en/data/events_sector_rebel.xml:2177
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_SELITE_POW\"]/choice[@req=\"BLUELIST_CREW_SNAIL\"]/text"
 msgstr "(Член экипажа-ракушка-Телепат) Попытаться почувствовать пленного."
 
-#: src-en/data/events_sector_rebel.xml:2132
+#: src-en/data/events_sector_rebel.xml:2179
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_SELITE_POW\"]/choice[@req=\"BLUELIST_CREW_SNAIL\"]/event/text"
 msgstr ""
@@ -3358,12 +3418,12 @@ msgstr ""
 "пространство повстанцев. Пожалуйста, позвольте мне присоединиться к вашей "
 "команде\"."
 
-#: src-en/data/events_sector_rebel.xml:2137
+#: src-en/data/events_sector_rebel.xml:2184
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_SELITE_POW\"]/choice[5]/text"
 msgstr "Потратить немного времени, чтобы отправить поисковую группу."
 
-#: src-en/data/events_sector_rebel.xml:2139
+#: src-en/data/events_sector_rebel.xml:2186
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_SELITE_POW\"]/choice[5]/event/text"
 msgstr ""
@@ -3374,12 +3434,12 @@ msgstr ""
 "проникали так глубоко в пространство повстанцев. Пожалуйста, позвольте мне "
 "присоединиться к вашей команде\"."
 
-#: src-en/data/events_sector_rebel.xml:2146
+#: src-en/data/events_sector_rebel.xml:2193
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_SELITE_POW\"]/choice[6]/text"
 msgstr "Покинуть это место."
 
-#: src-en/data/events_sector_rebel.xml:2163
+#: src-en/data/events_sector_rebel.xml:2210
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_CONSTRUCTION_CREW\"]/text"
 msgstr ""
@@ -3388,24 +3448,24 @@ msgstr ""
 "повстанцев. Поскольку это гражданские, вы сможете подключиться к их каналам "
 "связи, если подойдете поближе."
 
-#: src-en/data/events_sector_rebel.xml:2165
+#: src-en/data/events_sector_rebel.xml:2212
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_CONSTRUCTION_CREW\"]/choice[1]/text"
 msgstr "Приблизиться."
 
-#: src-en/data/events_sector_rebel.xml:2167
+#: src-en/data/events_sector_rebel.xml:2214
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_CONSTRUCTION_CREW\"]/choice[1]/event/text"
 msgstr ""
 "Как только вы приблизились достаточно близко, корабль повстанцев прекращает "
 "передачу и тут же атакует вас!"
 
-#: src-en/data/events_sector_rebel.xml:2170
+#: src-en/data/events_sector_rebel.xml:2217
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_CONSTRUCTION_CREW\"]/choice[1]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_rebel.xml:2176
+#: src-en/data/events_sector_rebel.xml:2223
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_CONSTRUCTION_CREW\"]/choice[@req=\"mind\""
 " and @lvl=\"2\"]/text"
@@ -3413,7 +3473,7 @@ msgstr ""
 "(Улучш. Контроль разума) Дождаться конца встречи и заставить один из "
 "строительных кораблей ввести вас в курс дела."
 
-#: src-en/data/events_sector_rebel.xml:2178
+#: src-en/data/events_sector_rebel.xml:2225
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_CONSTRUCTION_CREW\"]/choice[@req=\"mind\""
 " and @lvl=\"2\"]/event/text"
@@ -3424,19 +3484,19 @@ msgstr ""
 "новейшего космического дока повстанцев в этом секторе. Давайте я дам вам "
 "координаты, если вы захотите заглянуть!\""
 
-#: src-en/data/events_sector_rebel.xml:2181
+#: src-en/data/events_sector_rebel.xml:2228
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_CONSTRUCTION_CREW\"]/choice[@req=\"mind\""
 " and @lvl=\"2\"]/event/choice[1]/text"
 msgstr "Уходим, пока повстанцы не заметили нас."
 
-#: src-en/data/events_sector_rebel.xml:2185
+#: src-en/data/events_sector_rebel.xml:2232
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_CONSTRUCTION_CREW\"]/choice[@req=\"mind\""
 " and @lvl=\"2\"]/event/choice[2]/text"
 msgstr "Атакуем повстанцев, прежде чем уйти."
 
-#: src-en/data/events_sector_rebel.xml:2187
+#: src-en/data/events_sector_rebel.xml:2234
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_CONSTRUCTION_CREW\"]/choice[@req=\"mind\""
 " and @lvl=\"2\"]/event/choice[2]/event/text"
@@ -3444,13 +3504,13 @@ msgstr ""
 "Повстанцы, похоже, до сих пор не подозревают о вашем присутствии и тут же "
 "атакуют вас!"
 
-#: src-en/data/events_sector_rebel.xml:2190
+#: src-en/data/events_sector_rebel.xml:2237
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_CONSTRUCTION_CREW\"]/choice[@req=\"mind\""
 " and @lvl=\"2\"]/event/choice[2]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_rebel.xml:2198
+#: src-en/data/events_sector_rebel.xml:2245
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_CONSTRUCTION_CREW\"]/choice[@req=\"mind\""
 " and @lvl=\"1\"]/text"
@@ -3458,7 +3518,7 @@ msgstr ""
 "(Контроль разума) Дождаться конца встречи и попытаться заставить один из "
 "строительных кораблей ввести вас в курс дела."
 
-#: src-en/data/events_sector_rebel.xml:2200
+#: src-en/data/events_sector_rebel.xml:2247
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_CONSTRUCTION_CREW\"]/choice[@req=\"mind\""
 " and @lvl=\"1\"]/event/text"
@@ -3469,19 +3529,58 @@ msgstr ""
 " вы успеваете добиться от капитана большего, корабль повстанцев, похоже, "
 "замечает вашу деятельность!"
 
-#: src-en/data/events_sector_rebel.xml:2203
+#: src-en/data/events_sector_rebel.xml:2250
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_CONSTRUCTION_CREW\"]/choice[@req=\"mind\""
 " and @lvl=\"1\"]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_rebel.xml:2209
+#: src-en/data/events_sector_rebel.xml:2256
+msgid ""
+"data/events_sector_rebel.xml$//event[@name=\"REBEL_CONSTRUCTION_CREW\"]/choice[@req=\"BLUELIST_WEAPONS_MIND_CONTROL\"]/text"
+msgstr ""
+"(Улучш. Контроль разума) Дождаться конца встречи и заставить один из "
+"строительных кораблей ввести вас в курс дела."
+
+#: src-en/data/events_sector_rebel.xml:2258
+msgid ""
+"data/events_sector_rebel.xml$//event[@name=\"REBEL_CONSTRUCTION_CREW\"]/choice[@req=\"BLUELIST_WEAPONS_MIND_CONTROL\"]/event/text"
+msgstr ""
+"Вы загоняете в угол один из строительных кораблей. Ваша система Контроля "
+"разума начинает работать, и капитан корабля отвечает, как будто обращается к"
+" другу. \"О, мы как раз отправляемся на финальную стадию строительства "
+"новейшего космического дока повстанцев в этом секторе. Давайте я дам вам "
+"координаты, если вы захотите заглянуть!\""
+
+#: src-en/data/events_sector_rebel.xml:2261
+msgid ""
+"data/events_sector_rebel.xml$//event[@name=\"REBEL_CONSTRUCTION_CREW\"]/choice[@req=\"BLUELIST_WEAPONS_MIND_CONTROL\"]/event/choice[1]/text"
+msgstr "Уйти, пока повстанцы не заметили вас."
+
+#: src-en/data/events_sector_rebel.xml:2265
+msgid ""
+"data/events_sector_rebel.xml$//event[@name=\"REBEL_CONSTRUCTION_CREW\"]/choice[@req=\"BLUELIST_WEAPONS_MIND_CONTROL\"]/event/choice[2]/text"
+msgstr "Атаковать повстанцев, прежде чем уйти."
+
+#: src-en/data/events_sector_rebel.xml:2267
+msgid ""
+"data/events_sector_rebel.xml$//event[@name=\"REBEL_CONSTRUCTION_CREW\"]/choice[@req=\"BLUELIST_WEAPONS_MIND_CONTROL\"]/event/choice[2]/event/text"
+msgstr ""
+"Повстанцы, похоже, до сих пор не подозревают о вашем присутствии и тут же "
+"атакуют вас!"
+
+#: src-en/data/events_sector_rebel.xml:2270
+msgid ""
+"data/events_sector_rebel.xml$//event[@name=\"REBEL_CONSTRUCTION_CREW\"]/choice[@req=\"BLUELIST_WEAPONS_MIND_CONTROL\"]/event/choice[2]/event/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_rebel.xml:2278
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_CONSTRUCTION_CREW\"]/choice[@req=\"cloaking\""
 " and @lvl=\"2\"]/text"
 msgstr "(Улучш. Маскировка) Шпионить за встречей."
 
-#: src-en/data/events_sector_rebel.xml:2211
+#: src-en/data/events_sector_rebel.xml:2280
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_CONSTRUCTION_CREW\"]/choice[@req=\"cloaking\""
 " and @lvl=\"2\"]/event/text"
@@ -3493,19 +3592,19 @@ msgstr ""
 "строительные корабли приближаются к маяку и начинают уходить в прыжок, в то "
 "время как повстанцы остаются на своем посту."
 
-#: src-en/data/events_sector_rebel.xml:2214
+#: src-en/data/events_sector_rebel.xml:2283
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_CONSTRUCTION_CREW\"]/choice[@req=\"cloaking\""
 " and @lvl=\"2\"]/event/choice[1]/text"
 msgstr "Уйти пока повстанцы не заметили вас."
 
-#: src-en/data/events_sector_rebel.xml:2218
+#: src-en/data/events_sector_rebel.xml:2287
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_CONSTRUCTION_CREW\"]/choice[@req=\"cloaking\""
 " and @lvl=\"2\"]/event/choice[2]/text"
 msgstr "Атаковать повстанцев, прежде чем уйти."
 
-#: src-en/data/events_sector_rebel.xml:2220
+#: src-en/data/events_sector_rebel.xml:2289
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_CONSTRUCTION_CREW\"]/choice[@req=\"cloaking\""
 " and @lvl=\"2\"]/event/choice[2]/event/text"
@@ -3513,19 +3612,19 @@ msgstr ""
 "Вы демаскируетесь в тылу повстанцев и устраиваете засаду. Они застигнуты "
 "врасплох, но быстро отвечают на вашу агрессию!"
 
-#: src-en/data/events_sector_rebel.xml:2223
+#: src-en/data/events_sector_rebel.xml:2292
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_CONSTRUCTION_CREW\"]/choice[@req=\"cloaking\""
 " and @lvl=\"2\"]/event/choice[2]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_rebel.xml:2231
+#: src-en/data/events_sector_rebel.xml:2300
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_CONSTRUCTION_CREW\"]/choice[@req=\"cloaking\""
 " and @lvl=\"1\"]/text"
 msgstr "(Маскировка) Попытаться шпионить за встречей."
 
-#: src-en/data/events_sector_rebel.xml:2233
+#: src-en/data/events_sector_rebel.xml:2302
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_CONSTRUCTION_CREW\"]/choice[@req=\"cloaking\""
 " and @lvl=\"1\"]/event/text"
@@ -3536,41 +3635,41 @@ msgstr ""
 " ничего нового до того, как ваша маскировка спадает! Заметив вас, повстанцы "
 "немедленно атакуют."
 
-#: src-en/data/events_sector_rebel.xml:2236
+#: src-en/data/events_sector_rebel.xml:2305
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_CONSTRUCTION_CREW\"]/choice[@req=\"cloaking\""
 " and @lvl=\"1\"]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_rebel.xml:2242
+#: src-en/data/events_sector_rebel.xml:2311
 msgid ""
-"data/events_sector_rebel.xml$//event[@name=\"REBEL_CONSTRUCTION_CREW\"]/choice[6]/text"
+"data/events_sector_rebel.xml$//event[@name=\"REBEL_CONSTRUCTION_CREW\"]/choice[7]/text"
 msgstr "Держаться на расстоянии, чтобы вас не заметили."
 
-#: src-en/data/events_sector_rebel.xml:2244
+#: src-en/data/events_sector_rebel.xml:2313
 msgid ""
-"data/events_sector_rebel.xml$//event[@name=\"REBEL_CONSTRUCTION_CREW\"]/choice[6]/event/text"
+"data/events_sector_rebel.xml$//event[@name=\"REBEL_CONSTRUCTION_CREW\"]/choice[7]/event/text"
 msgstr ""
 "Вы сохраняете дистанцию, настолько большую, что не можете следить за их "
 "передвижениями. Тем не менее, вы даете себе возможность поработать над чем-"
 "то другим."
 
-#: src-en/data/events_sector_rebel.xml:2246
+#: src-en/data/events_sector_rebel.xml:2315
 msgid ""
-"data/events_sector_rebel.xml$//event[@name=\"REBEL_CONSTRUCTION_CREW\"]/choice[6]/event/choice[1]/text"
+"data/events_sector_rebel.xml$//event[@name=\"REBEL_CONSTRUCTION_CREW\"]/choice[7]/event/choice[1]/text"
 msgstr "Заняться чем-либо на корабле."
 
-#: src-en/data/events_sector_rebel.xml:2250
+#: src-en/data/events_sector_rebel.xml:2319
 msgid ""
-"data/events_sector_rebel.xml$//event[@name=\"REBEL_CONSTRUCTION_CREW\"]/choice[6]/event/choice[2]/text"
+"data/events_sector_rebel.xml$//event[@name=\"REBEL_CONSTRUCTION_CREW\"]/choice[7]/event/choice[2]/text"
 msgstr "Ничего не делать."
 
-#: src-en/data/events_sector_rebel.xml:2261
+#: src-en/data/events_sector_rebel.xml:2330
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"QUEST_REBEL_INCOMPLETE_DOCK\"]/beaconType/unvisitedTooltip"
 msgstr "Здесь строится космический док повстанцев."
 
-#: src-en/data/events_sector_rebel.xml:2263
+#: src-en/data/events_sector_rebel.xml:2332
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"QUEST_REBEL_INCOMPLETE_DOCK\"]/text"
 msgstr ""
@@ -3580,12 +3679,12 @@ msgstr ""
 "путь. \"Значит, ты хочешь нанести ущерб нашей инфраструктуре, не так ли? Я "
 "не позволю тебе это сделать!\""
 
-#: src-en/data/events_sector_rebel.xml:2266
+#: src-en/data/events_sector_rebel.xml:2335
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"QUEST_REBEL_INCOMPLETE_DOCK\"]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_rebel.xml:2271
+#: src-en/data/events_sector_rebel.xml:2340
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_DOCK_GUARD_DEFEATED\"]/text"
 msgstr ""
@@ -3593,24 +3692,24 @@ msgstr ""
 "хорошо оснащен для защиты своего сооружения, но явно недостаточно хорошо для"
 " вас."
 
-#: src-en/data/events_sector_rebel.xml:2274
+#: src-en/data/events_sector_rebel.xml:2343
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_DOCK_GUARD_DEFEATED\"]/choice/text"
 msgstr "Продолжить движение к частично завершенному доку."
 
-#: src-en/data/events_sector_rebel.xml:2276
+#: src-en/data/events_sector_rebel.xml:2345
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_DOCK_GUARD_DEFEATED\"]/choice/event/text"
 msgstr ""
 "Строительные корабли начинают спасаться бегством. Это ваш шанс уничтожить "
 "док."
 
-#: src-en/data/events_sector_rebel.xml:2278
+#: src-en/data/events_sector_rebel.xml:2347
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_DOCK_GUARD_DEFEATED\"]/choice/event/choice[@req=\"weapons\"]/text"
 msgstr "(Продв. Оружие) Атаковать со всех сторон с помощью своего вооружения."
 
-#: src-en/data/events_sector_rebel.xml:2280
+#: src-en/data/events_sector_rebel.xml:2349
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_DOCK_GUARD_DEFEATED\"]/choice/event/choice[@req=\"weapons\"]/event/text"
 msgstr ""
@@ -3619,14 +3718,14 @@ msgstr ""
 "превращаете большую часть дока в строительный мусор. Хотя они еще могут "
 "восстановить его, вы, конечно, отбросили их назад."
 
-#: src-en/data/events_sector_rebel.xml:2286
+#: src-en/data/events_sector_rebel.xml:2355
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_DOCK_GUARD_DEFEATED\"]/choice/event/choice[@req=\"BLUELIST_WEAPONS_HEAVY\"]/text"
 msgstr ""
 "(Тяжелое вооружение) Поразить самые уязвимые места своим тяжелым "
 "вооружением."
 
-#: src-en/data/events_sector_rebel.xml:2288
+#: src-en/data/events_sector_rebel.xml:2357
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_DOCK_GUARD_DEFEATED\"]/choice/event/choice[@req=\"BLUELIST_WEAPONS_HEAVY\"]/event/text"
 msgstr ""
@@ -3636,14 +3735,14 @@ msgstr ""
 "и все это разлетается в разные стороны. В ближайшее время они ничего из "
 "этого не получат, а вот вы - наверняка."
 
-#: src-en/data/events_sector_rebel.xml:2294
+#: src-en/data/events_sector_rebel.xml:2363
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_DOCK_GUARD_DEFEATED\"]/choice/event/choice[3]/text"
 msgstr ""
 "Установить взрывчатку в важных местах, чтобы устроить сюрприз повстанцам, "
 "когда они вернутся."
 
-#: src-en/data/events_sector_rebel.xml:2296
+#: src-en/data/events_sector_rebel.xml:2365
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_DOCK_GUARD_DEFEATED\"]/choice/event/choice[3]/event/text"
 msgstr ""
@@ -3653,24 +3752,24 @@ msgstr ""
 "означает, что вам не удастся разобрать обломки дока, но перед уходом вы "
 "собираете все материалы, которые они оставили."
 
-#: src-en/data/events_sector_rebel.xml:2302
+#: src-en/data/events_sector_rebel.xml:2371
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_DOCK_GUARD_DEFEATED\"]/choice/event/choice[3]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_rebel.xml:2310
+#: src-en/data/events_sector_rebel.xml:2379
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_DOCK_GUARD_DEFEATED\"]/choice/event/choice[4]/text"
 msgstr "Продолжить путь, не разрушая док."
 
-#: src-en/data/events_sector_rebel.xml:2312
+#: src-en/data/events_sector_rebel.xml:2381
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_DOCK_GUARD_DEFEATED\"]/choice/event/choice[4]/event/text"
 msgstr ""
 "У вас и так хватает проблем. Вы продолжаете заниматься своими делами без "
 "лишних хлопот."
 
-#: src-en/data/events_sector_rebel.xml:2325
+#: src-en/data/events_sector_rebel.xml:2394
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_COLONY_PRISONBREAK\"]/text"
 msgstr ""
@@ -3679,12 +3778,12 @@ msgstr ""
 "вырвались на свободу. Вы получаете сообщение из колонии, помеченное как "
 "срочное."
 
-#: src-en/data/events_sector_rebel.xml:2327
+#: src-en/data/events_sector_rebel.xml:2396
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_COLONY_PRISONBREAK\"]/choice[1]/text"
 msgstr "Ответить."
 
-#: src-en/data/events_sector_rebel.xml:2329
+#: src-en/data/events_sector_rebel.xml:2398
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_COLONY_PRISONBREAK\"]/choice[1]/event/text"
 msgstr ""
@@ -3697,51 +3796,51 @@ msgstr ""
 "перехватить тюремный корабль. Мы установили на нем маяк слежения, прежде чем"
 " он улетел, так что найти его будет несложно\"."
 
-#: src-en/data/events_sector_rebel.xml:2331
+#: src-en/data/events_sector_rebel.xml:2400
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_COLONY_PRISONBREAK\"]/choice[1]/event/choice[1]/text"
 msgstr "Согласиться на поиск тюремного корабля."
 
-#: src-en/data/events_sector_rebel.xml:2333
+#: src-en/data/events_sector_rebel.xml:2402
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_COLONY_PRISONBREAK\"]/choice[1]/event/choice[1]/event/text"
 msgstr "\"Ох, спасибо. Я знал, что мы можем рассчитывать на Федерацию!\""
 
-#: src-en/data/events_sector_rebel.xml:2338
+#: src-en/data/events_sector_rebel.xml:2407
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_COLONY_PRISONBREAK\"]/choice[1]/event/choice[2]/text"
 msgstr "Мы не можем рисковать нашей главной миссией."
 
-#: src-en/data/events_sector_rebel.xml:2344
+#: src-en/data/events_sector_rebel.xml:2413
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_COLONY_PRISONBREAK\"]/choice[2]/text"
 msgstr "Избегать колонии."
 
-#: src-en/data/events_sector_rebel.xml:2346
+#: src-en/data/events_sector_rebel.xml:2415
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_COLONY_PRISONBREAK\"]/choice[2]/event/text"
 msgstr ""
 "Хотя и приятно видеть противодействие делу повстанцев даже на их территории,"
 " у вас нет времени останавливаться и помогать колонистам с любыми просьбами."
 
-#: src-en/data/events_sector_rebel.xml:2348
+#: src-en/data/events_sector_rebel.xml:2417
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_COLONY_PRISONBREAK\"]/choice[2]/event/choice[1]/text"
 msgstr "Заняться чем-либо на корабле."
 
-#: src-en/data/events_sector_rebel.xml:2352
+#: src-en/data/events_sector_rebel.xml:2421
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_COLONY_PRISONBREAK\"]/choice[2]/event/choice[2]/text"
 msgstr "Ничего не делать."
 
-#: src-en/data/events_sector_rebel.xml:2361
+#: src-en/data/events_sector_rebel.xml:2430
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"QUEST_REBEL_COLONY_PRISONBREAK_JAILER\"]/beaconType/unvisitedTooltip"
 msgstr ""
 "Местонахождение тюрьмы повстанцев, в которой содержатся колонисты, лояльные "
 "Федерации."
 
-#: src-en/data/events_sector_rebel.xml:2363
+#: src-en/data/events_sector_rebel.xml:2432
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"QUEST_REBEL_COLONY_PRISONBREAK_JAILER\"]/text"
 msgstr ""
@@ -3749,24 +3848,24 @@ msgstr ""
 "их, прежде чем они смогут сбежать, и, надеюсь, не разрушить при этом "
 "корабль."
 
-#: src-en/data/events_sector_rebel.xml:2366
+#: src-en/data/events_sector_rebel.xml:2435
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"QUEST_REBEL_COLONY_PRISONBREAK_JAILER\"]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_rebel.xml:2371
+#: src-en/data/events_sector_rebel.xml:2440
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_COLONY_PRISONBREAK_JAILER_SURRENDER\"]/text"
 msgstr ""
 "Поврежденный корабль вызывает вас. \"Вас послали те колонисты, не так ли? "
 "Ладно, можете забрать пленников. Только сохраните нам жизнь\"."
 
-#: src-en/data/events_sector_rebel.xml:2373
+#: src-en/data/events_sector_rebel.xml:2442
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_COLONY_PRISONBREAK_JAILER_SURRENDER\"]/choice[1]/text"
 msgstr "Принять капитуляцию и освободить рабов."
 
-#: src-en/data/events_sector_rebel.xml:2375
+#: src-en/data/events_sector_rebel.xml:2444
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_COLONY_PRISONBREAK_JAILER_SURRENDER\"]/choice[1]/event/text"
 msgstr ""
@@ -3774,12 +3873,12 @@ msgstr ""
 " в колонию, вы высаживаете их на ближайшей станции, где они смогут найти "
 "корабль, который поможет им. За помощь вы получаете большое вознаграждение."
 
-#: src-en/data/events_sector_rebel.xml:2381
+#: src-en/data/events_sector_rebel.xml:2450
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_COLONY_PRISONBREAK_JAILER_SURRENDER\"]/choice[2]/text"
 msgstr "К черту миссию, давайте убьем этих ублюдков-повстанцев."
 
-#: src-en/data/events_sector_rebel.xml:2386
+#: src-en/data/events_sector_rebel.xml:2455
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"DESTROYED_REBEL_PRISONBREAK\"]/text"
 msgstr ""
@@ -3787,19 +3886,19 @@ msgstr ""
 " колония никогда не даст вам вознаграждения, так что придется "
 "довольствоваться обломками корабля."
 
-#: src-en/data/events_sector_rebel.xml:2390
+#: src-en/data/events_sector_rebel.xml:2459
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"DEAD_CREW_REBEL_PRISONBREAK\"]/text"
 msgstr ""
 "Не обнаружив на борту никого из экипажа повстанцев, вы можете разобрать "
 "внешнюю обшивку корабля, прежде чем проверить состояние заключенных."
 
-#: src-en/data/events_sector_rebel.xml:2393
+#: src-en/data/events_sector_rebel.xml:2462
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"DEAD_CREW_REBEL_PRISONBREAK\"]/choice/text"
 msgstr "Проверить колонистов."
 
-#: src-en/data/events_sector_rebel.xml:2395
+#: src-en/data/events_sector_rebel.xml:2464
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"DEAD_CREW_REBEL_PRISONBREAK\"]/choice/event/text"
 msgstr ""
@@ -3807,7 +3906,7 @@ msgstr ""
 " в колонию, вы высаживаете их на ближайшей станции, где они смогут найти "
 "корабль, который поможет им. За помощь вы получаете большое вознаграждение."
 
-#: src-en/data/events_sector_rebel.xml:2401
+#: src-en/data/events_sector_rebel.xml:2470
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_COLONY_PRISONBREAK_GOTAWAY\"]/text"
 msgstr ""
@@ -3816,14 +3915,14 @@ msgstr ""
 "потеряны. Вы все еще можете отследить местоположение корабля и, возможно, "
 "победить его до того, как заключенные будут высажены."
 
-#: src-en/data/events_sector_rebel.xml:2408
+#: src-en/data/events_sector_rebel.xml:2477
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"QUEST_REBEL_COLONY_PRISONBREAK_FINAL\"]/beaconType/unvisitedTooltip"
 msgstr ""
 "Местонахождение тюрьмы повстанцев, в которой содержатся колонисты, лояльные "
 "Федерации."
 
-#: src-en/data/events_sector_rebel.xml:2410
+#: src-en/data/events_sector_rebel.xml:2479
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"QUEST_REBEL_COLONY_PRISONBREAK_FINAL\"]/text"
 msgstr ""
@@ -3831,41 +3930,41 @@ msgstr ""
 "более сильный корабль асов МФК. Бой будет нелегким, и капитуляции не будет. "
 "Если вы хотите освободить колонистов, вам придется убить весь экипаж."
 
-#: src-en/data/events_sector_rebel.xml:2414
+#: src-en/data/events_sector_rebel.xml:2483
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"QUEST_REBEL_COLONY_PRISONBREAK_FINAL\"]/choice[1]/text"
 msgstr "Попытаться спасти колонистов."
 
-#: src-en/data/events_sector_rebel.xml:2416
+#: src-en/data/events_sector_rebel.xml:2485
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"QUEST_REBEL_COLONY_PRISONBREAK_FINAL\"]/choice[1]/event/text"
 msgstr ""
 "Повстанцы не собираются отказываться от борьбы. Сооружение активирует "
 "спутник ПКБ для стрельбы по вам."
 
-#: src-en/data/events_sector_rebel.xml:2420
+#: src-en/data/events_sector_rebel.xml:2489
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"QUEST_REBEL_COLONY_PRISONBREAK_FINAL\"]/choice[1]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_rebel.xml:2426
+#: src-en/data/events_sector_rebel.xml:2495
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"QUEST_REBEL_COLONY_PRISONBREAK_FINAL\"]/choice[2]/text"
 msgstr "Это слишком опасно. Мы должны уйти."
 
-#: src-en/data/events_sector_rebel.xml:2431
+#: src-en/data/events_sector_rebel.xml:2500
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_COLONY_PRISONBREAK_FINAL_DEADCREW\"]/text"
 msgstr ""
 "Не обнаружив на борту никого из экипажа повстанцев, вы можете разобрать "
 "внешнюю обшивку корабля, прежде чем проверить состояние заключенных."
 
-#: src-en/data/events_sector_rebel.xml:2434
+#: src-en/data/events_sector_rebel.xml:2503
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_COLONY_PRISONBREAK_FINAL_DEADCREW\"]/choice/text"
 msgstr "Проверить колонистов."
 
-#: src-en/data/events_sector_rebel.xml:2436
+#: src-en/data/events_sector_rebel.xml:2505
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_COLONY_PRISONBREAK_FINAL_DEADCREW\"]/choice/event/text"
 msgstr ""
@@ -3874,7 +3973,7 @@ msgstr ""
 "отправиться обратно. Однако один колонист решает остаться с вами. Вы также "
 "получаете вознаграждение за свои усилия."
 
-#: src-en/data/events_sector_rebel.xml:2443
+#: src-en/data/events_sector_rebel.xml:2512
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"REBEL_COLONY_PRISONBREAK_FINAL_DESTROYED\"]/text"
 msgstr ""
@@ -3882,59 +3981,57 @@ msgstr ""
 "Придется довольствоваться обломками корабля и быстро уходить, пока ПКБ не "
 "успело вас уничтожить."
 
-#: src-en/data/events_sector_rebel.xml:2472
+#: src-en/data/events_sector_rebel.xml:2541
 msgid ""
 "data/events_sector_rebel.xml$/FTL/event[@name=\"ENCOUNTER_REBEL_REGULAR\"]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_rebel.xml:2477
+#: src-en/data/events_sector_rebel.xml:2546
 msgid ""
 "data/events_sector_rebel.xml$//textList[@name=\"TEXT_ENCOUNTER_REBEL\"]/text[1]"
-msgstr ""
-"На экране появляется повстанец и разворачивает длинный лист бумаги. Он "
-"надевает очки и начинает читать: \"Стихотворение для тебя. Кхм; Сдохни\"."
+msgstr "На экране появляется повстанец и разворачивает длинный лист бумаги. Он надевает очки и начинает читать: \"Стихотворение для тебя. Кхм; Сдохни\"."
 
-#: src-en/data/events_sector_rebel.xml:2478
+#: src-en/data/events_sector_rebel.xml:2547
 msgid ""
 "data/events_sector_rebel.xml$//textList[@name=\"TEXT_ENCOUNTER_REBEL\"]/text[2]"
 msgstr "Ваш корабль вызывают. \"Наконец-то мы нашли тебя. Готовься к смерти!\""
 
-#: src-en/data/events_sector_rebel.xml:2479
+#: src-en/data/events_sector_rebel.xml:2548
 msgid ""
 "data/events_sector_rebel.xml$//textList[@name=\"TEXT_ENCOUNTER_REBEL\"]/text[3]"
 msgstr ""
 "Небольшой корабль повстанцев пристыкован к небольшой станции. Вы пытаетесь "
 "затаиться, но он вас замечает. Заряжаем оружие!"
 
-#: src-en/data/events_sector_rebel.xml:2480
+#: src-en/data/events_sector_rebel.xml:2549
 msgid ""
 "data/events_sector_rebel.xml$//textList[@name=\"TEXT_ENCOUNTER_REBEL\"]/text[4]"
 msgstr ""
 "Корабль повстанцев патрулирует этот район. Как только вы появляетесь, он "
 "начинает атаку."
 
-#: src-en/data/events_sector_rebel.xml:2481
+#: src-en/data/events_sector_rebel.xml:2550
 msgid ""
 "data/events_sector_rebel.xml$//textList[@name=\"TEXT_ENCOUNTER_REBEL\"]/text[5]"
 msgstr ""
 "Вас вызывает корабль повстанцев: \"Федеративное отродье! Мы долго ждали "
 "этого!\""
 
-#: src-en/data/events_sector_rebel.xml:2482
+#: src-en/data/events_sector_rebel.xml:2551
 msgid ""
 "data/events_sector_rebel.xml$//textList[@name=\"TEXT_ENCOUNTER_REBEL\"]/text[6]"
 msgstr ""
 "Вы получаете сообщение: \"Извините, сэр, ничего личного, но у нас приказ\". "
 "Оружие корабля повстанцев начинает заряжаться."
 
-#: src-en/data/events_sector_rebel.xml:2483
+#: src-en/data/events_sector_rebel.xml:2552
 msgid ""
 "data/events_sector_rebel.xml$//textList[@name=\"TEXT_ENCOUNTER_REBEL\"]/text[7]"
 msgstr ""
 "Когда вы заметили корабль повстанцев за маяком, было уже слишком поздно, "
 "чтобы избежать боя."
 
-#: src-en/data/events_sector_rebel.xml:2484
+#: src-en/data/events_sector_rebel.xml:2553
 msgid ""
 "data/events_sector_rebel.xml$//textList[@name=\"TEXT_ENCOUNTER_REBEL\"]/text[8]"
 msgstr ""
@@ -3942,7 +4039,7 @@ msgstr ""
 "одному кораблю Федерации разрушить наши мечты о лучшей галактике!\" Они "
 "активируют оружие."
 
-#: src-en/data/events_sector_rebel.xml:2485
+#: src-en/data/events_sector_rebel.xml:2554
 msgid ""
 "data/events_sector_rebel.xml$//textList[@name=\"TEXT_ENCOUNTER_REBEL\"]/text[9]"
 msgstr ""
@@ -3950,7 +4047,7 @@ msgstr ""
 "остался бы на стороне Федерации. Но я солдат, сэр, и от меня нет никакого "
 "толку без войны. Поднять щиты!\""
 
-#: src-en/data/events_sector_rebel.xml:2486
+#: src-en/data/events_sector_rebel.xml:2555
 msgid ""
 "data/events_sector_rebel.xml$//textList[@name=\"TEXT_ENCOUNTER_REBEL\"]/text[10]"
 msgstr ""
@@ -3958,7 +4055,7 @@ msgstr ""
 " безопасный мир, который мы обеспечим. Ну, не увидишь, но смысл понятен\". "
 "Они заряжают оружие."
 
-#: src-en/data/events_sector_rebel.xml:2487
+#: src-en/data/events_sector_rebel.xml:2556
 msgid ""
 "data/events_sector_rebel.xml$//textList[@name=\"TEXT_ENCOUNTER_REBEL\"]/text[11]"
 msgstr ""
@@ -3966,7 +4063,7 @@ msgstr ""
 " был лучшим выпускником своего класса в...\" Вы отключаете связь с кораблем "
 "повстанцев и готовитесь к бою."
 
-#: src-en/data/events_sector_rebel.xml:2488
+#: src-en/data/events_sector_rebel.xml:2557
 msgid ""
 "data/events_sector_rebel.xml$//textList[@name=\"TEXT_ENCOUNTER_REBEL\"]/text[12]"
 msgstr ""
@@ -3974,19 +4071,19 @@ msgstr ""
 "Трудно сказать, кто удивлен больше, но другого выхода, кроме как сражаться, "
 "нет."
 
-#: src-en/data/events_sector_rebel.xml:2489
+#: src-en/data/events_sector_rebel.xml:2558
 msgid ""
 "data/events_sector_rebel.xml$//textList[@name=\"TEXT_ENCOUNTER_REBEL\"]/text[13]"
 msgstr ""
 "\"СЛАВА ВОССТАНИЮ!\" Корабль повстанцев проносится мимо, выпуская по вам "
 "весь свой залп. В оборонительные позиции!"
 
-#: src-en/data/events_sector_rebel.xml:2498
+#: src-en/data/events_sector_rebel.xml:2567
 msgid ""
 "data/events_sector_rebel.xml$/FTL/event[@name=\"ENCOUNTER_REBEL_PULSAR\"]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_rebel.xml:2503
+#: src-en/data/events_sector_rebel.xml:2572
 msgid ""
 "data/events_sector_rebel.xml$//textList[@name=\"TEXT_ENCOUNTER_REBEL_PULSAR\"]/text[1]"
 msgstr ""
@@ -3994,7 +4091,7 @@ msgstr ""
 "заниматься грязной работой. Это мой шанс снова заслужить расположение "
 "командования! Заряжайте орудия!\""
 
-#: src-en/data/events_sector_rebel.xml:2504
+#: src-en/data/events_sector_rebel.xml:2573
 msgid ""
 "data/events_sector_rebel.xml$//textList[@name=\"TEXT_ENCOUNTER_REBEL_PULSAR\"]/text[2]"
 msgstr ""
@@ -4002,14 +4099,14 @@ msgstr ""
 "пульсирующей звезды. Прежде чем вы успеваете среагировать, вас замечает "
 "корабль повстанцев."
 
-#: src-en/data/events_sector_rebel.xml:2505
+#: src-en/data/events_sector_rebel.xml:2574
 msgid ""
 "data/events_sector_rebel.xml$//textList[@name=\"TEXT_ENCOUNTER_REBEL_PULSAR\"]/text[3]"
 msgstr ""
 "Вы прибываете к заброшенному маяку рядом с пульсаром. Вскоре поблизости "
 "выходит из прыжка корабль повстанцев. Похоже, вам придется сражаться."
 
-#: src-en/data/events_sector_rebel.xml:2509
+#: src-en/data/events_sector_rebel.xml:2578
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"ENCOUNTER_REBEL_ASTEROID\"]/text"
 msgstr ""
@@ -4017,26 +4114,26 @@ msgstr ""
 "передовой разведчик флота заблудился в этом астероидном маяке. Увидев вас, "
 "они разворачиваются для атаки!"
 
-#: src-en/data/events_sector_rebel.xml:2513
+#: src-en/data/events_sector_rebel.xml:2582
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"ENCOUNTER_REBEL_ASTEROID\"]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_rebel.xml:2519
+#: src-en/data/events_sector_rebel.xml:2588
 msgid "data/events_sector_rebel.xml$//event[@name=\"ENCOUNTER_REBEL_SPY\"]/text"
 msgstr "Вы натыкаетесь на передовой разведчик флота повстанцев."
 
-#: src-en/data/events_sector_rebel.xml:2522
+#: src-en/data/events_sector_rebel.xml:2591
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"ENCOUNTER_REBEL_SPY\"]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_rebel.xml:2532
+#: src-en/data/events_sector_rebel.xml:2601
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"BOARDERS_REBEL_SHIP\"]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_rebel.xml:2537
+#: src-en/data/events_sector_rebel.xml:2606
 msgid ""
 "data/events_sector_rebel.xml$//textList[@name=\"BOARDERS_REBEL_SHIP\"]/text[1]"
 msgstr ""
@@ -4045,7 +4142,7 @@ msgstr ""
 "поворачивается и отдает приказ: \"Убейте их экипаж, я хочу, чтобы этот "
 "корабль остался целым\"."
 
-#: src-en/data/events_sector_rebel.xml:2538
+#: src-en/data/events_sector_rebel.xml:2607
 msgid ""
 "data/events_sector_rebel.xml$//textList[@name=\"BOARDERS_REBEL_SHIP\"]/text[2]"
 msgstr ""
@@ -4053,7 +4150,7 @@ msgstr ""
 "вы слышите признаки телепортации. Изнутри корабля слышится чья-то насмешка: "
 "\"Готов умереть? Я точно готов получить повышение!\""
 
-#: src-en/data/events_sector_rebel.xml:2539
+#: src-en/data/events_sector_rebel.xml:2608
 msgid ""
 "data/events_sector_rebel.xml$//textList[@name=\"BOARDERS_REBEL_SHIP\"]/text[3]"
 msgstr ""
@@ -4061,7 +4158,7 @@ msgstr ""
 "офицерской форме. \"Как великодушно с вашей стороны сдаться. Приготовьтесь к"
 " абордажу. Не сопротивляйтесь, и мы будем к вам добры\"."
 
-#: src-en/data/events_sector_rebel.xml:2540
+#: src-en/data/events_sector_rebel.xml:2609
 msgid ""
 "data/events_sector_rebel.xml$//textList[@name=\"BOARDERS_REBEL_SHIP\"]/text[4]"
 msgstr ""
@@ -4069,73 +4166,73 @@ msgstr ""
 "последние твои друзья из Федерации. Просто сдохни уже\". Враг "
 "телепортировался на ваш корабль!"
 
-#: src-en/data/events_sector_rebel.xml:2555
+#: src-en/data/events_sector_rebel.xml:2624
 msgid "data/events_sector_rebel.xml$//event[@name=\"ENCOUNTER_AUTO_ION\"]/text"
 msgstr ""
 "В этом астероидном поле появился необычный автокорабль с голубыми огнями. "
 "\"Этот автоматический корабль является прототипом дрона ионного сдерживания."
 " Благодарим вас за участие в испытаниях этого оборудования\"."
 
-#: src-en/data/events_sector_rebel.xml:2559
+#: src-en/data/events_sector_rebel.xml:2628
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"ENCOUNTER_AUTO_ION\"]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_rebel.xml:2564
+#: src-en/data/events_sector_rebel.xml:2633
 msgid "data/events_sector_rebel.xml$//event[@name=\"AUTO_ION_WIN\"]/text"
 msgstr ""
 "\"С-спасибо зза участие в этом тесте- тесте- тесте- тесте-\", - раздается "
 "взрыв. В обломках корабля вы находите все еще функционирующее особое ионное "
 "оружие."
 
-#: src-en/data/events_sector_rebel.xml:2570
+#: src-en/data/events_sector_rebel.xml:2639
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"ENCOUNTER_REBELHOLD_STATION\"]/text"
 msgstr ""
 "На блокпосту повстанцев вас идентифицируют как представителя Федерации. \"Ты"
 " еще пожалеешь, что пришел сюда, подонок!\""
 
-#: src-en/data/events_sector_rebel.xml:2573
+#: src-en/data/events_sector_rebel.xml:2642
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"ENCOUNTER_REBELHOLD_STATION\"]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_rebel.xml:2585
+#: src-en/data/events_sector_rebel.xml:2654
 msgid "data/events_sector_rebel.xml$//event[@name=\"ENCOUNTER_REBEL_ELITE\"]/text"
 msgstr ""
 "Элита повстанцев обычно встречается только в составе их флота, но, похоже, "
 "один из их кораблей охраняет этот маяк. Бой неизбежен."
 
-#: src-en/data/events_sector_rebel.xml:2588
+#: src-en/data/events_sector_rebel.xml:2657
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"ENCOUNTER_REBEL_ELITE\"]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_rebel.xml:2595
+#: src-en/data/events_sector_rebel.xml:2664
 msgid ""
 "data/events_sector_rebel.xml$//ship[@name=\"SHIP_ACE_JERRY\"]/destroyed/text"
 msgstr ""
-"Ас МФК был уничтожен. Вы поспешно разбираете останки на металлолом, затем "
-"проверяете транспорт."
+"Асы МФК были уничтожены. Вы поспешно разбираете останки на металлолом, затем"
+" проверяете транспорт."
 
-#: src-en/data/events_sector_rebel.xml:2598
+#: src-en/data/events_sector_rebel.xml:2667
 msgid ""
 "data/events_sector_rebel.xml$//ship[@name=\"SHIP_ACE_JERRY\"]/destroyed/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_rebel.xml:2603
+#: src-en/data/events_sector_rebel.xml:2672
 msgid ""
 "data/events_sector_rebel.xml$//ship[@name=\"SHIP_ACE_JERRY\"]/deadCrew/text"
 msgstr ""
-"Ас МФК был повержен. Вы поспешно собираете останки, затем проверяете "
+"Асы МФК были повержены. Вы поспешно собираете обломки, а затем проверяете "
 "транспорт."
 
-#: src-en/data/events_sector_rebel.xml:2606
+#: src-en/data/events_sector_rebel.xml:2675
 msgid ""
 "data/events_sector_rebel.xml$//ship[@name=\"SHIP_ACE_JERRY\"]/deadCrew/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_rebel.xml:2617
+#: src-en/data/events_sector_rebel.xml:2686
 msgid "data/events_sector_rebel.xml$//event[@name=\"JERRY_QUEST\"]/text"
 msgstr ""
 "Корабль асов МФК ведет переговоры с транспортом, причем, как ни странно, на "
@@ -4145,13 +4242,13 @@ msgstr ""
 "\"Итак, вы направляетесь в Протекторат, верно?\" Капитан транспорта кивает, "
 "ненадолго вынимая сигарету изо рта, чтобы произнести простое \"Да, сэр\"."
 
-#: src-en/data/events_sector_rebel.xml:2621
+#: src-en/data/events_sector_rebel.xml:2690
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"JERRY_QUEST\"]/choice[@req=\"coords_jerry\""
 " and @lvl=\"0\"]/text"
 msgstr "\"Протекторат\"? Продолжить слушать..."
 
-#: src-en/data/events_sector_rebel.xml:2623
+#: src-en/data/events_sector_rebel.xml:2692
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"JERRY_QUEST\"]/choice[@req=\"coords_jerry\""
 " and @lvl=\"0\"]/event/text"
@@ -4166,13 +4263,13 @@ msgstr ""
 "пенсию, Вэнс отправил ее в Протекторат, чтобы она там присматривала за его "
 "племянником\"."
 
-#: src-en/data/events_sector_rebel.xml:2625
+#: src-en/data/events_sector_rebel.xml:2694
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"JERRY_QUEST\"]/choice[@req=\"coords_jerry\""
 " and @lvl=\"0\"]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_rebel.xml:2627
+#: src-en/data/events_sector_rebel.xml:2696
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"JERRY_QUEST\"]/choice[@req=\"coords_jerry\""
 " and @lvl=\"0\"]/event/choice/event/text"
@@ -4185,13 +4282,13 @@ msgstr ""
 " прошу у вас... ну, понимаешь, какую-нибудь внутреннюю информацию? Конечно, "
 "у вас она есть, если вы целый день мотаетесь туда-сюда\"."
 
-#: src-en/data/events_sector_rebel.xml:2629
+#: src-en/data/events_sector_rebel.xml:2698
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"JERRY_QUEST\"]/choice[@req=\"coords_jerry\""
 " and @lvl=\"0\"]/event/choice/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_rebel.xml:2631
+#: src-en/data/events_sector_rebel.xml:2700
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"JERRY_QUEST\"]/choice[@req=\"coords_jerry\""
 " and @lvl=\"0\"]/event/choice/event/choice/event/text"
@@ -4205,13 +4302,13 @@ msgstr ""
 "убирает свой корабль с пути транспорта. Если вы хотите разобраться с этим, "
 "то сейчас у вас есть шанс."
 
-#: src-en/data/events_sector_rebel.xml:2633
+#: src-en/data/events_sector_rebel.xml:2702
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"JERRY_QUEST\"]/choice[@req=\"coords_jerry\""
 " and @lvl=\"0\"]/event/choice/event/choice/event/choice[1]/text"
 msgstr "Следовать за транспортом!"
 
-#: src-en/data/events_sector_rebel.xml:2635
+#: src-en/data/events_sector_rebel.xml:2704
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"JERRY_QUEST\"]/choice[@req=\"coords_jerry\""
 " and @lvl=\"0\"]/event/choice/event/choice/event/choice[1]/event/text"
@@ -4220,26 +4317,26 @@ msgstr ""
 "начинает заряжать свой ССД. Ас МФК разворачивается к вам лицом, заряжая "
 "оружие. Вы должны действовать быстро!"
 
-#: src-en/data/events_sector_rebel.xml:2640
+#: src-en/data/events_sector_rebel.xml:2709
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"JERRY_QUEST\"]/choice[@req=\"coords_jerry\""
 " and "
 "@lvl=\"0\"]/event/choice/event/choice/event/choice[1]/event/triggeredEvent/triggeredEventBox/tooltip"
 msgstr "Если за это время не победить Аса МФК, то транспорт сбежит!"
 
-#: src-en/data/events_sector_rebel.xml:2645
+#: src-en/data/events_sector_rebel.xml:2714
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"JERRY_QUEST\"]/choice[@req=\"coords_jerry\""
 " and @lvl=\"0\"]/event/choice/event/choice/event/choice[1]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_rebel.xml:2651
+#: src-en/data/events_sector_rebel.xml:2720
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"JERRY_QUEST\"]/choice[@req=\"coords_jerry\""
 " and @lvl=\"0\"]/event/choice/event/choice/event/choice[2]/text"
 msgstr "Вежливо попросить сообщить вам координаты."
 
-#: src-en/data/events_sector_rebel.xml:2653
+#: src-en/data/events_sector_rebel.xml:2722
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"JERRY_QUEST\"]/choice[@req=\"coords_jerry\""
 " and @lvl=\"0\"]/event/choice/event/choice/event/choice[2]/event/text"
@@ -4250,58 +4347,58 @@ msgstr ""
 "свой ССД. Асы МФК разворачиваются к вам, заряжая оружие. Вы должны "
 "действовать быстро!"
 
-#: src-en/data/events_sector_rebel.xml:2658
+#: src-en/data/events_sector_rebel.xml:2727
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"JERRY_QUEST\"]/choice[@req=\"coords_jerry\""
 " and "
 "@lvl=\"0\"]/event/choice/event/choice/event/choice[2]/event/triggeredEvent/triggeredEventBox/tooltip"
 msgstr "Если за это время не победить Аса МФК, то транспорт сбежит!"
 
-#: src-en/data/events_sector_rebel.xml:2663
+#: src-en/data/events_sector_rebel.xml:2732
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"JERRY_QUEST\"]/choice[@req=\"coords_jerry\""
 " and @lvl=\"0\"]/event/choice/event/choice/event/choice[2]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_rebel.xml:2669
+#: src-en/data/events_sector_rebel.xml:2738
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"JERRY_QUEST\"]/choice[@req=\"coords_jerry\""
 " and @lvl=\"0\"]/event/choice/event/choice/event/choice[3]/text"
 msgstr "Ничего не делать."
 
-#: src-en/data/events_sector_rebel.xml:2679
+#: src-en/data/events_sector_rebel.xml:2748
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"JERRY_QUEST\"]/choice[@req=\"coords_jerry\""
 " and @lvl=\"1\"]/text"
 msgstr "Странное дежавю, но мы все это уже слышали."
 
-#: src-en/data/events_sector_rebel.xml:2683
+#: src-en/data/events_sector_rebel.xml:2752
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"JERRY_QUEST\"]/choice[@req=\"pilot\"]/text"
 msgstr "Не обращать внимания на повстанцев."
 
-#: src-en/data/events_sector_rebel.xml:2685
+#: src-en/data/events_sector_rebel.xml:2754
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"JERRY_QUEST\"]/choice[@req=\"pilot\"]/event/text"
 msgstr "Этот разговор не стоит вашего времени. Вы отдаляетесь от повстанцев."
 
-#: src-en/data/events_sector_rebel.xml:2687
+#: src-en/data/events_sector_rebel.xml:2756
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"JERRY_QUEST\"]/choice[@req=\"pilot\"]/event/choice[1]/text"
 msgstr "Заняться чем-либо на корабле."
 
-#: src-en/data/events_sector_rebel.xml:2691
+#: src-en/data/events_sector_rebel.xml:2760
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"JERRY_QUEST\"]/choice[@req=\"pilot\"]/event/choice[2]/text"
 msgstr "Ничего не делать."
 
-#: src-en/data/events_sector_rebel.xml:2698
+#: src-en/data/events_sector_rebel.xml:2767
 msgid "data/events_sector_rebel.xml$//event[@name=\"JERRY_QUEST_FAIL\"]/text"
 msgstr ""
 "Кажется, вы не успеваете. Вдали виднеется транспорт, и как только ас понял "
 "это, он проявил нехарактерную для него трусость он тоже убегает!"
 
-#: src-en/data/events_sector_rebel.xml:2703
+#: src-en/data/events_sector_rebel.xml:2772
 msgid "data/events_sector_rebel.xml$//event[@name=\"JERRY_QUEST_SUCCESS\"]/text"
 msgstr ""
 "Транспорт делает все возможное, чтобы скрыться, и вы преследуете его по "
@@ -4309,7 +4406,179 @@ msgstr ""
 "борьбы вам удалось засечь их сверхсветовые сигнатуры, и теперь вы можете "
 "следовать за ними на гиперскорости!"
 
-#: src-en/data/events_sector_rebel.xml:2715
+#: src-en/data/events_sector_rebel.xml:2777
+msgid ""
+"data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_FLAGSHIP_SURPRISE\"]/text"
+msgstr ""
+"Вот оно... Флагман повстанцев. Если вы сможете уничтожить это чудовище, у "
+"флота Федерации появится шанс выжить. Только, похоже, он уже значительно "
+"поврежден, передает сигнал о капитуляции, а это даже не Узел 17. Что именно "
+"происходит?"
+
+#: src-en/data/events_sector_rebel.xml:2780
+msgid ""
+"data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_FLAGSHIP_SURPRISE\"]/choice[1]/text"
+msgstr "Связаться с ними. Кажется, здесь что-то не так."
+
+#: src-en/data/events_sector_rebel.xml:2782
+msgid ""
+"data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_FLAGSHIP_SURPRISE\"]/choice[1]/event/text"
+msgstr ""
+"Экипаж Флагмана поначалу кажется напуганным вашим присутствием, но, пытаясь "
+"скрыть это, ведет себя чуть более агрессивно. \"Черт, похоже, нас здесь "
+"обнаружили. Что тебе нужно, безумный Ренегат? Лом? Повторная капитуляция от "
+"нас? Какой-то \"тайный финал\", чтобы отпраздновать его?\""
+
+#: src-en/data/events_sector_rebel.xml:2784
+msgid ""
+"data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_FLAGSHIP_SURPRISE\"]/choice[1]/event/choice/text"
+msgstr "Повторная капитуляция?"
+
+#: src-en/data/events_sector_rebel.xml:2786
+msgid ""
+"data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_FLAGSHIP_SURPRISE\"]/choice[1]/event/choice/event/text"
+msgstr ""
+"Капитан Флагмана продолжает. \"Да, все верно. В той реальности, которую нам "
+"поручили захватить, Ренегат, которому В0 поручила уничтожить нас, каким-то "
+"образом убедил силы повстанцев сдаться. Впечатляющая работа, учитывая, чем "
+"вы известны. И для нас это тоже хорошо, потому что мы получили почетную "
+"отставку, а не были трижды убиты. Затем, возвращаясь в В1, мы столкнулись с "
+"какой-то странной аномалией и попали сюда. В общем, ты так и не сказал нам, "
+"чего хочешь, так что выкладывай\"."
+
+#: src-en/data/events_sector_rebel.xml:2788
+msgid ""
+"data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_FLAGSHIP_SURPRISE\"]/choice[1]/event/choice/event/choice[1]/text"
+msgstr "Кучу лома."
+
+#: src-en/data/events_sector_rebel.xml:2790
+msgid ""
+"data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_FLAGSHIP_SURPRISE\"]/choice[1]/event/choice/event/choice[1]/event/text"
+msgstr ""
+"\"Ну, это легко обеспечить. Держи. И проследи, чтобы никто из твоих "
+"приятелей из Федерации в этой реальности не узнал о нашем присутствии, "
+"хорошо?\""
+
+#: src-en/data/events_sector_rebel.xml:2798
+msgid ""
+"data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_FLAGSHIP_SURPRISE\"]/choice[1]/event/choice/event/choice[2]/text"
+msgstr "Какое-то модное оружие на вашем корабле."
+
+#: src-en/data/events_sector_rebel.xml:2800
+msgid ""
+"data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_FLAGSHIP_SURPRISE\"]/choice[1]/event/choice/event/choice[2]/event/text"
+msgstr ""
+"\"О, э-э, это? В1 установили его на наш корабль еще до того, как мы "
+"отправились в путь. Они сказали что-то о том, что это \"новое сверхсекретное"
+" оружие\" или что-то в этом роде. К сожалению, мы не можем просто отдать "
+"его. Иначе командование В1 убьет нас. Так как насчет компромисса?\""
+
+#: src-en/data/events_sector_rebel.xml:2802
+msgid ""
+"data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_FLAGSHIP_SURPRISE\"]/choice[1]/event/choice/event/choice[2]/event/choice[1]/text"
+msgstr "Согласиться на компромисс."
+
+#: src-en/data/events_sector_rebel.xml:2804
+msgid ""
+"data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_FLAGSHIP_SURPRISE\"]/choice[1]/event/choice/event/choice[2]/event/choice[1]/event/text"
+msgstr ""
+"Вы принимаете новое предложение. Они уходят, но не сразу, попросив вас "
+"сохранить их присутствие в тайне."
+
+#: src-en/data/events_sector_rebel.xml:2810
+msgid ""
+"data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_FLAGSHIP_SURPRISE\"]/choice[1]/event/choice/event/choice[2]/event/choice[2]/text"
+msgstr "Атаковать их, чтобы получить оружие."
+
+#: src-en/data/events_sector_rebel.xml:2812
+msgid ""
+"data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_FLAGSHIP_SURPRISE\"]/choice[1]/event/choice/event/choice[2]/event/choice[2]/event/text"
+msgstr ""
+"\"Эх, надо было сразу не пытаться говорить по-хорошему с Ренегатами. Ну, "
+"если ты хочешь получить часть нашего Флагмана - получи по полной!\""
+
+#: src-en/data/events_sector_rebel.xml:2815
+msgid ""
+"data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_FLAGSHIP_SURPRISE\"]/choice[1]/event/choice/event/choice[2]/event/choice[2]/event/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_rebel.xml:2823
+msgid ""
+"data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_FLAGSHIP_SURPRISE\"]/choice[1]/event/choice/event/choice[3]/text"
+msgstr "Немного больше времени в этом секторе."
+
+#: src-en/data/events_sector_rebel.xml:2825
+msgid ""
+"data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_FLAGSHIP_SURPRISE\"]/choice[1]/event/choice/event/choice[3]/event/text"
+msgstr ""
+"\"Ну, это то, что мы можем сделать, и, скорее всего, нас не поймают на этом,"
+" так что я думаю, мы могли бы помочь, введя флот в заблуждение. Главное, "
+"чтобы никто в Федерации не узнал, что мы здесь были, хорошо?\""
+
+#: src-en/data/events_sector_rebel.xml:2835
+msgid ""
+"data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_FLAGSHIP_SURPRISE\"]/choice[2]/text"
+msgstr "Сбежать, пока они не успели напасть на вас."
+
+#: src-en/data/events_sector_rebel.xml:2837
+msgid ""
+"data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_FLAGSHIP_SURPRISE\"]/choice[2]/event/text"
+msgstr ""
+"Вы обходите Флагман стороной на случай, если он вдруг станет агрессивным. К "
+"счастью, он не предпринимает никаких попыток начать бой, и у вас остается "
+"немного времени, чтобы подготовиться к настоящему сражению."
+
+#: src-en/data/events_sector_rebel.xml:2839
+msgid ""
+"data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_FLAGSHIP_SURPRISE\"]/choice[2]/event/choice[1]/text"
+msgstr "Заняться чем-либо на корабле."
+
+#: src-en/data/events_sector_rebel.xml:2843
+msgid ""
+"data/events_sector_rebel.xml$//event[@name=\"REBELHOLD_FLAGSHIP_SURPRISE\"]/choice[2]/event/choice[2]/text"
+msgstr "Ничего не делать."
+
+#: src-en/data/events_sector_rebel.xml:2851
+msgid ""
+"data/events_sector_rebel.xml$//ship[@name=\"FLAGSHIP_ANOMALY\"]/destroyed/text"
+msgstr ""
+"Вы победили Флагман у этого маяка. Надеюсь, этот успех предвещает вам "
+"продолжение миссии."
+
+#: src-en/data/events_sector_rebel.xml:2854
+msgid ""
+"data/events_sector_rebel.xml$//ship[@name=\"FLAGSHIP_ANOMALY\"]/destroyed/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_rebel.xml:2856
+msgid ""
+"data/events_sector_rebel.xml$//ship[@name=\"FLAGSHIP_ANOMALY\"]/destroyed/choice/event/text"
+msgstr ""
+"К счастью, странное оружие, которое вас заинтересовало, уцелело в схватке. "
+"Вы осторожно извлекаете его из обломков корабля."
+
+#: src-en/data/events_sector_rebel.xml:2862
+msgid ""
+"data/events_sector_rebel.xml$//ship[@name=\"FLAGSHIP_ANOMALY\"]/deadCrew/text"
+msgstr ""
+"Вы зачистили экипаж Флагмана. Хотя вы обычно привыкли к тому, что в подобных"
+" обстоятельствах управление Флагманом берет на себя ИИ, похоже, сейчас его "
+"либо нет, либо он не функционирует, что позволяет вам спокойно заниматься "
+"разбором корабля."
+
+#: src-en/data/events_sector_rebel.xml:2865
+msgid ""
+"data/events_sector_rebel.xml$//ship[@name=\"FLAGSHIP_ANOMALY\"]/deadCrew/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_rebel.xml:2867
+msgid ""
+"data/events_sector_rebel.xml$//ship[@name=\"FLAGSHIP_ANOMALY\"]/deadCrew/choice/event/text"
+msgstr ""
+"К счастью, странное оружие, которое вас заинтересовало, уцелело в схватке. "
+"Вы осторожно извлекаете его из обломков корабля."
+
+#: src-en/data/events_sector_rebel.xml:2892
 msgid "data/events_sector_rebel.xml$//event[@name=\"FLAGSHIP_CONSTRUCTION\"]/text"
 msgstr ""
 "Прибыв на маяк, вы оказываетесь на огромной верфи повстанцев, строительные "
@@ -4317,12 +4586,12 @@ msgstr ""
 "строительству кораблей, а близлежащие планеты и луны безжалостно добывают "
 "ресурсы для строительства огромных кораблей..."
 
-#: src-en/data/events_sector_rebel.xml:2719
+#: src-en/data/events_sector_rebel.xml:2896
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"FLAGSHIP_CONSTRUCTION\"]/choice[1]/text"
 msgstr "Осмотреть верфь."
 
-#: src-en/data/events_sector_rebel.xml:2721
+#: src-en/data/events_sector_rebel.xml:2898
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"FLAGSHIP_CONSTRUCTION\"]/choice[1]/event/text"
 msgstr ""
@@ -4331,12 +4600,12 @@ msgstr ""
 "разрозненных кораблей повстанцев. Вы можете выбрать любой из них с кем "
 "сразиться."
 
-#: src-en/data/events_sector_rebel.xml:2723
+#: src-en/data/events_sector_rebel.xml:2900
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"FLAGSHIP_CONSTRUCTION\"]/choice[1]/event/choice[1]/text"
 msgstr "Исследовать ангар."
 
-#: src-en/data/events_sector_rebel.xml:2725
+#: src-en/data/events_sector_rebel.xml:2902
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"FLAGSHIP_CONSTRUCTION\"]/choice[1]/event/choice[1]/event/text"
 msgstr ""
@@ -4344,12 +4613,12 @@ msgstr ""
 "покоится огромный Флагман Мультивселенной, который еще только строится. "
 "Уничтожив его, можно спасти целую другую реальность!"
 
-#: src-en/data/events_sector_rebel.xml:2728
+#: src-en/data/events_sector_rebel.xml:2905
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"FLAGSHIP_CONSTRUCTION\"]/choice[1]/event/choice[1]/event/choice[1]/text"
 msgstr "Сражаться с Флагманом."
 
-#: src-en/data/events_sector_rebel.xml:2730
+#: src-en/data/events_sector_rebel.xml:2907
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"FLAGSHIP_CONSTRUCTION\"]/choice[1]/event/choice[1]/event/choice[1]/event/text"
 msgstr ""
@@ -4357,101 +4626,101 @@ msgstr ""
 "Флагман, а команда строителей на борту быстро эвакуируется и заменяется "
 "хорошо обученными человеческими солдатами."
 
-#: src-en/data/events_sector_rebel.xml:2733
+#: src-en/data/events_sector_rebel.xml:2910
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"FLAGSHIP_CONSTRUCTION\"]/choice[1]/event/choice[1]/event/choice[1]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_rebel.xml:2739
+#: src-en/data/events_sector_rebel.xml:2916
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"FLAGSHIP_CONSTRUCTION\"]/choice[1]/event/choice[1]/event/choice[2]/text"
 msgstr "Убираемся отсюда."
 
-#: src-en/data/events_sector_rebel.xml:2741
+#: src-en/data/events_sector_rebel.xml:2918
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"FLAGSHIP_CONSTRUCTION\"]/choice[1]/event/choice[1]/event/choice[2]/event/text"
 msgstr ""
 "Вы как можно быстрее покидаете ангар и летите прочь от верфи, пока не "
 "убедились, что находитесь вдали от опасности."
 
-#: src-en/data/events_sector_rebel.xml:2743
+#: src-en/data/events_sector_rebel.xml:2920
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"FLAGSHIP_CONSTRUCTION\"]/choice[1]/event/choice[1]/event/choice[2]/event/choice[1]/text"
 msgstr "Заняться чем-либо на корабле."
 
-#: src-en/data/events_sector_rebel.xml:2747
+#: src-en/data/events_sector_rebel.xml:2924
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"FLAGSHIP_CONSTRUCTION\"]/choice[1]/event/choice[1]/event/choice[2]/event/choice[2]/text"
 msgstr "Ничего не делать."
 
-#: src-en/data/events_sector_rebel.xml:2755
+#: src-en/data/events_sector_rebel.xml:2932
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"FLAGSHIP_CONSTRUCTION\"]/choice[1]/event/choice[2]/text"
 msgstr "Сразиться с одним из обычных кораблей повстанцев."
 
-#: src-en/data/events_sector_rebel.xml:2757
+#: src-en/data/events_sector_rebel.xml:2934
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"FLAGSHIP_CONSTRUCTION\"]/choice[1]/event/choice[2]/event/text"
 msgstr "Вы выдвигаетесь на перехват одного из обычных кораблей повстанцев."
 
-#: src-en/data/events_sector_rebel.xml:2760
+#: src-en/data/events_sector_rebel.xml:2937
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"FLAGSHIP_CONSTRUCTION\"]/choice[1]/event/choice[2]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_rebel.xml:2766
+#: src-en/data/events_sector_rebel.xml:2943
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"FLAGSHIP_CONSTRUCTION\"]/choice[1]/event/choice[3]/text"
 msgstr "Сразиться с одним из элитных кораблей повстанцев."
 
-#: src-en/data/events_sector_rebel.xml:2768
+#: src-en/data/events_sector_rebel.xml:2945
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"FLAGSHIP_CONSTRUCTION\"]/choice[1]/event/choice[3]/event/text"
 msgstr "Вы выдвигаетесь на перехват одного из элитных кораблей повстанцев."
 
-#: src-en/data/events_sector_rebel.xml:2771
+#: src-en/data/events_sector_rebel.xml:2948
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"FLAGSHIP_CONSTRUCTION\"]/choice[1]/event/choice[3]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_rebel.xml:2777
+#: src-en/data/events_sector_rebel.xml:2954
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"FLAGSHIP_CONSTRUCTION\"]/choice[1]/event/choice[4]/text"
 msgstr "Сразиться с одним из кораблей асов МФК повстанцев."
 
-#: src-en/data/events_sector_rebel.xml:2779
+#: src-en/data/events_sector_rebel.xml:2956
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"FLAGSHIP_CONSTRUCTION\"]/choice[1]/event/choice[4]/event/text"
 msgstr "Вы выдвигаетесь на перехват одного из кораблей асов МФК повстанцев."
 
-#: src-en/data/events_sector_rebel.xml:2782
+#: src-en/data/events_sector_rebel.xml:2959
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"FLAGSHIP_CONSTRUCTION\"]/choice[1]/event/choice[4]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_rebel.xml:2790
+#: src-en/data/events_sector_rebel.xml:2967
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"FLAGSHIP_CONSTRUCTION\"]/choice[2]/text"
 msgstr "Уходим немедленно."
 
-#: src-en/data/events_sector_rebel.xml:2792
+#: src-en/data/events_sector_rebel.xml:2969
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"FLAGSHIP_CONSTRUCTION\"]/choice[2]/event/text"
 msgstr ""
 "Вы считаете, что миссия - это главный приоритет, и оставаться в таком "
 "опасном месте слишком рискованно."
 
-#: src-en/data/events_sector_rebel.xml:2794
+#: src-en/data/events_sector_rebel.xml:2971
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"FLAGSHIP_CONSTRUCTION\"]/choice[2]/event/choice[1]/text"
 msgstr "Заняться чем-либо на корабле."
 
-#: src-en/data/events_sector_rebel.xml:2798
+#: src-en/data/events_sector_rebel.xml:2975
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"FLAGSHIP_CONSTRUCTION\"]/choice[2]/event/choice[2]/text"
 msgstr "Ничего не делать."
 
-#: src-en/data/events_sector_rebel.xml:2805
+#: src-en/data/events_sector_rebel.xml:2982
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"FLAGSHIP_CONSTRUCTION_WIN\"]/text"
 msgstr ""
@@ -4463,7 +4732,7 @@ msgstr ""
 "что можно, и уходите. Флот, скорее всего, будет слишком отвлечен этой "
 "потерей, чтобы преследовать вас."
 
-#: src-en/data/events_sector_rebel.xml:2818
+#: src-en/data/events_sector_rebel.xml:2995
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"CONSTRUCTION_NORMAL_WIN\"]/text"
 msgstr ""
@@ -4472,7 +4741,7 @@ msgstr ""
 "повстанцев, терроризирующую галактику, станет меньше. Нужно быстро "
 "уничтожить останки, пока не подоспело подкрепление."
 
-#: src-en/data/events_sector_rebel.xml:2822
+#: src-en/data/events_sector_rebel.xml:2999
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"CONSTRUCTION_ELITE_WIN\"]/text"
 msgstr ""
@@ -4480,16 +4749,16 @@ msgstr ""
 "них станет меньше. Нужно быстро разобрать останки на металлолом, пока не "
 "подошло подкрепление."
 
-#: src-en/data/events_sector_rebel.xml:2826
+#: src-en/data/events_sector_rebel.xml:3003
 msgid ""
 "data/events_sector_rebel.xml$//event[@name=\"CONSTRUCTION_SELITE_WIN\"]/text"
 msgstr ""
-"У повстанцев не так уж много асов МФК, и каждый уничтоженный вами МФК должен "
-"нанести большой урон их резервам. Вы быстро разбираете останки, пока не "
+"У повстанцев не так уж много асов МФК, и каждый уничтоженный вами МФК должен"
+" нанести большой урон их резервам. Вы быстро разбираете останки, пока не "
 "подоспело подкрепление, и в это время находите среди обломков все еще "
 "исправное оружие."
 
-#: src-en/data/events_sector_rebel.xml:2834
+#: src-en/data/events_sector_rebel.xml:3011
 msgid ""
 "data/events_sector_rebel.xml$//ship[@name=\"SHIP_FLASHSHIP_CONSTRUCTION\"]/deadCrew/text"
 msgstr ""
@@ -4497,7 +4766,7 @@ msgstr ""
 " на корабле такого размера будут приняты дополнительные меры безопасности, "
 "но, возможно, их компьютерные системы еще не закончены."
 
-#: src-en/data/events_sector_rebel.xml:2836
+#: src-en/data/events_sector_rebel.xml:3013
 msgid ""
 "data/events_sector_rebel.xml$//ship[@name=\"SHIP_FLASHSHIP_CONSTRUCTION\"]/deadCrew/choice/text"
 msgstr "Разграбить корабль в поисках припасов."

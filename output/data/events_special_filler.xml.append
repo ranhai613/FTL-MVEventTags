@@ -223,6 +223,20 @@
   <mod:findName name="FILLER_EQUINOID" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true" req="BLUELIST_WEAPONS_MIND_CONTROL"/>
+          <mod:findLike type="text">
+            <mod:selector>(Mind Control Weapon) Pacify the ponies and steal one.</mod:selector>
+            <mod:setValue>(Mind Control Weapon) Pacify the ponies and steal one.[INFO][NAME]crewMember[/NAME]Gain a crew(Pony)[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="FILLER_EQUINOID" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Ignore it.</mod:selector>
         <mod:setValue>Ignore it.[INFO][NAME]storageCheck[/NAME]Storage Check[/INFO]</mod:setValue>
@@ -1671,6 +1685,15 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
+  <mod:findName name="FILLER_CONFUSED_MANTIS_PROBLEM" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="BLUELIST_WEAPONS_MIND_CONTROL" hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>(Mind Control Weapon) Use your Mind Control weapon to calm him down.</mod:selector>
+        <mod:setValue>(Mind Control Weapon) Use your Mind Control weapon to calm him down.[INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
   <mod:findName name="FILLER_CONFUSED_MANTIS_HOME" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true"/>
@@ -2264,7 +2287,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="FILLER_ARGEONN_SALESMAN_START" type="event">
+  <mod:findName name="FILLER_ARGEONN_SALESMAN" type="event">
     <mod:findLike type="choice">
       <mod:findLike type="text">
         <mod:selector>Hail the ship.</mod:selector>
@@ -2272,7 +2295,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="FILLER_ARGEONN_SALESMAN_START" type="event">
+  <mod:findName name="FILLER_ARGEONN_SALESMAN" type="event">
     <mod:findLike type="choice">
       <mod:findLike type="text">
         <mod:selector>Attack him before he can attack!</mod:selector>
@@ -2280,7 +2303,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="FILLER_ARGEONN_SALESMAN_START" type="event">
+  <mod:findName name="FILLER_ARGEONN_SALESMAN" type="event">
     <mod:findLike type="choice">
       <mod:findLike type="event">
         <mod:findLike type="choice">
@@ -2293,7 +2316,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="FILLER_ARGEONN_SALESMAN_START" type="event">
+  <mod:findName name="FILLER_ARGEONN_SALESMAN" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
@@ -2302,7 +2325,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="FILLER_ARGEONN_SALESMAN_START" type="event">
+  <mod:findName name="FILLER_ARGEONN_SALESMAN" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true"/>
       <mod:findLike type="event">
@@ -5150,6 +5173,32 @@
   <mod:findName name="FILLER_MERCHANT_DELIVER_LIST" type="eventList">
     <mod:findLike type="event">
       <mod:findLike type="choice">
+        <mod:selector hidden="true" req="BLUELIST_WEAPONS_MIND_CONTROL"/>
+        <mod:findLike type="text">
+          <mod:selector>(Mind Control Weapon) Convince him that he's being 'unfair'.</mod:selector>
+          <mod:setValue>(Mind Control Weapon) Convince him that he's being 'unfair'.[INFO][NAME]itemModify[/NAME]40≤~≤55 |-5[/INFO]</mod:setValue>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="FILLER_MERCHANT_DELIVER_LIST" type="eventList">
+    <mod:findLike type="event">
+      <mod:findLike type="choice">
+        <mod:selector hidden="true" req="BLUELIST_WEAPONS_MIND_CONTROL"/>
+        <mod:findLike type="event">
+          <mod:findLike type="choice">
+            <mod:findLike type="text">
+              <mod:selector>Accept the new offer.</mod:selector>
+              <mod:setValue>Accept the new offer.[INFO][NAME]itemModify[/NAME]40≤~≤55 |-5[/INFO]</mod:setValue>
+            </mod:findLike>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="FILLER_MERCHANT_DELIVER_LIST" type="eventList">
+    <mod:findLike type="event">
+      <mod:findLike type="choice">
         <mod:selector hidden="true" req="weapons" lvl="6"/>
         <mod:findLike type="text">
           <mod:selector>(Adv. Weapons) Remain silent but power up your weapons.</mod:selector>
@@ -5284,7 +5333,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="FILLER_DELIVERY_START" type="event">
+  <mod:findName name="FILLER_DELIVERY" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
@@ -5293,7 +5342,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="FILLER_DELIVERY_START" type="event">
+  <mod:findName name="FILLER_DELIVERY" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
@@ -5302,7 +5351,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="FILLER_DELIVERY_START" type="event">
+  <mod:findName name="FILLER_DELIVERY" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true"/>
       <mod:findLike type="event">
@@ -5316,7 +5365,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="FILLER_DELIVERY_START" type="event">
+  <mod:findName name="FILLER_DELIVERY" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
@@ -5325,7 +5374,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="FILLER_DELIVERY_START" type="event">
+  <mod:findName name="FILLER_DELIVERY" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true"/>
       <mod:findLike type="event">
@@ -5842,6 +5891,15 @@
       <mod:findLike type="text">
         <mod:selector>(Upg. Mind Control) Change their mind.</mod:selector>
         <mod:setValue>(Upg. Mind Control) Change their mind.[INFO][NAME]crewMember[/NAME]Gain a crew(Human)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="FILLER_INFORMANT" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="BLUELIST_WEAPONS_MIND_CONTROL" hidden="true" lvl="2"/>
+      <mod:findLike type="text">
+        <mod:selector>(Mind Control Weapon) Change their mind.</mod:selector>
+        <mod:setValue>(Mind Control Weapon) Change their mind.[INFO][NAME]crewMember[/NAME]Gain a crew(Human)[/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>

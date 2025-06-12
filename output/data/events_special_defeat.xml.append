@@ -554,6 +554,24 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
+  <mod:findName name="DEAD_CREW_HEKTAR_MODULE" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>Continue...</mod:selector>
+        <mod:setValue>Continue...[INFO][NAME]weapon[/NAME]Gain a weapon(Shop Item Hektar Base)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="SURRENDER_HEKTAR_WEAPON" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>Continue...</mod:selector>
+        <mod:setValue>Continue...[INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Modules)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
   <mod:findName name="SURRENDER_HEKTAR_GENERIC" type="event">
     <mod:findLike type="choice">
       <mod:findLike type="text">
@@ -684,6 +702,15 @@
     </mod:findLike>
   </mod:findName>
   <mod:findName name="DEFEAT_FED_ELITE" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>Continue...</mod:selector>
+        <mod:setValue>Continue...[INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Federation)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="DEFEAT_STEALTH" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true"/>
       <mod:findLike type="text">

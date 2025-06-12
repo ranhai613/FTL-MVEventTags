@@ -2506,7 +2506,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="NEBULA_SLUG_GRAVE" type="event">
+  <mod:findName name="NEBULA_LIGHT_SLUG_GRAVE" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
@@ -2515,7 +2515,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="NEBULA_SLUG_GRAVE" type="event">
+  <mod:findName name="NEBULA_LIGHT_SLUG_GRAVE" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true"/>
       <mod:findLike type="event">
@@ -2529,7 +2529,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="NEBULA_SLUG_GRAVE" type="event">
+  <mod:findName name="NEBULA_LIGHT_SLUG_GRAVE" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
@@ -2538,7 +2538,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="NEBULA_SLUG_GRAVE" type="event">
+  <mod:findName name="NEBULA_LIGHT_SLUG_GRAVE" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true"/>
       <mod:findLike type="event">
@@ -2621,7 +2621,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="NEBULA_SLUG_MINDSLAVES" type="event">
+  <mod:findName name="NEBULA_LIGHT_SLUG_MINDSLAVES" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
@@ -2630,7 +2630,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="NEBULA_SLUG_MINDSLAVES" type="event">
+  <mod:findName name="NEBULA_LIGHT_SLUG_MINDSLAVES" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true"/>
       <mod:findLike type="event">
@@ -2644,7 +2644,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="NEBULA_SLUG_MINDSLAVES" type="event">
+  <mod:findName name="NEBULA_LIGHT_SLUG_MINDSLAVES" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true"/>
       <mod:findLike type="event">
@@ -2663,7 +2663,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="NEBULA_SLUG_MINDSLAVES" type="event">
+  <mod:findName name="NEBULA_LIGHT_SLUG_MINDSLAVES" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true"/>
       <mod:findLike type="event">
@@ -2677,7 +2677,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="NEBULA_SLUG_MINDSLAVES" type="event">
+  <mod:findName name="NEBULA_LIGHT_SLUG_MINDSLAVES" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
@@ -2686,7 +2686,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="NEBULA_SLUG_MINDSLAVES" type="event">
+  <mod:findName name="NEBULA_LIGHT_SLUG_MINDSLAVES" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true"/>
       <mod:findLike type="event">
@@ -2757,6 +2757,15 @@
       <mod:findLike type="text">
         <mod:selector>(Repair Drone) Send a drone to solve their problem.</mod:selector>
         <mod:setValue>(Repair Drone) Send a drone to solve their problem.[INFO][NAME]autoReward[/NAME]Reward ~ Only(H)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_SLUG_DISTRESS_TRICK" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true" req="BLUELIST_BOMB_REPAIR"/>
+      <mod:findLike type="text">
+        <mod:selector>(Repair Burst) Launch a repair bomb into their Life Support. [-1}]</mod:selector>
+        <mod:setValue>(Repair Burst) Launch a repair bomb into their Life Support. [-1}][INFO][NAME]autoReward[/NAME]Reward ~ Only(H)[/INFO][INFO][NAME]itemModify[/NAME]}-1[/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -3763,7 +3772,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="NEBULA_DISTRESS_SLOCKNOG_START" type="event">
+  <mod:findName name="NEBULA_LIGHT_DISTRESS_SLOCKNOG_START" type="event">
     <mod:findLike type="choice">
       <mod:selector req="loc_found_slocknog" lvl="0" hidden="true" max_group="0" blue="false"/>
       <mod:findLike type="text">
@@ -3772,7 +3781,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="NEBULA_DISTRESS_SLOCKNOG_START" type="event">
+  <mod:findName name="NEBULA_LIGHT_DISTRESS_SLOCKNOG_START" type="event">
     <mod:findLike type="choice">
       <mod:selector req="loc_found_slocknog" lvl="1" hidden="true" max_group="0" blue="false"/>
       <mod:findLike type="text">
@@ -3781,7 +3790,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="NEBULA_DISTRESS_SLOCKNOG_START" type="event">
+  <mod:findName name="NEBULA_LIGHT_DISTRESS_SLOCKNOG_START" type="event">
     <mod:findLike type="choice">
       <mod:selector req="pilot" lvl="1" hidden="true" max_group="1" blue="false"/>
       <mod:findLike type="text">
@@ -3790,7 +3799,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="NEBULA_DISTRESS_SLOCKNOG_START" type="event">
+  <mod:findName name="NEBULA_LIGHT_DISTRESS_SLOCKNOG_START" type="event">
     <mod:findLike type="choice">
       <mod:selector req="pilot" lvl="1" hidden="true" max_group="1" blue="false"/>
       <mod:findLike type="event">
@@ -3996,7 +4005,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="NEBULA_SLUG_PLEASURE_1" type="event">
+  <mod:findName name="NEBULA_LIGHT_SLUG_PLEASURE_1" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
@@ -4005,7 +4014,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="NEBULA_SLUG_PLEASURE_1" type="event">
+  <mod:findName name="NEBULA_LIGHT_SLUG_PLEASURE_1" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true"/>
       <mod:findLike type="event">
@@ -4019,7 +4028,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="NEBULA_SLUG_PLEASURE_1" type="event">
+  <mod:findName name="NEBULA_LIGHT_SLUG_PLEASURE_1" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
@@ -4028,7 +4037,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="NEBULA_SLUG_PLEASURE_1" type="event">
+  <mod:findName name="NEBULA_LIGHT_SLUG_PLEASURE_1" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true"/>
       <mod:findLike type="event">
@@ -4042,7 +4051,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="SLUG_PLEASURE_2_NOQUEST" type="event">
+  <mod:findName name="SLUG_LIGHT_PLEASURE_2_NOQUEST" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
@@ -4051,7 +4060,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="SLUG_PLEASURE_2" type="event">
+  <mod:findName name="SLUG_LIGHT_PLEASURE_2" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
@@ -4060,7 +4069,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="SLUG_PLEASURE_2" type="event">
+  <mod:findName name="SLUG_LIGHT_PLEASURE_2" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true"/>
       <mod:findLike type="event">
@@ -4074,7 +4083,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="SLUG_PLEASURE_2" type="event">
+  <mod:findName name="SLUG_LIGHT_PLEASURE_2" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
@@ -4083,7 +4092,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="SLUG_PLEASURE_2" type="event">
+  <mod:findName name="SLUG_LIGHT_PLEASURE_2" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true"/>
       <mod:findLike type="event">

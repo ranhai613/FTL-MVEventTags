@@ -1696,7 +1696,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Hail the Vagabonds and offer to trade.</mod:selector>
-        <mod:setValue>Hail the Vagabonds and offer to trade.[INFO][NAME]itemModify[/NAME]{-2 ~5[/INFO][INFO][NAME]itemModify[/NAME]{-7 ~20[/INFO][INFO][NAME]itemModify[/NAME]{-15 ~40[/INFO][INFO][NAME]weapon[/NAME]Gain a weapon(Ancient Bomb)[/INFO]</mod:setValue>
+        <mod:setValue>Hail the Vagabonds and offer to trade.[INFO][NAME]itemModify[/NAME]{-2 ~5[/INFO][INFO][NAME]itemModify[/NAME]{-7 ~20[/INFO][INFO][NAME]itemModify[/NAME]{-15 ~40[/INFO][INFO][NAME]weapon[/NAME]Gain a weapon(Ancient Havoc)[/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -1733,7 +1733,7 @@
         <mod:findLike type="choice">
           <mod:findLike type="text">
             <mod:selector>Give them a large amount of fuel.</mod:selector>
-            <mod:setValue>Give them a large amount of fuel.[INFO][NAME]itemModify[/NAME]{-15 ~40[/INFO][INFO][NAME]weapon[/NAME]Gain a weapon(Ancient Bomb)[/INFO]</mod:setValue>
+            <mod:setValue>Give them a large amount of fuel.[INFO][NAME]itemModify[/NAME]{-15 ~40[/INFO][INFO][NAME]weapon[/NAME]Gain a weapon(Ancient Havoc)[/INFO]</mod:setValue>
           </mod:findLike>
         </mod:findLike>
       </mod:findLike>
@@ -2192,22 +2192,49 @@
   </mod:findName>
   <mod:findName name="DISTRESS_AUGMENTED_EXPLOSIVE" type="event">
     <mod:findLike type="choice">
+      <mod:selector hidden="true" req="BLUELIST_WEAPONS_HACK"/>
+      <mod:findLike type="text">
+        <mod:selector>(Hacking Weapon) Attempt to stop the explosion.</mod:selector>
+        <mod:setValue>(Hacking Weapon) Attempt to stop the explosion.[INFO]50% [NAME]autoReward[/NAME]Reward Standard(H)[/INFO][FightINFO]Fight(HK: [INFO]6% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO]6% [NAME]boarders[/NAME]&lt;!&gt;Enemy Boarding(x1 Lanius Augmented)[/INFO])(CK: [INFO]50% [NAME]autoReward[/NAME]Reward Item(H)[/INFO])[/FightINFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="DISTRESS_AUGMENTED_EXPLOSIVE" type="event">
+    <mod:findLike type="choice">
       <mod:findLike type="text">
         <mod:selector>It's not worth the risk!</mod:selector>
         <mod:setValue>It's not worth the risk![FightINFO]Fight(HK: [INFO]11% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO]11% [NAME]boarders[/NAME]&lt;!&gt;Enemy Boarding(x1 Lanius Augmented)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Item(H)[/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="DISTRESS_AUGMENTED_EXPLOSIVE" type="event">
-    <mod:findLike type="choice">
-      <mod:findLike type="event">
-        <mod:findLike type="choice">
-          <mod:selector hidden="true"/>
-          <mod:findLike type="text">
-            <mod:selector>Continue...</mod:selector>
-            <mod:setValue>Continue...[FightINFO]Fight(HK: [INFO]11% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO]11% [NAME]boarders[/NAME]&lt;!&gt;Enemy Boarding(x1 Lanius Augmented)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Item(H)[/INFO])[/FightINFO]</mod:setValue>
-          </mod:findLike>
+  <mod:findName name="DISTRESS_AUGMENTED_EXPLOSIVE_GUN_HACK" type="eventList">
+    <mod:findLike type="event">
+      <mod:findLike type="choice">
+        <mod:selector hidden="true"/>
+        <mod:findLike type="text">
+          <mod:selector>Continue...</mod:selector>
+          <mod:setValue>Continue...[INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO]</mod:setValue>
         </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="DISTRESS_AUGMENTED_EXPLOSIVE_GUN_HACK" type="eventList">
+    <mod:findLike type="event">
+      <mod:findLike type="choice">
+        <mod:selector hidden="true"/>
+        <mod:findLike type="text">
+          <mod:selector>Continue...</mod:selector>
+          <mod:setValue>Continue...[FightINFO]Fight(HK: [INFO]11% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO]11% [NAME]boarders[/NAME]&lt;!&gt;Enemy Boarding(x1 Lanius Augmented)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Item(H)[/INFO])[/FightINFO]</mod:setValue>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="DISTRESS_AUGMENTED_EXPLOSIVE_FAIL" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>Continue...</mod:selector>
+        <mod:setValue>Continue...[FightINFO]Fight(HK: [INFO]11% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO]11% [NAME]boarders[/NAME]&lt;!&gt;Enemy Boarding(x1 Lanius Augmented)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Item(H)[/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>

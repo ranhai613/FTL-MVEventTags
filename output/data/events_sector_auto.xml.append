@@ -57,6 +57,15 @@
   </mod:findName>
   <mod:findName name="AUTO_SUPPORT" type="event">
     <mod:findLike type="choice">
+      <mod:selector hidden="true" req="BLUELIST_WEAPONS_HACK"/>
+      <mod:findLike type="text">
+        <mod:selector>(Hacking Weapon) Disrupt the ship's AI so that it will distribute to your ship.</mod:selector>
+        <mod:setValue>(Hacking Weapon) Disrupt the ship's AI so that it will distribute to your ship.[INFO][NAME]autoReward[/NAME]Reward Standard(L)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="AUTO_SUPPORT" type="event">
+    <mod:findLike type="choice">
       <mod:selector hidden="true" req="LIST_CREW_ENGI"/>
       <mod:findLike type="text">
         <mod:selector>(Engi Crew) Reprogram the ship to distribute to Federation ships as well.</mod:selector>
@@ -451,6 +460,24 @@
       <mod:findLike type="text">
         <mod:selector>Attack the platform.</mod:selector>
         <mod:setValue>Attack the platform.[INFO]33% [NAME]boarders[/NAME]&lt;!&gt;Enemy Boarding(x2-x3 Human Engineer)[/INFO][INFO]33% [NAME]damage[/NAME]&lt;!&gt;Damage Hull(3)[/INFO][INFO]33% [NAME]autoReward[/NAME]Reward |(M)[/INFO][FightINFO]Fight(HK: [INFO]33% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(SR: [INFO]7% [NAME]autoReward[/NAME]Reward Stuff(R)[/INFO] [INFO]7% [NAME]autoReward[/NAME]Reward { Only(L)[/INFO])[/FightINFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="AUTO_FOREST" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true" req="hacking" lvl="3"/>
+      <mod:findLike type="text">
+        <mod:selector>(Adv. Hacking) Disrupt any potential defenses the platform may have.</mod:selector>
+        <mod:setValue>(Adv. Hacking) Disrupt any potential defenses the platform may have.[INFO][NAME]autoReward[/NAME]Reward |(M)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="AUTO_FOREST" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true" req="PDS_DISABLE"/>
+      <mod:findLike type="text">
+        <mod:selector>(Signal Diluter) Disrupt any potential defenses the platform may have.</mod:selector>
+        <mod:setValue>(Signal Diluter) Disrupt any potential defenses the platform may have.[INFO][NAME]autoReward[/NAME]Reward |(M)[/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -1030,8 +1057,8 @@
     <mod:findLike type="choice">
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
-        <mod:selector>We can't help.</mod:selector>
-        <mod:setValue>We can't help.[INFO][NAME]storageCheck[/NAME]Storage Check[/INFO]</mod:setValue>
+        <mod:selector>Sorry, not interested.</mod:selector>
+        <mod:setValue>Sorry, not interested.[INFO][NAME]storageCheck[/NAME]Storage Check[/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -1052,8 +1079,22 @@
     <mod:findLike type="choice">
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
-        <mod:selector>Continue...</mod:selector>
-        <mod:setValue>Continue...[FightINFO]Fight(HK: [INFO][NAME]crewMember[/NAME]Gain a crew(Phantom Wraith)[/INFO] [INFO][NAME]autoReward[/NAME]Reward Standard(L)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:selector>Attack the Auto-ship.</mod:selector>
+        <mod:setValue>Attack the Auto-ship.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(L)[/INFO])[/FightINFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="AUTO_GHOST_WANTWRECK_QUEST" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="text">
+            <mod:selector>Continue...</mod:selector>
+            <mod:setValue>Continue...[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(L)[/INFO])[/FightINFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -1061,8 +1102,8 @@
     <mod:findLike type="choice">
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
-        <mod:selector>Wait for the Ghosts.</mod:selector>
-        <mod:setValue>Wait for the Ghosts.[INFO][NAME]crewMember[/NAME]Gain a crew(Phantom Wraith)[/INFO]</mod:setValue>
+        <mod:selector>Wait for the Vagabonds to arrive.</mod:selector>
+        <mod:setValue>Wait for the Vagabonds to arrive.[INFO][NAME]crewMember[/NAME]Gain a crew(Vagabond Alpha)[/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -1074,7 +1115,7 @@
           <mod:selector hidden="true"/>
           <mod:findLike type="text">
             <mod:selector>Continue...</mod:selector>
-            <mod:setValue>Continue...[INFO][NAME]crewMember[/NAME]Gain a crew(Phantom Wraith)[/INFO]</mod:setValue>
+            <mod:setValue>Continue...[INFO][NAME]crewMember[/NAME]Gain a crew(Vagabond Alpha)[/INFO]</mod:setValue>
           </mod:findLike>
         </mod:findLike>
       </mod:findLike>
@@ -1084,8 +1125,8 @@
     <mod:findLike type="choice">
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
-        <mod:selector>Scrap the wreckage.</mod:selector>
-        <mod:setValue>Scrap the wreckage.[INFO][NAME]autoReward[/NAME]Reward Standard(L)[/INFO]</mod:setValue>
+        <mod:selector>Scrap the entire wreckage.</mod:selector>
+        <mod:setValue>Scrap the entire wreckage.[INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO][INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Estate)[/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>

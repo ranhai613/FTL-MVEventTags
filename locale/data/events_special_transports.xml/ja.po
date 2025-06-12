@@ -6,9 +6,10 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: src-en/data/events_special_transports.xml:14
+#, fuzzy
 msgid ""
 "data/events_special_transports.xml$//event[@name=\"TRANSPORT_DESTROYED\"]/text"
-msgstr ""
+msgstr "君は貨物ごと輸送船を木っ端微塵にした。意気消沈した君はそこらに散乱した船体と貨物だったものを集めた。"
 
 #: src-en/data/events_special_transports.xml:17
 msgid ""
@@ -2780,3 +2781,63 @@ msgid ""
 "data/events_special_transports.xml$//event[@name=\"TRANSPORT_CAPTURE_CULTIST\"]/text"
 msgstr ""
 "敵クルーは死亡し、敵船が残されました。その貨物はあなたのものです。自船に持ち帰った貨物には、あなたが期待していた特別な技術が搭載されていました。"
+
+#: src-en/data/events_special_transports.xml:2472
+msgid ""
+"data/events_special_transports.xml$//ship[@name=\"SHIP_STARGROVE_TRANSPORT_LOOT\"]/escape/text"
+msgstr "彼らは戦いたくないようだ。逃げようとしている。"
+
+#: src-en/data/events_special_transports.xml:2483
+msgid ""
+"data/events_special_transports.xml$//event[@name=\"NEBULA_LIGHT_TRANSPORT_STARGROVE_LOOT\"]/beaconType/unvisitedTooltip"
+msgstr "未訪問の場所。"
+
+#: src-en/data/events_special_transports.xml:2484
+msgid ""
+"data/events_special_transports.xml$//event[@name=\"NEBULA_LIGHT_TRANSPORT_STARGROVE_LOOT\"]/beaconType/visitedTooltip"
+msgstr "探索済みの場所。面白いものは何も残っていない。"
+
+#: src-en/data/events_special_transports.xml:2485
+msgid ""
+"data/events_special_transports.xml$//event[@name=\"NEBULA_LIGHT_TRANSPORT_STARGROVE_LOOT\"]/beaconType/undiscoveredTooltip"
+msgstr "未訪問の場所。"
+
+#: src-en/data/events_special_transports.xml:2492
+msgid ""
+"data/events_special_transports.xml$//event[@name=\"NEBULA_LIGHT_TRANSPORT_STARGROVE_LOOT\"]/text"
+msgstr ""
+
+#: src-en/data/events_special_transports.xml:2496
+msgid ""
+"data/events_special_transports.xml$//event[@name=\"NEBULA_LIGHT_TRANSPORT_STARGROVE_LOOT\"]/choice[1]/text"
+msgstr "物品の引き渡しを要求する。"
+
+#: src-en/data/events_special_transports.xml:2498
+msgid ""
+"data/events_special_transports.xml$//event[@name=\"NEBULA_LIGHT_TRANSPORT_STARGROVE_LOOT\"]/choice[1]/event/text"
+msgstr "あなたは彼らの積荷を力ずくで確保しようとしています。"
+
+#: src-en/data/events_special_transports.xml:2501
+msgid ""
+"data/events_special_transports.xml$//event[@name=\"NEBULA_LIGHT_TRANSPORT_STARGROVE_LOOT\"]/choice[1]/event/choice/text"
+msgstr "次へ…"
+
+#: src-en/data/events_special_transports.xml:2507
+msgid ""
+"data/events_special_transports.xml$//event[@name=\"NEBULA_LIGHT_TRANSPORT_STARGROVE_LOOT\"]/choice[2]/text"
+msgstr "船を避ける。"
+
+#: src-en/data/events_special_transports.xml:2509
+msgid ""
+"data/events_special_transports.xml$//event[@name=\"NEBULA_LIGHT_TRANSPORT_STARGROVE_LOOT\"]/choice[2]/event/text"
+msgstr "彼らはあなたの射程範囲外に留まり、ついに飛び去ってしまった。"
+
+#: src-en/data/events_special_transports.xml:2511
+msgid ""
+"data/events_special_transports.xml$//event[@name=\"NEBULA_LIGHT_TRANSPORT_STARGROVE_LOOT\"]/choice[2]/event/choice/text"
+msgstr "次へ…"
+
+#: src-en/data/events_special_transports.xml:2518
+msgid ""
+"data/events_special_transports.xml$//event[@name=\"TRANSPORT_CAPTURE_STARGROVE\"]/text"
+msgstr ""

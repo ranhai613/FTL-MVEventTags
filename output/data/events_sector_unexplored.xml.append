@@ -555,8 +555,8 @@
     <mod:findLike type="choice">
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
-        <mod:selector>Return to the Frontiersman</mod:selector>
-        <mod:setValue>Return to the Frontiersman[INFO][NAME]autoReward[/NAME]Reward Standard(L)[/INFO]</mod:setValue>
+        <mod:selector>Return to the Frontiersman.</mod:selector>
+        <mod:setValue>Return to the Frontiersman.[INFO][NAME]autoReward[/NAME]Reward Standard(L)[/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -652,6 +652,19 @@
           <mod:findLike type="text">
             <mod:selector>(Beacon Eater) Offer to eat the beacon to ensure their privacy.</mod:selector>
             <mod:setValue>(Beacon Eater) Offer to eat the beacon to ensure their privacy.[INFO][NAME]autoReward[/NAME]Reward {(H)[/INFO][INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Ion)[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="UNEXPLORED_SEPARATIST_ONLY" type="event">
+    <mod:findLike type="choice">
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector req="unique_mafan" hidden="true"/>
+          <mod:findLike type="text">
+            <mod:selector>(Mafan) Talk about the Stargrove.</mod:selector>
+            <mod:setValue>(Mafan) Talk about the Stargrove.[INFO][NAME]autoReward[/NAME]Reward {(H)[/INFO][INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Ion)[/INFO]</mod:setValue>
           </mod:findLike>
         </mod:findLike>
       </mod:findLike>
@@ -1200,6 +1213,24 @@
       <mod:findLike type="text">
         <mod:selector>(Upg. Piloting) Have your pilot carefully explore the debris.</mod:selector>
         <mod:setValue>(Upg. Piloting) Have your pilot carefully explore the debris.[INFO]25% [NAME]crewMember[/NAME]Gain a crew(Random)[/INFO][INFO]25% [NAME]autoReward[/NAME]Reward Standard(L)[/INFO][INFO]25% [NAME]autoReward[/NAME]Reward Drone(M)[/INFO][INFO]25% [NAME]autoReward[/NAME]Reward Weapon(L)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_STORM_ITEMS" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="SCRAP_COLLECTOR"/>
+      <mod:findLike type="text">
+        <mod:selector>(Scrap Arm) Use your Scrap Arm to collect some of the wreckage.</mod:selector>
+        <mod:setValue>(Scrap Arm) Use your Scrap Arm to collect some of the wreckage.[INFO][NAME]autoReward[/NAME]Reward ~ Only(M)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_STORM_ITEMS" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="MAGNET_ARM"/>
+      <mod:findLike type="text">
+        <mod:selector>(Magnet Arm) Use your Magnet Arm to collect some of the wreckage.</mod:selector>
+        <mod:setValue>(Magnet Arm) Use your Magnet Arm to collect some of the wreckage.[INFO][NAME]autoReward[/NAME]Reward ~ Only(M)[/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -1963,6 +1994,15 @@
   </mod:findName>
   <mod:findName name="NEBULA_AUTO_DEFENSE_ITEM_MV" type="event">
     <mod:findLike type="choice">
+      <mod:selector req="BLUELIST_WEAPONS_HACK" lvl="1" max_lvl="1" hidden="false"/>
+      <mod:findLike type="text">
+        <mod:selector>(Hacking Weapon) Target the station's alarm with your hacking weapon.</mod:selector>
+        <mod:setValue>(Hacking Weapon) Target the station's alarm with your hacking weapon.[FightINFO]Fight(HK: [INFO]50% [NAME]autoReward[/NAME]Reward ~ Only(M)[/INFO])[/FightINFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_AUTO_DEFENSE_ITEM_MV" type="event">
+    <mod:findLike type="choice">
       <mod:selector req="hacking" lvl="2" hidden="false"/>
       <mod:findLike type="text">
         <mod:selector>(Upg. Hacking) Hack the station to prevent an alert.</mod:selector>
@@ -1982,6 +2022,17 @@
     </mod:findLike>
   </mod:findName>
   <mod:findName name="NEBULA_AUTO_DEFENSE_ITEM_MV_HACK" type="eventList">
+    <mod:findLike type="event">
+      <mod:findLike type="choice">
+        <mod:selector hidden="true"/>
+        <mod:findLike type="text">
+          <mod:selector>Continue...</mod:selector>
+          <mod:setValue>Continue...[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward ~ Only(M)[/INFO])[/FightINFO]</mod:setValue>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_AUTO_DEFENSE_ITEM_MV_HACK_WEAPON" type="eventList">
     <mod:findLike type="event">
       <mod:findLike type="choice">
         <mod:selector hidden="true"/>
@@ -2198,6 +2249,72 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
+  <mod:findName name="NEBULA_REBEL_CHASE_MV" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="LIST_CREW_SLUG" hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>(Slug Crew) Have your crewmember check for their life signatures to follow them.</mod:selector>
+        <mod:setValue>(Slug Crew) Have your crewmember check for their life signatures to follow them.[FightINFO]Fight(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])(HK: [INFO]20% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO]20% [NAME]autoReward[/NAME]Reward Standard(L)[/INFO])(SR: [INFO]17% [NAME]autoReward[/NAME]Reward Stuff(R)[/INFO] [INFO]17% [NAME]modifyPursuit[/NAME]Fleet Delay(2)[/INFO])[/FightINFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_REBEL_CHASE_MV" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="LIST_CREW_SLUG" hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="text">
+            <mod:selector>Continue...</mod:selector>
+            <mod:setValue>Continue...[FightINFO]Fight(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])(HK: [INFO]20% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO]20% [NAME]autoReward[/NAME]Reward Standard(L)[/INFO])(SR: [INFO]17% [NAME]autoReward[/NAME]Reward Stuff(R)[/INFO] [INFO]17% [NAME]modifyPursuit[/NAME]Fleet Delay(2)[/INFO])[/FightINFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_REBEL_CHASE_MV" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="BLUELIST_CREW_SNAIL" hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>(Telepathic Shell) Have your crewmember check for their life signatures to follow them.</mod:selector>
+        <mod:setValue>(Telepathic Shell) Have your crewmember check for their life signatures to follow them.[FightINFO]Fight(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])(HK: [INFO]20% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO]20% [NAME]autoReward[/NAME]Reward Standard(L)[/INFO])(SR: [INFO]17% [NAME]autoReward[/NAME]Reward Stuff(R)[/INFO] [INFO]17% [NAME]modifyPursuit[/NAME]Fleet Delay(2)[/INFO])[/FightINFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_REBEL_CHASE_MV" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="BLUELIST_CREW_SNAIL" hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="text">
+            <mod:selector>Continue...</mod:selector>
+            <mod:setValue>Continue...[FightINFO]Fight(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])(HK: [INFO]20% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO]20% [NAME]autoReward[/NAME]Reward Standard(L)[/INFO])(SR: [INFO]17% [NAME]autoReward[/NAME]Reward Stuff(R)[/INFO] [INFO]17% [NAME]modifyPursuit[/NAME]Fleet Delay(2)[/INFO])[/FightINFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_REBEL_CHASE_MV" type="event">
+    <mod:findLike type="choice">
+      <mod:findLike type="text">
+        <mod:selector>Stay hidden.</mod:selector>
+        <mod:setValue>Stay hidden.[INFO][NAME]storageCheck[/NAME]Storage Check[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_REBEL_CHASE_MV" type="event">
+    <mod:findLike type="choice">
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:findLike type="text">
+            <mod:selector>Do something onboard the ship.</mod:selector>
+            <mod:setValue>Do something onboard the ship.[INFO][NAME]storageCheck[/NAME]Storage Check[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
   <mod:findName name="NEBULA_REBEL_CHASE_MV_LIST" type="eventList">
     <mod:findLike type="event">
       <mod:findLike type="choice">
@@ -2209,7 +2326,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="NEBULA_WATER_PLANET" type="event">
+  <mod:findName name="NEBULA_LIGHT_WATER_PLANET" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
@@ -2218,7 +2335,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="NEBULA_WATER_PLANET" type="event">
+  <mod:findName name="NEBULA_LIGHT_WATER_PLANET" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true"/>
       <mod:findLike type="event">
@@ -2232,7 +2349,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="NEBULA_WATER_PLANET" type="event">
+  <mod:findName name="NEBULA_LIGHT_WATER_PLANET" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true"/>
       <mod:findLike type="event">
@@ -2251,7 +2368,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="NEBULA_WATER_PLANET" type="event">
+  <mod:findName name="NEBULA_LIGHT_WATER_PLANET" type="event">
     <mod:findLike type="choice">
       <mod:selector req="LIST_CREW_ANCIENT_ALL" hidden="true"/>
       <mod:findLike type="text">
@@ -2260,7 +2377,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="NEBULA_WATER_PLANET" type="event">
+  <mod:findName name="NEBULA_LIGHT_WATER_PLANET" type="event">
     <mod:findLike type="choice">
       <mod:selector req="LIST_CREW_ANCIENT_ALL" hidden="true"/>
       <mod:findLike type="event">
@@ -2274,7 +2391,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="NEBULA_WATER_PLANET" type="event">
+  <mod:findName name="NEBULA_LIGHT_WATER_PLANET" type="event">
     <mod:findLike type="choice">
       <mod:findLike type="text">
         <mod:selector>You don't trust this. Leave.</mod:selector>
@@ -2282,7 +2399,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="NEBULA_WATER_PLANET" type="event">
+  <mod:findName name="NEBULA_LIGHT_WATER_PLANET" type="event">
     <mod:findLike type="choice">
       <mod:findLike type="event">
         <mod:findLike type="choice">
@@ -2471,7 +2588,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Respond.</mod:selector>
-        <mod:setValue>Respond.[FightINFO]Fight(HK: [INFO]33% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO]33% [NAME]autoReward[/NAME]Reward Standard(H)[/INFO] [INFO]33% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO])[/FightINFO][FightINFO]Fight(HK=CK: [INFO]33% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO]33% [NAME]autoReward[/NAME]Reward | Only(L)[/INFO] [INFO]33% [NAME]drone[/NAME]Gain a drone(Random)[/INFO])[/FightINFO][FightINFO]Fight(HK=CK: [INFO]33% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO]33% [NAME]autoReward[/NAME]Reward ~ Only(L)[/INFO] [INFO]33% [NAME]augment[/NAME]Gain an augment(Random)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Respond.[FightINFO]Fight(HK: [INFO]33% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO]33% [NAME]autoReward[/NAME]Reward Standard(H)[/INFO] [INFO]33% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO])[/FightINFO][FightINFO]Fight(HK=CK: [INFO]33% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO]33% [NAME]autoReward[/NAME]Reward | Only(M)[/INFO] [INFO]33% [NAME]drone[/NAME]Gain a drone(Random)[/INFO])[/FightINFO][FightINFO]Fight(HK=CK: [INFO]33% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO]33% [NAME]autoReward[/NAME]Reward ~ Only(L)[/INFO] [INFO]33% [NAME]augment[/NAME]Gain an augment(Random)[/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -2528,7 +2645,7 @@
         <mod:selector hidden="true"/>
         <mod:findLike type="text">
           <mod:selector>Agree.</mod:selector>
-          <mod:setValue>Agree.[FightINFO]Fight(HK=CK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO][NAME]autoReward[/NAME]Reward | Only(L)[/INFO] [INFO][NAME]drone[/NAME]Gain a drone(Random)[/INFO])[/FightINFO]</mod:setValue>
+          <mod:setValue>Agree.[FightINFO]Fight(HK=CK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO][NAME]autoReward[/NAME]Reward | Only(M)[/INFO] [INFO][NAME]drone[/NAME]Gain a drone(Random)[/INFO])[/FightINFO]</mod:setValue>
         </mod:findLike>
       </mod:findLike>
     </mod:findLike>
@@ -2542,7 +2659,7 @@
             <mod:selector hidden="true"/>
             <mod:findLike type="text">
               <mod:selector>Continue...</mod:selector>
-              <mod:setValue>Continue...[FightINFO]Fight(HK=CK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO][NAME]autoReward[/NAME]Reward | Only(L)[/INFO] [INFO][NAME]drone[/NAME]Gain a drone(Random)[/INFO])[/FightINFO]</mod:setValue>
+              <mod:setValue>Continue...[FightINFO]Fight(HK=CK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO][NAME]autoReward[/NAME]Reward | Only(M)[/INFO] [INFO][NAME]drone[/NAME]Gain a drone(Random)[/INFO])[/FightINFO]</mod:setValue>
             </mod:findLike>
           </mod:findLike>
         </mod:findLike>
@@ -2585,7 +2702,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="NEBULA_ENCOUNTER_REBEL_LIGHTNEBULA" type="event">
+  <mod:findName name="NEBULA_LIGHT_ENCOUNTER_REBEL_LIGHTNEBULA" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
@@ -2662,7 +2779,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="NEBULA_ENCOUNTER_SUN" type="event">
+  <mod:findName name="NEBULA_LIGHT_ENCOUNTER_SUN" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true"/>
       <mod:findLike type="text">

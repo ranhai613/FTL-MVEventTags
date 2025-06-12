@@ -58,7 +58,7 @@ msgstr ""
 #: src-en/data/events_sector_duskbringer.xml:68
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_PLANNERS\"]/choice[1]/event/choice/event/choice[1]/text"
-msgstr ""
+msgstr "Sie in Ruhe lassen."
 
 #: src-en/data/events_sector_duskbringer.xml:72
 msgid ""
@@ -625,7 +625,21 @@ msgstr ""
 "deines Schiffes ist Information, welche sie sich nicht entgehen lassen "
 "werden und sie würden nicht annehmen, dass die Duskbringer lügen würden."
 
+#: src-en/data/events_sector_duskbringer.xml:415
+msgid ""
+"data/events_sector_duskbringer.xml$//event[@name=\"DUSK_PROPAGANDA\"]/choice[@req=\"BLUELIST_WEAPONS_HACK\"]/text"
+msgstr ""
+
 #: src-en/data/events_sector_duskbringer.xml:417
+msgid ""
+"data/events_sector_duskbringer.xml$//event[@name=\"DUSK_PROPAGANDA\"]/choice[@req=\"BLUELIST_WEAPONS_HACK\"]/event/text"
+msgstr ""
+"Die Rebellen und Duskbringer arbeiten manchmal zusammen, werden aber keine "
+"Ratschläge von so einer Propagandastation annehmen. Trotzdem - der Ort "
+"deines Schiffes ist Information, welche sie sich nicht entgehen lassen "
+"werden und sie würden nicht annehmen, dass die Duskbringer lügen würden."
+
+#: src-en/data/events_sector_duskbringer.xml:424
 msgid "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_IDOL\"]/text"
 msgstr ""
 "Du wirst von einem jungen Duskbringersoldaten gerufen. Zuerst denkst du es "
@@ -633,12 +647,12 @@ msgstr ""
 "Multiversumreisenden in Person zu treffen. \"Woah du bist eines dieser "
 "speziellen Zeit-und-relative-Dimension-im-Raum Schiffe!\""
 
-#: src-en/data/events_sector_duskbringer.xml:420
+#: src-en/data/events_sector_duskbringer.xml:427
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_IDOL\"]/choice/text"
 msgstr "Eh, ja."
 
-#: src-en/data/events_sector_duskbringer.xml:422
+#: src-en/data/events_sector_duskbringer.xml:429
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_IDOL\"]/choice/event/text"
 msgstr ""
@@ -649,34 +663,34 @@ msgstr ""
 "großartiger Anführer und hat fast die gesamte Welt eingenommen! Hast du ihn "
 "jemals getroffen?\""
 
-#: src-en/data/events_sector_duskbringer.xml:424
+#: src-en/data/events_sector_duskbringer.xml:431
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_IDOL\"]/choice/event/choice[1]/text"
 msgstr "Lüge und sage du hast ihn getroffen."
 
-#: src-en/data/events_sector_duskbringer.xml:428
+#: src-en/data/events_sector_duskbringer.xml:435
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_IDOL\"]/choice/event/choice[2]/text"
 msgstr "Sage ihm die Wahrheit, dass du ihn noch nie getroffen hast."
 
-#: src-en/data/events_sector_duskbringer.xml:430
+#: src-en/data/events_sector_duskbringer.xml:437
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_IDOL\"]/choice/event/choice[2]/event/text"
 msgstr ""
 "\"Du hast nicht? Mann... Naja war witzig zu reden! Du hast eine "
 "Zeitmaschine, ich habe eine Waffe. Was zur Hölle, lass uns kämpfen.\""
 
-#: src-en/data/events_sector_duskbringer.xml:433
+#: src-en/data/events_sector_duskbringer.xml:440
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_IDOL\"]/choice/event/choice[2]/event/choice/text"
 msgstr "Fortfahren..."
 
-#: src-en/data/events_sector_duskbringer.xml:439
+#: src-en/data/events_sector_duskbringer.xml:446
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_IDOL\"]/choice/event/choice[@req=\"LIST_CREW_HUMAN\"]/text"
 msgstr "(Menschen Crew) Dein Mensch weiß wer es ist."
 
-#: src-en/data/events_sector_duskbringer.xml:441
+#: src-en/data/events_sector_duskbringer.xml:448
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_IDOL\"]/choice/event/choice[@req=\"LIST_CREW_HUMAN\"]/event/text"
 msgstr ""
@@ -687,7 +701,7 @@ msgstr ""
 "als ich! Oh, das Oberkommando wird auf mich so sauer sein... aber ich kann "
 "diese Möglichkeit mir nicht entgehen lassen. Allons-y!\""
 
-#: src-en/data/events_sector_duskbringer.xml:450
+#: src-en/data/events_sector_duskbringer.xml:457
 msgid ""
 "data/events_sector_duskbringer.xml$//eventList[@name=\"DUSK_IDOL_LIE\"]/event[1]/text"
 msgstr ""
@@ -695,7 +709,7 @@ msgstr ""
 "Möglichkeit einen richtigen Renegade zu treffen, nicht entschwinden "
 "lassen!\""
 
-#: src-en/data/events_sector_duskbringer.xml:454
+#: src-en/data/events_sector_duskbringer.xml:461
 msgid ""
 "data/events_sector_duskbringer.xml$//eventList[@name=\"DUSK_IDOL_LIE\"]/event[2]/text"
 msgstr ""
@@ -703,175 +717,181 @@ msgstr ""
 " den Mann zu stellen, welche du nicht beantworten kannst. Letztendlich sieht"
 " er durch deine Lüge und fängt an anzugreifen!"
 
-#: src-en/data/events_sector_duskbringer.xml:457
+#: src-en/data/events_sector_duskbringer.xml:464
 msgid ""
 "data/events_sector_duskbringer.xml$//eventList[@name=\"DUSK_IDOL_LIE\"]/event[2]/choice/text"
 msgstr "Fortfahren..."
 
-#: src-en/data/events_sector_duskbringer.xml:474
+#: src-en/data/events_sector_duskbringer.xml:481
 msgid "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_MFKHELP\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_duskbringer.xml:478
+#: src-en/data/events_sector_duskbringer.xml:485
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_MFKHELP\"]/choice[1]/text"
 msgstr "Rufe das Schiff."
 
-#: src-en/data/events_sector_duskbringer.xml:480
+#: src-en/data/events_sector_duskbringer.xml:487
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_MFKHELP\"]/choice[1]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_duskbringer.xml:482
+#: src-en/data/events_sector_duskbringer.xml:489
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_MFKHELP\"]/choice[1]/event/choice[1]/text"
 msgstr "Bist du hierfür verantwortlich?"
 
-#: src-en/data/events_sector_duskbringer.xml:484
+#: src-en/data/events_sector_duskbringer.xml:491
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_MFKHELP\"]/choice[1]/event/choice[1]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_duskbringer.xml:486
+#: src-en/data/events_sector_duskbringer.xml:493
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_MFKHELP\"]/choice[1]/event/choice[1]/event/choice[1]/text"
 msgstr ""
 "Helfe die Überlebenden zu finden - auch wenn es etwas Zeit brauchen wird."
 
-#: src-en/data/events_sector_duskbringer.xml:488
+#: src-en/data/events_sector_duskbringer.xml:495
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_MFKHELP\"]/choice[1]/event/choice[1]/event/choice[1]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_duskbringer.xml:495
+#: src-en/data/events_sector_duskbringer.xml:502
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_MFKHELP\"]/choice[1]/event/choice[1]/event/choice[@req=\"LIST_CREW_SLUG\"]/text"
 msgstr "(Slug Crew) Helfe die Überlebenden zu verorten."
 
-#: src-en/data/events_sector_duskbringer.xml:499
+#: src-en/data/events_sector_duskbringer.xml:506
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_MFKHELP\"]/choice[1]/event/choice[1]/event/choice[@req=\"BLUELIST_CREW_SNAIL\"]/text"
 msgstr "(Telepathischer Shell) Helfe die Überlebenden zu verorten."
 
-#: src-en/data/events_sector_duskbringer.xml:503
+#: src-en/data/events_sector_duskbringer.xml:510
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_MFKHELP\"]/choice[1]/event/choice[1]/event/choice[@req=\"UPG_TECH_LIFEFORM\"]/text"
 msgstr "(Lebensformen Scanner) Helfe die Überlebenden zu verorten."
 
-#: src-en/data/events_sector_duskbringer.xml:507
+#: src-en/data/events_sector_duskbringer.xml:514
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_MFKHELP\"]/choice[1]/event/choice[1]/event/choice[@req=\"sensors\"]/text"
 msgstr "(Erw. Sensoren) Helfe die Überlebenden zu verorten."
 
-#: src-en/data/events_sector_duskbringer.xml:511
+#: src-en/data/events_sector_duskbringer.xml:518
 msgid ""
-"data/events_sector_duskbringer.xml$//event[@name=\"DUSK_MFKHELP\"]/choice[1]/event/choice[1]/event/choice[6]/text"
-msgstr "Greife trotzdem an."
+"data/events_sector_duskbringer.xml$//event[@name=\"DUSK_MFKHELP\"]/choice[1]/event/choice[1]/event/choice[@req=\"ADV_SCANNERS\"]/text"
+msgstr ""
 
-#: src-en/data/events_sector_duskbringer.xml:513
+#: src-en/data/events_sector_duskbringer.xml:522
+#, fuzzy
 msgid ""
-"data/events_sector_duskbringer.xml$//event[@name=\"DUSK_MFKHELP\"]/choice[1]/event/choice[1]/event/choice[6]/event/text"
+"data/events_sector_duskbringer.xml$//event[@name=\"DUSK_MFKHELP\"]/choice[1]/event/choice[1]/event/choice[7]/text"
+msgstr "Wir werden nicht helfen. Gehe wieder."
+
+#: src-en/data/events_sector_duskbringer.xml:524
+msgid ""
+"data/events_sector_duskbringer.xml$//event[@name=\"DUSK_MFKHELP\"]/choice[1]/event/choice[1]/event/choice[7]/event/text"
 msgstr ""
 "\"Verdammter Renegade Abschaum, kommt immer einem in die Quere! Ihr seid "
 "keine Helden oder glorreiche Ritter der Gerechtigkeit, ihr seid nur "
 "Ungeziefer ohne Moral!\""
 
-#: src-en/data/events_sector_duskbringer.xml:516
+#: src-en/data/events_sector_duskbringer.xml:527
 msgid ""
-"data/events_sector_duskbringer.xml$//event[@name=\"DUSK_MFKHELP\"]/choice[1]/event/choice[1]/event/choice[6]/event/choice/text"
+"data/events_sector_duskbringer.xml$//event[@name=\"DUSK_MFKHELP\"]/choice[1]/event/choice[1]/event/choice[7]/event/choice/text"
 msgstr "Fortfahren..."
 
-#: src-en/data/events_sector_duskbringer.xml:522
+#: src-en/data/events_sector_duskbringer.xml:533
 msgid ""
-"data/events_sector_duskbringer.xml$//event[@name=\"DUSK_MFKHELP\"]/choice[1]/event/choice[1]/event/choice[7]/text"
+"data/events_sector_duskbringer.xml$//event[@name=\"DUSK_MFKHELP\"]/choice[1]/event/choice[1]/event/choice[8]/text"
 msgstr "Wir werden nicht helfen. Gehe wieder."
 
-#: src-en/data/events_sector_duskbringer.xml:528
+#: src-en/data/events_sector_duskbringer.xml:539
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_MFKHELP\"]/choice[1]/event/choice[2]/text"
 msgstr "Bedrohe sie."
 
-#: src-en/data/events_sector_duskbringer.xml:530
+#: src-en/data/events_sector_duskbringer.xml:541
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_MFKHELP\"]/choice[1]/event/choice[2]/event/text"
 msgstr ""
 "\"Wer glaubst du, dass du bist? Die Rebellion wird sich von niemanden solche"
 " Wörter gefallen lassen, besonders nicht von Renegade Abschaum wie dir!\""
 
-#: src-en/data/events_sector_duskbringer.xml:533
+#: src-en/data/events_sector_duskbringer.xml:544
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_MFKHELP\"]/choice[1]/event/choice[2]/event/choice/text"
 msgstr "Fortfahren..."
 
-#: src-en/data/events_sector_duskbringer.xml:539
+#: src-en/data/events_sector_duskbringer.xml:550
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_MFKHELP\"]/choice[1]/event/choice[3]/text"
 msgstr "Ich finde, dass du hübsch bist."
 
-#: src-en/data/events_sector_duskbringer.xml:541
+#: src-en/data/events_sector_duskbringer.xml:552
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_MFKHELP\"]/choice[1]/event/choice[3]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_duskbringer.xml:547
+#: src-en/data/events_sector_duskbringer.xml:558
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_MFKHELP\"]/choice[2]/text"
 msgstr "Greife das MFK Schiff an!"
 
-#: src-en/data/events_sector_duskbringer.xml:549
+#: src-en/data/events_sector_duskbringer.xml:560
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_MFKHELP\"]/choice[2]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_duskbringer.xml:552
+#: src-en/data/events_sector_duskbringer.xml:563
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_MFKHELP\"]/choice[2]/event/choice/text"
 msgstr "Fortfahren..."
 
-#: src-en/data/events_sector_duskbringer.xml:558
+#: src-en/data/events_sector_duskbringer.xml:569
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_MFKHELP\"]/choice[3]/text"
 msgstr "Ignoriere die Stadt und das Schiff."
 
-#: src-en/data/events_sector_duskbringer.xml:560
+#: src-en/data/events_sector_duskbringer.xml:571
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_MFKHELP\"]/choice[3]/event/text"
 msgstr "Es ist das Beste, einem MFK nicht näher zu kommen"
 
-#: src-en/data/events_sector_duskbringer.xml:562
+#: src-en/data/events_sector_duskbringer.xml:573
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_MFKHELP\"]/choice[3]/event/choice[1]/text"
 msgstr "Tue etwas an Bord des Schiffs."
 
-#: src-en/data/events_sector_duskbringer.xml:566
+#: src-en/data/events_sector_duskbringer.xml:577
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_MFKHELP\"]/choice[3]/event/choice[2]/text"
 msgstr "Nichts tun."
 
-#: src-en/data/events_sector_duskbringer.xml:574
+#: src-en/data/events_sector_duskbringer.xml:585
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_MFKHELP_GOOD\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_duskbringer.xml:583
+#: src-en/data/events_sector_duskbringer.xml:594
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_MFKHELP_GOOD_CREW\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_duskbringer.xml:593
+#: src-en/data/events_sector_duskbringer.xml:604
 msgid "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_DNA\"]/text"
 msgstr ""
 "In der Ferne auf dem sehr bevölkerten Planeten kannst du eine massive "
 "Duskbringerstruktur erkennen, welche durch einen Wald verdeckt und schwer "
 "gepanzert ist. Scanns zeigen, dass die Struktur viel Energie konsumiert."
 
-#: src-en/data/events_sector_duskbringer.xml:596
+#: src-en/data/events_sector_duskbringer.xml:607
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_DNA\"]/choice[@req=\"LIST_CHECK_ANY_CREW\""
 " and @lvl=\"1\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_duskbringer.xml:598
+#: src-en/data/events_sector_duskbringer.xml:609
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_DNA\"]/choice[@req=\"LIST_CHECK_ANY_CREW\""
 " and @lvl=\"1\"]/event/text"
@@ -881,66 +901,66 @@ msgstr ""
 "bis sie die Struktur erreichen, welche von zwei stark bewaffneten "
 "Duskbringersoldaten bewacht wird."
 
-#: src-en/data/events_sector_duskbringer.xml:600
+#: src-en/data/events_sector_duskbringer.xml:611
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_DNA\"]/choice[@req=\"LIST_CHECK_ANY_CREW\""
 " and @lvl=\"1\"]/event/choice[1]/text"
 msgstr "Schieße dich durch!"
 
-#: src-en/data/events_sector_duskbringer.xml:604
+#: src-en/data/events_sector_duskbringer.xml:615
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_DNA\"]/choice[@req=\"LIST_CHECK_ANY_CREW\""
 " and @lvl=\"1\"]/event/choice[2]/text"
 msgstr "Es ist zu riskant, gehe wieder."
 
-#: src-en/data/events_sector_duskbringer.xml:608
+#: src-en/data/events_sector_duskbringer.xml:619
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_DNA\"]/choice[@req=\"LIST_CHECK_ANY_CREW\""
 " and @lvl=\"1\"]/event/choice[@req=\"LIST_CREW_SABOTEUR\"]/text"
 msgstr "(Slug Saboteur) Schleiche dich rein."
 
-#: src-en/data/events_sector_duskbringer.xml:612
+#: src-en/data/events_sector_duskbringer.xml:623
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_DNA\"]/choice[@req=\"LIST_CHECK_ANY_CREW\""
 " and @lvl=\"1\"]/event/choice[@req=\"zoltan_monk\"]/text"
 msgstr "(Mönch Crew) Betäube die Wachen."
 
-#: src-en/data/events_sector_duskbringer.xml:616
+#: src-en/data/events_sector_duskbringer.xml:627
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_DNA\"]/choice[@req=\"LIST_CHECK_ANY_CREW\""
 " and @lvl=\"1\"]/event/choice[@req=\"LIST_CREW_DUSK\"]/text"
 msgstr "(Duskbringer Crew) Rede dich rein."
 
-#: src-en/data/events_sector_duskbringer.xml:622
+#: src-en/data/events_sector_duskbringer.xml:633
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_DNA\"]/choice[@req=\"LIST_CHECK_ANY_CREW\""
 " and @lvl=\"0\"]/text"
 msgstr ""
 "Du wirst auf keinen Fall alleine in die Nähe einer Duskbringer Anlage gehen."
 
-#: src-en/data/events_sector_duskbringer.xml:626
+#: src-en/data/events_sector_duskbringer.xml:637
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_DNA\"]/choice[3]/text"
 msgstr "Ignoriere das Gebäude."
 
-#: src-en/data/events_sector_duskbringer.xml:628
+#: src-en/data/events_sector_duskbringer.xml:639
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_DNA\"]/choice[3]/event/text"
 msgstr ""
 "Du bist nicht auf einer Selbstmordmission und solche riesen Strukturen sind "
 "nicht auf deiner To-Do Liste. Du fliegst am Planeten vorbei."
 
-#: src-en/data/events_sector_duskbringer.xml:630
+#: src-en/data/events_sector_duskbringer.xml:641
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_DNA\"]/choice[3]/event/choice[1]/text"
 msgstr "Tue etwas an Bord des Schiffs."
 
-#: src-en/data/events_sector_duskbringer.xml:634
+#: src-en/data/events_sector_duskbringer.xml:645
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_DNA\"]/choice[3]/event/choice[2]/text"
 msgstr "Nichts tun."
 
-#: src-en/data/events_sector_duskbringer.xml:642
+#: src-en/data/events_sector_duskbringer.xml:653
 msgid ""
 "data/events_sector_duskbringer.xml$//eventList[@name=\"DUSK_DNA_BREAKIN\"]/event[1]/text"
 msgstr ""
@@ -949,38 +969,38 @@ msgstr ""
 "Mitglied fällt verletzt zu Boden. Glücklichereweise kannst du sie "
 "ausschalten, bevor sie jemand anderes verletzen."
 
-#: src-en/data/events_sector_duskbringer.xml:645
+#: src-en/data/events_sector_duskbringer.xml:656
 msgid ""
 "data/events_sector_duskbringer.xml$//eventList[@name=\"DUSK_DNA_BREAKIN\"]/event[1]/removeCrew/text"
 msgstr ""
 "Glücklicherweise ist deine Crew am Leben und rennt zum Schiff zurück, um "
 "sich mit dir zu Treffen."
 
-#: src-en/data/events_sector_duskbringer.xml:648
+#: src-en/data/events_sector_duskbringer.xml:659
 msgid ""
 "data/events_sector_duskbringer.xml$//eventList[@name=\"DUSK_DNA_BREAKIN\"]/event[1]/choice/text"
 msgstr "Fortfahren..."
 
-#: src-en/data/events_sector_duskbringer.xml:653
+#: src-en/data/events_sector_duskbringer.xml:664
 msgid ""
 "data/events_sector_duskbringer.xml$//eventList[@name=\"DUSK_DNA_BREAKIN\"]/event[2]/text"
 msgstr ""
 "Deine Crew schafft es die Duskbringersoldaten leise auszuschalten. Sie gehen"
 " in das Gebäude..."
 
-#: src-en/data/events_sector_duskbringer.xml:655
+#: src-en/data/events_sector_duskbringer.xml:666
 msgid ""
 "data/events_sector_duskbringer.xml$//eventList[@name=\"DUSK_DNA_BREAKIN\"]/event[2]/choice/text"
 msgstr "Fortfahren..."
 
-#: src-en/data/events_sector_duskbringer.xml:662
+#: src-en/data/events_sector_duskbringer.xml:673
 msgid ""
 "data/events_sector_duskbringer.xml$//eventList[@name=\"DUSK_DNA_RETREAT\"]/event[1]/text"
 msgstr ""
 "Das mag vielleicht die schnelleste Neuordnung in Föderationsgeschichte sein,"
 " aber lieber sicher als tot."
 
-#: src-en/data/events_sector_duskbringer.xml:665
+#: src-en/data/events_sector_duskbringer.xml:676
 msgid ""
 "data/events_sector_duskbringer.xml$//eventList[@name=\"DUSK_DNA_RETREAT\"]/event[2]/text"
 msgstr ""
@@ -988,24 +1008,24 @@ msgstr ""
 "Duskbringerpatrouille überwacht! Es scheint als musst du gegen sie kämpfen, "
 "bevor du wieder gehen kannst."
 
-#: src-en/data/events_sector_duskbringer.xml:668
+#: src-en/data/events_sector_duskbringer.xml:679
 msgid ""
 "data/events_sector_duskbringer.xml$//eventList[@name=\"DUSK_DNA_RETREAT\"]/event[2]/choice/text"
 msgstr "Fortfahren..."
 
-#: src-en/data/events_sector_duskbringer.xml:674
+#: src-en/data/events_sector_duskbringer.xml:685
 msgid "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_DNA_INSIDE\"]/text"
 msgstr ""
 "Du gehst in das Gebäude herrein und bist überrascht, da du Reihen und Reihen"
 " von... Teströhren findest? Jede der Röhren hat ein digitales Label mit "
 "einer anderen Seriennummer."
 
-#: src-en/data/events_sector_duskbringer.xml:676
+#: src-en/data/events_sector_duskbringer.xml:687
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_DNA_INSIDE\"]/choice/text"
 msgstr "Fortfahren."
 
-#: src-en/data/events_sector_duskbringer.xml:678
+#: src-en/data/events_sector_duskbringer.xml:689
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_DNA_INSIDE\"]/choice/event/text"
 msgstr ""
@@ -1014,7 +1034,7 @@ msgstr ""
 "und mitnehmen oder schnell versuchen einen der Duskbringersoldaten zu "
 "klonen."
 
-#: src-en/data/events_sector_duskbringer.xml:680
+#: src-en/data/events_sector_duskbringer.xml:691
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_DNA_INSIDE\"]/choice/event/choice[@req=\"clonebay\""
 " and @lvl=\"0\"]/text"
@@ -1022,45 +1042,45 @@ msgstr ""
 "Schnapp dir die Klonungs-Technologie. [Installiert eine Klon-Kammer, gibt "
 "Backup DNS]"
 
-#: src-en/data/events_sector_duskbringer.xml:682
+#: src-en/data/events_sector_duskbringer.xml:693
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_DNA_INSIDE\"]/choice/event/choice[@req=\"clonebay\""
 " and @lvl=\"0\"]/event/text"
 msgstr ""
 "Du nimmst die Klontechnologie auseinander und bringst sie auf dein Schiff."
 
-#: src-en/data/events_sector_duskbringer.xml:686
+#: src-en/data/events_sector_duskbringer.xml:697
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_DNA_INSIDE\"]/choice/event/choice[@req=\"clonebay\""
 " and @lvl=\"0\"]/event/choice/text"
 msgstr "Fortfahren..."
 
-#: src-en/data/events_sector_duskbringer.xml:692
+#: src-en/data/events_sector_duskbringer.xml:703
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_DNA_INSIDE\"]/choice/event/choice[@req=\"clonebay\""
 " and @lvl=\"1\"]/text"
 msgstr ""
 "Schnapp dir die Klonungs-Technologie. [Backup DNS und ein Klonungs Upgrade]"
 
-#: src-en/data/events_sector_duskbringer.xml:694
+#: src-en/data/events_sector_duskbringer.xml:705
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_DNA_INSIDE\"]/choice/event/choice[@req=\"clonebay\""
 " and @lvl=\"1\"]/event/text"
 msgstr ""
 "Du nimmst die Klontechnologie auseinander und bringst sie auf dein Schiff."
 
-#: src-en/data/events_sector_duskbringer.xml:698
+#: src-en/data/events_sector_duskbringer.xml:709
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_DNA_INSIDE\"]/choice/event/choice[@req=\"clonebay\""
 " and @lvl=\"1\"]/event/choice/text"
 msgstr "Fortfahren..."
 
-#: src-en/data/events_sector_duskbringer.xml:704
+#: src-en/data/events_sector_duskbringer.xml:715
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_DNA_INSIDE\"]/choice/event/choice[@req=\"pilot\"]/text"
 msgstr "Klone einen Duskbringer Märtyrer."
 
-#: src-en/data/events_sector_duskbringer.xml:706
+#: src-en/data/events_sector_duskbringer.xml:717
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_DNA_INSIDE\"]/choice/event/choice[@req=\"pilot\"]/event/text"
 msgstr ""
@@ -1069,236 +1089,236 @@ msgstr ""
 "der Maschine geboren wird und verwirrt über die Umstande ist, erklärst du "
 "dass er nun zur Föderation gehört und machst dich zum gehen bereit."
 
-#: src-en/data/events_sector_duskbringer.xml:709
+#: src-en/data/events_sector_duskbringer.xml:720
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_DNA_INSIDE\"]/choice/event/choice[@req=\"pilot\"]/event/choice/text"
 msgstr "Fortfahren..."
 
-#: src-en/data/events_sector_duskbringer.xml:718
+#: src-en/data/events_sector_duskbringer.xml:729
 msgid "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_DNA_FIGHT\"]/text"
 msgstr ""
 "Als du die Struktur verlässt kommt eine Elite Duskbringerschiff auf dich zu "
 "und Sirenen gehen an. Sieht aus als wärst du doch nicht so unbemerkt "
 "gewesen!"
 
-#: src-en/data/events_sector_duskbringer.xml:721
+#: src-en/data/events_sector_duskbringer.xml:732
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_DNA_FIGHT\"]/choice/text"
 msgstr "Fortfahren..."
 
-#: src-en/data/events_sector_duskbringer.xml:732
+#: src-en/data/events_sector_duskbringer.xml:743
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"NEBULA_DUSK_INFILTRATION\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_duskbringer.xml:736
+#: src-en/data/events_sector_duskbringer.xml:747
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"NEBULA_DUSK_INFILTRATION\"]/choice/text"
 msgstr "Fortfahren..."
 
-#: src-en/data/events_sector_duskbringer.xml:738
+#: src-en/data/events_sector_duskbringer.xml:749
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"NEBULA_DUSK_INFILTRATION\"]/choice/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_duskbringer.xml:740
+#: src-en/data/events_sector_duskbringer.xml:751
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"NEBULA_DUSK_INFILTRATION\"]/choice/event/choice/text"
 msgstr "Du wirst was?"
 
-#: src-en/data/events_sector_duskbringer.xml:742
+#: src-en/data/events_sector_duskbringer.xml:753
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"NEBULA_DUSK_INFILTRATION\"]/choice/event/choice/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_duskbringer.xml:744
+#: src-en/data/events_sector_duskbringer.xml:755
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"NEBULA_DUSK_INFILTRATION\"]/choice/event/choice/event/choice[1]/text"
 msgstr "Wir machen mit."
 
-#: src-en/data/events_sector_duskbringer.xml:746
+#: src-en/data/events_sector_duskbringer.xml:757
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"NEBULA_DUSK_INFILTRATION\"]/choice/event/choice/event/choice[1]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_duskbringer.xml:748
+#: src-en/data/events_sector_duskbringer.xml:759
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"NEBULA_DUSK_INFILTRATION\"]/choice/event/choice/event/choice[1]/event/choice[1]/text"
 msgstr "Wir können Entern."
 
-#: src-en/data/events_sector_duskbringer.xml:750
+#: src-en/data/events_sector_duskbringer.xml:761
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"NEBULA_DUSK_INFILTRATION\"]/choice/event/choice/event/choice[1]/event/choice[1]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_duskbringer.xml:756
+#: src-en/data/events_sector_duskbringer.xml:767
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"NEBULA_DUSK_INFILTRATION\"]/choice/event/choice/event/choice[1]/event/choice[1]/event/choice/text"
 msgstr "Fortfahren..."
 
-#: src-en/data/events_sector_duskbringer.xml:762
+#: src-en/data/events_sector_duskbringer.xml:773
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"NEBULA_DUSK_INFILTRATION\"]/choice/event/choice/event/choice[1]/event/choice[2]/text"
 msgstr "Wir können helfen."
 
-#: src-en/data/events_sector_duskbringer.xml:764
+#: src-en/data/events_sector_duskbringer.xml:775
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"NEBULA_DUSK_INFILTRATION\"]/choice/event/choice/event/choice[1]/event/choice[2]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_duskbringer.xml:768
+#: src-en/data/events_sector_duskbringer.xml:779
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"NEBULA_DUSK_INFILTRATION\"]/choice/event/choice/event/choice[1]/event/choice[2]/event/triggeredEvent/triggeredEventBox/tooltip"
 msgstr "Zeit bis das Coalitionsschiff die Infiltration abgeschlossen hat."
 
-#: src-en/data/events_sector_duskbringer.xml:774
+#: src-en/data/events_sector_duskbringer.xml:785
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"NEBULA_DUSK_INFILTRATION\"]/choice/event/choice/event/choice[1]/event/choice[2]/event/choice/text"
 msgstr "Fortfahren..."
 
-#: src-en/data/events_sector_duskbringer.xml:782
+#: src-en/data/events_sector_duskbringer.xml:793
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"NEBULA_DUSK_INFILTRATION\"]/choice/event/choice/event/choice[2]/text"
 msgstr "Wir arbeiten nicht für die Coalition."
 
-#: src-en/data/events_sector_duskbringer.xml:784
+#: src-en/data/events_sector_duskbringer.xml:795
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"NEBULA_DUSK_INFILTRATION\"]/choice/event/choice/event/choice[2]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_duskbringer.xml:796
+#: src-en/data/events_sector_duskbringer.xml:807
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_INFILTRATION_SUCCESS\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_duskbringer.xml:800
+#: src-en/data/events_sector_duskbringer.xml:811
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_INFILTRATION_SUCCESS\"]/choice/text"
 msgstr "Fortfahren..."
 
-#: src-en/data/events_sector_duskbringer.xml:805
+#: src-en/data/events_sector_duskbringer.xml:816
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_INFILTRATION_SEARCH\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_duskbringer.xml:807
+#: src-en/data/events_sector_duskbringer.xml:818
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_INFILTRATION_SEARCH\"]/choice[1]/text"
 msgstr "Öffne das Labor."
 
-#: src-en/data/events_sector_duskbringer.xml:809
+#: src-en/data/events_sector_duskbringer.xml:820
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_INFILTRATION_SEARCH\"]/choice[1]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_duskbringer.xml:810
+#: src-en/data/events_sector_duskbringer.xml:821
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_INFILTRATION_SEARCH\"]/choice[1]/event/crewMember"
 msgstr "Oeden"
 
-#: src-en/data/events_sector_duskbringer.xml:814
+#: src-en/data/events_sector_duskbringer.xml:825
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_INFILTRATION_SEARCH\"]/choice[@req=\"sensors\"]/text"
 msgstr "(Erw. Sensoren) Scanne das Innere des Labors."
 
-#: src-en/data/events_sector_duskbringer.xml:818
+#: src-en/data/events_sector_duskbringer.xml:829
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_INFILTRATION_SEARCH\"]/choice[@req=\"ADV_SCANNERS\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_duskbringer.xml:822
+#: src-en/data/events_sector_duskbringer.xml:833
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_INFILTRATION_SEARCH\"]/choice[@req=\"LIST_CREW_SLUG\"]/text"
 msgstr "(Slug Crew) Spüre ob eine Falle im Labor ist."
 
-#: src-en/data/events_sector_duskbringer.xml:826
+#: src-en/data/events_sector_duskbringer.xml:837
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_INFILTRATION_SEARCH\"]/choice[@req=\"BLUELIST_CREW_SNAIL\"]/text"
 msgstr "(Telepathischer Shell) Spüre ob eine Falle im Labor ist."
 
-#: src-en/data/events_sector_duskbringer.xml:831
+#: src-en/data/events_sector_duskbringer.xml:842
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_INFILTRATION_LAB\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_duskbringer.xml:833
+#: src-en/data/events_sector_duskbringer.xml:844
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_INFILTRATION_LAB\"]/choice[1]/text"
 msgstr "Es gibt keinen Weg rein."
 
-#: src-en/data/events_sector_duskbringer.xml:835
+#: src-en/data/events_sector_duskbringer.xml:846
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_INFILTRATION_LAB\"]/choice[1]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_duskbringer.xml:836
+#: src-en/data/events_sector_duskbringer.xml:847
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_INFILTRATION_LAB\"]/choice[1]/event/crewMember"
 msgstr "Oeden"
 
-#: src-en/data/events_sector_duskbringer.xml:840
+#: src-en/data/events_sector_duskbringer.xml:851
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_INFILTRATION_LAB\"]/choice[@req=\"LIST_CREW_ELITE\"]/text"
 msgstr "(Elite Crew) Entschärfe die Bombe."
 
-#: src-en/data/events_sector_duskbringer.xml:844
+#: src-en/data/events_sector_duskbringer.xml:855
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_INFILTRATION_LAB\"]/choice[@req=\"BLUELIST_CREW_NODOORS\"]/text"
 msgstr "(Phasing Crew) Entschärfe die Bombe."
 
-#: src-en/data/events_sector_duskbringer.xml:849
+#: src-en/data/events_sector_duskbringer.xml:860
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_INFILTRATION_TECH\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_duskbringer.xml:854
+#: src-en/data/events_sector_duskbringer.xml:865
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"NEBULA_DUSK_PRISONERS\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_duskbringer.xml:857
+#: src-en/data/events_sector_duskbringer.xml:868
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"NEBULA_DUSK_PRISONERS\"]/choice[1]/text"
 msgstr "Greife an und rette die Gefangenen!"
 
-#: src-en/data/events_sector_duskbringer.xml:861
+#: src-en/data/events_sector_duskbringer.xml:872
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"NEBULA_DUSK_PRISONERS\"]/choice[@req=\"teleporter\"]/text"
 msgstr "(Teleporter) Teleportiere dich unbemerkt rein."
 
-#: src-en/data/events_sector_duskbringer.xml:865
+#: src-en/data/events_sector_duskbringer.xml:876
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"NEBULA_DUSK_PRISONERS\"]/choice[@req=\"LOCKED_GLOBAL_TELEPORT\"]/text"
 msgstr "(Zentraler Teleporter) Beame dich unbemerkt an Bord."
 
-#: src-en/data/events_sector_duskbringer.xml:869
+#: src-en/data/events_sector_duskbringer.xml:880
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"NEBULA_DUSK_PRISONERS\"]/choice[@req=\"cloaking\"]/text"
 msgstr "(Tarnung) Tarne dich und sende deine Crew unbemerkt rein."
 
-#: src-en/data/events_sector_duskbringer.xml:873
+#: src-en/data/events_sector_duskbringer.xml:884
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"NEBULA_DUSK_PRISONERS\"]/choice[5]/text"
 msgstr "Wir können es nicht riskieren."
 
-#: src-en/data/events_sector_duskbringer.xml:875
+#: src-en/data/events_sector_duskbringer.xml:886
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"NEBULA_DUSK_PRISONERS\"]/choice[5]/event/text"
 msgstr ""
 "Egal wie verlockend es ist, es gibt keinen Weg wie du es schaffen könntest. "
 "Du lässt das Gefängnis hinter dir."
 
-#: src-en/data/events_sector_duskbringer.xml:877
+#: src-en/data/events_sector_duskbringer.xml:888
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"NEBULA_DUSK_PRISONERS\"]/choice[5]/event/choice[1]/text"
 msgstr "Tue etwas an Bord des Schiffs."
 
-#: src-en/data/events_sector_duskbringer.xml:881
+#: src-en/data/events_sector_duskbringer.xml:892
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"NEBULA_DUSK_PRISONERS\"]/choice[5]/event/choice[2]/text"
 msgstr "Nichts tun."
 
-#: src-en/data/events_sector_duskbringer.xml:889
+#: src-en/data/events_sector_duskbringer.xml:900
 msgid ""
 "data/events_sector_duskbringer.xml$//eventList[@name=\"DUSK_PRISONERS_RISKY\"]/event[1]/text"
 msgstr ""
@@ -1306,19 +1326,19 @@ msgstr ""
 " Ein Sicherheitssystem sprengt ein Loch in deine Hülle und Soldaten "
 "teleportieren sich auf dein Schiff, bevor du weg fliegen kannst!"
 
-#: src-en/data/events_sector_duskbringer.xml:894
+#: src-en/data/events_sector_duskbringer.xml:905
 msgid ""
 "data/events_sector_duskbringer.xml$//eventList[@name=\"DUSK_PRISONERS_RISKY\"]/event[2]/text"
 msgstr ""
 "Es ist riskant, aber du schaffst es mit roher Gewalt in das Gebäude zu "
 "kommen."
 
-#: src-en/data/events_sector_duskbringer.xml:896
+#: src-en/data/events_sector_duskbringer.xml:907
 msgid ""
 "data/events_sector_duskbringer.xml$//eventList[@name=\"DUSK_PRISONERS_RISKY\"]/event[2]/choice/text"
 msgstr "Fortfahren..."
 
-#: src-en/data/events_sector_duskbringer.xml:902
+#: src-en/data/events_sector_duskbringer.xml:913
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_PRISONERS_SUCCESS\"]/text"
 msgstr ""
@@ -1328,12 +1348,12 @@ msgstr ""
 " hast nur eine gewisse Zeit, bis die Wachen dich schnappen, wobei du "
 "vielleicht ein paar von den Leuten hier rausholen kannst."
 
-#: src-en/data/events_sector_duskbringer.xml:904
+#: src-en/data/events_sector_duskbringer.xml:915
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_PRISONERS_SUCCESS\"]/choice[1]/text"
 msgstr "Rette einen Ministry Friedenserhalter."
 
-#: src-en/data/events_sector_duskbringer.xml:906
+#: src-en/data/events_sector_duskbringer.xml:917
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_PRISONERS_SUCCESS\"]/choice[1]/event/text"
 msgstr ""
@@ -1344,17 +1364,17 @@ msgstr ""
 "an zu tönen und die Duskbringer kommen auf dich zu. Es gibt keine Zeit für "
 "Willkommensrunden, du musst hier raus und zwar schnell!"
 
-#: src-en/data/events_sector_duskbringer.xml:909
+#: src-en/data/events_sector_duskbringer.xml:920
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_PRISONERS_SUCCESS\"]/choice[1]/event/choice/text"
 msgstr "Hau ab!"
 
-#: src-en/data/events_sector_duskbringer.xml:915
+#: src-en/data/events_sector_duskbringer.xml:926
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_PRISONERS_SUCCESS\"]/choice[2]/text"
 msgstr "Rette einen der Föderations Sanitäter."
 
-#: src-en/data/events_sector_duskbringer.xml:917
+#: src-en/data/events_sector_duskbringer.xml:928
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_PRISONERS_SUCCESS\"]/choice[2]/event/text"
 msgstr ""
@@ -1366,17 +1386,17 @@ msgstr ""
 "Alarm an zu tönen und die Duskbringer kommen auf dich zu. Es gibt keine Zeit"
 " für Willkommensrunden, du musst hier raus und zwar schnell!"
 
-#: src-en/data/events_sector_duskbringer.xml:920
+#: src-en/data/events_sector_duskbringer.xml:931
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_PRISONERS_SUCCESS\"]/choice[2]/event/choice/text"
 msgstr "Hau ab!"
 
-#: src-en/data/events_sector_duskbringer.xml:926
+#: src-en/data/events_sector_duskbringer.xml:937
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_PRISONERS_SUCCESS\"]/choice[3]/text"
 msgstr "Rette einen der Theocracy Kreuzritter."
 
-#: src-en/data/events_sector_duskbringer.xml:928
+#: src-en/data/events_sector_duskbringer.xml:939
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_PRISONERS_SUCCESS\"]/choice[3]/event/text"
 msgstr ""
@@ -1388,12 +1408,12 @@ msgstr ""
 "und die Duskbringer kommen auf dich zu. Es gibt keine Zeit für "
 "Willkommensrunden, du musst hier raus und zwar schnell!"
 
-#: src-en/data/events_sector_duskbringer.xml:931
+#: src-en/data/events_sector_duskbringer.xml:942
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_PRISONERS_SUCCESS\"]/choice[3]/event/choice/text"
 msgstr "Hau ab!"
 
-#: src-en/data/events_sector_duskbringer.xml:938
+#: src-en/data/events_sector_duskbringer.xml:949
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_PRISONERS_LEAVE\"]/text"
 msgstr ""
@@ -1401,12 +1421,12 @@ msgstr ""
 "hinterher. Es ist ein Elite-Gefangenentransporter und sie sind sehr "
 "unglücklich. Mach dich zum Kampf bereit!"
 
-#: src-en/data/events_sector_duskbringer.xml:941
+#: src-en/data/events_sector_duskbringer.xml:952
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_PRISONERS_LEAVE\"]/choice/text"
 msgstr "Fortfahren..."
 
-#: src-en/data/events_sector_duskbringer.xml:962
+#: src-en/data/events_sector_duskbringer.xml:973
 msgid "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_YOUNG\"]/text"
 msgstr ""
 "Ein sehr junger Duskbringer, wahrscheinlich noch nichtmal erwachsen, rast "
@@ -1418,12 +1438,12 @@ msgstr ""
 "Duskbringer werden, der jemals existiert hat, ja? Zitterst du jetzt schon in"
 " deinen Stiefeln, ja?\""
 
-#: src-en/data/events_sector_duskbringer.xml:965
+#: src-en/data/events_sector_duskbringer.xml:976
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_YOUNG\"]/choice[1]/text"
 msgstr "Bist du nicht etwas jung, um ein Soldat zu sein?"
 
-#: src-en/data/events_sector_duskbringer.xml:967
+#: src-en/data/events_sector_duskbringer.xml:978
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_YOUNG\"]/choice[1]/event/text"
 msgstr ""
@@ -1433,12 +1453,12 @@ msgstr ""
 "echter verdammter Held, jeder liebt mich, ja? Nun fang an zu zittern, "
 "Schwein!\""
 
-#: src-en/data/events_sector_duskbringer.xml:969
+#: src-en/data/events_sector_duskbringer.xml:980
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_YOUNG\"]/choice[1]/event/choice[1]/text"
 msgstr "Macht dich das nicht zu einem Soldaten?"
 
-#: src-en/data/events_sector_duskbringer.xml:971
+#: src-en/data/events_sector_duskbringer.xml:982
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_YOUNG\"]/choice[1]/event/choice[1]/event/text"
 msgstr ""
@@ -1449,17 +1469,17 @@ msgstr ""
 "eine glorreiche Zukunft, Schwein? Genug geredet, ja? Ich werde dir zeigen, "
 "was eine glorreiche Zukunft heißt!\""
 
-#: src-en/data/events_sector_duskbringer.xml:974
+#: src-en/data/events_sector_duskbringer.xml:985
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_YOUNG\"]/choice[1]/event/choice[1]/event/choice/text"
 msgstr "Fortfahren..."
 
-#: src-en/data/events_sector_duskbringer.xml:980
+#: src-en/data/events_sector_duskbringer.xml:991
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_YOUNG\"]/choice[1]/event/choice[2]/text"
 msgstr "Tue so, als ob du Angst hättest."
 
-#: src-en/data/events_sector_duskbringer.xml:982
+#: src-en/data/events_sector_duskbringer.xml:993
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_YOUNG\"]/choice[1]/event/choice[2]/event/text"
 msgstr ""
@@ -1467,12 +1487,12 @@ msgstr ""
 " Ihr Renegades seid alle ein Haufen Feiglinge! Ich fühle Mitleid für dich, "
 "Schwein. Hier nimm doch etwas Mitleids-Schrott, ja? Hah!\""
 
-#: src-en/data/events_sector_duskbringer.xml:984
+#: src-en/data/events_sector_duskbringer.xml:995
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_YOUNG\"]/choice[1]/event/choice[2]/event/choice[1]/text"
 msgstr "Nehme den Mitleids-Schrott."
 
-#: src-en/data/events_sector_duskbringer.xml:986
+#: src-en/data/events_sector_duskbringer.xml:997
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_YOUNG\"]/choice[1]/event/choice[2]/event/choice[1]/event/text"
 msgstr ""
@@ -1480,51 +1500,51 @@ msgstr ""
 "Schwein!\" Du kannst etwas Erleichterung in der Stimme des Zoltans hören, "
 "als ob er froh wäre nicht gegen dich gekämpft haben zu müssen."
 
-#: src-en/data/events_sector_duskbringer.xml:991
+#: src-en/data/events_sector_duskbringer.xml:1002
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_YOUNG\"]/choice[1]/event/choice[2]/event/choice[2]/text"
 msgstr "Vergelte die Beleidigung und kämpfe!"
 
-#: src-en/data/events_sector_duskbringer.xml:993
+#: src-en/data/events_sector_duskbringer.xml:1004
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_YOUNG\"]/choice[1]/event/choice[2]/event/choice[2]/event/text"
 msgstr ""
 "\"Oh jetzt hast du ein Problem, Schwein! Mache dich bereit dein Ende zu "
 "treffen!\""
 
-#: src-en/data/events_sector_duskbringer.xml:996
+#: src-en/data/events_sector_duskbringer.xml:1007
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_YOUNG\"]/choice[1]/event/choice[2]/event/choice[2]/event/choice/text"
 msgstr "Fortfahren..."
 
-#: src-en/data/events_sector_duskbringer.xml:1006
+#: src-en/data/events_sector_duskbringer.xml:1017
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_YOUNG\"]/choice[2]/text"
 msgstr "Sage nichts und beginne den Kampf."
 
-#: src-en/data/events_sector_duskbringer.xml:1008
+#: src-en/data/events_sector_duskbringer.xml:1019
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_YOUNG\"]/choice[2]/event/text"
 msgstr ""
 "Es gibt keinen Grund hier Zeit zu verschwenden. Du fährst die Waffen hoch "
 "und machst dich zum Kampf bereit."
 
-#: src-en/data/events_sector_duskbringer.xml:1011
+#: src-en/data/events_sector_duskbringer.xml:1022
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_YOUNG\"]/choice[2]/event/choice/text"
 msgstr "Fortfahren..."
 
-#: src-en/data/events_sector_duskbringer.xml:1017
+#: src-en/data/events_sector_duskbringer.xml:1028
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_YOUNG\"]/choice[@req=\"unique_devorak\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_duskbringer.xml:1019
+#: src-en/data/events_sector_duskbringer.xml:1030
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_YOUNG\"]/choice[@req=\"unique_devorak\"]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_duskbringer.xml:1032
+#: src-en/data/events_sector_duskbringer.xml:1043
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_YOUNG_SURRENDER\"]/text"
 msgstr ""
@@ -1534,12 +1554,12 @@ msgstr ""
 "kommen, um dich zu besiegen, für das was du hier getan hast, glaub mir! Aber"
 " da du dich bewiesen hast, werde ich dir Mitleid zeigen!\""
 
-#: src-en/data/events_sector_duskbringer.xml:1034
+#: src-en/data/events_sector_duskbringer.xml:1045
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_YOUNG_SURRENDER\"]/choice[1]/text"
 msgstr "Akzeptiere sein Mitleid."
 
-#: src-en/data/events_sector_duskbringer.xml:1036
+#: src-en/data/events_sector_duskbringer.xml:1047
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_YOUNG_SURRENDER\"]/choice[1]/event/text"
 msgstr ""
@@ -1547,12 +1567,12 @@ msgstr ""
 "gehst, solltest du nachdenken, ja? Hier gibt es keinen Platz für Schweine, "
 "ja?!\""
 
-#: src-en/data/events_sector_duskbringer.xml:1042
+#: src-en/data/events_sector_duskbringer.xml:1053
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_YOUNG_SURRENDER\"]/choice[2]/text"
 msgstr "Sage nichts, aber verschone ihn."
 
-#: src-en/data/events_sector_duskbringer.xml:1044
+#: src-en/data/events_sector_duskbringer.xml:1055
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_YOUNG_SURRENDER\"]/choice[2]/event/text"
 msgstr ""
@@ -1561,12 +1581,12 @@ msgstr ""
 "großes Ziel, ja? Wenn du nicht mein Geld nimmst, wieso verschonst du mich "
 "dann?\""
 
-#: src-en/data/events_sector_duskbringer.xml:1047
+#: src-en/data/events_sector_duskbringer.xml:1058
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_YOUNG_SURRENDER\"]/choice[2]/event/choice[1]/text"
 msgstr "Du bist kein Duskbringer oder Soldat. Du bist nur ein Kind."
 
-#: src-en/data/events_sector_duskbringer.xml:1049
+#: src-en/data/events_sector_duskbringer.xml:1060
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_YOUNG_SURRENDER\"]/choice[2]/event/choice[1]/event/text"
 msgstr ""
@@ -1580,14 +1600,14 @@ msgstr ""
 "in die andere Richtung geflogen bist, ja? Glaube nicht dass es ein Gefallen "
 "ist, Schwein, es hilft einfach meiner Organisation.\""
 
-#: src-en/data/events_sector_duskbringer.xml:1054
+#: src-en/data/events_sector_duskbringer.xml:1065
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_YOUNG_SURRENDER\"]/choice[2]/event/choice[2]/text"
 msgstr ""
 "Schmeichele ihm - Du bist ein zu wichtiges Ziel und ich möchte nicht, dass "
 "die Duskbringer mich verfolgen."
 
-#: src-en/data/events_sector_duskbringer.xml:1056
+#: src-en/data/events_sector_duskbringer.xml:1067
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_YOUNG_SURRENDER\"]/choice[2]/event/choice[2]/event/text"
 msgstr ""
@@ -1596,12 +1616,12 @@ msgstr ""
 " Schwein. Ich stehe hinter dir! Wir schlauen Leute müssen zusammenhalten, "
 "ich halte die Duskbringer davon ab, zu gemein zu dir zu sein, ja?\""
 
-#: src-en/data/events_sector_duskbringer.xml:1063
+#: src-en/data/events_sector_duskbringer.xml:1074
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_YOUNG_SURRENDER\"]/choice[3]/text"
 msgstr "Töte sie."
 
-#: src-en/data/events_sector_duskbringer.xml:1069
+#: src-en/data/events_sector_duskbringer.xml:1080
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_SNEAKYREBEL\"]/text"
 msgstr ""
@@ -1609,22 +1629,22 @@ msgstr ""
 "Ferne dir ins Auge fällt. Es sieht wie ein MV Rebellenschiff aus, dass nicht"
 " bemerkt werden will."
 
-#: src-en/data/events_sector_duskbringer.xml:1071
+#: src-en/data/events_sector_duskbringer.xml:1082
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_SNEAKYREBEL\"]/choice[1]/text"
 msgstr "Versuche ihm unbemerkt zu folgen."
 
-#: src-en/data/events_sector_duskbringer.xml:1075
+#: src-en/data/events_sector_duskbringer.xml:1086
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_SNEAKYREBEL\"]/choice[@req=\"cloaking\"]/text"
 msgstr "(Tarnung) Folge ihnen."
 
-#: src-en/data/events_sector_duskbringer.xml:1079
+#: src-en/data/events_sector_duskbringer.xml:1090
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_SNEAKYREBEL\"]/choice[3]/text"
 msgstr "Rufe das Schiff."
 
-#: src-en/data/events_sector_duskbringer.xml:1081
+#: src-en/data/events_sector_duskbringer.xml:1092
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_SNEAKYREBEL\"]/choice[3]/event/text"
 msgstr ""
@@ -1637,75 +1657,75 @@ msgstr ""
 "Duskbringer Außenposten in diesem Sektor zu bringen. Wir können ein paar "
 "abgeben, wenn es dich zufrieden stellt.\""
 
-#: src-en/data/events_sector_duskbringer.xml:1084
+#: src-en/data/events_sector_duskbringer.xml:1095
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_SNEAKYREBEL\"]/choice[3]/event/choice[1]/text"
 msgstr "Nehme die Bestechung an."
 
-#: src-en/data/events_sector_duskbringer.xml:1090
+#: src-en/data/events_sector_duskbringer.xml:1101
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_SNEAKYREBEL\"]/choice[3]/event/choice[2]/text"
 msgstr ""
 "Ex-Rebell oder nicht, wir lassen keine Güter in die Hände der Duskbringer "
 "fallen!"
 
-#: src-en/data/events_sector_duskbringer.xml:1092
+#: src-en/data/events_sector_duskbringer.xml:1103
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_SNEAKYREBEL\"]/choice[3]/event/choice[2]/event/text"
 msgstr "Du fährst die Waffen hoch und machst dich zum Kampf bereit."
 
-#: src-en/data/events_sector_duskbringer.xml:1095
+#: src-en/data/events_sector_duskbringer.xml:1106
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_SNEAKYREBEL\"]/choice[3]/event/choice[2]/event/choice/text"
 msgstr "Fortfahren..."
 
-#: src-en/data/events_sector_duskbringer.xml:1103
+#: src-en/data/events_sector_duskbringer.xml:1114
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_SNEAKYREBEL\"]/choice[4]/text"
 msgstr "Greife die Rebellen an."
 
-#: src-en/data/events_sector_duskbringer.xml:1105
+#: src-en/data/events_sector_duskbringer.xml:1116
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_SNEAKYREBEL\"]/choice[4]/event/text"
 msgstr ""
 "Der Rebellen Kapitän versucht zu protestieren, als du die Waffen hochfährst,"
 " aber es ist zu spät. Sie haben dich bereits anvisiert und feuern!"
 
-#: src-en/data/events_sector_duskbringer.xml:1108
+#: src-en/data/events_sector_duskbringer.xml:1119
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_SNEAKYREBEL\"]/choice[4]/event/choice/text"
 msgstr "Fortfahren..."
 
-#: src-en/data/events_sector_duskbringer.xml:1114
+#: src-en/data/events_sector_duskbringer.xml:1125
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_SNEAKYREBEL\"]/choice[5]/text"
 msgstr "Ignoriere das Rebellenschiff."
 
-#: src-en/data/events_sector_duskbringer.xml:1116
+#: src-en/data/events_sector_duskbringer.xml:1127
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_SNEAKYREBEL\"]/choice[5]/event/text"
 msgstr ""
 "Es ist eine schlechte Idee, Rebellen in ein solch gefährliches Territorium "
 "zu folgen."
 
-#: src-en/data/events_sector_duskbringer.xml:1118
+#: src-en/data/events_sector_duskbringer.xml:1129
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_SNEAKYREBEL\"]/choice[5]/event/choice[1]/text"
 msgstr "Tue etwas an Bord des Schiffs."
 
-#: src-en/data/events_sector_duskbringer.xml:1122
+#: src-en/data/events_sector_duskbringer.xml:1133
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_SNEAKYREBEL\"]/choice[5]/event/choice[2]/text"
 msgstr "Nichts tun."
 
-#: src-en/data/events_sector_duskbringer.xml:1131
+#: src-en/data/events_sector_duskbringer.xml:1142
 msgid ""
 "data/events_sector_duskbringer.xml$//eventList[@name=\"DUSK_SNEAKYREBEL_FOLLOW\"]/event[2]/text"
 msgstr ""
 "Dein Versuch den Rebellen zu folgen funktioniert nicht. Du wirst leicht "
 "bemerkt und das Schiff springt sofort weg."
 
-#: src-en/data/events_sector_duskbringer.xml:1135
+#: src-en/data/events_sector_duskbringer.xml:1146
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_SNEAKYREBEL_FOLLOW_GOOD\"]/text"
 msgstr ""
@@ -1720,12 +1740,12 @@ msgstr ""
 "Es scheint dass sie in Wahrheit Teil der lokalen Rebellion sind, welche "
 "immernoch die Duskbringer unterstützen."
 
-#: src-en/data/events_sector_duskbringer.xml:1137
+#: src-en/data/events_sector_duskbringer.xml:1148
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_SNEAKYREBEL_FOLLOW_GOOD\"]/choice[1]/text"
 msgstr "Warte und stehle ein paar Güter."
 
-#: src-en/data/events_sector_duskbringer.xml:1139
+#: src-en/data/events_sector_duskbringer.xml:1150
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_SNEAKYREBEL_FOLLOW_GOOD\"]/choice[1]/event/text"
 msgstr ""
@@ -1734,17 +1754,17 @@ msgstr ""
 " die Duskbringer besser vorbereitet als du gedacht hast und verteidigen sich"
 " selbst!"
 
-#: src-en/data/events_sector_duskbringer.xml:1143
+#: src-en/data/events_sector_duskbringer.xml:1154
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_SNEAKYREBEL_FOLLOW_GOOD\"]/choice[1]/event/choice/text"
 msgstr "Fortfahren..."
 
-#: src-en/data/events_sector_duskbringer.xml:1149
+#: src-en/data/events_sector_duskbringer.xml:1160
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_SNEAKYREBEL_FOLLOW_GOOD\"]/choice[2]/text"
 msgstr "Gehe wieder."
 
-#: src-en/data/events_sector_duskbringer.xml:1155
+#: src-en/data/events_sector_duskbringer.xml:1166
 msgid "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_HARASS\"]/text"
 msgstr ""
 "Ein Mönch Konvoi wird von einem schwer beschädigten Ministryschiff "
@@ -1753,12 +1773,12 @@ msgstr ""
 "es dass die Duskbringer die Präsenz des Ministryschiffes nutzen, um die "
 "Mönche zu belästigen."
 
-#: src-en/data/events_sector_duskbringer.xml:1158
+#: src-en/data/events_sector_duskbringer.xml:1169
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_HARASS\"]/choice[1]/text"
 msgstr "Beschütze die Mönche."
 
-#: src-en/data/events_sector_duskbringer.xml:1160
+#: src-en/data/events_sector_duskbringer.xml:1171
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_HARASS\"]/choice[1]/event/text"
 msgstr ""
@@ -1766,22 +1786,22 @@ msgstr ""
 "diese Mönche zu beschützen?\" Das Duskbringerschiff fährt die Verteidigungen"
 " hoch und macht sich bereit, um sich gegen dich zu verteidigen."
 
-#: src-en/data/events_sector_duskbringer.xml:1163
+#: src-en/data/events_sector_duskbringer.xml:1174
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_HARASS\"]/choice[1]/event/choice/text"
 msgstr "Fortfahren..."
 
-#: src-en/data/events_sector_duskbringer.xml:1169
+#: src-en/data/events_sector_duskbringer.xml:1180
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_HARASS\"]/choice[2]/text"
 msgstr "Bedrohe die Duskbringer, dass sie aufhören sollen."
 
-#: src-en/data/events_sector_duskbringer.xml:1173
+#: src-en/data/events_sector_duskbringer.xml:1184
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_HARASS\"]/choice[@req=\"LIST_CREW_DUSK\"]/text"
 msgstr "(Duskbringer Crew) Zügele die Duskbringer."
 
-#: src-en/data/events_sector_duskbringer.xml:1175
+#: src-en/data/events_sector_duskbringer.xml:1186
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_HARASS\"]/choice[@req=\"LIST_CREW_DUSK\"]/event/text"
 msgstr ""
@@ -1792,32 +1812,32 @@ msgstr ""
 "anderen Duskbringer senken ihre Köpfe voll Scham und kehren zu ihrem Schiff "
 "zurück, ohne irgend welches Blut zu vergießen."
 
-#: src-en/data/events_sector_duskbringer.xml:1177
+#: src-en/data/events_sector_duskbringer.xml:1188
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_HARASS\"]/choice[@req=\"LIST_CREW_DUSK\"]/event/choice/text"
 msgstr "Kontaktiere die Mönche."
 
-#: src-en/data/events_sector_duskbringer.xml:1183
+#: src-en/data/events_sector_duskbringer.xml:1194
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_HARASS\"]/choice[4]/text"
 msgstr "Ignoriere den Konvoi."
 
-#: src-en/data/events_sector_duskbringer.xml:1185
+#: src-en/data/events_sector_duskbringer.xml:1196
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_HARASS\"]/choice[4]/event/text"
 msgstr "Es ist nicht deine Pflicht, eine Gruppe von Mönchen zu beschützen."
 
-#: src-en/data/events_sector_duskbringer.xml:1187
+#: src-en/data/events_sector_duskbringer.xml:1198
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_HARASS\"]/choice[4]/event/choice[1]/text"
 msgstr "Tue etwas an Bord des Schiffs."
 
-#: src-en/data/events_sector_duskbringer.xml:1191
+#: src-en/data/events_sector_duskbringer.xml:1202
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_HARASS\"]/choice[4]/event/choice[2]/text"
 msgstr "Nichts tun."
 
-#: src-en/data/events_sector_duskbringer.xml:1199
+#: src-en/data/events_sector_duskbringer.xml:1210
 msgid ""
 "data/events_sector_duskbringer.xml$//eventList[@name=\"DUSK_HARASS_THREAT\"]/event[1]/text"
 msgstr ""
@@ -1826,24 +1846,24 @@ msgstr ""
 " wer kommen und gehen darf! Keiner bedroht die Duskbringer, besonders nicht "
 "in unserem Raum!\""
 
-#: src-en/data/events_sector_duskbringer.xml:1203
+#: src-en/data/events_sector_duskbringer.xml:1214
 msgid ""
 "data/events_sector_duskbringer.xml$//eventList[@name=\"DUSK_HARASS_THREAT\"]/event[1]/choice/text"
 msgstr "Fortfahren..."
 
-#: src-en/data/events_sector_duskbringer.xml:1208
+#: src-en/data/events_sector_duskbringer.xml:1219
 msgid ""
 "data/events_sector_duskbringer.xml$//eventList[@name=\"DUSK_HARASS_THREAT\"]/event[2]/text"
 msgstr ""
 "Überrascht gefunden worden zu sein, geben die Duskbringer sofort auf, wobei "
 "sie eine dürftige Bestechung entsenden, bevor sie wegspringen."
 
-#: src-en/data/events_sector_duskbringer.xml:1211
+#: src-en/data/events_sector_duskbringer.xml:1222
 msgid ""
 "data/events_sector_duskbringer.xml$//eventList[@name=\"DUSK_HARASS_THREAT\"]/event[2]/choice/text"
 msgstr "Kontaktiere die Mönche."
 
-#: src-en/data/events_sector_duskbringer.xml:1218
+#: src-en/data/events_sector_duskbringer.xml:1229
 msgid ""
 "data/events_sector_duskbringer.xml$//eventList[@name=\"DUSK_HARASS_WIN\"]/event[1]/text"
 msgstr ""
@@ -1852,7 +1872,7 @@ msgstr ""
 "der Friedenserhalter der sie eskortiert hat in einem besseren Zustand und "
 "bietet dir eine Belohnung an, dafür dass du sie gerettet hast."
 
-#: src-en/data/events_sector_duskbringer.xml:1222
+#: src-en/data/events_sector_duskbringer.xml:1233
 msgid ""
 "data/events_sector_duskbringer.xml$//eventList[@name=\"DUSK_HARASS_WIN\"]/event[2]/text"
 msgstr ""
@@ -1861,87 +1881,88 @@ msgstr ""
 "haben die Mönche keinen anderen Ort an den sie gehen können und bitten dich,"
 " ob sie mit dir kommen dürfen."
 
-#: src-en/data/events_sector_duskbringer.xml:1228
+#: src-en/data/events_sector_duskbringer.xml:1239
+#, fuzzy
 msgid "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_TEAMUP\"]/text"
 msgstr ""
 "Du hast kaum Zeit dich zu fassen, da das Gebiet um diesen Signalpunkt in "
 "Chaos ist. Ein Duskbringer, ein Rebelleneliteschiff, ein Rockschiff und ein "
 "Zoltanschiff sind in der Mitte eines Kampfes."
 
-#: src-en/data/events_sector_duskbringer.xml:1230
+#: src-en/data/events_sector_duskbringer.xml:1241
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_TEAMUP\"]/choice[1]/text"
 msgstr "Kämpfe gegen das Rebelleneliteschiff."
 
-#: src-en/data/events_sector_duskbringer.xml:1232
+#: src-en/data/events_sector_duskbringer.xml:1243
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_TEAMUP\"]/choice[1]/event/text"
 msgstr ""
 "Schüsse kommen von allen Seiten, als du in den Kampf eintrittst, um gegen "
 "die Rebellen zu kämpfen."
 
-#: src-en/data/events_sector_duskbringer.xml:1237
+#: src-en/data/events_sector_duskbringer.xml:1248
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_TEAMUP\"]/choice[1]/event/choice/text"
 msgstr "Fortfahren..."
 
-#: src-en/data/events_sector_duskbringer.xml:1243
+#: src-en/data/events_sector_duskbringer.xml:1254
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_TEAMUP\"]/choice[2]/text"
 msgstr "Kämpfe gegen das Duskbringerschiff."
 
-#: src-en/data/events_sector_duskbringer.xml:1245
+#: src-en/data/events_sector_duskbringer.xml:1256
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_TEAMUP\"]/choice[2]/event/text"
 msgstr ""
 "Schüsse kommen von allen Seiten, als du in den Kampf eintrittst, um gegen "
 "die Duskbringer zu kämpfen."
 
-#: src-en/data/events_sector_duskbringer.xml:1250
+#: src-en/data/events_sector_duskbringer.xml:1261
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_TEAMUP\"]/choice[2]/event/choice/text"
 msgstr "Fortfahren..."
 
-#: src-en/data/events_sector_duskbringer.xml:1256
+#: src-en/data/events_sector_duskbringer.xml:1267
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_TEAMUP\"]/choice[3]/text"
 msgstr "Kämpfe gegen das Zoltanschiff."
 
-#: src-en/data/events_sector_duskbringer.xml:1258
+#: src-en/data/events_sector_duskbringer.xml:1269
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_TEAMUP\"]/choice[3]/event/text"
 msgstr ""
 "Schüsse kommen von allen Seiten, als du in den Kampf eintrittst, um gegen "
 "die Zoltans zu kämpfen."
 
-#: src-en/data/events_sector_duskbringer.xml:1263
+#: src-en/data/events_sector_duskbringer.xml:1274
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_TEAMUP\"]/choice[3]/event/choice/text"
 msgstr "Fortfahren..."
 
-#: src-en/data/events_sector_duskbringer.xml:1269
+#: src-en/data/events_sector_duskbringer.xml:1280
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_TEAMUP\"]/choice[4]/text"
 msgstr "Kämpfe gegen das Rockschiff."
 
-#: src-en/data/events_sector_duskbringer.xml:1271
+#: src-en/data/events_sector_duskbringer.xml:1282
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_TEAMUP\"]/choice[4]/event/text"
 msgstr ""
 "Schüsse kommen von allen Seiten, als du in den Kampf eintrittst, um gegen "
 "die Rocks zu kämpfen."
 
-#: src-en/data/events_sector_duskbringer.xml:1276
+#: src-en/data/events_sector_duskbringer.xml:1287
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_TEAMUP\"]/choice[4]/event/choice/text"
 msgstr "Fortfahren..."
 
-#: src-en/data/events_sector_duskbringer.xml:1282
+#: src-en/data/events_sector_duskbringer.xml:1293
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_TEAMUP\"]/choice[5]/text"
 msgstr "Hau verdammt nochmal ab."
 
-#: src-en/data/events_sector_duskbringer.xml:1284
+#: src-en/data/events_sector_duskbringer.xml:1295
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_TEAMUP\"]/choice[5]/event/text"
 msgstr ""
@@ -1949,7 +1970,7 @@ msgstr ""
 "\"Feigling!\" über die Kommunikationssysteme, aber bist weit genug weg, dass"
 " sie dich nicht erreichen können."
 
-#: src-en/data/events_sector_duskbringer.xml:1289
+#: src-en/data/events_sector_duskbringer.xml:1300
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_TEAMUP_REBEL\"]/text"
 msgstr ""
@@ -1958,7 +1979,7 @@ msgstr ""
 "die Zoltans und Rocks danken dir. Die Zoltans reparieren deine Hülle, "
 "während die Rocks dir Munition geben."
 
-#: src-en/data/events_sector_duskbringer.xml:1298
+#: src-en/data/events_sector_duskbringer.xml:1309
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_TEAMUP_DUSK\"]/text"
 msgstr ""
@@ -1968,7 +1989,7 @@ msgstr ""
 "und Rocks danken dir für die Hilfe und arbeiten zusammen, um deine Hülle zu "
 "reparieren."
 
-#: src-en/data/events_sector_duskbringer.xml:1304
+#: src-en/data/events_sector_duskbringer.xml:1315
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_TEAMUP_ZOLTAN\"]/text"
 msgstr ""
@@ -1982,7 +2003,7 @@ msgstr ""
 "Kreis fliegen lassen.\" Du bist überrascht von der Hilfe des Rebells, aber "
 "bist dankbar."
 
-#: src-en/data/events_sector_duskbringer.xml:1310
+#: src-en/data/events_sector_duskbringer.xml:1321
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_TEAMUP_ROCK\"]/text"
 msgstr ""
@@ -2000,7 +2021,7 @@ msgstr ""
 "für ein paar Sprünge im Kreis fliegen lassen.\" Du bist überrascht von der "
 "Hilfe des Rebells, aber bist dankbar."
 
-#: src-en/data/events_sector_duskbringer.xml:1317
+#: src-en/data/events_sector_duskbringer.xml:1328
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_PIRATES_HIDING\"]/text"
 msgstr ""
@@ -2008,34 +2029,34 @@ msgstr ""
 "scheinbar unendlichen Duskbringer Patrouillien versteckt. Du bezweifelst, "
 "dass sie dich sehen können."
 
-#: src-en/data/events_sector_duskbringer.xml:1320
+#: src-en/data/events_sector_duskbringer.xml:1331
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_PIRATES_HIDING\"]/choice[1]/text"
 msgstr "Kontaktiere die Piraten."
 
-#: src-en/data/events_sector_duskbringer.xml:1324
+#: src-en/data/events_sector_duskbringer.xml:1335
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_PIRATES_HIDING\"]/choice[2]/text"
 msgstr "Ignoriere sie."
 
-#: src-en/data/events_sector_duskbringer.xml:1326
+#: src-en/data/events_sector_duskbringer.xml:1337
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_PIRATES_HIDING\"]/choice[2]/event/text"
 msgstr ""
 "Die Piraten gehen nicht aus ihrem Versteck. Du denkst es ist sicher etwas "
 "anderes zu tun, aber behälst trotzdem ein Auge auf ihnen."
 
-#: src-en/data/events_sector_duskbringer.xml:1328
+#: src-en/data/events_sector_duskbringer.xml:1339
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_PIRATES_HIDING\"]/choice[2]/event/choice[1]/text"
 msgstr "Tue etwas an Bord des Schiffs."
 
-#: src-en/data/events_sector_duskbringer.xml:1332
+#: src-en/data/events_sector_duskbringer.xml:1343
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_PIRATES_HIDING\"]/choice[2]/event/choice[2]/text"
 msgstr "Nichts tun."
 
-#: src-en/data/events_sector_duskbringer.xml:1340
+#: src-en/data/events_sector_duskbringer.xml:1351
 msgid ""
 "data/events_sector_duskbringer.xml$//eventList[@name=\"DUSK_PIRATES_HIDING_CONTACT\"]/event[1]/text"
 msgstr ""
@@ -2043,41 +2064,41 @@ msgstr ""
 "aber ein Pirat ruft dich. \"Ein Fed? Hau ab! Es ist schwer genug hier die "
 "Dusks zu überleben, ich brauche nicht auch noch dich!\""
 
-#: src-en/data/events_sector_duskbringer.xml:1343
+#: src-en/data/events_sector_duskbringer.xml:1354
 msgid ""
 "data/events_sector_duskbringer.xml$//eventList[@name=\"DUSK_PIRATES_HIDING_CONTACT\"]/event[1]/choice/text"
 msgstr "Fortfahren..."
 
-#: src-en/data/events_sector_duskbringer.xml:1348
+#: src-en/data/events_sector_duskbringer.xml:1359
 msgid ""
 "data/events_sector_duskbringer.xml$//eventList[@name=\"DUSK_PIRATES_HIDING_CONTACT\"]/event[2]/text"
 msgstr ""
 "Überraschenderweise wirst du von keinem der Schiffe gerufen. Ein einziges "
 "ruft dich und will deine Intentionen wissen."
 
-#: src-en/data/events_sector_duskbringer.xml:1350
+#: src-en/data/events_sector_duskbringer.xml:1361
 msgid ""
 "data/events_sector_duskbringer.xml$//eventList[@name=\"DUSK_PIRATES_HIDING_CONTACT\"]/event[2]/choice[1]/text"
 msgstr "Angriff!"
 
-#: src-en/data/events_sector_duskbringer.xml:1352
+#: src-en/data/events_sector_duskbringer.xml:1363
 msgid ""
 "data/events_sector_duskbringer.xml$//eventList[@name=\"DUSK_PIRATES_HIDING_CONTACT\"]/event[2]/choice[1]/event/text"
 msgstr ""
 "Die meisten Piraten fliehen, da sie keinen gesamten Kreuzer angreifen "
 "wollen. Eins jedoch bleibt zurück, sicher dass es dich zerstören kann."
 
-#: src-en/data/events_sector_duskbringer.xml:1355
+#: src-en/data/events_sector_duskbringer.xml:1366
 msgid ""
 "data/events_sector_duskbringer.xml$//eventList[@name=\"DUSK_PIRATES_HIDING_CONTACT\"]/event[2]/choice[1]/event/choice/text"
 msgstr "Fortfahren..."
 
-#: src-en/data/events_sector_duskbringer.xml:1361
+#: src-en/data/events_sector_duskbringer.xml:1372
 msgid ""
 "data/events_sector_duskbringer.xml$//eventList[@name=\"DUSK_PIRATES_HIDING_CONTACT\"]/event[2]/choice[2]/text"
 msgstr "Biete an zu handeln."
 
-#: src-en/data/events_sector_duskbringer.xml:1363
+#: src-en/data/events_sector_duskbringer.xml:1374
 msgid ""
 "data/events_sector_duskbringer.xml$//eventList[@name=\"DUSK_PIRATES_HIDING_CONTACT\"]/event[2]/choice[2]/event/text"
 msgstr ""
@@ -2087,7 +2108,7 @@ msgstr ""
 "daneben verhältst sprengen wir dich ins Jenseits.\" Du findest es ein wenig "
 "ironisch, da es von Piraten kommt, aber nimmst an."
 
-#: src-en/data/events_sector_duskbringer.xml:1371
+#: src-en/data/events_sector_duskbringer.xml:1382
 msgid "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_IDIOT\"]/text"
 msgstr ""
 "Ein Duskbringer in der Nähe ruft dich. Ein Zoltan taucht auf dem Schirm auf,"
@@ -2096,56 +2117,56 @@ msgstr ""
 "Du bist im Bruch des Protokolls... uh... naja irgend eins halt. Du bist ein "
 "Föderationsschiff richtig?\""
 
-#: src-en/data/events_sector_duskbringer.xml:1374
+#: src-en/data/events_sector_duskbringer.xml:1385
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_IDIOT\"]/choice[1]/text"
 msgstr "Ja."
 
-#: src-en/data/events_sector_duskbringer.xml:1376
+#: src-en/data/events_sector_duskbringer.xml:1387
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_IDIOT\"]/choice[1]/event/text"
 msgstr ""
 "\"Toll! Das ist meine Chance mich nach meinem letzten Fehler zu beweisen! "
 "Devorak wird so glücklich sein!\" Er fährt seine Waffen hoch und greift an."
 
-#: src-en/data/events_sector_duskbringer.xml:1379
+#: src-en/data/events_sector_duskbringer.xml:1390
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_IDIOT\"]/choice[1]/event/choice/text"
 msgstr "Fortfahren..."
 
-#: src-en/data/events_sector_duskbringer.xml:1385
+#: src-en/data/events_sector_duskbringer.xml:1396
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_IDIOT\"]/choice[2]/text"
 msgstr "Nein."
 
-#: src-en/data/events_sector_duskbringer.xml:1387
+#: src-en/data/events_sector_duskbringer.xml:1398
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_IDIOT\"]/choice[2]/event/text"
 msgstr ""
 "\"Oh mein Fehler. Hab einen schönen Tag!\" Er schließt den Kanal und springt"
 " weg. Du glaubst es war eine Art Trick, aber nichts passiert. Was ein Idiot."
 
-#: src-en/data/events_sector_duskbringer.xml:1390
+#: src-en/data/events_sector_duskbringer.xml:1401
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_IDIOT\"]/choice[2]/event/choice[1]/text"
 msgstr "Tue etwas an Bord des Schiffs."
 
-#: src-en/data/events_sector_duskbringer.xml:1394
+#: src-en/data/events_sector_duskbringer.xml:1405
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_IDIOT\"]/choice[2]/event/choice[2]/text"
 msgstr "Nichts tun."
 
-#: src-en/data/events_sector_duskbringer.xml:1400
+#: src-en/data/events_sector_duskbringer.xml:1411
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_IDIOT\"]/choice[@req=\"unique_devorak\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_duskbringer.xml:1402
+#: src-en/data/events_sector_duskbringer.xml:1413
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_IDIOT\"]/choice[@req=\"unique_devorak\"]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_duskbringer.xml:1426
+#: src-en/data/events_sector_duskbringer.xml:1437
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_JAILER_CHOICE\"]/text"
 msgstr ""
@@ -2154,29 +2175,29 @@ msgstr ""
 "patrouilliert. Das Schiff hat einen Stopp eingelegt um seine Sensoren neu zu"
 " kalibrieren."
 
-#: src-en/data/events_sector_duskbringer.xml:1429
+#: src-en/data/events_sector_duskbringer.xml:1440
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_JAILER_CHOICE\"]/choice[1]/text"
 msgstr "Greife an, solange sie beschäftigt sind!"
 
-#: src-en/data/events_sector_duskbringer.xml:1431
+#: src-en/data/events_sector_duskbringer.xml:1442
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_JAILER_CHOICE\"]/choice[1]/event/text"
 msgstr ""
 "Du kommst her um den Gefangenentransporter zu zerstören, obwohl klar ist "
 "dass die Gefangenen und Crew sterben werden."
 
-#: src-en/data/events_sector_duskbringer.xml:1434
+#: src-en/data/events_sector_duskbringer.xml:1445
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_JAILER_CHOICE\"]/choice[1]/event/choice/text"
 msgstr "Fortfahren..."
 
-#: src-en/data/events_sector_duskbringer.xml:1440
+#: src-en/data/events_sector_duskbringer.xml:1451
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_JAILER_CHOICE\"]/choice[@req=\"FIREARMS_AND_TELEPORT\"]/text"
 msgstr "(Waffenkammer + Teleporter) Stürme den Gefangenentransporter."
 
-#: src-en/data/events_sector_duskbringer.xml:1442
+#: src-en/data/events_sector_duskbringer.xml:1453
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_JAILER_CHOICE\"]/choice[@req=\"FIREARMS_AND_TELEPORT\"]/event/text"
 msgstr ""
@@ -2184,27 +2205,27 @@ msgstr ""
 " tötet die Duskbringer Crew. Mit den Wärtern als Gefangenen, lässt du jeden "
 "frei wo du denkst, dass er dich nicht gleich umbringt."
 
-#: src-en/data/events_sector_duskbringer.xml:1447
+#: src-en/data/events_sector_duskbringer.xml:1458
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_JAILER_CHOICE\"]/choice[3]/text"
 msgstr "Weiche dem Gefangenentransporter aus."
 
-#: src-en/data/events_sector_duskbringer.xml:1449
+#: src-en/data/events_sector_duskbringer.xml:1460
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_JAILER_CHOICE\"]/choice[3]/event/text"
 msgstr "Der Gefangenentransporter bemerkt dich nicht und du springst weg."
 
-#: src-en/data/events_sector_duskbringer.xml:1451
+#: src-en/data/events_sector_duskbringer.xml:1462
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_JAILER_CHOICE\"]/choice[3]/event/choice[1]/text"
 msgstr "Tue etwas an Bord des Schiffs."
 
-#: src-en/data/events_sector_duskbringer.xml:1455
+#: src-en/data/events_sector_duskbringer.xml:1466
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_JAILER_CHOICE\"]/choice[3]/event/choice[2]/text"
 msgstr "Nichts tun."
 
-#: src-en/data/events_sector_duskbringer.xml:1462
+#: src-en/data/events_sector_duskbringer.xml:1473
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_JAILER_KILL\"]/text"
 msgstr ""
@@ -2212,7 +2233,7 @@ msgstr ""
 "Explosion. Du verschrottest die Überreste und versuchst den schwebenden "
 "Leichen auszuweichen."
 
-#: src-en/data/events_sector_duskbringer.xml:1466
+#: src-en/data/events_sector_duskbringer.xml:1477
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_JAILER_CAPTURE\"]/text"
 msgstr ""
@@ -2220,7 +2241,7 @@ msgstr ""
 " überlebt. Die meisten fragen an, dass du sie an der Festung raus lässt, "
 "jedoch möchte einer auf deinem Schiff arbeiten."
 
-#: src-en/data/events_sector_duskbringer.xml:1485
+#: src-en/data/events_sector_duskbringer.xml:1496
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_MONASTERY\"]/text"
 msgstr ""
@@ -2230,31 +2251,31 @@ msgstr ""
 "Zielen. Eine Piratengruppe hat die Zoltans drinnen als Geiseln genommen und "
 "ein Duskbringer Schwadron versucht die Freilassung zu verhandeln."
 
-#: src-en/data/events_sector_duskbringer.xml:1487
+#: src-en/data/events_sector_duskbringer.xml:1498
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_MONASTERY\"]/choice[1]/text"
 msgstr ""
 "Helfe den Piraten die Kontrolle über die Station zu behalten und kämpfe "
 "gegen die Duskbringer."
 
-#: src-en/data/events_sector_duskbringer.xml:1489
+#: src-en/data/events_sector_duskbringer.xml:1500
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_MONASTERY\"]/choice[1]/event/text"
 msgstr ""
 "Deine Intervention scheint Chaos zu beginnen und beide Seiten greifen sich "
 "an. Du nimmst dir das nähste Schiff vor."
 
-#: src-en/data/events_sector_duskbringer.xml:1492
+#: src-en/data/events_sector_duskbringer.xml:1503
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_MONASTERY\"]/choice[1]/event/choice/text"
 msgstr "Fortfahren..."
 
-#: src-en/data/events_sector_duskbringer.xml:1498
+#: src-en/data/events_sector_duskbringer.xml:1509
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_MONASTERY\"]/choice[2]/text"
 msgstr "Helfe den Dusks."
 
-#: src-en/data/events_sector_duskbringer.xml:1500
+#: src-en/data/events_sector_duskbringer.xml:1511
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_MONASTERY\"]/choice[2]/event/text"
 msgstr ""
@@ -2262,46 +2283,46 @@ msgstr ""
 "Die Duskbringer sind verwirrt aber realisieren, dass es zum Kampf kommen "
 "muss und schalten sich mit ein."
 
-#: src-en/data/events_sector_duskbringer.xml:1503
+#: src-en/data/events_sector_duskbringer.xml:1514
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_MONASTERY\"]/choice[2]/event/choice/text"
 msgstr "Fortfahren..."
 
-#: src-en/data/events_sector_duskbringer.xml:1509
+#: src-en/data/events_sector_duskbringer.xml:1520
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_MONASTERY\"]/choice[3]/text"
 msgstr "Misch dich nicht ein."
 
-#: src-en/data/events_sector_duskbringer.xml:1511
+#: src-en/data/events_sector_duskbringer.xml:1522
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_MONASTERY\"]/choice[3]/event/text"
 msgstr ""
 "Du solltest dich nicht in sowas einmischen, besonders wenn keine Seite dein "
 "Freund ist. Du springst unbemerkt weg."
 
-#: src-en/data/events_sector_duskbringer.xml:1513
+#: src-en/data/events_sector_duskbringer.xml:1524
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_MONASTERY\"]/choice[3]/event/choice[1]/text"
 msgstr "Tue etwas an Bord des Schiffs."
 
-#: src-en/data/events_sector_duskbringer.xml:1517
+#: src-en/data/events_sector_duskbringer.xml:1528
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_MONASTERY\"]/choice[3]/event/choice[2]/text"
 msgstr "Nichts tun."
 
-#: src-en/data/events_sector_duskbringer.xml:1524
+#: src-en/data/events_sector_duskbringer.xml:1535
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_MONASTERY_PIRATE_WIN\"]/text"
 msgstr ""
 "Der Anführer der Piraten ruft dich. \"Hah! Das war eine klasse Leistung. Du "
 "hast meinen Respekt und Dank Kapitän. Was willst du?\""
 
-#: src-en/data/events_sector_duskbringer.xml:1526
+#: src-en/data/events_sector_duskbringer.xml:1537
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_MONASTERY_PIRATE_WIN\"]/choice[1]/text"
 msgstr "Lasse die Mönche frei."
 
-#: src-en/data/events_sector_duskbringer.xml:1528
+#: src-en/data/events_sector_duskbringer.xml:1539
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_MONASTERY_PIRATE_WIN\"]/choice[1]/event/text"
 msgstr ""
@@ -2312,19 +2333,19 @@ msgstr ""
 " zum gehen haben lässt du sie am nächsten heiligen Ort frei. Ein junger "
 "Mönch möchte deiner Crew beitreten."
 
-#: src-en/data/events_sector_duskbringer.xml:1533
+#: src-en/data/events_sector_duskbringer.xml:1544
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_MONASTERY_PIRATE_WIN\"]/choice[2]/text"
 msgstr "Wir wollen paar von den Mönchwertsachen."
 
-#: src-en/data/events_sector_duskbringer.xml:1535
+#: src-en/data/events_sector_duskbringer.xml:1546
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_MONASTERY_PIRATE_WIN\"]/choice[2]/event/text"
 msgstr ""
 "\"Ja, okay. Wir behalten sie eh als Geiseln und können viel Geld dadurch "
 "bekommen. Du kannst ihre Wertsachen haben.\""
 
-#: src-en/data/events_sector_duskbringer.xml:1541
+#: src-en/data/events_sector_duskbringer.xml:1552
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_MONASTERY_DUSK_WIN\"]/text"
 msgstr ""
@@ -2332,31 +2353,31 @@ msgstr ""
 "\"Ja... ja. Du hast deine Dominanz gezeigt und ich denke nicht es war aus "
 "Freundlichkeit. Was willst du?\""
 
-#: src-en/data/events_sector_duskbringer.xml:1543
+#: src-en/data/events_sector_duskbringer.xml:1554
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_MONASTERY_DUSK_WIN\"]/choice[1]/text"
 msgstr "Gebe den Rebellen falsche Informationen über unsere Position."
 
-#: src-en/data/events_sector_duskbringer.xml:1545
+#: src-en/data/events_sector_duskbringer.xml:1556
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_MONASTERY_DUSK_WIN\"]/choice[1]/event/text"
 msgstr ""
 "\"Ich werde zum Märtyrer deshalb...\" Obwohl er unglücklich mit deiner Bitte"
 " ist, akzeptiert er. Du kannst nur hoffen er lügt nicht."
 
-#: src-en/data/events_sector_duskbringer.xml:1550
+#: src-en/data/events_sector_duskbringer.xml:1561
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_MONASTERY_DUSK_WIN\"]/choice[2]/text"
 msgstr "Wir wollen Militärgüter."
 
-#: src-en/data/events_sector_duskbringer.xml:1552
+#: src-en/data/events_sector_duskbringer.xml:1563
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_MONASTERY_DUSK_WIN\"]/choice[2]/event/text"
 msgstr ""
 "\"Ja. Die wollen wir alle. Ich habe gehofft hier mit einen Fed zu töten, "
 "nicht zu geben.\" Er gibt dir eine seiner Waffen und Munition."
 
-#: src-en/data/events_sector_duskbringer.xml:1561
+#: src-en/data/events_sector_duskbringer.xml:1572
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_DAMAGEDFLEET\"]/text"
 msgstr ""
@@ -2364,12 +2385,12 @@ msgstr ""
 "ist ein riesiges Zoltanflottenschiff, eine Dreadnought wie es aussieht. Es "
 "hat schweren Schaden erlitten und die Hülle ist dekompressioniert."
 
-#: src-en/data/events_sector_duskbringer.xml:1564
+#: src-en/data/events_sector_duskbringer.xml:1575
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_DAMAGEDFLEET\"]/choice[1]/text"
 msgstr "Docke und versuche zu helfen."
 
-#: src-en/data/events_sector_duskbringer.xml:1566
+#: src-en/data/events_sector_duskbringer.xml:1577
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_DAMAGEDFLEET\"]/choice[1]/event/text"
 msgstr ""
@@ -2383,7 +2404,7 @@ msgstr ""
 "reparieren, jedoch ist der Weg dort hin ohne Sauerstoffzufuhr und hat ggf. "
 "Feinde dort.\""
 
-#: src-en/data/events_sector_duskbringer.xml:1568
+#: src-en/data/events_sector_duskbringer.xml:1579
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_DAMAGEDFLEET\"]/choice[1]/event/choice[@req=\"LIST_CHECK_ANY_CREW\""
 " and @lvl=\"1\"]/text"
@@ -2391,20 +2412,20 @@ msgstr ""
 "Sende Crew um die Lebenserhaltungssyteme und Sauerstoffsysteme zu "
 "reparieren."
 
-#: src-en/data/events_sector_duskbringer.xml:1572
+#: src-en/data/events_sector_duskbringer.xml:1583
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_DAMAGEDFLEET\"]/choice[1]/event/choice[@req=\"LIST_CHECK_ANY_CREW\""
 " and @lvl=\"0\"]/text"
 msgstr "Es ist keine Crew vorhanden, um Reparaturen durchzuführen."
 
-#: src-en/data/events_sector_duskbringer.xml:1576
+#: src-en/data/events_sector_duskbringer.xml:1587
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_DAMAGEDFLEET\"]/choice[1]/event/choice[@req=\"BLUELIST_CREW_NO2\"]/text"
 msgstr ""
 "(Anaerobische Crew) Sende deine Crew um die Lebenserhaltungssyteme und "
 "Sauerstoffsysteme zu reparieren."
 
-#: src-en/data/events_sector_duskbringer.xml:1578
+#: src-en/data/events_sector_duskbringer.xml:1589
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_DAMAGEDFLEET\"]/choice[1]/event/choice[@req=\"BLUELIST_CREW_NO2\"]/event/text"
 msgstr ""
@@ -2413,12 +2434,12 @@ msgstr ""
 "Crew die Duskbringer zu entsorgen. Der Zoltankapitän dankt dir und gibt dir "
 "eine große Belohnung."
 
-#: src-en/data/events_sector_duskbringer.xml:1583
+#: src-en/data/events_sector_duskbringer.xml:1594
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_DAMAGEDFLEET\"]/choice[1]/event/choice[@req=\"zoltan_osmian\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_duskbringer.xml:1585
+#: src-en/data/events_sector_duskbringer.xml:1596
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_DAMAGEDFLEET\"]/choice[1]/event/choice[@req=\"zoltan_osmian\"]/event/text"
 msgstr ""
@@ -2427,14 +2448,14 @@ msgstr ""
 "Crew die Duskbringer zu entsorgen. Der Zoltankapitän dankt dir und gibt dir "
 "eine große Belohnung."
 
-#: src-en/data/events_sector_duskbringer.xml:1590
+#: src-en/data/events_sector_duskbringer.xml:1601
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_DAMAGEDFLEET\"]/choice[1]/event/choice[@req=\"DRONE_CONTROL_REPAIR_CREW\"]/text"
 msgstr ""
 "(Reparaturdrohne) Sende deine Drohne, um ihr Lebenserhaltungssystem zu "
 "reparieren."
 
-#: src-en/data/events_sector_duskbringer.xml:1592
+#: src-en/data/events_sector_duskbringer.xml:1603
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_DAMAGEDFLEET\"]/choice[1]/event/choice[@req=\"DRONE_CONTROL_REPAIR_CREW\"]/event/text"
 msgstr ""
@@ -2443,14 +2464,14 @@ msgstr ""
 "Crew die Duskbringer zu entsorgen. Der Zoltankapitän dankt dir und gibt dir "
 "eine große Belohnung."
 
-#: src-en/data/events_sector_duskbringer.xml:1597
+#: src-en/data/events_sector_duskbringer.xml:1608
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_DAMAGEDFLEET\"]/choice[1]/event/choice[6]/text"
 msgstr ""
 "Wir können nicht mit Reparaturen helfen, aber wir können die Crew in der "
 "Cargo Bucht mitnehmen."
 
-#: src-en/data/events_sector_duskbringer.xml:1599
+#: src-en/data/events_sector_duskbringer.xml:1610
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_DAMAGEDFLEET\"]/choice[1]/event/choice[6]/event/text"
 msgstr ""
@@ -2461,29 +2482,29 @@ msgstr ""
 " habe in meiner Aufgabe versagt, vielleicht kann ich dir bei dir Mission "
 "helfen.\""
 
-#: src-en/data/events_sector_duskbringer.xml:1606
+#: src-en/data/events_sector_duskbringer.xml:1617
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_DAMAGEDFLEET\"]/choice[2]/text"
 msgstr "Ignoriere das Flottenschiff."
 
-#: src-en/data/events_sector_duskbringer.xml:1608
+#: src-en/data/events_sector_duskbringer.xml:1619
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_DAMAGEDFLEET\"]/choice[2]/event/text"
 msgstr ""
 "Ein Schiff von solch einer Größe kommt nicht hier her, ohne von einer Flotte"
 " begleitet zu sein. Sie wird wahrscheinlich gleich eintreffen."
 
-#: src-en/data/events_sector_duskbringer.xml:1610
+#: src-en/data/events_sector_duskbringer.xml:1621
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_DAMAGEDFLEET\"]/choice[2]/event/choice[1]/text"
 msgstr "Tue etwas an Bord des Schiffs."
 
-#: src-en/data/events_sector_duskbringer.xml:1614
+#: src-en/data/events_sector_duskbringer.xml:1625
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_DAMAGEDFLEET\"]/choice[2]/event/choice[2]/text"
 msgstr "Nichts tun."
 
-#: src-en/data/events_sector_duskbringer.xml:1622
+#: src-en/data/events_sector_duskbringer.xml:1633
 msgid ""
 "data/events_sector_duskbringer.xml$//eventList[@name=\"DISTRESS_DUSK_DAMAGEDFLEET_DISPATCH\"]/event[1]/text"
 msgstr ""
@@ -2491,7 +2512,7 @@ msgstr ""
 " Sauerstofflevel stabil genug sind, hilft die Zoltan Crew die Duskbringer zu"
 " entsorgen. Der Zoltankapitän dankt dir und gibt dir eine große Belohnung."
 
-#: src-en/data/events_sector_duskbringer.xml:1626
+#: src-en/data/events_sector_duskbringer.xml:1637
 msgid ""
 "data/events_sector_duskbringer.xml$//eventList[@name=\"DISTRESS_DUSK_DAMAGEDFLEET_DISPATCH\"]/event[2]/text"
 msgstr ""
@@ -2500,12 +2521,12 @@ msgstr ""
 "hat. Du entschuldigst dich bei den Zoltans für dein Versagen, aber es gibt "
 "nichts was du tun kannst."
 
-#: src-en/data/events_sector_duskbringer.xml:1629
+#: src-en/data/events_sector_duskbringer.xml:1640
 msgid ""
 "data/events_sector_duskbringer.xml$//eventList[@name=\"DISTRESS_DUSK_DAMAGEDFLEET_DISPATCH\"]/event[2]/removeCrew/text"
 msgstr "Glückerlicherweise konnte dein Crew Mitglied geklont werden."
 
-#: src-en/data/events_sector_duskbringer.xml:1636
+#: src-en/data/events_sector_duskbringer.xml:1647
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_FEDERATION\"]/text"
 msgstr ""
@@ -2517,126 +2538,126 @@ msgstr ""
 "Treibstoffleck, jedoch mit genug könnten wir es zu einem Geschäft "
 "schaffen.\""
 
-#: src-en/data/events_sector_duskbringer.xml:1639
+#: src-en/data/events_sector_duskbringer.xml:1650
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_FEDERATION\"]/choice[1]/text"
 msgstr "Gebe ihnen etwas Treibstoff."
 
-#: src-en/data/events_sector_duskbringer.xml:1641
+#: src-en/data/events_sector_duskbringer.xml:1652
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_FEDERATION\"]/choice[1]/event/text"
 msgstr ""
 "\"Vielen Dank, Kapitän. Hoffentlich wird es nicht alles fehlen, bevor wir "
 "dort hin kommen.\""
 
-#: src-en/data/events_sector_duskbringer.xml:1646
+#: src-en/data/events_sector_duskbringer.xml:1657
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_FEDERATION\"]/choice[1]/event/choice/text"
 msgstr "Fortfahren..."
 
-#: src-en/data/events_sector_duskbringer.xml:1648
+#: src-en/data/events_sector_duskbringer.xml:1659
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_FEDERATION\"]/choice[1]/event/choice/event/text"
 msgstr ""
 "\"Hier, nimm das als Dank. Wir hätten das eh verkauft, um mehr Treibstoff zu"
 " erhalten.\""
 
-#: src-en/data/events_sector_duskbringer.xml:1655
+#: src-en/data/events_sector_duskbringer.xml:1666
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_FEDERATION\"]/choice[@req=\"DRONE_CONTROL_REPAIR_ALL\"]/text"
 msgstr "(Reparaturdrohne) Nutze die Drohne um die Triebwerke zu reparieren."
 
-#: src-en/data/events_sector_duskbringer.xml:1657
+#: src-en/data/events_sector_duskbringer.xml:1668
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_FEDERATION\"]/choice[@req=\"DRONE_CONTROL_REPAIR_ALL\"]/event/text"
 msgstr "Die Drohne funktioniert perfekt und repariert das Loch."
 
-#: src-en/data/events_sector_duskbringer.xml:1662
+#: src-en/data/events_sector_duskbringer.xml:1673
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_FEDERATION\"]/choice[@req=\"DRONE_CONTROL_REPAIR_ALL\"]/event/choice/text"
 msgstr "Fortfahren..."
 
-#: src-en/data/events_sector_duskbringer.xml:1664
+#: src-en/data/events_sector_duskbringer.xml:1675
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_FEDERATION\"]/choice[@req=\"DRONE_CONTROL_REPAIR_ALL\"]/event/choice/event/text"
 msgstr ""
 "\"Hier, nimm das als Dank. Wir hätten das eh verkauft, um mehr Treibstoff zu"
 " erhalten.\""
 
-#: src-en/data/events_sector_duskbringer.xml:1671
+#: src-en/data/events_sector_duskbringer.xml:1682
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_FEDERATION\"]/choice[@req=\"BLUELIST_BOMB_REPAIR\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_duskbringer.xml:1673
+#: src-en/data/events_sector_duskbringer.xml:1684
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_FEDERATION\"]/choice[@req=\"BLUELIST_BOMB_REPAIR\"]/event/text"
 msgstr "Die Bombe funktioniert perfekt und repariert das Loch."
 
-#: src-en/data/events_sector_duskbringer.xml:1678
+#: src-en/data/events_sector_duskbringer.xml:1689
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_FEDERATION\"]/choice[@req=\"BLUELIST_BOMB_REPAIR\"]/event/choice/text"
 msgstr "Fortfahren..."
 
-#: src-en/data/events_sector_duskbringer.xml:1680
+#: src-en/data/events_sector_duskbringer.xml:1691
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_FEDERATION\"]/choice[@req=\"BLUELIST_BOMB_REPAIR\"]/event/choice/event/text"
 msgstr ""
 "\"Hier, nimm das als Dank. Wir hätten das eh verkauft, um mehr Treibstoff zu"
 " erhalten.\""
 
-#: src-en/data/events_sector_duskbringer.xml:1687
+#: src-en/data/events_sector_duskbringer.xml:1698
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_FEDERATION\"]/choice[@req=\"BEAM_REPAIR\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_duskbringer.xml:1689
+#: src-en/data/events_sector_duskbringer.xml:1700
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_FEDERATION\"]/choice[@req=\"BEAM_REPAIR\"]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_duskbringer.xml:1691
+#: src-en/data/events_sector_duskbringer.xml:1702
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_FEDERATION\"]/choice[@req=\"BEAM_REPAIR\"]/event/choice/text"
 msgstr "Fortfahren..."
 
-#: src-en/data/events_sector_duskbringer.xml:1693
+#: src-en/data/events_sector_duskbringer.xml:1704
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_FEDERATION\"]/choice[@req=\"BEAM_REPAIR\"]/event/choice/event/text"
 msgstr ""
 "\"Hier, nimm das als Dank. Wir hätten das eh verkauft, um mehr Treibstoff zu"
 " erhalten.\""
 
-#: src-en/data/events_sector_duskbringer.xml:1700
+#: src-en/data/events_sector_duskbringer.xml:1711
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_FEDERATION\"]/choice[@req=\"COMBAT_REPAIR\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_duskbringer.xml:1702
+#: src-en/data/events_sector_duskbringer.xml:1713
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_FEDERATION\"]/choice[@req=\"COMBAT_REPAIR\"]/event/text"
 msgstr ""
 "Die Nanobots erledigen es schnell und reparieren die Hülle. Es braucht nicht"
 " lange, bevor du kaum noch den Schaden sehen kannst."
 
-#: src-en/data/events_sector_duskbringer.xml:1704
+#: src-en/data/events_sector_duskbringer.xml:1715
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_FEDERATION\"]/choice[@req=\"COMBAT_REPAIR\"]/event/choice/text"
 msgstr "Fortfahren..."
 
-#: src-en/data/events_sector_duskbringer.xml:1706
+#: src-en/data/events_sector_duskbringer.xml:1717
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_FEDERATION\"]/choice[@req=\"COMBAT_REPAIR\"]/event/choice/event/text"
 msgstr ""
 "\"Hier, nimm das als Dank. Wir hätten das eh verkauft, um mehr Treibstoff zu"
 " erhalten.\""
 
-#: src-en/data/events_sector_duskbringer.xml:1713
+#: src-en/data/events_sector_duskbringer.xml:1724
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_FEDERATION\"]/choice[6]/text"
 msgstr "Wir können nicht helfen."
 
-#: src-en/data/events_sector_duskbringer.xml:1715
+#: src-en/data/events_sector_duskbringer.xml:1726
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_FEDERATION\"]/choice[6]/event/text"
 msgstr ""
@@ -2644,162 +2665,162 @@ msgstr ""
 " bevor er weiteredet. \"Okay. Ich verstehe es. Viel Glück mit deiner "
 "Mission, Kapitän.\" Er beendet die Übertragung."
 
-#: src-en/data/events_sector_duskbringer.xml:1717
+#: src-en/data/events_sector_duskbringer.xml:1728
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_FEDERATION\"]/choice[6]/event/choice[1]/text"
 msgstr "Tue etwas an Bord des Schiffs."
 
-#: src-en/data/events_sector_duskbringer.xml:1721
+#: src-en/data/events_sector_duskbringer.xml:1732
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_FEDERATION\"]/choice[6]/event/choice[2]/text"
 msgstr "Nichts tun."
 
-#: src-en/data/events_sector_duskbringer.xml:1737
+#: src-en/data/events_sector_duskbringer.xml:1748
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_ABOUT_DUSK\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_duskbringer.xml:1740
+#: src-en/data/events_sector_duskbringer.xml:1751
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_ABOUT_DUSK\"]/choice[1]/text"
 msgstr ""
 
-#: src-en/data/events_sector_duskbringer.xml:1742
+#: src-en/data/events_sector_duskbringer.xml:1753
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_ABOUT_DUSK\"]/choice[1]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_duskbringer.xml:1744
+#: src-en/data/events_sector_duskbringer.xml:1755
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_ABOUT_DUSK\"]/choice[1]/event/choice[1]/text"
 msgstr ""
 
-#: src-en/data/events_sector_duskbringer.xml:1746
+#: src-en/data/events_sector_duskbringer.xml:1757
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_ABOUT_DUSK\"]/choice[1]/event/choice[1]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_duskbringer.xml:1751
+#: src-en/data/events_sector_duskbringer.xml:1762
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_ABOUT_DUSK\"]/choice[1]/event/choice[2]/text"
 msgstr ""
 
-#: src-en/data/events_sector_duskbringer.xml:1753
+#: src-en/data/events_sector_duskbringer.xml:1764
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_ABOUT_DUSK\"]/choice[1]/event/choice[2]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_duskbringer.xml:1760
+#: src-en/data/events_sector_duskbringer.xml:1771
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_ABOUT_DUSK\"]/choice[2]/text"
 msgstr ""
 
-#: src-en/data/events_sector_duskbringer.xml:1762
+#: src-en/data/events_sector_duskbringer.xml:1773
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_ABOUT_DUSK\"]/choice[2]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_duskbringer.xml:1764
+#: src-en/data/events_sector_duskbringer.xml:1775
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_ABOUT_DUSK\"]/choice[2]/event/choice[1]/text"
 msgstr ""
 
-#: src-en/data/events_sector_duskbringer.xml:1766
+#: src-en/data/events_sector_duskbringer.xml:1777
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_ABOUT_DUSK\"]/choice[2]/event/choice[1]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_duskbringer.xml:1771
+#: src-en/data/events_sector_duskbringer.xml:1782
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_ABOUT_DUSK\"]/choice[2]/event/choice[2]/text"
 msgstr ""
 
-#: src-en/data/events_sector_duskbringer.xml:1773
+#: src-en/data/events_sector_duskbringer.xml:1784
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_ABOUT_DUSK\"]/choice[2]/event/choice[2]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_duskbringer.xml:1776
+#: src-en/data/events_sector_duskbringer.xml:1787
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_ABOUT_DUSK\"]/choice[2]/event/choice[2]/event/choice/text"
 msgstr "Fortfahren..."
 
-#: src-en/data/events_sector_duskbringer.xml:1784
+#: src-en/data/events_sector_duskbringer.xml:1795
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_ABOUT_DUSK\"]/choice[3]/text"
 msgstr ""
 
-#: src-en/data/events_sector_duskbringer.xml:1786
+#: src-en/data/events_sector_duskbringer.xml:1797
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_ABOUT_DUSK\"]/choice[3]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_duskbringer.xml:1791
+#: src-en/data/events_sector_duskbringer.xml:1802
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_ABOUT_DUSK\"]/choice[4]/text"
 msgstr ""
 
-#: src-en/data/events_sector_duskbringer.xml:1793
+#: src-en/data/events_sector_duskbringer.xml:1804
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_ABOUT_DUSK\"]/choice[4]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_duskbringer.xml:1796
+#: src-en/data/events_sector_duskbringer.xml:1807
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_ABOUT_DUSK\"]/choice[4]/event/choice/text"
 msgstr "Fortfahren..."
 
-#: src-en/data/events_sector_duskbringer.xml:1802
+#: src-en/data/events_sector_duskbringer.xml:1813
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_ABOUT_DUSK\"]/choice[5]/text"
 msgstr ""
 
-#: src-en/data/events_sector_duskbringer.xml:1804
+#: src-en/data/events_sector_duskbringer.xml:1815
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_ABOUT_DUSK\"]/choice[5]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_duskbringer.xml:1806
+#: src-en/data/events_sector_duskbringer.xml:1817
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_ABOUT_DUSK\"]/choice[5]/event/choice[1]/text"
 msgstr ""
 
-#: src-en/data/events_sector_duskbringer.xml:1808
+#: src-en/data/events_sector_duskbringer.xml:1819
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_ABOUT_DUSK\"]/choice[5]/event/choice[1]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_duskbringer.xml:1813
+#: src-en/data/events_sector_duskbringer.xml:1824
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_ABOUT_DUSK\"]/choice[5]/event/choice[2]/text"
 msgstr ""
 
-#: src-en/data/events_sector_duskbringer.xml:1815
+#: src-en/data/events_sector_duskbringer.xml:1826
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_ABOUT_DUSK\"]/choice[5]/event/choice[2]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_duskbringer.xml:1822
+#: src-en/data/events_sector_duskbringer.xml:1833
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_ABOUT_DUSK\"]/choice[6]/text"
 msgstr ""
 
-#: src-en/data/events_sector_duskbringer.xml:1824
+#: src-en/data/events_sector_duskbringer.xml:1835
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_ABOUT_DUSK\"]/choice[6]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_duskbringer.xml:1826
+#: src-en/data/events_sector_duskbringer.xml:1837
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_ABOUT_DUSK\"]/choice[6]/event/choice[1]/text"
 msgstr "Tue etwas an Bord des Schiffs."
 
-#: src-en/data/events_sector_duskbringer.xml:1830
+#: src-en/data/events_sector_duskbringer.xml:1841
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DISTRESS_DUSK_ABOUT_DUSK\"]/choice[6]/event/choice[2]/text"
 msgstr "Nichts tun."
 
-#: src-en/data/events_sector_duskbringer.xml:1849
+#: src-en/data/events_sector_duskbringer.xml:1860
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"QUEST_DUSK_HIJACK\"]/text"
 msgstr ""
@@ -2812,62 +2833,62 @@ msgstr ""
 "zurückholen kannst, wirst du alle Sektor-Daten erhalten, die von ihm "
 "gesammelt wurden.\""
 
-#: src-en/data/events_sector_duskbringer.xml:1853
+#: src-en/data/events_sector_duskbringer.xml:1864
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"QUEST_DUSK_HIJACK\"]/choice[1]/text"
 msgstr "Akzeptiere das Angebot des Engineers."
 
-#: src-en/data/events_sector_duskbringer.xml:1855
+#: src-en/data/events_sector_duskbringer.xml:1866
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"QUEST_DUSK_HIJACK\"]/choice[1]/event/text"
 msgstr ""
 "\"Exzellent! Vielen Dank, es wäre schrecklich gewesen, wenn die Duskbringer "
 "diese Informationen in die Hände bekommen hätten.\""
 
-#: src-en/data/events_sector_duskbringer.xml:1861
+#: src-en/data/events_sector_duskbringer.xml:1872
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"QUEST_DUSK_HIJACK\"]/choice[2]/text"
 msgstr "Ignoriere das Angebot und greife das Schiff an!"
 
-#: src-en/data/events_sector_duskbringer.xml:1863
+#: src-en/data/events_sector_duskbringer.xml:1874
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"QUEST_DUSK_HIJACK\"]/choice[2]/event/text"
 msgstr ""
 "Du benötigst keine Sektor Scanns, aber kannst das Schrott von dem Schiff des"
 " Typen gebrauchen!"
 
-#: src-en/data/events_sector_duskbringer.xml:1866
+#: src-en/data/events_sector_duskbringer.xml:1877
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"QUEST_DUSK_HIJACK\"]/choice[2]/event/choice/text"
 msgstr "Fortfahren..."
 
-#: src-en/data/events_sector_duskbringer.xml:1872
+#: src-en/data/events_sector_duskbringer.xml:1883
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"QUEST_DUSK_HIJACK\"]/choice[3]/text"
 msgstr "Ablehnen."
 
-#: src-en/data/events_sector_duskbringer.xml:1874
+#: src-en/data/events_sector_duskbringer.xml:1885
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"QUEST_DUSK_HIJACK\"]/choice[3]/event/text"
 msgstr ""
 "Du hast keinen Nutzen für die Sektor Scanns und lehnst das Angebot ab."
 
-#: src-en/data/events_sector_duskbringer.xml:1876
+#: src-en/data/events_sector_duskbringer.xml:1887
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"QUEST_DUSK_HIJACK\"]/choice[3]/event/choice[1]/text"
 msgstr "Tue etwas an Bord des Schiffs."
 
-#: src-en/data/events_sector_duskbringer.xml:1880
+#: src-en/data/events_sector_duskbringer.xml:1891
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"QUEST_DUSK_HIJACK\"]/choice[3]/event/choice[2]/text"
 msgstr "Nichts tun."
 
-#: src-en/data/events_sector_duskbringer.xml:1889
+#: src-en/data/events_sector_duskbringer.xml:1900
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"QUEST_DUSK_HIJACK_AUTO\"]/beaconType/unvisitedTooltip"
 msgstr ""
 
-#: src-en/data/events_sector_duskbringer.xml:1891
+#: src-en/data/events_sector_duskbringer.xml:1902
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"QUEST_DUSK_HIJACK_AUTO\"]/text"
 msgstr ""
@@ -2877,12 +2898,12 @@ msgstr ""
 "zu dem Entschluss, dass es nur eine limitierte Anzahl von Wegen gibt, die "
 "dich vor der Konfrontation herausbringen."
 
-#: src-en/data/events_sector_duskbringer.xml:1894
+#: src-en/data/events_sector_duskbringer.xml:1905
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"QUEST_DUSK_HIJACK_AUTO\"]/choice[1]/text"
 msgstr "Greife den Außenposten an!"
 
-#: src-en/data/events_sector_duskbringer.xml:1896
+#: src-en/data/events_sector_duskbringer.xml:1907
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"QUEST_DUSK_HIJACK_AUTO\"]/choice[1]/event/text"
 msgstr ""
@@ -2890,41 +2911,41 @@ msgstr ""
 "weit genug entfernt - dieses Gefecht sollte eine Beschädigung der Platform "
 "nicht riskieren. Fokussiere einfach dein gesamtes Feuer auf die Duskbringer!"
 
-#: src-en/data/events_sector_duskbringer.xml:1899
+#: src-en/data/events_sector_duskbringer.xml:1910
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"QUEST_DUSK_HIJACK_AUTO\"]/choice[1]/event/choice/text"
 msgstr "Fortfahren..."
 
-#: src-en/data/events_sector_duskbringer.xml:1905
+#: src-en/data/events_sector_duskbringer.xml:1916
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"QUEST_DUSK_HIJACK_AUTO\"]/choice[2]/text"
 msgstr "Ändere deine Meinung und gehe wieder."
 
-#: src-en/data/events_sector_duskbringer.xml:1907
+#: src-en/data/events_sector_duskbringer.xml:1918
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"QUEST_DUSK_HIJACK_AUTO\"]/choice[2]/event/text"
 msgstr ""
 "Vielleicht ist es das doch nicht wert. Die Engineers müssen jemand anderes "
 "finden, der das Auto-Schiff zurückholt."
 
-#: src-en/data/events_sector_duskbringer.xml:1909
+#: src-en/data/events_sector_duskbringer.xml:1920
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"QUEST_DUSK_HIJACK_AUTO\"]/choice[2]/event/choice[1]/text"
 msgstr "Tue etwas an Bord des Schiffs."
 
-#: src-en/data/events_sector_duskbringer.xml:1913
+#: src-en/data/events_sector_duskbringer.xml:1924
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"QUEST_DUSK_HIJACK_AUTO\"]/choice[2]/event/choice[2]/text"
 msgstr "Nichts tun."
 
-#: src-en/data/events_sector_duskbringer.xml:1920
+#: src-en/data/events_sector_duskbringer.xml:1931
 msgid "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_HIJACK_WIN\"]/text"
 msgstr ""
 "\"Perfekt! Du hast sie sogar in einem Teil zurückgebracht! Vielleicht war "
 "das Ministry zu hastig, ihre Bedenken über Renegades kund zu tun. Deine "
 "Sektorkarten, wie versprochen.\""
 
-#: src-en/data/events_sector_duskbringer.xml:1929
+#: src-en/data/events_sector_duskbringer.xml:1940
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"QUEST_DUSK_PISSED\"]/text"
 msgstr ""
@@ -2934,12 +2955,12 @@ msgstr ""
 "du gerufen. \"Ein Föderationsschiff? Das ist unorthodox, aber wir haben eine"
 " Bitte an dich...\""
 
-#: src-en/data/events_sector_duskbringer.xml:1931
+#: src-en/data/events_sector_duskbringer.xml:1942
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"QUEST_DUSK_PISSED\"]/choice/text"
 msgstr "Fortfahren..."
 
-#: src-en/data/events_sector_duskbringer.xml:1933
+#: src-en/data/events_sector_duskbringer.xml:1944
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"QUEST_DUSK_PISSED\"]/choice/event/text"
 msgstr ""
@@ -2955,12 +2976,12 @@ msgstr ""
 "mir Probleme bereitet. Wenn du ihn für mich umbringst, werde ich dich "
 "entlohnen. Ist das ein fairer Deal?\""
 
-#: src-en/data/events_sector_duskbringer.xml:1935
+#: src-en/data/events_sector_duskbringer.xml:1946
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"QUEST_DUSK_PISSED\"]/choice/event/choice[1]/text"
 msgstr "Akzeptieren."
 
-#: src-en/data/events_sector_duskbringer.xml:1937
+#: src-en/data/events_sector_duskbringer.xml:1948
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"QUEST_DUSK_PISSED\"]/choice/event/choice[1]/event/text"
 msgstr ""
@@ -2968,12 +2989,12 @@ msgstr ""
 "den Titel \"Kommandant Tritt deinen Hinter Kyle\". Ugh, wie "
 "geschmacklos...\""
 
-#: src-en/data/events_sector_duskbringer.xml:1942
+#: src-en/data/events_sector_duskbringer.xml:1953
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"QUEST_DUSK_PISSED\"]/choice/event/choice[2]/text"
 msgstr "Ablehnen."
 
-#: src-en/data/events_sector_duskbringer.xml:1944
+#: src-en/data/events_sector_duskbringer.xml:1955
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"QUEST_DUSK_PISSED\"]/choice/event/choice[2]/event/text"
 msgstr ""
@@ -2981,17 +3002,17 @@ msgstr ""
 "ihre Waffen und jagen dich von dem Schiff herunter. Ein Eliteschiff wird "
 "entsendet, um dich zu zerstören."
 
-#: src-en/data/events_sector_duskbringer.xml:1947
+#: src-en/data/events_sector_duskbringer.xml:1958
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"QUEST_DUSK_PISSED\"]/choice/event/choice[2]/event/choice/text"
 msgstr "Fortfahren..."
 
-#: src-en/data/events_sector_duskbringer.xml:1958
+#: src-en/data/events_sector_duskbringer.xml:1969
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_PISSED_QUEST\"]/beaconType/unvisitedTooltip"
 msgstr ""
 
-#: src-en/data/events_sector_duskbringer.xml:1960
+#: src-en/data/events_sector_duskbringer.xml:1971
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_PISSED_QUEST\"]/text"
 msgstr ""
@@ -2999,25 +3020,25 @@ msgstr ""
 "ein Rebellenschiff gerade einen Zoltanposten am angreifen, wobei du nicht "
 "sicher bist ob er überhaupt zu den Duskbringern gehört."
 
-#: src-en/data/events_sector_duskbringer.xml:1963
+#: src-en/data/events_sector_duskbringer.xml:1974
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_PISSED_QUEST\"]/choice[@req=\"prof_finalsector\""
 " and @lvl=\"0\"]/text"
 msgstr "Rufe die Rebellen."
 
-#: src-en/data/events_sector_duskbringer.xml:1965
+#: src-en/data/events_sector_duskbringer.xml:1976
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_PISSED_QUEST\"]/choice[@req=\"prof_finalsector\""
 " and @lvl=\"0\"]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_duskbringer.xml:1967
+#: src-en/data/events_sector_duskbringer.xml:1978
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_PISSED_QUEST\"]/choice[@req=\"prof_finalsector\""
 " and @lvl=\"0\"]/event/choice[1]/text"
 msgstr "Töte ihn."
 
-#: src-en/data/events_sector_duskbringer.xml:1969
+#: src-en/data/events_sector_duskbringer.xml:1980
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_PISSED_QUEST\"]/choice[@req=\"prof_finalsector\""
 " and @lvl=\"0\"]/event/choice[1]/event/text"
@@ -3025,19 +3046,19 @@ msgstr ""
 "Du schaltest Kyle kurz wieder laut, aber nach weiteren Beleidungen schaltest"
 " du ihn wieder stumm und fängst an anzugreifen."
 
-#: src-en/data/events_sector_duskbringer.xml:1972
+#: src-en/data/events_sector_duskbringer.xml:1983
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_PISSED_QUEST\"]/choice[@req=\"prof_finalsector\""
 " and @lvl=\"0\"]/event/choice[1]/event/choice/text"
 msgstr "Fortfahren..."
 
-#: src-en/data/events_sector_duskbringer.xml:1978
+#: src-en/data/events_sector_duskbringer.xml:1989
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_PISSED_QUEST\"]/choice[@req=\"prof_finalsector\""
 " and @lvl=\"0\"]/event/choice[2]/text"
 msgstr "Er verdient unsere Zeit nicht. Lass die Dusks in händeln."
 
-#: src-en/data/events_sector_duskbringer.xml:1980
+#: src-en/data/events_sector_duskbringer.xml:1991
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_PISSED_QUEST\"]/choice[@req=\"prof_finalsector\""
 " and @lvl=\"0\"]/event/choice[2]/event/text"
@@ -3045,13 +3066,13 @@ msgstr ""
 "Du schaltest deine Triebwerke zum Umkehren ein und fliegst von dem "
 "Rebellenschiff weg. Wieso kriegst du immer die seltsamen Aufträge?"
 
-#: src-en/data/events_sector_duskbringer.xml:1986
+#: src-en/data/events_sector_duskbringer.xml:1997
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_PISSED_QUEST\"]/choice[@req=\"prof_finalsector\""
 " and @lvl=\"1\"]/text"
 msgstr "Rufe die Rebellen."
 
-#: src-en/data/events_sector_duskbringer.xml:1988
+#: src-en/data/events_sector_duskbringer.xml:1999
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_PISSED_QUEST\"]/choice[@req=\"prof_finalsector\""
 " and @lvl=\"1\"]/event/text"
@@ -3062,13 +3083,13 @@ msgstr ""
 "pausiert für einen Moment. \"FALLS DU DUMM BIST, LASS MICH ERKLÄREN. ICH "
 "WERDE DEI-\" Du schaltest ihn stumm und entscheidest, was du tun sollst."
 
-#: src-en/data/events_sector_duskbringer.xml:1990
+#: src-en/data/events_sector_duskbringer.xml:2001
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_PISSED_QUEST\"]/choice[@req=\"prof_finalsector\""
 " and @lvl=\"1\"]/event/choice[1]/text"
 msgstr "Töte ihn."
 
-#: src-en/data/events_sector_duskbringer.xml:1992
+#: src-en/data/events_sector_duskbringer.xml:2003
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_PISSED_QUEST\"]/choice[@req=\"prof_finalsector\""
 " and @lvl=\"1\"]/event/choice[1]/event/text"
@@ -3076,19 +3097,19 @@ msgstr ""
 "Du schaltest Kyle kurz wieder laut, aber nach weiteren Beleidungen schaltest"
 " du ihn wieder stumm und fängst an anzugreifen."
 
-#: src-en/data/events_sector_duskbringer.xml:1995
+#: src-en/data/events_sector_duskbringer.xml:2006
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_PISSED_QUEST\"]/choice[@req=\"prof_finalsector\""
 " and @lvl=\"1\"]/event/choice[1]/event/choice/text"
 msgstr "Fortfahren..."
 
-#: src-en/data/events_sector_duskbringer.xml:2001
+#: src-en/data/events_sector_duskbringer.xml:2012
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_PISSED_QUEST\"]/choice[@req=\"prof_finalsector\""
 " and @lvl=\"1\"]/event/choice[2]/text"
 msgstr "Er verdient unsere Zeit nicht. Lass die Dusks in händeln."
 
-#: src-en/data/events_sector_duskbringer.xml:2003
+#: src-en/data/events_sector_duskbringer.xml:2014
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_PISSED_QUEST\"]/choice[@req=\"prof_finalsector\""
 " and @lvl=\"1\"]/event/choice[2]/event/text"
@@ -3096,7 +3117,7 @@ msgstr ""
 "Du schaltest deine Triebwerke zum Umkehren ein und fliegst von dem "
 "Rebellenschiff weg. Wieso kriegst du immer die seltsamen Aufträge?"
 
-#: src-en/data/events_sector_duskbringer.xml:2010
+#: src-en/data/events_sector_duskbringer.xml:2021
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_PISSED_DEFEAT\"]/text"
 msgstr ""
@@ -3104,12 +3125,12 @@ msgstr ""
 " sauer sein.\" Das Rebellenschiff wurde ausgeschalten. Du verschrottest die "
 "Reste von Kyles Schiff."
 
-#: src-en/data/events_sector_duskbringer.xml:2014
+#: src-en/data/events_sector_duskbringer.xml:2025
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_PISSED_DEFEAT\"]/choice/text"
 msgstr "Fortfahren..."
 
-#: src-en/data/events_sector_duskbringer.xml:2016
+#: src-en/data/events_sector_duskbringer.xml:2027
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_PISSED_DEFEAT\"]/choice/event/text"
 msgstr ""
@@ -3120,12 +3141,12 @@ msgstr ""
 "DASS DU VON MIR GEHÖRT HAST FÖDERATIONS-\" Kyle kann es nicht zuende sagen, "
 "bevor ein Duskbringerschiff kommt und den Pod zerstört."
 
-#: src-en/data/events_sector_duskbringer.xml:2018
+#: src-en/data/events_sector_duskbringer.xml:2029
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_PISSED_DEFEAT\"]/choice/event/choice/text"
 msgstr "Fortfahren..."
 
-#: src-en/data/events_sector_duskbringer.xml:2020
+#: src-en/data/events_sector_duskbringer.xml:2031
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_PISSED_DEFEAT\"]/choice/event/choice/event/text"
 msgstr ""
@@ -3134,17 +3155,17 @@ msgstr ""
 "aber du hast gute Arbeit geleistet. Du hast deinen Job getan... jetzt sollst"
 " du entlohnt werden.\""
 
-#: src-en/data/events_sector_duskbringer.xml:2021
+#: src-en/data/events_sector_duskbringer.xml:2032
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_PISSED_DEFEAT\"]/choice/event/choice/event/crewMember"
 msgstr "Redin"
 
-#: src-en/data/events_sector_duskbringer.xml:2049
+#: src-en/data/events_sector_duskbringer.xml:2060
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"ENCOUNTER_DUSKBRINGER\"]/choice/text"
 msgstr "Fortfahren..."
 
-#: src-en/data/events_sector_duskbringer.xml:2054
+#: src-en/data/events_sector_duskbringer.xml:2065
 msgid ""
 "data/events_sector_duskbringer.xml$//textList[@name=\"TEXT_ENCOUNTER_DUSKBRINGER\"]/text[1]"
 msgstr ""
@@ -3152,7 +3173,7 @@ msgstr ""
 "scheint. Normalerweise töten sie bei Kontakt und dieses Schiff versucht das "
 "auch."
 
-#: src-en/data/events_sector_duskbringer.xml:2055
+#: src-en/data/events_sector_duskbringer.xml:2066
 msgid ""
 "data/events_sector_duskbringer.xml$//textList[@name=\"TEXT_ENCOUNTER_DUSKBRINGER\"]/text[2]"
 msgstr ""
@@ -3160,7 +3181,7 @@ msgstr ""
 "ist bereits ein Duskbringerschiff hier und es scheint als möchte es den "
 "Gefallen erwiedern."
 
-#: src-en/data/events_sector_duskbringer.xml:2056
+#: src-en/data/events_sector_duskbringer.xml:2067
 msgid ""
 "data/events_sector_duskbringer.xml$//textList[@name=\"TEXT_ENCOUNTER_DUSKBRINGER\"]/text[3]"
 msgstr ""
@@ -3168,21 +3189,21 @@ msgstr ""
 " aggressive Weltraumnazis, aber du hast keine Zeit darüber nachzudenken, "
 "bevor ein Schiff angreift!"
 
-#: src-en/data/events_sector_duskbringer.xml:2057
+#: src-en/data/events_sector_duskbringer.xml:2068
 msgid ""
 "data/events_sector_duskbringer.xml$//textList[@name=\"TEXT_ENCOUNTER_DUSKBRINGER\"]/text[4]"
 msgstr ""
 "Ein Duskbringerschiff kommt mit hoher Geschwindigkeit entgegen. Zu den "
 "Waffen!"
 
-#: src-en/data/events_sector_duskbringer.xml:2058
+#: src-en/data/events_sector_duskbringer.xml:2069
 msgid ""
 "data/events_sector_duskbringer.xml$//textList[@name=\"TEXT_ENCOUNTER_DUSKBRINGER\"]/text[5]"
 msgstr ""
 "Duskbringerpatrouillien suchen oft im Sektor nach unwillkommenen Besuchern. "
 "Solch eine Patrouillie hat dich gefunden und fängt an anzugreifen."
 
-#: src-en/data/events_sector_duskbringer.xml:2059
+#: src-en/data/events_sector_duskbringer.xml:2070
 msgid ""
 "data/events_sector_duskbringer.xml$//textList[@name=\"TEXT_ENCOUNTER_DUSKBRINGER\"]/text[6]"
 msgstr ""
@@ -3191,12 +3212,12 @@ msgstr ""
 " Wut ist mehr als nur ein Bruch des Protokolls, aber du hast keine Chance "
 "als zu kämpfen."
 
-#: src-en/data/events_sector_duskbringer.xml:2066
+#: src-en/data/events_sector_duskbringer.xml:2077
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"ENCOUNTER_DUSKBRINGER_STATION\"]/choice/text"
 msgstr "Fortfahren..."
 
-#: src-en/data/events_sector_duskbringer.xml:2071
+#: src-en/data/events_sector_duskbringer.xml:2082
 msgid ""
 "data/events_sector_duskbringer.xml$//textList[@name=\"TEXT_ENCOUNTER_DUSKBRINGER_STATION\"]/text[1]"
 msgstr ""
@@ -3204,7 +3225,7 @@ msgstr ""
 "verdammt, Feds!\" Die Duskbringerstation in der Nähe aktiviert die Waffen "
 "und ist bereit anzugreifen."
 
-#: src-en/data/events_sector_duskbringer.xml:2072
+#: src-en/data/events_sector_duskbringer.xml:2083
 msgid ""
 "data/events_sector_duskbringer.xml$//textList[@name=\"TEXT_ENCOUNTER_DUSKBRINGER_STATION\"]/text[2]"
 msgstr ""
@@ -3212,12 +3233,12 @@ msgstr ""
 "ihrer Grenzen angeht, als die Zoltans. Eine Station wurde hier gebaut um "
 "Schiffe wie deins abzuhalten, ein Kampf ist unausweichlich."
 
-#: src-en/data/events_sector_duskbringer.xml:2079
+#: src-en/data/events_sector_duskbringer.xml:2090
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"ENCOUNTER_REBEL_DUSKBRINGER\"]/choice/text"
 msgstr "Fortfahren..."
 
-#: src-en/data/events_sector_duskbringer.xml:2084
+#: src-en/data/events_sector_duskbringer.xml:2095
 msgid ""
 "data/events_sector_duskbringer.xml$//textList[@name=\"TEXT_ENCOUNTER_REBEL_DUSKBRINGER\"]/text[1]"
 msgstr ""
@@ -3225,7 +3246,7 @@ msgstr ""
 "Beweise, dass die Föderation korrupt ist, wenn deine Existenz nicht nur "
 "eine, sondern zwei Rebellionen gestartet hat?\""
 
-#: src-en/data/events_sector_duskbringer.xml:2085
+#: src-en/data/events_sector_duskbringer.xml:2096
 msgid ""
 "data/events_sector_duskbringer.xml$//textList[@name=\"TEXT_ENCOUNTER_REBEL_DUSKBRINGER\"]/text[2]"
 msgstr ""
@@ -3234,21 +3255,21 @@ msgstr ""
 "der Hass für die Föderation. Das Rebellenschiff an diesem Signalpunkt "
 "verliert keine Zeit diesen Hass zu zeigen."
 
-#: src-en/data/events_sector_duskbringer.xml:2086
+#: src-en/data/events_sector_duskbringer.xml:2097
 msgid ""
 "data/events_sector_duskbringer.xml$//textList[@name=\"TEXT_ENCOUNTER_REBEL_DUSKBRINGER\"]/text[3]"
 msgstr ""
 "Obwohl es nicht ihr Territorium ist, sind Rebellen nicht selten in "
 "Duskbringer Sektoren. Es scheint du hast eins ihrer Schiffe getroffen."
 
-#: src-en/data/events_sector_duskbringer.xml:2087
+#: src-en/data/events_sector_duskbringer.xml:2098
 msgid ""
 "data/events_sector_duskbringer.xml$//textList[@name=\"TEXT_ENCOUNTER_REBEL_DUSKBRINGER\"]/text[4]"
 msgstr ""
 "\"Blegh, ich kann nicht sagen, dass ich ein Fan von den Zoltans bin. Zeit zu"
 " sterben!\""
 
-#: src-en/data/events_sector_duskbringer.xml:2088
+#: src-en/data/events_sector_duskbringer.xml:2099
 msgid ""
 "data/events_sector_duskbringer.xml$//textList[@name=\"TEXT_ENCOUNTER_REBEL_DUSKBRINGER\"]/text[5]"
 msgstr ""
@@ -3257,12 +3278,12 @@ msgstr ""
 " werde, da du es ja liebst deine Feinde zu töten. Witzig, weil ich genau das"
 " gleiche auch mag!\""
 
-#: src-en/data/events_sector_duskbringer.xml:2095
+#: src-en/data/events_sector_duskbringer.xml:2106
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"ENCOUNTER_PIRATE_DUSKBRINGER\"]/choice/text"
 msgstr "Fortfahren..."
 
-#: src-en/data/events_sector_duskbringer.xml:2100
+#: src-en/data/events_sector_duskbringer.xml:2111
 msgid ""
 "data/events_sector_duskbringer.xml$//textList[@name=\"TEXT_ENCOUNTER_PIRATE_DUSKBRINGER\"]/text[1]"
 msgstr ""
@@ -3270,7 +3291,7 @@ msgstr ""
 " Er scheint selbstsicher, dass er dich und dein Schiff besiegen kann und "
 "greift an!"
 
-#: src-en/data/events_sector_duskbringer.xml:2101
+#: src-en/data/events_sector_duskbringer.xml:2112
 msgid ""
 "data/events_sector_duskbringer.xml$//textList[@name=\"TEXT_ENCOUNTER_PIRATE_DUSKBRINGER\"]/text[2]"
 msgstr ""
@@ -3279,7 +3300,7 @@ msgstr ""
 "Föderation!\" Es scheint, dass sie dich entdeckt haben. Eines ihrer Schiffe "
 "flieht, aber das andere greift an!"
 
-#: src-en/data/events_sector_duskbringer.xml:2102
+#: src-en/data/events_sector_duskbringer.xml:2113
 msgid ""
 "data/events_sector_duskbringer.xml$//textList[@name=\"TEXT_ENCOUNTER_PIRATE_DUSKBRINGER\"]/text[3]"
 msgstr ""
@@ -3288,7 +3309,7 @@ msgstr ""
 " um den Zoltans Salz in die Wunde zu kippen oder aus alternativen Motive ist"
 " egal, da ein Piratenschiff dich angreift!"
 
-#: src-en/data/events_sector_duskbringer.xml:2103
+#: src-en/data/events_sector_duskbringer.xml:2114
 msgid ""
 "data/events_sector_duskbringer.xml$//textList[@name=\"TEXT_ENCOUNTER_PIRATE_DUSKBRINGER\"]/text[4]"
 msgstr ""
@@ -3296,7 +3317,7 @@ msgstr ""
 "Amigo. Du glaubst die Dusks sind deine größte Gefahr hier, da liegst du "
 "falsch. Wir Piraten kontrollieren diesen Sektor!\""
 
-#: src-en/data/events_sector_duskbringer.xml:2104
+#: src-en/data/events_sector_duskbringer.xml:2115
 msgid ""
 "data/events_sector_duskbringer.xml$//textList[@name=\"TEXT_ENCOUNTER_PIRATE_DUSKBRINGER\"]/text[5]"
 msgstr ""
@@ -3304,7 +3325,7 @@ msgstr ""
 "bekommen!\" Die Piraten an diesem Signalpunkt scheinen nicht von deiner "
 "Präsenz erfreut zu sein. Du machst dich zum Kampf bereit."
 
-#: src-en/data/events_sector_duskbringer.xml:2108
+#: src-en/data/events_sector_duskbringer.xml:2119
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_ROCK_FANATICS\"]/text"
 msgstr ""
@@ -3313,12 +3334,12 @@ msgstr ""
 "Das Rockschiff hier nimmt offentsichtlich die Hingabe zu den Duskbringern "
 "ernst und ist entschlossen dich zu zerstören."
 
-#: src-en/data/events_sector_duskbringer.xml:2111
+#: src-en/data/events_sector_duskbringer.xml:2122
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_ROCK_FANATICS\"]/choice/text"
 msgstr "Fortfahren..."
 
-#: src-en/data/events_sector_duskbringer.xml:2117
+#: src-en/data/events_sector_duskbringer.xml:2128
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_PIRATE_CAPTURE\"]/text"
 msgstr ""
@@ -3329,12 +3350,13 @@ msgstr ""
 "Kommunikationssysteme. \"Verdammt! - Föderationsschiff, keine Zeit zurück zu"
 " kehren - wir müssen gegen sie von hier kämpfen!\""
 
-#: src-en/data/events_sector_duskbringer.xml:2120
+#: src-en/data/events_sector_duskbringer.xml:2131
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_PIRATE_CAPTURE\"]/choice/text"
 msgstr "Fortfahren..."
 
-#: src-en/data/events_sector_duskbringer.xml:2126
+#: src-en/data/events_sector_duskbringer.xml:2137
+#, fuzzy
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_ZOLTAN_UNSURE\"]/text"
 msgstr ""
@@ -3344,14 +3366,14 @@ msgstr ""
 "Galaxie. Wir verlangen, dass ihr einen Weg finden, um den Zorn der "
 "Duskbringer zu beruhigen.\""
 
-#: src-en/data/events_sector_duskbringer.xml:2129
+#: src-en/data/events_sector_duskbringer.xml:2140
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_ZOLTAN_UNSURE\"]/choice[1]/text"
 msgstr ""
 "Gebe ihm deine Flugpläne, obwohl du weißt, dass die Rebellen sie "
 "wahrscheinlich bekommen."
 
-#: src-en/data/events_sector_duskbringer.xml:2131
+#: src-en/data/events_sector_duskbringer.xml:2142
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_ZOLTAN_UNSURE\"]/choice[1]/event/text"
 msgstr ""
@@ -3360,26 +3382,26 @@ msgstr ""
 "wird. Trotzdem gibst du dem Zoltan die Informationen, welcher glücklich "
 "scheint."
 
-#: src-en/data/events_sector_duskbringer.xml:2136
+#: src-en/data/events_sector_duskbringer.xml:2147
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_ZOLTAN_UNSURE\"]/choice[2]/text"
 msgstr "Gib dem Zoltan Schrott, um ihm zu helfen."
 
-#: src-en/data/events_sector_duskbringer.xml:2138
+#: src-en/data/events_sector_duskbringer.xml:2149
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_ZOLTAN_UNSURE\"]/choice[2]/event/text"
 msgstr ""
 "Dein Schrott abzugeben ist nicht einfach, aber du weißt, dass es den Zoltans"
 " ein wenig helfen wird."
 
-#: src-en/data/events_sector_duskbringer.xml:2145
+#: src-en/data/events_sector_duskbringer.xml:2156
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_ZOLTAN_UNSURE\"]/choice[@req=\"LIST_CREW_ZOLTAN_CAPITAL\"]/text"
 msgstr ""
 "(Zoltan Crew) Predige den Zoltans und überzeuge sie zu den Wegen des "
 "Friedens."
 
-#: src-en/data/events_sector_duskbringer.xml:2147
+#: src-en/data/events_sector_duskbringer.xml:2158
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_ZOLTAN_UNSURE\"]/choice[@req=\"LIST_CREW_ZOLTAN_CAPITAL\"]/event/text"
 msgstr ""
@@ -3388,29 +3410,29 @@ msgstr ""
 " bei der Crew des Zoltanschiffs zu funktionieren. Sehr überzeugt, dass du "
 "nicht wie die anderen Militärschiffe bist, lassen sie dich passieren."
 
-#: src-en/data/events_sector_duskbringer.xml:2151
+#: src-en/data/events_sector_duskbringer.xml:2162
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_ZOLTAN_UNSURE\"]/choice[4]/text"
 msgstr "Mit den Dusks umzugehen ist nicht unser Problem."
 
-#: src-en/data/events_sector_duskbringer.xml:2153
+#: src-en/data/events_sector_duskbringer.xml:2164
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_ZOLTAN_UNSURE\"]/choice[4]/event/text"
 msgstr ""
 "\"Ich hab erwartet, dass du das sagst. Ich bereue, dass ich dich nicht "
 "einfach unsere Wege des Lebens weiter zerstören lassen kann.\""
 
-#: src-en/data/events_sector_duskbringer.xml:2156
+#: src-en/data/events_sector_duskbringer.xml:2167
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_ZOLTAN_UNSURE\"]/choice[4]/event/choice/text"
 msgstr "Fortfahren..."
 
-#: src-en/data/events_sector_duskbringer.xml:2178
+#: src-en/data/events_sector_duskbringer.xml:2189
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"ENCOUNTER_REBEL_DUSKBRINGER_CAPITOL\"]/choice/text"
 msgstr "Fortfahren..."
 
-#: src-en/data/events_sector_duskbringer.xml:2183
+#: src-en/data/events_sector_duskbringer.xml:2194
 msgid ""
 "data/events_sector_duskbringer.xml$//textList[@name=\"TEXT_ENCOUNTER_REBEL_DUSKBRINGER_CAPITOL\"]/text[1]"
 msgstr ""
@@ -3418,7 +3440,7 @@ msgstr ""
 "für die Duskbringer, sondern auch für dich. Ein Rebellenspäher visiert deine"
 " Position an und beginnt anzugreifen."
 
-#: src-en/data/events_sector_duskbringer.xml:2184
+#: src-en/data/events_sector_duskbringer.xml:2195
 msgid ""
 "data/events_sector_duskbringer.xml$//textList[@name=\"TEXT_ENCOUNTER_REBEL_DUSKBRINGER_CAPITOL\"]/text[2]"
 msgstr ""
@@ -3426,14 +3448,14 @@ msgstr ""
 " Invasion lang gegen Zoltans kämpfen, aber jetzt taucht ein Fed auf? Mein "
 "Glückstag!\""
 
-#: src-en/data/events_sector_duskbringer.xml:2185
+#: src-en/data/events_sector_duskbringer.xml:2196
 msgid ""
 "data/events_sector_duskbringer.xml$//textList[@name=\"TEXT_ENCOUNTER_REBEL_DUSKBRINGER_CAPITOL\"]/text[3]"
 msgstr ""
 "Ein Rebellenschiff, welches Blut will, ist etwas was dass du nicht gerne "
 "siehst. Ein Rebellenschiff kommt dir entgegen!"
 
-#: src-en/data/events_sector_duskbringer.xml:2187
+#: src-en/data/events_sector_duskbringer.xml:2198
 msgid ""
 "data/events_sector_duskbringer.xml$//textList[@name=\"TEXT_ENCOUNTER_REBEL_DUSKBRINGER_CAPITOL\"]/text[4]"
 msgstr ""
@@ -3441,14 +3463,14 @@ msgstr ""
 "Beweise, dass die Föderation korrupt ist, wenn deine Existenz nicht nur "
 "eine, sondern zwei Rebellionen gestartet hat?\""
 
-#: src-en/data/events_sector_duskbringer.xml:2188
+#: src-en/data/events_sector_duskbringer.xml:2199
 msgid ""
 "data/events_sector_duskbringer.xml$//textList[@name=\"TEXT_ENCOUNTER_REBEL_DUSKBRINGER_CAPITOL\"]/text[5]"
 msgstr ""
 "\"Blegh, ich kann nicht sagen, dass ich ein Fan von den Zoltans bin. Zeit zu"
 " sterben!\""
 
-#: src-en/data/events_sector_duskbringer.xml:2189
+#: src-en/data/events_sector_duskbringer.xml:2200
 msgid ""
 "data/events_sector_duskbringer.xml$//textList[@name=\"TEXT_ENCOUNTER_REBEL_DUSKBRINGER_CAPITOL\"]/text[6]"
 msgstr ""
@@ -3457,7 +3479,7 @@ msgstr ""
 " werde, da du es ja liebst deine Feinde zu töten. Witzig, weil ich genau das"
 " gleiche auch mag!\""
 
-#: src-en/data/events_sector_duskbringer.xml:2199
+#: src-en/data/events_sector_duskbringer.xml:2210
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"ENCOUNTER_DUSKBRINGER_ELITE\"]/text"
 msgstr ""
@@ -3467,12 +3489,12 @@ msgstr ""
 "geladenen Waffen um dich zu zerstören. Sieht aus als müsstest du das Gleiche"
 " tun."
 
-#: src-en/data/events_sector_duskbringer.xml:2202
+#: src-en/data/events_sector_duskbringer.xml:2213
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"ENCOUNTER_DUSKBRINGER_ELITE\"]/choice/text"
 msgstr "Fortfahren..."
 
-#: src-en/data/events_sector_duskbringer.xml:2208
+#: src-en/data/events_sector_duskbringer.xml:2219
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_CLONECANNON\"]/text"
 msgstr ""
@@ -3480,12 +3502,12 @@ msgstr ""
 "gesehen, aber du hast noch nie so eine Waffe gesehen, wie die des Auto-"
 "Schiffes in der Nähe. Und was wie eine Klon-Kammer aussieht?"
 
-#: src-en/data/events_sector_duskbringer.xml:2211
+#: src-en/data/events_sector_duskbringer.xml:2222
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_CLONECANNON\"]/choice[1]/text"
 msgstr "Gehe näher an das Schiff heran, um die Waffe zu entfernen."
 
-#: src-en/data/events_sector_duskbringer.xml:2213
+#: src-en/data/events_sector_duskbringer.xml:2224
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_CLONECANNON\"]/choice[1]/event/text"
 msgstr ""
@@ -3495,58 +3517,58 @@ msgstr ""
 "Ein paar Sekunden später kommt der gleiche Zoltan wieder und wird "
 "weggeschossen. Seltsam..."
 
-#: src-en/data/events_sector_duskbringer.xml:2216
+#: src-en/data/events_sector_duskbringer.xml:2227
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_CLONECANNON\"]/choice[1]/event/choice/text"
 msgstr "Fortfahren..."
 
-#: src-en/data/events_sector_duskbringer.xml:2222
+#: src-en/data/events_sector_duskbringer.xml:2233
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_CLONECANNON\"]/choice[2]/text"
 msgstr "Wir können es nicht riskieren."
 
-#: src-en/data/events_sector_duskbringer.xml:2224
+#: src-en/data/events_sector_duskbringer.xml:2235
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_CLONECANNON\"]/choice[2]/event/text"
 msgstr ""
 "Egal wie verführend es ist, es gibt keine Möglichkeit etwas zu entfernen, "
 "ohne dass das Auto-Schiff dich bemerkt. Du lässt das Schiff zurück."
 
-#: src-en/data/events_sector_duskbringer.xml:2226
+#: src-en/data/events_sector_duskbringer.xml:2237
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_CLONECANNON\"]/choice[2]/event/choice[1]/text"
 msgstr "Tue etwas an Bord des Schiffs."
 
-#: src-en/data/events_sector_duskbringer.xml:2230
+#: src-en/data/events_sector_duskbringer.xml:2241
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_CLONECANNON\"]/choice[2]/event/choice[2]/text"
 msgstr "Nichts tun."
 
-#: src-en/data/events_sector_duskbringer.xml:2237
+#: src-en/data/events_sector_duskbringer.xml:2248
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_CLONECANNON_ESCAPING\"]/text"
 msgstr ""
 "Das Auto-Schiff aktiviert die Triebwerke und dreht um. Es versucht "
 "abzuhauen!"
 
-#: src-en/data/events_sector_duskbringer.xml:2240
+#: src-en/data/events_sector_duskbringer.xml:2251
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_CLONECANNON_GOTAWAY\"]/text"
 msgstr "Das bizarre Schiff spring weg und lässt dich am Signalpunkt zurück."
 
-#: src-en/data/events_sector_duskbringer.xml:2243
+#: src-en/data/events_sector_duskbringer.xml:2254
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_CLONECANNON_DEFEAT\"]/text"
 msgstr ""
 "Das Auto-Schiff explodiert und sendet Wrackteile überall hin, die du "
 "aufsammeln kannst."
 
-#: src-en/data/events_sector_duskbringer.xml:2246
+#: src-en/data/events_sector_duskbringer.xml:2257
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_CLONECANNON_DEFEAT\"]/choice/text"
 msgstr "Erkunde das Wrack."
 
-#: src-en/data/events_sector_duskbringer.xml:2248
+#: src-en/data/events_sector_duskbringer.xml:2259
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DUSK_CLONECANNON_DEFEAT\"]/choice/event/text"
 msgstr ""
@@ -3557,12 +3579,22 @@ msgstr ""
 "nichts übrig, außer seiner Waffe, deshalb fragt er ob du ihn an Bord "
 "behältst und nutzt, wie sein Name es sagt."
 
-#: src-en/data/events_sector_duskbringer.xml:2250
+#: src-en/data/events_sector_duskbringer.xml:2261
 msgid ""
-"data/events_sector_duskbringer.xml$//event[@name=\"DUSK_CLONECANNON_DEFEAT\"]/choice/event/crewMember"
+"data/events_sector_duskbringer.xml$//event[@name=\"DUSK_CLONECANNON_DEFEAT\"]/choice/event/choice[1]/text"
+msgstr ""
+
+#: src-en/data/events_sector_duskbringer.xml:2267
+msgid ""
+"data/events_sector_duskbringer.xml$//event[@name=\"DUSK_CLONECANNON_DEFEAT\"]/choice/event/choice[2]/text"
+msgstr ""
+
+#: src-en/data/events_sector_duskbringer.xml:2270
+msgid ""
+"data/events_sector_duskbringer.xml$//event[@name=\"DUSK_CLONECANNON_DEFEAT\"]/choice/event/choice[2]/event/crewMember"
 msgstr "Projektil"
 
-#: src-en/data/events_sector_duskbringer.xml:2264
+#: src-en/data/events_sector_duskbringer.xml:2286
 msgid "data/events_sector_duskbringer.xml$//event[@name=\"NEBULA_ANURAK\"]/text"
 msgstr ""
 "Unglücklicherweiise, bist du genau in die Mitte eines besonders zähen "
@@ -3571,12 +3603,12 @@ msgstr ""
 "überhaupt Kontakt mit ihnen aufnehmen kannst, wirst du von einem weiteren "
 "Schiff gerufen, welches dir Rät ihm zu folgen."
 
-#: src-en/data/events_sector_duskbringer.xml:2267
+#: src-en/data/events_sector_duskbringer.xml:2289
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"NEBULA_ANURAK\"]/choice[1]/text"
 msgstr "Folge dem mysteriösen Schiff."
 
-#: src-en/data/events_sector_duskbringer.xml:2269
+#: src-en/data/events_sector_duskbringer.xml:2291
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"NEBULA_ANURAK\"]/choice[1]/event/text"
 msgstr ""
@@ -3585,245 +3617,245 @@ msgstr ""
 "abtrünnigen Planeten führt. Du siehst das Schiff nicht mehr, bis du landest "
 "und realisierst, dass es ein kleines Shuttle ist. -edit"
 
-#: src-en/data/events_sector_duskbringer.xml:2271
+#: src-en/data/events_sector_duskbringer.xml:2293
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"NEBULA_ANURAK\"]/choice[1]/event/choice/text"
 msgstr "Gehe mit dem Orchid."
 
-#: src-en/data/events_sector_duskbringer.xml:2273
+#: src-en/data/events_sector_duskbringer.xml:2295
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"NEBULA_ANURAK\"]/choice[1]/event/choice/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_duskbringer.xml:2275
+#: src-en/data/events_sector_duskbringer.xml:2297
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"NEBULA_ANURAK\"]/choice[1]/event/choice/event/choice/text"
 msgstr "Betrete das Gefährt."
 
-#: src-en/data/events_sector_duskbringer.xml:2283
+#: src-en/data/events_sector_duskbringer.xml:2305
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"NEBULA_ANURAK\"]/choice[2]/text"
 msgstr ""
 
-#: src-en/data/events_sector_duskbringer.xml:2285
+#: src-en/data/events_sector_duskbringer.xml:2307
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"NEBULA_ANURAK\"]/choice[2]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_duskbringer.xml:2289
+#: src-en/data/events_sector_duskbringer.xml:2311
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"NEBULA_ANURAK\"]/choice[3]/text"
 msgstr "Gehe wieder."
 
-#: src-en/data/events_sector_duskbringer.xml:2291
+#: src-en/data/events_sector_duskbringer.xml:2313
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"NEBULA_ANURAK\"]/choice[3]/event/text"
 msgstr ""
 "Von keinem der beiden Geheimnisse fasziniert, entscheidest du dich es ist "
 "das Beste zu gehen."
 
-#: src-en/data/events_sector_duskbringer.xml:2293
+#: src-en/data/events_sector_duskbringer.xml:2315
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"NEBULA_ANURAK\"]/choice[3]/event/choice[1]/text"
 msgstr "Tue etwas an Bord des Schiffs."
 
-#: src-en/data/events_sector_duskbringer.xml:2297
+#: src-en/data/events_sector_duskbringer.xml:2319
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"NEBULA_ANURAK\"]/choice[3]/event/choice[2]/text"
 msgstr "Nichts tun."
 
-#: src-en/data/events_sector_duskbringer.xml:2304
+#: src-en/data/events_sector_duskbringer.xml:2326
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"ANURAK_SOUP_OFFER\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_duskbringer.xml:2310
+#: src-en/data/events_sector_duskbringer.xml:2332
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"ANURAK_SOUP_OFFER\"]/choice[@req=\"unique_guntput\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_duskbringer.xml:2312
+#: src-en/data/events_sector_duskbringer.xml:2334
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"ANURAK_SOUP_OFFER\"]/choice[@req=\"unique_guntput\"]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_duskbringer.xml:2326
+#: src-en/data/events_sector_duskbringer.xml:2348
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"ANURAK_SOUP_OFFER\"]/choice[@req=\"unique_guntput\"]/event/choice/text"
 msgstr ""
 
-#: src-en/data/events_sector_duskbringer.xml:2328
+#: src-en/data/events_sector_duskbringer.xml:2350
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"ANURAK_SOUP_OFFER\"]/choice[@req=\"unique_guntput\"]/event/choice/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_duskbringer.xml:2334
+#: src-en/data/events_sector_duskbringer.xml:2356
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"ANURAK_SOUP_OFFER\"]/choice[@req=\"unique_guntput\"]/event/choice/event/choice/text"
 msgstr "Was ist passiert?"
 
-#: src-en/data/events_sector_duskbringer.xml:2342
+#: src-en/data/events_sector_duskbringer.xml:2364
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"ANURAK_SOUP_OFFER\"]/choice[2]/text"
 msgstr "Bleibe für etwas Suppe."
 
-#: src-en/data/events_sector_duskbringer.xml:2344
+#: src-en/data/events_sector_duskbringer.xml:2366
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"ANURAK_SOUP_OFFER\"]/choice[2]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_duskbringer.xml:2350
+#: src-en/data/events_sector_duskbringer.xml:2372
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"ANURAK_SOUP_OFFER\"]/choice[2]/event/choice/text"
 msgstr "Das ist nicht mein Name."
 
-#: src-en/data/events_sector_duskbringer.xml:2352
+#: src-en/data/events_sector_duskbringer.xml:2374
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"ANURAK_SOUP_OFFER\"]/choice[2]/event/choice/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_duskbringer.xml:2358
+#: src-en/data/events_sector_duskbringer.xml:2380
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"ANURAK_SOUP_OFFER\"]/choice[2]/event/choice/event/choice/text"
 msgstr "Was ist passiert?"
 
-#: src-en/data/events_sector_duskbringer.xml:2366
+#: src-en/data/events_sector_duskbringer.xml:2388
 #, fuzzy
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"ANURAK_SOUP_OFFER\"]/choice[3]/text"
 msgstr "Nein danke."
 
-#: src-en/data/events_sector_duskbringer.xml:2368
+#: src-en/data/events_sector_duskbringer.xml:2390
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"ANURAK_SOUP_OFFER\"]/choice[3]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_duskbringer.xml:2377
+#: src-en/data/events_sector_duskbringer.xml:2399
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"ANURAK_EXPLAIN_2\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_duskbringer.xml:2381
+#: src-en/data/events_sector_duskbringer.xml:2403
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"ANURAK_EXPLAIN_2\"]/choice[1]/text"
 msgstr "Wir werden helfen."
 
-#: src-en/data/events_sector_duskbringer.xml:2383
+#: src-en/data/events_sector_duskbringer.xml:2405
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"ANURAK_EXPLAIN_2\"]/choice[1]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_duskbringer.xml:2388
+#: src-en/data/events_sector_duskbringer.xml:2410
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"ANURAK_EXPLAIN_2\"]/choice[1]/event/choice[1]/text"
 msgstr "Verteidige die Karavane."
 
-#: src-en/data/events_sector_duskbringer.xml:2390
+#: src-en/data/events_sector_duskbringer.xml:2412
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"ANURAK_EXPLAIN_2\"]/choice[1]/event/choice[1]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_duskbringer.xml:2393
+#: src-en/data/events_sector_duskbringer.xml:2415
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"ANURAK_EXPLAIN_2\"]/choice[1]/event/choice[1]/event/choice/text"
 msgstr "Fortfahren..."
 
-#: src-en/data/events_sector_duskbringer.xml:2399
+#: src-en/data/events_sector_duskbringer.xml:2421
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"ANURAK_EXPLAIN_2\"]/choice[1]/event/choice[2]/text"
 msgstr "Nehme das als Möglichkeit zu gehen!"
 
-#: src-en/data/events_sector_duskbringer.xml:2405
+#: src-en/data/events_sector_duskbringer.xml:2427
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"ANURAK_EXPLAIN_2\"]/choice[2]/text"
 msgstr "Wir mischen uns hier nicht ein."
 
-#: src-en/data/events_sector_duskbringer.xml:2407
+#: src-en/data/events_sector_duskbringer.xml:2429
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"ANURAK_EXPLAIN_2\"]/choice[2]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_duskbringer.xml:2412
+#: src-en/data/events_sector_duskbringer.xml:2434
 msgid "data/events_sector_duskbringer.xml$//event[@name=\"ANURAK_WIN\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_duskbringer.xml:2415
+#: src-en/data/events_sector_duskbringer.xml:2437
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"ANURAK_WIN\"]/choice/text"
 msgstr "Rede mit Anurak."
 
-#: src-en/data/events_sector_duskbringer.xml:2417
+#: src-en/data/events_sector_duskbringer.xml:2439
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"ANURAK_WIN\"]/choice/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_duskbringer.xml:2420
+#: src-en/data/events_sector_duskbringer.xml:2442
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"ANURAK_WIN\"]/choice/event/choice[1]/text"
 msgstr ""
 "Du hattest einen Plan und wir werden ihm folgen. Wir beschützen dich, bis "
 "wir Devorak finden."
 
-#: src-en/data/events_sector_duskbringer.xml:2422
+#: src-en/data/events_sector_duskbringer.xml:2444
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"ANURAK_WIN\"]/choice/event/choice[1]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_duskbringer.xml:2424
+#: src-en/data/events_sector_duskbringer.xml:2446
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"ANURAK_WIN\"]/choice/event/choice[1]/event/crewMember"
 msgstr "Anurak"
 
-#: src-en/data/events_sector_duskbringer.xml:2429
+#: src-en/data/events_sector_duskbringer.xml:2451
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"ANURAK_WIN\"]/choice/event/choice[2]/text"
 msgstr "Dein Glück ist zu Ende, Freundchen."
 
-#: src-en/data/events_sector_duskbringer.xml:2431
+#: src-en/data/events_sector_duskbringer.xml:2453
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"ANURAK_WIN\"]/choice/event/choice[2]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_duskbringer.xml:2445
+#: src-en/data/events_sector_duskbringer.xml:2467
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DEVORAK_HIDEOUT\"]/beaconType/undiscoveredTooltip"
 msgstr "Ein unbesuchter Ort."
 
-#: src-en/data/events_sector_duskbringer.xml:2446
+#: src-en/data/events_sector_duskbringer.xml:2468
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DEVORAK_HIDEOUT\"]/beaconType/unvisitedTooltip"
 msgstr "Die Position von Devoraks Versteck."
 
-#: src-en/data/events_sector_duskbringer.xml:2450
+#: src-en/data/events_sector_duskbringer.xml:2472
 msgid "data/events_sector_duskbringer.xml$//event[@name=\"DEVORAK_HIDEOUT\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_duskbringer.xml:2453
+#: src-en/data/events_sector_duskbringer.xml:2475
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DEVORAK_HIDEOUT\"]/choice[1]/text"
 msgstr "Betrete das Versteck."
 
-#: src-en/data/events_sector_duskbringer.xml:2455
+#: src-en/data/events_sector_duskbringer.xml:2477
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DEVORAK_HIDEOUT\"]/choice[1]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_duskbringer.xml:2459
+#: src-en/data/events_sector_duskbringer.xml:2481
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DEVORAK_HIDEOUT\"]/choice[1]/event/choice[1]/text"
 msgstr "Schüttele seine Hand."
 
-#: src-en/data/events_sector_duskbringer.xml:2461
+#: src-en/data/events_sector_duskbringer.xml:2483
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DEVORAK_HIDEOUT_ANGEL\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_duskbringer.xml:2465
+#: src-en/data/events_sector_duskbringer.xml:2487
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DEVORAK_HIDEOUT_ANGEL\"]/choice/text"
 msgstr "In welche Richtung geht das hier?"
 
-#: src-en/data/events_sector_duskbringer.xml:2467
+#: src-en/data/events_sector_duskbringer.xml:2489
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DEVORAK_HIDEOUT_ANGEL\"]/choice/event/text"
 msgstr ""
@@ -3831,152 +3863,152 @@ msgstr ""
 "\t\t\t\t\t\t\t\n"
 "\t\t\t\t\t\t\tJack hält inne und lässt dies auf sich wirken, bevor er fortfährt: \"Aber siehst du, dies ist kein gewöhnlicher Auftrag. Denn die Leute, die mich angeheuert haben, sind die Duskbringer selbst! Es gibt viele Befürchtungen, dass Devorak sich wieder verwandelt haben könnte und dass er plant, seine Mitgliedschaft aufzugeben. Zu einem so entscheidenden Zeitpunkt in der Duskbringer-Bewegung... nun, das wäre ziemlich katastrophal, oder? Aber diese ganze Universum-1-Verarsche? Sehr, sehr vorteilhaft. Sagen wir... ein Rebell tötet Devorak, bevor er überhaupt die Chance hatte, die Duskbringer zu denunzieren, ja?\" Jack schnippt mit den Fingern und nickt: \"Das wäre in der Tat SEHR vorteilhaft. Damit würden die Rebellen eine letzte Grenze überschreiten, und das Ministry wird natürlich nichts unternehmen. Es reicht gerade aus, um ein paar leichtgläubige Jugendliche davon zu überzeugen, dass sie ihren Teil dazu beitragen müssen, den gefallenen Helden zu rächen. Wenn man genug Zeit hätte, würde es sicher von selbst geschehen, aber die Zeit ist nicht auf der Seite meiner Kunden.\""
 
-#: src-en/data/events_sector_duskbringer.xml:2471
+#: src-en/data/events_sector_duskbringer.xml:2493
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DEVORAK_HIDEOUT_ANGEL\"]/choice/event/choice/text"
 msgstr ""
 "Lass mich raten, du wirst das Attentat auf Devorak auf die Rebellen "
 "schieben."
 
-#: src-en/data/events_sector_duskbringer.xml:2473
+#: src-en/data/events_sector_duskbringer.xml:2495
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DEVORAK_HIDEOUT_ANGEL\"]/choice/event/choice/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_duskbringer.xml:2475
+#: src-en/data/events_sector_duskbringer.xml:2497
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DEVORAK_HIDEOUT_ANGEL\"]/choice/event/choice/event/choice[@req=\"unique_anurak\""
 " and not(@lvl)]/text"
 msgstr "Er ist genau hier."
 
-#: src-en/data/events_sector_duskbringer.xml:2477
+#: src-en/data/events_sector_duskbringer.xml:2499
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DEVORAK_HIDEOUT_ANGEL\"]/choice/event/choice/event/choice[@req=\"unique_anurak\""
 " and not(@lvl)]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_duskbringer.xml:2479
+#: src-en/data/events_sector_duskbringer.xml:2501
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DEVORAK_HIDEOUT_ANGEL\"]/choice/event/choice/event/choice[@req=\"unique_anurak\""
 " and not(@lvl)]/event/choice[1]/text"
 msgstr "Akzeptiere das Angebot."
 
-#: src-en/data/events_sector_duskbringer.xml:2481
+#: src-en/data/events_sector_duskbringer.xml:2503
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DEVORAK_HIDEOUT_ANGEL_ACCEPT\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_duskbringer.xml:2486
+#: src-en/data/events_sector_duskbringer.xml:2508
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DEVORAK_HIDEOUT_ANGEL\"]/choice/event/choice/event/choice[@req=\"unique_anurak\""
 " and not(@lvl)]/event/choice[2]/text"
 msgstr "Ablehnen."
 
-#: src-en/data/events_sector_duskbringer.xml:2488
+#: src-en/data/events_sector_duskbringer.xml:2510
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DEVORAK_HIDEOUT_ANGEL_DECLINE\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_duskbringer.xml:2492
+#: src-en/data/events_sector_duskbringer.xml:2514
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DEVORAK_HIDEOUT_ANGEL\"]/choice/event/choice/event/choice[@req=\"unique_anurak\""
 " and not(@lvl)]/event/choice[@req=\"unique_irwin\"]/text"
 msgstr "(Irwin) Irwin scheint etwas kaum zurückhalten zu können."
 
-#: src-en/data/events_sector_duskbringer.xml:2494
+#: src-en/data/events_sector_duskbringer.xml:2516
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DEVORAK_HIDEOUT_ANGEL\"]/choice/event/choice/event/choice[@req=\"unique_anurak\""
 " and not(@lvl)]/event/choice[@req=\"unique_irwin\"]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_duskbringer.xml:2500
+#: src-en/data/events_sector_duskbringer.xml:2522
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DEVORAK_HIDEOUT_ANGEL\"]/choice/event/choice/event/choice[@req=\"unique_anurak\""
 " and not(@lvl)]/event/choice[@req=\"unique_irwin\"]/event/choice[1]/text"
 msgstr "Akzeptiere das Angebot."
 
-#: src-en/data/events_sector_duskbringer.xml:2504
+#: src-en/data/events_sector_duskbringer.xml:2526
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DEVORAK_HIDEOUT_ANGEL\"]/choice/event/choice/event/choice[@req=\"unique_anurak\""
 " and not(@lvl)]/event/choice[@req=\"unique_irwin\"]/event/choice[2]/text"
 msgstr "Ablehnen."
 
-#: src-en/data/events_sector_duskbringer.xml:2512
+#: src-en/data/events_sector_duskbringer.xml:2534
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DEVORAK_HIDEOUT_ANGEL\"]/choice/event/choice/event/choice[@req=\"unique_anurak\""
 " and @lvl=\"0\"]/text"
 msgstr "Er ist nicht länger unter uns."
 
-#: src-en/data/events_sector_duskbringer.xml:2514
+#: src-en/data/events_sector_duskbringer.xml:2536
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DEVORAK_HIDEOUT_ANGEL\"]/choice/event/choice/event/choice[@req=\"unique_anurak\""
 " and @lvl=\"0\"]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_duskbringer.xml:2524
+#: src-en/data/events_sector_duskbringer.xml:2546
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DEVORAK_HIDEOUT\"]/choice[1]/event/choice[2]/text"
 msgstr "Ablehnen."
 
-#: src-en/data/events_sector_duskbringer.xml:2526
+#: src-en/data/events_sector_duskbringer.xml:2548
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DEVORAK_HIDEOUT\"]/choice[1]/event/choice[2]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_duskbringer.xml:2528
+#: src-en/data/events_sector_duskbringer.xml:2550
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DEVORAK_HIDEOUT\"]/choice[1]/event/choice[2]/event/choice/text"
 msgstr "Schüttele seine Hand."
 
-#: src-en/data/events_sector_duskbringer.xml:2536
+#: src-en/data/events_sector_duskbringer.xml:2558
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DEVORAK_HIDEOUT\"]/choice[2]/text"
 msgstr "Gehe wieder."
 
-#: src-en/data/events_sector_duskbringer.xml:2538
+#: src-en/data/events_sector_duskbringer.xml:2560
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DEVORAK_HIDEOUT\"]/choice[2]/event/text"
 msgstr ""
 "Das scheint sehr verdächtig. Es ist besser nicht zu nah zu kommen. Was auch "
 "immer die Situation mit Devorak ist, du wirst keine Rolle darin haben."
 
-#: src-en/data/events_sector_duskbringer.xml:2540
+#: src-en/data/events_sector_duskbringer.xml:2562
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DEVORAK_HIDEOUT\"]/choice[2]/event/choice[1]/text"
 msgstr "Tue etwas an Bord des Schiffs."
 
-#: src-en/data/events_sector_duskbringer.xml:2544
+#: src-en/data/events_sector_duskbringer.xml:2566
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DEVORAK_HIDEOUT\"]/choice[2]/event/choice[2]/text"
 msgstr "Nichts tun."
 
-#: src-en/data/events_sector_duskbringer.xml:2558
+#: src-en/data/events_sector_duskbringer.xml:2580
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DEVORAK_FINALE\"]/beaconType/undiscoveredTooltip"
 msgstr "Ein unbesuchter Ort."
 
-#: src-en/data/events_sector_duskbringer.xml:2559
+#: src-en/data/events_sector_duskbringer.xml:2581
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DEVORAK_FINALE\"]/beaconType/unvisitedTooltip"
 msgstr "Die wahre Position von Devorak."
 
-#: src-en/data/events_sector_duskbringer.xml:2563
+#: src-en/data/events_sector_duskbringer.xml:2585
 msgid "data/events_sector_duskbringer.xml$//event[@name=\"DEVORAK_FINALE\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_duskbringer.xml:2566
+#: src-en/data/events_sector_duskbringer.xml:2588
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DEVORAK_FINALE\"]/choice[@req=\"unique_anurak\""
 " and @lvl=\"0\"]/text"
 msgstr "Ohne Anurak haben wir keine Möglichkeit, um Devorak rauszulocken."
 
-#: src-en/data/events_sector_duskbringer.xml:2570
+#: src-en/data/events_sector_duskbringer.xml:2592
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DEVORAK_FINALE\"]/choice[@req=\"unique_anurak\""
 " and not(@lvl)]/text"
 msgstr "Sende Anurak, um Devorak zu finden."
 
-#: src-en/data/events_sector_duskbringer.xml:2572
+#: src-en/data/events_sector_duskbringer.xml:2594
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DEVORAK_FINALE\"]/choice[@req=\"unique_anurak\""
 " and not(@lvl)]/event/text"
@@ -3992,26 +4024,26 @@ msgstr ""
 "\t\t\t\"A... ein Passwort? Ich glaube nicht, dass ich irgendwelche Passwörter kenne. Nun, ich kenne viele Passwörter. Aber ich weiß nicht, ob die Passwörter, die ich kenne, die gleichen sind wie die, die du kennst. Ich kann dir eine Suppe kochen! Bringt uns das rein?\"\n"
 "\t\t\t\"Nein.\" Der Rockman tritt zur Seite und blockiert die Tür weiter. Du bemerkst ein paar andere Wachen, allesamt Zoltans, die sich in den Schatten verstecken und dich beobachten."
 
-#: src-en/data/events_sector_duskbringer.xml:2586
+#: src-en/data/events_sector_duskbringer.xml:2608
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DEVORAK_FINALE\"]/choice[@req=\"unique_anurak\""
 " and not(@lvl)]/event/choice/text"
 msgstr ""
 "Wenn er hier wäre, könntest du ihm vielleicht eine Nachricht überreichen?"
 
-#: src-en/data/events_sector_duskbringer.xml:2588
+#: src-en/data/events_sector_duskbringer.xml:2610
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DEVORAK_FINALE\"]/choice[@req=\"unique_anurak\""
 " and not(@lvl)]/event/choice/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_duskbringer.xml:2594
+#: src-en/data/events_sector_duskbringer.xml:2616
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DEVORAK_FINALE\"]/choice[@req=\"unique_anurak\""
 " and not(@lvl)]/event/choice/event/choice/text"
 msgstr "Du bist Devorak?"
 
-#: src-en/data/events_sector_duskbringer.xml:2596
+#: src-en/data/events_sector_duskbringer.xml:2618
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DEVORAK_FINALE\"]/choice[@req=\"unique_anurak\""
 " and not(@lvl)]/event/choice/event/choice/event/text"
@@ -4025,84 +4057,84 @@ msgstr ""
 "\t\t\t\t\t\t\tDevorak scheint verwirrt zu sein: \"Aber... aber Anurak, das ist WIE wir hier rauskommen. Wir müssen zurückschlagen und allen genau zeigen, warum die Duskbringer nicht gewinnen dürfen. Wir können nicht einfach nichts tun!\"\n"
 "\t\t\t\t\t\t\tAnurak schüttelt immer wieder den Kopf, schlägt sich selbst auf die Wange und dreht sich im Kreis: \"Nein, nein, nein, nein, nein! Du hast mir nicht zugehört! ICH BRAUCHE RAUS! RAUS! Raus!\" Es sieht so aus, als würde er gleich psychisch zusammenbrechen, als eine Explosion euch alle umwirft!"
 
-#: src-en/data/events_sector_duskbringer.xml:2607
+#: src-en/data/events_sector_duskbringer.xml:2629
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DEVORAK_FINALE\"]/choice[@req=\"unique_anurak\""
 " and not(@lvl)]/event/choice/event/choice/event/choice/text"
 msgstr "Fortfahren..."
 
-#: src-en/data/events_sector_duskbringer.xml:2609
+#: src-en/data/events_sector_duskbringer.xml:2631
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DEVORAK_FINALE\"]/choice[@req=\"unique_anurak\""
 " and not(@lvl)]/event/choice/event/choice/event/choice/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_duskbringer.xml:2617
+#: src-en/data/events_sector_duskbringer.xml:2639
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DEVORAK_FINALE\"]/choice[@req=\"unique_anurak\""
 " and not(@lvl)]/event/choice/event/choice/event/choice/event/choice[1]/text"
 msgstr "Wir müssen etwas tun! Greife das Schiff an!"
 
-#: src-en/data/events_sector_duskbringer.xml:2619
+#: src-en/data/events_sector_duskbringer.xml:2641
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DEVORAK_FINALE\"]/choice[@req=\"unique_anurak\""
 " and "
 "not(@lvl)]/event/choice/event/choice/event/choice/event/choice[1]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_duskbringer.xml:2625
+#: src-en/data/events_sector_duskbringer.xml:2647
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DEVORAK_FINALE\"]/choice[@req=\"unique_anurak\""
 " and "
 "not(@lvl)]/event/choice/event/choice/event/choice/event/choice[1]/event/choice/text"
 msgstr "Fortfahren..."
 
-#: src-en/data/events_sector_duskbringer.xml:2631
+#: src-en/data/events_sector_duskbringer.xml:2653
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DEVORAK_FINALE\"]/choice[@req=\"unique_anurak\""
 " and not(@lvl)]/event/choice/event/choice/event/choice/event/choice[2]/text"
 msgstr "Wir müssen hier schnell abhauen!"
 
-#: src-en/data/events_sector_duskbringer.xml:2633
+#: src-en/data/events_sector_duskbringer.xml:2655
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DEVORAK_FINALE\"]/choice[@req=\"unique_anurak\""
 " and "
 "not(@lvl)]/event/choice/event/choice/event/choice/event/choice[2]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_duskbringer.xml:2645
+#: src-en/data/events_sector_duskbringer.xml:2667
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DEVORAK_FINALE\"]/choice[3]/text"
 msgstr "Ändere deine Meinung und gehe wieder."
 
-#: src-en/data/events_sector_duskbringer.xml:2647
+#: src-en/data/events_sector_duskbringer.xml:2669
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DEVORAK_FINALE\"]/choice[3]/event/text"
 msgstr ""
 "Das scheint sehr verdächtig. Es ist besser nicht zu nah zu kommen. Was auch "
 "immer die Situation mit Devorak ist, du wirst keine Rolle darin haben."
 
-#: src-en/data/events_sector_duskbringer.xml:2649
+#: src-en/data/events_sector_duskbringer.xml:2671
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DEVORAK_FINALE\"]/choice[3]/event/choice[1]/text"
 msgstr "Tue etwas an Bord des Schiffs."
 
-#: src-en/data/events_sector_duskbringer.xml:2653
+#: src-en/data/events_sector_duskbringer.xml:2675
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DEVORAK_FINALE\"]/choice[3]/event/choice[2]/text"
 msgstr "Nichts tun."
 
-#: src-en/data/events_sector_duskbringer.xml:2667
+#: src-en/data/events_sector_duskbringer.xml:2689
 msgid "data/events_sector_duskbringer.xml$//event[@name=\"JACK_DEFEAT\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_duskbringer.xml:2670
+#: src-en/data/events_sector_duskbringer.xml:2692
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"JACK_DEFEAT\"]/choice[@req=\"unique_anurak\""
 " and @lvl=\"1\"]/text"
 msgstr "Fortfahren..."
 
-#: src-en/data/events_sector_duskbringer.xml:2672
+#: src-en/data/events_sector_duskbringer.xml:2694
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"JACK_DEFEAT\"]/choice[@req=\"unique_anurak\""
 " and @lvl=\"1\"]/event/text"
@@ -4113,65 +4145,65 @@ msgstr ""
 "\t\t\t\n"
 "\t\t\t\"Jahrelang haben die Duskbringer behauptet, die Föderation sei in ihrer Blütezeit schwach und nutzlos geworden, und sie haben argumentiert, das Ministry solle sich von der Allianz trennen und ein neues, allumfassendes Imperium werden! Doch in all diesen Jahren waren die Duskbringer nicht ein einziges Mal in der Lage, ihren Hass auf die Föderation wirklich zu rechtfertigen! Es ist wahr, die Föderation ist unvollkommen und besteht aus unvollkommenen Regierungen, die von unvollkommenen Menschen geführt werden. Dennoch steht sie für einen universellen Traum - wahren, galaktischen oder sogar multiversalen Frieden. Die Duskbringer wollen diesen Frieden nicht, und so haben sie in ihrer Verzweiflung einen letzten Versuch unternommen. Sie heuern Söldner an, Piratenabschaum, der diese Galaxie zu einem noch gefährlicheren und schurkischeren Ort macht, um einen Angriff der Föderation auf einen friedlichen Handelshafen des Ministrys zu inszenieren! Sind das die Taten von selbsternannten Helden? Menschen, die bereit sind, für ihre Nation und das Wohl der Galaxis zu sterben? Oder ist es das Werk einer Gruppe von Terroristen, die versuchen, die Macht an sich zu reißen, auf Kosten der vielleicht einzigen Hoffnung, die wir noch haben, um die Einheit in diesem Multiversum zu erreichen?\""
 
-#: src-en/data/events_sector_duskbringer.xml:2678
+#: src-en/data/events_sector_duskbringer.xml:2700
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"JACK_DEFEAT\"]/choice[@req=\"unique_anurak\""
 " and @lvl=\"1\"]/event/choice[1]/text"
 msgstr ""
 
-#: src-en/data/events_sector_duskbringer.xml:2680
+#: src-en/data/events_sector_duskbringer.xml:2702
 msgid "data/events_sector_duskbringer.xml$//event[@name=\"DEVORAK_SPEECH\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_duskbringer.xml:2684
+#: src-en/data/events_sector_duskbringer.xml:2706
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DEVORAK_SPEECH\"]/choice/text"
 msgstr "Fortfahren..."
 
-#: src-en/data/events_sector_duskbringer.xml:2686
+#: src-en/data/events_sector_duskbringer.xml:2708
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DEVORAK_SPEECH\"]/choice/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_duskbringer.xml:2688
+#: src-en/data/events_sector_duskbringer.xml:2710
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DEVORAK_SPEECH\"]/choice/event/crewMember"
 msgstr "Devorak"
 
-#: src-en/data/events_sector_duskbringer.xml:2696
+#: src-en/data/events_sector_duskbringer.xml:2718
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"JACK_DEFEAT\"]/choice[@req=\"unique_anurak\""
 " and @lvl=\"1\"]/event/choice[2]/text"
 msgstr ""
 
-#: src-en/data/events_sector_duskbringer.xml:2698
+#: src-en/data/events_sector_duskbringer.xml:2720
 msgid "data/events_sector_duskbringer.xml$//event[@name=\"DEVORAK_SKIP\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_duskbringer.xml:2700
+#: src-en/data/events_sector_duskbringer.xml:2722
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"DEVORAK_SKIP\"]/crewMember"
 msgstr "Devorak"
 
-#: src-en/data/events_sector_duskbringer.xml:2708
+#: src-en/data/events_sector_duskbringer.xml:2730
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"JACK_DEFEAT\"]/choice[@req=\"unique_anurak\""
 " and @lvl=\"0\"]/text"
 msgstr "Fortfahren..."
 
-#: src-en/data/events_sector_duskbringer.xml:2710
+#: src-en/data/events_sector_duskbringer.xml:2732
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"JACK_DEFEAT\"]/choice[@req=\"unique_anurak\""
 " and @lvl=\"0\"]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_duskbringer.xml:2714
+#: src-en/data/events_sector_duskbringer.xml:2736
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"JACK_DEFEAT\"]/choice[@req=\"unique_anurak\""
 " and @lvl=\"0\"]/event/choice[1]/text"
 msgstr ""
 
-#: src-en/data/events_sector_duskbringer.xml:2718
+#: src-en/data/events_sector_duskbringer.xml:2740
 msgid ""
 "data/events_sector_duskbringer.xml$//event[@name=\"JACK_DEFEAT\"]/choice[@req=\"unique_anurak\""
 " and @lvl=\"0\"]/event/choice[2]/text"

@@ -1122,6 +1122,35 @@
                   <mod:selector hidden="true"/>
                   <mod:findLike type="event">
                     <mod:findLike type="choice">
+                      <mod:selector hidden="true" req="unique_mafan"/>
+                      <mod:findLike type="text">
+                        <mod:selector>(Mafan) "Co-authorship is the answer, surely!"</mod:selector>
+                        <mod:setValue>(Mafan) "Co-authorship is the answer, surely!"[INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO]</mod:setValue>
+                      </mod:findLike>
+                    </mod:findLike>
+                  </mod:findLike>
+                </mod:findLike>
+              </mod:findLike>
+            </mod:findLike>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="FREEMANTIS_DIPLOMACY" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true" blue="false" req="oxygen" lvl="1" max_group="0"/>
+          <mod:findLike type="event">
+            <mod:findLike type="choice">
+              <mod:selector hidden="true"/>
+              <mod:findLike type="event">
+                <mod:findLike type="choice">
+                  <mod:selector hidden="true"/>
+                  <mod:findLike type="event">
+                    <mod:findLike type="choice">
                       <mod:selector hidden="true" req="unique_anurak"/>
                       <mod:findLike type="text">
                         <mod:selector>(Anurak) "Come, let's share some soup!"</mod:selector>
@@ -1404,7 +1433,7 @@
   </mod:findName>
   <mod:findName name="DISTRESS_FREEMANTIS_BREACHES" type="event">
     <mod:findLike type="choice">
-      <mod:selector hidden="true" req="BLUELIST_CREW_NO2"/>
+      <mod:selector hidden="true" req="BLUELIST_CREW_NO2_CONSTANT"/>
       <mod:findLike type="text">
         <mod:selector>(Anaerobic Crew) Have your anaerobic crew patch up their breaches.</mod:selector>
         <mod:setValue>(Anaerobic Crew) Have your anaerobic crew patch up their breaches.[INFO]25% [NAME]weapon[/NAME]Gain a weapon(Giftlist Dynasty)[/INFO][INFO]25% [NAME]autoReward[/NAME]Reward Standard(L)[/INFO][INFO]25% [NAME]weapon[/NAME]Gain a weapon(Giftlist Rusty)[/INFO]</mod:setValue>

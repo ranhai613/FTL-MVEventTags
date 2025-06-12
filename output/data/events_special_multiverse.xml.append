@@ -1174,7 +1174,7 @@
   </mod:findName>
   <mod:findName name="THE_JUDGES_ENGI_REAL" type="event">
     <mod:findLike type="choice">
-      <mod:selector hidden="true" req="teleporter" lvl="4" blue="false"/>
+      <mod:selector hidden="true" req="teleporter" lvl="3" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Present your Teleporter system.</mod:selector>
         <mod:setValue>Present your Teleporter system.[INFO]&lt;=[/INFO]</mod:setValue>
@@ -1183,7 +1183,7 @@
   </mod:findName>
   <mod:findName name="THE_JUDGES_ENGI_REAL" type="event">
     <mod:findLike type="choice">
-      <mod:selector hidden="true" req="teleporter" lvl="4" blue="false"/>
+      <mod:selector hidden="true" req="teleporter" lvl="3" blue="false"/>
       <mod:findLike type="event">
         <mod:findLike type="choice">
           <mod:selector hidden="true"/>
@@ -2301,7 +2301,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Where'd you get spiders from?</mod:selector>
-        <mod:setValue>Where'd you get spiders from?[INFO][NAME]boarders[/NAME]&lt;!&gt;Enemy Boarding(x30 Tinybug)[/INFO][FightINFO]Fight(HK=CK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Where'd you get spiders from?[INFO][NAME]boarders[/NAME]&lt;!&gt;Enemy Boarding(x22 Tinybug)[/INFO][FightINFO]Fight(HK=CK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -8028,6 +8028,240 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
+  <mod:findName name="MV_TRAVELER_BOSS_MVREBEL_C_NORMAL" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>Continue...</mod:selector>
+        <mod:setValue>Continue...[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO] [INFO]50% [NAME]autoReward[/NAME]Reward Stuff(L)[/INFO] [INFO]50% &lt;=[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO])[/FightINFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="MV_TRAVELER_BOSS_MVREBEL_C_NORMAL" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="text">
+            <mod:selector>Continue...</mod:selector>
+            <mod:setValue>Continue...[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO] [INFO]50% [NAME]autoReward[/NAME]Reward Stuff(L)[/INFO] [INFO]50% &lt;=[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO])[/FightINFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="MV_TRAVELER_BOSS_MVREBEL_C_CHALLENGE" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>Continue...</mod:selector>
+        <mod:setValue>Continue...[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO] [INFO]50% [NAME]autoReward[/NAME]Reward Stuff(L)[/INFO] [INFO]50% &lt;=[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO])[/FightINFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="MV_TRAVELER_BOSS_MVREBEL_C_CHALLENGE" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="text">
+            <mod:selector>Continue...</mod:selector>
+            <mod:setValue>Continue...[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO] [INFO]50% [NAME]autoReward[/NAME]Reward Stuff(L)[/INFO] [INFO]50% &lt;=[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO])[/FightINFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="MV_TRAVELER_BOSS_MVREBEL_C_EXTREME" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true" max_group="0"/>
+      <mod:findLike type="text">
+        <mod:selector>Continue...</mod:selector>
+        <mod:setValue>Continue...[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO] [INFO]50% [NAME]autoReward[/NAME]Reward Stuff(L)[/INFO] [INFO]50% &lt;=[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO])[/FightINFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="MV_TRAVELER_BOSS_MVREBEL_C_EXTREME" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true" max_group="0"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="text">
+            <mod:selector>Continue...</mod:selector>
+            <mod:setValue>Continue...[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO] [INFO]50% [NAME]autoReward[/NAME]Reward Stuff(L)[/INFO] [INFO]50% &lt;=[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO])[/FightINFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="MTBOSS_MVREBELC_DESTROYED" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>Continue...</mod:selector>
+        <mod:setValue>Continue...[INFO]50% [NAME]autoReward[/NAME]Reward Stuff(L)[/INFO][INFO]50% &lt;=[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="MV_TRAVELER_BOSS_VAMPWEED_B_NORMAL" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>Continue...</mod:selector>
+        <mod:setValue>Continue...[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO] [INFO]50% [NAME]autoReward[/NAME]Reward Stuff(L)[/INFO] [INFO]50% &lt;=[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO])[/FightINFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="MV_TRAVELER_BOSS_VAMPWEED_B_NORMAL" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="text">
+            <mod:selector>Continue...</mod:selector>
+            <mod:setValue>Continue...[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO] [INFO]50% [NAME]autoReward[/NAME]Reward Stuff(L)[/INFO] [INFO]50% &lt;=[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO])[/FightINFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="MV_TRAVELER_BOSS_VAMPWEED_B_CHALLENGE" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>Continue...</mod:selector>
+        <mod:setValue>Continue...[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO] [INFO]50% [NAME]autoReward[/NAME]Reward Stuff(L)[/INFO] [INFO]50% &lt;=[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO])[/FightINFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="MV_TRAVELER_BOSS_VAMPWEED_B_CHALLENGE" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="text">
+            <mod:selector>Continue...</mod:selector>
+            <mod:setValue>Continue...[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO] [INFO]50% [NAME]autoReward[/NAME]Reward Stuff(L)[/INFO] [INFO]50% &lt;=[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO])[/FightINFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="MV_TRAVELER_BOSS_VAMPWEED_B_EXTREME" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true" max_group="0"/>
+      <mod:findLike type="text">
+        <mod:selector>Continue...</mod:selector>
+        <mod:setValue>Continue...[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO] [INFO]50% [NAME]autoReward[/NAME]Reward Stuff(L)[/INFO] [INFO]50% &lt;=[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO])[/FightINFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="MV_TRAVELER_BOSS_VAMPWEED_B_EXTREME" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true" max_group="0"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="text">
+            <mod:selector>Continue...</mod:selector>
+            <mod:setValue>Continue...[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO] [INFO]50% [NAME]autoReward[/NAME]Reward Stuff(L)[/INFO] [INFO]50% &lt;=[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO])[/FightINFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="MTBOSS_VAMPWEEDB_DESTROYED" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>Continue...</mod:selector>
+        <mod:setValue>Continue...[INFO]50% [NAME]autoReward[/NAME]Reward Stuff(L)[/INFO][INFO]50% &lt;=[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="MV_TRAVELER_BOSS_COALITION_B_NORMAL" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>Continue...</mod:selector>
+        <mod:setValue>Continue...[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO] [INFO]50% [NAME]autoReward[/NAME]Reward Stuff(L)[/INFO] [INFO]50% &lt;=[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO])[/FightINFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="MV_TRAVELER_BOSS_COALITION_B_NORMAL" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="text">
+            <mod:selector>Continue...</mod:selector>
+            <mod:setValue>Continue...[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO] [INFO]50% [NAME]autoReward[/NAME]Reward Stuff(L)[/INFO] [INFO]50% &lt;=[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO])[/FightINFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="MV_TRAVELER_BOSS_COALITION_B_CHALLENGE" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>Continue...</mod:selector>
+        <mod:setValue>Continue...[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO] [INFO]50% [NAME]autoReward[/NAME]Reward Stuff(L)[/INFO] [INFO]50% &lt;=[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO])[/FightINFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="MV_TRAVELER_BOSS_COALITION_B_CHALLENGE" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="text">
+            <mod:selector>Continue...</mod:selector>
+            <mod:setValue>Continue...[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO] [INFO]50% [NAME]autoReward[/NAME]Reward Stuff(L)[/INFO] [INFO]50% &lt;=[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO])[/FightINFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="MV_TRAVELER_BOSS_COALITION_B_EXTREME" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true" max_group="0"/>
+      <mod:findLike type="text">
+        <mod:selector>Continue...</mod:selector>
+        <mod:setValue>Continue...[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO] [INFO]50% [NAME]autoReward[/NAME]Reward Stuff(L)[/INFO] [INFO]50% &lt;=[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO])[/FightINFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="MV_TRAVELER_BOSS_COALITION_B_EXTREME" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true" max_group="0"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="text">
+            <mod:selector>Continue...</mod:selector>
+            <mod:setValue>Continue...[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO] [INFO]50% [NAME]autoReward[/NAME]Reward Stuff(L)[/INFO] [INFO]50% &lt;=[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO])[/FightINFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="MTBOSS_COALITIONB_DESTROYED" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>Continue...</mod:selector>
+        <mod:setValue>Continue...[INFO]50% [NAME]autoReward[/NAME]Reward Stuff(L)[/INFO][INFO]50% &lt;=[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
   <mod:findName name="MV_TRAVELER_BOSS_MFK_C_NORMAL" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true"/>
@@ -8488,6 +8722,240 @@
     </mod:findLike>
   </mod:findName>
   <mod:findName name="MTBOSS_SPIDERC_DESTROYED" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>Continue...</mod:selector>
+        <mod:setValue>Continue...[INFO]50% [NAME]autoReward[/NAME]Reward Stuff(L)[/INFO][INFO]50% &lt;=[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="MV_TRAVELER_BOSS_ANGEL_B_NORMAL" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>Continue...</mod:selector>
+        <mod:setValue>Continue...[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO] [INFO]50% [NAME]autoReward[/NAME]Reward Stuff(L)[/INFO] [INFO]50% &lt;=[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO])[/FightINFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="MV_TRAVELER_BOSS_ANGEL_B_NORMAL" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="text">
+            <mod:selector>Continue...</mod:selector>
+            <mod:setValue>Continue...[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO] [INFO]50% [NAME]autoReward[/NAME]Reward Stuff(L)[/INFO] [INFO]50% &lt;=[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO])[/FightINFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="MV_TRAVELER_BOSS_ANGEL_B_CHALLENGE" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>Continue...</mod:selector>
+        <mod:setValue>Continue...[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO] [INFO]50% [NAME]autoReward[/NAME]Reward Stuff(L)[/INFO] [INFO]50% &lt;=[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO])[/FightINFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="MV_TRAVELER_BOSS_ANGEL_B_CHALLENGE" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="text">
+            <mod:selector>Continue...</mod:selector>
+            <mod:setValue>Continue...[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO] [INFO]50% [NAME]autoReward[/NAME]Reward Stuff(L)[/INFO] [INFO]50% &lt;=[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO])[/FightINFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="MV_TRAVELER_BOSS_ANGEL_B_EXTREME" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true" max_group="0"/>
+      <mod:findLike type="text">
+        <mod:selector>Continue...</mod:selector>
+        <mod:setValue>Continue...[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO] [INFO]50% [NAME]autoReward[/NAME]Reward Stuff(L)[/INFO] [INFO]50% &lt;=[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO])[/FightINFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="MV_TRAVELER_BOSS_ANGEL_B_EXTREME" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true" max_group="0"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="text">
+            <mod:selector>Continue...</mod:selector>
+            <mod:setValue>Continue...[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO] [INFO]50% [NAME]autoReward[/NAME]Reward Stuff(L)[/INFO] [INFO]50% &lt;=[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO])[/FightINFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="MTBOSS_ANGELB_DESTROYED" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>Continue...</mod:selector>
+        <mod:setValue>Continue...[INFO]50% [NAME]autoReward[/NAME]Reward Stuff(L)[/INFO][INFO]50% &lt;=[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="MV_TRAVELER_BOSS_HEKTAR_C_NORMAL" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>Continue...</mod:selector>
+        <mod:setValue>Continue...[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO] [INFO]50% [NAME]autoReward[/NAME]Reward Stuff(L)[/INFO] [INFO]50% &lt;=[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO])[/FightINFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="MV_TRAVELER_BOSS_HEKTAR_C_NORMAL" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="text">
+            <mod:selector>Continue...</mod:selector>
+            <mod:setValue>Continue...[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO] [INFO]50% [NAME]autoReward[/NAME]Reward Stuff(L)[/INFO] [INFO]50% &lt;=[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO])[/FightINFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="MV_TRAVELER_BOSS_HEKTAR_C_CHALLENGE" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>Continue...</mod:selector>
+        <mod:setValue>Continue...[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO] [INFO]50% [NAME]autoReward[/NAME]Reward Stuff(L)[/INFO] [INFO]50% &lt;=[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO])[/FightINFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="MV_TRAVELER_BOSS_HEKTAR_C_CHALLENGE" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="text">
+            <mod:selector>Continue...</mod:selector>
+            <mod:setValue>Continue...[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO] [INFO]50% [NAME]autoReward[/NAME]Reward Stuff(L)[/INFO] [INFO]50% &lt;=[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO])[/FightINFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="MV_TRAVELER_BOSS_HEKTAR_C_EXTREME" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true" max_group="0"/>
+      <mod:findLike type="text">
+        <mod:selector>Continue...</mod:selector>
+        <mod:setValue>Continue...[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO] [INFO]50% [NAME]autoReward[/NAME]Reward Stuff(L)[/INFO] [INFO]50% &lt;=[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO])[/FightINFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="MV_TRAVELER_BOSS_HEKTAR_C_EXTREME" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true" max_group="0"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="text">
+            <mod:selector>Continue...</mod:selector>
+            <mod:setValue>Continue...[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO] [INFO]50% [NAME]autoReward[/NAME]Reward Stuff(L)[/INFO] [INFO]50% &lt;=[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO])[/FightINFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="MTBOSS_HEKTARC_DESTROYED" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>Continue...</mod:selector>
+        <mod:setValue>Continue...[INFO]50% [NAME]autoReward[/NAME]Reward Stuff(L)[/INFO][INFO]50% &lt;=[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="MV_TRAVELER_BOSS_MORPH_B_NORMAL" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>Continue...</mod:selector>
+        <mod:setValue>Continue...[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO] [INFO]50% [NAME]autoReward[/NAME]Reward Stuff(L)[/INFO] [INFO]50% &lt;=[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO])[/FightINFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="MV_TRAVELER_BOSS_MORPH_B_NORMAL" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="text">
+            <mod:selector>Continue...</mod:selector>
+            <mod:setValue>Continue...[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO] [INFO]50% [NAME]autoReward[/NAME]Reward Stuff(L)[/INFO] [INFO]50% &lt;=[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO])[/FightINFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="MV_TRAVELER_BOSS_MORPH_B_CHALLENGE" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>Continue...</mod:selector>
+        <mod:setValue>Continue...[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO] [INFO]50% [NAME]autoReward[/NAME]Reward Stuff(L)[/INFO] [INFO]50% &lt;=[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO])[/FightINFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="MV_TRAVELER_BOSS_MORPH_B_CHALLENGE" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="text">
+            <mod:selector>Continue...</mod:selector>
+            <mod:setValue>Continue...[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO] [INFO]50% [NAME]autoReward[/NAME]Reward Stuff(L)[/INFO] [INFO]50% &lt;=[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO])[/FightINFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="MV_TRAVELER_BOSS_MORPH_B_EXTREME" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true" max_group="0"/>
+      <mod:findLike type="text">
+        <mod:selector>Continue...</mod:selector>
+        <mod:setValue>Continue...[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO] [INFO]50% [NAME]autoReward[/NAME]Reward Stuff(L)[/INFO] [INFO]50% &lt;=[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO])[/FightINFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="MV_TRAVELER_BOSS_MORPH_B_EXTREME" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true" max_group="0"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="text">
+            <mod:selector>Continue...</mod:selector>
+            <mod:setValue>Continue...[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO] [INFO]50% [NAME]autoReward[/NAME]Reward Stuff(L)[/INFO] [INFO]50% &lt;=[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO])[/FightINFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="MTBOSS_MORPHB_DESTROYED" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
@@ -8979,6 +9447,75 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
+  <mod:findName name="MV_TRAVELER_BOSS_MVREBEL_C_CHAOS" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>Continue...</mod:selector>
+        <mod:setValue>Continue...[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO] [INFO]50% [NAME]autoReward[/NAME]Reward Stuff(L)[/INFO] [INFO]50% &lt;=[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO])[/FightINFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="MV_TRAVELER_BOSS_MVREBEL_C_CHAOS" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="text">
+            <mod:selector>Continue...</mod:selector>
+            <mod:setValue>Continue...[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO] [INFO]50% [NAME]autoReward[/NAME]Reward Stuff(L)[/INFO] [INFO]50% &lt;=[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO])[/FightINFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="MV_TRAVELER_BOSS_VAMPWEED_B_CHAOS" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>Continue...</mod:selector>
+        <mod:setValue>Continue...[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO] [INFO]50% [NAME]autoReward[/NAME]Reward Stuff(L)[/INFO] [INFO]50% &lt;=[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO])[/FightINFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="MV_TRAVELER_BOSS_VAMPWEED_B_CHAOS" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="text">
+            <mod:selector>Continue...</mod:selector>
+            <mod:setValue>Continue...[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO] [INFO]50% [NAME]autoReward[/NAME]Reward Stuff(L)[/INFO] [INFO]50% &lt;=[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO])[/FightINFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="MV_TRAVELER_BOSS_COALITION_B_CHAOS" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>Continue...</mod:selector>
+        <mod:setValue>Continue...[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO] [INFO]50% [NAME]autoReward[/NAME]Reward Stuff(L)[/INFO] [INFO]50% &lt;=[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO])[/FightINFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="MV_TRAVELER_BOSS_COALITION_B_CHAOS" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="text">
+            <mod:selector>Continue...</mod:selector>
+            <mod:setValue>Continue...[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO] [INFO]50% [NAME]autoReward[/NAME]Reward Stuff(L)[/INFO] [INFO]50% &lt;=[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO])[/FightINFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
   <mod:findName name="MV_TRAVELER_BOSS_MFK_C_CHAOS" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true"/>
@@ -9112,6 +9649,75 @@
           <mod:findLike type="text">
             <mod:selector>Continue...</mod:selector>
             <mod:setValue>Continue...[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO] [INFO]50% [NAME]autoReward[/NAME]Reward Stuff(L)[/INFO] [INFO]50% &lt;=[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])[/FightINFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="MV_TRAVELER_BOSS_ANGEL_B_CHAOS" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>Continue...</mod:selector>
+        <mod:setValue>Continue...[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO] [INFO]50% [NAME]autoReward[/NAME]Reward Stuff(L)[/INFO] [INFO]50% &lt;=[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO])[/FightINFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="MV_TRAVELER_BOSS_ANGEL_B_CHAOS" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="text">
+            <mod:selector>Continue...</mod:selector>
+            <mod:setValue>Continue...[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO] [INFO]50% [NAME]autoReward[/NAME]Reward Stuff(L)[/INFO] [INFO]50% &lt;=[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO])[/FightINFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="MV_TRAVELER_BOSS_HEKTAR_C_CHAOS" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>Continue...</mod:selector>
+        <mod:setValue>Continue...[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO] [INFO]50% [NAME]autoReward[/NAME]Reward Stuff(L)[/INFO] [INFO]50% &lt;=[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO])[/FightINFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="MV_TRAVELER_BOSS_HEKTAR_C_CHAOS" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="text">
+            <mod:selector>Continue...</mod:selector>
+            <mod:setValue>Continue...[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO] [INFO]50% [NAME]autoReward[/NAME]Reward Stuff(L)[/INFO] [INFO]50% &lt;=[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO])[/FightINFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="MV_TRAVELER_BOSS_MORPH_B_CHAOS" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>Continue...</mod:selector>
+        <mod:setValue>Continue...[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO] [INFO]50% [NAME]autoReward[/NAME]Reward Stuff(L)[/INFO] [INFO]50% &lt;=[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO])[/FightINFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="MV_TRAVELER_BOSS_MORPH_B_CHAOS" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="text">
+            <mod:selector>Continue...</mod:selector>
+            <mod:setValue>Continue...[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO] [INFO]50% [NAME]autoReward[/NAME]Reward Stuff(L)[/INFO] [INFO]50% &lt;=[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO])[/FightINFO]</mod:setValue>
           </mod:findLike>
         </mod:findLike>
       </mod:findLike>

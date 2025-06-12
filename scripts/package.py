@@ -5,8 +5,8 @@ from tempfile import TemporaryDirectory
 from mvlocscript.fstools import glob_posix, ensureparent
 from mvlocscript.ftl import parse_ftlxml, write_ftlxml
 
-MV_VERSION = '5.4.6'
-CHOICE_INFO_VERSION = '2.1'
+MV_VERSION = '5.5.1'
+CHOICE_INFO_VERSION = '2.2'
 
 PACKAGE_NAME = f'[MV{MV_VERSION}]ChoiceInfo-{CHOICE_INFO_VERSION}'
 

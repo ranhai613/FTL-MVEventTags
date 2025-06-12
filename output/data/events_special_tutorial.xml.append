@@ -1,0 +1,205 @@
+<FTL>
+  <mod:findName name="TUTORIAL_QUEST" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>Oh, okay.</mod:selector>
+        <mod:setValue>Oh, okay.[FightINFO]Fight(HK=CK: [INFO][NAME]storageCheck[/NAME]Storage Check[/INFO])[/FightINFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="TUTORIAL_ENEMY" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>Continue...</mod:selector>
+        <mod:setValue>Continue...[FightINFO]Fight(HK=CK: [INFO][NAME]storageCheck[/NAME]Storage Check[/INFO])[/FightINFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="TUTORIAL_ATLAS_MENU" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>Use a jumpspeed augment.</mod:selector>
+        <mod:setValue>Use a jumpspeed augment.[INFO][NAME]modifyPursuit[/NAME]Fleet Delay(1)[/INFO][INFO][NAME]modifyPursuit[/NAME]Fleet Delay(2)[/INFO][INFO][NAME]itemModify[/NAME]|-4[/INFO][INFO][NAME]modifyPursuit[/NAME]Fleet Delay(3)[/INFO][INFO][NAME]itemModify[/NAME]|-8[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="TUTORIAL_ATLAS_EQUIPMENT" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>(Decoy Buoys) Deploy the Buoys.</mod:selector>
+        <mod:setValue>(Decoy Buoys) Deploy the Buoys.[INFO][NAME]modifyPursuit[/NAME]Fleet Delay(1)[/INFO][INFO][NAME]modifyPursuit[/NAME]Fleet Delay(2)[/INFO][INFO][NAME]itemModify[/NAME]|-4[/INFO][INFO][NAME]modifyPursuit[/NAME]Fleet Delay(3)[/INFO][INFO][NAME]itemModify[/NAME]|-8[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="TUTORIAL_ATLAS_EQUIPMENT" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="text">
+            <mod:selector>1 [Free, gives 1 delay]</mod:selector>
+            <mod:setValue>1 [Free, gives 1 delay][INFO][NAME]modifyPursuit[/NAME]Fleet Delay(1)[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="TUTORIAL_ATLAS_EQUIPMENT" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="event">
+            <mod:findLike type="choice">
+              <mod:selector hidden="true"/>
+              <mod:findLike type="text">
+                <mod:selector>Continue...</mod:selector>
+                <mod:setValue>Continue...[INFO][NAME]modifyPursuit[/NAME]Fleet Delay(2)[/INFO][INFO]&lt;=[/INFO]</mod:setValue>
+              </mod:findLike>
+            </mod:findLike>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="TUTORIAL_ATLAS_EQUIPMENT" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="text">
+            <mod:selector>2 [Costs 4|, gives 2 delay]</mod:selector>
+            <mod:setValue>2 [Costs 4|, gives 2 delay][INFO][NAME]modifyPursuit[/NAME]Fleet Delay(2)[/INFO][INFO][NAME]itemModify[/NAME]|-4[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="TUTORIAL_ATLAS_EQUIPMENT" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="event">
+            <mod:findLike type="choice">
+              <mod:selector hidden="true"/>
+              <mod:findLike type="text">
+                <mod:selector>Continue...</mod:selector>
+                <mod:setValue>Continue...[INFO][NAME]modifyPursuit[/NAME]Fleet Delay(2)[/INFO][INFO]&lt;=[/INFO]</mod:setValue>
+              </mod:findLike>
+            </mod:findLike>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="TUTORIAL_ATLAS_EQUIPMENT" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="text">
+            <mod:selector>3 [Costs 8|, gives 3 delay]</mod:selector>
+            <mod:setValue>3 [Costs 8|, gives 3 delay][INFO][NAME]modifyPursuit[/NAME]Fleet Delay(3)[/INFO][INFO][NAME]itemModify[/NAME]|-8[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="TUTORIAL_ATLAS_EQUIPMENT" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="event">
+            <mod:findLike type="choice">
+              <mod:selector hidden="true"/>
+              <mod:findLike type="text">
+                <mod:selector>Continue...</mod:selector>
+                <mod:setValue>Continue...[INFO][NAME]modifyPursuit[/NAME]Fleet Delay(2)[/INFO][INFO]&lt;=[/INFO]</mod:setValue>
+              </mod:findLike>
+            </mod:findLike>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="TUTORIAL_ATLAS_MENU_NOEQUIPMENT" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>Proceed to the next sector.</mod:selector>
+        <mod:setValue>Proceed to the next sector.[INFO][NAME]modifyPursuit[/NAME]Fleet Delay(2)[/INFO][INFO]&lt;=[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="TUTORIAL_WARP" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>Reroute.</mod:selector>
+        <mod:setValue>Reroute.[INFO][NAME]modifyPursuit[/NAME]Fleet Delay(2)[/INFO][INFO]&lt;=[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="TUTORIAL_REROUTE_MENU" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>Jump to a Federation Sector.</mod:selector>
+        <mod:setValue>Jump to a Federation Sector.[INFO][NAME]modifyPursuit[/NAME]Fleet Delay(2)[/INFO][INFO]&lt;=[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="TUTORIAL_LIGHTSPEED_SECTOR_WARP" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>Continue with the jump.</mod:selector>
+        <mod:setValue>Continue with the jump.[INFO][NAME]modifyPursuit[/NAME]Fleet Delay(2)[/INFO][INFO]&lt;=[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="TUTORIAL_LIGHTSPEED_SECTOR_WARP" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="text">
+            <mod:selector>Continue...</mod:selector>
+            <mod:setValue>Continue...[INFO][NAME]modifyPursuit[/NAME]Fleet Delay(2)[/INFO][INFO]&lt;=[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="TUTORIAL_START_FED" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true" req="rep_comb_federation" lvl="-999" max_lvl="2" max_group="0" blue="false"/>
+      <mod:findLike type="text">
+        <mod:selector>Continue...</mod:selector>
+        <mod:setValue>Continue...[INFO][NAME]modifyPursuit[/NAME]Fleet Delay(2)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="TUTORIAL_START_FED" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true" req="rep_comb_federation" lvl="3" max_lvl="999" max_group="0" blue="false"/>
+      <mod:findLike type="text">
+        <mod:selector>Continue...</mod:selector>
+        <mod:setValue>Continue...[INFO]&lt;=[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+</FTL>

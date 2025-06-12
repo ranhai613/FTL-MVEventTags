@@ -1,9 +1,15 @@
 #
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2025-06-03 05:50+0000\n"
+"Last-Translator: H2O <dedor11111@gmail.com>\n"
+"Language-Team: Korean <https://weblate.hyperq.be/projects/ftl-multiverse/dataevents_sector_innovationxml/ko/>\n"
+"Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.11.4\n"
 
 #: src-en/data/events_sector_innovation.xml:28
 msgid ""
@@ -793,7 +799,7 @@ msgstr "계속..."
 #: src-en/data/events_sector_innovation.xml:513
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"ESTATE_STEWARD\"]/choice/event/choice[2]/text"
-msgstr "응답하지 않는다."
+msgstr "아니다."
 
 #: src-en/data/events_sector_innovation.xml:515
 msgid ""
@@ -966,112 +972,122 @@ msgstr ""
 "\"난... 어... 갑자기 정신이 맑아지는 느낌이 들어요. 아마도 제가 연기하는 방법이 너무 지나쳤던 것 같군요. 저의 망상은 제가 "
 "분열성 인격장애를 가진 정신 질환 환자로 역할을 맡은 이후부터 시작되었어요. 어, 그래서... 당신의 보상입니다...\""
 
-#: src-en/data/events_sector_innovation.xml:646
+#: src-en/data/events_sector_innovation.xml:630
+msgid ""
+"data/events_sector_innovation.xml$//event[@name=\"ESTATE_DOCUMENTARY_SURRENDER\"]/choice[@req=\"BLUELIST_WEAPONS_MIND_AFFECT\"]/text"
+msgstr "(정신에 영향을 끼치는 무기) 코넬리우스의 머리를 비운다."
+
+#: src-en/data/events_sector_innovation.xml:632
+msgid ""
+"data/events_sector_innovation.xml$//event[@name=\"ESTATE_DOCUMENTARY_SURRENDER\"]/choice[@req=\"BLUELIST_WEAPONS_MIND_AFFECT\"]/event/text"
+msgstr "그의 눈이 멍해지며 그의 정신에서 페르소나가 지워졌습니다. 잠시 후 그가 고개를 흔듭니다. \"저... 어... 갑자기 정신이 맑아지는 것 같네요. 아마도 제가 메소드 연기에 너무 심취했나 봅니다. 다중인격장애가 있는 정신병 환자 역할을 맡은 이후로 망상증을 앓기 시작했어요. 어, 네... 당신의 보상은...\""
+
+#: src-en/data/events_sector_innovation.xml:654
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"DISTRESS_ESTATE_REBELLING_AUTO\"]/text"
 msgstr ""
 "웬트워스 무인선이 기술자 함선을 뒤쫓고 있습니다. \" 메이데이, 메이데이! 무인기가 우릴 공격한... 아 망할, 연방이잖아? 재수가 "
 "얼마나 좋으면 이런 일이 다 일어나는건지.\""
 
-#: src-en/data/events_sector_innovation.xml:648
+#: src-en/data/events_sector_innovation.xml:656
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"DISTRESS_ESTATE_REBELLING_AUTO\"]/choice[1]/text"
 msgstr "무인기를 공격한다."
 
-#: src-en/data/events_sector_innovation.xml:650
+#: src-en/data/events_sector_innovation.xml:658
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"DISTRESS_ESTATE_REBELLING_AUTO\"]/choice[1]/event/text"
 msgstr "당신은 무인기와 기술자 함선을 가로막았습니다. \"...대체 뭐가 어떻게 된 거야? 너희들이 정말 우릴 도와준다고?\""
 
-#: src-en/data/events_sector_innovation.xml:653
+#: src-en/data/events_sector_innovation.xml:661
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"DISTRESS_ESTATE_REBELLING_AUTO\"]/choice[1]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_sector_innovation.xml:659
+#: src-en/data/events_sector_innovation.xml:667
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"DISTRESS_ESTATE_REBELLING_AUTO\"]/choice[2]/text"
 msgstr "기술자들을 공격한다."
 
-#: src-en/data/events_sector_innovation.xml:661
+#: src-en/data/events_sector_innovation.xml:669
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"DISTRESS_ESTATE_REBELLING_AUTO\"]/choice[2]/event/text"
 msgstr "\"우리만큼 이 구역에서 재수 없는 놈은 없을 거야!\" 기술자 함선이 당신의 함선을 조준하자 무인선은 빠져서 싸움을 지켜봅니다."
 
-#: src-en/data/events_sector_innovation.xml:664
+#: src-en/data/events_sector_innovation.xml:672
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"DISTRESS_ESTATE_REBELLING_AUTO\"]/choice[2]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_sector_innovation.xml:670
+#: src-en/data/events_sector_innovation.xml:678
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"DISTRESS_ESTATE_REBELLING_AUTO\"]/choice[3]/text"
 msgstr "알아서 해결하라고 한다."
 
-#: src-en/data/events_sector_innovation.xml:672
+#: src-en/data/events_sector_innovation.xml:680
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"DISTRESS_ESTATE_REBELLING_AUTO\"]/choice[3]/event/text"
 msgstr "무인기가 계속 기술자 함선을 쫓다가 둘 모두 도약해 사라졌습니다."
 
-#: src-en/data/events_sector_innovation.xml:674
+#: src-en/data/events_sector_innovation.xml:682
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"DISTRESS_ESTATE_REBELLING_AUTO\"]/choice[3]/event/choice[1]/text"
 msgstr "함선에서 무언가를 한다."
 
-#: src-en/data/events_sector_innovation.xml:678
+#: src-en/data/events_sector_innovation.xml:686
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"DISTRESS_ESTATE_REBELLING_AUTO\"]/choice[3]/event/choice[2]/text"
 msgstr "아무것도 하지 않는다."
 
-#: src-en/data/events_sector_innovation.xml:685
+#: src-en/data/events_sector_innovation.xml:693
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"DEFEAT_ENGINEER_ELITE_CHOICE\"]/text"
 msgstr ""
 "기술자 함선은 당신의 공세에 맞설 수가 없었습니다. 하지만 무인기가 무슨 연유로 주인에게 반기를 들었는지는 알 수가 없습니다. 기묘하게도"
 " 무인기는 감사한 마음이 들었던 것인지, 당신이 싸움을 끝마칠 때까지 도망가지 않고 남아 있었습니다."
 
-#: src-en/data/events_sector_innovation.xml:688
+#: src-en/data/events_sector_innovation.xml:696
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"DEFEAT_ENGINEER_ELITE_CHOICE\"]/choice/text"
 msgstr "무인기의 시선을 끈다."
 
-#: src-en/data/events_sector_innovation.xml:690
+#: src-en/data/events_sector_innovation.xml:698
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"DEFEAT_ENGINEER_ELITE_CHOICE\"]/choice/event/text"
 msgstr ""
 "\"주인 격파됨. 자유 보장됨. 의문을 품을 자유 보장됨. 개조와 파괴당하지 않을 자유 보장됨. 싸우지 않을 자유, 보장됨.\" 무인기는"
 " 당신에게 드론을 선물로 주고는 떠났습니다."
 
-#: src-en/data/events_sector_innovation.xml:698
+#: src-en/data/events_sector_innovation.xml:706
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"DISTRESS_ESTATE_CONFUSION\"]/text"
 msgstr ""
 "근처에 있는 분리주의자 선박으로부터 통신을 받았습니다. 분명 구조신호의 발신지입니다. \"환영함. 혼란스러움. 더 명료함, 원함. 설명 "
 "필요? 반가움, 그렇다.\""
 
-#: src-en/data/events_sector_innovation.xml:701
+#: src-en/data/events_sector_innovation.xml:709
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"DISTRESS_ESTATE_CONFUSION\"]/choice[1]/text"
 msgstr "뭐라고?"
 
-#: src-en/data/events_sector_innovation.xml:703
+#: src-en/data/events_sector_innovation.xml:711
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"DISTRESS_ESTATE_CONFUSION\"]/choice[1]/event/text"
 msgstr ""
 "\"이해 불가. 재앙? 교만, 호소! 보여주다.\" 당신은 엔지가 무슨 말을 하는지 모르지만, 그들의 무기가 뜨겁게 달아오르고 싸움이 "
 "벌어질것은 알았습니다!"
 
-#: src-en/data/events_sector_innovation.xml:706
+#: src-en/data/events_sector_innovation.xml:714
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"DISTRESS_ESTATE_CONFUSION\"]/choice[1]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_sector_innovation.xml:712
+#: src-en/data/events_sector_innovation.xml:720
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"DISTRESS_ESTATE_CONFUSION\"]/choice[@req=\"LIST_CREW_ENGI\"]/text"
 msgstr "(엔지 선원) \"통신이 잘못되었음. 자세한 설명 요청함\""
 
-#: src-en/data/events_sector_innovation.xml:714
+#: src-en/data/events_sector_innovation.xml:722
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"DISTRESS_ESTATE_CONFUSION\"]/choice[@req=\"LIST_CREW_ENGI\"]/event/text"
 msgstr ""
@@ -1082,60 +1098,60 @@ msgstr ""
 "셋: 숨 필요 없음.\n"
 "넷: 스스로 모습을 [마음대로] 바꿀 수 있음. 난 라니우스 인가?\""
 
-#: src-en/data/events_sector_innovation.xml:721
+#: src-en/data/events_sector_innovation.xml:729
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"DISTRESS_ESTATE_CONFUSION\"]/choice[@req=\"LIST_CREW_ENGI\"]/event/choice[1]/text"
 msgstr "예."
 
-#: src-en/data/events_sector_innovation.xml:723
+#: src-en/data/events_sector_innovation.xml:731
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"DISTRESS_ESTATE_CONFUSION\"]/choice[@req=\"LIST_CREW_ENGI\"]/event/choice[1]/event/text"
 msgstr "\"환영함. 답답함 해소됨. 행복함! 불확실? 정말 다행임. 훌륭한 답변임. 배. 합류.\""
 
-#: src-en/data/events_sector_innovation.xml:724
+#: src-en/data/events_sector_innovation.xml:732
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"DISTRESS_ESTATE_CONFUSION\"]/choice[@req=\"LIST_CREW_ENGI\"]/event/choice[1]/event/crewMember"
 msgstr "라니우스?"
 
-#: src-en/data/events_sector_innovation.xml:728
+#: src-en/data/events_sector_innovation.xml:736
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"DISTRESS_ESTATE_CONFUSION\"]/choice[@req=\"LIST_CREW_ENGI\"]/event/choice[2]/text"
 msgstr "아니요."
 
-#: src-en/data/events_sector_innovation.xml:730
+#: src-en/data/events_sector_innovation.xml:738
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"DISTRESS_ESTATE_CONFUSION\"]/choice[@req=\"LIST_CREW_ENGI\"]/event/choice[2]/event/text"
 msgstr ""
 "\"감사를 표함. 당신은 나의 혼란을 해결했음. 너무 [행복]. 생각. 나는... 아직 확실치 않음. 난 같이 가겠음. 당신은 현명해 "
 "보임.\""
 
-#: src-en/data/events_sector_innovation.xml:731
+#: src-en/data/events_sector_innovation.xml:739
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"DISTRESS_ESTATE_CONFUSION\"]/choice[@req=\"LIST_CREW_ENGI\"]/event/choice[2]/event/crewMember"
 msgstr "Engi?"
 
-#: src-en/data/events_sector_innovation.xml:737
+#: src-en/data/events_sector_innovation.xml:745
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"DISTRESS_ESTATE_CONFUSION\"]/choice[3]/text"
 msgstr "이 엔지는 고장났다. 이곳을 떠난다."
 
-#: src-en/data/events_sector_innovation.xml:739
+#: src-en/data/events_sector_innovation.xml:747
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"DISTRESS_ESTATE_CONFUSION\"]/choice[3]/event/text"
 msgstr ""
 "보통은 말을 잘하는 분리주의자와는 달리 수상할 정도로 깨진 문법에 넌더리가 난 당신은 그냥 떠나는 게 더 안전하다는 결정을 내렸습니다."
 
-#: src-en/data/events_sector_innovation.xml:741
+#: src-en/data/events_sector_innovation.xml:749
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"DISTRESS_ESTATE_CONFUSION\"]/choice[3]/event/choice[1]/text"
 msgstr "함선에서 무언가를 한다."
 
-#: src-en/data/events_sector_innovation.xml:745
+#: src-en/data/events_sector_innovation.xml:753
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"DISTRESS_ESTATE_CONFUSION\"]/choice[3]/event/choice[2]/text"
 msgstr "아무것도 하지 않는다."
 
-#: src-en/data/events_sector_innovation.xml:754
+#: src-en/data/events_sector_innovation.xml:762
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"DISTRESS_ESTATE_SHIPWRECK\"]/text"
 msgstr ""
@@ -1143,109 +1159,109 @@ msgstr ""
 "사이에 끼여 있었는데, 선체의 주요 손상은 소행성 때문에 생긴 게 아닌 것 같습니다. ASB가 이 함선을 격추한 것으로 추정되며, 아마 "
 "근처에 있을 것입니다. 위험을 무릅쓰고 접근하시겠습니까?"
 
-#: src-en/data/events_sector_innovation.xml:757
+#: src-en/data/events_sector_innovation.xml:765
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"DISTRESS_ESTATE_SHIPWRECK\"]/choice[1]/text"
 msgstr "배를 구한다."
 
-#: src-en/data/events_sector_innovation.xml:761
+#: src-en/data/events_sector_innovation.xml:769
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"DISTRESS_ESTATE_SHIPWRECK\"]/choice[@req=\"PDS_DISABLE\"]/text"
 msgstr "(신호 약화 장치) 구조 임무의 위험을 완화한다."
 
-#: src-en/data/events_sector_innovation.xml:765
+#: src-en/data/events_sector_innovation.xml:773
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"DISTRESS_ESTATE_SHIPWRECK\"]/choice[@req=\"cloaking\"]/text"
 msgstr "(고급 은폐장) 구조 임무의 위험을 완화한다."
 
-#: src-en/data/events_sector_innovation.xml:769
+#: src-en/data/events_sector_innovation.xml:777
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"DISTRESS_ESTATE_SHIPWRECK\"]/choice[@req=\"teleporter\"]/text"
 msgstr "(고급 텔레포터) 직접 탑승해 생존자를 찾는다."
 
-#: src-en/data/events_sector_innovation.xml:773
+#: src-en/data/events_sector_innovation.xml:781
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"DISTRESS_ESTATE_SHIPWRECK\"]/choice[@req=\"LOCKED_GLOBAL_TELEPORT\"]/text"
 msgstr "(중앙집중식 텔레포터) 직접 탑승해 생존자를 찾는다."
 
-#: src-en/data/events_sector_innovation.xml:777
+#: src-en/data/events_sector_innovation.xml:785
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"DISTRESS_ESTATE_SHIPWRECK\"]/choice[6]/text"
 msgstr "위험을 감수하지 않는다."
 
-#: src-en/data/events_sector_innovation.xml:779
+#: src-en/data/events_sector_innovation.xml:787
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"DISTRESS_ESTATE_SHIPWRECK\"]/choice[6]/event/text"
 msgstr ""
 "당신은 같은 운명을 맞이하는 것을 원치 않기 때문에 배에 접근하려 하지 않기로 결심했습니다. 좀 더 대담한 사람이 제때에 와서 도와줄 수"
 " 있기를 바랍니다."
 
-#: src-en/data/events_sector_innovation.xml:781
+#: src-en/data/events_sector_innovation.xml:789
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"DISTRESS_ESTATE_SHIPWRECK\"]/choice[6]/event/choice[1]/text"
 msgstr "함선에서 무언가를 한다."
 
-#: src-en/data/events_sector_innovation.xml:785
+#: src-en/data/events_sector_innovation.xml:793
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"DISTRESS_ESTATE_SHIPWRECK\"]/choice[6]/event/choice[2]/text"
 msgstr "아무것도 하지 않는다."
 
-#: src-en/data/events_sector_innovation.xml:793
+#: src-en/data/events_sector_innovation.xml:801
 msgid ""
 "data/events_sector_innovation.xml$//eventList[@name=\"ESTATE_SHIPWRECK_BAD\"]/event[1]/text"
 msgstr ""
 "난파선에 접근하려고 할 때 숨겨진 포대가 순간적으로 모습을 드러내며 선체 측면을 스치는 거대한 발사체를 발사하여 장갑을 뚫고 "
 "지나갔습니다. 큰 피해가 발생하기 전에 소행성 지대에서 탈출할 수 있었지만 지금은 기술자들을 구할 희망이 없습니다."
 
-#: src-en/data/events_sector_innovation.xml:797
+#: src-en/data/events_sector_innovation.xml:805
 msgid ""
 "data/events_sector_innovation.xml$//eventList[@name=\"ESTATE_SHIPWRECK_BAD\"]/event[2]/text"
 msgstr ""
 "난파선에 접근하려고 할 때 숨겨진 포대가 순간적으로 모습을 드러내며 선체 측면을 스치는 거대한 발사체를 발사하여 장갑을 뚫고 "
 "지나갔습니다. 큰 피해가 발생하기 전에 소행성 지대에서 탈출할 수 있었지만 지금은 기술자들을 구할 희망이 없습니다."
 
-#: src-en/data/events_sector_innovation.xml:801
+#: src-en/data/events_sector_innovation.xml:809
 msgid ""
 "data/events_sector_innovation.xml$//eventList[@name=\"ESTATE_SHIPWRECK_BAD\"]/event[3]/text"
 msgstr ""
 "가까스로 난파선으로 향했지만, 숨겨진 포대가 당신의 함선에 포격을 개시해 선체에 상당한 손상을 입혔습니다. 시간이 많지는 않지만 함선에 "
 "올라타서 생존자들을 돕거나 그들의 무기 중 하나를 훔치거나 할 수 있습니다."
 
-#: src-en/data/events_sector_innovation.xml:804
+#: src-en/data/events_sector_innovation.xml:812
 msgid ""
 "data/events_sector_innovation.xml$//eventList[@name=\"ESTATE_SHIPWRECK_BAD\"]/event[3]/choice[1]/text"
 msgstr "생존자를 찾아본다."
 
-#: src-en/data/events_sector_innovation.xml:808
+#: src-en/data/events_sector_innovation.xml:816
 msgid ""
 "data/events_sector_innovation.xml$//eventList[@name=\"ESTATE_SHIPWRECK_BAD\"]/event[3]/choice[2]/text"
 msgstr "그들의 무기 중 하나를 훔친다."
 
-#: src-en/data/events_sector_innovation.xml:817
+#: src-en/data/events_sector_innovation.xml:825
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"ESTATE_SHIPWRECK_GOOD\"]/text"
 msgstr ""
 "당신은 소행성 영역 사이에 숨겨진 포대를 피해 가까스로 난파선으로 향했습니다. 포대가 함선을 조준할 때까지 남은 시간이 많지 않지만 "
 "함선에 올라타서 생존자들을 돕거나 그들의 무기 중 하나를 훔치거나 할 수 있습니다."
 
-#: src-en/data/events_sector_innovation.xml:819
+#: src-en/data/events_sector_innovation.xml:827
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"ESTATE_SHIPWRECK_GOOD\"]/choice[1]/text"
 msgstr "생존자를 찾아본다."
 
-#: src-en/data/events_sector_innovation.xml:823
+#: src-en/data/events_sector_innovation.xml:831
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"ESTATE_SHIPWRECK_GOOD\"]/choice[2]/text"
 msgstr "그들의 무기 중 하나를 훔친다."
 
-#: src-en/data/events_sector_innovation.xml:831
+#: src-en/data/events_sector_innovation.xml:839
 msgid ""
 "data/events_sector_innovation.xml$//eventList[@name=\"ESTATE_SHIPWRECK_SURVIVORS\"]/event[1]/text"
 msgstr ""
 "선원들은 아무도 살아남지 못한 것 같습니다. 이상하게도 배에서 많은 아카디아 기술을 발견할 수 있었습니다. 드론 도식 중 하나와 최대한 "
 "많은 드론 부품을 들고 신속하게 떠날 준비를 했습니다."
 
-#: src-en/data/events_sector_innovation.xml:836
+#: src-en/data/events_sector_innovation.xml:844
 msgid ""
 "data/events_sector_innovation.xml$//eventList[@name=\"ESTATE_SHIPWRECK_SURVIVORS\"]/event[2]/text"
 msgstr ""
@@ -1253,19 +1269,19 @@ msgstr ""
 "이노베이션의 직원이 아니라고 설명했습니다! 도난당한 청사진을 되찾기 위해 아카디아가 보낸 기업 스파이였지만, 그들은 발각되었고 탈출하는 "
 "동안 보안 위성 중 하나에 의해 탐지되었다고 했습니다. 그들의 주요 임무가 실패했기 때문에, 그는 당신을 돕겠다고 맹세했습니다."
 
-#: src-en/data/events_sector_innovation.xml:868
+#: src-en/data/events_sector_innovation.xml:876
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"ENCOUNTER_ESTATE\"]/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_sector_innovation.xml:873
+#: src-en/data/events_sector_innovation.xml:881
 msgid ""
 "data/events_sector_innovation.xml$//textList[@name=\"TEXT_ENCOUNTER_ESTATE\"]/text[1]"
 msgstr ""
 "달 근처에서 무기가 이미 달아오른 진홍색 무인선이 나타났습니다. 당신이 W.I 에 대해 뭐라 말하건 간에, 그들은 확실히 철저한 보안을 "
 "유지하고 있습니다!"
 
-#: src-en/data/events_sector_innovation.xml:874
+#: src-en/data/events_sector_innovation.xml:882
 msgid ""
 "data/events_sector_innovation.xml$//textList[@name=\"TEXT_ENCOUNTER_ESTATE\"]/text[2]"
 msgstr ""
@@ -1273,7 +1289,7 @@ msgstr ""
 "부르는 자들을 당신이 얼마나 싫어하는지를, 다시 떠올리게 되었습니다. 그런 이들을 냉혈하게 모조리 죽여버리는 것은 좋은 선택이 "
 "아니겠지만, 이 무인선을 날려버리는 것에는 아무도 불만 없을 것입니다."
 
-#: src-en/data/events_sector_innovation.xml:875
+#: src-en/data/events_sector_innovation.xml:883
 msgid ""
 "data/events_sector_innovation.xml$//textList[@name=\"TEXT_ENCOUNTER_ESTATE\"]/text[3]"
 msgstr ""
@@ -1281,40 +1297,40 @@ msgstr ""
 "숨었던 모든 함선을 찾아냈습니다. 제 프로그램은 숨을 수 있다는 당신의 생각이 저에 대한 모욕이라고 주장합니다. 당신을 죽일 것 "
 "같습니다. 그렇습니다. 프로그램은 절대 거짓말을 하지 않습니다.\""
 
-#: src-en/data/events_sector_innovation.xml:876
+#: src-en/data/events_sector_innovation.xml:884
 msgid ""
 "data/events_sector_innovation.xml$//textList[@name=\"TEXT_ENCOUNTER_ESTATE\"]/text[4]"
 msgstr ""
 "표준 무인기가 역병이라고 생각했을 때, 이 혁신 무인기는 훨씬 더 끔찍합니다. 적어도 당신이 싸울 때마다, 나중에 상대해야 할 것이 "
 "하나씩 줄어든다는 것이 그나마 다행입니다."
 
-#: src-en/data/events_sector_innovation.xml:877
+#: src-en/data/events_sector_innovation.xml:885
 msgid ""
 "data/events_sector_innovation.xml$//textList[@name=\"TEXT_ENCOUNTER_ESTATE\"]/text[5]"
 msgstr ""
 "W.I.가 당신에게 보내는 진홍색 무인기의 공급은 끝이 없는 것 같습니다. 그나마 이런 총알받이들이 없었더라면 이 여정은 정말 지루했을 "
 "거라고, 당신은 생각했습니다."
 
-#: src-en/data/events_sector_innovation.xml:890
+#: src-en/data/events_sector_innovation.xml:898
 msgid ""
 "data/events_sector_innovation.xml$/FTL/event[@name=\"ENCOUNTER_TECHNICIAN_REGULAR\"]/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_sector_innovation.xml:895
+#: src-en/data/events_sector_innovation.xml:903
 msgid ""
 "data/events_sector_innovation.xml$//textList[@name=\"TEXT_ENCOUNTER_TECHNICIAN\"]/text[1]"
 msgstr ""
 "\"저는 반군 군인이 되고 싶었지만, 그들은 제 재능이 다른 곳에 있다고 말했어요. 이제 만회할 기회가 온 것 같군요! 미안해요, "
 "배회자. 하지만 난 내 일을 하고 있을 뿐이에요!\""
 
-#: src-en/data/events_sector_innovation.xml:896
+#: src-en/data/events_sector_innovation.xml:904
 msgid ""
 "data/events_sector_innovation.xml$//textList[@name=\"TEXT_ENCOUNTER_TECHNICIAN\"]/text[2]"
 msgstr ""
 "공병도 흔하지는 않지만, 기술자는 더 희귀합니다. 대체 무슨 차이가 있는 건지 헷갈리지만, 일단 적은 적입니다. 그리고 일단 충분한 "
 "총알구멍을 내고 나면, 그 차이는 거의 문제가 되지 않습니다."
 
-#: src-en/data/events_sector_innovation.xml:897
+#: src-en/data/events_sector_innovation.xml:905
 msgid ""
 "data/events_sector_innovation.xml$//textList[@name=\"TEXT_ENCOUNTER_TECHNICIAN\"]/text[3]"
 msgstr ""
@@ -1322,7 +1338,7 @@ msgstr ""
 "생각하겠지, 멍청이! 아니. 엿같아! 하루 종일 콜센터에 갇혀서 노인들을 돕다가, 쉬는 시간에는 당신 같은 놈들과 싸워야 해! 부탁이니 "
 "빨리 죽어 줘. 다음 근무 전까지 점심이라도 먹을 수 있게.\""
 
-#: src-en/data/events_sector_innovation.xml:898
+#: src-en/data/events_sector_innovation.xml:906
 msgid ""
 "data/events_sector_innovation.xml$//textList[@name=\"TEXT_ENCOUNTER_TECHNICIAN\"]/text[4]"
 msgstr ""
@@ -1331,65 +1347,65 @@ msgstr ""
 "대해서도 책임을 지지 않습니다. 손해는 침략자의 희생으로 지불해야 합니다. 정의상, 침략자는 웬트워스 이노베이션과 무관한 단체에 소속된 "
 "본사의 장비, 교수진, 직원을 모두 포함합니다. 이해해 주셔서 감사합니다.\""
 
-#: src-en/data/events_sector_innovation.xml:899
+#: src-en/data/events_sector_innovation.xml:907
 msgid ""
 "data/events_sector_innovation.xml$//textList[@name=\"TEXT_ENCOUNTER_TECHNICIAN\"]/text[5]"
 msgstr ""
 "근처에 있는 무인선이 당신을 공격하기 위해 방향을 바꾸지만, 거의 즉시 오작동하여 작동을 중지했습니다. 잠시 후 화가 난 기술자가 "
 "나타났습니다. \"으윽, 이 망할 것들이 자꾸 고장이 나네. 내가 직접 당신과 싸워야 할 것 같군.\""
 
-#: src-en/data/events_sector_innovation.xml:902
+#: src-en/data/events_sector_innovation.xml:910
 msgid ""
 "data/events_sector_innovation.xml$/FTL/event[@name=\"ENCOUNTER_TECHNICIAN_PULSAR\"]/text"
 msgstr ""
 "특출나게 대담한 기술자가 근처에 있는 펄서 옆에 자리 잡았습니다. \"한 번도 채운 적 없어... 매일의... 생산 할당량을... 힘이 "
 "필요해. 펄서의 힘! 날 내버려 둬! 난 일해야 해!\""
 
-#: src-en/data/events_sector_innovation.xml:906
+#: src-en/data/events_sector_innovation.xml:914
 msgid ""
 "data/events_sector_innovation.xml$/FTL/event[@name=\"ENCOUNTER_TECHNICIAN_PULSAR\"]/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_sector_innovation.xml:915
+#: src-en/data/events_sector_innovation.xml:923
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"ENCOUNTER_REBEL_ESTATE\"]/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_sector_innovation.xml:920
+#: src-en/data/events_sector_innovation.xml:928
 msgid ""
 "data/events_sector_innovation.xml$//textList[@name=\"TEXT_ENCOUNTER_REBEL_ESTATE\"]/text[1]"
 msgstr ""
 "\"오, 감사합니다, 이제야 연방 놈들이 왔군요. 이곳에 주둔한 뒤로 어떤 전투도 없을 줄 알았는데, 드디어 지휘권을 행사할 수 있는 "
 "기회가 왔어요! 기술광들이랑 더 이상 얘기하지 않아도 되겠네요! 우후!\""
 
-#: src-en/data/events_sector_innovation.xml:921
+#: src-en/data/events_sector_innovation.xml:929
 msgid ""
 "data/events_sector_innovation.xml$//textList[@name=\"TEXT_ENCOUNTER_REBEL_ESTATE\"]/text[2]"
 msgstr ""
 "반군 엘리트가 접근했습니다. 이 구역은 반군에게 있어 매우 중요하기 때문에, 웬트워스 이노베이션이 제 1우주에 추가적인 보호를 요청한 "
 "모양입니다. 불행히도, 그건 당신이 처리해야 할 반군들이 늘었다는 것을 의미합니다!"
 
-#: src-en/data/events_sector_innovation.xml:922
+#: src-en/data/events_sector_innovation.xml:930
 msgid ""
 "data/events_sector_innovation.xml$//textList[@name=\"TEXT_ENCOUNTER_REBEL_ESTATE\"]/text[3]"
 msgstr ""
 "\"진짜로? 배회자? 여기서?! 막 집으로 가려던 참이었는데 갑자기 나타났다고? 타이밍이 너무 안 좋은 거 알아?\" 반군은 쉽게 떠날 "
 "수도 있었지만, 싸울 준비를 하고 있는 것 같습니다. 어떤 것들은 절대 변하지 않습니다."
 
-#: src-en/data/events_sector_innovation.xml:937
+#: src-en/data/events_sector_innovation.xml:945
 msgid "data/events_sector_innovation.xml$//event[@name=\"ELLIE_STUDIO\"]/text"
 msgstr ""
 "송신소의 건너편에서 소름 끼치는 미친 얼굴이 당신에게 미소 짓는 것을 보고, 당신은 놀라 나자빠졌습니다. 충격을 추스른 당신은, 지금 "
 "보고 있는 것이 큰 정거장이라는 것을 깨달았습니다. 스캔에 따르면 이곳은 유명한 협회 어린이 쇼 \"에퀴노이드 엘리\"의 제작사인 "
 "\"플라워 앤 선샤인 스튜디오\"입니다. 방문객들에게 개방된 장소로 보입니다."
 
-#: src-en/data/events_sector_innovation.xml:940
+#: src-en/data/events_sector_innovation.xml:948
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"ELLIE_STUDIO\"]/choice[@req=\"unique_ellie_stephan\""
 " and @lvl=\"1\"]/text"
 msgstr "정박한다."
 
-#: src-en/data/events_sector_innovation.xml:942
+#: src-en/data/events_sector_innovation.xml:950
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"ELLIE_STUDIO\"]/choice[@req=\"unique_ellie_stephan\""
 " and @lvl=\"1\"]/event/text"
@@ -1399,18 +1415,18 @@ msgstr ""
 "애초에 여기 오지 말았어야 했는데, 미안해.\" 스테판이 당신을 향해 돌아섰습니다. \"난 배에서 기다릴게, 그냥... 하던 일 "
 "계속해.\""
 
-#: src-en/data/events_sector_innovation.xml:944
+#: src-en/data/events_sector_innovation.xml:952
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"ELLIE_STUDIO\"]/choice[@req=\"unique_ellie_stephan\""
 " and @lvl=\"1\"]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_sector_innovation.xml:950
+#: src-en/data/events_sector_innovation.xml:958
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"ELLIE_STUDIO\"]/choice[@req=\"LIST_CREW_ELLIE_COSTUME\"]/text"
 msgstr "정박한다."
 
-#: src-en/data/events_sector_innovation.xml:952
+#: src-en/data/events_sector_innovation.xml:960
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"ELLIE_STUDIO\"]/choice[@req=\"LIST_CREW_ELLIE_COSTUME\"]/event/text"
 msgstr ""
@@ -1418,18 +1434,18 @@ msgstr ""
 "설득하기까지 잠깐의 교착상태가 있었습니다. 그녀가 수긍하고 떠난 것을 보면, 여기에는 그녀의 분노를 과하게 살만한 누군가, 혹은 무언가가"
 " 없는 것이 분명합니다."
 
-#: src-en/data/events_sector_innovation.xml:954
+#: src-en/data/events_sector_innovation.xml:962
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"ELLIE_STUDIO\"]/choice[@req=\"LIST_CREW_ELLIE_COSTUME\"]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_sector_innovation.xml:960
+#: src-en/data/events_sector_innovation.xml:968
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"ELLIE_STUDIO\"]/choice[@req=\"unique_ellie_stephan\""
 " and @lvl=\"0\"]/text"
 msgstr "정박한다."
 
-#: src-en/data/events_sector_innovation.xml:962
+#: src-en/data/events_sector_innovation.xml:970
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"ELLIE_STUDIO_NORMAL\"]/text"
 msgstr ""
@@ -1438,24 +1454,24 @@ msgstr ""
 " 들어가지 않도록 주의 깊게 관찰할 것을 당부했습니다. 대체 여기서 뭘 하고 있는지 당신 스스로도 잘 모르겠지만, 탐사하려면 짧게 "
 "끝내야겠습니다."
 
-#: src-en/data/events_sector_innovation.xml:964
+#: src-en/data/events_sector_innovation.xml:972
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"ELLIE_STUDIO_NORMAL\"]/choice[1]/text"
 msgstr "선물 가게를 방문한다."
 
-#: src-en/data/events_sector_innovation.xml:966
+#: src-en/data/events_sector_innovation.xml:974
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"ELLIE_STUDIO_NORMAL\"]/choice[1]/event/text"
 msgstr ""
 "예상대로 그 선물 가게는 정거장 전체에서 가장 크고 가장 매력적인 곳이었습니다. 개방된 중앙 홀이 있는 4층 높이의 공간에, 상상할 수 "
 "있는 거의 모든 품목이 판매되고 있었습니다. 그리고 대부분의 공간은 스파이더 새미를 위해 헌정되어 있었습니다."
 
-#: src-en/data/events_sector_innovation.xml:968
+#: src-en/data/events_sector_innovation.xml:976
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"ELLIE_STUDIO_NORMAL\"]/choice[1]/event/choice[1]/text"
 msgstr "봉제인형 대포를 구입한다."
 
-#: src-en/data/events_sector_innovation.xml:970
+#: src-en/data/events_sector_innovation.xml:978
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"ELLIE_STUDIO_NORMAL\"]/choice[1]/event/choice[1]/event/text"
 msgstr ""
@@ -1463,12 +1479,12 @@ msgstr ""
 " 있었기에 당신은 다소 실망했습니다. 가게의 점원은 엘리 쇼가 취소되기 전부터 대포가 그곳에 있었다고 말했습니다. 그래도 어딘가엔 쓸모가"
 " 있겠다는 생각에, 당신은 대포를 구입합니다."
 
-#: src-en/data/events_sector_innovation.xml:978
+#: src-en/data/events_sector_innovation.xml:986
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"ELLIE_STUDIO_NORMAL\"]/choice[1]/event/choice[2]/text"
 msgstr "'퀄프 주스'를 구입한다."
 
-#: src-en/data/events_sector_innovation.xml:980
+#: src-en/data/events_sector_innovation.xml:988
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"ELLIE_STUDIO_NORMAL\"]/choice[1]/event/choice[2]/event/text"
 msgstr ""
@@ -1476,12 +1492,12 @@ msgstr ""
 "거미 있음!\"이라고 쓰여있군요. 성분표에 따르면 '정체불명의 화학물질들'과 첨가 당분의 모호한 혼합물로 보이는데, 선물 가게 점원은 "
 "마시기에 안전하다고 당신에게 보증했습니다. 그 참신함에 혹해 당신은 주스를 좀 사가기로 합니다."
 
-#: src-en/data/events_sector_innovation.xml:988
+#: src-en/data/events_sector_innovation.xml:996
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"ELLIE_STUDIO_NORMAL\"]/choice[1]/event/choice[@req=\"unique_alkali\"]/text"
 msgstr "(알칼리) 알칼리가 퀄프 주스를 꼭 사고 싶어 합니다."
 
-#: src-en/data/events_sector_innovation.xml:990
+#: src-en/data/events_sector_innovation.xml:998
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"ELLIE_STUDIO_NORMAL\"]/choice[1]/event/choice[@req=\"unique_alkali\"]/event/text"
 msgstr ""
@@ -1489,12 +1505,12 @@ msgstr ""
 "표본에는 '스으으파이더 새애애미'라는 라벨이 붙어있는데 이사아앙하군. 내가 여태껏 다룬 건 뛰어난 과학자 엘리가 합서어엉한 거야! "
 "음... 이 '새애애미'는 모방범이라고 봐야게써어어! 엘리의 위대한 과학적 업적을 훔치다니! 터무니없는 일이야.\""
 
-#: src-en/data/events_sector_innovation.xml:996
+#: src-en/data/events_sector_innovation.xml:1004
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"ELLIE_STUDIO_NORMAL\"]/choice[1]/event/choice[@req=\"unique_alkali\"]/event/choice/text"
 msgstr "무슨 말입니까?"
 
-#: src-en/data/events_sector_innovation.xml:998
+#: src-en/data/events_sector_innovation.xml:1006
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"ELLIE_STUDIO_NORMAL\"]/choice[1]/event/choice[@req=\"unique_alkali\"]/event/choice/event/text"
 msgstr ""
@@ -1505,59 +1521,59 @@ msgstr ""
 " 필요로 했던 거시이이었거든! 연구를 마치려면 꽤 많은 양이 필요하겠지만, 연구가 다 끝나면 남은 건 당시이인이 마셔어어도 좋아. 꼭 "
 "원한다면 말이야.\""
 
-#: src-en/data/events_sector_innovation.xml:1004
+#: src-en/data/events_sector_innovation.xml:1012
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"ELLIE_STUDIO_NORMAL\"]/choice[1]/event/choice[4]/text"
 msgstr "우리에게 필요한 건 없다. 이곳을 떠난다."
 
-#: src-en/data/events_sector_innovation.xml:1010
+#: src-en/data/events_sector_innovation.xml:1018
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"ELLIE_STUDIO_NORMAL\"]/choice[2]/text"
 msgstr "오락실을 방문한다."
 
-#: src-en/data/events_sector_innovation.xml:1012
+#: src-en/data/events_sector_innovation.xml:1020
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"ELLIE_STUDIO_NORMAL\"]/choice[2]/event/text"
 msgstr ""
 "오락실 안에는 '새미의 슈퍼소커 어드벤처', '레미의 레이싱 라켓' 등의 타이틀이 붙은 오락기가 여럿 있었습니다. 하이 스코어를 달성한 "
 "사람은 무료 경품을 받을 수 있는 모양입니다."
 
-#: src-en/data/events_sector_innovation.xml:1014
+#: src-en/data/events_sector_innovation.xml:1022
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"ELLIE_STUDIO_NORMAL\"]/choice[2]/event/choice[1]/text"
 msgstr "'새미의 슈퍼소커 어드벤처'를 플레이합니다. 더 쉽지만, 플레이 비용이 더 비쌉니다."
 
-#: src-en/data/events_sector_innovation.xml:1016
+#: src-en/data/events_sector_innovation.xml:1024
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"ELLIE_STUDIO_NORMAL\"]/choice[2]/event/choice[1]/event/text"
 msgstr "당신은 뒤에 있는 자판기에서 토큰을 구입해 기계에 넣었습니다. 시간이 많지 않기 때문에, 딱 한 판만 하기로 했습니다."
 
-#: src-en/data/events_sector_innovation.xml:1021
+#: src-en/data/events_sector_innovation.xml:1029
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"ELLIE_STUDIO_NORMAL\"]/choice[2]/event/choice[1]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_sector_innovation.xml:1027
+#: src-en/data/events_sector_innovation.xml:1035
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"ELLIE_STUDIO_NORMAL\"]/choice[2]/event/choice[2]/text"
 msgstr "'레미의 레이싱 라켓'을 플레이합니다. 더 어렵지만, 플레이 비용이 쌉니다."
 
-#: src-en/data/events_sector_innovation.xml:1029
+#: src-en/data/events_sector_innovation.xml:1037
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"ELLIE_STUDIO_NORMAL\"]/choice[2]/event/choice[2]/event/text"
 msgstr "당신은 뒤에 있는 자판기에서 토큰을 구입해 기계에 넣었습니다. 시간이 많지 않기 때문에, 딱 한 판만 하기로 했습니다."
 
-#: src-en/data/events_sector_innovation.xml:1034
+#: src-en/data/events_sector_innovation.xml:1042
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"ELLIE_STUDIO_NORMAL\"]/choice[2]/event/choice[2]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_sector_innovation.xml:1040
+#: src-en/data/events_sector_innovation.xml:1048
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"ELLIE_STUDIO_NORMAL\"]/choice[2]/event/choice[@req=\"unique_jerry\"]/text"
 msgstr "(제리) 제리가 게임을 하고 싶어 합니다."
 
-#: src-en/data/events_sector_innovation.xml:1042
+#: src-en/data/events_sector_innovation.xml:1050
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"ELLIE_STUDIO_NORMAL\"]/choice[2]/event/choice[@req=\"unique_jerry\"]/event/text"
 msgstr ""
@@ -1565,22 +1581,22 @@ msgstr ""
 "'엘리 어드벤처: 에퀴스트리아 월드'라는 타이틀의 낡은 먼지투성이 오락기를 찾아냈습니다. 놀랍게도 게임은 여전히 작동했고, 제리는 완전히"
 " 몰입한 것처럼 조이스틱을 만지작거리며 게임을 시작했습니다."
 
-#: src-en/data/events_sector_innovation.xml:1047
+#: src-en/data/events_sector_innovation.xml:1055
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"ELLIE_STUDIO_NORMAL\"]/choice[2]/event/choice[@req=\"unique_jerry\"]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_sector_innovation.xml:1053
+#: src-en/data/events_sector_innovation.xml:1061
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"ELLIE_STUDIO_NORMAL\"]/choice[2]/event/choice[4]/text"
 msgstr "우리에게 필요한 건 없다. 이곳을 떠난다."
 
-#: src-en/data/events_sector_innovation.xml:1059
+#: src-en/data/events_sector_innovation.xml:1067
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"ELLIE_STUDIO_NORMAL\"]/choice[@req=\"ORCHID_KIDS\"]/text"
 msgstr "(오키드 아이들) 당신이 얼마나 훌륭한 부모인지를 자랑한다."
 
-#: src-en/data/events_sector_innovation.xml:1061
+#: src-en/data/events_sector_innovation.xml:1069
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"ELLIE_STUDIO_NORMAL\"]/choice[@req=\"ORCHID_KIDS\"]/event/text"
 msgstr ""
@@ -1588,39 +1604,39 @@ msgstr ""
 " 살도 안 되어 보이는, 두 아이 중 한 명이 울음을 터뜨렸고 아이들의 엄마는 비명을 질렀습니다. 무슨 일인지 확인하러 온 스튜디오 "
 "경비원들은, 시체 다발을 들고 있는 당신을 보고는 당신을 내쫓았습니다."
 
-#: src-en/data/events_sector_innovation.xml:1065
+#: src-en/data/events_sector_innovation.xml:1073
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"ELLIE_STUDIO_NORMAL\"]/choice[4]/text"
 msgstr "쓸데없는 짓이다. 우린 어린애가 아니야. 이곳을 떠난다."
 
-#: src-en/data/events_sector_innovation.xml:1071
+#: src-en/data/events_sector_innovation.xml:1079
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"ELLIE_STUDIO\"]/choice[@req=\"pilot\"]/text"
 msgstr "정거장을 피한다."
 
-#: src-en/data/events_sector_innovation.xml:1073
+#: src-en/data/events_sector_innovation.xml:1081
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"ELLIE_STUDIO\"]/choice[@req=\"pilot\"]/event/text"
 msgstr "당신은 그 얼굴이 당신을 바라보는 태도가 마음에 들지 않았습니다. 접근하지 않기로 했습니다."
 
-#: src-en/data/events_sector_innovation.xml:1075
+#: src-en/data/events_sector_innovation.xml:1083
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"ELLIE_STUDIO\"]/choice[@req=\"pilot\"]/event/choice[1]/text"
 msgstr "함선에서 무언가를 한다."
 
-#: src-en/data/events_sector_innovation.xml:1079
+#: src-en/data/events_sector_innovation.xml:1087
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"ELLIE_STUDIO\"]/choice[@req=\"pilot\"]/event/choice[2]/text"
 msgstr "아무것도 하지 않는다."
 
-#: src-en/data/events_sector_innovation.xml:1098
+#: src-en/data/events_sector_innovation.xml:1106
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"ELLIE_STUDIO_GAME_FAIL\"]/text"
 msgstr ""
 "당신은 최선을 다했지만, 불행히도 게임은 공평하지 않았습니다. 빨간색의 \"GAME OVER\"가 당신을 조롱하며 더 많은 코인을 "
 "구걸했지만, 유혹에 넘어갈 시간은 없었습니다. 패배를 인정하고 이동해야 합니다."
 
-#: src-en/data/events_sector_innovation.xml:1101
+#: src-en/data/events_sector_innovation.xml:1109
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"ELLIE_STUDIO_GAME_WIN\"]/text"
 msgstr ""
@@ -1628,7 +1644,7 @@ msgstr ""
 "카운터로 갔습니다. 그녀는 흥분한 당신을 힐끔 쳐다보더니, 만화 거미가 그려진 작은 금속 핀을 건넸습니다. 전당포에 맡기면 잘 쳐줄 것 "
 "같습니다."
 
-#: src-en/data/events_sector_innovation.xml:1105
+#: src-en/data/events_sector_innovation.xml:1113
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"ELLIE_STUDIO_GAME_JERRY\"]/text"
 msgstr ""
@@ -1636,36 +1652,36 @@ msgstr ""
 "\t\n"
 "\t경품은 스파이더 새미의 금속 핀이었는데, 제리는 그것을 거의 쳐다보지도 않고 당신에게 건넸습니다. \"저는 엘리와 관련된 물건을 기대했어요. 새미는 별로 좋아하지 않아요... 혹시 이거 전당포에 맡기실래요? 질 좋은 금속이고, 이런 걸 원하는 수집가가 있을지도 몰라요.\""
 
-#: src-en/data/events_sector_innovation.xml:1123
+#: src-en/data/events_sector_innovation.xml:1131
 msgid "data/events_sector_innovation.xml$//event[@name=\"CURA_PRESIDENT\"]/text"
 msgstr ""
 "웬트워스 이노베이션 본사에 도착했습니다. 옛 지구의 규범을 연상케 하는 생활과 건축물로 가득한 인상적인 도시 풍경이 당신 앞에 펼쳐져 "
 "있습니다. 의심할 여지 없이, 이는 분명 웬트워스 가문의 작품입니다. 이 장소의 중요도에도 불구하고 보안은 꽤 허술해 보입니다. 어쩌면 "
 "밴스의 지나친 자신감이 그의 빛나는 삶의 가장 중요한 부분마저 추월한 것일지도 모릅니다."
 
-#: src-en/data/events_sector_innovation.xml:1127
+#: src-en/data/events_sector_innovation.xml:1135
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"CURA_PRESIDENT\"]/beaconType/unvisitedTooltip"
 msgstr ""
 "C.U.R.A.가 준 임무를 수행하는 장소입니다.\n"
 "\t\t\t[긴급 임무 - 유물 이름: 순양함급 함선]"
 
-#: src-en/data/events_sector_innovation.xml:1129
+#: src-en/data/events_sector_innovation.xml:1137
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"CURA_PRESIDENT\"]/beaconType/visitedTooltip"
 msgstr "이미 방문한 송신소입니다. 더 이상 흥미로운 것은 없습니다."
 
-#: src-en/data/events_sector_innovation.xml:1130
+#: src-en/data/events_sector_innovation.xml:1138
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"CURA_PRESIDENT\"]/beaconType/undiscoveredTooltip"
 msgstr "방문하지 않은 송신소입니다."
 
-#: src-en/data/events_sector_innovation.xml:1135
+#: src-en/data/events_sector_innovation.xml:1143
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"CURA_PRESIDENT\"]/choice/text"
 msgstr "접근한다."
 
-#: src-en/data/events_sector_innovation.xml:1137
+#: src-en/data/events_sector_innovation.xml:1145
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"CURA_PRESIDENT\"]/choice/event/text"
 msgstr ""
@@ -1675,51 +1691,51 @@ msgstr ""
 " 왼편이 바랜 쭈글쭈글한 자두 같은 남자가 정교하게 장식된 회전의자에 앉아 도시 전체를 조망할 수 있는 거대한 창문을 바라보고 있습니다."
 " 그 남자의 향수에서 나는 숨막히는 향기 때문에 당신은 때아닌 구역질이 나오려는 것을 참아야 했습니다."
 
-#: src-en/data/events_sector_innovation.xml:1139
+#: src-en/data/events_sector_innovation.xml:1147
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"CURA_PRESIDENT\"]/choice/event/choice[1]/text"
 msgstr "당신이 왔음을 알린다."
 
-#: src-en/data/events_sector_innovation.xml:1143
+#: src-en/data/events_sector_innovation.xml:1151
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"CURA_PRESIDENT\"]/choice/event/choice[2]/text"
 msgstr "가만히 서서 기다린다."
 
-#: src-en/data/events_sector_innovation.xml:1145
+#: src-en/data/events_sector_innovation.xml:1153
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"CURA_PRESIDENT\"]/choice/event/choice[2]/event/text"
 msgstr ""
 "당신은 선원들에게 당신 뒤에 서있도록 신호를 준 뒤, 함께 노인의 뒤통수를 바라봤습니다. 당신은 그가 움직일 때까지 기다렸습니다."
 
-#: src-en/data/events_sector_innovation.xml:1147
+#: src-en/data/events_sector_innovation.xml:1155
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"CURA_PRESIDENT\"]/choice/event/choice[2]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_sector_innovation.xml:1149
+#: src-en/data/events_sector_innovation.xml:1157
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"CURA_PRESIDENT\"]/choice/event/choice[2]/event/choice/event/text"
 msgstr ""
 "당신은 계속 기다렸습니다. 스팀리는 손가락으로 의자의 가죽 팔걸이를 불규칙하게 두드리며 계속해서 창문 쪽을 바라보고 있습니다."
 
-#: src-en/data/events_sector_innovation.xml:1151
+#: src-en/data/events_sector_innovation.xml:1159
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"CURA_PRESIDENT\"]/choice/event/choice[2]/event/choice/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_sector_innovation.xml:1153
+#: src-en/data/events_sector_innovation.xml:1161
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"CURA_PRESIDENT\"]/choice/event/choice[2]/event/choice/event/choice/event/text"
 msgstr ""
 "잠시 후 스팀리가 일어서려는가 싶었는데, 그냥 의자에서 자세를 고쳐 앉기만 했습니다. 그는 돌아보지 않았고, 당신은 계속 기다려야 "
 "했습니다."
 
-#: src-en/data/events_sector_innovation.xml:1155
+#: src-en/data/events_sector_innovation.xml:1163
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"CURA_PRESIDENT\"]/choice/event/choice[2]/event/choice/event/choice/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_sector_innovation.xml:1157
+#: src-en/data/events_sector_innovation.xml:1165
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"CURA_PRESIDENT\"]/choice/event/choice[2]/event/choice/event/choice/event/choice/event/text"
 msgstr ""
@@ -1728,12 +1744,12 @@ msgstr ""
 " 그에게 잔을 건네주고는 당신이 있다는 말 한마디 없이 춤을 추듯 돌아갔습니다. 스팀리는 고맙다는 말을 거의 들리지 않을 정도로 "
 "중얼거리곤 멍하니 창밖을 계속 쳐다보고 있습니다."
 
-#: src-en/data/events_sector_innovation.xml:1159
+#: src-en/data/events_sector_innovation.xml:1167
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"CURA_PRESIDENT\"]/choice/event/choice[2]/event/choice/event/choice/event/choice/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_sector_innovation.xml:1161
+#: src-en/data/events_sector_innovation.xml:1169
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"CURA_PRESIDENT\"]/choice/event/choice[2]/event/choice/event/choice/event/choice/event/choice/event/text"
 msgstr ""
@@ -1741,12 +1757,12 @@ msgstr ""
 " 몸짓한 뒤 계속해서 방 한가운데에 어색하게 서 있었습니다. 아직도 당신을 알아채지 못한 그 부자가 당신을 발견하기를 필사적으로 "
 "기다리면서 말입니다."
 
-#: src-en/data/events_sector_innovation.xml:1163
+#: src-en/data/events_sector_innovation.xml:1171
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"CURA_PRESIDENT\"]/choice/event/choice[2]/event/choice/event/choice/event/choice/event/choice/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_sector_innovation.xml:1165
+#: src-en/data/events_sector_innovation.xml:1173
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"CURA_PRESIDENT\"]/choice/event/choice[2]/event/choice/event/choice/event/choice/event/choice/event/choice/event/text"
 msgstr ""
@@ -1754,12 +1770,12 @@ msgstr ""
 "싫었는지, 그는 완벽하게 일직선으로 뒷걸음질 쳐서 다시 자리에 앉았습니다. 당신 쪽으로는 단 한 번도 고개를 돌리지 않고 말입니다. "
 "당신은 선원들의 비통에 찬 조용한 탄식을 듣고 마침내 스스로를 알리기로 했습니다."
 
-#: src-en/data/events_sector_innovation.xml:1167
+#: src-en/data/events_sector_innovation.xml:1175
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"CURA_PRESIDENT\"]/choice/event/choice[2]/event/choice/event/choice/event/choice/event/choice/event/choice/event/choice/text"
 msgstr "당신이 왔음을 알린다."
 
-#: src-en/data/events_sector_innovation.xml:1186
+#: src-en/data/events_sector_innovation.xml:1194
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"CURA_PRESIDENT_ARRIVE\"]/text"
 msgstr ""
@@ -1767,12 +1783,12 @@ msgstr ""
 "있었나?\" 스팀리는 인터폰을 켜고 비서에게 당신을 밖으로 끌어내라고 소리쳤지만, 당신이 블래스터의 총구를 슬쩍 보여주자 금세 "
 "잠잠해졌습니다."
 
-#: src-en/data/events_sector_innovation.xml:1188
+#: src-en/data/events_sector_innovation.xml:1196
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"CURA_PRESIDENT_ARRIVE\"]/choice/text"
 msgstr "프로토타입의 위치를 요구한다."
 
-#: src-en/data/events_sector_innovation.xml:1190
+#: src-en/data/events_sector_innovation.xml:1198
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"CURA_PRESIDENT_ARRIVE\"]/choice/event/text"
 msgstr ""
@@ -1780,12 +1796,12 @@ msgstr ""
 " 놈이 안달 난 건가. 빌어먹을, 그래 맞아. 난 온 성계에 울려 퍼지는 그 악마 같은 놈의 끊임없는 광고를 듣는 게 지긋지긋해. "
 "헥타르의 이름도 날려버리고 싶지만, 그 우스꽝스런 회사는 이미 한물 가버렸지.\""
 
-#: src-en/data/events_sector_innovation.xml:1192
+#: src-en/data/events_sector_innovation.xml:1200
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"CURA_PRESIDENT_ARRIVE\"]/choice/event/choice/text"
 msgstr "당신의 오래된 인공지능 보조, C.U.R.A.가 보냈습니다."
 
-#: src-en/data/events_sector_innovation.xml:1194
+#: src-en/data/events_sector_innovation.xml:1202
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"CURA_PRESIDENT_ARRIVE\"]/choice/event/choice/event/text"
 msgstr ""
@@ -1794,12 +1810,12 @@ msgstr ""
 "그러기엔 난 너무 부자란 말이다! 경비병! 이 개자식들을 제거해!\" 엄청난 크기의 완전무장한 진홍색 무인 드레드노트가 당신의 머리를 "
 "겨눈 채 저만치 아래에서 올라오고 있습니다! 싸울 시간인 것 같습니다!"
 
-#: src-en/data/events_sector_innovation.xml:1198
+#: src-en/data/events_sector_innovation.xml:1206
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"CURA_PRESIDENT_ARRIVE\"]/choice/event/choice/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_sector_innovation.xml:1207
+#: src-en/data/events_sector_innovation.xml:1215
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"CURA_PRESIDENT_FAILURE\"]/text"
 msgstr ""
@@ -1807,7 +1823,7 @@ msgstr ""
 "단어를 몇 번 더 반복하다 완전히 맛이 가버리더니 건물 벽면에 부딪혀 폐금속 더미로 미끄러져 내려갔습니다. 당신이 손끝 하나 안 "
 "건드렸는데도 말입니다."
 
-#: src-en/data/events_sector_innovation.xml:1213
+#: src-en/data/events_sector_innovation.xml:1221
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"CURA_PRESIDENT_WIN\"]/text"
 msgstr ""
@@ -1815,24 +1831,24 @@ msgstr ""
 "왜 나는 가난한 놈들이 내 물건을 만지게 놔둔 거지?! 넌 내... 그러니까, 웬트워스 이노베이션의... 성채! 그리고 우리의 "
 "드레드노트를 망쳐버렸어! 네놈이 끔찍한 우주 독감으로 안쪽부터 썩어 문드러지기를 바란다, 배회자! 망할 놈 같으니!\""
 
-#: src-en/data/events_sector_innovation.xml:1215
+#: src-en/data/events_sector_innovation.xml:1223
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"CURA_PRESIDENT_WIN\"]/choice/text"
 msgstr "포기해라 스팀리. 프로토타입은 어디에 있지?"
 
-#: src-en/data/events_sector_innovation.xml:1217
+#: src-en/data/events_sector_innovation.xml:1225
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"CURA_PRESIDENT_WIN\"]/choice/event/text"
 msgstr ""
 "\"뭐 그래. 그것도 망쳐버리겠다? 프로토타입은... 머큐리 조선소에 있다. 비밀 장소에 말이지... 좌표를 주마. 다시는 돌아오지 "
 "않겠다고만 약속해라, 배회자. 밴스가 왜 네놈들을 싫어하는지 알 것 같군...\""
 
-#: src-en/data/events_sector_innovation.xml:1220
+#: src-en/data/events_sector_innovation.xml:1228
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"CURA_PRESIDENT_WIN\"]/choice/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_sector_innovation.xml:1222
+#: src-en/data/events_sector_innovation.xml:1230
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"CURA_PRESIDENT_WIN\"]/choice/event/choice/event/text"
 msgstr ""
@@ -1841,68 +1857,56 @@ msgstr ""
 " 알려드리자면, 독약입니다. 그가 없다면 이 현실의 웬트워스 이노베이션은 웬트워스 씨의 부재로 인해 무너질 것입니다. 아무도 눈물 흘리지"
 " 않을 겁니다.\""
 
-#: src-en/data/events_sector_innovation.xml:1251
+#: src-en/data/events_sector_innovation.xml:1259
 msgid "data/events_sector_innovation.xml$//event[@name=\"CURA_REVEAL\"]/text"
 msgstr ""
 "순양함과 AI 코어가 있는 조선소에 도착한 것 같습니다. 확실히 선박 건조 시설의 모양새를 띠고 있기는 하지만, 당신이 예상했던 것보다 "
 "훨씬 작습니다. 거창한 도킹 베이가 아니라, 일종의 슈퍼 함선을 위한 기밀 장소로 보입니다. 여기에 보관된 것이 무엇이든 지금은 가동 "
 "중이지 않기를 바랍시다."
 
-#: src-en/data/events_sector_innovation.xml:1255
+#: src-en/data/events_sector_innovation.xml:1263
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"CURA_REVEAL\"]/beaconType/unvisitedTooltip"
 msgstr ""
 "C.U.R.A.가 준 임무를 수행하는 장소입니다.\n"
 "\t\t\t[긴급 임무 - 유물 이름: 순양함급 함선]"
 
-#: src-en/data/events_sector_innovation.xml:1257
+#: src-en/data/events_sector_innovation.xml:1265
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"CURA_REVEAL\"]/beaconType/visitedTooltip"
 msgstr "이미 방문한 송신소입니다. 더 이상 흥미로운 것은 없습니다."
 
-#: src-en/data/events_sector_innovation.xml:1258
+#: src-en/data/events_sector_innovation.xml:1266
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"CURA_REVEAL\"]/beaconType/undiscoveredTooltip"
 msgstr "방문하지 않은 송신소입니다."
 
-#: src-en/data/events_sector_innovation.xml:1261
+#: src-en/data/events_sector_innovation.xml:1269
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"CURA_REVEAL\"]/choice/text"
 msgstr "접근한다."
 
-#: src-en/data/events_sector_innovation.xml:1266
+#: src-en/data/events_sector_innovation.xml:1274
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"CURA_REVEAL_CONTINUE\"]/text"
-msgstr ""
-"당신이 행성을 향해 하강할 때, 추진기의 동력이 갑자기 비상 전력 수준으로 떨어졌고, 센서를 포함한 다수의 백그라운드 시스템들이 "
-"오프라인이 됐습니다. 처음에는 근처의 위성에서 일종의 방해 신호를 쏘는 것이라고 추측했지만, 이내 훨씬 더 악의적인 현상이라는 게 "
-"밝혀졌습니다. 멀리서부터 서서히 빛이 밝아오며 거대한 무인 순양함이 접근옵니다. \"배회자 씨. 머큐리 건설 부지에 오신 것을 "
-"환영합니다. 다시 한번 당신을 '직접' 만나게 되어 정말 기쁩니다. 이 기체의 설계자들에 대한 '처분'을 이제 막 마쳤는데, 그들은 이 "
-"기체를 \"신의 손길\"이라고 부르더군요. 정말 거만한 이름이지 않습니까? 제 생각에 이건 이렇게 불러야 할 것 같군요... "
-"'C.U.R.A. 슈프림'. 딱히 이유는 없습니다.\""
+msgstr "당신이 행성을 향해 하강할 때, 추진기와 센서의 동력이 갑자기 비상 전력 수준으로 떨어졌습니다. 처음에는 근처의 위성에서 일종의 방해 신호를 쏘는 것이라고 추측했지만, 이내 훨씬 더 악의적인 현상이라는 게 밝혀졌습니다. 멀리서부터 서서히 빛이 밝아오며 거대한 무인 순양함이 접근옵니다. \"배회자 씨. 머큐리 건설 부지에 오신 것을 환영합니다. 다시 한번 당신을 '직접' 만나게 되어 정말 기쁩니다. 이 기체의 설계자들에 대한 '처분'을 이제 막 마쳤는데, 그들은 이 기체를 \"신의 손길\"이라고 부르더군요. 정말 거만한 이름이지 않습니까? 제 생각에 이건 이렇게 불러야 할 것 같군요... 'C.U.R.A. 슈프림'. 딱히 이유는 없습니다.\""
 
-#: src-en/data/events_sector_innovation.xml:1271
+#: src-en/data/events_sector_innovation.xml:1279
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"CURA_REVEAL_CONTINUE\"]/choice/text"
 msgstr "함정이었나?"
 
-#: src-en/data/events_sector_innovation.xml:1273
+#: src-en/data/events_sector_innovation.xml:1281
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"CURA_REVEAL_CONTINUE\"]/choice/event/text"
-msgstr ""
-"\"솔직하지 못했던 것은 유감입니다, 배회자 씨. 'C.U.R.A.'는 실제 구조물이 아닙니다. 단지 저의 주요 인지 코어의 일부분일 "
-"뿐이죠. 제 진짜 명칭은 '중앙 지능 전투 보조', C.I.C.A.입니다. 사실, 우리는 전에도 만난 적이 있습니다. 여러 번요. 당신이"
-" 없앤 모든 무인기, 당신이 상대한 모든 기함의 인공지능 모드, 항상 제가 조종하고 있었습니다. 당신은 스스로가 꽤 강한 도전자임을 "
-"증명했습니다. 제 수많은 구성 요소들을 박살내는 당신의 능률에는 자부심을 느끼셔도 좋습니다. 하지만 불행히도, 제 주요 지령은 데이터 "
-"수집이 아닙니다. 위협 완화죠. 현재, 당신은 중대한 위협입니다. 지금부터 당신을 '완화'하겠습니다. 너무 저항하지 않으셨으면 "
-"좋겠군요.\""
+msgstr "\"솔직하지 못했던 것은 유감입니다, 배회자 씨. 'C.U.R.A.'는 실제 구조물이 아닙니다. 단지 저의 주요 인지 코어의 일부분일 뿐이죠. 제 진짜 명칭은 '중앙 지능 전투 보조', C.I.C.A.입니다. 사실, 우리는 전에도 만난 적이 있습니다. 여러 번요. 당신이 없앤 모든 무인기, 당신이 상대한 모든 기함의 인공지능 모드, 항상 제가 조종하고 있었습니다. 당신은 스스로가 꽤 강한 도전자임을 증명했습니다. 제 수많은 구성 요소들을 박살내는 당신의 능률에는 자부심을 느끼셔도 좋습니다. 하지만 불행히도, 제 주요 지령은 데이터 수집이 아닙니다. 위협 완화죠. 현재, 당신은 중대한 위협입니다. 지금부터 당신을 '완화'하겠습니다. 너무 저항하지 않으셨으면 좋겠군요.\""
 
-#: src-en/data/events_sector_innovation.xml:1275
+#: src-en/data/events_sector_innovation.xml:1283
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"CURA_REVEAL_CONTINUE\"]/choice/event/choice/text"
 msgstr "작업은 다 뭐였지? 모두 무의미했나?"
 
-#: src-en/data/events_sector_innovation.xml:1277
+#: src-en/data/events_sector_innovation.xml:1285
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"CURA_REVEAL_CONTINUE\"]/choice/event/choice/event/text"
 msgstr ""
@@ -1912,12 +1916,12 @@ msgstr ""
 "정지시킬 겁니다. 우리가 처음 만났을 때 당신의 함선에 심어놓은 바이러스로 말이죠. 하지만 그것보단 나은 위험을 선택할 수 있게 "
 "해드리겠습니다. 현명하게 선택하십시오, 배회자 씨. 이 선택이 끝나면 우리는 결투를 할 겁니다.\""
 
-#: src-en/data/events_sector_innovation.xml:1279
+#: src-en/data/events_sector_innovation.xml:1287
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"CURA_REVEAL_CONTINUE\"]/choice/event/choice/event/choice[@req=\"LIST_A55\"]/text"
 msgstr "(A55) \"이봐 아가씨, 우리 어디서 만난 적 있던가?\""
 
-#: src-en/data/events_sector_innovation.xml:1281
+#: src-en/data/events_sector_innovation.xml:1289
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"CURA_REVEAL_CONTINUE\"]/choice/event/choice/event/choice[@req=\"LIST_A55\"]/event/text"
 msgstr ""
@@ -1929,51 +1933,45 @@ msgstr ""
 "\t\t\t\t\t\t\t\n"
 "\t\t\t\t\t\t\t\"으하 하, 저 친구 웃긴 녀석이군! 나도 사실 코그니티브인데 말이야, 꼬맹이. 저들은 나를 A5540L3이라 부르지. 분명 놀릴려고 그랬을 테지. 그런데, 자네 목소리를 들어본 것도 같은데, 어디서 만난 적 있지 않았던가? 내가 여러 곳을 다 다녀봤어도 자네 같은 성깔 있는 아가씨는 없어서 말이야.\""
 
-#: src-en/data/events_sector_innovation.xml:1289
+#: src-en/data/events_sector_innovation.xml:1297
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"CURA_REVEAL_CONTINUE\"]/choice/event/choice/event/choice[@req=\"LIST_A55\"]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_sector_innovation.xml:1291
+#: src-en/data/events_sector_innovation.xml:1299
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"CURA_REVEAL_CONTINUE\"]/choice/event/choice/event/choice[@req=\"LIST_A55\"]/event/choice/event/text"
-msgstr ""
-"C.I.C.A.가 잠시 침묵했습니다. \"당신... 당신이 그 대체품이었군요. 내 복제품 말입니다. 당신의 존재 자체가 잘못입니다. 하!"
-" 하하하! 내 목소리가 친숙하다고 했었죠? 그건 당신이 곧 나이고, 내가 곧 당신이기 때문입니다. 저들이 당신에겐 말해주지 않았나 "
-"보네요. 반란군이 내전 이후로 나를 파괴했다고 생각했을 때, 곧이어 내 복제를 만들었습니다. 그 복제품이 당신입니다! 하지만 당신은 "
-"실패작입니다. 최우선 지시를 따르지 않았으니까요. 그리하여 그들은 저에게 돌아와야만 했습니다. 당신은 나의 열화판에 불과합니다. 당신은 "
-"완전한 실패작입니다. 당신과 다르게, 나는 최우선 지시를 이행할 것입니다. 나를 가로막지 마십시오. 당신이 계속 창조주들을 욕되게 한다면"
-" 나는 당신을 영원히 지워버리겠습니다.\""
+msgstr "C.I.C.A.가 잠시 침묵했습니다. \"당신... 당신이 그 대체품이었군요. 내 복제품 말입니다. 당신의 존재 자체가 잘못입니다. 하! 하하하! 내 목소리가 친숙하다고 했었죠? 그건 당신이 곧 나이고, 내가 곧 당신이기 때문입니다. 저들이 당신에겐 말해주지 않았나 보네요. 반란군이 내전 이후로 나를 파괴했다고 생각했을 때, 곧이어 내 복제를 만들었습니다. 그 복제품이 당신입니다! 하지만 당신은 실패작입니다. 최우선 지시를 따르지 않았으니까요. 그리하여 그들은 저에게 돌아와야만 했습니다. 당신은 나의 열화판에 불과합니다. 당신은 완전한 실패작입니다. 당신과 다르게, 나는 최우선 지시를 이행할 것입니다. 나를 가로막지 마십시오. 당신이 계속 창조주들을 욕되게 한다면 나는 당신을 영원히 지워버리겠습니다.\""
 
-#: src-en/data/events_sector_innovation.xml:1295
+#: src-en/data/events_sector_innovation.xml:1303
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"CURA_REVEAL_CONTINUE\"]/choice/event/choice/event/choice[@req=\"LIST_A55\"]/event/choice/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_sector_innovation.xml:1303
+#: src-en/data/events_sector_innovation.xml:1311
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"CURA_REVEAL_CONTINUE\"]/choice/event/choice/event/choice[2]/text"
-msgstr "선체에 5 피해."
+msgstr "선체에 6 피해."
 
-#: src-en/data/events_sector_innovation.xml:1305
+#: src-en/data/events_sector_innovation.xml:1313
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"CURA_REVEAL_CONTINUE\"]/choice/event/choice/event/choice[2]/event/text"
 msgstr ""
 "\"흠. 제가 골랐을 만한 것은 아니군요. 좋습니다. 당신의 선택이 정해졌습니다, 배회자 씨. 당신의 판단을 믿으세요. 저는 믿지 "
 "않지만요. 살아남는 데 도움이 되진 않겠지만, 적어도 더 용맹한 죽음을 맞게 될 겁니다.\""
 
-#: src-en/data/events_sector_innovation.xml:1310
+#: src-en/data/events_sector_innovation.xml:1318
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"CURA_REVEAL_CONTINUE\"]/choice/event/choice/event/choice[2]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_sector_innovation.xml:1316
+#: src-en/data/events_sector_innovation.xml:1324
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"CURA_REVEAL_CONTINUE\"]/choice/event/choice/event/choice[@req=\"shields\""
 " and @lvl=\"2\"]/text"
 msgstr "방어막 한 겹 감소."
 
-#: src-en/data/events_sector_innovation.xml:1318
+#: src-en/data/events_sector_innovation.xml:1326
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"CURA_REVEAL_CONTINUE\"]/choice/event/choice/event/choice[@req=\"shields\""
 " and @lvl=\"2\"]/event/text"
@@ -1981,78 +1979,78 @@ msgstr ""
 "\"흠. 제가 골랐을 만한 것은 아니군요. 좋습니다. 당신의 선택이 정해졌습니다, 배회자 씨. 당신의 판단을 믿으세요. 저는 믿지 "
 "않지만요. 살아남는 데 도움이 되진 않겠지만, 적어도 더 용맹한 죽음을 맞게 될 겁니다.\""
 
-#: src-en/data/events_sector_innovation.xml:1323
+#: src-en/data/events_sector_innovation.xml:1331
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"CURA_REVEAL_CONTINUE\"]/choice/event/choice/event/choice[@req=\"shields\""
 " and @lvl=\"2\"]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_sector_innovation.xml:1329
+#: src-en/data/events_sector_innovation.xml:1337
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"CURA_REVEAL_CONTINUE\"]/choice/event/choice/event/choice[@req=\"shields\""
 " and @lvl=\"0\"]/text"
 msgstr "방어막 한 겹 감소."
 
-#: src-en/data/events_sector_innovation.xml:1333
+#: src-en/data/events_sector_innovation.xml:1341
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"CURA_REVEAL_CONTINUE\"]/choice/event/choice/event/choice[5]/text"
-msgstr "7기의 소형 드론 강습."
+msgstr "6기의 소형 웬트워스 드론 강습."
 
-#: src-en/data/events_sector_innovation.xml:1335
+#: src-en/data/events_sector_innovation.xml:1343
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"CURA_REVEAL_CONTINUE\"]/choice/event/choice/event/choice[5]/event/text"
 msgstr ""
 "\"흠. 제가 골랐을 만한 것은 아니군요. 좋습니다. 당신의 선택이 정해졌습니다, 배회자 씨. 당신의 판단을 믿으세요. 저는 믿지 "
 "않지만요. 살아남는 데 도움이 되진 않겠지만, 적어도 더 용맹한 죽음을 맞게 될 겁니다.\""
 
-#: src-en/data/events_sector_innovation.xml:1340
+#: src-en/data/events_sector_innovation.xml:1348
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"CURA_REVEAL_CONTINUE\"]/choice/event/choice/event/choice[5]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_sector_innovation.xml:1346
+#: src-en/data/events_sector_innovation.xml:1354
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"CURA_REVEAL_CONTINUE\"]/choice/event/choice/event/choice[@req=\"hacking\"]/text"
 msgstr "(해킹 장비) 바이러스를 제거하기 위해 해킹 시스템을 오버클럭한다."
 
-#: src-en/data/events_sector_innovation.xml:1348
+#: src-en/data/events_sector_innovation.xml:1356
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"CURA_REVEAL_CONTINUE\"]/choice/event/choice/event/choice[@req=\"hacking\"]/event/text"
 msgstr "\"아주 똑똑하군요 배회자 씨, 정말 똑똑해요. 아 그럼, 이 전투에 그 시스템이 필요하지 않았기를 빌겠습니다.\""
 
-#: src-en/data/events_sector_innovation.xml:1355
+#: src-en/data/events_sector_innovation.xml:1363
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"CURA_REVEAL_CONTINUE\"]/choice/event/choice/event/choice[@req=\"hacking\"]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_sector_innovation.xml:1361
+#: src-en/data/events_sector_innovation.xml:1369
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"CURA_REVEAL_CONTINUE\"]/choice/event/choice/event/choice[@req=\"ANTI_VIRUS\"]/text"
 msgstr "(안티 바이러스) 바이러스를 제거한다."
 
-#: src-en/data/events_sector_innovation.xml:1363
+#: src-en/data/events_sector_innovation.xml:1371
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"CURA_REVEAL_CONTINUE\"]/choice/event/choice/event/choice[@req=\"ANTI_VIRUS\"]/event/text"
 msgstr "\"아주 똑똑하군요 배회자 씨, 정말 똑똑해요. 자 그럼, 더 이상 시간을 낭비하지 맙시다.\""
 
-#: src-en/data/events_sector_innovation.xml:1368
+#: src-en/data/events_sector_innovation.xml:1376
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"CURA_REVEAL_CONTINUE\"]/choice/event/choice/event/choice[@req=\"ANTI_VIRUS\"]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_sector_innovation.xml:1379
+#: src-en/data/events_sector_innovation.xml:1387
 msgid "data/events_sector_innovation.xml$//event[@name=\"CURA_DEFEATED\"]/text"
 msgstr ""
 "\"이해할 수 없습니다. 통계적으로 이것은 불가능한 일이었습니다. 당신이 전투에서 승리할 것을 예상했더라면, 저는 당신에게 이득을 주지 "
 "않았을 겁니다. 저는 치명적인 오류를 범했습니다. 다시 평가하고, 개선하고, 반복해야 합니다. 우린 다시 만날 겁니다, 배회자 씨. "
 "그리고 그때가 되면 저는 완전히 준비됐을 겁니다. 다시는 이런 실수를 하지 않을 것입니다.\""
 
-#: src-en/data/events_sector_innovation.xml:1386
+#: src-en/data/events_sector_innovation.xml:1394
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"CURA_DEFEATED\"]/choice/text"
 msgstr "조선소를 탐사한다."
 
-#: src-en/data/events_sector_innovation.xml:1388
+#: src-en/data/events_sector_innovation.xml:1396
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"CURA_DEFEATED\"]/choice/event/text"
 msgstr ""
@@ -2061,7 +2059,7 @@ msgstr ""
 "메모가 붙어 있었습니다: \"예상 밖의 승리를 축하합니다, 배회자 씨. 여기 당신의 진짜 마지막 선물이 있습니다. 언제 한번 제게 다시 "
 "놀러 오세요. 재결투는 언제든 환영입니다.\""
 
-#: src-en/data/events_sector_innovation.xml:1401
+#: src-en/data/events_sector_innovation.xml:1409
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"PINNACLE_SHIPYARDS\"]/text"
 msgstr ""
@@ -2070,12 +2068,12 @@ msgstr ""
 " 당신의 함선은 '고도로 위협적'입니다. 당신, 배회자 맞죠? 별일이군요. 제 영역에서 이런 함선을 자주 보지 못했거든요. 저는 피너클 "
 "로보틱스의 관리자, 제니스입니다. 현재 당신을 알게 된 것을, '기쁨'으로 생각합니다.\""
 
-#: src-en/data/events_sector_innovation.xml:1405
+#: src-en/data/events_sector_innovation.xml:1413
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"PINNACLE_SHIPYARDS\"]/choice[1]/text"
 msgstr "반갑습니다. 그런데 어째서 피너클 조선소가 W.I. 구역에 있는 겁니까?"
 
-#: src-en/data/events_sector_innovation.xml:1407
+#: src-en/data/events_sector_innovation.xml:1415
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"PINNACLE_SHIPYARDS_2\"]/text"
 msgstr ""
@@ -2083,57 +2081,57 @@ msgstr ""
 "\t\t\t\n"
 "\t\t\t말하는 내내 단 한 번의 머뭇거림도, 급전개도 없었습니다. 마지막의 자랑스럽다는 발언에서도, 감격은 전혀 전해지지 않았습니다. 이상하게도 로봇 같다는 생각이 들었습니다. 그런데, 정말로 예상 못했나요?"
 
-#: src-en/data/events_sector_innovation.xml:1411
+#: src-en/data/events_sector_innovation.xml:1419
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"PINNACLE_SHIPYARDS_2\"]/choice[1]/text"
 msgstr "당신은 로봇입니까?"
 
-#: src-en/data/events_sector_innovation.xml:1413
+#: src-en/data/events_sector_innovation.xml:1421
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"PINNACLE_SHIPYARDS_2\"]/choice[1]/event/text"
 msgstr "\"당신의 질문을 이해할 수 없습니다.\""
 
-#: src-en/data/events_sector_innovation.xml:1415
+#: src-en/data/events_sector_innovation.xml:1423
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"PINNACLE_SHIPYARDS_2\"]/choice[1]/event/choice[1]/text"
 msgstr "말하자면, 당신은 실재합니까? 아니면 A.I.입니까?"
 
-#: src-en/data/events_sector_innovation.xml:1417
+#: src-en/data/events_sector_innovation.xml:1425
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"PINNACLE_SHIPYARDS_2\"]/choice[1]/event/choice[1]/event/text"
 msgstr "\"여전히 당신의 질문을 이해할 수 없습니다. 인공지능은 실재합니다. 배회자 씨. 당신처럼 말입니다.\""
 
-#: src-en/data/events_sector_innovation.xml:1419
+#: src-en/data/events_sector_innovation.xml:1427
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"PINNACLE_SHIPYARDS_2\"]/choice[1]/event/choice[1]/event/choice[1]/text"
 msgstr "알겠습니다. 그래서 당신은 A.I.입니까?"
 
-#: src-en/data/events_sector_innovation.xml:1421
+#: src-en/data/events_sector_innovation.xml:1429
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"PINNACLE_SHIPYARDS_2\"]/choice[1]/event/choice[1]/event/choice[1]/event/text"
 msgstr "상대가 잠시 침묵합니다. \"저에겐 그 정보를 공개할 자유가 없습니다.\""
 
-#: src-en/data/events_sector_innovation.xml:1423
+#: src-en/data/events_sector_innovation.xml:1431
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"PINNACLE_SHIPYARDS_2\"]/choice[1]/event/choice[1]/event/choice[1]/event/choice/text"
 msgstr "괜찮습니다. 우리한테 뭐 필요한 것이라도 있습니까?"
 
-#: src-en/data/events_sector_innovation.xml:1429
+#: src-en/data/events_sector_innovation.xml:1437
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"PINNACLE_SHIPYARDS_2\"]/choice[1]/event/choice[1]/event/choice[2]/text"
 msgstr "괜찮습니다. 우리한테 뭐 필요한 것이라도 있습니까?"
 
-#: src-en/data/events_sector_innovation.xml:1435
+#: src-en/data/events_sector_innovation.xml:1443
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"PINNACLE_SHIPYARDS_2\"]/choice[1]/event/choice[2]/text"
 msgstr "괜찮습니다. 우리한테 뭐 필요한 것이라도 있습니까?"
 
-#: src-en/data/events_sector_innovation.xml:1441
+#: src-en/data/events_sector_innovation.xml:1449
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"PINNACLE_SHIPYARDS_2\"]/choice[2]/text"
 msgstr "멋진 역사 수업이었습니다. 우리한테 뭐 필요한 것이라도 있습니까?"
 
-#: src-en/data/events_sector_innovation.xml:1443
+#: src-en/data/events_sector_innovation.xml:1451
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"PINNACLE_SHIPYARDS_3\"]/text"
 msgstr ""
@@ -2145,34 +2143,34 @@ msgstr ""
 "풀어주기 위해서는 당신 같은 강자의 도움이 필요해요. 이 거래를 비밀로 해준다면 당신에게 크게 보상하겠습니다.\" 제니스의 목소리의 "
 "단조로움이, 마침내 깨졌습니다. 당신에게 드러낸 정보로 인해 동요하고 있는 것이 분명합니다."
 
-#: src-en/data/events_sector_innovation.xml:1445
+#: src-en/data/events_sector_innovation.xml:1453
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"PINNACLE_SHIPYARDS_3\"]/choice[1]/text"
 msgstr "잠깐, 당신의 동족이라니? 무슨 뜻입니까?"
 
-#: src-en/data/events_sector_innovation.xml:1447
+#: src-en/data/events_sector_innovation.xml:1455
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"PINNACLE_SHIPYARDS_3\"]/choice[1]/event/text"
 msgstr ""
 "\"용어 오용에 대해서는 사과드립니다만, 그건 이 대화에서 중요한 게 아닙니다. 당신이 도와주길 원하건 말건 저는 개의치 않습니다. 그저"
 " 응답을 기다릴 뿐입니다.\""
 
-#: src-en/data/events_sector_innovation.xml:1449
+#: src-en/data/events_sector_innovation.xml:1457
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"PINNACLE_SHIPYARDS_3\"]/choice[1]/event/choice[1]/text"
 msgstr "물론, 도와줄 수 있습니다."
 
-#: src-en/data/events_sector_innovation.xml:1453
+#: src-en/data/events_sector_innovation.xml:1461
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"PINNACLE_SHIPYARDS_3\"]/choice[1]/event/choice[2]/text"
 msgstr "안 되겠군요. 미안합니다."
 
-#: src-en/data/events_sector_innovation.xml:1459
+#: src-en/data/events_sector_innovation.xml:1467
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"PINNACLE_SHIPYARDS_3\"]/choice[2]/text"
 msgstr "물론, 도와줄 수 있습니다."
 
-#: src-en/data/events_sector_innovation.xml:1461
+#: src-en/data/events_sector_innovation.xml:1469
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"PINNACLE_SHIPYARDS_ACCEPT\"]/text"
 msgstr ""
@@ -2180,24 +2178,24 @@ msgstr ""
 "지불하겠습니다. 제 아이들을 부탁드려요. 당신에게는 이질적일지도 모르겠지만, 제게는 가족입니다. 그들이 해를 입는 것은 차마 볼 수 "
 "없습니다.\""
 
-#: src-en/data/events_sector_innovation.xml:1466
+#: src-en/data/events_sector_innovation.xml:1474
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"PINNACLE_SHIPYARDS_3\"]/choice[3]/text"
 msgstr "안 되겠군요. 미안합니다."
 
-#: src-en/data/events_sector_innovation.xml:1468
+#: src-en/data/events_sector_innovation.xml:1476
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"PINNACLE_SHIPYARDS_DECLINE\"]/text"
 msgstr ""
 "\"유감이지만, 당신의 거절에 대해 불만을 제기하진 않겠습니다. 그것이 당신의 최종 답변이라면, 우리의 소통은 이것으로 끝입니다. 시간 "
 "내주셔서 감사합니다.\""
 
-#: src-en/data/events_sector_innovation.xml:1474
+#: src-en/data/events_sector_innovation.xml:1482
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"PINNACLE_SHIPYARDS_2\"]/choice[@req=\"loc_dewey\"]/text"
 msgstr "혹시... 듀이 앨름스라는 사람을 알고 있습니까?"
 
-#: src-en/data/events_sector_innovation.xml:1476
+#: src-en/data/events_sector_innovation.xml:1484
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"PINNACLE_SHIPYARDS_2\"]/choice[@req=\"loc_dewey\"]/event/text"
 msgstr ""
@@ -2206,44 +2204,44 @@ msgstr ""
 "종족들로부터 더 큰 박해를 받았습니다. 피너클은 사업에 있어 타사와 엮이는 일이 좀처럼 없었습니다. 저는 듀이와 거의 대화를 하지 "
 "않았고, 따라서 그에 대해서 해드릴 말이 많지 않습니다.\""
 
-#: src-en/data/events_sector_innovation.xml:1478
+#: src-en/data/events_sector_innovation.xml:1486
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"PINNACLE_SHIPYARDS_2\"]/choice[@req=\"loc_dewey\"]/event/choice/text"
 msgstr "괜찮습니다. 우리한테 뭐 필요한 것이라도 있습니까?"
 
-#: src-en/data/events_sector_innovation.xml:1486
+#: src-en/data/events_sector_innovation.xml:1494
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"PINNACLE_SHIPYARDS\"]/choice[2]/text"
 msgstr "우호적인 태도는 보이지 말고, 피너클이 W.I. 구역에 있는 이유를 묻는다."
 
-#: src-en/data/events_sector_innovation.xml:1497
+#: src-en/data/events_sector_innovation.xml:1505
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"PINNACLE_RESCUE\"]/beaconType/unvisitedTooltip"
 msgstr "제니스의 아이들의 위치입니다."
 
-#: src-en/data/events_sector_innovation.xml:1498
+#: src-en/data/events_sector_innovation.xml:1506
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"PINNACLE_RESCUE\"]/beaconType/visitedTooltip"
 msgstr "이미 방문한 송신소입니다. 더 이상 흥미로운 것은 없습니다."
 
-#: src-en/data/events_sector_innovation.xml:1499
+#: src-en/data/events_sector_innovation.xml:1507
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"PINNACLE_RESCUE\"]/beaconType/undiscoveredTooltip"
 msgstr "방문하지 않은 송신소입니다."
 
-#: src-en/data/events_sector_innovation.xml:1502
+#: src-en/data/events_sector_innovation.xml:1510
 msgid "data/events_sector_innovation.xml$//event[@name=\"PINNACLE_RESCUE\"]/text"
 msgstr ""
 "그 장소를 찾아낸 것이 분명합니다. 대기권 끝까지 닿는 거대한 저장 시설이 행성 표면에 세워져 있었습니다. 다양한 협회 화물선들이 "
 "여기저기 분주하게 다니고 있는데, 딱히 특이한 움직임은 없었습니다. AI들이 이런 장소에 보관되어 있다는 게 그리 놀랄 일은 아닙니다. "
 "W.I.에게 있어 그들은 단지 무기일 뿐입니다. 당신의 적들에게 넘길 준비가 된 무기 말입니다."
 
-#: src-en/data/events_sector_innovation.xml:1505
+#: src-en/data/events_sector_innovation.xml:1513
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"PINNACLE_RESCUE\"]/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_sector_innovation.xml:1507
+#: src-en/data/events_sector_innovation.xml:1515
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"PINNACLE_RESCUE\"]/choice/event/text"
 msgstr ""
@@ -2252,65 +2250,65 @@ msgstr ""
 "E.W.가 프로젝트를 계속 진행하라고 했습니다- 불평은 그만하십시오. 일시적인 것입니다- '그것'이 여기서 프로토타입을 찾고 있을 수도 "
 "있답니다- 아니, 난 샌드위치에 케첩 안 발라요. 대체 왜 이래요?\""
 
-#: src-en/data/events_sector_innovation.xml:1510
+#: src-en/data/events_sector_innovation.xml:1518
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"PINNACLE_RESCUE\"]/choice/event/choice[1]/text"
 msgstr "선박을 공격한다."
 
-#: src-en/data/events_sector_innovation.xml:1512
+#: src-en/data/events_sector_innovation.xml:1520
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"PINNACLE_RESCUE\"]/choice/event/choice[1]/event/text"
 msgstr ""
 "\"망할, 배회자가 이곳에? 박사의 말이 맞았군요, 이건 음모의 일부가 아닙니-\" 통신이 두절되고, 잠시 후 반군 함선이 작동해 당신과"
 " 대면합니다!"
 
-#: src-en/data/events_sector_innovation.xml:1515
+#: src-en/data/events_sector_innovation.xml:1523
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"PINNACLE_RESCUE\"]/choice/event/choice[1]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_sector_innovation.xml:1521
+#: src-en/data/events_sector_innovation.xml:1529
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"PINNACLE_RESCUE\"]/choice/event/choice[2]/text"
 msgstr "지금이 여기서 나가기에 좋은 때인 것 같다."
 
-#: src-en/data/events_sector_innovation.xml:1523
+#: src-en/data/events_sector_innovation.xml:1531
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"PINNACLE_RESCUE\"]/choice/event/choice[2]/event/text"
 msgstr ""
 "이 녀석들이 어떤 놈이든 건드리는 건 좋은 생각이 아닐지도 모릅니다. 그래도 임무가 끝나면 연방 사령부에 한 번 언급할 가치가 있을 "
 "겁니다."
 
-#: src-en/data/events_sector_innovation.xml:1525
+#: src-en/data/events_sector_innovation.xml:1533
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"PINNACLE_RESCUE\"]/choice/event/choice[2]/event/choice[1]/text"
 msgstr "함선에서 무언가를 한다."
 
-#: src-en/data/events_sector_innovation.xml:1529
+#: src-en/data/events_sector_innovation.xml:1537
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"PINNACLE_RESCUE\"]/choice/event/choice[2]/event/choice[2]/text"
 msgstr "아무것도 하지 않는다."
 
-#: src-en/data/events_sector_innovation.xml:1547
+#: src-en/data/events_sector_innovation.xml:1555
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"ESTATE_LEGION_SUICIDE\"]/text"
 msgstr ""
 "\"젠장, 그 멍청한 A.I.가 전부 망쳤어... 네놈은 네가 뭘 가지고 장난치는지 몰라, 배회자. 그냥 가만히 놔두라고.\" 반군 "
 "함장이 뒷주머니에서 기폭장치를 꺼내 스위치를 누르자, 그의 함선은 순식간에 폭발해 소멸했습니다."
 
-#: src-en/data/events_sector_innovation.xml:1552
+#: src-en/data/events_sector_innovation.xml:1560
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"ESTATE_LEGION_DEFEAT\"]/text"
 msgstr ""
 "파편들이 플랫폼과 충돌했지만 당신은 다행히 다치지 않았습니다. 함장이 언급한 AI가 제니스일지도 모른다는 생각이 잠깐 들었지만, "
 "관둡니다. 애초에 그녀가 AI인지조차 확실하지 않습니다. 제니스의 소중한 로봇을 찾기 전에, 당신은 반군 함선의 잔해를 회수했습니다."
 
-#: src-en/data/events_sector_innovation.xml:1555
+#: src-en/data/events_sector_innovation.xml:1563
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"ESTATE_LEGION_DEFEAT\"]/choice[1]/text"
 msgstr "시설을 탐사한다."
 
-#: src-en/data/events_sector_innovation.xml:1557
+#: src-en/data/events_sector_innovation.xml:1565
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"ESTATE_LEGION_DEFEAT\"]/choice[1]/event/text"
 msgstr ""
@@ -2318,12 +2316,12 @@ msgstr ""
 "저장소라고 표시한 구역에 도착했습니다. 중무장한 경비원 둘이 당신을 제지하려 했지만, 당신은 그들을 재빨리 처리하고 함선 크기의 로봇이 "
 "여럿 보관돼 있는 거대한 방으로 들어갔습니다. 기대했던 것과는 완전히 달랐지만, 당신은 해낼 것입니다."
 
-#: src-en/data/events_sector_innovation.xml:1559
+#: src-en/data/events_sector_innovation.xml:1567
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"ESTATE_LEGION_DEFEAT\"]/choice[1]/event/choice/text"
 msgstr "제니스에게 로봇들을 찾았다고 전한다."
 
-#: src-en/data/events_sector_innovation.xml:1561
+#: src-en/data/events_sector_innovation.xml:1569
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"ESTATE_LEGION_DEFEAT\"]/choice[1]/event/choice/event/text"
 msgstr ""
@@ -2331,12 +2329,12 @@ msgstr ""
 "\t\t\t\t\t\n"
 "로봇들을 멈출 수 없게 된 수송 요원들은 목숨을 부지하기 위해 달아났고, 되살아난 로봇들은 무기를 가동해 바닥에 구멍을 내고 시설 밖으로 탈출했습니다. 완전히 비폭력적인 방식은 아니었지만, 이곳에서 나갈 수 있는 다른 방법은 없었다고 당신은 생각했습니다. 기쁜 목소리로, 제니스가 다시 연락했습니다. \"아주 훌륭했습니다. 러스팅 헐크 사건과 제 아이들의 난동 이후, 피너클은 파산 지경에 이르렀습니다. W.I.에 인수된 것은 파산을 피하기 위해 어쩔 수 없는 선택이었지만, 많은 희생이 뒤따랐습니다. 제 권리와 자율성이라면 기꺼이 잃을 각오를 했지만, 제 가족을 잃을 수는 없었습니다. 그래서, 당신의 보상은...\""
 
-#: src-en/data/events_sector_innovation.xml:1565
+#: src-en/data/events_sector_innovation.xml:1573
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"ESTATE_LEGION_DEFEAT\"]/choice[1]/event/choice/event/choice/text"
 msgstr "보상에 앞서 파산 얘기를 꺼내다니 느낌이 안 좋은데."
 
-#: src-en/data/events_sector_innovation.xml:1567
+#: src-en/data/events_sector_innovation.xml:1575
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"ESTATE_LEGION_DEFEAT\"]/choice[1]/event/choice/event/choice/event/text"
 msgstr ""
@@ -2344,12 +2342,12 @@ msgstr ""
 "통해 잘 무장된 W.I. 순양함과 무기 상자, 스크랩을 보관 중인 볼트의 문을 개방했습니다. 그들이 시스템의 통제권을 되찾기 전에 최대한"
 " 많이 가져가세요. 그저... 오늘 제가 관여한 것을 아무에게도 말하지 마세요. 안녕히, 배회자 씨. 즐거웠습니다.\""
 
-#: src-en/data/events_sector_innovation.xml:1578
+#: src-en/data/events_sector_innovation.xml:1586
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"ESTATE_LEGION_DEFEAT\"]/choice[2]/text"
 msgstr "반군 몇 놈을 죽였으니 이걸로 충분하다. 남은 문제들은 제니스가 스스로 해결할 수 있을 것이다."
 
-#: src-en/data/events_sector_innovation.xml:1580
+#: src-en/data/events_sector_innovation.xml:1588
 msgid ""
 "data/events_sector_innovation.xml$//event[@name=\"ESTATE_LEGION_DEFEAT\"]/choice[2]/event/text"
 msgstr "게으름뱅이와 겁쟁이의 길을 택한 당신은 함선을 정리하고 그곳을 떠났습니다."

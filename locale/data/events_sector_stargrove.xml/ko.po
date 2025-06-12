@@ -1,0 +1,3099 @@
+#
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2025-06-11 12:50+0000\n"
+"Last-Translator: H2O <dedor11111@gmail.com>\n"
+"Language-Team: Korean <https://weblate.hyperq.be/projects/ftl-multiverse/dataevents_sector_stargrovexml/ko/>\n"
+"Language: ko\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.11.4\n"
+
+#: src-en/data/events_sector_stargrove.xml:26
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_STARGROVE_STORM_REVISIT\"]/text"
+msgstr "당신은 이미 이곳에 온 적이 있습니다. 더 이상 흥미로운 건 없습니다."
+
+#: src-en/data/events_sector_stargrove.xml:29
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_STARGROVE_STORM_REVISIT\"]/choice[1]/text"
+msgstr "함선에서 무언가를 한다."
+
+#: src-en/data/events_sector_stargrove.xml:33
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_STARGROVE_STORM_REVISIT\"]/choice[2]/text"
+msgstr "아무것도 하지 않는다."
+
+#: src-en/data/events_sector_stargrove.xml:39
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_SUN_REVISIT\"]/text"
+msgstr "당신은 이미 이곳에 온 적이 있습니다. 더 이상 흥미로운 건 없습니다. 태양 때문에 함선에서 무언가를 하기에는 너무 위험하니, 가능한 한 빨리 떠나야 합니다."
+
+#: src-en/data/events_sector_stargrove.xml:45
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_BLUEGIANT_REVISIT\"]/text"
+msgstr "당신은 이미 이곳에 온 적이 있습니다. 더 이상 흥미로운 건 없습니다. 태양 때문에 함선에서 무언가를 하기에는 너무 위험하니, 가능한 한 빨리 떠나야 합니다."
+
+#: src-en/data/events_sector_stargrove.xml:50
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_PULSAR_REVISIT\"]/text"
+msgstr "당신은 이미 이곳에 온 적이 있습니다. 더 이상 흥미로운 건 없습니다. 이곳의 펄서 때문에 함선에서 무언가를 하기에 너무 위험하오니, 가능한 빨리 떠나야합니다."
+
+#: src-en/data/events_sector_stargrove.xml:56
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_ASTEROID_REVISIT\"]/text"
+msgstr "당신은 이미 이곳에 온 적이 있습니다. 더 이상 흥미로운 건 없습니다. 이곳의 소행성 때문에 함선에서 무언가를 하기에 너무 위험하니, 가능한 한 빨리 떠나야 합니다."
+
+#: src-en/data/events_sector_stargrove.xml:62
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_GRAVASTAR_REVISIT\"]/text"
+msgstr "당신은 이미 이곳에 온 적이 있습니다. 더 이상 흥미로운 건 없습니다. 그라바스타 때문에 함선에서 무언가를 하기에 너무 위험하니, 가능한 빨리 떠나야 합니다."
+
+#: src-en/data/events_sector_stargrove.xml:74
+msgid ""
+"data/events_sector_stargrove.xml$//ship[@name=\"SHIP_PIRATE_STARGROVE_HIGHWAYMAN\"]/destroyed/text"
+msgstr "노상강도를 물리쳤습니다. 이제 박살 난 함선에서 많은 양의 스크랩을 회수할 수 있습니다."
+
+#: src-en/data/events_sector_stargrove.xml:78
+msgid ""
+"data/events_sector_stargrove.xml$//ship[@name=\"SHIP_PIRATE_STARGROVE_HIGHWAYMAN\"]/deadCrew/text"
+msgstr "노상강도는 마지막 숨을 들이쉬며 주머니에서 어떤 원격 제어 장치를 꺼내 버튼을 눌렀습니다. 작은 폭발음이 들렸는데, 함선은 큰 피해를 입지 않았지만, 조사하다 발견한 조기 점화기가 부서진 채로 연기를 뿜고 있었습니다. 다소 아쉬운 결과지만, 어쨌거나 당신은 많은 양의 스크랩과 선제 이온 무기를 회수했습니다."
+
+#: src-en/data/events_sector_stargrove.xml:89
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"FINISH_BEACON_STARGROVE\"]/text"
+msgstr "당신은 출구에 도착했습니다..."
+
+#: src-en/data/events_sector_stargrove.xml:91
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"FINISH_BEACON_STARGROVE\"]/choice[@req=\"loc_highwayman\""
+" and @lvl=\"0\"]/text"
+msgstr "계속..."
+
+#: src-en/data/events_sector_stargrove.xml:95
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"FINISH_BEACON_STARGROVE\"]/choice[@req=\"loc_highwayman\""
+" and @lvl=\"1\"]/text"
+msgstr "계속..."
+
+#: src-en/data/events_sector_stargrove.xml:103
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_FINISH_BEACON_STARGROVE\"]/text"
+msgstr "당신은 출구에 도착했습니다..."
+
+#: src-en/data/events_sector_stargrove.xml:105
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_FINISH_BEACON_STARGROVE\"]/choice[@req=\"loc_highwayman\""
+" and @lvl=\"0\"]/text"
+msgstr "계속..."
+
+#: src-en/data/events_sector_stargrove.xml:109
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_FINISH_BEACON_STARGROVE\"]/choice[@req=\"loc_highwayman\""
+" and @lvl=\"1\"]/text"
+msgstr "계속..."
+
+#: src-en/data/events_sector_stargrove.xml:114
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_HIGHWAYMAN_INITIAL\"]/text"
+msgstr "당신이 접근하자 출구 송신소를 지키던 함선이 무기를 달구며 메시지를 보냈습니다. 거만해 보이는 해적이 화면에 나타납니다. 비웃음을 날리는 해적의 뒤로 통신실의 벽면에 검들이 가지런히 걸려 있습니다.. \"오, 누군가 이곳을 뜨고 싶어 하네. 유감스럽게도 공짜는 아니야.\" 노상강도가 뒤를 가리킵니다. \"내 무기들 보이나? 내게는 조기 점화기가 있고, 감히 날 거역하면 소중한 방어막 제어실에 작별을 고하게 될 거야... 그리고 은폐할 생각은 버려라! 그럴 기회를 줄 생각은 없으니, 얌전히 스크랩이나 뱉고 꺼지도록.\""
+
+#: src-en/data/events_sector_stargrove.xml:117
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_HIGHWAYMAN_INITIAL\"]/choice[@req=\"ANY_SHIELDS\"]/text"
+msgstr "멍청아, 난 방어막 제어실이 없다고."
+
+#: src-en/data/events_sector_stargrove.xml:121
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_HIGHWAYMAN_INITIAL\"]/choice[@req=\"unique_kaz\"]/text"
+msgstr "카자앜플레쓰킬맄이 노상강도를 알아봅니다."
+
+#: src-en/data/events_sector_stargrove.xml:125
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_HIGHWAYMAN_INITIAL\"]/choice[@req=\"unique_tuco\"]/text"
+msgstr "투코가 노상강도를 알아봅니다."
+
+#: src-en/data/events_sector_stargrove.xml:129
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_HIGHWAYMAN_INITIAL\"]/choice[@req=\"LIST_A55\"]/text"
+msgstr "A5540L3가 노상강도를 알아봅니다."
+
+#: src-en/data/events_sector_stargrove.xml:133
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_HIGHWAYMAN_INITIAL\"]/choice[@req=\"unique_nights\"]/text"
+msgstr "나이트가 노상강도를 알아봅니다."
+
+#: src-en/data/events_sector_stargrove.xml:137
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_HIGHWAYMAN_INITIAL\"]/choice[@req=\"ION_ARMOR\"]/text"
+msgstr "(이온 저항) 위협한다."
+
+#: src-en/data/events_sector_stargrove.xml:141
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_HIGHWAYMAN_INITIAL\"]/choice[7]/text"
+msgstr "싸워서 지나간다."
+
+#: src-en/data/events_sector_stargrove.xml:145
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_HIGHWAYMAN_INITIAL\"]/choice[8]/text"
+msgstr "통행료를 지불한다."
+
+#: src-en/data/events_sector_stargrove.xml:149
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_HIGHWAYMAN_INITIAL\"]/choice[@req=\"loc_scrap\"]/text"
+msgstr "수중에 100 스크랩도 없는데, 다른 것으로 지불할 수는 없습니까?"
+
+#: src-en/data/events_sector_stargrove.xml:154
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_POST_HIGHWAYMAN\"]/text"
+msgstr "노상강도는 떠난 것 같지만, 반군 무인기가 송신소를 장악했습니다! 싸워서 벗어나야 합니다!"
+
+#: src-en/data/events_sector_stargrove.xml:157
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_POST_HIGHWAYMAN\"]/choice[1]/text"
+msgstr "계속..."
+
+#: src-en/data/events_sector_stargrove.xml:161
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_POST_HIGHWAYMAN\"]/choice[@req=\"engines\"]/text"
+msgstr "(최고급 엔진) 무인기로부터 탈출한다."
+
+#: src-en/data/events_sector_stargrove.xml:166
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_EXIT_TUCO\"]/text"
+msgstr ""
+"투코가 웃습니다. \"음.. 저크, 결국 그 강탈 사건의 여파에서 살아남았군. 진급도 했고 말이오.\"\n"
+"\n"
+"\"아, 당신이군요. '선장'. 당신과 함께할 선원들을 찾았다는 게 정말 놀랍습니다.\"\n"
+"\n"
+"\"지금 우리 중에 누가 지옥에서 썩고 있지? ... 음, 아마도 우리 둘 다 마찬가지겠지만, 나는 여기에 갇혀있지 않다는 점에서 다르오.\"\n"
+"\n"
+"해적이 눈을 굴립니다. \"무슨 말인지 알겠네요.\"\n"
+"\n"
+"\"자, 어떻소? 옛 선장의 정을 봐서 우리를 통과시켜주지 않겠소?\"\n"
+"\n"
+"\"물론이죠, 하지만 일단 제게 진 술값을 전부 갚으셔야 할 겁니다. 선장을 봐서 특별히 할인해 드린 통행료에 덧붙여서 말입니다.\""
+
+#: src-en/data/events_sector_stargrove.xml:178
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_EXIT_TUCO\"]/choice[1]/text"
+msgstr "지불한다."
+
+#: src-en/data/events_sector_stargrove.xml:180
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_EXIT_TUCO\"]/choice[1]/event/text"
+msgstr "노상강도는 당신이 순순히 요구를 따르자 놀란 표정을 지었습니다. \"음, 사람이 변하긴 하는군요. 감명 깊네요. 더 이상 귀찮게 굴지 않겠습니다.\""
+
+#: src-en/data/events_sector_stargrove.xml:187
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_EXIT_TUCO\"]/choice[2]/text"
+msgstr "안 돼."
+
+#: src-en/data/events_sector_stargrove.xml:189
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_EXIT_TUCO\"]/choice[2]/event/text"
+msgstr "\"허, 그러면 그렇지. 네가 빚을 갚을 리가 없어. 그렇다면 내 돈은 네 시체에서 받아 가도록 하지.\""
+
+#: src-en/data/events_sector_stargrove.xml:192
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_EXIT_TUCO\"]/choice[2]/event/choice[@req=\"cloaking\""
+" and not(@lvl)]/text"
+msgstr "계속..."
+
+#: src-en/data/events_sector_stargrove.xml:196
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_EXIT_TUCO\"]/choice[2]/event/choice[@req=\"cloaking\""
+" and @lvl=\"0\"]/text"
+msgstr "계속..."
+
+#: src-en/data/events_sector_stargrove.xml:203
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_EXIT_KAZ\"]/text"
+msgstr ""
+"카자앜플레쓰킬맄이 찰칵 소리를 내며 고개를 갸우뚱합니다. \"말라앜피키필튼 어디 있나? 네 약탈 동행하고 있지?\"\n"
+"\n"
+"\"그는 죽었다. 너무 많은 락맨을 한 번에 상대했지.\" 해적이 고개를 젓습니다.\n"
+"\n"
+"\"카자앜플레쓰킬맄 그놈 그런 식으로 갈 줄 늘 알고 있었다. 경솔한 해적은 곧 죽은 해적.\" 카자앜플레쓰킬맄이 위협적으로 앞발을 휘두릅니다. \"그놈 실수 똑같이 범하지 않도록.\"\n"
+"\n"
+"해적이 멈칫합니다. \"... 카즈, 난 항상 당신을 존경했다고. 돈을 내지 않고 떠나려고 한다면, 막지 않겠다.\""
+
+#: src-en/data/events_sector_stargrove.xml:211
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_EXIT_KAZ\"]/choice[1]/text"
+msgstr "떠난다."
+
+#: src-en/data/events_sector_stargrove.xml:215
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_EXIT_KAZ\"]/choice[2]/text"
+msgstr "어쨌든 싸운다."
+
+#: src-en/data/events_sector_stargrove.xml:217
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_EXIT_KAZ\"]/choice[2]/event/text"
+msgstr "\"역시 우리는 늘 피에 굶주렸지? 곧 그 말을 후회하게 해주마.\""
+
+#: src-en/data/events_sector_stargrove.xml:220
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_EXIT_KAZ\"]/choice[2]/event/choice[@req=\"cloaking\""
+" and not(@lvl)]/text"
+msgstr "계속..."
+
+#: src-en/data/events_sector_stargrove.xml:224
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_EXIT_KAZ\"]/choice[2]/event/choice[@req=\"cloaking\""
+" and @lvl=\"0\"]/text"
+msgstr "계속..."
+
+#: src-en/data/events_sector_stargrove.xml:231
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_EXIT_A55\"]/text"
+msgstr ""
+"\"요호호. 정말 아름다운 해적질이군. 내 모자를 벗어 경의를 표하지.\" \n"
+"\n"
+"\"말이 좀 통하네. 그렇지, 그렇게 멋진 함선을 보고 어떻게 해적질을 참을 수 있겠어?\"\n"
+"\n"
+"\"야하하. 충분히 이해하네. 우리를 공짜로 통과시켜 줄 수는 없을까?\"\n"
+"\n"
+"\"나도 먹고는 살아야지. 특별히 친구 할인으로 아주 싸게 해줄게. 어때?\""
+
+#: src-en/data/events_sector_stargrove.xml:240
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_EXIT_A55\"]/choice[1]/text"
+msgstr "지불한다."
+
+#: src-en/data/events_sector_stargrove.xml:242
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_EXIT_A55\"]/choice[1]/event/text"
+msgstr "\"정말 고맙군 A55 선장. 즐거운 해적질 되시길.\""
+
+#: src-en/data/events_sector_stargrove.xml:249
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_EXIT_A55\"]/choice[@req=\"loc_scrap\"]/text"
+msgstr "우린 20 스크랩도 없다고. 다른 거로 지불할 수는 없을까?"
+
+#: src-en/data/events_sector_stargrove.xml:251
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_EXIT_A55\"]/choice[@req=\"loc_scrap\"]/event/text"
+msgstr "저크가 A55를 노려보며 중얼거립니다. \"야, 뭐 됐어. 털어봤자 한 푼도 없어 보이네. 지나가.\""
+
+#: src-en/data/events_sector_stargrove.xml:255
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_EXIT_A55\"]/choice[3]/text"
+msgstr "여전히 통행료를 낼 마음은 없다."
+
+#: src-en/data/events_sector_stargrove.xml:257
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_EXIT_A55\"]/choice[3]/event/text"
+msgstr "\"그럼 누가 더 나은 해적인지 알아봐야겠군. 나야 좋지!\""
+
+#: src-en/data/events_sector_stargrove.xml:260
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_EXIT_A55\"]/choice[3]/event/choice[@req=\"cloaking\""
+" and not(@lvl)]/text"
+msgstr "계속..."
+
+#: src-en/data/events_sector_stargrove.xml:264
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_EXIT_A55\"]/choice[3]/event/choice[@req=\"cloaking\""
+" and @lvl=\"0\"]/text"
+msgstr "계속..."
+
+#: src-en/data/events_sector_stargrove.xml:271
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_EXIT_NIGHTS\"]/text"
+msgstr ""
+"나이트가 웃기 시작합니다. \"이게 누구씬가? 오븐 밑에 웅크려썬 들키찌 않으려고 발악하던 놈 아냐! 하하하하!\"\n"
+"\n"
+"\"나이트...\" 노상강도가 노려봅니다. \"널 고운 반죽으로 짓이겨버릴 기회를 놓칠 순 없지.\""
+
+#: src-en/data/events_sector_stargrove.xml:276
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_EXIT_NIGHTS\"]/choice[@req=\"cloaking\""
+" and not(@lvl)]/text"
+msgstr "계속..."
+
+#: src-en/data/events_sector_stargrove.xml:280
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_EXIT_NIGHTS\"]/choice[@req=\"cloaking\""
+" and @lvl=\"0\"]/text"
+msgstr "계속..."
+
+#: src-en/data/events_sector_stargrove.xml:285
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_EXIT_FIGHT\"]/text"
+msgstr "별것도 아닌 해적에게 힘들게 얻은 스크랩을 빼앗길 생각은 조금도 없습니다. 당신은 무기를 가동합니다."
+
+#: src-en/data/events_sector_stargrove.xml:288
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_EXIT_FIGHT\"]/choice[@req=\"cloaking\""
+" and not(@lvl)]/text"
+msgstr "계속..."
+
+#: src-en/data/events_sector_stargrove.xml:292
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_EXIT_FIGHT\"]/choice[@req=\"cloaking\""
+" and @lvl=\"0\"]/text"
+msgstr "계속..."
+
+#: src-en/data/events_sector_stargrove.xml:297
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_EXIT_NOSHIELDS\"]/text"
+msgstr "노상강도가 당황한 표정을 짓습니다. \"너... 방어막 제어실도 없이 별들의 숲을 통과했다고...? 제정신이야? 어떻게 그런...?\" 노상강도가 헛기침합니다. \"됐어. 통행료는 됐으니까 그냥 가. 네가 두려워졌으니까.\""
+
+#: src-en/data/events_sector_stargrove.xml:300
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_EXIT_NOSHIELDS\"]/choice[1]/text"
+msgstr "계속..."
+
+#: src-en/data/events_sector_stargrove.xml:304
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_EXIT_NOSHIELDS\"]/choice[2]/text"
+msgstr "어찌 됐든 그를 공격한다."
+
+#: src-en/data/events_sector_stargrove.xml:306
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_EXIT_NOSHIELDS\"]/choice[2]/event/text"
+msgstr "\"뭐? 난 그냥 보내주려 했는데 말이야! 으아아, 됐어! 네 오만함을 후회하게 될 거다, 배회자!\""
+
+#: src-en/data/events_sector_stargrove.xml:309
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_EXIT_NOSHIELDS\"]/choice[2]/event/choice[@req=\"cloaking\""
+" and not(@lvl)]/text"
+msgstr "계속..."
+
+#: src-en/data/events_sector_stargrove.xml:313
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_EXIT_NOSHIELDS\"]/choice[2]/event/choice[@req=\"cloaking\""
+" and @lvl=\"0\"]/text"
+msgstr "계속..."
+
+#: src-en/data/events_sector_stargrove.xml:321
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_EXIT_PAY\"]/text"
+msgstr "해적이 당신에게서 즐겁게 통행료를 거둡니다. \"지금 바로 지나가. 우리는 업그레이드를 시작해야 하니까.\""
+
+#: src-en/data/events_sector_stargrove.xml:327
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_EXIT_RENEGOTIATION_FAILED\"]/text"
+msgstr "\"좋아! 여기가 바로 네 묫자리다.\""
+
+#: src-en/data/events_sector_stargrove.xml:330
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_EXIT_RENEGOTIATION_FAILED\"]/choice[@req=\"cloaking\""
+" and not(@lvl)]/text"
+msgstr "계속..."
+
+#: src-en/data/events_sector_stargrove.xml:334
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_EXIT_RENEGOTIATION_FAILED\"]/choice[@req=\"cloaking\""
+" and @lvl=\"0\"]/text"
+msgstr "계속..."
+
+#: src-en/data/events_sector_stargrove.xml:339
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_EXIT_THREATEN\"]/text"
+msgstr ""
+"당신은 해적에게 함선이 이온 공격에 방어되고 있어, 그들의 전술에 대응할 수 있다고 알립니다. 해적들이 생각하는 것만큼 쉽지 않을 것입니다.\n"
+"\n"
+"\"쳇, 잘 막고 있군 그래, 존중하지. 그렇다면 친구 전용 할인을 택하겠나? 아니면 더 어려운 길로 가는 걸 택하겠나?\""
+
+#: src-en/data/events_sector_stargrove.xml:343
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_EXIT_THREATEN\"]/choice[1]/text"
+msgstr "통행료를 지불한다."
+
+#: src-en/data/events_sector_stargrove.xml:345
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_EXIT_THREATEN\"]/choice[1]/event/text"
+msgstr "해적이 당신에게서 즐겁게 통행료를 징수합니다. \"그대로 꺼지도록, 배회자. 우린 여기서 업그레이드 할게 남아있다고.\""
+
+#: src-en/data/events_sector_stargrove.xml:352
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_EXIT_THREATEN\"]/choice[@req=\"loc_scrap\"]/text"
+msgstr "수중에 60 스크랩도 없는데, 다른 것으로 지불할 수는 없습니까?"
+
+#: src-en/data/events_sector_stargrove.xml:356
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_EXIT_THREATEN\"]/choice[3]/text"
+msgstr "여전히 통행료를 낼 마음은 없다."
+
+#: src-en/data/events_sector_stargrove.xml:362
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_EXIT_TRACKING\"]/text"
+msgstr "노상강도가 추적 플레어를 발사해 당신의 은폐장 시스템을 20초간 무력화했습니다."
+
+#: src-en/data/events_sector_stargrove.xml:366
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_EXIT_TRACKING\"]/triggeredEvent/triggeredEventBox/tooltip"
+msgstr "당신은 추적 플레어의 영향을 받았습니다!"
+
+#: src-en/data/events_sector_stargrove.xml:370
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_EXIT_TRACKING\"]/choice/text"
+msgstr "계속..."
+
+#: src-en/data/events_sector_stargrove.xml:376
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_EXIT_RENEGOTIATE\"]/text"
+msgstr "\"아이고 가엾어라! 다행히도, 나는 합리적인 해적이지. 스크랩 대신 다른 걸 받아줄게. 모든 자원 10개씩 또는 선원 2명 중에 선택해서 내놓도록.\""
+
+#: src-en/data/events_sector_stargrove.xml:378
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_EXIT_RENEGOTIATE\"]/choice[@req=\"COUNT_ALL_CREW\""
+" and @lvl=\"2\"]/text"
+msgstr "선원 두 명을 넘긴다."
+
+#: src-en/data/events_sector_stargrove.xml:380
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_EXIT_RENEGOTIATE\"]/choice[@req=\"COUNT_ALL_CREW\""
+" and @lvl=\"2\"]/event/text"
+msgstr "당신은 선원 두 명을 해적에게 넘겨줍니다. 별들의 숲에 낙오된 이들의 삶은 비극적이겠지만, 대개는 금방 끝난다는 게 위안이겠죠."
+
+#: src-en/data/events_sector_stargrove.xml:383
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_EXIT_RENEGOTIATE\"]/choice[@req=\"COUNT_ALL_CREW\""
+" and @lvl=\"2\"]/event/removeCrew/text"
+msgstr "당신의 선원은 죽지 않았습니다만, 언제까지 살아 있을지 장담할 수는 없습니다."
+
+#: src-en/data/events_sector_stargrove.xml:386
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_EXIT_RENEGOTIATE\"]/choice[@req=\"COUNT_ALL_CREW\""
+" and @lvl=\"2\"]/event/choice/text"
+msgstr "계속..."
+
+#: src-en/data/events_sector_stargrove.xml:390
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_EXIT_RENEGOTIATE\"]/choice[@req=\"COUNT_ALL_CREW\""
+" and @lvl=\"2\"]/event/choice/event/removeCrew/text"
+msgstr "당신의 선원은 죽지 않았습니다만, 언제까지 살아 있을지 장담할 수는 없습니다."
+
+#: src-en/data/events_sector_stargrove.xml:397
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_EXIT_RENEGOTIATE\"]/choice[@req=\"COUNT_ALL_CREW\""
+" and @lvl=\"0\"]/text"
+msgstr "넘겨줄 선원 두 명이 없다."
+
+#: src-en/data/events_sector_stargrove.xml:401
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_EXIT_RENEGOTIATE\"]/choice[3]/text"
+msgstr "각 자원 10개씩을 넘겨준다."
+
+#: src-en/data/events_sector_stargrove.xml:403
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_EXIT_RENEGOTIATE\"]/choice[3]/event/text"
+msgstr "해적은 얼굴을 찡그리며 당신이 내준 자원을 수집합니다. \"이제 꺼져, 배회자 양반.\""
+
+#: src-en/data/events_sector_stargrove.xml:412
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_EXIT_RENEGOTIATE\"]/choice[4]/text"
+msgstr "이 제안 또한 받아들일 수 없다."
+
+#: src-en/data/events_sector_stargrove.xml:417
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"ENEMY_AUGMENT_EXPIRES\"]/text"
+msgstr "마침내 함선 설비가 상대의 방해를 떨쳐 냈습니다! 이제야 공평한 싸움이 되겠군요!"
+
+#: src-en/data/events_sector_stargrove.xml:425
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"ENEMY_AUGMENT_EXPIRES_REACTOR\"]/text"
+msgstr "마침내 함선 설비가 상대의 방해를 떨쳐 냈습니다! 이제야 공평한 싸움이 되겠군요!"
+
+#: src-en/data/events_sector_stargrove.xml:449
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_ITEMS_TWIN_PULSARS\"]/text"
+msgstr "당신은 쌍둥이 펄서 근처의 송신소에 도착했습니다. 한 쌍의 천체로 인한 라그랑주 지점에 사로잡힌 고대의 망가진 크리스탈 전함이 보입니다. 하지만 펄서가 일으키는 파동이 충돌하면 함선의 내구도에 심각한 손상을 초래할 수 있습니다."
+
+#: src-en/data/events_sector_stargrove.xml:451
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_ITEMS_TWIN_PULSARS\"]/choice[@req=\"pilot\"]/text"
+msgstr "(고급 조타실) 파동을 피해서 함선을 운항한다."
+
+#: src-en/data/events_sector_stargrove.xml:453
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_ITEMS_TWIN_PULSARS\"]/choice[@req=\"pilot\"]/event/text"
+msgstr "다행히도 당신의 함선은 파동의 주기를 따라 아슬아슬하게 안전한 곳으로 운항할 수 있었습니다. 위험 지대를 피하면서 함선을 인양하는 작업은 쉽지 않았습니다만, 당신은 어떻게든 상당한 스크랩과 엘리트 크리스탈 무기까지 얻을 수 있었습니다!"
+
+#: src-en/data/events_sector_stargrove.xml:460
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_ITEMS_TWIN_PULSARS\"]/choice[@req=\"ION_ARMOR\"]/text"
+msgstr "(이온 저항) 이온 저항 성능을 믿고 진입한다."
+
+#: src-en/data/events_sector_stargrove.xml:462
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_ITEMS_TWIN_PULSARS\"]/choice[@req=\"ION_ARMOR\"]/event/text"
+msgstr "약간 좀 흔들리긴 했지만, 이온 저항 덕분에 대부분의 위험 지대를 피해 없이 돌파하는 데 성공했습니다. 당신은 상당한 양의 스크랩과 엘리트 크리스탈 무기까지 얻을 수 있었습니다!"
+
+#: src-en/data/events_sector_stargrove.xml:469
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_ITEMS_TWIN_PULSARS\"]/choice[3]/text"
+msgstr "용감하게 들어간다."
+
+#: src-en/data/events_sector_stargrove.xml:471
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_ITEMS_TWIN_PULSARS\"]/choice[3]/event/text"
+msgstr "함선이 격렬한 이온 파동에 계속해서 휩쓸렸습니다. 파동은 선체를 타고 진동하며, 상당한 피해를 입혔습니다. 그래도 잔해에서 상당한 양의 스크랩과 엘리트 크리스탈 무기까지 얻을 수 있었습니다!"
+
+#: src-en/data/events_sector_stargrove.xml:479
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_ITEMS_TWIN_PULSARS\"]/choice[4]/text"
+msgstr "쌍둥이 펄서를 최대한 피한다."
+
+#: src-en/data/events_sector_stargrove.xml:489
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_ITEMS_SUN_JUNK\"]/text"
+msgstr "여기에는 대규모의 전해 더미가 근처 항성을 따라 공전하고 있습니다. 자연적인 암석과 인공적인 강철 합금이 같이 있는 것으로 보건대, 어떤 구조물이 커다란 소행성과 충돌한 것 같습니다. 저 멀리엔 가스 행성이 같은 항성 궤도를 따라 돌고 있습니다."
+
+#: src-en/data/events_sector_stargrove.xml:491
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_ITEMS_SUN_JUNK\"]/choice[@req=\"DRONE_CONTROL_DEFENSE\"]/text"
+msgstr "(방어 드론) 잔해를 수거하는 동안 방어 드론으로 선체를 방어한다. [-1|]"
+
+#: src-en/data/events_sector_stargrove.xml:496
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_ITEMS_SUN_JUNK\"]/choice[@req=\"DRONE_CONTROL_DEFENSE\"]/event/text"
+msgstr "당신은 조심스레 접근한 후, 방어 드론을 이용해 함선에 접근하는 파편을 막았습니다. 잔해에는 소속을 알 수 있는 표식 같은 것도 없었으나, 합금의 구성을 보건대 인간의 것으로 추정됩니다. 하지만 그 이상의 정보는 알 수 가 없기에, 스크랩을 챙겨서 떠나기로 했습니다."
+
+#: src-en/data/events_sector_stargrove.xml:501
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_ITEMS_SUN_JUNK\"]/choice[@req=\"ROCK_ARMOR\"]/text"
+msgstr "(암석 장갑) 잔해를 수거하는 동안 장갑으로 선첼르 보호한다."
+
+#: src-en/data/events_sector_stargrove.xml:504
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_ITEMS_SUN_JUNK\"]/choice[@req=\"ROCK_ARMOR\"]/event/text"
+msgstr ""
+"잔해 지대에 가까지 가자마자, 파편들이 함선을 휩쓸고 지나갔습니다.\n"
+"\t\t\t\t다행히도 장갑이 선체를 보호해 주었습니다. 잔해에는 소속을 알 수 있는 표식 같은 것도 없었으나, 합금의 구성을 보건대 인간의 것으로 추정됩니다. 하지만 그 이상의 정보는 알 수 가 없기에, 스크랩을 챙겨서 떠나기로 했습니다."
+
+#: src-en/data/events_sector_stargrove.xml:511
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_ITEMS_SUN_JUNK\"]/choice[3]/text"
+msgstr "잔해 더미로 진입한다."
+
+#: src-en/data/events_sector_stargrove.xml:514
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_ITEMS_SUN_JUNK\"]/choice[3]/event/text"
+msgstr "당신은 항성과 잔해 지대를 용감하게 돌파하기로 했습니다. 양쪽 모두에서 선체에 상당한 피해를 입혔습니다. 잔해에는 소속을 알 수 있는 표식 같은 것도 없었으나, 합금의 구성을 보건대 인간의 것으로 추정됩니다. 하지만 그 이상의 정보는 알 수 가 없기에, 스크랩을 챙겨서 떠나기로 했습니다."
+
+#: src-en/data/events_sector_stargrove.xml:522
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_ITEMS_SUN_JUNK\"]/choice[4]/text"
+msgstr "가스 행성을 엄폐물 삼아 소행성 지대를 피한다."
+
+#: src-en/data/events_sector_stargrove.xml:524
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_ITEMS_SUN_JUNK\"]/choice[4]/event/text"
+msgstr "가스 행성은 안정적인 피난처를 제공했습니다. 이제 함선에서 무언가를 할 수 있습니다."
+
+#: src-en/data/events_sector_stargrove.xml:526
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_ITEMS_SUN_JUNK\"]/choice[4]/event/choice[1]/text"
+msgstr "함선에서 무언가를 한다."
+
+#: src-en/data/events_sector_stargrove.xml:530
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_ITEMS_SUN_JUNK\"]/choice[4]/event/choice[2]/text"
+msgstr "아무것도 하지 않는다."
+
+#: src-en/data/events_sector_stargrove.xml:542
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_PULSAR_RUIN\"]/beaconType/unvisitedTooltip"
+msgstr "폐허가 위치한 송신소입니다."
+
+#: src-en/data/events_sector_stargrove.xml:543
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_PULSAR_RUIN\"]/beaconType/visitedTooltip"
+msgstr "이미 방문한 송신소입니다. 더 이상 흥미로운 것은 없습니다."
+
+#: src-en/data/events_sector_stargrove.xml:545
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_PULSAR_RUIN\"]/text"
+msgstr "이곳 펄서의 낮은 궤도에, 두터운 소행성 지대에 둘러싸인 거대한 정육면체 구조물들의 집합체가 보입니다. 구조물들을 회수해 볼 수도 있겠지만, 펄서 때문에 극도로 취약한 상태가 될 테니 주의해야 합니다."
+
+#: src-en/data/events_sector_stargrove.xml:551
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_PULSAR_RUIN\"]/choice[1]/text"
+msgstr "소행성 지대에 진입한다."
+
+#: src-en/data/events_sector_stargrove.xml:554
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_RUINS_ASTEROID_ENTER\"]/text"
+msgstr "가까이 다가가자 폐허 속 작은 함선이 눈에 띕니다. 전력 방출량은 미미하지만, 분명히 아직 작동 중입니다."
+
+#: src-en/data/events_sector_stargrove.xml:557
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_RUINS_ASTEROID_ENTER\"]/choice[1]/text"
+msgstr "계속해서 접근한다."
+
+#: src-en/data/events_sector_stargrove.xml:559
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_RUINS_ASTEROID_ENTER\"]/choice[1]/event/text"
+msgstr "구조물이 가까워지자, 함선이 활성화되며 무기를 덥히기 시작했습니다! 더 탐사하려면 이 함선을 먼저 처리해야 합니다."
+
+#: src-en/data/events_sector_stargrove.xml:562
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_RUINS_ASTEROID_ENTER\"]/choice[1]/event/choice/text"
+msgstr "계속..."
+
+#: src-en/data/events_sector_stargrove.xml:568
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_RUINS_ASTEROID_ENTER\"]/choice[2]/text"
+msgstr "떠난다."
+
+#: src-en/data/events_sector_stargrove.xml:570
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_RUINS_ASTEROID_ENTER\"]/choice[2]/event/text"
+msgstr "펄서 궤도에 있는 소행성 지대를 항해하려는 시도만으도 굉장히 위험한데, 다른 함선을 자극해서는 좋지 않게 끝날 것이 분명합니다. 주위의 위험 요소들이 너무 큰 피해를 입히기 전에 도약할 수 있기를 바랍시다."
+
+#: src-en/data/events_sector_stargrove.xml:576
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_PULSAR_RUIN\"]/choice[2]/text"
+msgstr "떠난다."
+
+#: src-en/data/events_sector_stargrove.xml:582
+msgid ""
+"data/events_sector_stargrove.xml$//ship[@name=\"SHIP_ANCIENT_AUTO_STARGROVE\"]/destroyed/text"
+msgstr "함선을 파괴했습니다. 위협이 사라진 후, 당신은 폐허에서 작동하는 무기를 발견했습니다!"
+
+#: src-en/data/events_sector_stargrove.xml:593
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_FREE_SCRAP\"]/text"
+msgstr "도약을 마치고 딱 눈에 보이는 것은 별들뿐이었습니다. 그러다 파괴된 무인기를 추적해 냈지만, 내용물이라고는 스크랩과 미사일이 불탄 잔해가 대부분이었습니다. 그런데, 가까이 다가가면 폭발할 수도 있는 멀쩡한 폭발물이 주변에 널려 있습니다."
+
+#: src-en/data/events_sector_stargrove.xml:595
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_FREE_SCRAP\"]/choice[@req=\"SCRAP_COLLECTOR\"]/text"
+msgstr "(스크랩 회수 팔) 난파선을 조심스레 수거한다."
+
+#: src-en/data/events_sector_stargrove.xml:598
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_FREE_SCRAP\"]/choice[@req=\"SCRAP_COLLECTOR\"]/event/text"
+msgstr "스크랩 회수 팔을 이용해 잔해를 수거하자 폭발물은 위협이 되지 않습니다."
+
+#: src-en/data/events_sector_stargrove.xml:603
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_FREE_SCRAP\"]/choice[@req=\"MAGNET_ARM\"]/text"
+msgstr "(자석 팔) 난파선을 조심스레 수거한다."
+
+#: src-en/data/events_sector_stargrove.xml:606
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_FREE_SCRAP\"]/choice[@req=\"MAGNET_ARM\"]/event/text"
+msgstr "자석 팔을 사용해 잔해를 수거하자 폭발물은 위협이 되지 않습니다."
+
+#: src-en/data/events_sector_stargrove.xml:611
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_FREE_SCRAP\"]/choice[3]/text"
+msgstr "폭발물을 터뜨릴 위험을 감수한다."
+
+#: src-en/data/events_sector_stargrove.xml:614
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_FREE_SCRAP\"]/choice[3]/event/text"
+msgstr "당신이 무인기를 수거하기 위해 다가갔고, 폭발물을 피할 수 없었습니다. 폭발물의 움직임을 보니 반군의 함정이었을 수도 있습니다. 그래도 수거할 스크랩은 충분합니다."
+
+#: src-en/data/events_sector_stargrove.xml:620
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_FREE_SCRAP\"]/choice[4]/text"
+msgstr "떠난다."
+
+#: src-en/data/events_sector_stargrove.xml:642
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_THEOCRACY_RECOVERY\"]/text"
+msgstr "성운 깊숙한 곳에서 락맨 신정 선박이 마치 무언가를 찾는 듯 구름 속을 샅샅이 뒤지고 있습니다. 당신의 기척에도 반응하지 않습니다. 그들의 임무에 몰두하고 있는 것이 분명합니다."
+
+#: src-en/data/events_sector_stargrove.xml:650
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_THEOCRACY_RECOVERY\"]/choice[1]/text"
+msgstr "도와주겠다고 한다."
+
+#: src-en/data/events_sector_stargrove.xml:652
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_THEOCRACY_RECOVERY\"]/choice[1]/event/text"
+msgstr "귀찮아 보이는 락맨이 당신의 제안에 응답합니다. \"당신들 같이 믿을 수 없는 자들에게 기댈 여유는 없소, 연방. 사라진 동료들을 찾아야 하오. 그들의 함선이 파괴되기 전에 말이오.\""
+
+#: src-en/data/events_sector_stargrove.xml:654
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_THEOCRACY_RECOVERY\"]/choice[1]/event/choice[@req=\"sensors\""
+" and not(@lvl)]/text"
+msgstr "센서가 설치되어있지 않아 도움을 줄 수 없습니다."
+
+#: src-en/data/events_sector_stargrove.xml:658
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_THEOCRACY_RECOVERY\"]/choice[1]/event/choice[@req=\"sensors\""
+" and @lvl=\"1\"]/text"
+msgstr "(기본 센서) 센서를 사용해 수색을 돕는다."
+
+#: src-en/data/events_sector_stargrove.xml:660
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_THEOCRACY_RECOVERY\"]/choice[1]/event/choice[@req=\"sensors\""
+" and @lvl=\"1\"]/event/text"
+msgstr "당신의 센서는 지금 같은 상황에서는 무용지물이었고, 락맨들은 당신의 시도를 모욕으로 받아들였습니다. 그들이 덤벼듭니다!"
+
+#: src-en/data/events_sector_stargrove.xml:663
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_THEOCRACY_RECOVERY\"]/choice[1]/event/choice[@req=\"sensors\""
+" and @lvl=\"1\"]/event/choice/text"
+msgstr "계속..."
+
+#: src-en/data/events_sector_stargrove.xml:669
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_THEOCRACY_RECOVERY\"]/choice[1]/event/choice[@req=\"sensors\""
+" and @lvl=\"2\"]/text"
+msgstr "(고급 센서) 센서를 사용해 수색을 돕는다."
+
+#: src-en/data/events_sector_stargrove.xml:671
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_THEOCRACY_RECOVERY\"]/choice[1]/event/choice[@req=\"sensors\""
+" and @lvl=\"2\"]/event/text"
+msgstr "당신의 센서 덕분에 수색이 훨씬 순조롭게 진행됐습니다. 어느 정도 시간이 지난 후, 마침내 당신은 락맨들을 잃어버린 동료들 곁으로 인도했습니다. \"배회자여, 당신은... 도움이 되지 않는 것은 아니었소. 우리의 비축량을 기꺼이 나눠주겠소.\" 그들이 당신에게 보상을 전달합니다."
+
+#: src-en/data/events_sector_stargrove.xml:676
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_THEOCRACY_RECOVERY\"]/choice[1]/event/choice[@req=\"sensors\""
+" and @lvl=\"3\"]/text"
+msgstr "(최고급 센서) 센서를 사용해 수색을 돕는다."
+
+#: src-en/data/events_sector_stargrove.xml:680
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_THEOCRACY_RECOVERY\"]/choice[1]/event/choice[@req=\"ADV_SCANNERS\"]/text"
+msgstr "(장거리 탐사용 스캐너) 스캐너를 사용해 수색을 돕는다."
+
+#: src-en/data/events_sector_stargrove.xml:684
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_THEOCRACY_RECOVERY\"]/choice[1]/event/choice[6]/text"
+msgstr "그들의 불신에 폭력으로 대응한다."
+
+#: src-en/data/events_sector_stargrove.xml:686
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_THEOCRACY_RECOVERY\"]/choice[1]/event/choice[6]/event/text"
+msgstr "락맨들도 똑같이 보복합니다. \"바라는 대로. 만약 우리의 동료들이 죽는다면, 이는 당신네 연방의 명령으로 더 많은 죽음이 일어나는 것이외다!\""
+
+#: src-en/data/events_sector_stargrove.xml:689
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_THEOCRACY_RECOVERY\"]/choice[1]/event/choice[6]/event/choice/text"
+msgstr "계속..."
+
+#: src-en/data/events_sector_stargrove.xml:695
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_THEOCRACY_RECOVERY\"]/choice[1]/event/choice[7]/text"
+msgstr "통신을 끊고 계속 이동한다."
+
+#: src-en/data/events_sector_stargrove.xml:701
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_THEOCRACY_RECOVERY\"]/choice[2]/text"
+msgstr "락맨을 공격한다."
+
+#: src-en/data/events_sector_stargrove.xml:703
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_THEOCRACY_RECOVERY\"]/choice[2]/event/text"
+msgstr "락맨들은 곧바로 자기방어를 시작합니다. \"어리석은 연방이여! 여기선 우리가 유리하오!\""
+
+#: src-en/data/events_sector_stargrove.xml:706
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_THEOCRACY_RECOVERY\"]/choice[2]/event/choice/text"
+msgstr "계속..."
+
+#: src-en/data/events_sector_stargrove.xml:712
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_THEOCRACY_RECOVERY\"]/choice[3]/text"
+msgstr "락맨 함선을 피하고 생존에 집중한다."
+
+#: src-en/data/events_sector_stargrove.xml:719
+msgid ""
+"data/events_sector_stargrove.xml$//ship[@name=\"SHIP_ROCK_STARGROVE\"]/surrender/text"
+msgstr "\"됐소! 우리는 그저 임무를 성공시키고 싶을 뿐이오. 우리를 내버려두면 합당히 보답하겠소.\""
+
+#: src-en/data/events_sector_stargrove.xml:721
+msgid ""
+"data/events_sector_stargrove.xml$//ship[@name=\"SHIP_ROCK_STARGROVE\"]/surrender/choice[1]/text"
+msgstr "항복을 받아들인다."
+
+#: src-en/data/events_sector_stargrove.xml:733
+msgid ""
+"data/events_sector_stargrove.xml$//ship[@name=\"SHIP_ROCK_STARGROVE\"]/destroyed/choice[1]/text"
+msgstr "계속..."
+
+#: src-en/data/events_sector_stargrove.xml:737
+msgid ""
+"data/events_sector_stargrove.xml$//ship[@name=\"SHIP_ROCK_STARGROVE\"]/destroyed/choice[@req=\"sensors\"]/text"
+msgstr "(최고급 센서) 실종된 함선을 계속 찾는다."
+
+#: src-en/data/events_sector_stargrove.xml:741
+msgid ""
+"data/events_sector_stargrove.xml$//ship[@name=\"SHIP_ROCK_STARGROVE\"]/destroyed/choice[@req=\"ADV_SCANNERS\"]/text"
+msgstr "(장거리 탐사용 스캐너) 실종된 함선을 계속 찾는다."
+
+#: src-en/data/events_sector_stargrove.xml:749
+msgid ""
+"data/events_sector_stargrove.xml$//ship[@name=\"SHIP_ROCK_STARGROVE\"]/deadCrew/choice[1]/text"
+msgstr "계속..."
+
+#: src-en/data/events_sector_stargrove.xml:753
+msgid ""
+"data/events_sector_stargrove.xml$//ship[@name=\"SHIP_ROCK_STARGROVE\"]/deadCrew/choice[@req=\"sensors\"]/text"
+msgstr "(최고급 센서) 실종된 함선을 계속 찾는다."
+
+#: src-en/data/events_sector_stargrove.xml:757
+msgid ""
+"data/events_sector_stargrove.xml$//ship[@name=\"SHIP_ROCK_STARGROVE\"]/deadCrew/choice[@req=\"ADV_SCANNERS\"]/text"
+msgstr "(장거리 탐사용 스캐너) 실종된 함선을 계속 찾는다."
+
+#: src-en/data/events_sector_stargrove.xml:767
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_THEOCRACY_HELP\"]/text"
+msgstr "당신의 함선은 몇 초 만에 실종된 함선을 찾아냈습니다. 락맨들은 깜짝 놀랐습니다. \"우리가 성급하게 판단했소. 당신들 덕분에 이제 모두 안전하오. 이걸 받으시오. 앞으로의 여정이 순탄하길 빌겠소.\""
+
+#: src-en/data/events_sector_stargrove.xml:772
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_THEOCRACY_SCAVENGE\"]/text"
+msgstr "당신은 짧은 수색 끝에 기능을 멈춘 실종된 락맨 함선을 찾았습니다. 락맨들은 간신히 살아있고 말도 잘 못합니다. 다행히 그들은 당신에게 전혀 대항할 수 없는 상태였고, 당신은 그들의 스크랩을 모두 챙길 수 있었습니다."
+
+#: src-en/data/events_sector_stargrove.xml:778
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_STARGROVE_LOSTREBEL\"]/text"
+msgstr "아무 의식 없이 반군 함선과 충돌할 뻔하다가 근접 경보가 당신을 멈춰 세웠습니다. 당신에게 발각된 순간, 반군 함선에서 조용히 FTL 드라이브가 충전되기 시작합니다."
+
+#: src-en/data/events_sector_stargrove.xml:782
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_STARGROVE_LOSTREBEL\"]/choice[1]/text"
+msgstr "함선과 교신한다."
+
+#: src-en/data/events_sector_stargrove.xml:784
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_STARGROVE_LOSTREBEL\"]/choice[1]/event/text"
+msgstr "\"이런, 젠장. 보시다시피, 항복하겠습니다. 처음에는 분명 연방과 몇 년 싸우려고 계약했었는데, 지금은 우리가 찾을 수 있는 모든 다중우주에서 총을 들 수 있는 모든 종족과 10년 넘게 싸우고 있습니다. 여기서 더 싸울 필요는 없습니다. 우리 서로 보지 못한 거로 치면 안 되겠습니까?\""
+
+#: src-en/data/events_sector_stargrove.xml:786
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_STARGROVE_LOSTREBEL\"]/choice[1]/event/choice[1]/text"
+msgstr "동의한다."
+
+#: src-en/data/events_sector_stargrove.xml:788
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_STARGROVE_LOSTREBEL\"]/choice[1]/event/choice[1]/event/text"
+msgstr "반군 함선은 항복을 고하며, 소리 없이 폭풍 속으로 사라집니다."
+
+#: src-en/data/events_sector_stargrove.xml:793
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_STARGROVE_LOSTREBEL\"]/choice[1]/event/choice[2]/text"
+msgstr "왜 여기 숨어있는지 물어본다."
+
+#: src-en/data/events_sector_stargrove.xml:795
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_STARGROVE_LOSTREBEL\"]/choice[1]/event/choice[2]/event/text"
+msgstr "\"우리 상관들은 이 외딴곳에서 사라진 함선 한 척 찾는 데 아무 관심이 없습니다. 이곳이 지옥 같을지는 몰라도, 적어도 우리를 인간적으로 싫어하진 않고, 다시는 다른 반군을 볼 일도 없을 테니 말이죠.\""
+
+#: src-en/data/events_sector_stargrove.xml:797
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_STARGROVE_LOSTREBEL\"]/choice[1]/event/choice[2]/event/choice[1]/text"
+msgstr "곧 반군 함대가 올 겁니다."
+
+#: src-en/data/events_sector_stargrove.xml:799
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_STARGROVE_LOSTREBEL\"]/choice[1]/event/choice[2]/event/choice[1]/event/text"
+msgstr "당신이 상황을 설명하자, 탈영병의 얼굴에 있던 희미한 기쁨이 사라집니다. \"젠장, 어디도 안전하지 않다는 걸 알아야 했는데. 여기, 소정의 보답입니다. 짐이 가벼워졌으니 함대를 따돌릴 수 있겠죠.\""
+
+#: src-en/data/events_sector_stargrove.xml:807
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_STARGROVE_LOSTREBEL\"]/choice[1]/event/choice[2]/event/choice[2]/text"
+msgstr "탈영병들을 내버려둔다."
+
+#: src-en/data/events_sector_stargrove.xml:809
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_STARGROVE_LOSTREBEL\"]/choice[1]/event/choice[2]/event/choice[2]/event/text"
+msgstr "\"벌써 떠나십니까? 아쉽네요. 요 근방에서는 새로운 사람과 이야기할 기회가 많지 않거든요. 여기, 가는 길에 도움이 될 만한 약간의 연료입니다. 저희는 여기서 꽤 오래 머무를 예정이니, 이 전쟁이 끝나면 언제든지 들러주세요.\""
+
+#: src-en/data/events_sector_stargrove.xml:816
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_STARGROVE_LOSTREBEL\"]/choice[1]/event/choice[2]/event/choice[3]/text"
+msgstr "공격한다."
+
+#: src-en/data/events_sector_stargrove.xml:818
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_STARGROVE_LOSTREBEL\"]/choice[1]/event/choice[2]/event/choice[3]/event/text"
+msgstr "이곳에서 그들이 탈영했는지 아닌지는 중요하지 않습니다. 그들의 함선에서 얻을 수 있는 스크랩이 더 중요하기에, 당신은 그것을 차지할 것입니다."
+
+#: src-en/data/events_sector_stargrove.xml:821
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_STARGROVE_LOSTREBEL\"]/choice[1]/event/choice[2]/event/choice[3]/event/choice/text"
+msgstr "계속..."
+
+#: src-en/data/events_sector_stargrove.xml:829
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_STARGROVE_LOSTREBEL\"]/choice[1]/event/choice[3]/text"
+msgstr "공격한다."
+
+#: src-en/data/events_sector_stargrove.xml:831
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_STARGROVE_LOSTREBEL\"]/choice[1]/event/choice[3]/event/text"
+msgstr "이 반군들은 연방과 싸우겠다고 계약했습니다. 이제 그들이 약속했던 것을 이행시켜 줍시다. 당신이 무기를 충전하는 것을 본 반군 함장은 통신을 끊고 똑같이 대응합니다."
+
+#: src-en/data/events_sector_stargrove.xml:834
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_STARGROVE_LOSTREBEL\"]/choice[1]/event/choice[3]/event/choice/text"
+msgstr "계속..."
+
+#: src-en/data/events_sector_stargrove.xml:842
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_STARGROVE_LOSTREBEL\"]/choice[2]/text"
+msgstr "공격하라!"
+
+#: src-en/data/events_sector_stargrove.xml:844
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_STARGROVE_LOSTREBEL\"]/choice[2]/event/text"
+msgstr "당신이 무기를 충전하기 시작하자 반군도 똑같이 대응합니다. 그들의 엔진이 아직 충전 중이니, 빠르게 끝내야 할 것 같습니다!"
+
+#: src-en/data/events_sector_stargrove.xml:847
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_STARGROVE_LOSTREBEL\"]/choice[2]/event/choice/text"
+msgstr "계속..."
+
+#: src-en/data/events_sector_stargrove.xml:853
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_STARGROVE_LOSTREBEL\"]/choice[3]/text"
+msgstr "함선을 무시한다."
+
+#: src-en/data/events_sector_stargrove.xml:855
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_STARGROVE_LOSTREBEL\"]/choice[3]/event/text"
+msgstr "더 이상의 사건은 없었고, 반군 함선은 도약 준비를 마치고 사라졌습니다. 이제 당신이 떠날 차례입니다."
+
+#: src-en/data/events_sector_stargrove.xml:869
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_CRUSADER_MADROCK\"]/text"
+msgstr "당신은 거의 버려진 송신소에 도착했습니다. 근처에 있는 것은 거대한 별과 강력한 이단 심문선 한 척뿐입니다. 심문관들은 무언가에 너무 몰두해서 당신의 접근을 신경 쓸 겨를이 없어 보입니다."
+
+#: src-en/data/events_sector_stargrove.xml:876
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_CRUSADER_MADROCK\"]/choice[1]/text"
+msgstr "어째서 이곳에 있는지 물어본다."
+
+#: src-en/data/events_sector_stargrove.xml:878
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_CRUSADER_MADROCK\"]/choice[1]/event/text"
+msgstr ""
+"크루세이더가 답변합니다. \"우리는 스톤월 장로님의 명령으로 이곳에 왔소. 현재 '매드락'이라는 별칭으로 불리는 번역자를 체포하기 위해 말이오. 그는 한때 장로를 따르는 다른 이들처럼 명예롭고 고결했지만, 어느 날 우리의 신성한 가르침을 배반하고 이 황무지로 숨어들었소. 내각에 있는 우리의 친구들은 평소 이곳에 머무르는 것을 금기시하오만, 매드락의 악행이 심각한 관계로 그를 찾는 것을 허락하고 이 임무에 협조하기로 했소. 이제 설명 다 했으니 그만 떠나시오. 매드락을 찾는 데 도움을 줄 것이 아니면 말이오.\"\n"
+"\n"
+"그들이 통신을 끊은 직후, 멀리 떨어진 작은 왕복선에서 당신에게 통신을 보냅니다. 위험할 정도로 별에 가까이 있습니다. \"이보시오 당신. 당신은 신정과 사이가 좋지 않다는 느낌이 드는구려. 짐작건대 연방 소속 배회자겠지. 신정이 나를 죽이려고 하는데, 나를 제거하기 위해 극단적인 수까지 동원하고 있소. 당신이 저들을 처리한다면, 그만한 가치가 있는 걸 드리겠소.\""
+
+#: src-en/data/events_sector_stargrove.xml:882
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_CRUSADER_MADROCK\"]/choice[1]/event/choice[1]/text"
+msgstr "크루세이더와 교전한다."
+
+#: src-en/data/events_sector_stargrove.xml:884
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_CRUSADER_MADROCK\"]/choice[1]/event/choice[1]/event/text"
+msgstr "락맨 범죄자라는 자의 요구를 따라야 할지는 확실하지 않지만, 한 가지는 분명합니다. 락맨 장로들은 연방에 비우호적입니다. 당신은 크루세이더를 물리칠 준비를 했고, 그들도 당신의 공격에 맞서 응사합니다."
+
+#: src-en/data/events_sector_stargrove.xml:887
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_CRUSADER_MADROCK\"]/choice[1]/event/choice[1]/event/choice/text"
+msgstr "계속..."
+
+#: src-en/data/events_sector_stargrove.xml:893
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_CRUSADER_MADROCK\"]/choice[1]/event/choice[2]/text"
+msgstr "크루세이더들에게 당신이 받은 메시지를 공유한다."
+
+#: src-en/data/events_sector_stargrove.xml:895
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_CRUSADER_MADROCK\"]/choice[1]/event/choice[2]/event/text"
+msgstr "당신은 이단 심문선에 방금 받은 메시지의 내용, 출처, 심지어 당신이 요구받은 것까지 빠짐없이 자세하게 설명했습니다. 그들은 당신에게 감사하며 그들이 받은 현상금 일부를 건네주었고, 곧이어 무력해진 매드락을 잡기 위해 출발했습니다."
+
+#: src-en/data/events_sector_stargrove.xml:902
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_CRUSADER_MADROCK\"]/choice[2]/text"
+msgstr "이 일에 관여하지 않는다."
+
+#: src-en/data/events_sector_stargrove.xml:904
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_CRUSADER_MADROCK\"]/choice[2]/event/text"
+msgstr "개별적으로 따졌을 때 태양풍과 크루세이더는 모두 피하고 싶은 위험 요소입니다. 이 둘을 동시에 상대하는 것은 문제를 자초하는 일입니다. 당신은 최대한 빠르게 떠날 준비를 했습니다."
+
+#: src-en/data/events_sector_stargrove.xml:910
+msgid ""
+"data/events_sector_stargrove.xml$//ship[@name=\"SHIP_ROCK_MADROCK\"]/escape/text"
+msgstr "락맨이 도약할 준비를 합니다. 임무를 완수하는 것보다 자기 보신을 더 중요하게 여기는 듯합니다."
+
+#: src-en/data/events_sector_stargrove.xml:913
+msgid ""
+"data/events_sector_stargrove.xml$//ship[@name=\"SHIP_ROCK_MADROCK\"]/gotaway/text"
+msgstr "크루세이더가 도약하고, 매드락의 왕복선만이 남았습니다."
+
+#: src-en/data/events_sector_stargrove.xml:915
+msgid ""
+"data/events_sector_stargrove.xml$//ship[@name=\"SHIP_ROCK_MADROCK\"]/gotaway/choice/text"
+msgstr "계속..."
+
+#: src-en/data/events_sector_stargrove.xml:920
+msgid ""
+"data/events_sector_stargrove.xml$//ship[@name=\"SHIP_ROCK_MADROCK\"]/destroyed/text"
+msgstr "이단 심문선을 격파한 것은 결코 가벼운 일이 아닙니다. 특히 이런 위험 상황 속에서는 말입니다. 당신은 그들의 함선을 고철로 만들고 매드락의 왕복선으로 향합니다."
+
+#: src-en/data/events_sector_stargrove.xml:923
+msgid ""
+"data/events_sector_stargrove.xml$//ship[@name=\"SHIP_ROCK_MADROCK\"]/destroyed/choice/text"
+msgstr "계속..."
+
+#: src-en/data/events_sector_stargrove.xml:928
+msgid ""
+"data/events_sector_stargrove.xml$//ship[@name=\"SHIP_ROCK_MADROCK\"]/deadCrew/text"
+msgstr "이단 심문선을 격파한 것은 결코 가벼운 일이 아닙니다. 특히 이런 위험 상황 속에서는 말입니다. 당신은 그들의 함선을 고철로 만들고 매드락의 왕복선으로 향합니다."
+
+#: src-en/data/events_sector_stargrove.xml:931
+msgid ""
+"data/events_sector_stargrove.xml$//ship[@name=\"SHIP_ROCK_MADROCK\"]/deadCrew/choice/text"
+msgstr "계속..."
+
+#: src-en/data/events_sector_stargrove.xml:946
+msgid ""
+"data/events_sector_stargrove.xml$//eventList[@name=\"CRUSADER_MADROCK_WIN\"]/event[1]/text"
+msgstr "다행히, 매드락의 왕복선은 여전히 양호한 상태인 것 같습니다. 당신은 재빨리 착륙하여 그를 구조했습니다. 매드락은 얼마 안 되는 가치지만 당신이 자신의 왕복선을 수거하는 것에 만족합니다."
+
+#: src-en/data/events_sector_stargrove.xml:949
+msgid ""
+"data/events_sector_stargrove.xml$//eventList[@name=\"CRUSADER_MADROCK_WIN\"]/event[1]/choice/text"
+msgstr "계속..."
+
+#: src-en/data/events_sector_stargrove.xml:954
+msgid ""
+"data/events_sector_stargrove.xml$//eventList[@name=\"CRUSADER_MADROCK_WIN\"]/event[2]/text"
+msgstr "처음에는 매드락의 왕복선을 찾을 수 없었지만, 이내 근처의 별을 향해 곤두박질치는 왕복선을 발견했습니다. 아무래도 당신의 전투 도중 유난히 강력한 태양풍에 엔진이 노출됐던 모양입니다. 빨리 움직이면 그를 구할 수 있겠지만, 위험을 감수해야 합니다."
+
+#: src-en/data/events_sector_stargrove.xml:956
+msgid ""
+"data/events_sector_stargrove.xml$//eventList[@name=\"CRUSADER_MADROCK_WIN\"]/event[2]/choice[1]/text"
+msgstr "그를 구하려고 시도한다."
+
+#: src-en/data/events_sector_stargrove.xml:958
+msgid ""
+"data/events_sector_stargrove.xml$//eventList[@name=\"CRUSADER_MADROCK_WIN\"]/event[2]/choice[1]/event/text"
+msgstr "당신은 매드락의 왕복선을 향해 전속력으로 기동했습니다. 아슬아슬하게 그를 구출하는 데 성공했지만, 떠나려는 순간 태양풍에 직격하여 함내가 상당히 시끄러워졌습니다. 왕복선은 나중에 좋은 고철이 될 겁니다."
+
+#: src-en/data/events_sector_stargrove.xml:964
+msgid ""
+"data/events_sector_stargrove.xml$//eventList[@name=\"CRUSADER_MADROCK_WIN\"]/event[2]/choice[1]/event/choice/text"
+msgstr "계속..."
+
+#: src-en/data/events_sector_stargrove.xml:970
+msgid ""
+"data/events_sector_stargrove.xml$//eventList[@name=\"CRUSADER_MADROCK_WIN\"]/event[2]/choice[@req=\"shields\"]/text"
+msgstr "(최고급 방어막 제어실) 당신의 방어막은 태양풍으로부터 함선을 보호할 수 있을 겁니다... 거의 말이죠."
+
+#: src-en/data/events_sector_stargrove.xml:972
+msgid ""
+"data/events_sector_stargrove.xml$//eventList[@name=\"CRUSADER_MADROCK_WIN\"]/event[2]/choice[@req=\"shields\"]/event/text"
+msgstr "당신은 매드락의 왕복선을 향해 전속력으로 기동했습니다. 아슬아슬하게 그를 구출하는 데 성공했지만, 떠나려는 순간 태양풍에 직격했습니다. 방어막이 충격을 일부 흡수했음에도 불구하고, 함선에 흔적이 남았습니다. 매드락이 탑승하자마자 당신은 그의 왕복선에서 쓸만한 것을 회수합니다."
+
+#: src-en/data/events_sector_stargrove.xml:977
+msgid ""
+"data/events_sector_stargrove.xml$//eventList[@name=\"CRUSADER_MADROCK_WIN\"]/event[2]/choice[@req=\"shields\"]/event/choice/text"
+msgstr "계속..."
+
+#: src-en/data/events_sector_stargrove.xml:983
+msgid ""
+"data/events_sector_stargrove.xml$//eventList[@name=\"CRUSADER_MADROCK_WIN\"]/event[2]/choice[@req=\"engines\"]/text"
+msgstr "(최고급 엔진실) 신속하게 움직여 그를 구한다."
+
+#: src-en/data/events_sector_stargrove.xml:985
+msgid ""
+"data/events_sector_stargrove.xml$//eventList[@name=\"CRUSADER_MADROCK_WIN\"]/event[2]/choice[@req=\"engines\"]/event/text"
+msgstr "강력한 엔진의 힘으로 별을 향해 손쉽게 날아가 매드락의 왕복선을 회수한 뒤, 태양풍이 함선에 닿기 전에 벗어났습니다. 매드락이 탑승하자마자 당신은 그의 왕복선에서 쓸만한 것을 회수합니다."
+
+#: src-en/data/events_sector_stargrove.xml:988
+msgid ""
+"data/events_sector_stargrove.xml$//eventList[@name=\"CRUSADER_MADROCK_WIN\"]/event[2]/choice[@req=\"engines\"]/event/choice/text"
+msgstr "계속..."
+
+#: src-en/data/events_sector_stargrove.xml:994
+msgid ""
+"data/events_sector_stargrove.xml$//eventList[@name=\"CRUSADER_MADROCK_WIN\"]/event[2]/choice[@req=\"teleporter\"]/text"
+msgstr "(텔레포터) 매드락을 함선으로 순간이동시킨다."
+
+#: src-en/data/events_sector_stargrove.xml:996
+msgid ""
+"data/events_sector_stargrove.xml$//eventList[@name=\"CRUSADER_MADROCK_WIN\"]/event[2]/choice[@req=\"teleporter\"]/event/text"
+msgstr "성운이 그의 생체 신호를 포착하기 어렵게 만들었지만, 다행히 어떻게든 텔레포터를 겨냥하고 너무 늦기 전에 안전히 그를 구조했습니다."
+
+#: src-en/data/events_sector_stargrove.xml:998
+msgid ""
+"data/events_sector_stargrove.xml$//eventList[@name=\"CRUSADER_MADROCK_WIN\"]/event[2]/choice[@req=\"teleporter\"]/event/choice/text"
+msgstr "계속..."
+
+#: src-en/data/events_sector_stargrove.xml:1004
+msgid ""
+"data/events_sector_stargrove.xml$//eventList[@name=\"CRUSADER_MADROCK_WIN\"]/event[2]/choice[5]/text"
+msgstr "그는 운명에 맡기자. 구하기엔 너무 위험하다."
+
+#: src-en/data/events_sector_stargrove.xml:1010
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"CRUSADER_MADROCK_RECRUIT\"]/text"
+msgstr "당신은 매드락이 크루세이더가 묘사한 대로 위험한 망명자나 로스트선 특공대일 것이라 예상했지만, 놀랍게도 그는 크루세이더였습니다. 아니, 적어도 한때는 그랬죠. \"휴, 도와줘서 고맙소. 보통이라면 더 안전한 곳에 머물렀겠지만, 신정이 여기까지 나를 추격한다는 것을 알고 위험을 감수하지 않고선 그들을 피할 수 없다는 것을 깨달았소.\""
+
+#: src-en/data/events_sector_stargrove.xml:1012
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"CRUSADER_MADROCK_RECRUIT\"]/choice/text"
+msgstr "그래서 왜 이단 심문관이 당신을 쫓고 있던 겁니까?"
+
+#: src-en/data/events_sector_stargrove.xml:1014
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"CRUSADER_MADROCK_RECRUIT\"]/choice/event/text"
+msgstr "\"하! 이 이야기를 오랫동안 다른 이에게 해주고 싶었소. 얼마 전 나와 퇴역한 다른 크루세이더들을 스톤월이 직접 시찰하고 있었지. 그가 나에게 다가와 훈계하려던 바로 그 순간, 나는 스톤월의 고간을 걷어찼소! 아하하하, 눈빛이 정말 가관이었소! 뭐, 그 모습을 즐길 만큼 오래 있을 수는 없었지만, 그 한 방을 위해서라면 모든 것을 걸 수 있었소. 어쨌든, 당신은 날 살려준 데다가 스톤월과 그 허풍스러운 신정에 한방 먹이고 싶어 하는 사람으로 보이니, 당분간은 당신의 선원들과 함께 지낼까 하오.\""
+
+#: src-en/data/events_sector_stargrove.xml:1015
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"CRUSADER_MADROCK_RECRUIT\"]/choice/event/crewMember"
+msgstr "Madrock"
+
+#: src-en/data/events_sector_stargrove.xml:1027
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_LOSTSUN\"]/text"
+msgstr "기분 좋게 태양 빛을 쬐고 있는 로스트선 함선이 시야에 들어왔습니다. 로스트선 함장이 기뻐하며 낄낄거립니다. \"하하하! 이곳은 정말 경이롭군! 발에 채는 게 온통 거대한 불덩이로구먼!\" 그가 화면을 바로 보며 당신에게 손짓합니다. \"배회자여, 언젠가 내 동족들이 당신에게 별 근처에서 살아남으라는 도전을 제안했을지도 모르오. 나 역시 여기서 당신의 용기를 시험하고자 하오만, 어떻게 생각하오?\""
+
+#: src-en/data/events_sector_stargrove.xml:1030
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_LOSTSUN\"]/choice[@req=\"unique_ariadne\"]/text"
+msgstr "(아리아드네) \"게으름 피우지 마라!\""
+
+#: src-en/data/events_sector_stargrove.xml:1032
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_LOSTSUN\"]/choice[@req=\"unique_ariadne\"]/event/text"
+msgstr ""
+"아리아드네가 앞에 있는 격벽을 손으로 내려칩니다. \"황무지를 맘껏 돌아다니는 게 대체 우리 대의에 무슨 도움이 되지?! 10초 안에 네 임무를 정당화하지 못하면 직위를 박탈할 테다.\"\n"
+"\n"
+"\"제, 제독? 우린 그저 이 구역에 대한 신정의 활동을 주시하려 했을 뿐이오! 그들의 움직임에 대한 보고서를 즉시 전송하겠소. 그 외에 여기 있는 동안 미친 졸탄 수도승에 대해서도 조사했소. 그들은 우리가 본 어떤 것보다 뛰어난 무기를 가지고 있었소. 어떻게든 손에 넣어야 하오!\"\n"
+"\n"
+"로스트선은 보고서, 약간의 스크랩, 약간의 수리, 무기 하나로 제독의 의심을 풀었습니다."
+
+#: src-en/data/events_sector_stargrove.xml:1041
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_LOSTSUN\"]/choice[@req=\"unique_ariadne\"]/event/choice/text"
+msgstr "계속..."
+
+#: src-en/data/events_sector_stargrove.xml:1047
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_LOSTSUN\"]/choice[@req=\"rock_commando\"]/text"
+msgstr "(로스트선 특공대) 지원을 요청한다."
+
+#: src-en/data/events_sector_stargrove.xml:1049
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_LOSTSUN\"]/choice[@req=\"rock_commando\"]/event/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:1053
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_LOSTSUN\"]/choice[@req=\"rock_commando\"]/event/choice/text"
+msgstr "계속..."
+
+#: src-en/data/events_sector_stargrove.xml:1059
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_LOSTSUN\"]/choice[3]/text"
+msgstr "도전을 받아들인다."
+
+#: src-en/data/events_sector_stargrove.xml:1061
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_LOSTSUN\"]/choice[3]/event/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:1065
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_LOSTSUN\"]/choice[3]/event/triggeredEvent/triggeredEventBox/tooltip"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:1070
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_LOSTSUN\"]/choice[3]/event/choice/text"
+msgstr "계속..."
+
+#: src-en/data/events_sector_stargrove.xml:1076
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_LOSTSUN\"]/choice[4]/text"
+msgstr "그를 공격한다."
+
+#: src-en/data/events_sector_stargrove.xml:1078
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_LOSTSUN\"]/choice[4]/event/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:1081
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_LOSTSUN\"]/choice[4]/event/choice/text"
+msgstr "계속..."
+
+#: src-en/data/events_sector_stargrove.xml:1087
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_LOSTSUN\"]/choice[5]/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:1089
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_LOSTSUN\"]/choice[5]/event/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:1104
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_LOSTSUN_VICTORY\"]/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:1107
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_LOSTSUN_VICTORY\"]/choice[1]/text"
+msgstr "보상을 받는다."
+
+#: src-en/data/events_sector_stargrove.xml:1116
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_LOSTSUN_VICTORY\"]/choice[@req=\"rock_outcast\"]/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:1118
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_LOSTSUN_VICTORY\"]/choice[@req=\"rock_outcast\"]/event/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:1123
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_LOSTSUN_VICTORY\"]/choice[@req=\"rock_outcast\"]/event/choice/text"
+msgstr "계속..."
+
+#: src-en/data/events_sector_stargrove.xml:1130
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_LOSTSUN_ESCAPE\"]/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:1140
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_ENGI_SEPARATIST\"]/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:1143
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_ENGI_SEPARATIST\"]/choice[1]/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:1145
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_ENGI_SEPARATIST\"]/choice[1]/event/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:1147
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_ENGI_SEPARATIST\"]/choice[1]/event/choice[1]/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:1151
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_ENGI_SEPARATIST\"]/choice[1]/event/choice[2]/text"
+msgstr "연료를 요구하며 위협한다."
+
+#: src-en/data/events_sector_stargrove.xml:1155
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_ENGI_SEPARATIST\"]/choice[1]/event/choice[3]/text"
+msgstr "공격한다."
+
+#: src-en/data/events_sector_stargrove.xml:1159
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_ENGI_SEPARATIST\"]/choice[1]/event/choice[4]/text"
+msgstr "제안을 거절한다."
+
+#: src-en/data/events_sector_stargrove.xml:1161
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_ENGI_SEPARATIST\"]/choice[1]/event/choice[4]/event/text"
+msgstr "분리주의자는 통신을 끊고 더 이상 당신을 귀찮게 하지 않습니다."
+
+#: src-en/data/events_sector_stargrove.xml:1167
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_ENGI_SEPARATIST\"]/choice[2]/text"
+msgstr "드론 부품을 연료로 교환한다."
+
+#: src-en/data/events_sector_stargrove.xml:1171
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_ENGI_SEPARATIST\"]/choice[3]/text"
+msgstr "연료를 요구하며 위협한다."
+
+#: src-en/data/events_sector_stargrove.xml:1175
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_ENGI_SEPARATIST\"]/choice[4]/text"
+msgstr "공격한다."
+
+#: src-en/data/events_sector_stargrove.xml:1179
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_ENGI_SEPARATIST\"]/choice[5]/text"
+msgstr "제안을 거절한다."
+
+#: src-en/data/events_sector_stargrove.xml:1181
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_ENGI_SEPARATIST\"]/choice[5]/event/text"
+msgstr "분리주의자는 통신을 끊고 더 이상 당신을 귀찮게 하지 않습니다."
+
+#: src-en/data/events_sector_stargrove.xml:1187
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SEPARATIST_COLLECTOR_ATTACK\"]/text"
+msgstr "분리주의자가 즉시 통신을 끊고 자원 수집기를 보호하기 위해 움직입니다."
+
+#: src-en/data/events_sector_stargrove.xml:1190
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SEPARATIST_COLLECTOR_ATTACK\"]/choice/text"
+msgstr "계속..."
+
+#: src-en/data/events_sector_stargrove.xml:1195
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SEPARATIST_FUEL\"]/text"
+msgstr "\"이 비율은 -강탈-. 우리 수집 [과정]은 효율적이다!\""
+
+#: src-en/data/events_sector_stargrove.xml:1197
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SEPARATIST_FUEL\"]/choice[1]/text"
+msgstr "부품을 5개 판다."
+
+#: src-en/data/events_sector_stargrove.xml:1199
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SEPARATIST_FUEL\"]/choice[1]/event/text"
+msgstr "\"괜찮은 거래. 갈 길 -가라-.\""
+
+#: src-en/data/events_sector_stargrove.xml:1207
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SEPARATIST_FUEL\"]/choice[2]/text"
+msgstr "부품을 10개 판다."
+
+#: src-en/data/events_sector_stargrove.xml:1209
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SEPARATIST_FUEL\"]/choice[2]/event/text"
+msgstr "\"고맙다. 갈 길 -가라-.\""
+
+#: src-en/data/events_sector_stargrove.xml:1217
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SEPARATIST_FUEL\"]/choice[3]/text"
+msgstr "부품을 15개 판다."
+
+#: src-en/data/events_sector_stargrove.xml:1219
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SEPARATIST_FUEL\"]/choice[3]/event/text"
+msgstr "\"아주 만족한다. 갈 길 -가라-.\""
+
+#: src-en/data/events_sector_stargrove.xml:1227
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SEPARATIST_FUEL\"]/choice[4]/text"
+msgstr "아무것도 아니다."
+
+#: src-en/data/events_sector_stargrove.xml:1234
+msgid ""
+"data/events_sector_stargrove.xml$//eventList[@name=\"STARGROVE_SEPARATIST_THREATEN\"]/event[1]/text"
+msgstr "\"전투 불리. 이 -제안-을 받고 가라.\""
+
+#: src-en/data/events_sector_stargrove.xml:1236
+msgid ""
+"data/events_sector_stargrove.xml$//eventList[@name=\"STARGROVE_SEPARATIST_THREATEN\"]/event[1]/choice[1]/text"
+msgstr "승낙한다."
+
+#: src-en/data/events_sector_stargrove.xml:1244
+msgid ""
+"data/events_sector_stargrove.xml$//eventList[@name=\"STARGROVE_SEPARATIST_THREATEN\"]/event[1]/choice[2]/text"
+msgstr "상관하지 않고 공격한다."
+
+#: src-en/data/events_sector_stargrove.xml:1249
+msgid ""
+"data/events_sector_stargrove.xml$//eventList[@name=\"STARGROVE_SEPARATIST_THREATEN\"]/event[2]/text"
+msgstr "\"전투 불리. 이 -제안-을 받고 가라.\""
+
+#: src-en/data/events_sector_stargrove.xml:1251
+msgid ""
+"data/events_sector_stargrove.xml$//eventList[@name=\"STARGROVE_SEPARATIST_THREATEN\"]/event[2]/choice[1]/text"
+msgstr "승낙한다."
+
+#: src-en/data/events_sector_stargrove.xml:1260
+msgid ""
+"data/events_sector_stargrove.xml$//eventList[@name=\"STARGROVE_SEPARATIST_THREATEN\"]/event[2]/choice[2]/text"
+msgstr "상관하지 않고 공격한다."
+
+#: src-en/data/events_sector_stargrove.xml:1267
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SEPARATIST_THREATEN_EXPLOSION\"]/text"
+msgstr "당신이 연료를 함선에 싣자마자, 연료가 거대한 화염과 함께 폭발했습니다! 분리주의자가 공격을 개시합니다."
+
+#: src-en/data/events_sector_stargrove.xml:1276
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SEPARATIST_THREATEN_EXPLOSION\"]/choice/text"
+msgstr "계속..."
+
+#: src-en/data/events_sector_stargrove.xml:1281
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_FUEL_COLLECTOR_SALVAGE\"]/text"
+msgstr "분리주의자의 구조물은 매우 견고합니다. 펄서의 공격을 받는 동안 이 잔해를 수거하는 것은 쉽지 않을 것 같습니다."
+
+#: src-en/data/events_sector_stargrove.xml:1283
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_FUEL_COLLECTOR_SALVAGE\"]/choice[@req=\"FUEL_CONSERVER\"]/text"
+msgstr "(연료 절약 장치) 효율적으로 연료를 추출한다."
+
+#: src-en/data/events_sector_stargrove.xml:1285
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_FUEL_COLLECTOR_SALVAGE\"]/choice[@req=\"FUEL_CONSERVER\"]/event/text"
+msgstr "수집기의 자원을 추출하여 쏠쏠한 수확을 얻었습니다."
+
+#: src-en/data/events_sector_stargrove.xml:1290
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_FUEL_COLLECTOR_SALVAGE\"]/choice[2]/text"
+msgstr "가능한 모든 것을 회수한다."
+
+#: src-en/data/events_sector_stargrove.xml:1292
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_FUEL_COLLECTOR_SALVAGE\"]/choice[2]/event/text"
+msgstr "수확량은 예상외로 미미합니다."
+
+#: src-en/data/events_sector_stargrove.xml:1303
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_ASTEROID\"]/text"
+msgstr "근처의 펄서 주위에 소행성 고리가 있습니다. 한 소행성은 중금속 함량이 높아 펄서의 빛이 유혹적으로 반사됩니다. 하지만 그 소행성은 고리의 가장 빽빽한 구간에 있습니다. 어떤 위험이 닥칠지 모르고, 길을 찾기도 어려울 것입니다."
+
+#: src-en/data/events_sector_stargrove.xml:1305
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_ASTEROID\"]/choice[1]/text"
+msgstr "함선을 가까이 댄다."
+
+#: src-en/data/events_sector_stargrove.xml:1307
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_ASTEROID\"]/choice[1]/event/text"
+msgstr "당신은 소행성 위에 적절한 지점을 찾아 채굴을 시작했습니다. 하지만 소행성에 착륙해 자원을 추출하던 도중 함선 경보가 울렸습니다. 다른 소행성이 갑자기 경로를 바꿔 당신의 함선과 충돌하려 하고 있습니다!"
+
+#: src-en/data/events_sector_stargrove.xml:1312
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_ASTEROID\"]/choice[1]/event/choice[@req=\"BLUELIST_ARMOR\"]/text"
+msgstr "(선체 장갑) 소행성을 들이받는다."
+
+#: src-en/data/events_sector_stargrove.xml:1314
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_ASTEROID\"]/choice[1]/event/choice[@req=\"BLUELIST_ARMOR\"]/event/text"
+msgstr "마치 자석이 달린 것처럼, 소행성은 당신의 위치로 이끌리는 것처럼 보였습니다. 이건 함정입니다! 하지만 당신의 함선은 선체 장갑판 덕분에 다가오는 소행성으로부터 거의 위협을 느끼지 않습니다. 당신은 최대한 안전한 방향으로 기동해 암석을 뚫고 지나갔고, 더 이상의 방해 없이 계속해서 채굴을 진행했습니다."
+
+#: src-en/data/events_sector_stargrove.xml:1321
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_ASTEROID\"]/choice[1]/event/choice[2]/text"
+msgstr "계속..."
+
+#: src-en/data/events_sector_stargrove.xml:1327
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_ASTEROID\"]/choice[2]/text"
+msgstr "무시한다."
+
+#: src-en/data/events_sector_stargrove.xml:1336
+msgid ""
+"data/events_sector_stargrove.xml$//ship[@name=\"SHIP_ASTEROID_STARGROVE\"]/triggeredEvent/triggeredEventBox/tooltip"
+msgstr "소행성이 충돌하기까지 남은 시간입니다. 타이머가 0이 되기 전에 반드시 파괴하거나 도망쳐야 합니다!"
+
+#: src-en/data/events_sector_stargrove.xml:1342
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_ASTEROID_DESTROYED\"]/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:1346
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_ASTEROID_COLLIDE\"]/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:1373
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_LANIUS_GHOST_STUCK\"]/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:1375
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_LANIUS_GHOST_STUCK\"]/choice[@req=\"LIST_CHECK_ENERGY_SHIELD\""
+" and @lvl=\"0\"]/text"
+msgstr "함선에 접근한다."
+
+#: src-en/data/events_sector_stargrove.xml:1379
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_LANIUS_GHOST_STUCK\"]/choice[@req=\"LIST_CHECK_ENERGY_SHIELD\""
+" and not(@lvl)]/text"
+msgstr "함선에 접근한다."
+
+#: src-en/data/events_sector_stargrove.xml:1382
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_LANIUS_GHOST_STUCK\"]/choice[@req=\"LIST_CHECK_ENERGY_SHIELD\""
+" and not(@lvl)]/event/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:1384
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_LANIUS_GHOST_STUCK\"]/choice[@req=\"LIST_CHECK_ENERGY_SHIELD\""
+" and not(@lvl)]/event/choice[1]/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:1386
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_LANIUS_GHOST_STUCK\"]/choice[@req=\"LIST_CHECK_ENERGY_SHIELD\""
+" and not(@lvl)]/event/choice[1]/event/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:1392
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_LANIUS_GHOST_STUCK\"]/choice[@req=\"LIST_CHECK_ENERGY_SHIELD\""
+" and not(@lvl)]/event/choice[2]/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:1396
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_LANIUS_GHOST_STUCK\"]/choice[@req=\"LIST_CHECK_ENERGY_SHIELD\""
+" and not(@lvl)]/event/choice[3]/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:1400
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_LANIUS_GHOST_STUCK\"]/choice[@req=\"LIST_CHECK_ENERGY_SHIELD\""
+" and not(@lvl)]/event/choice[@req=\"teleporter\" and @lvl=\"0\"]/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:1404
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_LANIUS_GHOST_STUCK\"]/choice[@req=\"LIST_CHECK_ENERGY_SHIELD\""
+" and not(@lvl)]/event/choice[5]/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:1406
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_LANIUS_GHOST_STUCK\"]/choice[@req=\"LIST_CHECK_ENERGY_SHIELD\""
+" and not(@lvl)]/event/choice[5]/event/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:1411
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_LANIUS_GHOST_STUCK\"]/choice[@req=\"LIST_CHECK_ENERGY_SHIELD\""
+" and not(@lvl)]/event/choice[6]/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:1413
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_LANIUS_GHOST_STUCK\"]/choice[@req=\"LIST_CHECK_ENERGY_SHIELD\""
+" and not(@lvl)]/event/choice[6]/event/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:1419
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_LANIUS_GHOST_STUCK\"]/choice[3]/text"
+msgstr "난파선을 피한다."
+
+#: src-en/data/events_sector_stargrove.xml:1421
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_LANIUS_GHOST_STUCK\"]/choice[3]/event/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:1428
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_LANIUS_GHOST_TELEPORT\"]/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:1430
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_LANIUS_GHOST_TELEPORT\"]/choice[1]/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:1432
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_LANIUS_GHOST_TELEPORT\"]/choice[1]/event/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:1441
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_LANIUS_GHOST_TELEPORT\"]/choice[2]/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:1443
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_LANIUS_GHOST_TELEPORT\"]/choice[2]/event/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:1452
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_LANIUS_GHOST_LANIUS_WIN\"]/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:1456
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_LANIUS_GHOST_GHOST_WIN\"]/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:1471
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_OBELISK_RUIN_CRYSTAL\"]/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:1473
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_OBELISK_RUIN_CRYSTAL\"]/choice[@req=\"unique_anointed\"]/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:1475
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_OBELISK_RUIN_CRYSTAL\"]/choice[@req=\"unique_anointed\"]/event/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:1477
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_OBELISK_RUIN_CRYSTAL\"]/choice[@req=\"unique_anointed\"]/event/choice/text"
+msgstr "계속..."
+
+#: src-en/data/events_sector_stargrove.xml:1483
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_OBELISK_RUIN_CRYSTAL\"]/choice[@req=\"UPG_AETHER_TRANSLATOR\"]/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:1485
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_OBELISK_RUIN_CRYSTAL\"]/choice[@req=\"UPG_AETHER_TRANSLATOR\"]/event/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:1487
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_OBELISK_RUIN_CRYSTAL\"]/choice[@req=\"UPG_AETHER_TRANSLATOR\"]/event/choice/text"
+msgstr "계속..."
+
+#: src-en/data/events_sector_stargrove.xml:1493
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_OBELISK_RUIN_CRYSTAL\"]/choice[@req=\"LIST_CREW_ANCIENT\"]/text"
+msgstr "(오벨리스크 선원) 폐허에 새겨진 글귀를 해석한다."
+
+#: src-en/data/events_sector_stargrove.xml:1495
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_OBELISK_RUIN_CRYSTAL\"]/choice[@req=\"LIST_CREW_ANCIENT\"]/event/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:1497
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_OBELISK_RUIN_CRYSTAL\"]/choice[@req=\"LIST_CREW_ANCIENT\"]/event/choice/text"
+msgstr "계속..."
+
+#: src-en/data/events_sector_stargrove.xml:1503
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_OBELISK_RUIN_CRYSTAL\"]/choice[@req=\"LIST_CREW_COGNITIVE_ALL\"]/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:1505
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_OBELISK_RUIN_CRYSTAL\"]/choice[@req=\"LIST_CREW_COGNITIVE_ALL\"]/event/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:1507
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_OBELISK_RUIN_CRYSTAL\"]/choice[@req=\"LIST_CREW_COGNITIVE_ALL\"]/event/choice/text"
+msgstr "계속..."
+
+#: src-en/data/events_sector_stargrove.xml:1513
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_OBELISK_RUIN_CRYSTAL\"]/choice[@req=\"hacking\""
+" and @lvl=\"3\"]/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:1515
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_OBELISK_RUIN_CRYSTAL\"]/choice[@req=\"hacking\""
+" and @lvl=\"3\"]/event/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:1517
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_OBELISK_RUIN_CRYSTAL\"]/choice[@req=\"hacking\""
+" and @lvl=\"3\"]/event/choice/text"
+msgstr "계속..."
+
+#: src-en/data/events_sector_stargrove.xml:1523
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_OBELISK_RUIN_CRYSTAL\"]/choice[@req=\"hacking\""
+" and @lvl=\"1\"]/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:1525
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_OBELISK_RUIN_CRYSTAL\"]/choice[@req=\"hacking\""
+" and @lvl=\"1\"]/event/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:1528
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_OBELISK_RUIN_CRYSTAL\"]/choice[@req=\"hacking\""
+" and @lvl=\"1\"]/event/triggeredEvent/triggeredEventBox/tooltip"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:1535
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_OBELISK_RUIN_CRYSTAL\"]/choice[@req=\"BLUELIST_WEAPONS_HACK\"]/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:1537
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_OBELISK_RUIN_CRYSTAL\"]/choice[@req=\"BLUELIST_WEAPONS_HACK\"]/event/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:1540
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_OBELISK_RUIN_CRYSTAL\"]/choice[@req=\"BLUELIST_WEAPONS_HACK\"]/event/triggeredEvent/triggeredEventBox/tooltip"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:1547
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_OBELISK_RUIN_CRYSTAL\"]/choice[@req=\"BLUELIST_WEAPONS_BEAM_POWERFUL\"]/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:1549
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_OBELISK_RUIN_CRYSTAL\"]/choice[@req=\"BLUELIST_WEAPONS_BEAM_POWERFUL\"]/event/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:1552
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_OBELISK_RUIN_CRYSTAL\"]/choice[@req=\"BLUELIST_WEAPONS_BEAM_POWERFUL\"]/event/triggeredEvent/triggeredEventBox/tooltip"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:1559
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_OBELISK_RUIN_CRYSTAL\"]/choice[@req=\"BLUELIST_BEAMS_DAMAGE\"]/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:1561
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_OBELISK_RUIN_CRYSTAL\"]/choice[@req=\"BLUELIST_BEAMS_DAMAGE\"]/event/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:1564
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_OBELISK_RUIN_CRYSTAL\"]/choice[@req=\"BLUELIST_BEAMS_DAMAGE\"]/event/triggeredEvent/triggeredEventBox/tooltip"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:1571
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_OBELISK_RUIN_CRYSTAL\"]/choice[@req=\"teleporter\"]/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:1573
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_OBELISK_RUIN_CRYSTAL\"]/choice[@req=\"teleporter\"]/event/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:1578
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_OBELISK_RUIN_CRYSTAL\"]/choice[11]/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:1580
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_OBELISK_RUIN_CRYSTAL\"]/choice[11]/event/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:1585
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_RUINS_OPEN\"]/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:1596
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_ENGI_DEFENDER\"]/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:1599
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_ENGI_DEFENDER\"]/choice[@req=\"unique_turzil\"]/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:1601
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_ENGI_DEFENDER\"]/choice[@req=\"unique_turzil\"]/event/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:1604
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_ENGI_DEFENDER\"]/choice[@req=\"unique_turzil\"]/event/choice/text"
+msgstr "계속..."
+
+#: src-en/data/events_sector_stargrove.xml:1610
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_ENGI_DEFENDER\"]/choice[@req=\"LIST_VARIANT_SEPARATIST\"]/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:1612
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_ENGI_DEFENDER\"]/choice[@req=\"LIST_VARIANT_SEPARATIST\"]/event/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:1615
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_ENGI_DEFENDER\"]/choice[@req=\"LIST_VARIANT_SEPARATIST\"]/event/choice/text"
+msgstr "계속..."
+
+#: src-en/data/events_sector_stargrove.xml:1621
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_ENGI_DEFENDER\"]/choice[@req=\"LIST_CREW_NOTHARMONY\"]/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:1623
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_ENGI_DEFENDER\"]/choice[@req=\"LIST_CREW_NOTHARMONY\"]/event/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:1626
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_ENGI_DEFENDER\"]/choice[@req=\"LIST_CREW_NOTHARMONY\"]/event/choice/text"
+msgstr "계속..."
+
+#: src-en/data/events_sector_stargrove.xml:1632
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_ENGI_DEFENDER\"]/choice[@req=\"LIST_CREW_HARMONY\"]/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:1634
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_ENGI_DEFENDER\"]/choice[@req=\"LIST_CREW_HARMONY\"]/event/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:1641
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_ENGI_DEFENDER\"]/choice[@req=\"LIST_CREW_HARMONY\"]/event/choice/text"
+msgstr "계속..."
+
+#: src-en/data/events_sector_stargrove.xml:1647
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_ENGI_DEFENDER\"]/choice[5]/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:1649
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_ENGI_DEFENDER\"]/choice[5]/event/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:1654
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"SURRENDER_ENGI_PULSAR_OVERRIDE\"]/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:1656
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"SURRENDER_ENGI_PULSAR_OVERRIDE\"]/choice[@req=\"unique_turzil\"]/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:1658
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"SURRENDER_ENGI_PULSAR_OVERRIDE\"]/choice[@req=\"unique_turzil\"]/event/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:1677
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"SURRENDER_ENGI_PULSAR_OVERRIDE\"]/choice[@req=\"LIST_VARIANT_SEPARATIST\"]/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:1679
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"SURRENDER_ENGI_PULSAR_OVERRIDE\"]/choice[@req=\"LIST_VARIANT_SEPARATIST\"]/event/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:1690
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"SURRENDER_ENGI_PULSAR_OVERRIDE\"]/choice[3]/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:1694
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"SURRENDER_ENGI_PULSAR_OVERRIDE\"]/choice[@req=\"LIST_CREW_DEFENDER\"]/text"
+msgstr "(엔지 수비대) 협상안을 더 좋게 재조정한다."
+
+#: src-en/data/events_sector_stargrove.xml:1701
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"SURRENDER_ENGI_PULSAR_OVERRIDE\"]/choice[@req=\"engi\"]/text"
+msgstr "(엔지 선원) 협상안을 재조정한다."
+
+#: src-en/data/events_sector_stargrove.xml:1729
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_FEDTRACKER\"]/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:1732
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_FEDTRACKER\"]/choice[1]/text"
+msgstr "응답한다."
+
+#: src-en/data/events_sector_stargrove.xml:1734
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_FEDTRACKER\"]/choice[1]/event/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:1736
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_FEDTRACKER\"]/choice[1]/event/choice[1]/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:1738
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_FEDTRACKER\"]/choice[1]/event/choice[1]/event/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:1743
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_FEDTRACKER\"]/choice[1]/event/choice[2]/text"
+msgstr "함선을 무시한다."
+
+#: src-en/data/events_sector_stargrove.xml:1749
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_FEDTRACKER\"]/choice[2]/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:1751
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_FEDTRACKER\"]/choice[2]/event/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:1755
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_FEDTRACKER\"]/choice[3]/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:1757
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_FEDTRACKER\"]/choice[3]/event/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:1760
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_FEDTRACKER\"]/choice[3]/event/choice/text"
+msgstr "계속..."
+
+#: src-en/data/events_sector_stargrove.xml:1778
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_QUEST_STARGROVE_TRACKER\"]/beaconType/unvisitedTooltip"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:1780
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_QUEST_STARGROVE_TRACKER\"]/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:1787
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_QUEST_STARGROVE_TRACKER\"]/choice/text"
+msgstr "계속..."
+
+#: src-en/data/events_sector_stargrove.xml:1789
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_QUEST_STARGROVE_TRACKER\"]/choice/event/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:1791
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_QUEST_STARGROVE_TRACKER\"]/choice/event/choice[1]/text"
+msgstr "공격!"
+
+#: src-en/data/events_sector_stargrove.xml:1793
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_QUEST_STARGROVE_TRACKER\"]/choice/event/choice[1]/event/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:1796
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_QUEST_STARGROVE_TRACKER\"]/choice/event/choice[1]/event/choice/text"
+msgstr "계속..."
+
+#: src-en/data/events_sector_stargrove.xml:1802
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_QUEST_STARGROVE_TRACKER\"]/choice/event/choice[2]/text"
+msgstr "함선을 내버려둔다."
+
+#: src-en/data/events_sector_stargrove.xml:1804
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_QUEST_STARGROVE_TRACKER\"]/choice/event/choice[2]/event/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:1812
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"COALITION_QUEST_STARGROVE_DESTROYED\"]/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:1820
+msgid ""
+"data/events_sector_stargrove.xml$//ship[@name=\"SHIP_FED_AUTO_STARGROVE_TRACKER\"]/escape/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:1824
+msgid ""
+"data/events_sector_stargrove.xml$//ship[@name=\"SHIP_FED_AUTO_STARGROVE_TRACKER\"]/destroyed/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:1831
+msgid ""
+"data/events_sector_stargrove.xml$//ship[@name=\"SHIP_COALITION_QUEST_STARGROVE_TRACKER\"]/destroyed/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:1834
+msgid ""
+"data/events_sector_stargrove.xml$//ship[@name=\"SHIP_COALITION_QUEST_STARGROVE_TRACKER\"]/destroyed/choice/text"
+msgstr "계속..."
+
+#: src-en/data/events_sector_stargrove.xml:1839
+msgid ""
+"data/events_sector_stargrove.xml$//ship[@name=\"SHIP_COALITION_QUEST_STARGROVE_TRACKER\"]/deadCrew/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:1842
+msgid ""
+"data/events_sector_stargrove.xml$//ship[@name=\"SHIP_COALITION_QUEST_STARGROVE_TRACKER\"]/deadCrew/choice/text"
+msgstr "계속..."
+
+#: src-en/data/events_sector_stargrove.xml:1856
+msgid ""
+"data/events_sector_stargrove.xml$//textList[@name=\"TEXT_ENCOUNTER_FEDERATION_STARGROVE\"]/text[1]"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:1857
+msgid ""
+"data/events_sector_stargrove.xml$//textList[@name=\"TEXT_ENCOUNTER_FEDERATION_STARGROVE\"]/text[2]"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:1858
+msgid ""
+"data/events_sector_stargrove.xml$//textList[@name=\"TEXT_ENCOUNTER_FEDERATION_STARGROVE\"]/text[3]"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:1859
+msgid ""
+"data/events_sector_stargrove.xml$//textList[@name=\"TEXT_ENCOUNTER_FEDERATION_STARGROVE\"]/text[4]"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:1875
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_ENCOUNTER_FEDERATION_STARGROVE\"]/choice/text"
+msgstr "계속..."
+
+#: src-en/data/events_sector_stargrove.xml:1881
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"DEFEAT_FED_ELITE_STARGROVE\"]/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:1884
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"DEFEAT_FED_ELITE_STARGROVE\"]/choice/text"
+msgstr "계속..."
+
+#: src-en/data/events_sector_stargrove.xml:1886
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"DEFEAT_FED_ELITE_STARGROVE\"]/choice/event/text"
+msgstr ""
+"엘리트 연방 함선의 화물은 전투 중에 파괴되지 않은 것 같습니다. 당신은 그 안에서 멀쩡히 작동하는 무기를 찾아 건져냈습니다."
+
+#: src-en/data/events_sector_stargrove.xml:1917
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_ENCOUNTER_PIRATE_ELITE_STARGROVE\"]/choice[@req=\"ANTI_VIRUS\"]/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:1921
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_ENCOUNTER_PIRATE_ELITE_STARGROVE\"]/choice[2]/text"
+msgstr "계속..."
+
+#: src-en/data/events_sector_stargrove.xml:1933
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_ENCOUNTER_PIRATE_ELITE_STARGROVE_PULSAR\"]/choice[@req=\"ANTI_VIRUS\"]/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:1937
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_ENCOUNTER_PIRATE_ELITE_STARGROVE_PULSAR\"]/choice[2]/text"
+msgstr "계속..."
+
+#: src-en/data/events_sector_stargrove.xml:1951
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_ENCOUNTER_PIRATE_ELITE_STARGROVE_BLUEGIANT\"]/choice[@req=\"ANTI_VIRUS\"]/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:1955
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_ENCOUNTER_PIRATE_ELITE_STARGROVE_BLUEGIANT\"]/choice[2]/text"
+msgstr "계속..."
+
+#: src-en/data/events_sector_stargrove.xml:1960
+msgid ""
+"data/events_sector_stargrove.xml$//textList[@name=\"TEXT_ENCOUNTER_PIRATE_STARGROVE\"]/text[1]"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:1961
+msgid ""
+"data/events_sector_stargrove.xml$//textList[@name=\"TEXT_ENCOUNTER_PIRATE_STARGROVE\"]/text[2]"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:1962
+msgid ""
+"data/events_sector_stargrove.xml$//textList[@name=\"TEXT_ENCOUNTER_PIRATE_STARGROVE\"]/text[3]"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:1963
+msgid ""
+"data/events_sector_stargrove.xml$//textList[@name=\"TEXT_ENCOUNTER_PIRATE_STARGROVE\"]/text[4]"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:1967
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_ANTI_VIRUS_PIRATE\"]/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:1969
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_ANTI_VIRUS_PIRATE\"]/choice/text"
+msgstr "계속..."
+
+#: src-en/data/events_sector_stargrove.xml:1977
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SYSTEM_JAMMED_PIRATE\"]/loadEventList/event[1]/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:1980
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SYSTEM_JAMMED_PIRATE\"]/loadEventList/event[1]/triggeredEvent/triggeredEventBox/tooltip"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:1985
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SYSTEM_JAMMED_PIRATE\"]/loadEventList/event[1]/choice/text"
+msgstr "계속..."
+
+#: src-en/data/events_sector_stargrove.xml:1990
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SYSTEM_JAMMED_PIRATE\"]/loadEventList/event[2]/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:1994
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SYSTEM_JAMMED_PIRATE\"]/loadEventList/event[2]/triggeredEvent/triggeredEventBox/tooltip"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:1998
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SYSTEM_JAMMED_PIRATE\"]/loadEventList/event[2]/choice/text"
+msgstr "계속..."
+
+#: src-en/data/events_sector_stargrove.xml:2003
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SYSTEM_JAMMED_PIRATE\"]/loadEventList/event[3]/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:2007
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SYSTEM_JAMMED_PIRATE\"]/loadEventList/event[3]/triggeredEvent/triggeredEventBox/tooltip"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:2011
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SYSTEM_JAMMED_PIRATE\"]/loadEventList/event[3]/choice/text"
+msgstr "계속..."
+
+#: src-en/data/events_sector_stargrove.xml:2016
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SYSTEM_JAMMED_PIRATE\"]/loadEventList/event[4]/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:2019
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SYSTEM_JAMMED_PIRATE\"]/loadEventList/event[4]/triggeredEvent/triggeredEventBox/tooltip"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:2024
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SYSTEM_JAMMED_PIRATE\"]/loadEventList/event[4]/choice/text"
+msgstr "계속..."
+
+#: src-en/data/events_sector_stargrove.xml:2031
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SYSTEM_JAMMED_PIRATE\"]/loadEventList/event[5]/triggeredEvent/triggeredEventBox/tooltip"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:2034
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SYSTEM_JAMMED_PIRATE\"]/loadEventList/event[5]/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:2037
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SYSTEM_JAMMED_PIRATE\"]/loadEventList/event[5]/choice/text"
+msgstr "계속..."
+
+#: src-en/data/events_sector_stargrove.xml:2044
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SYSTEM_JAMMED_PIRATE\"]/loadEventList/event[6]/triggeredEvent/triggeredEventBox/tooltip"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:2047
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SYSTEM_JAMMED_PIRATE\"]/loadEventList/event[6]/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:2050
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SYSTEM_JAMMED_PIRATE\"]/loadEventList/event[6]/choice/text"
+msgstr "계속..."
+
+#: src-en/data/events_sector_stargrove.xml:2071
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_ENCOUNTER_VAGABOND_STARGROVE\"]/choice/text"
+msgstr "계속..."
+
+#: src-en/data/events_sector_stargrove.xml:2085
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_ENCOUNTER_VAGABOND_STARGROVE_BLUEGIANT\"]/choice/text"
+msgstr "계속..."
+
+#: src-en/data/events_sector_stargrove.xml:2098
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_ENCOUNTER_AUTO_STARGROVE\"]/choice/text"
+msgstr "계속..."
+
+#: src-en/data/events_sector_stargrove.xml:2112
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_ENCOUNTER_AUTO_STARGROVE_BLUEGIANT\"]/choice/text"
+msgstr "계속..."
+
+#: src-en/data/events_sector_stargrove.xml:2132
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_LISTENING_POST_QUEST\"]/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:2135
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_LISTENING_POST_QUEST\"]/choice[1]/text"
+msgstr "개입한다."
+
+#: src-en/data/events_sector_stargrove.xml:2137
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_LISTENING_POST_QUEST\"]/choice[1]/event/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:2140
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_LISTENING_POST_QUEST\"]/choice[1]/event/choice/text"
+msgstr "계속..."
+
+#: src-en/data/events_sector_stargrove.xml:2146
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_LISTENING_POST_QUEST\"]/choice[@req=\"LIST_CREW_DUSK\"]/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:2148
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_LISTENING_POST_QUEST\"]/choice[@req=\"LIST_CREW_DUSK\"]/event/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:2152
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_LISTENING_POST_QUEST\"]/choice[@req=\"LIST_CREW_DUSK\"]/event/choice/text"
+msgstr "계속..."
+
+#: src-en/data/events_sector_stargrove.xml:2158
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_LISTENING_POST_QUEST\"]/choice[3]/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:2160
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_LISTENING_POST_QUEST\"]/choice[3]/event/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:2167
+msgid ""
+"data/events_sector_stargrove.xml$//ship[@name=\"SHIP_DUSK_STARGROVE_LISTENING\"]/destroyed/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:2170
+msgid ""
+"data/events_sector_stargrove.xml$//ship[@name=\"SHIP_DUSK_STARGROVE_LISTENING\"]/destroyed/choice/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:2175
+msgid ""
+"data/events_sector_stargrove.xml$//ship[@name=\"SHIP_DUSK_STARGROVE_LISTENING\"]/deadCrew/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:2178
+msgid ""
+"data/events_sector_stargrove.xml$//ship[@name=\"SHIP_DUSK_STARGROVE_LISTENING\"]/deadCrew/choice/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:2185
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_LISTENING_POST_SAVED\"]/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:2187
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_LISTENING_POST_SAVED\"]/choice/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:2189
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_LISTENING_POST_SAVED\"]/choice/event/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:2191
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_LISTENING_POST_SAVED\"]/choice/event/choice[1]/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:2193
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_LISTENING_POST_SAVED\"]/choice/event/choice[1]/event/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:2198
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_LISTENING_POST_SAVED\"]/choice/event/choice[2]/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:2200
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_LISTENING_POST_SAVED\"]/choice/event/choice[2]/event/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:2223
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"QUEST_STARGROVE_GRAVASTAR\"]/beaconType/unvisitedTooltip"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:2226
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"QUEST_STARGROVE_GRAVASTAR\"]/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:2228
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"QUEST_STARGROVE_GRAVASTAR\"]/choice[1]/text"
+msgstr "당신은 누구죠?"
+
+#: src-en/data/events_sector_stargrove.xml:2231
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"QUEST_STARGROVE_GRAVASTAR\"]/choice[1]/event/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:2233
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"QUEST_STARGROVE_GRAVASTAR\"]/choice[1]/event/choice[1]/text"
+msgstr "계속..."
+
+#: src-en/data/events_sector_stargrove.xml:2237
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"QUEST_STARGROVE_GRAVASTAR\"]/choice[1]/event/choice[@req=\"loc_infernum_parable\"]/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:2243
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"QUEST_STARGROVE_GRAVASTAR\"]/choice[2]/text"
+msgstr "공격한다."
+
+#: src-en/data/events_sector_stargrove.xml:2246
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"QUEST_STARGROVE_GRAVASTAR\"]/choice[2]/event/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:2248
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"QUEST_STARGROVE_GRAVASTAR\"]/choice[2]/event/choice/text"
+msgstr "계속..."
+
+#: src-en/data/events_sector_stargrove.xml:2254
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"QUEST_STARGROVE_GRAVASTAR\"]/choice[3]/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:2257
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"QUEST_STARGROVE_GRAVASTAR\"]/choice[3]/event/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:2259
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"QUEST_STARGROVE_GRAVASTAR\"]/choice[3]/event/choice/text"
+msgstr "계속..."
+
+#: src-en/data/events_sector_stargrove.xml:2265
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"QUEST_STARGROVE_GRAVASTAR\"]/choice[@req=\"loc_infernum_parable\"]/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:2271
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"QUEST_STARGROVE_GRAVASTAR_MONK_MESSAGE\"]/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:2278
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"QUEST_STARGROVE_GRAVASTAR_MONK_MESSAGE\"]/choice/text"
+msgstr "계속..."
+
+#: src-en/data/events_sector_stargrove.xml:2288
+msgid ""
+"data/events_sector_stargrove.xml$//ship[@name=\"SHIP_INFERNUM_GRAVASTAR\"]/destroyed/choice/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:2296
+msgid ""
+"data/events_sector_stargrove.xml$//ship[@name=\"SHIP_INFERNUM_GRAVASTAR\"]/deadCrew/choice/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:2314
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_CONTACT_MAFAN_REAL\"]/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:2316
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_CONTACT_MAFAN_REAL\"]/choice[1]/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:2318
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_CONTACT_MAFAN_REAL\"]/choice[1]/event/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:2325
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_CONTACT_MAFAN_REAL\"]/choice[1]/event/choice/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:2331
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_CONTACT_MAFAN_REAL\"]/choice[@req=\"engines\""
+" and @lvl=\"4\"]/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:2333
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_CONTACT_MAFAN_REAL\"]/choice[@req=\"engines\""
+" and @lvl=\"4\"]/event/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:2340
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_CONTACT_MAFAN_REAL\"]/choice[@req=\"engines\""
+" and @lvl=\"4\"]/event/choice/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:2346
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_CONTACT_MAFAN_REAL\"]/choice[@req=\"engines\""
+" and @lvl=\"7\"]/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:2348
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_CONTACT_MAFAN_REAL\"]/choice[@req=\"engines\""
+" and @lvl=\"7\"]/event/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:2354
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_CONTACT_MAFAN_REAL\"]/choice[@req=\"engines\""
+" and @lvl=\"7\"]/event/choice/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:2360
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_CONTACT_MAFAN_REAL\"]/choice[@req=\"temporal\"]/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:2362
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_CONTACT_MAFAN_REAL\"]/choice[@req=\"temporal\"]/event/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:2365
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_CONTACT_MAFAN_REAL\"]/choice[@req=\"temporal\"]/event/choice/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:2371
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_CONTACT_MAFAN_REAL\"]/choice[@req=\"MULTIVERSE_DRIVE_GOOD\"]/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:2373
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_CONTACT_MAFAN_REAL\"]/choice[@req=\"MULTIVERSE_DRIVE_GOOD\"]/event/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:2379
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_CONTACT_MAFAN_REAL\"]/choice[@req=\"MULTIVERSE_DRIVE_GOOD\"]/event/choice/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:2385
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_CONTACT_MAFAN_REAL\"]/choice[@req=\"MULTIVERSE_DRIVE\"]/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:2387
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_CONTACT_MAFAN_REAL\"]/choice[@req=\"MULTIVERSE_DRIVE\"]/event/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:2393
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_CONTACT_MAFAN_REAL\"]/choice[@req=\"MULTIVERSE_DRIVE\"]/event/choice/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:2399
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_CONTACT_MAFAN_REAL\"]/choice[@req=\"teleporter\"]/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:2401
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_CONTACT_MAFAN_REAL\"]/choice[@req=\"teleporter\"]/event/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:2403
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_CONTACT_MAFAN_REAL\"]/choice[@req=\"teleporter\"]/event/choice/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:2409
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_CONTACT_MAFAN_REAL\"]/choice[@req=\"pilot\"]/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:2411
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_CONTACT_MAFAN_REAL\"]/choice[@req=\"pilot\"]/event/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:2418
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_INVITE_MAFAN\"]/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:2419
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_INVITE_MAFAN\"]/crewMember"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:2422
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_INVITE_MAFAN\"]/choice/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:2424
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_INVITE_MAFAN\"]/choice/event/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:2443
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_CLEARING_MONK\"]/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:2447
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_CLEARING_MONK\"]/choice[1]/text"
+msgstr "이야기를 들어본다."
+
+#: src-en/data/events_sector_stargrove.xml:2449
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_CLEARING_MONK\"]/choice[1]/event/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:2452
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_CLEARING_MONK\"]/choice[1]/event/choice/text"
+msgstr "계속..."
+
+#: src-en/data/events_sector_stargrove.xml:2454
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_CLEARING_MONK\"]/choice[1]/event/choice/event/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:2461
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_CLEARING_MONK\"]/choice[2]/text"
+msgstr "떠난다."
+
+#: src-en/data/events_sector_stargrove.xml:2463
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_CLEARING_MONK\"]/choice[2]/event/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:2465
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_CLEARING_MONK\"]/choice[2]/event/choice[1]/text"
+msgstr "함선에서 무언가를 한다."
+
+#: src-en/data/events_sector_stargrove.xml:2469
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_CLEARING_MONK\"]/choice[2]/event/choice[2]/text"
+msgstr "아무것도 하지 않는다."
+
+#: src-en/data/events_sector_stargrove.xml:2489
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SEPARATIST_STORE\"]/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:2493
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SEPARATIST_STORE\"]/choice[@req=\"engi_defender\"]/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:2495
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SEPARATIST_STORE\"]/choice[@req=\"engi_defender\"]/event/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:2498
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SEPARATIST_STORE\"]/choice[@req=\"engi_defender\"]/event/choice/text"
+msgstr "계속..."
+
+#: src-en/data/events_sector_stargrove.xml:2504
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SEPARATIST_STORE\"]/choice[@req=\"engi\"]/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:2506
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SEPARATIST_STORE\"]/choice[@req=\"engi\"]/event/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:2508
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SEPARATIST_STORE\"]/choice[@req=\"engi\"]/event/choice[1]/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:2510
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SEPARATIST_STORE\"]/choice[@req=\"engi\"]/event/choice[1]/event/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:2513
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SEPARATIST_STORE\"]/choice[@req=\"engi\"]/event/choice[1]/event/choice/text"
+msgstr "계속..."
+
+#: src-en/data/events_sector_stargrove.xml:2519
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SEPARATIST_STORE\"]/choice[@req=\"engi\"]/event/choice[2]/text"
+msgstr "거절한다."
+
+#: src-en/data/events_sector_stargrove.xml:2521
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SEPARATIST_STORE\"]/choice[@req=\"engi\"]/event/choice[2]/event/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:2524
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SEPARATIST_STORE\"]/choice[@req=\"engi\"]/event/choice[2]/event/choice/text"
+msgstr "계속..."
+
+#: src-en/data/events_sector_stargrove.xml:2532
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SEPARATIST_STORE\"]/choice[3]/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:2536
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SEPARATIST_STORE\"]/choice[4]/text"
+msgstr "분리주의자들을 피한다."
+
+#: src-en/data/events_sector_stargrove.xml:2538
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SEPARATIST_STORE\"]/choice[4]/event/text"
+msgstr "분리주의자는 당신의 존재를 신경 쓰지 않았습니다."
+
+#: src-en/data/events_sector_stargrove.xml:2540
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SEPARATIST_STORE\"]/choice[4]/event/choice[1]/text"
+msgstr "함선에서 무언가를 한다."
+
+#: src-en/data/events_sector_stargrove.xml:2544
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SEPARATIST_STORE\"]/choice[4]/event/choice[2]/text"
+msgstr "아무것도 하지 않는다."
+
+#: src-en/data/events_sector_stargrove.xml:2561
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_SMUGGLER_STORE\"]/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:2563
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_SMUGGLER_STORE\"]/choice[1]/text"
+msgstr "용병을 공격한다."
+
+#: src-en/data/events_sector_stargrove.xml:2565
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_SMUGGLER_STORE\"]/choice[1]/event/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:2568
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_SMUGGLER_STORE\"]/choice[1]/event/choice/text"
+msgstr "계속..."
+
+#: src-en/data/events_sector_stargrove.xml:2574
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_SMUGGLER_STORE\"]/choice[2]/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:2576
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_SMUGGLER_STORE\"]/choice[2]/event/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:2578
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_SMUGGLER_STORE\"]/choice[2]/event/choice[1]/text"
+msgstr "함선에서 무언가를 한다."
+
+#: src-en/data/events_sector_stargrove.xml:2582
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_STARGROVE_SMUGGLER_STORE\"]/choice[2]/event/choice[2]/text"
+msgstr "아무것도 하지 않는다."
+
+#: src-en/data/events_sector_stargrove.xml:2592
+msgid ""
+"data/events_sector_stargrove.xml$//ship[@name=\"SHIP_MERCENARY_STARGROVE\"]/destroyed/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:2595
+msgid ""
+"data/events_sector_stargrove.xml$//ship[@name=\"SHIP_MERCENARY_STARGROVE\"]/destroyed/choice/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:2600
+msgid ""
+"data/events_sector_stargrove.xml$//ship[@name=\"SHIP_MERCENARY_STARGROVE\"]/deadCrew/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:2603
+msgid ""
+"data/events_sector_stargrove.xml$//ship[@name=\"SHIP_MERCENARY_STARGROVE\"]/deadCrew/choice/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:2609
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SMUGGLER_STORE\"]/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:2629
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SAFE_HAVEN\"]/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:2632
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SAFE_HAVEN\"]/choice[1]/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:2634
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SAFE_HAVEN\"]/choice[1]/event/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:2636
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SAFE_HAVEN\"]/choice[1]/event/choice[1]/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:2638
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SAFE_HAVEN\"]/choice[1]/event/choice[1]/event/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:2640
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SAFE_HAVEN\"]/choice[1]/event/choice[1]/event/choice[1]/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:2644
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SAFE_HAVEN\"]/choice[1]/event/choice[1]/event/choice[2]/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:2650
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SAFE_HAVEN\"]/choice[1]/event/choice[2]/text"
+msgstr "동의한다."
+
+#: src-en/data/events_sector_stargrove.xml:2654
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SAFE_HAVEN\"]/choice[1]/event/choice[3]/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:2660
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SAFE_HAVEN\"]/choice[2]/text"
+msgstr "전초기지를 피한다."
+
+#: src-en/data/events_sector_stargrove.xml:2662
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SAFE_HAVEN\"]/choice[2]/event/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:2664
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SAFE_HAVEN\"]/choice[2]/event/choice[1]/text"
+msgstr "함선에서 무언가를 한다."
+
+#: src-en/data/events_sector_stargrove.xml:2668
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SAFE_HAVEN\"]/choice[2]/event/choice[2]/text"
+msgstr "아무것도 하지 않는다."
+
+#: src-en/data/events_sector_stargrove.xml:2676
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SAFE_HAVEN_QUEST_ACCEPT\"]/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:2679
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SAFE_HAVEN_QUEST_ACCEPT\"]/choice[1]/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:2683
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SAFE_HAVEN_QUEST_ACCEPT\"]/choice[2]/text"
+msgstr "함선에서 무언가를 한다."
+
+#: src-en/data/events_sector_stargrove.xml:2687
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SAFE_HAVEN_QUEST_ACCEPT\"]/choice[3]/text"
+msgstr "아무것도 하지 않는다."
+
+#: src-en/data/events_sector_stargrove.xml:2693
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SAFE_HAVEN_QUEST_REFUSE\"]/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:2695
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SAFE_HAVEN_QUEST_REFUSE\"]/choice[1]/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:2699
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SAFE_HAVEN_QUEST_REFUSE\"]/choice[2]/text"
+msgstr "함선에서 무언가를 한다."
+
+#: src-en/data/events_sector_stargrove.xml:2703
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SAFE_HAVEN_QUEST_REFUSE\"]/choice[3]/text"
+msgstr "아무것도 하지 않는다."
+
+#: src-en/data/events_sector_stargrove.xml:2708
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SAFE_HAVEN_OFFERS\"]/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:2710
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SAFE_HAVEN_OFFERS\"]/choice[@req=\"cloaking\"]/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:2712
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SAFE_HAVEN_OFFERS\"]/choice[@req=\"cloaking\"]/event/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:2717
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SAFE_HAVEN_OFFERS\"]/choice[@req=\"shields\"]/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:2719
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SAFE_HAVEN_OFFERS\"]/choice[@req=\"shields\"]/event/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:2724
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SAFE_HAVEN_OFFERS\"]/choice[@req=\"engines\"]/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:2726
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SAFE_HAVEN_OFFERS\"]/choice[@req=\"engines\"]/event/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:2731
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SAFE_HAVEN_OFFERS\"]/choice[4]/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:2733
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SAFE_HAVEN_OFFERS\"]/choice[4]/event/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:2738
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SAFE_HAVEN_OFFERS\"]/choice[5]/text"
+msgstr "수리를 요청한다."
+
+#: src-en/data/events_sector_stargrove.xml:2740
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SAFE_HAVEN_OFFERS\"]/choice[5]/event/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:2745
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SAFE_HAVEN_OFFERS\"]/choice[6]/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:2747
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SAFE_HAVEN_OFFERS\"]/choice[6]/event/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:2752
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SAFE_HAVEN_OFFERS\"]/choice[7]/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:2756
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_SAFE_HAVEN_OFFERS\"]/choice[8]/text"
+msgstr "아무것도 아니다."
+
+#: src-en/data/events_sector_stargrove.xml:2774
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_QUEST_STARGROVE_AUTO_CRUISER\"]/beaconType/unvisitedTooltip"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:2777
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_QUEST_STARGROVE_AUTO_CRUISER\"]/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:2779
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_QUEST_STARGROVE_AUTO_CRUISER\"]/choice[@req=\"unique_dessius\"]/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:2781
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_QUEST_STARGROVE_AUTO_CRUISER\"]/choice[@req=\"unique_dessius\"]/event/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:2791
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_QUEST_STARGROVE_AUTO_CRUISER\"]/choice[@req=\"unique_dessius\"]/event/choice/text"
+msgstr "계속..."
+
+#: src-en/data/events_sector_stargrove.xml:2797
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_QUEST_STARGROVE_AUTO_CRUISER\"]/choice[2]/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:2799
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_QUEST_STARGROVE_AUTO_CRUISER\"]/choice[2]/event/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:2801
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_QUEST_STARGROVE_AUTO_CRUISER\"]/choice[2]/event/choice[1]/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:2803
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_QUEST_STARGROVE_AUTO_CRUISER\"]/choice[2]/event/choice[1]/event/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:2806
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_QUEST_STARGROVE_AUTO_CRUISER\"]/choice[2]/event/choice[1]/event/choice/text"
+msgstr "계속..."
+
+#: src-en/data/events_sector_stargrove.xml:2812
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_QUEST_STARGROVE_AUTO_CRUISER\"]/choice[2]/event/choice[2]/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:2814
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_QUEST_STARGROVE_AUTO_CRUISER\"]/choice[2]/event/choice[2]/event/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:2817
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_QUEST_STARGROVE_AUTO_CRUISER\"]/choice[2]/event/choice[2]/event/choice/text"
+msgstr "계속..."
+
+#: src-en/data/events_sector_stargrove.xml:2823
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_QUEST_STARGROVE_AUTO_CRUISER\"]/choice[2]/event/choice[3]/text"
+msgstr "떠난다."
+
+#: src-en/data/events_sector_stargrove.xml:2829
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_QUEST_STARGROVE_AUTO_CRUISER\"]/choice[3]/text"
+msgstr "공격한다."
+
+#: src-en/data/events_sector_stargrove.xml:2831
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_QUEST_STARGROVE_AUTO_CRUISER\"]/choice[3]/event/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:2834
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_QUEST_STARGROVE_AUTO_CRUISER\"]/choice[3]/event/choice/text"
+msgstr "계속..."
+
+#: src-en/data/events_sector_stargrove.xml:2840
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_QUEST_STARGROVE_AUTO_CRUISER\"]/choice[4]/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:2842
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"NEBULA_LIGHT_QUEST_STARGROVE_AUTO_CRUISER\"]/choice[4]/event/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:2849
+msgid ""
+"data/events_sector_stargrove.xml$//ship[@name=\"SHIP_DYNASTY_STARGROVE\"]/destroyed/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:2852
+msgid ""
+"data/events_sector_stargrove.xml$//ship[@name=\"SHIP_DYNASTY_STARGROVE\"]/destroyed/choice/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:2857
+msgid ""
+"data/events_sector_stargrove.xml$//ship[@name=\"SHIP_DYNASTY_STARGROVE\"]/deadCrew/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:2860
+msgid ""
+"data/events_sector_stargrove.xml$//ship[@name=\"SHIP_DYNASTY_STARGROVE\"]/deadCrew/choice/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:2867
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_AUTO_CONTACT\"]/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:2869
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_AUTO_CONTACT\"]/choice[1]/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:2871
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_AUTO_CONTACT\"]/choice[1]/event/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:2873
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_AUTO_CONTACT\"]/choice[1]/event/choice/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:2879
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_AUTO_CONTACT\"]/choice[2]/text"
+msgstr ""
+
+#: src-en/data/events_sector_stargrove.xml:2885
+msgid ""
+"data/events_sector_stargrove.xml$//event[@name=\"STARGROVE_AUTOSHIP_RETURN\"]/text"
+msgstr ""

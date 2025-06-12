@@ -1,17 +1,15 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-06-08 15:42+0000\n"
-"Last-Translator: Роман <aleev1414@gmail.com>\n"
-"Language-Team: Russian <https://weblate.hyperq.be/projects/ftl-multiverse/"
-"dataevents_sector_clanxml/ru/>\n"
+"PO-Revision-Date: 2025-06-12 01:50+0000\n"
+"Last-Translator: Ukn <bbg100bbg@gmail.com>\n"
+"Language-Team: Russian <https://weblate.hyperq.be/projects/ftl-multiverse/dataevents_sector_clanxml/ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.5.5\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 5.11.4\n"
 
 #: src-en/data/events_sector_clan.xml:38
 msgid "data/events_sector_clan.xml$//event[@name=\"CLAN_FAUNA_START\"]/text"
@@ -237,7 +235,7 @@ msgstr "(Член экипажа-Культист) Ваш Культист ст�
 #: src-en/data/events_sector_clan.xml:171
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"CLAN_FAUNA_OFFER_TO_HELP\"]/choice[@req=\"LIST_VARIANT_SEPARATIST\"]/text"
-msgstr "(Член экипажа-Сепаратист) Вы предлагаете своего энджи Сепаратиста."
+msgstr "(Член экипажа-Сепаратист) Вы предлагаете своего Сепаратиста энджи."
 
 #: src-en/data/events_sector_clan.xml:175
 msgid ""
@@ -753,7 +751,7 @@ msgid ""
 "data/events_sector_clan.xml$//event[@name=\"CLAN_TOURISTS\"]/choice[@req=\"weapons\"]/event/text"
 msgstr ""
 "\"Черт возьми! Не надо быть таким враждебным! Мы дадим вам все, что вы "
-"захотите!\" Кристалллины присылают припасы."
+"захотите!\" Кристаллины присылают припасы."
 
 #: src-en/data/events_sector_clan.xml:506
 msgid ""
@@ -808,9 +806,9 @@ msgstr "Выйти с ними на связь."
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"CLAN_CRISIS\"]/choice[1]/event/text"
 msgstr ""
-"Корабль отвечает и демонстрирует Клановца, судорожно хватающегося за свои "
-"щупальца. \"Как я здесссь оказалссся? Почему моя жизнь ссстала такой? Тень "
-"человека, жессстокий убийца...\""
+"Корабль отвечает и на экране появляется Клановец, судорожно хватающийся за "
+"свои щупальца. \"Как я здесссь оказалссся? Почему моя жизнь ссстала такой? "
+"Тень человека, жессстокий убийца...\""
 
 #: src-en/data/events_sector_clan.xml:542
 msgid ""
@@ -919,7 +917,7 @@ msgstr "Ничего не делать."
 
 #: src-en/data/events_sector_clan.xml:632
 msgid ""
-"data/events_sector_clan.xml$//event[@name=\"NEBULA_CLAN_SHARPSHOOTER\"]/text"
+"data/events_sector_clan.xml$//event[@name=\"NEBULA_LIGHT_CLAN_SHARPSHOOTER\"]/text"
 msgstr ""
 "Просека у этого маяка - не единственная интересная точка на нем. На "
 "поверхности расположенной неподалеку планеты вы обнаруживаете тир, который, "
@@ -929,54 +927,54 @@ msgstr ""
 
 #: src-en/data/events_sector_clan.xml:636
 msgid ""
-"data/events_sector_clan.xml$//event[@name=\"NEBULA_CLAN_SHARPSHOOTER\"]/choice[1]/text"
+"data/events_sector_clan.xml$//event[@name=\"NEBULA_LIGHT_CLAN_SHARPSHOOTER\"]/choice[1]/text"
 msgstr "Заплатить за вход."
 
 #: src-en/data/events_sector_clan.xml:638
 msgid ""
-"data/events_sector_clan.xml$//event[@name=\"NEBULA_CLAN_SHARPSHOOTER\"]/choice[1]/event/text"
+"data/events_sector_clan.xml$//event[@name=\"NEBULA_LIGHT_CLAN_SHARPSHOOTER\"]/choice[1]/event/text"
 msgstr "Вы вносите плату за вход, и вскоре вас проводят внутрь."
 
 #: src-en/data/events_sector_clan.xml:643
 msgid ""
-"data/events_sector_clan.xml$//event[@name=\"NEBULA_CLAN_SHARPSHOOTER\"]/choice[1]/event/choice/text"
+"data/events_sector_clan.xml$//event[@name=\"NEBULA_LIGHT_CLAN_SHARPSHOOTER\"]/choice[1]/event/choice/text"
 msgstr "Продолжить..."
 
 #: src-en/data/events_sector_clan.xml:649
 msgid ""
-"data/events_sector_clan.xml$//event[@name=\"NEBULA_CLAN_SHARPSHOOTER\"]/choice[@req=\"LIST_CREW_CLAN\"]/text"
+"data/events_sector_clan.xml$//event[@name=\"NEBULA_LIGHT_CLAN_SHARPSHOOTER\"]/choice[@req=\"LIST_CREW_CLAN\"]/text"
 msgstr "(Член экипажа из Гильдии) Запросить скидку для члена Гильдии."
 
 #: src-en/data/events_sector_clan.xml:651
 msgid ""
-"data/events_sector_clan.xml$//event[@name=\"NEBULA_CLAN_SHARPSHOOTER\"]/choice[@req=\"LIST_CREW_CLAN\"]/event/text"
+"data/events_sector_clan.xml$//event[@name=\"NEBULA_LIGHT_CLAN_SHARPSHOOTER\"]/choice[@req=\"LIST_CREW_CLAN\"]/event/text"
 msgstr "Вы платите за вход, и вскоре вас проводят внутрь."
 
 #: src-en/data/events_sector_clan.xml:656
 msgid ""
-"data/events_sector_clan.xml$//event[@name=\"NEBULA_CLAN_SHARPSHOOTER\"]/choice[@req=\"LIST_CREW_CLAN\"]/event/choice/text"
+"data/events_sector_clan.xml$//event[@name=\"NEBULA_LIGHT_CLAN_SHARPSHOOTER\"]/choice[@req=\"LIST_CREW_CLAN\"]/event/choice/text"
 msgstr "Продолжить..."
 
 #: src-en/data/events_sector_clan.xml:662
 msgid ""
-"data/events_sector_clan.xml$//event[@name=\"NEBULA_CLAN_SHARPSHOOTER\"]/choice[3]/text"
+"data/events_sector_clan.xml$//event[@name=\"NEBULA_LIGHT_CLAN_SHARPSHOOTER\"]/choice[3]/text"
 msgstr "Не обращать внимания на тир."
 
 #: src-en/data/events_sector_clan.xml:664
 msgid ""
-"data/events_sector_clan.xml$//event[@name=\"NEBULA_CLAN_SHARPSHOOTER\"]/choice[3]/event/text"
+"data/events_sector_clan.xml$//event[@name=\"NEBULA_LIGHT_CLAN_SHARPSHOOTER\"]/choice[3]/event/text"
 msgstr ""
 "Как бы вам ни хотелось провести здесь время, до прибытия флота повстанцев у "
 "вас не так много времени, как хотелось бы. Вы готовитесь к вылету."
 
 #: src-en/data/events_sector_clan.xml:666
 msgid ""
-"data/events_sector_clan.xml$//event[@name=\"NEBULA_CLAN_SHARPSHOOTER\"]/choice[3]/event/choice[1]/text"
+"data/events_sector_clan.xml$//event[@name=\"NEBULA_LIGHT_CLAN_SHARPSHOOTER\"]/choice[3]/event/choice[1]/text"
 msgstr "Заняться чем-либо на корабле."
 
 #: src-en/data/events_sector_clan.xml:670
 msgid ""
-"data/events_sector_clan.xml$//event[@name=\"NEBULA_CLAN_SHARPSHOOTER\"]/choice[3]/event/choice[2]/text"
+"data/events_sector_clan.xml$//event[@name=\"NEBULA_LIGHT_CLAN_SHARPSHOOTER\"]/choice[3]/event/choice[2]/text"
 msgstr "Ничего не делать."
 
 #: src-en/data/events_sector_clan.xml:677
@@ -2125,16 +2123,16 @@ msgstr "Это все недоразумение."
 msgid ""
 "data/events_sector_clan.xml$//eventList[@name=\"CLAN_SHELLANGRY_REASON\"]/event[1]/text"
 msgstr ""
-"Вы разговариваете с ракушками и пытаетесь их образумить. К счастью, ракушки -"
-" существа научные и логичные, а не упрямые и злобные, как золтаны или "
+"Вы разговариваете с ракушками и пытаетесь их образумить. К счастью, ракушки "
+"- существа научные и логичные, а не упрямые и злобные, как золтаны или "
 "слизни. Кажется, они понимают, что ошиблись, и позволяют вам пройти."
 
 #: src-en/data/events_sector_clan.xml:1429
 msgid ""
 "data/events_sector_clan.xml$//eventList[@name=\"CLAN_SHELLANGRY_REASON\"]/event[2]/text"
 msgstr ""
-"Вы разговариваете с ракушками и пытаетесь их образумить. К счастью, ракушки -"
-" существа научные и логичные, а не упрямые и злобные, как золтаны или "
+"Вы разговариваете с ракушками и пытаетесь их образумить. К счастью, ракушки "
+"- существа научные и логичные, а не упрямые и злобные, как золтаны или "
 "слизни. Кажется, они понимают, что ошиблись, и позволяют вам пройти."
 
 #: src-en/data/events_sector_clan.xml:1432
@@ -2170,8 +2168,8 @@ msgid ""
 msgstr ""
 "Вы не уверены, что ожидали ответа, но, к счастью, на экране появился "
 "дружелюбная Лучезарная ракушка, которая более чем готова к разговору. \"ГОЭ "
-"слишком долго охотились на наш вид. Мы не хотели рисковать и вступать в "
-"полномасштабную войну с Клептократией, но настало время дать сдачшу. Мы "
+"сличшком долго охотились на начш вид. Мы не хотели рисковать и вступать в "
+"полномасчштабную войну с Клептократией, но настало время дать сдачшу. Мы "
 "вытесним Гильдию из этого сектора и заставим Клептократию регулировать свою "
 "деятельность, или погибнем. Хотя я не собираюсь умирать\"."
 
@@ -2291,9 +2289,9 @@ msgstr "Попытаться выйти на связь с Сюзеренами.
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"NEBULA_CLAN_SUZERAIN\"]/choice[1]/event/text"
 msgstr ""
-"\"Не беспокой меня! Гильдия ворует все убийства. Что случилось с тем "
-"временем, когда Улья больше всех боялись и отдавали всю добычу? Космос "
-"теперь территория Клана, отвратительно!\""
+"\"Не беспокой меня! Гильдия ворует все убийства. Куда делись те времена, "
+"когда Улья боялись больше всех и отдавали всю добычу? Космос теперь "
+"территория Клановцев, отвратительно!\""
 
 #: src-en/data/events_sector_clan.xml:1530
 msgid ""
@@ -2412,8 +2410,8 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"NEBULA_CLAN_SUZERAIN\"]/choice[1]/event/choice[2]/text"
 msgstr ""
-"Но разве богомолы и слизни не являются союзниками? Посредством Коалиции, то "
-"есть?"
+"Но разве богомолы и слизни не являются союзниками? Благодаря Коалиции, не "
+"так ли?"
 
 #: src-en/data/events_sector_clan.xml:1591
 msgid ""
@@ -3534,7 +3532,7 @@ msgstr ""
 #: src-en/data/events_sector_clan.xml:2246
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"NEBULA_QUEST_CLAN_PHEROMONES_STORE_CHOICE\"]/choice[2]/text"
-msgstr "Не рисковать и пройти уйти."
+msgstr "Не рисковать и уйти."
 
 #: src-en/data/events_sector_clan.xml:2251
 msgid "data/events_sector_clan.xml$//event[@name=\"BOUGHT_THE_GHOST_SHIP\"]/text"
@@ -3546,7 +3544,7 @@ msgstr ""
 #: src-en/data/events_sector_clan.xml:2268
 msgid "data/events_sector_clan.xml$//event[@name=\"PONY_WORLD\"]/text"
 msgstr ""
-"Похоже, что вы наткнулись на буйную планету, кишащую всевозможной "
+"Похоже, что вы наткнулись на плодородную планету, кишащую всевозможной "
 "экзотической живностью. Судя по невероятно ухоженным лугам и захватывающим "
 "дух скальным скульптурам, это, должно быть, одно из лучших охотничьих угодий"
 " ГОЭ. Эти места предназначены только для самых богатых клиентов, а не только"
@@ -3594,7 +3592,7 @@ msgid ""
 msgstr ""
 "Вы присаживаетесь рядом с пасущимися пони, и один из них подходит и кладет "
 "свою морду вам на плечо. Облака движутся вокруг вас, казалось бы, "
-"бесформенными движениями, пока он начинает свой рассказ. \"Когда-то, много "
+"бессмысленными движениями, пока он начинает свой рассказ. \"Когда-то, много "
 "лет назад, жил-был мальчик, который приходил сюда со своим дядей. Его отца "
 "не стало, а мать умерла. Дядя был гордым человеком, а мальчик - кротким. Эти"
 " поездки были необычными и нелегкими, но дядя очень хотел заслужить "
@@ -3611,7 +3609,7 @@ msgid ""
 msgstr ""
 "\"Сначала они приходили и просто наблюдали за дикой природой, но близко не "
 "подходили. Дядя запрещал. Однажды дядя принес ружье. Он показал мальчику, "
-"как им пользоваться, и выстрелил в птицу с неба. Но мальчик только плакал. "
+"как им пользоваться, и выстрелил в птицу в небе. Но мальчик только плакал. "
 "Дядя не понимал, и каждый день все повторялось. Когда они приходили, умирало"
 " какое-то из животных, и мальчик плакал. Мальчик несколько раз брал в руки "
 "ружье, стрелял из него со смертельной точностью, но ни разу не попал в "
@@ -3731,7 +3729,7 @@ msgid ""
 msgstr ""
 "\"Обидно. В наше время ни у кого нет времени... Что ж, мы не будем уходить "
 "отсюда. Продолжай путешествовать. Если вдруг передумаешь, ты знаешь, где мы "
-"будем...\""
+"находимся...\""
 
 #: src-en/data/events_sector_clan.xml:2346
 msgid "data/events_sector_clan.xml$//event[@name=\"PONY_WORLD\"]/choice[2]/text"
@@ -3760,8 +3758,8 @@ msgstr ""
 "Как по заказу, прибывает новое судно. Темно-черный корпус говорит о том, что"
 " это какое-то особое, очень важное судно слизней. Они не обращают на вас "
 "внимания и приземляются неподалеку, доставая свои охотничьи принадлежности и"
-" ведя дружескую легкую беседу. Так было до тех пор, пока Сказочник не "
-"подошел к ним и вежливо не попросил переместить их судно в другое место, "
+" ведя непринужденную дружескую беседу. Так было до тех пор, пока Сказочник "
+"не подошел к ним и вежливо не попросил переместить их судно в другое место, "
 "чтобы не мешать эквиноидам. Слизни разражаются хохотом и тут же начинают "
 "издевательски целиться в пони из своих ружей."
 
@@ -4223,17 +4221,18 @@ msgstr ""
 
 #: src-en/data/events_sector_clan.xml:2636
 msgid ""
-"data/events_sector_clan.xml$//event[@name=\"NEBULA_SALT_QUEST\"]/beaconType/unvisitedTooltip"
+"data/events_sector_clan.xml$//event[@name=\"NEBULA_LIGHT_SALT_QUEST\"]/beaconType/unvisitedTooltip"
 msgstr ""
 "Координаты предполагаемого местонахождения Соляного, указанные Сильваном."
 
 #: src-en/data/events_sector_clan.xml:2637
 msgid ""
-"data/events_sector_clan.xml$//event[@name=\"NEBULA_SALT_QUEST\"]/beaconType/visitedTooltip"
+"data/events_sector_clan.xml$//event[@name=\"NEBULA_LIGHT_SALT_QUEST\"]/beaconType/visitedTooltip"
 msgstr "Посещенное место. Ничего интересного."
 
 #: src-en/data/events_sector_clan.xml:2645
-msgid "data/events_sector_clan.xml$//event[@name=\"NEBULA_SALT_QUEST\"]/text"
+msgid ""
+"data/events_sector_clan.xml$//event[@name=\"NEBULA_LIGHT_SALT_QUEST\"]/text"
 msgstr ""
 "Через просвет в туманности вы находите огромный кристаллический астероид, но"
 " ничего похожего на Соляного человека, которого вы ищете. Тем не менее, "
@@ -4241,14 +4240,14 @@ msgstr ""
 
 #: src-en/data/events_sector_clan.xml:2650
 msgid ""
-"data/events_sector_clan.xml$//event[@name=\"NEBULA_SALT_QUEST\"]/choice[1]/text"
+"data/events_sector_clan.xml$//event[@name=\"NEBULA_LIGHT_SALT_QUEST\"]/choice[1]/text"
 msgstr ""
 "Соляного человека здесь может и не быть, но мы можем воспользоваться этим "
 "астероидом."
 
 #: src-en/data/events_sector_clan.xml:2652
 msgid ""
-"data/events_sector_clan.xml$//event[@name=\"NEBULA_SALT_QUEST\"]/choice[1]/event/text"
+"data/events_sector_clan.xml$//event[@name=\"NEBULA_LIGHT_SALT_QUEST\"]/choice[1]/event/text"
 msgstr ""
 "Вы приближаетесь к астероиду, поражаясь его размерам. Он почти такой же "
 "большой, как ваш корабль! И тут к вам приходит озарение - это же корабль! Он"
@@ -4257,12 +4256,12 @@ msgstr ""
 
 #: src-en/data/events_sector_clan.xml:2655
 msgid ""
-"data/events_sector_clan.xml$//event[@name=\"NEBULA_SALT_QUEST\"]/choice[1]/event/choice[1]/text"
+"data/events_sector_clan.xml$//event[@name=\"NEBULA_LIGHT_SALT_QUEST\"]/choice[1]/event/choice[1]/text"
 msgstr "Проверить свою теорию и отправить на борт несколько членов экипажа."
 
 #: src-en/data/events_sector_clan.xml:2657
 msgid ""
-"data/events_sector_clan.xml$//event[@name=\"NEBULA_SALT_QUEST\"]/choice[1]/event/choice[1]/event/text"
+"data/events_sector_clan.xml$//event[@name=\"NEBULA_LIGHT_SALT_QUEST\"]/choice[1]/event/choice[1]/event/text"
 msgstr ""
 "Похоже, что, как и предыдущая теория с астероидами, теория с пустым кораблем"
 " также не соответствует действительности. Навстречу вам выходит экипаж, "
@@ -4274,49 +4273,49 @@ msgstr ""
 
 #: src-en/data/events_sector_clan.xml:2660
 msgid ""
-"data/events_sector_clan.xml$//event[@name=\"NEBULA_SALT_QUEST\"]/choice[1]/event/choice[1]/event/choice/text"
+"data/events_sector_clan.xml$//event[@name=\"NEBULA_LIGHT_SALT_QUEST\"]/choice[1]/event/choice[1]/event/choice/text"
 msgstr "Продолжить..."
 
 #: src-en/data/events_sector_clan.xml:2666
 msgid ""
-"data/events_sector_clan.xml$//event[@name=\"NEBULA_SALT_QUEST\"]/choice[1]/event/choice[2]/text"
+"data/events_sector_clan.xml$//event[@name=\"NEBULA_LIGHT_SALT_QUEST\"]/choice[1]/event/choice[2]/text"
 msgstr "Не стоит рисковать, выходим из игры."
 
 #: src-en/data/events_sector_clan.xml:2672
 msgid ""
-"data/events_sector_clan.xml$//event[@name=\"NEBULA_SALT_QUEST\"]/choice[2]/text"
+"data/events_sector_clan.xml$//event[@name=\"NEBULA_LIGHT_SALT_QUEST\"]/choice[2]/text"
 msgstr "Видимо, он ушел, незачем здесь задерживаться."
 
 #: src-en/data/events_sector_clan.xml:2674
 msgid ""
-"data/events_sector_clan.xml$//event[@name=\"NEBULA_SALT_QUEST\"]/choice[2]/event/text"
+"data/events_sector_clan.xml$//event[@name=\"NEBULA_LIGHT_SALT_QUEST\"]/choice[2]/event/text"
 msgstr ""
 "Не похоже, чтобы у Сильвана была ложная информация, но что поделаешь. Вы "
 "даже не знаете, откуда у него эта информация."
 
 #: src-en/data/events_sector_clan.xml:2676
 msgid ""
-"data/events_sector_clan.xml$//event[@name=\"NEBULA_SALT_QUEST\"]/choice[2]/event/choice[1]/text"
+"data/events_sector_clan.xml$//event[@name=\"NEBULA_LIGHT_SALT_QUEST\"]/choice[2]/event/choice[1]/text"
 msgstr "Заняться чем-либо на корабле."
 
 #: src-en/data/events_sector_clan.xml:2680
 msgid ""
-"data/events_sector_clan.xml$//event[@name=\"NEBULA_SALT_QUEST\"]/choice[2]/event/choice[2]/text"
+"data/events_sector_clan.xml$//event[@name=\"NEBULA_LIGHT_SALT_QUEST\"]/choice[2]/event/choice[2]/text"
 msgstr "Ничего не делать."
 
 #: src-en/data/events_sector_clan.xml:2689
 msgid ""
-"data/events_sector_clan.xml$//event[@name=\"NEBULA_SALT_QUEST_CHAOS\"]/beaconType/unvisitedTooltip"
+"data/events_sector_clan.xml$//event[@name=\"NEBULA_LIGHT_SALT_QUEST_CHAOS\"]/beaconType/unvisitedTooltip"
 msgstr "Координаты, указанные гномом, где предположительно находится Соляной."
 
 #: src-en/data/events_sector_clan.xml:2690
 msgid ""
-"data/events_sector_clan.xml$//event[@name=\"NEBULA_SALT_QUEST_CHAOS\"]/beaconType/visitedTooltip"
+"data/events_sector_clan.xml$//event[@name=\"NEBULA_LIGHT_SALT_QUEST_CHAOS\"]/beaconType/visitedTooltip"
 msgstr "Посещенное место. Ничего интересного."
 
 #: src-en/data/events_sector_clan.xml:2698
 msgid ""
-"data/events_sector_clan.xml$//event[@name=\"NEBULA_SALT_QUEST_CHAOS\"]/text"
+"data/events_sector_clan.xml$//event[@name=\"NEBULA_LIGHT_SALT_QUEST_CHAOS\"]/text"
 msgstr ""
 "Через просвет в туманности вы находите огромный кристаллический астероид, но"
 " ничего похожего на искомого Соляного Человека. Тем не менее, именно сюда "
@@ -4324,14 +4323,14 @@ msgstr ""
 
 #: src-en/data/events_sector_clan.xml:2703
 msgid ""
-"data/events_sector_clan.xml$//event[@name=\"NEBULA_SALT_QUEST_CHAOS\"]/choice[1]/text"
+"data/events_sector_clan.xml$//event[@name=\"NEBULA_LIGHT_SALT_QUEST_CHAOS\"]/choice[1]/text"
 msgstr ""
 "Соляного человека здесь может и не быть, но мы можем воспользоваться этим "
 "астероидом."
 
 #: src-en/data/events_sector_clan.xml:2705
 msgid ""
-"data/events_sector_clan.xml$//event[@name=\"NEBULA_SALT_QUEST_CHAOS\"]/choice[1]/event/text"
+"data/events_sector_clan.xml$//event[@name=\"NEBULA_LIGHT_SALT_QUEST_CHAOS\"]/choice[1]/event/text"
 msgstr ""
 "Вы приближаетесь к астероиду, поражаясь его размерам. Он почти такой же "
 "большой, как ваш корабль! И тут к вам приходит озарение - это же корабль! Он"
@@ -4340,12 +4339,12 @@ msgstr ""
 
 #: src-en/data/events_sector_clan.xml:2709
 msgid ""
-"data/events_sector_clan.xml$//event[@name=\"NEBULA_SALT_QUEST_CHAOS\"]/choice[1]/event/choice[1]/text"
+"data/events_sector_clan.xml$//event[@name=\"NEBULA_LIGHT_SALT_QUEST_CHAOS\"]/choice[1]/event/choice[1]/text"
 msgstr "Проверить свою теорию и отправить на борт несколько членов экипажа."
 
 #: src-en/data/events_sector_clan.xml:2711
 msgid ""
-"data/events_sector_clan.xml$//event[@name=\"NEBULA_SALT_QUEST_CHAOS\"]/choice[1]/event/choice[1]/event/text"
+"data/events_sector_clan.xml$//event[@name=\"NEBULA_LIGHT_SALT_QUEST_CHAOS\"]/choice[1]/event/choice[1]/event/text"
 msgstr ""
 "Похоже, что, как и предыдущая теория с астероидами, теория с пустым кораблем"
 " также не соответствует действительности. Навстречу вам выходит экипаж, "
@@ -4357,34 +4356,34 @@ msgstr ""
 
 #: src-en/data/events_sector_clan.xml:2715
 msgid ""
-"data/events_sector_clan.xml$//event[@name=\"NEBULA_SALT_QUEST_CHAOS\"]/choice[1]/event/choice[1]/event/choice/text"
+"data/events_sector_clan.xml$//event[@name=\"NEBULA_LIGHT_SALT_QUEST_CHAOS\"]/choice[1]/event/choice[1]/event/choice/text"
 msgstr "Продолжить..."
 
 #: src-en/data/events_sector_clan.xml:2721
 msgid ""
-"data/events_sector_clan.xml$//event[@name=\"NEBULA_SALT_QUEST_CHAOS\"]/choice[1]/event/choice[2]/text"
+"data/events_sector_clan.xml$//event[@name=\"NEBULA_LIGHT_SALT_QUEST_CHAOS\"]/choice[1]/event/choice[2]/text"
 msgstr "Не стоит рисковать, выходим из игры."
 
 #: src-en/data/events_sector_clan.xml:2727
 msgid ""
-"data/events_sector_clan.xml$//event[@name=\"NEBULA_SALT_QUEST_CHAOS\"]/choice[2]/text"
+"data/events_sector_clan.xml$//event[@name=\"NEBULA_LIGHT_SALT_QUEST_CHAOS\"]/choice[2]/text"
 msgstr "Видимо, он ушел, незачем здесь задерживаться."
 
 #: src-en/data/events_sector_clan.xml:2729
 msgid ""
-"data/events_sector_clan.xml$//event[@name=\"NEBULA_SALT_QUEST_CHAOS\"]/choice[2]/event/text"
+"data/events_sector_clan.xml$//event[@name=\"NEBULA_LIGHT_SALT_QUEST_CHAOS\"]/choice[2]/event/text"
 msgstr ""
 "Не похоже, чтобы у Сильвана была ложная информация, но что поделаешь. Вы "
 "даже не знаете, откуда у него эта информация."
 
 #: src-en/data/events_sector_clan.xml:2731
 msgid ""
-"data/events_sector_clan.xml$//event[@name=\"NEBULA_SALT_QUEST_CHAOS\"]/choice[2]/event/choice[1]/text"
+"data/events_sector_clan.xml$//event[@name=\"NEBULA_LIGHT_SALT_QUEST_CHAOS\"]/choice[2]/event/choice[1]/text"
 msgstr "Заняться чем-либо на корабле."
 
 #: src-en/data/events_sector_clan.xml:2735
 msgid ""
-"data/events_sector_clan.xml$//event[@name=\"NEBULA_SALT_QUEST_CHAOS\"]/choice[2]/event/choice[2]/text"
+"data/events_sector_clan.xml$//event[@name=\"NEBULA_LIGHT_SALT_QUEST_CHAOS\"]/choice[2]/event/choice[2]/text"
 msgstr "Ничего не делать."
 
 #: src-en/data/events_sector_clan.xml:2742
@@ -4509,7 +4508,7 @@ msgstr ""
 "Перссси, ТЫ знаешшшь девиз Гильдии?\" Клановец заикается. \"Н-ну... Я э- я "
 "уверен, что ты тоже его не знаешшшь!\" Другой Клановец подносит щупальце к "
 "затылку и нервно почесывает. \"Да... Наверное, ты прав. Кто-нибудь здесссь "
-"знает?\" Все остальные члены клана в комнате смотрят друг на друга и качают "
+"знает?\" Все остальные Клановцы в комнате смотрят друг на друга и качают "
 "головами."
 
 #: src-en/data/events_sector_clan.xml:2799
@@ -4550,74 +4549,92 @@ msgstr "Продолжить..."
 
 #: src-en/data/events_sector_clan.xml:2824
 msgid ""
+"data/events_sector_clan.xml$//event[@name=\"NEBULA_SALT_QUEST_2\"]/choice/event/choice/event/choice[@req=\"BLUELIST_WEAPONS_MIND_CONTROL\"]/text"
+msgstr "(Оружие контроля разума) Конечно!"
+
+#: src-en/data/events_sector_clan.xml:2826
+msgid ""
+"data/events_sector_clan.xml$//event[@name=\"NEBULA_SALT_QUEST_2\"]/choice/event/choice/event/choice[@req=\"BLUELIST_WEAPONS_MIND_CONTROL\"]/event/text"
+msgstr ""
+"Почему-то вам пришла в голову блестящая идея управлять разумом... "
+"телепатических слизней. Пушка пробивает дыру в вашем корабле, и вы вынуждены"
+" приземлиться, привлекая к себе разъяренную команду охранников."
+
+#: src-en/data/events_sector_clan.xml:2829
+msgid ""
+"data/events_sector_clan.xml$//event[@name=\"NEBULA_SALT_QUEST_2\"]/choice/event/choice/event/choice[@req=\"BLUELIST_WEAPONS_MIND_CONTROL\"]/event/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_clan.xml:2835
+msgid ""
 "data/events_sector_clan.xml$//event[@name=\"NEBULA_SALT_QUEST_2\"]/choice/event/choice/event/choice[@req=\"LIST_CREW_CLAN\"]/text"
 msgstr "(Член экипажа-Клановец) \"Конечно!\""
 
-#: src-en/data/events_sector_clan.xml:2826
+#: src-en/data/events_sector_clan.xml:2837
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"NEBULA_SALT_QUEST_2\"]/choice/event/choice/event/choice[@req=\"LIST_CREW_CLAN\"]/event/text"
 msgstr ""
 "Ваш Клановец улыбается и достает свою членскую карту. Всегда полезно иметь "
 "связи в нужных местах. Или... в неправильных местах."
 
-#: src-en/data/events_sector_clan.xml:2828
+#: src-en/data/events_sector_clan.xml:2839
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"NEBULA_SALT_QUEST_2\"]/choice/event/choice/event/choice[@req=\"LIST_CREW_CLAN\"]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_clan.xml:2834
+#: src-en/data/events_sector_clan.xml:2845
 msgid ""
-"data/events_sector_clan.xml$//event[@name=\"NEBULA_SALT_QUEST_2\"]/choice/event/choice/event/choice[4]/text"
+"data/events_sector_clan.xml$//event[@name=\"NEBULA_SALT_QUEST_2\"]/choice/event/choice/event/choice[5]/text"
 msgstr "Не-а."
 
-#: src-en/data/events_sector_clan.xml:2836
+#: src-en/data/events_sector_clan.xml:2847
 msgid ""
-"data/events_sector_clan.xml$//event[@name=\"NEBULA_SALT_QUEST_2\"]/choice/event/choice/event/choice[4]/event/text"
+"data/events_sector_clan.xml$//event[@name=\"NEBULA_SALT_QUEST_2\"]/choice/event/choice/event/choice[5]/event/text"
 msgstr ""
 "Клановец вздыхает. \"Ну, по крайней мере, ты честен\". На борт вашего "
 "корабля врывается группа охранников-Клановцев."
 
-#: src-en/data/events_sector_clan.xml:2838
+#: src-en/data/events_sector_clan.xml:2849
 msgid ""
-"data/events_sector_clan.xml$//event[@name=\"NEBULA_SALT_QUEST_2\"]/choice/event/choice/event/choice[4]/event/choice/text"
+"data/events_sector_clan.xml$//event[@name=\"NEBULA_SALT_QUEST_2\"]/choice/event/choice/event/choice[5]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_clan.xml:2849
+#: src-en/data/events_sector_clan.xml:2860
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"SALT_QUEST_2_MOTTO_WRONG\"]/text"
 msgstr ""
-"\"Это звучит неплохо. Но тоже и неправильно. Ты врешшшь в глаза, это ясссно "
-"как день, приятель\"."
+"\"Звучит неплохо, но неправильно. Ты врешшшь в глаза, это ясссно как день, "
+"приятель\"."
 
-#: src-en/data/events_sector_clan.xml:2851
+#: src-en/data/events_sector_clan.xml:2862
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"SALT_QUEST_2_MOTTO_WRONG\"]/choice/text"
 msgstr "Нет, вы лжете."
 
-#: src-en/data/events_sector_clan.xml:2853
+#: src-en/data/events_sector_clan.xml:2864
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"SALT_QUEST_2_MOTTO_WRONG\"]/choice/event/text"
 msgstr ""
 "\"У меня нет времени на это\". Клановец просит команду охранников подняться "
 "на борт вашего корабля."
 
-#: src-en/data/events_sector_clan.xml:2855
+#: src-en/data/events_sector_clan.xml:2866
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"SALT_QUEST_2_MOTTO_WRONG\"]/choice/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_clan.xml:2862
+#: src-en/data/events_sector_clan.xml:2873
 msgid "data/events_sector_clan.xml$//event[@name=\"SALT_QUEST_2_STUPID\"]/text"
 msgstr ""
 "Несколько Клановцев рыщут по кораблю в поисках чего-нибудь подозрительного. "
 "Вы нервно ждете, пока они это делают."
 
-#: src-en/data/events_sector_clan.xml:2864
+#: src-en/data/events_sector_clan.xml:2875
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"SALT_QUEST_2_STUPID\"]/choice/text"
 msgstr "Подождать, пока они закончат проверку."
 
-#: src-en/data/events_sector_clan.xml:2866
+#: src-en/data/events_sector_clan.xml:2877
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"SALT_QUEST_2_STUPID\"]/choice/event/text"
 msgstr ""
@@ -4627,12 +4644,12 @@ msgstr ""
 "умысле, Клановцы идут на сделку и предлагают \"временное\" членство со "
 "скидкой за 25 лома."
 
-#: src-en/data/events_sector_clan.xml:2868
+#: src-en/data/events_sector_clan.xml:2879
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"SALT_QUEST_2_STUPID\"]/choice/event/choice[1]/text"
 msgstr "Приобрести членство."
 
-#: src-en/data/events_sector_clan.xml:2870
+#: src-en/data/events_sector_clan.xml:2881
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"SALT_QUEST_2_STUPID\"]/choice/event/choice[1]/event/text"
 msgstr ""
@@ -4641,23 +4658,23 @@ msgstr ""
 "без проблем попасть внутрь - по крайней мере, до тех пор, пока не достанете "
 "Соляного человека."
 
-#: src-en/data/events_sector_clan.xml:2875
+#: src-en/data/events_sector_clan.xml:2886
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"SALT_QUEST_2_STUPID\"]/choice/event/choice[1]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_clan.xml:2881
+#: src-en/data/events_sector_clan.xml:2892
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"SALT_QUEST_2_STUPID\"]/choice/event/choice[2]/text"
 msgstr "Отказаться."
 
-#: src-en/data/events_sector_clan.xml:2883
+#: src-en/data/events_sector_clan.xml:2894
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"SALT_QUEST_2_STUPID\"]/choice/event/choice[2]/event/text"
 msgstr ""
 "Вы не готовы заплатить, а значит, ваше путешествие на этом заканчивается."
 
-#: src-en/data/events_sector_clan.xml:2892
+#: src-en/data/events_sector_clan.xml:2903
 msgid ""
 "data/events_sector_clan.xml$//ship[@name=\"SHIP_CLAN_CRUISER\"]/destroyed/text"
 msgstr ""
@@ -4666,12 +4683,12 @@ msgstr ""
 "более многочисленный флот Клановцев! Вы никак не можете уничтожить ВСЕ эти "
 "корабли..."
 
-#: src-en/data/events_sector_clan.xml:2894
+#: src-en/data/events_sector_clan.xml:2905
 msgid ""
 "data/events_sector_clan.xml$//ship[@name=\"SHIP_CLAN_CRUISER\"]/destroyed/choice/text"
 msgstr "О боже..."
 
-#: src-en/data/events_sector_clan.xml:2899
+#: src-en/data/events_sector_clan.xml:2910
 msgid ""
 "data/events_sector_clan.xml$//ship[@name=\"SHIP_CLAN_CRUISER\"]/deadCrew/text"
 msgstr ""
@@ -4680,12 +4697,12 @@ msgstr ""
 "более многочисленный флот Клановцев! Вы никак не можете уничтожить ВСЕ эти "
 "корабли..."
 
-#: src-en/data/events_sector_clan.xml:2901
+#: src-en/data/events_sector_clan.xml:2912
 msgid ""
 "data/events_sector_clan.xml$//ship[@name=\"SHIP_CLAN_CRUISER\"]/deadCrew/choice/text"
 msgstr "О боже..."
 
-#: src-en/data/events_sector_clan.xml:2908
+#: src-en/data/events_sector_clan.xml:2919
 msgid ""
 "data/events_sector_clan.xml$//ship[@name=\"SHIP_CLAN_CRUISER_CHAOS\"]/destroyed/text"
 msgstr ""
@@ -4694,32 +4711,32 @@ msgstr ""
 "более многочисленный флот Клановцев! Вы никак не можете уничтожить ВСЕ эти "
 "корабли..."
 
-#: src-en/data/events_sector_clan.xml:2910
+#: src-en/data/events_sector_clan.xml:2921
 msgid ""
 "data/events_sector_clan.xml$//ship[@name=\"SHIP_CLAN_CRUISER_CHAOS\"]/destroyed/choice/text"
 msgstr "О боже..."
 
-#: src-en/data/events_sector_clan.xml:2915
+#: src-en/data/events_sector_clan.xml:2926
 msgid ""
 "data/events_sector_clan.xml$//ship[@name=\"SHIP_CLAN_CRUISER_CHAOS\"]/deadCrew/text"
 msgstr ""
 "Вы уничтожили крейсер Клановцев, но у вас почти нет времени праздновать. "
 "Рядом появляется еще один крейсер, за ним еще один, и еще, а за ними еще "
-"более многочисленный флот Клановцев! Вы никак не можете уничтожить ВСЕ эти "
+"более многочисленный флот Клановцев! Вы не сможете уничтожить все эти "
 "корабли..."
 
-#: src-en/data/events_sector_clan.xml:2917
+#: src-en/data/events_sector_clan.xml:2928
 msgid ""
 "data/events_sector_clan.xml$//ship[@name=\"SHIP_CLAN_CRUISER_CHAOS\"]/deadCrew/choice/text"
 msgstr "О боже..."
 
-#: src-en/data/events_sector_clan.xml:2929
+#: src-en/data/events_sector_clan.xml:2940
 msgid ""
 "data/events_sector_clan.xml$/FTL/event[@name=\"SALT_QUEST_2_SUCCESS_NORMAL\"]/text"
 msgstr ""
 "Наконец-то вы добрались до тюремного отсека с надписью \"Содержание "
 "экзотических существ.\". По пути вы застрелили нескольких охранников, "
-"подобрали у одного из них ключ-карту, с помощью которой отперли камеру "
+"подобрали у одного из них ключ-карту, с помощью которой открываете камеру "
 "Соляного человека, где обнаружили громадное серое существо, прислонившееся к"
 " стене, словно ожидающее вас. \"Попробую предположить, что вы не из Гильдии,"
 " поскольку зеленая жижа на вашей груди, похоже, принадлежит кому-то "
@@ -4727,12 +4744,12 @@ msgstr ""
 " называют меня просто \"Соляной человек\". Полюбуйтесь на меня, пока есть "
 "возможность, меня не часто увидишь\"."
 
-#: src-en/data/events_sector_clan.xml:2931
+#: src-en/data/events_sector_clan.xml:2942
 msgid ""
 "data/events_sector_clan.xml$/FTL/event[@name=\"SALT_QUEST_2_SUCCESS_NORMAL\"]/choice/text"
 msgstr "Вы правы, Сильван послал нас найти вас."
 
-#: src-en/data/events_sector_clan.xml:2933
+#: src-en/data/events_sector_clan.xml:2944
 msgid ""
 "data/events_sector_clan.xml$/FTL/event[@name=\"SALT_QUEST_2_SUCCESS_NORMAL\"]/choice/event/text"
 msgstr ""
@@ -4740,26 +4757,26 @@ msgstr ""
 "торговец? Это он?\" В голосе Соляного человека чувствуется одновременно и "
 "волнение, и настороженность."
 
-#: src-en/data/events_sector_clan.xml:2935
+#: src-en/data/events_sector_clan.xml:2946
 msgid ""
 "data/events_sector_clan.xml$/FTL/event[@name=\"SALT_QUEST_2_SUCCESS_NORMAL\"]/choice/event/choice/text"
 msgstr ""
 "Да, тот самый. С большим жутким кораблем, который часто говорит "
 "\"странник\"."
 
-#: src-en/data/events_sector_clan.xml:2937
+#: src-en/data/events_sector_clan.xml:2948
 msgid ""
 "data/events_sector_clan.xml$/FTL/event[@name=\"SALT_QUEST_2_SUCCESS_NORMAL\"]/choice/event/choice/event/text"
 msgstr ""
-"\"Моя любимая здесь? О, Боже, я вряд ли готов к такому воссоединению... Я..."
-" подождите, а где же он?\""
+"\"Мой дражайший здесь? О, Боже, я вряд ли готов к такому воссоединению... "
+"Я... подождите, а где же он?\""
 
-#: src-en/data/events_sector_clan.xml:2939
+#: src-en/data/events_sector_clan.xml:2950
 msgid ""
 "data/events_sector_clan.xml$/FTL/event[@name=\"SALT_QUEST_2_SUCCESS_NORMAL\"]/choice/event/choice/event/choice/text"
 msgstr "О... ну вообще-то его здесь нет."
 
-#: src-en/data/events_sector_clan.xml:2941
+#: src-en/data/events_sector_clan.xml:2952
 msgid ""
 "data/events_sector_clan.xml$/FTL/event[@name=\"SALT_QUEST_2_SUCCESS_NORMAL\"]/choice/event/choice/event/choice/event/text"
 msgstr ""
@@ -4771,92 +4788,92 @@ msgstr ""
 "продавая оружие бомжам-убийцам, поэтому, конечно, он не может даже "
 "показаться мне на глаза последние 6 лет!\""
 
-#: src-en/data/events_sector_clan.xml:2943
+#: src-en/data/events_sector_clan.xml:2954
 msgid ""
 "data/events_sector_clan.xml$/FTL/event[@name=\"SALT_QUEST_2_SUCCESS_NORMAL\"]/choice/event/choice/event/choice/event/choice/text"
 msgstr "Успокойтесь, сначала мы должны вытащить вас отсюда."
 
-#: src-en/data/events_sector_clan.xml:2945
+#: src-en/data/events_sector_clan.xml:2956
 msgid ""
 "data/events_sector_clan.xml$/FTL/event[@name=\"SALT_QUEST_2_SUCCESS_NORMAL\"]/choice/event/choice/event/choice/event/choice/event/text"
 msgstr ""
-"\"Точно-точно. Ладно. Ты случайно не встретил мою команду? Учитывая, что мой"
-" трусливый бывший не удосужился меня найти, я сомневаюсь, что он знал, что я"
-" здесь, так что вы наверняка откуда-то получили мои координаты\". Вы "
+"\"Точно-точно. Ладно. Вы случайно не встречали мою команду? Учитывая, что "
+"мой трусливый бывший не удосужился меня найти, я сомневаюсь, что он знал, "
+"что я здесь, так что вы наверняка где-то узнали мои координаты\". Вы "
 "сообщаете Обину, что действительно встретили его команду. \"Отлично. По "
 "крайней мере, я могу рассчитывать, что они не оставят меня. Ладно, давайте "
 "поскорее убираться отсюда. Вам удалось проникнуть сюда, но я сомневаюсь, что"
 " Гильдия позволит нам уйти\"."
 
-#: src-en/data/events_sector_clan.xml:2947
+#: src-en/data/events_sector_clan.xml:2958
 msgid ""
 "data/events_sector_clan.xml$/FTL/event[@name=\"SALT_QUEST_2_SUCCESS_NORMAL\"]/choice/event/choice/event/choice/event/choice/event/choice[@req=\"LIST_CHECK_ANY_CREW\""
 " and @lvl=\"1\"]/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_clan.xml:2949
+#: src-en/data/events_sector_clan.xml:2960
 msgid ""
 "data/events_sector_clan.xml$/FTL/event[@name=\"SALT_QUEST_2_SUCCESS_NORMAL\"]/choice/event/choice/event/choice/event/choice/event/choice[@req=\"LIST_CHECK_ANY_CREW\""
 " and @lvl=\"1\"]/event/text"
 msgstr ""
-"Обин следует за вами по коридорам комплекса, где вы возвращаетесь в ангар, "
-"где находится ваш корабль. Вы поспешно заходите внутрь, вылетаете из "
+"Обин следует за вами по коридорам комплекса, а потом вы возвращаетесь в "
+"ангар, где находится ваш корабль. Вы поспешно заходите внутрь, вылетаете из "
 "огромного здания и спускаетесь к рынку. Вы уже начали думать, что вам "
 "удастся выбраться отсюда без боя, как вдруг откуда ни возьмись появляется "
 "крейсер Клановцев! \"Ах, вот вы где, маленькие фекальные отбросы! "
 "Воровссство у Гильдии закончитссся для вассс только в одном месссте! В "
 "неглубокой могиле!\""
 
-#: src-en/data/events_sector_clan.xml:2951
+#: src-en/data/events_sector_clan.xml:2962
 msgid ""
 "data/events_sector_clan.xml$/FTL/event[@name=\"SALT_QUEST_2_SUCCESS_NORMAL\"]/choice/event/choice/event/choice/event/choice/event/choice[@req=\"LIST_CHECK_ANY_CREW\""
 " and @lvl=\"1\"]/event/crewMember"
 msgstr "Обин"
 
-#: src-en/data/events_sector_clan.xml:2954
+#: src-en/data/events_sector_clan.xml:2965
 msgid ""
 "data/events_sector_clan.xml$/FTL/event[@name=\"SALT_QUEST_2_SUCCESS_NORMAL\"]/choice/event/choice/event/choice/event/choice/event/choice[@req=\"LIST_CHECK_ANY_CREW\""
 " and @lvl=\"1\"]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_clan.xml:2960
+#: src-en/data/events_sector_clan.xml:2971
 msgid ""
 "data/events_sector_clan.xml$/FTL/event[@name=\"SALT_QUEST_2_SUCCESS_NORMAL\"]/choice/event/choice/event/choice/event/choice/event/choice[@req=\"LIST_CHECK_ANY_CREW\""
 " and @lvl=\"0\"]/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_clan.xml:2962
+#: src-en/data/events_sector_clan.xml:2973
 msgid ""
 "data/events_sector_clan.xml$/FTL/event[@name=\"SALT_QUEST_2_SUCCESS_NORMAL\"]/choice/event/choice/event/choice/event/choice/event/choice[@req=\"LIST_CHECK_ANY_CREW\""
 " and @lvl=\"0\"]/event/text"
 msgstr ""
-"Обин следует за вами по коридорам комплекса, где вы возвращаетесь в ангар, "
-"где находится ваш корабль. Вы поспешно заходите внутрь, вылетаете из "
+"Обин следует за вами по коридорам комплекса, а потом вы возвращаетесь в "
+"ангар, где находится ваш корабль. Вы поспешно заходите внутрь, вылетаете из "
 "огромного здания и спускаетесь к рынку. Вы уже начали думать, что вам "
 "удастся выбраться отсюда без боя, как вдруг откуда ни возьмись появляется "
 "крейсер Клановцев! \"Ах, вот вы где, маленькие фекальные отбросы! "
 "Воровссство у Гильдии закончитссся для вассс только в одном месссте! В "
 "неглубокой могиле!\""
 
-#: src-en/data/events_sector_clan.xml:2963
+#: src-en/data/events_sector_clan.xml:2974
 msgid ""
 "data/events_sector_clan.xml$/FTL/event[@name=\"SALT_QUEST_2_SUCCESS_NORMAL\"]/choice/event/choice/event/choice/event/choice/event/choice[@req=\"LIST_CHECK_ANY_CREW\""
 " and @lvl=\"0\"]/event/crewMember"
 msgstr "Обин"
 
-#: src-en/data/events_sector_clan.xml:2966
+#: src-en/data/events_sector_clan.xml:2977
 msgid ""
 "data/events_sector_clan.xml$/FTL/event[@name=\"SALT_QUEST_2_SUCCESS_NORMAL\"]/choice/event/choice/event/choice/event/choice/event/choice[@req=\"LIST_CHECK_ANY_CREW\""
 " and @lvl=\"0\"]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_clan.xml:2989
+#: src-en/data/events_sector_clan.xml:3000
 msgid ""
 "data/events_sector_clan.xml$/FTL/event[@name=\"SALT_QUEST_2_SUCCESS_CHAOS\"]/text"
 msgstr ""
 "Наконец-то вы добрались до тюремного отсека с надписью \"Содержание "
 "экзотических существ.\". По пути вы застрелили нескольких охранников, "
-"подобрали у одного из них ключ-карту, с помощью которой отперли камеру "
+"подобрали у одного из них ключ-карту, с помощью которой открываете камеру "
 "Соляного человека, где обнаружили громадное серое существо, прислонившееся к"
 " стене, словно ожидающее вас. \"Попробую предположить, что вы не из Гильдии,"
 " поскольку зеленая жижа на вашей груди, похоже, принадлежит кому-то "
@@ -4864,42 +4881,33 @@ msgstr ""
 " называют меня просто \"Соляной человек\". Полюбуйтесь на меня, пока есть "
 "возможность, меня не часто увидишь\"."
 
-#: src-en/data/events_sector_clan.xml:2991
+#: src-en/data/events_sector_clan.xml:3002
 msgid ""
 "data/events_sector_clan.xml$/FTL/event[@name=\"SALT_QUEST_2_SUCCESS_CHAOS\"]/choice/text"
 msgstr "Думаю, вы правы. Если только этот гном не работает на Гильдию."
 
-#: src-en/data/events_sector_clan.xml:2993
+#: src-en/data/events_sector_clan.xml:3004
 msgid ""
 "data/events_sector_clan.xml$/FTL/event[@name=\"SALT_QUEST_2_SUCCESS_CHAOS\"]/choice/event/text"
 msgstr "\"Ч... что? Какой гном? Можно узнать, что такое \"гном\"?\""
 
-#: src-en/data/events_sector_clan.xml:2995
+#: src-en/data/events_sector_clan.xml:3006
 msgid ""
 "data/events_sector_clan.xml$/FTL/event[@name=\"SALT_QUEST_2_SUCCESS_CHAOS\"]/choice/event/choice/text"
 msgstr "Показать ему гнома."
 
-#: src-en/data/events_sector_clan.xml:2997
+#: src-en/data/events_sector_clan.xml:3008
 msgid ""
 "data/events_sector_clan.xml$/FTL/event[@name=\"SALT_QUEST_2_SUCCESS_CHAOS\"]/choice/event/choice/event/text"
-msgstr ""
-"Обин выглядит растерянно, когда вы пытаетесь помахать перед ним гномом. "
-"\"Я... что? У вас ничего нету в руках. Знаете что, меня это мало волнует. Я "
-"работал с достаточным количеством сумасшедших, чтобы понять, когда не стоит "
-"разбираться с их бреднями. Если гном послал вас сюда, то слава богу, что "
-"гном. Вы случайно не познакомились с моей командой?\" Вы сообщаете Обину, "
-"что действительно познакомились с его командой. \"Отлично. По крайней мере, "
-"я могу рассчитывать, что они не оставят меня. Ладно, давайте убираться "
-"отсюда побыстрее. Вы прекрасно пробрались сюда, но я сомневаюсь, что Гильдия"
-" позволит нам уйти\"."
+msgstr "Обин выглядит растерянно, когда вы пытаетесь помахать перед ним гномом. \"Я... что? У вас ничего нет в руках. Знаете что, меня это мало волнует. Я работал с достаточным количеством сумасшедших, чтобы понять, когда не стоит разбираться с их бреднями. Если гном послал вас сюда, то слава богу, что гном. Вы случайно не познакомились с моей командой?\" Вы сообщаете Обину, что действительно познакомились с его командой. \"Отлично. По крайней мере, я могу рассчитывать, что они не оставят меня. Ладно, давайте убираться отсюда побыстрее. Вы прекрасно пробрались сюда, но я сомневаюсь, что Гильдия позволит нам уйти\"."
 
-#: src-en/data/events_sector_clan.xml:3000
+#: src-en/data/events_sector_clan.xml:3011
 msgid ""
 "data/events_sector_clan.xml$/FTL/event[@name=\"SALT_QUEST_2_SUCCESS_CHAOS\"]/choice/event/choice/event/choice[@req=\"LIST_CHECK_ANY_CREW\""
 " and @lvl=\"1\"]/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_clan.xml:3002
+#: src-en/data/events_sector_clan.xml:3013
 msgid ""
 "data/events_sector_clan.xml$/FTL/event[@name=\"SALT_QUEST_2_SUCCESS_CHAOS\"]/choice/event/choice/event/choice[@req=\"LIST_CHECK_ANY_CREW\""
 " and @lvl=\"1\"]/event/text"
@@ -4912,25 +4920,25 @@ msgstr ""
 "Воровссство у Гильдии закончитссся для вассс только в одном месссте! В "
 "неглубокой могиле!\""
 
-#: src-en/data/events_sector_clan.xml:3004
+#: src-en/data/events_sector_clan.xml:3015
 msgid ""
 "data/events_sector_clan.xml$/FTL/event[@name=\"SALT_QUEST_2_SUCCESS_CHAOS\"]/choice/event/choice/event/choice[@req=\"LIST_CHECK_ANY_CREW\""
 " and @lvl=\"1\"]/event/crewMember"
 msgstr "Обин"
 
-#: src-en/data/events_sector_clan.xml:3007
+#: src-en/data/events_sector_clan.xml:3018
 msgid ""
 "data/events_sector_clan.xml$/FTL/event[@name=\"SALT_QUEST_2_SUCCESS_CHAOS\"]/choice/event/choice/event/choice[@req=\"LIST_CHECK_ANY_CREW\""
 " and @lvl=\"1\"]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_clan.xml:3013
+#: src-en/data/events_sector_clan.xml:3024
 msgid ""
 "data/events_sector_clan.xml$/FTL/event[@name=\"SALT_QUEST_2_SUCCESS_CHAOS\"]/choice/event/choice/event/choice[@req=\"LIST_CHECK_ANY_CREW\""
 " and @lvl=\"0\"]/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_clan.xml:3015
+#: src-en/data/events_sector_clan.xml:3026
 msgid ""
 "data/events_sector_clan.xml$/FTL/event[@name=\"SALT_QUEST_2_SUCCESS_CHAOS\"]/choice/event/choice/event/choice[@req=\"LIST_CHECK_ANY_CREW\""
 " and @lvl=\"0\"]/event/text"
@@ -4943,19 +4951,19 @@ msgstr ""
 "Воровссство у Гильдии закончитссся для вассс только в одном месссте! В "
 "неглубокой могиле!\""
 
-#: src-en/data/events_sector_clan.xml:3016
+#: src-en/data/events_sector_clan.xml:3027
 msgid ""
 "data/events_sector_clan.xml$/FTL/event[@name=\"SALT_QUEST_2_SUCCESS_CHAOS\"]/choice/event/choice/event/choice[@req=\"LIST_CHECK_ANY_CREW\""
 " and @lvl=\"0\"]/event/crewMember"
 msgstr "Обин"
 
-#: src-en/data/events_sector_clan.xml:3019
+#: src-en/data/events_sector_clan.xml:3030
 msgid ""
 "data/events_sector_clan.xml$/FTL/event[@name=\"SALT_QUEST_2_SUCCESS_CHAOS\"]/choice/event/choice/event/choice[@req=\"LIST_CHECK_ANY_CREW\""
 " and @lvl=\"0\"]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_clan.xml:3031
+#: src-en/data/events_sector_clan.xml:3042
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"SYLVAN_DOES_AN_EX_MACHINA\"]/text"
 msgstr ""
@@ -4966,12 +4974,12 @@ msgstr ""
 " правом на эксссплуатацию находящщщихссся в них ресссурсссов! Выдайте "
 "Сссоляного человека или будете уничтожены!\""
 
-#: src-en/data/events_sector_clan.xml:3035
+#: src-en/data/events_sector_clan.xml:3046
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"SYLVAN_DOES_AN_EX_MACHINA\"]/choice[@req=\"pilot\"]/text"
 msgstr "Нет, пошли вы! Я устал слушать ваши тупые акценты!"
 
-#: src-en/data/events_sector_clan.xml:3037
+#: src-en/data/events_sector_clan.xml:3048
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"SYLVAN_DOES_AN_EX_MACHINA\"]/choice[@req=\"pilot\"]/event/text"
 msgstr ""
@@ -4981,13 +4989,13 @@ msgstr ""
 "\n"
 "\"Черт, черт, черт, это ОН! БЕЖИМ!\" Клановцы разбегаются. Вы знали, что у Сильвана особенно... хорошо вооруженный корабль, но не думали, что он достаточно силен, чтобы распугать целый флот. Очевидно, его уход из Гильдии оставил довольно сильное впечатление."
 
-#: src-en/data/events_sector_clan.xml:3043
+#: src-en/data/events_sector_clan.xml:3054
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"SYLVAN_DOES_AN_EX_MACHINA\"]/choice[@req=\"pilot\"]/event/choice[@req=\"OBYN_GUILD\""
 " and @lvl=\"1\"]/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_clan.xml:3045
+#: src-en/data/events_sector_clan.xml:3056
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"SYLVAN_DOES_AN_EX_MACHINA\"]/choice[@req=\"pilot\"]/event/choice[@req=\"OBYN_GUILD\""
 " and @lvl=\"1\"]/event/text"
@@ -4998,45 +5006,45 @@ msgstr ""
 "\n"
 "\"Хе-хе, я и не думал об этом, Обин. Давненько не виделисссь. Как жизнь?\""
 
-#: src-en/data/events_sector_clan.xml:3051
+#: src-en/data/events_sector_clan.xml:3062
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"SYLVAN_DOES_AN_EX_MACHINA\"]/choice[@req=\"pilot\"]/event/choice[@req=\"OBYN_GUILD\""
 " and @lvl=\"1\"]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_clan.xml:3053
+#: src-en/data/events_sector_clan.xml:3064
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"SYLVAN_DOES_AN_EX_MACHINA\"]/choice[@req=\"pilot\"]/event/choice[@req=\"OBYN_GUILD\""
 " and @lvl=\"1\"]/event/choice/event/text"
 msgstr ""
-"\"Ну, знаешь, просто бродить по этому кишащему отбросами сектору и находиться в плену в лабораториях, где они калечат людей ради забавы\". \n"
+"\"Ну, знаешь, просто скитаться по этому кишащему отбросами сектору и находиться в плену в лабораториях, где они калечат людей ради забавы\". \n"
 "Обин делает паузу. \"6. Лет. И ты спрашиваешь меня \"как жизнь?!\"\"\n"
 "\n"
 "Сильван нервно смеется. \"Кажетссся, это называетссся таксссидермией. Я всссегда находил это отвратительным\".\n"
 "Сильван делает паузу. \"Мне жаль, Обин, что я ушел. Я не думал, что сссмогу ссснова увидеть тебя, ссспуссстя ссстолько времени, но когда я уссслышшшал, что ты можешшшь быть в беде, я пришшшел. Но я... я всссе ещщще был ссслишшшком труссслив, поэтому вмесссто сссебя я поссслал этих сссвоих друзей\"."
 
-#: src-en/data/events_sector_clan.xml:3059
+#: src-en/data/events_sector_clan.xml:3070
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"SYLVAN_DOES_AN_EX_MACHINA\"]/choice[@req=\"pilot\"]/event/choice[@req=\"OBYN_GUILD\""
 " and @lvl=\"1\"]/event/choice/event/choice[1]/text"
 msgstr "Продолжать слушать."
 
-#: src-en/data/events_sector_clan.xml:3061
+#: src-en/data/events_sector_clan.xml:3072
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"SYLVAN_DOES_AN_EX_MACHINA\"]/choice[@req=\"pilot\"]/event/choice[@req=\"OBYN_GUILD\""
 " and @lvl=\"1\"]/event/choice/event/choice[1]/event/text"
 msgstr ""
-"Обин вздыхает. \"Трудно на тебя сердиться. Но тебе предстоит многое исправить. Но, в конце концов, ты пришел. А это уже чего-то стоит, я думаю. Остальное мы можем обсудить позже. А сейчас иди сюда\".\n"
+"Обин вздыхает. \"Трудно на тебя сердиться. Тебе предстоит многое исправить - но, в конце концов, ты пришел. А это уже чего-то стоит, я думаю. Остальное мы можем обсудить позже. А сейчас иди сюда\".\n"
 "\t\t\t\t\t\t\t\t\t\t\n"
 "Они обнимаются, хотя Сильван держится на достаточном расстоянии от его тела, чтобы его плоть не обжигала соляная кожа Обина. Вы понимаете, что это довольно парадоксальные взаимоотношения."
 
-#: src-en/data/events_sector_clan.xml:3065
+#: src-en/data/events_sector_clan.xml:3076
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"SYLVAN_DOES_AN_EX_MACHINA\"]/choice[@req=\"pilot\"]/event/choice[@req=\"OBYN_GUILD\""
 " and @lvl=\"1\"]/event/choice/event/choice[1]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_clan.xml:3071
+#: src-en/data/events_sector_clan.xml:3082
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"SYLVAN_DOES_AN_EX_MACHINA\"]/choice[@req=\"pilot\"]/event/choice[@req=\"OBYN_GUILD\""
 " and @lvl=\"1\"]/event/choice/event/choice[2]/text"
@@ -5044,7 +5052,7 @@ msgstr ""
 "Слушайте, ребята, это, конечно, здорово и все такое, но не могли бы вы "
 "оставить личные вопросы на потом?"
 
-#: src-en/data/events_sector_clan.xml:3073
+#: src-en/data/events_sector_clan.xml:3084
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"SYLVAN_DOES_AN_EX_MACHINA\"]/choice[@req=\"pilot\"]/event/choice[@req=\"OBYN_GUILD\""
 " and @lvl=\"1\"]/event/choice/event/choice[2]/event/text"
@@ -5054,24 +5062,24 @@ msgstr ""
 "Каким бы я был человеком, есссли бы не вознаградил тебя за твои "
 "ссстарания!\""
 
-#: src-en/data/events_sector_clan.xml:3075
+#: src-en/data/events_sector_clan.xml:3086
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"SYLVAN_DOES_AN_EX_MACHINA\"]/choice[@req=\"pilot\"]/event/choice[@req=\"OBYN_GUILD\""
 " and @lvl=\"1\"]/event/choice/event/choice[2]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_clan.xml:3085
+#: src-en/data/events_sector_clan.xml:3096
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"SYLVAN_DOES_AN_EX_MACHINA\"]/choice[@req=\"pilot\"]/event/choice[@req=\"OBYN_GUILD\""
 " and @lvl=\"0\"]/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_clan.xml:3091
+#: src-en/data/events_sector_clan.xml:3102
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"SYLVAN_DOES_AN_EX_MACHINA\"]/choice[@req=\"unique_obyn_temp\"]/text"
 msgstr "Отказаться от Соляного человека."
 
-#: src-en/data/events_sector_clan.xml:3093
+#: src-en/data/events_sector_clan.xml:3104
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"SYLVAN_DOES_AN_EX_MACHINA\"]/choice[@req=\"unique_obyn_temp\"]/event/text"
 msgstr ""
@@ -5080,19 +5088,19 @@ msgstr ""
 "подхватывает команда Клановцев. \"Мудрый выбор, сссынок. Похоже, ты всссе-"
 "таки доживешшшь до завтра. Но сссделай нам одолжение - не возвращщщайссся\"."
 
-#: src-en/data/events_sector_clan.xml:3096
+#: src-en/data/events_sector_clan.xml:3107
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"SYLVAN_DOES_AN_EX_MACHINA\"]/choice[@req=\"unique_obyn_temp\"]/event/removeCrew/text"
 msgstr ""
 "Вы буквально несколько минут назад заполучили Соляного человека и уже "
 "отказались от него. Отлично сработано."
 
-#: src-en/data/events_sector_clan.xml:3101
+#: src-en/data/events_sector_clan.xml:3112
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"SYLVAN_DOES_AN_EX_MACHINA\"]/choice[@req=\"unique_obyn\"]/text"
 msgstr "Отказаться от Соляного человека."
 
-#: src-en/data/events_sector_clan.xml:3103
+#: src-en/data/events_sector_clan.xml:3114
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"SYLVAN_DOES_AN_EX_MACHINA\"]/choice[@req=\"unique_obyn\"]/event/text"
 msgstr ""
@@ -5101,14 +5109,14 @@ msgstr ""
 "подхватывает команда Клановцев. \"Мудрый выбор, сссынок. Похоже, ты всссе-"
 "таки доживешшшь до завтра. Но сссделай нам одолжение - не возвращщщайссся\"."
 
-#: src-en/data/events_sector_clan.xml:3106
+#: src-en/data/events_sector_clan.xml:3117
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"SYLVAN_DOES_AN_EX_MACHINA\"]/choice[@req=\"unique_obyn\"]/event/removeCrew/text"
 msgstr ""
 "Вы буквально несколько минут назад заполучили Соляного человека и уже "
 "отказались от него. Отлично сработано."
 
-#: src-en/data/events_sector_clan.xml:3112
+#: src-en/data/events_sector_clan.xml:3123
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"GNOME_DOES_AN_EX_MACHINA\"]/text"
 msgstr ""
@@ -5119,37 +5127,37 @@ msgstr ""
 " правом на эксссплуатацию находящщщихссся в них ресссурсссов! Выдайте "
 "Сссоляного человека или будете уничтожены!\""
 
-#: src-en/data/events_sector_clan.xml:3116
+#: src-en/data/events_sector_clan.xml:3127
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"GNOME_DOES_AN_EX_MACHINA\"]/choice[@req=\"pilot\"]/text"
 msgstr "Нет, пошли вы! Я устал слушать ваши тупые акценты!"
 
-#: src-en/data/events_sector_clan.xml:3118
+#: src-en/data/events_sector_clan.xml:3129
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"GNOME_DOES_AN_EX_MACHINA\"]/choice[@req=\"pilot\"]/event/text"
 msgstr ""
 "\"Эй! Приятель, не надо грубить! В любом ссслучае, ты сссделал сссвой выбор. Пора понесссти наказ...\"\n"
 "\t\t\t\t\n"
-"Клановец не успевает закончить фразу, как его корабль внезапно разваливается на части, превращаясь в небольшую металлическую кучку, сочащуюся зеленой кровью. Парящий кусок металла исчезает, а вы смотрите на гнома, который, кажется, возбужденно покачивается и тяжело дышит. Испуганные, остальные корабли сразу же разворачиваются и прыгают прочь."
+"Клановец не успевает закончить фразу, как его корабль внезапно разваливается на части, превращаясь в небольшую металлическую кучку, сочащуюся зеленой кровью. Парящий кусок металла исчезает, а вы смотрите на гнома, который, кажется, возбужденно покачивается и тяжело дышит. Испуганные, остальные корабли сразу же разворачиваются и уходят в прыжок."
 
-#: src-en/data/events_sector_clan.xml:3123
+#: src-en/data/events_sector_clan.xml:3134
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"GNOME_DOES_AN_EX_MACHINA\"]/choice[@req=\"pilot\"]/event/choice[@req=\"OBYN_GUILD\""
 " and @lvl=\"1\"]/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_clan.xml:3127
+#: src-en/data/events_sector_clan.xml:3138
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"GNOME_DOES_AN_EX_MACHINA\"]/choice[@req=\"pilot\"]/event/choice[@req=\"OBYN_GUILD\""
 " and @lvl=\"0\"]/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_clan.xml:3133
+#: src-en/data/events_sector_clan.xml:3144
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"GNOME_DOES_AN_EX_MACHINA\"]/choice[@req=\"unique_obyn_temp\"]/text"
 msgstr "Отказаться от Соляного человека."
 
-#: src-en/data/events_sector_clan.xml:3135
+#: src-en/data/events_sector_clan.xml:3146
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"GNOME_DOES_AN_EX_MACHINA\"]/choice[@req=\"unique_obyn_temp\"]/event/text"
 msgstr ""
@@ -5158,19 +5166,19 @@ msgstr ""
 "подхватывает команда Клановцев. \"Мудрый выбор, сссынок. Похоже, ты всссе-"
 "таки доживешшшь до завтра. Но сссделай нам одолжение - не возвращщщайссся\"."
 
-#: src-en/data/events_sector_clan.xml:3138
+#: src-en/data/events_sector_clan.xml:3149
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"GNOME_DOES_AN_EX_MACHINA\"]/choice[@req=\"unique_obyn_temp\"]/event/removeCrew/text"
 msgstr ""
 "Вы буквально несколько минут назад заполучили Соляного человека и уже "
 "отказались от него. Отлично сработано."
 
-#: src-en/data/events_sector_clan.xml:3143
+#: src-en/data/events_sector_clan.xml:3154
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"GNOME_DOES_AN_EX_MACHINA\"]/choice[@req=\"unique_obyn\"]/text"
 msgstr "Отказаться от Соляного человека."
 
-#: src-en/data/events_sector_clan.xml:3145
+#: src-en/data/events_sector_clan.xml:3156
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"GNOME_DOES_AN_EX_MACHINA\"]/choice[@req=\"unique_obyn\"]/event/text"
 msgstr ""
@@ -5179,14 +5187,14 @@ msgstr ""
 "подхватывает команда Клановцев. \"Мудрый выбор, сссынок. Похоже, ты всссе-"
 "таки доживешшшь до завтра. Но сссделай нам одолжение - не возвращщщайссся\"."
 
-#: src-en/data/events_sector_clan.xml:3148
+#: src-en/data/events_sector_clan.xml:3159
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"GNOME_DOES_AN_EX_MACHINA\"]/choice[@req=\"unique_obyn\"]/event/removeCrew/text"
 msgstr ""
 "Вы буквально несколько минут назад заполучили Соляного человека и уже "
 "отказались от него. Отлично сработано."
 
-#: src-en/data/events_sector_clan.xml:3154
+#: src-en/data/events_sector_clan.xml:3165
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"SYLVAN_SALT_REWARD_NOCREW\"]/text"
 msgstr ""
@@ -5194,14 +5202,14 @@ msgstr ""
 "Сильван, по понятным причинам, пока молчит, но с помощью бывшего экипажа "
 "Обина они переносят большой ящик с металлоломом. Они передают вам и чертежи "
 "корабля Обина, полагая, что они могут пригодиться Федерации. Видно, что "
-"Сильван огорчен потерей Обина, но теперь уже слишком поздно. \"Ссстранник, у "
-"меня всссе ещщще есссть под рукой его ссстарое орудие. Я... я не думаю, что "
-"сссмогу продолжать хранить его у сссебя. Так что, возможно, будет лучшшше, "
+"Сильван огорчен потерей Обина, но теперь уже слишком поздно. \"Ссстранник, у"
+" меня всссе ещщще есссть под рукой его ссстарое орудие. Я... я не думаю, что"
+" сссмогу продолжать хранить его у сссебя. Так что, возможно, будет лучшшше, "
 "есссли ты возьмешшшь его. Я не виню тебя за это, но... ох, ладно. Что толку "
-"от такого корабля, как мой, есссли я даже не могу ссспасссти сссвоих друзей, "
-"а? Хмм\"."
+"от такого корабля, как мой, есссли я даже не могу ссспасссти сссвоих друзей,"
+" а? Хмм\"."
 
-#: src-en/data/events_sector_clan.xml:3160
+#: src-en/data/events_sector_clan.xml:3171
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"CHAOS_SALT_REWARD_NOCREW\"]/text"
 msgstr ""
@@ -5213,7 +5221,7 @@ msgstr ""
 "замешательстве, зачем вы вообще здесь, вы возвращаетесь на капитанский "
 "мостик и готовитесь уходить."
 
-#: src-en/data/events_sector_clan.xml:3168
+#: src-en/data/events_sector_clan.xml:3179
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"SYLVAN_SALT_REWARD_OBYN\"]/text"
 msgstr ""
@@ -5221,12 +5229,12 @@ msgstr ""
 "\t\t\n"
 "\"Я не могу пойти с тобой, старый друг. Мы просто... ну, ты знаешь, что из этого вышло. Я могу простить, но не могу забыть. Ты - торговец, а я - охотник за головами. В нашем мире, наверное, это одно и то же, но где-то есть разница. И я все еще не отказался от своих поисков. Где-то там еще есть мои люди, я в этом уверен. Я до сих пор помню тот день, когда я бежал из своей колонии... Что ж, я должен продолжать поиски. Я не могу просто так сдаться\"."
 
-#: src-en/data/events_sector_clan.xml:3174
+#: src-en/data/events_sector_clan.xml:3185
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"SYLVAN_SALT_REWARD_OBYN\"]/choice[1]/text"
 msgstr "Вы можете пойти с нами, стать героем, а потом продолжить свой путь."
 
-#: src-en/data/events_sector_clan.xml:3176
+#: src-en/data/events_sector_clan.xml:3187
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"SYLVAN_SALT_REWARD_OBYN\"]/choice[1]/event/text"
 msgstr ""
@@ -5239,12 +5247,12 @@ msgstr ""
 " знает, может быть, по пути я найду подсказку. Только надо не терять "
 "надежды\". С этими словами он машет Сильвану, и оба отправляются в путь."
 
-#: src-en/data/events_sector_clan.xml:3182
+#: src-en/data/events_sector_clan.xml:3193
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"SYLVAN_SALT_REWARD_OBYN\"]/choice[2]/text"
 msgstr "Вы можете пойти с нами, стать героем, а потом продолжить свой путь."
 
-#: src-en/data/events_sector_clan.xml:3184
+#: src-en/data/events_sector_clan.xml:3195
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"SYLVAN_SALT_REWARD_OBYN\"]/choice[2]/event/text"
 msgstr ""
@@ -5257,12 +5265,12 @@ msgstr ""
 " знает, может быть, по пути я найду подсказку. Только надо не терять "
 "надежды\". С этими словами он машет Сильвану, и оба отправляются в путь."
 
-#: src-en/data/events_sector_clan.xml:3189
+#: src-en/data/events_sector_clan.xml:3200
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"SYLVAN_SALT_REWARD_OBYN\"]/choice[3]/text"
 msgstr "Убедить его пойти со своей старой командой и продолжить поиски."
 
-#: src-en/data/events_sector_clan.xml:3191
+#: src-en/data/events_sector_clan.xml:3202
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"SYLVAN_SALT_REWARD_OBYN\"]/choice[3]/event/text"
 msgstr ""
@@ -5272,12 +5280,12 @@ msgstr ""
 "валютой, возможно, это орудие поможет и вам. До следующей встречи\". С этими"
 " словами он машет Сильвану, и они оба улетают на своих кораблях."
 
-#: src-en/data/events_sector_clan.xml:3200
+#: src-en/data/events_sector_clan.xml:3211
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"SYLVAN_SALT_REWARD_OBYN\"]/choice[4]/text"
 msgstr "Убедить его пойти со своей старой командой и продолжить поиски."
 
-#: src-en/data/events_sector_clan.xml:3202
+#: src-en/data/events_sector_clan.xml:3213
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"SYLVAN_SALT_REWARD_OBYN\"]/choice[4]/event/text"
 msgstr ""
@@ -5287,7 +5295,7 @@ msgstr ""
 "валютой, возможно, это орудие поможет и вам. До следующей встречи\". С этими"
 " словами он машет Сильвану, и они оба улетают на своих кораблях."
 
-#: src-en/data/events_sector_clan.xml:3212
+#: src-en/data/events_sector_clan.xml:3223
 msgid "data/events_sector_clan.xml$//event[@name=\"CHAOS_SALT_REWARD_OBYN\"]/text"
 msgstr ""
 "Обин в шоке смотрит на то, что только что произошло. В кои-то веки он "
@@ -5296,14 +5304,14 @@ msgstr ""
 " странных вещей. Но ни разу не видел ничего подобного. Кто вы такие? Боги? "
 "Этот гном - бог?\" Обин вздрогнул, слегка покачнувшись на ногах."
 
-#: src-en/data/events_sector_clan.xml:3215
+#: src-en/data/events_sector_clan.xml:3226
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"CHAOS_SALT_REWARD_OBYN\"]/choice[@req=\"unique_obyn_temp\"]/text"
 msgstr ""
 "Я тоже понятия не имею, что происходит, но гном хочет, чтобы вы пошли с "
 "нами."
 
-#: src-en/data/events_sector_clan.xml:3217
+#: src-en/data/events_sector_clan.xml:3228
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"CHAOS_SALT_REWARD_OBYN\"]/choice[@req=\"unique_obyn_temp\"]/event/text"
 msgstr ""
@@ -5311,14 +5319,14 @@ msgstr ""
 "Думаю, мне больше не нужен мой корабль, так что можешь забрать его. Может "
 "быть, это успокоит гнома, кто знает\"."
 
-#: src-en/data/events_sector_clan.xml:3225
+#: src-en/data/events_sector_clan.xml:3236
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"CHAOS_SALT_REWARD_OBYN\"]/choice[@req=\"unique_obyn\"]/text"
 msgstr ""
 "Я тоже понятия не имею, что происходит, но гном хочет, чтобы вы пошли с "
 "нами."
 
-#: src-en/data/events_sector_clan.xml:3227
+#: src-en/data/events_sector_clan.xml:3238
 msgid ""
 "data/events_sector_clan.xml$//event[@name=\"CHAOS_SALT_REWARD_OBYN\"]/choice[@req=\"unique_obyn\"]/event/text"
 msgstr ""

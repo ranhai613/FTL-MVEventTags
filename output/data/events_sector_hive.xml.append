@@ -416,6 +416,73 @@
   </mod:findName>
   <mod:findName name="MANTIS_SLAVES_EXPENSIVE" type="event">
     <mod:findLike type="choice">
+      <mod:selector req="BLUELIST_WEAPONS_MIND_CONTROL" hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>(Mind Control Weapon) "Convince" them to give you a slave for free.</mod:selector>
+        <mod:setValue>(Mind Control Weapon) "Convince" them to give you a slave for free.[INFO][NAME]crewMember[/NAME]Gain a crew(Engi)[/INFO][INFO][NAME]crewMember[/NAME]Gain a crew(Mantis)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="MANTIS_SLAVES_EXPENSIVE" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="BLUELIST_WEAPONS_MIND_CONTROL" hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:findLike type="text">
+            <mod:selector>Take an Engi slave.</mod:selector>
+            <mod:setValue>Take an Engi slave.[INFO][NAME]crewMember[/NAME]Gain a crew(Engi)[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="MANTIS_SLAVES_EXPENSIVE" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="BLUELIST_WEAPONS_MIND_CONTROL" hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:findLike type="text">
+            <mod:selector>Take a Mantis slave.</mod:selector>
+            <mod:setValue>Take a Mantis slave.[INFO][NAME]crewMember[/NAME]Gain a crew(Mantis)[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="MANTIS_SLAVES_EXPENSIVE" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="BLUELIST_WEAPONS_MIND_CONTROL" hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="text">
+            <mod:selector>We aren't interested.</mod:selector>
+            <mod:setValue>We aren't interested.[INFO][NAME]storageCheck[/NAME]Storage Check[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="MANTIS_SLAVES_EXPENSIVE" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="BLUELIST_WEAPONS_MIND_CONTROL" hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="event">
+            <mod:findLike type="choice">
+              <mod:findLike type="text">
+                <mod:selector>Do something onboard the ship.</mod:selector>
+                <mod:setValue>Do something onboard the ship.[INFO][NAME]storageCheck[/NAME]Storage Check[/INFO]</mod:setValue>
+              </mod:findLike>
+            </mod:findLike>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="MANTIS_SLAVES_EXPENSIVE" type="event">
+    <mod:findLike type="choice">
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>We aren't interested.</mod:selector>
@@ -536,8 +603,8 @@
       <mod:findLike type="choice">
         <mod:selector req="engines" lvl="4" hidden="true"/>
         <mod:findLike type="text">
-          <mod:selector>(Adv. Engines) Dodge the debt and power up the engines.</mod:selector>
-          <mod:setValue>(Adv. Engines) Dodge the debt and power up the engines.[INFO][NAME]itemModify[/NAME]~50[/INFO][FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO]20% [NAME]autoReward[/NAME]Reward Standard(H)[/INFO])[/FightINFO]</mod:setValue>
+          <mod:selector>(Upg. Engines) Dodge the debt and power up the engines.</mod:selector>
+          <mod:setValue>(Upg. Engines) Dodge the debt and power up the engines.[INFO][NAME]itemModify[/NAME]~50[/INFO][FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO]20% [NAME]autoReward[/NAME]Reward Standard(H)[/INFO])[/FightINFO]</mod:setValue>
         </mod:findLike>
       </mod:findLike>
     </mod:findLike>
@@ -587,7 +654,7 @@
   </mod:findName>
   <mod:findName name="MANTIS_CAPTURE_SUZERAIN_COMMANDO" type="event">
     <mod:findLike type="choice">
-      <mod:selector req="mind" hidden="true"/>
+      <mod:selector req="BLUELIST_WEAPONS_MIND_CONTROL" hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>(Mind Control) Interrogate him.</mod:selector>
         <mod:setValue>(Mind Control) Interrogate him.[INFO][NAME]autoReward[/NAME]Reward Weapon(L)[/INFO]</mod:setValue>
@@ -596,7 +663,30 @@
   </mod:findName>
   <mod:findName name="MANTIS_CAPTURE_SUZERAIN_COMMANDO" type="event">
     <mod:findLike type="choice">
-      <mod:selector req="mind" hidden="true"/>
+      <mod:selector req="BLUELIST_WEAPONS_MIND_CONTROL" hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="text">
+            <mod:selector>Continue...</mod:selector>
+            <mod:setValue>Continue...[INFO][NAME]autoReward[/NAME]Reward Weapon(L)[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="MANTIS_CAPTURE_SUZERAIN_COMMANDO" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="BLUELIST_WEAPONS_MIND_CONTROL" hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>(Mind Control Weapon) Interrogate him.</mod:selector>
+        <mod:setValue>(Mind Control Weapon) Interrogate him.[INFO][NAME]autoReward[/NAME]Reward Weapon(L)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="MANTIS_CAPTURE_SUZERAIN_COMMANDO" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="BLUELIST_WEAPONS_MIND_CONTROL" hidden="true"/>
       <mod:findLike type="event">
         <mod:findLike type="choice">
           <mod:selector hidden="true"/>
@@ -1191,6 +1281,39 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="event">
         <mod:findLike type="choice">
+          <mod:selector hidden="true" req="BLUELIST_WEAPONS_HACK"/>
+          <mod:findLike type="text">
+            <mod:selector>(Hacking Weapon) We have a hacking weapon.</mod:selector>
+            <mod:setValue>(Hacking Weapon) We have a hacking weapon.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO][NAME]autoReward[/NAME]Reward Standard(R)[/INFO])[/FightINFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="HIVE_MANTIS_AUTO_SITUATION" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true" req="BLUELIST_WEAPONS_HACK"/>
+          <mod:findLike type="event">
+            <mod:findLike type="choice">
+              <mod:selector hidden="true"/>
+              <mod:findLike type="text">
+                <mod:selector>Continue...</mod:selector>
+                <mod:setValue>Continue...[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO][NAME]autoReward[/NAME]Reward Standard(R)[/INFO])[/FightINFO]</mod:setValue>
+              </mod:findLike>
+            </mod:findLike>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="HIVE_MANTIS_AUTO_SITUATION" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
           <mod:selector hidden="true" req="weapons" lvl="5"/>
           <mod:findLike type="text">
             <mod:selector>(Adv. Weapons) We have a superior weapon system.</mod:selector>
@@ -1474,7 +1597,7 @@
   </mod:findName>
   <mod:findName name="HIVE_SUZERAIN_COMPLEX" type="event">
     <mod:findLike type="choice">
-      <mod:selector hidden="true" req="teleporter"/>
+      <mod:selector hidden="true" req="teleporter" max_group="1"/>
       <mod:findLike type="text">
         <mod:selector>(Teleporter) Send a boarding team to sabotage the complex.</mod:selector>
         <mod:setValue>(Teleporter) Send a boarding team to sabotage the complex.[INFO]50% [NAME]removeCrew[/NAME]&lt;!&gt;Lose your crew(clonable)[/INFO][INFO]50% [NAME]autoReward[/NAME]Reward Standard(H)[/INFO][INFO]50% [NAME]crewMember[/NAME]Gain a crew(Engi)[/INFO][FightINFO]Fight(HK=CK: [INFO]50% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO])[/FightINFO]</mod:setValue>
@@ -1483,7 +1606,7 @@
   </mod:findName>
   <mod:findName name="HIVE_SUZERAIN_COMPLEX" type="event">
     <mod:findLike type="choice">
-      <mod:selector hidden="true"/>
+      <mod:selector hidden="true" req="pilot" blue="false" max_group="2"/>
       <mod:findLike type="text">
         <mod:selector>Leave the complex alone.</mod:selector>
         <mod:setValue>Leave the complex alone.[INFO][NAME]storageCheck[/NAME]Storage Check[/INFO]</mod:setValue>
@@ -1492,7 +1615,7 @@
   </mod:findName>
   <mod:findName name="HIVE_SUZERAIN_COMPLEX" type="event">
     <mod:findLike type="choice">
-      <mod:selector hidden="true"/>
+      <mod:selector hidden="true" req="pilot" blue="false" max_group="2"/>
       <mod:findLike type="event">
         <mod:findLike type="choice">
           <mod:findLike type="text">
@@ -1633,6 +1756,15 @@
   </mod:findName>
   <mod:findName name="DISTRESS_MANTIS_DERELICT" type="event">
     <mod:findLike type="choice">
+      <mod:selector hidden="true" req="UNION_JACKETS"/>
+      <mod:findLike type="text">
+        <mod:selector>(Lifejackets) Send in your crew.</mod:selector>
+        <mod:setValue>(Lifejackets) Send in your crew.[INFO]25% [NAME]boarders[/NAME]&lt;!&gt;Enemy Boarding(x1 Mantis)[/INFO][INFO]25% [NAME]removeCrew[/NAME]&lt;!&gt;Lose your crew(clonable)[/INFO][FightINFO]Fight(HK: [INFO]25% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO]5% [NAME]autoReward[/NAME]Reward Standard(H)[/INFO])[/FightINFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="DISTRESS_MANTIS_DERELICT" type="event">
+    <mod:findLike type="choice">
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Scrap the ship.</mod:selector>
@@ -1679,7 +1811,7 @@
         <mod:selector hidden="true" req="MV_CREW_NO2"/>
         <mod:findLike type="text">
           <mod:selector>(Anaerobic Crew) Send in your anaerobic crewmember.</mod:selector>
-          <mod:setValue>(Anaerobic Crew) Send in your anaerobic crewmember.[INFO][NAME]crewMember[/NAME]Gain a crew(Engi)[/INFO][INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO]</mod:setValue>
+          <mod:setValue>(Anaerobic Crew) Send in your anaerobic crewmember.[INFO][NAME]crewMember[/NAME]Gain a crew(Engi)[/INFO][INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO][INFO][NAME]itemModify[/NAME]}-1[/INFO]</mod:setValue>
         </mod:findLike>
       </mod:findLike>
     </mod:findLike>
@@ -1796,6 +1928,28 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
+  <mod:findName name="MANTIS_DERELICT_JACKETS" type="eventList">
+    <mod:findLike type="event">
+      <mod:findLike type="choice">
+        <mod:selector hidden="true"/>
+        <mod:findLike type="text">
+          <mod:selector>Continue...</mod:selector>
+          <mod:setValue>Continue...[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO]20% [NAME]autoReward[/NAME]Reward Standard(H)[/INFO])[/FightINFO]</mod:setValue>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="MANTIS_DERELICT_JACKETS" type="eventList">
+    <mod:findLike type="event">
+      <mod:findLike type="choice">
+        <mod:selector hidden="true"/>
+        <mod:findLike type="text">
+          <mod:selector>Continue...</mod:selector>
+          <mod:setValue>Continue...[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO]20% [NAME]autoReward[/NAME]Reward Standard(H)[/INFO])[/FightINFO]</mod:setValue>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
   <mod:findName name="MANTIS_DERELICT_ORCHID_SAFE" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true"/>
@@ -1829,6 +1983,28 @@
       <mod:findLike type="text">
         <mod:selector>(Medical Crew) Save the Engi.</mod:selector>
         <mod:setValue>(Medical Crew) Save the Engi.[INFO][NAME]crewMember[/NAME]Gain a crew(Engi)[/INFO][INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="MANTIS_DERELICT_NO2_SAFE" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true" req="BLUELIST_BOMBS_HEAL"/>
+      <mod:findLike type="text">
+        <mod:selector>(Healing Bomb) Save the Engi. [-1}]</mod:selector>
+        <mod:setValue>(Healing Bomb) Save the Engi. [-1}][INFO][NAME]itemModify[/NAME]}-1[/INFO][INFO][NAME]crewMember[/NAME]Gain a crew(Engi)[/INFO][INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="MANTIS_DERELICT_NO2_SAFE" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true" req="BLUELIST_BOMBS_HEAL"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:findLike type="text">
+            <mod:selector>Continue...</mod:selector>
+            <mod:setValue>Continue...[INFO][NAME]crewMember[/NAME]Gain a crew(Engi)[/INFO][INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>

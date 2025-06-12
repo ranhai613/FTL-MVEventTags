@@ -1,17 +1,15 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-05-24 20:53+0000\n"
+"PO-Revision-Date: 2025-06-08 20:50+0000\n"
 "Last-Translator: Ukn <bbg100bbg@gmail.com>\n"
-"Language-Team: Russian <https://weblate.hyperq.be/projects/ftl-multiverse/"
-"dataevents_sector_lostsunxml/ru/>\n"
+"Language-Team: Russian <https://weblate.hyperq.be/projects/ftl-multiverse/dataevents_sector_lostsunxml/ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.16.4\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 5.11.4\n"
 
 #: src-en/data/events_sector_lostsun.xml:28
 msgid ""
@@ -61,10 +59,10 @@ msgstr "Одолжить им несколько боеголовок."
 msgid ""
 "data/events_sector_lostsun.xml$//event[@name=\"LOSTSUN_SHRINE\"]/choice[1]/event/text"
 msgstr ""
-"\"Мы не надеялись на скорое появление корабля снабжения, и это может помочь\""
-". Они запускают ракету прямо в основание сооружения, и все это рушится. "
-"\"Удивительно. У нас уже давно не было доступа к качественным боеприпасам, "
-"подобным этим. Можно оставить себе больше боеголовок?\""
+"\"Мы не надеялись на скорое появление корабля снабжения, и это может "
+"помочь\". Они запускают ракету прямо в основание сооружения, и все это "
+"рушится. \"Удивительно. У нас уже давно не было доступа к качественным "
+"боеприпасам, подобным этим. Можно оставить себе больше боеголовок?\""
 
 #: src-en/data/events_sector_lostsun.xml:78
 msgid ""
@@ -190,7 +188,7 @@ msgstr ""
 "\"Корабль Федерации в нашем секторе? Вы еще один поставщик?\" Вы качаете "
 "головой. \"Хм. Обычно я не прошу помощи у незнакомцев, которые могут быть "
 "или не быть желанными гостями, но нам нужны боеприпасы. У вас есть какие-"
-"нибудь боеголовки, которые вы можете выделить?"
+"нибудь боеголовки, которые вы можете выделить?\""
 
 #: src-en/data/events_sector_lostsun.xml:159
 msgid ""
@@ -272,8 +270,8 @@ msgstr "Мы не можем помочь."
 msgid ""
 "data/events_sector_lostsun.xml$//event[@name=\"LOSTSUN_DONATION\"]/choice[1]/event/choice[4]/event/text"
 msgstr ""
-"\"Как и следовало ожидать. Тогда поторопитесь, и надейтесь, что несчастье не "
-"последует за вами\"."
+"\"Как и следовало ожидать. Тогда поторопитесь, и надейтесь, что несчастье не"
+" последует за вами\"."
 
 #: src-en/data/events_sector_lostsun.xml:210
 msgid ""
@@ -352,8 +350,7 @@ msgstr ""
 #: src-en/data/events_sector_lostsun.xml:283
 msgid ""
 "data/events_sector_lostsun.xml$//event[@name=\"ASTEROID_EXPLORE_LOSTSUN\"]/choice[@req=\"BEAM_MINING\"]/text"
-msgstr ""
-"(Горнодобывающее оборудование) Попробовать добыть минералы из астероидов."
+msgstr "(Шахтерский луч) Попробовать добыть минералы из астероидов."
 
 #: src-en/data/events_sector_lostsun.xml:285
 msgid ""
@@ -458,9 +455,9 @@ msgstr "Ничего не делать."
 #: src-en/data/events_sector_lostsun.xml:363
 msgid "data/events_sector_lostsun.xml$//event[@name=\"LOSTSUN_CHALLENGERS\"]/text"
 msgstr ""
-"Корабль Затерянных Солнц, охраняющий этот маяк, незамедлительно вызывает вас "
-"через некоторое время после прыжка поблизости. \"Пролетающий корабль! У нас "
-"есть для вас задание. Превзойдите нас в бою, и мы дадим вам награду. "
+"Корабль Затерянных Солнц, охраняющий этот маяк, незамедлительно вызывает вас"
+" через некоторое время после прыжка поблизости. \"Пролетающий корабль! У нас"
+" есть для вас задание. Превзойдите нас в бою, и мы дадим вам награду. "
 "Согласитесь на еще более сложный вызов, и мы дадим еще большую награду!\""
 
 #: src-en/data/events_sector_lostsun.xml:365
@@ -496,7 +493,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_sector_lostsun.xml:390
 msgid ""
 "data/events_sector_lostsun.xml$//event[@name=\"LOSTSUN_CHALLENGERS\"]/choice[3]/text"
-msgstr "Сражайтесь с ними с ослабленным реактором."
+msgstr "Сразиться с ними с ослабленным реактором."
 
 #: src-en/data/events_sector_lostsun.xml:392
 msgid ""
@@ -624,8 +621,8 @@ msgid ""
 "data/events_sector_lostsun.xml$//event[@name=\"LOSTSUN_PRISONERS\"]/choice[@req=\"cloaking\"]/event/text"
 msgstr ""
 "Ваше ожидание окупается, когда патрульный корабль проходит мимо и в конце "
-"концов исчезает из поля вашего зрения. Вы подкрадываетесь к месту заключения "
-"и закладываете взрывчатку, а затем летите на безопасное расстояние, чтобы "
+"концов исчезает из поля вашего зрения. Вы подкрадываетесь к месту заключения"
+" и закладываете взрывчатку, а затем летите на безопасное расстояние, чтобы "
 "полюбоваться фейерверком."
 
 #: src-en/data/events_sector_lostsun.xml:505
@@ -639,8 +636,8 @@ msgid ""
 msgstr ""
 "Хаос вспыхивает в структуре Затерянных Солнц, когда взрывы сотрясают "
 "поверхность. Один из них, похоже, отключил основное питание щита, который "
-"удерживал гражданских, и они сбежали. Гражданские замечают вас, сложив два и "
-"два, решают заплатить вам за их освобождение."
+"удерживал гражданских, и они сбежали. Гражданские замечают вас, сложив два и"
+" два, решают заплатить вам за их освобождение."
 
 #: src-en/data/events_sector_lostsun.xml:516
 msgid "data/events_sector_lostsun.xml$//event[@name=\"LOSTSUN_ROCK_SPY\"]/text"
@@ -785,10 +782,10 @@ msgstr ""
 msgid ""
 "data/events_sector_lostsun.xml$//eventList[@name=\"LOSTSUN_MANTIS_LOST_WRECK\"]/event[2]/text"
 msgstr ""
-"После исследования выясняется, что мостик корабля пострадал чуть меньше, чем "
-"остальные части судна. Одинокий выживший богомол лежит, дрожа, в углу и "
-"почти убивает одного из членов вашей команды, когда вы приближаетесь. Однако "
-"после некоторых уговоров вы убеждаете его присоединиться к вашей команде."
+"После исследования выясняется, что мостик корабля пострадал чуть меньше, чем"
+" остальные части судна. Одинокий выживший богомол лежит, дрожа, в углу и "
+"почти убивает одного из членов вашей команды, когда вы приближаетесь. Однако"
+" после некоторых уговоров вы убеждаете его присоединиться к вашей команде."
 
 #: src-en/data/events_sector_lostsun.xml:607
 msgid ""
@@ -802,8 +799,8 @@ msgstr ""
 #: src-en/data/events_sector_lostsun.xml:615
 msgid "data/events_sector_lostsun.xml$//event[@name=\"LOSTSUN_CHALLENGE\"]/text"
 msgstr ""
-"Корабль Затерянных Солнц, находящийся у этого маяка, уже заметил вас, но еще "
-"не поздно скрыться незаметно. Они вызывают вас."
+"Корабль Затерянных Солнц, находящийся у этого маяка, уже заметил вас, но еще"
+" не поздно скрыться незаметно. Они вызывают вас."
 
 #: src-en/data/events_sector_lostsun.xml:617
 msgid ""
@@ -847,8 +844,8 @@ msgstr "Основание Коалиции."
 msgid ""
 "data/events_sector_lostsun.xml$//event[@name=\"LOSTSUN_CHALLENGE\"]/choice/event/choice[1]/event/choice[2]/event/text"
 msgstr ""
-"\"Коалиция представляет собой побочный эффект раскола и проблем, но истинная "
-"проблема исходит от Старейшин валунов и их лжи! Конечно, Федерация была бы "
+"\"Коалиция представляет собой побочный эффект раскола и проблем, но истинная"
+" проблема исходит от Старейшин валунов и их лжи! Конечно, Федерация была бы "
 "рада, если бы мы исчерпали свои ресурсы против Коалиции. Позвольте нам "
 "преподать вам заслуженный урок\"."
 
@@ -866,8 +863,8 @@ msgstr "За то, что они кучка придурков."
 msgid ""
 "data/events_sector_lostsun.xml$//event[@name=\"LOSTSUN_CHALLENGE\"]/choice/event/choice[1]/event/choice[3]/event/text"
 msgstr ""
-"\"Это даже не преступление! Если ты даже не можешь быть зрелым, то ясно, что "
-"тебе здесь не место. Приготовься к тому, что твоя жизнь угаснет\"."
+"\"Это даже не преступление! Если ты даже не можешь быть зрелым, то ясно, что"
+" тебе здесь не место. Приготовься к тому, что твоя жизнь угаснет\"."
 
 #: src-en/data/events_sector_lostsun.xml:645
 msgid ""
@@ -940,9 +937,9 @@ msgstr "Кристаллины."
 msgid ""
 "data/events_sector_lostsun.xml$//event[@name=\"LOSTSUN_CHALLENGE_CORRECT_1\"]/choice/event/choice[2]/event/text"
 msgstr ""
-"\"Ба-ха-ха! Это ложь, которую нам говорят с рождения! Кристаллины - не боги, "
-"а ложные идолы! Очевидно, ты тоже веришь в ложь Старейшин. Мы удалим тебя из "
-"этого мира, в котором тебе не место\"."
+"\"Ба-ха-ха! Это ложь, которую нам говорят с рождения! Кристаллины - не боги,"
+" а ложные идолы! Очевидно, ты тоже веришь в ложь Старейшин. Мы удалим тебя "
+"из этого мира, в котором тебе не место\"."
 
 #: src-en/data/events_sector_lostsun.xml:693
 msgid ""
@@ -996,8 +993,8 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_sector_lostsun.xml$//event[@name=\"LOSTSUN_CHALLENGE_CORRECT_2\"]/choice/event/text"
 msgstr ""
-"\"Ни одно правительство не обходится без лжи и скандалов. Докажи нам, что ты "
-"видишь ложь, которую твоя драгоценная Федерация распространяла годами\"."
+"\"Ни одно правительство не обходится без лжи и скандалов. Докажи нам, что ты"
+" видишь ложь, которую твоя драгоценная Федерация распространяла годами\"."
 
 #: src-en/data/events_sector_lostsun.xml:727
 msgid ""
@@ -1092,8 +1089,8 @@ msgid ""
 msgstr ""
 "Вы приближаетесь, чтобы атаковать поселение, но корабль Затерянных Солнц "
 "останавливает вас. \"Федерация, это работа не для вас. Покиньте этот маяк, "
-"чтобы мы могли выполнить свой долг\". Вы отлетаете на безопасное расстояние, "
-"до того как они смогут подкрепить свои слова оружием."
+"чтобы мы могли выполнить свой долг\". Вы отлетаете на безопасное расстояние,"
+" до того как они смогут подкрепить свои слова оружием."
 
 #: src-en/data/events_sector_lostsun.xml:779
 msgid ""
@@ -1155,8 +1152,8 @@ msgid ""
 msgstr ""
 "Плохо вооруженный корабль Союза застрял у этого маяка, очевидно, у него "
 "кончилось топливо. Они умоляют вас дать им несколько топливных элементов, "
-"чтобы они могли покинуть сектор до того, как патруль Затерянных Солнц найдет "
-"их."
+"чтобы они могли покинуть сектор до того, как патруль Затерянных Солнц найдет"
+" их."
 
 #: src-en/data/events_sector_lostsun.xml:832
 msgid ""
@@ -1202,8 +1199,8 @@ msgid ""
 "data/events_sector_lostsun.xml$//event[@name=\"DISTRESS_LOSTSUN_WRECK\"]/text"
 msgstr ""
 "Вы прибываете на место, где находится маяк бедствия, но корабль, который "
-"когда-то был здесь, превратился в обгоревшие обломки. Невозможно определить, "
-"к какой фракции он принадлежал раньше. Вы не знаете, что случилось с "
+"когда-то был здесь, превратился в обгоревшие обломки. Невозможно определить,"
+" к какой фракции он принадлежал раньше. Вы не знаете, что случилось с "
 "нападавшим, но решили, что корабль можно разобрать."
 
 #: src-en/data/events_sector_lostsun.xml:869
@@ -1236,8 +1233,8 @@ msgstr "Выйти с ними на связь."
 msgid ""
 "data/events_sector_lostsun.xml$//event[@name=\"QUEST_LOSTSUN_DISRUPTION\"]/choice[1]/event/text"
 msgstr ""
-"Затерянные Солнца не спешат отвечать, пока вы не показываете им свою эмблему "
-"Федерации, которая, к счастью, находит у них отклик. \"Итак, вы хотите "
+"Затерянные Солнца не спешат отвечать, пока вы не показываете им свою эмблему"
+" Федерации, которая, к счастью, находит у них отклик. \"Итак, вы хотите "
 "доказать, что вы союзники? У нас есть для вас задание, но оно чрезвычайной "
 "важности. Готовы ли вы принять вызов?\""
 
@@ -1319,8 +1316,8 @@ msgid ""
 "data/events_sector_lostsun.xml$//event[@name=\"QUEST_LOSTSUN_DISRUPTION_QUEST\"]/choice[1]/event/text"
 msgstr ""
 "Ваши слабые атаки неэффективны против станции, и корабль поселения "
-"отправляется в погоню за вами. Ваш корпус получает некоторые повреждения, но "
-"после того, как вы удалились на значительное расстояние от поселения, "
+"отправляется в погоню за вами. Ваш корпус получает некоторые повреждения, но"
+" после того, как вы удалились на значительное расстояние от поселения, "
 "корабль прекращает преследование."
 
 #: src-en/data/events_sector_lostsun.xml:944
@@ -1332,8 +1329,8 @@ msgstr "(Взломщик) Отключить системы станции."
 msgid ""
 "data/events_sector_lostsun.xml$//event[@name=\"QUEST_LOSTSUN_DISRUPTION_QUEST\"]/choice[@req=\"hacking\"]/event/text"
 msgstr ""
-"Ваш Взломщик смог временно отключить сенсорную станцию на достаточное время, "
-"чтобы повредить их ретрансляционные системы. Вы связываетесь с Затерянными "
+"Ваш Взломщик смог временно отключить сенсорную станцию на достаточное время,"
+" чтобы повредить их ретрансляционные системы. Вы связываетесь с Затерянными "
 "Солнцами, которые вскоре после этого прилетают и быстро захватывают "
 "поселение."
 
@@ -1345,43 +1342,45 @@ msgstr "Продолжить..."
 #: src-en/data/events_sector_lostsun.xml:950
 msgid ""
 "data/events_sector_lostsun.xml$//event[@name=\"QUEST_LOSTSUN_DISRUPTION_QUEST\"]/choice[@req=\"hacking\"]/event/choice/event/text"
-msgstr "Главный корабль Затерянных Солнц благодарит вас за помощь и платит вам."
+msgstr ""
+"Главный корабль Затерянных Солнц благодарит вас за помощь и платит вам."
 
 #: src-en/data/events_sector_lostsun.xml:957
 msgid ""
-"data/events_sector_lostsun.xml$//event[@name=\"QUEST_LOSTSUN_DISRUPTION_QUEST\"]/choice[@req=\"LIST_CREW_SLUG\"]/text"
-msgstr ""
-"(Член экипажа-слизень) Пусть ваш слизень взломает их ретрансляционные "
-"системы."
+"data/events_sector_lostsun.xml$//event[@name=\"QUEST_LOSTSUN_DISRUPTION_QUEST\"]/choice[@req=\"PDS_DISABLE\"]/text"
+msgstr "(Глушитель сигналов) Помешать станции вызвать помощь."
 
 #: src-en/data/events_sector_lostsun.xml:959
 msgid ""
-"data/events_sector_lostsun.xml$//event[@name=\"QUEST_LOSTSUN_DISRUPTION_QUEST\"]/choice[@req=\"LIST_CREW_SLUG\"]/event/text"
+"data/events_sector_lostsun.xml$//event[@name=\"QUEST_LOSTSUN_DISRUPTION_QUEST\"]/choice[@req=\"PDS_DISABLE\"]/event/text"
 msgstr ""
-"Вашему слизню удается временно отключить сенсорную станцию на достаточное "
-"время, чтобы повредить их ретрансляционные системы. Вы связываетесь с "
-"Затерянными Солнцами, которые вскоре после этого прилетают и быстро "
-"захватывают поселение."
+"Вы нападаете на станцию и задействуете при этом Глушитель сигналов. Несмотря"
+" на то, что станция явно заметила вашу атаку, они, похоже, не успевают "
+"вызвать помощь до того, как их ретрансляционные системы получают "
+"повреждения. Вы связываетесь с Затерянными Солнцами, которые вскоре "
+"прибывают на станцию и быстро захватывают поселение."
 
 #: src-en/data/events_sector_lostsun.xml:961
 msgid ""
-"data/events_sector_lostsun.xml$//event[@name=\"QUEST_LOSTSUN_DISRUPTION_QUEST\"]/choice[@req=\"LIST_CREW_SLUG\"]/event/choice/text"
+"data/events_sector_lostsun.xml$//event[@name=\"QUEST_LOSTSUN_DISRUPTION_QUEST\"]/choice[@req=\"PDS_DISABLE\"]/event/choice/text"
 msgstr "Продолжить..."
 
 #: src-en/data/events_sector_lostsun.xml:963
 msgid ""
-"data/events_sector_lostsun.xml$//event[@name=\"QUEST_LOSTSUN_DISRUPTION_QUEST\"]/choice[@req=\"LIST_CREW_SLUG\"]/event/choice/event/text"
-msgstr "Главный корабль Затерянных Солнц благодарит вас за помощь и платит вам."
+"data/events_sector_lostsun.xml$//event[@name=\"QUEST_LOSTSUN_DISRUPTION_QUEST\"]/choice[@req=\"PDS_DISABLE\"]/event/choice/event/text"
+msgstr ""
+"Главный корабль Затерянных Солнц благодарит вас за помощь и платит вам."
 
 #: src-en/data/events_sector_lostsun.xml:970
 msgid ""
-"data/events_sector_lostsun.xml$//event[@name=\"QUEST_LOSTSUN_DISRUPTION_QUEST\"]/choice[@req=\"LIST_CREW_ENGI\"]/text"
+"data/events_sector_lostsun.xml$//event[@name=\"QUEST_LOSTSUN_DISRUPTION_QUEST\"]/choice[@req=\"LIST_CREW_SABOTEUR\"]/text"
 msgstr ""
-"(Член экипажа-энджи) Пусть ваш энджи взломает их ретрансляционные системы."
+"(Член экипажа-слизень) Пусть ваш слизень взломает их ретрансляционные "
+"системы."
 
 #: src-en/data/events_sector_lostsun.xml:972
 msgid ""
-"data/events_sector_lostsun.xml$//event[@name=\"QUEST_LOSTSUN_DISRUPTION_QUEST\"]/choice[@req=\"LIST_CREW_ENGI\"]/event/text"
+"data/events_sector_lostsun.xml$//event[@name=\"QUEST_LOSTSUN_DISRUPTION_QUEST\"]/choice[@req=\"LIST_CREW_SABOTEUR\"]/event/text"
 msgstr ""
 "Вашему слизню удается временно отключить сенсорную станцию на достаточное "
 "время, чтобы повредить их ретрансляционные системы. Вы связываетесь с "
@@ -1390,37 +1389,90 @@ msgstr ""
 
 #: src-en/data/events_sector_lostsun.xml:974
 msgid ""
-"data/events_sector_lostsun.xml$//event[@name=\"QUEST_LOSTSUN_DISRUPTION_QUEST\"]/choice[@req=\"LIST_CREW_ENGI\"]/event/choice/text"
+"data/events_sector_lostsun.xml$//event[@name=\"QUEST_LOSTSUN_DISRUPTION_QUEST\"]/choice[@req=\"LIST_CREW_SABOTEUR\"]/event/choice/text"
 msgstr "Продолжить..."
 
 #: src-en/data/events_sector_lostsun.xml:976
 msgid ""
-"data/events_sector_lostsun.xml$//event[@name=\"QUEST_LOSTSUN_DISRUPTION_QUEST\"]/choice[@req=\"LIST_CREW_ENGI\"]/event/choice/event/text"
-msgstr "Главный корабль Затерянных Солнц благодарит вас за помощь и платит вам."
+"data/events_sector_lostsun.xml$//event[@name=\"QUEST_LOSTSUN_DISRUPTION_QUEST\"]/choice[@req=\"LIST_CREW_SABOTEUR\"]/event/choice/event/text"
+msgstr ""
+"Главный корабль Затерянных Солнц благодарит вас за помощь и платит вам."
 
 #: src-en/data/events_sector_lostsun.xml:983
 msgid ""
-"data/events_sector_lostsun.xml$//event[@name=\"QUEST_LOSTSUN_DISRUPTION_QUEST\"]/choice[5]/text"
-msgstr "Мы не можем ничего сделать."
+"data/events_sector_lostsun.xml$//event[@name=\"QUEST_LOSTSUN_DISRUPTION_QUEST\"]/choice[@req=\"LIST_CREW_ENGI\"]/text"
+msgstr ""
+"(Член экипажа-энджи) Пусть ваш энджи взломает их ретрансляционные системы."
 
 #: src-en/data/events_sector_lostsun.xml:985
 msgid ""
-"data/events_sector_lostsun.xml$//event[@name=\"QUEST_LOSTSUN_DISRUPTION_QUEST\"]/choice[5]/event/text"
+"data/events_sector_lostsun.xml$//event[@name=\"QUEST_LOSTSUN_DISRUPTION_QUEST\"]/choice[@req=\"LIST_CREW_ENGI\"]/event/text"
+msgstr ""
+"Вашему слизню удается временно отключить сенсорную станцию на достаточное "
+"время, чтобы повредить их ретрансляционные системы. Вы связываетесь с "
+"Затерянными Солнцами, которые вскоре после этого прилетают и быстро "
+"захватывают поселение."
+
+#: src-en/data/events_sector_lostsun.xml:987
+msgid ""
+"data/events_sector_lostsun.xml$//event[@name=\"QUEST_LOSTSUN_DISRUPTION_QUEST\"]/choice[@req=\"LIST_CREW_ENGI\"]/event/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_lostsun.xml:989
+msgid ""
+"data/events_sector_lostsun.xml$//event[@name=\"QUEST_LOSTSUN_DISRUPTION_QUEST\"]/choice[@req=\"LIST_CREW_ENGI\"]/event/choice/event/text"
+msgstr ""
+"Главный корабль Затерянных Солнц благодарит вас за помощь и платит вам."
+
+#: src-en/data/events_sector_lostsun.xml:996
+msgid ""
+"data/events_sector_lostsun.xml$//event[@name=\"QUEST_LOSTSUN_DISRUPTION_QUEST\"]/choice[@req=\"LIST_CREW_ENGINEER\"]/text"
+msgstr ""
+"(Член экипажа-энджи) Пусть ваш энджи взломает их ретрансляционные системы."
+
+#: src-en/data/events_sector_lostsun.xml:998
+msgid ""
+"data/events_sector_lostsun.xml$//event[@name=\"QUEST_LOSTSUN_DISRUPTION_QUEST\"]/choice[@req=\"LIST_CREW_ENGINEER\"]/event/text"
+msgstr ""
+"Вашему слизню удается временно отключить сенсорную станцию на достаточное "
+"время, чтобы повредить их ретрансляционные системы. Вы связываетесь с "
+"Затерянными Солнцами, которые вскоре после этого прилетают и быстро "
+"захватывают поселение."
+
+#: src-en/data/events_sector_lostsun.xml:1000
+msgid ""
+"data/events_sector_lostsun.xml$//event[@name=\"QUEST_LOSTSUN_DISRUPTION_QUEST\"]/choice[@req=\"LIST_CREW_ENGINEER\"]/event/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_lostsun.xml:1002
+msgid ""
+"data/events_sector_lostsun.xml$//event[@name=\"QUEST_LOSTSUN_DISRUPTION_QUEST\"]/choice[@req=\"LIST_CREW_ENGINEER\"]/event/choice/event/text"
+msgstr ""
+"Главный корабль Затерянных Солнц благодарит вас за помощь и платит вам."
+
+#: src-en/data/events_sector_lostsun.xml:1009
+msgid ""
+"data/events_sector_lostsun.xml$//event[@name=\"QUEST_LOSTSUN_DISRUPTION_QUEST\"]/choice[7]/text"
+msgstr "Мы не можем ничего сделать."
+
+#: src-en/data/events_sector_lostsun.xml:1011
+msgid ""
+"data/events_sector_lostsun.xml$//event[@name=\"QUEST_LOSTSUN_DISRUPTION_QUEST\"]/choice[7]/event/text"
 msgstr ""
 "Атаковать станцию слишком рискованно. Вы надеетесь, что Затерянные Солнца "
 "найдут другой способ выполнить свою миссию."
 
-#: src-en/data/events_sector_lostsun.xml:987
+#: src-en/data/events_sector_lostsun.xml:1013
 msgid ""
-"data/events_sector_lostsun.xml$//event[@name=\"QUEST_LOSTSUN_DISRUPTION_QUEST\"]/choice[5]/event/choice[1]/text"
+"data/events_sector_lostsun.xml$//event[@name=\"QUEST_LOSTSUN_DISRUPTION_QUEST\"]/choice[7]/event/choice[1]/text"
 msgstr "Заняться чем-либо на корабле."
 
-#: src-en/data/events_sector_lostsun.xml:991
+#: src-en/data/events_sector_lostsun.xml:1017
 msgid ""
-"data/events_sector_lostsun.xml$//event[@name=\"QUEST_LOSTSUN_DISRUPTION_QUEST\"]/choice[5]/event/choice[2]/text"
+"data/events_sector_lostsun.xml$//event[@name=\"QUEST_LOSTSUN_DISRUPTION_QUEST\"]/choice[7]/event/choice[2]/text"
 msgstr "Ничего не делать."
 
-#: src-en/data/events_sector_lostsun.xml:999
+#: src-en/data/events_sector_lostsun.xml:1025
 msgid ""
 "data/events_sector_lostsun.xml$//event[@name=\"QUEST_LOSTSUN_ESCORT\"]/text"
 msgstr ""
@@ -1429,28 +1481,28 @@ msgstr ""
 "наконец-то кто-то пришел. Наш сигнал бедствия вышел из строя, и мы не были "
 "уверены, что кто-то \"дружественный\" прибудет вовремя. На нашем корабле "
 "закончились боеприпасы, и нам пришлось перейти на более слабое оружие. К "
-"сожалению, это также означает, что мы не можем защитить себя от охотников за "
-"валунами и Коалицией. Мы просим вас сопроводить нас до ближайшего аванпоста\""
-"."
+"сожалению, это также означает, что мы не можем защитить себя от охотников за"
+" валунами и Коалицией. Мы просим вас сопроводить нас до ближайшего "
+"аванпоста\"."
 
-#: src-en/data/events_sector_lostsun.xml:1001
+#: src-en/data/events_sector_lostsun.xml:1027
 msgid ""
 "data/events_sector_lostsun.xml$//event[@name=\"QUEST_LOSTSUN_ESCORT\"]/choice[1]/text"
 msgstr "Согласиться сопроводить их."
 
-#: src-en/data/events_sector_lostsun.xml:1003
+#: src-en/data/events_sector_lostsun.xml:1029
 msgid ""
 "data/events_sector_lostsun.xml$//event[@name=\"QUEST_LOSTSUN_ESCORT\"]/choice[1]/event/text"
 msgstr ""
 "\"Ваша готовность помочь не останется незамеченной. Мы последуем за вами по "
 "этим координатам\"."
 
-#: src-en/data/events_sector_lostsun.xml:1008
+#: src-en/data/events_sector_lostsun.xml:1034
 msgid ""
 "data/events_sector_lostsun.xml$//event[@name=\"QUEST_LOSTSUN_ESCORT\"]/choice[2]/text"
 msgstr "Отклонить их просьбу."
 
-#: src-en/data/events_sector_lostsun.xml:1010
+#: src-en/data/events_sector_lostsun.xml:1036
 msgid ""
 "data/events_sector_lostsun.xml$//event[@name=\"QUEST_LOSTSUN_ESCORT\"]/choice[2]/event/text"
 msgstr ""
@@ -1458,46 +1510,46 @@ msgstr ""
 "Уходите отсюда и надейтесь, что не станете жертвой тех же врагов, перед "
 "которыми мы беззащитны\"."
 
-#: src-en/data/events_sector_lostsun.xml:1012
+#: src-en/data/events_sector_lostsun.xml:1038
 msgid ""
 "data/events_sector_lostsun.xml$//event[@name=\"QUEST_LOSTSUN_ESCORT\"]/choice[2]/event/choice[1]/text"
 msgstr "Заняться чем-либо на корабле."
 
-#: src-en/data/events_sector_lostsun.xml:1016
+#: src-en/data/events_sector_lostsun.xml:1042
 msgid ""
 "data/events_sector_lostsun.xml$//event[@name=\"QUEST_LOSTSUN_ESCORT\"]/choice[2]/event/choice[2]/text"
 msgstr "Ничего не делать."
 
-#: src-en/data/events_sector_lostsun.xml:1022
+#: src-en/data/events_sector_lostsun.xml:1048
 msgid ""
 "data/events_sector_lostsun.xml$//event[@name=\"QUEST_LOSTSUN_ESCORT\"]/choice[3]/text"
 msgstr "Предложить немного боеприпасов."
 
-#: src-en/data/events_sector_lostsun.xml:1024
+#: src-en/data/events_sector_lostsun.xml:1050
 msgid ""
 "data/events_sector_lostsun.xml$//event[@name=\"QUEST_LOSTSUN_ESCORT\"]/choice[3]/event/text"
 msgstr ""
 "\"Нет, нам не нужны ваши пожертвования или подарки. Мы запрашиваем только "
 "сопровождение\"."
 
-#: src-en/data/events_sector_lostsun.xml:1026
+#: src-en/data/events_sector_lostsun.xml:1052
 msgid ""
 "data/events_sector_lostsun.xml$//event[@name=\"QUEST_LOSTSUN_ESCORT\"]/choice[3]/event/choice[1]/text"
 msgstr "Согласиться сопровождать их."
 
-#: src-en/data/events_sector_lostsun.xml:1028
+#: src-en/data/events_sector_lostsun.xml:1054
 msgid ""
 "data/events_sector_lostsun.xml$//event[@name=\"QUEST_LOSTSUN_ESCORT\"]/choice[3]/event/choice[1]/event/text"
 msgstr ""
 "\"Ваша готовность помочь не останется незамеченной. Мы последуем за вами по "
 "этим координатам\"."
 
-#: src-en/data/events_sector_lostsun.xml:1033
+#: src-en/data/events_sector_lostsun.xml:1059
 msgid ""
 "data/events_sector_lostsun.xml$//event[@name=\"QUEST_LOSTSUN_ESCORT\"]/choice[3]/event/choice[2]/text"
 msgstr "Отклонить их просьбу."
 
-#: src-en/data/events_sector_lostsun.xml:1035
+#: src-en/data/events_sector_lostsun.xml:1061
 msgid ""
 "data/events_sector_lostsun.xml$//event[@name=\"QUEST_LOSTSUN_ESCORT\"]/choice[3]/event/choice[2]/event/text"
 msgstr ""
@@ -1505,22 +1557,22 @@ msgstr ""
 "Уходите отсюда и надейтесь, что не станете жертвой тех же врагов, перед "
 "которыми мы беззащитны\"."
 
-#: src-en/data/events_sector_lostsun.xml:1037
+#: src-en/data/events_sector_lostsun.xml:1063
 msgid ""
 "data/events_sector_lostsun.xml$//event[@name=\"QUEST_LOSTSUN_ESCORT\"]/choice[3]/event/choice[2]/event/choice[1]/text"
 msgstr "Заняться чем-либо на корабле."
 
-#: src-en/data/events_sector_lostsun.xml:1041
+#: src-en/data/events_sector_lostsun.xml:1067
 msgid ""
 "data/events_sector_lostsun.xml$//event[@name=\"QUEST_LOSTSUN_ESCORT\"]/choice[3]/event/choice[2]/event/choice[2]/text"
 msgstr "Ничего не делать."
 
-#: src-en/data/events_sector_lostsun.xml:1052
+#: src-en/data/events_sector_lostsun.xml:1078
 msgid ""
 "data/events_sector_lostsun.xml$//event[@name=\"LOSTSUN_ESCORT_QUEST\"]/beaconType/unvisitedTooltip"
 msgstr "Поступил запрос на сопровождение корабля Затерянных Солнц."
 
-#: src-en/data/events_sector_lostsun.xml:1054
+#: src-en/data/events_sector_lostsun.xml:1080
 msgid ""
 "data/events_sector_lostsun.xml$//event[@name=\"LOSTSUN_ESCORT_QUEST\"]/text"
 msgstr ""
@@ -1528,12 +1580,12 @@ msgstr ""
 "валунов успел уничтожить это сооружение. Они замечают вас и почти не дают "
 "времени оценить ситуацию, прежде чем атаковать."
 
-#: src-en/data/events_sector_lostsun.xml:1057
+#: src-en/data/events_sector_lostsun.xml:1083
 msgid ""
 "data/events_sector_lostsun.xml$//event[@name=\"LOSTSUN_ESCORT_QUEST\"]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_lostsun.xml:1062
+#: src-en/data/events_sector_lostsun.xml:1088
 msgid ""
 "data/events_sector_lostsun.xml$//event[@name=\"LOSTSUN_ESCORT_QUEST_RAID_WIN\"]/text"
 msgstr ""
@@ -1542,12 +1594,12 @@ msgstr ""
 "отказываются. Вы собираете все, что можете забрать с собой, прежде чем "
 "связываться с ними."
 
-#: src-en/data/events_sector_lostsun.xml:1066
+#: src-en/data/events_sector_lostsun.xml:1092
 msgid ""
 "data/events_sector_lostsun.xml$//event[@name=\"LOSTSUN_ESCORT_QUEST_RAID_WIN\"]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_lostsun.xml:1068
+#: src-en/data/events_sector_lostsun.xml:1094
 msgid ""
 "data/events_sector_lostsun.xml$//event[@name=\"LOSTSUN_ESCORT_QUEST_RAID_WIN\"]/choice/event/text"
 msgstr ""
@@ -1556,27 +1608,27 @@ msgstr ""
 "быть преданным делу Затерянных Солнц, но после этой трагедии... потери "
 "многих моих друзей... Теперь я вижу, что наша война не приведет ни к чему, "
 "кроме кровопролития. У меня ничего не осталось. Могу ли я пойти с вами, "
-"чтобы увидеть все то, чего я никогда не увижу, если останусь здесь, сражаясь "
-"в бессмысленной войне?\""
+"чтобы увидеть все то, чего я никогда не увижу, если останусь здесь, сражаясь"
+" в бессмысленной войне?\""
 
-#: src-en/data/events_sector_lostsun.xml:1070
+#: src-en/data/events_sector_lostsun.xml:1096
 msgid ""
 "data/events_sector_lostsun.xml$//event[@name=\"LOSTSUN_ESCORT_QUEST_RAID_WIN\"]/choice/event/choice[1]/text"
 msgstr "Согласиться."
 
-#: src-en/data/events_sector_lostsun.xml:1072
+#: src-en/data/events_sector_lostsun.xml:1098
 msgid ""
 "data/events_sector_lostsun.xml$//event[@name=\"LOSTSUN_ESCORT_QUEST_RAID_WIN\"]/choice/event/choice[1]/event/text"
 msgstr ""
 "Валун с нетерпением собирает свои вещи и поднимается на борт. Он коротко и "
 "официально прощается со своей командой, желая им удачи в дальнейшей борьбе."
 
-#: src-en/data/events_sector_lostsun.xml:1078
+#: src-en/data/events_sector_lostsun.xml:1104
 msgid ""
 "data/events_sector_lostsun.xml$//event[@name=\"LOSTSUN_ESCORT_QUEST_RAID_WIN\"]/choice/event/choice[2]/text"
 msgstr "Простите, но нам больше не нужен экипаж."
 
-#: src-en/data/events_sector_lostsun.xml:1080
+#: src-en/data/events_sector_lostsun.xml:1106
 msgid ""
 "data/events_sector_lostsun.xml$//event[@name=\"LOSTSUN_ESCORT_QUEST_RAID_WIN\"]/choice/event/choice[2]/event/text"
 msgstr ""
@@ -1585,19 +1637,19 @@ msgstr ""
 "войне. Как и было обещано, мы должны заплатить, даже если эта миссия "
 "оказалась провалена\"."
 
-#: src-en/data/events_sector_lostsun.xml:1114
+#: src-en/data/events_sector_lostsun.xml:1140
 msgid ""
 "data/events_sector_lostsun.xml$/FTL/event[@name=\"ENCOUNTER_LOSTSUN_REGULAR\"]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_lostsun.xml:1119
+#: src-en/data/events_sector_lostsun.xml:1145
 msgid ""
 "data/events_sector_lostsun.xml$//textList[@name=\"TEXT_ENCOUNTER_LOSTSUN\"]/text[1]"
 msgstr ""
 "\"Это наша территория, Ренегат. Не все из нас рады тебя видеть. Убирайся из "
 "нашего сектора, или мы отправим тебя в огненные ямы подземного мира\"."
 
-#: src-en/data/events_sector_lostsun.xml:1120
+#: src-en/data/events_sector_lostsun.xml:1146
 msgid ""
 "data/events_sector_lostsun.xml$//textList[@name=\"TEXT_ENCOUNTER_LOSTSUN\"]/text[2]"
 msgstr ""
@@ -1605,7 +1657,7 @@ msgstr ""
 "использование маяков и тому подобного, и вскоре их оружие оказывается "
 "активировано!"
 
-#: src-en/data/events_sector_lostsun.xml:1121
+#: src-en/data/events_sector_lostsun.xml:1147
 msgid ""
 "data/events_sector_lostsun.xml$//textList[@name=\"TEXT_ENCOUNTER_LOSTSUN\"]/text[3]"
 msgstr ""
@@ -1613,7 +1665,7 @@ msgstr ""
 "возмущены ею. Те, кто находится на этом маяке, наверняка не приветствуют "
 "ваше присутствие."
 
-#: src-en/data/events_sector_lostsun.xml:1122
+#: src-en/data/events_sector_lostsun.xml:1148
 msgid ""
 "data/events_sector_lostsun.xml$//textList[@name=\"TEXT_ENCOUNTER_LOSTSUN\"]/text[4]"
 msgstr ""
@@ -1621,32 +1673,32 @@ msgstr ""
 "Солнц на этом маяке, потому что их оружие активировано и нацелено прямо на "
 "вас!"
 
-#: src-en/data/events_sector_lostsun.xml:1125
+#: src-en/data/events_sector_lostsun.xml:1151
 msgid ""
 "data/events_sector_lostsun.xml$/FTL/event[@name=\"ENCOUNTER_LOSTSUN_SUN\"]/text"
 msgstr ""
-"Затерянные Солнца почти не боятся солнечных вспышек. Капитан корабля на этом "
-"маяке ухмыляется. \"Боитесь небольшого пожара, капитан? Давайте устроим "
+"Затерянные Солнца почти не боятся солнечных вспышек. Капитан корабля на этом"
+" маяке ухмыляется. \"Боитесь небольшого пожара, капитан? Давайте устроим "
 "дуэль, НА СМЕРТЬ!\""
 
-#: src-en/data/events_sector_lostsun.xml:1129
+#: src-en/data/events_sector_lostsun.xml:1155
 msgid ""
 "data/events_sector_lostsun.xml$/FTL/event[@name=\"ENCOUNTER_LOSTSUN_SUN\"]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_lostsun.xml:1144
+#: src-en/data/events_sector_lostsun.xml:1170
 msgid ""
 "data/events_sector_lostsun.xml$/FTL/event[@name=\"ENCOUNTER_ROCK_LOSTSUN_REGULAR\"]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_lostsun.xml:1149
+#: src-en/data/events_sector_lostsun.xml:1175
 msgid ""
 "data/events_sector_lostsun.xml$//textList[@name=\"TEXT_ENCOUNTER_ROCK_LOSTSUN\"]/text[1]"
 msgstr ""
 "\"Ваш союз с радикальной террористической группировкой Затерянных Солнц "
 "больше недопустим, капитан Ренегат Федерации\"."
 
-#: src-en/data/events_sector_lostsun.xml:1150
+#: src-en/data/events_sector_lostsun.xml:1176
 msgid ""
 "data/events_sector_lostsun.xml$//textList[@name=\"TEXT_ENCOUNTER_ROCK_LOSTSUN\"]/text[2]"
 msgstr ""
@@ -1654,14 +1706,14 @@ msgstr ""
 "Один из таких кораблей заметил вас и не хочет, чтобы вы раскрыли его "
 "местоположение."
 
-#: src-en/data/events_sector_lostsun.xml:1151
+#: src-en/data/events_sector_lostsun.xml:1177
 msgid ""
 "data/events_sector_lostsun.xml$//textList[@name=\"TEXT_ENCOUNTER_ROCK_LOSTSUN\"]/text[3]"
 msgstr ""
 "Выстрелы попадают вашу защиту, но ни один из них не наносит серьезных "
 "повреждений. Незамеченный корабль валунов, разведывающий сектор, атакует!"
 
-#: src-en/data/events_sector_lostsun.xml:1152
+#: src-en/data/events_sector_lostsun.xml:1178
 msgid ""
 "data/events_sector_lostsun.xml$//textList[@name=\"TEXT_ENCOUNTER_ROCK_LOSTSUN\"]/text[4]"
 msgstr ""
@@ -1669,7 +1721,7 @@ msgstr ""
 "поджигателей, и мы намерены поступить в соответствии с волей наших истинных "
 "лидеров!\""
 
-#: src-en/data/events_sector_lostsun.xml:1155
+#: src-en/data/events_sector_lostsun.xml:1181
 msgid ""
 "data/events_sector_lostsun.xml$/FTL/event[@name=\"ENCOUNTER_LOSTSUN_ROCK_ASTEROID\"]/text"
 msgstr ""
@@ -1678,22 +1730,22 @@ msgstr ""
 "заинтересованы в том, чтобы позволить вам сбежать с информацией о них, и "
 "атакуют!"
 
-#: src-en/data/events_sector_lostsun.xml:1159
+#: src-en/data/events_sector_lostsun.xml:1185
 msgid ""
 "data/events_sector_lostsun.xml$/FTL/event[@name=\"ENCOUNTER_LOSTSUN_ROCK_ASTEROID\"]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_lostsun.xml:1168
+#: src-en/data/events_sector_lostsun.xml:1194
 msgid ""
 "data/events_sector_lostsun.xml$//event[@name=\"ENCOUNTER_COALITION_LOSTSUN_1\"]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_lostsun.xml:1176
+#: src-en/data/events_sector_lostsun.xml:1202
 msgid ""
 "data/events_sector_lostsun.xml$//event[@name=\"ENCOUNTER_COALITION_LOSTSUN_2\"]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_lostsun.xml:1181
+#: src-en/data/events_sector_lostsun.xml:1207
 msgid ""
 "data/events_sector_lostsun.xml$//textList[@name=\"TEXT_ENCOUNTER_COALITION_LOSTSUN\"]/text[1]"
 msgstr ""
@@ -1701,14 +1753,14 @@ msgstr ""
 "просьбой направить силы для борьбы с грозой исходящей от Затерянных Солнц. "
 "Корабль здесь, кажется, отнес вас к этой угрозе, и атакует!"
 
-#: src-en/data/events_sector_lostsun.xml:1182
+#: src-en/data/events_sector_lostsun.xml:1208
 msgid ""
 "data/events_sector_lostsun.xml$//textList[@name=\"TEXT_ENCOUNTER_COALITION_LOSTSUN\"]/text[2]"
 msgstr ""
 "Корабль Коалиции, охотящийся за кораблями Затерянных Солнц, замечает вас. "
 "Они не теряют времени, чтобы зарядить свое оружие и атаковать."
 
-#: src-en/data/events_sector_lostsun.xml:1183
+#: src-en/data/events_sector_lostsun.xml:1209
 msgid ""
 "data/events_sector_lostsun.xml$//textList[@name=\"TEXT_ENCOUNTER_COALITION_LOSTSUN\"]/text[3]"
 msgstr ""
@@ -1716,12 +1768,12 @@ msgstr ""
 "обращается к вам. \"Я пришел сссюда, чтобы охотитьссся на одержимых огнем "
 "уродов, а не на бездельников Федерации! Приготовьссся к аннигиляции\"."
 
-#: src-en/data/events_sector_lostsun.xml:1189
+#: src-en/data/events_sector_lostsun.xml:1215
 msgid ""
 "data/events_sector_lostsun.xml$//event[@name=\"LOSTSUN_ROCK_CHOICE\"]/choice[1]/text"
 msgstr "Атаковать валунов."
 
-#: src-en/data/events_sector_lostsun.xml:1191
+#: src-en/data/events_sector_lostsun.xml:1217
 msgid ""
 "data/events_sector_lostsun.xml$//event[@name=\"LOSTSUN_ROCK_CHOICE\"]/choice[1]/event/text"
 msgstr ""
@@ -1729,38 +1781,38 @@ msgstr ""
 "Затерянным Солнцам. Корабль Затерянных Солнц не струсил, и оказывает "
 "поддержку с дальнего расстояния."
 
-#: src-en/data/events_sector_lostsun.xml:1196
+#: src-en/data/events_sector_lostsun.xml:1222
 msgid ""
 "data/events_sector_lostsun.xml$//event[@name=\"LOSTSUN_ROCK_CHOICE\"]/choice[1]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_lostsun.xml:1202
+#: src-en/data/events_sector_lostsun.xml:1228
 msgid ""
 "data/events_sector_lostsun.xml$//event[@name=\"LOSTSUN_ROCK_CHOICE\"]/choice[2]/text"
 msgstr "Атаковать Затерянные Солнца."
 
-#: src-en/data/events_sector_lostsun.xml:1204
+#: src-en/data/events_sector_lostsun.xml:1230
 msgid ""
 "data/events_sector_lostsun.xml$//event[@name=\"LOSTSUN_ROCK_CHOICE\"]/choice[2]/event/text"
 msgstr ""
 "Вы думаете, что завоевать расположение валунов не помешает. Если вы "
-"уничтожите корабль Затерянных Солнц, никто не услышит о вашем предательстве. "
-"Удивительно, но валуны продолжает оказывать огневую поддержку кораблю "
+"уничтожите корабль Затерянных Солнц, никто не услышит о вашем предательстве."
+" Удивительно, но валуны продолжает оказывать огневую поддержку кораблю "
 "Затерянных Солнц."
 
-#: src-en/data/events_sector_lostsun.xml:1209
+#: src-en/data/events_sector_lostsun.xml:1235
 msgid ""
 "data/events_sector_lostsun.xml$//event[@name=\"LOSTSUN_ROCK_CHOICE\"]/choice[2]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_lostsun.xml:1216
+#: src-en/data/events_sector_lostsun.xml:1242
 msgid ""
 "data/events_sector_lostsun.xml$//textList[@name=\"TEXT_LOSTSUN_ROCK_CHOICE\"]/text[1]"
 msgstr ""
-"Корабли валунов и Затерянных Солнц сражаются на этом маяке. Оба замечают вас "
-"и, что удивительно, оба просят вас о помощи."
+"Корабли валунов и Затерянных Солнц сражаются на этом маяке. Оба замечают вас"
+" и, что удивительно, оба просят вас о помощи."
 
-#: src-en/data/events_sector_lostsun.xml:1217
+#: src-en/data/events_sector_lostsun.xml:1243
 msgid ""
 "data/events_sector_lostsun.xml$//textList[@name=\"TEXT_LOSTSUN_ROCK_CHOICE\"]/text[2]"
 msgstr ""
@@ -1769,7 +1821,7 @@ msgstr ""
 "Затерянных Солнц. Оба уже заметили вас, так что вам придется встать на "
 "сторону одного из них."
 
-#: src-en/data/events_sector_lostsun.xml:1218
+#: src-en/data/events_sector_lostsun.xml:1244
 msgid ""
 "data/events_sector_lostsun.xml$//textList[@name=\"TEXT_LOSTSUN_ROCK_CHOICE\"]/text[3]"
 msgstr ""
@@ -1777,7 +1829,7 @@ msgstr ""
 "знают о вашем присутствии, но слишком заняты сражением, чтобы разбираться с "
 "вами. На чью сторону вы встанете?"
 
-#: src-en/data/events_sector_lostsun.xml:1219
+#: src-en/data/events_sector_lostsun.xml:1245
 msgid ""
 "data/events_sector_lostsun.xml$//textList[@name=\"TEXT_LOSTSUN_ROCK_CHOICE\"]/text[4]"
 msgstr ""
@@ -1785,29 +1837,29 @@ msgstr ""
 "схватке у этого маяка. В любом случае, вы не сможете уйти, не разозлив "
 "обоих, поэтому вам придется сделать выбор."
 
-#: src-en/data/events_sector_lostsun.xml:1222
+#: src-en/data/events_sector_lostsun.xml:1248
 msgid ""
 "data/events_sector_lostsun.xml$//event[@name=\"LOSTSUN_ROCK_CHOICE_ROCK_WIN\"]/text"
 msgstr ""
 "\"Вы удивляете меня, Ренегат. Возможно, вы действительно заботитесь о наших "
 "интересах\". Они расплачиваются с вами в знак благодарности."
 
-#: src-en/data/events_sector_lostsun.xml:1226
+#: src-en/data/events_sector_lostsun.xml:1252
 msgid ""
 "data/events_sector_lostsun.xml$//event[@name=\"LOSTSUN_ROCK_CHOICE_LOSTSUN_WIN\"]/text"
 msgstr ""
 "\"Интересно. Это не тот результат, которого мы ожидали. Вы, Ренегаты, "
-"действительно вероломные мерзавцы, как нам говорили. Тем не менее мы у вас в "
-"долгу и намерены его погасить\"."
+"действительно вероломные мерзавцы, как нам говорили. Тем не менее мы у вас в"
+" долгу и намерены его погасить\"."
 
-#: src-en/data/events_sector_lostsun.xml:1239
+#: src-en/data/events_sector_lostsun.xml:1265
 msgid ""
 "data/events_sector_lostsun.xml$//event[@name=\"BOARDERS_LOSTSUN_FIRE\"]/text"
 msgstr ""
 "Вы слышите неповторимый звук взрыва огненной бомбы и свист телепортера. Вы "
 "не знаете, откуда они взялись, но у вас точно появились непрошеные гости!"
 
-#: src-en/data/events_sector_lostsun.xml:1263
+#: src-en/data/events_sector_lostsun.xml:1289
 msgid ""
 "data/events_sector_lostsun.xml$//event[@name=\"LOSTSUN_FLEET_UNLOCK1\"]/text"
 msgstr ""
@@ -1815,12 +1867,12 @@ msgstr ""
 "расхаживает взад и вперед. \"Вы там... вы принадлежите к флоту Федерации? Вы"
 " должны помочь нам. Это имеет первостепенное значение\"."
 
-#: src-en/data/events_sector_lostsun.xml:1265
+#: src-en/data/events_sector_lostsun.xml:1291
 msgid ""
 "data/events_sector_lostsun.xml$//event[@name=\"LOSTSUN_FLEET_UNLOCK1\"]/choice[1]/text"
 msgstr "Выслушать их просьбу."
 
-#: src-en/data/events_sector_lostsun.xml:1267
+#: src-en/data/events_sector_lostsun.xml:1293
 msgid ""
 "data/events_sector_lostsun.xml$//event[@name=\"LOSTSUN_FLEET_UNLOCK1\"]/choice[1]/event/text"
 msgstr ""
@@ -1829,60 +1881,52 @@ msgstr ""
 "обречены. Федерация единственный союзник Затерянных Солнц, только от ваших "
 "усилий зависит наше дальнейшее выживание\"."
 
-#: src-en/data/events_sector_lostsun.xml:1272
+#: src-en/data/events_sector_lostsun.xml:1298
 msgid ""
 "data/events_sector_lostsun.xml$//event[@name=\"LOSTSUN_FLEET_UNLOCK1\"]/choice[2]/text"
 msgstr "У нас нет времени."
 
-#: src-en/data/events_sector_lostsun.xml:1274
+#: src-en/data/events_sector_lostsun.xml:1300
 msgid ""
 "data/events_sector_lostsun.xml$//event[@name=\"LOSTSUN_FLEET_UNLOCK1\"]/choice[2]/event/text"
 msgstr "Валун только ворчит и улетает."
 
-#: src-en/data/events_sector_lostsun.xml:1276
+#: src-en/data/events_sector_lostsun.xml:1302
 msgid ""
 "data/events_sector_lostsun.xml$//event[@name=\"LOSTSUN_FLEET_UNLOCK1\"]/choice[2]/event/choice[1]/text"
 msgstr "Заняться чем-либо на корабле."
 
-#: src-en/data/events_sector_lostsun.xml:1280
+#: src-en/data/events_sector_lostsun.xml:1306
 msgid ""
 "data/events_sector_lostsun.xml$//event[@name=\"LOSTSUN_FLEET_UNLOCK1\"]/choice[2]/event/choice[2]/text"
 msgstr "Ничего не делать."
 
-#: src-en/data/events_sector_lostsun.xml:1296
+#: src-en/data/events_sector_lostsun.xml:1322
 msgid ""
 "data/events_sector_lostsun.xml$//event[@name=\"LOSTSUN_FLEET_UNLOCK2\"]/text"
-msgstr ""
-"Флот, о котором упоминали Затерянные Солнца, нету пр координатам, которые "
-"они дали, но есть крейсер! Корабль связывается с вами, грубый валун со "
-"шрамом проходящим через глаз смотрит на вас сверху вниз. \"Инквизиция "
-"вернула этот корабль, и то же самое будет со всем этим сектором. Для "
-"Федерации было бы разумно разорвать связи с Затерянными Солнцами и "
-"немедленно уйти или столкнуться с гневом второй Инквизиции. Это только "
-"вопрос времени, когда Теократия снова поднимется; на чьей стороне вы хотите "
-"быть?\""
+msgstr "Флот, о котором упоминали Затерянные Солнца, нет в указанных ими координатах, но есть крейсер! Корабль связывается с вами, грубый валун со шрамом проходящим через глаз смотрит на вас сверху вниз. \"Инквизиция вернула этот корабль, и то же самое будет со всем этим сектором. Для Федерации было бы разумно разорвать связи с Затерянными Солнцами и немедленно уйти или столкнуться с гневом второй Инквизиции. Это только вопрос времени, когда Теократия снова поднимется; на чьей стороне вы хотите быть?\""
 
-#: src-en/data/events_sector_lostsun.xml:1299
+#: src-en/data/events_sector_lostsun.xml:1325
 msgid ""
 "data/events_sector_lostsun.xml$//event[@name=\"LOSTSUN_FLEET_UNLOCK2\"]/choice[1]/text"
 msgstr ""
 "Вы правы, Затерянные Солнца - жалкий союзник на фоне могущества Теократии."
 
-#: src-en/data/events_sector_lostsun.xml:1301
+#: src-en/data/events_sector_lostsun.xml:1327
 msgid ""
 "data/events_sector_lostsun.xml$//event[@name=\"LOSTSUN_FLEET_UNLOCK2\"]/choice[1]/event/text"
 msgstr ""
 "\"Значит, вы так внезапно изменили свое мнение? Что заставило вас сказать "
 "эти слова?\""
 
-#: src-en/data/events_sector_lostsun.xml:1303
+#: src-en/data/events_sector_lostsun.xml:1329
 msgid ""
 "data/events_sector_lostsun.xml$//event[@name=\"LOSTSUN_FLEET_UNLOCK2\"]/choice[1]/event/choice/text"
 msgstr ""
 "Затерянные Солнца опрометчивы и жестоки. Теократия умеет вовремя наносить "
 "удары."
 
-#: src-en/data/events_sector_lostsun.xml:1305
+#: src-en/data/events_sector_lostsun.xml:1331
 msgid ""
 "data/events_sector_lostsun.xml$//event[@name=\"LOSTSUN_FLEET_UNLOCK2\"]/choice[1]/event/choice/event/text"
 msgstr ""
@@ -1890,12 +1934,12 @@ msgstr ""
 "Слишком легко убедить, недостойный союзник Затерянных Солнц. Радуйся, что "
 "легко отделался, я бы лучше раздавил тебе голову, если бы не приказ\"."
 
-#: src-en/data/events_sector_lostsun.xml:1311
+#: src-en/data/events_sector_lostsun.xml:1337
 msgid ""
 "data/events_sector_lostsun.xml$//event[@name=\"LOSTSUN_FLEET_UNLOCK2\"]/choice[2]/text"
 msgstr "Инквизиция и раньше терпела неудачу."
 
-#: src-en/data/events_sector_lostsun.xml:1313
+#: src-en/data/events_sector_lostsun.xml:1339
 msgid ""
 "data/events_sector_lostsun.xml$//event[@name=\"LOSTSUN_FLEET_UNLOCK2\"]/choice[2]/event/text"
 msgstr ""
@@ -1903,48 +1947,48 @@ msgstr ""
 "пока не придет время. Коалиция станет той искрой, которая разожжет огонь "
 "ярости в наших сердцах\"."
 
-#: src-en/data/events_sector_lostsun.xml:1315
+#: src-en/data/events_sector_lostsun.xml:1341
 msgid ""
 "data/events_sector_lostsun.xml$//event[@name=\"LOSTSUN_FLEET_UNLOCK2\"]/choice[2]/event/choice[1]/text"
 msgstr "Говорите как преданный последователь Затерянных Солнц."
 
-#: src-en/data/events_sector_lostsun.xml:1317
+#: src-en/data/events_sector_lostsun.xml:1343
 msgid ""
 "data/events_sector_lostsun.xml$//event[@name=\"LOSTSUN_FLEET_UNLOCK2\"]/choice[2]/event/choice[1]/event/text"
 msgstr ""
 "\"Ты смеешь оскорблять могущество и милость священных крестовых походов "
 "Старейшин? Ты умрешь прямо здесь!\""
 
-#: src-en/data/events_sector_lostsun.xml:1320
+#: src-en/data/events_sector_lostsun.xml:1346
 msgid ""
 "data/events_sector_lostsun.xml$//event[@name=\"LOSTSUN_FLEET_UNLOCK2\"]/choice[2]/event/choice[1]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_lostsun.xml:1326
+#: src-en/data/events_sector_lostsun.xml:1352
 msgid ""
 "data/events_sector_lostsun.xml$//event[@name=\"LOSTSUN_FLEET_UNLOCK2\"]/choice[2]/event/choice[2]/text"
 msgstr "Это не та гора, на которой можно умереть. Уходим."
 
-#: src-en/data/events_sector_lostsun.xml:1332
+#: src-en/data/events_sector_lostsun.xml:1358
 msgid ""
 "data/events_sector_lostsun.xml$//event[@name=\"LOSTSUN_FLEET_UNLOCK2\"]/choice[3]/text"
 msgstr "Промолчать и уйти."
 
-#: src-en/data/events_sector_lostsun.xml:1337
+#: src-en/data/events_sector_lostsun.xml:1363
 msgid ""
 "data/events_sector_lostsun.xml$//event[@name=\"LOSTSUN_FLEET_UNLOCK3\"]/text"
 msgstr ""
-"\"Да, и можно с уверенностью сказать, что вы проиграли. Затерянные Солнца не "
-"щадят своих союзов. Если вы действительно представляете Федерацию, то вы "
-"проделали хорошую работу, продемонстрировав свою лояльность. Теократия будет "
-"возмущена тем, что вы перешли на нашу сторону\"."
+"\"Да, и можно с уверенностью сказать, что вы проиграли. Затерянные Солнца не"
+" щадят своих союзов. Если вы действительно представляете Федерацию, то вы "
+"проделали хорошую работу, продемонстрировав свою лояльность. Теократия будет"
+" возмущена тем, что вы перешли на нашу сторону\"."
 
-#: src-en/data/events_sector_lostsun.xml:1340
+#: src-en/data/events_sector_lostsun.xml:1366
 msgid ""
 "data/events_sector_lostsun.xml$//event[@name=\"LOSTSUN_FLEET_UNLOCK3\"]/choice[1]/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_lostsun.xml:1342
+#: src-en/data/events_sector_lostsun.xml:1368
 msgid ""
 "data/events_sector_lostsun.xml$//event[@name=\"LOSTSUN_FLEET_UNLOCK3\"]/choice[1]/event/text"
 msgstr ""
@@ -1953,26 +1997,26 @@ msgstr ""
 "чертежей этого корабля Федерации в надежде, что он будет использован в их "
 "борьбе\"."
 
-#: src-en/data/events_sector_lostsun.xml:1345
+#: src-en/data/events_sector_lostsun.xml:1371
 msgid ""
 "data/events_sector_lostsun.xml$//event[@name=\"LOSTSUN_FLEET_UNLOCK3\"]/choice[1]/event/crewMember"
 msgstr "Ариадна"
 
-#: src-en/data/events_sector_lostsun.xml:1351
+#: src-en/data/events_sector_lostsun.xml:1377
 msgid ""
 "data/events_sector_lostsun.xml$//event[@name=\"LOSTSUN_FLEET_UNLOCK3\"]/choice[@req=\"ach_boss_rockcruiser\"]/text"
 msgstr "На самом деле, однажды я сверг правительство валунов."
 
-#: src-en/data/events_sector_lostsun.xml:1353
+#: src-en/data/events_sector_lostsun.xml:1379
 msgid ""
 "data/events_sector_lostsun.xml$//event[@name=\"LOSTSUN_FLEET_UNLOCK3\"]/choice[@req=\"ach_boss_rockcruiser\"]/event/text"
 msgstr ""
 "Ариадна разразилась смехом, но останавливается. \"Звезды мои, ВЫ и есть тот "
 "корабль, о котором мы слышали. Свержение - вряд ли подходящее слово, но вы "
-"повергли их родные миры в хаос! Ваши усилия оказали значительную помощь нам. "
-"Позвольте мне помочь вам всем, чем смогу\"."
+"повергли их родные миры в хаос! Ваши усилия оказали значительную помощь нам."
+" Позвольте мне помочь вам всем, чем смогу\"."
 
-#: src-en/data/events_sector_lostsun.xml:1356
+#: src-en/data/events_sector_lostsun.xml:1382
 msgid ""
 "data/events_sector_lostsun.xml$//event[@name=\"LOSTSUN_FLEET_UNLOCK3\"]/choice[@req=\"ach_boss_rockcruiser\"]/event/crewMember"
 msgstr "Ариадна"

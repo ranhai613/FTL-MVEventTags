@@ -928,6 +928,29 @@
   </mod:findName>
   <mod:findName name="STOREEVENT_REFUELING" type="event">
     <mod:findLike type="choice">
+      <mod:selector req="BLUELIST_WEAPONS_MIND_CONTROL"/>
+      <mod:findLike type="text">
+        <mod:selector>(Mind Control Weapon) "Negotiate" an even lower price. [-7~ -&gt; 5{]</mod:selector>
+        <mod:setValue>(Mind Control Weapon) "Negotiate" an even lower price. [-7~ -&gt; 5{][INFO][NAME]itemModify[/NAME]{5 ~-7[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="STOREEVENT_REFUELING" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="BLUELIST_WEAPONS_MIND_CONTROL"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="text">
+            <mod:selector>Shop.</mod:selector>
+            <mod:setValue>Shop.[INFO][NAME]storageCheck[/NAME]Storage Check[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="STOREEVENT_REFUELING" type="event">
+    <mod:findLike type="choice">
       <mod:selector req="mind" max_lvl="2" hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>(Mind Control) "Negotiate" an even lower price. [-7~ -&gt; 5{]</mod:selector>
@@ -1053,6 +1076,14 @@
     </mod:findLike>
   </mod:findName>
   <mod:findName name="STORE_LOAD_MERCHANTS_IONS" type="event">
+    <mod:findLike type="choice">
+      <mod:findLike type="text">
+        <mod:selector>Do something onboard the ship.</mod:selector>
+        <mod:setValue>Do something onboard the ship.[INFO][NAME]storageCheck[/NAME]Storage Check[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="STORE_LOAD_MERCHANTS_FOCUS" type="event">
     <mod:findLike type="choice">
       <mod:findLike type="text">
         <mod:selector>Do something onboard the ship.</mod:selector>
@@ -2253,6 +2284,195 @@
       <mod:findLike type="text">
         <mod:selector>Do something onboard the ship.</mod:selector>
         <mod:setValue>Do something onboard the ship.[INFO][NAME]storageCheck[/NAME]Storage Check[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="STOREEVENT_DETRITUS" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true" req="rep_comb_union" lvl="-999" max_lvl="2" blue="false"/>
+      <mod:findLike type="text">
+        <mod:selector>Purchase goods from the Detritus store.</mod:selector>
+        <mod:setValue>Purchase goods from the Detritus store.[INFO][NAME]storageCheck[/NAME]Storage Check[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="STOREEVENT_DETRITUS" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true" req="cloaking" lvl="2"/>
+      <mod:findLike type="text">
+        <mod:selector>(Upg. Cloak) Pilfer some salvage from a nearby trash freighter.</mod:selector>
+        <mod:setValue>(Upg. Cloak) Pilfer some salvage from a nearby trash freighter.[INFO][NAME]autoReward[/NAME]Reward Stuff(L)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="STOREEVENT_DETRITUS" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>Attempt to pilfer some salvage from a nearby trash freighter.</mod:selector>
+        <mod:setValue>Attempt to pilfer some salvage from a nearby trash freighter.[INFO]50% [NAME]autoReward[/NAME]Reward Stuff(L)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="STOREEVENT_DETRITUS" type="event">
+    <mod:findLike type="choice">
+      <mod:findLike type="text">
+        <mod:selector>Carry on.</mod:selector>
+        <mod:setValue>Carry on.[INFO][NAME]storageCheck[/NAME]Storage Check[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="STOREEVENT_DETRITUS" type="event">
+    <mod:findLike type="choice">
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:findLike type="text">
+            <mod:selector>Do something onboard the ship.</mod:selector>
+            <mod:setValue>Do something onboard the ship.[INFO][NAME]storageCheck[/NAME]Storage Check[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="STOREEVENT_ARCHIVE_REC_CENTER" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true" req="rep_comb_union" lvl="-9999" max_lvl="2" blue="false" max_group="0"/>
+      <mod:findLike type="text">
+        <mod:selector>Check out the recreation center before going to the store.</mod:selector>
+        <mod:setValue>Check out the recreation center before going to the store.[INFO]33% [NAME]crewMember[/NAME]Gain a crew(Zoltan)[/INFO][INFO]33% [NAME]autoReward[/NAME]Reward { Only(L)[/INFO][INFO]33% [NAME]autoReward[/NAME]Reward ~ Only(L)[/INFO][INFO]33% [NAME]augment[/NAME]Gain an augment(Random)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="STOREEVENT_ARCHIVE_REC_CENTER" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true" req="rep_comb_union" lvl="-9999" max_lvl="2" blue="false" max_group="1"/>
+      <mod:findLike type="text">
+        <mod:selector>Proceed to the store.</mod:selector>
+        <mod:setValue>Proceed to the store.[INFO][NAME]storageCheck[/NAME]Storage Check[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="STOREEVENT_ARCHIVE_REC_CENTER" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="pilot" blue="false" max_group="3"/>
+      <mod:findLike type="text">
+        <mod:selector>Carry on.</mod:selector>
+        <mod:setValue>Carry on.[INFO][NAME]storageCheck[/NAME]Storage Check[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="STOREEVENT_ARCHIVE_REC_CENTER" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="pilot" blue="false" max_group="3"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:findLike type="text">
+            <mod:selector>Do something onboard the ship.</mod:selector>
+            <mod:setValue>Do something onboard the ship.[INFO][NAME]storageCheck[/NAME]Storage Check[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="STORE_RECREATION_CENTER" type="eventList">
+    <mod:findLike type="event">
+      <mod:findLike type="choice">
+        <mod:selector hidden="true"/>
+        <mod:findLike type="text">
+          <mod:selector>Play with the Zoltans.</mod:selector>
+          <mod:setValue>Play with the Zoltans.[INFO][NAME]crewMember[/NAME]Gain a crew(Zoltan)[/INFO]</mod:setValue>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="STORE_RECREATION_CENTER" type="eventList">
+    <mod:findLike type="event">
+      <mod:findLike type="choice">
+        <mod:selector hidden="true"/>
+        <mod:findLike type="text">
+          <mod:selector>Just watch.</mod:selector>
+          <mod:setValue>Just watch.[INFO][NAME]autoReward[/NAME]Reward { Only(L)[/INFO]</mod:setValue>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="STORE_RECREATION_CENTER" type="eventList">
+    <mod:findLike type="event">
+      <mod:findLike type="choice">
+        <mod:selector hidden="true"/>
+        <mod:findLike type="text">
+          <mod:selector>Challenge the young human.</mod:selector>
+          <mod:setValue>Challenge the young human.[INFO][NAME]autoReward[/NAME]Reward ~ Only(L)[/INFO]</mod:setValue>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="STORE_RECREATION_CENTER" type="eventList">
+    <mod:findLike type="event">
+      <mod:findLike type="choice">
+        <mod:selector hidden="true"/>
+        <mod:findLike type="text">
+          <mod:selector>Challenge the Vampweed.</mod:selector>
+          <mod:setValue>Challenge the Vampweed.[INFO][NAME]itemModify[/NAME]~-15[/INFO]</mod:setValue>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="STORE_RECREATION_CENTER" type="eventList">
+    <mod:findLike type="event">
+      <mod:findLike type="choice">
+        <mod:selector hidden="true"/>
+        <mod:findLike type="event">
+          <mod:findLike type="choice">
+            <mod:selector hidden="true"/>
+            <mod:findLike type="text">
+              <mod:selector>Agree to the terms. [15~]</mod:selector>
+              <mod:setValue>Agree to the terms. [15~][INFO][NAME]itemModify[/NAME]~-15[/INFO]</mod:setValue>
+            </mod:findLike>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="STORE_RECREATION_CENTER" type="eventList">
+    <mod:findLike type="event">
+      <mod:findLike type="choice">
+        <mod:selector hidden="true"/>
+        <mod:findLike type="event">
+          <mod:findLike type="choice">
+            <mod:selector hidden="true"/>
+            <mod:findLike type="event">
+              <mod:findLike type="choice">
+                <mod:findLike type="text">
+                  <mod:selector>Sure.</mod:selector>
+                  <mod:setValue>Sure.[INFO][NAME]crewMember[/NAME]Gain a crew(Orchid Vampweed)[/INFO]</mod:setValue>
+                </mod:findLike>
+              </mod:findLike>
+            </mod:findLike>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="STORE_RECREATION_CENTER" type="eventList">
+    <mod:findLike type="event">
+      <mod:findLike type="choice">
+        <mod:selector hidden="true"/>
+        <mod:findLike type="text">
+          <mod:selector>Offer your voucher to the Zoltan.</mod:selector>
+          <mod:setValue>Offer your voucher to the Zoltan.[INFO][NAME]augment[/NAME]Gain an augment(Random)[/INFO]</mod:setValue>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="DETRITUS_PILFER_LIST" type="eventList">
+    <mod:findLike type="event">
+      <mod:findLike type="choice">
+        <mod:selector req="PDS_DISABLE" hidden="true"/>
+        <mod:findLike type="text">
+          <mod:selector>(Signal Diluter) Drown out the signal long enough to finish your raid.</mod:selector>
+          <mod:setValue>(Signal Diluter) Drown out the signal long enough to finish your raid.[INFO][NAME]autoReward[/NAME]Reward Stuff(L)[/INFO]</mod:setValue>
+        </mod:findLike>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -4458,8 +4678,8 @@
   <mod:findName name="STOREEVENT_ORCHID_FARM" type="event">
     <mod:findLike type="choice">
       <mod:findLike type="text">
-        <mod:selector>Buy a farmhand.</mod:selector>
-        <mod:setValue>Buy a farmhand.[INFO][NAME]crewMember[/NAME]Gain a crew(Orchid)[/INFO][INFO][NAME]itemModify[/NAME]~-30[/INFO]</mod:setValue>
+        <mod:selector>Hire a farmhand.</mod:selector>
+        <mod:setValue>Hire a farmhand.[INFO][NAME]crewMember[/NAME]Gain a crew(Orchid)[/INFO][INFO][NAME]itemModify[/NAME]~-30[/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -6449,6 +6669,15 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
+  <mod:findName name="STOREEVENT_ROCK_RACIST" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="BLUELIST_WEAPONS_MIND_CONTROL" hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>(Mind Control Weapon) Change the trader's mind.</mod:selector>
+        <mod:setValue>(Mind Control Weapon) Change the trader's mind.[INFO][NAME]autoReward[/NAME]Reward ~ Only(L)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
   <mod:findName name="STOREEVENT_ROCK_MINELAUNCHERS" type="event">
     <mod:findLike type="choice">
       <mod:findLike type="text">
@@ -6982,6 +7211,68 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="event">
         <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="event">
+            <mod:findLike type="choice">
+              <mod:selector hidden="true" req="LIST_CREW_SLUG"/>
+              <mod:findLike type="text">
+                <mod:selector>(Slug Crew) Your Slug seems to think something is funny.</mod:selector>
+                <mod:setValue>(Slug Crew) Your Slug seems to think something is funny.[FightINFO]Fight(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(SR: [INFO]20% [NAME]autoReward[/NAME]Reward Stuff(R)[/INFO] [INFO]20% [NAME]autoReward[/NAME]Reward } Only(R)[/INFO])[/FightINFO]</mod:setValue>
+              </mod:findLike>
+            </mod:findLike>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="STOREEVENT_ROCK_MISSION" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="event">
+            <mod:findLike type="choice">
+              <mod:selector hidden="true" req="LIST_CREW_SLUG"/>
+              <mod:findLike type="event">
+                <mod:findLike type="choice">
+                  <mod:selector hidden="true"/>
+                  <mod:findLike type="text">
+                    <mod:selector>Continue...</mod:selector>
+                    <mod:setValue>Continue...[FightINFO]Fight(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(SR: [INFO]20% [NAME]autoReward[/NAME]Reward Stuff(R)[/INFO] [INFO]20% [NAME]autoReward[/NAME]Reward } Only(R)[/INFO])[/FightINFO]</mod:setValue>
+                  </mod:findLike>
+                </mod:findLike>
+              </mod:findLike>
+            </mod:findLike>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="STOREEVENT_ROCK_MISSION" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="event">
+            <mod:findLike type="choice">
+              <mod:selector hidden="true" req="BLUELIST_CREW_SNAIL"/>
+              <mod:findLike type="text">
+                <mod:selector>(Telepathic Shell) Have your Shell figure out the answer.</mod:selector>
+                <mod:setValue>(Telepathic Shell) Have your Shell figure out the answer.[INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Crystal)[/INFO]</mod:setValue>
+              </mod:findLike>
+            </mod:findLike>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="STOREEVENT_ROCK_MISSION" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
           <mod:selector hidden="true" req="LIST_CREW_ROCK_UNFAITHFUL"/>
           <mod:findLike type="text">
             <mod:selector>(Unfaithful Rock Crew) "Your holy text are lies!"</mod:selector>
@@ -7029,6 +7320,20 @@
                 </mod:findLike>
               </mod:findLike>
             </mod:findLike>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="STOREEVENT_ROCK_MISSION" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true" req="unique_tuco"/>
+          <mod:findLike type="text">
+            <mod:selector>(Tuco) Introduce them to the Dread Pirate himself.</mod:selector>
+            <mod:setValue>(Tuco) Introduce them to the Dread Pirate himself.[INFO][NAME]autoReward[/NAME]Reward Item(L)[/INFO]</mod:setValue>
           </mod:findLike>
         </mod:findLike>
       </mod:findLike>
@@ -8095,6 +8400,29 @@
   </mod:findName>
   <mod:findName name="STOREEVENT_REBEL_XENOPHOBE" type="event">
     <mod:findLike type="choice">
+      <mod:selector hidden="true" max_group="1" req="LIST_CREW_PETS" blue="true"/>
+      <mod:findLike type="text">
+        <mod:selector>(Non-Sapient Crew) Pass off your alien crew as pets.</mod:selector>
+        <mod:setValue>(Non-Sapient Crew) Pass off your alien crew as pets.[INFO][NAME]storageCheck[/NAME]Storage Check[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="STOREEVENT_REBEL_XENOPHOBE" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true" max_group="1" req="LIST_CREW_PETS" blue="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="text">
+            <mod:selector>Continue...</mod:selector>
+            <mod:setValue>Continue...[INFO][NAME]storageCheck[/NAME]Storage Check[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="STOREEVENT_REBEL_XENOPHOBE" type="event">
+    <mod:findLike type="choice">
       <mod:selector hidden="true" max_group="2" req="pilot" lvl="1" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Ignore the store.</mod:selector>
@@ -8350,6 +8678,29 @@
   <mod:findName name="STOREEVENT_AUTO_VENDER" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true" req="hacking" lvl="3"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="text">
+            <mod:selector>Continue...</mod:selector>
+            <mod:setValue>Continue...[INFO][NAME]storageCheck[/NAME]Storage Check[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="STOREEVENT_AUTO_VENDER" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true" req="BLUELIST_WEAPONS_HACK"/>
+      <mod:findLike type="text">
+        <mod:selector>(Hacking Weapon) Confuse the Auto-ship to trade with you.</mod:selector>
+        <mod:setValue>(Hacking Weapon) Confuse the Auto-ship to trade with you.[INFO][NAME]storageCheck[/NAME]Storage Check[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="STOREEVENT_AUTO_VENDER" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true" req="BLUELIST_WEAPONS_HACK"/>
       <mod:findLike type="event">
         <mod:findLike type="choice">
           <mod:selector hidden="true"/>
@@ -11068,6 +11419,33 @@
   <mod:findName name="STOREEVENT_PIRATE_AWKWARD_QUESTION" type="eventList">
     <mod:findLike type="event">
       <mod:findLike type="choice">
+        <mod:selector hidden="true" req="BLUELIST_WEAPONS_HACK"/>
+        <mod:findLike type="text">
+          <mod:selector>(Hacking Weapon) Unlock the doors with your weapon.</mod:selector>
+          <mod:setValue>(Hacking Weapon) Unlock the doors with your weapon.[INFO][NAME]autoReward[/NAME]Reward Item(L)[/INFO]</mod:setValue>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="STOREEVENT_PIRATE_AWKWARD_QUESTION" type="eventList">
+    <mod:findLike type="event">
+      <mod:findLike type="choice">
+        <mod:selector hidden="true" req="BLUELIST_WEAPONS_HACK"/>
+        <mod:findLike type="event">
+          <mod:findLike type="choice">
+            <mod:selector hidden="true"/>
+            <mod:findLike type="text">
+              <mod:selector>Continue...</mod:selector>
+              <mod:setValue>Continue...[INFO][NAME]storageCheck[/NAME]Storage Check[/INFO]</mod:setValue>
+            </mod:findLike>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="STOREEVENT_PIRATE_AWKWARD_QUESTION" type="eventList">
+    <mod:findLike type="event">
+      <mod:findLike type="choice">
         <mod:selector hidden="true" req="hacking"/>
         <mod:findLike type="text">
           <mod:selector>(Hacking) Open up the doors.</mod:selector>
@@ -11803,6 +12181,100 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
+  <mod:findName name="FINISH_BEACON_DEBT_REUNION_FLEET" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="loc_loan_25" blue="false"/>
+      <mod:findLike type="text">
+        <mod:selector>Pay off your debt.</mod:selector>
+        <mod:setValue>Pay off your debt.[INFO][NAME]itemModify[/NAME]~-40[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="FINISH_BEACON_DEBT_REUNION_FLEET" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="loc_loan_50" blue="false"/>
+      <mod:findLike type="text">
+        <mod:selector>Pay off your debt.</mod:selector>
+        <mod:setValue>Pay off your debt.[INFO][NAME]itemModify[/NAME]~-80[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="FINISH_BEACON_DEBT_REUNION_FLEET" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="loc_loan_100" blue="false"/>
+      <mod:findLike type="text">
+        <mod:selector>Pay off your debt.</mod:selector>
+        <mod:setValue>Pay off your debt.[INFO][NAME]itemModify[/NAME]~-160[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="FINISH_BEACON_DEBT_REUNION_FLEET" type="event">
+    <mod:findLike type="choice">
+      <mod:findLike type="text">
+        <mod:selector>We aren't paying that!</mod:selector>
+        <mod:setValue>We aren't paying that![INFO][NAME]boarders[/NAME]&lt;!&gt;Enemy Boarding(x2 Ampere)[/INFO][INFO]&lt;=[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="FINISH_BEACON_DEBT_REUNION_FLEET" type="event">
+    <mod:findLike type="choice">
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:findLike type="text">
+            <mod:selector>Continue...</mod:selector>
+            <mod:setValue>Continue...[INFO]&lt;=[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="FINISH_BEACON_DEBT_FIRST_FLEET" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="loc_loan_25" blue="false"/>
+      <mod:findLike type="text">
+        <mod:selector>Pay off your debt.</mod:selector>
+        <mod:setValue>Pay off your debt.[INFO][NAME]itemModify[/NAME]~-35[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="FINISH_BEACON_DEBT_FIRST_FLEET" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="loc_loan_50" blue="false"/>
+      <mod:findLike type="text">
+        <mod:selector>Pay off your debt.</mod:selector>
+        <mod:setValue>Pay off your debt.[INFO][NAME]itemModify[/NAME]~-70[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="FINISH_BEACON_DEBT_FIRST_FLEET" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="loc_loan_100" blue="false"/>
+      <mod:findLike type="text">
+        <mod:selector>Pay off your debt.</mod:selector>
+        <mod:setValue>Pay off your debt.[INFO][NAME]itemModify[/NAME]~-140[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="FINISH_BEACON_DEBT_FIRST_FLEET" type="event">
+    <mod:findLike type="choice">
+      <mod:findLike type="text">
+        <mod:selector>We aren't paying that!</mod:selector>
+        <mod:setValue>We aren't paying that![INFO]&lt;=[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="FINISH_BEACON_DEBT_FIRST_FLEET" type="event">
+    <mod:findLike type="choice">
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:findLike type="text">
+            <mod:selector>Continue...</mod:selector>
+            <mod:setValue>Continue...[INFO]&lt;=[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
   <mod:findName name="TONY_NOTHING" type="event">
     <mod:findLike type="choice">
       <mod:findLike type="text">
@@ -12450,8 +12922,52 @@
                             <mod:findLike type="choice">
                               <mod:selector hidden="true"/>
                               <mod:findLike type="text">
-                                <mod:selector>You're also a billionaire. If you were happy once, surely you can be happy again.</mod:selector>
-                                <mod:setValue>You're also a billionaire. If you were happy once, surely you can be happy again.[INFO][NAME]unlockCustomShip[/NAME]&lt;#&gt;Unlock Ship(Tony)[/INFO][INFO][NAME]crewMember[/NAME]Gain a crew(Unique Tonysr)[/INFO]</mod:setValue>
+                                <mod:selector>You could try and make amends.</mod:selector>
+                                <mod:setValue>You could try and make amends.[INFO][NAME]unlockCustomShip[/NAME]&lt;#&gt;Unlock Ship(Tony)[/INFO][INFO][NAME]crewMember[/NAME]Gain a crew(Unique Tonysr)[/INFO]</mod:setValue>
+                              </mod:findLike>
+                            </mod:findLike>
+                          </mod:findLike>
+                        </mod:findLike>
+                      </mod:findLike>
+                    </mod:findLike>
+                  </mod:findLike>
+                </mod:findLike>
+              </mod:findLike>
+            </mod:findLike>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="TONY_HQ_SAVE" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="event">
+            <mod:findLike type="choice">
+              <mod:selector hidden="true"/>
+              <mod:findLike type="event">
+                <mod:findLike type="choice">
+                  <mod:selector hidden="true"/>
+                  <mod:findLike type="event">
+                    <mod:findLike type="choice">
+                      <mod:selector hidden="true"/>
+                      <mod:findLike type="event">
+                        <mod:findLike type="choice">
+                          <mod:selector hidden="true"/>
+                          <mod:findLike type="event">
+                            <mod:findLike type="choice">
+                              <mod:selector hidden="true"/>
+                              <mod:findLike type="event">
+                                <mod:findLike type="choice">
+                                  <mod:selector hidden="true"/>
+                                  <mod:findLike type="text">
+                                    <mod:selector>They just did.</mod:selector>
+                                    <mod:setValue>They just did.[INFO][NAME]unlockCustomShip[/NAME]&lt;#&gt;Unlock Ship(Tony)[/INFO][INFO][NAME]crewMember[/NAME]Gain a crew(Unique Tonysr)[/INFO]</mod:setValue>
+                                  </mod:findLike>
+                                </mod:findLike>
                               </mod:findLike>
                             </mod:findLike>
                           </mod:findLike>
@@ -12520,8 +13036,8 @@
                         <mod:findLike type="choice">
                           <mod:selector hidden="true" req="unique_symbiote"/>
                           <mod:findLike type="text">
-                            <mod:selector>(Symbiote) "You aren't the only one who's been miserable those 7 years."</mod:selector>
-                            <mod:setValue>(Symbiote) "You aren't the only one who's been miserable those 7 years."[INFO][NAME]unlockCustomShip[/NAME]&lt;#&gt;Unlock Ship(Tony)[/INFO][INFO][NAME]crewMember[/NAME]Gain a crew(Unique Tonysr)[/INFO]</mod:setValue>
+                            <mod:selector>(Symbiote) "Glad to see someone else wants you dead."</mod:selector>
+                            <mod:setValue>(Symbiote) "Glad to see someone else wants you dead."[INFO][NAME]unlockCustomShip[/NAME]&lt;#&gt;Unlock Ship(Tony)[/INFO][INFO][NAME]crewMember[/NAME]Gain a crew(Unique Tonysr)[/INFO]</mod:setValue>
                           </mod:findLike>
                         </mod:findLike>
                       </mod:findLike>

@@ -1,17 +1,15 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-05-29 22:26+0000\n"
-"Last-Translator: Ukn <bbg100bbg@gmail.com>\n"
-"Language-Team: Russian <https://weblate.hyperq.be/projects/ftl-multiverse/"
-"dataevents_sector_dynastyxml/ru/>\n"
+"PO-Revision-Date: 2025-05-30 17:50+0000\n"
+"Last-Translator: Aleev <aleev1414@gmail.com>\n"
+"Language-Team: Russian <https://weblate.hyperq.be/projects/ftl-multiverse/dataevents_sector_dynastyxml/ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.16.4\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 5.11.4\n"
 
 #: src-en/data/events_sector_dynasty.xml:28
 msgid ""
@@ -47,9 +45,9 @@ msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"DYNASTY_ROCK_HERESY\"]/choice[1]/event/text"
 msgstr ""
 "Вы говорите Крестоносцам, что Династия - это уже сложившаяся культура со "
-"своими собственными целями, и они могут больше узнать о том, что они говорят "
-"и во что верят, чем просто ожидать, что им скажут то, что они хотят. \"Хмм, "
-"я не ожидал мудрости от Ренегата. Хорошо, мы проанализируем то, что нам "
+"своими собственными целями, и они могут больше узнать о том, что они говорят"
+" и во что верят, чем просто ожидать, что им скажут то, что они хотят. \"Хмм,"
+" я не ожидал мудрости от Ренегата. Хорошо, мы проанализируем то, что нам "
 "сказали, и отыщем правду среди лжи\". В благодарность за ободряющую речь "
 "валуны присылают вам записи своих полетов."
 
@@ -63,8 +61,8 @@ msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"DYNASTY_ROCK_HERESY\"]/choice[2]/event/text"
 msgstr ""
 "Вы говорите им, что они делают вывод, который хотят получить, и что это "
-"называется \"мотивированное мышление\". Они реагируют на это примерно так же "
-"плохо, как вы и ожидали."
+"называется \"мотивированное мышление\". Они реагируют на это примерно так же"
+" плохо, как вы и ожидали."
 
 #: src-en/data/events_sector_dynasty.xml:71
 msgid ""
@@ -133,26 +131,96 @@ msgstr ""
 
 #: src-en/data/events_sector_dynasty.xml:116
 msgid ""
-"data/events_sector_dynasty.xml$//event[@name=\"DYNASTY_CACHE\"]/choice[4]/text"
-msgstr "Не обращать внимания на тайник."
+"data/events_sector_dynasty.xml$//event[@name=\"DYNASTY_CACHE\"]/choice[@req=\"BLUELIST_CREW_NODOORS\"]/text"
+msgstr "(Бестелесный экипаж) Открыть тайник изнутри."
 
 #: src-en/data/events_sector_dynasty.xml:118
 msgid ""
-"data/events_sector_dynasty.xml$//event[@name=\"DYNASTY_CACHE\"]/choice[4]/event/text"
+"data/events_sector_dynasty.xml$//event[@name=\"DYNASTY_CACHE\"]/choice[@req=\"BLUELIST_CREW_NODOORS\"]/event/text"
 msgstr ""
-"Лучше не рисковать и не трогать имущество Династии в пространстве Династии."
+"Ваш член экипажа пытается проскользнуть внутрь тайника, но терпит неудачу, "
+"получая за свои старания неприятный разряд. Похоже, Династия применяет "
+"какие-то меры по защите тайников от проникновения, скорее всего, для того, "
+"чтобы к их содержимому не смогли добраться нежелательные воры, такие как "
+"бродячие призраки. Тем не менее, вы можете попытаться получить доступ к "
+"тайнику и другими способами."
 
 #: src-en/data/events_sector_dynasty.xml:120
 msgid ""
-"data/events_sector_dynasty.xml$//event[@name=\"DYNASTY_CACHE\"]/choice[4]/event/choice[1]/text"
-msgstr "Заняться чем-либо на корабле."
+"data/events_sector_dynasty.xml$//event[@name=\"DYNASTY_CACHE\"]/choice[@req=\"BLUELIST_CREW_NODOORS\"]/event/choice[1]/text"
+msgstr "Открыть тайник."
 
 #: src-en/data/events_sector_dynasty.xml:124
 msgid ""
-"data/events_sector_dynasty.xml$//event[@name=\"DYNASTY_CACHE\"]/choice[4]/event/choice[2]/text"
-msgstr "Ничего не делать."
+"data/events_sector_dynasty.xml$//event[@name=\"DYNASTY_CACHE\"]/choice[@req=\"BLUELIST_CREW_NODOORS\"]/event/choice[@req=\"LIST_CREW_ROCK\"]/text"
+msgstr "(Член экипажа-валун) Открыть тайник."
+
+#: src-en/data/events_sector_dynasty.xml:126
+msgid ""
+"data/events_sector_dynasty.xml$//event[@name=\"DYNASTY_CACHE\"]/choice[@req=\"BLUELIST_CREW_NODOORS\"]/event/choice[@req=\"LIST_CREW_ROCK\"]/event/text"
+msgstr ""
+"Ваш член экипажа успешно вскрывает тайник. Внутри, похоже, находится какое-"
+"то древнее, обветшавшее оружие. В нем нет ничего необычного, просто старая "
+"модель любого современного оружия. Тем не менее, это оружие, и к нему "
+"прилагается немного лома!"
 
 #: src-en/data/events_sector_dynasty.xml:132
+msgid ""
+"data/events_sector_dynasty.xml$//event[@name=\"DYNASTY_CACHE\"]/choice[@req=\"BLUELIST_CREW_NODOORS\"]/event/choice[@req=\"weapons\"]/text"
+msgstr "(Улучш. Оружие) Взорвать тайник."
+
+#: src-en/data/events_sector_dynasty.xml:134
+msgid ""
+"data/events_sector_dynasty.xml$//event[@name=\"DYNASTY_CACHE\"]/choice[@req=\"BLUELIST_CREW_NODOORS\"]/event/choice[@req=\"weapons\"]/event/text"
+msgstr ""
+"Вы вскрываете тайник своим оружием. Внутри, похоже, находится какое-то "
+"древнее, обветшавшее оружие. Ничего особенного, просто старая модель "
+"современного оружия. Тем не менее, это оружие, и к нему прилагается немного "
+"лома!"
+
+#: src-en/data/events_sector_dynasty.xml:140
+msgid ""
+"data/events_sector_dynasty.xml$//event[@name=\"DYNASTY_CACHE\"]/choice[@req=\"BLUELIST_CREW_NODOORS\"]/event/choice[4]/text"
+msgstr "Не обращать внимания на тайник."
+
+#: src-en/data/events_sector_dynasty.xml:142
+msgid ""
+"data/events_sector_dynasty.xml$//event[@name=\"DYNASTY_CACHE\"]/choice[@req=\"BLUELIST_CREW_NODOORS\"]/event/choice[4]/event/text"
+msgstr ""
+"Лучше не рисковать и не трогать имущество Династии в пространстве Династии."
+
+#: src-en/data/events_sector_dynasty.xml:144
+msgid ""
+"data/events_sector_dynasty.xml$//event[@name=\"DYNASTY_CACHE\"]/choice[@req=\"BLUELIST_CREW_NODOORS\"]/event/choice[4]/event/choice[1]/text"
+msgstr "Заняться чем-либо на корабле."
+
+#: src-en/data/events_sector_dynasty.xml:148
+msgid ""
+"data/events_sector_dynasty.xml$//event[@name=\"DYNASTY_CACHE\"]/choice[@req=\"BLUELIST_CREW_NODOORS\"]/event/choice[4]/event/choice[2]/text"
+msgstr "Ничего не делать."
+
+#: src-en/data/events_sector_dynasty.xml:156
+msgid ""
+"data/events_sector_dynasty.xml$//event[@name=\"DYNASTY_CACHE\"]/choice[5]/text"
+msgstr "Не обращать внимания на тайник."
+
+#: src-en/data/events_sector_dynasty.xml:158
+msgid ""
+"data/events_sector_dynasty.xml$//event[@name=\"DYNASTY_CACHE\"]/choice[5]/event/text"
+msgstr ""
+"Лучше не рисковать и не трогать имущество Династии в пространстве Династии."
+
+#: src-en/data/events_sector_dynasty.xml:160
+msgid ""
+"data/events_sector_dynasty.xml$//event[@name=\"DYNASTY_CACHE\"]/choice[5]/event/choice[1]/text"
+msgstr "Заняться чем-либо на корабле."
+
+#: src-en/data/events_sector_dynasty.xml:164
+msgid ""
+"data/events_sector_dynasty.xml$//event[@name=\"DYNASTY_CACHE\"]/choice[5]/event/choice[2]/text"
+msgstr "Ничего не делать."
+
+#: src-en/data/events_sector_dynasty.xml:172
 msgid ""
 "data/events_sector_dynasty.xml$//eventList[@name=\"DYNASTY_CACHE_OPEN\"]/event[1]/text"
 msgstr ""
@@ -160,19 +228,19 @@ msgstr ""
 "навсегда останется тайной. По крайней мере, до тех пор, пока не появится "
 "кто-то с более мощной огневой мощью."
 
-#: src-en/data/events_sector_dynasty.xml:135
+#: src-en/data/events_sector_dynasty.xml:175
 msgid ""
 "data/events_sector_dynasty.xml$//eventList[@name=\"DYNASTY_CACHE_OPEN\"]/event[2]/text"
 msgstr ""
 "Как бы вы ни старались, открыть тайник не удается. Еще хуже то, что вас "
 "заметил корабль Династии, который переходит в атаку!"
 
-#: src-en/data/events_sector_dynasty.xml:138
+#: src-en/data/events_sector_dynasty.xml:178
 msgid ""
 "data/events_sector_dynasty.xml$//eventList[@name=\"DYNASTY_CACHE_OPEN\"]/event[2]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_dynasty.xml:143
+#: src-en/data/events_sector_dynasty.xml:183
 msgid ""
 "data/events_sector_dynasty.xml$//eventList[@name=\"DYNASTY_CACHE_OPEN\"]/event[3]/text"
 msgstr ""
@@ -180,7 +248,7 @@ msgstr ""
 "обветшавшее оружие. Ничего особенного, просто старая модель современного "
 "оружия. Тем не менее, это оружие, и к нему прилагается немного лома!"
 
-#: src-en/data/events_sector_dynasty.xml:150
+#: src-en/data/events_sector_dynasty.xml:190
 msgid "data/events_sector_dynasty.xml$//event[@name=\"DYNASTY_SLUGOCC\"]/text"
 msgstr ""
 "Обычно корабли Династии не так охотно обращаются к кораблям, подобным "
@@ -191,117 +259,117 @@ msgstr ""
 "обстоятельств. Эта планета теперь занята... эээ... слизнями. Я "
 "исследователь, а не солдат. Не могли бы вы помочь?\""
 
-#: src-en/data/events_sector_dynasty.xml:153
+#: src-en/data/events_sector_dynasty.xml:193
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"DYNASTY_SLUGOCC\"]/choice[1]/text"
 msgstr "Согласиться."
 
-#: src-en/data/events_sector_dynasty.xml:155
+#: src-en/data/events_sector_dynasty.xml:195
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"DYNASTY_SLUGOCC\"]/choice[1]/event/text"
 msgstr ""
 "Вы приближаетесь к планете, где видно, что слизни уже построили несколько "
 "базовых поселений."
 
-#: src-en/data/events_sector_dynasty.xml:157
+#: src-en/data/events_sector_dynasty.xml:197
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"DYNASTY_SLUGOCC\"]/choice[1]/event/choice/text"
 msgstr "Атаковать их!"
 
-#: src-en/data/events_sector_dynasty.xml:159
+#: src-en/data/events_sector_dynasty.xml:199
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"DYNASTY_SLUGOCC\"]/choice[1]/event/choice/event/text"
 msgstr ""
 "Вы заряжаете оружие и атакуете один из кораблей слизней, находящихся в "
 "колонии."
 
-#: src-en/data/events_sector_dynasty.xml:162
+#: src-en/data/events_sector_dynasty.xml:202
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"DYNASTY_SLUGOCC\"]/choice[1]/event/choice/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_dynasty.xml:170
+#: src-en/data/events_sector_dynasty.xml:210
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"DYNASTY_SLUGOCC\"]/choice[2]/text"
 msgstr "Отказаться."
 
-#: src-en/data/events_sector_dynasty.xml:172
+#: src-en/data/events_sector_dynasty.xml:212
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"DYNASTY_SLUGOCC\"]/choice[2]/event/text"
 msgstr ""
 "Вы пришли сюда не для того, чтобы выполнять чужую работу. У вас есть гораздо"
 " более важные дела."
 
-#: src-en/data/events_sector_dynasty.xml:174
+#: src-en/data/events_sector_dynasty.xml:214
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"DYNASTY_SLUGOCC\"]/choice[2]/event/choice[1]/text"
 msgstr "Заняться чем-либо на корабле."
 
-#: src-en/data/events_sector_dynasty.xml:178
+#: src-en/data/events_sector_dynasty.xml:218
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"DYNASTY_SLUGOCC\"]/choice[2]/event/choice[2]/text"
 msgstr "Ничего не делать."
 
-#: src-en/data/events_sector_dynasty.xml:186
+#: src-en/data/events_sector_dynasty.xml:226
 msgid "data/events_sector_dynasty.xml$//event[@name=\"DYNASTY_DUEL\"]/text"
 msgstr ""
 "Очевидно, повстанцы что-то натворили по отношению к Династии, раз так ее "
 "разозлили. Корабли повстанцев и Династии сражаются... но они еще не заметили"
 " вас!"
 
-#: src-en/data/events_sector_dynasty.xml:188
+#: src-en/data/events_sector_dynasty.xml:228
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"DYNASTY_DUEL\"]/choice[1]/text"
 msgstr "Оказать помощь кораблю повстанцев."
 
-#: src-en/data/events_sector_dynasty.xml:190
+#: src-en/data/events_sector_dynasty.xml:230
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"DYNASTY_DUEL\"]/choice[1]/event/text"
 msgstr "Вы готовитесь к бою с кораблем Династии."
 
-#: src-en/data/events_sector_dynasty.xml:193
+#: src-en/data/events_sector_dynasty.xml:233
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"DYNASTY_DUEL\"]/choice[1]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_dynasty.xml:199
+#: src-en/data/events_sector_dynasty.xml:239
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"DYNASTY_DUEL\"]/choice[2]/text"
-msgstr "Оказать помощь кораблю призраков."
+msgstr "Оказать помощь кораблю Династии."
 
-#: src-en/data/events_sector_dynasty.xml:201
+#: src-en/data/events_sector_dynasty.xml:241
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"DYNASTY_DUEL\"]/choice[2]/event/text"
 msgstr "Вы готовитесь к бою с кораблем повстанцев."
 
-#: src-en/data/events_sector_dynasty.xml:204
+#: src-en/data/events_sector_dynasty.xml:244
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"DYNASTY_DUEL\"]/choice[2]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_dynasty.xml:210
+#: src-en/data/events_sector_dynasty.xml:250
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"DYNASTY_DUEL\"]/choice[3]/text"
 msgstr "Не вмешиваться."
 
-#: src-en/data/events_sector_dynasty.xml:212
+#: src-en/data/events_sector_dynasty.xml:252
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"DYNASTY_DUEL\"]/choice[3]/event/text"
 msgstr ""
 "Ни один из кораблей не является вашим союзником, и вы сомневаетесь, что "
 "помощь любому из них отвечает вашим интересам."
 
-#: src-en/data/events_sector_dynasty.xml:214
+#: src-en/data/events_sector_dynasty.xml:254
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"DYNASTY_DUEL\"]/choice[3]/event/choice[1]/text"
 msgstr "Заняться чем-либо на корабле."
 
-#: src-en/data/events_sector_dynasty.xml:218
+#: src-en/data/events_sector_dynasty.xml:258
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"DYNASTY_DUEL\"]/choice[3]/event/choice[2]/text"
 msgstr "Ничего не делать."
 
-#: src-en/data/events_sector_dynasty.xml:225
+#: src-en/data/events_sector_dynasty.xml:265
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"GHOST_DUEL_REBEL_SAVE\"]/text"
 msgstr ""
@@ -309,7 +377,7 @@ msgstr ""
 "благодарят вас и соглашаются дать флоту ложную информацию о вашем "
 "местонахождении."
 
-#: src-en/data/events_sector_dynasty.xml:230
+#: src-en/data/events_sector_dynasty.xml:270
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"GHOST_DUEL_GHOST_SAVE\"]/text"
 msgstr ""
@@ -318,7 +386,7 @@ msgstr ""
 "\"спасибо\". Ваши подозрения подтверждаются, когда призраки передают вам на "
 "помощь опытного солдата!"
 
-#: src-en/data/events_sector_dynasty.xml:252
+#: src-en/data/events_sector_dynasty.xml:292
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_FILTH\"]/text"
 msgstr ""
@@ -326,12 +394,12 @@ msgstr ""
 "для поиска руин. Вы не видите здесь никаких руин, но, тем не менее, судно "
 "исследователей снует туда-сюда."
 
-#: src-en/data/events_sector_dynasty.xml:256
+#: src-en/data/events_sector_dynasty.xml:296
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_FILTH\"]/choice[1]/text"
 msgstr "Спросить их, чем они занимаются."
 
-#: src-en/data/events_sector_dynasty.xml:258
+#: src-en/data/events_sector_dynasty.xml:298
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_FILTH\"]/choice[1]/event/text"
 msgstr ""
@@ -339,25 +407,22 @@ msgstr ""
 "телесной оболочке, и я чувствую, как эта ГРЯЗЬ заползает под мою плазменную "
 "мембрану! Дрожь, о ужас! Как же очистить эту грязь?!?\""
 
-#: src-en/data/events_sector_dynasty.xml:260
+#: src-en/data/events_sector_dynasty.xml:300
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_FILTH\"]/choice[1]/event/choice[1]/text"
 msgstr "Эй, дружище, успокойся."
 
-#: src-en/data/events_sector_dynasty.xml:262
+#: src-en/data/events_sector_dynasty.xml:302
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_FILTH\"]/choice[1]/event/choice[1]/event/text"
-msgstr ""
-"\"НЕ НАД... не... не... надо говорить мне, чтобы я \"успокоился\". Может "
-"быть, ты избавишь меня от подробностей и скажешь, ты понял причину моего "
-"беспокойства? Хочешь ли ты помочь?\""
+msgstr "\"НЕ НАД... не... не надо говорить мне, чтобы я \"успокоился\". Может быть, ты избавишь меня от подробностей и скажешь, ты понял причину моего беспокойства? Хочешь ли ты помочь?\""
 
-#: src-en/data/events_sector_dynasty.xml:264
+#: src-en/data/events_sector_dynasty.xml:304
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_FILTH\"]/choice[1]/event/choice[1]/event/choice/text"
 msgstr "Помочь с чем?"
 
-#: src-en/data/events_sector_dynasty.xml:266
+#: src-en/data/events_sector_dynasty.xml:306
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_FILTH\"]/choice[1]/event/choice[1]/event/choice/event/text"
 msgstr ""
@@ -367,12 +432,12 @@ msgstr ""
 "для нас значительное количество, чтобы я мог объявить этот маяк чистым, и я "
 "награжу тебя... эээ... моей искренней благодарностью?\""
 
-#: src-en/data/events_sector_dynasty.xml:268
+#: src-en/data/events_sector_dynasty.xml:308
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_FILTH\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/text"
 msgstr "Потратить немного времени, чтобы собрать для него металлолом."
 
-#: src-en/data/events_sector_dynasty.xml:270
+#: src-en/data/events_sector_dynasty.xml:310
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_FILTH\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/text"
 msgstr ""
@@ -380,12 +445,12 @@ msgstr ""
 "большую часть металлолома и показываете ее призраку. \"Нет, НЕТ! БОЛЬШЕ! "
 "БОЛЬШЕ! Эта ГРЯЗЬ продолжает портить мне день и захламлять систему!\""
 
-#: src-en/data/events_sector_dynasty.xml:274
+#: src-en/data/events_sector_dynasty.xml:314
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_FILTH\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[1]/text"
 msgstr "Собрать для него побольше металлолома."
 
-#: src-en/data/events_sector_dynasty.xml:276
+#: src-en/data/events_sector_dynasty.xml:316
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_FILTH\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[1]/event/text"
 msgstr ""
@@ -394,12 +459,12 @@ msgstr ""
 "БОЛЬШЕ! Ты олух! Не останавливайся, пока в звездной бездне небес снова не "
 "заблестят звезды!\""
 
-#: src-en/data/events_sector_dynasty.xml:280
+#: src-en/data/events_sector_dynasty.xml:320
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_FILTH\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[1]/event/choice[1]/text"
 msgstr "Собрать для него еще больше лома."
 
-#: src-en/data/events_sector_dynasty.xml:282
+#: src-en/data/events_sector_dynasty.xml:322
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_FILTH\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[1]/event/choice[1]/event/text"
 msgstr ""
@@ -409,27 +474,73 @@ msgstr ""
 "воины против чумы ГРЯЗИ заслуживают того, чтобы рядом с ними был не кто "
 "иной, как я!\""
 
-#: src-en/data/events_sector_dynasty.xml:289
+#: src-en/data/events_sector_dynasty.xml:329
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_FILTH\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[1]/event/choice[2]/text"
 msgstr "Отказаться."
 
-#: src-en/data/events_sector_dynasty.xml:295
+#: src-en/data/events_sector_dynasty.xml:335
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_FILTH\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[2]/text"
 msgstr "Отказаться."
 
-#: src-en/data/events_sector_dynasty.xml:301
+#: src-en/data/events_sector_dynasty.xml:341
 msgid ""
-"data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_FILTH\"]/choice[1]/event/choice[1]/event/choice/event/choice[2]/text"
+"data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_FILTH\"]/choice[1]/event/choice[1]/event/choice/event/choice[@req=\"SCRAP_COLLECTOR\"]/text"
+msgstr ""
+"(Кран сбора лома) Использовать свой Кран сбора лома, чтобы ускорить процесс."
+
+#: src-en/data/events_sector_dynasty.xml:343
+msgid "data/events_sector_dynasty.xml$//event[@name=\"DYNASTY_FILTH_ARM\"]/text"
+msgstr ""
+"Даже с помощью корабельного крана вам удается собрать не так уж много лома. "
+"Поскольку флот постоянно идет по вашему следу, вы довольствуетесь тем, что "
+"собрали нужную вам сумму, и представляете ее призраку, но он не выглядит "
+"удовлетворенным. \"Нет. НЕТ! Твоя работа еще далека от завершения, ведь ты "
+"едва перелистнул пролог в этом грандиозном путешествии! И ты будешь "
+"продолжать, пока не исчезнет ни малейшего намека этой ГРЯЗИ, что оскверняет "
+"покой этого пространства!\""
+
+#: src-en/data/events_sector_dynasty.xml:347
+msgid ""
+"data/events_sector_dynasty.xml$//event[@name=\"DYNASTY_FILTH_ARM\"]/choice[1]/text"
+msgstr "Продолжить использовать свой корабельный кран, чтобы собирать лом."
+
+#: src-en/data/events_sector_dynasty.xml:349
+msgid ""
+"data/events_sector_dynasty.xml$//event[@name=\"DYNASTY_FILTH_ARM\"]/choice[1]/event/text"
+msgstr ""
+"К счастью, хотя задача собрать оставшиеся обломки казалась трудной, кран "
+"вашего корабля справляется с ней достаточно быстро, чтобы завершить процесс "
+"до следующего разговора с призраком. Тем не менее, это путешествие наверняка"
+" дало повстанцам достаточно времени, чтобы определить ваше текущее "
+"местоположение. Призрак не торопится поздравлять вас: \"Превосходно! В "
+"последний час вращательного цикла ты выполнил мои требования с величайшей "
+"доблестью! Ты даруешь мне чувство триумфа! ГРЯЗИ больше нет! Геройский воин,"
+" сокрушивший заразу ГРЯЗИ, достоин великого дара - моего присутствия!\""
+
+#: src-en/data/events_sector_dynasty.xml:356
+msgid ""
+"data/events_sector_dynasty.xml$//event[@name=\"DYNASTY_FILTH_ARM\"]/choice[2]/text"
 msgstr "Отказаться."
 
-#: src-en/data/events_sector_dynasty.xml:309
+#: src-en/data/events_sector_dynasty.xml:362
+msgid ""
+"data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_FILTH\"]/choice[1]/event/choice[1]/event/choice/event/choice[@req=\"MAGNET_ARM\"]/text"
+msgstr ""
+"(Магнитный кран) Использовать свой Магнитный кран, чтобы ускорить процесс."
+
+#: src-en/data/events_sector_dynasty.xml:366
+msgid ""
+"data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_FILTH\"]/choice[1]/event/choice[1]/event/choice/event/choice[4]/text"
+msgstr "Отказаться."
+
+#: src-en/data/events_sector_dynasty.xml:374
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_FILTH\"]/choice[1]/event/choice[2]/text"
 msgstr "Этот парень - псих. Избавить его от страданий."
 
-#: src-en/data/events_sector_dynasty.xml:311
+#: src-en/data/events_sector_dynasty.xml:376
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_FILTH\"]/choice[1]/event/choice[2]/event/text"
 msgstr ""
@@ -437,46 +548,46 @@ msgstr ""
 "Орбитиус, нельзя мешкать! Сейчас люди злодейских занятий придут, чтобы "
 "напасть на тебя! Бойтесь жнеца, люди дьявола!\""
 
-#: src-en/data/events_sector_dynasty.xml:314
+#: src-en/data/events_sector_dynasty.xml:379
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_FILTH\"]/choice[1]/event/choice[2]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_dynasty.xml:322
+#: src-en/data/events_sector_dynasty.xml:387
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_FILTH\"]/choice[2]/text"
 msgstr "Не обращать внимания на призраков."
 
-#: src-en/data/events_sector_dynasty.xml:324
+#: src-en/data/events_sector_dynasty.xml:389
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_FILTH\"]/choice[2]/event/text"
 msgstr ""
 "Странное поведение этого корабля слишком подозрительно, чтобы вам "
 "понравиться."
 
-#: src-en/data/events_sector_dynasty.xml:326
+#: src-en/data/events_sector_dynasty.xml:391
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_FILTH\"]/choice[2]/event/choice[1]/text"
 msgstr "Заняться чем-либо на корабле."
 
-#: src-en/data/events_sector_dynasty.xml:330
+#: src-en/data/events_sector_dynasty.xml:395
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_FILTH\"]/choice[2]/event/choice[2]/text"
 msgstr "Ничего не делать."
 
-#: src-en/data/events_sector_dynasty.xml:338
+#: src-en/data/events_sector_dynasty.xml:403
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_SPLIT\"]/text"
 msgstr ""
 "Похоже, что несколько кораблей Династии пристыковались к медицинскому "
 "аванпосту, включая несколько элитных кораблей жнецов. Что там происходит?"
 
-#: src-en/data/events_sector_dynasty.xml:341
+#: src-en/data/events_sector_dynasty.xml:406
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_SPLIT\"]/choice[1]/text"
 msgstr "Пристыковаться."
 
-#: src-en/data/events_sector_dynasty.xml:343
+#: src-en/data/events_sector_dynasty.xml:408
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_SPLIT\"]/choice[1]/event/text"
 msgstr ""
@@ -486,17 +597,17 @@ msgstr ""
 "разделился из-за страха. Не могли бы вы что-то сделать с его страхом?\" Вы "
 "замечаете, что Альфа дрожит, глядя на вас своим безликим лицом."
 
-#: src-en/data/events_sector_dynasty.xml:345
+#: src-en/data/events_sector_dynasty.xml:410
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_SPLIT\"]/choice[1]/event/choice[1]/text"
 msgstr "Попытаться уговорить Альфу разделиться."
 
-#: src-en/data/events_sector_dynasty.xml:349
+#: src-en/data/events_sector_dynasty.xml:414
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_SPLIT\"]/choice[1]/event/choice[2]/text"
 msgstr "Защитить Альфу от других призраков."
 
-#: src-en/data/events_sector_dynasty.xml:351
+#: src-en/data/events_sector_dynasty.xml:416
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_SPLIT\"]/choice[1]/event/choice[2]/event/text"
 msgstr ""
@@ -505,18 +616,18 @@ msgstr ""
 "Династии. Один из их кораблей жнецов был послан, чтобы вернуть своего "
 "солдата."
 
-#: src-en/data/events_sector_dynasty.xml:355
+#: src-en/data/events_sector_dynasty.xml:420
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_SPLIT\"]/choice[1]/event/choice[2]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_dynasty.xml:361
+#: src-en/data/events_sector_dynasty.xml:426
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_SPLIT\"]/choice[1]/event/choice[@req=\"mind\""
 " and not(@lvl)]/text"
 msgstr "(Контроль разума) Подчинить Альфу."
 
-#: src-en/data/events_sector_dynasty.xml:363
+#: src-en/data/events_sector_dynasty.xml:428
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_SPLIT\"]/choice[1]/event/choice[@req=\"mind\""
 " and not(@lvl)]/event/text"
@@ -526,13 +637,13 @@ msgstr ""
 " по-видимому, начинает непроизвольный процесс разделения. Они благодарят вас"
 " за эффективное решение проблемы и предлагают вознаграждение."
 
-#: src-en/data/events_sector_dynasty.xml:368
+#: src-en/data/events_sector_dynasty.xml:433
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_SPLIT\"]/choice[1]/event/choice[@req=\"mind\""
 " and @lvl=\"2\"]/text"
 msgstr "(Улучш. Контроль разума) Заставить Альфу разделиться."
 
-#: src-en/data/events_sector_dynasty.xml:370
+#: src-en/data/events_sector_dynasty.xml:435
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_SPLIT\"]/choice[1]/event/choice[@req=\"mind\""
 " and @lvl=\"2\"]/event/text"
@@ -544,57 +655,73 @@ msgstr ""
 "должен произойти! Я не знаю, как относиться к этой ситуации. Они не... "
 "э-э... мы бы не хотели, чтобы они оказались на поле боя. Возьмите их себе\"."
 
-#: src-en/data/events_sector_dynasty.xml:375
+#: src-en/data/events_sector_dynasty.xml:440
+msgid ""
+"data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_SPLIT\"]/choice[1]/event/choice[@req=\"BLUELIST_WEAPONS_MIND_CONTROL\"]/text"
+msgstr "(Оружие контроля разума) Заставить Альфу разделиться."
+
+#: src-en/data/events_sector_dynasty.xml:442
+msgid ""
+"data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_SPLIT\"]/choice[1]/event/choice[@req=\"BLUELIST_WEAPONS_MIND_CONTROL\"]/event/text"
+msgstr ""
+"Альфа начинает трястись еще сильнее и внезапно превращается в прозрачную "
+"дымку, медленно трансформируясь в двух отдельных призраков. Близнецы смотрят"
+" друг на друга и начинают кричать, но их усмиряет растерянный медицинский "
+"персонал. \"Что произошло в великой туманности? Это не тот процесс, который "
+"должен произойти! Я не знаю, как относиться к этой ситуации. Они не... "
+"э-э... мы бы не хотели, чтобы они оказались на поле боя. Возьмите их себе\"."
+
+#: src-en/data/events_sector_dynasty.xml:447
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_SPLIT\"]/choice[1]/event/choice[@req=\"LIST_CREW_SHELL_SCIENTIST\"]/text"
 msgstr "(Член экипажа-ракушка Ученый) Объяснить этот процесс."
 
-#: src-en/data/events_sector_dynasty.xml:377
+#: src-en/data/events_sector_dynasty.xml:449
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_SPLIT\"]/choice[1]/event/choice[@req=\"LIST_CREW_SHELL_SCIENTIST\"]/event/text"
 msgstr ""
 "Вы улавливаете в речи ракушки различные странные фразы, такие как "
-"\"плазменная мембрана\" и \"быстрое деление квантового чего-то там\". Значит "
-"ли это что-нибудь? Вы склоняетесь к тому, что нет. Позже ваша ракушка "
+"\"плазменная мембрана\" и \"быстрое деление квантового чего-то там\". Значит"
+" ли это что-нибудь? Вы склоняетесь к тому, что нет. Позже ваша ракушка "
 "говорит вам, что она выдумала все, что сказала, но, похоже, это убеждает "
 "Альфу, который в конце концов соглашается пройти через этот процесс. "
 "Медицинская команда платит вам за помощь."
 
-#: src-en/data/events_sector_dynasty.xml:382
+#: src-en/data/events_sector_dynasty.xml:454
 msgid ""
-"data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_SPLIT\"]/choice[1]/event/choice[6]/text"
+"data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_SPLIT\"]/choice[1]/event/choice[7]/text"
 msgstr "Нам, наверное, не стоит вмешиваться."
 
-#: src-en/data/events_sector_dynasty.xml:388
+#: src-en/data/events_sector_dynasty.xml:460
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_SPLIT\"]/choice[2]/text"
 msgstr "Не обращать внимания на станцию."
 
-#: src-en/data/events_sector_dynasty.xml:390
+#: src-en/data/events_sector_dynasty.xml:462
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_SPLIT\"]/choice[2]/event/text"
 msgstr ""
 "Добровольно подставлять себя под огонь элитного корабля Династии - не самая "
 "лучшая идея."
 
-#: src-en/data/events_sector_dynasty.xml:392
+#: src-en/data/events_sector_dynasty.xml:464
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_SPLIT\"]/choice[2]/event/choice[1]/text"
 msgstr "Заняться чем-либо на корабле."
 
-#: src-en/data/events_sector_dynasty.xml:396
+#: src-en/data/events_sector_dynasty.xml:468
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_SPLIT\"]/choice[2]/event/choice[2]/text"
 msgstr "Ничего не делать."
 
-#: src-en/data/events_sector_dynasty.xml:404
+#: src-en/data/events_sector_dynasty.xml:476
 msgid ""
 "data/events_sector_dynasty.xml$//eventList[@name=\"DYNASTY_SPLIT_ENCOURAGE\"]/event[1]/text"
 msgstr ""
 "Как бы вы ни старались, Альфа просто не хочет вас слушать. Вы сдаетесь и "
 "извиняетесь, объясняя, что у вас нет другого способа помочь."
 
-#: src-en/data/events_sector_dynasty.xml:407
+#: src-en/data/events_sector_dynasty.xml:479
 msgid ""
 "data/events_sector_dynasty.xml$//eventList[@name=\"DYNASTY_SPLIT_ENCOURAGE\"]/event[2]/text"
 msgstr ""
@@ -602,7 +729,7 @@ msgstr ""
 "спокойнее. Ваше стороннее мнение, похоже, убеждает Альфу подчиниться. "
 "Сотрудники станции предлагают мизерное вознаграждение."
 
-#: src-en/data/events_sector_dynasty.xml:413
+#: src-en/data/events_sector_dynasty.xml:485
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_TRINKETS\"]/text"
 msgstr ""
@@ -611,12 +738,12 @@ msgstr ""
 "них?\" Негромко говорящий призрак машет вам рукой, чтобы вы поднялись на "
 "борт."
 
-#: src-en/data/events_sector_dynasty.xml:416
+#: src-en/data/events_sector_dynasty.xml:488
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_TRINKETS\"]/choice[1]/text"
 msgstr "Подняться на борт."
 
-#: src-en/data/events_sector_dynasty.xml:418
+#: src-en/data/events_sector_dynasty.xml:490
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_TRINKETS\"]/choice[1]/event/text"
 msgstr ""
@@ -624,51 +751,51 @@ msgstr ""
 "кислорода. Вокруг стен развешаны различные мелкие безделушки. \"Это мои "
 "ценные творения. Не хотите ли приобрести одну? Всего 10 лома...\""
 
-#: src-en/data/events_sector_dynasty.xml:420
+#: src-en/data/events_sector_dynasty.xml:492
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_TRINKETS\"]/choice[1]/event/choice[1]/text"
 msgstr "Купить тотем войны [+8% к скорости стрельбы оружия]."
 
-#: src-en/data/events_sector_dynasty.xml:424
+#: src-en/data/events_sector_dynasty.xml:496
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_TRINKETS\"]/choice[1]/event/choice[2]/text"
 msgstr ""
 "Купить эмблему скорости [+20% скорости передвижения экипажа, +20% скорости "
 "перезарядки ССД]."
 
-#: src-en/data/events_sector_dynasty.xml:428
+#: src-en/data/events_sector_dynasty.xml:500
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_TRINKETS\"]/choice[1]/event/choice[3]/text"
 msgstr ""
 "Купить слиток стойкости [+20% скорости заряда щита, +20% сопротивления "
 "саботажу систем]."
 
-#: src-en/data/events_sector_dynasty.xml:432
+#: src-en/data/events_sector_dynasty.xml:504
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_TRINKETS\"]/choice[1]/event/choice[4]/text"
 msgstr "Нет, спасибо."
 
-#: src-en/data/events_sector_dynasty.xml:438
+#: src-en/data/events_sector_dynasty.xml:510
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_TRINKETS\"]/choice[2]/text"
 msgstr "Избегать призрака."
 
-#: src-en/data/events_sector_dynasty.xml:440
+#: src-en/data/events_sector_dynasty.xml:512
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_TRINKETS\"]/choice[2]/event/text"
 msgstr "У вас сейчас есть дела поважнее, чем смотреть на \"чудеса\"."
 
-#: src-en/data/events_sector_dynasty.xml:442
+#: src-en/data/events_sector_dynasty.xml:514
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_TRINKETS\"]/choice[2]/event/choice[1]/text"
 msgstr "Заняться чем-либо на корабле."
 
-#: src-en/data/events_sector_dynasty.xml:446
+#: src-en/data/events_sector_dynasty.xml:518
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_TRINKETS\"]/choice[2]/event/choice[2]/text"
 msgstr "Ничего не делать."
 
-#: src-en/data/events_sector_dynasty.xml:453
+#: src-en/data/events_sector_dynasty.xml:525
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_TRINKETS_WAR\"]/text"
 msgstr ""
@@ -676,7 +803,7 @@ msgstr ""
 "корабль, не зная, что делать с этим предметом. В конце концов вы решаете "
 "поместить его на приборную панель и надеяться, что он сработает."
 
-#: src-en/data/events_sector_dynasty.xml:460
+#: src-en/data/events_sector_dynasty.xml:532
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_TRINKETS_SPEED\"]/text"
 msgstr ""
@@ -684,7 +811,7 @@ msgstr ""
 "корабль, не зная, что делать с этим предметом. В конце концов вы решаете "
 "поместить его на приборную панель и надеяться, что он сработает."
 
-#: src-en/data/events_sector_dynasty.xml:467
+#: src-en/data/events_sector_dynasty.xml:539
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_TRINKETS_SHIELD\"]/text"
 msgstr ""
@@ -692,7 +819,7 @@ msgstr ""
 "корабль, не зная, что делать с этим предметом. В конце концов вы решаете "
 "поместить его на приборную панель и надеяться, что он сработает."
 
-#: src-en/data/events_sector_dynasty.xml:475
+#: src-en/data/events_sector_dynasty.xml:547
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_INTERROGATION\"]/text"
 msgstr ""
@@ -700,43 +827,43 @@ msgstr ""
 "группу кораблей Династии, стоящих вокруг поврежденного автоматического "
 "корабля и кричащих на него с заряженным оружием."
 
-#: src-en/data/events_sector_dynasty.xml:479
+#: src-en/data/events_sector_dynasty.xml:551
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_INTERROGATION\"]/choice[1]/text"
 msgstr "Спросить их, что происходит."
 
-#: src-en/data/events_sector_dynasty.xml:481
+#: src-en/data/events_sector_dynasty.xml:553
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_INTERROGATION\"]/choice[1]/event/text"
 msgstr ""
 "\"Мы схватили демона! Слышащий его, но он не говорит. Говори, зверь, говори!"
 " По приказу Старшего Жнеца мы требуем, чтобы ты говорил!\""
 
-#: src-en/data/events_sector_dynasty.xml:483
+#: src-en/data/events_sector_dynasty.xml:555
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_INTERROGATION\"]/choice[1]/event/choice[1]/text"
 msgstr "Это автоматический корабль..."
 
-#: src-en/data/events_sector_dynasty.xml:485
+#: src-en/data/events_sector_dynasty.xml:557
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_INTERROGATION\"]/choice[1]/event/choice[1]/event/text"
 msgstr ""
 "Призрак поворачивает голову, чтобы посмотреть на вас. \"А? На каком языке ты"
 " говоришь?\""
 
-#: src-en/data/events_sector_dynasty.xml:487
+#: src-en/data/events_sector_dynasty.xml:559
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_INTERROGATION\"]/choice[1]/event/choice[1]/event/choice/text"
 msgstr "Оно не живое. Это просто машина."
 
-#: src-en/data/events_sector_dynasty.xml:493
+#: src-en/data/events_sector_dynasty.xml:565
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_INTERROGATION\"]/choice[1]/event/choice[@req=\"LIST_CREW_ENGINEER\"]/text"
 msgstr ""
 "(Член экипажа-Инженер) Взаимодействовать с машиной и \"заставить ее "
 "говорить\"."
 
-#: src-en/data/events_sector_dynasty.xml:495
+#: src-en/data/events_sector_dynasty.xml:567
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_INTERROGATION\"]/choice[1]/event/choice[@req=\"LIST_CREW_ENGINEER\"]/event/text"
 msgstr ""
@@ -748,14 +875,14 @@ msgstr ""
 " не понимают, что вы - корабль Федерации. Не желая не быть проклятыми, они "
 "отдают вам весь свой металлолом."
 
-#: src-en/data/events_sector_dynasty.xml:500
+#: src-en/data/events_sector_dynasty.xml:572
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_INTERROGATION\"]/choice[1]/event/choice[@req=\"hacking\"]/text"
 msgstr ""
 "(Улучш. Взломщик) Взаимодействовать с автоматическим кораблем и \"заставить "
 "его говорить\"."
 
-#: src-en/data/events_sector_dynasty.xml:502
+#: src-en/data/events_sector_dynasty.xml:574
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_INTERROGATION\"]/choice[1]/event/choice[@req=\"hacking\"]/event/text"
 msgstr ""
@@ -767,12 +894,12 @@ msgstr ""
 " не понимают, что вы - корабль Федерации. Не желая не быть проклятыми, они "
 "отдают вам весь свой металлолом."
 
-#: src-en/data/events_sector_dynasty.xml:514
+#: src-en/data/events_sector_dynasty.xml:586
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_INTERROGATION\"]/choice[1]/event/choice[4]/text"
 msgstr "Оставить их в покое."
 
-#: src-en/data/events_sector_dynasty.xml:516
+#: src-en/data/events_sector_dynasty.xml:588
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_INTERROGATION\"]/choice[1]/event/choice[4]/event/text"
 msgstr ""
@@ -780,34 +907,34 @@ msgstr ""
 "говорить. По крайней мере, если они не запрограммированы на это. Разумные "
 "автоматические корабли? Это глупо..."
 
-#: src-en/data/events_sector_dynasty.xml:522
+#: src-en/data/events_sector_dynasty.xml:594
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_INTERROGATION\"]/choice[2]/text"
 msgstr "Избегать их."
 
-#: src-en/data/events_sector_dynasty.xml:524
+#: src-en/data/events_sector_dynasty.xml:596
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_INTERROGATION\"]/choice[2]/event/text"
 msgstr "Это выглядит довольно серьезно, и, вероятно, лучше не вмешиваться."
 
-#: src-en/data/events_sector_dynasty.xml:526
+#: src-en/data/events_sector_dynasty.xml:598
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_INTERROGATION\"]/choice[2]/event/choice[1]/text"
 msgstr "Заняться чем-либо на корабле."
 
-#: src-en/data/events_sector_dynasty.xml:530
+#: src-en/data/events_sector_dynasty.xml:602
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_INTERROGATION\"]/choice[2]/event/choice[2]/text"
 msgstr "Ничего не делать."
 
-#: src-en/data/events_sector_dynasty.xml:538
+#: src-en/data/events_sector_dynasty.xml:610
 msgid ""
 "data/events_sector_dynasty.xml$//eventList[@name=\"DYNASTY_INTERROGATION_TALK\"]/event[1]/text"
 msgstr ""
 "Призрак просто смеется над вами. \"Вот почему мы не обращаемся за помощью к "
 "Федерации в подобных вопросах\"."
 
-#: src-en/data/events_sector_dynasty.xml:541
+#: src-en/data/events_sector_dynasty.xml:613
 msgid ""
 "data/events_sector_dynasty.xml$//eventList[@name=\"DYNASTY_INTERROGATION_TALK\"]/event[2]/text"
 msgstr ""
@@ -815,24 +942,24 @@ msgstr ""
 "корабль. Похоже, что призраки не очень хорошо справились с его "
 "отключением... и вам придется помочь им или бежать!"
 
-#: src-en/data/events_sector_dynasty.xml:544
+#: src-en/data/events_sector_dynasty.xml:616
 msgid ""
 "data/events_sector_dynasty.xml$//eventList[@name=\"DYNASTY_INTERROGATION_TALK\"]/event[2]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_dynasty.xml:560
+#: src-en/data/events_sector_dynasty.xml:632
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_UNIQUE_HACKERBID\"]/text"
 msgstr ""
 "Вы не ожидали встретить здесь судно Хакеров-слизней, но, похоже, они "
 "устраивают какой-то аукцион с несколькими пиратами и даже судном жнеца!"
 
-#: src-en/data/events_sector_dynasty.xml:564
+#: src-en/data/events_sector_dynasty.xml:636
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_UNIQUE_HACKERBID\"]/choice[1]/text"
 msgstr "Поинтересоваться."
 
-#: src-en/data/events_sector_dynasty.xml:566
+#: src-en/data/events_sector_dynasty.xml:638
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_UNIQUE_HACKERBID\"]/choice[1]/event/text"
 msgstr ""
@@ -844,100 +971,100 @@ msgstr ""
 "сссобираетесссь учассствовать в торгах, то вам придетссся внесссти не менее "
 "30 лома\"."
 
-#: src-en/data/events_sector_dynasty.xml:568
+#: src-en/data/events_sector_dynasty.xml:640
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_UNIQUE_HACKERBID\"]/choice[1]/event/choice[1]/text"
 msgstr "Участвовать в торгах."
 
-#: src-en/data/events_sector_dynasty.xml:570
+#: src-en/data/events_sector_dynasty.xml:642
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_UNIQUE_HACKERBID\"]/choice[1]/event/choice[1]/event/text"
 msgstr "\"Тогда пусть начнутся торги!\""
 
-#: src-en/data/events_sector_dynasty.xml:572
+#: src-en/data/events_sector_dynasty.xml:644
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_UNIQUE_HACKERBID\"]/choice[1]/event/choice[1]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_dynasty.xml:574
+#: src-en/data/events_sector_dynasty.xml:646
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_UNIQUE_HACKERBID\"]/choice[1]/event/choice[1]/event/choice/event/text"
 msgstr ""
 "Слизень начинает называть цифры, и в конце концов Династия поднимает цену.\n"
 "\t\t\t\t\t\t\tТекущая цена: 30 лома."
 
-#: src-en/data/events_sector_dynasty.xml:577
+#: src-en/data/events_sector_dynasty.xml:649
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_UNIQUE_HACKERBID\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/text"
 msgstr "Поднять до 35."
 
-#: src-en/data/events_sector_dynasty.xml:579
+#: src-en/data/events_sector_dynasty.xml:651
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_UNIQUE_HACKERBID\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/text"
 msgstr ""
 "Все еще довольно низкая цена. Фантомы поднимают цену почти сразу.\n"
 "\t\t\t\t\t\t\t\t\tТекущая цена: 35 лома."
 
-#: src-en/data/events_sector_dynasty.xml:582
+#: src-en/data/events_sector_dynasty.xml:654
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_UNIQUE_HACKERBID\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[1]/text"
 msgstr "Поднять до 40."
 
-#: src-en/data/events_sector_dynasty.xml:586
+#: src-en/data/events_sector_dynasty.xml:658
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_UNIQUE_HACKERBID\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[2]/text"
 msgstr "Выйти из торгов."
 
-#: src-en/data/events_sector_dynasty.xml:592
+#: src-en/data/events_sector_dynasty.xml:664
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_UNIQUE_HACKERBID\"]/choice[1]/event/choice[1]/event/choice/event/choice[2]/text"
 msgstr "Выйти из торгов."
 
-#: src-en/data/events_sector_dynasty.xml:600
+#: src-en/data/events_sector_dynasty.xml:672
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_UNIQUE_HACKERBID\"]/choice[1]/event/choice[2]/text"
 msgstr "Отказаться и уйти."
 
-#: src-en/data/events_sector_dynasty.xml:606
+#: src-en/data/events_sector_dynasty.xml:678
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_UNIQUE_HACKERBID\"]/choice[2]/text"
 msgstr "Не обращать на них внимания."
 
-#: src-en/data/events_sector_dynasty.xml:608
+#: src-en/data/events_sector_dynasty.xml:680
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_UNIQUE_HACKERBID\"]/choice[2]/event/text"
 msgstr ""
 "Звуки быстро перечисляемых цифр постепенно стихают, когда вы отдаляетесь от "
 "аукциона."
 
-#: src-en/data/events_sector_dynasty.xml:610
+#: src-en/data/events_sector_dynasty.xml:682
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_UNIQUE_HACKERBID\"]/choice[2]/event/choice[1]/text"
 msgstr "Заняться чем-либо на корабле."
 
-#: src-en/data/events_sector_dynasty.xml:614
+#: src-en/data/events_sector_dynasty.xml:686
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_UNIQUE_HACKERBID\"]/choice[2]/event/choice[2]/text"
 msgstr "Ничего не делать."
 
-#: src-en/data/events_sector_dynasty.xml:622
+#: src-en/data/events_sector_dynasty.xml:694
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"DYNASTY_UNIQUE_HACKERBID_40_BID\"]/text"
 msgstr ""
 "Вы ни за что не получите столь низкую цену. Генератор помех для двигателей делает практически то же самое, но хуже за 45 лома. Династия снова повышает цену.\n"
 "\t\tТекущая цена: 40 лома."
 
-#: src-en/data/events_sector_dynasty.xml:625
+#: src-en/data/events_sector_dynasty.xml:697
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"DYNASTY_UNIQUE_HACKERBID_40_BID\"]/choice[1]/text"
 msgstr "Поднять до 45."
 
-#: src-en/data/events_sector_dynasty.xml:629
+#: src-en/data/events_sector_dynasty.xml:701
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"DYNASTY_UNIQUE_HACKERBID_40_BID\"]/choice[2]/text"
 msgstr "Выйти из торгов."
 
-#: src-en/data/events_sector_dynasty.xml:642
+#: src-en/data/events_sector_dynasty.xml:714
 msgid ""
 "data/events_sector_dynasty.xml$//eventList[@name=\"DYNASTY_UNIQUE_HACKERBID_40\"]/event[10]/text"
 msgstr ""
@@ -945,46 +1072,46 @@ msgstr ""
 " вы не сдадитесь, или они просто не были готовы, потому и ушли. Хакеры "
 "объявляют вас победителем. \"Ну что ж, тогда заплатите за сссвой приз!\""
 
-#: src-en/data/events_sector_dynasty.xml:644
+#: src-en/data/events_sector_dynasty.xml:716
 msgid ""
 "data/events_sector_dynasty.xml$//eventList[@name=\"DYNASTY_UNIQUE_HACKERBID_40\"]/event[10]/choice[1]/text"
 msgstr "Заплатить."
 
-#: src-en/data/events_sector_dynasty.xml:653
+#: src-en/data/events_sector_dynasty.xml:725
 msgid ""
 "data/events_sector_dynasty.xml$//eventList[@name=\"DYNASTY_UNIQUE_HACKERBID_40\"]/event[10]/choice[2]/text"
 msgstr "Мы не можем."
 
-#: src-en/data/events_sector_dynasty.xml:655
+#: src-en/data/events_sector_dynasty.xml:727
 msgid ""
 "data/events_sector_dynasty.xml$//eventList[@name=\"DYNASTY_UNIQUE_HACKERBID_40\"]/event[10]/choice[2]/event/text"
 msgstr ""
 "Слизни в ярости и немедленно вступают в бой! Похоже, вы не получите этот "
 "модуль..."
 
-#: src-en/data/events_sector_dynasty.xml:658
+#: src-en/data/events_sector_dynasty.xml:730
 msgid ""
 "data/events_sector_dynasty.xml$//eventList[@name=\"DYNASTY_UNIQUE_HACKERBID_40\"]/event[10]/choice[2]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_dynasty.xml:667
+#: src-en/data/events_sector_dynasty.xml:739
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"DYNASTY_UNIQUE_HACKERBID_45_BID\"]/text"
 msgstr ""
 "Сейчас цена сопоставима с обычной ценой на Генератор помех для двигателей. Он, конечно, более ценный, но, тем не менее, это довольно много лома...\n"
 "\t\tТекущая цена: 45 лома."
 
-#: src-en/data/events_sector_dynasty.xml:670
+#: src-en/data/events_sector_dynasty.xml:742
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"DYNASTY_UNIQUE_HACKERBID_45_BID\"]/choice[1]/text"
 msgstr "Поднять до 50."
 
-#: src-en/data/events_sector_dynasty.xml:674
+#: src-en/data/events_sector_dynasty.xml:746
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"DYNASTY_UNIQUE_HACKERBID_45_BID\"]/choice[2]/text"
 msgstr "Выйти из торгов."
 
-#: src-en/data/events_sector_dynasty.xml:687
+#: src-en/data/events_sector_dynasty.xml:759
 msgid ""
 "data/events_sector_dynasty.xml$//eventList[@name=\"DYNASTY_UNIQUE_HACKERBID_45\"]/event[10]/text"
 msgstr ""
@@ -992,46 +1119,46 @@ msgstr ""
 " вы не сдадитесь, или они просто не были готовы, потому и ушли. Хакеры "
 "объявляют вас победителем. \"Ну что ж, тогда заплатите за сссвой приз!\""
 
-#: src-en/data/events_sector_dynasty.xml:689
+#: src-en/data/events_sector_dynasty.xml:761
 msgid ""
 "data/events_sector_dynasty.xml$//eventList[@name=\"DYNASTY_UNIQUE_HACKERBID_45\"]/event[10]/choice[1]/text"
 msgstr "Заплатить."
 
-#: src-en/data/events_sector_dynasty.xml:698
+#: src-en/data/events_sector_dynasty.xml:770
 msgid ""
 "data/events_sector_dynasty.xml$//eventList[@name=\"DYNASTY_UNIQUE_HACKERBID_45\"]/event[10]/choice[2]/text"
 msgstr "Мы не можем."
 
-#: src-en/data/events_sector_dynasty.xml:700
+#: src-en/data/events_sector_dynasty.xml:772
 msgid ""
 "data/events_sector_dynasty.xml$//eventList[@name=\"DYNASTY_UNIQUE_HACKERBID_45\"]/event[10]/choice[2]/event/text"
 msgstr ""
 "Слизни в ярости и немедленно вступают в бой! Похоже, вы не получите этот "
 "модуль..."
 
-#: src-en/data/events_sector_dynasty.xml:703
+#: src-en/data/events_sector_dynasty.xml:775
 msgid ""
 "data/events_sector_dynasty.xml$//eventList[@name=\"DYNASTY_UNIQUE_HACKERBID_45\"]/event[10]/choice[2]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_dynasty.xml:712
+#: src-en/data/events_sector_dynasty.xml:784
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"DYNASTY_UNIQUE_HACKERBID_50_BID\"]/text"
 msgstr ""
 "Представители корабля Династия дрогнули, но снова поднимают цену.\n"
 "\t\tТекущая цена: 50 лома."
 
-#: src-en/data/events_sector_dynasty.xml:715
+#: src-en/data/events_sector_dynasty.xml:787
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"DYNASTY_UNIQUE_HACKERBID_50_BID\"]/choice[1]/text"
 msgstr "Поднять до 55."
 
-#: src-en/data/events_sector_dynasty.xml:719
+#: src-en/data/events_sector_dynasty.xml:791
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"DYNASTY_UNIQUE_HACKERBID_50_BID\"]/choice[2]/text"
 msgstr "Выйти из торгов."
 
-#: src-en/data/events_sector_dynasty.xml:729
+#: src-en/data/events_sector_dynasty.xml:801
 msgid ""
 "data/events_sector_dynasty.xml$//eventList[@name=\"DYNASTY_UNIQUE_HACKERBID_50\"]/event[7]/text"
 msgstr ""
@@ -1039,46 +1166,46 @@ msgstr ""
 " вы не сдадитесь, или они просто не были готовы, потому и ушли. Хакеры "
 "объявляют вас победителем. \"Ну что ж, тогда заплатите за сссвой приз!\""
 
-#: src-en/data/events_sector_dynasty.xml:731
+#: src-en/data/events_sector_dynasty.xml:803
 msgid ""
 "data/events_sector_dynasty.xml$//eventList[@name=\"DYNASTY_UNIQUE_HACKERBID_50\"]/event[7]/choice[1]/text"
 msgstr "Заплатить."
 
-#: src-en/data/events_sector_dynasty.xml:740
+#: src-en/data/events_sector_dynasty.xml:812
 msgid ""
 "data/events_sector_dynasty.xml$//eventList[@name=\"DYNASTY_UNIQUE_HACKERBID_50\"]/event[7]/choice[2]/text"
 msgstr "Мы не можем."
 
-#: src-en/data/events_sector_dynasty.xml:742
+#: src-en/data/events_sector_dynasty.xml:814
 msgid ""
 "data/events_sector_dynasty.xml$//eventList[@name=\"DYNASTY_UNIQUE_HACKERBID_50\"]/event[7]/choice[2]/event/text"
 msgstr ""
 "Слизни в ярости и немедленно вступают в бой! Похоже, вы не получите этот "
 "модуль..."
 
-#: src-en/data/events_sector_dynasty.xml:745
+#: src-en/data/events_sector_dynasty.xml:817
 msgid ""
 "data/events_sector_dynasty.xml$//eventList[@name=\"DYNASTY_UNIQUE_HACKERBID_50\"]/event[7]/choice[2]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_dynasty.xml:754
+#: src-en/data/events_sector_dynasty.xml:826
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"DYNASTY_UNIQUE_HACKERBID_55_BID\"]/text"
 msgstr ""
 "Призраки начинают нервничать, но не сдаются.\n"
 "\t\tТекущая цена: 55 лома."
 
-#: src-en/data/events_sector_dynasty.xml:757
+#: src-en/data/events_sector_dynasty.xml:829
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"DYNASTY_UNIQUE_HACKERBID_55_BID\"]/choice[1]/text"
 msgstr "Поднять до 60."
 
-#: src-en/data/events_sector_dynasty.xml:761
+#: src-en/data/events_sector_dynasty.xml:833
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"DYNASTY_UNIQUE_HACKERBID_55_BID\"]/choice[2]/text"
 msgstr "Выйти из торгов."
 
-#: src-en/data/events_sector_dynasty.xml:769
+#: src-en/data/events_sector_dynasty.xml:841
 msgid ""
 "data/events_sector_dynasty.xml$//eventList[@name=\"DYNASTY_UNIQUE_HACKERBID_55\"]/event[5]/text"
 msgstr ""
@@ -1086,46 +1213,46 @@ msgstr ""
 " вы не сдадитесь, или они просто не были готовы, потому и ушли. Хакеры "
 "объявляют вас победителем. \"Ну что ж, тогда заплатите за сссвой приз!\""
 
-#: src-en/data/events_sector_dynasty.xml:771
+#: src-en/data/events_sector_dynasty.xml:843
 msgid ""
 "data/events_sector_dynasty.xml$//eventList[@name=\"DYNASTY_UNIQUE_HACKERBID_55\"]/event[5]/choice[1]/text"
 msgstr "Заплатить."
 
-#: src-en/data/events_sector_dynasty.xml:780
+#: src-en/data/events_sector_dynasty.xml:852
 msgid ""
 "data/events_sector_dynasty.xml$//eventList[@name=\"DYNASTY_UNIQUE_HACKERBID_55\"]/event[5]/choice[2]/text"
 msgstr "Мы не можем."
 
-#: src-en/data/events_sector_dynasty.xml:782
+#: src-en/data/events_sector_dynasty.xml:854
 msgid ""
 "data/events_sector_dynasty.xml$//eventList[@name=\"DYNASTY_UNIQUE_HACKERBID_55\"]/event[5]/choice[2]/event/text"
 msgstr ""
 "Слизни в ярости и немедленно вступают в бой! Похоже, вы не получите этот "
 "модуль..."
 
-#: src-en/data/events_sector_dynasty.xml:785
+#: src-en/data/events_sector_dynasty.xml:857
 msgid ""
 "data/events_sector_dynasty.xml$//eventList[@name=\"DYNASTY_UNIQUE_HACKERBID_55\"]/event[5]/choice[2]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_dynasty.xml:794
+#: src-en/data/events_sector_dynasty.xml:866
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"DYNASTY_UNIQUE_HACKERBID_60_BID\"]/text"
 msgstr ""
 "На этот раз у представителей корабля Династии не было даже шанса, пока один из пиратов на заднем плане не поднял цену. Похоже, торги будут продолжаться.\n"
 "\t\tТекущая цена: 60 лома."
 
-#: src-en/data/events_sector_dynasty.xml:797
+#: src-en/data/events_sector_dynasty.xml:869
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"DYNASTY_UNIQUE_HACKERBID_60_BID\"]/choice[1]/text"
 msgstr "Поднять до 65."
 
-#: src-en/data/events_sector_dynasty.xml:801
+#: src-en/data/events_sector_dynasty.xml:873
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"DYNASTY_UNIQUE_HACKERBID_60_BID\"]/choice[2]/text"
 msgstr "Выйти из торгов."
 
-#: src-en/data/events_sector_dynasty.xml:807
+#: src-en/data/events_sector_dynasty.xml:879
 msgid ""
 "data/events_sector_dynasty.xml$//eventList[@name=\"DYNASTY_UNIQUE_HACKERBID_60\"]/event[3]/text"
 msgstr ""
@@ -1133,29 +1260,29 @@ msgstr ""
 " вы не сдадитесь, или они просто не были готовы, потому и ушли. Хакеры "
 "объявляют вас победителем. \"Ну что ж, тогда заплатите за сссвой приз!\""
 
-#: src-en/data/events_sector_dynasty.xml:809
+#: src-en/data/events_sector_dynasty.xml:881
 msgid ""
 "data/events_sector_dynasty.xml$//eventList[@name=\"DYNASTY_UNIQUE_HACKERBID_60\"]/event[3]/choice[1]/text"
 msgstr "Заплатить."
 
-#: src-en/data/events_sector_dynasty.xml:818
+#: src-en/data/events_sector_dynasty.xml:890
 msgid ""
 "data/events_sector_dynasty.xml$//eventList[@name=\"DYNASTY_UNIQUE_HACKERBID_60\"]/event[3]/choice[2]/text"
 msgstr "Мы не можем."
 
-#: src-en/data/events_sector_dynasty.xml:820
+#: src-en/data/events_sector_dynasty.xml:892
 msgid ""
 "data/events_sector_dynasty.xml$//eventList[@name=\"DYNASTY_UNIQUE_HACKERBID_60\"]/event[3]/choice[2]/event/text"
 msgstr ""
 "Слизни в ярости и немедленно вступают в бой! Похоже, вы не получите этот "
 "модуль..."
 
-#: src-en/data/events_sector_dynasty.xml:823
+#: src-en/data/events_sector_dynasty.xml:895
 msgid ""
 "data/events_sector_dynasty.xml$//eventList[@name=\"DYNASTY_UNIQUE_HACKERBID_60\"]/event[3]/choice[2]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_dynasty.xml:831
+#: src-en/data/events_sector_dynasty.xml:903
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"DYNASTY_UNIQUE_HACKERBID_65\"]/text"
 msgstr ""
@@ -1163,29 +1290,29 @@ msgstr ""
 "Похоже, вы победили! Хакеры объявляют вас победителем. \"Ну что ж, тогда "
 "заплатите за сссвой приз!\""
 
-#: src-en/data/events_sector_dynasty.xml:833
+#: src-en/data/events_sector_dynasty.xml:905
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"DYNASTY_UNIQUE_HACKERBID_65\"]/choice[1]/text"
 msgstr "Заплатить."
 
-#: src-en/data/events_sector_dynasty.xml:842
+#: src-en/data/events_sector_dynasty.xml:914
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"DYNASTY_UNIQUE_HACKERBID_65\"]/choice[2]/text"
 msgstr "Мы не можем."
 
-#: src-en/data/events_sector_dynasty.xml:844
+#: src-en/data/events_sector_dynasty.xml:916
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"DYNASTY_UNIQUE_HACKERBID_65\"]/choice[2]/event/text"
 msgstr ""
 "Слизни в ярости и немедленно вступают в бой! Похоже, вы не получите этот "
 "модуль..."
 
-#: src-en/data/events_sector_dynasty.xml:847
+#: src-en/data/events_sector_dynasty.xml:919
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"DYNASTY_UNIQUE_HACKERBID_65\"]/choice[2]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_dynasty.xml:869
+#: src-en/data/events_sector_dynasty.xml:941
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_SMUGGLER\"]/text"
 msgstr ""
@@ -1199,12 +1326,12 @@ msgstr ""
 "\"убедите\" их пропустить нас, и у нас будет для вас новое крутое оружие. "
 "Договорились?\""
 
-#: src-en/data/events_sector_dynasty.xml:872
+#: src-en/data/events_sector_dynasty.xml:944
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_SMUGGLER\"]/choice[1]/text"
 msgstr "Проверить контрольно-пропускной пункт."
 
-#: src-en/data/events_sector_dynasty.xml:874
+#: src-en/data/events_sector_dynasty.xml:946
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_SMUGGLER\"]/choice[1]/event/text"
 msgstr ""
@@ -1213,29 +1340,29 @@ msgstr ""
 " опасным грузом, но их местонахождение неизвестно. Если у вас есть какая-"
 "либо информация об их местонахождении, не стесняйтесь поделиться ею\"."
 
-#: src-en/data/events_sector_dynasty.xml:877
+#: src-en/data/events_sector_dynasty.xml:949
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_SMUGGLER\"]/choice[1]/event/choice[1]/text"
 msgstr "Атаковать контрольно-пропускной пункт."
 
-#: src-en/data/events_sector_dynasty.xml:879
+#: src-en/data/events_sector_dynasty.xml:951
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_SMUGGLER\"]/choice[1]/event/choice[1]/event/text"
 msgstr ""
 "Самый проверенный способ помочь контрабандистам - просто уничтожить этих "
 "призраков. Надеюсь, это будет достаточно просто."
 
-#: src-en/data/events_sector_dynasty.xml:882
+#: src-en/data/events_sector_dynasty.xml:954
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_SMUGGLER\"]/choice[1]/event/choice[1]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_dynasty.xml:888
+#: src-en/data/events_sector_dynasty.xml:960
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_SMUGGLER\"]/choice[1]/event/choice[2]/text"
 msgstr "Дать взятку на контрольно-пропускном пункте."
 
-#: src-en/data/events_sector_dynasty.xml:890
+#: src-en/data/events_sector_dynasty.xml:962
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_SMUGGLER\"]/choice[1]/event/choice[2]/event/text"
 msgstr ""
@@ -1243,12 +1370,12 @@ msgstr ""
 "благосклонна на ближайшие 5 часов? Ну, я полагаю, мы можем договориться об "
 "этом\"."
 
-#: src-en/data/events_sector_dynasty.xml:895
+#: src-en/data/events_sector_dynasty.xml:967
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_SMUGGLER\"]/choice[1]/event/choice[2]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_dynasty.xml:897
+#: src-en/data/events_sector_dynasty.xml:969
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_SMUGGLER\"]/choice[1]/event/choice[2]/event/choice/event/text"
 msgstr ""
@@ -1256,24 +1383,24 @@ msgstr ""
 " Как скучно, я хотел увидеть чертов фейерверк! Но я человек слова. Иногда. В"
 " данный момент - да. Но не всегда. Вот, держи\"."
 
-#: src-en/data/events_sector_dynasty.xml:904
+#: src-en/data/events_sector_dynasty.xml:976
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_SMUGGLER\"]/choice[1]/event/choice[3]/text"
 msgstr "Продать им местонахождение контрабандистов."
 
-#: src-en/data/events_sector_dynasty.xml:906
+#: src-en/data/events_sector_dynasty.xml:978
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_SMUGGLER\"]/choice[1]/event/choice[3]/event/text"
 msgstr ""
 "Вы сомневаетесь, что после этого контрабандисты дадут вам оружие, но ведь "
 "это лом полученный без особых усилий, и кто может пожаловаться на это?"
 
-#: src-en/data/events_sector_dynasty.xml:911
+#: src-en/data/events_sector_dynasty.xml:983
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_SMUGGLER\"]/choice[1]/event/choice[@req=\"loc_dynasty_impressed\"]/text"
 msgstr "(Спаситель Династии) Не могли бы вы оказать нам услугу?"
 
-#: src-en/data/events_sector_dynasty.xml:913
+#: src-en/data/events_sector_dynasty.xml:985
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_SMUGGLER\"]/choice[1]/event/choice[@req=\"loc_dynasty_impressed\"]/event/text"
 msgstr ""
@@ -1282,12 +1409,12 @@ msgstr ""
 "любезно просите их пропустить ваших друзей-контрабандистов, и они без "
 "колебаний соглашаются."
 
-#: src-en/data/events_sector_dynasty.xml:915
+#: src-en/data/events_sector_dynasty.xml:987
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_SMUGGLER\"]/choice[1]/event/choice[@req=\"loc_dynasty_impressed\"]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_dynasty.xml:917
+#: src-en/data/events_sector_dynasty.xml:989
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_SMUGGLER\"]/choice[1]/event/choice[@req=\"loc_dynasty_impressed\"]/event/choice/event/text"
 msgstr ""
@@ -1295,45 +1422,45 @@ msgstr ""
 "\"Ха, что это было? Я хотел увидеть чертов фейерверк! Но я человек слова. "
 "Иногда. В данный момент - да. Но не всегда. Вот, держи.\""
 
-#: src-en/data/events_sector_dynasty.xml:926
+#: src-en/data/events_sector_dynasty.xml:998
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_SMUGGLER\"]/choice[2]/text"
 msgstr "Сразиться с контрабандистами."
 
-#: src-en/data/events_sector_dynasty.xml:928
+#: src-en/data/events_sector_dynasty.xml:1000
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_SMUGGLER\"]/choice[2]/event/text"
 msgstr ""
 "Вы не заключаете сделок с пиратами, но с удовольствием сражаетесь с ними!"
 
-#: src-en/data/events_sector_dynasty.xml:931
+#: src-en/data/events_sector_dynasty.xml:1003
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_SMUGGLER\"]/choice[2]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_dynasty.xml:937
+#: src-en/data/events_sector_dynasty.xml:1009
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_SMUGGLER\"]/choice[3]/text"
 msgstr "Мы не собираемся работать на каких-то контрабандистов."
 
-#: src-en/data/events_sector_dynasty.xml:939
+#: src-en/data/events_sector_dynasty.xml:1011
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_SMUGGLER\"]/choice[3]/event/text"
 msgstr ""
 "Вы довольно невежливо отказываетесь от предложения контрабандистов и "
 "улетаете."
 
-#: src-en/data/events_sector_dynasty.xml:941
+#: src-en/data/events_sector_dynasty.xml:1013
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_SMUGGLER\"]/choice[3]/event/choice[1]/text"
 msgstr "Заняться чем-либо на корабле."
 
-#: src-en/data/events_sector_dynasty.xml:945
+#: src-en/data/events_sector_dynasty.xml:1017
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_SMUGGLER\"]/choice[3]/event/choice[2]/text"
 msgstr "Ничего не делать."
 
-#: src-en/data/events_sector_dynasty.xml:953
+#: src-en/data/events_sector_dynasty.xml:1025
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_AUTOQUEST\"]/text"
 msgstr ""
@@ -1343,12 +1470,12 @@ msgstr ""
 "поселение призраков оказалось проблемой для Восстания. Захватите его, и эта "
 "станция вознаградит вас дроном\"."
 
-#: src-en/data/events_sector_dynasty.xml:956
+#: src-en/data/events_sector_dynasty.xml:1028
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_AUTOQUEST\"]/choice[1]/text"
 msgstr "Атаковать призраков."
 
-#: src-en/data/events_sector_dynasty.xml:958
+#: src-en/data/events_sector_dynasty.xml:1030
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_AUTOQUEST\"]/choice[1]/event/text"
 msgstr ""
@@ -1357,17 +1484,17 @@ msgstr ""
 "вас получится. Когда вы приближаетесь к колонии, один из их кораблей "
 "подлетает к вам."
 
-#: src-en/data/events_sector_dynasty.xml:961
+#: src-en/data/events_sector_dynasty.xml:1033
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_AUTOQUEST\"]/choice[1]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_dynasty.xml:967
+#: src-en/data/events_sector_dynasty.xml:1039
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_AUTOQUEST\"]/choice[2]/text"
 msgstr "Просто уничтожить автоматическую станцию."
 
-#: src-en/data/events_sector_dynasty.xml:969
+#: src-en/data/events_sector_dynasty.xml:1041
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_AUTOQUEST\"]/choice[2]/event/text"
 msgstr ""
@@ -1375,32 +1502,32 @@ msgstr ""
 "автоматическую станцию, чем идти сражаться с колонией Династии. К тому же "
 "это означает, что вы не будете работать на повстанцев!"
 
-#: src-en/data/events_sector_dynasty.xml:972
+#: src-en/data/events_sector_dynasty.xml:1044
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_AUTOQUEST\"]/choice[2]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_dynasty.xml:978
+#: src-en/data/events_sector_dynasty.xml:1050
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_AUTOQUEST\"]/choice[3]/text"
 msgstr "Пусть они сами разбираются с проблемой."
 
-#: src-en/data/events_sector_dynasty.xml:980
+#: src-en/data/events_sector_dynasty.xml:1052
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_AUTOQUEST\"]/choice[3]/event/text"
 msgstr "Ни проблемы повстанцев, ни проблемы Династии вас не волнуют."
 
-#: src-en/data/events_sector_dynasty.xml:982
+#: src-en/data/events_sector_dynasty.xml:1054
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_AUTOQUEST\"]/choice[3]/event/choice[1]/text"
 msgstr "Заняться чем-либо на корабле."
 
-#: src-en/data/events_sector_dynasty.xml:986
+#: src-en/data/events_sector_dynasty.xml:1058
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_AUTOQUEST\"]/choice[3]/event/choice[2]/text"
 msgstr "Ничего не делать."
 
-#: src-en/data/events_sector_dynasty.xml:994
+#: src-en/data/events_sector_dynasty.xml:1066
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_ZOLTAUTO\"]/text"
 msgstr ""
@@ -1409,12 +1536,12 @@ msgstr ""
 "показывая, что это корабль Династии. Однако их оружие выключено, а средства "
 "связи открыты для общения."
 
-#: src-en/data/events_sector_dynasty.xml:997
+#: src-en/data/events_sector_dynasty.xml:1069
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_ZOLTAUTO\"]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_dynasty.xml:999
+#: src-en/data/events_sector_dynasty.xml:1071
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_ZOLTAUTO\"]/choice/event/text"
 msgstr ""
@@ -1426,29 +1553,29 @@ msgstr ""
 "повстанцев, они могут вызвать панику огромного масштаба среди наших граждан."
 " Не могли бы вы его обезвредить?\""
 
-#: src-en/data/events_sector_dynasty.xml:1001
+#: src-en/data/events_sector_dynasty.xml:1073
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_ZOLTAUTO\"]/choice/event/choice[1]/text"
 msgstr "Догнать автоматический корабль."
 
-#: src-en/data/events_sector_dynasty.xml:1005
+#: src-en/data/events_sector_dynasty.xml:1077
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_ZOLTAUTO\"]/choice/event/choice[2]/text"
 msgstr "Отказаться."
 
-#: src-en/data/events_sector_dynasty.xml:1014
+#: src-en/data/events_sector_dynasty.xml:1086
 msgid ""
 "data/events_sector_dynasty.xml$//eventList[@name=\"DYNASTY_ZOLTAUTO_DECLINE\"]/event[2]/text"
 msgstr ""
 "\"Тогда вы бесполезны для нас. Более того, вы вторглись на территорию "
 "Династии и должны быть выдворены\"."
 
-#: src-en/data/events_sector_dynasty.xml:1017
+#: src-en/data/events_sector_dynasty.xml:1089
 msgid ""
 "data/events_sector_dynasty.xml$//eventList[@name=\"DYNASTY_ZOLTAUTO_DECLINE\"]/event[2]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_dynasty.xml:1024
+#: src-en/data/events_sector_dynasty.xml:1096
 msgid ""
 "data/events_sector_dynasty.xml$//eventList[@name=\"DYNASTY_ZOLTAUTO_ACCEPT\"]/event/text"
 msgstr ""
@@ -1457,12 +1584,12 @@ msgstr ""
 "незамеченным для золтанов, но они сейчас слишком далеко, чтобы что-то "
 "предпринять. Сначала нужно уничтожить этот автоматический корабль."
 
-#: src-en/data/events_sector_dynasty.xml:1027
+#: src-en/data/events_sector_dynasty.xml:1099
 msgid ""
 "data/events_sector_dynasty.xml$//eventList[@name=\"DYNASTY_ZOLTAUTO_ACCEPT\"]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_dynasty.xml:1035
+#: src-en/data/events_sector_dynasty.xml:1107
 msgid ""
 "data/events_sector_dynasty.xml$//eventList[@name=\"DYNASTY_ZOLTAUTO_REWARD\"]/event[1]/text"
 msgstr ""
@@ -1470,17 +1597,17 @@ msgstr ""
 "ибо ты все еще проник в пространство, которое очень недовольно тем, что "
 "приняло тебя\"."
 
-#: src-en/data/events_sector_dynasty.xml:1037
+#: src-en/data/events_sector_dynasty.xml:1109
 msgid ""
 "data/events_sector_dynasty.xml$//eventList[@name=\"DYNASTY_ZOLTAUTO_REWARD\"]/event[1]/choice[1]/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_dynasty.xml:1041
+#: src-en/data/events_sector_dynasty.xml:1113
 msgid ""
 "data/events_sector_dynasty.xml$//eventList[@name=\"DYNASTY_ZOLTAUTO_REWARD\"]/event[1]/choice[@req=\"weapons\"]/text"
 msgstr "(Улучш. Оружие) Угрожать им."
 
-#: src-en/data/events_sector_dynasty.xml:1043
+#: src-en/data/events_sector_dynasty.xml:1115
 msgid ""
 "data/events_sector_dynasty.xml$//eventList[@name=\"DYNASTY_ZOLTAUTO_REWARD\"]/event[1]/choice[@req=\"weapons\"]/event/text"
 msgstr ""
@@ -1488,7 +1615,7 @@ msgstr ""
 " громче говорить не словами, а делами? Я бы рассмеялся, если бы к моей "
 "голове не был приставлен пистолет. Возьми эти деньги, варвар\"."
 
-#: src-en/data/events_sector_dynasty.xml:1049
+#: src-en/data/events_sector_dynasty.xml:1121
 msgid ""
 "data/events_sector_dynasty.xml$//eventList[@name=\"DYNASTY_ZOLTAUTO_REWARD\"]/event[2]/text"
 msgstr ""
@@ -1496,17 +1623,17 @@ msgstr ""
 "ибо ты все еще проник в пространство, которое очень недовольно тем, что "
 "приняло тебя\"."
 
-#: src-en/data/events_sector_dynasty.xml:1051
+#: src-en/data/events_sector_dynasty.xml:1123
 msgid ""
 "data/events_sector_dynasty.xml$//eventList[@name=\"DYNASTY_ZOLTAUTO_REWARD\"]/event[2]/choice[1]/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_dynasty.xml:1055
+#: src-en/data/events_sector_dynasty.xml:1127
 msgid ""
 "data/events_sector_dynasty.xml$//eventList[@name=\"DYNASTY_ZOLTAUTO_REWARD\"]/event[2]/choice[@req=\"weapons\"]/text"
 msgstr "(Улучш. Оружие) Угрожать им."
 
-#: src-en/data/events_sector_dynasty.xml:1057
+#: src-en/data/events_sector_dynasty.xml:1129
 msgid ""
 "data/events_sector_dynasty.xml$//eventList[@name=\"DYNASTY_ZOLTAUTO_REWARD\"]/event[2]/choice[@req=\"weapons\"]/event/text"
 msgstr ""
@@ -1514,7 +1641,7 @@ msgstr ""
 " громче говорить не словами, а делами? Я бы рассмеялся, если бы к моей "
 "голове не был приставлен пистолет. Возьми эти деньги, варвар\"."
 
-#: src-en/data/events_sector_dynasty.xml:1063
+#: src-en/data/events_sector_dynasty.xml:1135
 msgid ""
 "data/events_sector_dynasty.xml$//eventList[@name=\"DYNASTY_ZOLTAUTO_REWARD\"]/event[3]/text"
 msgstr ""
@@ -1523,7 +1650,7 @@ msgstr ""
 "начальство взывало бы к небесам по поводу этого греха, в обмен на ваши "
 "усилия я передам вам партию металлолома\"."
 
-#: src-en/data/events_sector_dynasty.xml:1069
+#: src-en/data/events_sector_dynasty.xml:1141
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_DESERTERS\"]/text"
 msgstr ""
@@ -1533,37 +1660,37 @@ msgstr ""
 " корабль?\" Прежде чем вы успеваете ответить, вы замечаете вдалеке быстрое "
 "движение. Похоже, за дезертирами следят."
 
-#: src-en/data/events_sector_dynasty.xml:1072
+#: src-en/data/events_sector_dynasty.xml:1144
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_DESERTERS\"]/choice[1]/text"
 msgstr "Выдать дезертиров."
 
-#: src-en/data/events_sector_dynasty.xml:1076
+#: src-en/data/events_sector_dynasty.xml:1148
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_DESERTERS\"]/choice[2]/text"
 msgstr "Разрешить призраку стать вашим членом экипажа."
 
-#: src-en/data/events_sector_dynasty.xml:1080
+#: src-en/data/events_sector_dynasty.xml:1152
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_DESERTERS\"]/choice[3]/text"
 msgstr "Не повезло, но мы не будем вмешиваться."
 
-#: src-en/data/events_sector_dynasty.xml:1082
+#: src-en/data/events_sector_dynasty.xml:1154
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_DESERTERS\"]/choice[3]/event/text"
 msgstr "Вы прекращаете связь и удаляетесь от кораблей Династии."
 
-#: src-en/data/events_sector_dynasty.xml:1084
+#: src-en/data/events_sector_dynasty.xml:1156
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_DESERTERS\"]/choice[3]/event/choice[1]/text"
 msgstr "Заняться чем-либо на корабле."
 
-#: src-en/data/events_sector_dynasty.xml:1088
+#: src-en/data/events_sector_dynasty.xml:1160
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_DESERTERS\"]/choice[3]/event/choice[2]/text"
 msgstr "Ничего не делать."
 
-#: src-en/data/events_sector_dynasty.xml:1096
+#: src-en/data/events_sector_dynasty.xml:1168
 msgid ""
 "data/events_sector_dynasty.xml$//eventList[@name=\"DYNASTY_DESERTERS_TURNIN\"]/event[1]/text"
 msgstr ""
@@ -1571,12 +1698,12 @@ msgstr ""
 "Династии становится враждебным и пытается пробиться через вас! По какой-то "
 "причине другой корабль не помогает вам, а просто наблюдает за битвой. Трусы."
 
-#: src-en/data/events_sector_dynasty.xml:1099
+#: src-en/data/events_sector_dynasty.xml:1171
 msgid ""
 "data/events_sector_dynasty.xml$//eventList[@name=\"DYNASTY_DESERTERS_TURNIN\"]/event[1]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_dynasty.xml:1104
+#: src-en/data/events_sector_dynasty.xml:1176
 msgid ""
 "data/events_sector_dynasty.xml$//eventList[@name=\"DYNASTY_DESERTERS_TURNIN\"]/event[2]/text"
 msgstr ""
@@ -1584,7 +1711,7 @@ msgstr ""
 " другому кораблю. Преданный корабль Династии благодарит вас и предлагает "
 "вознаграждение."
 
-#: src-en/data/events_sector_dynasty.xml:1110
+#: src-en/data/events_sector_dynasty.xml:1182
 msgid ""
 "data/events_sector_dynasty.xml$//eventList[@name=\"DYNASTY_DESERTERS_ACCEPT\"]/event[1]/text"
 msgstr ""
@@ -1592,31 +1719,31 @@ msgstr ""
 "Династии становится враждебным и пытается пробиться через вас! По какой-то "
 "причине другой корабль не помогает вам, а просто наблюдает за битвой. Трусы."
 
-#: src-en/data/events_sector_dynasty.xml:1113
+#: src-en/data/events_sector_dynasty.xml:1185
 msgid ""
 "data/events_sector_dynasty.xml$//eventList[@name=\"DYNASTY_DESERTERS_ACCEPT\"]/event[1]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_dynasty.xml:1118
+#: src-en/data/events_sector_dynasty.xml:1190
 msgid ""
 "data/events_sector_dynasty.xml$//eventList[@name=\"DYNASTY_DESERTERS_ACCEPT\"]/event[2]/text"
 msgstr ""
 "Вы быстро поднимаете экипаж призраков на борт, и каким-то чудом оказывается,"
 " что вас не заметили. Вы быстро улетаете с новой командой на борту."
 
-#: src-en/data/events_sector_dynasty.xml:1124
+#: src-en/data/events_sector_dynasty.xml:1196
 msgid "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_LOST\"]/text"
 msgstr ""
 "Вы замечаете необычное количество помех в рации. Вы немного поиграли с ней, пока вдруг не включился переводчик и не начал передавать диалог с затаившегося неподалеку корабля Династии. \"Мы просто безнадежно потерялись, ты, безмозглый болван!\"\n"
 "\t\t\n"
-"\t\"О, закрой свой рот, ты, никчемный слюнтяй. У нас нет мозгов, мы всего лишь газ! Этот бессмысленная ссора с оскорблениями не принесет нам никакого результата\"."
+"\t\"О, закрой свой рот, ты, никчемный слюнтяй. У нас нет мозгов, мы всего лишь газ! Эта бессмысленная ссора с оскорблениями не принесет нам никакого результата\"."
 
-#: src-en/data/events_sector_dynasty.xml:1130
+#: src-en/data/events_sector_dynasty.xml:1202
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_LOST\"]/choice[1]/text"
 msgstr "Предложить сопроводить их."
 
-#: src-en/data/events_sector_dynasty.xml:1132
+#: src-en/data/events_sector_dynasty.xml:1204
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_LOST\"]/choice[1]/event/text"
 msgstr ""
@@ -1625,17 +1752,17 @@ msgstr ""
 "сможете заставить их сдаться, возможно, они наконец-то согласятся принять "
 "вашу помощь?"
 
-#: src-en/data/events_sector_dynasty.xml:1135
+#: src-en/data/events_sector_dynasty.xml:1207
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_LOST\"]/choice[1]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_dynasty.xml:1141
+#: src-en/data/events_sector_dynasty.xml:1213
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_LOST\"]/choice[@req=\"LIST_CREW_GHOST\"]/text"
 msgstr "(Член экипажа-призрак) Предложить сопроводить их."
 
-#: src-en/data/events_sector_dynasty.xml:1143
+#: src-en/data/events_sector_dynasty.xml:1215
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_LOST\"]/choice[@req=\"LIST_CREW_GHOST\"]/event/text"
 msgstr ""
@@ -1643,31 +1770,31 @@ msgstr ""
 " самую милосердную помощь. Большое спасибо, добрый друг. Мы не оставим эту "
 "услугу без внимания\"."
 
-#: src-en/data/events_sector_dynasty.xml:1148
+#: src-en/data/events_sector_dynasty.xml:1220
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_LOST\"]/choice[3]/text"
 msgstr "Не обращать на них внимания."
 
-#: src-en/data/events_sector_dynasty.xml:1150
+#: src-en/data/events_sector_dynasty.xml:1222
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_LOST\"]/choice[3]/event/text"
 msgstr ""
 "Лучше пусть призраки ссорятся между собой, чем позволить кораблю Династии "
 "преследовать вас."
 
-#: src-en/data/events_sector_dynasty.xml:1152
+#: src-en/data/events_sector_dynasty.xml:1224
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_LOST\"]/choice[3]/event/choice[1]/text"
 msgstr "Заняться чем-либо на корабле."
 
-#: src-en/data/events_sector_dynasty.xml:1156
+#: src-en/data/events_sector_dynasty.xml:1228
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_LOST\"]/choice[3]/event/choice[2]/text"
 msgstr "Ничего не делать."
 
-#: src-en/data/events_sector_dynasty.xml:1174
+#: src-en/data/events_sector_dynasty.xml:1246
 msgid ""
-"data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_OCCUPIED\"]/text"
+"data/events_sector_dynasty.xml$//event[@name=\"NEBULA_LIGHT_DYNASTY_OCCUPIED\"]/text"
 msgstr ""
 "Хотя отличить туманности друг от друга бывает непросто, здесь что-то явно не"
 " так. Несколько ярких огней сквозь облака указывают на огромную шахтерскую "
@@ -1677,14 +1804,14 @@ msgstr ""
 "основном бездействует. Еще более странно, что колонию окружил целый флот "
 "кораблей Вестников Заката. Что здесь происходит?"
 
-#: src-en/data/events_sector_dynasty.xml:1179
+#: src-en/data/events_sector_dynasty.xml:1251
 msgid ""
-"data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_OCCUPIED\"]/choice[1]/text"
+"data/events_sector_dynasty.xml$//event[@name=\"NEBULA_LIGHT_DYNASTY_OCCUPIED\"]/choice[1]/text"
 msgstr "Приблизиться."
 
-#: src-en/data/events_sector_dynasty.xml:1181
+#: src-en/data/events_sector_dynasty.xml:1253
 msgid ""
-"data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_OCCUPIED\"]/choice[1]/event/text"
+"data/events_sector_dynasty.xml$//event[@name=\"NEBULA_LIGHT_DYNASTY_OCCUPIED\"]/choice[1]/event/text"
 msgstr ""
 "Вы приземляетесь на единственную посадочную площадку, которая, кажется, не "
 "охраняется во всей колонии. Пробираясь по разгерметизированным коридорам в "
@@ -1693,50 +1820,50 @@ msgstr ""
 "случайных фантомов, которые прячутся в переулках или зданиях, когда мимо "
 "проходят солдаты."
 
-#: src-en/data/events_sector_dynasty.xml:1183
+#: src-en/data/events_sector_dynasty.xml:1255
 msgid ""
-"data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_OCCUPIED\"]/choice[1]/event/choice[1]/text"
+"data/events_sector_dynasty.xml$//event[@name=\"NEBULA_LIGHT_DYNASTY_OCCUPIED\"]/choice[1]/event/choice[1]/text"
 msgstr "Найти командование Вестников Заката."
 
-#: src-en/data/events_sector_dynasty.xml:1185
+#: src-en/data/events_sector_dynasty.xml:1257
 msgid ""
-"data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_OCCUPIED\"]/choice[1]/event/choice[1]/event/text"
+"data/events_sector_dynasty.xml$//event[@name=\"NEBULA_LIGHT_DYNASTY_OCCUPIED\"]/choice[1]/event/choice[1]/event/text"
 msgstr ""
 "Стараясь не попасться на глаза, вы пробираетесь между переулками и следуете за патрулями. В конце концов вы находите кабинет командира, который, очевидно, когда-то принадлежал гордому призраку. \"Ренегаты в моей колонии? Хм, куда вероятнее, чем я думал. Не думал, что кто-то еще настолько глуп, чтобы прийти в это забытое место, полное газовых мешков. Знаешь, сколько раз меня здесь называли \"дышащим\"? Что это вообще за оскорбление? Конечно, нам приходится носить эти большие уродливые костюмы, чтобы дышать, но, по крайней мере, наша биология не состоит из горячего воздуха!\"\n"
 "\t\t\t\t\t\n"
 "\t\t\t\t\tВестник Заката ухмыляется и откидывается в кресле. \"Но я увлекся. Я полагаю, что вы настроены на мир, раз пока не стреляете. Так что, если вы согласны... У меня есть предложение. Мы захватили эту колонию несколько недель назад в надежде получить часть запасов эфира Династии. Все шло замечательно, только вот эти чертовы фантомы начали объединяться. Теперь Династия посылает наемных убийц-бродяг, чтобы насолить над нами, надеясь, что мы скоро уйдем. Я точно не собираюсь проигрывать такому низшему виду, как этот. Хмм. Династия пережила свой расцвет много веков назад, но теперь настало время для новой славной империи. Во главе с золтанами, но чтобы это произошло, сначала нам нужно оружие, на создание которого пойдет этот эфир. По данным разведки, затаившийся флот ждет удобного случая, чтобы нанести удар. Уничтожьте их лидера, и я выплачу вам компенсацию\"."
 
-#: src-en/data/events_sector_dynasty.xml:1190
+#: src-en/data/events_sector_dynasty.xml:1262
 msgid ""
-"data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_OCCUPIED\"]/choice[1]/event/choice[1]/event/choice[1]/text"
+"data/events_sector_dynasty.xml$//event[@name=\"NEBULA_LIGHT_DYNASTY_OCCUPIED\"]/choice[1]/event/choice[1]/event/choice[1]/text"
 msgstr "Сражаться с призраками."
 
-#: src-en/data/events_sector_dynasty.xml:1192
+#: src-en/data/events_sector_dynasty.xml:1264
 msgid ""
-"data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_OCCUPIED\"]/choice[1]/event/choice[1]/event/choice[1]/event/text"
+"data/events_sector_dynasty.xml$//event[@name=\"NEBULA_LIGHT_DYNASTY_OCCUPIED\"]/choice[1]/event/choice[1]/event/choice[1]/event/text"
 msgstr ""
 "Вы не знаете, как отразится на Федерации такая помощь Вестникам Заката, но "
 "Династия тоже не является союзником Федерации. Если \"компенсация\" поможет "
 "вам в вашей миссии, то так тому и быть."
 
-#: src-en/data/events_sector_dynasty.xml:1195
+#: src-en/data/events_sector_dynasty.xml:1267
 msgid ""
-"data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_OCCUPIED\"]/choice[1]/event/choice[1]/event/choice[1]/event/choice/text"
+"data/events_sector_dynasty.xml$//event[@name=\"NEBULA_LIGHT_DYNASTY_OCCUPIED\"]/choice[1]/event/choice[1]/event/choice[1]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_dynasty.xml:1201
+#: src-en/data/events_sector_dynasty.xml:1273
 msgid ""
-"data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_OCCUPIED\"]/choice[1]/event/choice[1]/event/choice[2]/text"
+"data/events_sector_dynasty.xml$//event[@name=\"NEBULA_LIGHT_DYNASTY_OCCUPIED\"]/choice[1]/event/choice[1]/event/choice[2]/text"
 msgstr "Отказаться и уйти."
 
-#: src-en/data/events_sector_dynasty.xml:1207
+#: src-en/data/events_sector_dynasty.xml:1279
 msgid ""
-"data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_OCCUPIED\"]/choice[1]/event/choice[2]/text"
+"data/events_sector_dynasty.xml$//event[@name=\"NEBULA_LIGHT_DYNASTY_OCCUPIED\"]/choice[1]/event/choice[2]/text"
 msgstr "Найти лидеров колонии."
 
-#: src-en/data/events_sector_dynasty.xml:1209
+#: src-en/data/events_sector_dynasty.xml:1281
 msgid ""
-"data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_OCCUPIED\"]/choice[1]/event/choice[2]/event/text"
+"data/events_sector_dynasty.xml$//event[@name=\"NEBULA_LIGHT_DYNASTY_OCCUPIED\"]/choice[1]/event/choice[2]/event/text"
 msgstr ""
 "Вы забегаете в один из переулков и пытаетесь проверить внутренние помещения "
 "нескольких зданий. В конце концов вы находите то, что кажется укрытием, "
@@ -1750,32 +1877,32 @@ msgstr ""
 " чтобы это оборудование попало в руки твоего врага, то я предлагаю тебе "
 "выбрать способ свершения справедливости. Выбор за тобой, но время не ждет\"."
 
-#: src-en/data/events_sector_dynasty.xml:1212
+#: src-en/data/events_sector_dynasty.xml:1284
 msgid ""
-"data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_OCCUPIED\"]/choice[1]/event/choice[2]/event/choice[1]/text"
+"data/events_sector_dynasty.xml$//event[@name=\"NEBULA_LIGHT_DYNASTY_OCCUPIED\"]/choice[1]/event/choice[2]/event/choice[1]/text"
 msgstr "Сражаться с Вестниками Заката."
 
-#: src-en/data/events_sector_dynasty.xml:1214
+#: src-en/data/events_sector_dynasty.xml:1286
 msgid ""
-"data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_OCCUPIED\"]/choice[1]/event/choice[2]/event/choice[1]/event/text"
+"data/events_sector_dynasty.xml$//event[@name=\"NEBULA_LIGHT_DYNASTY_OCCUPIED\"]/choice[1]/event/choice[2]/event/choice[1]/event/text"
 msgstr ""
 "Если то, что говорят фантомы, правда, а у вас нет причин полагать, что это "
 "не так, то вы не можете позволить Вестникам Заката захватить большое "
 "месторождение эфира! Приготовиться к битве!"
 
-#: src-en/data/events_sector_dynasty.xml:1217
+#: src-en/data/events_sector_dynasty.xml:1289
 msgid ""
-"data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_OCCUPIED\"]/choice[1]/event/choice[2]/event/choice[1]/event/choice/text"
+"data/events_sector_dynasty.xml$//event[@name=\"NEBULA_LIGHT_DYNASTY_OCCUPIED\"]/choice[1]/event/choice[2]/event/choice[1]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_dynasty.xml:1223
+#: src-en/data/events_sector_dynasty.xml:1295
 msgid ""
-"data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_OCCUPIED\"]/choice[1]/event/choice[2]/event/choice[2]/text"
+"data/events_sector_dynasty.xml$//event[@name=\"NEBULA_LIGHT_DYNASTY_OCCUPIED\"]/choice[1]/event/choice[2]/event/choice[2]/text"
 msgstr "Доложить о фантомах оккупационным войскам."
 
-#: src-en/data/events_sector_dynasty.xml:1225
+#: src-en/data/events_sector_dynasty.xml:1297
 msgid ""
-"data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_OCCUPIED\"]/choice[1]/event/choice[2]/event/choice[2]/event/text"
+"data/events_sector_dynasty.xml$//event[@name=\"NEBULA_LIGHT_DYNASTY_OCCUPIED\"]/choice[1]/event/choice[2]/event/choice[2]/event/text"
 msgstr ""
 "Хотя, если поначалу вы были настроены враждебно, то, как только вам удалось "
 "поговорить с Вестниками Заката, они кажутся вполне доброжелательными, хотя и"
@@ -1787,34 +1914,34 @@ msgstr ""
 " За ваши хлопоты и чистую душу, я думаю, мы сможем предложить вам какое-"
 "нибудь вознаграждение\"."
 
-#: src-en/data/events_sector_dynasty.xml:1230
+#: src-en/data/events_sector_dynasty.xml:1302
 msgid ""
-"data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_OCCUPIED\"]/choice[1]/event/choice[2]/event/choice[3]/text"
+"data/events_sector_dynasty.xml$//event[@name=\"NEBULA_LIGHT_DYNASTY_OCCUPIED\"]/choice[1]/event/choice[2]/event/choice[3]/text"
 msgstr "Не обращать внимания на фантомов и уйти."
 
-#: src-en/data/events_sector_dynasty.xml:1238
+#: src-en/data/events_sector_dynasty.xml:1310
 msgid ""
-"data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_OCCUPIED\"]/choice[2]/text"
+"data/events_sector_dynasty.xml$//event[@name=\"NEBULA_LIGHT_DYNASTY_OCCUPIED\"]/choice[2]/text"
 msgstr "Избегать колонии."
 
-#: src-en/data/events_sector_dynasty.xml:1240
+#: src-en/data/events_sector_dynasty.xml:1312
 msgid ""
-"data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_OCCUPIED\"]/choice[2]/event/text"
+"data/events_sector_dynasty.xml$//event[@name=\"NEBULA_LIGHT_DYNASTY_OCCUPIED\"]/choice[2]/event/text"
 msgstr ""
 "По какой бы причине Вестники Заката не оказались в пространстве Династии, вы"
 " не хотите принимать в этом никакого участия."
 
-#: src-en/data/events_sector_dynasty.xml:1242
+#: src-en/data/events_sector_dynasty.xml:1314
 msgid ""
-"data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_OCCUPIED\"]/choice[2]/event/choice[1]/text"
+"data/events_sector_dynasty.xml$//event[@name=\"NEBULA_LIGHT_DYNASTY_OCCUPIED\"]/choice[2]/event/choice[1]/text"
 msgstr "Заняться чем-либо на корабле."
 
-#: src-en/data/events_sector_dynasty.xml:1246
+#: src-en/data/events_sector_dynasty.xml:1318
 msgid ""
-"data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_OCCUPIED\"]/choice[2]/event/choice[2]/text"
+"data/events_sector_dynasty.xml$//event[@name=\"NEBULA_LIGHT_DYNASTY_OCCUPIED\"]/choice[2]/event/choice[2]/text"
 msgstr "Ничего не делать."
 
-#: src-en/data/events_sector_dynasty.xml:1253
+#: src-en/data/events_sector_dynasty.xml:1325
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"DYNASTY_OCCUPIED_GHOSTS\"]/text"
 msgstr ""
@@ -1829,12 +1956,12 @@ msgstr ""
 "предков. Пожалуйста, прими одного из наших лучших солдат. Он будет служить "
 "тебе верой и правдой\"."
 
-#: src-en/data/events_sector_dynasty.xml:1254
+#: src-en/data/events_sector_dynasty.xml:1326
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"DYNASTY_OCCUPIED_GHOSTS\"]/crewMember"
 msgstr "Дисмадиус"
 
-#: src-en/data/events_sector_dynasty.xml:1257
+#: src-en/data/events_sector_dynasty.xml:1329
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"DYNASTY_OCCUPIED_DUSK\"]/text"
 msgstr ""
@@ -1847,7 +1974,7 @@ msgstr ""
 "обратитесь Вестникам Заката, хорошо? Мы не дураки, мы можем сотрудничать с "
 "низшими существами, если они лояльны. А теперь, ваша компенсация\"."
 
-#: src-en/data/events_sector_dynasty.xml:1274
+#: src-en/data/events_sector_dynasty.xml:1346
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DISTRESS_DYNASTY_MONSTER\"]/text"
 msgstr ""
@@ -1856,12 +1983,12 @@ msgstr ""
 "пытается вычленить что-то различимое из чистого шума. \"Осторожно! Выгоните "
 "духов из этого места и уединитесь в безопасности, которую здесь не найти\"."
 
-#: src-en/data/events_sector_dynasty.xml:1277
+#: src-en/data/events_sector_dynasty.xml:1349
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DISTRESS_DYNASTY_MONSTER\"]/choice[1]/text"
 msgstr "Обратиться к одной из станций."
 
-#: src-en/data/events_sector_dynasty.xml:1279
+#: src-en/data/events_sector_dynasty.xml:1351
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DISTRESS_DYNASTY_MONSTER\"]/choice[1]/event/text"
 msgstr ""
@@ -1871,12 +1998,12 @@ msgstr ""
 " воспользуйтесь случаем, чтобы сбежать. Вы не будете трусом, если сделаете "
 "это...\""
 
-#: src-en/data/events_sector_dynasty.xml:1281
+#: src-en/data/events_sector_dynasty.xml:1353
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DISTRESS_DYNASTY_MONSTER\"]/choice[1]/event/choice/text"
 msgstr "Что за демон?"
 
-#: src-en/data/events_sector_dynasty.xml:1283
+#: src-en/data/events_sector_dynasty.xml:1355
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DISTRESS_DYNASTY_MONSTER\"]/choice[1]/event/choice/event/text"
 msgstr ""
@@ -1884,12 +2011,12 @@ msgstr ""
 "уничтожает наши запасы! Бегите, бегите, ибо он настигнет и вас, если вы "
 "останетесь!\""
 
-#: src-en/data/events_sector_dynasty.xml:1285
+#: src-en/data/events_sector_dynasty.xml:1357
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DISTRESS_DYNASTY_MONSTER\"]/choice[1]/event/choice/event/choice[1]/text"
 msgstr "Мы поможем! Сразиться с ужасным демоном."
 
-#: src-en/data/events_sector_dynasty.xml:1287
+#: src-en/data/events_sector_dynasty.xml:1359
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DISTRESS_DYNASTY_MONSTER\"]/choice[1]/event/choice/event/choice[1]/event/text"
 msgstr ""
@@ -1897,39 +2024,39 @@ msgstr ""
 "ждет чудовищный корабль. Наконец, вы видите его... и это совсем не то, что "
 "вы ожидали."
 
-#: src-en/data/events_sector_dynasty.xml:1290
+#: src-en/data/events_sector_dynasty.xml:1362
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DISTRESS_DYNASTY_MONSTER\"]/choice[1]/event/choice/event/choice[1]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_dynasty.xml:1296
+#: src-en/data/events_sector_dynasty.xml:1368
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DISTRESS_DYNASTY_MONSTER\"]/choice[1]/event/choice/event/choice[2]/text"
 msgstr "Мы должны уйти."
 
-#: src-en/data/events_sector_dynasty.xml:1304
+#: src-en/data/events_sector_dynasty.xml:1376
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DISTRESS_DYNASTY_MONSTER\"]/choice[2]/text"
 msgstr "Прислушаться к этому предупреждению и уйти."
 
-#: src-en/data/events_sector_dynasty.xml:1306
+#: src-en/data/events_sector_dynasty.xml:1378
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DISTRESS_DYNASTY_MONSTER\"]/choice[2]/event/text"
 msgstr ""
 "Похоже, что здесь происходит что-то нехорошее - остается только поджать "
 "хвост и бежать."
 
-#: src-en/data/events_sector_dynasty.xml:1308
+#: src-en/data/events_sector_dynasty.xml:1380
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DISTRESS_DYNASTY_MONSTER\"]/choice[2]/event/choice[1]/text"
 msgstr "Заняться чем-либо на корабле."
 
-#: src-en/data/events_sector_dynasty.xml:1312
+#: src-en/data/events_sector_dynasty.xml:1384
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DISTRESS_DYNASTY_MONSTER\"]/choice[2]/event/choice[2]/text"
 msgstr "Ничего не делать."
 
-#: src-en/data/events_sector_dynasty.xml:1321
+#: src-en/data/events_sector_dynasty.xml:1393
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DISTRESS_DYNASTY_ENGINEER\"]/text"
 msgstr ""
@@ -1937,12 +2064,12 @@ msgstr ""
 "Экипажа нигде нет, но есть следы борьбы, а в воздухе витает гнилостный запах"
 " призраков."
 
-#: src-en/data/events_sector_dynasty.xml:1324
+#: src-en/data/events_sector_dynasty.xml:1396
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DISTRESS_DYNASTY_ENGINEER\"]/choice[1]/text"
 msgstr "Попробовать разыскать инженеров."
 
-#: src-en/data/events_sector_dynasty.xml:1326
+#: src-en/data/events_sector_dynasty.xml:1398
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DISTRESS_DYNASTY_ENGINEER\"]/choice[1]/event/text"
 msgstr ""
@@ -1952,12 +2079,12 @@ msgstr ""
 "наэлектризованным лезвием. Он замечает вас и бросает на вас полный мольбы "
 "взгляд, безмолвно умоляя помочь ему."
 
-#: src-en/data/events_sector_dynasty.xml:1329
+#: src-en/data/events_sector_dynasty.xml:1401
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DISTRESS_DYNASTY_ENGINEER\"]/choice[1]/event/choice[1]/text"
 msgstr "Оказать помощь инженеру."
 
-#: src-en/data/events_sector_dynasty.xml:1331
+#: src-en/data/events_sector_dynasty.xml:1403
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DISTRESS_DYNASTY_ENGINEER\"]/choice[1]/event/choice[1]/event/text"
 msgstr ""
@@ -1965,39 +2092,39 @@ msgstr ""
 "затем в саму машину для казни. Вы выбегаете из комнаты вслед за раненым "
 "инженером, а навстречу вам бросаются разъяренные призраки!"
 
-#: src-en/data/events_sector_dynasty.xml:1335
+#: src-en/data/events_sector_dynasty.xml:1407
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DISTRESS_DYNASTY_ENGINEER\"]/choice[1]/event/choice[1]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_dynasty.xml:1341
+#: src-en/data/events_sector_dynasty.xml:1413
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DISTRESS_DYNASTY_ENGINEER\"]/choice[1]/event/choice[2]/text"
 msgstr "Мы не помогаем повстанцам. Уходим."
 
-#: src-en/data/events_sector_dynasty.xml:1347
+#: src-en/data/events_sector_dynasty.xml:1419
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DISTRESS_DYNASTY_ENGINEER\"]/choice[2]/text"
 msgstr "Соблюдать осторожность и держаться подальше, чтобы разобрать корабль."
 
-#: src-en/data/events_sector_dynasty.xml:1349
+#: src-en/data/events_sector_dynasty.xml:1421
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DISTRESS_DYNASTY_ENGINEER\"]/choice[2]/event/text"
 msgstr ""
 "Никому не мешая, вы разбираете корпус судна инженеров и поднимаете его на "
 "борт."
 
-#: src-en/data/events_sector_dynasty.xml:1352
+#: src-en/data/events_sector_dynasty.xml:1424
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DISTRESS_DYNASTY_ENGINEER\"]/choice[2]/event/choice[1]/text"
 msgstr "Заняться чем-либо на корабле."
 
-#: src-en/data/events_sector_dynasty.xml:1356
+#: src-en/data/events_sector_dynasty.xml:1428
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DISTRESS_DYNASTY_ENGINEER\"]/choice[2]/event/choice[2]/text"
 msgstr "Ничего не делать."
 
-#: src-en/data/events_sector_dynasty.xml:1364
+#: src-en/data/events_sector_dynasty.xml:1436
 msgid ""
 "data/events_sector_dynasty.xml$//eventList[@name=\"DYNASTY_ENGINEER_REWARD\"]/event[1]/text"
 msgstr ""
@@ -2006,7 +2133,7 @@ msgstr ""
 "говорит мне, что я должен пристрелить тебя прямо сейчас... но я чувствую, "
 "что эта выучка неправильная\"."
 
-#: src-en/data/events_sector_dynasty.xml:1368
+#: src-en/data/events_sector_dynasty.xml:1440
 msgid ""
 "data/events_sector_dynasty.xml$//eventList[@name=\"DYNASTY_ENGINEER_REWARD\"]/event[2]/text"
 msgstr ""
@@ -2015,7 +2142,7 @@ msgstr ""
 "говорит мне, что я должен пристрелить тебя прямо сейчас... но я чувствую, "
 "что эта выучка неправильная\"."
 
-#: src-en/data/events_sector_dynasty.xml:1382
+#: src-en/data/events_sector_dynasty.xml:1454
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DISTRESS_DYNASTY_GRANDFATHER\"]/text"
 msgstr ""
@@ -2025,17 +2152,17 @@ msgstr ""
 "обращаюсь к вам, чтобы вы дали мне передышку от постоянных издевательств, "
 "которым я подвергаюсь\"."
 
-#: src-en/data/events_sector_dynasty.xml:1385
+#: src-en/data/events_sector_dynasty.xml:1457
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DISTRESS_DYNASTY_GRANDFATHER\"]/choice[1]/text"
 msgstr "Я вам верю."
 
-#: src-en/data/events_sector_dynasty.xml:1389
+#: src-en/data/events_sector_dynasty.xml:1461
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DISTRESS_DYNASTY_GRANDFATHER\"]/choice[@req=\"LIST_CREW_SLUG\"]/text"
 msgstr "(Член экипажа-слизень) Проверить мысли призрака."
 
-#: src-en/data/events_sector_dynasty.xml:1391
+#: src-en/data/events_sector_dynasty.xml:1463
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DISTRESS_DYNASTY_GRANDFATHER\"]/choice[@req=\"LIST_CREW_SLUG\"]/event/text"
 msgstr ""
@@ -2043,91 +2170,91 @@ msgstr ""
 "Дессссиуссса. Тем не менее, похоже, он сссам в это иссскренне верит. "
 "Уморительно груссстно\"."
 
-#: src-en/data/events_sector_dynasty.xml:1393
+#: src-en/data/events_sector_dynasty.xml:1465
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DISTRESS_DYNASTY_GRANDFATHER\"]/choice[@req=\"LIST_CREW_SLUG\"]/event/choice[1]/text"
 msgstr "Сказать альфе, что вы ему верите."
 
-#: src-en/data/events_sector_dynasty.xml:1397
+#: src-en/data/events_sector_dynasty.xml:1469
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DISTRESS_DYNASTY_GRANDFATHER\"]/choice[@req=\"LIST_CREW_SLUG\"]/event/choice[2]/text"
 msgstr "Попробовать объяснить ему, что так быть не может."
 
-#: src-en/data/events_sector_dynasty.xml:1399
+#: src-en/data/events_sector_dynasty.xml:1471
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DISTRESS_DYNASTY_GRANDFATHER\"]/choice[@req=\"LIST_CREW_SLUG\"]/event/choice[2]/event/text"
 msgstr "\"Вы меня допрашиваете? Я в гневе!\" Призрак внезапно атакует!"
 
-#: src-en/data/events_sector_dynasty.xml:1402
+#: src-en/data/events_sector_dynasty.xml:1474
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DISTRESS_DYNASTY_GRANDFATHER\"]/choice[@req=\"LIST_CREW_SLUG\"]/event/choice[2]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_dynasty.xml:1410
+#: src-en/data/events_sector_dynasty.xml:1482
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DISTRESS_DYNASTY_GRANDFATHER\"]/choice[@req=\"BLUELIST_CREW_SNAIL\"]/text"
-msgstr "(Ракушка-Телепат) Проверить мысли призрака."
+msgstr "(Член экипажа-ракушка-телепат) Проверить мысли призрака."
 
-#: src-en/data/events_sector_dynasty.xml:1412
+#: src-en/data/events_sector_dynasty.xml:1484
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DISTRESS_DYNASTY_GRANDFATHER\"]/choice[@req=\"BLUELIST_CREW_SNAIL\"]/event/text"
 msgstr ""
 "\"Очшевидно, чшто он не является дедом этого мнимого Дессиуса. Тем не менее,"
 " он, похоже, сам в это ИСКРЕННЕ верит. Уморительно грустно\"."
 
-#: src-en/data/events_sector_dynasty.xml:1414
+#: src-en/data/events_sector_dynasty.xml:1486
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DISTRESS_DYNASTY_GRANDFATHER\"]/choice[@req=\"BLUELIST_CREW_SNAIL\"]/event/choice[1]/text"
 msgstr "Сказать альфе, что вы ему верите."
 
-#: src-en/data/events_sector_dynasty.xml:1418
+#: src-en/data/events_sector_dynasty.xml:1490
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DISTRESS_DYNASTY_GRANDFATHER\"]/choice[@req=\"BLUELIST_CREW_SNAIL\"]/event/choice[2]/text"
 msgstr "Попробовать объяснить ему, что так быть не может."
 
-#: src-en/data/events_sector_dynasty.xml:1420
+#: src-en/data/events_sector_dynasty.xml:1492
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DISTRESS_DYNASTY_GRANDFATHER\"]/choice[@req=\"BLUELIST_CREW_SNAIL\"]/event/choice[2]/event/text"
 msgstr "\"Вы меня допрашиваете? Я в гневе!\" Призрак внезапно атакует!"
 
-#: src-en/data/events_sector_dynasty.xml:1423
+#: src-en/data/events_sector_dynasty.xml:1495
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DISTRESS_DYNASTY_GRANDFATHER\"]/choice[@req=\"BLUELIST_CREW_SNAIL\"]/event/choice[2]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_dynasty.xml:1431
+#: src-en/data/events_sector_dynasty.xml:1503
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DISTRESS_DYNASTY_GRANDFATHER\"]/choice[4]/text"
 msgstr "Если вы его дедушка, то почему вы до сих пор не главный?"
 
-#: src-en/data/events_sector_dynasty.xml:1433
+#: src-en/data/events_sector_dynasty.xml:1505
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DISTRESS_DYNASTY_GRANDFATHER\"]/choice[4]/event/text"
 msgstr "\"Вы меня допрашиваете? Я в гневе!\" Призрак внезапно атакует!"
 
-#: src-en/data/events_sector_dynasty.xml:1436
+#: src-en/data/events_sector_dynasty.xml:1508
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DISTRESS_DYNASTY_GRANDFATHER\"]/choice[4]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_dynasty.xml:1442
+#: src-en/data/events_sector_dynasty.xml:1514
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DISTRESS_DYNASTY_GRANDFATHER\"]/choice[@req=\"unique_dessius\"]/text"
 msgstr "(Дессиуc) \"Ты не мой дед\"."
 
-#: src-en/data/events_sector_dynasty.xml:1444
+#: src-en/data/events_sector_dynasty.xml:1516
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DISTRESS_DYNASTY_GRANDFATHER\"]/choice[@req=\"unique_dessius\"]/event/text"
 msgstr ""
 "\"Ха-ха-ха! Тогда я готов поспорить, что ты самозванец, а не Дессиус! Не лги"
 " мне!\" Корабль внезапно атакует!"
 
-#: src-en/data/events_sector_dynasty.xml:1447
+#: src-en/data/events_sector_dynasty.xml:1519
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DISTRESS_DYNASTY_GRANDFATHER\"]/choice[@req=\"unique_dessius\"]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_dynasty.xml:1454
+#: src-en/data/events_sector_dynasty.xml:1526
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"DYNASTY_GRANDFATHER_BELIEVE\"]/text"
 msgstr ""
@@ -2137,12 +2264,12 @@ msgstr ""
 "Позаботьтесь о том, чтобы он погиб, и я присоединюсь к вашей команде. Для "
 "вас должно быть честью даже получить такой шанс\"."
 
-#: src-en/data/events_sector_dynasty.xml:1456
+#: src-en/data/events_sector_dynasty.xml:1528
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"DYNASTY_GRANDFATHER_BELIEVE\"]/choice[1]/text"
 msgstr "Согласиться."
 
-#: src-en/data/events_sector_dynasty.xml:1458
+#: src-en/data/events_sector_dynasty.xml:1530
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"DYNASTY_GRANDFATHER_BELIEVE\"]/choice[1]/event/text"
 msgstr ""
@@ -2150,36 +2277,36 @@ msgstr ""
 "меня раздражать. Не знал, что в Федерации работают сочувствующие этому "
 "засранцу, дышащие!\""
 
-#: src-en/data/events_sector_dynasty.xml:1461
+#: src-en/data/events_sector_dynasty.xml:1533
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"DYNASTY_GRANDFATHER_BELIEVE\"]/choice[1]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_dynasty.xml:1467
+#: src-en/data/events_sector_dynasty.xml:1539
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"DYNASTY_GRANDFATHER_BELIEVE\"]/choice[2]/text"
 msgstr "Отказаться."
 
-#: src-en/data/events_sector_dynasty.xml:1469
+#: src-en/data/events_sector_dynasty.xml:1541
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"DYNASTY_GRANDFATHER_BELIEVE\"]/choice[2]/event/text"
 msgstr "\"Хмм. Тогда с глаз долой, дышащие!\""
 
-#: src-en/data/events_sector_dynasty.xml:1502
+#: src-en/data/events_sector_dynasty.xml:1574
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_ENCOUNTER_DYNASTY\"]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_dynasty.xml:1507
+#: src-en/data/events_sector_dynasty.xml:1579
 msgid ""
 "data/events_sector_dynasty.xml$//textList[@name=\"NEBULA_DYNASTY_FIGHT\"]/text[1]"
 msgstr ""
 "Странно, что Династия так агрессивна, особенно когда отделившиеся от нее "
 "бродяги-призраки ведут себя гораздо более сдержанно. Хотя, возможно, именно "
-"поэтому они и отделились. Но об этом надо будет подумать позже, ведь корабль"
-" Династии уже на подходе!"
+"поэтому они и отделились. Вам придется подумать об этом позже, так как к вам"
+" приближается корабль Династии!"
 
-#: src-en/data/events_sector_dynasty.xml:1508
+#: src-en/data/events_sector_dynasty.xml:1580
 msgid ""
 "data/events_sector_dynasty.xml$//textList[@name=\"NEBULA_DYNASTY_FIGHT\"]/text[2]"
 msgstr ""
@@ -2187,14 +2314,14 @@ msgstr ""
 "Династии устремляется вперед, его капитан смеряет взглядом ваши орудия, "
 "прежде чем корабль начинает атаку!"
 
-#: src-en/data/events_sector_dynasty.xml:1509
+#: src-en/data/events_sector_dynasty.xml:1581
 msgid ""
 "data/events_sector_dynasty.xml$//textList[@name=\"NEBULA_DYNASTY_FIGHT\"]/text[3]"
 msgstr ""
 "По радио передается беспорядочное сообщение. \"Орудия. Они принадлежат мне. "
 "ДАЙТЕ!\" Корабль Династии появляется неподалеку, оружие заряжено!"
 
-#: src-en/data/events_sector_dynasty.xml:1510
+#: src-en/data/events_sector_dynasty.xml:1582
 msgid ""
 "data/events_sector_dynasty.xml$//textList[@name=\"NEBULA_DYNASTY_FIGHT\"]/text[4]"
 msgstr ""
@@ -2202,7 +2329,7 @@ msgstr ""
 "необычайно враждебны и жестоки. Наглядным примером этого является грозно "
 "приближающийся к вам корабль."
 
-#: src-en/data/events_sector_dynasty.xml:1511
+#: src-en/data/events_sector_dynasty.xml:1583
 msgid ""
 "data/events_sector_dynasty.xml$//textList[@name=\"NEBULA_DYNASTY_FIGHT\"]/text[5]"
 msgstr ""
@@ -2210,7 +2337,7 @@ msgstr ""
 "появляется фиолетовый корабль. Похоже, это призраки... и они не выглядят "
 "дружелюбными!"
 
-#: src-en/data/events_sector_dynasty.xml:1512
+#: src-en/data/events_sector_dynasty.xml:1584
 msgid ""
 "data/events_sector_dynasty.xml$//textList[@name=\"NEBULA_DYNASTY_FIGHT\"]/text[6]"
 msgstr ""
@@ -2219,7 +2346,7 @@ msgstr ""
 "в обморок прямо на месте, но вы знаете, что делать. Это не какой-то демон, "
 "это гораздо более реальная угроза. К нам приближается корабль Династии!"
 
-#: src-en/data/events_sector_dynasty.xml:1513
+#: src-en/data/events_sector_dynasty.xml:1585
 msgid ""
 "data/events_sector_dynasty.xml$//textList[@name=\"NEBULA_DYNASTY_FIGHT\"]/text[7]"
 msgstr ""
@@ -2228,7 +2355,7 @@ msgstr ""
 "гибелью! На благо Династии!\" Рядом появляется корабль призраков, оружие "
 "заряжено и уже стреляет!"
 
-#: src-en/data/events_sector_dynasty.xml:1514
+#: src-en/data/events_sector_dynasty.xml:1586
 msgid ""
 "data/events_sector_dynasty.xml$//textList[@name=\"NEBULA_DYNASTY_FIGHT\"]/text[8]"
 msgstr ""
@@ -2237,7 +2364,7 @@ msgstr ""
 "приближающегося корабля Династии. Вы - демон? Вы не уверены, но у вас не "
 "будет времени спрашивать!"
 
-#: src-en/data/events_sector_dynasty.xml:1515
+#: src-en/data/events_sector_dynasty.xml:1587
 msgid ""
 "data/events_sector_dynasty.xml$//textList[@name=\"NEBULA_DYNASTY_FIGHT\"]/text[9]"
 msgstr ""
@@ -2246,7 +2373,7 @@ msgstr ""
 "о Династии, из туманности, словно по зову, вылетает корабль. Черт знает "
 "что..."
 
-#: src-en/data/events_sector_dynasty.xml:1516
+#: src-en/data/events_sector_dynasty.xml:1588
 msgid ""
 "data/events_sector_dynasty.xml$//textList[@name=\"NEBULA_DYNASTY_FIGHT\"]/text[10]"
 msgstr ""
@@ -2255,12 +2382,12 @@ msgstr ""
 "какая мерзость. У меня внутри все сворачивается от злости. Я обрушу ад на "
 "вас, мерзавцы!\""
 
-#: src-en/data/events_sector_dynasty.xml:1524
+#: src-en/data/events_sector_dynasty.xml:1596
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_ENCOUNTER_VAGABOND_DYNASTY\"]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_dynasty.xml:1529
+#: src-en/data/events_sector_dynasty.xml:1601
 msgid ""
 "data/events_sector_dynasty.xml$//textList[@name=\"NEBULA_VAGABOND_DYNASTY_FIGHT\"]/text[1]"
 msgstr ""
@@ -2268,14 +2395,14 @@ msgstr ""
 "Этот корабль должен быть в отчаянии - настолько в отчаянии, чтобы напасть на"
 " вас!"
 
-#: src-en/data/events_sector_dynasty.xml:1530
+#: src-en/data/events_sector_dynasty.xml:1602
 msgid ""
 "data/events_sector_dynasty.xml$//textList[@name=\"NEBULA_VAGABOND_DYNASTY_FIGHT\"]/text[2]"
 msgstr ""
 "Похоже, что от голодных до металлолома бродяг не уберечься даже в "
 "пространстве Династии, где их так стараются отгонять. Приготовьтесь к бою."
 
-#: src-en/data/events_sector_dynasty.xml:1531
+#: src-en/data/events_sector_dynasty.xml:1603
 msgid ""
 "data/events_sector_dynasty.xml$//textList[@name=\"NEBULA_VAGABOND_DYNASTY_FIGHT\"]/text[3]"
 msgstr ""
@@ -2283,7 +2410,7 @@ msgstr ""
 "вами. \"В моем сердце живет жажда нового корабля... этот износился и не "
 "выполняет своих функций...\" Призраки атакуют!"
 
-#: src-en/data/events_sector_dynasty.xml:1532
+#: src-en/data/events_sector_dynasty.xml:1604
 msgid ""
 "data/events_sector_dynasty.xml$//textList[@name=\"NEBULA_VAGABOND_DYNASTY_FIGHT\"]/text[4]"
 msgstr ""
@@ -2291,56 +2418,56 @@ msgstr ""
 " на стороне Династии, да? О, зачем я спрашиваю. Риск того не стоит, я просто"
 " уберу тебя со своего пути\"."
 
-#: src-en/data/events_sector_dynasty.xml:1540
+#: src-en/data/events_sector_dynasty.xml:1612
 msgid ""
-"data/events_sector_dynasty.xml$//event[@name=\"NEBULA_ENCOUNTER_REBEL_DYNASTY\"]/choice/text"
+"data/events_sector_dynasty.xml$//event[@name=\"NEBULA_ENCOUNTER_ENGINEER_DYNASTY\"]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_dynasty.xml:1545
+#: src-en/data/events_sector_dynasty.xml:1617
 msgid ""
-"data/events_sector_dynasty.xml$//textList[@name=\"NEBULA_REBEL_DYNASTY_FIGHT\"]/text[1]"
+"data/events_sector_dynasty.xml$//textList[@name=\"NEBULA_ENGINEER_DYNASTY_FIGHT\"]/text[1]"
 msgstr ""
 "Обычно корабли повстанцев, которые вы ожидаете увидеть здесь - "
 "автоматические, но не удивительно увидеть здесь и инженеров. К сожалению, "
 "они не менее дружелюбны!"
 
-#: src-en/data/events_sector_dynasty.xml:1546
+#: src-en/data/events_sector_dynasty.xml:1618
 msgid ""
-"data/events_sector_dynasty.xml$//textList[@name=\"NEBULA_REBEL_DYNASTY_FIGHT\"]/text[2]"
+"data/events_sector_dynasty.xml$//textList[@name=\"NEBULA_ENGINEER_DYNASTY_FIGHT\"]/text[2]"
 msgstr ""
 "\"Ты пришел сюда только для того, чтобы усложнить мою чертову работу, не так"
 " ли? Проваливай!\" Очень нервный корабль инженеров разворачивается, чтобы "
 "атаковать вас!"
 
-#: src-en/data/events_sector_dynasty.xml:1547
+#: src-en/data/events_sector_dynasty.xml:1619
 msgid ""
-"data/events_sector_dynasty.xml$//textList[@name=\"NEBULA_REBEL_DYNASTY_FIGHT\"]/text[3]"
+"data/events_sector_dynasty.xml$//textList[@name=\"NEBULA_ENGINEER_DYNASTY_FIGHT\"]/text[3]"
 msgstr ""
 "После долгого дня работы над постоянно повреждаемыми автоматическими "
 "кораблями, которые они строят, неудивительно, что инженеры чувствуют "
 "потребность выпустить пар. Увы, похоже, что вы - их следующая цель!"
 
-#: src-en/data/events_sector_dynasty.xml:1548
+#: src-en/data/events_sector_dynasty.xml:1620
 msgid ""
-"data/events_sector_dynasty.xml$//textList[@name=\"NEBULA_REBEL_DYNASTY_FIGHT\"]/text[4]"
+"data/events_sector_dynasty.xml$//textList[@name=\"NEBULA_ENGINEER_DYNASTY_FIGHT\"]/text[4]"
 msgstr ""
 "\"Да ладно! Я даже не закончил свой обеденный перерыв! Ты выбрал "
 "неподходящее время, чтобы испортить мне день, придурок!\" Враги "
 "приближаются!"
 
-#: src-en/data/events_sector_dynasty.xml:1549
+#: src-en/data/events_sector_dynasty.xml:1621
 msgid ""
-"data/events_sector_dynasty.xml$//textList[@name=\"NEBULA_REBEL_DYNASTY_FIGHT\"]/text[5]"
+"data/events_sector_dynasty.xml$//textList[@name=\"NEBULA_ENGINEER_DYNASTY_FIGHT\"]/text[5]"
 msgstr ""
 "Может ли это быть? Корабль повстанцев? Ваши глаза не обманывают вас - это не"
 " обычные повстанцы. Это инженеры, но они не менее смертоносны!"
 
-#: src-en/data/events_sector_dynasty.xml:1557
+#: src-en/data/events_sector_dynasty.xml:1629
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_ENCOUNTER_AUTO_DYNASTY\"]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_dynasty.xml:1562
+#: src-en/data/events_sector_dynasty.xml:1634
 msgid ""
 "data/events_sector_dynasty.xml$//textList[@name=\"NEBULA_AUTO_DYNASTY_FIGHT\"]/text[1]"
 msgstr ""
@@ -2349,7 +2476,7 @@ msgstr ""
 "Вэнс одобрил это - остается загадкой, но для вас это, надеюсь, лишь "
 "незначительное неудобство."
 
-#: src-en/data/events_sector_dynasty.xml:1563
+#: src-en/data/events_sector_dynasty.xml:1635
 msgid ""
 "data/events_sector_dynasty.xml$//textList[@name=\"NEBULA_AUTO_DYNASTY_FIGHT\"]/text[2]"
 msgstr ""
@@ -2357,7 +2484,7 @@ msgstr ""
 "Близлежащий автоматический корабль повстанцев внезапно активируется и "
 "атакует!"
 
-#: src-en/data/events_sector_dynasty.xml:1564
+#: src-en/data/events_sector_dynasty.xml:1636
 msgid ""
 "data/events_sector_dynasty.xml$//textList[@name=\"NEBULA_AUTO_DYNASTY_FIGHT\"]/text[3]"
 msgstr ""
@@ -2365,7 +2492,7 @@ msgstr ""
 "автоматических кораблей, снующих в туманности. Вы стараетесь избегать их, "
 "но, к сожалению, похоже, что один из них заметил вас и атакует!"
 
-#: src-en/data/events_sector_dynasty.xml:1565
+#: src-en/data/events_sector_dynasty.xml:1637
 msgid ""
 "data/events_sector_dynasty.xml$//textList[@name=\"NEBULA_AUTO_DYNASTY_FIGHT\"]/text[4]"
 msgstr ""
@@ -2373,7 +2500,7 @@ msgstr ""
 " но уже слишком поздно, чтобы убежать, пока он не заметил вас и не начал "
 "атаку!"
 
-#: src-en/data/events_sector_dynasty.xml:1566
+#: src-en/data/events_sector_dynasty.xml:1638
 msgid ""
 "data/events_sector_dynasty.xml$//textList[@name=\"NEBULA_AUTO_DYNASTY_FIGHT\"]/text[5]"
 msgstr ""
@@ -2381,7 +2508,7 @@ msgstr ""
 "находящихся в постоянном их распоряжении. Похоже, вам предстоит позаботиться"
 " еще об одном корабле, прежде чем вы сможете продолжить путь."
 
-#: src-en/data/events_sector_dynasty.xml:1567
+#: src-en/data/events_sector_dynasty.xml:1639
 msgid ""
 "data/events_sector_dynasty.xml$//textList[@name=\"NEBULA_AUTO_DYNASTY_FIGHT\"]/text[6]"
 msgstr ""
@@ -2389,12 +2516,12 @@ msgstr ""
 "автоматических кораблей. Но не успеваете вы похвастаться, как на вашем пути "
 "появляется еще один корабль."
 
-#: src-en/data/events_sector_dynasty.xml:1575
+#: src-en/data/events_sector_dynasty.xml:1647
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_ENCOUNTER_DYNASTY_HOSTAGE\"]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_dynasty.xml:1580
+#: src-en/data/events_sector_dynasty.xml:1652
 msgid ""
 "data/events_sector_dynasty.xml$//textList[@name=\"NEBULA_DYNASTY_HOSTAGE\"]/text[1]"
 msgstr ""
@@ -2403,7 +2530,7 @@ msgstr ""
 "Династии атакует, как только вы появляетесь. За ними - неопознанный корабль,"
 " который они, должно быть, пытались допросить до этого!"
 
-#: src-en/data/events_sector_dynasty.xml:1581
+#: src-en/data/events_sector_dynasty.xml:1653
 msgid ""
 "data/events_sector_dynasty.xml$//textList[@name=\"NEBULA_DYNASTY_HOSTAGE\"]/text[2]"
 msgstr ""
@@ -2412,7 +2539,7 @@ msgstr ""
 "капитана призраков слышится волнение. Однако как только вы входите в "
 "систему, его внимание сосредотачивается на вас!"
 
-#: src-en/data/events_sector_dynasty.xml:1582
+#: src-en/data/events_sector_dynasty.xml:1654
 msgid ""
 "data/events_sector_dynasty.xml$//textList[@name=\"NEBULA_DYNASTY_HOSTAGE\"]/text[3]"
 msgstr ""
@@ -2420,7 +2547,7 @@ msgstr ""
 "а другой Династии. Корабль Династии, похоже, не хочет, чтобы вы тут "
 "находились, потому что он атакует почти сразу!"
 
-#: src-en/data/events_sector_dynasty.xml:1586
+#: src-en/data/events_sector_dynasty.xml:1658
 msgid ""
 "data/events_sector_dynasty.xml$//eventList[@name=\"ENCOUNTER_DYNASTY_HOSTAGE_REWARD\"]/event[1]/text"
 msgstr ""
@@ -2429,14 +2556,14 @@ msgstr ""
 "возможно, было бы безопаснее наоборот. Мой корабль разрушен. Думаю, я пойду "
 "с вами\"."
 
-#: src-en/data/events_sector_dynasty.xml:1590
+#: src-en/data/events_sector_dynasty.xml:1662
 msgid ""
 "data/events_sector_dynasty.xml$//eventList[@name=\"ENCOUNTER_DYNASTY_HOSTAGE_REWARD\"]/event[2]/text"
 msgstr ""
 "Похоже, что корабль был не более чем поврежденным автоматическим судном. "
 "Если ремонт невозможен, его лучше просто разобрать на металлолом."
 
-#: src-en/data/events_sector_dynasty.xml:1594
+#: src-en/data/events_sector_dynasty.xml:1666
 msgid ""
 "data/events_sector_dynasty.xml$//eventList[@name=\"ENCOUNTER_DYNASTY_HOSTAGE_REWARD\"]/event[3]/text"
 msgstr ""
@@ -2444,7 +2571,7 @@ msgstr ""
 "сурово, но вам ясно, что они благодарны. Нетрудно убедить их солгать флоту о"
 " вашем местонахождении."
 
-#: src-en/data/events_sector_dynasty.xml:1607
+#: src-en/data/events_sector_dynasty.xml:1679
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_ENCOUNTER_DYNASTY_ELITE\"]/text"
 msgstr ""
@@ -2452,12 +2579,12 @@ msgstr ""
 "это говорит о многом для этих избранных, которых назначают руководить "
 "высшими делами Династии. Судя по всему, вы относитесь к таковым!"
 
-#: src-en/data/events_sector_dynasty.xml:1611
+#: src-en/data/events_sector_dynasty.xml:1683
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_ENCOUNTER_DYNASTY_ELITE\"]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_dynasty.xml:1626
+#: src-en/data/events_sector_dynasty.xml:1698
 msgid ""
 "data/events_sector_dynasty.xml$//textList[@name=\"TEXT_DYNASTY_OUTPOST\"]/text[1]"
 msgstr ""
@@ -2465,7 +2592,7 @@ msgstr ""
 "настолько внимательно, что они установили здесь передовую станцию. Может "
 "быть, там есть данные, которые представляют для вас ценность?"
 
-#: src-en/data/events_sector_dynasty.xml:1627
+#: src-en/data/events_sector_dynasty.xml:1699
 msgid ""
 "data/events_sector_dynasty.xml$//textList[@name=\"TEXT_DYNASTY_OUTPOST\"]/text[2]"
 msgstr ""
@@ -2473,7 +2600,7 @@ msgstr ""
 " создан полноценный аванпост, и сканирование показало, что у него есть "
 "данные. Ценные данные."
 
-#: src-en/data/events_sector_dynasty.xml:1628
+#: src-en/data/events_sector_dynasty.xml:1700
 msgid ""
 "data/events_sector_dynasty.xml$//textList[@name=\"TEXT_DYNASTY_OUTPOST\"]/text[3]"
 msgstr ""
@@ -2482,7 +2609,7 @@ msgstr ""
 "предупреждением для кораблей держаться подальше. Каким-то образом они вас "
 "еще не заметили..."
 
-#: src-en/data/events_sector_dynasty.xml:1629
+#: src-en/data/events_sector_dynasty.xml:1701
 msgid ""
 "data/events_sector_dynasty.xml$//textList[@name=\"TEXT_DYNASTY_OUTPOST\"]/text[4]"
 msgstr ""
@@ -2491,68 +2618,68 @@ msgstr ""
 "Попытки налета или причинения ущерба собственности Династии будут караться "
 "смертью\"."
 
-#: src-en/data/events_sector_dynasty.xml:1630
+#: src-en/data/events_sector_dynasty.xml:1702
 msgid ""
 "data/events_sector_dynasty.xml$//textList[@name=\"TEXT_DYNASTY_OUTPOST\"]/text[5]"
 msgstr ""
 "Сначала вы думаете, что ваши глаза вас обманывают, но нет. Это аванпост "
 "Династии, смело размещенный так далеко от пространства Династии."
 
-#: src-en/data/events_sector_dynasty.xml:1636
+#: src-en/data/events_sector_dynasty.xml:1708
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"DYNASTY_OUTPOST\"]/beaconType/unvisitedTooltip"
 msgstr "Здесь находится передовой аванпост Династии."
 
-#: src-en/data/events_sector_dynasty.xml:1637
+#: src-en/data/events_sector_dynasty.xml:1709
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"DYNASTY_OUTPOST\"]/beaconType/visitedTooltip"
 msgstr "Посещенное место. Ничего интересного."
 
-#: src-en/data/events_sector_dynasty.xml:1642
+#: src-en/data/events_sector_dynasty.xml:1714
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"DYNASTY_OUTPOST\"]/choice[1]/text"
 msgstr "Захватить аванпост."
 
-#: src-en/data/events_sector_dynasty.xml:1644
+#: src-en/data/events_sector_dynasty.xml:1716
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"DYNASTY_OUTPOST\"]/choice[1]/event/text"
 msgstr ""
 "Если Династия следит за этим сектором, есть шанс, что они уже собрали тонну "
 "данных... а данные в любой форме ценны для вас!"
 
-#: src-en/data/events_sector_dynasty.xml:1647
+#: src-en/data/events_sector_dynasty.xml:1719
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"DYNASTY_OUTPOST\"]/choice[1]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_dynasty.xml:1653
+#: src-en/data/events_sector_dynasty.xml:1725
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"DYNASTY_OUTPOST\"]/choice[2]/text"
 msgstr "Не обращать внимания на аванпост."
 
-#: src-en/data/events_sector_dynasty.xml:1655
+#: src-en/data/events_sector_dynasty.xml:1727
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"DYNASTY_OUTPOST\"]/choice[2]/event/text"
 msgstr ""
 "Ньютон знает, по какой причине Династия создавала эти места по всей "
 "галактике, но вмешиваться в это - не самая лучшая идея."
 
-#: src-en/data/events_sector_dynasty.xml:1657
+#: src-en/data/events_sector_dynasty.xml:1729
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"DYNASTY_OUTPOST\"]/choice[2]/event/choice[1]/text"
 msgstr "Заняться чем-либо на корабле."
 
-#: src-en/data/events_sector_dynasty.xml:1661
+#: src-en/data/events_sector_dynasty.xml:1733
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"DYNASTY_OUTPOST\"]/choice[2]/event/choice[2]/text"
 msgstr "Ничего не делать."
 
-#: src-en/data/events_sector_dynasty.xml:1667
+#: src-en/data/events_sector_dynasty.xml:1739
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"DYNASTY_OUTPOST\"]/choice[@req=\"unique_dessius\"]/text"
 msgstr "(Дессиус) Запросить доступ к данным, хранящимся на аванпосте."
 
-#: src-en/data/events_sector_dynasty.xml:1669
+#: src-en/data/events_sector_dynasty.xml:1741
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"DYNASTY_OUTPOST\"]/choice[@req=\"unique_dessius\"]/event/text"
 msgstr ""
@@ -2561,61 +2688,61 @@ msgstr ""
 "может предоставить вам доступ к этим данным. Если не обращать внимания на "
 "болтовню, вы получаете припасы и преимущество перед флотом повстанцев."
 
-#: src-en/data/events_sector_dynasty.xml:1680
+#: src-en/data/events_sector_dynasty.xml:1752
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_OUTPOST\"]/beaconType/unvisitedTooltip"
 msgstr "Здесь находится передовой аванпост Династии."
 
-#: src-en/data/events_sector_dynasty.xml:1681
+#: src-en/data/events_sector_dynasty.xml:1753
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_OUTPOST\"]/beaconType/visitedTooltip"
 msgstr "Посещенное место. Ничего интересного."
 
-#: src-en/data/events_sector_dynasty.xml:1687
+#: src-en/data/events_sector_dynasty.xml:1759
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_OUTPOST\"]/choice[1]/text"
 msgstr "Захватить аванпост."
 
-#: src-en/data/events_sector_dynasty.xml:1689
+#: src-en/data/events_sector_dynasty.xml:1761
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_OUTPOST\"]/choice[1]/event/text"
 msgstr ""
 "Если Династия следит за этим сектором, есть шанс, что они уже собрали тонну "
 "данных... а данные в любой форме ценны для вас!"
 
-#: src-en/data/events_sector_dynasty.xml:1692
+#: src-en/data/events_sector_dynasty.xml:1764
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_OUTPOST\"]/choice[1]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_dynasty.xml:1698
+#: src-en/data/events_sector_dynasty.xml:1770
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_OUTPOST\"]/choice[2]/text"
 msgstr "Не обращать внимания на аванпост."
 
-#: src-en/data/events_sector_dynasty.xml:1700
+#: src-en/data/events_sector_dynasty.xml:1772
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_OUTPOST\"]/choice[2]/event/text"
 msgstr ""
 "Ньютон знает, по какой причине Династия создавала эти места по всей "
 "галактике, но вмешиваться в это - не самая лучшая идея."
 
-#: src-en/data/events_sector_dynasty.xml:1702
+#: src-en/data/events_sector_dynasty.xml:1774
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_OUTPOST\"]/choice[2]/event/choice[1]/text"
 msgstr "Заняться чем-либо на корабле."
 
-#: src-en/data/events_sector_dynasty.xml:1706
+#: src-en/data/events_sector_dynasty.xml:1778
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_OUTPOST\"]/choice[2]/event/choice[2]/text"
 msgstr "Ничего не делать."
 
-#: src-en/data/events_sector_dynasty.xml:1712
+#: src-en/data/events_sector_dynasty.xml:1784
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_OUTPOST\"]/choice[@req=\"unique_dessius\"]/text"
 msgstr "(Дессиус) Запросить доступ к данным, хранящимся на аванпосте."
 
-#: src-en/data/events_sector_dynasty.xml:1714
+#: src-en/data/events_sector_dynasty.xml:1786
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_OUTPOST\"]/choice[@req=\"unique_dessius\"]/event/text"
 msgstr ""
@@ -2624,19 +2751,19 @@ msgstr ""
 "может предоставить вам доступ к этим данным. Если не обращать внимания на "
 "болтовню, вы получаете припасы и преимущество перед флотом повстанцев."
 
-#: src-en/data/events_sector_dynasty.xml:1723
+#: src-en/data/events_sector_dynasty.xml:1795
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"DYNASTY_OUTPOST_DEFEAT\"]/text"
 msgstr ""
 "Аванпост пал. Династия определенно этому не обрадуется, но что они могут с "
 "этим поделать?"
 
-#: src-en/data/events_sector_dynasty.xml:1726
+#: src-en/data/events_sector_dynasty.xml:1798
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"DYNASTY_OUTPOST_DEFEAT\"]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_dynasty.xml:1728
+#: src-en/data/events_sector_dynasty.xml:1800
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"DYNASTY_OUTPOST_DEFEAT\"]/choice/event/text"
 msgstr ""
@@ -2644,29 +2771,29 @@ msgstr ""
 "нем содержится очень подробная карта этого сектора и прогнозы относительно "
 "передвижения флота повстанцев. Это очень поможет!"
 
-#: src-en/data/events_sector_dynasty.xml:1739
+#: src-en/data/events_sector_dynasty.xml:1811
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_SPECIALRUIN\"]/beaconType/undiscoveredTooltip"
 msgstr "Непосещенное место."
 
-#: src-en/data/events_sector_dynasty.xml:1740
+#: src-en/data/events_sector_dynasty.xml:1812
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_SPECIALRUIN\"]/beaconType/unvisitedTooltip"
 msgstr "Этот маяк содержит древние руины."
 
-#: src-en/data/events_sector_dynasty.xml:1742
+#: src-en/data/events_sector_dynasty.xml:1814
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_SPECIALRUIN\"]/text"
 msgstr ""
 "Вы слышали, что территория Династии усеяна руинами прошлых дней. Но обломки "
 "вдали... ну, они не похожи на корабли Династии."
 
-#: src-en/data/events_sector_dynasty.xml:1745
+#: src-en/data/events_sector_dynasty.xml:1817
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_SPECIALRUIN\"]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_dynasty.xml:1747
+#: src-en/data/events_sector_dynasty.xml:1819
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_SPECIALRUIN\"]/choice/event/text"
 msgstr ""
@@ -2676,12 +2803,12 @@ msgstr ""
 " хочешь поднять шум? Или просто сделать мои дни менее приятными в обозримом "
 "будущем? Стоит ли мне вообще продолжать существовать в этой реальности?\""
 
-#: src-en/data/events_sector_dynasty.xml:1750
+#: src-en/data/events_sector_dynasty.xml:1822
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_SPECIALRUIN\"]/choice/event/choice/text"
 msgstr "Вы можете разговаривать нормально?"
 
-#: src-en/data/events_sector_dynasty.xml:1752
+#: src-en/data/events_sector_dynasty.xml:1824
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_SPECIALRUIN\"]/choice/event/choice/event/text"
 msgstr ""
@@ -2694,12 +2821,12 @@ msgstr ""
 "предупреждаем, что наши корабли вооружены и готовы к бою так же хорошо, как "
 "и для сбора древнего мусора\"."
 
-#: src-en/data/events_sector_dynasty.xml:1754
+#: src-en/data/events_sector_dynasty.xml:1826
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_SPECIALRUIN\"]/choice/event/choice/event/choice[1]/text"
 msgstr "Сразиться с ними, чтобы получить доступ к руинам!"
 
-#: src-en/data/events_sector_dynasty.xml:1756
+#: src-en/data/events_sector_dynasty.xml:1828
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_SPECIALRUIN\"]/choice/event/choice/event/choice[1]/event/text"
 msgstr ""
@@ -2707,17 +2834,17 @@ msgstr ""
 " неприятный вихрь абсолютной ненависти. Стирая себя, ты оказываешь услугу "
 "всем, кроме себя\"."
 
-#: src-en/data/events_sector_dynasty.xml:1759
+#: src-en/data/events_sector_dynasty.xml:1831
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_SPECIALRUIN\"]/choice/event/choice/event/choice[1]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_dynasty.xml:1765
+#: src-en/data/events_sector_dynasty.xml:1837
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_SPECIALRUIN\"]/choice/event/choice/event/choice[@req=\"LIST_CREW_ANCIENT_ALL\"]/text"
 msgstr "(Член экипажа-обелиск) \"Эти руины принадлежат нам!\""
 
-#: src-en/data/events_sector_dynasty.xml:1767
+#: src-en/data/events_sector_dynasty.xml:1839
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_SPECIALRUIN\"]/choice/event/choice/event/choice[@req=\"LIST_CREW_ANCIENT_ALL\"]/event/text"
 msgstr ""
@@ -2726,109 +2853,17 @@ msgstr ""
 "буду сражаться, чтобы убедиться, что ваша видовая болезнь никогда больше не "
 "вернется в таком количестве!\""
 
-#: src-en/data/events_sector_dynasty.xml:1770
+#: src-en/data/events_sector_dynasty.xml:1842
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_SPECIALRUIN\"]/choice/event/choice/event/choice[@req=\"LIST_CREW_ANCIENT_ALL\"]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_dynasty.xml:1776
+#: src-en/data/events_sector_dynasty.xml:1848
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_SPECIALRUIN\"]/choice/event/choice/event/choice[3]/text"
 msgstr "Хорошо, мы уходим."
 
-#: src-en/data/events_sector_dynasty.xml:1788
-msgid ""
-"data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_SPECIALRUIN_BOON\"]/beaconType/undiscoveredTooltip"
-msgstr "Непосещенное место."
-
-#: src-en/data/events_sector_dynasty.xml:1789
-msgid ""
-"data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_SPECIALRUIN_BOON\"]/beaconType/unvisitedTooltip"
-msgstr "Этот маяк содержит древние руины."
-
-#: src-en/data/events_sector_dynasty.xml:1791
-msgid ""
-"data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_SPECIALRUIN_BOON\"]/text"
-msgstr ""
-"Вы слышали, что территория Династии усеяна руинами прошлых дней. Но обломки "
-"вдали... ну, они не похожи на корабли Династии."
-
-#: src-en/data/events_sector_dynasty.xml:1794
-msgid ""
-"data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_SPECIALRUIN_BOON\"]/choice/text"
-msgstr "Продолжить..."
-
-#: src-en/data/events_sector_dynasty.xml:1796
-msgid ""
-"data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_SPECIALRUIN_BOON\"]/choice/event/text"
-msgstr ""
-"Навстречу вам несется огромный корабль Династии. \"Пустоши прошлых дней - не"
-" те, которые требуют характера современных воздействий. Какой сдвиг в "
-"космическом равновесии привел к твоему внезапному появлению в этом месте? Ты"
-" хочешь поднять шум? Или просто сделать мои дни менее приятными в обозримом "
-"будущем? Стоит ли мне вообще продолжать существовать в этой реальности?\""
-
-#: src-en/data/events_sector_dynasty.xml:1799
-msgid ""
-"data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_SPECIALRUIN_BOON\"]/choice/event/choice/text"
-msgstr "Вы можете разговаривать нормально?"
-
-#: src-en/data/events_sector_dynasty.xml:1801
-msgid ""
-"data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_SPECIALRUIN_BOON\"]/choice/event/choice/event/text"
-msgstr ""
-"Призрак вздыхает. \"Твой варварский жаргон портит мне язык, но да, я "
-"попытаюсь изложить свои мысли так, чтобы твой примитивный обезьяний мозг мог"
-" их понять. Этот маяк - последний из великих пустошей обелисков в этом "
-"секторе, требующих расчистки. Эта задача была возложена на операцию по "
-"спасению ДН-03. Все предметы и артефакты, собранные здесь, должны быть "
-"возвращены для дальнейшей переработки. Мы просим тебя покинуть нас и "
-"предупреждаем, что наши корабли вооружены и готовы к бою так же хорошо, как "
-"и для сбора древнего мусора\"."
-
-#: src-en/data/events_sector_dynasty.xml:1803
-msgid ""
-"data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_SPECIALRUIN_BOON\"]/choice/event/choice/event/choice[1]/text"
-msgstr "Сразиться с ними, чтобы получить доступ к руинам!"
-
-#: src-en/data/events_sector_dynasty.xml:1805
-msgid ""
-"data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_SPECIALRUIN_BOON\"]/choice/event/choice/event/choice[1]/event/text"
-msgstr ""
-"\"Ух, какая ты мерзкая тварь! Злоба и мысли о насилии превращают твое лицо в"
-" неприятный вихрь абсолютной ненависти. Стирая себя, ты оказываешь услугу "
-"всем, кроме себя\"."
-
-#: src-en/data/events_sector_dynasty.xml:1808
-msgid ""
-"data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_SPECIALRUIN_BOON\"]/choice/event/choice/event/choice[1]/event/choice/text"
-msgstr "Продолжить..."
-
-#: src-en/data/events_sector_dynasty.xml:1814
-msgid ""
-"data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_SPECIALRUIN_BOON\"]/choice/event/choice/event/choice[@req=\"LIST_CREW_ANCIENT_ALL\"]/text"
-msgstr "(Член экипажа-обелиск) \"Эти руины принадлежат нам!\""
-
-#: src-en/data/events_sector_dynasty.xml:1816
-msgid ""
-"data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_SPECIALRUIN_BOON\"]/choice/event/choice/event/choice[@req=\"LIST_CREW_ANCIENT_ALL\"]/event/text"
-msgstr ""
-"Призрак издает самый громкий крик, который вы когда-либо слышали. \"ЭЙ! "
-"НЕУЖЕЛИ МОИ ГЛАЗА ОБМАНЫВАЮТ МЕНЯ? ОБЕЛИСКИ ВЕРНУЛИСЬ?! О, во имя Жнеца, я "
-"буду сражаться, чтобы убедиться, что ваша видовая болезнь никогда больше не "
-"вернется в таком количестве!\""
-
-#: src-en/data/events_sector_dynasty.xml:1819
-msgid ""
-"data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_SPECIALRUIN_BOON\"]/choice/event/choice/event/choice[@req=\"LIST_CREW_ANCIENT_ALL\"]/event/choice/text"
-msgstr "Продолжить..."
-
-#: src-en/data/events_sector_dynasty.xml:1825
-msgid ""
-"data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_SPECIALRUIN_BOON\"]/choice/event/choice/event/choice[3]/text"
-msgstr "Хорошо, мы уходим."
-
-#: src-en/data/events_sector_dynasty.xml:1834
+#: src-en/data/events_sector_dynasty.xml:1857
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"DYNASTY_SPECIALRUIN_REWARD\"]/text"
 msgstr ""
@@ -2836,13 +2871,13 @@ msgstr ""
 "слабею, и я исчезаю. Выход, справа от сцены...\" Корабль Династии "
 "развалился, и вы разбираете его на металлолом."
 
-#: src-en/data/events_sector_dynasty.xml:1837
+#: src-en/data/events_sector_dynasty.xml:1860
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"DYNASTY_SPECIALRUIN_REWARD\"]/choice[@req=\"unique_dessius\""
 " and @lvl=\"0\"]/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_dynasty.xml:1839
+#: src-en/data/events_sector_dynasty.xml:1862
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"DYNASTY_SPECIALRUIN_REWARD\"]/choice[@req=\"unique_dessius\""
 " and @lvl=\"0\"]/event/text"
@@ -2850,19 +2885,19 @@ msgstr ""
 "Убрав с дороги Династию, вы разбираете древние обломки и находите уникальное"
 " оружие, подобного которому вы еще не видели!"
 
-#: src-en/data/events_sector_dynasty.xml:1842
+#: src-en/data/events_sector_dynasty.xml:1865
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"DYNASTY_SPECIALRUIN_REWARD\"]/choice[@req=\"unique_dessius\""
 " and @lvl=\"0\"]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_dynasty.xml:1848
+#: src-en/data/events_sector_dynasty.xml:1871
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"DYNASTY_SPECIALRUIN_REWARD\"]/choice[@req=\"unique_dessius\""
 " and @lvl=\"1\"]/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_dynasty.xml:1850
+#: src-en/data/events_sector_dynasty.xml:1873
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"DYNASTY_SPECIALRUIN_REWARD\"]/choice[@req=\"unique_dessius\""
 " and @lvl=\"1\"]/event/text"
@@ -2872,13 +2907,13 @@ msgstr ""
 "раньше. Вы разбираете древние обломки и находите уникальное оружие, "
 "подобного которому вы еще не видели!"
 
-#: src-en/data/events_sector_dynasty.xml:1853
+#: src-en/data/events_sector_dynasty.xml:1876
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"DYNASTY_SPECIALRUIN_REWARD\"]/choice[@req=\"unique_dessius\""
 " and @lvl=\"1\"]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_dynasty.xml:1860
+#: src-en/data/events_sector_dynasty.xml:1883
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"DYNASTY_SPECIALRUIN_LOG\"]/text"
 msgstr ""
@@ -2887,7 +2922,7 @@ msgstr ""
 "устройство может подключаться к двигателям Мультивселенной из других "
 "реальностей!"
 
-#: src-en/data/events_sector_dynasty.xml:1873
+#: src-en/data/events_sector_dynasty.xml:1896
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_DREADNAUGHT\"]/text"
 msgstr ""
@@ -2896,12 +2931,12 @@ msgstr ""
 " Старшего Жнеца. Вы удивлены, что призраки так слабо защищают это важное "
 "сооружение..."
 
-#: src-en/data/events_sector_dynasty.xml:1876
+#: src-en/data/events_sector_dynasty.xml:1899
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_DREADNAUGHT\"]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_dynasty.xml:1878
+#: src-en/data/events_sector_dynasty.xml:1901
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_DREADNAUGHT\"]/choice/event/text"
 msgstr ""
@@ -2911,12 +2946,12 @@ msgstr ""
 "черного объекта приближается к отдаленному дворцу, за которым тянутся "
 "обломки некогда лучшего флота Династии."
 
-#: src-en/data/events_sector_dynasty.xml:1880
+#: src-en/data/events_sector_dynasty.xml:1903
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_DREADNAUGHT\"]/choice/event/choice[1]/text"
 msgstr "Приблизиться к кораблю."
 
-#: src-en/data/events_sector_dynasty.xml:1882
+#: src-en/data/events_sector_dynasty.xml:1905
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_DREADNAUGHT\"]/choice/event/choice[1]/event/text"
 msgstr ""
@@ -2926,41 +2961,41 @@ msgstr ""
 "более легкие цели. Уходите, и я убью вас в другой день. Это мое обещание\". "
 "Странно хорошо сказано для робота..."
 
-#: src-en/data/events_sector_dynasty.xml:1885
+#: src-en/data/events_sector_dynasty.xml:1908
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_DREADNAUGHT\"]/choice/event/choice[1]/event/choice[1]/text"
 msgstr "Давайте научим эту глыбу металла хорошим манерам."
 
-#: src-en/data/events_sector_dynasty.xml:1887
+#: src-en/data/events_sector_dynasty.xml:1910
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_DREADNAUGHT\"]/choice/event/choice[1]/event/choice[1]/event/text"
 msgstr ""
 "\"Необдуманное решение. Ваш провал доставит мне удовольствие. Вы понимаете, "
 "что шансы на успех невелики? Неважно... Вы здесь умрете\"."
 
-#: src-en/data/events_sector_dynasty.xml:1890
+#: src-en/data/events_sector_dynasty.xml:1913
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_DREADNAUGHT\"]/choice/event/choice[1]/event/choice[1]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_dynasty.xml:1896
+#: src-en/data/events_sector_dynasty.xml:1919
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_DREADNAUGHT\"]/choice/event/choice[1]/event/choice[2]/text"
 msgstr "Прислушаться к предупреждению и уйти."
 
-#: src-en/data/events_sector_dynasty.xml:1898
+#: src-en/data/events_sector_dynasty.xml:1921
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_DREADNAUGHT\"]/choice/event/choice[1]/event/choice[2]/event/text"
 msgstr ""
 "\"Мудрое решение. Если бы только мое начальство могло так ко мне "
 "прислушиваться\"."
 
-#: src-en/data/events_sector_dynasty.xml:1904
+#: src-en/data/events_sector_dynasty.xml:1927
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_DREADNAUGHT\"]/choice/event/choice[2]/text"
 msgstr "Сейчас как нельзя более подходящее время для того, чтобы уйти."
 
-#: src-en/data/events_sector_dynasty.xml:1906
+#: src-en/data/events_sector_dynasty.xml:1929
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_DREADNAUGHT\"]/choice/event/choice[2]/event/text"
 msgstr ""
@@ -2968,17 +3003,17 @@ msgstr ""
 " не собираетесь тратить драгоценное время на то, чтобы спасти ее от какого-"
 "нибудь очередного монстра, созданного Восстанием."
 
-#: src-en/data/events_sector_dynasty.xml:1908
+#: src-en/data/events_sector_dynasty.xml:1931
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_DREADNAUGHT\"]/choice/event/choice[2]/event/choice[1]/text"
 msgstr "Заняться чем-либо на корабле."
 
-#: src-en/data/events_sector_dynasty.xml:1912
+#: src-en/data/events_sector_dynasty.xml:1935
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"NEBULA_DYNASTY_DREADNAUGHT\"]/choice/event/choice[2]/event/choice[2]/text"
 msgstr "Ничего не делать."
 
-#: src-en/data/events_sector_dynasty.xml:1921
+#: src-en/data/events_sector_dynasty.xml:1944
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"DYNASTY_DREADNAUGHT_VICTORY\"]/text"
 msgstr ""
@@ -2988,12 +3023,12 @@ msgstr ""
 "розовый Призрак в броне и с громадным мечом. Если попытаться угадать, то это"
 " Старший Жнец, прародитель Династии."
 
-#: src-en/data/events_sector_dynasty.xml:1924
+#: src-en/data/events_sector_dynasty.xml:1947
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"DYNASTY_DREADNAUGHT_VICTORY\"]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_dynasty.xml:1926
+#: src-en/data/events_sector_dynasty.xml:1949
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"DYNASTY_DREADNAUGHT_VICTORY\"]/choice/event/text"
 msgstr ""
@@ -3002,12 +3037,12 @@ msgstr ""
 "ним, Жнец махает вам и нажимает кнопку на своей броне. \"Сердце демона "
 "погибло! Кто ты и по какой милости пришел к нам?\""
 
-#: src-en/data/events_sector_dynasty.xml:1928
+#: src-en/data/events_sector_dynasty.xml:1951
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"DYNASTY_DREADNAUGHT_VICTORY\"]/choice/event/choice/text"
 msgstr "У меня нет имени."
 
-#: src-en/data/events_sector_dynasty.xml:1930
+#: src-en/data/events_sector_dynasty.xml:1953
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"DYNASTY_DREADNAUGHT_VICTORY\"]/choice/event/choice/event/text"
 msgstr ""
@@ -3018,12 +3053,12 @@ msgstr ""
 "боялись, что еще одно вторжение может привести к нашему полному концу, и "
 "сегодня демон почти исполнил свое желание. Пока не появился ты!\""
 
-#: src-en/data/events_sector_dynasty.xml:1932
+#: src-en/data/events_sector_dynasty.xml:1955
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"DYNASTY_DREADNAUGHT_VICTORY\"]/choice/event/choice/event/choice/text"
 msgstr "Кто?"
 
-#: src-en/data/events_sector_dynasty.xml:1934
+#: src-en/data/events_sector_dynasty.xml:1957
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"DYNASTY_DREADNAUGHT_VICTORY\"]/choice/event/choice/event/choice/event/text"
 msgstr ""
@@ -3035,12 +3070,12 @@ msgstr ""
 "отличие от нас сегодняшних! Наконец-то мы увидели конец поганых демонов. Их "
 "вид больше не будет досаждать нам!\""
 
-#: src-en/data/events_sector_dynasty.xml:1936
+#: src-en/data/events_sector_dynasty.xml:1959
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"DYNASTY_DREADNAUGHT_VICTORY\"]/choice/event/choice/event/choice/event/choice/text"
 msgstr "ИИ повстанцев находится на Флагмане, не на этом дредноуте."
 
-#: src-en/data/events_sector_dynasty.xml:1938
+#: src-en/data/events_sector_dynasty.xml:1961
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"DYNASTY_DREADNAUGHT_VICTORY\"]/choice/event/choice/event/choice/event/choice/event/text"
 msgstr ""
@@ -3052,17 +3087,17 @@ msgstr ""
 "останется ни одного дрожащего демона, которого мы бы не отправили на "
 "виселицу!\""
 
-#: src-en/data/events_sector_dynasty.xml:1940
+#: src-en/data/events_sector_dynasty.xml:1963
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"DYNASTY_DREADNAUGHT_VICTORY\"]/choice/event/choice/event/choice/event/choice/event/crewMember"
 msgstr "Дессиус"
 
-#: src-en/data/events_sector_dynasty.xml:1942
+#: src-en/data/events_sector_dynasty.xml:1965
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"DYNASTY_DREADNAUGHT_VICTORY\"]/choice/event/choice/event/choice/event/choice/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_dynasty.xml:1955
+#: src-en/data/events_sector_dynasty.xml:1978
 msgid ""
 "data/events_sector_dynasty.xml$//event[@name=\"DYNASTY_DREADNAUGHT_REWARD\"]/text"
 msgstr ""

@@ -1,16 +1,15 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-05-19 05:26+0000\n"
-"Last-Translator: YLSH <ylsh123@foxmail.com>\n"
-"Language-Team: Chinese (Simplified) <https://weblate.hyperq.be/projects/"
-"ftl-multiverse/dataevents_sector_hackerxml/zh_Hans/>\n"
+"PO-Revision-Date: 2025-05-29 11:20+0000\n"
+"Last-Translator: Ssstranger <1913944184@qq.com>\n"
+"Language-Team: Chinese (Simplified Han script) <https://weblate.hyperq.be/projects/ftl-multiverse/dataevents_sector_hackerxml/zh_Hans/>\n"
 "Language: zh_Hans\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.16.4\n"
+"X-Generator: Weblate 5.11.4\n"
 
 #: src-en/data/events_sector_hacker.xml:46
 msgid ""
@@ -103,7 +102,7 @@ msgstr "我们不需要更多的船员，抱歉。"
 #: src-en/data/events_sector_hacker.xml:125
 msgid ""
 "data/events_sector_hacker.xml$//event[@name=\"HACKED_CIVILIANS_FREECREW\"]/choice[2]/event/text"
-msgstr ""
+msgstr "你向他们致以歉意并继续你的任务。"
 
 #: src-en/data/events_sector_hacker.xml:127
 msgid ""
@@ -384,7 +383,7 @@ msgstr "我们不需要你的服务。"
 #: src-en/data/events_sector_hacker.xml:346
 msgid ""
 "data/events_sector_hacker.xml$//event[@name=\"HACKER_OFFER\"]/choice[3]/event/text"
-msgstr "\"Ssssshame。尽量不要被杀...\""
+msgstr "\"羞～～耻。尽量不要被杀...\""
 
 #: src-en/data/events_sector_hacker.xml:348
 msgid ""
@@ -399,9 +398,7 @@ msgstr "跳过。"
 #: src-en/data/events_sector_hacker.xml:376
 msgid "data/events_sector_hacker.xml$//event[@name=\"HACKED_PDS\"]/text"
 msgstr ""
-"一名黑客正在与行星防御网络连接—他们看起来心不在焉，还没有注意到你。防御网络旁"
-"边的空间站向你呼叫，但他们的信息断断续续。\"他们正试图入侵我们的防御网络"
-"……但我们不会让他们好过！如果你能帮忙，请帮帮我们。否则，趁早离开这里！\""
+"一名黑客正在与行星防御网络连接—他们看起来心不在焉，还没有注意到你。防御网络旁边的空间站向你呼叫，但他们的信息断断续续。\"他们正试图入侵我们的防御网络……但我们不会让他们好过！如果你能帮忙，请帮帮我们。否则，趁早离开这里！\""
 
 #: src-en/data/events_sector_hacker.xml:379
 msgid ""
@@ -411,8 +408,7 @@ msgstr "(信号稀释器)防止黑客入侵防御网络。"
 #: src-en/data/events_sector_hacker.xml:381
 msgid ""
 "data/events_sector_hacker.xml$//event[@name=\"HACKED_PDS\"]/choice[@req=\"PDS_DISABLE\"]/event/text"
-msgstr "你能干扰黑客入侵空间站反舰炮台的信号，从而使防御网络只针对敌方黑客。同盟空间"
-"站指挥官欣喜若狂。\"哈哈，干掉他们！\""
+msgstr "你能干扰黑客入侵空间站反舰炮台的信号，从而使防御网络只针对敌方黑客。同盟空间站指挥官欣喜若狂。\"哈哈，干掉他们！\""
 
 #: src-en/data/events_sector_hacker.xml:385
 msgid ""
@@ -428,8 +424,7 @@ msgid ""
 "data/events_sector_hacker.xml$//event[@name=\"HACKED_PDS\"]/choice[2]/event/text"
 msgstr ""
 "黑客试图嘲弄你。\"哈哈，你这个傻瓜！我们已经进入防御网络了！\" "
-"蛞蝓号激活了防御网络……不过它似乎无法分辨敌我。舰长对着他的船员大喊：\""
-"……你说我们还没完成是什么意思？\""
+"蛞蝓号激活了防御网络……不过它似乎无法分辨敌我。舰长对着他的船员大喊：\"……你说我们还没完成是什么意思？\""
 
 #: src-en/data/events_sector_hacker.xml:397
 msgid ""
@@ -443,8 +438,7 @@ msgstr "向黑客提供一些废料，让他离开。"
 #: src-en/data/events_sector_hacker.xml:405
 msgid ""
 "data/events_sector_hacker.xml$//event[@name=\"HACKED_PDS\"]/choice[3]/event/text"
-msgstr "\"嗯…一方面，如果我们完成了对防御网络的黑入，你可能会付更多钱……但我们势单力薄"
-"……好吧，我们接受你的提议。再见！\""
+msgstr "\"嗯…一方面，如果我们完成了对防御网络的黑入，你可能会付更多钱……但我们势单力薄……好吧，我们接受你的提议。再见！\""
 
 #: src-en/data/events_sector_hacker.xml:410
 msgid ""
@@ -462,9 +456,7 @@ msgstr "你选择尽快离开该区域。不幸的是，这让你没有时间做
 
 #: src-en/data/events_sector_hacker.xml:425
 msgid "data/events_sector_hacker.xml$//event[@name=\"HACKED_PDS_RESCUE\"]/text"
-msgstr "\"谢谢你的干预"
-"—他们差点攻陷我们。我们会让其他接近的黑客后悔的。拿着这个，继续努力。"
-"\"空间站为你提供了一些资源和一件武器。"
+msgstr "\"谢谢你的干预—他们差点攻陷我们。我们会让其他接近的黑客后悔的。拿着这个，继续努力。\"空间站为你提供了一些资源和一件武器。"
 
 #: src-en/data/events_sector_hacker.xml:431
 msgid "data/events_sector_hacker.xml$//event[@name=\"HACKED_HOSTAGES\"]/text"
@@ -565,7 +557,7 @@ msgstr "(蛞蝓族船员)让你的蛞蝓船员先检查残骸。"
 #: src-en/data/events_sector_hacker.xml:506
 msgid ""
 "data/events_sector_hacker.xml$//event[@name=\"HACKED_CIVILIAN_WRECK_TRAP\"]/choice[@req=\"BLUELIST_CREW_SNAIL\"]/text"
-msgstr ""
+msgstr "（心灵感应甲壳族）让你的甲壳族船员先检查残骸。"
 
 #: src-en/data/events_sector_hacker.xml:510
 msgid ""
@@ -922,10 +914,9 @@ msgid ""
 msgstr "拯救盟卫。"
 
 #: src-en/data/events_sector_hacker.xml:802
-#, fuzzy
 msgid ""
 "data/events_sector_hacker.xml$//event[@name=\"DISTRESS_HACKER_MILITIA\"]/choice[1]/event/text"
-msgstr "这个星区需要所有的盟卫，而你不会让黑客们再杀他们。"
+msgstr "这个星区需要尽可能多的盟卫，而你不会让黑客们再杀更多人了。"
 
 #: src-en/data/events_sector_hacker.xml:805
 msgid ""
@@ -971,6 +962,7 @@ msgstr "看来大多数盟卫在袭击中没有幸存。唯一的幸存者，也
 msgid ""
 "data/events_sector_hacker.xml$//event[@name=\"QUEST_HACKER_HOSPITAL\"]/text"
 msgstr ""
+"“外来飞船，我不清楚你的身份也不清楚你的来历，但是请，听我说。黑客们....他们在周围的一个星系中挟持了一所医院。我们中许多人的家人在那里，而我们付不起他们的赎金。求求你了，你是他们唯一的希望了。”"
 
 #: src-en/data/events_sector_hacker.xml:851
 msgid ""
@@ -980,7 +972,7 @@ msgstr "同意对方的要求。"
 #: src-en/data/events_sector_hacker.xml:853
 msgid ""
 "data/events_sector_hacker.xml$//event[@name=\"QUEST_HACKER_HOSPITAL\"]/choice[1]/event/text"
-msgstr ""
+msgstr "平民们提供了被侵占的医院的坐标。“请尽你所能，拜托了。”"
 
 #: src-en/data/events_sector_hacker.xml:858
 msgid ""
@@ -990,7 +982,7 @@ msgstr "我们没法帮忙。"
 #: src-en/data/events_sector_hacker.xml:860
 msgid ""
 "data/events_sector_hacker.xml$//event[@name=\"QUEST_HACKER_HOSPITAL\"]/choice[2]/event/text"
-msgstr ""
+msgstr "另一边传来抽泣的声音，不久后就挂断了。"
 
 #: src-en/data/events_sector_hacker.xml:862
 msgid ""
@@ -1005,22 +997,22 @@ msgstr "跳过。"
 #: src-en/data/events_sector_hacker.xml:875
 msgid ""
 "data/events_sector_hacker.xml$//event[@name=\"QUEST_HACKER_HOSPITAL_DESTINATION\"]/beaconType/unvisitedTooltip"
-msgstr ""
+msgstr "前往被黑客侵占的医院。"
 
 #: src-en/data/events_sector_hacker.xml:877
 msgid ""
 "data/events_sector_hacker.xml$//event[@name=\"QUEST_HACKER_HOSPITAL_DESTINATION\"]/text"
-msgstr ""
+msgstr "正如平民们所说，医院确实被一艘处于此信标的黑客舰船驻守着。他们很迅速的呼叫你：“如果你拿不来我们要的赎～～金，那你最～～好立～～即离开。”"
 
 #: src-en/data/events_sector_hacker.xml:880
 msgid ""
 "data/events_sector_hacker.xml$//event[@name=\"QUEST_HACKER_HOSPITAL_DESTINATION\"]/choice[1]/text"
-msgstr ""
+msgstr "攻击看守医院的黑客舰船。"
 
 #: src-en/data/events_sector_hacker.xml:882
 msgid ""
 "data/events_sector_hacker.xml$//event[@name=\"QUEST_HACKER_HOSPITAL_DESTINATION\"]/choice[1]/event/text"
-msgstr ""
+msgstr "你绝不会让这些黑客逍遥法外，为所欲为。"
 
 #: src-en/data/events_sector_hacker.xml:885
 msgid ""
@@ -1030,12 +1022,12 @@ msgstr "继续。"
 #: src-en/data/events_sector_hacker.xml:891
 msgid ""
 "data/events_sector_hacker.xml$//event[@name=\"QUEST_HACKER_HOSPITAL_DESTINATION\"]/choice[2]/text"
-msgstr ""
+msgstr "支付赎金来让他们放过这所医院。"
 
 #: src-en/data/events_sector_hacker.xml:893
 msgid ""
 "data/events_sector_hacker.xml$//event[@name=\"QUEST_HACKER_HOSPITAL_DESTINATION\"]/choice[2]/event/text"
-msgstr ""
+msgstr "“和你做生～～意很愉～～快”黑客舰船离开了这个信标。"
 
 #: src-en/data/events_sector_hacker.xml:899
 msgid ""
@@ -1045,12 +1037,12 @@ msgstr "继续。"
 #: src-en/data/events_sector_hacker.xml:905
 msgid ""
 "data/events_sector_hacker.xml$//event[@name=\"QUEST_HACKER_HOSPITAL_DESTINATION\"]/choice[3]/text"
-msgstr ""
+msgstr "表达歉意并迅速离开。"
 
 #: src-en/data/events_sector_hacker.xml:907
 msgid ""
 "data/events_sector_hacker.xml$//event[@name=\"QUEST_HACKER_HOSPITAL_DESTINATION\"]/choice[3]/event/text"
-msgstr ""
+msgstr "“告诉那～～些人类～～他们最好赶快付清那些钱。”"
 
 #: src-en/data/events_sector_hacker.xml:909
 msgid ""
@@ -1064,67 +1056,67 @@ msgstr "跳过。"
 
 #: src-en/data/events_sector_hacker.xml:920
 msgid "data/events_sector_hacker.xml$//event[@name=\"HOSPITAL_SAVED\"]/text"
-msgstr ""
+msgstr "“这位是医院的代理主管。我们给不了你太多东西，但是我们欠你个人情，我们能为你做些什么吗？”"
 
 #: src-en/data/events_sector_hacker.xml:922
 msgid ""
 "data/events_sector_hacker.xml$//event[@name=\"HOSPITAL_SAVED\"]/choice[@req=\"clonebay\"]/text"
-msgstr ""
+msgstr "让他们升级你的克隆舱。"
 
 #: src-en/data/events_sector_hacker.xml:924
 msgid ""
 "data/events_sector_hacker.xml$//event[@name=\"HOSPITAL_SAVED\"]/choice[@req=\"clonebay\"]/event/text"
-msgstr ""
+msgstr "“我们的实验室技术人员很容易就能搞定。我希望这会有助于你的任务。”"
 
 #: src-en/data/events_sector_hacker.xml:929
 msgid ""
 "data/events_sector_hacker.xml$//event[@name=\"HOSPITAL_SAVED\"]/choice[@req=\"medbay\"]/text"
-msgstr ""
+msgstr "让他们升级你的医疗仓。"
 
 #: src-en/data/events_sector_hacker.xml:931
 msgid ""
 "data/events_sector_hacker.xml$//event[@name=\"HOSPITAL_SAVED\"]/choice[@req=\"medbay\"]/event/text"
-msgstr ""
+msgstr "“我们的实验室技术人员很容易就能搞定。我希望这会有助于你的任务。”"
 
 #: src-en/data/events_sector_hacker.xml:936
 msgid ""
 "data/events_sector_hacker.xml$//event[@name=\"HOSPITAL_SAVED\"]/choice[@req=\"LAB_INSTALLED\"]/text"
-msgstr ""
+msgstr "让他们安装一个舰内的物种实验室来进行船员升级。"
 
 #: src-en/data/events_sector_hacker.xml:938
 msgid ""
 "data/events_sector_hacker.xml$//event[@name=\"HOSPITAL_SAVED\"]/choice[@req=\"LAB_INSTALLED\"]/event/text"
-msgstr ""
+msgstr "\"我们的技术人员拥有实验室设备的技术，我们可以分给你一些。\""
 
 #: src-en/data/events_sector_hacker.xml:943
 msgid ""
 "data/events_sector_hacker.xml$//event[@name=\"HOSPITAL_SAVED\"]/choice[@req=\"LAB_UPGRADE\"]/text"
-msgstr ""
+msgstr "让他们升级你的舰内物种实验室。"
 
 #: src-en/data/events_sector_hacker.xml:945
 msgid ""
 "data/events_sector_hacker.xml$//event[@name=\"HOSPITAL_SAVED\"]/choice[@req=\"LAB_UPGRADE\"]/event/text"
-msgstr ""
+msgstr "“我们的技术人员拥有实验室设备的技术，我们可以分给你一些。”"
 
 #: src-en/data/events_sector_hacker.xml:950
 msgid ""
 "data/events_sector_hacker.xml$//event[@name=\"HOSPITAL_SAVED\"]/choice[5]/text"
-msgstr ""
+msgstr "请求他们中的一名医疗员加入你。"
 
 #: src-en/data/events_sector_hacker.xml:952
 msgid ""
 "data/events_sector_hacker.xml$//event[@name=\"HOSPITAL_SAVED\"]/choice[5]/event/text"
-msgstr ""
+msgstr "“那不成问题，我们中现在就有人心里只想着离开这个星区了。”"
 
 #: src-en/data/events_sector_hacker.xml:957
 msgid ""
 "data/events_sector_hacker.xml$//event[@name=\"HOSPITAL_SAVED\"]/choice[6]/text"
-msgstr ""
+msgstr "询问他们能否拖延舰队。"
 
 #: src-en/data/events_sector_hacker.xml:959
 msgid ""
 "data/events_sector_hacker.xml$//event[@name=\"HOSPITAL_SAVED\"]/choice[6]/event/text"
-msgstr ""
+msgstr "\"我们会全力以赴的，但是别指望这里会出现什么奇迹，变元者。”"
 
 #: src-en/data/events_sector_hacker.xml:985
 msgid ""
@@ -1144,14 +1136,12 @@ msgstr "当你探索这个信标时，一艘黑客船从后面远远地跟着你
 #: src-en/data/events_sector_hacker.xml:992
 msgid ""
 "data/events_sector_hacker.xml$//textList[@name=\"TEXT_ENCOUNTER_HACKER\"]/text[3]"
-msgstr ""
-"\"Oh goodnesssss， we are blesssed to be in pressenccccce of a Federation "
-"vesssel！\"没等你回话，黑客们就插话说：\"Jussssst kidding！准备受死吧。\""
+msgstr "\"哦天哪，我们真是太幸～～运了，能出～～现在联盟～～～舰的面前。\"在你还没来得及回～～应之前，黑客们插嘴道：\"只～～～是开个玩笑！准～～备去死吧。\""
 
 #: src-en/data/events_sector_hacker.xml:993
 msgid ""
 "data/events_sector_hacker.xml$//textList[@name=\"TEXT_ENCOUNTER_HACKER\"]/text[4]"
-msgstr "你在你的电脑上检测到一个外来信号。在辨别其来源的过程中，一艘黑客船跃迁了出来，并发动了攻击"
+msgstr "你在你的电脑上检测到一个外来信号。在辨别其来源的过程中，一艘黑客船跃迁了出来，并发动了攻击！"
 
 #: src-en/data/events_sector_hacker.xml:994
 msgid ""
@@ -1253,7 +1243,7 @@ msgstr "继续。"
 #: src-en/data/events_sector_hacker.xml:1098
 msgid ""
 "data/events_sector_hacker.xml$//event[@name=\"HACKER_CACHE\"]/beaconType/unvisitedTooltip"
-msgstr "Uyo%Heav#Ton@Sdtviie!Stih*Anecbo"
+msgstr "哊%蝦圩#恸@嗣髪尧!厮叱*鹌纬俐"
 
 #: src-en/data/events_sector_hacker.xml:1099
 msgid ""
@@ -1484,8 +1474,7 @@ msgstr "继续。"
 #: src-en/data/events_sector_hacker.xml:1273
 msgid ""
 "data/events_sector_hacker.xml$//event[@name=\"HACKER_FED_WIN\"]/choice/event/text"
-msgstr ""
-"你撬开救生舱，蛞蝓族慢慢滑出来，双手举起。\"好吧，我投降！你打得很好。太好...我会给你任何你想要的东西！数据、劳动力、废料，我所要求的就是你不杀我！\""
+msgstr "你撬开救生舱，蛞蝓族慢慢滑出来，双手举起。\"好吧，我投～～降！你打得很好。太好...我会给你任何你想要的东西！数据、劳动力、废～料，我所要求的就是你不杀我！\""
 
 #: src-en/data/events_sector_hacker.xml:1276
 msgid ""

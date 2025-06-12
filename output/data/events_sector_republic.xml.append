@@ -8,21 +8,78 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="NEBULA_LEECH_PSA" type="event">
+  <mod:findName name="NEBULA_LIGHT_LEECH_PSA" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Listen.</mod:selector>
-        <mod:setValue>Listen.[INFO][NAME]autoReward[/NAME]Reward ~ Only(L)[/INFO]</mod:setValue>
+        <mod:setValue>Listen.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="NEBULA_LEECH_PSA" type="event">
+  <mod:findName name="NEBULA_LIGHT_LEECH_PSA" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true"/>
       <mod:findLike type="event">
         <mod:findLike type="choice">
-          <mod:selector hidden="true"/>
+          <mod:selector hidden="true" blue="false" req="clonebay" max_group="0"/>
+          <mod:findLike type="text">
+            <mod:selector>Continue...</mod:selector>
+            <mod:setValue>Continue...[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])[/FightINFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_LIGHT_LEECH_PSA" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true" blue="false" req="clonebay" max_group="0"/>
+          <mod:findLike type="event">
+            <mod:findLike type="choice">
+              <mod:selector hidden="true"/>
+              <mod:findLike type="text">
+                <mod:selector>Refuse.</mod:selector>
+                <mod:setValue>Refuse.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])[/FightINFO]</mod:setValue>
+              </mod:findLike>
+            </mod:findLike>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_LIGHT_LEECH_PSA" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true" blue="false" req="clonebay" max_group="0"/>
+          <mod:findLike type="event">
+            <mod:findLike type="choice">
+              <mod:selector hidden="true"/>
+              <mod:findLike type="event">
+                <mod:findLike type="choice">
+                  <mod:selector hidden="true"/>
+                  <mod:findLike type="text">
+                    <mod:selector>Continue...</mod:selector>
+                    <mod:setValue>Continue...[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])[/FightINFO]</mod:setValue>
+                  </mod:findLike>
+                </mod:findLike>
+              </mod:findLike>
+            </mod:findLike>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_LIGHT_LEECH_PSA" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true" blue="false" req="pilot" max_group="0"/>
           <mod:findLike type="text">
             <mod:selector>Continue...</mod:selector>
             <mod:setValue>Continue...[INFO][NAME]autoReward[/NAME]Reward ~ Only(L)[/INFO]</mod:setValue>
@@ -31,26 +88,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="NEBULA_LEECH_PSA" type="event">
-    <mod:findLike type="choice">
-      <mod:selector hidden="true"/>
-      <mod:findLike type="event">
-        <mod:findLike type="choice">
-          <mod:selector hidden="true"/>
-          <mod:findLike type="event">
-            <mod:findLike type="choice">
-              <mod:selector hidden="true" req="clonebay"/>
-              <mod:findLike type="text">
-                <mod:selector>(Clone Bay) Point out that you force your crew to commit suicide all the time.</mod:selector>
-                <mod:setValue>(Clone Bay) Point out that you force your crew to commit suicide all the time.[INFO][NAME]damage[/NAME]&lt;!&gt;Damage Hull(5)[/INFO]</mod:setValue>
-              </mod:findLike>
-            </mod:findLike>
-          </mod:findLike>
-        </mod:findLike>
-      </mod:findLike>
-    </mod:findLike>
-  </mod:findName>
-  <mod:findName name="NEBULA_LEECH_PSA" type="event">
+  <mod:findName name="NEBULA_LIGHT_LEECH_PSA" type="event">
     <mod:findLike type="choice">
       <mod:findLike type="text">
         <mod:selector>Ignore them.</mod:selector>
@@ -58,7 +96,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="NEBULA_LEECH_PSA" type="event">
+  <mod:findName name="NEBULA_LIGHT_LEECH_PSA" type="event">
     <mod:findLike type="choice">
       <mod:findLike type="event">
         <mod:findLike type="choice">
@@ -70,7 +108,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="NEBULA_LEECH_CREW" type="event">
+  <mod:findName name="NEBULA_LIGHT_LEECH_CREW" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
@@ -79,7 +117,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="NEBULA_LEECH_CREW" type="event">
+  <mod:findName name="NEBULA_LIGHT_LEECH_CREW" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true"/>
       <mod:findLike type="event">
@@ -92,7 +130,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="NEBULA_LEECH_CREW" type="event">
+  <mod:findName name="NEBULA_LIGHT_LEECH_CREW" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true"/>
       <mod:findLike type="event">
@@ -106,7 +144,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="NEBULA_LEECH_CREW" type="event">
+  <mod:findName name="NEBULA_LIGHT_LEECH_CREW" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true"/>
       <mod:findLike type="event">
@@ -374,169 +412,6 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="NEBULA_LEECH_GARDEN" type="event">
-    <mod:findLike type="choice">
-      <mod:selector hidden="true"/>
-      <mod:findLike type="text">
-        <mod:selector>Dock with the outpost.</mod:selector>
-        <mod:setValue>Dock with the outpost.[FightINFO]Fight(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(SR: [INFO][NAME]autoReward[/NAME]Reward { Only(H)[/INFO])[/FightINFO]</mod:setValue>
-      </mod:findLike>
-    </mod:findLike>
-  </mod:findName>
-  <mod:findName name="NEBULA_LEECH_GARDEN" type="event">
-    <mod:findLike type="choice">
-      <mod:selector hidden="true"/>
-      <mod:findLike type="event">
-        <mod:findLike type="choice">
-          <mod:selector hidden="true"/>
-          <mod:findLike type="text">
-            <mod:selector>Continue...</mod:selector>
-            <mod:setValue>Continue...[FightINFO]Fight(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(SR: [INFO][NAME]autoReward[/NAME]Reward { Only(H)[/INFO])[/FightINFO]</mod:setValue>
-          </mod:findLike>
-        </mod:findLike>
-      </mod:findLike>
-    </mod:findLike>
-  </mod:findName>
-  <mod:findName name="NEBULA_LEECH_GARDEN" type="event">
-    <mod:findLike type="choice">
-      <mod:selector hidden="true" req="LIST_CREW_VAMPWEED"/>
-      <mod:findLike type="text">
-        <mod:selector>(Vampweed Crew) Request access to the outpost.</mod:selector>
-        <mod:setValue>(Vampweed Crew) Request access to the outpost.[INFO][NAME]autoReward[/NAME]Reward { Only(H)[/INFO]</mod:setValue>
-      </mod:findLike>
-    </mod:findLike>
-  </mod:findName>
-  <mod:findName name="NEBULA_LEECH_GARDEN" type="event">
-    <mod:findLike type="choice">
-      <mod:findLike type="text">
-        <mod:selector>Ignore the outpost.</mod:selector>
-        <mod:setValue>Ignore the outpost.[INFO][NAME]storageCheck[/NAME]Storage Check[/INFO]</mod:setValue>
-      </mod:findLike>
-    </mod:findLike>
-  </mod:findName>
-  <mod:findName name="NEBULA_LEECH_GARDEN" type="event">
-    <mod:findLike type="choice">
-      <mod:findLike type="event">
-        <mod:findLike type="choice">
-          <mod:findLike type="text">
-            <mod:selector>Do something onboard the ship.</mod:selector>
-            <mod:setValue>Do something onboard the ship.[INFO][NAME]storageCheck[/NAME]Storage Check[/INFO]</mod:setValue>
-          </mod:findLike>
-        </mod:findLike>
-      </mod:findLike>
-    </mod:findLike>
-  </mod:findName>
-  <mod:findName name="LEECH_GARDEN_VISIT" type="event">
-    <mod:findLike type="choice">
-      <mod:findLike type="text">
-        <mod:selector>Buy one of their Spore weapons.</mod:selector>
-        <mod:setValue>Buy one of their Spore weapons.[INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Spore)[/INFO][INFO][NAME]itemModify[/NAME]-60≤~≤-55[/INFO]</mod:setValue>
-      </mod:findLike>
-    </mod:findLike>
-  </mod:findName>
-  <mod:findName name="LEECH_GARDEN_VISIT" type="event">
-    <mod:findLike type="choice">
-      <mod:findLike type="text">
-        <mod:selector>Hire one of the gardeners.</mod:selector>
-        <mod:setValue>Hire one of the gardeners.[INFO][NAME]crewMember[/NAME]Gain a crew(Orchid Vampweed)[/INFO][INFO][NAME]itemModify[/NAME]-55≤~≤-40[/INFO]</mod:setValue>
-      </mod:findLike>
-    </mod:findLike>
-  </mod:findName>
-  <mod:findName name="LEECH_TAVERN" type="event">
-    <mod:findLike type="choice">
-      <mod:selector hidden="true"/>
-      <mod:findLike type="text">
-        <mod:selector>Visit.</mod:selector>
-        <mod:setValue>Visit.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO][NAME]crewMember[/NAME]Gain a crew(Leech)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO] [INFO][NAME]crewMember[/NAME]Gain a crew(Leech)[/INFO])[/FightINFO][FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO][NAME]autoReward[/NAME]Reward Stuff(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO] [INFO][NAME]autoReward[/NAME]Reward Stuff(M)[/INFO])[/FightINFO]</mod:setValue>
-      </mod:findLike>
-    </mod:findLike>
-  </mod:findName>
-  <mod:findName name="LEECH_TAVERN" type="event">
-    <mod:findLike type="choice">
-      <mod:selector hidden="true"/>
-      <mod:findLike type="event">
-        <mod:findLike type="choice">
-          <mod:selector hidden="true"/>
-          <mod:findLike type="text">
-            <mod:selector>Step in - support the loyalist.</mod:selector>
-            <mod:setValue>Step in - support the loyalist.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO][NAME]crewMember[/NAME]Gain a crew(Leech)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO] [INFO][NAME]crewMember[/NAME]Gain a crew(Leech)[/INFO])[/FightINFO]</mod:setValue>
-          </mod:findLike>
-        </mod:findLike>
-      </mod:findLike>
-    </mod:findLike>
-  </mod:findName>
-  <mod:findName name="LEECH_TAVERN" type="event">
-    <mod:findLike type="choice">
-      <mod:selector hidden="true"/>
-      <mod:findLike type="event">
-        <mod:findLike type="choice">
-          <mod:selector hidden="true"/>
-          <mod:findLike type="event">
-            <mod:findLike type="choice">
-              <mod:selector hidden="true"/>
-              <mod:findLike type="text">
-                <mod:selector>Continue...</mod:selector>
-                <mod:setValue>Continue...[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO][NAME]crewMember[/NAME]Gain a crew(Leech)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO] [INFO][NAME]crewMember[/NAME]Gain a crew(Leech)[/INFO])[/FightINFO]</mod:setValue>
-              </mod:findLike>
-            </mod:findLike>
-          </mod:findLike>
-        </mod:findLike>
-      </mod:findLike>
-    </mod:findLike>
-  </mod:findName>
-  <mod:findName name="LEECH_TAVERN" type="event">
-    <mod:findLike type="choice">
-      <mod:selector hidden="true"/>
-      <mod:findLike type="event">
-        <mod:findLike type="choice">
-          <mod:selector hidden="true"/>
-          <mod:findLike type="text">
-            <mod:selector>Step in - support the revolutionary.</mod:selector>
-            <mod:setValue>Step in - support the revolutionary.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO][NAME]autoReward[/NAME]Reward Stuff(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO] [INFO][NAME]autoReward[/NAME]Reward Stuff(M)[/INFO])[/FightINFO]</mod:setValue>
-          </mod:findLike>
-        </mod:findLike>
-      </mod:findLike>
-    </mod:findLike>
-  </mod:findName>
-  <mod:findName name="LEECH_TAVERN" type="event">
-    <mod:findLike type="choice">
-      <mod:selector hidden="true"/>
-      <mod:findLike type="event">
-        <mod:findLike type="choice">
-          <mod:selector hidden="true"/>
-          <mod:findLike type="event">
-            <mod:findLike type="choice">
-              <mod:selector hidden="true"/>
-              <mod:findLike type="text">
-                <mod:selector>Continue...</mod:selector>
-                <mod:setValue>Continue...[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO][NAME]autoReward[/NAME]Reward Stuff(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO] [INFO][NAME]autoReward[/NAME]Reward Stuff(M)[/INFO])[/FightINFO]</mod:setValue>
-              </mod:findLike>
-            </mod:findLike>
-          </mod:findLike>
-        </mod:findLike>
-      </mod:findLike>
-    </mod:findLike>
-  </mod:findName>
-  <mod:findName name="LEECH_TAVERN" type="event">
-    <mod:findLike type="choice">
-      <mod:findLike type="text">
-        <mod:selector>Avoid the tavern.</mod:selector>
-        <mod:setValue>Avoid the tavern.[INFO][NAME]storageCheck[/NAME]Storage Check[/INFO]</mod:setValue>
-      </mod:findLike>
-    </mod:findLike>
-  </mod:findName>
-  <mod:findName name="LEECH_TAVERN" type="event">
-    <mod:findLike type="choice">
-      <mod:findLike type="event">
-        <mod:findLike type="choice">
-          <mod:findLike type="text">
-            <mod:selector>Do something onboard the ship.</mod:selector>
-            <mod:setValue>Do something onboard the ship.[INFO][NAME]storageCheck[/NAME]Storage Check[/INFO]</mod:setValue>
-          </mod:findLike>
-        </mod:findLike>
-      </mod:findLike>
-    </mod:findLike>
-  </mod:findName>
   <mod:findName name="LEECH_COALITION_FEDUP" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true"/>
@@ -721,30 +596,30 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="NEBULA_LEECH_SUICIDEMOON" type="event">
+  <mod:findName name="LEECH_TAVERN" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
-        <mod:selector>This is despicable!</mod:selector>
-        <mod:setValue>This is despicable![FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:selector>Visit.</mod:selector>
+        <mod:setValue>Visit.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO][NAME]crewMember[/NAME]Gain a crew(Leech)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO] [INFO][NAME]crewMember[/NAME]Gain a crew(Leech)[/INFO])[/FightINFO][FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO][NAME]autoReward[/NAME]Reward Stuff(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO] [INFO][NAME]autoReward[/NAME]Reward Stuff(M)[/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="NEBULA_LEECH_SUICIDEMOON" type="event">
+  <mod:findName name="LEECH_TAVERN" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true"/>
       <mod:findLike type="event">
         <mod:findLike type="choice">
           <mod:selector hidden="true"/>
           <mod:findLike type="text">
-            <mod:selector>Attack these bastards!</mod:selector>
-            <mod:setValue>Attack these bastards![FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])[/FightINFO]</mod:setValue>
+            <mod:selector>Step in - support the loyalist.</mod:selector>
+            <mod:setValue>Step in - support the loyalist.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO][NAME]crewMember[/NAME]Gain a crew(Leech)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO] [INFO][NAME]crewMember[/NAME]Gain a crew(Leech)[/INFO])[/FightINFO]</mod:setValue>
           </mod:findLike>
         </mod:findLike>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="NEBULA_LEECH_SUICIDEMOON" type="event">
+  <mod:findName name="LEECH_TAVERN" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true"/>
       <mod:findLike type="event">
@@ -755,7 +630,7 @@
               <mod:selector hidden="true"/>
               <mod:findLike type="text">
                 <mod:selector>Continue...</mod:selector>
-                <mod:setValue>Continue...[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])[/FightINFO]</mod:setValue>
+                <mod:setValue>Continue...[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO][NAME]crewMember[/NAME]Gain a crew(Leech)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO] [INFO][NAME]crewMember[/NAME]Gain a crew(Leech)[/INFO])[/FightINFO]</mod:setValue>
               </mod:findLike>
             </mod:findLike>
           </mod:findLike>
@@ -763,23 +638,48 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="NEBULA_LEECH_SUICIDEMOON" type="event">
+  <mod:findName name="LEECH_TAVERN" type="event">
     <mod:findLike type="choice">
-      <mod:findLike type="text">
-        <mod:selector>Pay the fee to obliterate you and your ship violently.</mod:selector>
-        <mod:setValue>Pay the fee to obliterate you and your ship violently.[INFO][NAME]unlockCustomShip[/NAME]&lt;#&gt;Unlock Ship(Gold)[/INFO][INFO][NAME]damage[/NAME]&lt;!&gt;Damage Hull(999)[/INFO][INFO][NAME]itemModify[/NAME]~-50[/INFO]</mod:setValue>
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="text">
+            <mod:selector>Step in - support the revolutionary.</mod:selector>
+            <mod:setValue>Step in - support the revolutionary.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO][NAME]autoReward[/NAME]Reward Stuff(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO] [INFO][NAME]autoReward[/NAME]Reward Stuff(M)[/INFO])[/FightINFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="NEBULA_LEECH_SUICIDEMOON" type="event">
+  <mod:findName name="LEECH_TAVERN" type="event">
     <mod:findLike type="choice">
-      <mod:findLike type="text">
-        <mod:selector>Ignore the Slug.</mod:selector>
-        <mod:setValue>Ignore the Slug.[INFO][NAME]storageCheck[/NAME]Storage Check[/INFO]</mod:setValue>
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="event">
+            <mod:findLike type="choice">
+              <mod:selector hidden="true"/>
+              <mod:findLike type="text">
+                <mod:selector>Continue...</mod:selector>
+                <mod:setValue>Continue...[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO][NAME]autoReward[/NAME]Reward Stuff(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO] [INFO][NAME]autoReward[/NAME]Reward Stuff(M)[/INFO])[/FightINFO]</mod:setValue>
+              </mod:findLike>
+            </mod:findLike>
+          </mod:findLike>
+        </mod:findLike>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="NEBULA_LEECH_SUICIDEMOON" type="event">
+  <mod:findName name="LEECH_TAVERN" type="event">
+    <mod:findLike type="choice">
+      <mod:findLike type="text">
+        <mod:selector>Avoid the tavern.</mod:selector>
+        <mod:setValue>Avoid the tavern.[INFO][NAME]storageCheck[/NAME]Storage Check[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="LEECH_TAVERN" type="event">
     <mod:findLike type="choice">
       <mod:findLike type="event">
         <mod:findLike type="choice">
@@ -791,16 +691,429 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="LEECH_SUICIDEMOON_WIN" type="event">
+  <mod:findName name="NEBULA_LIGHT_LEECH_GARDEN" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
-        <mod:selector>Take charge of the queue now that the Slug is dead.</mod:selector>
-        <mod:setValue>Take charge of the queue now that the Slug is dead.[INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO]</mod:setValue>
+        <mod:selector>Dock with the outpost.</mod:selector>
+        <mod:setValue>Dock with the outpost.[FightINFO]Fight(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(SR: [INFO][NAME]autoReward[/NAME]Reward { Only(H)[/INFO])[/FightINFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="NEBULA_LEECH_LITTERING" type="event">
+  <mod:findName name="NEBULA_LIGHT_LEECH_GARDEN" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="text">
+            <mod:selector>Continue...</mod:selector>
+            <mod:setValue>Continue...[FightINFO]Fight(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(SR: [INFO][NAME]autoReward[/NAME]Reward { Only(H)[/INFO])[/FightINFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_LIGHT_LEECH_GARDEN" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true" req="LIST_CREW_VAMPWEED"/>
+      <mod:findLike type="text">
+        <mod:selector>(Vampweed Crew) Request access to the outpost.</mod:selector>
+        <mod:setValue>(Vampweed Crew) Request access to the outpost.[INFO][NAME]autoReward[/NAME]Reward { Only(H)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_LIGHT_LEECH_GARDEN" type="event">
+    <mod:findLike type="choice">
+      <mod:findLike type="text">
+        <mod:selector>Ignore the outpost.</mod:selector>
+        <mod:setValue>Ignore the outpost.[INFO][NAME]storageCheck[/NAME]Storage Check[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_LIGHT_LEECH_GARDEN" type="event">
+    <mod:findLike type="choice">
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:findLike type="text">
+            <mod:selector>Do something onboard the ship.</mod:selector>
+            <mod:setValue>Do something onboard the ship.[INFO][NAME]storageCheck[/NAME]Storage Check[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="LEECH_GARDEN_VISIT" type="event">
+    <mod:findLike type="choice">
+      <mod:findLike type="text">
+        <mod:selector>Buy one of their Spore weapons.</mod:selector>
+        <mod:setValue>Buy one of their Spore weapons.[INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Spore)[/INFO][INFO][NAME]itemModify[/NAME]-60≤~≤-55[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="LEECH_GARDEN_VISIT" type="event">
+    <mod:findLike type="choice">
+      <mod:findLike type="text">
+        <mod:selector>Hire one of the gardeners.</mod:selector>
+        <mod:setValue>Hire one of the gardeners.[INFO][NAME]crewMember[/NAME]Gain a crew(Orchid Vampweed)[/INFO][INFO][NAME]itemModify[/NAME]-55≤~≤-40[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_LIGHT_LEECH_DARWIN_FTL" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>Move in to investigate.</mod:selector>
+        <mod:setValue>Move in to investigate.[INFO][NAME]unlockCustomShip[/NAME]&lt;#&gt;Unlock Ship(Gold)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_LIGHT_LEECH_DARWIN_FTL" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="text">
+            <mod:selector>What is this place?</mod:selector>
+            <mod:setValue>What is this place?[INFO][NAME]unlockCustomShip[/NAME]&lt;#&gt;Unlock Ship(Gold)[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_LIGHT_LEECH_DARWIN_FTL" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="event">
+            <mod:findLike type="choice">
+              <mod:selector hidden="true"/>
+              <mod:findLike type="text">
+                <mod:selector>Ask to be let inside.</mod:selector>
+                <mod:setValue>Ask to be let inside.[INFO][NAME]unlockCustomShip[/NAME]&lt;#&gt;Unlock Ship(Gold)[/INFO]</mod:setValue>
+              </mod:findLike>
+            </mod:findLike>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_LIGHT_LEECH_DARWIN_FTL" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="event">
+            <mod:findLike type="choice">
+              <mod:selector hidden="true"/>
+              <mod:findLike type="event">
+                <mod:findLike type="choice">
+                  <mod:findLike type="text">
+                    <mod:selector>Offer to help dig.</mod:selector>
+                    <mod:setValue>Offer to help dig.[INFO]50% [NAME]autoReward[/NAME]Reward Standard(L)[/INFO][INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO]</mod:setValue>
+                  </mod:findLike>
+                </mod:findLike>
+              </mod:findLike>
+            </mod:findLike>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_LIGHT_LEECH_DARWIN_FTL" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="event">
+            <mod:findLike type="choice">
+              <mod:selector hidden="true"/>
+              <mod:findLike type="event">
+                <mod:findLike type="choice">
+                  <mod:findLike type="event">
+                    <mod:findLike type="choice">
+                      <mod:selector hidden="true" req="LIST_CHECK_ANY_CREW" lvl="1" blue="false"/>
+                      <mod:findLike type="text">
+                        <mod:selector>Send in a team of crew to assist.</mod:selector>
+                        <mod:setValue>Send in a team of crew to assist.[INFO]50% [NAME]autoReward[/NAME]Reward Standard(L)[/INFO]</mod:setValue>
+                      </mod:findLike>
+                    </mod:findLike>
+                  </mod:findLike>
+                </mod:findLike>
+              </mod:findLike>
+            </mod:findLike>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_LIGHT_LEECH_DARWIN_FTL" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="event">
+            <mod:findLike type="choice">
+              <mod:selector hidden="true"/>
+              <mod:findLike type="event">
+                <mod:findLike type="choice">
+                  <mod:findLike type="event">
+                    <mod:findLike type="choice">
+                      <mod:selector hidden="true" req="LIST_CREW_ELITE"/>
+                      <mod:findLike type="text">
+                        <mod:selector>(Elite Crew) Send in your crew.</mod:selector>
+                        <mod:setValue>(Elite Crew) Send in your crew.[INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO]</mod:setValue>
+                      </mod:findLike>
+                    </mod:findLike>
+                  </mod:findLike>
+                </mod:findLike>
+              </mod:findLike>
+            </mod:findLike>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_LIGHT_LEECH_DARWIN_FTL" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="event">
+            <mod:findLike type="choice">
+              <mod:selector hidden="true"/>
+              <mod:findLike type="event">
+                <mod:findLike type="choice">
+                  <mod:findLike type="event">
+                    <mod:findLike type="choice">
+                      <mod:selector hidden="true" req="LIST_CREW_ENGINEER"/>
+                      <mod:findLike type="text">
+                        <mod:selector>(Engineer Crew) Send in your Engineer.</mod:selector>
+                        <mod:setValue>(Engineer Crew) Send in your Engineer.[INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO]</mod:setValue>
+                      </mod:findLike>
+                    </mod:findLike>
+                  </mod:findLike>
+                </mod:findLike>
+              </mod:findLike>
+            </mod:findLike>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_LIGHT_LEECH_DARWIN_FTL" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="event">
+            <mod:findLike type="choice">
+              <mod:selector hidden="true"/>
+              <mod:findLike type="event">
+                <mod:findLike type="choice">
+                  <mod:findLike type="event">
+                    <mod:findLike type="choice">
+                      <mod:selector hidden="true" req="unique_tyrdeo_bird"/>
+                      <mod:findLike type="text">
+                        <mod:selector>(Wealsey) Send the bird in.</mod:selector>
+                        <mod:setValue>(Wealsey) Send the bird in.[INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO][INFO][NAME]removeCrew[/NAME]&lt;!&gt;Lose your crew(UNCLONABLE)[/INFO]</mod:setValue>
+                      </mod:findLike>
+                    </mod:findLike>
+                  </mod:findLike>
+                </mod:findLike>
+              </mod:findLike>
+            </mod:findLike>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_LIGHT_LEECH_DARWIN_FTL" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="event">
+            <mod:findLike type="choice">
+              <mod:selector hidden="true"/>
+              <mod:findLike type="event">
+                <mod:findLike type="choice">
+                  <mod:findLike type="event">
+                    <mod:findLike type="choice">
+                      <mod:selector hidden="true" req="unique_tyrdeo_bird"/>
+                      <mod:findLike type="event">
+                        <mod:findLike type="choice">
+                          <mod:selector hidden="true" req="unique_tyrdeo" lvl="1" blue="false"/>
+                          <mod:findLike type="text">
+                            <mod:selector>(Tyrdeo) Have Tyrdeo call Wealsey back.</mod:selector>
+                            <mod:setValue>(Tyrdeo) Have Tyrdeo call Wealsey back.[INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO]</mod:setValue>
+                          </mod:findLike>
+                        </mod:findLike>
+                      </mod:findLike>
+                    </mod:findLike>
+                  </mod:findLike>
+                </mod:findLike>
+              </mod:findLike>
+            </mod:findLike>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_LIGHT_LEECH_DARWIN_FTL" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="event">
+            <mod:findLike type="choice">
+              <mod:selector hidden="true"/>
+              <mod:findLike type="event">
+                <mod:findLike type="choice">
+                  <mod:findLike type="event">
+                    <mod:findLike type="choice">
+                      <mod:selector hidden="true" req="unique_tyrdeo_bird"/>
+                      <mod:findLike type="event">
+                        <mod:findLike type="choice">
+                          <mod:selector hidden="true" req="unique_tyrdeo" lvl="1" blue="false"/>
+                          <mod:findLike type="event">
+                            <mod:findLike type="choice">
+                              <mod:selector hidden="true"/>
+                              <mod:findLike type="text">
+                                <mod:selector>Pull the wire.</mod:selector>
+                                <mod:setValue>Pull the wire.[INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO]</mod:setValue>
+                              </mod:findLike>
+                            </mod:findLike>
+                          </mod:findLike>
+                        </mod:findLike>
+                      </mod:findLike>
+                    </mod:findLike>
+                  </mod:findLike>
+                </mod:findLike>
+              </mod:findLike>
+            </mod:findLike>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_LIGHT_LEECH_DARWIN_FTL" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="event">
+            <mod:findLike type="choice">
+              <mod:selector hidden="true"/>
+              <mod:findLike type="event">
+                <mod:findLike type="choice">
+                  <mod:findLike type="event">
+                    <mod:findLike type="choice">
+                      <mod:selector hidden="true" req="unique_tyrdeo_bird"/>
+                      <mod:findLike type="event">
+                        <mod:findLike type="choice">
+                          <mod:selector hidden="true" req="unique_tyrdeo" lvl="0" max_lvl="0" blue="false"/>
+                          <mod:findLike type="text">
+                            <mod:selector>Try to call Wealsey back.</mod:selector>
+                            <mod:setValue>Try to call Wealsey back.[INFO][NAME]removeCrew[/NAME]&lt;!&gt;Lose your crew(UNCLONABLE)[/INFO]</mod:setValue>
+                          </mod:findLike>
+                        </mod:findLike>
+                      </mod:findLike>
+                    </mod:findLike>
+                  </mod:findLike>
+                </mod:findLike>
+              </mod:findLike>
+            </mod:findLike>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_LIGHT_LEECH_DARWIN_FTL" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="event">
+            <mod:findLike type="choice">
+              <mod:selector hidden="true"/>
+              <mod:findLike type="event">
+                <mod:findLike type="choice">
+                  <mod:findLike type="text">
+                    <mod:selector>Bribe them to let you in.</mod:selector>
+                    <mod:setValue>Bribe them to let you in.[INFO][NAME]itemModify[/NAME]~-50[/INFO][INFO][NAME]unlockCustomShip[/NAME]&lt;#&gt;Unlock Ship(Gold)[/INFO]</mod:setValue>
+                  </mod:findLike>
+                </mod:findLike>
+              </mod:findLike>
+            </mod:findLike>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_LIGHT_LEECH_DARWIN_FTL" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="event">
+            <mod:findLike type="choice">
+              <mod:selector hidden="true"/>
+              <mod:findLike type="event">
+                <mod:findLike type="choice">
+                  <mod:findLike type="event">
+                    <mod:findLike type="choice">
+                      <mod:selector hidden="true"/>
+                      <mod:findLike type="text">
+                        <mod:selector>Launch!</mod:selector>
+                        <mod:setValue>Launch![INFO][NAME]unlockCustomShip[/NAME]&lt;#&gt;Unlock Ship(Gold)[/INFO][INFO][NAME]damage[/NAME]&lt;!&gt;Damage Hull(999)[/INFO]</mod:setValue>
+                      </mod:findLike>
+                    </mod:findLike>
+                  </mod:findLike>
+                </mod:findLike>
+              </mod:findLike>
+            </mod:findLike>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_LIGHT_LEECH_DARWIN_FTL" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>Ignore the structure.</mod:selector>
+        <mod:setValue>Ignore the structure.[INFO][NAME]storageCheck[/NAME]Storage Check[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_LIGHT_LEECH_DARWIN_FTL" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:findLike type="text">
+            <mod:selector>Do something onboard the ship.</mod:selector>
+            <mod:setValue>Do something onboard the ship.[INFO][NAME]storageCheck[/NAME]Storage Check[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_LIGHT_LEECH_LITTERING" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
@@ -809,7 +1122,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="NEBULA_LEECH_LITTERING" type="event">
+  <mod:findName name="NEBULA_LIGHT_LEECH_LITTERING" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true"/>
       <mod:findLike type="event">
@@ -823,7 +1136,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="NEBULA_LEECH_LITTERING" type="event">
+  <mod:findName name="NEBULA_LIGHT_LEECH_LITTERING" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true"/>
       <mod:findLike type="event">
@@ -842,7 +1155,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="NEBULA_LEECH_LITTERING" type="event">
+  <mod:findName name="NEBULA_LIGHT_LEECH_LITTERING" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true"/>
       <mod:findLike type="event">
@@ -856,7 +1169,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="NEBULA_LEECH_LITTERING" type="event">
+  <mod:findName name="NEBULA_LIGHT_LEECH_LITTERING" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true"/>
       <mod:findLike type="event">
@@ -875,7 +1188,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="NEBULA_LEECH_LITTERING" type="event">
+  <mod:findName name="NEBULA_LIGHT_LEECH_LITTERING" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true"/>
       <mod:findLike type="event">
@@ -889,7 +1202,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="NEBULA_LEECH_LITTERING" type="event">
+  <mod:findName name="NEBULA_LIGHT_LEECH_LITTERING" type="event">
     <mod:findLike type="choice">
       <mod:findLike type="text">
         <mod:selector>Ignore the ship.</mod:selector>
@@ -897,7 +1210,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="NEBULA_LEECH_LITTERING" type="event">
+  <mod:findName name="NEBULA_LIGHT_LEECH_LITTERING" type="event">
     <mod:findLike type="choice">
       <mod:findLike type="event">
         <mod:findLike type="choice">
@@ -924,6 +1237,736 @@
       <mod:findLike type="text">
         <mod:selector>(Clone Bay) Collect some DNA swabs and clone them.</mod:selector>
         <mod:setValue>(Clone Bay) Collect some DNA swabs and clone them.[INFO][NAME]crewMember[/NAME]Gain a crew(Leech)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_LIGHT_LEECH_FAKE_STORE" type="event">
+    <mod:findLike type="choice">
+      <mod:findLike type="text">
+        <mod:selector>Attack the store.</mod:selector>
+        <mod:setValue>Attack the store.[FightINFO]Fight(CK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO])(HK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(M)[/INFO])(SR: [INFO]20% [NAME]autoReward[/NAME]Reward Stuff(R)[/INFO] [INFO]5% [NAME]autoReward[/NAME]Reward Standard(L)[/INFO] [INFO]5% [NAME]crewMember[/NAME]Gain a crew(Leech)[/INFO])[/FightINFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_LIGHT_LEECH_FAKE_STORE" type="event">
+    <mod:findLike type="choice">
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="text">
+            <mod:selector>Continue...</mod:selector>
+            <mod:setValue>Continue...[FightINFO]Fight(CK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO])(HK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(M)[/INFO])(SR: [INFO]20% [NAME]autoReward[/NAME]Reward Stuff(R)[/INFO] [INFO]5% [NAME]autoReward[/NAME]Reward Standard(L)[/INFO] [INFO]5% [NAME]crewMember[/NAME]Gain a crew(Leech)[/INFO])[/FightINFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_LIGHT_LEECH_FAKE_STORE" type="event">
+    <mod:findLike type="choice">
+      <mod:findLike type="text">
+        <mod:selector>Let this opportunity pass you by.</mod:selector>
+        <mod:setValue>Let this opportunity pass you by.[INFO]&lt;=[/INFO][INFO][NAME]storageCheck[/NAME]Storage Check[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_LIGHT_LEECH_FAKE_STORE" type="event">
+    <mod:findLike type="choice">
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:findLike type="text">
+            <mod:selector>Relent and buy something.</mod:selector>
+            <mod:setValue>Relent and buy something.[INFO]&lt;=[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_LIGHT_LEECH_FAKE_STORE" type="event">
+    <mod:findLike type="choice">
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:findLike type="text">
+            <mod:selector>Ignore the leech.</mod:selector>
+            <mod:setValue>Ignore the leech.[INFO][NAME]storageCheck[/NAME]Storage Check[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_LIGHT_LEECH_FAKE_STORE" type="event">
+    <mod:findLike type="choice">
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:findLike type="event">
+            <mod:findLike type="choice">
+              <mod:findLike type="text">
+                <mod:selector>Do something onboard the ship.</mod:selector>
+                <mod:setValue>Do something onboard the ship.[INFO][NAME]storageCheck[/NAME]Storage Check[/INFO]</mod:setValue>
+              </mod:findLike>
+            </mod:findLike>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="FAKE_STORE_BROWSE_1" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="loc_sekmet_attempted" lvl="0" max_lvl="0" blue="false"/>
+      <mod:findLike type="text">
+        <mod:selector>Ask if they have a Sehkmet Minelauncher.</mod:selector>
+        <mod:setValue>Ask if they have a Sehkmet Minelauncher.[INFO]&lt;=[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="FAKE_STORE_BROWSE_1" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="loc_sekmet_attempted" lvl="0" max_lvl="0" blue="false"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:findLike type="text">
+            <mod:selector>Ask for something else.</mod:selector>
+            <mod:setValue>Ask for something else.[INFO]&lt;=[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="FAKE_STORE_BROWSE_1" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="loc_nyx_attempted" lvl="0" max_lvl="0" blue="false"/>
+      <mod:findLike type="text">
+        <mod:selector>Ask if they have a Nyx Missile Launcher.</mod:selector>
+        <mod:setValue>Ask if they have a Nyx Missile Launcher.[INFO]&lt;=[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="FAKE_STORE_BROWSE_1" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="loc_nyx_attempted" lvl="0" max_lvl="0" blue="false"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:findLike type="text">
+            <mod:selector>Ask for something else.</mod:selector>
+            <mod:setValue>Ask for something else.[INFO]&lt;=[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="FAKE_STORE_BROWSE_1" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="loc_asclepius_attempted" lvl="0" max_lvl="0" blue="false"/>
+      <mod:findLike type="text">
+        <mod:selector>Ask if they have an Asclepius Missile Launcher.</mod:selector>
+        <mod:setValue>Ask if they have an Asclepius Missile Launcher.[INFO]&lt;=[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="FAKE_STORE_BROWSE_1" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="loc_asclepius_attempted" lvl="0" max_lvl="0" blue="false"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:findLike type="text">
+            <mod:selector>Ask for something else.</mod:selector>
+            <mod:setValue>Ask for something else.[INFO]&lt;=[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="FAKE_STORE_BROWSE_1" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="loc_momus_attempted" lvl="0" max_lvl="0" blue="false"/>
+      <mod:findLike type="text">
+        <mod:selector>Ask if they have a Momus Missile Launcher.</mod:selector>
+        <mod:setValue>Ask if they have a Momus Missile Launcher.[INFO]&lt;=[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="FAKE_STORE_BROWSE_1" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="loc_momus_attempted" lvl="0" max_lvl="0" blue="false"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:findLike type="text">
+            <mod:selector>Ask for something else.</mod:selector>
+            <mod:setValue>Ask for something else.[INFO]&lt;=[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="FAKE_STORE_BROWSE_1" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="loc_pre_ion_attempted" lvl="0" max_lvl="0" blue="false"/>
+      <mod:findLike type="text">
+        <mod:selector>Ask if they have a Pre-emptive Ion Blast.</mod:selector>
+        <mod:setValue>Ask if they have a Pre-emptive Ion Blast.[INFO]&lt;=[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="FAKE_STORE_BROWSE_1" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="loc_pre_ion_attempted" lvl="0" max_lvl="0" blue="false"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:findLike type="text">
+            <mod:selector>Ask for something else.</mod:selector>
+            <mod:setValue>Ask for something else.[INFO]&lt;=[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="FAKE_STORE_BROWSE_1" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="loc_stunbomb_attempted" lvl="0" max_lvl="0" blue="false"/>
+      <mod:findLike type="text">
+        <mod:selector>Ask if they have a Stun Bomb.</mod:selector>
+        <mod:setValue>Ask if they have a Stun Bomb.[INFO]&lt;=[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="FAKE_STORE_BROWSE_1" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="loc_stunbomb_attempted" lvl="0" max_lvl="0" blue="false"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:findLike type="text">
+            <mod:selector>Ask for something else.</mod:selector>
+            <mod:setValue>Ask for something else.[INFO]&lt;=[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="FAKE_STORE_BROWSE_1" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="loc_cons_bomb_attempted" lvl="0" max_lvl="0" blue="false"/>
+      <mod:findLike type="text">
+        <mod:selector>Ask if they have a Conservative Bomb.</mod:selector>
+        <mod:setValue>Ask if they have a Conservative Bomb.[INFO]&lt;=[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="FAKE_STORE_BROWSE_1" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="loc_cons_bomb_attempted" lvl="0" max_lvl="0" blue="false"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:findLike type="text">
+            <mod:selector>Ask for something else.</mod:selector>
+            <mod:setValue>Ask for something else.[INFO]&lt;=[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="FAKE_STORE_BROWSE_1" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="loc_bl2_attempted" lvl="0" max_lvl="0" blue="false"/>
+      <mod:findLike type="text">
+        <mod:selector>Ask if they have a Burst Laser 2.</mod:selector>
+        <mod:setValue>Ask if they have a Burst Laser 2.[INFO]&lt;=[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="FAKE_STORE_BROWSE_1" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="loc_bl2_attempted" lvl="0" max_lvl="0" blue="false"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:findLike type="text">
+            <mod:selector>Ask for something else.</mod:selector>
+            <mod:setValue>Ask for something else.[INFO]&lt;=[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="FAKE_STORE_BROWSE_1" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="loc_halb_attempted" lvl="0" max_lvl="0" blue="false"/>
+      <mod:findLike type="text">
+        <mod:selector>Ask if they have a Halberd Beam.</mod:selector>
+        <mod:setValue>Ask if they have a Halberd Beam.[INFO]&lt;=[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="FAKE_STORE_BROWSE_1" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="loc_halb_attempted" lvl="0" max_lvl="0" blue="false"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:findLike type="text">
+            <mod:selector>Ask for something else.</mod:selector>
+            <mod:setValue>Ask for something else.[INFO]&lt;=[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="FAKE_STORE_BROWSE_1" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="loc_cinq_attempted" lvl="0" max_lvl="0" blue="false"/>
+      <mod:findLike type="text">
+        <mod:selector>Ask if they have a Cinquedea Pinpoint.</mod:selector>
+        <mod:setValue>Ask if they have a Cinquedea Pinpoint.[INFO]&lt;=[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="FAKE_STORE_BROWSE_1" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="loc_cinq_attempted" lvl="0" max_lvl="0" blue="false"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:findLike type="text">
+            <mod:selector>Ask for something else.</mod:selector>
+            <mod:setValue>Ask for something else.[INFO]&lt;=[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="FAKE_STORE_BROWSE_1" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="loc_energy_attempted" lvl="0" max_lvl="0" blue="false"/>
+      <mod:findLike type="text">
+        <mod:selector>Ask if they have an Energy Stunner.</mod:selector>
+        <mod:setValue>Ask if they have an Energy Stunner.[INFO]&lt;=[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="FAKE_STORE_BROWSE_1" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="loc_energy_attempted" lvl="0" max_lvl="0" blue="false"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:findLike type="text">
+            <mod:selector>Ask for something else.</mod:selector>
+            <mod:setValue>Ask for something else.[INFO]&lt;=[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="FAKE_STORE_BROWSE_2" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="loc_sekmet_attempted" lvl="0" max_lvl="0" blue="false"/>
+      <mod:findLike type="text">
+        <mod:selector>Ask if they have a Sehkmet Minelauncher.</mod:selector>
+        <mod:setValue>Ask if they have a Sehkmet Minelauncher.[INFO]&lt;=[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="FAKE_STORE_BROWSE_2" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="loc_sekmet_attempted" lvl="0" max_lvl="0" blue="false"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:findLike type="text">
+            <mod:selector>Ask for something else.</mod:selector>
+            <mod:setValue>Ask for something else.[INFO]&lt;=[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="FAKE_STORE_BROWSE_2" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="loc_nyx_attempted" lvl="0" max_lvl="0" blue="false"/>
+      <mod:findLike type="text">
+        <mod:selector>Ask if they have a Nyx Missile Launcher.</mod:selector>
+        <mod:setValue>Ask if they have a Nyx Missile Launcher.[INFO]&lt;=[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="FAKE_STORE_BROWSE_2" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="loc_nyx_attempted" lvl="0" max_lvl="0" blue="false"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:findLike type="text">
+            <mod:selector>Ask for something else.</mod:selector>
+            <mod:setValue>Ask for something else.[INFO]&lt;=[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="FAKE_STORE_BROWSE_2" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="loc_asclepius_attempted" lvl="0" max_lvl="0" blue="false"/>
+      <mod:findLike type="text">
+        <mod:selector>Ask if they have an Asclepius Missile Launcher.</mod:selector>
+        <mod:setValue>Ask if they have an Asclepius Missile Launcher.[INFO]&lt;=[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="FAKE_STORE_BROWSE_2" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="loc_asclepius_attempted" lvl="0" max_lvl="0" blue="false"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:findLike type="text">
+            <mod:selector>Ask for something else.</mod:selector>
+            <mod:setValue>Ask for something else.[INFO]&lt;=[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="FAKE_STORE_BROWSE_2" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="loc_momus_attempted" lvl="0" max_lvl="0" blue="false"/>
+      <mod:findLike type="text">
+        <mod:selector>Ask if they have a Momus Missile Launcher.</mod:selector>
+        <mod:setValue>Ask if they have a Momus Missile Launcher.[INFO]&lt;=[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="FAKE_STORE_BROWSE_2" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="loc_momus_attempted" lvl="0" max_lvl="0" blue="false"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:findLike type="text">
+            <mod:selector>Ask for something else.</mod:selector>
+            <mod:setValue>Ask for something else.[INFO]&lt;=[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="FAKE_STORE_BROWSE_2" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="loc_pre_ion_attempted" lvl="0" max_lvl="0" blue="false"/>
+      <mod:findLike type="text">
+        <mod:selector>Ask if they have a Pre-emptive Ion Blast.</mod:selector>
+        <mod:setValue>Ask if they have a Pre-emptive Ion Blast.[INFO]&lt;=[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="FAKE_STORE_BROWSE_2" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="loc_pre_ion_attempted" lvl="0" max_lvl="0" blue="false"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:findLike type="text">
+            <mod:selector>Ask for something else.</mod:selector>
+            <mod:setValue>Ask for something else.[INFO]&lt;=[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="FAKE_STORE_BROWSE_2" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="loc_stunbomb_attempted" lvl="0" max_lvl="0" blue="false"/>
+      <mod:findLike type="text">
+        <mod:selector>Ask if they have a Stun Bomb.</mod:selector>
+        <mod:setValue>Ask if they have a Stun Bomb.[INFO]&lt;=[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="FAKE_STORE_BROWSE_2" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="loc_stunbomb_attempted" lvl="0" max_lvl="0" blue="false"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:findLike type="text">
+            <mod:selector>Ask for something else.</mod:selector>
+            <mod:setValue>Ask for something else.[INFO]&lt;=[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="FAKE_STORE_BROWSE_2" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="loc_cons_bomb_attempted" lvl="0" max_lvl="0" blue="false"/>
+      <mod:findLike type="text">
+        <mod:selector>Ask if they have a Conservative Bomb.</mod:selector>
+        <mod:setValue>Ask if they have a Conservative Bomb.[INFO]&lt;=[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="FAKE_STORE_BROWSE_2" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="loc_cons_bomb_attempted" lvl="0" max_lvl="0" blue="false"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:findLike type="text">
+            <mod:selector>Ask for something else.</mod:selector>
+            <mod:setValue>Ask for something else.[INFO]&lt;=[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="FAKE_STORE_BROWSE_2" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="loc_bl2_attempted" lvl="0" max_lvl="0" blue="false"/>
+      <mod:findLike type="text">
+        <mod:selector>Ask if they have a Burst Laser 2.</mod:selector>
+        <mod:setValue>Ask if they have a Burst Laser 2.[INFO]&lt;=[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="FAKE_STORE_BROWSE_2" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="loc_bl2_attempted" lvl="0" max_lvl="0" blue="false"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:findLike type="text">
+            <mod:selector>Ask for something else.</mod:selector>
+            <mod:setValue>Ask for something else.[INFO]&lt;=[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="FAKE_STORE_BROWSE_2" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="loc_halb_attempted" lvl="0" max_lvl="0" blue="false"/>
+      <mod:findLike type="text">
+        <mod:selector>Ask if they have a Halberd Beam.</mod:selector>
+        <mod:setValue>Ask if they have a Halberd Beam.[INFO]&lt;=[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="FAKE_STORE_BROWSE_2" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="loc_halb_attempted" lvl="0" max_lvl="0" blue="false"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:findLike type="text">
+            <mod:selector>Ask for something else.</mod:selector>
+            <mod:setValue>Ask for something else.[INFO]&lt;=[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="FAKE_STORE_BROWSE_2" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="loc_cinq_attempted" lvl="0" max_lvl="0" blue="false"/>
+      <mod:findLike type="text">
+        <mod:selector>Ask if they have a Cinquedea Pinpoint.</mod:selector>
+        <mod:setValue>Ask if they have a Cinquedea Pinpoint.[INFO]&lt;=[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="FAKE_STORE_BROWSE_2" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="loc_cinq_attempted" lvl="0" max_lvl="0" blue="false"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:findLike type="text">
+            <mod:selector>Ask for something else.</mod:selector>
+            <mod:setValue>Ask for something else.[INFO]&lt;=[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="FAKE_STORE_BROWSE_2" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="loc_energy_attempted" lvl="0" max_lvl="0" blue="false"/>
+      <mod:findLike type="text">
+        <mod:selector>Ask if they have an Energy Stunner.</mod:selector>
+        <mod:setValue>Ask if they have an Energy Stunner.[INFO]&lt;=[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="FAKE_STORE_BROWSE_2" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="loc_energy_attempted" lvl="0" max_lvl="0" blue="false"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:findLike type="text">
+            <mod:selector>Ask for something else.</mod:selector>
+            <mod:setValue>Ask for something else.[INFO]&lt;=[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="FAKE_STORE_BROWSE_2" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="FAKE_SHOP_TRIED_ALL" blue="false"/>
+      <mod:findLike type="text">
+        <mod:selector>Ask them if they even have anything at all.</mod:selector>
+        <mod:setValue>Ask them if they even have anything at all.[INFO][NAME]modifyPursuit[/NAME]&lt;!&gt;Fleet Advance(1)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="FAKE_STORE_BROWSE_2" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="FAKE_SHOP_TRIED_ALL" blue="false"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector req="stability" lvl="0" max_lvl="25" blue="false"/>
+          <mod:findLike type="text">
+            <mod:selector>Ask them to give you some examples of items they have in stock.</mod:selector>
+            <mod:setValue>Ask them to give you some examples of items they have in stock.[INFO][NAME]boarders[/NAME]&lt;!&gt;Enemy Boarding(x2 Spider)[/INFO][INFO][NAME]crewMember[/NAME]Gain a crew(Spider)[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="FAKE_STORE_BROWSE_2" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="FAKE_SHOP_TRIED_ALL" blue="false"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector req="stability" lvl="0" max_lvl="25" blue="false"/>
+          <mod:findLike type="event">
+            <mod:findLike type="choice">
+              <mod:selector hidden="true"/>
+              <mod:findLike type="text">
+                <mod:selector>...What? No.</mod:selector>
+                <mod:setValue>...What? No.[INFO][NAME]storageCheck[/NAME]Storage Check[/INFO]</mod:setValue>
+              </mod:findLike>
+            </mod:findLike>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="FAKE_STORE_BROWSE_2" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="FAKE_SHOP_TRIED_ALL" blue="false"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector req="stability" lvl="0" max_lvl="25" blue="false"/>
+          <mod:findLike type="event">
+            <mod:findLike type="choice">
+              <mod:selector hidden="true"/>
+              <mod:findLike type="event">
+                <mod:findLike type="choice">
+                  <mod:findLike type="text">
+                    <mod:selector>Do something onboard the ship.</mod:selector>
+                    <mod:setValue>Do something onboard the ship.[INFO][NAME]storageCheck[/NAME]Storage Check[/INFO]</mod:setValue>
+                  </mod:findLike>
+                </mod:findLike>
+              </mod:findLike>
+            </mod:findLike>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="FAKE_STORE_BROWSE_2" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="FAKE_SHOP_TRIED_ALL" blue="false"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector req="stability" lvl="0" max_lvl="25" blue="false"/>
+          <mod:findLike type="event">
+            <mod:findLike type="choice">
+              <mod:selector hidden="true" req="unique_queen" lvl="0" max_lvl="0" blue="false"/>
+              <mod:findLike type="text">
+                <mod:selector>We'll take it.</mod:selector>
+                <mod:setValue>We'll take it.[INFO][NAME]boarders[/NAME]&lt;!&gt;Enemy Boarding(x2 Spider)[/INFO]</mod:setValue>
+              </mod:findLike>
+            </mod:findLike>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="FAKE_STORE_BROWSE_2" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="FAKE_SHOP_TRIED_ALL" blue="false"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector req="stability" lvl="0" max_lvl="25" blue="false"/>
+          <mod:findLike type="event">
+            <mod:findLike type="choice">
+              <mod:selector hidden="true" req="unique_queen"/>
+              <mod:findLike type="text">
+                <mod:selector>(Spider Queen) We'll take it.</mod:selector>
+                <mod:setValue>(Spider Queen) We'll take it.[INFO][NAME]crewMember[/NAME]Gain a crew(Spider)[/INFO]</mod:setValue>
+              </mod:findLike>
+            </mod:findLike>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="FAKE_STORE_BROWSE_2" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="FAKE_SHOP_TRIED_ALL" blue="false"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector req="stability" lvl="26" max_lvl="800" blue="false"/>
+          <mod:findLike type="text">
+            <mod:selector>Ask them to give you some examples of items they have in stock.</mod:selector>
+            <mod:setValue>Ask them to give you some examples of items they have in stock.[INFO][NAME]modifyPursuit[/NAME]&lt;!&gt;Fleet Advance(1)[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="FAKE_STORE_BROWSE_2" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="FAKE_SHOP_TRIED_ALL" blue="false"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector req="stability" lvl="26" max_lvl="800" blue="false"/>
+          <mod:findLike type="event">
+            <mod:findLike type="choice">
+              <mod:findLike type="text">
+                <mod:selector>You've had enough of this. Attack him out of sheer, unbridled frustration.</mod:selector>
+                <mod:setValue>You've had enough of this. Attack him out of sheer, unbridled frustration.[INFO]&lt;=[/INFO]</mod:setValue>
+              </mod:findLike>
+            </mod:findLike>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="FAKE_STORE_BROWSE_2" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="FAKE_SHOP_TRIED_ALL" blue="false"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector req="stability" lvl="26" max_lvl="800" blue="false"/>
+          <mod:findLike type="event">
+            <mod:findLike type="choice">
+              <mod:findLike type="event">
+                <mod:findLike type="choice">
+                  <mod:selector hidden="true"/>
+                  <mod:findLike type="text">
+                    <mod:selector>Continue...</mod:selector>
+                    <mod:setValue>Continue...[INFO]&lt;=[/INFO]</mod:setValue>
+                  </mod:findLike>
+                </mod:findLike>
+              </mod:findLike>
+            </mod:findLike>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="FAKE_STORE_BROWSE_2" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="FAKE_SHOP_TRIED_ALL" blue="false"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector req="stability" lvl="26" max_lvl="800" blue="false"/>
+          <mod:findLike type="event">
+            <mod:findLike type="choice">
+              <mod:selector hidden="true"/>
+              <mod:findLike type="text">
+                <mod:selector>Laugh it off.</mod:selector>
+                <mod:setValue>Laugh it off.[INFO][NAME]crewMember[/NAME]Gain a crew(Leech)[/INFO]</mod:setValue>
+              </mod:findLike>
+            </mod:findLike>
+          </mod:findLike>
+        </mod:findLike>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -1316,6 +2359,49 @@
           <mod:selector hidden="true"/>
           <mod:findLike type="event">
             <mod:findLike type="choice">
+              <mod:selector hidden="true" req="BLUELIST_WEAPONS_MIND_CONTROL"/>
+              <mod:findLike type="text">
+                <mod:selector>(Mind Control Weapon) Give us the cargo.</mod:selector>
+                <mod:setValue>(Mind Control Weapon) Give us the cargo.[INFO][NAME]autoReward[/NAME]Reward Item(M)[/INFO]</mod:setValue>
+              </mod:findLike>
+            </mod:findLike>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="DISTRESS_LEECH_GRAPHITI" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="event">
+            <mod:findLike type="choice">
+              <mod:selector hidden="true" req="BLUELIST_WEAPONS_MIND_CONTROL"/>
+              <mod:findLike type="event">
+                <mod:findLike type="choice">
+                  <mod:selector hidden="true"/>
+                  <mod:findLike type="text">
+                    <mod:selector>Bring the cargo back to the Fed ship.</mod:selector>
+                    <mod:setValue>Bring the cargo back to the Fed ship.[INFO][NAME]autoReward[/NAME]Reward Item(M)[/INFO]</mod:setValue>
+                  </mod:findLike>
+                </mod:findLike>
+              </mod:findLike>
+            </mod:findLike>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="DISTRESS_LEECH_GRAPHITI" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="event">
+            <mod:findLike type="choice">
               <mod:selector hidden="true" req="weapons" lvl="6"/>
               <mod:findLike type="text">
                 <mod:selector>(Upg. Weapons) Pull a trick shot and start blasting up all the asteroids.</mod:selector>
@@ -1469,7 +2555,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="NEBULA_ENCOUNTER_LEECH" type="event">
+  <mod:findName name="NEBULA_LIGHT_ENCOUNTER_LEECH" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
@@ -1496,7 +2582,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="NEBULA_ENCOUNTER_REVOLUTIONARY" type="event">
+  <mod:findName name="NEBULA_LIGHT_ENCOUNTER_REVOLUTIONARY" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
@@ -1523,7 +2609,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="NEBULA_ENCOUNTER_LEECH_COALITION" type="event">
+  <mod:findName name="NEBULA_LIGHT_ENCOUNTER_LEECH_COALITION" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
@@ -1550,7 +2636,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="NEBULA_ENCOUNTER_LEECH_ELITE" type="event">
+  <mod:findName name="NEBULA_LIGHT_ENCOUNTER_LEECH_ELITE" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true"/>
       <mod:findLike type="text">

@@ -1,17 +1,15 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-05-29 13:00+0000\n"
+"PO-Revision-Date: 2025-06-12 01:50+0000\n"
 "Last-Translator: Ukn <bbg100bbg@gmail.com>\n"
-"Language-Team: Russian <https://weblate.hyperq.be/projects/ftl-multiverse/"
-"dataevents_sector_federationxml/ru/>\n"
+"Language-Team: Russian <https://weblate.hyperq.be/projects/ftl-multiverse/dataevents_sector_federationxml/ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.16.4\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 5.11.4\n"
 
 #: src-en/data/events_sector_federation.xml:28
 msgid ""
@@ -28,72 +26,73 @@ msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FINISH_BEACON_FEDERATION\"]/choice[3]/text"
 msgstr "Ничего не делать."
 
-#: src-en/data/events_sector_federation.xml:57
+#: src-en/data/events_sector_federation.xml:58
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FEDERATION_SUPPLY\"]/text"
 msgstr ""
 "Вы обнаружили здесь военизированную станцию Федерации, и, похоже, они "
 "продают припасы проходящим союзным кораблям."
 
-#: src-en/data/events_sector_federation.xml:60
+#: src-en/data/events_sector_federation.xml:61
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FEDERATION_SUPPLY\"]/choice[1]/text"
 msgstr "Купить топливо."
 
-#: src-en/data/events_sector_federation.xml:69
+#: src-en/data/events_sector_federation.xml:70
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FEDERATION_SUPPLY\"]/choice[2]/text"
 msgstr "Купить боеприпасы."
 
-#: src-en/data/events_sector_federation.xml:78
+#: src-en/data/events_sector_federation.xml:79
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FEDERATION_SUPPLY\"]/choice[3]/text"
 msgstr "Купить орудие."
 
-#: src-en/data/events_sector_federation.xml:87
+#: src-en/data/events_sector_federation.xml:88
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FEDERATION_SUPPLY\"]/choice[4]/text"
 msgstr "Атаковать станцию!"
 
-#: src-en/data/events_sector_federation.xml:89
+#: src-en/data/events_sector_federation.xml:90
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FEDERATION_SUPPLY\"]/choice[4]/event/text"
-msgstr "От вашей агрессии никто не застрахован, даже союзные станции Федерации."
+msgstr ""
+"От вашей агрессии никто не застрахован, даже союзные станции Федерации."
 
-#: src-en/data/events_sector_federation.xml:92
+#: src-en/data/events_sector_federation.xml:93
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FEDERATION_SUPPLY\"]/choice[4]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_federation.xml:98
+#: src-en/data/events_sector_federation.xml:99
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FEDERATION_SUPPLY\"]/choice[5]/text"
 msgstr "Не обращать внимания на станцию."
 
-#: src-en/data/events_sector_federation.xml:100
+#: src-en/data/events_sector_federation.xml:101
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FEDERATION_SUPPLY\"]/choice[5]/event/text"
 msgstr "Вас не интересует станция. Вы не обращаете на нее внимания."
 
-#: src-en/data/events_sector_federation.xml:102
+#: src-en/data/events_sector_federation.xml:103
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FEDERATION_SUPPLY\"]/choice[5]/event/choice[1]/text"
 msgstr "Заняться чем-либо на корабле."
 
-#: src-en/data/events_sector_federation.xml:106
+#: src-en/data/events_sector_federation.xml:107
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FEDERATION_SUPPLY\"]/choice[5]/event/choice[2]/text"
 msgstr "Ничего не делать."
 
-#: src-en/data/events_sector_federation.xml:113
+#: src-en/data/events_sector_federation.xml:114
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FED_SUPPLY_STATION_KILL\"]/text"
 msgstr ""
 "Ваше ненужное, неспровоцированное, варварское нападение на станцию союзников"
 " Федерации было успешным, если можно назвать их убийство успехом. Вы "
-"разобрали то, что осталось."
+"разбираете то, что осталось."
 
-#: src-en/data/events_sector_federation.xml:118
+#: src-en/data/events_sector_federation.xml:119
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FEDERATION_FREECREW\"]/text"
 msgstr ""
@@ -102,217 +101,750 @@ msgstr ""
 "никаких шансов его отремонтировать. Полагаю, вы разрешите мне подняться на "
 "борт? Я техник по щитам и уверен, что мои навыки могут быть вам полезны\"."
 
-#: src-en/data/events_sector_federation.xml:120
+#: src-en/data/events_sector_federation.xml:121
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FEDERATION_FREECREW\"]/choice[1]/text"
 msgstr "Добро пожаловать на борт."
 
-#: src-en/data/events_sector_federation.xml:124
+#: src-en/data/events_sector_federation.xml:125
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FEDERATION_FREECREW\"]/choice[2]/text"
 msgstr "Нам больше не нужен экипаж, извините."
 
-#: src-en/data/events_sector_federation.xml:126
+#: src-en/data/events_sector_federation.xml:127
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FEDERATION_FREECREW\"]/choice[2]/event/text"
 msgstr ""
 "\"О... хорошо. Надеюсь, я смогу держать щиты под контролем, чтобы они не "
 "взорвались до того, как прибудет другой корабль с помощью...\""
 
-#: src-en/data/events_sector_federation.xml:128
+#: src-en/data/events_sector_federation.xml:129
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FEDERATION_FREECREW\"]/choice[2]/event/choice[1]/text"
 msgstr "Заняться чем-либо на корабле."
 
-#: src-en/data/events_sector_federation.xml:132
+#: src-en/data/events_sector_federation.xml:133
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FEDERATION_FREECREW\"]/choice[2]/event/choice[2]/text"
 msgstr "Ничего не делать."
 
-#: src-en/data/events_sector_federation.xml:140
+#: src-en/data/events_sector_federation.xml:141
 msgid ""
 "data/events_sector_federation.xml$//eventList[@name=\"FEDERATION_FREECREW_WELCOME\"]/event[1]/text"
 msgstr "Офицер Федерации благодарит вас за помощь."
 
-#: src-en/data/events_sector_federation.xml:144
+#: src-en/data/events_sector_federation.xml:145
 msgid ""
 "data/events_sector_federation.xml$//eventList[@name=\"FEDERATION_FREECREW_WELCOME\"]/event[2]/text"
 msgstr ""
-"Когда человек поднимается на ваш корабль, он достает лазер и стреляет в вас. "
-"К счастью, никто не пострадал, но неподалеку появляется корабль повстанцев и "
-"атакует вас. Это была ловушка!"
+"Когда человек поднимается на ваш корабль, он достает лазер и стреляет в вас."
+" К счастью, никто не пострадал, но неподалеку появляется корабль повстанцев "
+"и атакует вас. Это была ловушка!"
 
-#: src-en/data/events_sector_federation.xml:148
+#: src-en/data/events_sector_federation.xml:149
 msgid ""
 "data/events_sector_federation.xml$//eventList[@name=\"FEDERATION_FREECREW_WELCOME\"]/event[2]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_federation.xml:155
+#: src-en/data/events_sector_federation.xml:156
 msgid "data/events_sector_federation.xml$//event[@name=\"FEDERATION_RANT\"]/text"
 msgstr ""
-"Вскоре после того, как вы приземлились, с вами связался корабль золтанов: "
-"\"Жизнь - это цикл, и эта война извратила его. Равновесие не должно быть "
-"нарушено. Есть ли в этом смысл?\""
+"Ваше прибытие к маяку встречает необычное зрелище: безоружный "
+"иллесктрианский корабль вдали от территории золтан. Он связывается с вами, "
+"и, судя по его тону, Монах, говорящий с вами, не выглядит особенно "
+"довольным. \"Ренегат, этот конфликт Мультивселенной - один из бесконечных "
+"циклов, в центре которого, похоже, находишься ты. Но действительно ли ты "
+"сражаешься, чтобы положить ему конец, или просто хочешь увековечить его ради"
+" собственной выгоды?\" Хотя у золтанов нет лиц, вы, тем не менее, "
+"чувствуете, что он пристально смотрит на вас, ожидая ответа."
 
 #: src-en/data/events_sector_federation.xml:158
 msgid ""
-"data/events_sector_federation.xml$//event[@name=\"FEDERATION_RANT\"]/choice[1]/text"
-msgstr "Абсолютно."
+"data/events_sector_federation.xml$//event[@name=\"FEDERATION_RANT\"]/choice[@req=\"rep_comb_federation\""
+" and @lvl=\"-999\"]/text"
+msgstr ""
+"Мультивселенная полна конфликтов. Некоторые битвы должны быть прекращены, "
+"чтобы наступил прочный мир."
 
 #: src-en/data/events_sector_federation.xml:160
 msgid ""
-"data/events_sector_federation.xml$//event[@name=\"FEDERATION_RANT\"]/choice[1]/event/text"
+"data/events_sector_federation.xml$//event[@name=\"FEDERATION_RANT\"]/choice[@req=\"rep_comb_federation\""
+" and @lvl=\"-999\"]/event/text"
 msgstr ""
-"\"Я вижу, что вы не слепы, как другие. Многие пришли услышать наше послание,"
-" и лишь немногие ушли, поняв его. Я благословляю вас. Пусть ваши пути будут "
-"наполнены удачей\"."
+"Взгляд Монаха золтан слегка смягчается. \"Мудрый ответ. Приятно знать, что "
+"вы, Ренегаты, знаете больше, чем кажется на первый взгляд. Пусть ваш путь к "
+"миру принесет удачу\"."
 
 #: src-en/data/events_sector_federation.xml:165
 msgid ""
-"data/events_sector_federation.xml$//event[@name=\"FEDERATION_RANT\"]/choice[2]/text"
-msgstr "Не совсем."
+"data/events_sector_federation.xml$//event[@name=\"FEDERATION_RANT\"]/choice[@req=\"rep_comb_federation\""
+" and @lvl=\"2\"]/text"
+msgstr ""
+"Мультивселенная полна конфликтов. Некоторые битвы должны быть прекращены, "
+"чтобы наступил прочный мир."
 
 #: src-en/data/events_sector_federation.xml:167
 msgid ""
-"data/events_sector_federation.xml$//event[@name=\"FEDERATION_RANT\"]/choice[2]/event/text"
+"data/events_sector_federation.xml$//event[@name=\"FEDERATION_RANT\"]/choice[@req=\"rep_comb_federation\""
+" and @lvl=\"2\"]/event/text"
 msgstr ""
-"\"Равновесие должно быть сохранено. Не вам его сохранять\", - золтан "
-"отключает связь и уходит в прыжок."
+"Несмотря на ваш ответ, золтан по-прежнему холодно смотрит на вас. \"Мудрый "
+"ответ, вот что я бы сказал, если бы не знал о вашей подлости. Ваша ложь "
+"выдает ваши истинные интересы. Не надейтесь, что ваш трюк останется без "
+"последствий!\" Внезапно, словно в ответ на эти слова, к вам подлетает "
+"корабль Миротворцев."
 
 #: src-en/data/events_sector_federation.xml:170
 msgid ""
-"data/events_sector_federation.xml$//event[@name=\"FEDERATION_RANT\"]/choice[2]/event/choice[1]/text"
-msgstr "Заняться чем-либо на корабле."
+"data/events_sector_federation.xml$//event[@name=\"FEDERATION_RANT\"]/choice[@req=\"rep_comb_federation\""
+" and @lvl=\"2\"]/event/choice/text"
+msgstr "Продолжить..."
 
-#: src-en/data/events_sector_federation.xml:174
-msgid ""
-"data/events_sector_federation.xml$//event[@name=\"FEDERATION_RANT\"]/choice[2]/event/choice[2]/text"
-msgstr "Ничего не делать."
-
-#: src-en/data/events_sector_federation.xml:180
+#: src-en/data/events_sector_federation.xml:176
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FEDERATION_RANT\"]/choice[3]/text"
-msgstr "У нас нет времени на лекцию."
+msgstr "Мы занимаемся этим только для того, чтобы добывать лом и убивать."
 
-#: src-en/data/events_sector_federation.xml:182
+#: src-en/data/events_sector_federation.xml:178
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FEDERATION_RANT\"]/choice[3]/event/text"
 msgstr ""
-"\"Это не лекция, а всего лишь урок. Именно такие, как вы, отказывающиеся от "
-"просветления, ставят под угрозу цикл. Вы должны быть уничтожены\"."
+"Золтан вздыхает: \"Из-за таких, как ты, эта галактика вечно погружена в "
+"хаос! Хотя, возможно, мне будет проще выразить свою мысль на варварском "
+"языке твоего оружия\". Он выпускает в вашу сторону необычную бомбу, которая,"
+" однако, не наносит урон. \"Пусть это вдохновит тебя на перемены в сердце. "
+"Исчезни с глаз моих долой\". Сразу после этого он совершает прыжок, оставляя"
+" вас наедине с неожиданным \"подарком\"."
 
-#: src-en/data/events_sector_federation.xml:185
+#: src-en/data/events_sector_federation.xml:181
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FEDERATION_RANT\"]/choice[3]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_federation.xml:193
-msgid "data/events_sector_federation.xml$//event[@name=\"FEDERATION_AMMO\"]/text"
+#: src-en/data/events_sector_federation.xml:187
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"FEDERATION_RANT\"]/choice[4]/text"
+msgstr "Ни малейшего понятия."
+
+#: src-en/data/events_sector_federation.xml:189
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"FEDERATION_RANT\"]/choice[4]/event/text"
 msgstr ""
-"Станция Федерации отправляет запрос на боеприпасы в обмен на лом. Высокий "
-"спрос на них, вероятно, вызван блокадами повстанцев."
+"Золтан на другом конце глубоко вздыхает, затем отключает связь и уходит в "
+"прыжок."
+
+#: src-en/data/events_sector_federation.xml:191
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"FEDERATION_RANT\"]/choice[4]/event/choice[1]/text"
+msgstr "Заняться чем-либо на корабле."
 
 #: src-en/data/events_sector_federation.xml:195
 msgid ""
-"data/events_sector_federation.xml$//event[@name=\"FEDERATION_AMMO\"]/choice[1]/text"
-msgstr "Продать 3 ракеты."
+"data/events_sector_federation.xml$//event[@name=\"FEDERATION_RANT\"]/choice[4]/event/choice[2]/text"
+msgstr "Ничего не делать."
+
+#: src-en/data/events_sector_federation.xml:201
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"FEDERATION_RANT\"]/choice[5]/text"
+msgstr "Мне все равно, уходим."
+
+#: src-en/data/events_sector_federation.xml:203
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"FEDERATION_RANT\"]/choice[5]/event/text"
+msgstr ""
+"\"Вы что, относитесь к этому как к пустяку? Каждое решение, принятое вами в "
+"этом путешествии, повлечет за собой глубокие и долгосрочные последствия! По "
+"крайней мере, проявите уверенность в своем выборе - даже если он не столь "
+"праведен, каким должен быть\"."
 
 #: src-en/data/events_sector_federation.xml:205
 msgid ""
-"data/events_sector_federation.xml$//event[@name=\"FEDERATION_AMMO\"]/choice[2]/text"
-msgstr "Продать 7 боеголовок."
+"data/events_sector_federation.xml$//event[@name=\"FEDERATION_RANT\"]/choice[5]/event/choice[1]/text"
+msgstr "Пусть он продолжает, даже если это займет много времени."
+
+#: src-en/data/events_sector_federation.xml:207
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"FEDERATION_RANT\"]/choice[5]/event/choice[1]/event/text"
+msgstr ""
+"Монах золтан продолжает разглагольствовать еще некоторое время. Смысл его "
+"слов вскоре исчезает из вашего сознания, и в конце концов вы теряете счет "
+"времени, которое здесь прошло. И вот, когда вы уже почти заснули от этого, "
+"Монах задает вам простой вопрос. \"Итак, вы понимаете, что я имею в виду?\""
+
+#: src-en/data/events_sector_federation.xml:210
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"FEDERATION_RANT\"]/choice[5]/event/choice[1]/event/choice[@req=\"stability\""
+" and @lvl=\"51\"]/text"
+msgstr "Да."
+
+#: src-en/data/events_sector_federation.xml:212
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"FEDERATION_RANT\"]/choice[5]/event/choice[1]/event/choice[@req=\"stability\""
+" and @lvl=\"51\"]/event/text"
+msgstr ""
+"\"Приятно слышать. Возможно, я с самого начала ошибся в вас. Хорошо. Я "
+"присоединюсь к вашим начинаниям, чтобы узнать еще больше о вашем деле и "
+"ваших путях\". К счастью, он, кажется, не замечает, что вы не слушали его "
+"речь."
 
 #: src-en/data/events_sector_federation.xml:215
 msgid ""
-"data/events_sector_federation.xml$//event[@name=\"FEDERATION_AMMO\"]/choice[3]/text"
-msgstr "Продать 12 боеголовок."
+"data/events_sector_federation.xml$//event[@name=\"FEDERATION_RANT\"]/choice[5]/event/choice[1]/event/choice[@req=\"stability\""
+" and @lvl=\"51\"]/event/choice/text"
+msgstr "Продолжить..."
 
-#: src-en/data/events_sector_federation.xml:225
+#: src-en/data/events_sector_federation.xml:221
 msgid ""
-"data/events_sector_federation.xml$//event[@name=\"FEDERATION_AMMO\"]/choice[4]/text"
-msgstr "Нам нечего продавать."
+"data/events_sector_federation.xml$//event[@name=\"FEDERATION_RANT\"]/choice[5]/event/choice[1]/event/choice[2]/text"
+msgstr "Нет."
+
+#: src-en/data/events_sector_federation.xml:223
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"FEDERATION_RANT\"]/choice[5]/event/choice[1]/event/choice[2]/event/text"
+msgstr ""
+"\"Серьезно...\" Он почти начинает очередной виток лекции, но теряет сознание"
+" от усталости перед тем, как начать снова. Пользуясь случаем, вы оставляете "
+"его у маяка."
 
 #: src-en/data/events_sector_federation.xml:227
 msgid ""
-"data/events_sector_federation.xml$//event[@name=\"FEDERATION_AMMO\"]/choice[4]/event/text"
-msgstr "Вы не обращаете внимания на станцию."
+"data/events_sector_federation.xml$//event[@name=\"FEDERATION_RANT\"]/choice[5]/event/choice[1]/event/choice[@req=\"stability\""
+" and @lvl=\"0\"]/text"
+msgstr "Да."
 
 #: src-en/data/events_sector_federation.xml:229
 msgid ""
-"data/events_sector_federation.xml$//event[@name=\"FEDERATION_AMMO\"]/choice[4]/event/choice[1]/text"
+"data/events_sector_federation.xml$//event[@name=\"FEDERATION_RANT\"]/choice[5]/event/choice[1]/event/choice[@req=\"stability\""
+" and @lvl=\"0\"]/event/text"
+msgstr ""
+"\"Приятно слышать. Возможно, я с самого начала ошибся в вас. Хорошо. Я "
+"присоединюсь к вашим начинаниям, чтобы узнать еще больше о вашем деле и "
+"ваших путях\". К счастью, он, кажется, не замечает, что вы не слушали его "
+"речь."
+
+#: src-en/data/events_sector_federation.xml:232
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"FEDERATION_RANT\"]/choice[5]/event/choice[1]/event/choice[@req=\"stability\""
+" and @lvl=\"0\"]/event/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_federation.xml:240
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"FEDERATION_RANT\"]/choice[5]/event/choice[2]/text"
+msgstr "Пригрозить ему, чтобы он прекратил."
+
+#: src-en/data/events_sector_federation.xml:242
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"FEDERATION_RANT\"]/choice[5]/event/choice[2]/event/text"
+msgstr ""
+"Вы заряжаете свое оружие, намереваясь заставить его прекратить свои бредни. "
+"Монахи подают сигнал бедствия, и вскоре золтанский корабль отвечает на него."
+" Монахи уходят в прыжок как раз перед началом боя."
+
+#: src-en/data/events_sector_federation.xml:245
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"FEDERATION_RANT\"]/choice[5]/event/choice[2]/event/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_federation.xml:254
+msgid "data/events_sector_federation.xml$//event[@name=\"FEDERATION_AMMO\"]/text"
+msgstr ""
+"Станция Федерации отправляет запрос на боеприпасы в обмен на лом. Высокий "
+"спрос на них, вероятно, вызван блокадой повстанцев. Возможно, они смогут "
+"предоставить несколько чертежей, если вы будете щедры."
+
+#: src-en/data/events_sector_federation.xml:256
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"FEDERATION_AMMO\"]/choice[1]/text"
+msgstr "Предложить 5 боеголовок в обмен на любой имеющийся у них лом."
+
+#: src-en/data/events_sector_federation.xml:266
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"FEDERATION_AMMO\"]/choice[2]/text"
+msgstr "Предложить 10 боеголовок за ремонт и дополнительное топливо."
+
+#: src-en/data/events_sector_federation.xml:277
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"FEDERATION_AMMO\"]/choice[3]/text"
+msgstr "Предложить 10 боеголовок за модуль."
+
+#: src-en/data/events_sector_federation.xml:287
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"FEDERATION_AMMO\"]/choice[4]/text"
+msgstr "Предложить 15 боеголовок за оружие."
+
+#: src-en/data/events_sector_federation.xml:296
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"FEDERATION_AMMO\"]/choice[5]/text"
+msgstr "Предложить 20 боеголовок по доброте душевной."
+
+#: src-en/data/events_sector_federation.xml:299
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"FEDERATION_AMMO\"]/choice[5]/event/text"
+msgstr ""
+"\"Вау, вы серьезно? Спасибо, ваша доброта не будет забыта! Я прослежу, чтобы"
+" флот Федерации понял, что вы для них сделали\"."
+
+#: src-en/data/events_sector_federation.xml:305
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"FEDERATION_AMMO\"]/choice[5]/event/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_federation.xml:311
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"FEDERATION_AMMO\"]/choice[6]/text"
+msgstr "Нам нечего продавать."
+
+#: src-en/data/events_sector_federation.xml:313
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"FEDERATION_AMMO\"]/choice[6]/event/text"
+msgstr "Вы не обращаете внимания на станцию."
+
+#: src-en/data/events_sector_federation.xml:315
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"FEDERATION_AMMO\"]/choice[6]/event/choice[1]/text"
 msgstr "Заняться чем-либо на корабле."
 
-#: src-en/data/events_sector_federation.xml:233
+#: src-en/data/events_sector_federation.xml:319
 msgid ""
-"data/events_sector_federation.xml$//event[@name=\"FEDERATION_AMMO\"]/choice[4]/event/choice[2]/text"
+"data/events_sector_federation.xml$//event[@name=\"FEDERATION_AMMO\"]/choice[6]/event/choice[2]/text"
 msgstr "Ничего не делать."
 
-#: src-en/data/events_sector_federation.xml:259
+#: src-en/data/events_sector_federation.xml:327
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"FEDERATION_ITEM_DEBATE\"]/text"
+msgstr ""
+"Корабль энджи, корабль орхидей, корабль кристаллинов и корабль золтанов "
+"окружают поле обломков, состоящее из множества кораблей повстанцев. "
+"Произошло большое сражение, но они одержали победу."
+
+#: src-en/data/events_sector_federation.xml:329
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"FEDERATION_ITEM_DEBATE\"]/choice[1]/text"
+msgstr "Спросить, не нужна ли им помощь в сборе обломков."
+
+#: src-en/data/events_sector_federation.xml:331
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"FEDERATION_ITEM_DEBATE\"]/choice[1]/event/text"
+msgstr ""
+"По вашей просьбе корабль орхидей приглашает ваш корабль присоединиться к их групповому общению. Как только это сделано, кристаллины говорят первыми.\n"
+"\n"
+"\"Здравствуй, Ренегат. Есть проблема: другие корабли утверждают, что наш кристаллический арсенал не переломил ход битвы в нашу пользу!\" \n"
+"\n"
+"Орхидея произносит: \"Мне жаль, что вам пришлось втянуть в это Ренегата. Хочу заметить, что наши зерна пробили вражеские щиты и вывели из строя их двигатели. Именно благодаря нам у вас была такая точность\".\n"
+"\n"
+"Золтан фыркнул: \"Сбивающий с толку аргумент. Даже нелепый. Может, вы и поцарапали их краску, но львиную долю работы сделал наш луч \"Люцерн\". Мы нанесли больше всего повреждений корпусу, поэтому мы были самым важным кораблем в том бою. Нам даже не нужно прицеливаться\".\n"
+"\n"
+"Корабль энджи произносит: \"Утверждение золтана = нелогично. Лучевое оружие = несущественно, если (огневая поддержка = ложь). Боевые дроны энджи превосходят все остальное\"."
+
+#: src-en/data/events_sector_federation.xml:341
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"FEDERATION_ITEM_DEBATE\"]/choice[1]/event/choice[1]/text"
+msgstr "Энджи прав. Дроны, вероятно, оказали наибольшее влияние."
+
+#: src-en/data/events_sector_federation.xml:343
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"FEDERATION_ITEM_DEBATE\"]/choice[1]/event/choice[1]/event/text"
+msgstr ""
+"Капитан энджи вмешивается. \"Подтверждено. Ренегат подтвердил логику энджи. "
+"Следовательно: распределение ресурсов энджи = наиболее эффективное\". Три "
+"других капитана вздыхают и кивают. \"Ренегат: передаю вознаграждение\"."
+
+#: src-en/data/events_sector_federation.xml:348
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"FEDERATION_ITEM_DEBATE\"]/choice[1]/event/choice[2]/text"
+msgstr "Золтан прав. Лучи закончили бой гораздо быстрее."
+
+#: src-en/data/events_sector_federation.xml:350
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"FEDERATION_ITEM_DEBATE\"]/choice[1]/event/choice[2]/event/text"
+msgstr ""
+"Золтан улыбается. \"Это очевидно. Бесчисленные сражения Ренегатов открыли им"
+" истину. Поэтому я распределю добычу так, как сочту нужным. Есть "
+"возражения?\" Три других капитана молчат. \"Прекрасно. О, и вот вам подарок "
+"в знак благодарности, Ренегат\"."
+
+#: src-en/data/events_sector_federation.xml:355
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"FEDERATION_ITEM_DEBATE\"]/choice[1]/event/choice[3]/text"
+msgstr "Орхидея права. Разрушение систем жизненно важно для выживания в бою."
+
+#: src-en/data/events_sector_federation.xml:357
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"FEDERATION_ITEM_DEBATE\"]/choice[1]/event/choice[3]/event/text"
+msgstr ""
+"Орхидея жестикулирует в восторге. \"Ренегат мудр! Учитывая это, вы все, "
+"конечно, согласны, что мы будем первыми?\" Золтан и кристаллин раздраженно "
+"бормочут, а энджи просто кивает. \"Фантастика. Ренегат, пожалуйста, прими "
+"знак нашей благодарности\"."
+
+#: src-en/data/events_sector_federation.xml:362
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"FEDERATION_ITEM_DEBATE\"]/choice[1]/event/choice[4]/text"
+msgstr ""
+"Кристаллин прав. Кристаллическое оружие - это хороший баланс между пробитием"
+" щита и устойчивостью."
+
+#: src-en/data/events_sector_federation.xml:364
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"FEDERATION_ITEM_DEBATE\"]/choice[1]/event/choice[4]/event/text"
+msgstr ""
+"Кристаллин гордо заявляет. \"Как и следовало ожидать. Наше оружие "
+"превосходно, как и наши решения. Мы будем решать, кому что достанется\". "
+"Остальные выглядят раздраженными, но больше не протестуют. \"Ренегат, мы "
+"передадим вам это. Вы явно знаете, как им пользоваться\"."
+
+#: src-en/data/events_sector_federation.xml:369
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"FEDERATION_ITEM_DEBATE\"]/choice[1]/event/choice[@req=\"ARGUMENT_PERFECT_LOADOUT\"]/text"
+msgstr ""
+"(Дроны, кристаллы, зерна, лучи) Смотрите, в моем снаряжении используется все"
+" это!"
+
+#: src-en/data/events_sector_federation.xml:371
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"FEDERATION_ITEM_DEBATE\"]/choice[1]/event/choice[@req=\"ARGUMENT_PERFECT_LOADOUT\"]/event/text"
+msgstr ""
+"Остальные удивленно смотрят на него. \n"
+"\n"
+"Золтан, пошатываясь, отступает назад и хватается за грудь. \"Невероятно. Наше оружие настолько синергично?\" \n"
+"\n"
+"Орхидея кивает, довольная: \"Конечно! Вместе мы сильнее, чем порознь. В этом есть смысл!\" \n"
+"\n"
+"Энджи качает головой. \"Совместимость = высокая. Опыт Ренегатов = самый большой среди нас\". \n"
+"\n"
+"Кристаллин кивает. \"Согласен. Ренегат, вы можете взять самую большую долю, а мы равномерно распределим остальное\"."
+
+#: src-en/data/events_sector_federation.xml:386
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"FEDERATION_ITEM_DEBATE\"]/choice[2]/text"
+msgstr "Потребовать, чтобы они отдали вам часть лома за вашу важную миссию."
+
+#: src-en/data/events_sector_federation.xml:390
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"FEDERATION_ITEM_DEBATE\"]/choice[@req=\"cloaking\"]/text"
+msgstr ""
+"(Улучш. Маскировка) Попытаться украсть немного лома, пока они отвлечены."
+
+#: src-en/data/events_sector_federation.xml:392
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"FEDERATION_ITEM_DEBATE\"]/choice[@req=\"cloaking\"]/event/text"
+msgstr ""
+"Включив Маскировочное устройство, вы осторожно лавируете вокруг кораблей и "
+"пытаетесь подобраться ближе... но у вас мало времени. Чтобы собрать что-"
+"нибудь значимое, вам нужно немного увеличить радиус действия."
+
+#: src-en/data/events_sector_federation.xml:394
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"FEDERATION_ITEM_DEBATE\"]/choice[@req=\"cloaking\"]/event/choice[@req=\"SCRAP_COLLECTOR\"]/text"
+msgstr "Собрать немного лома."
+
+#: src-en/data/events_sector_federation.xml:400
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"FEDERATION_ITEM_DEBATE\"]/choice[@req=\"cloaking\"]/event/choice[@req=\"MAGNET_ARM\"]/text"
+msgstr "Собрать все, что можно."
+
+#: src-en/data/events_sector_federation.xml:406
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"FEDERATION_ITEM_DEBATE\"]/choice[@req=\"cloaking\"]/event/choice[3]/text"
+msgstr "Без толку. Нет ничего, что можно было бы собрать."
+
+#: src-en/data/events_sector_federation.xml:408
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"FEDERATION_ITEM_DEBATE\"]/choice[@req=\"cloaking\"]/event/choice[3]/event/text"
+msgstr "Вы осторожно выбираетесь оттуда, пока вас не заметили."
+
+#: src-en/data/events_sector_federation.xml:414
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"FEDERATION_ITEM_DEBATE\"]/choice[4]/text"
+msgstr "Не обращать внимания на корабли."
+
+#: src-en/data/events_sector_federation.xml:416
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"FEDERATION_ITEM_DEBATE\"]/choice[4]/event/text"
+msgstr ""
+"Теперь у вас есть немного времени, чтобы заняться чем-нибудь на корабле."
+
+#: src-en/data/events_sector_federation.xml:418
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"FEDERATION_ITEM_DEBATE\"]/choice[4]/event/choice[1]/text"
+msgstr "Заняться чем-либо на корабле."
+
+#: src-en/data/events_sector_federation.xml:422
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"FEDERATION_ITEM_DEBATE\"]/choice[4]/event/choice[2]/text"
+msgstr "Ничего не делать."
+
+#: src-en/data/events_sector_federation.xml:431
+msgid ""
+"data/events_sector_federation.xml$//eventList[@name=\"ITEM_DEBATE_DEMAND_SCRAP\"]/event[1]/text"
+msgstr "Другие корабли не удостаивают ваши требования ответом."
+
+#: src-en/data/events_sector_federation.xml:434
+msgid ""
+"data/events_sector_federation.xml$//eventList[@name=\"ITEM_DEBATE_DEMAND_SCRAP\"]/event[2]/text"
+msgstr ""
+"Корабли на мгновение останавливаются и передают вам небольшую часть "
+"материалов. Они кажутся слишком занятыми, чтобы обращать на вас внимание."
+
+#: src-en/data/events_sector_federation.xml:465
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"FED_ARGEONN_CONTACT\"]/text"
+msgstr ""
+"Небольшой корабль Федерации скрывается вдали от маяка. Похоже, они кого-то "
+"ждут."
+
+#: src-en/data/events_sector_federation.xml:467
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"FED_ARGEONN_CONTACT\"]/choice[1]/text"
+msgstr "Связаться с кораблем Федерации."
+
+#: src-en/data/events_sector_federation.xml:469
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"FED_ARGEONN_CONTACT\"]/choice[1]/event/text"
+msgstr "Корабль Федерации отвечает. \"Вы здесь по... делу, не так ли?\""
+
+#: src-en/data/events_sector_federation.xml:471
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"FED_ARGEONN_CONTACT\"]/choice[1]/event/choice[1]/text"
+msgstr "Да."
+
+#: src-en/data/events_sector_federation.xml:473
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"FED_ARGEONN_CONTACT\"]/choice[1]/event/choice[1]/event/text"
+msgstr "\"Так и думал. Позвольте мне сообщить им, что путь свободен\". Мгновение спустя приближается корабль Арджонна."
+
+#: src-en/data/events_sector_federation.xml:475
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"FED_ARGEONN_CONTACT\"]/choice[1]/event/choice[1]/event/choice[1]/text"
+msgstr ""
+"Пригрозить сообщить о них, что корабль Федерации в сговоре с "
+"контрабандистами."
+
+#: src-en/data/events_sector_federation.xml:479
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"FED_ARGEONN_CONTACT\"]/choice[1]/event/choice[1]/event/choice[2]/text"
+msgstr "Атаковать пиратов!"
+
+#: src-en/data/events_sector_federation.xml:481
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"FED_ARGEONN_CONTACT\"]/choice[1]/event/choice[1]/event/choice[2]/event/text"
+msgstr ""
+"Капитан Федерации быстро улетает. Контрабандист сердито кричит вслед "
+"капитану Федерации: \"Будь ты проклят! Ты должен был защищать нас!\""
+
+#: src-en/data/events_sector_federation.xml:484
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"FED_ARGEONN_CONTACT\"]/choice[1]/event/choice[1]/event/choice[2]/event/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_federation.xml:490
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"FED_ARGEONN_CONTACT\"]/choice[1]/event/choice[1]/event/choice[3]/text"
+msgstr "Заключить сделку с контрабандистами."
+
+#: src-en/data/events_sector_federation.xml:496
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"FED_ARGEONN_CONTACT\"]/choice[1]/event/choice[2]/text"
+msgstr "Нет."
+
+#: src-en/data/events_sector_federation.xml:498
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"FED_ARGEONN_CONTACT\"]/choice[1]/event/choice[2]/event/text"
+msgstr "\"Наверное, я вас с кем-то перепутал. Продолжайте свой путь\"."
+
+#: src-en/data/events_sector_federation.xml:500
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"FED_ARGEONN_CONTACT\"]/choice[1]/event/choice[2]/event/choice[1]/text"
+msgstr "Заняться чем-либо на корабле."
+
+#: src-en/data/events_sector_federation.xml:504
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"FED_ARGEONN_CONTACT\"]/choice[1]/event/choice[2]/event/choice[2]/text"
+msgstr "Ничего не делать."
+
+#: src-en/data/events_sector_federation.xml:512
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"FED_ARGEONN_CONTACT\"]/choice[2]/text"
+msgstr "Предоставить кораблю немного пространства."
+
+#: src-en/data/events_sector_federation.xml:514
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"FED_ARGEONN_CONTACT\"]/choice[2]/event/text"
+msgstr ""
+"Теперь у вас есть немного времени, чтобы заняться чем-нибудь на корабле."
+
+#: src-en/data/events_sector_federation.xml:516
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"FED_ARGEONN_CONTACT\"]/choice[2]/event/choice[1]/text"
+msgstr "Заняться чем-либо на корабле."
+
+#: src-en/data/events_sector_federation.xml:520
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"FED_ARGEONN_CONTACT\"]/choice[2]/event/choice[2]/text"
+msgstr "Ничего не делать."
+
+#: src-en/data/events_sector_federation.xml:530
+msgid ""
+"data/events_sector_federation.xml$//eventList[@name=\"FED_ARGEONN_THREATEN\"]/event[1]/text"
+msgstr ""
+"Контрабандист поднимает руки вверх. \"Ладно-ладно! Давайте не будем спешить!"
+" Такой проницательный Ренегат, как вы, наверняка согласится на "
+"сотрудничество. Может быть, вы увидите в моих запасах что-то, что вас "
+"заинтересует?\""
+
+#: src-en/data/events_sector_federation.xml:532
+msgid ""
+"data/events_sector_federation.xml$//eventList[@name=\"FED_ARGEONN_THREATEN\"]/event[1]/choice[1]/text"
+msgstr "Забрать у них бесплатное легальное оружие."
+
+#: src-en/data/events_sector_federation.xml:534
+msgid ""
+"data/events_sector_federation.xml$//eventList[@name=\"FED_ARGEONN_THREATEN\"]/event[1]/choice[1]/event/text"
+msgstr ""
+"\"У вас нет чувства качества, Ренегат. Но, несмотря на это, мы ценим вашу "
+"осмотрительность\"."
+
+#: src-en/data/events_sector_federation.xml:539
+msgid ""
+"data/events_sector_federation.xml$//eventList[@name=\"FED_ARGEONN_THREATEN\"]/event[1]/choice[2]/text"
+msgstr "Приобрести контрабандные товары со скидкой."
+
+#: src-en/data/events_sector_federation.xml:541
+msgid ""
+"data/events_sector_federation.xml$//eventList[@name=\"FED_ARGEONN_THREATEN\"]/event[1]/choice[2]/event/text"
+msgstr ""
+"\"Вы столь же проницательны, сколь и умны, Ренегат. Приятно иметь с вами "
+"дело\"."
+
+#: src-en/data/events_sector_federation.xml:547
+msgid ""
+"data/events_sector_federation.xml$//eventList[@name=\"FED_ARGEONN_THREATEN\"]/event[1]/choice[2]/event/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_federation.xml:553
+msgid ""
+"data/events_sector_federation.xml$//eventList[@name=\"FED_ARGEONN_THREATEN\"]/event[1]/choice[3]/text"
+msgstr "Настаивать на том, чтобы они предстали перед судом."
+
+#: src-en/data/events_sector_federation.xml:555
+msgid ""
+"data/events_sector_federation.xml$//eventList[@name=\"FED_ARGEONN_THREATEN\"]/event[1]/choice[3]/event/text"
+msgstr "\"Тогда вы не оставляете мне выбора! Приготовьтесь к смерти!\""
+
+#: src-en/data/events_sector_federation.xml:558
+msgid ""
+"data/events_sector_federation.xml$//eventList[@name=\"FED_ARGEONN_THREATEN\"]/event[1]/choice[3]/event/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_federation.xml:565
+msgid ""
+"data/events_sector_federation.xml$//eventList[@name=\"FED_ARGEONN_THREATEN\"]/event[2]/text"
+msgstr ""
+"Контрабандист кричит: \"Стукачи получат по заслугам! Приготовьтесь к "
+"смерти!\" Тем временем корабль Федерации поспешно отступает."
+
+#: src-en/data/events_sector_federation.xml:568
+msgid ""
+"data/events_sector_federation.xml$//eventList[@name=\"FED_ARGEONN_THREATEN\"]/event[2]/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_federation.xml:573
+msgid ""
+"data/events_sector_federation.xml$//eventList[@name=\"FED_ARGEONN_THREATEN\"]/event[3]/text"
+msgstr ""
+"Федерация разогревает свое оружие. \"Вы думаете, что можете просто угрожать "
+"моей карьере и уйти от возмездия? Я никогда не сдамся!\""
+
+#: src-en/data/events_sector_federation.xml:576
+msgid ""
+"data/events_sector_federation.xml$//eventList[@name=\"FED_ARGEONN_THREATEN\"]/event[3]/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_federation.xml:585
+msgid ""
+"data/events_sector_federation.xml$//eventList[@name=\"FED_ARGEONN_FED_DEFEAT\"]/event[1]/text"
+msgstr ""
+"Контрабандистов нигде нет. Вы связываетесь с ближайшей базой Федерации и "
+"сообщаете им, что контрабандисты на свободе."
+
+#: src-en/data/events_sector_federation.xml:588
+msgid ""
+"data/events_sector_federation.xml$//eventList[@name=\"FED_ARGEONN_FED_DEFEAT\"]/event[2]/text"
+msgstr ""
+"Вы преследуете контрабандистов. \"Вы, законопослушные представители "
+"Федерации - страшные ребята! Пожалуйста, не убивайте нас!\" Вы проводите "
+"контрабандиста до ближайшей базы Федерации, где вас ждет награда."
+
+#: src-en/data/events_sector_federation.xml:598
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FEDERATION_REBEL_CHOICE\"]/choice[1]/text"
 msgstr "Сражаться с кораблем."
 
-#: src-en/data/events_sector_federation.xml:261
+#: src-en/data/events_sector_federation.xml:600
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FEDERATION_REBEL_CHOICE\"]/choice[1]/event/text"
 msgstr ""
 "Ни одному повстанцу не будет позволено жить до тех пор, пока вы можете "
 "повлиять на это."
 
-#: src-en/data/events_sector_federation.xml:264
+#: src-en/data/events_sector_federation.xml:603
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FEDERATION_REBEL_CHOICE\"]/choice[1]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_federation.xml:270
+#: src-en/data/events_sector_federation.xml:609
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FEDERATION_REBEL_CHOICE\"]/choice[2]/text"
 msgstr "Избегать корабль."
 
-#: src-en/data/events_sector_federation.xml:272
+#: src-en/data/events_sector_federation.xml:611
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FEDERATION_REBEL_CHOICE\"]/choice[2]/event/text"
 msgstr "Вы не заинтересованы в бою с кораблем повстанцев."
 
-#: src-en/data/events_sector_federation.xml:274
+#: src-en/data/events_sector_federation.xml:613
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FEDERATION_REBEL_CHOICE\"]/choice[2]/event/choice[1]/text"
 msgstr "Заняться чем-либо на корабле."
 
-#: src-en/data/events_sector_federation.xml:278
+#: src-en/data/events_sector_federation.xml:617
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FEDERATION_REBEL_CHOICE\"]/choice[2]/event/choice[2]/text"
 msgstr "Ничего не делать."
 
-#: src-en/data/events_sector_federation.xml:285
+#: src-en/data/events_sector_federation.xml:624
 msgid ""
 "data/events_sector_federation.xml$//textList[@name=\"TEXT_FED_REBEL_CHOICE\"]/text[1]"
 msgstr ""
-"Корабль повстанцев проводит мелкий ремонт на этом маяке. Они не знают о "
-"вашем присутствии."
+"Корабль повстанцев проводит мелкий ремонт на этом маяке, вероятно, они "
+"восстанавливают повреждения, нанесенные им при прохождении рубежей "
+"Федерации. Они, вероятно, оставят вас в покое, если вы не вступите с ними в "
+"бой."
 
-#: src-en/data/events_sector_federation.xml:286
+#: src-en/data/events_sector_federation.xml:625
 msgid ""
 "data/events_sector_federation.xml$//textList[@name=\"TEXT_FED_REBEL_CHOICE\"]/text[2]"
 msgstr ""
-"Корабль повстанцев ищет судна Федерации. Каким-то образом, они вас не "
-"увидели."
+"Повстанцы поблизости обходят вас стороной. Они хотят навредить линиям "
+"снабжения Федерации, а не ввязываться в бой с Ренегатом."
 
-#: src-en/data/events_sector_federation.xml:287
+#: src-en/data/events_sector_federation.xml:626
 msgid ""
 "data/events_sector_federation.xml$//textList[@name=\"TEXT_FED_REBEL_CHOICE\"]/text[3]"
 msgstr ""
-"Этот сектор - лучшее место для повстанцев. Несмотря на их обычную жажду "
-"убивать федералов, корабль повстанцев здесь игнорирует вас."
+"Некоторые повстанцы прорываются через внешние границы сектора. Этот избегает"
+" вас, вероятно, не желая подвергать опасности свою миссию."
 
-#: src-en/data/events_sector_federation.xml:288
+#: src-en/data/events_sector_federation.xml:627
 msgid ""
 "data/events_sector_federation.xml$//textList[@name=\"TEXT_FED_REBEL_CHOICE\"]/text[4]"
 msgstr ""
-"Корабль повстанцев на этом маяке разведывает корабли Федерации для сражения."
-" Он еще не видел вас."
+"Флот повстанцев, преследующий вас в этом секторе, возможно, не "
+"сосредотачивает все свое внимание на вас. Этот корабль выглядит занятым "
+"иными делами."
 
-#: src-en/data/events_sector_federation.xml:292
+#: src-en/data/events_sector_federation.xml:631
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FEDERATION_BROKEN_DRONE\"]/text"
 msgstr ""
@@ -320,22 +852,22 @@ msgstr ""
 "искрит и время от времени посылает беспорядочные, бессмысленные сообщения. "
 "Должно быть, он получил серьезные повреждения."
 
-#: src-en/data/events_sector_federation.xml:295
+#: src-en/data/events_sector_federation.xml:634
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FEDERATION_BROKEN_DRONE\"]/choice[1]/text"
 msgstr "Попытаться связаться с беспилотником."
 
-#: src-en/data/events_sector_federation.xml:299
+#: src-en/data/events_sector_federation.xml:638
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FEDERATION_BROKEN_DRONE\"]/choice[2]/text"
 msgstr "Разобрать беспилотник."
 
-#: src-en/data/events_sector_federation.xml:303
+#: src-en/data/events_sector_federation.xml:642
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FEDERATION_BROKEN_DRONE\"]/choice[@req=\"LIST_CREW_ENGI\"]/text"
 msgstr "(Член экипажа-энджи) Починить беспилотник."
 
-#: src-en/data/events_sector_federation.xml:305
+#: src-en/data/events_sector_federation.xml:644
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FEDERATION_BROKEN_DRONE\"]/choice[@req=\"LIST_CREW_ENGI\"]/event/text"
 msgstr ""
@@ -343,12 +875,12 @@ msgstr ""
 "легко определяет проблему. Как только беспилотник восстанавливает "
 "работоспособность, он выделяет вам припасы и латает корпус корабля."
 
-#: src-en/data/events_sector_federation.xml:311
+#: src-en/data/events_sector_federation.xml:650
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FEDERATION_BROKEN_DRONE\"]/choice[@req=\"LIST_CREW_ENGINEER\"]/text"
 msgstr "(Член экипажа-Инженер) Починить беспилотник."
 
-#: src-en/data/events_sector_federation.xml:313
+#: src-en/data/events_sector_federation.xml:652
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FEDERATION_BROKEN_DRONE\"]/choice[@req=\"LIST_CREW_ENGINEER\"]/event/text"
 msgstr ""
@@ -358,56 +890,56 @@ msgstr ""
 "отремонтировать часть повреждений корпуса, прежде чем что-то идет не так, и "
 "корабль становится враждебным!"
 
-#: src-en/data/events_sector_federation.xml:317
+#: src-en/data/events_sector_federation.xml:656
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FEDERATION_BROKEN_DRONE\"]/choice[@req=\"LIST_CREW_ENGINEER\"]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_federation.xml:323
+#: src-en/data/events_sector_federation.xml:662
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FEDERATION_BROKEN_DRONE\"]/choice[@req=\"DRONE_CONTROL_REPAIR_ALL\"]/text"
 msgstr "(Дрон-ремонтник) Починить беспилотник. [1|]"
 
-#: src-en/data/events_sector_federation.xml:325
+#: src-en/data/events_sector_federation.xml:664
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FEDERATION_BROKEN_DRONE\"]/choice[@req=\"DRONE_CONTROL_REPAIR_ALL\"]/event/text"
 msgstr ""
 "Ваш ремонтный дрон быстро чинит авто-корабль. После ремонта, беспилотник "
 "выделяет вам припасы и латает корпус корабля."
 
-#: src-en/data/events_sector_federation.xml:334
+#: src-en/data/events_sector_federation.xml:673
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FEDERATION_BROKEN_DRONE\"]/choice[@req=\"LIST_CREW_LANIUS\"]/text"
 msgstr "(Член экипажа-ланиус) Пусть ваш ланиус разберет беспилотник."
 
-#: src-en/data/events_sector_federation.xml:336
+#: src-en/data/events_sector_federation.xml:675
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FEDERATION_BROKEN_DRONE\"]/choice[@req=\"LIST_CREW_LANIUS\"]/event/text"
 msgstr ""
 "Ваш ланиус способен разобрать авто-корабль без особого труда, точно зная, "
 "что нужно демонтировать, чтобы не привести в действие защитные механизмы."
 
-#: src-en/data/events_sector_federation.xml:341
+#: src-en/data/events_sector_federation.xml:680
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FEDERATION_BROKEN_DRONE\"]/choice[7]/text"
 msgstr "Не обращать внимания на автоматический корабль."
 
-#: src-en/data/events_sector_federation.xml:343
+#: src-en/data/events_sector_federation.xml:682
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FEDERATION_BROKEN_DRONE\"]/choice[7]/event/text"
 msgstr "Вас не интересует неисправный автоматический корабль."
 
-#: src-en/data/events_sector_federation.xml:345
+#: src-en/data/events_sector_federation.xml:684
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FEDERATION_BROKEN_DRONE\"]/choice[7]/event/choice[1]/text"
 msgstr "Заняться чем-либо на корабле."
 
-#: src-en/data/events_sector_federation.xml:349
+#: src-en/data/events_sector_federation.xml:688
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FEDERATION_BROKEN_DRONE\"]/choice[7]/event/choice[2]/text"
 msgstr "Ничего не делать."
 
-#: src-en/data/events_sector_federation.xml:357
+#: src-en/data/events_sector_federation.xml:696
 msgid ""
 "data/events_sector_federation.xml$//eventList[@name=\"FED_BROKEN_SUPPLY_DRONE_ACTIVATE\"]/event[1]/text"
 msgstr ""
@@ -415,157 +947,213 @@ msgstr ""
 "может выделить припасы. Однако он, похоже, имеет проблемы с идентификацией "
 "вашего корабля и внезапно атакует!"
 
-#: src-en/data/events_sector_federation.xml:360
+#: src-en/data/events_sector_federation.xml:699
 msgid ""
 "data/events_sector_federation.xml$//eventList[@name=\"FED_BROKEN_SUPPLY_DRONE_ACTIVATE\"]/event[1]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_federation.xml:365
+#: src-en/data/events_sector_federation.xml:704
 msgid ""
 "data/events_sector_federation.xml$//eventList[@name=\"FED_BROKEN_SUPPLY_DRONE_ACTIVATE\"]/event[2]/text"
 msgstr ""
 "К счастью, несмотря на то, что беспилотник сильно поврежден, он все еще "
 "может отсканировать ваш идентификатор Федерации и передать немного припасов."
 
-#: src-en/data/events_sector_federation.xml:371
+#: src-en/data/events_sector_federation.xml:710
 msgid ""
 "data/events_sector_federation.xml$//eventList[@name=\"FED_BROKEN_SUPPLY_DRONE_SALVAGE\"]/event[1]/text"
 msgstr ""
 "Когда вы начинаете разборку беспилотника, он внезапно становится враждебным "
-"и нападает!"
+"и атакует!"
 
-#: src-en/data/events_sector_federation.xml:374
+#: src-en/data/events_sector_federation.xml:713
 msgid ""
 "data/events_sector_federation.xml$//eventList[@name=\"FED_BROKEN_SUPPLY_DRONE_SALVAGE\"]/event[1]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_federation.xml:379
+#: src-en/data/events_sector_federation.xml:718
 msgid ""
 "data/events_sector_federation.xml$//eventList[@name=\"FED_BROKEN_SUPPLY_DRONE_SALVAGE\"]/event[2]/text"
 msgstr ""
 "Беспилотник практически не реагирует на это. Его орудия даже смогли "
 "включиться, но он по-прежнему не способен вести огонь."
 
-#: src-en/data/events_sector_federation.xml:385
+#: src-en/data/events_sector_federation.xml:724
 msgid ""
-"data/events_sector_federation.xml$//event[@name=\"FEDERATION_NODAMAGE_TEST\"]/text"
+"data/events_sector_federation.xml$//event[@name=\"FEDERATION_DRONE_TEST\"]/text"
 msgstr ""
-"Этот маяк является домом для научной станции Федерации. Они не связываются с "
-"вами, но все выглядит в порядке, и ваши сканеры фиксируют регулярную "
-"активность внутри. Несколько странно выглядящих автодронов Федерации "
-"прикреплены к внешнему корпусу."
+"На орбите близлежащей планеты находится исследовательская станция Федерации."
+" Вы замечаете, как с планеты подлетает необычно окрашенный автоматический "
+"корабль Федерации и пристыковывается к станции, рядом с несколькими другими "
+"такими же кораблями."
 
-#: src-en/data/events_sector_federation.xml:387
+#: src-en/data/events_sector_federation.xml:726
 msgid ""
-"data/events_sector_federation.xml$//event[@name=\"FEDERATION_NODAMAGE_TEST\"]/choice[1]/text"
-msgstr "Связаться с ними."
+"data/events_sector_federation.xml$//event[@name=\"FEDERATION_DRONE_TEST\"]/choice[1]/text"
+msgstr "Связаться со станцией."
 
-#: src-en/data/events_sector_federation.xml:389
+#: src-en/data/events_sector_federation.xml:728
 msgid ""
-"data/events_sector_federation.xml$//event[@name=\"FEDERATION_NODAMAGE_TEST\"]/choice[1]/event/text"
+"data/events_sector_federation.xml$//event[@name=\"FEDERATION_DRONE_TEST\"]/choice[1]/event/text"
 msgstr ""
-"\"Кто вы, чего вы хот... о черт возьми! Вы - корабль Мультивселенной. Это "
-"честь для нас, сэр. Мы понимаем, насколько важна ваша миссия для всех нас, "
-"но мы должны спросить, можете ли вы оказать нам услугу. Нам нужен военный "
-"корабль, чтобы испытать наш новейший боевой ИИ. Просто позвольте ему немного "
-"пострелять в вас, пока тест не будет завершен. После мы отремонтируем все "
-"повреждения, которые он нанесет\"."
+"На ваш вызов отвечает энджи в лабораторном халате. \"Ренегат, ваше прибытие "
+"на автоматизированную верфь Федерации 78-А было отмечено. У нас есть для вас"
+" предложение. Наше предложение: ваша помощь в тестировании новых конструкций"
+" автоматических кораблей. Разрешается проведение нескольких испытаний. "
+"Успешное тестирование будет вознаграждено, а также будет предоставлен "
+"компенсационный ремонт\". Вам предлагают несколько вариантов испытаний "
+"автоматических кораблей."
 
-#: src-en/data/events_sector_federation.xml:391
+#: src-en/data/events_sector_federation.xml:730
 msgid ""
-"data/events_sector_federation.xml$//event[@name=\"FEDERATION_NODAMAGE_TEST\"]/choice[1]/event/choice[1]/text"
-msgstr "Согласиться протестировать дрон."
+"data/events_sector_federation.xml$//event[@name=\"FEDERATION_DRONE_TEST\"]/choice[1]/event/choice[1]/text"
+msgstr "Выбрать \"Тест анализа целеуказания беспилотных систем\"."
 
-#: src-en/data/events_sector_federation.xml:393
+#: src-en/data/events_sector_federation.xml:732
 msgid ""
-"data/events_sector_federation.xml$//event[@name=\"FEDERATION_NODAMAGE_TEST\"]/choice[1]/event/choice[1]/event/text"
+"data/events_sector_federation.xml$//event[@name=\"FEDERATION_DRONE_TEST\"]/choice[1]/event/choice[1]/event/text"
 msgstr ""
-"\"Отлично! Подождите немного, скоро он будет активен. Только помните, можно "
-"использовать ионное оружие или повреждать системы, но не наносите никаких "
-"повреждений корпусу\"."
+"Энджи объясняет вам суть теста и показывает автоматический корабль, с "
+"которым предстоит работать. \"Требования к тесту: разрешить автоматическому "
+"кораблю стрелять по вашему кораблю в течение всего теста. Повреждение "
+"корпуса автоматического корабля = провал. Повреждения систем и ионизация "
+"допустимы. Это приемлемо?\""
 
-#: src-en/data/events_sector_federation.xml:396
+#: src-en/data/events_sector_federation.xml:735
 msgid ""
-"data/events_sector_federation.xml$//event[@name=\"FEDERATION_NODAMAGE_TEST\"]/choice[1]/event/choice[1]/event/choice/text"
+"data/events_sector_federation.xml$//event[@name=\"FEDERATION_DRONE_TEST\"]/choice[1]/event/choice[1]/event/choice[1]/text"
+msgstr "Согласиться."
+
+#: src-en/data/events_sector_federation.xml:737
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"FEDERATION_DRONE_TEST\"]/choice[1]/event/choice[1]/event/choice[1]/event/text"
+msgstr ""
+"Энджи приводит в действие автоматический корабль. Он отсоединяется от "
+"станции и встает перед вами."
+
+#: src-en/data/events_sector_federation.xml:740
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"FEDERATION_DRONE_TEST\"]/choice[1]/event/choice[1]/event/choice[1]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_federation.xml:402
+#: src-en/data/events_sector_federation.xml:746
 msgid ""
-"data/events_sector_federation.xml$//event[@name=\"FEDERATION_NODAMAGE_TEST\"]/choice[1]/event/choice[2]/text"
-msgstr "Нет, спасибо."
+"data/events_sector_federation.xml$//event[@name=\"FEDERATION_DRONE_TEST\"]/choice[1]/event/choice[1]/event/choice[2]/text"
+msgstr "Отказаться от тестирования."
 
-#: src-en/data/events_sector_federation.xml:404
+#: src-en/data/events_sector_federation.xml:752
 msgid ""
-"data/events_sector_federation.xml$//event[@name=\"FEDERATION_NODAMAGE_TEST\"]/choice[1]/event/choice[2]/event/text"
-msgstr "\"Справедливо\"."
+"data/events_sector_federation.xml$//event[@name=\"FEDERATION_DRONE_TEST\"]/choice[1]/event/choice[2]/text"
+msgstr "Выбрать \"Тест выносливости корпуса беспилотника\"."
 
-#: src-en/data/events_sector_federation.xml:406
+#: src-en/data/events_sector_federation.xml:754
 msgid ""
-"data/events_sector_federation.xml$//event[@name=\"FEDERATION_NODAMAGE_TEST\"]/choice[1]/event/choice[2]/event/choice[1]/text"
-msgstr "Заняться чем-либо на корабле."
+"data/events_sector_federation.xml$//event[@name=\"FEDERATION_DRONE_TEST\"]/choice[1]/event/choice[2]/event/text"
+msgstr ""
+"Энджи объясняет вам суть испытания и показывает автоматический корабль, с "
+"которым предстоит работать. \"Требования теста: уничтожить автоматический "
+"корабль. Программная часть ИИ уже была сохранена на этой станции, поэтому "
+"уничтожение != неудача. Попытки бегства будут восприняты как провал теста. "
+"Это приемлемо?\""
 
-#: src-en/data/events_sector_federation.xml:410
+#: src-en/data/events_sector_federation.xml:757
 msgid ""
-"data/events_sector_federation.xml$//event[@name=\"FEDERATION_NODAMAGE_TEST\"]/choice[1]/event/choice[2]/event/choice[2]/text"
-msgstr "Ничего не делать."
+"data/events_sector_federation.xml$//event[@name=\"FEDERATION_DRONE_TEST\"]/choice[1]/event/choice[2]/event/choice[1]/text"
+msgstr "Согласиться."
 
-#: src-en/data/events_sector_federation.xml:418
+#: src-en/data/events_sector_federation.xml:759
 msgid ""
-"data/events_sector_federation.xml$//event[@name=\"FEDERATION_NODAMAGE_TEST\"]/choice[2]/text"
+"data/events_sector_federation.xml$//event[@name=\"FEDERATION_DRONE_TEST\"]/choice[1]/event/choice[2]/event/choice[1]/event/text"
+msgstr ""
+"Энджи приводит в действие автоматический корабль. Он отсоединяется от "
+"станции и встает перед вами."
+
+#: src-en/data/events_sector_federation.xml:763
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"FEDERATION_DRONE_TEST\"]/choice[1]/event/choice[2]/event/choice[1]/event/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_federation.xml:769
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"FEDERATION_DRONE_TEST\"]/choice[1]/event/choice[2]/event/choice[2]/text"
+msgstr "Отказаться от тестирования."
+
+#: src-en/data/events_sector_federation.xml:777
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"FEDERATION_DRONE_TEST\"]/choice[2]/text"
 msgstr "Не обращать внимания на станцию."
 
-#: src-en/data/events_sector_federation.xml:420
+#: src-en/data/events_sector_federation.xml:779
 msgid ""
-"data/events_sector_federation.xml$//event[@name=\"FEDERATION_NODAMAGE_TEST\"]/choice[2]/event/text"
-msgstr "Вас не интересует станция. Вы не обращаете на нее внимания."
+"data/events_sector_federation.xml$//event[@name=\"FEDERATION_DRONE_TEST\"]/choice[2]/event/text"
+msgstr ""
+"Хотя автоматические корабли несколько заинтриговали вас, вы не хотите "
+"тестировать их."
 
-#: src-en/data/events_sector_federation.xml:422
+#: src-en/data/events_sector_federation.xml:781
 msgid ""
-"data/events_sector_federation.xml$//event[@name=\"FEDERATION_NODAMAGE_TEST\"]/choice[2]/event/choice[1]/text"
+"data/events_sector_federation.xml$//event[@name=\"FEDERATION_DRONE_TEST\"]/choice[2]/event/choice[1]/text"
 msgstr "Заняться чем-либо на корабле."
 
-#: src-en/data/events_sector_federation.xml:426
+#: src-en/data/events_sector_federation.xml:785
 msgid ""
-"data/events_sector_federation.xml$//event[@name=\"FEDERATION_NODAMAGE_TEST\"]/choice[2]/event/choice[2]/text"
+"data/events_sector_federation.xml$//event[@name=\"FEDERATION_DRONE_TEST\"]/choice[2]/event/choice[2]/text"
 msgstr "Ничего не делать."
 
-#: src-en/data/events_sector_federation.xml:433
+#: src-en/data/events_sector_federation.xml:792
 msgid ""
-"data/events_sector_federation.xml$//event[@name=\"FED_NODAMAGE_TEST_DESTROY\"]/text"
+"data/events_sector_federation.xml$//event[@name=\"FED_DRONE_TEST_SUPERFAIL\"]/text"
 msgstr ""
-"\"Что это было, черт возьми! Что было непонятного, НЕЛЬЗЯ ПОВРЕЖДАТЬ "
-"КОРАБЛЬ. Убирайтесь отсюда, сейчас же. Может быть, в следующий раз ты будешь "
-"слушать инструкции, которые тебе дают\"."
+"\"Результат теста = катастрофический провал. Новая рекомендация кораблю "
+"Ренегатов: отвалите\"."
 
-#: src-en/data/events_sector_federation.xml:436
+#: src-en/data/events_sector_federation.xml:795
 msgid ""
-"data/events_sector_federation.xml$//event[@name=\"FED_NODAMAGE_TEST_DAMAGE\"]/text"
+"data/events_sector_federation.xml$//event[@name=\"FED_DRONE_TEST_FAIL\"]/text"
 msgstr ""
-"\"Осторожно, осторожно! Я же просил вас не повреждать корабль! Пожалуй, не "
-"стоило с вами связываться, лучше вам уйти. Надеюсь, я найду кого-нибудь, кто "
-"будет лучше следовать инструкциям...\""
+"\"Результат теста = провал. В связи с этим награда и компенсационный ремонт "
+"считайте аннулированными. Рекомендация на будущее: слушайте предоставленные "
+"инструкции\"."
 
-#: src-en/data/events_sector_federation.xml:440
+#: src-en/data/events_sector_federation.xml:799
 msgid ""
-"data/events_sector_federation.xml$//event[@name=\"FED_NODAMAGE_TEST_WIN\"]/text"
+"data/events_sector_federation.xml$//event[@name=\"FED_DRONE_NODAMAGE_SUCCESS\"]/text"
 msgstr ""
-"Авто-корабль деактивируется, и инженер Федерации снова вызывает вас. "
-"\"Отлично! Большое спасибо за помощь. Я подлатаю ваш корпус, и не "
-"стесняйтесь воспользоваться другими нашими технологиями\"."
+"После завершения сеанса тестирования дрон отключается. Энджи вызывает вас. "
+"\"Результаты теста: данные успешно обработаны. Ваша работа = "
+"удовлетворительная. Награда будет выдана в ближайшее время\". Станция "
+"ремонтирует ваш корпус и награждает вас в качестве благодарности за ваш "
+"вклад."
 
-#: src-en/data/events_sector_federation.xml:448
+#: src-en/data/events_sector_federation.xml:806
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"FED_DRONE_COMBAT_SUCCESS\"]/text"
+msgstr ""
+"Энджи вызывает вас вскоре после взрыва автоматического корабля. \"Результаты"
+" теста: данные успешно обработаны. Ваша работа = удовлетворительная. Награда"
+" будет выдана в ближайшее время\". Станция ремонтирует ваш корпус и "
+"награждает вас в качестве благодарности за ваш вклад."
+
+#: src-en/data/events_sector_federation.xml:818
+msgid ""
+"data/events_sector_federation.xml$//ship[@name=\"SHIP_FED_NODAMAGE_TEST_DRONE\"]/triggeredEvent[1]/triggeredEventBox/tooltip"
+msgstr ""
+"По истечении этого времени тестовая сессия закончится. Не наносите дрону "
+"никаких повреждений корпуса до этого момента!"
+
+#: src-en/data/events_sector_federation.xml:829
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FEDERATION_HANGAR_RAID\"]/text"
 msgstr ""
 "На ближайшей планете построен большой ангар Федерации. Любому кораблю "
 "Федерации разрешено стыковаться."
 
-#: src-en/data/events_sector_federation.xml:450
+#: src-en/data/events_sector_federation.xml:831
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FEDERATION_HANGAR_RAID\"]/choice[1]/text"
 msgstr "Пристыковаться."
 
-#: src-en/data/events_sector_federation.xml:452
+#: src-en/data/events_sector_federation.xml:833
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FEDERATION_HANGAR_RAID\"]/choice[1]/event/text"
 msgstr ""
@@ -573,12 +1161,12 @@ msgstr ""
 "разрешение на вход. Ремонтная команда прибывает, чтобы заправить ваш корабль"
 " и произвести ремонт."
 
-#: src-en/data/events_sector_federation.xml:456
+#: src-en/data/events_sector_federation.xml:837
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FEDERATION_HANGAR_RAID\"]/choice[1]/event/choice/text"
 msgstr "Уйти."
 
-#: src-en/data/events_sector_federation.xml:458
+#: src-en/data/events_sector_federation.xml:839
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FEDERATION_HANGAR_RAID\"]/choice[1]/event/choice/event/text"
 msgstr ""
@@ -587,54 +1175,54 @@ msgstr ""
 "большинство кораблей повстанцев смогли пройти мимо. Элитный корабль "
 "настигает вас и атакует!"
 
-#: src-en/data/events_sector_federation.xml:461
+#: src-en/data/events_sector_federation.xml:842
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FEDERATION_HANGAR_RAID\"]/choice[1]/event/choice/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_federation.xml:469
+#: src-en/data/events_sector_federation.xml:850
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FEDERATION_HANGAR_RAID\"]/choice[2]/text"
 msgstr "Не обращать внимание на ангар."
 
-#: src-en/data/events_sector_federation.xml:471
+#: src-en/data/events_sector_federation.xml:852
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FEDERATION_HANGAR_RAID\"]/choice[2]/event/text"
 msgstr "Это заманчиво, но нельзя терять время."
 
-#: src-en/data/events_sector_federation.xml:473
+#: src-en/data/events_sector_federation.xml:854
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FEDERATION_HANGAR_RAID\"]/choice[2]/event/choice[1]/text"
 msgstr "Заняться чем-либо на корабле."
 
-#: src-en/data/events_sector_federation.xml:477
+#: src-en/data/events_sector_federation.xml:858
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FEDERATION_HANGAR_RAID\"]/choice[2]/event/choice[2]/text"
 msgstr "Ничего не делать."
 
-#: src-en/data/events_sector_federation.xml:485
+#: src-en/data/events_sector_federation.xml:866
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FEDERATION_SHIPCLASS\"]/text"
-msgstr "Находящийся поблизости корабль Федерации посылает запрос на связь."
+msgstr "Находящийся поблизости корабль Федерации посылает сигнал вызова."
 
-#: src-en/data/events_sector_federation.xml:488
+#: src-en/data/events_sector_federation.xml:869
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FEDERATION_SHIPCLASS\"]/choice[1]/text"
 msgstr "Ответить им."
 
-#: src-en/data/events_sector_federation.xml:490
+#: src-en/data/events_sector_federation.xml:871
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FEDERATION_SHIPCLASS\"]/choice[1]/event/text"
 msgstr ""
 "На экране появляется человек средних лет. \"Приветствую вас, крей... эм, ээ,"
 " судно Ренегата?\""
 
-#: src-en/data/events_sector_federation.xml:492
+#: src-en/data/events_sector_federation.xml:873
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FEDERATION_SHIPCLASS\"]/choice[1]/event/choice/text"
 msgstr "В чем дело?"
 
-#: src-en/data/events_sector_federation.xml:494
+#: src-en/data/events_sector_federation.xml:875
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FEDERATION_SHIPCLASS\"]/choice[1]/event/choice/event/text"
 msgstr ""
@@ -645,71 +1233,81 @@ msgstr ""
 "сейчас! Может быть, у вас есть альтернативное или более точное название для "
 "вашего типа корабля?\""
 
-#: src-en/data/events_sector_federation.xml:496
+#: src-en/data/events_sector_federation.xml:877
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FEDERATION_SHIPCLASS\"]/choice[1]/event/choice/event/choice[1]/text"
 msgstr "Линкор."
 
-#: src-en/data/events_sector_federation.xml:500
+#: src-en/data/events_sector_federation.xml:881
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FEDERATION_SHIPCLASS\"]/choice[1]/event/choice/event/choice[2]/text"
 msgstr "Бомбардировщик."
 
-#: src-en/data/events_sector_federation.xml:504
+#: src-en/data/events_sector_federation.xml:885
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FEDERATION_SHIPCLASS\"]/choice[1]/event/choice/event/choice[3]/text"
 msgstr "Корвет."
 
-#: src-en/data/events_sector_federation.xml:508
+#: src-en/data/events_sector_federation.xml:889
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FEDERATION_SHIPCLASS\"]/choice[1]/event/choice/event/choice[4]/text"
 msgstr "Эсминец."
 
-#: src-en/data/events_sector_federation.xml:512
+#: src-en/data/events_sector_federation.xml:893
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FEDERATION_SHIPCLASS\"]/choice[1]/event/choice/event/choice[5]/text"
 msgstr "Истребитель."
 
-#: src-en/data/events_sector_federation.xml:516
+#: src-en/data/events_sector_federation.xml:897
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FEDERATION_SHIPCLASS\"]/choice[1]/event/choice/event/choice[6]/text"
 msgstr "Фрегат."
 
-#: src-en/data/events_sector_federation.xml:520
+#: src-en/data/events_sector_federation.xml:901
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FEDERATION_SHIPCLASS\"]/choice[1]/event/choice/event/choice[7]/text"
 msgstr "Просто сказать \"космический корабль\", и не усложнять все."
 
-#: src-en/data/events_sector_federation.xml:522
+#: src-en/data/events_sector_federation.xml:903
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FEDERATION_SHIPCLASS\"]/choice[1]/event/choice/event/choice[7]/event/text"
 msgstr ""
 "...Хех. Конечно, ошибиться невозможно, это точно, но это быстро надоедает. "
 "Пойду... найду кого-нибудь еще и выскажу свое мнение по этому поводу."
 
-#: src-en/data/events_sector_federation.xml:530
+#: src-en/data/events_sector_federation.xml:905
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"FEDERATION_SHIPCLASS\"]/choice[1]/event/choice/event/choice[7]/event/choice[1]/text"
+msgstr "Заняться чем-либо на корабле."
+
+#: src-en/data/events_sector_federation.xml:909
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"FEDERATION_SHIPCLASS\"]/choice[1]/event/choice/event/choice[7]/event/choice[2]/text"
+msgstr "Ничего не делать."
+
+#: src-en/data/events_sector_federation.xml:919
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FEDERATION_SHIPCLASS\"]/choice[2]/text"
-msgstr "Не обращать на них внимания."
+msgstr "Не обращать внимания на него."
 
-#: src-en/data/events_sector_federation.xml:532
+#: src-en/data/events_sector_federation.xml:921
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FEDERATION_SHIPCLASS\"]/choice[2]/event/text"
 msgstr ""
-"Это грубо, но, если дело не срочное, вы не можете позволить себе терять "
-"время прямо сейчас."
+"Это грубо, но, если только дело не срочное, вы не можете позволить себе "
+"терять время прямо сейчас."
 
-#: src-en/data/events_sector_federation.xml:534
+#: src-en/data/events_sector_federation.xml:923
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FEDERATION_SHIPCLASS\"]/choice[2]/event/choice[1]/text"
 msgstr "Заняться чем-либо на корабле."
 
-#: src-en/data/events_sector_federation.xml:538
+#: src-en/data/events_sector_federation.xml:927
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FEDERATION_SHIPCLASS\"]/choice[2]/event/choice[2]/text"
 msgstr "Ничего не делать."
 
-#: src-en/data/events_sector_federation.xml:549
+#: src-en/data/events_sector_federation.xml:938
 msgid ""
 "data/events_sector_federation.xml$//eventList[@name=\"FEDERATION_SHIPCLASS_WRONG\"]/event[4]/text"
 msgstr ""
@@ -719,7 +1317,7 @@ msgstr ""
 "ответ. Зациклившись на прошлом, я стал забывать о наших нынешних правилах..."
 " Вот, возьмите это за попытку\"."
 
-#: src-en/data/events_sector_federation.xml:554
+#: src-en/data/events_sector_federation.xml:943
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FEDERATION_SHIPCLASS_ARGUE\"]/text"
 msgstr ""
@@ -727,12 +1325,12 @@ msgstr ""
 "дни больше никто не занимается изучением нашего прошлого, не желая исправить"
 " это явное заблуждение?\""
 
-#: src-en/data/events_sector_federation.xml:556
+#: src-en/data/events_sector_federation.xml:945
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FEDERATION_SHIPCLASS_ARGUE\"]/choice[1]/text"
 msgstr "Не стоит мелочиться по этому поводу."
 
-#: src-en/data/events_sector_federation.xml:558
+#: src-en/data/events_sector_federation.xml:947
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FEDERATION_SHIPCLASS_ARGUE\"]/choice[1]/event/text"
 msgstr ""
@@ -740,19 +1338,591 @@ msgstr ""
 "такой отъявленный Ренегат, как ты! Как ты смеешь так издеваться надо мной? Я"
 " поставлю тебя на место!\""
 
-#: src-en/data/events_sector_federation.xml:561
+#: src-en/data/events_sector_federation.xml:950
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FEDERATION_SHIPCLASS_ARGUE\"]/choice[1]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_federation.xml:567
+#: src-en/data/events_sector_federation.xml:956
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FEDERATION_SHIPCLASS_ARGUE\"]/choice[2]/text"
 msgstr ""
 "Уйти, пока этот парень не придумал иррациональный повод открыть по вам "
 "огонь."
 
-#: src-en/data/events_sector_federation.xml:585
+#: src-en/data/events_sector_federation.xml:971
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"FEDERATION_ENCOUNTER_ELITE_STEALTH\"]/text"
+msgstr ""
+"Корабль Федерации, патрулирующий этот маяк, - не обычное судно. Его "
+"отчетливые очертания указывают на то, что он является частью новейшего "
+"стелс-флота Федерации, созданного для того, чтобы не отставать от "
+"нескончаемой гонки вооружений с Восстанием. К счастью, они не возражают "
+"против вашего присутствия, но и не особо приветствуют."
+
+#: src-en/data/events_sector_federation.xml:974
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"FEDERATION_ENCOUNTER_ELITE_STEALTH\"]/choice[1]/text"
+msgstr "Атаковать их."
+
+#: src-en/data/events_sector_federation.xml:976
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"FEDERATION_ENCOUNTER_ELITE_STEALTH\"]/choice[1]/event/text"
+msgstr ""
+"По какой-то причине вы решили открыть огонь по особенно хорошо вооруженному "
+"кораблю союзников. Они, не колеблясь, отвечают вам тем же. Надеюсь, это "
+"стоило того."
+
+#: src-en/data/events_sector_federation.xml:979
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"FEDERATION_ENCOUNTER_ELITE_STEALTH\"]/choice[1]/event/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_federation.xml:985
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"FEDERATION_ENCOUNTER_ELITE_STEALTH\"]/choice[@req=\"rep_comb_federation\""
+" and @lvl=\"2\"]/text"
+msgstr ""
+"Учитывая вашу сомнительную репутацию, лучше не обращаться к союзникам с "
+"лишними просьбами."
+
+#: src-en/data/events_sector_federation.xml:989
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"FEDERATION_ENCOUNTER_ELITE_STEALTH\"]/choice[@req=\"rep_comb_federation\""
+" and @lvl=\"0\"]/text"
+msgstr "Обратиться к ним за помощью."
+
+#: src-en/data/events_sector_federation.xml:991
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"FEDERATION_ENCOUNTER_ELITE_STEALTH\"]/choice[@req=\"rep_comb_federation\""
+" and @lvl=\"0\"]/event/text"
+msgstr ""
+"\"...Да? В настоящее время у нас нет приказа оказывать помощь проходящим "
+"судам. Мы можем предоставить вам немного дополнительного топлива, но не "
+"более того\"."
+
+#: src-en/data/events_sector_federation.xml:993
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"FEDERATION_ENCOUNTER_ELITE_STEALTH\"]/choice[@req=\"rep_comb_federation\""
+" and @lvl=\"0\"]/event/choice[1]/text"
+msgstr "Принять их предложение."
+
+#: src-en/data/events_sector_federation.xml:1001
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"FEDERATION_ENCOUNTER_ELITE_STEALTH\"]/choice[@req=\"rep_comb_federation\""
+" and @lvl=\"0\"]/event/choice[2]/text"
+msgstr "Вместо этого атаковать их."
+
+#: src-en/data/events_sector_federation.xml:1003
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"FEDERATION_ENCOUNTER_ELITE_STEALTH\"]/choice[@req=\"rep_comb_federation\""
+" and @lvl=\"0\"]/event/choice[2]/event/text"
+msgstr ""
+"Не удовлетворенный их жалким предложением, вы решили сделать все возможное, "
+"чтобы получить больше."
+
+#: src-en/data/events_sector_federation.xml:1006
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"FEDERATION_ENCOUNTER_ELITE_STEALTH\"]/choice[@req=\"rep_comb_federation\""
+" and @lvl=\"0\"]/event/choice[2]/event/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_federation.xml:1014
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"FEDERATION_ENCOUNTER_ELITE_STEALTH\"]/choice[@req=\"rep_comb_federation\""
+" and @lvl=\"-999\"]/text"
+msgstr "Обратиться к ним за помощью."
+
+#: src-en/data/events_sector_federation.xml:1016
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"FEDERATION_ENCOUNTER_ELITE_STEALTH\"]/choice[@req=\"rep_comb_federation\""
+" and @lvl=\"-999\"]/event/text"
+msgstr ""
+"\"...Да? В настоящее время у нас нет приказа оказывать помощь проходящим "
+"судам. Хотя, учитывая ваш вклад, мы могли бы сделать для вас исключение. "
+"Только не затягивайте с решением\"."
+
+#: src-en/data/events_sector_federation.xml:1018
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"FEDERATION_ENCOUNTER_ELITE_STEALTH\"]/choice[@req=\"rep_comb_federation\""
+" and @lvl=\"-999\"]/event/choice[1]/text"
+msgstr "Запросить орудие."
+
+#: src-en/data/events_sector_federation.xml:1024
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"FEDERATION_ENCOUNTER_ELITE_STEALTH\"]/choice[@req=\"rep_comb_federation\""
+" and @lvl=\"-999\"]/event/choice[2]/text"
+msgstr "Запросить дрон."
+
+#: src-en/data/events_sector_federation.xml:1030
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"FEDERATION_ENCOUNTER_ELITE_STEALTH\"]/choice[@req=\"rep_comb_federation\""
+" and @lvl=\"-999\"]/event/choice[3]/text"
+msgstr "Запросить припасы."
+
+#: src-en/data/events_sector_federation.xml:1042
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"FEDERATION_ENCOUNTER_ELITE_STEALTH\"]/choice[5]/text"
+msgstr "Оставить их в покое."
+
+#: src-en/data/events_sector_federation.xml:1044
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"FEDERATION_ENCOUNTER_ELITE_STEALTH\"]/choice[5]/event/text"
+msgstr ""
+"Маршрут их патрулирования вскоре уводит их от вашего корабля, и вы остаетесь"
+" здесь практически в одиночестве."
+
+#: src-en/data/events_sector_federation.xml:1046
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"FEDERATION_ENCOUNTER_ELITE_STEALTH\"]/choice[5]/event/choice[1]/text"
+msgstr "Заняться чем-либо на корабле."
+
+#: src-en/data/events_sector_federation.xml:1050
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"FEDERATION_ENCOUNTER_ELITE_STEALTH\"]/choice[5]/event/choice[2]/text"
+msgstr "Ничего не делать."
+
+#: src-en/data/events_sector_federation.xml:1074
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"DISTRESS_FEDERATION_KNIGHTS_AND_KNAVES\"]/text"
+msgstr ""
+"У этого маяка вы обнаруживаете три корабля Федерации: корвет, истребитель и "
+"легкий крейсер. Вы можете заметить, что между ними идет активный разговор, "
+"что говорит о том, что происходит что-то серьезное. Когда вы приближаетесь, "
+"капитан легкого крейсера приглашает вас в открытый канал связи."
+
+#: src-en/data/events_sector_federation.xml:1076
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"DISTRESS_FEDERATION_KNIGHTS_AND_KNAVES\"]/choice[1]/text"
+msgstr "Ответить на вызов."
+
+#: src-en/data/events_sector_federation.xml:1078
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"DISTRESS_FEDERATION_KNIGHTS_AND_KNAVES\"]/choice[1]/event/text"
+msgstr ""
+"\"Ренегат, я рад, что вы здесь, - говорит капитан легкого крейсера, - у нас возникла серьезная ситуация. Капитан Федерации перебежал на сторону врага - или был шпионом - и заменил свою команду повстанцами! Проблема в том, что я не уверен, кто из них кто, а у нас нет возможности сопровождать их обоих\".\n"
+"\n"
+"Капитан истребителя добавляет. \"Мы что, всерьез решили довериться Ренегату? Откуда нам знать, что его интересует не только наш лом?\"\n"
+"\n"
+"\"Так бы сказал повстанец!\" говорит капитан корвета. \"Они все еще действуют в интересах Федерация там, где это важно\".\n"
+"\n"
+"Капитан истребителя скрещивает руки. \"Мы - всецело на стороне Федерации. Я уверен, что мы можем это доказать. Вы можете сказать то же самое?\"\n"
+"\n"
+"Капитан легкого крейсера поднимает руку. \"Успокойтесь, хватит разыгрывать драму. Ренегат, есть идеи?\""
+
+#: src-en/data/events_sector_federation.xml:1088
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"DISTRESS_FEDERATION_KNIGHTS_AND_KNAVES\"]/choice[1]/event/choice[@req=\"unique_tully\"]/text"
+msgstr "(Талли) Пристыдить перебежчика."
+
+#: src-en/data/events_sector_federation.xml:1090
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"DISTRESS_FEDERATION_KNIGHTS_AND_KNAVES\"]/choice[1]/event/choice[@req=\"unique_tully\"]/event/text"
+msgstr ""
+"Талли бросает взгляд на записи с камер наблюдения. Когда три капитана осознают, что адмирал находится среди них, их реакция становится очевидной. Капитан корвета выглядит удивленным, но быстро принимает каменное выражение лица, а два других смотрят на него с восхищением. Капитан легкого крейсера разводит руками. \"Адмирал! Я не знал, что вы здесь!\"\n"
+"\n"
+"\"Спасибо вам обоим за службу. Мне нужно поговорить с этим перебежчиком\". Глаза Талли встречаются с глазами капитана корвета. \"Итак, почему вы это сделали?\"\n"
+"\n"
+"\"Я...\" Капитан начинает колебаться. \"Пока я был... в академии, повстанцы захватили мою планету. И они дали мне выбор\".\n"
+"\n"
+"\"Я понимаю. Но вы дали клятву. У нас три корабля, а у вас один. Поступите правильно со своими людьми и сдайтесь. Их примут как военнопленных и будут обращаться с ними справедливо\".\n"
+"\n"
+"Капитан кивает и сдается."
+
+#: src-en/data/events_sector_federation.xml:1100
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"DISTRESS_FEDERATION_KNIGHTS_AND_KNAVES\"]/choice[1]/event/choice[@req=\"unique_tully\"]/event/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_federation.xml:1106
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"DISTRESS_FEDERATION_KNIGHTS_AND_KNAVES\"]/choice[1]/event/choice[@req=\"unique_haynes\"]/text"
+msgstr "(Хэйнс) Использовать свои навыки детектива."
+
+#: src-en/data/events_sector_federation.xml:1108
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"DISTRESS_FEDERATION_KNIGHTS_AND_KNAVES\"]/choice[1]/event/choice[@req=\"unique_haynes\"]/event/text"
+msgstr ""
+"\"Охо, загадка. Похоже, я в своей стихии\", - говорит Хэйнс, размахивая трубкой и изучая записи с каждого корабля. \"Хмм, любопытно. Не могу не заметить, что на истребителе в углу кабины лежит оружие Федерации. Странно, учитывая, что в случае боев на корабле оружие обычно забывают в разных местах\".\n"
+"\n"
+"Капитан истребителя поникует. \"Я могу все объяснить!\"\n"
+"\n"
+"Хэйнс качает головой. \"Кроме того, ваш пилот неправильно носит форму. Как объясните это?\"\n"
+"\n"
+"\"Я тысячу раз говорил ему поправить форму! Но клянусь, он верен Федерации как никто другой\".\n"
+"\n"
+"\"Вы правы - потому что вы НЕ самозванец\"."
+
+#: src-en/data/events_sector_federation.xml:1118
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"DISTRESS_FEDERATION_KNIGHTS_AND_KNAVES\"]/choice[1]/event/choice[@req=\"unique_haynes\"]/event/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_federation.xml:1120
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"DISTRESS_FEDERATION_KNIGHTS_AND_KNAVES\"]/choice[1]/event/choice[@req=\"unique_haynes\"]/event/choice/event/text"
+msgstr ""
+"Лицо капитана истребителя меняется от паники к замешательству, а затем к облегчению. \"Ч-что вы имеете в виду?\"\n"
+"\n"
+"\"Ваш корабль покрыт грязью, пылью, хламом и следами обитания. Другой корабль подозрительно чистый, без единого пятнышка и без признаков жизни. Думаю, мы могли бы найти еще больше\".\n"
+"\n"
+"Капитан корвета сохраняет невозмутимое выражение лица. \"Нам нечего скрывать. Мы тщательно убираем корабль\".\n"
+"\n"
+"\"Тогда, раз вам нечего скрывать, с удовольствием посмотрю видео последней уборки. Наверняка это было не позже 24 часов назад? И, уверен, никаких следов крови тоже нет, да?\"\n"
+"\n"
+"После напряженного молчания, когда три других корабля направляют оружие в сторону корвета, его капитан наконец сдается."
+
+#: src-en/data/events_sector_federation.xml:1130
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"DISTRESS_FEDERATION_KNIGHTS_AND_KNAVES\"]/choice[1]/event/choice[@req=\"unique_haynes\"]/event/choice/event/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_federation.xml:1138
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"DISTRESS_FEDERATION_KNIGHTS_AND_KNAVES\"]/choice[1]/event/choice[@req=\"LIST_CREW_JERRY\"]/text"
+msgstr "(Джерри) Вежливо попросить экипаж самозванцев сдаться."
+
+#: src-en/data/events_sector_federation.xml:1140
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"DISTRESS_FEDERATION_KNIGHTS_AND_KNAVES\"]/choice[1]/event/choice[@req=\"LIST_CREW_JERRY\"]/event/text"
+msgstr ""
+"\"Привет, ребята, это я, Джерри\". Джерри машет рукой. Пилот корвета удивленно смотрит на него и машет рукой.\n"
+"\n"
+"\"Ребята! Идите сюда, это Джерри!\" Остальные повстанцы начинают заходить в помещение.\n"
+"\n"
+"Капитан выглядит встревоженным. \"Что вы делаете?\"\n"
+"\n"
+"\"Чувак, мы не можем врать Джерри, давай\".\n"
+"\n"
+"Джерри улыбается. \"Вы, ребята, не могли бы вернуть Федерации их корабль?\"\n"
+"\n"
+"Капитан выглядит недовольным ситуацией, но его экипаж, похоже, не хочет причинять Джерри вреда."
+
+#: src-en/data/events_sector_federation.xml:1152
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"DISTRESS_FEDERATION_KNIGHTS_AND_KNAVES\"]/choice[1]/event/choice[@req=\"LIST_CREW_JERRY\"]/event/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_federation.xml:1158
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"DISTRESS_FEDERATION_KNIGHTS_AND_KNAVES\"]/choice[1]/event/choice[@req=\"human_soldier\"]/text"
+msgstr ""
+"(Член экипажа-Солдат) Потребовать, чтобы оба корабля передали данные, "
+"известные только рядовому составу Федерации."
+
+#: src-en/data/events_sector_federation.xml:1160
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"DISTRESS_FEDERATION_KNIGHTS_AND_KNAVES\"]/choice[1]/event/choice[@req=\"human_soldier\"]/event/text"
+msgstr ""
+"Ваш Солдат отдает команду, чтобы все солдаты отдали честь и объявили свой "
+"порядковый номер, взвод, выпускной класс и сержанта. Экипаж истребителя "
+"немедленно передает видео, на котором каждый член экипажа отдает честь и с "
+"гордостью выполняет приказ. Некоторые из них даже рассказывают анекдот о "
+"своей подготовке. Солдат кивает, удовлетворенный их ответами. Другой корабль"
+" вообще не выходит на связь."
+
+#: src-en/data/events_sector_federation.xml:1162
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"DISTRESS_FEDERATION_KNIGHTS_AND_KNAVES\"]/choice[1]/event/choice[@req=\"human_soldier\"]/event/choice/text"
+msgstr "Потребовать, чтобы другой корабль капитулировал и сдался в плен."
+
+#: src-en/data/events_sector_federation.xml:1168
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"DISTRESS_FEDERATION_KNIGHTS_AND_KNAVES\"]/choice[1]/event/choice[@req=\"hacking\""
+" and @lvl=\"1\"]/text"
+msgstr ""
+"Ваш набор взломщика недостаточно совершенен, чтобы обнаружить самозванцев."
+
+#: src-en/data/events_sector_federation.xml:1172
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"DISTRESS_FEDERATION_KNIGHTS_AND_KNAVES\"]/choice[1]/event/choice[@req=\"hacking\""
+" and @lvl=\"3\"]/text"
+msgstr ""
+"(Продв. Взломщик) Потребовать, чтобы капитаны позволили вам взломать их "
+"корабли."
+
+#: src-en/data/events_sector_federation.xml:1174
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"DISTRESS_FEDERATION_KNIGHTS_AND_KNAVES\"]/choice[1]/event/choice[@req=\"hacking\""
+" and @lvl=\"3\"]/event/text"
+msgstr ""
+"Вы сообщаете кораблям, что ваша система взлома достаточно совершенна, чтобы "
+"обнаружить любые фальсификации, которые могли быть внесены в записи системы "
+"безопасности. Капитан корвета возмущенно кричит. \"Как вы смеете, Ренегат! "
+"Мы не позволим вам вторгаться в нашу частную жизнь!\" Похоже, они собираются"
+" атаковать!"
+
+#: src-en/data/events_sector_federation.xml:1177
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"DISTRESS_FEDERATION_KNIGHTS_AND_KNAVES\"]/choice[1]/event/choice[@req=\"hacking\""
+" and @lvl=\"3\"]/event/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_federation.xml:1183
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"DISTRESS_FEDERATION_KNIGHTS_AND_KNAVES\"]/choice[1]/event/choice[@req=\"mind\""
+" and @lvl=\"1\"]/text"
+msgstr "(Контроль разума) Заставить самозванцев раскрыть себя."
+
+#: src-en/data/events_sector_federation.xml:1185
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"DISTRESS_FEDERATION_KNIGHTS_AND_KNAVES\"]/choice[1]/event/choice[@req=\"mind\""
+" and @lvl=\"1\"]/event/text"
+msgstr ""
+"Ваш Контроль разума начинает работать. Капитан истребителя доказывает свою "
+"невиновность, но капитан корвета неуклюже заявляет о своих намерениях. "
+"Повстанцы, стоящие за его спиной, разбегаются в разные стороны."
+
+#: src-en/data/events_sector_federation.xml:1188
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"DISTRESS_FEDERATION_KNIGHTS_AND_KNAVES\"]/choice[1]/event/choice[@req=\"mind\""
+" and @lvl=\"1\"]/event/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_federation.xml:1194
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"DISTRESS_FEDERATION_KNIGHTS_AND_KNAVES\"]/choice[1]/event/choice[@req=\"mind\""
+" and @lvl=\"3\"]/text"
+msgstr "(Продв. Контроль разума) Заставить самозванцев сдаться."
+
+#: src-en/data/events_sector_federation.xml:1196
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"DISTRESS_FEDERATION_KNIGHTS_AND_KNAVES\"]/choice[1]/event/choice[@req=\"mind\""
+" and @lvl=\"3\"]/event/text"
+msgstr ""
+"Ваша система Контроля разума начинает работать. Капитан истребителя "
+"доказывает свою невиновность, но капитан корвета сдается в тот момент, когда"
+" ваш Контроль разума овладевает его волей."
+
+#: src-en/data/events_sector_federation.xml:1198
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"DISTRESS_FEDERATION_KNIGHTS_AND_KNAVES\"]/choice[1]/event/choice[@req=\"mind\""
+" and @lvl=\"3\"]/event/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_federation.xml:1204
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"DISTRESS_FEDERATION_KNIGHTS_AND_KNAVES\"]/choice[1]/event/choice[9]/text"
+msgstr ""
+"Допросить оба корабля досконально, пока не поймаете один из них на лжи."
+
+#: src-en/data/events_sector_federation.xml:1206
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"DISTRESS_FEDERATION_KNIGHTS_AND_KNAVES\"]/choice[1]/event/choice[9]/event/text"
+msgstr "Вы подвергаете оба корабля огромному давлению. Допрашивая их, вы начинаете складывать кусочки воедино. В конце концов вам удается прорваться сквозь маску предателя. Это занимает немало времени, но вам удается разрешить ситуацию бескровно."
+
+#: src-en/data/events_sector_federation.xml:1209
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"DISTRESS_FEDERATION_KNIGHTS_AND_KNAVES\"]/choice[1]/event/choice[9]/event/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_federation.xml:1215
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"DISTRESS_FEDERATION_KNIGHTS_AND_KNAVES\"]/choice[1]/event/choice[10]/text"
+msgstr "Выбрать один наугад."
+
+#: src-en/data/events_sector_federation.xml:1219
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"DISTRESS_FEDERATION_KNIGHTS_AND_KNAVES\"]/choice[1]/event/choice[11]/text"
+msgstr ""
+"Атаковать тот корабль, который вызывает меньше всего подозрений - это должно"
+" быть уловкой!"
+
+#: src-en/data/events_sector_federation.xml:1221
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"DISTRESS_FEDERATION_KNIGHTS_AND_KNAVES\"]/choice[1]/event/choice[11]/event/text"
+msgstr ""
+"Вы чувствуете себя очень умным, направляя оружие на легкий крейсер, который "
+"сообщил вам о возникшей проблеме. \"Что вы делаете? Вы с ума сошли?\""
+
+#: src-en/data/events_sector_federation.xml:1224
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"DISTRESS_FEDERATION_KNIGHTS_AND_KNAVES\"]/choice[1]/event/choice[11]/event/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_federation.xml:1232
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"DISTRESS_FEDERATION_KNIGHTS_AND_KNAVES\"]/choice[2]/text"
+msgstr "Отказаться от приглашения."
+
+#: src-en/data/events_sector_federation.xml:1234
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"DISTRESS_FEDERATION_KNIGHTS_AND_KNAVES\"]/choice[2]/event/text"
+msgstr ""
+"Вам неинтересно, что здесь происходит. Они как-нибудь сами разберутся."
+
+#: src-en/data/events_sector_federation.xml:1236
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"DISTRESS_FEDERATION_KNIGHTS_AND_KNAVES\"]/choice[2]/event/choice[1]/text"
+msgstr "Заняться чем-либо на корабле."
+
+#: src-en/data/events_sector_federation.xml:1240
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"DISTRESS_FEDERATION_KNIGHTS_AND_KNAVES\"]/choice[2]/event/choice[2]/text"
+msgstr "Ничего не делать."
+
+#: src-en/data/events_sector_federation.xml:1247
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"KNIGHTS_AND_KNAVES_SURRENDER\"]/text"
+msgstr ""
+"Попавшийся на лжи корабль Федерации сдается и позволяет другим кораблям "
+"взять в плен свой экипаж. Капитан легкого крейсера приглашает вас на "
+"очередной сеанс связи."
+
+#: src-en/data/events_sector_federation.xml:1250
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"KNIGHTS_AND_KNAVES_SURRENDER\"]/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_federation.xml:1255
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"KNIGHTS_AND_KNAVES_AFTERMATH\"]/text"
+msgstr ""
+"Капитаны истребителя и легкого крейсера аплодируют вашим усилиям. "
+"\"Великолепная работа. С пленными повстанцами, перебежчиком и нашим кораблем"
+" вы разрешили этот конфликт идеальным способом. Мы желаем вам удачи в "
+"выполнении задания\"."
+
+#: src-en/data/events_sector_federation.xml:1258
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"KNIGHTS_AND_KNAVES_AFTERMATH\"]/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_federation.xml:1264
+msgid ""
+"data/events_sector_federation.xml$//eventList[@name=\"KNIGHT_AND_KNAVE_RANDOM\"]/event[1]/text"
+msgstr ""
+"Вы указываете на один из кораблей наугад и обвиняете его в том, что он на "
+"стороне повстанцев. Нет времени на раздумья, пора действовать!"
+
+#: src-en/data/events_sector_federation.xml:1267
+msgid ""
+"data/events_sector_federation.xml$//eventList[@name=\"KNIGHT_AND_KNAVE_RANDOM\"]/event[1]/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_federation.xml:1272
+msgid ""
+"data/events_sector_federation.xml$//eventList[@name=\"KNIGHT_AND_KNAVE_RANDOM\"]/event[2]/text"
+msgstr ""
+"Вы указываете на один из кораблей наугад и обвиняете его в том, что он на "
+"стороне повстанцев. Нет времени на раздумья, пора действовать!"
+
+#: src-en/data/events_sector_federation.xml:1275
+msgid ""
+"data/events_sector_federation.xml$//eventList[@name=\"KNIGHT_AND_KNAVE_RANDOM\"]/event[2]/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_federation.xml:1283
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"DISTRESS_FEDERATION_TEAMUP\"]/text"
+msgstr ""
+"Прибыв к маяку, вы обнаруживаете в системе три корабля. Вестники Заката и "
+"повстанцы пытаются окружить сторожевой корабль Федерации, передающий сигнал "
+"бедствия. Непростой союз ваших врагов прорвал оборону Федерации!"
+
+#: src-en/data/events_sector_federation.xml:1285
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"DISTRESS_FEDERATION_TEAMUP\"]/choice[1]/text"
+msgstr "Атаковать Вестников Заката."
+
+#: src-en/data/events_sector_federation.xml:1287
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"DISTRESS_FEDERATION_TEAMUP\"]/choice[1]/event/text"
+msgstr ""
+"Вы заряжаете оружие и вступаете в бой с кораблем Вестников Заката. Как "
+"только вы это делаете, корабль Федерации поворачивается, чтобы сразиться с "
+"повстанцами."
+
+#: src-en/data/events_sector_federation.xml:1290
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"DISTRESS_FEDERATION_TEAMUP\"]/choice[1]/event/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_federation.xml:1296
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"DISTRESS_FEDERATION_TEAMUP\"]/choice[2]/text"
+msgstr "Атаковать повстанцев."
+
+#: src-en/data/events_sector_federation.xml:1298
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"DISTRESS_FEDERATION_TEAMUP\"]/choice[2]/event/text"
+msgstr ""
+"Вы заряжаете оружие и вступаете в бой с кораблем повстанцев. Как только вы "
+"это делаете, корабль Федерации поворачивается, чтобы сразиться с Вестниками "
+"Заката."
+
+#: src-en/data/events_sector_federation.xml:1301
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"DISTRESS_FEDERATION_TEAMUP\"]/choice[2]/event/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_federation.xml:1307
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"DISTRESS_FEDERATION_TEAMUP\"]/choice[@req=\"unique_devorak\"]/text"
+msgstr "(Деворак) Убедить Вестников Заката выступить против повстанцев."
+
+#: src-en/data/events_sector_federation.xml:1309
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"DISTRESS_FEDERATION_TEAMUP\"]/choice[@req=\"unique_devorak\"]/event/text"
+msgstr ""
+"Деворак вызывает корабль Вестников Заката. \"Этим вероломным повстанцам "
+"нельзя доверять. Выступите против них, и мы отправим вас обратно на базу\". "
+"Вестники Заката и глазом не успели моргнуть, как уже выступили против своих "
+"союзников. Корабль повстанцев быстро окружают и уничтожают силами трех "
+"кораблей. Ваш экипаж начинает собирать обломки."
+
+#: src-en/data/events_sector_federation.xml:1312
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"DISTRESS_FEDERATION_TEAMUP\"]/choice[@req=\"unique_devorak\"]/event/choice/text"
+msgstr "Обсудить капитуляцию Вестников Заката."
+
+#: src-en/data/events_sector_federation.xml:1314
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"DISTRESS_FEDERATION_TEAMUP\"]/choice[@req=\"unique_devorak\"]/event/choice/event/text"
+msgstr ""
+"Вестники Заката хмурятся, но соглашаются, чтобы их вывели из пространства "
+"Федерации. Очевидно, что им не нравится любое подчинение Федерации, но они "
+"не выглядят расстроенными из-за гибели повстанцев. Капитан Федерации "
+"впечатлен. \"Ренегаты - странные друзья, не так ли?\""
+
+#: src-en/data/events_sector_federation.xml:1317
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"DISTRESS_FEDERATION_TEAMUP\"]/choice[@req=\"unique_devorak\"]/event/choice/event/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_federation.xml:1325
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"DISTRESS_FEDERATION_TEAMUP\"]/choice[4]/text"
+msgstr "Не обращать внимания на три корабля."
+
+#: src-en/data/events_sector_federation.xml:1327
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"DISTRESS_FEDERATION_TEAMUP\"]/choice[4]/event/text"
+msgstr ""
+"Корабль Федерации, вероятно, сможет найти помощь, если они продолжат "
+"уклоняться. Ваша миссия слишком важна, чтобы отвлекаться на подобную стычку."
+
+#: src-en/data/events_sector_federation.xml:1329
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"DISTRESS_FEDERATION_TEAMUP\"]/choice[4]/event/choice[1]/text"
+msgstr "Заняться чем-либо на корабле."
+
+#: src-en/data/events_sector_federation.xml:1333
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"DISTRESS_FEDERATION_TEAMUP\"]/choice[4]/event/choice[2]/text"
+msgstr "Ничего не делать."
+
+#: src-en/data/events_sector_federation.xml:1340
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"FEDERATION_TEAMUP_FOLLOWUP\"]/text"
+msgstr "Капитан Федерации отдает вам честь. \"Спасибо, что пришли на помощь, Ренегат. Когда повстанцы и Вестники Заката начали ладить, я надеялся, что этот союз быстро развалится. Видимо, это было всего лишь принятие желаемого за действительное. Удачи вам в вашей миссии, капитан\"."
+
+#: src-en/data/events_sector_federation.xml:1343
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"FEDERATION_TEAMUP_FOLLOWUP\"]/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_federation.xml:1354
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"DISTRESS_FEDERATION_COLONY_HOSTAGE\"]/text"
 msgstr ""
@@ -764,12 +1934,12 @@ msgstr ""
 "продолжает. \"Они также угрожают начать атаку на колонию с орбиты, если их "
 "требования не будут выполнены\"."
 
-#: src-en/data/events_sector_federation.xml:588
+#: src-en/data/events_sector_federation.xml:1357
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"DISTRESS_FEDERATION_COLONY_HOSTAGE\"]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_federation.xml:590
+#: src-en/data/events_sector_federation.xml:1359
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"DISTRESS_FEDERATION_COLONY_HOSTAGE\"]/choice/event/text"
 msgstr ""
@@ -780,12 +1950,12 @@ msgstr ""
 "количеством нападающих, мы, возможно, сможем организовать контрудар и спасти"
 " заложников. Вы согласны?\""
 
-#: src-en/data/events_sector_federation.xml:592
+#: src-en/data/events_sector_federation.xml:1361
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"DISTRESS_FEDERATION_COLONY_HOSTAGE\"]/choice/event/choice[1]/text"
 msgstr "Согласиться взять на себя пиратов."
 
-#: src-en/data/events_sector_federation.xml:594
+#: src-en/data/events_sector_federation.xml:1363
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"DISTRESS_FEDERATION_COLONY_HOSTAGE\"]/choice/event/choice[1]/event/text"
 msgstr ""
@@ -793,14 +1963,14 @@ msgstr ""
 "устремляются к вашему кораблю со страшной скоростью. Вам придется "
 "приготовиться к бою!"
 
-#: src-en/data/events_sector_federation.xml:596
+#: src-en/data/events_sector_federation.xml:1365
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"DISTRESS_FEDERATION_COLONY_HOSTAGE\"]/choice/event/choice[1]/event/choice[@req=\"BLUELIST_DRONES_DEFENSE_STRONG\"]/text"
 msgstr ""
 "(Сильный Защитный дрон) Попытаться сбить капсулы с помощью вашего Защитного "
 "дрона."
 
-#: src-en/data/events_sector_federation.xml:598
+#: src-en/data/events_sector_federation.xml:1367
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"DISTRESS_FEDERATION_COLONY_HOSTAGE\"]/choice/event/choice[1]/event/choice[@req=\"BLUELIST_DRONES_DEFENSE_STRONG\"]/event/text"
 msgstr ""
@@ -808,91 +1978,91 @@ msgstr ""
 "ваш дрон достаточно мощный, чтобы уничтожить одну из них еще до прибытия. Но"
 " другому все же удается прорваться!"
 
-#: src-en/data/events_sector_federation.xml:607
+#: src-en/data/events_sector_federation.xml:1376
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"DISTRESS_FEDERATION_COLONY_HOSTAGE\"]/choice/event/choice[1]/event/choice[@req=\"BLUELIST_DRONES_DEFENSE_STRONG\"]/event/triggeredEvent/triggeredEventBox/tooltip"
 msgstr "Приближаются новые абордажные капсулы!"
 
-#: src-en/data/events_sector_federation.xml:614
+#: src-en/data/events_sector_federation.xml:1383
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"DISTRESS_FEDERATION_COLONY_HOSTAGE\"]/choice/event/choice[1]/event/choice[@req=\"BLUELIST_DRONES_DEFENSE_WEAK\"]/text"
 msgstr ""
 "(Слабый Защитный дрон) Попытаться сбить капсулы с помощью вашего Защитного "
 "дрона."
 
-#: src-en/data/events_sector_federation.xml:618
+#: src-en/data/events_sector_federation.xml:1387
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"DISTRESS_FEDERATION_COLONY_HOSTAGE\"]/choice/event/choice[1]/event/choice[@req=\"LIST_CHECK_ENERGY_SHIELD\""
 " and @lvl=\"1\"]/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_federation.xml:620
+#: src-en/data/events_sector_federation.xml:1389
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"DISTRESS_FEDERATION_COLONY_HOSTAGE\"]/choice/event/choice[1]/event/choice[@req=\"LIST_CHECK_ENERGY_SHIELD\""
 " and @lvl=\"1\"]/event/text"
 msgstr ""
-"Капсулы повредили ваш энергетический щит. К сожалению, дрон не смог помешать"
-" им проникнуть внутрь. Вам придется сразиться с ними!"
+"Капсулы повредили ваш энергетический щит. К сожалению, он не смог помешать "
+"им проникнуть внутрь. Вам придется сразиться с ними!"
 
-#: src-en/data/events_sector_federation.xml:625
+#: src-en/data/events_sector_federation.xml:1394
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"DISTRESS_FEDERATION_COLONY_HOSTAGE\"]/choice/event/choice[1]/event/choice[@req=\"LIST_CHECK_ENERGY_SHIELD\""
 " and @lvl=\"1\"]/event/triggeredEvent/triggeredEventBox/tooltip"
 msgstr "Приближаются новые абордажные капсулы!"
 
-#: src-en/data/events_sector_federation.xml:632
+#: src-en/data/events_sector_federation.xml:1401
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"DISTRESS_FEDERATION_COLONY_HOSTAGE\"]/choice/event/choice[1]/event/choice[@req=\"LIST_CHECK_ENERGY_SHIELD\""
 " and @lvl=\"0\"]/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_federation.xml:634
+#: src-en/data/events_sector_federation.xml:1403
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"DISTRESS_FEDERATION_COLONY_HOSTAGE\"]/choice/event/choice[1]/event/choice[@req=\"LIST_CHECK_ENERGY_SHIELD\""
 " and @lvl=\"0\"]/event/text"
 msgstr "Первые две капсулы пробивают ваш корпус. Начинается бой!"
 
-#: src-en/data/events_sector_federation.xml:639
+#: src-en/data/events_sector_federation.xml:1408
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"DISTRESS_FEDERATION_COLONY_HOSTAGE\"]/choice/event/choice[1]/event/choice[@req=\"LIST_CHECK_ENERGY_SHIELD\""
 " and @lvl=\"0\"]/event/triggeredEvent/triggeredEventBox/tooltip"
 msgstr "Приближаются новые абордажные капсулы!"
 
-#: src-en/data/events_sector_federation.xml:648
+#: src-en/data/events_sector_federation.xml:1417
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"DISTRESS_FEDERATION_COLONY_HOSTAGE\"]/choice/event/choice[2]/text"
 msgstr "Сообщить Фримону, что ваш экипаж к этому не готов."
 
-#: src-en/data/events_sector_federation.xml:650
+#: src-en/data/events_sector_federation.xml:1419
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"DISTRESS_FEDERATION_COLONY_HOSTAGE\"]/choice/event/choice[2]/event/text"
 msgstr "\"Если вы не справитесь, мы найдем другой способ. Удачи в вашей миссии\"."
 
-#: src-en/data/events_sector_federation.xml:652
+#: src-en/data/events_sector_federation.xml:1421
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"DISTRESS_FEDERATION_COLONY_HOSTAGE\"]/choice/event/choice[2]/event/choice[1]/text"
 msgstr "Заняться чем-либо на корабле."
 
-#: src-en/data/events_sector_federation.xml:656
+#: src-en/data/events_sector_federation.xml:1425
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"DISTRESS_FEDERATION_COLONY_HOSTAGE\"]/choice/event/choice[2]/event/choice[2]/text"
 msgstr "Ничего не делать."
 
-#: src-en/data/events_sector_federation.xml:665
+#: src-en/data/events_sector_federation.xml:1434
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FEDERATION_BOARDINGPODS_WAVE2\"]/text"
 msgstr ""
 "Еще три абордажные капсулы приближаются к корпусу корабля. Пираты всерьез "
 "намерены захватить ваш корабль."
 
-#: src-en/data/events_sector_federation.xml:667
+#: src-en/data/events_sector_federation.xml:1436
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FEDERATION_BOARDINGPODS_WAVE2\"]/choice[@req=\"BLUELIST_DRONES_DEFENSE_STRONG\"]/text"
 msgstr ""
 "(Сильный Защитный дрон) Попытаться сбить капсулы с помощью вашего Защитного "
 "дрона."
 
-#: src-en/data/events_sector_federation.xml:669
+#: src-en/data/events_sector_federation.xml:1438
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FEDERATION_BOARDINGPODS_WAVE2\"]/choice[@req=\"BLUELIST_DRONES_DEFENSE_STRONG\"]/event/text"
 msgstr ""
@@ -900,19 +2070,19 @@ msgstr ""
 "ваш дрон достаточно мощный, чтобы уничтожить одну из них до того, как она "
 "доберется до вас. Двум другим все же удается прорваться!"
 
-#: src-en/data/events_sector_federation.xml:678
+#: src-en/data/events_sector_federation.xml:1447
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FEDERATION_BOARDINGPODS_WAVE2\"]/choice[@req=\"BLUELIST_DRONES_DEFENSE_STRONG\"]/event/triggeredEvent/triggeredEventBox/tooltip"
 msgstr "Приближаются новые абордажные капсулы!"
 
-#: src-en/data/events_sector_federation.xml:685
+#: src-en/data/events_sector_federation.xml:1454
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FEDERATION_BOARDINGPODS_WAVE2\"]/choice[@req=\"DEFENSE_STRONG_DEPLOYED\"]/text"
 msgstr ""
 "(Сильный Защитный дрон) Попытаться сбить капсулы с помощью вашего Защитного "
 "дрона."
 
-#: src-en/data/events_sector_federation.xml:687
+#: src-en/data/events_sector_federation.xml:1456
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FEDERATION_BOARDINGPODS_WAVE2\"]/choice[@req=\"DEFENSE_STRONG_DEPLOYED\"]/event/text"
 msgstr ""
@@ -920,65 +2090,65 @@ msgstr ""
 "ваш дрон достаточно мощный, чтобы уничтожить одну из них до того, как она "
 "доберется до вас. Двум другим все же удается прорваться!"
 
-#: src-en/data/events_sector_federation.xml:692
+#: src-en/data/events_sector_federation.xml:1461
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FEDERATION_BOARDINGPODS_WAVE2\"]/choice[@req=\"DEFENSE_STRONG_DEPLOYED\"]/event/triggeredEvent/triggeredEventBox/tooltip"
 msgstr "Приближаются новые абордажные капсулы!"
 
-#: src-en/data/events_sector_federation.xml:699
+#: src-en/data/events_sector_federation.xml:1468
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FEDERATION_BOARDINGPODS_WAVE2\"]/choice[@req=\"BLUELIST_DRONES_DEFENSE_WEAK\"]/text"
 msgstr ""
 "(Слабый Защитный дрон) Попытаться сбить капсулы с помощью вашего Защитного "
 "дрона."
 
-#: src-en/data/events_sector_federation.xml:701
+#: src-en/data/events_sector_federation.xml:1470
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FEDERATION_BOARDINGPODS_WAVE2\"]/choice[@req=\"BLUELIST_DRONES_DEFENSE_WEAK\"]/event/text"
 msgstr "Наконец-то вы решили использовать свой дрон..."
 
-#: src-en/data/events_sector_federation.xml:707
+#: src-en/data/events_sector_federation.xml:1476
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FEDERATION_BOARDINGPODS_WAVE2\"]/choice[@req=\"BLUELIST_DRONES_DEFENSE_WEAK\"]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_federation.xml:713
+#: src-en/data/events_sector_federation.xml:1482
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FEDERATION_BOARDINGPODS_WAVE2\"]/choice[@req=\"DEFENSE_WEAK_DEPLOYED\"]/text"
 msgstr ""
 "(Слабый Защитный дрон) Попытаться сбить капсулы с помощью вашего Защитного "
 "дрона."
 
-#: src-en/data/events_sector_federation.xml:717
+#: src-en/data/events_sector_federation.xml:1486
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FEDERATION_BOARDINGPODS_WAVE2\"]/choice[5]/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_federation.xml:719
+#: src-en/data/events_sector_federation.xml:1488
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FEDERATION_BOARDINGPODS_WAVE2\"]/choice[5]/event/text"
 msgstr ""
 "Все три капсулы врываются на ваш корабль. И еще больше, несомненно, на "
 "подходе!"
 
-#: src-en/data/events_sector_federation.xml:724
+#: src-en/data/events_sector_federation.xml:1493
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FEDERATION_BOARDINGPODS_WAVE2\"]/choice[5]/event/triggeredEvent/triggeredEventBox/tooltip"
 msgstr "Приближаются новые абордажные капсулы!"
 
-#: src-en/data/events_sector_federation.xml:733
+#: src-en/data/events_sector_federation.xml:1502
 msgid ""
 "data/events_sector_federation.xml$//eventList[@name=\"FEDERATION_WEAK_DEFENSE_1\"]/event[1]/text"
 msgstr ""
 "Ваш Защитный дрон наносит удар, но это бесполезно - капсула слишком крепкая."
 " Вам придется сражаться со всеми, кто идет на абордаж!"
 
-#: src-en/data/events_sector_federation.xml:742
+#: src-en/data/events_sector_federation.xml:1511
 msgid ""
 "data/events_sector_federation.xml$//eventList[@name=\"FEDERATION_WEAK_DEFENSE_1\"]/event[1]/triggeredEvent/triggeredEventBox/tooltip"
 msgstr "Приближаются новые абордажные капсулы!"
 
-#: src-en/data/events_sector_federation.xml:748
+#: src-en/data/events_sector_federation.xml:1517
 msgid ""
 "data/events_sector_federation.xml$//eventList[@name=\"FEDERATION_WEAK_DEFENSE_1\"]/event[2]/text"
 msgstr ""
@@ -986,24 +2156,24 @@ msgstr ""
 "выстрел сбивает ее с курса, отправляя абордажную капсулу в сторону. Вам все "
 "равно придется разбираться с другой капсулой!"
 
-#: src-en/data/events_sector_federation.xml:757
+#: src-en/data/events_sector_federation.xml:1526
 msgid ""
 "data/events_sector_federation.xml$//eventList[@name=\"FEDERATION_WEAK_DEFENSE_1\"]/event[2]/triggeredEvent/triggeredEventBox/tooltip"
 msgstr "Приближаются новые абордажные капсулы!"
 
-#: src-en/data/events_sector_federation.xml:766
+#: src-en/data/events_sector_federation.xml:1535
 msgid ""
 "data/events_sector_federation.xml$//eventList[@name=\"FEDERATION_WEAK_DEFENSE_2\"]/event[1]/text"
 msgstr ""
 "Ваш Защитный дрон наносит удар, но это бесполезно - капсула слишком крепкая."
 " Вам придется сражаться со всеми, кто идет на абордаж!"
 
-#: src-en/data/events_sector_federation.xml:771
+#: src-en/data/events_sector_federation.xml:1540
 msgid ""
 "data/events_sector_federation.xml$//eventList[@name=\"FEDERATION_WEAK_DEFENSE_2\"]/event[1]/triggeredEvent/triggeredEventBox/tooltip"
 msgstr "Приближаются новые абордажные капсулы!"
 
-#: src-en/data/events_sector_federation.xml:777
+#: src-en/data/events_sector_federation.xml:1546
 msgid ""
 "data/events_sector_federation.xml$//eventList[@name=\"FEDERATION_WEAK_DEFENSE_2\"]/event[2]/text"
 msgstr ""
@@ -1011,19 +2181,19 @@ msgstr ""
 "выстрел сбивает ее с курса, отправляя абордажную капсулу в сторону. Вам все "
 "равно придется разбираться с другими капсулами!"
 
-#: src-en/data/events_sector_federation.xml:782
+#: src-en/data/events_sector_federation.xml:1551
 msgid ""
 "data/events_sector_federation.xml$//eventList[@name=\"FEDERATION_WEAK_DEFENSE_2\"]/event[2]/triggeredEvent/triggeredEventBox/tooltip"
 msgstr "Приближаются новые абордажные капсулы!"
 
-#: src-en/data/events_sector_federation.xml:790
+#: src-en/data/events_sector_federation.xml:1559
 msgid ""
 "data/events_sector_federation.xml$//eventList[@name=\"FEDERATION_WEAK_DEFENSE_3\"]/event[1]/text"
 msgstr ""
 "Ваш Защитный дрон наносит удар, но это бесполезно - капсула слишком крепкая."
 " Вам придется сражаться со всеми, кто идет на абордаж!"
 
-#: src-en/data/events_sector_federation.xml:795
+#: src-en/data/events_sector_federation.xml:1564
 msgid ""
 "data/events_sector_federation.xml$//eventList[@name=\"FEDERATION_WEAK_DEFENSE_3\"]/event[2]/text"
 msgstr ""
@@ -1031,21 +2201,21 @@ msgstr ""
 "выстрел сбивает ее с курса, отправляя абордажную капсулу в сторону. Вам все "
 "равно придется разбираться с другими капсулами!"
 
-#: src-en/data/events_sector_federation.xml:802
+#: src-en/data/events_sector_federation.xml:1571
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FEDERATION_BOARDINGPODS_WAVE3\"]/text"
 msgstr ""
 "Они намерены полностью захватить ваш корабль. Приближаются еще четыре "
 "капсулы!"
 
-#: src-en/data/events_sector_federation.xml:807
+#: src-en/data/events_sector_federation.xml:1576
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FEDERATION_BOARDINGPODS_WAVE3\"]/choice[@req=\"BLUELIST_DRONES_DEFENSE_STRONG\"]/text"
 msgstr ""
 "(Сильный Защитный дрон) Попытаться сбить капсулы с помощью вашего Защитного "
 "дрона."
 
-#: src-en/data/events_sector_federation.xml:809
+#: src-en/data/events_sector_federation.xml:1578
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FEDERATION_BOARDINGPODS_WAVE3\"]/choice[@req=\"BLUELIST_DRONES_DEFENSE_STRONG\"]/event/text"
 msgstr ""
@@ -1053,14 +2223,14 @@ msgstr ""
 "ваш Защитный дрон достаточно мощный, чтобы уничтожить одну из них до того, "
 "как она доберется до вас. Остальным трем все же удается прорваться. Вот они!"
 
-#: src-en/data/events_sector_federation.xml:819
+#: src-en/data/events_sector_federation.xml:1588
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FEDERATION_BOARDINGPODS_WAVE3\"]/choice[@req=\"DEFENSE_STRONG_DEPLOYED\"]/text"
 msgstr ""
 "(Сильный Защитный дрон) Попытаться сбить капсулы с помощью вашего Защитного "
 "дрона."
 
-#: src-en/data/events_sector_federation.xml:821
+#: src-en/data/events_sector_federation.xml:1590
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FEDERATION_BOARDINGPODS_WAVE3\"]/choice[@req=\"DEFENSE_STRONG_DEPLOYED\"]/event/text"
 msgstr ""
@@ -1068,41 +2238,41 @@ msgstr ""
 "ваш Защитный дрон достаточно мощный, чтобы уничтожить одну из них до того, "
 "как она доберется до вас. Остальным трем все же удается прорваться. Вот они!"
 
-#: src-en/data/events_sector_federation.xml:827
+#: src-en/data/events_sector_federation.xml:1596
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FEDERATION_BOARDINGPODS_WAVE3\"]/choice[@req=\"BLUELIST_DRONES_DEFENSE_WEAK\"]/text"
 msgstr ""
 "(Слабый Защитный дрон) Попытаться сбить капсулы с помощью вашего Защитного "
 "дрона."
 
-#: src-en/data/events_sector_federation.xml:829
+#: src-en/data/events_sector_federation.xml:1598
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FEDERATION_BOARDINGPODS_WAVE3\"]/choice[@req=\"BLUELIST_DRONES_DEFENSE_WEAK\"]/event/text"
 msgstr "Наконец-то вы решили использовать свой дрон..."
 
-#: src-en/data/events_sector_federation.xml:835
+#: src-en/data/events_sector_federation.xml:1604
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FEDERATION_BOARDINGPODS_WAVE3\"]/choice[@req=\"BLUELIST_DRONES_DEFENSE_WEAK\"]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_federation.xml:841
+#: src-en/data/events_sector_federation.xml:1610
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FEDERATION_BOARDINGPODS_WAVE3\"]/choice[@req=\"DEFENSE_WEAK_DEPLOYED\"]/text"
 msgstr ""
 "(Слабый Защитный дрон) Попытаться сбить капсулы с помощью вашего Защитного "
 "дрона."
 
-#: src-en/data/events_sector_federation.xml:845
+#: src-en/data/events_sector_federation.xml:1614
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FEDERATION_BOARDINGPODS_WAVE3\"]/choice[5]/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_federation.xml:847
+#: src-en/data/events_sector_federation.xml:1616
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FEDERATION_BOARDINGPODS_WAVE3\"]/choice[5]/event/text"
 msgstr "Все четыре капсулы врываются на ваш корабль. Вот они!"
 
-#: src-en/data/events_sector_federation.xml:854
+#: src-en/data/events_sector_federation.xml:1623
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FEDERATION_BOARDINGPODS_WIN\"]/text"
 msgstr ""
@@ -1113,12 +2283,12 @@ msgstr ""
 "принести вещи пиратов, один из них передает благодарственную записку от "
 "похищенного ребенка."
 
-#: src-en/data/events_sector_federation.xml:859
+#: src-en/data/events_sector_federation.xml:1628
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FEDERATION_BOARDINGPODS_WIN\"]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_federation.xml:866
+#: src-en/data/events_sector_federation.xml:1635
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"DISTRESS_FEDERATION_EMBASSY\"]/text"
 msgstr ""
@@ -1126,12 +2296,12 @@ msgstr ""
 "Министерства. Тревожно обнаружить здесь сигнал бедствия - еще большую "
 "тревогу вызывает корабль Вестников Заката, стоящий у станции."
 
-#: src-en/data/events_sector_federation.xml:869
+#: src-en/data/events_sector_federation.xml:1638
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"DISTRESS_FEDERATION_EMBASSY\"]/choice[1]/text"
 msgstr "Высадиться у посольства."
 
-#: src-en/data/events_sector_federation.xml:871
+#: src-en/data/events_sector_federation.xml:1640
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"DISTRESS_FEDERATION_EMBASSY\"]/choice[1]/event/text"
 msgstr ""
@@ -1150,47 +2320,47 @@ msgstr ""
 "среди звезд!\" Золтан говорит скованно, как будто пересказывает речь, "
 "которую он слышал в другом месте."
 
-#: src-en/data/events_sector_federation.xml:873
+#: src-en/data/events_sector_federation.xml:1642
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"DISTRESS_FEDERATION_EMBASSY\"]/choice[1]/event/choice[1]/text"
 msgstr "Выстрелить в Вестника Заката."
 
-#: src-en/data/events_sector_federation.xml:877
+#: src-en/data/events_sector_federation.xml:1646
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"DISTRESS_FEDERATION_EMBASSY\"]/choice[1]/event/choice[@req=\"unique_devorak\"]/text"
 msgstr "(Деворак) Деэскалировать ситуацию."
 
-#: src-en/data/events_sector_federation.xml:881
+#: src-en/data/events_sector_federation.xml:1650
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"DISTRESS_FEDERATION_EMBASSY\"]/choice[1]/event/choice[3]/text"
 msgstr "Раскрыть себя и попытаться вступить в дискуссию с Вестником Заката."
 
-#: src-en/data/events_sector_federation.xml:885
+#: src-en/data/events_sector_federation.xml:1654
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"DISTRESS_FEDERATION_EMBASSY\"]/choice[1]/event/choice[4]/text"
 msgstr "Воспользоваться моментом и уйти."
 
-#: src-en/data/events_sector_federation.xml:891
+#: src-en/data/events_sector_federation.xml:1660
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"DISTRESS_FEDERATION_EMBASSY\"]/choice[2]/text"
 msgstr "Избегать посольства."
 
-#: src-en/data/events_sector_federation.xml:893
+#: src-en/data/events_sector_federation.xml:1662
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"DISTRESS_FEDERATION_EMBASSY\"]/choice[2]/event/text"
 msgstr "Это слишком рискованно, чтобы в это стоило ввязываться."
 
-#: src-en/data/events_sector_federation.xml:895
+#: src-en/data/events_sector_federation.xml:1664
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"DISTRESS_FEDERATION_EMBASSY\"]/choice[2]/event/choice[1]/text"
 msgstr "Заняться чем-либо на корабле."
 
-#: src-en/data/events_sector_federation.xml:899
+#: src-en/data/events_sector_federation.xml:1668
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"DISTRESS_FEDERATION_EMBASSY\"]/choice[2]/event/choice[2]/text"
 msgstr "Ничего не делать."
 
-#: src-en/data/events_sector_federation.xml:906
+#: src-en/data/events_sector_federation.xml:1675
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FED_EMBASSY_MESSY\"]/text"
 msgstr ""
@@ -1199,12 +2369,12 @@ msgstr ""
 "относятся к чужим жизням, как вы?! Никто из этих людей не должен был "
 "умереть, но теперь их кровь на ваших руках\"."
 
-#: src-en/data/events_sector_federation.xml:908
+#: src-en/data/events_sector_federation.xml:1677
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FED_EMBASSY_MESSY\"]/choice[1]/text"
 msgstr "Извиниться и уйти."
 
-#: src-en/data/events_sector_federation.xml:910
+#: src-en/data/events_sector_federation.xml:1679
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FED_EMBASSY_MESSY\"]/choice[1]/event/text"
 msgstr ""
@@ -1212,33 +2382,33 @@ msgstr ""
 "крайней мере, прекращают свои разглагольствования и переходят разбору "
 "ситуации, позволяя вам ускользнуть без дальнейших последствий."
 
-#: src-en/data/events_sector_federation.xml:914
+#: src-en/data/events_sector_federation.xml:1683
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FED_EMBASSY_MESSY\"]/choice[2]/text"
 msgstr "Вы совсем не контролировали ситуацию!"
 
-#: src-en/data/events_sector_federation.xml:916
+#: src-en/data/events_sector_federation.xml:1685
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FED_EMBASSY_MESSY\"]/choice[2]/event/text"
 msgstr ""
 "Ваш бесчувственный ответ только еще больше разозлил золтана. \"Ну, это не "
 "вам решать. Теперь у нас на руках дипломатический кошмар. Неужели вы "
-"думаете, что организация, которая не только наняла вас, но и позволяет людям "
-"вашего типа законно существовать в этой галактике, будет продолжать получать "
-"поддержку, когда вы ведете себя подобным образом?\" Вы решили, что лучше "
-"уйти, пока все не стало еще хуже."
+"думаете, что организация, которая не только наняла вас, но и позволяет людям"
+" вашего типа законно существовать в этой галактике, будет продолжать "
+"получать поддержку, когда вы ведете себя подобным образом?\" Вы решили, что "
+"лучше уйти, пока все не стало еще хуже."
 
-#: src-en/data/events_sector_federation.xml:918
+#: src-en/data/events_sector_federation.xml:1687
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FED_EMBASSY_MESSY\"]/choice[2]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_federation.xml:924
+#: src-en/data/events_sector_federation.xml:1693
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FED_EMBASSY_MESSY\"]/choice[3]/text"
 msgstr "Предложить немного лома в качестве компенсации."
 
-#: src-en/data/events_sector_federation.xml:926
+#: src-en/data/events_sector_federation.xml:1695
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FED_EMBASSY_MESSY\"]/choice[3]/event/text"
 msgstr ""
@@ -1248,30 +2418,30 @@ msgstr ""
 "ущерб, не говоря уже о возмещении семьям погибших. Просто... уходите. Вы "
 "здесь никому не нужны\"."
 
-#: src-en/data/events_sector_federation.xml:935
+#: src-en/data/events_sector_federation.xml:1704
 msgid ""
 "data/events_sector_federation.xml$//eventList[@name=\"FED_EMBASSY_KILL\"]/event[1]/text"
 msgstr ""
-"Вы достаете бластер и стреляете в грудь Вестнику Заката. Совершенно "
-"неподготовленный к бесшумной засаде, он умирает еще до того, как успевает "
-"активировать свой взрывной жилет. Охранники по бокам присоединяются к бою, и"
-" вам удается на удивление быстро расправиться с Вестниками Заката. После "
-"того как угроза устранена, сотрудники посольства щедро платят вам за помощь."
+"Вы достаете бластер и стреляете в грудь Вестнику Заката. Оказавшись "
+"неподготовленным к засаде, он умирает еще до того, как успевает активировать"
+" свой взрывной жилет. Охранники по бокам присоединяются к бою, и вам удается"
+" на удивление быстро расправиться с Вестниками Заката. После того как угроза"
+" устранена, сотрудники посольства щедро платят вам за помощь."
 
-#: src-en/data/events_sector_federation.xml:942
+#: src-en/data/events_sector_federation.xml:1711
 msgid "data/events_sector_federation.xml$//event[@name=\"FED_EMBASSY_BAD\"]/text"
 msgstr ""
-"К сожалению, рискованные шаги быстро сходят на нет. Вестники Заката "
-"реагируют быстро, приводя в действие свои взрывные жилеты и уничтожая "
-"нескольких заложников. Пока охранники вступают в бой, вы вынуждены отступить"
-" обратно на корабль и отбиваться от враждебного судна снаружи."
+"К сожалению, риск быстро приводит к провалу. Вестники Заката реагируют "
+"быстро, приводя в действие свои взрывные жилеты и уничтожая нескольких "
+"заложников. Пока охранники вступают в бой, вы вынуждены отступить обратно на"
+" корабль и отбиваться от враждебного судна снаружи."
 
-#: src-en/data/events_sector_federation.xml:945
+#: src-en/data/events_sector_federation.xml:1714
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FED_EMBASSY_BAD\"]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_federation.xml:950
+#: src-en/data/events_sector_federation.xml:1719
 msgid "data/events_sector_federation.xml$//event[@name=\"FED_EMBASSY_GOOD\"]/text"
 msgstr ""
 "Глава посольства даже приходит пожать вам руку за вашу помощь. \"Жаль, что "
@@ -1280,12 +2450,12 @@ msgstr ""
 "отказаться от своих методов, но, похоже, многие из нашего рода отказались от"
 " старых принципов. В любом случае, вот ваша награда\"."
 
-#: src-en/data/events_sector_federation.xml:954
+#: src-en/data/events_sector_federation.xml:1723
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FED_EMBASSY_GOOD\"]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_federation.xml:959
+#: src-en/data/events_sector_federation.xml:1728
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FED_EMBASSY_DEVORAK\"]/text"
 msgstr ""
@@ -1295,14 +2465,14 @@ msgstr ""
 "\n"
 "\"Отставить, солдат. Это приказ. Вы высказали свое мнение. Освободите заложников и уходите\".\n"
 "\n"
-"\"Но мы... это не было...\" Вестник Заката заметно сбавил обороты. \"Да, генерал. ...Даже если никто из вас не погибнет, вы будете помнить об этом\"."
+"\"Но мы... это не было...\" Вестник Заката заметно сбавил обороты. \"Да, генерал. ...Даже если никто из нас не погибнет, вы будете помнить об этом\"."
 
-#: src-en/data/events_sector_federation.xml:967
+#: src-en/data/events_sector_federation.xml:1736
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FED_EMBASSY_DEVORAK\"]/choice/text"
 msgstr "Поговорить с золтанами."
 
-#: src-en/data/events_sector_federation.xml:969
+#: src-en/data/events_sector_federation.xml:1738
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FED_EMBASSY_DEVORAK\"]/choice/event/text"
 msgstr ""
@@ -1310,12 +2480,12 @@ msgstr ""
 "\n"
 "\"Я... что? Вы...?\" Деворак, похоже, был застигнут врасплох. \"Вы ведь... знаете, кто я, не так ли...?\""
 
-#: src-en/data/events_sector_federation.xml:975
+#: src-en/data/events_sector_federation.xml:1744
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FED_EMBASSY_DEVORAK\"]/choice/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_federation.xml:983
+#: src-en/data/events_sector_federation.xml:1752
 msgid ""
 "data/events_sector_federation.xml$//eventList[@name=\"FED_EMBASSY_DEBATE\"]/event/text"
 msgstr ""
@@ -1324,45 +2494,45 @@ msgstr ""
 "поднимаете руки вверх, чтобы показать, что не собираетесь нападать, по "
 "крайней мере, пока. Лидер Вестников Заката смеется и широко разводит руки. "
 "\"Вы только посмотрите на это! Клоун-Ренегат решил сегодня нас развлечь! "
-"Скажи мне, вооруженная скотина, какими словами мудрости ты хочешь поделиться "
-"с нами?\""
+"Скажи мне, вооруженная скотина, какими словами мудрости ты хочешь поделиться"
+" с нами?\""
 
-#: src-en/data/events_sector_federation.xml:985
+#: src-en/data/events_sector_federation.xml:1754
 msgid ""
 "data/events_sector_federation.xml$//eventList[@name=\"FED_EMBASSY_DEBATE\"]/event/choice[1]/text"
 msgstr ""
 "Ваши идеологии злы и противоречат всему, к чему стремилась некогда лучшая "
 "галактика!"
 
-#: src-en/data/events_sector_federation.xml:987
+#: src-en/data/events_sector_federation.xml:1756
 msgid ""
 "data/events_sector_federation.xml$//eventList[@name=\"FED_EMBASSY_DEBATE\"]/event/choice[1]/event/text"
 msgstr ""
 "\"Утверждение, что наши идеологии являются злом, лишь доказывает, что ты не "
 "понимаешь цели движения Вестников Заката! Простодушный Ренегат не способен "
 "постичь столь грандиозную картину. Мы - те, кто работает над созданием "
-"лучшей галактики. Если не мы, то кто же еще?\" Золтан улыбается, несмотря на "
-"то, что он так и не удосужился объяснить, какую грандиозную идею он "
+"лучшей галактики. Если не мы, то кто же еще?\" Золтан улыбается, несмотря на"
+" то, что он так и не удосужился объяснить, какую грандиозную идею он "
 "воплощает. Однако смысл его слов ясен - он не собирается сдаваться."
 
-#: src-en/data/events_sector_federation.xml:989
+#: src-en/data/events_sector_federation.xml:1758
 msgid ""
 "data/events_sector_federation.xml$//eventList[@name=\"FED_EMBASSY_DEBATE\"]/event/choice[1]/event/choice[1]/text"
 msgstr "Время для плана Б - в атаку!"
 
-#: src-en/data/events_sector_federation.xml:993
+#: src-en/data/events_sector_federation.xml:1762
 msgid ""
 "data/events_sector_federation.xml$//eventList[@name=\"FED_EMBASSY_DEBATE\"]/event/choice[1]/event/choice[2]/text"
 msgstr "Мы просто пойдем."
 
-#: src-en/data/events_sector_federation.xml:999
+#: src-en/data/events_sector_federation.xml:1768
 msgid ""
 "data/events_sector_federation.xml$//eventList[@name=\"FED_EMBASSY_DEBATE\"]/event/choice[2]/text"
 msgstr ""
 "Если вы утверждаете, что являетесь золтанскими экстремистами, тогда почему "
 "вы подвергаете опасности жизни стольких себе подобных?"
 
-#: src-en/data/events_sector_federation.xml:1001
+#: src-en/data/events_sector_federation.xml:1770
 msgid ""
 "data/events_sector_federation.xml$//eventList[@name=\"FED_EMBASSY_DEBATE\"]/event/choice[2]/event/text"
 msgstr ""
@@ -1378,14 +2548,14 @@ msgstr ""
 " выигрывать эту интеллектуальную войну - вам просто нужно отвлечь его "
 "достаточно надолго, чтобы он потерял бдительность."
 
-#: src-en/data/events_sector_federation.xml:1003
+#: src-en/data/events_sector_federation.xml:1772
 msgid ""
 "data/events_sector_federation.xml$//eventList[@name=\"FED_EMBASSY_DEBATE\"]/event/choice[2]/event/choice[1]/text"
 msgstr ""
 "Но кто может решать, какие существа являются и не являются высшими? Что "
 "делает вас судьей?"
 
-#: src-en/data/events_sector_federation.xml:1005
+#: src-en/data/events_sector_federation.xml:1774
 msgid ""
 "data/events_sector_federation.xml$//eventList[@name=\"FED_EMBASSY_DEBATE\"]/event/choice[2]/event/choice[1]/event/text"
 msgstr ""
@@ -1397,42 +2567,42 @@ msgstr ""
 "среде - но для них найдется место в нашей новой галактике. Просто они не "
 "будут на вершине. Но это могут увидеть только Вестники Заката\"."
 
-#: src-en/data/events_sector_federation.xml:1007
+#: src-en/data/events_sector_federation.xml:1776
 msgid ""
 "data/events_sector_federation.xml$//eventList[@name=\"FED_EMBASSY_DEBATE\"]/event/choice[2]/event/choice[1]/event/choice[1]/text"
 msgstr ""
 "Таким образом, вы вовсе не судьи - вы просто радикалы, которые перешли на "
 "личности."
 
-#: src-en/data/events_sector_federation.xml:1009
+#: src-en/data/events_sector_federation.xml:1778
 msgid ""
 "data/events_sector_federation.xml$//eventList[@name=\"FED_EMBASSY_DEBATE\"]/event/choice[2]/event/choice[1]/event/choice[1]/event/text"
 msgstr ""
-"\"МЫ НЕ РАДИКАЛЫ!\" Вестник Заката отталкивает своих товарищей и бросается к "
-"вам. \"КАК ТЫ СМЕЕШЬ ОСКОРБЛЯТЬ НАШЕ ДВИЖЕНИЕ! Радикалы - это люди, которые "
-"не могут подкрепить свою идеологию фактами, поэтому они прибегают к крайним "
-"мерам! Ничто в Вестниках Заката не является экстремальным или "
+"\"МЫ НЕ РАДИКАЛЫ!\" Вестник Заката отталкивает своих товарищей и бросается к"
+" вам. \"КАК ТЫ СМЕЕШЬ ОСКОРБЛЯТЬ НАШЕ ДВИЖЕНИЕ! Радикалы - это люди, которые"
+" не могут подкрепить свою идеологию фактами, поэтому они прибегают к крайним"
+" мерам! Ничто в Вестниках Заката не является экстремальным или "
 "бездоказательным. Мы сильны миллионами и растем, и наши методы не вредят "
-"никому, кроме тех, кто прямо противостоит нам. Ты просто отброс-Ренегат, кто "
-"ты такой, чтобы говорить такие вещи? Ты не разбираешься в политике, ты не "
+"никому, кроме тех, кто прямо противостоит нам. Ты просто отброс-Ренегат, кто"
+" ты такой, чтобы говорить такие вещи? Ты не разбираешься в политике, ты не "
 "знаешь...\". Золтан был прерван внезапными выстрелами: охранники открывают "
 "огонь, пока Вестники Заката отвлечены. Вестников Заката уничтожают прежде, "
 "чем они успевают добраться до заложников, а сотрудники посольства, похоже, "
 "признают вашу помощь и предлагают вознаграждение."
 
-#: src-en/data/events_sector_federation.xml:1011
+#: src-en/data/events_sector_federation.xml:1780
 msgid ""
 "data/events_sector_federation.xml$//eventList[@name=\"FED_EMBASSY_DEBATE\"]/event/choice[2]/event/choice[1]/event/choice[1]/event/choice/text"
 msgstr "Принять награду."
 
-#: src-en/data/events_sector_federation.xml:1017
+#: src-en/data/events_sector_federation.xml:1786
 msgid ""
 "data/events_sector_federation.xml$//eventList[@name=\"FED_EMBASSY_DEBATE\"]/event/choice[2]/event/choice[1]/event/choice[2]/text"
 msgstr ""
 "Ваши технологии взяты из руин, ваши умы, конечно, не лучшие, и нет никакой "
 "методики определения лучшей культуры."
 
-#: src-en/data/events_sector_federation.xml:1019
+#: src-en/data/events_sector_federation.xml:1788
 msgid ""
 "data/events_sector_federation.xml$//eventList[@name=\"FED_EMBASSY_DEBATE\"]/event/choice[2]/event/choice[1]/event/choice[2]/event/text"
 msgstr ""
@@ -1447,23 +2617,23 @@ msgstr ""
 "собственной шуткой. Похоже, вам не удалось застать его врасплох, и, к "
 "сожалению, у вас нет ответа."
 
-#: src-en/data/events_sector_federation.xml:1021
+#: src-en/data/events_sector_federation.xml:1790
 msgid ""
 "data/events_sector_federation.xml$//eventList[@name=\"FED_EMBASSY_DEBATE\"]/event/choice[2]/event/choice[1]/event/choice[2]/event/choice[1]/text"
 msgstr "Время для плана Б - в атаку!"
 
-#: src-en/data/events_sector_federation.xml:1025
+#: src-en/data/events_sector_federation.xml:1794
 msgid ""
 "data/events_sector_federation.xml$//eventList[@name=\"FED_EMBASSY_DEBATE\"]/event/choice[2]/event/choice[1]/event/choice[2]/event/choice[2]/text"
 msgstr "Мы просто пойдем."
 
-#: src-en/data/events_sector_federation.xml:1033
+#: src-en/data/events_sector_federation.xml:1802
 msgid ""
 "data/events_sector_federation.xml$//eventList[@name=\"FED_EMBASSY_DEBATE\"]/event/choice[2]/event/choice[2]/text"
 msgstr ""
 "Это просто глупо! Очевидно, что вы неполноценны, раз думаете о таких вещах."
 
-#: src-en/data/events_sector_federation.xml:1035
+#: src-en/data/events_sector_federation.xml:1804
 msgid ""
 "data/events_sector_federation.xml$//eventList[@name=\"FED_EMBASSY_DEBATE\"]/event/choice[2]/event/choice[2]/event/text"
 msgstr ""
@@ -1471,28 +2641,28 @@ msgstr ""
 "склонность прибегать к мелким оскорблениям как признание собственного "
 "поражения\"."
 
-#: src-en/data/events_sector_federation.xml:1037
+#: src-en/data/events_sector_federation.xml:1806
 msgid ""
 "data/events_sector_federation.xml$//eventList[@name=\"FED_EMBASSY_DEBATE\"]/event/choice[2]/event/choice[2]/event/choice[1]/text"
 msgstr "Время для плана Б - в атаку!"
 
-#: src-en/data/events_sector_federation.xml:1041
+#: src-en/data/events_sector_federation.xml:1810
 msgid ""
 "data/events_sector_federation.xml$//eventList[@name=\"FED_EMBASSY_DEBATE\"]/event/choice[2]/event/choice[2]/event/choice[2]/text"
 msgstr "Мы просто пойдем."
 
-#: src-en/data/events_sector_federation.xml:1047
+#: src-en/data/events_sector_federation.xml:1816
 msgid ""
 "data/events_sector_federation.xml$//eventList[@name=\"FED_EMBASSY_DEBATE\"]/event/choice[2]/event/choice[3]/text"
-msgstr "Ковыряться в носу и притвориться, что ничего не понимаете."
+msgstr "Поковыряться в носу и притвориться, что ничего не понимаете."
 
-#: src-en/data/events_sector_federation.xml:1049
+#: src-en/data/events_sector_federation.xml:1818
 msgid ""
 "data/events_sector_federation.xml$//eventList[@name=\"FED_EMBASSY_DEBATE\"]/event/choice[2]/event/choice[3]/event/text"
 msgstr ""
-"Вы стоите молча, не делая никаких движений, только ковыряете в носу и чешете "
-"зад. Вестник Заката, кажется, совершенно сбит с толку этим. \"Эм... ты меня "
-"слушаешь? Твой мозг отключился или что?\" Вы продолжаете молчать, тупо "
+"Вы стоите молча, не делая никаких движений, только ковыряете в носу и чешете"
+" зад. Вестник Заката, кажется, совершенно сбит с толку этим. \"Эм... ты меня"
+" слушаешь? Твой мозг отключился или что?\" Вы продолжаете молчать, тупо "
 "уставившись вперед. Другие члены группы Вестника Заката начинают "
 "переговариваться друг с другом, все вместе совершенно обескураженные тем, "
 "чему они стали свидетелями. Это дает охранникам достаточно времени, чтобы "
@@ -1500,17 +2670,17 @@ msgstr ""
 "уничтожают прежде, чем они успевают добраться до заложников, а сотрудники "
 "посольства, похоже, признают вашу помощь и предлагают вознаграждение."
 
-#: src-en/data/events_sector_federation.xml:1051
+#: src-en/data/events_sector_federation.xml:1820
 msgid ""
 "data/events_sector_federation.xml$//eventList[@name=\"FED_EMBASSY_DEBATE\"]/event/choice[2]/event/choice[3]/event/choice[1]/text"
 msgstr "Принять награду."
 
-#: src-en/data/events_sector_federation.xml:1055
+#: src-en/data/events_sector_federation.xml:1824
 msgid ""
 "data/events_sector_federation.xml$//eventList[@name=\"FED_EMBASSY_DEBATE\"]/event/choice[2]/event/choice[3]/event/choice[2]/text"
-msgstr "И дальше молча стоять."
+msgstr "Продолжать молча стоять."
 
-#: src-en/data/events_sector_federation.xml:1057
+#: src-en/data/events_sector_federation.xml:1826
 msgid ""
 "data/events_sector_federation.xml$//eventList[@name=\"FED_EMBASSY_DEBATE\"]/event/choice[2]/event/choice[3]/event/choice[2]/event/text"
 msgstr ""
@@ -1520,17 +2690,17 @@ msgstr ""
 "в конце концов вашей команде приходится тащить вас обратно на корабль. "
 "Золтаны в замешательстве, но все равно передают вам награду."
 
-#: src-en/data/events_sector_federation.xml:1061
+#: src-en/data/events_sector_federation.xml:1830
 msgid ""
 "data/events_sector_federation.xml$//eventList[@name=\"FED_EMBASSY_DEBATE\"]/event/choice[2]/event/choice[3]/event/choice[2]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_federation.xml:1071
+#: src-en/data/events_sector_federation.xml:1840
 msgid ""
 "data/events_sector_federation.xml$//eventList[@name=\"FED_EMBASSY_DEBATE\"]/event/choice[3]/text"
 msgstr "Если вы отпустите этих граждан, мы дадим вам всем бесплатное печенье."
 
-#: src-en/data/events_sector_federation.xml:1073
+#: src-en/data/events_sector_federation.xml:1842
 msgid ""
 "data/events_sector_federation.xml$//eventList[@name=\"FED_EMBASSY_DEBATE\"]/event/choice[3]/event/text"
 msgstr ""
@@ -1538,41 +2708,41 @@ msgstr ""
 "Золтан хмыкнул. \"Печенье, правда? Это лучшее, что ты можешь предложить? "
 "Ого. Это как-то грустно\"."
 
-#: src-en/data/events_sector_federation.xml:1075
+#: src-en/data/events_sector_federation.xml:1844
 msgid ""
 "data/events_sector_federation.xml$//eventList[@name=\"FED_EMBASSY_DEBATE\"]/event/choice[3]/event/choice[1]/text"
 msgstr "Время для плана Б - в атаку!"
 
-#: src-en/data/events_sector_federation.xml:1079
+#: src-en/data/events_sector_federation.xml:1848
 msgid ""
 "data/events_sector_federation.xml$//eventList[@name=\"FED_EMBASSY_DEBATE\"]/event/choice[3]/event/choice[2]/text"
 msgstr "Мы просто пойдем."
 
-#: src-en/data/events_sector_federation.xml:1085
+#: src-en/data/events_sector_federation.xml:1854
 msgid ""
 "data/events_sector_federation.xml$//eventList[@name=\"FED_EMBASSY_DEBATE\"]/event/choice[4]/text"
 msgstr "Я забыл, что хотел сказать."
 
-#: src-en/data/events_sector_federation.xml:1087
+#: src-en/data/events_sector_federation.xml:1856
 msgid ""
 "data/events_sector_federation.xml$//eventList[@name=\"FED_EMBASSY_DEBATE\"]/event/choice[4]/event/text"
 msgstr ""
 "Вестник Заката моргает, не понимая, как именно он хочет оскорбить вас. "
 "Вместо этого он просто смеется. \"Ты действительно самое жалкое существо, "
-"которое я когда-либо видел. Ренегаты должны иметь коллективный IQ, равный "
-"количеству богомолов, которые могут произнести слово \"идиот\"\"."
+"которое я когда-либо видел. Ренегаты должны иметь коллективный айкью, равный"
+" количеству богомолов, которые могут произнести слово \"идиот\"\"."
 
-#: src-en/data/events_sector_federation.xml:1089
+#: src-en/data/events_sector_federation.xml:1858
 msgid ""
 "data/events_sector_federation.xml$//eventList[@name=\"FED_EMBASSY_DEBATE\"]/event/choice[4]/event/choice[1]/text"
 msgstr "Время для плана Б - в атаку!"
 
-#: src-en/data/events_sector_federation.xml:1093
+#: src-en/data/events_sector_federation.xml:1862
 msgid ""
 "data/events_sector_federation.xml$//eventList[@name=\"FED_EMBASSY_DEBATE\"]/event/choice[4]/event/choice[2]/text"
 msgstr "Мы просто пойдем."
 
-#: src-en/data/events_sector_federation.xml:1114
+#: src-en/data/events_sector_federation.xml:1882
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FEDERATION_SHIP_STOLEN\"]/text"
 msgstr ""
@@ -1582,47 +2752,47 @@ msgstr ""
 "понятия не имеем, что они собираются с ним делать, но что бы они ни "
 "планировали, этого не должно произойти!\""
 
-#: src-en/data/events_sector_federation.xml:1116
+#: src-en/data/events_sector_federation.xml:1884
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FEDERATION_SHIP_STOLEN\"]/choice[1]/text"
 msgstr "Согласиться на их просьбу."
 
-#: src-en/data/events_sector_federation.xml:1118
+#: src-en/data/events_sector_federation.xml:1886
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FEDERATION_SHIP_STOLEN\"]/choice[1]/event/text"
 msgstr ""
 "\"Мы все еще можем отследить их корабль... к счастью, еще не все погибли во "
 "время эвакуации. Пожалуйста, поторопитесь!\""
 
-#: src-en/data/events_sector_federation.xml:1123
+#: src-en/data/events_sector_federation.xml:1891
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FEDERATION_SHIP_STOLEN\"]/choice[2]/text"
 msgstr "Мы не можем помочь."
 
-#: src-en/data/events_sector_federation.xml:1125
+#: src-en/data/events_sector_federation.xml:1893
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FEDERATION_SHIP_STOLEN\"]/choice[2]/event/text"
 msgstr ""
 "\"Вы с ума сошли? Важность этой миссии... нет, простите. Я знаю, что ваша "
 "миссия тоже важна. Мы найдем кого-нибудь другого\"."
 
-#: src-en/data/events_sector_federation.xml:1127
+#: src-en/data/events_sector_federation.xml:1895
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FEDERATION_SHIP_STOLEN\"]/choice[2]/event/choice[1]/text"
 msgstr "Заняться чем-либо на корабле."
 
-#: src-en/data/events_sector_federation.xml:1131
+#: src-en/data/events_sector_federation.xml:1899
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FEDERATION_SHIP_STOLEN\"]/choice[2]/event/choice[2]/text"
 msgstr "Ничего не делать."
 
-#: src-en/data/events_sector_federation.xml:1140
+#: src-en/data/events_sector_federation.xml:1908
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FEDERATION_SHIP_STOLEN_QUEST\"]/beaconType/unvisitedTooltip"
 msgstr ""
 "Коалиция захватила корабль Федерации, и сейчас он находится у этого маяка."
 
-#: src-en/data/events_sector_federation.xml:1142
+#: src-en/data/events_sector_federation.xml:1910
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FEDERATION_SHIP_STOLEN_QUEST\"]/text"
 msgstr ""
@@ -1630,25 +2800,174 @@ msgstr ""
 " оказываетесь в зоне действия сенсоров, он разворачивается лицом к вашему "
 "кораблю!"
 
-#: src-en/data/events_sector_federation.xml:1145
+#: src-en/data/events_sector_federation.xml:1913
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FEDERATION_SHIP_STOLEN_QUEST\"]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_federation.xml:1166
+#: src-en/data/events_sector_federation.xml:1934
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"ENCOUNTER_FED_SALVAGE\"]/text"
 msgstr ""
 "Вы находите неподалеку обломки корабля Федерации. Прежде чем вы успеваете "
-"подумать о нем, как к вам подлетает другой корабль Федерации, осматривает "
-"место происшествия и обвиняет вас в гибели корабля!"
+"подумать о нем, как к вам подлетает другой корабль Федерации, они требуют "
+"объяснений случившемуся."
 
-#: src-en/data/events_sector_federation.xml:1169
+#: src-en/data/events_sector_federation.xml:1937
 msgid ""
-"data/events_sector_federation.xml$//event[@name=\"ENCOUNTER_FED_SALVAGE\"]/choice/text"
+"data/events_sector_federation.xml$//event[@name=\"ENCOUNTER_FED_SALVAGE\"]/choice[@req=\"rep_comb_federation\""
+" and @lvl=\"-999\"]/text"
+msgstr "Сказать, что вы не уничтожали этот корабль."
+
+#: src-en/data/events_sector_federation.xml:1939
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"ENCOUNTER_FED_SALVAGE\"]/choice[@req=\"rep_comb_federation\""
+" and @lvl=\"-999\"]/event/text"
+msgstr ""
+"Ваша хорошая репутация опережает вас. Поняв, кто вы, они извиняются за "
+"путаницу и предлагают помочь вам быстрее собрать обломки корабля. Хотя от "
+"корабля мало что осталось, вы находите на нем пригодное для использования "
+"оборудование и небольшое количество лома."
+
+#: src-en/data/events_sector_federation.xml:1942
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"ENCOUNTER_FED_SALVAGE\"]/choice[@req=\"rep_comb_federation\""
+" and @lvl=\"-999\"]/event/choice[1]/text"
+msgstr "Заняться чем-либо на корабле."
+
+#: src-en/data/events_sector_federation.xml:1946
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"ENCOUNTER_FED_SALVAGE\"]/choice[@req=\"rep_comb_federation\""
+" and @lvl=\"-999\"]/event/choice[2]/text"
+msgstr "Ничего не делать."
+
+#: src-en/data/events_sector_federation.xml:1952
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"ENCOUNTER_FED_SALVAGE\"]/choice[@req=\"rep_comb_federation\""
+" and @lvl=\"-1\"]/text"
+msgstr "Сказать, что вы не уничтожали этот корабль."
+
+#: src-en/data/events_sector_federation.xml:1956
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"ENCOUNTER_FED_SALVAGE\"]/choice[@req=\"rep_comb_federation\""
+" and @lvl=\"2\"]/text"
+msgstr "Сказать, что вы не уничтожали этот корабль."
+
+#: src-en/data/events_sector_federation.xml:1958
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"ENCOUNTER_FED_SALVAGE\"]/choice[@req=\"rep_comb_federation\""
+" and @lvl=\"2\"]/event/text"
+msgstr ""
+"Хотя вы пытаетесь убедить их в том, что они заблуждаются, они, похоже, не "
+"собираются вам верить. \"Мы слышали обо всех ваших злодеяниях! Неужели вы "
+"думаете, что мы купимся на то, что вы не виноваты?\""
+
+#: src-en/data/events_sector_federation.xml:1961
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"ENCOUNTER_FED_SALVAGE\"]/choice[@req=\"rep_comb_federation\""
+" and @lvl=\"2\"]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_federation.xml:1175
+#: src-en/data/events_sector_federation.xml:1967
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"ENCOUNTER_FED_SALVAGE\"]/choice[4]/text"
+msgstr "Сражаться, чтобы выпутаться из этой ситуации."
+
+#: src-en/data/events_sector_federation.xml:1969
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"ENCOUNTER_FED_SALVAGE\"]/choice[4]/event/text"
+msgstr ""
+"Вы отключаете связь и готовитесь сражаться с ними. Судя по тому, как быстро "
+"они переходят к самозащите, похоже, именно этого они от вас и ждали."
+
+#: src-en/data/events_sector_federation.xml:1972
+msgid ""
+"data/events_sector_federation.xml$//event[@name=\"ENCOUNTER_FED_SALVAGE\"]/choice[4]/event/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_federation.xml:1980
+msgid ""
+"data/events_sector_federation.xml$//eventList[@name=\"ENCOUNTER_FED_SALVAGE_LIST\"]/event[1]/text"
+msgstr ""
+"После нескольких минут скептицизма Федерация смиряется и позволяет вам "
+"спокойно собрать обломки корабля. Хотя осталось не так уж много, вы находите"
+" некоторое пригодное для использования оборудование и небольшое количество "
+"лома за свои хлопоты."
+
+#: src-en/data/events_sector_federation.xml:1984
+msgid ""
+"data/events_sector_federation.xml$//eventList[@name=\"ENCOUNTER_FED_SALVAGE_LIST\"]/event[2]/text"
+msgstr ""
+"\"Хмм. Вы собираете обломки, вы - стервятник, Ренегат\". Они отступают, "
+"позволяя вам закончить свое дело. Хотя осталось не так уж много, вы находите"
+" некоторое пригодное для использования оборудование и небольшое количество "
+"лома за свои хлопоты."
+
+#: src-en/data/events_sector_federation.xml:1988
+msgid ""
+"data/events_sector_federation.xml$//eventList[@name=\"ENCOUNTER_FED_SALVAGE_LIST\"]/event[3]/text"
+msgstr ""
+"\"Простите за это. Некоторые Ренегаты не очень хорошо себя ведут. Я помогу "
+"вам\". Хотя осталось немного, вы находите пригодное для использования "
+"снаряжение и небольшое количество лома за свои хлопоты."
+
+#: src-en/data/events_sector_federation.xml:1991
+msgid ""
+"data/events_sector_federation.xml$//eventList[@name=\"ENCOUNTER_FED_SALVAGE_LIST\"]/event[3]/choice[1]/text"
+msgstr "Заняться чем-либо на корабле."
+
+#: src-en/data/events_sector_federation.xml:1995
+msgid ""
+"data/events_sector_federation.xml$//eventList[@name=\"ENCOUNTER_FED_SALVAGE_LIST\"]/event[3]/choice[2]/text"
+msgstr "Ничего не делать."
+
+#: src-en/data/events_sector_federation.xml:2000
+msgid ""
+"data/events_sector_federation.xml$//eventList[@name=\"ENCOUNTER_FED_SALVAGE_LIST\"]/event[4]/text"
+msgstr ""
+"\"Если бы вы были виноваты в этом, я уверен, мы бы уже сражались. Позвольте "
+"мне помочь вам\". Хотя осталось не так уж много, вы находите некоторое "
+"пригодное для использования оборудование и небольшое количество лома за свои"
+" хлопоты."
+
+#: src-en/data/events_sector_federation.xml:2003
+msgid ""
+"data/events_sector_federation.xml$//eventList[@name=\"ENCOUNTER_FED_SALVAGE_LIST\"]/event[4]/choice[1]/text"
+msgstr "Заняться чем-либо на корабле."
+
+#: src-en/data/events_sector_federation.xml:2007
+msgid ""
+"data/events_sector_federation.xml$//eventList[@name=\"ENCOUNTER_FED_SALVAGE_LIST\"]/event[4]/choice[2]/text"
+msgstr "Ничего не делать."
+
+#: src-en/data/events_sector_federation.xml:2012
+msgid ""
+"data/events_sector_federation.xml$//eventList[@name=\"ENCOUNTER_FED_SALVAGE_LIST\"]/event[5]/text"
+msgstr ""
+"\"Правдоподобная история! Говорят, что некие Ренегаты уничтожают любой "
+"корабль, которому не повезло пересечься с ними. Вы за это заплатите!\""
+
+#: src-en/data/events_sector_federation.xml:2015
+msgid ""
+"data/events_sector_federation.xml$//eventList[@name=\"ENCOUNTER_FED_SALVAGE_LIST\"]/event[5]/choice[1]/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_federation.xml:2019
+msgid ""
+"data/events_sector_federation.xml$//eventList[@name=\"ENCOUNTER_FED_SALVAGE_LIST\"]/event[5]/choice[@req=\"stability\"]/text"
+msgstr ""
+"Обратить внимание, что из-за игровой механики вы не можете сражаться с двумя"
+" кораблями на одном маяке."
+
+#: src-en/data/events_sector_federation.xml:2021
+msgid ""
+"data/events_sector_federation.xml$//eventList[@name=\"ENCOUNTER_FED_SALVAGE_LIST\"]/event[5]/choice[@req=\"stability\"]/event/text"
+msgstr ""
+"Корабль Федерации немедленно прекращает агрессию и извиняется. \"Я такой "
+"идиот. Почему бы вам просто не забрать добычу, немного лома, и мы оба "
+"забудем, что это вообще произошло?\""
+
+#: src-en/data/events_sector_federation.xml:2030
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"ENCOUNTER_FED_REBELTAKEOVER\"]/text"
 msgstr ""
@@ -1656,12 +2975,12 @@ msgstr ""
 "помочь, повстанцы, они захватили корабль!\" Вызов внезапно становится "
 "неактивным, и корабль становится враждебным!"
 
-#: src-en/data/events_sector_federation.xml:1178
+#: src-en/data/events_sector_federation.xml:2033
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"ENCOUNTER_FED_REBELTAKEOVER\"]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_federation.xml:1183
+#: src-en/data/events_sector_federation.xml:2038
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"REBELTAKEOVER_SURRENDER\"]/text"
 msgstr ""
@@ -1669,25 +2988,25 @@ msgstr ""
 "достаточно вреда. Отпустите нас, и мы пощадим последнего выжившего из "
 "первоначального экипажа\"."
 
-#: src-en/data/events_sector_federation.xml:1185
+#: src-en/data/events_sector_federation.xml:2040
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"REBELTAKEOVER_SURRENDER\"]/choice[1]/text"
 msgstr "Согласиться пощадить их."
 
-#: src-en/data/events_sector_federation.xml:1192
+#: src-en/data/events_sector_federation.xml:2047
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"REBELTAKEOVER_SURRENDER\"]/choice[2]/text"
 msgstr ""
 "Смерть еще одного федерала стоит смерти еще большего числа повстанцев."
 
-#: src-en/data/events_sector_federation.xml:1197
+#: src-en/data/events_sector_federation.xml:2052
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"REBELTAKEOVER_DESTROY\"]/text"
 msgstr ""
 "Вы уничтожили корабль Федерации, а вместе с ним и экипаж повстанцев и "
 "Федерации. Вы разбираете то, что осталось в обломках."
 
-#: src-en/data/events_sector_federation.xml:1201
+#: src-en/data/events_sector_federation.xml:2056
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"REBELTAKEOVER_DEADCREW\"]/text"
 msgstr ""
@@ -1696,117 +3015,118 @@ msgstr ""
 "ему подняться на ноги. После душа и оказания первой помощи он снова как "
 "новенький и готов служить на вашем корабле."
 
-#: src-en/data/events_sector_federation.xml:1215
+#: src-en/data/events_sector_federation.xml:2070
 msgid "data/events_sector_federation.xml$//event[@name=\"STEALTH_UNLOCK_1\"]/text"
 msgstr ""
 "Вы приближаетесь к небольшому флоту кораблей Федерации и энджи. Простая "
 "расшифровка и перевод частоты их связи говорит вам, что они ведут бешеный "
 "разговор о чем-то, явно их беспокоящем."
 
-#: src-en/data/events_sector_federation.xml:1217
+#: src-en/data/events_sector_federation.xml:2072
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"STEALTH_UNLOCK_1\"]/choice[1]/text"
-msgstr "Отправить им сообщение и спросить, можете ли вы помочь."
+msgstr "Отправить сообщение, чтобы спросить, нужна ли им ваша помощь."
 
-#: src-en/data/events_sector_federation.xml:1219
+#: src-en/data/events_sector_federation.xml:2074
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"STEALTH_UNLOCK_1\"]/choice[1]/event/text"
 msgstr ""
 "Слегка шокированный вашим вопросом, их лидер быстро отвечает: \"Отклоняю "
-"предложение, но благодарю за него. Тема обсуждения - личное дело, которое не "
-"касается дружинников Мультивселенной\"."
+"предложение, но благодарю за него. Тема обсуждения - личное дело, которое не"
+" касается дружинников Мультивселенной\"."
 
-#: src-en/data/events_sector_federation.xml:1223
+#: src-en/data/events_sector_federation.xml:2078
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"STEALTH_UNLOCK_1\"]/choice[2]/text"
 msgstr "Не обращать внимания и двигаться дальше."
 
-#: src-en/data/events_sector_federation.xml:1225
+#: src-en/data/events_sector_federation.xml:2080
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"STEALTH_UNLOCK_1\"]/choice[2]/event/text"
 msgstr ""
 "Вы не можете не задаться вопросом, что они обсуждали, пока вы готовитесь к "
 "прыжку."
 
-#: src-en/data/events_sector_federation.xml:1227
+#: src-en/data/events_sector_federation.xml:2082
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"STEALTH_UNLOCK_1\"]/choice[2]/event/choice[1]/text"
 msgstr "Заняться чем-либо на корабле."
 
-#: src-en/data/events_sector_federation.xml:1231
+#: src-en/data/events_sector_federation.xml:2086
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"STEALTH_UNLOCK_1\"]/choice[2]/event/choice[2]/text"
 msgstr "Ничего не делать."
 
-#: src-en/data/events_sector_federation.xml:1237
+#: src-en/data/events_sector_federation.xml:2092
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"STEALTH_UNLOCK_1\"]/choice[@req=\"LIST_CREW_HARMONY\"]/text"
-msgstr "(Член экипажа-энджи) Попросить члена экипажа энджи связаться с ними."
+msgstr ""
+"(Член экипажа из Гармонии) Попросить члена экипажа энджи связаться с ними."
 
-#: src-en/data/events_sector_federation.xml:1239
+#: src-en/data/events_sector_federation.xml:2094
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"STEALTH_UNLOCK_1\"]/choice[@req=\"LIST_CREW_HARMONY\"]/event/text"
 msgstr ""
 "Ваш член экипажа синхронизируется с устройством связи, чтобы общаться с ним "
 "напрямую. Вы предлагаете свою помощь и краткое описание миссии корабля. Они "
-"отвечают: \"Наши цели имеют схожие черты. Однако не все они доступны для "
-"раскрытия по собственному усмотрению\"."
+"отвечают: \"Наши цели имеют схожие черты. Однако не все из них можно "
+"раскрыть по собственному усмотрению\"."
 
-#: src-en/data/events_sector_federation.xml:1241
+#: src-en/data/events_sector_federation.xml:2096
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"STEALTH_UNLOCK_1\"]/choice[@req=\"LIST_CREW_HARMONY\"]/event/choice/text"
 msgstr "Предложить свою помощь."
 
-#: src-en/data/events_sector_federation.xml:1243
+#: src-en/data/events_sector_federation.xml:2098
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"STEALTH_UNLOCK_1\"]/choice[@req=\"LIST_CREW_HARMONY\"]/event/choice/event/text"
 msgstr ""
 "\"Секретный прототип украден богомолами, что положило начало громкой "
 "торговле с повстанцами. Местонахождение грузового корабля: неизвестно. "
 "Богомол Сюзерен отправлен на базу повстанцев для передачи информации о "
-"местонахождении прототипа. Передаю местоположение известного места передачи "
-"данных\"."
+"местонахождении прототипа. Передаю местоположение известного пункта передачи"
+" данных\"."
 
-#: src-en/data/events_sector_federation.xml:1246
+#: src-en/data/events_sector_federation.xml:2101
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"STEALTH_UNLOCK_1\"]/choice[@req=\"LIST_CREW_HARMONY\"]/event/choice/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_federation.xml:1249
+#: src-en/data/events_sector_federation.xml:2104
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"STEALTH_UNLOCK_1\"]/choice[@req=\"LIST_CREW_HARMONY\"]/event/choice/event/choice/event/text"
 msgstr ""
 "\"Однако, корабль богомолов потенциально может быть остановлен второй базой "
-"по пути. Я бы попытался рассчитать вероятность того, что передача произойдет "
-"здесь, но данных недостаточно. Мы не можем рисковать очевидным конфликтом "
+"по пути. Я бы попытался рассчитать вероятность того, что передача произойдет"
+" здесь, но данных недостаточно. Мы не можем рисковать очевидным конфликтом "
 "между повстанцами и энджи. Кроме того, нужно время на подготовку военных "
 "кораблей. Поможете найти технологию?\""
 
-#: src-en/data/events_sector_federation.xml:1251
+#: src-en/data/events_sector_federation.xml:2106
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"STEALTH_UNLOCK_1\"]/choice[@req=\"LIST_CREW_HARMONY\"]/event/choice/event/choice/event/choice/text"
 msgstr "Согласиться."
 
-#: src-en/data/events_sector_federation.xml:1263
+#: src-en/data/events_sector_federation.xml:2118
 msgid ""
 "data/events_sector_federation.xml$//ship[@name=\"SHIP_STEALTH_UNLOCK_FAKE\"]/escape/text"
 msgstr ""
 "Как только они заметили вас, они включают свои двигатели, чтобы уйти в "
 "прыжок. Остановите их!"
 
-#: src-en/data/events_sector_federation.xml:1267
+#: src-en/data/events_sector_federation.xml:2122
 msgid ""
 "data/events_sector_federation.xml$//ship[@name=\"SHIP_STEALTH_UNLOCK_FAKE\"]/gotaway/text"
 msgstr ""
 "Когда корабль исчез, вы обыскиваете заброшенную базу в поисках каких-либо "
 "признаков места назначения, но ничего не находите."
 
-#: src-en/data/events_sector_federation.xml:1271
+#: src-en/data/events_sector_federation.xml:2126
 msgid ""
 "data/events_sector_federation.xml$//ship[@name=\"SHIP_STEALTH_UNLOCK_FAKE\"]/destroyed/text"
 msgstr "Вы собираете из обломков все, что можете."
 
-#: src-en/data/events_sector_federation.xml:1275
+#: src-en/data/events_sector_federation.xml:2130
 msgid ""
 "data/events_sector_federation.xml$//ship[@name=\"SHIP_STEALTH_UNLOCK_FAKE\"]/deadCrew/text"
 msgstr ""
@@ -1814,12 +3134,12 @@ msgstr ""
 "ищете, никогда не была на этой базе... Должно быть, это была приманка! Вы "
 "собираете все, что можете, и готовитесь к прыжку."
 
-#: src-en/data/events_sector_federation.xml:1282
+#: src-en/data/events_sector_federation.xml:2137
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"STEALTH_UNLOCK_2FAKE\"]/beaconType/unvisitedTooltip"
 msgstr "Предполагаемое местонахождение украденного прототипа энджи."
 
-#: src-en/data/events_sector_federation.xml:1284
+#: src-en/data/events_sector_federation.xml:2139
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"STEALTH_UNLOCK_2FAKE\"]/text"
 msgstr ""
@@ -1827,12 +3147,12 @@ msgstr ""
 "Она выглядит заброшенной, за исключением одного хорошо вооруженного элитного"
 " корабля. Возможно, вы сможете получить от них информацию."
 
-#: src-en/data/events_sector_federation.xml:1287
+#: src-en/data/events_sector_federation.xml:2142
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"STEALTH_UNLOCK_2FAKE\"]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_federation.xml:1292
+#: src-en/data/events_sector_federation.xml:2147
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"STEALTH_UNLOCK_2FAKE_SURRENDER\"]/text"
 msgstr ""
@@ -1840,60 +3160,60 @@ msgstr ""
 "поважнее, чем охотиться на случайные корабли повстанцев, когда у вас есть "
 "другие задачи?\""
 
-#: src-en/data/events_sector_federation.xml:1294
+#: src-en/data/events_sector_federation.xml:2149
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"STEALTH_UNLOCK_2FAKE_SURRENDER\"]/choice/text"
 msgstr "Потребовать информации по поводу украденной технологии."
 
-#: src-en/data/events_sector_federation.xml:1296
+#: src-en/data/events_sector_federation.xml:2151
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"STEALTH_UNLOCK_2FAKE_SURRENDER\"]/choice/event/text"
 msgstr ""
-"\"А, так вот за чем ты летел. Жаль, что ты последовал не за тем кораблем. "
+"\"А, так вот что тебе нужно. Жаль, что ты последовал не за тем кораблем. "
 "Эмиссар, который проходил здесь, был фальшивкой, чтобы обмануть таких "
 "дураков, как ты. А теперь отпусти нас!\""
 
-#: src-en/data/events_sector_federation.xml:1298
+#: src-en/data/events_sector_federation.xml:2153
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"STEALTH_UNLOCK_2FAKE_SURRENDER\"]/choice/event/choice[1]/text"
 msgstr "Отпустить их."
 
-#: src-en/data/events_sector_federation.xml:1300
+#: src-en/data/events_sector_federation.xml:2155
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"STEALTH_UNLOCK_2FAKE_SURRENDER\"]/choice/event/choice[1]/event/text"
 msgstr ""
 "\"Ха! И не думай, что флот не узнает об этом!\" Повстанцы уходят в прыжок."
 
-#: src-en/data/events_sector_federation.xml:1308
+#: src-en/data/events_sector_federation.xml:2163
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"STEALTH_UNLOCK_2FAKE_SURRENDER\"]/choice/event/choice[2]/text"
 msgstr "Игнорировать просьбу и атаковать."
 
-#: src-en/data/events_sector_federation.xml:1310
+#: src-en/data/events_sector_federation.xml:2165
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"STEALTH_UNLOCK_2FAKE_SURRENDER\"]/choice/event/choice[2]/event/text"
 msgstr "\"Нет, подожди!\" Вы прерываете передачу и продолжаете атаку."
 
-#: src-en/data/events_sector_federation.xml:1318
+#: src-en/data/events_sector_federation.xml:2173
 msgid ""
 "data/events_sector_federation.xml$//ship[@name=\"SHIP_STEALTH_UNLOCK_2REAL\"]/escape/text"
 msgstr ""
 "Как только они увидели вас, они включают свои двигатели, чтобы уйти в "
 "прыжок. Остановите их!"
 
-#: src-en/data/events_sector_federation.xml:1322
+#: src-en/data/events_sector_federation.xml:2177
 msgid ""
 "data/events_sector_federation.xml$//ship[@name=\"SHIP_STEALTH_UNLOCK_2REAL\"]/gotaway/text"
 msgstr ""
 "Когда корабль исчез, вы обыскиваете заброшенную базу в поисках каких-либо "
 "признаков прототипа, но ничего не находите."
 
-#: src-en/data/events_sector_federation.xml:1326
+#: src-en/data/events_sector_federation.xml:2181
 msgid ""
 "data/events_sector_federation.xml$//ship[@name=\"SHIP_STEALTH_UNLOCK_2REAL\"]/destroyed/text"
 msgstr "Вы собираете из обломков все, что можете."
 
-#: src-en/data/events_sector_federation.xml:1330
+#: src-en/data/events_sector_federation.xml:2185
 msgid ""
 "data/events_sector_federation.xml$//ship[@name=\"SHIP_STEALTH_UNLOCK_2REAL\"]/deadCrew/text"
 msgstr ""
@@ -1902,12 +3222,12 @@ msgstr ""
 "асом МФК... Богомол, должно быть, уже передал данные. Вы разбираете корабль "
 "и готовитесь к преследованию."
 
-#: src-en/data/events_sector_federation.xml:1338
+#: src-en/data/events_sector_federation.xml:2193
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"STEALTH_UNLOCK_2REAL\"]/beaconType/unvisitedTooltip"
 msgstr "Предполагаемое местонахождение украденного прототипа энджи."
 
-#: src-en/data/events_sector_federation.xml:1340
+#: src-en/data/events_sector_federation.xml:2195
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"STEALTH_UNLOCK_2REAL\"]/text"
 msgstr ""
@@ -1915,73 +3235,73 @@ msgstr ""
 "Она выглядит в основном заброшенной, кроме корабля Сюзеренов. Должно быть, "
 "это тот самый корабль, который искали энджи!"
 
-#: src-en/data/events_sector_federation.xml:1343
+#: src-en/data/events_sector_federation.xml:2198
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"STEALTH_UNLOCK_2REAL\"]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_federation.xml:1348
+#: src-en/data/events_sector_federation.xml:2203
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"STEALTH_UNLOCK_2REAL_SURRENDER\"]/text"
 msgstr ""
-"\"Ааа! Я не хочу здесь умирать! Приносим свои извинения Федерации, а теперь "
+"\"Ой! Я не хочу здесь умирать! Приносим свои извинения Федерации, а теперь "
 "прекратите огонь!\""
 
-#: src-en/data/events_sector_federation.xml:1350
+#: src-en/data/events_sector_federation.xml:2205
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"STEALTH_UNLOCK_2REAL_SURRENDER\"]/choice/text"
 msgstr "Потребовать информации по поводу украденной технологии."
 
-#: src-en/data/events_sector_federation.xml:1352
+#: src-en/data/events_sector_federation.xml:2207
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"STEALTH_UNLOCK_2REAL_SURRENDER\"]/choice/event/text"
 msgstr ""
 "\"О да-да, поэтому вы здесь. Да, здесь был корабль асов МФК, которые хорошо "
-"заплатили за данные! Мы сообщили им местонахождение посланника и взяли "
-"плату! Вы же понимаете, что это просто работа? Вы же наверняка время от "
-"времени занимаетесь наемничеством!\""
+"заплатили за данные! Мы сообщили им местонахождение эмиссара и взяли плату! "
+"Вы же понимаете, что это просто работа? Вы же наверняка время от времени "
+"занимаетесь наемничеством!\""
 
-#: src-en/data/events_sector_federation.xml:1355
+#: src-en/data/events_sector_federation.xml:2210
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"STEALTH_UNLOCK_2REAL_SURRENDER\"]/choice/event/choice/text"
 msgstr "Отпустить их."
 
-#: src-en/data/events_sector_federation.xml:1357
+#: src-en/data/events_sector_federation.xml:2212
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"STEALTH_UNLOCK_2REAL_SURRENDER\"]/choice/event/choice/event/text"
 msgstr ""
 "Вы готовите сообщение с ССД координатами для энджи и готовитесь к прыжку."
 
-#: src-en/data/events_sector_federation.xml:1367
+#: src-en/data/events_sector_federation.xml:2222
 msgid ""
 "data/events_sector_federation.xml$//ship[@name=\"SHIP_STEALTH_UNLOCK_3\"]/deadCrew/text"
 msgstr "Вы разбираете то, что можете, и связываетесь с кораблями энджи."
 
-#: src-en/data/events_sector_federation.xml:1370
+#: src-en/data/events_sector_federation.xml:2225
 msgid ""
 "data/events_sector_federation.xml$//ship[@name=\"SHIP_STEALTH_UNLOCK_3\"]/deadCrew/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_federation.xml:1382
+#: src-en/data/events_sector_federation.xml:2237
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"STEALTH_UNLOCK_3\"]/beaconType/unvisitedTooltip"
 msgstr "Подтвержденное местонахождение украденного прототипа энджи."
 
-#: src-en/data/events_sector_federation.xml:1384
+#: src-en/data/events_sector_federation.xml:2239
 msgid "data/events_sector_federation.xml$//event[@name=\"STEALTH_UNLOCK_3\"]/text"
 msgstr ""
 "Вы наконец-то догнали корабль асов МФК. Неподалеку остановился грузовой "
 "корабль богомолов размером с ангар, охраняемый группой богомолов и "
 "повстанцев. Пока вы обдумываете нападение, эскадрилья кораблей энджи с "
-"пиратскими эмблемами прибывает и помогает вам. Вы вступаете в бой и атакуете "
-"одного из повстанцев в лоб."
+"пиратскими эмблемами прибывает и помогает вам. Вы вступаете в бой и атакуете"
+" один из кораблей повстанцев в лоб."
 
-#: src-en/data/events_sector_federation.xml:1388
+#: src-en/data/events_sector_federation.xml:2243
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"STEALTH_UNLOCK_3\"]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_federation.xml:1393
+#: src-en/data/events_sector_federation.xml:2248
 msgid "data/events_sector_federation.xml$//event[@name=\"STEALTH_UNLOCK_4\"]/text"
 msgstr ""
 "Энджи выходят победителями из своих сражений, понеся лишь незначительные "
@@ -1990,12 +3310,12 @@ msgstr ""
 "завершен во время восстания. Невозможно восстановить связь с военным "
 "командованием Федерации\"."
 
-#: src-en/data/events_sector_federation.xml:1395
+#: src-en/data/events_sector_federation.xml:2250
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"STEALTH_UNLOCK_4\"]/choice/text"
 msgstr "Спросить о кораблях богомолов."
 
-#: src-en/data/events_sector_federation.xml:1397
+#: src-en/data/events_sector_federation.xml:2252
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"STEALTH_UNLOCK_4\"]/choice/event/text"
 msgstr ""
@@ -2003,12 +3323,12 @@ msgstr ""
 "ненападении с энджи. Вероятность 97,56%. Ваша миссия - помочь последнему "
 "флоту Федерации, верно? Координаты?\""
 
-#: src-en/data/events_sector_federation.xml:1399
+#: src-en/data/events_sector_federation.xml:2254
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"STEALTH_UNLOCK_4\"]/choice/event/choice/text"
 msgstr "Передать координаты командования Федерации."
 
-#: src-en/data/events_sector_federation.xml:1401
+#: src-en/data/events_sector_federation.xml:2256
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"STEALTH_UNLOCK_4\"]/choice/event/choice/event/text"
 msgstr ""
@@ -2017,19 +3337,19 @@ msgstr ""
 "экипаж передает усовершенствованный модуль, но вам приятнее получить "
 "известие о том, что Федерация получит улучшенные арсеналы."
 
-#: src-en/data/events_sector_federation.xml:1414
+#: src-en/data/events_sector_federation.xml:2269
 msgid "data/events_sector_federation.xml$//event[@name=\"FED_MEMORIAL\"]/text"
 msgstr ""
 "Сразу после прыжка становится ясно, что это важное место. Здесь построен "
 "массивный, потрясающий мемориал, настолько большой, что его легко можно "
 "увидеть из космоса."
 
-#: src-en/data/events_sector_federation.xml:1417
+#: src-en/data/events_sector_federation.xml:2272
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FED_MEMORIAL\"]/choice/text"
 msgstr "Осмотреть внимательнее."
 
-#: src-en/data/events_sector_federation.xml:1419
+#: src-en/data/events_sector_federation.xml:2274
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FED_MEMORIAL\"]/choice/event/text"
 msgstr ""
@@ -2040,12 +3360,12 @@ msgstr ""
 "или от смертельной травмы, полученной во время битвы. Это очень трогает вас,"
 " прибывшего из Вселенной 0."
 
-#: src-en/data/events_sector_federation.xml:1421
+#: src-en/data/events_sector_federation.xml:2276
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FED_MEMORIAL\"]/choice/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_federation.xml:1423
+#: src-en/data/events_sector_federation.xml:2278
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FED_MEMORIAL\"]/choice/event/choice/event/text"
 msgstr ""
@@ -2055,12 +3375,12 @@ msgstr ""
 "найти укрытие. Любой персонал Федерации в черте города должен немедленно "
 "явиться к командованию для защиты от приближающейся угрозы\"."
 
-#: src-en/data/events_sector_federation.xml:1426
+#: src-en/data/events_sector_federation.xml:2281
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FED_MEMORIAL\"]/choice/event/choice/event/choice[1]/text"
 msgstr "Вы не потерпите этого. Сделать все возможное, чтобы помочь!"
 
-#: src-en/data/events_sector_federation.xml:1428
+#: src-en/data/events_sector_federation.xml:2283
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FED_MEMORIAL\"]/choice/event/choice/event/choice[1]/event/text"
 msgstr ""
@@ -2069,34 +3389,34 @@ msgstr ""
 "артиллерийское орудие. Если вы сможете уничтожить его, возможно, это "
 "обескуражит остальной флот."
 
-#: src-en/data/events_sector_federation.xml:1431
+#: src-en/data/events_sector_federation.xml:2286
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FED_MEMORIAL\"]/choice/event/choice/event/choice[1]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_federation.xml:1437
+#: src-en/data/events_sector_federation.xml:2292
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FED_MEMORIAL\"]/choice/event/choice/event/choice[2]/text"
 msgstr "Уходим как можно быстрее."
 
-#: src-en/data/events_sector_federation.xml:1439
+#: src-en/data/events_sector_federation.xml:2294
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FED_MEMORIAL\"]/choice/event/choice/event/choice[2]/event/text"
 msgstr ""
 "Вы не заинтересованы в том, чтобы ввязываться в этот бой. Вы уверены, что "
 "корабли Федерации смогут отбиться от повстанцев."
 
-#: src-en/data/events_sector_federation.xml:1441
+#: src-en/data/events_sector_federation.xml:2296
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FED_MEMORIAL\"]/choice/event/choice/event/choice[2]/event/choice[1]/text"
 msgstr "Заняться чем-либо на корабле."
 
-#: src-en/data/events_sector_federation.xml:1445
+#: src-en/data/events_sector_federation.xml:2300
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FED_MEMORIAL\"]/choice/event/choice/event/choice[2]/event/choice[2]/text"
 msgstr "Ничего не делать."
 
-#: src-en/data/events_sector_federation.xml:1456
+#: src-en/data/events_sector_federation.xml:2311
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FED_MEMORIAL_INTERMEDIATE\"]/text"
 msgstr ""
@@ -2104,39 +3424,39 @@ msgstr ""
 "Федерации оттесняют их назад. Их последняя надежда, канонерка и ваша цель, "
 "уже получила критические повреждения. Вы должны продолжать сражаться!"
 
-#: src-en/data/events_sector_federation.xml:1459
+#: src-en/data/events_sector_federation.xml:2314
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FED_MEMORIAL_DESTROY\"]/text"
 msgstr ""
 "Канонерка получила критические повреждения, слишком большие, чтобы "
-"выдержать. Ее артиллерийская система трещит, а двигатели взрываются. Корабль "
-"по спирали падает в близлежащее озеро. После столкновения с водой он "
+"выдержать. Ее артиллерийская система трещит, а двигатели взрываются. Корабль"
+" по спирали падает в близлежащее озеро. После столкновения с водой он "
 "взрывается в последний раз, орошая берег. Зрелище того, как их ведущий "
 "корабль был уничтожен так эффектно, отпугивает остальных повстанцев. Все до "
-"единого враждебные корабли разлетаются, оставляя Федерацию бесспорной "
+"единого вражеские корабли разлетаются, оставляя Федерацию бесспорной "
 "победительницей."
 
-#: src-en/data/events_sector_federation.xml:1461
+#: src-en/data/events_sector_federation.xml:2316
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FED_MEMORIAL_DESTROY\"]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_federation.xml:1466
+#: src-en/data/events_sector_federation.xml:2321
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FED_MEMORIAL_DEAD_CREW\"]/text"
 msgstr ""
 "Безжизненная канонерка начинает падать на землю. Она врезается в побережье, "
 "вспыхивая ярким пламенем, но, к счастью, не причиняет никакого вреда "
 "инфраструктуре города. Зрелище того, как их ведущий корабль был уничтожен "
-"так эффектно, отпугивает остальных повстанцев. Все до единого враждебные "
+"так эффектно, отпугивает остальных повстанцев. Все до единого вражеские "
 "корабли разлетаются, оставляя Федерацию бесспорной победительницей."
 
-#: src-en/data/events_sector_federation.xml:1468
+#: src-en/data/events_sector_federation.xml:2323
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FED_MEMORIAL_DEAD_CREW\"]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_federation.xml:1473
+#: src-en/data/events_sector_federation.xml:2328
 msgid "data/events_sector_federation.xml$//event[@name=\"FED_MEMORIAL_WIN\"]/text"
 msgstr ""
 "В городе с вами связывается офицер Федерации, который просит вас "
@@ -2147,28 +3467,28 @@ msgstr ""
 "Ренегатах Мультивселенной, и всегда относилась к ним скептически. Теперь все"
 " мои сомнения развеяны\"."
 
-#: src-en/data/events_sector_federation.xml:1475
+#: src-en/data/events_sector_federation.xml:2330
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FED_MEMORIAL_WIN\"]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_federation.xml:1477
+#: src-en/data/events_sector_federation.xml:2332
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FED_MEMORIAL_WIN\"]/choice/event/text"
 msgstr ""
-"Адара надевает вам на шею блестящую медаль - честь, которую вы будете носить "
-"всю жизнь, если, конечно, преуспеете в своей миссии. Все корабли поддержки в "
-"округе отправляются на помощь, чтобы помочь вам всеми возможными способами, "
-"и вы даже получаете новый крейсер Федерации из одного из их ангаров. У вас "
-"нет никакого применения этому кораблю, поэтому вы отправляете его чертежи в "
-"ангар."
+"Адара надевает вам на шею блестящую медаль - честь, которую вы будете носить"
+" всю жизнь, если, конечно, преуспеете в своей миссии. Все корабли поддержки "
+"в округе отправляются на помощь, чтобы помочь вам всеми возможными "
+"способами, и вы даже получаете новый крейсер Федерации из одного из их "
+"ангаров. У вас нет никакого применения этому кораблю, поэтому вы отправляете"
+" его чертежи в ангар."
 
-#: src-en/data/events_sector_federation.xml:1484
+#: src-en/data/events_sector_federation.xml:2339
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FED_MEMORIAL_WIN\"]/choice/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_federation.xml:1486
+#: src-en/data/events_sector_federation.xml:2341
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FED_MEMORIAL_WIN\"]/choice/event/choice/event/text"
 msgstr ""
@@ -2177,7 +3497,7 @@ msgstr ""
 "времени, чтобы доставить ее ему самой, но я знаю, что могу доверить ее вам. "
 "С Богом, капитан\"."
 
-#: src-en/data/events_sector_federation.xml:1489
+#: src-en/data/events_sector_federation.xml:2344
 msgid ""
 "data/events_sector_federation.xml$//event[@name=\"FED_MEMORIAL_WIN\"]/choice/event/choice/event/choice/text"
 msgstr "Продолжить..."

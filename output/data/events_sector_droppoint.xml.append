@@ -1892,6 +1892,34 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="event">
         <mod:findLike type="choice">
+          <mod:selector hidden="true" req="BLUELIST_WEAPONS_MIND_CONTROL" max_group="0"/>
+          <mod:findLike type="text">
+            <mod:selector>(Mind Control Weapon) Convince the checkpoint to let them through.</mod:selector>
+            <mod:setValue>(Mind Control Weapon) Convince the checkpoint to let them through.[INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="DROPPOINT_BULKY_SMUGGLER" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true" req="BLUELIST_WEAPONS_MIND_AFFECT" max_group="0"/>
+          <mod:findLike type="text">
+            <mod:selector>(Mind Affecting Weapon) Distract the guard with infighting.</mod:selector>
+            <mod:setValue>(Mind Affecting Weapon) Distract the guard with infighting.[INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="DROPPOINT_BULKY_SMUGGLER" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
           <mod:selector hidden="true" req="hacking" lvl="1" max_lvl="1"/>
           <mod:findLike type="text">
             <mod:selector>(Hacking) Scramble the checkpoint's sensors.</mod:selector>
@@ -1910,6 +1938,20 @@
           <mod:findLike type="text">
             <mod:selector>(Upg. Hacking) Scramble the checkpoint's sensors.</mod:selector>
             <mod:setValue>(Upg. Hacking) Scramble the checkpoint's sensors.[INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="DROPPOINT_BULKY_SMUGGLER" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true" req="BLUELIST_WEAPONS_HACK"/>
+          <mod:findLike type="text">
+            <mod:selector>(Hacking Weapon) Scramble the checkpoint's sensors.</mod:selector>
+            <mod:setValue>(Hacking Weapon) Scramble the checkpoint's sensors.[INFO]50% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO]</mod:setValue>
           </mod:findLike>
         </mod:findLike>
       </mod:findLike>
@@ -2024,8 +2066,8 @@
     <mod:findLike type="choice">
       <mod:selector hidden="true" blue="false" req="LIST_CHECK_ANY_CREW" lvl="1"/>
       <mod:findLike type="text">
-        <mod:selector>Spend some time trying to fix it.</mod:selector>
-        <mod:setValue>Spend some time trying to fix it.[INFO]20% [NAME]autoReward[/NAME]Reward Standard(H)[/INFO][INFO]20% [NAME]autoReward[/NAME]Reward Standard(L)[/INFO][INFO]20% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO]</mod:setValue>
+        <mod:selector>Attempt to fix their problem.</mod:selector>
+        <mod:setValue>Attempt to fix their problem.[INFO]20% [NAME]autoReward[/NAME]Reward Standard(H)[/INFO][INFO]20% [NAME]autoReward[/NAME]Reward Standard(L)[/INFO][INFO]20% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -2074,7 +2116,7 @@
     <mod:findLike type="choice">
       <mod:findLike type="text">
         <mod:selector>Hear them out.</mod:selector>
-        <mod:setValue>Hear them out.[INFO][NAME]autoReward[/NAME]Reward Augment(M)[/INFO]</mod:setValue>
+        <mod:setValue>Hear them out.[INFO][NAME]autoReward[/NAME]Reward Augment(M)[/INFO][INFO][NAME]autoReward[/NAME]Reward Augment(L)[/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -2144,7 +2186,69 @@
     <mod:findLike type="choice">
       <mod:findLike type="event">
         <mod:findLike type="choice">
-          <mod:selector req="O2_MASKS"/>
+          <mod:selector req="zoltan_osmian"/>
+          <mod:findLike type="text">
+            <mod:selector>(Osmian Crew) Send a hologram.</mod:selector>
+            <mod:setValue>(Osmian Crew) Send a hologram.[INFO][NAME]autoReward[/NAME]Reward Augment(M)[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="DISTRESS_DROPPOINT_HAZARDOUS_FACILITY" type="event">
+    <mod:findLike type="choice">
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector req="zoltan_osmian"/>
+          <mod:findLike type="event">
+            <mod:findLike type="choice">
+              <mod:selector hidden="true"/>
+              <mod:findLike type="text">
+                <mod:selector>Return the ship to its owner.</mod:selector>
+                <mod:setValue>Return the ship to its owner.[INFO][NAME]autoReward[/NAME]Reward Augment(M)[/INFO]</mod:setValue>
+              </mod:findLike>
+            </mod:findLike>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="DISTRESS_DROPPOINT_HAZARDOUS_FACILITY" type="event">
+    <mod:findLike type="choice">
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector req="unique_mafan"/>
+          <mod:findLike type="text">
+            <mod:selector>(Mafan) "I think I could do it."</mod:selector>
+            <mod:setValue>(Mafan) "I think I could do it."[INFO][NAME]autoReward[/NAME]Reward Augment(L)[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="DISTRESS_DROPPOINT_HAZARDOUS_FACILITY" type="event">
+    <mod:findLike type="choice">
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector req="unique_mafan"/>
+          <mod:findLike type="event">
+            <mod:findLike type="choice">
+              <mod:selector hidden="true"/>
+              <mod:findLike type="text">
+                <mod:selector>Return the ship to its owner.</mod:selector>
+                <mod:setValue>Return the ship to its owner.[INFO][NAME]autoReward[/NAME]Reward Augment(L)[/INFO]</mod:setValue>
+              </mod:findLike>
+            </mod:findLike>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="DISTRESS_DROPPOINT_HAZARDOUS_FACILITY" type="event">
+    <mod:findLike type="choice">
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector req="O2_MASKS_AND_CREW"/>
           <mod:findLike type="text">
             <mod:selector>(Respirators) Have a crewmember enter the ship.</mod:selector>
             <mod:setValue>(Respirators) Have a crewmember enter the ship.[INFO][NAME]autoReward[/NAME]Reward Augment(M)[/INFO]</mod:setValue>
@@ -2157,7 +2261,7 @@
     <mod:findLike type="choice">
       <mod:findLike type="event">
         <mod:findLike type="choice">
-          <mod:selector req="O2_MASKS"/>
+          <mod:selector req="O2_MASKS_AND_CREW"/>
           <mod:findLike type="event">
             <mod:findLike type="choice">
               <mod:selector hidden="true"/>
@@ -2234,7 +2338,7 @@
     <mod:findLike type="choice">
       <mod:findLike type="text">
         <mod:selector>Attack the Federation ship.</mod:selector>
-        <mod:setValue>Attack the Federation ship.[FightINFO]Fight(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(SR: [INFO][NAME]autoReward[/NAME]Reward Stuff(R)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Attack the Federation ship.[INFO]&lt;=[/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -2245,7 +2349,7 @@
           <mod:selector hidden="true"/>
           <mod:findLike type="text">
             <mod:selector>Continue...</mod:selector>
-            <mod:setValue>Continue...[FightINFO]Fight(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(SR: [INFO][NAME]autoReward[/NAME]Reward Stuff(R)[/INFO])[/FightINFO]</mod:setValue>
+            <mod:setValue>Continue...[INFO]&lt;=[/INFO]</mod:setValue>
           </mod:findLike>
         </mod:findLike>
       </mod:findLike>

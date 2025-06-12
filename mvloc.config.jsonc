@@ -9,9 +9,11 @@
         "data/dlcBlueprints.xml.append",
         "data/dlcEvents.xml.append",
         "data/events.xml.append",
+        "data/events_addon_icon.xml",
         // "data/events_fuel.xml.append", // nothing to translate
         "data/events_sector_abandoned.xml",
         "data/events_sector_asteroid.xml",
+        "data/events_sector_stargrove.xml",
         "data/events_sector_augmented.xml",
         "data/events_sector_auto.xml",
         "data/events_sector_clan.xml",
@@ -90,8 +92,10 @@
         "data/text_misc.xml.append",
         "data/text_sectorname.xml.append",
         "data/text_tooltips.xml.append",
+        "data/events_special_tutorial.xml",
+        "data/text_tutorial.xml.append",
         "data/tutorial.xml",
-        //"mod-appendix/metadata.xml",
+        "mod-appendix/metadata.xml",
     ],
     "stringSelectionXPath": [
         // XML text extraction rules (XPath)
@@ -117,6 +121,7 @@
         "//weaponBlueprint/desc",
         "//weaponBlueprint/short",
         "//weaponBlueprint[starts-with(@name,'ARTILLERY_')]/tooltip",
+        "//weaponBlueprint[starts-with(@name,'ARBI')]/tooltip",
         "//weaponBlueprint/descriptionOverride",
         "//weaponBlueprint/tooltipOverride",
         "//shipBlueprint/class",
@@ -125,6 +130,7 @@
 
         // events
         "//*[not(starts-with(@name,'TEXT_CREW_TALK_'))]/text",
+        "//hover-text",
         "//triggeredEventBox/tooltip",
         "//unvisitedTooltip",
         "//visitedTooltip",
@@ -218,16 +224,28 @@
                 "substitute-xposition-for-hull-numbers": 95,
             }
         },
+        "ru": {
+            "applyPostprocesses": {
+                // Add one space to the beginning of the text. mvloc strips white spaces when converting texts from xmls to po files, and weblate does not allow to add a leading space to translation since original's one is stripped. Use this post process if you need a leading space.
+                "add-leading-space": [
+                    "//text[@name='crewlist_and' or @name='crewlist_more']",
+                ],
+                // Add one space to the end of the text. mvloc strips white spaces when converting texts from xmls to po files, and weblate does not allow to add a leading space to translation since original's one is stripped. Use this post process if you need a trailing space.
+                "add-trailing-space": [
+                    "//text[@name='crewlist_and' or @name='crewlist_comma']",
+                ]
+            }
+        },
     },
 
     "packaging": {
         "fullOriginal": [
             //assets
-            "https://drive.usercontent.google.com/download?id=17TtZlTNmMKTC4DtXl1N5cK8MA2OYQPNs&export=download&confirm=xxx",
+            "https://github.com/FTL-Multiverse-Team/FTL-Multiverse-Releases/releases/download/v5.5/Multiverse.5.5.-.Assets.Patch.above.Data.zip",
             //data
-            "https://drive.usercontent.google.com/download?id=1C3lc3foHn_iP5RUp_mvOirGMJKLYoNpF&export=download&confirm=xxx"
+            "https://github.com/FTL-Multiverse-Team/FTL-Multiverse-Releases/releases/download/v5.5.1/Multiverse.5.5.1.-.Data.zip"
         ],
         "prefix": "FTL-Multiverse",
-        "version": "5.4.6"
+        "version": "5.5.1"
     }
 }

@@ -194,6 +194,44 @@
           <mod:selector hidden="true"/>
           <mod:findLike type="event">
             <mod:findLike type="choice">
+              <mod:selector hidden="true" req="BLUELIST_WEAPONS_MIND_CONTROL" max_group="0"/>
+              <mod:findLike type="text">
+                <mod:selector>(Mind Control Weapon) Convince the guard to leave you alone.</mod:selector>
+                <mod:setValue>(Mind Control Weapon) Convince the guard to leave you alone.[INFO]50% &lt;=[/INFO]</mod:setValue>
+              </mod:findLike>
+            </mod:findLike>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="GUARD_CULTIST" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="event">
+            <mod:findLike type="choice">
+              <mod:selector hidden="true" req="BLUELIST_WEAPONS_MIND_AFFECT" max_group="0"/>
+              <mod:findLike type="text">
+                <mod:selector>(Mind Affecting Weapon) Induce chaos within the guard and slip past.</mod:selector>
+                <mod:setValue>(Mind Affecting Weapon) Induce chaos within the guard and slip past.[INFO]33% &lt;=[/INFO]</mod:setValue>
+              </mod:findLike>
+            </mod:findLike>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="GUARD_CULTIST" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="event">
+            <mod:findLike type="choice">
               <mod:selector hidden="true" req="cloaking"/>
               <mod:findLike type="text">
                 <mod:selector>(Cloaking) Cloak and try to escape.</mod:selector>
@@ -329,6 +367,32 @@
           <mod:findLike type="text">
             <mod:selector>(Mind Control) Convince the guard to leave you alone.</mod:selector>
             <mod:setValue>(Mind Control) Convince the guard to leave you alone.[INFO]50% &lt;=[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="GUARD_CULTIST_REVISIT" type="event">
+    <mod:findLike type="choice">
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true" req="BLUELIST_WEAPONS_MIND_CONTROL" max_group="0"/>
+          <mod:findLike type="text">
+            <mod:selector>(Mind Control Weapon) Convince the guard to leave you alone.</mod:selector>
+            <mod:setValue>(Mind Control Weapon) Convince the guard to leave you alone.[INFO]50% &lt;=[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="GUARD_CULTIST_REVISIT" type="event">
+    <mod:findLike type="choice">
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true" req="BLUELIST_WEAPONS_MIND_AFFECT" max_group="0"/>
+          <mod:findLike type="text">
+            <mod:selector>(Mind Affecting Weapon) Induce chaos within the guard and slip past.</mod:selector>
+            <mod:setValue>(Mind Affecting Weapon) Induce chaos within the guard and slip past.[INFO]33% &lt;=[/INFO]</mod:setValue>
           </mod:findLike>
         </mod:findLike>
       </mod:findLike>
@@ -1994,7 +2058,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Continue...</mod:selector>
-        <mod:setValue>Continue...[INFO][NAME]crewMember[/NAME]Gain a crew(Unique Vortigon)[/INFO]</mod:setValue>
+        <mod:setValue>Continue...[INFO][NAME]crewMember[/NAME]Gain a crew(Unique Vortigon)[/INFO][INFO][NAME]itemModify[/NAME]}-1[/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -2051,6 +2115,105 @@
       <mod:findLike type="event">
         <mod:findLike type="choice">
           <mod:selector hidden="true" req="clonebay" lvl="1"/>
+          <mod:findLike type="event">
+            <mod:findLike type="choice">
+              <mod:selector hidden="true"/>
+              <mod:findLike type="text">
+                <mod:selector>Continue...</mod:selector>
+                <mod:setValue>Continue...[INFO][NAME]crewMember[/NAME]Gain a crew(Unique Vortigon)[/INFO]</mod:setValue>
+              </mod:findLike>
+            </mod:findLike>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="VORTIGON_KEY" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector req="LIST_CREW_MEDICAL" hidden="true"/>
+          <mod:findLike type="text">
+            <mod:selector>(Medical Crew) Have your crew treat Vortigon on the spot.</mod:selector>
+            <mod:setValue>(Medical Crew) Have your crew treat Vortigon on the spot.[INFO][NAME]crewMember[/NAME]Gain a crew(Unique Vortigon)[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="VORTIGON_KEY" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector req="LIST_CREW_MEDICAL" hidden="true"/>
+          <mod:findLike type="event">
+            <mod:findLike type="choice">
+              <mod:selector hidden="true"/>
+              <mod:findLike type="text">
+                <mod:selector>Continue...</mod:selector>
+                <mod:setValue>Continue...[INFO][NAME]crewMember[/NAME]Gain a crew(Unique Vortigon)[/INFO]</mod:setValue>
+              </mod:findLike>
+            </mod:findLike>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="VORTIGON_KEY" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector req="BLUELIST_DRONES_MEDICAL" hidden="true"/>
+          <mod:findLike type="text">
+            <mod:selector>(Medical Drone) Have your drone treat him.</mod:selector>
+            <mod:setValue>(Medical Drone) Have your drone treat him.[INFO][NAME]crewMember[/NAME]Gain a crew(Unique Vortigon)[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="VORTIGON_KEY" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector req="BLUELIST_DRONES_MEDICAL" hidden="true"/>
+          <mod:findLike type="event">
+            <mod:findLike type="choice">
+              <mod:selector hidden="true"/>
+              <mod:findLike type="text">
+                <mod:selector>Continue...</mod:selector>
+                <mod:setValue>Continue...[INFO][NAME]crewMember[/NAME]Gain a crew(Unique Vortigon)[/INFO]</mod:setValue>
+              </mod:findLike>
+            </mod:findLike>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="VORTIGON_KEY" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector req="BLUELIST_BOMBS_HEAL" hidden="true"/>
+          <mod:findLike type="text">
+            <mod:selector>(Healing Bomb) Use your Heal Bomb on him. [-1}]</mod:selector>
+            <mod:setValue>(Healing Bomb) Use your Heal Bomb on him. [-1}][INFO][NAME]itemModify[/NAME]}-1[/INFO][INFO][NAME]crewMember[/NAME]Gain a crew(Unique Vortigon)[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="VORTIGON_KEY" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector req="BLUELIST_BOMBS_HEAL" hidden="true"/>
           <mod:findLike type="event">
             <mod:findLike type="choice">
               <mod:selector hidden="true"/>

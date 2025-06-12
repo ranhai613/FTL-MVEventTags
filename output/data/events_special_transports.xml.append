@@ -2256,4 +2256,25 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
+  <mod:findName name="NEBULA_LIGHT_TRANSPORT_STARGROVE_LOOT" type="event">
+    <mod:findLike type="choice">
+      <mod:findLike type="text">
+        <mod:selector>Demand the surrender of their goods.</mod:selector>
+        <mod:setValue>Demand the surrender of their goods.[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(M)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(List Loot Stargrove)[/INFO])[/FightINFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="NEBULA_LIGHT_TRANSPORT_STARGROVE_LOOT" type="event">
+    <mod:findLike type="choice">
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="text">
+            <mod:selector>Continue...</mod:selector>
+            <mod:setValue>Continue...[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(M)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(List Loot Stargrove)[/INFO])[/FightINFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
 </FTL>

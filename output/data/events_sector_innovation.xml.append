@@ -844,6 +844,15 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
+  <mod:findName name="ESTATE_DOCUMENTARY_SURRENDER" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true" req="BLUELIST_WEAPONS_MIND_AFFECT"/>
+      <mod:findLike type="text">
+        <mod:selector>(Mind Affecting Weapon) Clear Cornelius's thoughts with your weapon.</mod:selector>
+        <mod:setValue>(Mind Affecting Weapon) Clear Cornelius's thoughts with your weapon.[INFO][NAME]autoReward[/NAME]Reward Item(H)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
   <mod:findName name="DISTRESS_ESTATE_REBELLING_AUTO" type="event">
     <mod:findLike type="choice">
       <mod:findLike type="text">
@@ -1535,8 +1544,8 @@
             <mod:findLike type="choice">
               <mod:selector hidden="true"/>
               <mod:findLike type="text">
-                <mod:selector>5 hull damage.</mod:selector>
-                <mod:setValue>5 hull damage.[INFO][NAME]damage[/NAME]&lt;!&gt;Damage Hull(5)[/INFO][FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO] [INFO][NAME]unlockCustomShip[/NAME]&lt;#&gt;Unlock Ship(Cura)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Power Core)[/INFO])[/FightINFO][INFO][NAME]unlockCustomShip[/NAME]&lt;#&gt;Unlock Ship(Cura)[/INFO]</mod:setValue>
+                <mod:selector>6 hull damage.</mod:selector>
+                <mod:setValue>6 hull damage.[INFO][NAME]damage[/NAME]&lt;!&gt;Damage Hull(6)[/INFO][FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO] [INFO][NAME]unlockCustomShip[/NAME]&lt;#&gt;Unlock Ship(Cura)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Power Core)[/INFO])[/FightINFO][INFO][NAME]unlockCustomShip[/NAME]&lt;#&gt;Unlock Ship(Cura)[/INFO]</mod:setValue>
               </mod:findLike>
             </mod:findLike>
           </mod:findLike>
@@ -1621,8 +1630,8 @@
             <mod:findLike type="choice">
               <mod:selector hidden="true"/>
               <mod:findLike type="text">
-                <mod:selector>7 mini-drone boarding invasion.</mod:selector>
-                <mod:setValue>7 mini-drone boarding invasion.[INFO][NAME]boarders[/NAME]&lt;!&gt;Enemy Boarding(x7 Human Technician Drone)[/INFO][FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO] [INFO][NAME]unlockCustomShip[/NAME]&lt;#&gt;Unlock Ship(Cura)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Power Core)[/INFO])[/FightINFO][INFO][NAME]unlockCustomShip[/NAME]&lt;#&gt;Unlock Ship(Cura)[/INFO]</mod:setValue>
+                <mod:selector>6 Wentworth boarder mini-drones invasion.</mod:selector>
+                <mod:setValue>6 Wentworth boarder mini-drones invasion.[INFO][NAME]boarders[/NAME]&lt;!&gt;Enemy Boarding(x6 Human Technician Drone)[/INFO][FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard No Item(H)[/INFO] [INFO][NAME]unlockCustomShip[/NAME]&lt;#&gt;Unlock Ship(Cura)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Power Core)[/INFO])[/FightINFO][INFO][NAME]unlockCustomShip[/NAME]&lt;#&gt;Unlock Ship(Cura)[/INFO]</mod:setValue>
               </mod:findLike>
             </mod:findLike>
           </mod:findLike>

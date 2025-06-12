@@ -10,6 +10,50 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
+  <mod:findName name="GUARD_MIND_AFFECTING" type="eventList">
+    <mod:findName name="GUARD_MIND_AFFECTING_FAILED_MORALITY" type="event">
+      <mod:findLike type="choice">
+        <mod:selector hidden="true"/>
+        <mod:findLike type="text">
+          <mod:selector>Continue...</mod:selector>
+          <mod:setValue>Continue...[INFO]&lt;=[/INFO]</mod:setValue>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findName>
+  </mod:findName>
+  <mod:findName name="GUARD_MIND_AFFECTING_MORALITY" type="eventList">
+    <mod:findName name="GUARD_MIND_AFFECTING_FAILED_MORALITY" type="event">
+      <mod:findLike type="choice">
+        <mod:selector blue="false" req="SEC SECTOR_CONFEDERATE"/>
+        <mod:findLike type="text">
+          <mod:selector>Continue...</mod:selector>
+          <mod:setValue>Continue...[INFO]&lt;=[/INFO]</mod:setValue>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findName>
+  </mod:findName>
+  <mod:findName name="GUARD_MIND_AFFECTING_MORALITY" type="eventList">
+    <mod:findName name="GUARD_MIND_AFFECTING_FAILED_MORALITY" type="event">
+      <mod:findLike type="choice">
+        <mod:selector blue="false" req="SEC SECTOR_CONFEDERATE_UNIQUE"/>
+        <mod:findLike type="text">
+          <mod:selector>Continue...</mod:selector>
+          <mod:setValue>Continue...[INFO]&lt;=[/INFO]</mod:setValue>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findName>
+  </mod:findName>
+  <mod:findName name="GUARD_MIND_AFFECTING_MORALITY" type="eventList">
+    <mod:findName name="GUARD_MIND_AFFECTING_FAILED_MORALITY" type="event">
+      <mod:findLike type="choice">
+        <mod:selector blue="false" req="SEC SECTOR_GENIOCRACY_UNIQUE"/>
+        <mod:findLike type="text">
+          <mod:selector>Continue...</mod:selector>
+          <mod:setValue>Continue...[INFO]&lt;=[/INFO]</mod:setValue>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findName>
+  </mod:findName>
   <mod:findName name="GUARD_MIND_MORALITY" type="eventList">
     <mod:findLike type="event">
       <mod:findLike type="choice">
@@ -529,7 +573,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="NEBULA_REINFORCEMENTS_UNION" type="event">
+  <mod:findName name="NEBULA_LIGHT_REINFORCEMENTS_UNION" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
@@ -552,7 +596,119 @@
       <mod:selector hidden="true" req="rep_comb_federation" lvl="3" max_lvl="999" max_group="0" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Continue...</mod:selector>
-        <mod:setValue>Continue...[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Federation)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Continue...[INFO]&lt;=[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="START_FED_UNIQUE" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true" req="rep_comb_federation" lvl="-999" max_lvl="2" max_group="0" blue="false"/>
+      <mod:findLike type="text">
+        <mod:selector>Continue...</mod:selector>
+        <mod:setValue>Continue...[INFO][NAME]modifyPursuit[/NAME]Fleet Delay(2)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="START_FED_UNIQUE" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true" req="rep_comb_federation" lvl="3" max_lvl="999" max_group="0" blue="false"/>
+      <mod:findLike type="text">
+        <mod:selector>Continue...</mod:selector>
+        <mod:setValue>Continue...[INFO]&lt;=[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="GUARD_FEDERATION_UNIQUE" type="event">
+    <mod:findLike type="choice">
+      <mod:findLike type="text">
+        <mod:selector>Request support.</mod:selector>
+        <mod:setValue>Request support.[INFO][NAME]damage[/NAME]Repair Hull(5$)[/INFO][INFO][NAME]itemModify[/NAME]{3 }2 |2[/INFO][INFO][NAME]itemModify[/NAME]{3[/INFO][INFO][NAME]itemModify[/NAME]}2[/INFO][INFO][NAME]itemModify[/NAME]|2[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="GUARD_FEDERATION_UNIQUE" type="event">
+    <mod:findLike type="choice">
+      <mod:findLike type="text">
+        <mod:selector>Attack the guard.</mod:selector>
+        <mod:setValue>Attack the guard.[INFO]&lt;=[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="GUARD_FEDERATION_UNIQUE" type="event">
+    <mod:findLike type="choice">
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="text">
+            <mod:selector>Continue...</mod:selector>
+            <mod:setValue>Continue...[INFO]&lt;=[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="GUARD_FEDERATION_UNIQUE" type="event">
+    <mod:findLike type="choice">
+      <mod:findLike type="text">
+        <mod:selector>Ignore the guard.</mod:selector>
+        <mod:setValue>Ignore the guard.[INFO][NAME]storageCheck[/NAME]Storage Check[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="GUARD_FEDERATION_UNIQUE" type="event">
+    <mod:findLike type="choice">
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:findLike type="text">
+            <mod:selector>Do something onboard the ship.</mod:selector>
+            <mod:setValue>Do something onboard the ship.[INFO][NAME]storageCheck[/NAME]Storage Check[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="GUARD_FEDERATION" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="unique_tully" hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>(Tully) Request support.</mod:selector>
+        <mod:setValue>(Tully) Request support.[INFO][NAME]damage[/NAME]Repair Hull(3$)[/INFO][INFO][NAME]itemModify[/NAME]{3 }2 |2[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="GUARD_FEDERATION" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="unique_turzil" hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>(Turzil) Request support.</mod:selector>
+        <mod:setValue>(Turzil) Request support.[INFO][NAME]damage[/NAME]Repair Hull(3$)[/INFO][INFO][NAME]itemModify[/NAME]{3 }2 |2[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="GUARD_FEDERATION" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="unique_mafan" hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>(Mafan) Request support.</mod:selector>
+        <mod:setValue>(Mafan) Request support.[INFO][NAME]damage[/NAME]Repair Hull(3$)[/INFO][INFO][NAME]itemModify[/NAME]{3 }2 |2[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="GUARD_FEDERATION" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="unique_tyerel" hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>(Ty E'rel) Request support.</mod:selector>
+        <mod:setValue>(Ty E'rel) Request support.[INFO][NAME]damage[/NAME]Repair Hull(3$)[/INFO][INFO][NAME]itemModify[/NAME]{3 }2 |2[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="GUARD_FEDERATION" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="unique_ruwen" hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>(Ruwen) Request support.</mod:selector>
+        <mod:setValue>(Ruwen) Request support.[INFO][NAME]damage[/NAME]Repair Hull(3$)[/INFO][INFO][NAME]itemModify[/NAME]{3 }2 |2[/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -560,7 +716,7 @@
     <mod:findLike type="choice">
       <mod:findLike type="text">
         <mod:selector>Request support.</mod:selector>
-        <mod:setValue>Request support.[INFO][NAME]damage[/NAME]Repair Hull(5$)[/INFO][INFO][NAME]itemModify[/NAME]{3[/INFO][INFO][NAME]itemModify[/NAME]}2[/INFO][INFO][NAME]itemModify[/NAME]|2[/INFO]</mod:setValue>
+        <mod:setValue>Request support.[INFO][NAME]damage[/NAME]Repair Hull(3$)[/INFO][INFO][NAME]itemModify[/NAME]1≤{≤3[/INFO][INFO][NAME]itemModify[/NAME]1≤}≤2[/INFO][INFO][NAME]itemModify[/NAME]1≤|≤2[/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -610,7 +766,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Continue...</mod:selector>
-        <mod:setValue>Continue...[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Federation)[/INFO])[/FightINFO]</mod:setValue>
+        <mod:setValue>Continue...[INFO]&lt;=[/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -622,13 +778,58 @@
           <mod:selector hidden="true"/>
           <mod:findLike type="text">
             <mod:selector>Continue...</mod:selector>
-            <mod:setValue>Continue...[FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO][NAME]weapon[/NAME]Gain a weapon(Giftlist Federation)[/INFO])[/FightINFO]</mod:setValue>
+            <mod:setValue>Continue...[INFO]&lt;=[/INFO]</mod:setValue>
           </mod:findLike>
         </mod:findLike>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="GUARD_FED_SUPPORT" type="event">
+  <mod:findName name="GUARD_FED_SUPPORT_UNIQUE" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="unique_tully" hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>(Tully) Request support.</mod:selector>
+        <mod:setValue>(Tully) Request support.[INFO][NAME]damage[/NAME]Repair Hull(5$)[/INFO][INFO][NAME]itemModify[/NAME]{3 }2 |2[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="GUARD_FED_SUPPORT_UNIQUE" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="unique_turzil" hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>(Turzil) Request support.</mod:selector>
+        <mod:setValue>(Turzil) Request support.[INFO][NAME]damage[/NAME]Repair Hull(5$)[/INFO][INFO][NAME]itemModify[/NAME]{3 }2 |2[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="GUARD_FED_SUPPORT_UNIQUE" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="unique_mafan" hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>(Mafan) Request support.</mod:selector>
+        <mod:setValue>(Mafan) Request support.[INFO][NAME]damage[/NAME]Repair Hull(5$)[/INFO][INFO][NAME]itemModify[/NAME]{3 }2 |2[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="GUARD_FED_SUPPORT_UNIQUE" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="unique_tyerel" hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>(Ty E'rel) Request support.</mod:selector>
+        <mod:setValue>(Ty E'rel) Request support.[INFO][NAME]damage[/NAME]Repair Hull(5$)[/INFO][INFO][NAME]itemModify[/NAME]{3 }2 |2[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="GUARD_FED_SUPPORT_UNIQUE" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="unique_ruwen" hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>(Ruwen) Request support.</mod:selector>
+        <mod:setValue>(Ruwen) Request support.[INFO][NAME]damage[/NAME]Repair Hull(5$)[/INFO][INFO][NAME]itemModify[/NAME]{3 }2 |2[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="GUARD_FED_SUPPORT_UNIQUE" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
@@ -637,7 +838,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="GUARD_FED_SUPPORT" type="event">
+  <mod:findName name="GUARD_FED_SUPPORT_UNIQUE" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
@@ -646,7 +847,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="GUARD_FED_SUPPORT" type="event">
+  <mod:findName name="GUARD_FED_SUPPORT_UNIQUE" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
@@ -655,12 +856,48 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="GUARD_FED_SUPPORT" type="event">
+  <mod:findName name="GUARD_FED_SUPPORT_UNIQUE" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Drone parts.</mod:selector>
         <mod:setValue>Drone parts.[INFO][NAME]itemModify[/NAME]|2[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="GUARD_FED_SUPPORT" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>Repairs.</mod:selector>
+        <mod:setValue>Repairs.[INFO][NAME]damage[/NAME]Repair Hull(3$)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="GUARD_FED_SUPPORT" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>Fuel.</mod:selector>
+        <mod:setValue>Fuel.[INFO][NAME]itemModify[/NAME]1≤{≤3[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="GUARD_FED_SUPPORT" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>Ammo.</mod:selector>
+        <mod:setValue>Ammo.[INFO][NAME]itemModify[/NAME]1≤}≤2[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="GUARD_FED_SUPPORT" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>Drone parts.</mod:selector>
+        <mod:setValue>Drone parts.[INFO][NAME]itemModify[/NAME]1≤|≤2[/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -682,6 +919,24 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
+  <mod:findName name="GUARD_FED_UNIQUE_DESTROY" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>Continue...</mod:selector>
+        <mod:setValue>Continue...[INFO][NAME]storageCheck[/NAME]Storage Check[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="GUARD_FED_UNIQUE_DEADCREW" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>Continue...</mod:selector>
+        <mod:setValue>Continue...[INFO][NAME]storageCheck[/NAME]Storage Check[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
   <mod:findName name="GUARD_FEDERATION_FOLLOWUP" type="event">
     <mod:findLike type="choice">
       <mod:findLike type="text">
@@ -690,7 +945,24 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
+  <mod:findName name="GUARD_FEDERATION_UNIQUE_FOLLOWUP" type="event">
+    <mod:findLike type="choice">
+      <mod:findLike type="text">
+        <mod:selector>Do something onboard the ship.</mod:selector>
+        <mod:setValue>Do something onboard the ship.[INFO][NAME]storageCheck[/NAME]Storage Check[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
   <mod:findName name="REINFORCEMENTS_FED" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>Continue...</mod:selector>
+        <mod:setValue>Continue...[FightINFO]Fight(HK=CK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])[/FightINFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="REINFORCEMENTS_FED_UNIQUE" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
@@ -1437,7 +1709,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="NEBULA_REINFORCEMENTS_ZOLTAN" type="event">
+  <mod:findName name="NEBULA_LIGHT_REINFORCEMENTS_ZOLTAN" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
@@ -1922,7 +2194,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="NEBULA_REINFORCEMENTS_CRYSTAL" type="event">
+  <mod:findName name="NEBULA_LIGHT_REINFORCEMENTS_CRYSTAL" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
@@ -2089,8 +2361,8 @@
     <mod:findLike type="choice">
       <mod:selector req="unique_tyerel" hidden="true"/>
       <mod:findLike type="text">
-        <mod:selector>(Ty E'Rel) Send a request for provisions.</mod:selector>
-        <mod:setValue>(Ty E'Rel) Send a request for provisions.[INFO][NAME]autoReward[/NAME]Reward Stuff(H)[/INFO]</mod:setValue>
+        <mod:selector>(Ty E'rel) Send a request for provisions.</mod:selector>
+        <mod:setValue>(Ty E'rel) Send a request for provisions.[INFO][NAME]autoReward[/NAME]Reward Stuff(H)[/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -2626,7 +2898,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="NEBULA_REINFORCEMENTS_SHELL" type="event">
+  <mod:findName name="NEBULA_LIGHT_REINFORCEMENTS_SHELL" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
@@ -2717,6 +2989,24 @@
       <mod:findLike type="text">
         <mod:selector>(Mind Control) Convince the guard to leave you alone.</mod:selector>
         <mod:setValue>(Mind Control) Convince the guard to leave you alone.[INFO]50% &lt;=[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="GUARD_REBEL" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true" req="BLUELIST_WEAPONS_MIND_CONTROL" max_group="0"/>
+      <mod:findLike type="text">
+        <mod:selector>(Mind Control Weapon) Convince the guard to leave you alone.</mod:selector>
+        <mod:setValue>(Mind Control Weapon) Convince the guard to leave you alone.[INFO]50% &lt;=[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="GUARD_REBEL" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true" req="BLUELIST_WEAPONS_MIND_AFFECT" max_group="0"/>
+      <mod:findLike type="text">
+        <mod:selector>(Mind Affecting Weapon) Induce chaos within the guard and slip past.</mod:selector>
+        <mod:setValue>(Mind Affecting Weapon) Induce chaos within the guard and slip past.[INFO]33% &lt;=[/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -2858,6 +3148,15 @@
   </mod:findName>
   <mod:findName name="GUARD_AUTO" type="event">
     <mod:findLike type="choice">
+      <mod:selector req="BLUELIST_WEAPONS_HACK"/>
+      <mod:findLike type="text">
+        <mod:selector>(Hacking Weapon) Attempt to deactivate the drone.</mod:selector>
+        <mod:setValue>(Hacking Weapon) Attempt to deactivate the drone.[INFO]33% &lt;=[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="GUARD_AUTO" type="event">
+    <mod:findLike type="choice">
       <mod:selector hidden="true" req="cloaking"/>
       <mod:findLike type="text">
         <mod:selector>(Cloaking) Cloak and try to escape.</mod:selector>
@@ -2884,6 +3183,28 @@
     </mod:findLike>
   </mod:findName>
   <mod:findName name="GUARD_AUTO_HACK" type="eventList">
+    <mod:findLike type="event">
+      <mod:findLike type="choice">
+        <mod:selector hidden="true"/>
+        <mod:findLike type="text">
+          <mod:selector>Continue...</mod:selector>
+          <mod:setValue>Continue...[INFO]&lt;=[/INFO]</mod:setValue>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="GUARD_AUTO_HACK_WEAPON" type="eventList">
+    <mod:findLike type="event">
+      <mod:findLike type="choice">
+        <mod:selector hidden="true"/>
+        <mod:findLike type="text">
+          <mod:selector>Continue...</mod:selector>
+          <mod:setValue>Continue...[INFO]&lt;=[/INFO]</mod:setValue>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="GUARD_AUTO_HACK_WEAPON" type="eventList">
     <mod:findLike type="event">
       <mod:findLike type="choice">
         <mod:selector hidden="true"/>
@@ -3022,7 +3343,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="NEBULA_REINFORCEMENTS_COALITION" type="event">
+  <mod:findName name="NEBULA_LIGHT_REINFORCEMENTS_COALITION" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
@@ -3127,6 +3448,24 @@
       <mod:findLike type="text">
         <mod:selector>(Mind Control) Convince the guard to leave you alone.</mod:selector>
         <mod:setValue>(Mind Control) Convince the guard to leave you alone.[INFO]50% &lt;=[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="GUARD_ROCK" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true" req="BLUELIST_WEAPONS_MIND_CONTROL" max_group="0"/>
+      <mod:findLike type="text">
+        <mod:selector>(Mind Control Weapon) Convince the guard to leave you alone.</mod:selector>
+        <mod:setValue>(Mind Control Weapon) Convince the guard to leave you alone.[INFO]50% &lt;=[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="GUARD_ROCK" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true" req="BLUELIST_WEAPONS_MIND_AFFECT" max_group="0"/>
+      <mod:findLike type="text">
+        <mod:selector>(Mind Affecting Weapon) Induce chaos within the guard and slip past.</mod:selector>
+        <mod:setValue>(Mind Affecting Weapon) Induce chaos within the guard and slip past.[INFO]33% &lt;=[/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -3292,6 +3631,15 @@
   </mod:findName>
   <mod:findName name="GUARD_DUSKBRINGER" type="event">
     <mod:findLike type="choice">
+      <mod:selector hidden="true" req="BYPASS_AND_MIND_AFFECT" max_group="1"/>
+      <mod:findLike type="text">
+        <mod:selector>(Mind Affecting + Bypass) Convince the guard to leave you alone.</mod:selector>
+        <mod:setValue>(Mind Affecting + Bypass) Convince the guard to leave you alone.[INFO]33% &lt;=[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="GUARD_DUSKBRINGER" type="event">
+    <mod:findLike type="choice">
       <mod:selector hidden="true" req="cloaking"/>
       <mod:findLike type="text">
         <mod:selector>(Cloaking) Cloak and try to escape.</mod:selector>
@@ -3363,7 +3711,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="NEBULA_REINFORCEMENTS_DUSK" type="event">
+  <mod:findName name="NEBULA_LIGHT_REINFORCEMENTS_DUSK" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
@@ -3427,6 +3775,24 @@
       <mod:findLike type="text">
         <mod:selector>(Mind Control) Convince the guard to leave you alone.</mod:selector>
         <mod:setValue>(Mind Control) Convince the guard to leave you alone.[INFO]50% &lt;=[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="GUARD_MANTIS" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true" req="BLUELIST_WEAPONS_MIND_CONTROL" max_group="0"/>
+      <mod:findLike type="text">
+        <mod:selector>(Mind Control Weapon) Convince the guard to leave you alone.</mod:selector>
+        <mod:setValue>(Mind Control Weapon) Convince the guard to leave you alone.[INFO]50% &lt;=[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="GUARD_MANTIS" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true" req="BLUELIST_WEAPONS_MIND_AFFECT" max_group="0"/>
+      <mod:findLike type="text">
+        <mod:selector>(Mind Affecting Weapon) Induce chaos within the guard and slip past.</mod:selector>
+        <mod:setValue>(Mind Affecting Weapon) Induce chaos within the guard and slip past.[INFO]33% &lt;=[/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -3584,6 +3950,34 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="event">
         <mod:findLike type="choice">
+          <mod:selector hidden="true" req="BLUELIST_WEAPONS_MIND_CONTROL" max_group="0"/>
+          <mod:findLike type="text">
+            <mod:selector>(Mind Control Weapon) Convince the guard to leave you alone.</mod:selector>
+            <mod:setValue>(Mind Control Weapon) Convince the guard to leave you alone.[INFO]50% &lt;=[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="START_GHOST_SHIP" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true" req="BLUELIST_WEAPONS_MIND_AFFECT" max_group="0"/>
+          <mod:findLike type="text">
+            <mod:selector>(Mind Affecting Weapon) Induce chaos within the guard and slip past.</mod:selector>
+            <mod:setValue>(Mind Affecting Weapon) Induce chaos within the guard and slip past.[INFO]33% &lt;=[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="START_GHOST_SHIP" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
           <mod:selector hidden="true" req="cloaking"/>
           <mod:findLike type="text">
             <mod:selector>(Cloaking) Cloak and try to escape.</mod:selector>
@@ -3729,6 +4123,24 @@
       <mod:findLike type="text">
         <mod:selector>(Mind Control) Convince the guard to leave you alone.</mod:selector>
         <mod:setValue>(Mind Control) Convince the guard to leave you alone.[INFO]50% &lt;=[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="GUARD_GHOSTWASTE" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true" req="BLUELIST_WEAPONS_MIND_CONTROL" max_group="0"/>
+      <mod:findLike type="text">
+        <mod:selector>(Mind Control Weapon) Convince the guard to leave you alone.</mod:selector>
+        <mod:setValue>(Mind Control Weapon) Convince the guard to leave you alone.[INFO]50% &lt;=[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="GUARD_GHOSTWASTE" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true" req="BLUELIST_WEAPONS_MIND_AFFECT" max_group="0"/>
+      <mod:findLike type="text">
+        <mod:selector>(Mind Affecting Weapon) Induce chaos within the guard and slip past.</mod:selector>
+        <mod:setValue>(Mind Affecting Weapon) Induce chaos within the guard and slip past.[INFO]33% &lt;=[/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -3895,6 +4307,24 @@
   </mod:findName>
   <mod:findName name="GUARD_PIRATE" type="event">
     <mod:findLike type="choice">
+      <mod:selector hidden="true" req="BLUELIST_WEAPONS_MIND_CONTROL" max_group="0"/>
+      <mod:findLike type="text">
+        <mod:selector>(Mind Control Weapon) Convince the guard to leave you alone.</mod:selector>
+        <mod:setValue>(Mind Control Weapon) Convince the guard to leave you alone.[INFO]50% &lt;=[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="GUARD_PIRATE" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true" req="BLUELIST_WEAPONS_MIND_AFFECT" max_group="0"/>
+      <mod:findLike type="text">
+        <mod:selector>(Mind Affecting Weapon) Induce chaos within the guard and slip past.</mod:selector>
+        <mod:setValue>(Mind Affecting Weapon) Induce chaos within the guard and slip past.[INFO]33% &lt;=[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="GUARD_PIRATE" type="event">
+    <mod:findLike type="choice">
       <mod:selector hidden="true" req="cloaking"/>
       <mod:findLike type="text">
         <mod:selector>(Cloaking) Cloak and try to escape.</mod:selector>
@@ -3966,7 +4396,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="NEBULA_REINFORCEMENTS_PIRATE" type="event">
+  <mod:findName name="NEBULA_LIGHT_REINFORCEMENTS_PIRATE" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
@@ -4061,7 +4491,7 @@
       <mod:selector hidden="true" req="shell_scientist"/>
       <mod:findLike type="text">
         <mod:selector>(Shell Scientist Crew) Explain that you have business in the area.</mod:selector>
-        <mod:setValue>(Shell Scientist Crew) Explain that you have business in the area.[INFO][NAME]itemModify[/NAME]-10≤~≤-1[/INFO][INFO]&lt;=[/INFO][INFO]50% &lt;=[/INFO]</mod:setValue>
+        <mod:setValue>(Shell Scientist Crew) Explain that you have business in the area.[INFO][NAME]itemModify[/NAME]-10≤~≤-1[/INFO][INFO]&lt;=[/INFO][INFO]50% &lt;=[/INFO][INFO]33% &lt;=[/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -4120,6 +4550,34 @@
           <mod:findLike type="text">
             <mod:selector>(Mind Control) Convince the guard to leave you alone.</mod:selector>
             <mod:setValue>(Mind Control) Convince the guard to leave you alone.[INFO]50% &lt;=[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="GUARD_VAMPWEED" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true" req="shell_scientist"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true" req="BLUELIST_WEAPONS_MIND_CONTROL" max_group="0"/>
+          <mod:findLike type="text">
+            <mod:selector>(Mind Control Weapon) Convince the guard to leave you alone.</mod:selector>
+            <mod:setValue>(Mind Control Weapon) Convince the guard to leave you alone.[INFO]50% &lt;=[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="GUARD_VAMPWEED" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true" req="shell_scientist"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true" req="BLUELIST_WEAPONS_MIND_AFFECT" max_group="0"/>
+          <mod:findLike type="text">
+            <mod:selector>(Mind Affecting Weapon) Induce chaos within the guard and slip past.</mod:selector>
+            <mod:setValue>(Mind Affecting Weapon) Induce chaos within the guard and slip past.[INFO]33% &lt;=[/INFO]</mod:setValue>
           </mod:findLike>
         </mod:findLike>
       </mod:findLike>
@@ -4241,6 +4699,34 @@
       <mod:selector req="orchid_cultivator"/>
       <mod:findLike type="event">
         <mod:findLike type="choice">
+          <mod:selector hidden="true" req="BLUELIST_WEAPONS_MIND_CONTROL" max_group="0"/>
+          <mod:findLike type="text">
+            <mod:selector>(Mind Control Weapon) Convince the guard to leave you alone.</mod:selector>
+            <mod:setValue>(Mind Control Weapon) Convince the guard to leave you alone.[INFO]50% &lt;=[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="GUARD_VAMPWEED" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="orchid_cultivator"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true" req="BLUELIST_WEAPONS_MIND_AFFECT" max_group="0"/>
+          <mod:findLike type="text">
+            <mod:selector>(Mind Affecting Weapon) Induce chaos within the guard and slip past.</mod:selector>
+            <mod:setValue>(Mind Affecting Weapon) Induce chaos within the guard and slip past.[INFO]33% &lt;=[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="GUARD_VAMPWEED" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="orchid_cultivator"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
           <mod:selector hidden="true" req="cloaking"/>
           <mod:findLike type="text">
             <mod:selector>(Cloaking) Cloak and try to escape.</mod:selector>
@@ -4352,6 +4838,34 @@
       <mod:selector req="orchid_vampweed"/>
       <mod:findLike type="event">
         <mod:findLike type="choice">
+          <mod:selector hidden="true" req="BLUELIST_WEAPONS_MIND_CONTROL" max_group="0"/>
+          <mod:findLike type="text">
+            <mod:selector>(Mind Control Weapon) Convince the guard to leave you alone.</mod:selector>
+            <mod:setValue>(Mind Control Weapon) Convince the guard to leave you alone.[INFO]50% &lt;=[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="GUARD_VAMPWEED" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="orchid_vampweed"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true" req="BLUELIST_WEAPONS_MIND_AFFECT" max_group="0"/>
+          <mod:findLike type="text">
+            <mod:selector>(Mind Affecting Weapon) Induce chaos within the guard and slip past.</mod:selector>
+            <mod:setValue>(Mind Affecting Weapon) Induce chaos within the guard and slip past.[INFO]33% &lt;=[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="GUARD_VAMPWEED" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="orchid_vampweed"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
           <mod:selector hidden="true" req="cloaking"/>
           <mod:findLike type="text">
             <mod:selector>(Cloaking) Cloak and try to escape.</mod:selector>
@@ -4395,6 +4909,24 @@
       <mod:findLike type="text">
         <mod:selector>(Mind Control) Convince the guard to leave you alone.</mod:selector>
         <mod:setValue>(Mind Control) Convince the guard to leave you alone.[INFO]50% &lt;=[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="GUARD_VAMPWEED" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true" req="BLUELIST_WEAPONS_MIND_CONTROL" max_group="0"/>
+      <mod:findLike type="text">
+        <mod:selector>(Mind Control Weapon) Convince the guard to leave you alone.</mod:selector>
+        <mod:setValue>(Mind Control Weapon) Convince the guard to leave you alone.[INFO]50% &lt;=[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="GUARD_VAMPWEED" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true" req="BLUELIST_WEAPONS_MIND_AFFECT" max_group="0"/>
+      <mod:findLike type="text">
+        <mod:selector>(Mind Affecting Weapon) Induce chaos within the guard and slip past.</mod:selector>
+        <mod:setValue>(Mind Affecting Weapon) Induce chaos within the guard and slip past.[INFO]33% &lt;=[/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -4626,7 +5158,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="NEBULA_REINFORCEMENTS_SLUG" type="event">
+  <mod:findName name="NEBULA_LIGHT_REINFORCEMENTS_SLUG" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
@@ -4855,7 +5387,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="NEBULA_REINFORCEMENTS_LEECH" type="event">
+  <mod:findName name="NEBULA_LIGHT_REINFORCEMENTS_LEECH" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
@@ -4908,7 +5440,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="NEBULA_REINFORCEMENTS_LEECHCAP" type="event">
+  <mod:findName name="NEBULA_LIGHT_REINFORCEMENTS_LEECHCAP" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
@@ -4986,6 +5518,24 @@
   </mod:findName>
   <mod:findName name="GUARD_DYNASTY" type="event">
     <mod:findLike type="choice">
+      <mod:selector hidden="true" req="BLUELIST_WEAPONS_MIND_CONTROL" max_group="0"/>
+      <mod:findLike type="text">
+        <mod:selector>(Mind Control Weapon) Convince the guard to leave you alone.</mod:selector>
+        <mod:setValue>(Mind Control Weapon) Convince the guard to leave you alone.[INFO]50% &lt;=[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="GUARD_DYNASTY" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true" req="BLUELIST_WEAPONS_MIND_AFFECT" max_group="0"/>
+      <mod:findLike type="text">
+        <mod:selector>(Mind Affecting Weapon) Induce chaos within the guard and slip past.</mod:selector>
+        <mod:setValue>(Mind Affecting Weapon) Induce chaos within the guard and slip past.[INFO]33% &lt;=[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="GUARD_DYNASTY" type="event">
+    <mod:findLike type="choice">
       <mod:selector hidden="true" req="cloaking"/>
       <mod:findLike type="text">
         <mod:selector>(Cloaking) Cloak and try to escape.</mod:selector>
@@ -5057,7 +5607,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="NEBULA_REINFORCEMENTS_DYNASTY" type="event">
+  <mod:findName name="NEBULA_LIGHT_REINFORCEMENTS_DYNASTY" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
@@ -5708,6 +6258,34 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="event">
         <mod:findLike type="choice">
+          <mod:selector hidden="true" req="BLUELIST_WEAPONS_MIND_CONTROL" max_group="0"/>
+          <mod:findLike type="text">
+            <mod:selector>(Mind Control Weapon) Convince the guard to leave you alone.</mod:selector>
+            <mod:setValue>(Mind Control Weapon) Convince the guard to leave you alone.[INFO]50% &lt;=[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="START_ASTEROID_ROCK" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true" req="BLUELIST_WEAPONS_MIND_AFFECT" max_group="0"/>
+          <mod:findLike type="text">
+            <mod:selector>(Mind Affecting Weapon) Induce chaos within the guard and slip past.</mod:selector>
+            <mod:setValue>(Mind Affecting Weapon) Induce chaos within the guard and slip past.[INFO]33% &lt;=[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="START_ASTEROID_ROCK" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
           <mod:selector hidden="true" req="cloaking"/>
           <mod:findLike type="text">
             <mod:selector>(Cloaking) Cloak and try to escape.</mod:selector>
@@ -6140,6 +6718,225 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
+  <mod:findName name="START_STARGROVE" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true" req="rep_comb_zoltan" lvl="-999" max_lvl="1" max_group="0" blue="false"/>
+      <mod:findLike type="text">
+        <mod:selector>Continue...</mod:selector>
+        <mod:setValue>Continue...[INFO][NAME]damage[/NAME]Repair Hull(10$)[/INFO][INFO][NAME]modifyPursuit[/NAME]Fleet Delay(3)[/INFO][INFO]&lt;=[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="START_STARGROVE" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true" req="rep_comb_zoltan" lvl="2" max_lvl="999" max_group="0" blue="false"/>
+      <mod:findLike type="text">
+        <mod:selector>Continue...</mod:selector>
+        <mod:setValue>Continue...[INFO]&lt;=[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="GUARD_STARGROVE" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true" blue="false" req="COUNT_ALL_CREW" lvl="1" max_group="0"/>
+      <mod:findLike type="text">
+        <mod:selector>We want to pass through in order to avoid the Rebels.</mod:selector>
+        <mod:setValue>We want to pass through in order to avoid the Rebels.[INFO][NAME]damage[/NAME]Repair Hull(10$)[/INFO][INFO][NAME]modifyPursuit[/NAME]Fleet Delay(3)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="GUARD_STARGROVE" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true" blue="false" req="COUNT_ALL_CREW" lvl="1" max_group="0"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true" req="rep_comb_zoltan" lvl="-999" max_lvl="-1" blue="false" max_group="0"/>
+          <mod:findLike type="text">
+            <mod:selector>Hold firm.</mod:selector>
+            <mod:setValue>Hold firm.[INFO][NAME]damage[/NAME]Repair Hull(10$)[/INFO][INFO][NAME]modifyPursuit[/NAME]Fleet Delay(3)[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="GUARD_STARGROVE" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true" blue="false" req="COUNT_ALL_CREW" lvl="1" max_group="0"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true" req="loc_player_hull_max" lvl="-999" max_lvl="15" blue="false" max_group="0"/>
+          <mod:findLike type="text">
+            <mod:selector>Hold firm.</mod:selector>
+            <mod:setValue>Hold firm.[INFO][NAME]damage[/NAME]Repair Hull(10$)[/INFO][INFO][NAME]modifyPursuit[/NAME]Fleet Delay(3)[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="GUARD_STARGROVE" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true" blue="false" req="COUNT_ALL_CREW" lvl="1" max_group="0"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector req="pilot" lvl="-999" blue="false" max_group="0"/>
+          <mod:findLike type="text">
+            <mod:selector>Hold firm.</mod:selector>
+            <mod:setValue>Hold firm.[INFO][NAME]modifyPursuit[/NAME]Fleet Delay(3)[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="GUARD_STARGROVE" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true" blue="false" req="COUNT_ALL_CREW" lvl="1" max_group="0"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector req="pilot" lvl="-999" blue="false" max_group="0"/>
+          <mod:findLike type="event">
+            <mod:findLike type="choice">
+              <mod:selector hidden="true"/>
+              <mod:findLike type="text">
+                <mod:selector>Continue...</mod:selector>
+                <mod:setValue>Continue...[INFO][NAME]modifyPursuit[/NAME]Fleet Delay(3)[/INFO]</mod:setValue>
+              </mod:findLike>
+            </mod:findLike>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="GUARD_STARGROVE" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true" blue="false" req="rep_comb_zoltan" lvl="-999" max_lvl="-1" max_group="0"/>
+      <mod:findLike type="text">
+        <mod:selector>This ship needs to pass through in order to avoid the Rebels.</mod:selector>
+        <mod:setValue>This ship needs to pass through in order to avoid the Rebels.[INFO][NAME]damage[/NAME]Repair Hull(10$)[/INFO][INFO][NAME]modifyPursuit[/NAME]Fleet Delay(3)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="GUARD_STARGROVE" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true" blue="false" req="loc_player_hull_max" lvl="-999" max_lvl="15" max_group="0"/>
+      <mod:findLike type="text">
+        <mod:selector>This ship needs to pass through in order to avoid the Rebels.</mod:selector>
+        <mod:setValue>This ship needs to pass through in order to avoid the Rebels.[INFO][NAME]damage[/NAME]Repair Hull(10$)[/INFO][INFO][NAME]modifyPursuit[/NAME]Fleet Delay(3)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="GUARD_STARGROVE" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true" blue="false" req="pilot" lvl="-999" max_group="0"/>
+      <mod:findLike type="text">
+        <mod:selector>This ship needs to pass through in order to avoid the Rebels.</mod:selector>
+        <mod:setValue>This ship needs to pass through in order to avoid the Rebels.[INFO][NAME]modifyPursuit[/NAME]Fleet Delay(3)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="GUARD_STARGROVE" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true" blue="false" req="pilot" lvl="-999" max_group="0"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="text">
+            <mod:selector>Continue...</mod:selector>
+            <mod:setValue>Continue...[INFO][NAME]modifyPursuit[/NAME]Fleet Delay(3)[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="GUARD_STARGROVE" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true" req="pilot" blue="false" max_group="1"/>
+      <mod:findLike type="text">
+        <mod:selector>Fight your way past.</mod:selector>
+        <mod:setValue>Fight your way past.[INFO]&lt;=[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="GUARD_STARGROVE" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true" req="pilot" blue="false" max_group="1"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="text">
+            <mod:selector>Continue...</mod:selector>
+            <mod:setValue>Continue...[INFO]&lt;=[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="GUARD_ZOLTAN_STARGROVE_DESTROY" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>Continue...</mod:selector>
+        <mod:setValue>Continue...[INFO][NAME]modifyPursuit[/NAME]Fleet Delay(3)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="GUARD_ZOLTAN_STARGROVE_DEADCREW" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>Continue...</mod:selector>
+        <mod:setValue>Continue...[INFO][NAME]modifyPursuit[/NAME]Fleet Delay(3)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="GUARD_STARGROVE_EQUIPMENT_REPAIR_REP" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>Continue...</mod:selector>
+        <mod:setValue>Continue...[INFO][NAME]modifyPursuit[/NAME]Fleet Delay(3)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="GUARD_STARGROVE_EQUIPMENT_REPAIR_HULL" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>Continue...</mod:selector>
+        <mod:setValue>Continue...[INFO][NAME]modifyPursuit[/NAME]Fleet Delay(3)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="GUARD_STARGROVE_FOLLOWUP" type="event">
+    <mod:findLike type="choice">
+      <mod:findLike type="text">
+        <mod:selector>Do something onboard the ship.</mod:selector>
+        <mod:setValue>Do something onboard the ship.[INFO][NAME]storageCheck[/NAME]Storage Check[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="GUARD_STARGROVE_CRIMINAL" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="text">
+        <mod:selector>Fight your way past.</mod:selector>
+        <mod:setValue>Fight your way past.[INFO]&lt;=[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="GUARD_STARGROVE_CRIMINAL" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true"/>
+          <mod:findLike type="text">
+            <mod:selector>Continue...</mod:selector>
+            <mod:setValue>Continue...[INFO]&lt;=[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
   <mod:findName name="START_COREWORLDS" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true" req="rep_comb_union" lvl="-999" max_lvl="1" max_group="0" blue="false"/>
@@ -6514,7 +7311,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="NEBULA_REINFORCEMENTS_ZOLTAN_CAPITAL" type="event">
+  <mod:findName name="NEBULA_LIGHT_REINFORCEMENTS_ZOLTAN_CAPITAL" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
@@ -6983,7 +7780,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="NEBULA_REINFORCEMENTS_DUSKCAP" type="event">
+  <mod:findName name="NEBULA_LIGHT_REINFORCEMENTS_DUSKCAP" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
@@ -7304,6 +8101,15 @@
   </mod:findName>
   <mod:findName name="GUARD_ESTATE" type="event">
     <mod:findLike type="choice">
+      <mod:selector req="BLUELIST_WEAPONS_HACK"/>
+      <mod:findLike type="text">
+        <mod:selector>(Hacking Weapon) Attempt to deactivate the drone.</mod:selector>
+        <mod:setValue>(Hacking Weapon) Attempt to deactivate the drone.[INFO]33% &lt;=[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="GUARD_ESTATE" type="event">
+    <mod:findLike type="choice">
       <mod:selector hidden="true" req="cloaking"/>
       <mod:findLike type="text">
         <mod:selector>(Cloaking) Cloak and try to escape.</mod:selector>
@@ -7434,6 +8240,15 @@
       <mod:findLike type="text">
         <mod:selector>(Hacking) Attempt to deactivate the drone.</mod:selector>
         <mod:setValue>(Hacking) Attempt to deactivate the drone.[INFO]50% [NAME]itemModify[/NAME]|-1[/INFO][INFO]50% &lt;=[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="GUARD_SHIPYARD" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="BLUELIST_WEAPONS_HACK"/>
+      <mod:findLike type="text">
+        <mod:selector>(Hacking Weapon) Attempt to deactivate the drone.</mod:selector>
+        <mod:setValue>(Hacking Weapon) Attempt to deactivate the drone.[INFO]33% &lt;=[/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -7730,7 +8545,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="NEBULA_REINFORCEMENTS_SLUGHOME" type="event">
+  <mod:findName name="NEBULA_LIGHT_REINFORCEMENTS_SLUGHOME" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
@@ -7869,7 +8684,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="NEBULA_REINFORCEMENTS_CLAN" type="event">
+  <mod:findName name="NEBULA_LIGHT_REINFORCEMENTS_CLAN" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
@@ -8012,7 +8827,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="NEBULA_REINFORCEMENTS_NIGHTS" type="event">
+  <mod:findName name="NEBULA_LIGHT_REINFORCEMENTS_NIGHTS" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
@@ -8110,6 +8925,15 @@
   </mod:findName>
   <mod:findName name="GUARD_SHELLHOME" type="event">
     <mod:findLike type="choice">
+      <mod:selector hidden="true" req="BLUELIST_WEAPONS_MIND_AFFECT" max_group="0"/>
+      <mod:findLike type="text">
+        <mod:selector>(Mind Affecting Weapon) Induce chaos within the guard and slip past.</mod:selector>
+        <mod:setValue>(Mind Affecting Weapon) Induce chaos within the guard and slip past.[INFO]33% &lt;=[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="GUARD_SHELLHOME" type="event">
+    <mod:findLike type="choice">
       <mod:selector hidden="true" req="shell_radiant" max_group="4"/>
       <mod:findLike type="text">
         <mod:selector>(Radiant Crew) Convince them to let you past and donate supplies.</mod:selector>
@@ -8188,7 +9012,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="NEBULA_REINFORCEMENTS_SHELLHOME" type="event">
+  <mod:findName name="NEBULA_LIGHT_REINFORCEMENTS_SHELLHOME" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
@@ -8579,7 +9403,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="NEBULA_REINFORCEMENTS_COALITIONHOLD" type="event">
+  <mod:findName name="NEBULA_LIGHT_REINFORCEMENTS_COALITIONHOLD" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
@@ -8681,6 +9505,24 @@
       <mod:findLike type="text">
         <mod:selector>(Mind Control) Convince the guard to leave you alone.</mod:selector>
         <mod:setValue>(Mind Control) Convince the guard to leave you alone.[INFO]50% &lt;=[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="GUARD_HIVE" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true" req="BLUELIST_WEAPONS_MIND_CONTROL" max_group="0"/>
+      <mod:findLike type="text">
+        <mod:selector>(Mind Control Weapon) Convince the guard to leave you alone.</mod:selector>
+        <mod:setValue>(Mind Control Weapon) Convince the guard to leave you alone.[INFO]50% &lt;=[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="GUARD_HIVE" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true" req="BLUELIST_WEAPONS_MIND_AFFECT" max_group="0"/>
+      <mod:findLike type="text">
+        <mod:selector>(Mind Affecting Weapon) Induce chaos within the guard and slip past.</mod:selector>
+        <mod:setValue>(Mind Affecting Weapon) Induce chaos within the guard and slip past.[INFO]33% &lt;=[/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -8850,6 +9692,20 @@
           <mod:findLike type="text">
             <mod:selector>Pass them your "permit".</mod:selector>
             <mod:setValue>Pass them your "permit".[INFO][NAME]itemModify[/NAME]-25≤~≤-20[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="GUARD_DYNCAP" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true" req="BLUELIST_WEAPONS_MIND_AFFECT" max_group="0"/>
+          <mod:findLike type="text">
+            <mod:selector>(Mind Affecting Weapon) Induce chaos within the guard and slip past.</mod:selector>
+            <mod:setValue>(Mind Affecting Weapon) Induce chaos within the guard and slip past.[INFO]33% &lt;=[/INFO]</mod:setValue>
           </mod:findLike>
         </mod:findLike>
       </mod:findLike>
@@ -9048,7 +9904,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="NEBULA_REINFORCEMENTS_DYNCAP" type="event">
+  <mod:findName name="NEBULA_LIGHT_REINFORCEMENTS_DYNCAP" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
@@ -9359,7 +10215,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="NEBULA_REINFORCEMENTS_CRYSTALHOME" type="event">
+  <mod:findName name="NEBULA_LIGHT_REINFORCEMENTS_CRYSTALHOME" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
@@ -9914,7 +10770,7 @@
       <mod:selector hidden="true" req="rep_comb_vampweed" lvl="-999" max_lvl="1" max_group="0" blue="false"/>
       <mod:findLike type="text">
         <mod:selector>Continue...</mod:selector>
-        <mod:setValue>Continue...[INFO]&lt;=[/INFO]</mod:setValue>
+        <mod:setValue>Continue...[INFO]&lt;=[/INFO][INFO]50% &lt;=[/INFO][INFO]33% &lt;=[/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -9932,7 +10788,7 @@
       <mod:selector req="orchid_cultivator"/>
       <mod:findLike type="text">
         <mod:selector>(Cultivator Crew) Explain that you are just passing through.</mod:selector>
-        <mod:setValue>(Cultivator Crew) Explain that you are just passing through.[INFO][NAME]itemModify[/NAME]~-10[/INFO][INFO]&lt;=[/INFO]</mod:setValue>
+        <mod:setValue>(Cultivator Crew) Explain that you are just passing through.[INFO][NAME]itemModify[/NAME]~-10[/INFO][INFO]&lt;=[/INFO][INFO]50% &lt;=[/INFO][INFO]33% &lt;=[/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -9991,6 +10847,34 @@
           <mod:findLike type="text">
             <mod:selector>(Mind Control) Convince the guard to leave you alone.</mod:selector>
             <mod:setValue>(Mind Control) Convince the guard to leave you alone.[INFO]50% &lt;=[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="GUARD_VAMPHOME" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="orchid_cultivator"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true" req="BLUELIST_WEAPONS_MIND_CONTROL" max_group="0"/>
+          <mod:findLike type="text">
+            <mod:selector>(Mind Control Weapon) Convince the guard to leave you alone.</mod:selector>
+            <mod:setValue>(Mind Control Weapon) Convince the guard to leave you alone.[INFO]50% &lt;=[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="GUARD_VAMPHOME" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="orchid_cultivator"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true" req="BLUELIST_WEAPONS_MIND_AFFECT" max_group="0"/>
+          <mod:findLike type="text">
+            <mod:selector>(Mind Affecting Weapon) Induce chaos within the guard and slip past.</mod:selector>
+            <mod:setValue>(Mind Affecting Weapon) Induce chaos within the guard and slip past.[INFO]33% &lt;=[/INFO]</mod:setValue>
           </mod:findLike>
         </mod:findLike>
       </mod:findLike>
@@ -10043,7 +10927,7 @@
       <mod:selector hidden="true" req="shell_scientist"/>
       <mod:findLike type="text">
         <mod:selector>(Shell Scientist Crew) Explain that you have business in the area.</mod:selector>
-        <mod:setValue>(Shell Scientist Crew) Explain that you have business in the area.[INFO][NAME]itemModify[/NAME]~-10[/INFO][INFO]&lt;=[/INFO]</mod:setValue>
+        <mod:setValue>(Shell Scientist Crew) Explain that you have business in the area.[INFO][NAME]itemModify[/NAME]~-10[/INFO][INFO]&lt;=[/INFO][INFO]50% &lt;=[/INFO][INFO]33% &lt;=[/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -10112,6 +10996,34 @@
       <mod:selector hidden="true" req="shell_scientist"/>
       <mod:findLike type="event">
         <mod:findLike type="choice">
+          <mod:selector hidden="true" req="BLUELIST_WEAPONS_MIND_CONTROL" max_group="0"/>
+          <mod:findLike type="text">
+            <mod:selector>(Mind Control Weapon) Convince the guard to leave you alone.</mod:selector>
+            <mod:setValue>(Mind Control Weapon) Convince the guard to leave you alone.[INFO]50% &lt;=[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="GUARD_VAMPHOME" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true" req="shell_scientist"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true" req="BLUELIST_WEAPONS_MIND_AFFECT" max_group="0"/>
+          <mod:findLike type="text">
+            <mod:selector>(Mind Affecting Weapon) Induce chaos within the guard and slip past.</mod:selector>
+            <mod:setValue>(Mind Affecting Weapon) Induce chaos within the guard and slip past.[INFO]33% &lt;=[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="GUARD_VAMPHOME" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true" req="shell_scientist"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
           <mod:selector hidden="true" req="cloaking"/>
           <mod:findLike type="text">
             <mod:selector>(Cloaking) Cloak and try to escape.</mod:selector>
@@ -10154,7 +11066,7 @@
       <mod:selector req="orchid_vampweed"/>
       <mod:findLike type="text">
         <mod:selector>(Vampweed Crew) Explain that you are just passing through.</mod:selector>
-        <mod:setValue>(Vampweed Crew) Explain that you are just passing through.[INFO][NAME]itemModify[/NAME]~-20[/INFO][INFO]&lt;=[/INFO]</mod:setValue>
+        <mod:setValue>(Vampweed Crew) Explain that you are just passing through.[INFO][NAME]itemModify[/NAME]~-20[/INFO][INFO]&lt;=[/INFO][INFO]50% &lt;=[/INFO][INFO]33% &lt;=[/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -10223,6 +11135,34 @@
       <mod:selector req="orchid_vampweed"/>
       <mod:findLike type="event">
         <mod:findLike type="choice">
+          <mod:selector hidden="true" req="BLUELIST_WEAPONS_MIND_CONTROL" max_group="0"/>
+          <mod:findLike type="text">
+            <mod:selector>(Mind Control Weapon) Convince the guard to leave you alone.</mod:selector>
+            <mod:setValue>(Mind Control Weapon) Convince the guard to leave you alone.[INFO]50% &lt;=[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="GUARD_VAMPHOME" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="orchid_vampweed"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true" req="BLUELIST_WEAPONS_MIND_AFFECT" max_group="0"/>
+          <mod:findLike type="text">
+            <mod:selector>(Mind Affecting Weapon) Induce chaos within the guard and slip past.</mod:selector>
+            <mod:setValue>(Mind Affecting Weapon) Induce chaos within the guard and slip past.[INFO]33% &lt;=[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="GUARD_VAMPHOME" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="orchid_vampweed"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
           <mod:selector hidden="true" req="cloaking"/>
           <mod:findLike type="text">
             <mod:selector>(Cloaking) Cloak and try to escape.</mod:selector>
@@ -10264,7 +11204,7 @@
     <mod:findLike type="choice">
       <mod:findLike type="text">
         <mod:selector>We are en route to Node 17.</mod:selector>
-        <mod:setValue>We are en route to Node 17.[INFO][NAME]itemModify[/NAME]~-35[/INFO][INFO]&lt;=[/INFO]</mod:setValue>
+        <mod:setValue>We are en route to Node 17.[INFO][NAME]itemModify[/NAME]~-35[/INFO][INFO]&lt;=[/INFO][INFO]50% &lt;=[/INFO][INFO]33% &lt;=[/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -10319,6 +11259,32 @@
           <mod:findLike type="text">
             <mod:selector>(Mind Control) Convince the guard to leave you alone.</mod:selector>
             <mod:setValue>(Mind Control) Convince the guard to leave you alone.[INFO]50% &lt;=[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="GUARD_VAMPHOME" type="event">
+    <mod:findLike type="choice">
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true" req="BLUELIST_WEAPONS_MIND_CONTROL" max_group="0"/>
+          <mod:findLike type="text">
+            <mod:selector>(Mind Control Weapon) Convince the guard to leave you alone.</mod:selector>
+            <mod:setValue>(Mind Control Weapon) Convince the guard to leave you alone.[INFO]50% &lt;=[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="GUARD_VAMPHOME" type="event">
+    <mod:findLike type="choice">
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true" req="BLUELIST_WEAPONS_MIND_AFFECT" max_group="0"/>
+          <mod:findLike type="text">
+            <mod:selector>(Mind Affecting Weapon) Induce chaos within the guard and slip past.</mod:selector>
+            <mod:setValue>(Mind Affecting Weapon) Induce chaos within the guard and slip past.[INFO]33% &lt;=[/INFO]</mod:setValue>
           </mod:findLike>
         </mod:findLike>
       </mod:findLike>
@@ -10392,6 +11358,24 @@
       <mod:findLike type="text">
         <mod:selector>(Mind Control) Convince the guard to leave you alone.</mod:selector>
         <mod:setValue>(Mind Control) Convince the guard to leave you alone.[INFO]50% &lt;=[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="GUARD_VAMPHOME" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true" req="BLUELIST_WEAPONS_MIND_CONTROL" max_group="0"/>
+      <mod:findLike type="text">
+        <mod:selector>(Mind Control Weapon) Convince the guard to leave you alone.</mod:selector>
+        <mod:setValue>(Mind Control Weapon) Convince the guard to leave you alone.[INFO]50% &lt;=[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="GUARD_VAMPHOME" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true" req="BLUELIST_WEAPONS_MIND_AFFECT" max_group="0"/>
+      <mod:findLike type="text">
+        <mod:selector>(Mind Affecting Weapon) Induce chaos within the guard and slip past.</mod:selector>
+        <mod:setValue>(Mind Affecting Weapon) Induce chaos within the guard and slip past.[INFO]33% &lt;=[/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -10762,7 +11746,7 @@
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
-  <mod:findName name="NEBULA_REINFORCEMENTS_HEKTAR" type="event">
+  <mod:findName name="NEBULA_LIGHT_REINFORCEMENTS_HEKTAR" type="event">
     <mod:findLike type="choice">
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
@@ -10849,7 +11833,7 @@
             <mod:findLike type="choice">
               <mod:findLike type="text">
                 <mod:selector>Buy an Ancient weapon.</mod:selector>
-                <mod:setValue>Buy an Ancient weapon.[INFO][NAME]itemModify[/NAME]~-70[/INFO][INFO][NAME]weapon[/NAME]Gain a weapon(Ancient Bomb)[/INFO]</mod:setValue>
+                <mod:setValue>Buy an Ancient weapon.[INFO][NAME]itemModify[/NAME]~-70[/INFO][INFO][NAME]weapon[/NAME]Gain a weapon(Ancient Focus)[/INFO]</mod:setValue>
               </mod:findLike>
             </mod:findLike>
           </mod:findLike>

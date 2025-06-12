@@ -1145,7 +1145,7 @@
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
         <mod:selector>Contact them.</mod:selector>
-        <mod:setValue>Contact them.[INFO][NAME]itemModify[/NAME]~-20 |-4[/INFO][INFO][NAME]damage[/NAME]Repair Hull(10$)[/INFO][INFO][NAME]itemModify[/NAME]|-1[/INFO][INFO]50% [NAME]drone[/NAME]Gain a drone(Random)[/INFO][INFO]50% [NAME]removeCrew[/NAME]&lt;!&gt;Lose your crew(UNCLONABLE)[/INFO][INFO][NAME]drone[/NAME]Gain a drone(Random)[/INFO]</mod:setValue>
+        <mod:setValue>Contact them.[INFO][NAME]itemModify[/NAME]~-20 |-4[/INFO][INFO][NAME]damage[/NAME]Repair Hull(10$)[/INFO][INFO][NAME]weapon[/NAME]Gain a weapon(Random)[/INFO][INFO][NAME]crewMember[/NAME]Gain a crew(Engi Separatist)[/INFO][INFO][NAME]itemModify[/NAME]|-1[/INFO][INFO]50% [NAME]drone[/NAME]Gain a drone(Random)[/INFO][INFO]50% [NAME]removeCrew[/NAME]&lt;!&gt;Lose your crew(UNCLONABLE)[/INFO][INFO][NAME]drone[/NAME]Gain a drone(Random)[/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -1173,6 +1173,39 @@
               <mod:findLike type="text">
                 <mod:selector>Continue...</mod:selector>
                 <mod:setValue>Continue...[INFO][NAME]damage[/NAME]Repair Hull(10$)[/INFO]</mod:setValue>
+              </mod:findLike>
+            </mod:findLike>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="DISTRESS_SEPARATIST_COMMUNITY_VIRUS" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector req="BLUELIST_WEAPONS_HACK"/>
+          <mod:findLike type="text">
+            <mod:selector>(Hacking Weapon) Use your hacking weapon to destroy the virus.</mod:selector>
+            <mod:setValue>(Hacking Weapon) Use your hacking weapon to destroy the virus.[INFO][NAME]weapon[/NAME]Gain a weapon(Random)[/INFO][INFO][NAME]crewMember[/NAME]Gain a crew(Engi Separatist)[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="DISTRESS_SEPARATIST_COMMUNITY_VIRUS" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector req="BLUELIST_WEAPONS_HACK"/>
+          <mod:findLike type="event">
+            <mod:findLike type="choice">
+              <mod:selector hidden="true"/>
+              <mod:findLike type="text">
+                <mod:selector>Continue treating Separatists.</mod:selector>
+                <mod:setValue>Continue treating Separatists.[INFO][NAME]weapon[/NAME]Gain a weapon(Random)[/INFO][INFO][NAME]crewMember[/NAME]Gain a crew(Engi Separatist)[/INFO]</mod:setValue>
               </mod:findLike>
             </mod:findLike>
           </mod:findLike>

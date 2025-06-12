@@ -100,11 +100,29 @@ msgstr "Продолжить..."
 
 #: src-en/data/dlcEvents.xml.append:82
 msgid ""
+"data/dlcEvents.xml.append$//event[@name=\"REBEL_PDS\"]/choice[@req=\"BLUELIST_WEAPONS_HACK\"]/text"
+msgstr "(Оружие взлома) Сбивает с толку целеуказание ПКБ."
+
+#: src-en/data/dlcEvents.xml.append:84
+msgid ""
+"data/dlcEvents.xml.append$//event[@name=\"REBEL_PDS\"]/choice[@req=\"BLUELIST_WEAPONS_HACK\"]/event/text"
+msgstr ""
+"Вы обнаружили слабое место в спутниках наведения. Ваш экипаж смог запустить "
+"дрон-взломщик, чтобы спутать матрицу наведения противокорабельной батареи. "
+"Теперь она будет стрелять и по кораблю повстанцев."
+
+#: src-en/data/dlcEvents.xml.append:87
+msgid ""
+"data/dlcEvents.xml.append$//event[@name=\"REBEL_PDS\"]/choice[@req=\"BLUELIST_WEAPONS_HACK\"]/event/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/dlcEvents.xml.append:93
+msgid ""
 "data/dlcEvents.xml.append$//event[@name=\"REBEL_PDS\"]/choice[@req=\"hacking\""
 " and @lvl=\"3\"]/text"
 msgstr "(Продвинутый Взломщик) Перезаписать цель противокорабельной батареи."
 
-#: src-en/data/dlcEvents.xml.append:84
+#: src-en/data/dlcEvents.xml.append:95
 msgid ""
 "data/dlcEvents.xml.append$//event[@name=\"REBEL_PDS\"]/choice[@req=\"hacking\""
 " and @lvl=\"3\"]/event/text"
@@ -113,30 +131,30 @@ msgstr ""
 "улучшенный дрон-взломщик, чтобы переписать матрицу наведения "
 "противокорабельной батареи. Теперь она будет стрелять по кораблю повстанцев!"
 
-#: src-en/data/dlcEvents.xml.append:90
+#: src-en/data/dlcEvents.xml.append:101
 msgid ""
 "data/dlcEvents.xml.append$//event[@name=\"REBEL_PDS\"]/choice[@req=\"hacking\""
 " and @lvl=\"3\"]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/dlcEvents.xml.append:97
+#: src-en/data/dlcEvents.xml.append:108
 msgid "data/dlcEvents.xml.append$//textList[@name=\"REBEL_PDS_TEXT\"]/text"
 msgstr ""
 "Вы потрясены, обнаружив передовую базу повстанцев на этой планете. "
 "Патрульный корабль приближается для перехвата, и датчики показывают, что "
 "противокорабельная батарея вот-вот выстрелит. Нужно выбираться отсюда!"
 
-#: src-en/data/dlcEvents.xml.append:106
+#: src-en/data/dlcEvents.xml.append:117
 msgid "data/dlcEvents.xml.append$//event[@name=\"REBEL_AUTO_PDS\"]/choice[1]/text"
 msgstr "Приготовиться к бою."
 
-#: src-en/data/dlcEvents.xml.append:110
+#: src-en/data/dlcEvents.xml.append:121
 msgid ""
 "data/dlcEvents.xml.append$//event[@name=\"REBEL_AUTO_PDS\"]/choice[@req=\"hacking\""
 " and @lvl=\"1\"]/text"
 msgstr "(Простой Взломщик) Сбить наведение противокорабельной батареи."
 
-#: src-en/data/dlcEvents.xml.append:112
+#: src-en/data/dlcEvents.xml.append:123
 msgid ""
 "data/dlcEvents.xml.append$//event[@name=\"REBEL_AUTO_PDS\"]/choice[@req=\"hacking\""
 " and @lvl=\"1\"]/event/text"
@@ -145,13 +163,26 @@ msgstr ""
 "дрон-взломщик, чтобы периодически сбивать с толку сигнал захвата цели ПКБ. "
 "Теперь она иногда будет атаковать корабль повстанцев."
 
-#: src-en/data/dlcEvents.xml.append:120
+#: src-en/data/dlcEvents.xml.append:131
+msgid ""
+"data/dlcEvents.xml.append$//event[@name=\"REBEL_AUTO_PDS\"]/choice[@req=\"BLUELIST_WEAPONS_HACK\"]/text"
+msgstr "(Оружие взлома) Сбивает с толку целеуказание ПКБ."
+
+#: src-en/data/dlcEvents.xml.append:133
+msgid ""
+"data/dlcEvents.xml.append$//event[@name=\"REBEL_AUTO_PDS\"]/choice[@req=\"BLUELIST_WEAPONS_HACK\"]/event/text"
+msgstr ""
+"Вы обнаружили слабое место в спутниках наведения. Ваш экипаж смог запустить "
+"дрон-взломщик, чтобы спутать матрицу наведения противокорабельной батареи. "
+"Теперь она будет стрелять и по кораблю повстанцев."
+
+#: src-en/data/dlcEvents.xml.append:138
 msgid ""
 "data/dlcEvents.xml.append$//event[@name=\"REBEL_AUTO_PDS\"]/choice[@req=\"hacking\""
 " and @lvl=\"3\"]/text"
 msgstr "(Продвинутый Взломщик) Переопределить цель ПКБ."
 
-#: src-en/data/dlcEvents.xml.append:122
+#: src-en/data/dlcEvents.xml.append:140
 msgid ""
 "data/dlcEvents.xml.append$//event[@name=\"REBEL_AUTO_PDS\"]/choice[@req=\"hacking\""
 " and @lvl=\"3\"]/event/text"
@@ -160,7 +191,7 @@ msgstr ""
 "улучшенный дрон-взломщик, чтобы переписать захват целей ПКБ. Теперь она "
 "будет стрелять по кораблю повстанцев!"
 
-#: src-en/data/dlcEvents.xml.append:131
+#: src-en/data/dlcEvents.xml.append:149
 msgid "data/dlcEvents.xml.append$//textList[@name=\"REBEL_AUTO_PDS_TEXT\"]/text"
 msgstr ""
 "Как только вы прибываете, срабатывает несколько предупреждений, в том числе "

@@ -459,6 +459,24 @@
   </mod:findName>
   <mod:findName name="OUTCAST_STORIES" type="event">
     <mod:findLike type="choice">
+      <mod:selector req="BEAM_MINING"/>
+      <mod:findLike type="text">
+        <mod:selector>(Mining Beam) Ignore the colony and salvage some of the asteroids yourself.</mod:selector>
+        <mod:setValue>(Mining Beam) Ignore the colony and salvage some of the asteroids yourself.[INFO][NAME]autoReward[/NAME]Reward {(M)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="OUTCAST_STORIES" type="event">
+    <mod:findLike type="choice">
+      <mod:selector req="DRONE_CONTROL_MINING_DRONE"/>
+      <mod:findLike type="text">
+        <mod:selector>(Mining Drone) Ignore the colony and salvage some of the asteroids yourself.</mod:selector>
+        <mod:setValue>(Mining Drone) Ignore the colony and salvage some of the asteroids yourself.[INFO][NAME]autoReward[/NAME]Reward {(H)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="OUTCAST_STORIES" type="event">
+    <mod:findLike type="choice">
       <mod:findLike type="text">
         <mod:selector>Ignore the colony.</mod:selector>
         <mod:setValue>Ignore the colony.[INFO][NAME]storageCheck[/NAME]Storage Check[/INFO]</mod:setValue>
@@ -676,8 +694,8 @@
     <mod:findLike type="choice">
       <mod:selector hidden="true"/>
       <mod:findLike type="text">
-        <mod:selector>Attack the village to try and access the shield's powersource.</mod:selector>
-        <mod:setValue>Attack the village to try and access the shield's powersource.[INFO]33% [NAME]autoReward[/NAME]Reward Stuff(M)[/INFO]</mod:setValue>
+        <mod:selector>Attack the village to try and access the shield's power source.</mod:selector>
+        <mod:setValue>Attack the village to try and access the shield's power source.[INFO]33% [NAME]autoReward[/NAME]Reward Stuff(M)[/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -848,6 +866,15 @@
       <mod:findLike type="text">
         <mod:selector>(Crystal Crew) Convince them to aid you.</mod:selector>
         <mod:setValue>(Crystal Crew) Convince them to aid you.[INFO][NAME]modifyPursuit[/NAME]Fleet Delay(2)[/INFO]</mod:setValue>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="OUTCAST_PROPAGANDA" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true" req="BLUELIST_WEAPONS_HACK"/>
+      <mod:findLike type="text">
+        <mod:selector>(Hacking Weapon) Hijack the broadcast.</mod:selector>
+        <mod:setValue>(Hacking Weapon) Hijack the broadcast.[INFO][NAME]modifyPursuit[/NAME]Fleet Delay(2)[/INFO]</mod:setValue>
       </mod:findLike>
     </mod:findLike>
   </mod:findName>
@@ -1548,7 +1575,7 @@
         <mod:findLike type="choice">
           <mod:findLike type="text">
             <mod:selector>Accept.</mod:selector>
-            <mod:setValue>Accept.[INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO][FightINFO]Fight(CK: [INFO]10% [NAME]autoReward[/NAME]Reward Standard(H)[/INFO] [INFO]10% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO]10% [NAME]weapon[/NAME]Gain a weapon(List Weapons Crystal A Player)[/INFO])(HK: [INFO]50% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(SR: [INFO]10% [NAME]autoReward[/NAME]Reward Stuff(R)[/INFO] [INFO]10% [NAME]autoReward[/NAME]Reward Standard(H)[/INFO] [INFO]10% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO])[/FightINFO][FightINFO]Fight(HK: [INFO]50% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO]50% [NAME]autoReward[/NAME]Reward Standard(H)[/INFO])[/FightINFO][FightINFO]Fight(CK: [INFO]20% [NAME]autoReward[/NAME]Reward Standard(H)[/INFO] [INFO]20% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO]20% [NAME]weapon[/NAME]Gain a weapon(List Weapons Crystal A Player)[/INFO])(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(SR: [INFO]20% [NAME]autoReward[/NAME]Reward Stuff(R)[/INFO] [INFO]20% [NAME]autoReward[/NAME]Reward Standard(H)[/INFO] [INFO]20% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO])[/FightINFO][FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])[/FightINFO]</mod:setValue>
+            <mod:setValue>Accept.[INFO][NAME]autoReward[/NAME]Reward ~ Only(M)[/INFO][FightINFO]Fight(CK: [INFO]10% [NAME]autoReward[/NAME]Reward Standard(H)[/INFO] [INFO]10% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO]10% [NAME]weapon[/NAME]Gain a weapon(List Weapons Crystal A Player)[/INFO])(HK: [INFO]50% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(SR: [INFO]10% [NAME]autoReward[/NAME]Reward Stuff(R)[/INFO] [INFO]10% [NAME]autoReward[/NAME]Reward Standard(H)[/INFO] [INFO]10% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO])[/FightINFO][FightINFO]Fight(HK: [INFO]50% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO]50% [NAME]autoReward[/NAME]Reward Standard(H)[/INFO])[/FightINFO][FightINFO]Fight(CK: [INFO]20% [NAME]autoReward[/NAME]Reward Standard(H)[/INFO] [INFO]20% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO] [INFO]20% [NAME]weapon[/NAME]Gain a weapon(List Weapons Crystal A Player)[/INFO])(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(SR: [INFO]20% [NAME]autoReward[/NAME]Reward Stuff(R)[/INFO] [INFO]20% [NAME]autoReward[/NAME]Reward Standard(H)[/INFO] [INFO]20% [NAME]autoReward[/NAME]Reward Standard(M)[/INFO])[/FightINFO][FightINFO]Fight(HK: [INFO][NAME]autoReward[/NAME]Reward Standard(M)[/INFO])(CK: [INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO])[/FightINFO]</mod:setValue>
           </mod:findLike>
         </mod:findLike>
       </mod:findLike>
@@ -1665,6 +1692,24 @@
               <mod:findLike type="text">
                 <mod:selector>(Mind Control) Convince them to calm down.</mod:selector>
                 <mod:setValue>(Mind Control) Convince them to calm down.[INFO][NAME]augment[/NAME]Gain an augment(Random)[/INFO]</mod:setValue>
+              </mod:findLike>
+            </mod:findLike>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="DISTRESS_OUTCAST_TENSIONS" type="event">
+    <mod:findLike type="choice">
+      <mod:selector hidden="true"/>
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:findLike type="event">
+            <mod:findLike type="choice">
+              <mod:selector hidden="true" req="BLUELIST_WEAPONS_MIND_CONTROL"/>
+              <mod:findLike type="text">
+                <mod:selector>(Mind Control Weapon) Convince them to calm down.</mod:selector>
+                <mod:setValue>(Mind Control Weapon) Convince them to calm down.[INFO][NAME]augment[/NAME]Gain an augment(Random)[/INFO]</mod:setValue>
               </mod:findLike>
             </mod:findLike>
           </mod:findLike>
@@ -1973,6 +2018,19 @@
           <mod:findLike type="text">
             <mod:selector>(Crystal Crew) Tell them about the mistake.</mod:selector>
             <mod:setValue>(Crystal Crew) Tell them about the mistake.[INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO]</mod:setValue>
+          </mod:findLike>
+        </mod:findLike>
+      </mod:findLike>
+    </mod:findLike>
+  </mod:findName>
+  <mod:findName name="QUEST_SSLG_DESTINATION" type="event">
+    <mod:findLike type="choice">
+      <mod:findLike type="event">
+        <mod:findLike type="choice">
+          <mod:selector hidden="true" req="rock_outcast"/>
+          <mod:findLike type="text">
+            <mod:selector>(Outcast Crew) Have your Outcast vouch for the settlement.</mod:selector>
+            <mod:setValue>(Outcast Crew) Have your Outcast vouch for the settlement.[INFO][NAME]autoReward[/NAME]Reward Standard(H)[/INFO]</mod:setValue>
           </mod:findLike>
         </mod:findLike>
       </mod:findLike>
