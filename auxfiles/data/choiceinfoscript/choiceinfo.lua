@@ -1,3 +1,6 @@
+---@generic T
+---@param cvec vector<T>
+---@return fun(): T?, integer?, integer?
 local vter_with_i_n = function (cvec)
 	local i = -1
 	local n = cvec:size()
@@ -53,11 +56,8 @@ script.on_internal_event(Defines.InternalEvents.PRE_CREATE_CHOICEBOX, function(e
     local Choices = event:GetChoices()
 	local fullInfo = '--------[Full Info]--------'
     for choice, i, n in vter_with_i_n(Choices) do
-		if choice.text.isLiteral == false then
-			choice.text.data = choice.text:getText()
-			choice.text.isLiteral = true
-		end
-		local original_text = choice.text.data
+		local original_text = choice.text:GetText()
+		choice.text.isLiteral = true
         choice.text.data = parse(original_text, false)
 		fullInfo = fullInfo..'\n\n'..tostring(i + 1)..'. '..parse(original_text, true)
 		if ((n - i) == 1) and (Hyperspace.metaVariables['choiceInfo_bottom_fullInfo'] == 1) then

@@ -57,7 +57,7 @@ class NameReturn():
         return '[NAME]storageCheck[/NAME]' + self._infoText
     
 class TextReturn(EventBaseClass):
-    '''A proxy of loadEvent and this deals with <textReturn>.'''
+    '''A proxy of loadEvent and this deals with \<textReturn>.'''
     def __init__(self, element, priority=1) -> None:
         super().__init__(element, priority)
     
@@ -65,7 +65,7 @@ class TextReturn(EventBaseClass):
         self._infoText = self._element.text or None
 
 class UnlockCustomShip(EventBaseClass):
-    '''Deal with <unlockCustomShip>.'''
+    '''Deal with \<unlockCustomShip>.'''
     def __init__(self, element, priority=999) -> None:
         super().__init__(element, priority)
     
@@ -74,7 +74,7 @@ class UnlockCustomShip(EventBaseClass):
         self._infoText = f'[NAME]unlockCustomShip[/NAME]<#>Unlock Ship({text})'
 
 class RemoveCrew(EventBaseClass):
-    '''Deal with <removeCrew>.'''
+    '''Deal with \<removeCrew>.'''
     def __init__(self, element, priority=1) -> None:
         super().__init__(element, priority)
     
@@ -90,7 +90,7 @@ class RemoveCrew(EventBaseClass):
             raise ValueError
 
 class CrewMember(EventBaseClass):
-    '''Deal with <crewMember>. This shows crew gain info if "amount" is plus, otherwise crew loss(unclonable) info if "amount" is minus.'''
+    '''Deal with \<crewMember>. This shows crew gain info if "amount" is plus, otherwise crew loss(unclonable) info if "amount" is minus.'''
     def __init__(self, element, priority=1) -> None:
         super().__init__(element, priority)
     
@@ -103,7 +103,7 @@ class CrewMember(EventBaseClass):
             self._infoText = '[NAME]removeCrew[/NAME]<!>Lose your crew(UNCLONABLE)'
 
 class RevealMap(EventBaseClass):
-    '''Deal with <revealMap>.'''
+    '''Deal with \<revealMap>.'''
     def __init__(self, element, priority=1) -> None:
         super().__init__(element, priority)
     
@@ -111,7 +111,7 @@ class RevealMap(EventBaseClass):
         self._infoText = '[NAME]revealMap[/NAME]Map Reveal'
 
 class AutoReward(EventBaseClass):
-    '''Deal with <autoReward>.'''
+    '''Deal with \<autoReward>.'''
     def __init__(self, element, priority=1) -> None:
         super().__init__(element, priority)
     
@@ -121,7 +121,7 @@ class AutoReward(EventBaseClass):
         self._infoText = f'[NAME]autoReward[/NAME]Reward {stuff_type}({level})'
 
 class ItemModify(EventBaseClass):
-    '''Deal with <itemModify>.'''
+    '''Deal with \<itemModify>.'''
     def __init__(self, element, priority=1) -> None:
         super().__init__(element, priority)
     
@@ -144,7 +144,7 @@ class ItemModify(EventBaseClass):
         self._infoText = '[NAME]itemModify[/NAME]' + ' '.join(itemlist)
 
 class ModifyPursuit(EventBaseClass):
-    '''Deal with <modifyPursuit>.'''
+    '''Deal with \<modifyPursuit>.'''
     def __init__(self, element, priority=1) -> None:
         super().__init__(element, priority)
     
@@ -159,7 +159,7 @@ class ModifyPursuit(EventBaseClass):
             raise ValueError
 
 class Reward(EventBaseClass):
-    '''Deal with <weapon>, <drone>, and <augment>.'''
+    '''Deal with \<weapon>, \<drone>, and \<augment>.'''
     def __init__(self, element, priority=1) -> None:
         super().__init__(element, priority)
     
@@ -171,7 +171,7 @@ class Reward(EventBaseClass):
             self._infoText = f'[NAME]{self._element.tag}[/NAME]Gain a {self._element.tag}({name})'
 
 class Damage(EventBaseClass):
-    '''Deal with <damage>.'''
+    '''Deal with \<damage>.'''
     def __init__(self, element, priority=1) -> None:
         super().__init__(element, priority)
     
@@ -187,7 +187,7 @@ class Damage(EventBaseClass):
             pass
 
 class Upgrade(EventBaseClass):
-    '''Deal with <upgrade>.'''
+    '''Deal with \<upgrade>.'''
     def __init__(self, element, priority=1) -> None:
         super().__init__(element, priority)
     
@@ -198,7 +198,7 @@ class Upgrade(EventBaseClass):
         self._infoText = f'[NAME]upgrade[/NAME]System Upgrade({system} x{amount})'
 
 class Boarders(EventBaseClass):
-    '''Deal with <boarders>.'''
+    '''Deal with \<boarders>.'''
     def __init__(self, element, priority=1) -> None:
         super().__init__(element, priority)
     
@@ -219,7 +219,7 @@ class Test(EventBaseClass):
         super().__init__(element, priority)
 
 
-#not done(or not planned to implement): 'environment', 'recallBoarders', 'achievement', 'choiceRequiresCrew', 'instantEscape', 'win', 'lose'
+#not done(or not planned to implement): 'environment', 'recallBoarders', 'achievement', 'choiceRequiresCrew', 'instantEscape', 'win', 'lose', 'store'
 EVENTCLASSMAP = {
     "textReturn": TextReturn,
     "unlockCustomShip": UnlockCustomShip,

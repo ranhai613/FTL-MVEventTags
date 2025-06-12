@@ -33,7 +33,7 @@ def deleteNoneKey(targetDict: dict):
         pass
 
 def ModElement(tag, *args, **kargs):
-    '''return Element with Qname "mod:tag."'''
+    '''return Element with namespace "mod"'''
     tag = r'{http://dummy/mod}' + tag
     return Element(tag, *args, **kargs)
     
@@ -48,15 +48,8 @@ class ElementBaseClass():
         return self._element
     
     @property
-    def xmlpath(self):
-        return self._xmlpath
-    
-    @property
-    def uniqueXPathGenerator(self):
-        return self._uniqueXPathGenerator
-    
-    def get_uniqueXPath(self):
-        return self._uniqueXPathGenerator.getpath(self._element)
+    def id_as_fullPath(self):
+        return self._xmlpath + '$' + self._uniqueXPathGenerator.getpath(self._element)
 
 class EventAnalyzer():
     '''A component of Choice class, containing child events of Choice and analyzing them.'''
@@ -91,6 +84,12 @@ class EventAnalyzer():
                         loadEventName = loadEventTags[0].text
                         assert loadEventName
                         
+                        if loadEventName == self._eventName:
+                            continue
+                        
+                        # loadedEvent = global_event_map.get(loadEventName)
+                        # if loadedEvent is not None:
+                        #     new_events.append(loadedEvent)
                         loadEvent_stat.add(loadEventName)
                         # TODO: find a way to handle loadEvent without falling into infinite loop.
                     else:
